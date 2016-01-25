@@ -18,6 +18,31 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.features {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.label {
+    padding: 0.2em 0.6em;
+}
+
+.carousel-indicators {
+    bottom: -33px;
+    background-color: #7B7B7B;
+    border-radius: 0em 0em 0.25em 0.25em;
+    width: 225px;
+    margin-left: -112.5px;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+img.stores {
+    margin-bottom: 5px;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
@@ -124,8 +149,7 @@ i {
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	background-color: #3498db;
-	margin-top: -20px;
-	padding-top:200px;
+	padding-top: 80px;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
