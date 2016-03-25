@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AntennaPod | Knowledge Base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="page-header">
+      <h1><span style="color:#008ab8">AntennaPod</span> <small>Knowledge Base</small></h1>
+    </div>
+
+    <div class="container">
+      <div class="panel-group" id="accordion">
+        
+        <div class="faqHeader">General</div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#G-1">First aid</a>
+            </h4>
+          </div>
+          <div id="G-1" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <ol>
+                <li>Uninstall Prestissimo:<br />On Android 6.0+ (Marshmallow and newer), you can use Android's native mediaplayer for variable playback speed. <br />On older devices, enable <i>Sonic mediaplayer</i>.</li>
+                <li>Prefer MP3 feeds over other formats, especially MP4/AAC:<br />We use Android's built-in audio decoders. A lot of devices are shipped with rather buggy MP4 decoders that lead to various playback issues and even native crashes (think <i>Bluescreen</i>).<br />
+                  In our opinion, your best option is to subscribe to MP3 feeds whenever possible.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-2">I found a bug!</a>
+              </h4>
+            </div>
+            <div id="G-2" class="panel-collapse collapse">
+              <div class="panel-body">
+                Please read these <a href="https://github.com/AntennaPod/AntennaPod/blob/master/CONTRIBUTING.md#how-to-report-a-bug">instructions</a> on how to report a bug.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-3">You made a spelling error</a>
+              </h4>
+            </div>
+            <div id="G-3" class="panel-collapse collapse">
+              <div class="panel-body">
+                Translations are provided by the community. If you found a typo or would like to suggest a better translation, you can do that on 
+                <a href="https://www.transifex.com/antennapod/antennapod/">Transifex</a>.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-4">How do I remove those ads?</a>
+              </h4>
+            </div>
+            <div id="G-4" class="panel-collapse collapse">
+              <div class="panel-body">
+                Our builds are completely ad-free and open source! You can even go over to <a href="https://github.com/AntennaPod/AntennaPod">Github</a>
+                and <a href="https://github.com/AntennaPod/AntennaPod/wiki/Building%20AntennaPod">build</a> AntennaPod for yourself!
+              </div>
+            </div>
+          </div>
+        
+          <div class="faqHeader">Getting started</div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#S-1">How do I subscribe to a podcast?</a>
+              </h4>
+            </div>
+            <div id="S-1" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>Open the drawer by swiping from the left or tapping the <i class="fa fa-bars"></i> burger icon on the top left corner. Go to <i class="fa fa-plus"></i> <b>Add Podcast</b>.<br />Now, you can either 
+                  search the iTunes catalog, browser gpodder.net or add a podcast by URL.</p>
+                  <p>AntennaPod can also open various protocols from the browser.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faqHeader">Playback</div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Audio is playing way too fast!</a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Some Android 4.1 and 4.2 devices have problems identifying mono sound correctly. At this moment, disabling the Sonic mediaplayer is the only solution.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Playback stops/crashes constantly</a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Are you playing a MP4 file? If so, we could be dealign with a buggy MP4 decoder. Try subscribing to the MP3 feed instead.</p>
+                  <p>You should also try to enable or disable the Sonic mediaplayer.</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="faqHeader">External storage</div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#E-1">My SD card does not show up in the "Choose Data Folder" dialog</a>
+                </h4>
+              </div>
+              <div id="E-1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  For your SD card to show up, Android must recognize the card as external storage. Either the card is not mounted correctly or 
+                  the manufacturer or your smartphone configured the hardware incorrectly.<br />
+                  If you are running Android 6+ (Marshmallow or newer), you can try <a href="http://lmgtfy.com/?q=android+6+sd+card+internal+storage">formatting</a> the SD card as internal storage. Else, there is nothing we can do to fix this.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#E-2">It isn't working...</a>
+                </h4>
+              </div>
+              <div id="E-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  If you are running Android 6+, make sure AntennaPod has sufficient permissions to the storage (Android settings &rarr; Apps).
+                </div>
+              </div>
+            </div>
+
+            <div class="faqHeader">Flattr</div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#F-1">Flattr settings are greyed out</a>
+                </h4>
+              </div>
+              <div id="F-1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Apparently, you are using a build not coming from the Google Play Store. These builds don't contain our Flattr API key.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#F-2">When I try to log in, I get "Error - Something is a miss, oops!"</a>
+                </h4>
+              </div>
+              <div id="F-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  The Flattr API has been broken since December 2015. <a href="http://blog.flattr.net/2016/01/flattr-developer-update-7-the-hunt-for-bugs/">Read more</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="faqHeader">Project</div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-1">How can I Contribute?</a>
+                </h4>
+              </div>
+              <div id="P-1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>You can program in Java/Android? You can help us by downloading and testing pull requests. Additionally, you could contribute new features or fix bugs via <a href="https://github.com/AntennaPod/AntennaPod">Github</a>.</p>
+                  <p>You can explaining well? Help us extend the <a href="https://github.com/AntennaPod/antennapod.github.io">knowledge base</a>!</p>
+                  <p>You have a good understanding of Android and you are good at breaking stuff? Become an <a href="https://github.com/AntennaPod/AntennaPod/wiki/Help-test-AntennaPod">tester</a>! (Google Play required)
+                    <p>You can speak other languages than English? Help us translate AntennaPod via <a href="https://www.transifex.com/antennapod/antennapod/">Transifex</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-2">How can I donate?</a>
+                  </h4>
+                </div>
+                <div id="P-2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    The current developers <a href="https://github.com/AntennaPod/AntennaPod/issues/507">decided</a> to not accept donations.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-3">Why is AntennaPod not on the &lt;Foo&gt; Store?</a>
+                  </h4>
+                </div>
+                <div id="P-3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Frankly, we don't have the time to support other stores besides Google Play. If nothing else, you can get AntennaPod on <a href="https://f-droid.org/repository/browse/?fdfilter=antennapod&fdid=de.danoeh.antennapod">F-Droid</a>.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <style>
+          .faqHeader {
+            font-size: 27px;
+            margin: 20px;
+          }
+
+          .panel-heading [data-toggle="collapse"]:after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e072"; /* "play" icon */
+            float: right;
+            color: #008ab8;
+            font-size: 18px;
+            line-height: 22px;
+            /* rotate "play" icon from > (right arrow) to down arrow */
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+          }
+
+          .panel-heading [data-toggle="collapse"].collapsed:after {
+            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            color: #454444;
+          }
+          </style>
+
+        </div>
+
+      </body>
+      </html>
