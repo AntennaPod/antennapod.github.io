@@ -12,22 +12,54 @@
 <body>
 
   <div class="container">
-
     <div class="page-header">
       <h1><span style="color:#008ab8">AntennaPod</span> <small>F.A.Q.</small></h1>
     </div>
+  </div>
 
-    <div class="container">
+  <div class="container">
       <div class="panel-group" id="accordion">
-        
+
+        <div class="faqHeader">Getting started</div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#S-1">How do I subscribe to a podcast?</a>
+            </h4>
+          </div>
+          <div id="S-1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Open the drawer by swiping from the left or tapping the <i class="fa fa-bars"></i> burger icon on the top left corner. Go to <i class="fa fa-plus"></i> <b>Add Podcast</b>. Now, you can search, browse suggestions or add a podcast by URL.</p>
+              <p>Altenatively, you can import an OPML file or click 'Advanced Search' to only check the iTunes, gpodder.net or fyyd database respectively. Importing RSS or Atom feeds, or URL schemes like <tt>pcast://</tt> and <tt>itpc://</tt>, will also work.</p>
+            </div>
+          </div>
+        </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#S-2">Why can't manually reorder the queue?</a>
+              </h4>
+            </div>
+            <div id="S-2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <p>If you can't move episodes around in the queue, this can be caused by either of the following:
+                  <ul>
+                    <li>'Keep Sorted' is enabled. You can disable this by tapping the three dots <i class="fa fa-ellipsis-v"></i> in the top bar <i class="fa fa-angle-right"></i> Sort.</li>
+                    <li>The queue is locked. You can unlock the queue by tapping on the 'unlock' icon in the top bar:<br />
+                      <img src=assets/queue-lock.png width="100%" height=* style="max-width:500px;"></li>
+                   </ul>
+                </div>
+              </div>
+            </div>
+
         <div class="faqHeader">General</div>
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#G-1">First aid</a>
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-1">First aid</a>
             </h4>
           </div>
-          <div id="G-1" class="panel-collapse collapse in">
+          <div id="G-1" class="panel-collapse collapse">
             <div class="panel-body">
               <ol>
                 <li>Uninstall Prestissimo:<br />On Android 6.0+ (Marshmallow and newer), you can use Android's native mediaplayer for variable playback speed. <br />On older devices, enable <i>Sonic mediaplayer</i>.</li>
@@ -45,20 +77,19 @@
             </div>
             <div id="G-2" class="panel-collapse collapse">
               <div class="panel-body">
-                Please read these <a href="https://github.com/AntennaPod/AntennaPod/blob/master/CONTRIBUTING.md#how-to-report-a-bug">instructions</a> on how to report a bug.
+                Ouf - sorry about that! Pleas let us know by adding a bug report on GitHub (that's where development happens). Please read these <a href="https://github.com/AntennaPod/AntennaPod/blob/master/CONTRIBUTING.md#how-to-report-a-bug">instructions for reporting a bug</a> to get started.
               </div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-3">You made a spelling error</a>
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-3">You made a spelling mistake</a>
               </h4>
             </div>
             <div id="G-3" class="panel-collapse collapse">
               <div class="panel-body">
-                Translations are provided by the community. If you found a typo or would like to suggest a better translation, you can do that on 
-                <a href="https://www.transifex.com/antennapod/antennapod/">Transifex</a>.
+                Translations are provided by the community. If you found a typo or would like to suggest a better translation, you can do that on <a href="https://www.transifex.com/antennapod/antennapod/">Transifex</a>.
               </div>
             </div>
           </div>
@@ -70,61 +101,65 @@
             </div>
             <div id="G-4" class="panel-collapse collapse">
               <div class="panel-body">
-                Our builds are completely ad-free and open source! Get them at <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">Google Play</a> or <a href="https://f-droid.org/repository/browse/?fdid=de.danoeh.antennapod">F-Droid</a>. You can even go over to <a href="https://github.com/AntennaPod/AntennaPod">Github</a>
-                and <a href="https://github.com/AntennaPod/AntennaPod/wiki/Building%20AntennaPod">build</a> AntennaPod for yourself!
+                Our builds are completely ad-free and open source! Get them at <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">Google Play</a> or <a href="https://f-droid.org/repository/browse/?fdid=de.danoeh.antennapod">F-Droid</a>. You can even get the <a href="https://github.com/AntennaPod/AntennaPod/releases/latest">latest release on GitHub</a> and <a href="https://github.com/AntennaPod/AntennaPod/wiki/Building%20AntennaPod">build</a> AntennaPod yourself!
               </div>
             </div>
           </div>
-        
-          <div class="faqHeader">Getting started</div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-5">Why are some downloaded episodes deleted?</a>
+            </h4>
+          </div>
+          <div id="G-5" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>AntennaPod has several mechanisms to make sure downloaded podcasts fill up your phone's memory. If you notice some dowloaded episodes being deleted, have a look at these two settings:</p>
+              <ul>
+                <li><b>Episode Cleanup</b> (Settings <i class="fa fa-angle-right"></i> Network <i class="fa fa-angle-right"></i> Automatic Download). If Automatic Download needs space for new episodes, it will delete old episodes that are not in the queue and not marked as favorite. You can add a delay (x time after playback) or Episode . The setting 'Episode Cache' determines the maximum amount of downloaded episodes.</li>
+                <li><b>Auto Delete</b> (Settings <i class="fa fa-angle-right"></i> Storage). When enabled, episodes are deleted when playback completes. You can disable this option.</li>
+              </ul>
+              </div>
+            </div>
+          </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#S-1">How do I subscribe to a podcast?</a>
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#G-6">How do I keep my data when changing phone?</a>
               </h4>
             </div>
-            <div id="S-1" class="panel-collapse collapse">
+            <div id="G-6" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>Open the drawer by swiping from the left or tapping the <i class="fa fa-bars"></i> burger icon on the top left corner. Go to <i class="fa fa-plus"></i> <b>Add Podcast</b>.<br />Now, you can either 
-                  search the iTunes catalog, browser gpodder.net or add a podcast by URL.</p>
-                  <p>You can also import RSS and Atom feeds as well as URL schemes like <tt>pcast://</tt> and <tt>itpc://</tt> with AntennaPod</p>
+                <p>There are a few options to copy your data to your new phone, and each method copies a certain amount of data:</p>
+                <ul>
+                  <li><b>Save your subscriptions in an OPML file.</b> You will loose any podcast- or episode-specific data (like if a specific episode has been played) and all app settings. To export your file, go to Settings <i class="fa fa-angle-right"></i> Storage <i class="fa fa-angle-right"></i> Import/Export. Be sure to click 'Send&hellip;' to save the file in another folder on your phone or somewhere else, because the original file will be deleted when you uninstall AntennaPod.</li>
+                  <li><b>Sync your subscriptions via gpodder.net.</b> This will save some podcast & episode data (e.g. playback position), but you will loose your favorites, queue, and app settings. To enable sync, go to Settings <i class="fa fa-angle-right"></i> Integrations.</li>
+                  <li><b>Export the AntennaPod database.</b> This is experimental, and you should make sure you have the same version of AntennaPod on both the old and new phone. After importing all data is restored; you will only need to re-download episodes.</li>
                 </div>
               </div>
             </div>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#S-2">How do I manually reorder the queue?</a>
-              </h4>
-            </div>
-            <div id="S-2" class="panel-collapse collapse">
-              <div class="panel-body">
-                <p>Drag-and-drop is enabled by default, but you have locked the queue (in the past). Unlock the queue again to be able to reorder the queue: simply tap on the 'unlock' icon in the top bar. <img src=assets/queue-lock.png width="100%" height=*></p>
-                </div>
-              </div>
-            </div>
+
             <div class="faqHeader">Playback</div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Episodes are playing way too fast!</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#Playback1">Episodes are playing way too fast!</a>
                 </h4>
               </div>
-              <div id="collapseTwo" class="panel-collapse collapse">
+              <div id="Playback1" class="panel-collapse collapse">
                 <div class="panel-body">
-                  Some Android 4.1 and 4.2 devices have problems identifying mono sound correctly. At this moment, disabling the Sonic mediaplayer is the only solution.
+                  Some Android 4.1 and 4.2 devices have problems identifying mono sound correctly. The best solution is to switch the media player from the Sonic to ExoPlayer in the Settings (search 'media player').
                 </div>
               </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Playback stops/crashes constantly</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#Playback2">Playback stops/crashes constantly</a>
                 </h4>
               </div>
-              <div id="collapseThree" class="panel-collapse collapse">
+              <div id="Playback2" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Are you playing a MP4 file? If so, we could be dealign with a buggy MP4 decoder. Try subscribing to the MP3 feed instead.</p>
+                  <p>Are you playing a MP4 file? If so, we could be dealing with a buggy MP4 decoder. Try subscribing to the MP3 feed instead.</p>
                   <p>You should also try to enable or disable the Sonic mediaplayer.</p>
                 </div>
               </div>
@@ -153,7 +188,7 @@
               </div>
               <div id="E-2" class="panel-collapse collapse">
                 <div class="panel-body">
-                  If you are running Android 6+, make sure AntennaPod has sufficient permissions to the storage (Android settings &rarr; Apps).
+                  If you are running Android 6+, make sure AntennaPod has sufficient permissions to the storage (Android settings <i class="fa fa-angle-right"></i> Apps).
                 </div>
               </div>
             </div>
@@ -167,7 +202,7 @@
               </div>
               <div id="F-1" class="panel-collapse collapse">
                 <div class="panel-body">
-                  It seems you didn't install Antennapod from the Google Play Store. Your build doesn't contain the necessary credentials for Flattr integration to work.
+                  <p>You probaably didn't install AntennaPod from the Google Play Store. Your build doesn't contain the necessary credentials for Flattr integration to work.</p>
                 </div>
               </div>
             </div>
@@ -179,7 +214,7 @@
               </div>
               <div id="F-2" class="panel-collapse collapse">
                 <div class="panel-body">
-                  The Flattr API has been broken since December 2015. <a href="http://blog.flattr.net/2016/01/flattr-developer-update-7-the-hunt-for-bugs/">Read more</a>
+                  <p>The Flattr API has been broken since December 2015. <a href="http://blog.flattr.net/2016/01/flattr-developer-update-7-the-hunt-for-bugs/">Read more</a></p>
                 </div>
               </div>
             </div>
@@ -188,15 +223,18 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-1">How can I Contribute?</a>
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-1">How can I contribute?</a>
                 </h4>
               </div>
               <div id="P-1" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>You can program in Java/Android? You can help us by downloading and testing pull requests. Additionally, you could contribute new features or fix bugs via <a href="https://github.com/AntennaPod/AntennaPod">Github</a>.</p>
-                  <p>You speak other languages than English? Help us translate AntennaPod via <a href="https://www.transifex.com/antennapod/antennapod/">Transifex</a>.</p>
-                  <p>You can explain well? Help us extend the <a href="https://github.com/AntennaPod/antennapod.github.io">knowledge base</a>!</p>
-                  <p>You have a good understanding of Android and you are good at breaking stuff? Become a <a href="https://github.com/AntennaPod/AntennaPod/wiki/Help-test-AntennaPod">tester</a>! (Google Play required)
+                  <p>AntennaPod is under active development by volunteers. You can contribute too, with code or with comment!</p>
+                  <ul>
+                    <li>You speak any other language than Enlish? Help us translate AntennaPod via <a href="https://www.transifex.com/antennapod/antennapod/">Transifex</a></li>
+                    <li>You can explain well? Help other users in our <a href="https://groups.google.com/forum/#!forum/antennapod">Google Group</a></li>
+                    <li>You are good at breaking stuff? Become a <a href="#BetaTesting">Beta Tester</a></li>
+                    <li>You can program in Java? Help test pull requests or submit new features or bug fixes on <a href="https://github.com/AntennaPod/AntennaPod">GitHub</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -208,7 +246,7 @@
                 </div>
                 <div id="P-2" class="panel-collapse collapse">
                   <div class="panel-body">
-                    The current developers <a href="https://github.com/AntennaPod/AntennaPod/issues/507">decided</a> to not accept donations.
+                    <p>Thank you for considering a dontation. The current developers <a href="https://github.com/AntennaPod/AntennaPod/issues/507">decided</a> to not accept donations. If you have some time to spare, we would warmly welcome your involvement in our community (see previous question).</p>
                   </div>
                 </div>
               </div>
@@ -220,17 +258,48 @@
                 </div>
                 <div id="P-3" class="panel-collapse collapse">
                   <div class="panel-body">
-                    Unfortunately, we don't have the time to support other stores besides Google Play. If nothing else, you can get AntennaPod on <a href="https://f-droid.org/repository/browse/?fdid=de.danoeh.antennapod">F-Droid</a>.
+                    <p>Unfortunately, we don't have the time to support any other store than <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod" target="_blank">Google Play</a> and <a href="https://f-droid.org/repository/browse/?fdid=de.danoeh.antennapod" target="_blank">F-Droid</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title" id="BetaTesting">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-4">How do I become a Beta Tester?</a>
+                  </h4>
+                </div>
+                <div id="P-4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Every new version of AntennaPod is sent to our Beta Testers via the Google Play store, before it is shipped to the general public. It allows us to test updates on many different devices and Android versions, so we can catch bugs and user experience issues on time. If you have a critical eye and can explain what's going wrong, your help is very welcome!</p>
+                    <p>Simply visit the AntennaPod listing in the Google Play store and go to "Become a beta tester" at the bottom of the page. Or <a href="https://play.google.com/apps/testing/de.danoeh.antennapod" target="_blank">go here if you're on a computer</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#P-5">Can you update AntennaPod on F-Droid? It's not the latest version.</a>
+                  </h4>
+                </div>
+                <div id="P-5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>The F-Droid repository is not maintained by us, but by the people behind F-Droid. That means there's only so much we can do. But, you can always let us know by creating a ticket on <a href="https://github.com/AntennaPod/AntennaPod">GitHub</a>, and we'll investigate it.</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+  </div>
 
           <style>
           .faqHeader {
             font-size: 27px;
-            margin: 20px;
+            margin: 20px 0 10px 5px;
+          }
+          
+          h4.panel-title {
+            line-height: 1.3em;
+            margin-top:-.1em;
+            margin-bottom:-.1em;
           }
 
           .panel-heading [data-toggle="collapse"]:after {
@@ -246,6 +315,7 @@
             -ms-transform: rotate(-90deg);
             -o-transform: rotate(-90deg);
             transform: rotate(-90deg);
+            transition: all 0.5s;
           }
 
           .panel-heading [data-toggle="collapse"].collapsed:after {
@@ -257,9 +327,29 @@
             transform: rotate(90deg);
             color: #454444;
           }
+
+          ul, ol {
+            padding-left: 15px;
+            margin-bottom: 0;
+          }
+
+          p + ul {
+            margin-top: -5px;
+          }
+
+          li {
+            margin-bottom: 3px;
+          }
+
+          div.panel-body p:last-child {
+            margin: 0;
+            }
+
+          img {
+            border: 1px solid lightgrey;
+          }
           </style>
 
-        </div>
 
       </body>
       </html>
