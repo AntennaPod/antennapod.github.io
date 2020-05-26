@@ -45,11 +45,11 @@ Designs are provided with an unlimited and unrevokable license to the AntennaPod
 
 ## Feedback, iteration, selection
 
-Keunes (comms) and Bytehamster (developer) are responsible for guiding the process. Keunes will be the contact person for the designer(s).
+Keunes (comms) and ByteHamster (lead developer) are responsible for guiding the process. Keunes will be the contact person for the designer(s).
 
 As a community project, contributing users and others interested will have an important role. To that end, the 'active community' will be involved (in a resticted manner, as described below). With 'active community', we refer to all beta users of the app (3.4k), those following a GitHub issue on the topic (13+) and those following the project on Twitter (867).
 
-- **First round**. After the call for proposals, one to three are selected by Keunes & Bytehamster. Feedback is provided to selected proposals. New iterations based on the feedback (if any) are expected.
+- **First round**. After the call for proposals, one to three are selected by Keunes & ByteHamster. Feedback is provided to selected proposals. New iterations based on the feedback (if any) are expected.
 - **Second round**. The new iterations (and those that stayed the same) are put up for a vote by the active community. Participants will rate each of the proposals, and optionally provide open comments on their favourite proposal. To make sure the winner is validated as better than the current icon, the current icon will also be included. For the most popular proposal, relevant comments will be filtered and bundled by Keunes and provided to the designer. Based on the feedback (if any), an iteration is welcomed but not required.
 
 The community will need to sign in with their Google account to be able to vote, in order to avoid malicious votes. Users without Google account are offered an alternative.
