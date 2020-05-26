@@ -37,7 +37,7 @@ The new work must:
 
 As you can see below, there's both some variety and a bunch of same-ish icons. Our aim is to get something unique :-)
 
-<img src="AP-brief_competition1.png" width=300 height=466 /> <img src="AP-brief_competition2.png" width=320 height=403 />
+<img src="AP-brief_competition1.png" width=300px height=466px style="width: 300px; height: 466px;" /> <img src="AP-brief_competition2.png" width=320px height=403px style="width: 320px; height: 403px;"/>
 
 ## License
 
