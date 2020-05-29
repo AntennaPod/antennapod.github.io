@@ -65,3 +65,6 @@ We'd love to hear from you by Wednesday 17 June if you're interested to help out
 As a project without official structure or own funds, proper compensation wont be possible. However, as to support open source designers, Keunes would like to offer € 25 to those selected in the first round, plus € 50 to the selected logo. Designers may also decline the offer, in which case their financial thank-you will be donated to the [Open Source Design initiative](<https://opencollective.com/opensourcedesign>).
 
 Of course you'd be acknowledged by name on the site and in the app's 'About' section.
+
+## Interested? Contact us!
+Thank you for considering support to this open source app! Get in touch at [keunes+antennapod-logo@mailbox.org](mailto:keunes+antennapod-logo@mailbox.org).
