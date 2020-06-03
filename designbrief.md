@@ -65,4 +65,4 @@ As a project without official structure or own funds, proper compensation wont b
 Of course you'd be acknowledged by name on the site and in the app's 'About' section.
 
 ## Interested? Contact us!
-Thank you for considering support to this open source app! Reply to the [add on opensourcedesign.net](https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update) or get in touch at [keunes+antennapod-logo@mailbox.org](mailto:keunes+antennapod-logo@mailbox.org).
+Thank you for considering support to this open source app! Reply to the [ad on opensourcedesign.net](https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update) or get in touch at [keunes+antennapod-logo@mailbox.org](mailto:keunes+antennapod-logo@mailbox.org).
