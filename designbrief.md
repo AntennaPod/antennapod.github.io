@@ -56,7 +56,7 @@ The community will need to sign in with their Google account to be able to vote,
 
 ## Timeline
 
-We'd love to hear from you by Wednesday 17 June if you're interested to help out (or if you have any questions or comments). **The deadline for the proposals will be Saturday 27 June.** ByteHamster and Keunes will then select proposals & provide feedback by the following Wednesday. After, we'll have two weeks for iterations (if any) and launching the poll in the Beta version of the app on Thursday 16 July. We then hope to be able to implement our new icon by the end of the month :)
+We'd love to hear from you by Wednesday 24 June if you're interested to help out (or if you have any questions or comments). **The deadline for the proposals will be Saturday 27 June.** ByteHamster and Keunes will then select proposals & provide feedback by the following Wednesday. After, we'll have two weeks for iterations (if any) and launching the poll in the Beta version of the app on Thursday 16 July. We then hope to be able to implement our new icon by the end of the month :)
 
 ## Financial thank-you
 
