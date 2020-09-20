@@ -39,7 +39,7 @@ The poll was open for a bit more than a month. The F-Droid users replied so fast
 
 <img width="400" src="/assets/img/blog/2020/icon-poll-groups.png">
 
-You can find additional interesting charts here: [icon-poll-charts.pdf](/assets/downloads/icon-poll-charts.pdf). If you want to have a look at the raw, anonymized vote data to create your own charts, you can find it here: [vote-data-ratings.csv](/assets/downloads/vote-data-ratings.csv). The R script used to generate above charts is available here: [icon-poll-charts.R](/assets/downloads/icon-poll-charts.R).
+You can find additional interesting charts here: [icon-poll-charts.pdf](/assets/downloads/2020/icon-poll-charts.pdf). If you want to have a look at the raw, anonymized vote data to create your own charts, you can find it here: [vote-data-ratings.csv](/assets/downloads/2020/vote-data-ratings.csv). The R script used to generate above charts is available here: [icon-poll-charts.R](/assets/downloads/2020/icon-poll-charts.R).
 
 ## Text comments for an evening or three
 
@@ -70,7 +70,7 @@ Let us share a small collection of the many nice comments below. Dear all volunt
 
 Some of the plain-text comments contained support questions or feature requests. Given that we don't know who sent these comments (it's a survey, after all) it's not possible to reply to them, but rest assured that we're keeping them in the back of our minds. If you did have a support question, feature request or bug report, please create a topic in our [new forum](https://forum.antennapod.org) so we can help you :)
 
-If you want to have a look at the tagged comments data (not the actual comments) to create your own charts, you can find it here: [vote-data-comments-tagged.csv](/assets/downloads/vote-data-comments-tagged.csv). The R script used to generate above charts is available here: [comments.R](/assets/downloads/comments.R).
+If you want to have a look at the tagged comments data (not the actual comments) to create your own charts, you can find it here: [vote-data-comments-tagged.csv](/assets/downloads/2020/vote-data-comments-tagged.csv). The R script used to generate above charts is available here: [comments.R](/assets/downloads/2020/comments.R).
 
 ## Post-vote changes
 
