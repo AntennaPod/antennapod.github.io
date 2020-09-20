@@ -15,7 +15,7 @@ After that, we set up a vote containing the two new proposals that follow the re
 <div class="md-table">
 <table>
 <thead><tr><td><b>Alpha</b></td><td><b>Bravo</b></td><td><b>Charlie</b></td></tr></thead>
-<tr><td>By MyNameIsTroll</td><td>By <a href="https://www.instagram.com/221pxls/">221pxls</a></td><td>Old</td></tr>
+<tr><td>By My​Name​Is​Troll</td><td>By <a href="https://www.instagram.com/221pxls/">221pxls</a></td><td>Old</td></tr>
 <tr><td><a href="/assets/img/blog/2020/icon-poll-alpha.jpeg"><img width="200" src="/assets/img/blog/2020/icon-poll-alpha.jpeg"></a></td><td><a href="/assets/img/blog/2020/icon-poll-bravo.jpeg"><img width="200" src="/assets/img/blog/2020/icon-poll-bravo.jpeg"></a></td><td><a href="/assets/img/blog/2020/icon-poll-charlie.jpeg"><img width="200" src="/assets/img/blog/2020/icon-poll-charlie.jpeg"></a></td></tr>
 <tr><td>21314 total points</td><td><b>23323 total points</b></td><td>21718 total points</td></tr>
 </table>
