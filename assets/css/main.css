@@ -9,169 +9,148 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
 }
 
 .features {
-    font-weight: 400;
-    font-size: 24px;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .label {
-    padding: 0.2em 0.6em;
+  padding: 0.2em 0.6em;
 }
 
 .carousel-indicators {
-    bottom: -32px;
-    background-color: #7B7B7B;
-    border-radius: 0em 0em 0.25em 0.25em;
-    width: 300px;
-    margin-left: -150px;
+  bottom: -32px;
+  background-color: #7B7B7B;
+  border-radius: 0em 0em 0.25em 0.25em;
+  width: 300px;
+  margin-left: -150px;
 }
 
 .carousel {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #333;
 }
 
 h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 h3 {
-	color: #95a5a6;
-	font-weight: 400;
+  color: #95a5a6;
+  font-weight: 400;
 }
 
 h4 {
-	color: #95a5a6;
-	font-weight: 400;
-	font-size: 20px;
+  color: #95a5a6;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 /* Links */
 a {
-    color: #3498db;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+  color: #3498db;
+  word-wrap: break-word;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .navbar-default {
-	background-color: #3498db;
-	border-color: transparent;
+  background-color: #3498db;
+  border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-	color: white;
+  color: white;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+  color: white;
 }
 
 /* Helpers */
 
 .mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .form-control {
-	height: 42px;
-	font-size: 18px;
-	width: 280px;
+  height: 42px;
+  font-size: 18px;
+  width: 280px;
 }
 
 i {
-	margin: 8px;
-	color: #3498db; 
+  margin: 8px;
+  color: #3498db;
 }
 
 
 /* HeaderWrap */
 #headerwrap {
-	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #3498db;
-	padding-top: 80px;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  /* background: url(../img/bg01.jpg) no-repeat center top; */
+  background-color: #3498db;
+  padding-top: 80px;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
 }
 
 #headerwrap h1 {
-	margin-top: 60px;
-	margin-bottom: 15px;
-	color: white;
-	font-size: 45px;
-	font-weight: 300;
-	letter-spacing: 1px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .carousel-inner > .item > img {
-    margin: 0 auto;
-    width: 300px;
+  margin: 0 auto;
+  width: 300px;
 }

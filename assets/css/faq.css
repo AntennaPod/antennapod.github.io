@@ -17,20 +17,12 @@ h4.panel-title {
   font-size: 18px;
   line-height: 22px;
   /* rotate "play" icon from > (right arrow) to down arrow */
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
   transition: all 0.5s;
 }
 
 .panel-heading [data-toggle="collapse"].collapsed:after {
   /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
   transform: rotate(90deg);
   color: #454444;
 }
