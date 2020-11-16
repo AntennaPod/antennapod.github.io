@@ -11,6 +11,7 @@
   <!-- CSS. -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/faq.css">
 
   <!-- JS. -->
   <script defer src="assets/jquery/jquery.min.js"></script>
@@ -37,7 +38,7 @@
           <div id="S-1" class="panel-collapse collapse">
             <div class="panel-body">
               <p>Open the drawer by swiping from the left or tapping the <i class="fa fa-bars"></i> burger icon on the top left corner. Go to <i class="fa fa-plus"></i> <b>Add Podcast</b>. Now, you can search, browse suggestions or add a podcast by URL.</p>
-              <p>Alternatively, you can import an OPML file or click 'Advanced Search' to only check the iTunes, gpodder.net or fyyd database respectively. Importing RSS or Atom feeds, or URL schemes like <tt>pcast://</tt> and <tt>itpc://</tt>, will also work.</p>
+              <p>Alternatively, you can import an OPML file or click 'Advanced Search' to only check the iTunes, gpodder.net or fyyd database respectively. Importing RSS or Atom feeds, or URL schemes like <code>pcast://</code> and <code>itpc://</code>, will also work.</p>
             </div>
           </div>
         </div>
@@ -52,8 +53,7 @@
                 <p>If you can't move episodes around in the queue, this can be caused by either of the following:
                   <ul>
                     <li>'Keep Sorted' is enabled. You can disable this by tapping the three dots <i class="fa fa-ellipsis-v"></i> in the top bar <i class="fa fa-angle-right"></i> Sort.</li>
-                    <li>The queue is locked. You can unlock the queue by tapping on the 'unlock' icon in the top bar:<br />
-                      <img src=assets/queue-lock.png width="100%" height=* style="max-width:500px;"></li>
+                    <li>The queue is locked. You can unlock the queue by tapping on the 'unlock' icon in the top bar:<br><img src=assets/img/faq/queue-lock.png width="100%" height=* style="max-width:500px;" alt="Locked queue"></li>
                    </ul>
                 </div>
               </div>
@@ -69,8 +69,8 @@
           <div id="G-1" class="panel-collapse collapse">
             <div class="panel-body">
               <ol>
-                <li>Uninstall Prestissimo:<br />On Android 6.0+ (Marshmallow and newer), you can use Android's native mediaplayer for variable playback speed. <br />On older devices, enable <i>Sonic mediaplayer</i>.</li>
-                <li>Prefer MP3 feeds over other formats, especially MP4/AAC:<br />We use Android's built-in audio decoders. A lot of devices are shipped with rather buggy MP4 decoders that lead to various playback issues and even native crashes (think <i>Bluescreen</i>).<br />
+                <li>Uninstall Prestissimo:<br>On Android 6.0+ (Marshmallow and newer), you can use Android's native mediaplayer for variable playback speed. <br>On older devices, enable <i>Sonic mediaplayer</i>.</li>
+                <li>Prefer MP3 feeds over other formats, especially MP4/AAC:<br>We use Android's built-in audio decoders. A lot of devices are shipped with rather buggy MP4 decoders that lead to various playback issues and even native crashes (think <i>Bluescreen</i>).<br>
                   In our opinion, your best option is to subscribe to MP3 feeds whenever possible.</li>
                 </ol>
               </div>
@@ -270,66 +270,5 @@
             </div>
   </div>
 
-          <style>
-          .faqHeader {
-            font-size: 27px;
-            margin: 20px 0 10px 5px;
-          }
-          
-          h4.panel-title {
-            line-height: 1.3em;
-            margin-top:-.1em;
-            margin-bottom:-.1em;
-          }
-
-          .panel-heading [data-toggle="collapse"]:after {
-            font-family: 'Glyphicons Halflings';
-            content: "\e072"; /* "play" icon */
-            float: right;
-            color: #008ab8;
-            font-size: 18px;
-            line-height: 22px;
-            /* rotate "play" icon from > (right arrow) to down arrow */
-            -webkit-transform: rotate(-90deg);
-            -moz-transform: rotate(-90deg);
-            -ms-transform: rotate(-90deg);
-            -o-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-            transition: all 0.5s;
-          }
-
-          .panel-heading [data-toggle="collapse"].collapsed:after {
-            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            transform: rotate(90deg);
-            color: #454444;
-          }
-
-          ul, ol {
-            padding-left: 15px;
-            margin-bottom: 0;
-          }
-
-          p + ul {
-            margin-top: -5px;
-          }
-
-          li {
-            margin-bottom: 3px;
-          }
-
-          div.panel-body p:last-child {
-            margin: 0;
-            }
-
-          img {
-            border: 1px solid lightgrey;
-          }
-          </style>
-
-
-      </body>
-      </html>
+</body>
+</html>
