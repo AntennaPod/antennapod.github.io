@@ -1,0 +1,47 @@
+<head>
+  {% capture title %}{% t page.title %}{% endcapture %}
+  {% unless title.size > 0 %}{% assign title = page.title %}{% endunless %}
+  {% capture title %}{% if title.size > 0 %}{{ title }} – {% endif %}{{ site.title }}{% endcapture %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.image %}
+  <meta property="twitter:image:src" content="{{ page.image }}">
+  {% else %}
+  <meta property="twitter:image:src" content="{{ site.baseurl_root }}/assets/vertical_generic.png">
+  {% endif %}
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{{ title }}">
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.baseurl_root }}/assets/vertical_generic.png">
+  {% endif %}
+
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl_root }}/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl_root }}/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl_root }}/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="{{ site.baseurl_root }}/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <link rel="manifest" href="{{ site.baseurl_root }}/assets/images/favicons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/all.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <!-- JavaScript -->
+  <script src="{{ site.baseurl_root }}/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl_root }}/assets/js/bootstrap.bundle.min.js"></script>
+</head>

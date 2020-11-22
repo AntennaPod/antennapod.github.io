@@ -1,0 +1,117 @@
+<div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="{% if site.lang == "en" %}/{% else %}{{ site.baseurl }}{% endif %}">
+                    <img class="smallermobile" src="{{ site.baseurl_root }}/assets/logos/logo.png" width="260px" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    {% for link in site.data[site.lang].navbar %}
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                    </div>
+                    {% endfor %}
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span
+                                    class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="{{ page.url | replace: '.html', '' | remove: 'index' }}">English</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/de{{ page.url | replace: '.html', '' | remove: 'index' }}">Deutsch</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/fr{{ page.url | replace: '.html', '' | remove: 'index' }}">Français</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/es{{ page.url | replace: '.html', '' | remove: 'index' }}">Español</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/nl{{ page.url | replace: '.html', '' | remove: 'index' }}">Nederlands</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/it{{ page.url | replace: '.html', '' | remove: 'index' }}">Italiano</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/sq{{ page.url | replace: '.html', '' | remove: 'index' }}">Shqip</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span
+                                class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="{{ page.url | replace: '.html', '' | remove: 'index' }}">English</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/de{{ page.url | replace: '.html', '' | remove: 'index' }}">Deutsch</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/fr{{ page.url | replace: '.html', '' | remove: 'index' }}">Français</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/es{{ page.url | replace: '.html', '' | remove: 'index' }}">Español</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/nl{{ page.url | replace: '.html', '' | remove: 'index' }}">Nederlands</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/it{{ page.url | replace: '.html', '' | remove: 'index' }}">Italiano</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/sq{{ page.url | replace: '.html', '' | remove: 'index' }}">Shqip</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img
+                        src="{{ site.baseurl_root }}/assets/images/icons/burger.svg" /></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">&times;</button>
+            <div class="overlay-header">
+                <img src="{{ site.baseurl_root }}/assets/logos/icon.png" width="80px" height="auto"
+                    alt="AntennaPod logo" />
+            </div>
+            <div class="overlay-content">
+                {% for link in site.data[site.lang].navbar %}
+                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                {% endfor %}
+            </div>
+            <div class="overlay-footer">
+                {% if site.twitter_username %}
+                <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
+                    rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                {% endif %}
+                {% if site.github_username %}
+                <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}" target="_blank"
+                    rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="' + location.pathname.slice(0, -1) + '"]').closest(".nav-item").addClass('active');
+    });
+</script>

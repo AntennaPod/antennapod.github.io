@@ -1,0 +1,57 @@
+---
+layout: internal
+title: titles.documentation
+permalink: /documentation/
+---
+
+<div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1 class="color-gray-800 weight-700">{% t titles.documentation %}</h1>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container pt-5">
+    <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod website.</p>
+    <p class="color-gray-900">This section aims to provide information on current features (and give some pointers on
+      future direction where possible). However as a living project, the section is a constant work-in-progress and is
+      often developed along-side / after the features themselves.</p>
+    <p class="color-gray-900 mb-4">If you have any comments please feel free to <a class="text-main underline"
+        href="../contribute">provide feedback</a>.</p>
+
+    <input type="text" id="search-input" placeholder="Search documentation...">
+    <ul class="pt-3" id="results-container"></ul>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container py-3">
+    <div class="row justify-content-start pb-4">
+      {% for documentation in site.documentation %}
+      {% if documentation.level == "1" %}
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+        <a href="{{ documentation.url | replace:'.html','' }}">
+          <div class="card shadow-sm project-card">
+            <i class="{{ documentation.icon }} size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">{{ documentation.title }}</h4>
+          </div>
+        </a>
+      </div>
+      {% else %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    noResultsText: "Sorry, nothing found :(",
+    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+    limit: 5,
+    fuzzy: false,
+    json: '/search.json'
+  })
+</script>

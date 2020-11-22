@@ -1,25 +1,101 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AntennaPod; the easy-to-use, flexible and open-source podcast manager and player for Android">
+    <meta name="keywords" lang="en" content="AntennaPod,Open-Source,Podcast,Manager,Player,Podcatcher,App,Android">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 
-<div class="container-fluid">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-8">
-      </div>
-      <div class="col-4">
+    <title>AntennaPod</title>
+
+    <!-- CSS -->
+    <link href="assets/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link href='assets/fonts.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- HTML5 for IE -->
+    <!--[if lt IE 9]>
+      <script src="assets/html5shiv-v3.7.0.js"></script>
+      <script src="assets/respond-v1.3.0.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><b>ANTENNAPOD</b></a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <div class="container py-5">
-    <h1 class="weight-700" id="features">Features</h1>
-    <div class="row">
-      <div class="col-12 col-lg-4 col-md-6 mb-3 mb-md-0">
+    <!-- Header -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-6 center-block">
+					<img src="assets/img/antennapod-logo.png" height="150" width="150" alt="Antennapod Logo" />
+					<h1>The easy-to-use, flexible and open-source podcast manager for Android</h1>
+                    <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">
+                         <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="100px"/>
+                    </a>
+                    <a href="https://f-droid.org/packages/de.danoeh.antennapod/">
+                         <img alt="Get it on F-Droid" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="100px"/>
+                    </a>				
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6 center-block">
+					<img src="assets/img/device-art.png" alt="">
+				</div><!-- /col-lg-6 -->
+				
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+    <!-- Features -->
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h2>Features</h2>
 
-<<<<<<< Updated upstream
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<div class="col-lg-4">
+				<i class="fa fa-download fa-4x"></i>
+				<h4>Download and Streaming</h4>
+				<p>Automatic download of new episodes and playback with variable speed using the 
+				<a href="http://www.aocate.com/presto/">Presto Sound Library</a> or <a href="https://play.google.com/store/apps/details?id=com.falconware.prestissimo">Prestissimo</a></p>
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<i class="fa fa-rss fa-4x"></i>
+				<h4>RSS and Atom Feeds</h4>
+				<p>Password protected feeds and episodes.</p>
+
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<i class="fa fa-exchange fa-4x"></i>
+				<h4>OPML Import and Export</h4>
+				<p>For saving all of your subscriptions.</p>
+
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+		<div class="row mt centered">
+		<div class="col-lg-4">
+				<i class="fa fa-money fa-4x"></i>
+				
+				<h4>Flattr integration</h4>
+				<p>Automatically put a coin in the hat!</p>
+			</div><!--/col-lg-4 -->
+
 			<div class="col-lg-4">
 				<i class="fa fa-cloud fa-4x"></i>
 				<h4>gpodder.net integration</h4>
@@ -105,62 +181,13 @@ layout: default
 		<p class="centered">AntennaPod was created by Daniel Oeh and released under the MIT License.<br/>
 			            It is currently maintained by volunteers. Wanna help? Join us on <a href="https://www.github.com/antennapod/AntennaPod">GitHub</a>!</p>
                 <p class="centered">Website built using <a href="http://www.getbootstrap.com">Bootstrap, <a href="http://www.fontawesome.io/">FontAwesome</a> and the <a href="http://www.bootstrapzero.com/bootstrap-template/flatty">Flatty Template</a></p>
-		<p class="centered"><a href="https://twitter.com/antennapod"><i class="fa fa-twitter"></i></a> - <a href="https://forum.antennapod.org/"><i class="fa fa-comments"></i></a> - <a href="https://www.github.com/antennapod/AntennaPod"><i class="fa fa-github"></i></a> - <a href="https://en.wikipedia.org/wiki/AntennaPod"><i class="fa fa-wikipedia-w"></i></a> - <a href="https://www.transifex.com/antennapod/antennapod/"><i class="fa fa-language"></i></a><!-- - <a href="bitcoin:1DzvtuvdW8VhDsq9GUytMyALmsHeaHEKbg"><i class="fa fa-bitcoin"></i></a>--></p>
+		<p class="centered"><a href="https://twitter.com/antennapod"><i class="fa fa-twitter"></i></a> - <a href="https://groups.google.com/forum/#!forum/antennapod"><i class="fa fa-envelope"></i></a> - <a href="https://www.github.com/antennapod/AntennaPod"><i class="fa fa-github"></i></a> - <a href="https://en.wikipedia.org/wiki/AntennaPod"><i class="fa fa-wikipedia-w"></i></a> - <a href="https://www.transifex.com/antennapod/antennapod/"><i class="fa fa-language"></i></a><!-- - <a href="bitcoin:1DzvtuvdW8VhDsq9GUytMyALmsHeaHEKbg"><i class="fa fa-bitcoin"></i></a>--></p>
 	</div><!-- /container -->
 	
 
     <!-- JS -->
     <script src="assets/jquery-1.12.2.min.js"></script>
     <script src="assets/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-=======
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <div class="container py-5">
-    <h1 class="weight-700" id="screenshots">Screenshots</h1>
-    <div class="row">
-      <div class="col-12 col-lg-4 col-md-6 mb-3 mb-md-0">
-
-        {% capture gallery %}images/screenshots/{{ site.lang }}{% endcapture %}
-
-        {% assign files = site.static_files %}
-
-        <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-
-            <div class="carousel-item active">
-              <figure>
-                <img src="{{ site.baseurl_root }}/assets/{{ gallery }}/intro.jpg" class="d-block w-100"
-                  alt="screenshot">
-              </figure>
-            </div>
-
-            {% for image in files %}
-            {% if image.path contains gallery %}
-            <div class="carousel-item">
-              <figure>
-                <img src="{{ site.baseurl_root }}{{ image.path }}" class="d-block w-100" alt="screenshot">
-              </figure>
-            </div>
-            {% endif %}
-            {% endfor %}
-
-          </div>
-          <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
->>>>>>> Stashed changes
-
-      </div>
-    </div>
-  </div>
-</div>
+  </body>
+</html>

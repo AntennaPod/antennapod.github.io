@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+
+<body>
+  <div class="content">
+  {% include nav.html %}
+  <div class="container-fluid">
+    <div class="container py-3">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-9 col-sm-12 pt-3">
+          <div class="post">
+
+            {% assign author = site.data.authors[page.author] %}
+
+            <header class="post-header">
+              <p class="size-14 color-orange-900 mb-2 weight-500">
+              {% capture category %}{{ page.category }}{% endcapture %}
+              {% t news.filters.{{ category }} %}
+              </p>
+              <h1 class="size-36 weight-700 color-gray-900">{{ page.title }}</h1>
+              {% assign words = page.content | number_of_words %}
+              {% if words < 360 %}
+              <p class="size-14 weight-600 color-gray-500">1 {% t readtime.singular %}</p>
+              {% else %}
+              <p class="size-14 weight-600 color-gray-500">{{ words | divided_by:150 }} {% t readtime.plural %}</p>
+              {% endif %}
+              <div class="row no-gutters align-items-center justify-content-between my-3">
+                <p class="size-14 weight-700 color-gray-900 mb-0">
+                  {% if author %}
+                  <img class="round-img" src="{{ site.baseurl_root }}/assets/images/authors/{{ author.image }}" width="40px" height="auto" />
+                  <a class="underline" href="{{ author.web }}" target="_blank" rel="noopener">{{ author.name }}</a>
+                  {% endif %}
+                  • 
+                  {% capture month %}{{ page.date | date: "%b" }}{% endcapture %}
+                  {% t month.{{ month }} %} {{ page.date | date: "%-d, %Y"}}
+                </p>
+                {% include share.html %}
+              </div>
+            </header>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="post">
+                {% if page.cover %}
+                  {% assign cover = page.cover %}
+                {% elsif page.image %}
+                  {% assign cover = page.image %}
+                {% endif %}
+                {% if cover %}
+                <img class="w-100 cover curved-img" src="{{ site.baseurl_root }}/assets/images/posts/{{ cover }}" alt="{{ page.title }}" />
+                {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container py-3">
+
+
+      <div class="row no-gutters justify-content-center pb-4">
+        <div class="col-lg-9">
+          <article class="post-content pb-3">
+            {{ content }}
+          </article>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row no-gutters pt-4">
+            <h2 class="size-24 color-gray-900 pb-2">{% t news.related %}</h2>
+      </div>
+
+        <div class="row no-gutters pb-4">
+            <div class="row justify-content-start">
+
+                  {% if page.url contains 'news' %}
+
+                      {% assign maxRelated = 3 %}
+                      {% assign minCommonTags =  1 %}
+                      {% assign maxRelatedCounter = 0 %}
+
+                      {% for news in site.news %}
+
+                      {% assign sameTagCount = 0 %}
+                      {% assign commonTags = '' %}
+
+                      {% for category in news.categories %}
+                        {% if news.url != page.url %}
+                          {% if page.categories contains category %}
+                            {% assign sameTagCount = sameTagCount | plus: 1 %}
+                            {% capture tagmarkup %} {% endcapture %}
+                            {% assign commonTags = commonTags | append: tagmarkup %}
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+
+                      {% if sameTagCount >= minCommonTags %}
+                        <div class="col-12 col-md-4 mb-3 d-flex">   
+                          <div class="highlight-card">
+                            <a class="stretched-link" href="{{ news.url | replace: '.html', ''  }}"></a>
+                            <img class="mb-3" src="{{ site.baseurl_root }}/assets/images/posts/{{ news.image }}" alt="{{ news.title }}" />
+                            <h3 class="size-24 color-gray-900 weight-700">{{ news.title }}</h3>
+                            {% if news.excerpt %}
+                              {% assign excerpt = news.excerpt %}
+                            {% else %}
+                              {% assign excerpt = news.content %}
+                            {% endif %}
+                            <p class="size-14 color-gray-900 mb-3">{{ excerpt | strip_html | truncatewords: 15 }}</p>
+                            <div class="bottom">
+                              <span class="size-12 color-gray-900 weight-700 mb-0">
+                                {% capture category %}{{ news.category }}{% endcapture %}
+                                {% t news.filters.{{ category }} %}
+                              </span>
+                            </div>
+                            <div class="bottom right">
+                              <span class="size-12 color-gray-900 weight-700 mb-0">
+                                {% capture month %}{{ news.date | date: "%b" }}{% endcapture %}
+                                {% t month.{{ month }} %} {{ news.date | date: "%-d, %Y"}}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                        {% if maxRelatedCounter >= maxRelated %}
+                          {% break %}
+                        {% endif %}
+                      {% endif %}
+
+                  {% endfor %}
+
+                  {% else %}
+
+                  {% endif %}
+
+            </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+  {% include footer.html %}
+</body>
+
+</html>

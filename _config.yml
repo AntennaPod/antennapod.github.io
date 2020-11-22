@@ -1,0 +1,51 @@
+title: AntennaPod
+email: info@antennapod.org
+description: >-
+  The easy-to-use, flexible and open-source podcast manager for Android.
+baseurl: ""
+url: "/"
+twitter_username: antennapod
+github_username: AntennaPod
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
+permalink: /:categories/:title
+
+# Localization
+languages: ["en", "de", "fr", "nl", "es", "it", "sq"]
+defaultLang: en
+default_locale_in_subfolder: false
+exclude_from_localizations: ["assets"]
+
+# Collections
+collections:
+  documentation:
+    output: "true"
+  blog:
+    output: "true"
+    permalink: /blog/:year/:month/:slug
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
