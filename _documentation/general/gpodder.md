@@ -8,9 +8,9 @@ layout: doc
 For synchronization, AntennaPod uses the free service gpodder.net. In order to synchronize your clients, you need to create an account there.
 
 - After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:  
-  ![devices](../../assets/img/documentation/gpodder_devices.png)
+  ![devices](/assets/images/documentation/gpodder-devices.png)
 - After you created the devices, link them using the "Configure" button. This way, gpodder.net automatically keeps the subscriptions of both devices synchronized.  
-  ![synchronize](../../assets/img/documentation/gpodder_synchronize.png) 
+  ![synchronize](/assets/images/documentation/gpodder-synchronize.png) 
 - Then, have a look at AntennaPod's `Settings` » `Synchronization`). There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.  
   You can also create a new device while logging in and link it later. The disadvantage of this is that only podcasts that were added **after** linking the devices are synchronized. Therefore, in order to get all your existing subscriptions synchronized, you need to create and link the devices **before** logging in (like it is described in this post). There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior but for now, linking needs to be done before synchronizing.
 - Enjoy synchronization :)

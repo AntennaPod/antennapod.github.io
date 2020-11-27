@@ -43,13 +43,13 @@ The new work must:
 
 ### The current ~~logo~~ icon
 
-![Current icon](/assets/img/blog/2020/designbrief-current.png)
+![Current icon](/assets/images/blog/2020/designbrief-current.png)
 
 ### The competition
 
 As you can see below, there's both some variety and a bunch of same-ish icons. Our aim is to get something unique :-)
 
-![competition1](/assets/img/blog/2020/designbrief-competition1.png) ![competition2](/assets/img/blog/2020/designbrief-competition2.png)
+![competition1](/assets/images/blog/2020/designbrief-competition1.png) ![competition2](/assets/images/blog/2020/designbrief-competition2.png)
 
 ## License
 
