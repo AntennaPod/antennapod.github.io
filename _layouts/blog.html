@@ -40,17 +40,6 @@
             </header>
             </div>
           </div>
-          <div class="col-lg-9">
-            <div class="post">
-                {% if page.cover %}
-                  {% assign cover = page.cover %}
-                {% elsif page.image %}
-                  {% assign cover = page.image %}
-                {% endif %}
-                {% if cover %}
-                <img class="w-100 cover curved-img" src="{{ site.baseurl_root }}/assets/images/posts/{{ cover }}" alt="{{ page.title }}" />
-                {% endif %}
-          </div>
         </div>
       </div>
     </div>

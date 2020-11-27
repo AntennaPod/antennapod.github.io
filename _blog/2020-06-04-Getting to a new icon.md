@@ -2,7 +2,7 @@
 title: Getting to a new icon
 excerpt: Starting the process to get to a new icon
 date: "2020-06-04 12:00:00"
-image: "pic.png"
+image: "2020/design.jpg"
 author: keunes
 layout: blog
 ---

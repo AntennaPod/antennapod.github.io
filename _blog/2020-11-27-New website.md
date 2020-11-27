@@ -2,7 +2,7 @@
 title: New website
 excerpt: We have a new, modern website!
 date: "2020-11-27 12:00:00"
-image: "pic.png"
+image: "2020/new-website.jpg"
 author: bytehamster
 layout: blog
 ---

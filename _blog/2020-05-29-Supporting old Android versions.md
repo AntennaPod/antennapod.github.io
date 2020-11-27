@@ -2,7 +2,7 @@
 title: Supporting old Android versions
 excerpt: Supporting old Android versions is hard
 date: "2020-05-29 12:00:00"
-image: "pic.png"
+image: "2020/old-phone.jpg"
 author: bytehamster
 layout: blog
 ---
