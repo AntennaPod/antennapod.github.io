@@ -14,6 +14,7 @@ permalink: /blog
     <div id="posts" class="container py-5">
         <div class="row">
                 {% for blog in site.blog reversed %}
+                {% if blog.unlisted != true %}
                     <div class="col-12 col-md-4 mb-4 d-flex">
                       <div class="highlight-card">
                         <a class="stretched-link" href="{{ blog.url | replace:'.html','' }}"></a>
@@ -28,6 +29,7 @@ permalink: /blog
                           </div>
                       </div>
                     </div>
+                {% endif %}
                 {% endfor %}
         </div>
     </div>

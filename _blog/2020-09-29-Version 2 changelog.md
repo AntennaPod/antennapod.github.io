@@ -5,6 +5,7 @@ date: "2020-09-29 12:00:00"
 image: "pic.png"
 author: keunes
 layout: blog
+unlisted: true
 ---
 
 AntennaPod version 2 released with a range of new features, bug fixes and improvements. Below you'll find an extensive list of highlights, with each time the Pull Request ID.
