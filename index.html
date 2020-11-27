@@ -14,40 +14,29 @@ layout: default
 </div>
 
 <div class="container-fluid">
-  <div class="container py-5">
-    <h1 class="weight-700" id="screenshots">Screenshots</h1>
-    <div class="row">
-      <div class="col-12 col-lg-4 col-md-6 mb-3 mb-md-0">
-
-        {% capture gallery %}images/screenshots/{{ site.lang }}{% endcapture %}
-
-        {% assign files = site.static_files %}
-
-        <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-
-            {% assign is_first = true %}
-            {% for image in files %}
-            {% if image.path contains gallery %}
-            <div class="carousel-item {% if is_first == true %}active{% assign is_first = false %}{% endif %}">
-              <figure>{{imgIndex}}
-                <img src="{{ site.baseurl_root }}{{ image.path }}" class="d-block w-100" alt="screenshot">
-              </figure>
+    <div class="container pt-3 pb-0">
+        <div class="row justify-content-between align-items-center py-5 text-left">
+            <div class="col-12 col-lg-6 order-2 order-lg-2">
+                <h2 class="color-gray-900 hero-header">{% t homepage.features.adfree.title %}</h2>
+                <p class="size-20 mb-4 color-gray-900">{% t homepage.features.adfree.description %}</p>
             </div>
-            {% endif %}
-            {% endfor %}
-
-          </div>
-          <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+            <div class="col-12 col-lg-5 order-1 order-lg-1 pl-lg-0 mb-4 mb-lg-0 text-right">
+                <img class="w-50" src="{{ site.baseurl_root }}/assets/images/screenshots/{{ site.lang }}/00.png" />
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container pt-3 pb-0">
+        <div class="row justify-content-between align-items-center py-5 text-right">
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <h2 class="color-gray-900 hero-header">{% t homepage.features.listenanywhere.title %}</h2>
+                <p class="size-20 mb-4 color-gray-900">{% t homepage.features.listenanywhere.description %}</p>
+            </div>
+            <div class="col-12 col-lg-5 order-1 order-lg-2 pl-lg-0 mb-4 mb-lg-0 text-left">
+                <img class="w-50" src="{{ site.baseurl_root }}/assets/images/screenshots/{{ site.lang }}/00.png" />
+            </div>
+        </div>
+    </div>
 </div>
