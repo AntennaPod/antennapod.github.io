@@ -1,0 +1,129 @@
+[
+  
+    {
+      "title"    : "Automatic deletion",
+      "url"      : "/documentation/automation/deletion",
+      "content"  : "Automatic deletionWhy are some downloaded episodes deleted?AntennaPod has several mechanisms to make sure downloaded podcasts will not fill up your phone’s memory. If you notice some downloaded episodes being deleted, have a look at these two settings:Episode CleanupEpisode Cleanup is located in Settings » Network » Automatic Download. If Automatic Download needs space for new episodes, it will delete old episodes that are not in the queue and not marked as favorite. You can add a delay (x time after playback) or Episode. The setting Episode Cache determines the maximum amount of downloaded episodes.Auto DeleteAuto Delete is located in Settings » Storage. When enabled, episodes are deleted when playback completes. You can disable this option."
+    } ,
+  
+    {
+      "title"    : "Feed updates",
+      "url"      : "/documentation/automation/feed-updates",
+      "content"  : "Keep updatedIf you disable global refresh for a feed then if you refresh the feed list from the queue, from the episodes list or from a scheduled update then that feed will not be refreshed. Further, any new episodes for the feed will not show up in Episodes » New though they will continue to show up under the Feed’s episode view."
+    } ,
+  
+    {
+      "title"    : "Automate Subscriptions Update with 3rd party automation applications",
+      "url"      : "/documentation/automation/tasker",
+      "content"  : "Automate Subscriptions Update with 3rd party automation applicationsWith AntennaPod, you can specify subscriptions (podcast feeds) to be updated with regular interval or at a particular time of day in Network » Automation settings.If you have more complex needs, you can use various 3rd-party automation applications with AntennaPod to do so. Examples:  Get the subscriptions updated at the start of the day: at 7am, switch on WIFI, then update AntennaPod feeds.  Update subscriptions 5pm weekdays.InstructionsIn your automation application, you then ask AntennaPod to update its subscriptions by sending a ‘Broadcast’ (it may be shown as a type of Android intent) with the following settings:  Package name: de.danoeh.antennapod  Class name: de.danoeh.antennapod.core.receiver.FeedUpdateReceiverInstructions for some automation appsAutomateIn a flow, add a block of the type APPS » Broadcast send, specify  Package to be de.danoeh.antennapod  Receiver class to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiverLlama - Location ProfilesCreate an event (Llama automation rule). In the event,  Add an action of type Android intent.  Specify Intent send mode to be Broadcast.  Specify Package name to be de.danoeh.antennapod  Specify Class name to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Add any other condition / actions for your specific needs.As a shortcut, you can click the this link to create an example event to get started.TaskerCreate a task. In the task, add an action  Select System  Select Send Intent  Specify Package name to be de.danoeh.antennapod  Specify Class name to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Specify Target to be Broadcast receiver  You can leave the other fields blankDisclaimer: AntennaPod community has no relationship with any of the 3rd-party automation applications listed."
+    } ,
+  
+    {
+      "title"    : "About ads in AntennaPod",
+      "url"      : "/documentation/general/ads",
+      "content"  : "About ads in AntennaPodOur builds are completely ad-free and open source! If you are seeing ads, this can have two reasons:  The podcast publishers added the ads to their shownotes or audio file.AntennaPod plays podcasts just like they were published by the creators. If they include ads, AntennaPod plays them. We have nothing to do with those ads, so the revenue fully goes to the publishers of your podcast.  You downloaded an inofficial version of AntennaPod.AntennaPod is open-source. This means that anyone can download the source code. Unfortunately, some developers take AntennaPod, insert ads and then publish it as a new app. You can get the official AntennaPod app on Google Play or F-Droid. You can even get the latest release on GitHub and build AntennaPod yourself!"
+    } ,
+  
+    {
+      "title"    : "Backing up your episodes",
+      "url"      : "/documentation/general/backup",
+      "content"  : "Backing up your episodesThere are a few options to copy your data to your new phone, and each method copies a certain amount of data:SynchronizationSync your subscriptions via gpodder.net. This will save some podcast &amp; episode data (e.g. playback position), but you will loose your favorites, queue, and app settings. For more details about gpodder, visit our documentation section about it.Database ExportExport the AntennaPod database. This is experimental, and you should make sure you have the same version of AntennaPod on both the old and new phone. After importing all data is restored; you will only need to re-download episodes.OPMLOPML files allow to transfer your subscriptions to another podcast app. You will loose any podcast- or episode-specific data (like if a specific episode has been played) and all app settings. To export your file, go to Settings » Storage »  Import/Export. Be sure to click Send… to save the file in another folder on your phone or somewhere else, because the original file will be deleted when you uninstall AntennaPod."
+    } ,
+  
+    {
+      "title"    : "Reporting a bug",
+      "url"      : "/documentation/general/bug-report",
+      "content"  : "I found a bug!That is sad to hear. Please let us know by creating a post on our forum. Please make sure to use the search function first, so the same bug is not reported multiple times. Please include the system information that is displayed in Settings » Report bug.You made a spelling mistakeTranslations are provided by the community. If you found a typo or would like to suggest a better translation, you can change the texts yourself on Transifex. While changing it yourself is the fastest method, you can also just write a post in the translators section of our forum."
+    } ,
+  
+    {
+      "title"    : "Central and distributed podcast apps",
+      "url"      : "/documentation/general/central-distributed",
+      "content"  : "Central and distributed podcast appsThere are basically two ways how to make a podcast app:  Central: There is a central server (run by the company that develops the app) that checks for new episodes and then delivers them to you.  Distributed: The app itself checks new episodes, directly from the podcast publishers.AntennaPod uses method 2, eg. we do not have a central server. There are a few advantages and disadvantages about that method.  Using the central method, if the company shuts down their server for whatever reason, the app will stop to work. AntennaPod will continue to work independently from what we do on our end because the app only looks at the podcast publisher’s websites to collect new episodes.  Using the central method, the company must operate the server, which costs money. Therefore, apps that use that approach are either paid or show ads. AntennaPod is developed by volunteers without making any money from it. The app is free and without advertisements but we can therefore not afford operating a server.  Using the central method, the server operator knows what podcasts you are subscribed to. They probably even know what episodes you listen to, what parts of the episodes and at what time you listen. AntennaPod does not know anything about that. We do not even have a server where we could collect that data.  If you listen to private feeds (some publishers sell their podcasts or give supporters early access to the episodes), the central method requires to send your password to the company running the app. Usually, the central services simply do not allow to add private feeds.  Using the central approach, the company running the app can keep episodes on their server even if they are deleted by the podcast publishers. Using the distributed approach, you can only access the episodes that the publishers specify in their feed. If you subscribe to a podcast using AntennaPod and the publisher deletes an episode, the app will keep the episode, too, but if you delete and re-install the app, it is gone (unless you make a backup). Everything happens locally on your device, so if the publishers do not list an episode, the distributed approach can not know that it exists.  Using the distributed approach, you can listen to all podcasts. Because your device itself looks for new episodes, app developers can not really censor what you can listen to by removing podcasts from their server."
+    } ,
+  
+    {
+      "title"    : "Using external storage",
+      "url"      : "/documentation/general/external-storage",
+      "content"  : "Using external storageYou can set AntennaPod to download episodes to your sd card instead of the internal memory. This ensures that you have more space for episodes. To select the storage card, go to Settings » Storage » Data folder.TroubleshootingIt might be possible that your SD card does not show up in the Choose Data Folder dialog. For your SD card to show up, Android must recognize the card as external storage. Either the card is not mounted correctly or the manufacturer or your smartphone configured the hardware incorrectly.If you are running Android 6+ (Marshmallow or newer), you can try formatting the SD card as internal storage. Else, there is nothing we can do to fix this."
+    } ,
+  
+    {
+      "title"    : "How to synchronize between devices",
+      "url"      : "/documentation/general/gpodder",
+      "content"  : "How to synchronize between devicesFor synchronization, AntennaPod uses the free service gpodder.net. In order to synchronize your clients, you need to create an account there.  After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:  After you created the devices, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of both devices synchronized.  Then, have a look at AntennaPod’s Settings » Synchronization). There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.You can also create a new device while logging in and link it later. The disadvantage of this is that only podcasts that were added after linking the devices are synchronized. Therefore, in order to get all your existing subscriptions synchronized, you need to create and link the devices before logging in (like it is described in this post). There is an open issue for gpodder.net that requests to change the behavior but for now, linking needs to be done before synchronizing.  Enjoy synchronization :)Old AntennaPod versions only upload the “played” state of episodes after signing in, so your old played episodes are not marked as played on the other client. This is changed in AntennaPod 2.0.0: there, you can press the Force sync button to also upload the played state of all episodes listened to earlier. AntennaPod 2.0.0 is not officially released yet but you can just press the Force sync button after it was released."
+    } ,
+  
+    {
+      "title"    : "Getting your podcast listed",
+      "url"      : "/documentation/general/list-podcast",
+      "content"  : "Getting your podcast listedIf you are a podcast producer and want to make your podcast visible in AntennaPod, this page is for you.AntennaPod mainly uses the iTunes podcast directory for its search feature. Podcast publishers usually list themselves on iTunes to be discoverable. This is already enough to be found in AntennaPod."
+    } ,
+  
+    {
+      "title"    : "Getting started",
+      "url"      : "/documentation/getting-started",
+      "content"  : "Getting started  Subscribe to a podcast  Why are some episodes missing?"
+    } ,
+  
+    {
+      "title"    : "Episodes are missing",
+      "url"      : "/documentation/getting-started/episodes-missing",
+      "content"  : "Episodes are missingAntennaPod is a decentralized podcast app. You can find some information about that here. This basically means that there is no central server that knows everything about each podcast. Episodes are loaded directly from the publisher’s website. If the publisher deletes an episode from their website, AntennaPod can no longer access it.Some publishers support a technique called “paged feeds”. If a publisher supports this, AntennaPod displays all episodes automatically."
+    } ,
+  
+    {
+      "title"    : "The New, The Played and the Unplayed",
+      "url"      : "/documentation/getting-started/new-played-unplayed",
+      "content"  : "The New, The Played and the UnplayedAn episode in Antennapod runs through three stages, generally; from New to Unplayed. This page describes the difference between these three.            New      Unplayed/Seen      Played                  Has a blue NEW label      White text      Greyed-out text              Any item that the user did not interact with (and thus hasn’t noticed)**      Any item which has been interacted with by the user**, but has not been played yet      Any item which has been played, or has been marked as played by the user              No action has been taken      New → Unplayed- User added item to the queue- User swiped item from new episodes- User downloaded item’s media (manually or via auto download)- User marked all episodes of a feed as ‘not new’      New or Unplayed/Seen → Played- User (manually) marked item as playedUnplayed/Seen → Played- User swiped item from queue- User played item to the end- Item was smart marked as played (item was played almost to the end)      ** exception: When a new feed is added, only the first feed item remains new, the other items are marked as unplayedMore infoA bit of history into the different episode states can be found in this Pull Request that introduced the ‘in process’ (now: Seen) state.Why auto-downloaded episodes aren’t marked as ‘New’For people that use the auto download feature, the New Episodes list can be used as a way to indicate which episodes one wants downloaded. You have for example auto download enabled, but only while charging. You refresh your feeds and see there are 10 items that are ‘New’. You can then swipe away the ones you know I don’t want to listen to. Later, when you plug in, only those episodes you want are downloaded.  If those auto-downloaded items were still marked ‘New’ then your list would be cluttered and you couldn’t tell what was what."
+    } ,
+  
+    {
+      "title"    : "Subscribing to a podcast",
+      "url"      : "/documentation/getting-started/subscribe",
+      "content"  : "Subscribing to a podcastThe first thing you want to do after downloading a podcast app is to subscribe to a podcast.SubscribingOpen the drawer by swiping from the left or tapping the = burger icon on the top left corner. Go to + Add Podcast. Now, you can search, browse suggestions or add a podcast by the RSS address.Alternatively, you can import an OPML file or only check the iTunes, gpodder.net or fyyd database respectively. Importing RSS or Atom feeds, or URL schemes like pcast:// and itpc://, will also work.Subscribing to third-party servicesWe got some questions about support for platforms like Soundcloud, Mixcloud and alike. While it may be cool to have a feature to simply paste/open channel URLs in AntennaPod, it’s been decided to not implement it. Such platforms may come and disappear, while it’s quite some work for our volunteers to implement this feature. If you’re a developer, you’re of course welcome to discuss a proposal that you’d be happy to implement.SoundcloudSoundcloud allows producers to create podcasts from their content pretty easily. You should reach out to them, share the SoundCloud help page (linked just before), and ask if they’re willing to set it up.MixcloudMixcloud unfortunately doesn’t offer this option for content creators. As always, there’s someone in the podcasting community to come up with a solution. You should check out the options as laid out in this post.YouTubeYouTube allows you subscribe to a channel’s feed, but:  AntennaPod cannot automatically download the videos, as YouTube doesn’t allow that. Showing ads is their business model, after all.  You won’t have an image connected to your subscription, as YouTube doesn’t include it in the feeds.But it is a way to get notified about new episodes. Just add the URL of the user/channel (https://www.youtube.com/user/USERNAME or https://www.youtube.com/channel/CHANNEL_ID) in AntennaPod. You should be presented with an dialog with the option ‘RSS’; tap to add the feed. If that doesn’t work as described, add https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt; to AntennaPod. You can find the channel id in the URL of the channel. If the channel you want to subscribe to is a user account (with a URL like youtube.com/user/UserName), you can contact the user to ask for their channel id (here it’s explained how users can find their channel id).We don’t have any information on other platforms, as you can see. We’re happy to include it here if you share your thoughts via the forum."
+    } ,
+  
+    {
+      "title"    : "What do do when playback crashes",
+      "url"      : "/documentation/playback/crashes",
+      "content"  : "What do to when playback crashesIf playback always stops a few seconds after turning off the screen, your system might be killing the app. Some vendors are known to be overly aggressive when trying to save battery. Try to add an exception for AntennaPod in the list of battery optimized apps.We use Android’s built-in audio decoders. A lot of devices are shipped with rather buggy MP4 decoders that lead to various playback issues and even native crashes (think Bluescreen). In our opinion, your best option is to subscribe to MP3 feeds whenever possible."
+    } ,
+  
+    {
+      "title"    : "Hardware keyboard shortcuts",
+      "url"      : "/documentation/playback/shortcuts",
+      "content"  : "Managing playback with a physical keyboardIf you have a physical (‘hardware’) keyboard connected to your phone or tablet, you can use certain shortcuts to control playback in AntennaPod.All screens (except video player and the settings)| Key | Action || – | – ||P | Play/Pause|| J/A/, | Rewind media || K/D/. | Forward media || +/W | Raise media volume channel || -/S | Lower media volume channel) || M | Mute/unmute (toggle) media volume channel (only on Android 6 and higher) |Video player| Key | Action || – | – || P/Space | Play/Pause || J/A/, | Rewind media || K/D/. | Forward media || F/Esc | Exit video player || i | Enter picture-in-picture mode || 0-9 | Go to 0-90% of the video || +/W | Raise media volume (channel) || -/S | Lower media volume (channel) || M | Mute/unmute (toggle) media volume channel (only on Android 6 and higher) |"
+    } ,
+  
+    {
+      "title"    : "About AntennaPod",
+      "url"      : "/documentation/project",
+      "content"  : "About AntennaPodAntennaPod is not developed by an organisation, but by volunteers throughout the world. Our support is provided by volunteers, too. If you have any questions, feel free to ask in our forum! We are happy to help. If you want to help others, you can reply to unanswered questions, contribute code or translate the app.  Joining the beta  How to contribute  Donations  Where to get AntennaPod"
+    } ,
+  
+    {
+      "title"    : "Beta testing",
+      "url"      : "/documentation/project/beta",
+      "content"  : "Beta testingAntennaPod has many users and we don’t want them to run into trouble when we add a new feature. It’s important that we have a significant group test our app, so that we know all possible combinations of phones, Android versions and use cases work as expected.Minor issues often crop up after major updates, and they’re only discovered via bug reports by users in these early stages. There is only one main developer who is working on this in his spare time. He only has a couple of devices to test things on, whilst behaviour can vary from device to device.Google PlayEvery new version of AntennaPod is sent to our Beta Testers via the Google Play store, before it is shipped to the general public. It allows us to test updates on many different devices and Android versions, so we can catch bugs and user experience issues on time. If you have a critical eye and can explain what’s going wrong, your help is very welcome! In addition, if you see something you don’t like you’re more likely to get it changed to match what you do want.So you want to have the latest and greatest? That’s certainly possible! Simply visit the AntennaPod listing in the Play store and go to “Become a beta tester” at the bottom of the page. Or, if you’re at your computer, you can go to this url.F-DroidWe do not currently offer beta versions on the F-Droid store."
+    } ,
+  
+    {
+      "title"    : "Donations",
+      "url"      : "/documentation/project/donate",
+      "content"  : "DonationsThank you for considering a donation. The current developers decided to not accept donations. If you have some time to spare, we would warmly welcome your involvement in our community."
+    } ,
+  
+    {
+      "title"    : "App stores",
+      "url"      : "/documentation/project/stores",
+      "content"  : "App storesAntennaPod is only officially published in 2 stores. Unfortunately, we don’t have the time to support any other store than Google Play and F-Droid. All other stores listing AntennaPod copied the app without our explicit permission. We are not responsible for updating those or making sure they work correctly.Google PlayYou can find the app here.F-DroidYou can find the app here.The F-Droid repository is not maintained by us, but by the people behind F-Droid. If it is not the latest version, there’s not so much we can do but you can always let us know by creating a post on our forum, and we’ll investigate it."
+    } ,
+  
+    {
+      "title"    : "Locking the queue",
+      "url"      : "/documentation/queue/lock",
+      "content"  : "Locking the queueA pretty common problem experienced by users is that they suddenly can not manually reorder the queue.If you can’t move episodes around in the queue, this can be caused by either of the following:  Keep Sorted is enabled. You can disable this by tapping the three dots … in the top bar and select Sort.  The queue is locked. You can unlock the queue by tapping on the unlock icon in the top bar:"
+    } 
+  
+]

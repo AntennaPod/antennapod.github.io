@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  
+  
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2.0.0 release – AntennaPod</title>
+  <meta name="description" content="We just released version 2.0.0 of AntennaPod">
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2.0.0 release">
+  <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
+  
+  <meta property="twitter:image:src" content="pic.png">
+  
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="//de/blog/2020/09/2-0-0-release">
+  <meta property="og:title" content="2.0.0 release – AntennaPod">
+  
+  <meta property="og:image" content="pic.png">
+  
+
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
+  <meta property="og:site_name" content="AntennaPod">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/de/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="canonical" href="//de/blog/2020/09/2-0-0-release">
+  <!-- JavaScript -->
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/search.min.js"></script>
+</head>
+
+
+<body>
+  <div class="content">
+  <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/de">
+                    <img class="smallermobile" src="/assets/logos/logo.png" width="260px" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/de/about">About</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/de/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/de/contribute">Contribute</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/de/documentation">Documentation</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/dehttps://forum.antennapod.org/">Forum</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span
+                                    class="ml-1 size-16 color-gray-900 weight-600">DE</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/blog/2020/09/2-0-0-release">English</a>
+                                <a class="dropdown-item" onchange="location = this.value;"
+                                    href="/de/blog/2020/09/2-0-0-release">Deutsch</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span
+                                class="ml-1 size-16 color-gray-900 weight-600">DE</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/blog/2020/09/2-0-0-release">English</a>
+                            <a class="dropdown-item" onchange="location = this.value;"
+                                href="/de/blog/2020/09/2-0-0-release">Deutsch</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img
+                        src="/assets/images/icons/burger.svg" /></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">&times;</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto"
+                    alt="AntennaPod logo" />
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/de/about">About</a>
+                
+                <a href="/de/blog">Blog</a>
+                
+                <a href="/de/contribute">Contribute</a>
+                
+                <a href="/de/documentation">Documentation</a>
+                
+                <a href="/dehttps://forum.antennapod.org/">Forum</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank"
+                    rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank"
+                    rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="' + location.pathname.slice(0, -1) + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+  <div class="container-fluid">
+    <div class="container py-3">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-9 col-sm-12 pt-3">
+          <div class="post">
+
+            
+
+            <header class="post-header">
+              <p class="size-14 color-orange-900 mb-2 weight-500">
+              
+              
+              </p>
+              <h1 class="size-36 weight-700 color-gray-900">2.0.0 release</h1>
+              
+              
+              <p class="size-14 weight-600 color-gray-500">1 min read</p>
+              
+              <div class="row no-gutters align-items-center justify-content-between my-3">
+                <p class="size-14 weight-700 color-gray-900 mb-0">
+                  
+                  <img class="round-img" src="/assets/images/authors/bytehamster.png" width="40px" height="auto" />
+                  <a class="underline" href="https://github.com/ByteHamster" target="_blank" rel="noopener">ByteHamster</a>
+                  
+                  • 
+                  
+                  Sep 8, 2020
+                </p>
+                <div class="inline-flex">
+
+        
+
+   <p class="size-14 color-gray-900 mb-0 mr-2">Teilen</p>
+    <button class="copy-link" aria-label="Copy to clipboard" onclick="copyUrl();" title="Copy to clipboard"><span data-tooltip="Link copied!" data-flow="top">
+    <i class="fas fa-link color-gray-600 size-20 mr-2"></i></button>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=//blog/2020/09/2-0-0-release"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+    <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+    </a>
+    <a aria-label="Share on Mastodon" href="#" onclick="share_on_mastodon();" title="Share on Mastodon">
+    <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=//blog/2020/09/2-0-0-release&hashtags="
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Share on Twitter">
+    <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Share via email" href="mailto:?subject=I wanted you to see this&amp;body=Check out this article //blog/2020/09/2-0-0-release by " title="Share via email">
+        <i class="fas fa-envelope size-20 color-gray-600"></i>
+    </a>
+</div>
+
+<script>
+    function copyUrl() {
+      if (!window.getSelection) {
+        alert('Please copy the URL from the location bar.');
+        return;
+      }
+      const dummy = document.createElement('p');
+      dummy.textContent = window.location.href;
+      document.body.appendChild(dummy);
+    
+      const range = document.createRange();
+      range.setStartBefore(dummy);
+      range.setEndAfter(dummy);
+    
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    
+      document.execCommand('copy');
+      document.body.removeChild(dummy);
+    }
+</script>
+    
+<script>
+  // The actual function. Set this as an onclick function for your "Share on Mastodon" button
+  function share_on_mastodon() {
+          // Prefill the form with the user's previously-specified Mastodon instance, if applicable
+          var default_url = localStorage['mastodon_instance']; 
+  
+          // If there is no cached instance/domain, then insert a "https://" with no domain at the start of the prompt. 
+          if (!default_url)
+                  default_url = "https://"; 
+  
+          var instance = prompt("Enter your instance's address: (ex: https://mastodon.social)", default_url);
+          if (instance) { 
+                  // Handle URL formats
+                  if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
+                          instance = "https://" + instance;  
+  
+                  // Get the current page's URL
+                  var url   = window.location.href;
+          
+                  // Get the page title from the og:title meta tag, if it exists.
+                  var title = document.querySelectorAll('meta[property="og:title"]')[0].getAttribute("content"); 
+          
+                  // Otherwise, use the <title> tag as the title
+                  if (!title)    var title = document.getElementsByTagName("title")[0].innerHTML;
+          
+                  // Handle slash
+                  if ( !instance.endsWith("/") )
+                          instance = instance + "/"; 
+  
+                  // Cache the instance/domain for future requests
+                  localStorage['mastodon_instance'] = instance; 
+  
+                  // Hashtags 
+                  hashtags     =  "";
+  
+                  // Tagging users, such as offical accounts or the author of the post 
+                  var author   = "ByteHamster"; 
+  
+                  // Create the Share URL
+                  // https://someinstance.tld/share?text=URL%20encoded%20text
+                  mastodon_url = instance + "share?text=" + encodeURIComponent(title + "\n\n" + url + "\n\n" + hashtags + " " + author);
+  
+                  // Open a new window at the share location   
+                  window.open(mastodon_url, '_blank');
+          }
+  }
+  </script>
+              </div>
+            </header>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="post">
+                
+                
+                <img class="w-100 cover curved-img" src="/assets/images/posts/pic.png" alt="2.0.0 release" />
+                
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container py-3">
+
+
+      <div class="row no-gutters justify-content-center pb-4">
+        <div class="col-lg-9">
+          <article class="post-content pb-3">
+            <p>Version 2.0.0 is a big step forward for AntennaPod. We rewrote big parts of the user interface, added tons of new features and fixed bugs.</p>
+
+<ul>
+  <li>Brand new user interface (by @ByteHamster)<br />
+We got rid of unneccessary icons and unneccessary whitespace. You can now see more podcast episodes on your screen and it looks more tidy. Don’t worry - AntennaPod still has the same feel and the way you interact with the app has not changed. It just looks more polished!</li>
+  <li>Support for chapter images (by @ByteHamster)<br />
+When loading new episodes of a podcast, AntennaPod now supports displaying chapter images. Just play an episode that supports images, head over to the chapters tab on the player screen and have a look!</li>
+  <li>Skip intro and ending per feed (by @tonytamsf)<br />
+The option is located in feed settings, which you can get to by pressing the cogwheel icon on the feed page.</li>
+  <li>Option to show notifications after episodes have been auto-downloaded (by @shortspider)<br />
+This is one step into the direction of our most requested feature: being notified for new episodes.</li>
+  <li>Bug fixes and improvements (by @ebraminio, @tonytamsf, @JessieVela, @ByteHamster and more)<br />
+We have fixed too many things to list them all. They include things like better support for right-to-left languages or fixes when jumping to positions in an episode.</li>
+</ul>
+
+<p>You can see the full, huge list of changes on our development platform, <a href="https://github.com/AntennaPod/AntennaPod/compare/1.8.1...2.0.0">GitHub</a>.</p>
+
+<p>As of writing this, version 2.0.0 is rolled out to 100% of the Google Play users. At the same time, the first beta release of version 2.1.0 is rolled out to our beta testers. AntennaPod is developed by volunteers in our free-time. If you like AntennaPod and want to give something back to the community, consider contributing by helping other users in the <a href="https://forum.antennapod.org/">forum</a>, <a href="https://www.transifex.com/antennapod/antennapod/">translating</a> or by <a href="https://github.com/AntennaPod/AntennaPod">writing code</a>.</p>
+
+          </article>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row no-gutters pt-4">
+            <h2 class="size-24 color-gray-900 pb-2"></h2>
+      </div>
+
+        <div class="row no-gutters pb-4">
+            <div class="row justify-content-start">
+
+                  
+
+                  
+
+            </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+  <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1"
+            d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/de"><img
+                                src="/assets/logos/logo.png" width="260px" /></a></div>
+                    <p class="size-14 color-gray-900 mb-3">The easy-to-use, flexible and open-source podcast manager for Android.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/de/about"><span>Über uns</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/de/contribute"><span>Contribute</span></a>
+                        </div>
+                        <div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/de/documentation"><span>Documentation</span></a>
+                        </div>
+                        <div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/de/download"><span>Download</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/de/blog"><span>Blog</span></a></div>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod"
+                            target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod"
+                            target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">&copy;&nbsp;2020&nbsp;AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover"
+                            href="/de/license">License</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover"
+                            href="/de/privacy">Datenschutzerklärung</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
