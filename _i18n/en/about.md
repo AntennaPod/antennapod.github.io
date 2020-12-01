@@ -1,1 +1,1 @@
-AntennaPod is a podcast application that is developed by podcast enthusiasts like you.
+AntennaPod is not developed by an organisation, but by volunteers throughout the world. Our support is provided by volunteers, too. If you have any questions, feel free to ask in our [forum](https://forum.antennapod.org)! We are happy to help. If you want to give something back to the AnennaPod project, check out ways to [contribute](/contribute/).
