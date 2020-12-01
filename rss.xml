@@ -1,0 +1,31 @@
+---
+layout: null
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>AntennaPod Blog</title>
+        <description>AntennaPod Blog posts</description>
+        <link>{{ site.url }}/blog/</link>
+        <image>
+            <url>{{ site.url }}/assets/android-chrome-512x512.png</url>
+            <title>AntennaPod Blog</title>
+        </image>
+        <language>en-us</language>
+
+        {% for blog in site.blog reversed %}
+        {% if blog.unlisted != true %}
+        <item>
+            <title>{{ blog.title }}</title>
+            <link>{{ blog.url | replace:'.html','' | prepend: site.url }}</link>
+            <guid isPermaLink="false">{{ blog.url | replace:'.html','' | prepend: site.url }}</guid>
+            {% assign url_and_equals = '="' | append: site.url | append: '/' %}
+            <description><![CDATA[ {{ blog.content | replace:'="/',url_and_equals }} ]]></description>
+            <pubDate>{{ blog.date | date_to_rfc822 }}</pubDate>
+            <itunes:image href="{{ site.url }}/assets/img/blog/{{ blog.image }}" />
+        </item>
+        {% endif %}
+        {% endfor %}
+
+    </channel>
+</rss>
