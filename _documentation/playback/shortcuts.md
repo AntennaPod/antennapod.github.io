@@ -11,6 +11,7 @@ icon: "fas fa-keyboard"
 If you have a physical ('hardware') keyboard connected to your phone or tablet, you can use certain shortcuts to control playback in AntennaPod.
 
 ### All screens (except video player and the settings)
+
 | Key | Action |
 | -- | -- |
 |`P` | Play/Pause|
@@ -21,6 +22,7 @@ If you have a physical ('hardware') keyboard connected to your phone or tablet, 
 | `M` | Mute/unmute (toggle) media volume channel (only on Android 6 and higher) |
 
 ### Video player
+
 | Key | Action |
 | -- | -- |
 | `P`/`Space` | Play/Pause |
