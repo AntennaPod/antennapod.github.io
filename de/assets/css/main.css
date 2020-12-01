@@ -2972,4 +2972,11 @@ img.phone { border: 10px solid #888; border-top-width: 30px; border-bottom-width
 
 .half-phone { border: 10px solid #888; border-top-width: 30px; border-bottom: none; border-top-left-radius: 20px; border-top-right-radius: 20px; background: #000; max-height: 200px; overflow: hidden; }
 
+#search-input { outline: none; cursor: auto; padding: 15px; }
+
+#search-input:focus, .project-card:hover { border-color: #666; }
+
+/* We don't need code and use it as buttons instead */
+code.language-plaintext { padding: 0px 8px 2px 8px; border: 1px solid #ccc; border-radius: 3px; color: inherit; font-family: inherit; font-size: inherit; }
+
 /*# sourceMappingURL=main.css.map */

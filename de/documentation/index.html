@@ -27,6 +27,9 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta property="og:site_name" content="AntennaPod">
+  
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="rss.xml">
+  
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
@@ -179,14 +182,10 @@
 
 <div class="container-fluid">
   <div class="container pt-5">
-    <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod website.</p>
-    <p class="color-gray-900">This section aims to provide information on current features (and give some pointers on
-      future direction where possible). However as a living project, the section is a constant work-in-progress and is
-      often developed along-side / after the features themselves.</p>
-    <p class="color-gray-900 mb-4">If you have any comments please feel free to <a class="text-main underline"
-        href="../contribute">provide feedback</a>.</p>
+    <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod. This section aims to provide information on current features.</p>
 
-    <input type="text" id="search-input" placeholder="Search documentation...">
+    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="Search documentation...">
+    
     <ul class="pt-3" id="results-container"></ul>
   </div>
 </div>
@@ -196,6 +195,15 @@
     <div class="row justify-content-start pb-4">
       
       
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+<a class="text-decoration-none" href="/documentation/automation">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-robot size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">Automation</h4>
+    </div>
+</a>
+</div>
+
       
       
       
@@ -205,6 +213,15 @@
       
       
       
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+<a class="text-decoration-none" href="/documentation/general">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-info size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">General</h4>
+    </div>
+</a>
+</div>
+
       
       
       
@@ -227,22 +244,14 @@
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-        <a href="/documentation/getting-started">
-          <div class="card shadow-sm project-card">
-            <i class="fas fa-users size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Getting started</h4>
-          </div>
-        </a>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
+<a class="text-decoration-none" href="/documentation/getting-started">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-users size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">Getting started</h4>
+    </div>
+</a>
+</div>
+
       
       
       
@@ -253,13 +262,14 @@
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-        <a href="/documentation/project">
-          <div class="card shadow-sm project-card">
-            <i class="fas fa-users size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">About AntennaPod</h4>
-          </div>
-        </a>
-      </div>
+<a class="text-decoration-none" href="/documentation/playback">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-play size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">Playback</h4>
+    </div>
+</a>
+</div>
+
       
       
       
@@ -267,7 +277,15 @@
       
       
       
-      
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+<a class="text-decoration-none" href="/documentation/queue">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-list size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">Queue</h4>
+    </div>
+</a>
+</div>
+
       
       
       
@@ -289,6 +307,7 @@
     json: '/search.json'
   })
 </script>
+
     </div>
     <div class="container-fluid svg-wave no-padding">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

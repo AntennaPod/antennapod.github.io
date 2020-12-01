@@ -27,6 +27,9 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta property="og:site_name" content="AntennaPod">
+  
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="rss.xml">
+  
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
@@ -197,29 +200,148 @@
 <p>If you have a physical (‘hardware’) keyboard connected to your phone or tablet, you can use certain shortcuts to control playback in AntennaPod.</p>
 
 <h3 id="all-screens-except-video-player-and-the-settings">All screens (except video player and the settings)</h3>
-<p>| Key | Action |
-| – | – |
-|<code class="language-plaintext highlighter-rouge">P</code> | Play/Pause|
-| <code class="language-plaintext highlighter-rouge">J</code>/<code class="language-plaintext highlighter-rouge">A</code>/<code class="language-plaintext highlighter-rouge">,</code> | Rewind media |
-| <code class="language-plaintext highlighter-rouge">K</code>/<code class="language-plaintext highlighter-rouge">D</code>/<code class="language-plaintext highlighter-rouge">.</code> | Forward media |
-| <code class="language-plaintext highlighter-rouge">+</code>/<code class="language-plaintext highlighter-rouge">W</code> | Raise media volume channel |
-| <code class="language-plaintext highlighter-rouge">-</code>/<code class="language-plaintext highlighter-rouge">S</code> | Lower media volume channel) |
-| <code class="language-plaintext highlighter-rouge">M</code> | Mute/unmute (toggle) media volume channel (only on Android 6 and higher) |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">P</code></td>
+      <td>Play/Pause</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">J</code>/<code class="language-plaintext highlighter-rouge">A</code>/<code class="language-plaintext highlighter-rouge">,</code></td>
+      <td>Rewind media</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">K</code>/<code class="language-plaintext highlighter-rouge">D</code>/<code class="language-plaintext highlighter-rouge">.</code></td>
+      <td>Forward media</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">+</code>/<code class="language-plaintext highlighter-rouge">W</code></td>
+      <td>Raise media volume channel</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-</code>/<code class="language-plaintext highlighter-rouge">S</code></td>
+      <td>Lower media volume channel)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">M</code></td>
+      <td>Mute/unmute (toggle) media volume channel (only on Android 6 and higher)</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="video-player">Video player</h3>
-<p>| Key | Action |
-| – | – |
-| <code class="language-plaintext highlighter-rouge">P</code>/<code class="language-plaintext highlighter-rouge">Space</code> | Play/Pause |
-| <code class="language-plaintext highlighter-rouge">J</code>/<code class="language-plaintext highlighter-rouge">A</code>/<code class="language-plaintext highlighter-rouge">,</code> | Rewind media |
-| <code class="language-plaintext highlighter-rouge">K</code>/<code class="language-plaintext highlighter-rouge">D</code>/<code class="language-plaintext highlighter-rouge">.</code> | Forward media |
-| <code class="language-plaintext highlighter-rouge">F</code>/<code class="language-plaintext highlighter-rouge">Esc</code> | Exit video player |
-| <code class="language-plaintext highlighter-rouge">i</code> | Enter picture-in-picture mode |
-| <code class="language-plaintext highlighter-rouge">0</code>-<code class="language-plaintext highlighter-rouge">9</code> | Go to 0-90% of the video |
-| <code class="language-plaintext highlighter-rouge">+</code>/<code class="language-plaintext highlighter-rouge">W</code> | Raise media volume (channel) |
-| <code class="language-plaintext highlighter-rouge">-</code>/<code class="language-plaintext highlighter-rouge">S</code> | Lower media volume (channel) |
-| <code class="language-plaintext highlighter-rouge">M</code> | Mute/unmute (toggle) media volume channel (only on Android 6 and higher) |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">P</code>/<code class="language-plaintext highlighter-rouge">Space</code></td>
+      <td>Play/Pause</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">J</code>/<code class="language-plaintext highlighter-rouge">A</code>/<code class="language-plaintext highlighter-rouge">,</code></td>
+      <td>Rewind media</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">K</code>/<code class="language-plaintext highlighter-rouge">D</code>/<code class="language-plaintext highlighter-rouge">.</code></td>
+      <td>Forward media</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">F</code>/<code class="language-plaintext highlighter-rouge">Esc</code></td>
+      <td>Exit video player</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">i</code></td>
+      <td>Enter picture-in-picture mode</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">0</code>-<code class="language-plaintext highlighter-rouge">9</code></td>
+      <td>Go to 0-90% of the video</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">+</code>/<code class="language-plaintext highlighter-rouge">W</code></td>
+      <td>Raise media volume (channel)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-</code>/<code class="language-plaintext highlighter-rouge">S</code></td>
+      <td>Lower media volume (channel)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">M</code></td>
+      <td>Mute/unmute (toggle) media volume channel (only on Android 6 and higher)</td>
+    </tr>
+  </tbody>
+</table>
 
             </article>
+            
+            <div class="container-fluid">
+                <div class="container py-3">
+                    <div class="row justify-content-start pb-4">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
