@@ -24,3 +24,13 @@ img.phone {
     max-height: 200px;
     overflow: hidden;
 }
+
+#search-input {
+    outline: none;
+    cursor: auto;
+    padding: 15px;
+}
+
+#search-input:focus, .project-card:hover {
+    border-color: #666;
+}

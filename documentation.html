@@ -12,14 +12,10 @@ permalink: /documentation/
 
 <div class="container-fluid">
   <div class="container pt-5">
-    <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod website.</p>
-    <p class="color-gray-900">This section aims to provide information on current features (and give some pointers on
-      future direction where possible). However as a living project, the section is a constant work-in-progress and is
-      often developed along-side / after the features themselves.</p>
-    <p class="color-gray-900 mb-4">If you have any comments please feel free to <a class="text-main underline"
-        href="../contribute">provide feedback</a>.</p>
+    <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod. This section aims to provide information on current features.</p>
 
-    <input type="text" id="search-input" placeholder="Search documentation...">
+    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="Search documentation...">
+    
     <ul class="pt-3" id="results-container"></ul>
   </div>
 </div>
@@ -30,14 +26,13 @@ permalink: /documentation/
       {% for documentation in site.documentation %}
       {% if documentation.level == "1" %}
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-        <a href="{{ documentation.url | replace:'.html','' }}">
+        <a class="text-decoration-none" href="{{ documentation.url | replace:'.html','' }}">
           <div class="card shadow-sm project-card">
             <i class="{{ documentation.icon }} size-36 text-main mb-3"></i>
             <h4 class="text-main weight-700">{{ documentation.title }}</h4>
           </div>
         </a>
       </div>
-      {% else %}
       {% endif %}
       {% endfor %}
     </div>
