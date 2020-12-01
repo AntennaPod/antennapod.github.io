@@ -1,6 +1,9 @@
 ---
 title: Donations
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-heart"
 ---
 
 # Donations

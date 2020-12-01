@@ -1,6 +1,9 @@
 ---
 title: Hardware keyboard shortcuts
 layout: doc
+level: "2"
+group: "playback"
+icon: "fas fa-keyboard"
 ---
 
 # Managing playback with a physical keyboard

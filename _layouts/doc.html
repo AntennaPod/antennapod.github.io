@@ -11,6 +11,18 @@
                 {% include breadcrumbs.html %}
                 {{ content }}
             </article>
+            
+            <div class="container-fluid">
+                <div class="container py-3">
+                    <div class="row justify-content-start pb-4">
+                    {% for documentation in site.documentation %}
+                    {% if documentation.group == page.group and documentation.level > page.level %}
+                    {% include doc-button.html item=documentation %}
+                    {% endif %}
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

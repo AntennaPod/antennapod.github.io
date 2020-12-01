@@ -2,10 +2,10 @@
 title: Getting started
 layout: doc
 level: "1"
+group: "getting-started"
 icon: "fas fa-users"
 ---
 
 # Getting started
 
-* [Subscribe to a podcast](/documentation/getting-started/subscribe)
-* [Why are some episodes missing?](/documentation/getting-started/episodes-missing)
+Welcome to AntennaPod! Below, you can find some common questions that you could have when opening AntennaPod for the first time.

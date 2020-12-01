@@ -1,6 +1,9 @@
 ---
 title: How to synchronize between devices
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-sync"
 ---
 
 # How to synchronize between devices

@@ -1,6 +1,9 @@
 ---
 title: What do do when playback crashes
 layout: doc
+level: "2"
+group: "playback"
+icon: "fas fa-bug"
 ---
 
 # What do to when playback crashes

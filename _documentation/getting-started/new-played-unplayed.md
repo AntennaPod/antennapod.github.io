@@ -1,6 +1,9 @@
 ---
 title: The New, The Played and the Unplayed
 layout: doc
+level: "2"
+group: "getting-started"
+icon: "fas fa-play"
 ---
 
 # The New, The Played and the Unplayed

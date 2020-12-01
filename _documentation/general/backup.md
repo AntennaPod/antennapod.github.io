@@ -1,6 +1,9 @@
 ---
 title: Backing up your episodes
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-file-export"
 ---
 
 # Backing up your episodes

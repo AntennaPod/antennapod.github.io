@@ -25,14 +25,7 @@ permalink: /documentation/
     <div class="row justify-content-start pb-4">
       {% for documentation in site.documentation %}
       {% if documentation.level == "1" %}
-      <div class="col-12 col-md-3 mb-3 mb-md-3">
-        <a class="text-decoration-none" href="{{ documentation.url | replace:'.html','' }}">
-          <div class="card shadow-sm project-card">
-            <i class="{{ documentation.icon }} size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">{{ documentation.title }}</h4>
-          </div>
-        </a>
-      </div>
+      {% include doc-button.html item=documentation %}
       {% endif %}
       {% endfor %}
     </div>

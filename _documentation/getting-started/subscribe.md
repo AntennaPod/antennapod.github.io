@@ -1,6 +1,9 @@
 ---
 title: Subscribing to a podcast
 layout: doc
+level: "2"
+group: "getting-started"
+icon: "fas fa-plus"
 ---
 
 # Subscribing to a podcast

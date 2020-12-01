@@ -1,6 +1,9 @@
 ---
 title: Episodes are missing
 layout: doc
+level: "2"
+group: "getting-started"
+icon: "fas fa-question"
 ---
 
 # Episodes are missing

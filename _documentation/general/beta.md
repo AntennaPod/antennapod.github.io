@@ -1,6 +1,9 @@
 ---
 title: Beta testing
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-vial"
 ---
 
 # Beta testing

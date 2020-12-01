@@ -1,6 +1,9 @@
 ---
 title: Feed updates
 layout: doc
+level: "2"
+group: "automation"
+icon: "fas fa-sync-alt"
 ---
 
 # Keep updated

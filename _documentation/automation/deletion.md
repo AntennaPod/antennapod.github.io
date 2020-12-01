@@ -1,6 +1,9 @@
 ---
 title: Automatic deletion
 layout: doc
+level: "2"
+group: "automation"
+icon: "fas fa-trash"
 ---
 
 # Automatic deletion

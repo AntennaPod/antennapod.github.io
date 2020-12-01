@@ -1,9 +1,12 @@
 ---
-title: Automate Subscriptions Update with 3rd party automation applications
+title: 3rd party integration
 layout: doc
+level: "2"
+group: "automation"
+icon: "fas fa-robot"
 ---
 
-# Automate Subscriptions Update with 3rd party automation applications
+# Integration with 3rd party automation applications
 
 With AntennaPod, you can specify subscriptions (podcast feeds) to be updated with regular interval or at a particular time of day in `Network` » `Automation` settings.
 

@@ -1,6 +1,9 @@
 ---
 title: Reporting a bug
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-bug"
 ---
 
 # I found a bug!

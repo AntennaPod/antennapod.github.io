@@ -1,6 +1,9 @@
 ---
 title: Using external storage
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-hdd"
 ---
 
 # Using external storage

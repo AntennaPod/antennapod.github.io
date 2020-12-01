@@ -1,6 +1,9 @@
 ---
 title: Locking the queue
 layout: doc
+level: "2"
+group: "queue"
+icon: "fas fa-lock"
 ---
 
 # Locking the queue

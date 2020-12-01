@@ -1,6 +1,9 @@
 ---
 title: Central and distributed podcast apps
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-server"
 ---
 
 # Central and distributed podcast apps

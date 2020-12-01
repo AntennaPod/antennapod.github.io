@@ -1,6 +1,9 @@
 ---
 title: Getting your podcast listed
 layout: doc
+level: "2"
+group: "general"
+icon: "fas fa-plus"
 ---
 
 # Getting your podcast listed

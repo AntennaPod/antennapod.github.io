@@ -1,6 +1,9 @@
 ---
 title: About ads in AntennaPod
 layout: doc
+level: "2"
+group: "automation"
+icon: "fas fa-ad"
 ---
 
 # About ads in AntennaPod
