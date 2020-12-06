@@ -21,7 +21,7 @@ We got some questions about support for platforms like Soundcloud, Mixcloud and 
 Soundcloud allows [producers to create podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed) from their content pretty easily. You should reach out to them, share the SoundCloud help page (linked just before), and ask if they're willing to set it up.
 
 ### Mixcloud
-Mixcloud unfortunately doesn't offer this option for content creators. As always, there's someone in the podcasting community to come up with a solution. You should [check out the options](http://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures) as laid out in this post.
+Mixcloud unfortunately doesn't offer this option for content creators. As always, there's someone in the podcasting community to come up with a solution. You should [check out the options](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures) as laid out in this post.
 
 ### YouTube
 YouTube allows you subscribe to a channel's feed, but:
