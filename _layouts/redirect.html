@@ -1,0 +1,22 @@
+---
+layout: internal
+---
+
+<div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1 class="color-gray-800 weight-700">{% t generic.redirect %}</h1>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <article class="post-content">
+            This page was moved. <a href="{{ page.redirect_to }}">Click here if you are not redirected.<a>
+            <script>location='{{ page.redirect_to }}'</script>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

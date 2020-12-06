@@ -1,0 +1,168 @@
+// Default colors
+$white: #fff;
+$black: #000;
+
+// Brand palette
+
+$brand-list: (
+  "primary": #177ef0,
+  "secondary": #23a7ff,
+  "lightblue": #c0e6fb,
+  "green": #4ad373,
+  "red": #ff5353,
+  "gray": #f6f6f6,
+  "dark": #3f3f3f,
+  "gradient": #c0e6fb,
+);
+
+$brand-primary: map-get($brand-list, "primary");
+$brand-secondary: map-get($brand-list, "secondary");
+$brand-lightblue: map-get($brand-list, "lightblue");
+$brand-green: map-get($brand-list, "green");
+$brand-red: map-get($brand-list, "red");
+$brand-gray: map-get($brand-list, "gray");
+$brand-dark: map-get($brand-list, "dark");
+$brand-gradient: map-get($brand-list, "gradient");
+
+//  Gray
+
+$gray-list: (
+  "100": #f7fafc,
+  "200": #edf2f7,
+  "300": #e2e8f0,
+  "400": #cbd5e0,
+  "500": #a0aec0,
+  "600": #718096,
+  "700": #4a5568,
+  "800": #2d3748,
+  "900": #1a202c,
+);
+
+$gray-100: map-get($gray-list, "100");
+$gray-200: map-get($gray-list, "200");
+$gray-300: map-get($gray-list, "300");
+$gray-400: map-get($gray-list, "400");
+$gray-500: map-get($gray-list, "500");
+$gray-600: map-get($gray-list, "600");
+$gray-700: map-get($gray-list, "700");
+$gray-800: map-get($gray-list, "800");
+$gray-900: map-get($gray-list, "900");
+
+//  Orange
+
+$orange-list: (
+  "100": #fffaf0,
+  "200": #feebc8,
+  "300": #fbd38d,
+  "400": #f6ad55,
+  "500": #ed8936,
+  "600": #dd6b20,
+  "700": #c05621,
+  "800": #9c4221,
+  "900": #7b341e,
+);
+
+$orange-100: map-get($orange-list, "100");
+$orange-200: map-get($orange-list, "200");
+$orange-300: map-get($orange-list, "300");
+$orange-400: map-get($orange-list, "400");
+$orange-500: map-get($orange-list, "500");
+$orange-600: map-get($orange-list, "600");
+$orange-700: map-get($orange-list, "700");
+$orange-800: map-get($orange-list, "800");
+$orange-900: map-get($orange-list, "900");
+
+//  Green
+
+$green-list: (
+  "100": #f0fff4,
+  "200": #c6f6d5,
+  "300": #9ae6b4,
+  "400": #68d391,
+  "500": #48bb78,
+  "600": #38a169,
+  "700": #2f855a,
+  "800": #276749,
+  "900": #22543d,
+);
+
+$green-100: map-get($green-list, "100");
+$green-200: map-get($green-list, "200");
+$green-300: map-get($green-list, "300");
+$green-400: map-get($green-list, "400");
+$green-500: map-get($green-list, "500");
+$green-600: map-get($green-list, "600");
+$green-700: map-get($green-list, "700");
+$green-800: map-get($green-list, "800");
+$green-900: map-get($green-list, "900");
+
+// Teal
+
+$teal-list: (
+  "100": #e6fffa,
+  "200": #b2f5ea,
+  "300": #81e6d9,
+  "400": #4fd1c5,
+  "500": #38b2ac,
+  "600": #319795,
+  "700": #2c7a7b,
+  "800": #285e61,
+  "900": #234e52,
+);
+
+$teal-100: map-get($teal-list, "100");
+$teal-200: map-get($teal-list, "200");
+$teal-300: map-get($teal-list, "300");
+$teal-400: map-get($teal-list, "400");
+$teal-500: map-get($teal-list, "500");
+$teal-600: map-get($teal-list, "600");
+$teal-700: map-get($teal-list, "700");
+$teal-800: map-get($teal-list, "800");
+$teal-900: map-get($teal-list, "900");
+
+// Dynamic background and color classes creation
+
+@each $value in $brand-list {
+  .background-brand-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-brand-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $gray-list {
+  .background-gray-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-gray-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $orange-list {
+  .background-orange-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-orange-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $green-list {
+  .background-green-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-green-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}
+
+@each $value in $teal-list {
+  .background-teal-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+  .color-teal-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+}

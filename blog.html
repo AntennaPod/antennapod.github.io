@@ -1,0 +1,36 @@
+---
+layout: internal
+title: titles.blog
+permalink: /blog
+---
+
+<div class="container-fluid background-gray-100 py-4">
+    <div class="container">
+      <h1 class="color-gray-800 weight-700">{% t titles.blog %}</h1>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div id="posts" class="container py-5">
+        <div class="row">
+                {% for blog in site.blog reversed %}
+                {% if blog.unlisted != true %}
+                    <div class="col-12 col-md-4 mb-4 d-flex">
+                      <div class="highlight-card">
+                        <a class="stretched-link" href="{{ blog.url | replace:'.html','' }}"></a>
+                          <img src="{{ site.baseurl_root }}/assets/images/blog/{{ blog.image }}" loading="lazy" alt="{{ blog.title }}" />
+                          <h3 class="weight-700 pt-4">{{ blog.title }}</h3>
+                          <p class="color-gray-900 mb-4">{{ blog.excerpt | strip_html | truncatewords: 15 }}</p>
+                          <div class="bottom">
+                            <p class="text-muted">{% t blog.posted %} 
+                                {% capture month %}{{ blog.date | date: "%b" }}{% endcapture %}
+                                {% t month.{{ month }} %} {{ blog.date | date: "%-d, %Y"}}
+                            </p>
+                          </div>
+                      </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+</div>

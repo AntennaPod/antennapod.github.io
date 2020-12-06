@@ -1,0 +1,93 @@
+<div class="inline-flex">
+
+        {% assign author = site.data.authors[page.author] %}
+
+   <p class="size-14 color-gray-900 mb-0 mr-2">{% t generic.share %}</p>
+    <button class="copy-link" aria-label="Copy to clipboard" onclick="copyUrl();" title="Copy to clipboard"><span data-tooltip="Link copied!" data-flow="top">
+    <i class="fas fa-link color-gray-600 size-20 mr-2"></i></button>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | replace: '.html', '' }}"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+    <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+    </a>
+    <a aria-label="Share on Mastodon" href="#" onclick="share_on_mastodon();" title="Share on Mastodon">
+    <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url | replace: '.html', '' }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Share on Twitter">
+    <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Share via email" href="mailto:?subject=I wanted you to see this&amp;body=Check out this article {{ site.url }}{{ page.url | replace: '.html', '' }} by {{ site.username }}" title="Share via email">
+        <i class="fas fa-envelope size-20 color-gray-600"></i>
+    </a>
+</div>
+
+<script>
+    function copyUrl() {
+      if (!window.getSelection) {
+        alert('Please copy the URL from the location bar.');
+        return;
+      }
+      const dummy = document.createElement('p');
+      dummy.textContent = window.location.href;
+      document.body.appendChild(dummy);
+    
+      const range = document.createRange();
+      range.setStartBefore(dummy);
+      range.setEndAfter(dummy);
+    
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    
+      document.execCommand('copy');
+      document.body.removeChild(dummy);
+    }
+</script>
+    
+<script>
+  // The actual function. Set this as an onclick function for your "Share on Mastodon" button
+  function share_on_mastodon() {
+          // Prefill the form with the user's previously-specified Mastodon instance, if applicable
+          var default_url = localStorage['mastodon_instance']; 
+  
+          // If there is no cached instance/domain, then insert a "https://" with no domain at the start of the prompt. 
+          if (!default_url)
+                  default_url = "https://"; 
+  
+          var instance = prompt("Enter your instance's address: (ex: https://mastodon.social)", default_url);
+          if (instance) { 
+                  // Handle URL formats
+                  if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
+                          instance = "https://" + instance;  
+  
+                  // Get the current page's URL
+                  var url   = window.location.href;
+          
+                  // Get the page title from the og:title meta tag, if it exists.
+                  var title = document.querySelectorAll('meta[property="og:title"]')[0].getAttribute("content"); 
+          
+                  // Otherwise, use the <title> tag as the title
+                  if (!title)    var title = document.getElementsByTagName("title")[0].innerHTML;
+          
+                  // Handle slash
+                  if ( !instance.endsWith("/") )
+                          instance = instance + "/"; 
+  
+                  // Cache the instance/domain for future requests
+                  localStorage['mastodon_instance'] = instance; 
+  
+                  // Hashtags 
+                  hashtags     =  "{{ page.tags }}";
+  
+                  // Tagging users, such as offical accounts or the author of the post 
+                  var author   = "{{ author.name }}"; 
+  
+                  // Create the Share URL
+                  // https://someinstance.tld/share?text=URL%20encoded%20text
+                  mastodon_url = instance + "share?text=" + encodeURIComponent(title + "\n\n" + url + "\n\n" + hashtags + " " + author);
+  
+                  // Open a new window at the share location   
+                  window.open(mastodon_url, '_blank');
+          }
+  }
+  </script>

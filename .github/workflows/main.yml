@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+      - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7.x'
+      - run: gem install bundler jekyll --no-document
+      - run: bundle install
+      - run: bundle exec jekyll build
+      - uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: _site
+          CLEAN: true
