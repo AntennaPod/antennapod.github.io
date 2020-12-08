@@ -8,7 +8,7 @@ In that context, we realise that every option we add means a choice not made. An
 At the same time: don't worry. We'll be open to a new feature, option or preference - whenever there's a case to make for offering our users flexibility. We're working on tags for podcasts, and recently introduced local feeds, for example. So if you've got your own idea, feel free to [share your feature request on our forum](https://forum.antennapod.org/c/feature-request)!
 
 # Open Source and free of ads
-Like other great software such as Firefox and Signal, AntennaPod is open source. This means anyone can inspect and contribute to the code behind the app. And that AntennaPod is availble in the open source and privacy-friendly [F-Droid app store](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+Like other great software such as Firefox and Signal, AntennaPod is open source. This means anyone can inspect and contribute to the code behind the app. And that AntennaPod is available in the open source and privacy-friendly [F-Droid app store](https://www.f-droid.org/packages/de.danoeh.antennapod/).
 
 That way, you can rest assured (or check for yourself) that there's no shady data collection going on. And because AntennaPod is created by volunteers, we don't need advertisers that bother you while navigating the app.
 
