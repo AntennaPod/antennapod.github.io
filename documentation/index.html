@@ -191,15 +191,6 @@
     <div class="row justify-content-start pb-4">
       
       
-      <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/automation">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-robot size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Automation</h4>
-    </div>
-</a>
-</div>
-
       
       
       
@@ -209,15 +200,9 @@
       
       
       
-      <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/general">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-info size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">General</h4>
-    </div>
-</a>
-</div>
-
+      
+      
+      
       
       
       
@@ -255,6 +240,16 @@
       
       
       
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+<a class="text-decoration-none" href="/documentation/general">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-info size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">General</h4>
+    </div>
+</a>
+</div>
+
+      
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
@@ -266,8 +261,6 @@
 </a>
 </div>
 
-      
-      
       
       
       
@@ -285,7 +278,15 @@
       
       
       
-      
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+<a class="text-decoration-none" href="/documentation/automation">
+    <div class="card shadow-sm project-card">
+    <i class="fas fa-robot size-36 text-main mb-3"></i>
+    <h4 class="text-main weight-700">Automation</h4>
+    </div>
+</a>
+</div>
+
       
       
     </div>
@@ -293,15 +294,17 @@
 </div>
 
 <script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    noResultsText: "Sorry, nothing found :(",
-    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-    limit: 5,
-    fuzzy: false,
-    json: '/search.json'
-  })
+  $(document).ready(function() {
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      noResultsText: "Sorry, nothing found :(",
+      searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+      limit: 5,
+      fuzzy: false,
+      json: '/search.json'
+    })
+  });
 </script>
 
     </div>
