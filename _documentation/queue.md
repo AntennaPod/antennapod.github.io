@@ -4,6 +4,7 @@ layout: doc
 level: "1"
 group: "queue"
 icon: "fas fa-list"
+order: "40"
 ---
 
 # Queue

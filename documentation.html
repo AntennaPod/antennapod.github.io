@@ -23,7 +23,8 @@ permalink: /documentation/
 <div class="container-fluid">
   <div class="container py-3">
     <div class="row justify-content-start pb-4">
-      {% for documentation in site.documentation %}
+      {% assign items = site.documentation | sort: 'title' | sort: 'order' %}
+      {% for documentation in items %}
       {% if documentation.level == "1" %}
       {% include doc-button.html item=documentation %}
       {% endif %}

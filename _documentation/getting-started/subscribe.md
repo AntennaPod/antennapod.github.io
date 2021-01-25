@@ -4,6 +4,7 @@ layout: doc
 level: "2"
 group: "getting-started"
 icon: "fas fa-plus"
+order: "10"
 ---
 
 # Subscribing to a podcast
