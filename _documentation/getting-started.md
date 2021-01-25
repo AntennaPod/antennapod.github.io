@@ -4,6 +4,7 @@ layout: doc
 level: "1"
 group: "getting-started"
 icon: "fas fa-users"
+order: "10"
 ---
 
 # Getting started
