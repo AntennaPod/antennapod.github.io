@@ -33,13 +33,15 @@ permalink: /documentation/
 </div>
 
 <script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    noResultsText: "Sorry, nothing found :(",
-    searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-    limit: 5,
-    fuzzy: false,
-    json: '/search.json'
-  })
+  $(document).ready(function() {
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      noResultsText: "Sorry, nothing found :(",
+      searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+      limit: 5,
+      fuzzy: false,
+      json: '/search.json'
+    })
+  });
 </script>
