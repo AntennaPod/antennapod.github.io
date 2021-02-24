@@ -44,3 +44,41 @@ code.language-plaintext {
     font-family: inherit;
     font-size: inherit;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+	color: #bbb;
+        background-color: #111;
+    }
+    .nav-item:hover {
+        background: #555;
+    }
+    .nav-item.active {
+        background-color: #409;
+    }
+    .post-content p {
+        color: #bbb;
+    }
+    .project-card,
+    .highlight-card {
+        background-color: #000;
+    }
+    a {
+        color: #4bb !important;
+    }
+    hr {
+        border: none;
+    }
+
+    path {
+        fill: #000;
+    }
+
+    .background-gray-100 {
+        background-color: #000 !important;
+    }
+    .color-gray-900 {
+        color: #bbb !important;
+    }
+
+}
