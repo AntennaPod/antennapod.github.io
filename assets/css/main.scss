@@ -46,6 +46,10 @@ code.language-plaintext {
 }
 
 @media (prefers-color-scheme: dark) {
+    :root {
+        scrollbar-color: #333 #000;
+    }
+
     body {
         color: #bbb;
         background-color: #111;
