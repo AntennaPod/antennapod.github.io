@@ -50,11 +50,18 @@ code.language-plaintext {
         color: #bbb;
         background-color: #111;
     }
+
     .nav-item:hover {
-        background: #555;
+        background: #666;
     }
     .nav-item.active {
-        background-color: #409;
+        background-color: #444;
+    }
+    .navbar-collapse > .navbar-nav > .nav-item > .nav-link {
+        color: #bbb;
+    }
+    .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
+        color: #fff;
     }
 
     img.phone,
