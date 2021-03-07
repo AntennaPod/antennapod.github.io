@@ -1,0 +1,91 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        scrollbar-color: #333 #000;
+    }
+
+    body {
+        color: #bbb;
+        background-color: #111;
+    }
+
+    .content h1 {
+        color: #ddd;
+    }
+
+    .nav-item:hover {
+        background: #666;
+    }
+    .nav-item.active {
+        background-color: #444;
+    }
+    .navbar-collapse > .navbar-nav > .nav-item > .nav-link {
+        color: #bbb;
+    }
+    .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
+        color: #fff;
+    }
+
+    .dropdown-toggle:after {
+        filter: invert(0.8);
+    }
+
+    .navbar-toggler {
+        filter: invert(1);
+    }
+
+    img.phone,
+    img.half-phone {
+        border-color: #333;
+    }
+
+    .post-content p {
+        color: #ddd;
+    }
+    .project-card,
+    .highlight-card {
+        color: var(--primary);
+        background-color: #000;
+    }
+    hr {
+        border: none;
+    }
+
+    path {
+        fill: #223;
+    }
+
+    #search-input {
+        color: #fff;
+    }
+
+    .copyright {
+        color: #bbb;
+    }
+    .copyright a:hover {
+        color: #fff;
+    }
+
+    .post-header a,
+    .post-content a {
+        color: #bbf;
+    }
+
+    .overlay {
+        background-color: #333;
+    }
+    .overlay a {
+        color: #bbb;
+    }
+    .overlay a:hover {
+       color: #000 !important;
+    }
+
+    .background-gray-100 {
+        background-color: #223 !important;
+    }
+    .color-gray-800,
+    .color-gray-900 {
+        color: #ddd !important;
+    }
+
+}
