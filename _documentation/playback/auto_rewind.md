@@ -3,7 +3,7 @@ title: Automatic rewind
 layout: doc
 level: "2"
 group: "playback"
-icon: "fas fa-keyboard"
+icon: "fas fa-backward"
 ---
 
 # Automatic rewind after starting an episode which has been paused
