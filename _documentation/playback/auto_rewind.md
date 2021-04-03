@@ -8,11 +8,7 @@ icon: "fas fa-backward"
 
 # Automatic rewind after starting an episode which has been paused
 
-When an episode has been paused and is played again AntennaPod will automatically rewind.
-
-How much is rewinded is not configurable and depends on how long an episode has been paused.
-
-Rewinds timing are currently :
+When an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused. Rewind timing are currently:
 
 
 | Time since last playback |	Rewind duration |
