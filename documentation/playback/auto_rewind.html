@@ -6,17 +6,17 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Playback – AntennaPod</title>
-  <meta name="description" content="Playback">
+  <title>Automatic rewind – AntennaPod</title>
+  <meta name="description" content="Automatic rewind after starting an episode which has been paused">
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Playback – AntennaPod">
+  <meta name="twitter:title" content="Automatic rewind – AntennaPod">
   <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta name="twitter:image" content="/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:url" content="https://antennapod.org/documentation/playback">
-  <meta property="og:title" content="Playback – AntennaPod">
+  <meta property="og:url" content="https://antennapod.org/documentation/playback/auto_rewind">
+  <meta property="og:title" content="Automatic rewind – AntennaPod">
   
   <meta property="og:image" content="/assets/images/blog/default.png">
   
@@ -37,7 +37,7 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/all.css">
-  <link rel="canonical" href="https://antennapod.org/documentation/playback">
+  <link rel="canonical" href="https://antennapod.org/documentation/playback/auto_rewind">
   <!-- JavaScript -->
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
@@ -87,9 +87,9 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" onchange="location = this.value;"
-    href="/documentation/playback">English</a>
+    href="/documentation/playback/auto_rewind">English</a>
 <!--<a class="dropdown-item" onchange="location = this.value;"
-    href="/de/documentation/playback">Deutsch</a>-->
+    href="/de/documentation/playback/auto_rewind">Deutsch</a>-->
 
                             </div>
                         </li>
@@ -106,9 +106,9 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" onchange="location = this.value;"
-    href="/documentation/playback">English</a>
+    href="/documentation/playback/auto_rewind">English</a>
 <!--<a class="dropdown-item" onchange="location = this.value;"
-    href="/de/documentation/playback">Deutsch</a>-->
+    href="/de/documentation/playback/auto_rewind">Deutsch</a>-->
 
                         </div>
                     </div>
@@ -183,13 +183,40 @@
       
     
       
-        / Playback
+        / <a href="/documentation/playback">Playback</a>
+      
+    
+      
+        / Automatic rewind
       
     
 </div>
-                <h1 id="playback">Playback</h1>
+                <h1 id="automatic-rewind-after-starting-an-episode-which-has-been-paused">Automatic rewind after starting an episode which has been paused</h1>
 
-<p>Below, you can find topics related to playback.</p>
+<p>When an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused. Rewind timing are currently:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time since last playback</th>
+      <th>Rewind duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>More than 1 day</td>
+      <td>20 seconds</td>
+    </tr>
+    <tr>
+      <td>More than 1 hour</td>
+      <td>10 seconds</td>
+    </tr>
+    <tr>
+      <td>More than 1 minute</td>
+      <td>3 seconds</td>
+    </tr>
+  </tbody>
+</table>
 
             </article>
             
@@ -205,15 +232,6 @@
                     
                     
                     
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/playback/auto_rewind">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-backward size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Automatic rewind</h4>
-    </div>
-</a>
-</div>
-
                     
                     
                     
@@ -229,15 +247,6 @@
                     
                     
                     
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/playback/shortcuts">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-keyboard size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Hardware keyboard shortcuts</h4>
-    </div>
-</a>
-</div>
-
                     
                     
                     
@@ -248,18 +257,6 @@
                     
                     
                     
-                    
-                    
-                    
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/playback/crashes">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-bug size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">What do do when playback crashes</h4>
-    </div>
-</a>
-</div>
-
                     
                     
                     

@@ -109,6 +109,12 @@
     } ,
   
     {
+      "title"    : "Automatic rewind",
+      "url"      : "/documentation/playback/auto_rewind",
+      "content"  : "Automatic rewind after starting an episode which has been pausedWhen an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused. Rewind timing are currently:            Time since last playback      Rewind duration                  More than 1 day      20 seconds              More than 1 hour      10 seconds              More than 1 minute      3 seconds      "
+    } ,
+  
+    {
       "title"    : "What do do when playback crashes",
       "url"      : "/documentation/playback/crashes",
       "content"  : "What do to when playback crashesIf playback always stops a few seconds after turning off the screen, your system might be killing the app. Some vendors are known to be overly aggressive when trying to save battery. Try to add an exception for AntennaPod in the list of battery optimized apps.We use Android’s built-in audio decoders. A lot of devices are shipped with rather buggy MP4 decoders that lead to various playback issues and even native crashes (think Bluescreen). In our opinion, your best option is to subscribe to MP3 feeds whenever possible."
