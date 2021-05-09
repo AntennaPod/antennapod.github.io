@@ -3,8 +3,9 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "jekyll-watch"
 gem "jekyll-mentions"
-gem "kramdown"
 gem "jekyll-multiple-languages-plugin"
+gem "kramdown"
+gem "webrick"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
