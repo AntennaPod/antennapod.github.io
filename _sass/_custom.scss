@@ -232,10 +232,6 @@ p {
   font-size: 64px;
 }
 
-.donate {
-  color: $dark;
-}
-
 // Horizontal Line
 
 hr {
@@ -616,6 +612,9 @@ blockquote {
 
   & .mono {
     font-family: "Mono", "Courier New", sans-serif;
+  }
+  & #donate {
+    color: $dark;
   }
 }
 

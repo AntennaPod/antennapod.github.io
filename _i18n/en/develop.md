@@ -17,7 +17,7 @@ If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the ['confi
 
 **After** Talk about your work, and claim that fame! It might inspire other potential contributors, and helps promote the app generally. We're happy to retweet your tweets!
 
-# Website ((S)CSS, HTML)
+# Website (SCSS, HTML)
 The base of our new website was kindly built by [Anxhelo](https://lushka.al). Now we're ready to expand! Are you familiar with [Jekyll](https://jekyllrb.com/)? Then help us implement (parts of) [our website wishlist](https://forum.antennapod.org/t/sitemap-for-the-new-website/240) and check out our [website repository](https://github.com/AntennaPod/antennapod.github.io) now.
 
 # Get in touch
