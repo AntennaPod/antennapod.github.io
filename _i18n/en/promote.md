@@ -12,4 +12,4 @@ Feeling comfortable with (digital) pen & ink? Then help us spice up our website,
 Do you have other great ideas to promote the project? Get in touch and share them with us.
 
 # Get in touch
-Vaguely interested but not sure yet? Ready to get started? Get in touch with @Keunes on [our forum](https://forum.antennapod.org)! To get an idea of our current materials, you can also check out [our Twitter feed](https://www.twitter.com/antennapod), [our blog](/blog) and the [Branding repository](https://github.com/AntennaPod/Branding) on GitHub.
+Vaguely interested but not sure yet? Ready to get started? Get in touch with [@Keunes on our forum](https://forum.antennapod.org/u/keunes)! To get an idea of our current materials, you can also check out [our Twitter feed](https://www.twitter.com/antennapod), [our blog](/blog) and the [Branding repository](https://github.com/AntennaPod/Branding) on GitHub.
