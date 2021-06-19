@@ -2794,6 +2794,8 @@ blockquote { font-style: italic; margin-left: 25px; padding-left: 15px; border-l
 
 .post-content .mono { font-family: "Mono", "Courier New", sans-serif; }
 
+.post-content #donate { color: #2d3748; }
+
 .post .cover { max-height: 350px; object-fit: cover; }
 
 .curved-img { border-radius: 10px; }
@@ -2852,9 +2854,13 @@ i.member-img { font-size: 50px; }
 
 .d-flex > .post-card { flex: 1 0 100%; }
 
-.project-card { background: #f7fafc; border-radius: 10px; padding: 30px; transition: 0.25s ease-in-out; cursor: pointer; }
+.project-card { background: #f7fafc; border-radius: 10px; padding: 30px; height: 100%; transition: 0.25s ease-in-out; cursor: pointer; }
 
 .project-card:hover { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+
+.project-card > h4.text-main, .post-content .project-card > p.text-main { margin-bottom: 0; }
+
+.post-content .project-card > h4.text-main { margin-bottom: 0.5rem; }
 
 .highlight-card { background: #f7fafc; border-radius: 10px; padding: 30px; position: relative; transition: 0.25s ease-in-out; }
 
@@ -2968,7 +2974,7 @@ footer { flex-shrink: 0; }
 
 @media (min-width: 992px) { .hide-desktop { display: none !important; } }
 
-@media (prefers-color-scheme: dark) { :root { scrollbar-color: #333 #000; } body { color: #bbb; background-color: #111; } .content h1, .content h2, .content h3, .content h4 { color: #ddd; } .nav-item:hover { background: #666; } .nav-item.active { background-color: #444; } .navbar-collapse > .navbar-nav > .nav-item > .nav-link { color: #bbb; } .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover { color: #fff; } .dropdown-toggle:after { filter: invert(0.8); } .navbar-toggler { filter: invert(1); } img.phone, img.half-phone { border-color: #333; } .post-content p { color: #ddd; } .project-card, .highlight-card { color: var(--primary); background-color: #000; } hr { border: none; } path { fill: #223; } #search-input { color: #fff; } .copyright { color: #bbb; } .copyright a:hover { color: #fff; } .post-header a, .post-content a { color: #bbf; } .overlay { background-color: #333; } .overlay a { color: #bbb; } .overlay a:hover { color: #000 !important; } .background-gray-100 { background-color: #223 !important; } .color-gray-800, .color-gray-900 { color: #ddd !important; } }
+@media (prefers-color-scheme: dark) { :root { scrollbar-color: #333 #000; } body { color: #bbb; background-color: #111; } .content h1, .content h2, .content h3, .content h4 { color: #ddd; } .nav-item:hover { background: #666; } .nav-item.active { background-color: #444; } .navbar-collapse > .navbar-nav > .nav-item > .nav-link { color: #bbb; } .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover { color: #fff; } .dropdown-toggle:after { filter: invert(0.8); } .navbar-toggler { filter: invert(1); } img.phone, img.half-phone { border-color: #333; } .post-content p { color: #ddd; } .post-content #donate { color: #a0aec0; } .project-card, .highlight-card { color: var(--primary); background-color: #000; } hr { border: none; } path { fill: #223; } #search-input { color: #fff; } .copyright { color: #bbb; } .copyright a:hover { color: #fff; } .post-header a, .post-content a { color: #bbf; } .overlay { background-color: #333; } .overlay a { color: #bbb; } .overlay a:hover { color: #000 !important; } .background-gray-100 { background-color: #223 !important; } .color-gray-800, .color-gray-900 { color: #ddd !important; } }
 
 img.phone { border: 10px solid #888; border-top-width: 30px; border-bottom-width: 50px; border-radius: 20px; background: #000; }
 
