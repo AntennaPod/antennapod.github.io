@@ -44,8 +44,16 @@
         border-color: #333;
     }
 
-    .post-content p {
-        color: #ddd;
+    .post-content {
+
+        & p {
+            color: #ddd;
+        }
+
+        & #donate {
+          color: $gray-500;
+        }
+
     }
 
     .project-card,

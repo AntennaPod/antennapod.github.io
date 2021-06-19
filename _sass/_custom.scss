@@ -613,6 +613,11 @@ blockquote {
   & .mono {
     font-family: "Mono", "Courier New", sans-serif;
   }
+
+  & #donate {
+    color: $gray-800;
+  }
+
 }
 
 .post .cover {
@@ -803,6 +808,7 @@ i.member-img {
   background: $gray-100;
   border-radius: 10px;
   padding: 30px;
+  height: 100%;
   transition: 0.25s ease-in-out;
   cursor: pointer;
 
@@ -810,6 +816,15 @@ i.member-img {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
+}
+
+.project-card > h4.text-main,
+.post-content .project-card > p.text-main {
+    margin-bottom: 0;
+}
+
+.post-content .project-card > h4.text-main {
+    margin-bottom: 0.5rem;
 }
 
 .highlight-card {
