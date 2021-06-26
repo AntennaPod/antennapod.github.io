@@ -42,6 +42,12 @@
                             target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
                     </p>
                     {% endif %}
+                    {% if site.mastodon_username %}
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}"
+                            target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    {% endif %}
                     {% if site.github_username %}
                     <p class="mb-2">
                         <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}"
