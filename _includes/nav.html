@@ -61,6 +61,10 @@
                 <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
                     rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
                 {% endif %}
+                {% if site.mastodon_username %}
+                <a class="mr-2 color-gray-900" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}" target="_blank"
+                    rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                {% endif %}
                 {% if site.github_username %}
                 <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}" target="_blank"
                     rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
