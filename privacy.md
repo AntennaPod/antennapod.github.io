@@ -29,11 +29,9 @@ The app requests the following privacy-relevant Android permissions:
 
 - Read from/write to Storage (Photos/Media/Files)
   The storage permission is used to open files that are not downloaded directly from within the app. It can also be used to import app settings or OPML files. The permission is only requested if you perform an action that requires reading from storage.
-- View WiFi connections
-  AntennaPod allows to restrict automatic updates to specific WiFi networks.
 
 ## Updates of this Privacy Policy
 The developers may update this policy in the future. It is advisable to check the policy periodically for any changes. Changes to this Privacy Policy are effective when they are made on this document.
 
-This Privacy Policy was last updated on 2019-07-20.
+This Privacy Policy was last updated on 2021-07-01.
 If you have questions, open an issue on GitHub.
