@@ -1,0 +1,43 @@
+---
+layout: internal
+title: generic.subscribe
+---
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <article class="post-content">
+      <div class="row pb-4">
+        <button id="retryButton" class="btn btn-primary">{% t generic.subscribe %}</button>
+      </div>
+      <div class="row">
+        {% translate_file subscribe.md %}
+      </div>
+      <div class="row pb-4">
+        <div class="card">
+          <div class="card-body" id="urlTextBox">
+            JavaScript required.
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+<script>
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+      sURLVariables = sPageURL.split('&'), sParameterName, i;
+    for (i = 0; i < sURLVariables.length; i++) {
+      sParameterName = sURLVariables[i].split('=');
+      if (sParameterName[0] === sParam) {
+        return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+      }
+    }
+    return false;
+  };
+
+  jQuery("#urlTextBox").text(getUrlParameter("url"));
+  jQuery("#retryButton").click(function() {
+    window.open("antennapod-subscribe://" + getUrlParameter("url"));
+  });
+</script>
