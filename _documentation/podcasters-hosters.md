@@ -1,10 +1,10 @@
 ---
-title: Queue
+title: For Podcasters & Hosters
 layout: doc
 level: "1"
 group: "podcasters-hosters"
 icon: "fas fa-microphone-alt"
-order: "40"
+order: "60"
 ---
 
 # For Podcasters & Hosters
