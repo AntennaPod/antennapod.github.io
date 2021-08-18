@@ -10,7 +10,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.baseurl_root }}/assets/images/favicons/android-chrome-256x256.png">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -18,7 +18,7 @@
   {% if page.image %}
   <meta property="og:image" content="{{ page.image }}">
   {% else %}
-  <meta property="og:image" content="{{ site.baseurl_root }}/assets/images/blog/default.png">
+  <meta property="og:image" content="{{ site.url }}/assets/images/blog/default.png">
   {% endif %}
 
   <meta property="og:image:type" content="image/png">
