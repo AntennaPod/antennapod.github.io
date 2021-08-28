@@ -18,7 +18,7 @@ Check if podcast link is working in your web browser. You can get the link used 
 
 If the problem is with episode, try to download one with your web browser. Open link like previously described. Try to find download link to copy it and paste it in URL bar to trigger episode download. You can search for "enclosure url" or "mp3" or "type=" to help locating link.
 
-If it is not working with web browser then look on your device if there is not something interferring with network connection :
+If it is not working with web browser then look on your device if there is not something interfering with network connection :
 - ad blockers like Blockada
 - firewall
 - VPN
