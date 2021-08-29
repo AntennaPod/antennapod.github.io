@@ -2,7 +2,7 @@
 title: Subscriptions
 layout: doc
 level: "1"
-group: "subscription"
+group: "subscriptions"
 icon: "fas fa-folder"
 order: "45"
 ---
