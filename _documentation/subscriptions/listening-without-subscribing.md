@@ -15,7 +15,7 @@ Still there is a way to preview an episode without having to subscribe. Main dif
 - Episode automatically start playing (making it the current episode)
 - It's not possible to switch to another episode and come back to it later
 
-To preview an episode : 
+To preview an episode: 
 - Do as if you were adding a subscription
 - Don't tap on subscribe but on the episode you want to listen
 - Episode description will expand, below description tap on preview
