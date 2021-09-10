@@ -4,7 +4,7 @@ layout: doc
 level: "1"
 group: "automation"
 icon: "fas fa-robot"
-order: "50"
+order: "60"
 ---
 
 # Automation
