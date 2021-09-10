@@ -4,7 +4,7 @@ layout: doc
 level: "1"
 group: "subscriptions"
 icon: "fas fa-folder"
-order: "45"
+order: "50"
 ---
 
 # Subscriptions
