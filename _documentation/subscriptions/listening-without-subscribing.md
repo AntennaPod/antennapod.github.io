@@ -18,4 +18,4 @@ There  is, however, a way to **preview** an episode without having to subscribe 
 To preview an episode: 
 - Do as if you were adding a subscription
 - Don't tap on subscribe but on the episode you want to listen
-- Episode description will expand ; tap on 'Preview' below description
+- The episode description will expand; tap on `Preview` below description
