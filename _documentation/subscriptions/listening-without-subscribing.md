@@ -11,7 +11,7 @@ icon: "fas fa-play"
 Currently there is no way to add an episode to the queue without subscribing.
 You can find more information in the [feature request on our development platform](https://github.com/AntennaPod/AntennaPod/issues/4710).
 
-There  is, however, a way to **preview** an episode without having to subscribe to the podcast. The main differences with adding an episode to queue without subscribing are:
+There  is, however, a way to **preview** an episode without having to subscribe to the podcast. The main differences with adding an episode to the queue without subscribing are:
 - The episode automatically starts playing (making it the current episode)
 - It's not possible to switch to another episode and come back to it later
 
