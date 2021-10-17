@@ -8,7 +8,7 @@ There's a few areas where we could well use your support. Because they're import
 
 Apart from these major projects, you can always check out the [issues with the 'help wanted' label](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted) on GitHub.
 
-If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the ['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/labels/confirmed%20bug) on GitHub.
+If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the ['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/labels/Type%3A Confirmed bug) on GitHub.
 
 ## Getting started
 **Before** Please don't just submit a PR, but always *announce your interest first*. Sometimes we didn't yet reach an agreement on a user experience and interface. It can happen that someone agreed to start working on something, but we forgot to 'assign' the GitHub issue. Chipping in on our forum is the best way to avoid lost hours on code that won't be accepted.
@@ -25,7 +25,7 @@ AntennaPod doesn't live in isolation. The project relies on many others - contri
 * **Nextcloud Podcast app** (Vue, PHP, Javascript)
 December 2020 Jonas Heinrich created the [Nextcloud Podcast app](https://apps.nextcloud.com/apps/podcast). It already is a great way to subscribe and listen to your podcasts online, in a self-hosted environment. It's further development and [integration with AntennaPod](https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103) would be a very welcome addition.
 * **gpodder.net** (Python, HTML)
-The long-standing and libre [gpodder.net](https://gpodder.net/) project allows users to connect and synchronise their podcast players. Unfortunately the project is a victim of its own success: the webserver often being unavailable and AntennaPod-users see sync errors. Any support to the project and its maintainers is welcome, in particular with [this API issue](https://github.com/gpodder/mygpo/issues/128).
+The long-standing and libre [gpodder.net](https://gpodder.net/) project allows users to connect and synchronise their podcast players. Unfortunately the project is a victim of its own success: the webserver often being unavailable and AntennaPod users see sync errors. Any support to the project and its maintainers is welcome, in particular with [this API issue](https://github.com/gpodder/mygpo/issues/128).
 
 # Get in touch!
 Vaguely interested but not sure yet? Ready to get started? Get in touch with @Keunes or @ByteHamster on [our forum](https://forum.antennapod.org)!
