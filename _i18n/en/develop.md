@@ -8,7 +8,7 @@ There's a few areas where we could well use your support. Because they're import
 
 Apart from these major projects, you can always check out the [issues with the 'help wanted' label](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted) on GitHub.
 
-If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the ['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/labels/Type%3A Confirmed bug) on GitHub.
+If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the ['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) on GitHub.
 
 ## Getting started
 **Before** Please don't just submit a PR, but always *announce your interest first*. Sometimes we didn't yet reach an agreement on a user experience and interface. It can happen that someone agreed to start working on something, but we forgot to 'assign' the GitHub issue. Chipping in on our forum is the best way to avoid lost hours on code that won't be accepted.
