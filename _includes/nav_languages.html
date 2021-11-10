@@ -1,4 +1,4 @@
+{% for language in site.data.languages %}
 <a class="dropdown-item" onchange="location = this.value;"
-    href="{{ page.url | replace: '.html', '' | remove: 'index' }}">English</a>
-<!--<a class="dropdown-item" onchange="location = this.value;"
-    href="/de{{ page.url | replace: '.html', '' | remove: 'index' }}">Deutsch</a>-->
+    href="{% if language.code != 'en' %}/{{ language.code }}{% endif %}{{ page.url | replace: '.html', '' | remove: 'index' }}">{{ language.name }}</a>
+{% endfor %}
