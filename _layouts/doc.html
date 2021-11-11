@@ -18,7 +18,7 @@
                     {% assign items = site.documentation | sort: 'title' | sort: 'order' %}
                     {% for documentation in items %}
                     {% if documentation.group == page.group and documentation.level > page.level %}
-                    {% include doc-button.html item=documentation %}
+                    {% include documentation-card.html item=documentation %}
                     {% endif %}
                     {% endfor %}
                     </div>

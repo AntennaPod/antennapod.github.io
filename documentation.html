@@ -12,9 +12,9 @@ permalink: /documentation/
 
 <div class="container-fluid">
   <div class="container pt-5">
-    <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod. This section aims to provide information on current features.</p>
+    <p class="color-gray-900 mb-3">{% t documentation.general.introduction %}</p>
 
-    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="Search documentation...">
+    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="{% t documentation.general.search-placeholder %}…">
     
     <ul class="pt-3" id="results-container"></ul>
   </div>
@@ -26,7 +26,7 @@ permalink: /documentation/
       {% assign items = site.documentation | sort: 'title' | sort: 'order' %}
       {% for documentation in items %}
       {% if documentation.level == "1" %}
-      {% include doc-button.html item=documentation %}
+      {% include documentation-card.html item=documentation %}
       {% endif %}
       {% endfor %}
     </div>
@@ -38,7 +38,7 @@ permalink: /documentation/
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      noResultsText: "Sorry, nothing found :(",
+      noResultsText: "{% t documentation.general.no-results %} :(",
       searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
       limit: 5,
       fuzzy: false,
