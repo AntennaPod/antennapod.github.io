@@ -7,6 +7,6 @@ icon: "fas fa-play"
 order: "30"
 ---
 
-# {% t documentation.categories.{{ page.group }}.title %}
+# {% t {{ page.title }} %}
 
 {% t documentation.categories.{{ page.group }}.intro %}

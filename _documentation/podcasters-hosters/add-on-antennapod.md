@@ -6,6 +6,6 @@ group: "podcasters-hosters"
 icon: "fas fa-external-link-alt"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

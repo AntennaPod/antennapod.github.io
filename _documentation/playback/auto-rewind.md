@@ -6,6 +6,6 @@ group: "playback"
 icon: "fas fa-backward"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

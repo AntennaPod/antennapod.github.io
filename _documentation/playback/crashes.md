@@ -1,11 +1,11 @@
 ---
-title: documentation.categories.playback.auto-rewind
+title: documentation.categories.playback.crashes
 layout: doc
 level: "2"
 group: "playback"
 icon: "fas fa-bug"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

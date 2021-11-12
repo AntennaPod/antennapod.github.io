@@ -6,6 +6,6 @@ group: "automation"
 icon: "fas fa-trash"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

@@ -7,6 +7,6 @@ icon: "fas fa-plus"
 order: "10"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

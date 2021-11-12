@@ -6,6 +6,6 @@ group: "general"
 icon: "fas fa-bug"
 ---
 
-# {% t documentation.categories.{{ include.item.group }}.{{ include.item.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

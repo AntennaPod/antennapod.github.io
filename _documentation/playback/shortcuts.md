@@ -1,11 +1,11 @@
 ---
-title: documentation.categories.playback.auto-rewind
+title: documentation.categories.playback.shortcuts
 layout: doc
 level: "2"
 group: "playback"
 icon: "fas fa-keyboard"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

@@ -7,6 +7,6 @@ icon: "fas fa-folder"
 order: "50"
 ---
 
-# {% t documentation.categories.{{ page.group }}.title %}
+# {% t {{ page.title }} %}
 
 {% t documentation.categories.{{ page.group }}.intro %}

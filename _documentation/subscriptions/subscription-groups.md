@@ -6,6 +6,6 @@ group: "subscriptions"
 icon: "fas fa-tags"
 ---
 
-# {% t documentation.categories.{{ page.group }}.{{ page.slug }} %}
+# {% t {{ page.title }} %}
 
 {% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
