@@ -2,15 +2,16 @@
     <div class="container py-4">
         <div class="navbar navbar-expand-xl justify-content-between">
             <div>
-                <a href="{% if site.lang == "en" %}/{% else %}{{ site.baseurl }}{% endif %}">
-                    <img class="smallermobile" src="{{ site.baseurl_root }}/assets/logos/logo.png" id="mainlogo" />
+                <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo" />
                 </a>
             </div>
             <div class="collapse navbar-collapse flex-grow-0 weight-500">
                 <div class="navbar-nav align-items-center">
-                    {% for link in site.data[site.lang].navbar %}
+                    {% for link in site.data.navbar %}
+                    {% capture title %}titles.{{ link.key }}{% endcapture %}
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                        <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{% t {{ title }} %}</a>
                     </div>
                     {% endfor %}
                     <div class="nav-item ml-0 ml-sm-1 text-center">
