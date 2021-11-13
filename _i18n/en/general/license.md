@@ -1,4 +1,8 @@
-# Jekyll theme
+# AntennaPod
+
+AntennaPod is licensed under the [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
+
+# Website theme
 
 The MIT License (MIT)
 

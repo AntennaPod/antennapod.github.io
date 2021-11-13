@@ -4,4 +4,4 @@ title: contribute.develop.title
 permalink: /contribute/develop
 ---
 
-{% translate_file develop.md %}
+{% tf contribute/develop.md %}
