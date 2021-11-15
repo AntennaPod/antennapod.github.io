@@ -5,7 +5,7 @@
     <div class="content">
       {% include nav.html %}
       {% include header.html %}
-          {{ content }}
+          {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}
     </div>
     {% include footer.html %}
   </body>

@@ -2,16 +2,15 @@
     <div class="container py-4">
         <div class="navbar navbar-expand-xl justify-content-between">
             <div>
-                <a href="{{ site.baseurl }}">
+                <a href="{% if site.lang == "en" %}/{% else %}{{ site.baseurl }}{% endif %}">
                     <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo" />
                 </a>
             </div>
             <div class="collapse navbar-collapse flex-grow-0 weight-500">
                 <div class="navbar-nav align-items-center">
                     {% for link in site.data.navbar %}
-                    {% capture title %}titles.{{ link.key }}{% endcapture %}
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{% t {{ title }} %}</a>
+                        <a class="nav-link" href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
                     </div>
                     {% endfor %}
                     <div class="nav-item ml-0 ml-sm-1 text-center">
@@ -53,8 +52,8 @@
                     alt="{% t generic.accessibility.logo %}" />
             </div>
             <div class="overlay-content">
-                {% for link in site.data[site.lang].navbar %}
-                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                {% for link in site.data.navbar %}
+                <a href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
                 {% endfor %}
             </div>
             <div class="overlay-footer">

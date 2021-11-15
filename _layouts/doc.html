@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang }}">
 {% include head.html %}
 
 <body>
@@ -9,7 +9,7 @@
         <div class="container py-4">
             <article class="post-content">
                 {% include breadcrumbs.html %}
-                {{ content }}
+                {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}
             </article>
             
             <div class="container-fluid">

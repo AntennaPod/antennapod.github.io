@@ -29,3 +29,11 @@ The developers may update this policy in the future. It is advisable to check th
 
 This Privacy Policy was last updated on 2021-07-01.
 If you have questions, open an issue on GitHub.
+
+<!-- mdpo-disable-next-line -->
+{% if site.lang != 'en' %}
+
+This privacy policy is translated from English to help you understand how AnteannPod deals with the topic. In case of conflict between the the original and the translated version, the English one will prevail.
+
+<!-- mdpo-disable-next-line -->
+{% endif %}

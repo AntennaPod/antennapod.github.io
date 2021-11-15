@@ -1,5 +1,5 @@
 ---
-title: documentation.categories.podcasters-hosters.add-on-antennapod
+title: documentation.categories.podcasters-hosters.list-podcast
 layout: doc
 level: "2"
 group: "podcasters-hosters"

@@ -7,7 +7,17 @@ Every new version of AntennaPod is sent to our Beta Testers via the Google Play 
 
 So you want to have the latest and greatest? That's certainly possible! Simply visit the AntennaPod listing in the Play store and go to "Become a beta tester" at the bottom of the page. Or, if you're at your computer, you can go to [this url](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
-<img src="/assets/images/documentation/{{ site.lang }}/project-beta.png" style="width:400px;" alt="Become a beta tester - confirmation window in Google Play">
+<!-- mdpo-disable -->
+{% include image.html
+   alt= "
+     <!-- mdpo-enable-next-line -->
+     Become a beta tester - confirmation window in Google Play
+
+     "
+   loc="/assets/images/documentation"
+   file="project-beta.png"
+%}
+<!-- mdpo-enable -->
 
 ## F-Droid
 We do not currently offer beta versions on the F-Droid store.

@@ -22,7 +22,13 @@ layout: homepage
             </div>
             <div class="col-12 col-lg-5 order-1 order-lg-1 pl-lg-0 mb-4 mb-lg-0">
                 <div class="w-50 half-phone float-md-right">
-                    <img class="w-100" src="assets/images/screenshots/{{ site.lang }}/00.png" />
+                    {% capture img-alt-adfree %}{% t homepage.features.adfree.img-alt %}{% endcapture %}
+                    {% include image.html
+                       alt=img-alt-adfree
+                       loc="/assets/images/screenshots"
+                       file="00.png"
+                       class="w-100"
+                    %}
                 </div>
             </div>
         </div>
@@ -38,7 +44,13 @@ layout: homepage
             </div>
             <div class="col-12 col-lg-5 order-1 order-lg-2 pl-lg-0 mb-4 mb-lg-0">
                 <div class="w-50 half-phone float-md-left">
-                    <img class="w-100" src="assets/images/screenshots/{{ site.lang }}/00.png" />
+                    {% capture img-alt-listenanywhere %}{% t homepage.features.listenanywhere.img-alt %}{% endcapture %}
+                    {% include image.html
+                       alt=img-alt-listenanywhere
+                       loc="/assets/images/screenshots"
+                       file="00.png"
+                       class="w-100"
+                    %}
                 </div>
             </div>
         </div>
