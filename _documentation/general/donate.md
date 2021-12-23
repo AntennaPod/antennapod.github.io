@@ -1,11 +1,11 @@
 ---
-title: Donations
+title: documentation.categories.general.donate
 layout: doc
 level: "2"
 group: "general"
 icon: "fas fa-heart"
 ---
 
-# Donations
+# {% t {{ page.title }} %}
 
-Thank you for considering a donation. The current developers decided to not accept donations. If you have some time to spare, we would warmly welcome your [involvement in our community](/contribute).
+{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}

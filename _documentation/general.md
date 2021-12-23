@@ -1,5 +1,5 @@
 ---
-title: General
+title: documentation.categories.general.title
 layout: doc
 level: "1"
 group: "general"
@@ -7,6 +7,6 @@ icon: "fas fa-info"
 order: "20"
 ---
 
-# General
+# {% t {{ page.title }} %}
 
-Below, you can find more details about the AntennaPod project.
+{% t documentation.categories.{{ page.group }}.intro %}

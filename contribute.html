@@ -1,6 +1,6 @@
 ---
 layout: page
-title: generic.contribute
+title: titles.contribute
 permalink: /contribute/
 ---
 
@@ -8,12 +8,12 @@ permalink: /contribute/
 
 <div class="container-fluid">
   <div class="row pb-4">
-    {% include contribute-card.html icon="fa-globe" url="https://www.transifex.com/antennapod/antennapod/" item="translate" %}
-    {% include contribute-card.html icon="fa-comment" url="https://forum.antennapod.org/" item="support" %}
+    {% include contribute-card.html icon="fa-globe" url="https://www.transifex.com/antennapod/antennapod/" item="translate" target="external" %}
+    {% include contribute-card.html icon="fa-comment" url="https://forum.antennapod.org/" item="support" target="external" %}
     {% include contribute-card.html icon="fa-vial" url="/documentation/general/beta" item="test" %}
     {% include contribute-card.html icon="fa-code" url="/contribute/develop" item="develop" %}
     {% include contribute-card.html icon="fa-bullhorn" url="/contribute/promote" item="promote" %}
-    {% include contribute-card.html icon="fa-pencil-ruler" url="https://github.com/AntennaPod/AntennaPod/labels/needs:%20mock-up%20or%20user%20story" item="design" %}
+    {% include contribute-card.html icon="fa-pencil-ruler" url="https://github.com/AntennaPod/AntennaPod/labels/needs:%20mock-up%20or%20user%20story" item="design" target="external" %}
   </div>
 </div>
 

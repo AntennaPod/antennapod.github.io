@@ -1,0 +1,15 @@
+{% capture native-url %}{{ include.loc }}/{{ site.lang }}/{{ include.file }}{% endcapture %}
+{% capture english-url %}{{ include.loc }}/en/{{ include.file }}{% endcapture %}
+{% assign img-alt = include.alt | remove:'<!-- mdpo-enable-next-line -->' | strip %}
+
+{% for file in site.static_files %}
+   {% if file.path == native-url %}
+      {% assign native-exists = true %}
+   {% endif %}
+{% endfor %}
+
+{% if native-exists == true %}
+<img src="{{ native-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
+{% else %}
+<img src="{{ english-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
+{% endif %}

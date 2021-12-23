@@ -1,5 +1,5 @@
 ---
-title: For Podcasters & Hosters
+title: documentation.categories.podcasters-hosters.title
 layout: doc
 level: "1"
 group: "podcasters-hosters"
@@ -7,6 +7,6 @@ icon: "fas fa-microphone-alt"
 order: "70"
 ---
 
-# For Podcasters & Hosters
+# {% t {{ page.title }} %}
 
-Below, you can find our support information for podcasters & hosting providers.
+{% t documentation.categories.{{ page.group }}.intro %}

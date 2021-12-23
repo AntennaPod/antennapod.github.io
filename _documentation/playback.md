@@ -1,5 +1,5 @@
 ---
-title: Playback
+title: documentation.categories.playback.title
 layout: doc
 level: "1"
 group: "playback"
@@ -7,6 +7,6 @@ icon: "fas fa-play"
 order: "30"
 ---
 
-# Playback
+# {% t {{ page.title }} %}
 
-Below, you can find topics related to playback.
+{% t documentation.categories.{{ page.group }}.intro %}

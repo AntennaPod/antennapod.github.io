@@ -1,5 +1,5 @@
 ---
-title: Subscriptions
+title: documentation.categories.subscriptions.title
 layout: doc
 level: "1"
 group: "subscriptions"
@@ -7,6 +7,6 @@ icon: "fas fa-folder"
 order: "50"
 ---
 
-# Subscriptions
+# {% t {{ page.title }} %}
 
-Below, you can find frequently asked questions about subscriptions.
+{% t documentation.categories.{{ page.group }}.intro %}

@@ -6,11 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/favicons/android-chrome-256x256.png">
+  <meta name="twitter:image" content="/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -18,28 +22,25 @@
   {% if page.image %}
   <meta property="og:image" content="{{ page.image }}">
   {% else %}
-  <meta property="og:image" content="{{ site.url }}/assets/images/blog/default.png">
+  <meta property="og:image" content="/assets/images/blog/default.png">
   {% endif %}
-
   <meta property="og:image:type" content="image/png">
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   
-  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
-  
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl_root }}/assets/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl_root }}/assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl_root }}/assets/images/favicons/favicon-16x16.png">
-  <link rel="mask-icon" href="{{ site.baseurl_root }}/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
   <meta name="msapplication-TileColor" content="#2a854e">
   <meta name="theme-color" content="#2a854e">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/all.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <!-- JavaScript -->
-  <script src="{{ site.baseurl_root }}/assets/js/jquery.min.js"></script>
-  <script src="{{ site.baseurl_root }}/assets/js/bootstrap.bundle.min.js"></script>
-  <script defer src="{{ site.baseurl_root }}/assets/js/search.min.js"></script>
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
 </head>

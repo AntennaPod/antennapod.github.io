@@ -3,19 +3,19 @@
         <div class="navbar navbar-expand-xl justify-content-between">
             <div>
                 <a href="{% if site.lang == "en" %}/{% else %}{{ site.baseurl }}{% endif %}">
-                    <img class="smallermobile" src="{{ site.baseurl_root }}/assets/logos/logo.png" id="mainlogo" />
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo" />
                 </a>
             </div>
             <div class="collapse navbar-collapse flex-grow-0 weight-500">
                 <div class="navbar-nav align-items-center">
-                    {% for link in site.data[site.lang].navbar %}
+                    {% for link in site.data.navbar %}
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                        <a class="nav-link" href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
                     </div>
                     {% endfor %}
                     <div class="nav-item ml-0 ml-sm-1 text-center">
                         <li class="nav-item dropdown mb-0">
-                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher"
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-globe size-16 color-gray-900"></i><span
                                     class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
@@ -30,7 +30,7 @@
             <div class="d-xl-none">
                 <div class="nav-item text-center d-inline-block">
                     <div class="nav-item dropdown">
-                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher"
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe size-16 color-gray-900"></i><span
                                 class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
@@ -49,11 +49,11 @@
             <button class="closebtn" onclick="closeNav()">&times;</button>
             <div class="overlay-header">
                 <img src="{{ site.baseurl_root }}/assets/logos/icon.png" width="80px" height="auto"
-                    alt="AntennaPod logo" />
+                    alt="{% t generic.accessibility.logo %}" />
             </div>
             <div class="overlay-content">
-                {% for link in site.data[site.lang].navbar %}
-                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                {% for link in site.data.navbar %}
+                <a href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
                 {% endfor %}
             </div>
             <div class="overlay-footer">

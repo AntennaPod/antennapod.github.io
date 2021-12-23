@@ -4,4 +4,4 @@ title: generic.download
 permalink: /download/
 ---
 
-{% translate_file download.md %}
+{% tf general/download.md %}

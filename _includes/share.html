@@ -3,20 +3,20 @@
         {% assign author = site.data.authors[page.author] %}
 
    <p class="size-14 color-gray-900 mb-0 mr-2">{% t generic.share %}</p>
-    <button class="copy-link" aria-label="Copy to clipboard" onclick="copyUrl();" title="Copy to clipboard"><span data-tooltip="Link copied!" data-flow="top">
+    <button class="copy-link" aria-label="{% t generic.accessibility.copy %}" onclick="copyUrl();" title="{% t generic.accessibility.copy %}"><span data-tooltip="{% t generic.accessibility.copied %}" data-flow="top">
     <i class="fas fa-link color-gray-600 size-20 mr-2"></i></button>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | replace: '.html', '' }}"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+    <a aria-label="{% t generic.accessibility.share-fb %}" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | replace: '.html', '' }}"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="{% t generic.accessibility.share-fb %}">
     <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
     </a>
-    <a aria-label="Share on Mastodon" href="#" onclick="share_on_mastodon();" title="Share on Mastodon">
+    <a aria-label="{% t generic.accessibility.share-md %}" href="#" onclick="share_on_mastodon();" title="{% t generic.accessibility.share-md %}">
     <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
     </a>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url | replace: '.html', '' }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Share on Twitter">
+    <a aria-label="{% t generic.accessibility.share-tw %}" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url | replace: '.html', '' }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="{% t generic.accessibility.share-tw %}">
     <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
     </a>
-    <a aria-label="Share via email" href="mailto:?subject=I wanted you to see this&amp;body=Check out this article {{ site.url }}{{ page.url | replace: '.html', '' }} by {{ site.username }}" title="Share via email">
+    <a aria-label="{% t generic.accessibility.share-eml %}" href="mailto:?subject={% t generic.eml-share.subject %}&amp;body={% t generic.eml-share.subject %} {{ site.url }}{{ page.url | replace: '.html', '' }}" title="{% t generic.accessibility.share-eml %}">
         <i class="fas fa-envelope size-20 color-gray-600"></i>
     </a>
 </div>
@@ -24,7 +24,7 @@
 <script>
     function copyUrl() {
       if (!window.getSelection) {
-        alert('Please copy the URL from the location bar.');
+        alert('{% t generic.accessibility.copy-fail %}');
         return;
       }
       const dummy = document.createElement('p');
@@ -54,7 +54,7 @@
           if (!default_url)
                   default_url = "https://"; 
   
-          var instance = prompt("Enter your instance's address: (ex: https://mastodon.social)", default_url);
+          var instance = prompt("{% t generic.masto-share.server %}", default_url);
           if (instance) { 
                   // Handle URL formats
                   if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
