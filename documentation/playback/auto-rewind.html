@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   
   
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contribute – AntennaPod</title>
-  <meta name="description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
+  <title>Automatic rewind – AntennaPod</title>
+  <meta name="description" content="Automatic rewind">
 
-  <link rel="canonical" href="https://antennapod.org/contribute/">
+  <link rel="canonical" href="https://antennapod.org/documentation/playback/auto-rewind">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Contribute – AntennaPod">
+  <meta name="twitter:title" content="Automatic rewind – AntennaPod">
   <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta name="twitter:image" content="/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:url" content="https://antennapod.org/contribute/">
-  <meta property="og:title" content="Contribute – AntennaPod">
+  <meta property="og:url" content="https://antennapod.org/documentation/playback/auto-rewind">
+  <meta property="og:title" content="Automatic rewind – AntennaPod">
   
   <meta property="og:image" content="/assets/images/blog/default.png">
   
@@ -45,8 +45,9 @@
   <script defer src="/assets/js/search.min.js"></script>
 </head>
 
-  <body>
-    <div class="content">
+
+<body>
+<div class="content">
     <div class="container-fluid fixed background-gray-100">
     <div class="container py-4">
         <div class="navbar navbar-expand-xl justify-content-between">
@@ -89,7 +90,7 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/contribute/">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/playback/auto-rewind">English</a>
   
 
   
@@ -112,7 +113,7 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/contribute/">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/playback/auto-rewind">English</a>
   
 
   
@@ -178,93 +179,128 @@
     });
 </script>
 
-        <div class="container-fluid background-gray-100 py-4">
-  <div class="container">
-    <h1 class="color-gray-800 weight-700">Contribute</h1>
-  </div>
+    <div class="container-fluid">
+        <div class="container py-4">
+            <article class="post-content">
+                <div id="breadcrumbs" class="pb-3">
+    
+    <a href="">Home</a>
+    
+      
+        / <a href="/documentation">Documentation</a>
+      
+    
+      
+        / <a href="/documentation/playback">Playback</a>
+      
+    
+      
+        / Automatic rewind
+      
+    
 </div>
 
-<div class="container-fluid py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12">
-        <article class="post-content">
-            <p>AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!</p>
+                <h1 id="automatic-rewind">Automatic rewind</h1>
 
-<div class="container-fluid">
-  <div class="row pb-4">
-    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="https://www.transifex.com/antennapod/antennapod/">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-globe size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Translate</h4>
-            <p class="text-main">You speak any other language than English? Help us translate AntennaPod via Transifex.</p>
+<p>When an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused. Rewind timing are currently:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time since last playback</th>
+      <th>Rewind duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>More than 1 day</td>
+      <td>20 seconds</td>
+    </tr>
+    <tr>
+      <td>More than 1 hour</td>
+      <td>10 seconds</td>
+    </tr>
+    <tr>
+      <td>More than 1 minute</td>
+      <td>3 seconds</td>
+    </tr>
+  </tbody>
+</table>
+
+
+            </article>
+            
+            <div class="container-fluid">
+                <div class="container py-3">
+                    <div class="row justify-content-start pb-4">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
         </div>
-    </a>
-</div>
-
-    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="https://forum.antennapod.org/">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-comment size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Support</h4>
-            <p class="text-main">You can explain well? Help other users on our forum.</p>
-        </div>
-    </a>
-</div>
-
-    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/documentation/general/beta">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-vial size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Test</h4>
-            <p class="text-main">You are good at breaking stuff? Become a beta tester.</p>
-        </div>
-    </a>
-</div>
-
-    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/contribute/develop">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-code size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Develop</h4>
-            <p class="text-main">You write code? Help test pull requests or submit new features or bug fixes for the app or website.</p>
-        </div>
-    </a>
-</div>
-
-    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/contribute/promote">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-bullhorn size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Promote</h4>
-            <p class="text-main">You draft catchy tweets, interesting blogs, or wonderful graphics? Help spread the word.</p>
-        </div>
-    </a>
-</div>
-
-    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="https://github.com/AntennaPod/AntennaPod/labels/needs:%20mock-up%20or%20user%20story">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-pencil-ruler size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Design</h4>
-            <p class="text-main">You turn complex requests in understandable user stories or wireframes? Help tackle these issues.</p>
-        </div>
-    </a>
-</div>
-
-  </div>
-</div>
-
-<p id="donate">Or, if you can't contribute in any of the ways listed above, you can also make a <a href="https://opencollective.com/antennapod" target="_blank">donation</a>.</p>
-
-        </article>
-      </div>
     </div>
-  </div>
 </div>
-
-    </div>
     <div class="container-fluid svg-wave no-padding">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
         <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
@@ -330,5 +366,6 @@
     </div>
 </footer>
 
-  </body>
+</body>
+
 </html>

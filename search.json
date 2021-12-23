@@ -15,13 +15,13 @@
     {
       "title"    : "Feed updates",
       "url"      : "/documentation/automation/feed-updates",
-      "content"  : "Keep updatedIf you disable global refresh for a feed then if you refresh the feed list from the queue, from the episodes list or from a scheduled update then that feed will not be refreshed. Further, any new episodes for the feed will not show up in Episodes » New though they will continue to show up under the Feed’s episode view."
+      "content"  : "Feed updatesIf you disable global refresh for a feed then if you refresh the feed list from the queue, from the episodes list or from a scheduled update then that feed will not be refreshed. Further, any new episodes for the feed will not show up in Episodes » New though they will continue to show up under the Feed’s episode view."
     } ,
   
     {
       "title"    : "3rd party integration",
       "url"      : "/documentation/automation/tasker",
-      "content"  : "Integration with 3rd party automation applicationsWith AntennaPod, you can specify subscriptions (podcast feeds) to be updated with regular interval or at a particular time of day in Network » Automation settings.If you have more complex needs, you can use various 3rd-party automation applications with AntennaPod to do so. Examples:  Get the subscriptions updated at the start of the day: at 7am, switch on WIFI, then update AntennaPod feeds.  Update subscriptions 5pm weekdays.InstructionsIn your automation application, you then ask AntennaPod to update its subscriptions by sending a ‘Broadcast’ (it may be shown as a type of Android intent) with the following settings:  Package name: de.danoeh.antennapod  Class name: de.danoeh.antennapod.core.receiver.FeedUpdateReceiverInstructions for some automation appsAutomateIn a flow, add a block of the type APPS » Broadcast send, specify  Package to be de.danoeh.antennapod  Receiver class to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiverLlama - Location ProfilesCreate an event (Llama automation rule). In the event,  Add an action of type Android intent.  Specify Intent send mode to be Broadcast.  Specify Package name to be de.danoeh.antennapod  Specify Class name to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Add any other condition / actions for your specific needs.As a shortcut, you can click the this link to create an example event to get started.TaskerCreate a task. In the task, add an action  Select System  Select Send Intent  Specify Package name to be de.danoeh.antennapod  Specify Class name to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Specify Target to be Broadcast receiver  You can leave the other fields blankDisclaimer: AntennaPod community has no relationship with any of the 3rd-party automation applications listed."
+      "content"  : "3rd party integrationWith AntennaPod, you can specify subscriptions (podcast feeds) to be updated with regular interval or at a particular time of day in Network » Automation settings.If you have more complex needs, you can use various 3rd-party automation applications with AntennaPod to do so. Examples:  Get the subscriptions updated at the start of the day: at 7am, switch on WIFI, then update AntennaPod feeds.  Update subscriptions 5pm weekdays.InstructionsIn your automation application, you then ask AntennaPod to update its subscriptions by sending a ‘Broadcast’ (it may be shown as a type of Android intent) with the following settings:  Package name: de.danoeh.antennapod  Class name: de.danoeh.antennapod.core.receiver.FeedUpdateReceiverInstructions for some automation appsAutomateIn a flow, add a block of the type APPS » Broadcast send, specify  Package to be de.danoeh.antennapod  Receiver class to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiverLlama - Location ProfilesCreate an event (Llama automation rule). In the event,  Add an action of type Android intent.  Specify Intent send mode to be Broadcast.  Specify Package name to be de.danoeh.antennapod  Specify Class name to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Add any other condition / actions for your specific needs.As a shortcut, you can click the this link to create an example event to get started.TaskerCreate a task. In the task, add an action  Select System  Select Send Intent  Specify Package name to be de.danoeh.antennapod  Specify Class name to be de.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Specify Target to be Broadcast receiver  You can leave the other fields blankDisclaimer: AntennaPod community has no relationship with any of the 3rd-party automation applications listed."
     } ,
   
     {
@@ -51,7 +51,7 @@
     {
       "title"    : "Reporting a bug",
       "url"      : "/documentation/general/bug-report",
-      "content"  : "I found a bug!That is sad to hear. Please let us know by creating a post on our forum. Please make sure to use the search function first, so the same bug is not reported multiple times. Please include the system information that is displayed in Settings » Report bug.You made a spelling mistakeTranslations are provided by the community. If you found a typo or would like to suggest a better translation, you can change the texts yourself on Transifex. While changing it yourself is the fastest method, you can also just write a post in the translators section of our forum."
+      "content"  : "Reporting a bugThat is sad to hear. Please let us know by creating a post on our forum. Please make sure to use the search function first, so the same bug is not reported multiple times. Please include the system information that is displayed in Settings » Report bug.You made a spelling mistakeTranslations are provided by the community. If you found a typo or would like to suggest a better translation, you can change the texts yourself on Transifex. While changing it yourself is the fastest method, you can also just write a post in the translators section of our forum."
     } ,
   
     {
@@ -75,7 +75,7 @@
     {
       "title"    : "How to synchronize between devices",
       "url"      : "/documentation/general/gpodder",
-      "content"  : "How to synchronize between devicesFor synchronization, AntennaPod uses the free service gpodder.net. In order to synchronize your clients, you need to create an account there.  After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:  After you created the devices, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of both devices synchronized.  Then, have a look at AntennaPod’s Settings » Synchronization). There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.You can also create a new device while logging in and link it later. The disadvantage of this is that only podcasts that were added after linking the devices are synchronized. Therefore, in order to get all your existing subscriptions synchronized, you need to create and link the devices before logging in (like it is described in this post). There is an open issue for gpodder.net that requests to change the behavior but for now, linking needs to be done before synchronizing.  Enjoy synchronization :)Old AntennaPod versions only upload the “played” state of episodes after signing in, so your old played episodes are not marked as played on the other client. This has changed in AntennaPod 2.0.0: You can now press the Force sync button to also upload the played state of all the episodes you listened to earlier."
+      "content"  : "How to synchronize between devicesFor synchronization, AntennaPod uses the free service gpodder.net. In order to synchronize your clients, you need to create an account there.      After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:        After you created the devices, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of both devices synchronized.    Then, have a look at AntennaPod’s Settings » Synchronization). There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.You can also create a new device while logging in and link it later. The disadvantage of this is that only podcasts that were added after linking the devices are synchronized. Therefore, in order to get all your existing subscriptions synchronized, you need to create and link the devices before logging in (like it is described in this post). There is an open issue for gpodder.net that requests to change the behavior but for now, linking needs to be done before synchronizing.  Enjoy synchronization :)Old AntennaPod versions only upload the “played” state of episodes after signing in, so your old played episodes are not marked as played on the other client. This has changed in AntennaPod 2.0.0: You can now press the Force sync button to also upload the played state of all the episodes you listened to earlier."
     } ,
   
     {
@@ -104,12 +104,12 @@
   
     {
       "title"    : "Automatic rewind",
-      "url"      : "/documentation/playback/auto_rewind",
-      "content"  : "Automatic rewind after starting an episode which has been pausedWhen an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused. Rewind timing are currently:            Time since last playback      Rewind duration                  More than 1 day      20 seconds              More than 1 hour      10 seconds              More than 1 minute      3 seconds      "
+      "url"      : "/documentation/playback/auto-rewind",
+      "content"  : "Automatic rewindWhen an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused. Rewind timing are currently:            Time since last playback      Rewind duration                  More than 1 day      20 seconds              More than 1 hour      10 seconds              More than 1 minute      3 seconds      "
     } ,
   
     {
-      "title"    : "What do do when playback crashes",
+      "title"    : "What do to when playback crashes",
       "url"      : "/documentation/playback/crashes",
       "content"  : "What do to when playback crashesIf playback always stops a few seconds after turning off the screen, your system might be killing the app. Some vendors are known to be overly aggressive when trying to save battery. Try to add an exception for AntennaPod in the list of battery optimized apps.We use Android’s built-in audio decoders. A lot of devices are shipped with rather buggy MP4 decoders that lead to various playback issues and even native crashes (think Bluescreen). In our opinion, your best option is to subscribe to MP3 feeds whenever possible."
     } ,
@@ -117,17 +117,17 @@
     {
       "title"    : "Hardware keyboard shortcuts",
       "url"      : "/documentation/playback/shortcuts",
-      "content"  : "Managing playback with a physical keyboardIf you have a physical (‘hardware’) keyboard connected to your phone or tablet, you can use certain shortcuts to control playback in AntennaPod.All screens (except video player and the settings)            Key      Action                  P      Play/Pause              J/A/,      Rewind media              K/D/.      Forward media              +/W      Raise media volume channel              -/S      Lower media volume channel)              M      Mute/unmute (toggle) media volume channel (only on Android 6 and higher)      Video player            Key      Action                  P/Space      Play/Pause              J/A/,      Rewind media              K/D/.      Forward media              F/Esc      Exit video player              i      Enter picture-in-picture mode              0-9      Go to 0-90% of the video              +/W      Raise media volume (channel)              -/S      Lower media volume (channel)              M      Mute/unmute (toggle) media volume channel (only on Android 6 and higher)      "
+      "content"  : "Hardware keyboard shortcutsIf you have a physical (‘hardware’) keyboard connected to your phone or tablet, you can use certain shortcuts to control playback in AntennaPod.All screens (except video player and the settings)            Key      Action                  P      Play/Pause              J/A/,      Rewind media              K/D/.      Forward media              +/W      Raise media volume channel              -/S      Lower media volume channel)              M      Mute/unmute (toggle) media volume channel (only on Android 6 and higher)      Video player            Key      Action                  P/Space      Play/Pause              J/A/,      Rewind media              K/D/.      Forward media              F/Esc      Exit video player              i      Enter picture-in-picture mode              0-9      Go to 0-90% of the video              +/W      Raise media volume (channel)              -/S      Lower media volume (channel)              M      Mute/unmute (toggle) media volume channel (only on Android 6 and higher)      "
     } ,
   
     {
-      "title"    : "For Podcasters &amp; Hosters",
+      "title"    : "For Podcasters & Hosters",
       "url"      : "/documentation/podcasters-hosters",
       "content"  : "For Podcasters &amp; HostersBelow, you can find our support information for podcasters &amp; hosting providers."
     } ,
   
     {
-      "title"    : "Create an &#39;Open in AntennaPod&#39; link",
+      "title"    : "Create an 'Open in AntennaPod' link",
       "url"      : "/documentation/podcasters-hosters/add-on-antennapod",
       "content"  : "Create an ‘Open in AntennaPod’ linkDo you want to make it easy for your network or audience to add your podcast(s) in AntennaPod?Simply include a link to https://antennapod.org/deeplink/subscribe?url=xyz on your website or wherever you want. Make sure to replace xyz with the URL of your RSS feed.Users who have installed AntennaPod version 2.4.0 or higher will directly see your podcast (and be able to preview or add it). Users who don’t have this recent version will see our website with a nice ‘Subscribe’ button which will open your podcast in AntennaPod.If you need our logo, please have a look at our branding repository."
     } ,
@@ -157,7 +157,7 @@
     } ,
   
     {
-      "title"    : "Multiple queues",
+      "title"    : "How to use multiple queues",
       "url"      : "/documentation/queue/multiple-queues",
       "content"  : "How to use multiple queuesMultiple queues are currently not supported.You can follow issue 2648 on GitHub for more information and / or to be kept updated."
     } ,
@@ -177,7 +177,7 @@
     {
       "title"    : "Subscription tags (aka groups or categories)",
       "url"      : "/documentation/subscriptions/subscription-groups",
-      "content"  : "Assigning tags (aka groups or categories) to podcastsTo help organize your subscriptions you can assign tags (sometimes called groups or categories) to a podcast.Please note that for the moment it is not possible to create queues based on tags. This would require support for multiple queues first. (See also the feature request on our development platform.)To assign tags to a podcast you have to:  Open a specific podcast  Tap on the gear icon to access its settings  Select the Tags setting"
+      "content"  : "Subscription tags (aka groups or categories)To help organize your subscriptions you can assign tags (sometimes called groups or categories) to a podcast.Please note that for the moment it is not possible to create queues based on tags. This would require support for multiple queues first. (See also the feature request on our development platform.)To assign tags to a podcast you have to:  Open a specific podcast  Tap on the gear icon to access its settings  Select the Tags setting"
     } 
   
 ]

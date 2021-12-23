@@ -8,24 +8,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Documentation – AntennaPod</title>
   <meta name="description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
+
+  <link rel="canonical" href="https://antennapod.org/documentation/">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Documentation – AntennaPod">
   <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
-  <meta name="twitter:image" content="https://antennapod.org/assets/images/favicons/android-chrome-256x256.png">
+  <meta name="twitter:image" content="/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/documentation/">
   <meta property="og:title" content="Documentation – AntennaPod">
   
-  <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
+  <meta property="og:image" content="/assets/images/blog/default.png">
   
-
   <meta property="og:image:type" content="image/png">
   <meta property="og:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta property="og:site_name" content="AntennaPod">
-  
-  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
   
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
@@ -34,11 +35,11 @@
   <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
   <meta name="msapplication-TileColor" content="#2a854e">
   <meta name="theme-color" content="#2a854e">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/all.css">
-  <link rel="canonical" href="https://antennapod.org/documentation/">
-  <!-- JavaScript -->
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
@@ -79,13 +80,20 @@
                     
                     <div class="nav-item ml-0 ml-sm-1 text-center">
                         <li class="nav-item dropdown mb-0">
-                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language switcher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">EN</span>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" onchange="location = this.value;" href="/documentation/">English</a>
-<!--<a class="dropdown-item" onchange="location = this.value;"
-    href="/de/documentation/">Deutsch</a>-->
+                                
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/">English</a>
+  
+
+  
+
 
                             </div>
                         </li>
@@ -95,13 +103,20 @@
             <div class="d-xl-none">
                 <div class="nav-item text-center d-inline-block">
                     <div class="nav-item dropdown">
-                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language Switcher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language switcher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">EN</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" onchange="location = this.value;" href="/documentation/">English</a>
-<!--<a class="dropdown-item" onchange="location = this.value;"
-    href="/de/documentation/">Deutsch</a>-->
+                            
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/">English</a>
+  
+
+  
+
 
                         </div>
                     </div>
@@ -113,7 +128,7 @@
         <div id="navbar-mobile" class="overlay">
             <button class="closebtn" onclick="closeNav()">×</button>
             <div class="overlay-header">
-                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="AntennaPod logo">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
             </div>
             <div class="overlay-content">
                 
@@ -173,7 +188,7 @@
   <div class="container pt-5">
     <p class="color-gray-900 mb-3">Welcome to the documentation section of the AntennaPod. This section aims to provide information on current features.</p>
 
-    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="Search documentation...">
+    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="Search documentation…">
     
     <ul class="pt-3" id="results-container"></ul>
   </div>
@@ -227,13 +242,27 @@
       
       
       
+      
+      
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/getting-started">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-users size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Getting started</h4>
-    </div>
-</a>
+    <a class="text-decoration-none" href="/documentation/getting-started">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-users size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Getting started</h4>
+        </div>
+    </a>
+</div>
+
+      
+      
+      
+      <div class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="/documentation/general">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-info size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">General</h4>
+        </div>
+    </a>
 </div>
 
       
@@ -241,75 +270,61 @@
       
       
       
-      
-      
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/general">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-info size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">General</h4>
-    </div>
-</a>
+    <a class="text-decoration-none" href="/documentation/playback">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-play size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Playback</h4>
+        </div>
+    </a>
 </div>
 
       
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/playback">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-play size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Playback</h4>
-    </div>
-</a>
+    <a class="text-decoration-none" href="/documentation/queue">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-list size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Queue</h4>
+        </div>
+    </a>
 </div>
 
       
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/queue">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-list size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Queue</h4>
-    </div>
-</a>
+    <a class="text-decoration-none" href="/documentation/subscriptions">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-folder size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Subscriptions</h4>
+        </div>
+    </a>
 </div>
 
       
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/subscriptions">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-folder size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Subscriptions</h4>
-    </div>
-</a>
+    <a class="text-decoration-none" href="/documentation/automation">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-robot size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Automation</h4>
+        </div>
+    </a>
 </div>
 
       
       
       
       <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/automation">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-robot size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">Automation</h4>
-    </div>
-</a>
-</div>
-
-      
-      
-      
-      <div class="col-12 col-md-3 mb-3 mb-md-3">
-<a class="text-decoration-none" href="/documentation/podcasters-hosters">
-    <div class="card shadow-sm project-card">
-    <i class="fas fa-microphone-alt size-36 text-main mb-3"></i>
-    <h4 class="text-main weight-700">For Podcasters &amp; Hosters</h4>
-    </div>
-</a>
+    <a class="text-decoration-none" href="/documentation/podcasters-hosters">
+        <div class="card shadow-sm project-card">
+            <i class="fas fa-microphone-alt size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">For Podcasters &amp; Hosters</h4>
+        </div>
+    </a>
 </div>
 
       
@@ -351,18 +366,16 @@
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
                         <div class="mb-2 size-16"><a class="color-gray-900" href="/about"><span>About</span></a></div>
-                        <div class="mb-2 size-16">
-<a class="color-gray-900" href="/contribute"><span>Contribute</span></a>
-                        </div>
-                        <div class="mb-2 size-16">
-<a class="color-gray-900" href="/documentation"><span>Documentation</span></a>
-                        </div>
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/contribute"><span>Contribute</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/documentation"><span>Documentation</span></a></div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/media-kit"><span></span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">
