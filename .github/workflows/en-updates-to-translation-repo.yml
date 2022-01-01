@@ -1,0 +1,45 @@
+name: Push EN changes to translation-files branch
+
+on:
+  # run automatically when EN _i18n files are touched in live website- see https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
+  push:
+    branches:
+      - 'master'
+    paths:
+      - _i18n/en.yml
+      - _i18n/en/**
+  # allow to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-files:
+    name: Update PO files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get repository
+        uses: actions/checkout@v2
+      - name: Install mdpo
+        run: pip install mdpo
+      - name: Create folder for files to be copied
+        run: mkdir _i18n/translation-files
+      - name: Create/update YAML file with short texts
+        # translated files are not copied because translation is done in Weblate - any manual translation edits will be lost
+        run: cp _i18n/en.yml _i18n/translation-files
+      - name: Create/update POT file of Contribute section
+        # see https://mdpo.readthedocs.io
+        run: md2po _i18n/en/contribute/*.md --po-filepath _i18n/translation-files/site-contribute.pot --save --quiet
+      - name: Create/update POT file of Documentation section
+        run: md2po _i18n/en/documentation/*.md _i18n/en/documentation/*/*.md --po-filepath _i18n/translation-files/site-documentation.pot --save --quiet
+      - name: Create/update POT file of other website pages
+        run: md2po _i18n/en/general/*.md --po-filepath _i18n/translation-files/site-general.pot --save --quiet
+      - name: Push to translation-files branch
+        # see https://github.com/s0/git-publish-subdir-action
+        uses: s0/git-publish-subdir-action@v2.5.0
+        env:
+          REPO: self
+          BRANCH: translation-files
+          FOLDER: _i18n/translation-files # assets in this folder will be pushed
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub automatically adds this
+          MESSAGE: "Update POT files @ {long-sha}🚀"
+          SKIP_EMPTY_COMMITS: true
+          CLEAR_GLOBS_FILE: ".github/workflows/clear-translation-target-files.txt" # delete items in target branch as listed in this file
