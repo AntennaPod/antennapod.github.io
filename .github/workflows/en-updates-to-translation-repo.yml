@@ -42,4 +42,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub automatically adds this
           MESSAGE: "Update POT files @ {long-sha}🚀"
           SKIP_EMPTY_COMMITS: true
-          CLEAR_GLOBS_FILE: ".github/workflows/.clear-target-files" # delete items in target branch as listed in this file
+          CLEAR_GLOBS_FILE: ".github/workflows/clear-translation-target-files.txt" # delete items in target branch as listed in this file
