@@ -22,7 +22,7 @@ jobs:
       - name: Get main repository
         uses: actions/checkout@v2
         with:
-          ref: main
+          ref: master
       - name: Get translation repository
         uses: actions/checkout@v2
         with:
@@ -131,4 +131,4 @@ jobs:
           git config user.email "<bot@antennapod.org>"
           git status
           git commit -m "Update website with new translations"
-          git push origin main
+          git push origin master
