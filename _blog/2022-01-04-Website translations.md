@@ -1,7 +1,7 @@
 ---
 title: Let's translate this space!
 excerpt: How and why we made the website translatable
-date: "2022-01-05 13:00:00"
+date: "2022-01-04 13:00:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
