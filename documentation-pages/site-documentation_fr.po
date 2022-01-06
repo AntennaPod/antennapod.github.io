@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2022-01-06 10:53+0000\n"
+"PO-Revision-Date: 2022-01-06 23:16+0000\n"
 "Last-Translator: Kusco <franbrich@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/fr/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Episode Cleanup"
-msgstr ""
+msgstr "Nettoyage des épisodes"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
@@ -42,16 +42,26 @@ msgid ""
 " delay (x time after playback) or Episode. The setting `Episode Cache` "
 "determines the maximum amount of downloaded episodes."
 msgstr ""
+"Le nettoyage des épisodes se trouve dans `Préférences` \" `Réseau` \" `"
+"Téléchargement automatique`. Si le téléchargement automatique a besoin "
+"d'espace pour les nouveaux épisodes, il supprimera les anciens épisodes qui "
+"ne sont pas dans la file d'attente et qui ne sont pas marqués comme favoris. "
+"Vous pouvez ajouter un délai (x temps après la lecture) ou un épisode. Le "
+"paramètre `Nombre d'épisode stockés` détermine la quantité maximale "
+"d'épisodes téléchargés."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Auto Delete"
-msgstr ""
+msgstr "Suppression automatique"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
 msgid ""
 "Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are"
 " deleted when playback completes. You can disable this option."
 msgstr ""
+"La suppression automatique se trouve dans `Préférences` \" `Stockage`. "
+"Lorsqu'elle est activée, les épisodes sont supprimés lorsque la lecture est "
+"terminée. Vous pouvez désactiver cette option."
 
 #: _i18n/en/documentation/automation/feed-updates.md:block 1 (paragraph)
 msgid ""
@@ -61,6 +71,12 @@ msgid ""
 "show up in `Episodes` » `New` though they will continue to show up under the"
 " Feed's episode view."
 msgstr ""
+"Si vous désactivez le rafraîchissement global pour un flux, alors si vous "
+"rafraîchissez la liste des flux à partir de la file d'attente, de la liste "
+"des épisodes ou d'une mise à jour planifiée, alors ce flux ne sera pas "
+"rafraîchi. De plus, les nouveaux épisodes du flux n'apparaîtront pas dans "
+"`Episodes` \" `New` mais ils continueront à s'afficher dans la vue des "
+"épisodes du flux."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -68,26 +84,33 @@ msgid ""
 " with regular interval or at a particular time of day in `Network` » "
 "`Automation` settings."
 msgstr ""
+"Avec AntennaPod, vous pouvez spécifier des abonnements (flux de podcasts) à "
+"mettre à jour à intervalle régulier ou à un moment particulier de la journée "
+"dans les paramètres `Réseau` \" `Automatisation`."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. Examples:"
 msgstr ""
+"Si vous avez des besoins plus complexes, vous pouvez utiliser diverses "
+"applications tierces vous permettant d'automatiser AntennaPod. Exemples :"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WIFI, then update AntennaPod feeds."
 msgstr ""
+"Mettez les abonnements à jour en début de journée : à 7 heures du matin, "
+"allumez le WIFI, puis mettez à jour les flux d'AntennaPod."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid "Update subscriptions 5pm weekdays."
-msgstr ""
+msgstr "Mise à jour des abonnements à 17 heures en semaine."
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
 msgid "Instructions"
-msgstr ""
+msgstr "Instructions"
 
 #: _i18n/en/documentation/automation/tasker.md:block 5 (paragraph)
 msgid ""
@@ -98,19 +121,20 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Nom du paquet : `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 msgstr ""
+"Nom de la classe : `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
 msgid "Instructions for some automation apps"
-msgstr ""
+msgstr "Instructions pour certaines applications d'automatisation"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid "Automate"
-msgstr ""
+msgstr "Automatiser"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid "In a flow, add a block of the type `APPS` » `Broadcast send`, specify"
