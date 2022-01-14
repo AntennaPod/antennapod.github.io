@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2022-01-06 23:16+0000\n"
+"PO-Revision-Date: 2022-01-15 08:55+0000\n"
 "Last-Translator: Kusco <franbrich@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/fr/>\n"
@@ -118,6 +118,9 @@ msgid ""
 "subscriptions by sending a 'Broadcast' (it may be shown as a type of Android"
 " intent) with the following settings:"
 msgstr ""
+"Dans votre automatisation d'application, vous demandez à AntennaPod de "
+"mettre à jour ses abonnement en envoyant un 'Broadcast' (il peut être "
+"présenté comme un type d'intention Android) avec les paramètres suivants :"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
@@ -139,47 +142,53 @@ msgstr "Automatiser"
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid "In a flow, add a block of the type `APPS` » `Broadcast send`, specify"
 msgstr ""
+"Dans un flux, ajouter un bloc de type `APPS` \" `Broadcast send`, spécifiez"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Le paquet doit être `de.danoeh.antennapod`."
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid ""
 "Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 msgstr ""
+"La classe du récepteur doit être `de.danoeh.antennapod.core.receiver."
+"FeedUpdateReceiver`."
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Llama - Location Profiles"
-msgstr ""
+msgstr "Llama - Emplacement des profils"
 
 #: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
 msgid "Create an event (Llama automation rule). In the event,"
-msgstr ""
+msgstr "Créez un événement (règle d'automatisation de Llama). Dans l'événement,"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Add an action of type Android intent."
-msgstr ""
+msgstr "Ajouter une action d'intention pour Android."
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Intent send mode to be `Broadcast`."
-msgstr ""
+msgstr "Spécifier le mode d'envoi de l'intention comme étant `Broadcast`."
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Package name to be `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Spécifiez le nom du paquet comme étant `de.danoeh.antennapod`."
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
 "Specify Class name to be "
 "`de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 msgstr ""
+"Spécifiez le nom de la classe comme étant `de.danoeh.antennapod.core.receiver"
+".FeedUpdateReceiver`."
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Add any other condition / actions for your specific needs."
-msgstr ""
+msgstr "Ajoutez toute autre condition / action pour vos besoins spécifiques."
 
 #: _i18n/en/documentation/automation/tasker.md:block 14 (paragraph)
+#, fuzzy
 msgid ""
 "As a shortcut, you can click the [this "
 "link](http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0"
@@ -187,42 +196,56 @@ msgid ""
 "0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C)"
 " to create an example event to get started."
 msgstr ""
+"En guise de raccourci, vous pouvez cliquer sur [ce lien] (http://llama."
+"location.profiles/AntennaPod+feeds+Update/"
+"AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde."
+"danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZ"
+"QBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%"
+"2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkA"
+"GUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQ"
+"BpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAA"
+"AAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) pour créer un exemple "
+"d'événement pour commencer."
 
 #: _i18n/en/documentation/automation/tasker.md:block 15 (header)
 msgid "Tasker"
-msgstr ""
+msgstr "Tâches"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (paragraph)
 msgid "Create a task. In the task, add an action"
-msgstr ""
+msgstr "Créez une tâche. Dans la tâche, ajoutez une action"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Select `System`"
-msgstr ""
+msgstr "Sélectionnez `System`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Select `Send Intent`"
-msgstr ""
+msgstr "Sélectionnez `Send Intent`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Specify Target to be `Broadcast receiver`"
-msgstr ""
+msgstr "Spécifier la cible comme étant `Broadcast receiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "You can leave the other fields blank"
-msgstr ""
+msgstr "Vous pouvez laisser les autres champs vides"
 
 #: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
 msgid ""
 "**Disclaimer:** AntennaPod community has no relationship with any of the "
 "3rd-party automation applications listed."
 msgstr ""
+"**Avertissement:** La communauté AntennaPod n'a aucune relation avec les "
+"applications d'automatisation tierces citées."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
 msgid ""
 "Our builds are completely ad-free and open source! If you are seeing ads, "
 "this can have two reasons:"
 msgstr ""
+"Nos développements sont totalement exempts de publicité et sont open source "
+"! Si vous voyez des publicités, il peut y avoir deux raisons :"
 
 #: _i18n/en/documentation/general/ads.md:block 2 (unordered list)
 msgid ""
@@ -231,8 +254,14 @@ msgid ""
 "they include ads, AntennaPod plays them. We have nothing to do with those "
 "ads, so the revenue fully goes to the publishers of your podcast."
 msgstr ""
+"Les éditeurs de podcasts ont ajouté les publicités à leurs notes ou à leur "
+"fichier audio. AntennaPod lit les podcasts tels qu'ils ont été publiés par "
+"leurs créateurs. S'ils contiennent des publicités, AntennaPod les diffuse. "
+"Nous n'avons rien à voir avec ces publicités. Les revenus sont donc "
+"intégralement reversés aux éditeurs de votre podcast."
 
 #: _i18n/en/documentation/general/ads.md:block 2 (unordered list)
+#, fuzzy
 msgid ""
 "You downloaded an unofficial version of AntennaPod. AntennaPod is open-"
 "source. This means that anyone can download the source code. Unfortunately, "
@@ -244,18 +273,31 @@ msgid ""
 "[GitHub](https://github.com/AntennaPod/AntennaPod/) and build AntennaPod "
 "yourself!"
 msgstr ""
+"Vous avez téléchargé une version non officielle d'AntennaPod. AntennaPod est "
+"un logiciel libre. Cela signifie que tout le monde peut télécharger le code "
+"source. Malheureusement, certains développeurs se servent d'AntennaPod, pour "
+"y insérer des publicités et le publient ensuite comme une nouvelle "
+"application. Vous pouvez obtenir l'application officielle AntennaPod sur ["
+"Google Play] (https://play.google.com/store/apps/details?id=de.danoeh."
+"antennapod) ou [F-Droid] (https://f-droid.org/packages/de.danoeh.antennapod/)"
+". Vous pouvez même obtenir la dernière version sur [GitHub](https://github."
+"com/AntennaPod/AntennaPod/) et développer votre propre application "
+"d'AntennaPod !"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
 "There are a few options to copy your data to your new phone, and each method"
 " copies a certain amount of data:"
 msgstr ""
+"Il existe plusieurs options pour copier vos données sur votre nouveau "
+"téléphone, et chaque méthode copie une certaine quantité de données :"
 
 #: _i18n/en/documentation/general/backup.md:block 2 (header)
 msgid "Synchronization"
-msgstr ""
+msgstr "Synchronisation"
 
 #: _i18n/en/documentation/general/backup.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "Sync your subscriptions via [gpodder.net](https://gpodder.net/). This will "
 "save some podcast & episode data (e.g. playback position), but you will "
@@ -263,10 +305,16 @@ msgid ""
 "gpodder, visit our [documentation section](/documentation/general/gpodder) "
 "about it."
 msgstr ""
+"Synchronisez vos abonnements via [gpodder.net] (https://gpodder.net/). Cela "
+"permettra de sauvegarder certaines données relatives aux podcasts et aux "
+"épisodes (par exemple, la position de lecture), mais vous perdrez vos "
+"favoris, votre file d'attente et les paramètres de l'application. Pour plus "
+"de détails sur gpodder, consultez la section [documentation](/documentation/"
+"general/gpodder) qui lui est consacrée."
 
 #: _i18n/en/documentation/general/backup.md:block 4 (header)
 msgid "Database Export"
-msgstr ""
+msgstr "Exportation de la base de données"
 
 #: _i18n/en/documentation/general/backup.md:block 5 (paragraph)
 msgid ""
@@ -275,10 +323,14 @@ msgid ""
 "After importing all data is restored; you will only need to re-download "
 "episodes."
 msgstr ""
+"Exportez la base de données AntennaPod. Ceci est expérimental, vous devez "
+"vous assurer que vous avez la même version d'AntennaPod sur l'ancien et le "
+"nouveau téléphone. Après l'importation, toutes les données sont restaurées ; "
+"vous devrez seulement télécharger à nouveau les épisodes."
 
 #: _i18n/en/documentation/general/backup.md:block 6 (header)
 msgid "OPML"
-msgstr ""
+msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
 msgid ""
@@ -293,6 +345,18 @@ msgid ""
 "added to your existing subscriptions. None of your existing subscriptions "
 "will be affected."
 msgstr ""
+"Les fichiers OPML permettent de transférer vos abonnements vers une autre "
+"application de podcast. Vous perdrez toutes les données spécifiques aux "
+"podcasts ou aux épisodes (par exemple, si un épisode spécifique a été lu) et "
+"tous les paramètres de l'application. Pour exporter votre fichier, allez "
+"dans `Paramètres` \" `Stockage` \" `Importation / Exportation`. Pensez à "
+"cliquer sur `Envoyer...` pour enregistrer le fichier dans un autre dossier "
+"de votre téléphone ou vers une autre application, car le fichier original "
+"sera supprimé lorsque vous désinstallerez AntennaPod. Lorsque vous importez "
+"le fichier d'AntennaPod sur un autre appareil, l'application affiche une "
+"liste de podcasts avec des cases à cocher. Les podcasts que vous "
+"sélectionnez dans cette liste seront ajoutés à vos abonnements existants. "
+"Aucun de vos abonnements existants ne sera affecté."
 
 #: _i18n/en/documentation/general/beta.md:block 1 (paragraph)
 msgid ""
@@ -301,6 +365,12 @@ msgid ""
 " app, so that we know all possible combinations of phones, Android versions "
 "and use cases work as expected."
 msgstr ""
+"AntennaPod compte de nombreux utilisateurs et nous ne voulons pas qu'ils "
+"rencontrent des difficultés lorsque nous ajoutons une nouvelle "
+"fonctionnalité. Il est important qu'un groupe important teste notre "
+"application, afin que nous sachions que toutes les combinaisons possibles de "
+"téléphones, de versions d'Android et de cas d'utilisation fonctionnent comme "
+"prévu."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
 msgid ""
