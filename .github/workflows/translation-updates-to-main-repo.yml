@@ -22,7 +22,7 @@ jobs:
       - name: Get main repository
         uses: actions/checkout@v2
         with:
-          ref: main
+          ref: master
       - name: Get translation repository
         uses: actions/checkout@v2
         with:
@@ -128,7 +128,7 @@ jobs:
       - name: Commit changes
         run: |
           git config user.name "AntennaPod Translations Bot"
-          git config user.email "<bot@antennapod.org>"
+          git config user.email "<antennapod-bot@users.noreply.github.com>"
           git status
           git commit -m "Update website with new translations"
-          git push origin main
+          git push origin master
