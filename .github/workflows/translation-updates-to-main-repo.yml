@@ -42,7 +42,7 @@ jobs:
           languagelist=${languagelist//'languages: '}
           languagelist=${languagelist//,}
           # Exclude English (source) from list of languages to update
-          languagelist=${languagelist//'en '}
+          languagelist=${languagelist//'en'}
           # Make variable consistent between steps
           echo "languages=$languagelist" >> $GITHUB_ENV
       - name: Print tree
