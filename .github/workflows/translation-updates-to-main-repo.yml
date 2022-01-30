@@ -12,6 +12,11 @@ on:
       - general-strings/**
   # Enable running this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      languages:
+        description: "Languages to pull (if none provided the site's config-file will be used)"
+        required: false
+        type: string
 
 jobs:
   update-PO:
@@ -35,12 +40,17 @@ jobs:
       - name: Set languages
         id: lang-set
         run: |
-          languagelist=$(cat _config.yml | grep "languages: \[.*\]" )
-          languagelist=${languagelist//[}
-          languagelist=${languagelist//]}
-          echo $languagelist
-          languagelist=${languagelist//'languages: '}
+          if [[ -n "${{ github.event.inputs.languages }}" ]]; then
+            languagelist=${{ github.event.inputs.languages }}
+          else
+            languagelist=$(cat _config.yml | grep "languages: \[.*\]" )
+            languagelist=${languagelist//[}
+            languagelist=${languagelist//]}
+            echo $languagelist
+            languagelist=${languagelist//'languages: '}
+          fi
           languagelist=${languagelist//,}
+          languagelist=${languagelist//;}
           # Exclude English (source) from list of languages to update
           languagelist=${languagelist//'en'}
           # Make variable consistent between steps
