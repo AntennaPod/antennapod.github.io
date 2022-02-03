@@ -43,7 +43,6 @@ jobs:
             languagelist=$(cat _config.yml | grep "languages: \[.*\]" )
             languagelist=${languagelist//[}
             languagelist=${languagelist//]}
-            echo $languagelist
             languagelist=${languagelist//'languages: '}
           fi
           languagelist=${languagelist//,}
