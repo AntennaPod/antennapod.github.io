@@ -52,6 +52,22 @@ jobs:
           languagelist=${languagelist//'en'}
           # Make variable consistent between steps
           echo "languages=$languagelist" >> $GITHUB_ENV
+      - name: Make General pages
+        run: |
+          cd _i18n/en/general
+          languages=(${{ env.languages }})
+          for language in "${languages[@]}"
+          do
+            mkdir -p ../../$language/general
+          done
+          for file in *
+          do
+            for language in "${languages[@]}"
+            do
+              po2md $file --po-files ../../../translation-files/general-pages/site-general_$language.po --save ../../$language/general/$file
+              git add ../../$language/general/$file
+            done
+          done
       - name: Make Contribution pages
         run: |
           cd _i18n/en/contribute
@@ -104,23 +120,6 @@ jobs:
               done
             done
             cd ../
-          done
-      - name: Make General pages
-        run: |
-          cd _i18n/en/general
-          ls
-          languages=(${{ env.languages }})
-          for language in "${languages[@]}"
-          do
-            mkdir -p ../../$language/general
-          done
-          for file in *
-          do
-            for language in "${languages[@]}"
-            do
-              po2md $file --po-files ../../../translation-files/general-pages/site-general_$language.po --save ../../$language/general/$file
-              git add ../../$language/general/$file
-            done
           done
       - name: Stage yml files
         run: |
