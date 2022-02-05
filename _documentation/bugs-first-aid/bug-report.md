@@ -1,9 +1,10 @@
 ---
-title: documentation.categories.general.bug-report
+title: documentation.categories.bugs-first-aid.bug-report
 layout: doc
 level: "2"
-group: "general"
+group: "bugs-first-aid"
 icon: "fas fa-bug"
+order: 10
 ---
 
 # {% t {{ page.title }} %}
