@@ -1,1 +1,1 @@
-Thank you for considering a donation. The current developers decided to not accept donations. If you have some time to spare, we would warmly welcome your [involvement in our community](/contribute).
+Thank you for considering to contribute! We would warmly welcome your [involvement in our community](/contribute). There's many ways you can help us, and they don't need to involve spending money! But if you can't contribute time or talent, you can also make a donation.
