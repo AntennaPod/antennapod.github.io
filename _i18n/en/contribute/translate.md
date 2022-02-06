@@ -43,7 +43,7 @@ Under the AntennaPod project, you will find three 'resources':
 
 The app is currently available in 34 languages. While there are more languages in Transifex, we don't include them in the app. We try to maintain a [threshold of 40% completion](https://github.com/AntennaPod/AntennaPod/pull/4112) for languages. If it goes below that, the app hardly provides a good user experience.
 
-New translations are pulled from Transifex to GitHub (the development platform) at least for every 'point release'. These are releases lik 2.0, 2.5, etc that introduce new features. But we also release updates with bug fixes and new translations in between. On average, it might take a month or two before your work is available in a release.
+New translations are pulled from Transifex to GitHub (the development platform) at least for every 'point release'. These are releases like 2.0, 2.5, etc that introduce new features. But we also release updates with bug fixes and new translations in between. On average, it might take a month or two before your work is available in a release.
 
 Translation contributors will find themselves mentioned in the app with their Transifex username, under `Settings` » `About` » `Contributors`.
 
