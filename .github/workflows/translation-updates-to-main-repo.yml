@@ -101,7 +101,7 @@ jobs:
             done
           done
           # sub-level files
-          documentation_groups=(automation general getting-started playback podcasters-hosters queue subscriptions)
+          documentation_groups=(automation general getting-started playback podcasters-hosters queue subscriptions bugs-first-aid)
           for category in "${documentation_groups[@]}"
           do
             cd $category
