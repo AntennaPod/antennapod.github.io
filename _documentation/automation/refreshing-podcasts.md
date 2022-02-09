@@ -1,5 +1,5 @@
 ---
-title: documentation.categories.automation.feed-updates
+title: documentation.categories.automation.refreshing-podcasts
 layout: doc
 level: "2"
 group: "automation"
