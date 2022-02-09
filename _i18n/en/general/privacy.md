@@ -1,9 +1,9 @@
 AntennaPod is developed and maintained by individual volunteers and not represented by any legal entity. The community doesn't need your data, so the app and website are designed to be fully GDPR compliant. Read on to learn more.
 
 ## What data the AntennaPod app might collect, store and process
-The app only stores data strictly necessary to for the app to function. This includes for example the list of podcasts you follow, the app settings, and authentication data provided for specific podcasts or services (such as synchronisation services). The app does not include any advertisement libraries or any 3rd party tracking (analytics) code, such as Google Analytics.
+The app only records data strictly necessary for the app to function. This includes for example the list of podcasts you follow, the app settings, and authentication data provided for specific podcasts or services (such as synchronisation services). The app does not include any advertisement libraries or any 3rd party tracking (analytics) code, such as Google Analytics.
 
-**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not upload your data anywhere, except where strictly necessary for the functioning of the app.** Please see the second next section for the cases in which your data may be provided to third parties.
+**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app.** Please see the second next section for the cases in which your data may be provided to third parties.
 
 The only case where your data from 3rd parties is handled, is when using a synchronisation service if enabled via the settings. In that case, the app may receive subscriptions and playback events provided by the service.
 
