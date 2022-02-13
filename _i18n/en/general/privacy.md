@@ -46,13 +46,13 @@ The developers of AntennaPod do **not** have access to any of your information, 
 ## Updates of this Privacy Policy
 The developers may update this policy in the future. It is advisable to check the policy periodically for any changes. Changes to this Privacy Policy are effective when they are made on this document.
 
-This Privacy Policy was last updated on 2022-02-06.
+This Privacy Policy was last updated on 2022-02-13.
 If you have questions, open an issue on GitHub or our forum.
 
 <!-- mdpo-disable-next-line -->
 {% if site.lang != 'en' %}
 
-This privacy policy is translated from English to help you understand how AnteannPod deals with the topic. In case of conflict between the the original and the translated version, the English one will prevail.
+This privacy policy is translated from English to help you understand how AntennaPod deals with the topic. In case of conflict between the the original and the translated version, the English one will prevail.
 
 <!-- mdpo-disable-next-line -->
 {% endif %}
