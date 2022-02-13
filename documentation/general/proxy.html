@@ -6,21 +6,21 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Subscriptions – AntennaPod</title>
-  <meta name="description" content="Subscriptions">
+  <title>Leading traffic through a proxy or TOR network – AntennaPod</title>
+  <meta name="description" content="Leading traffic through a proxy or TOR network">
 
-  <link rel="canonical" href="https://antennapod.org/documentation/subscriptions">
+  <link rel="canonical" href="https://antennapod.org/documentation/general/proxy">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Subscriptions – AntennaPod">
+  <meta name="twitter:title" content="Leading traffic through a proxy or TOR network – AntennaPod">
   <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:url" content="https://antennapod.org/documentation/subscriptions">
-  <meta property="og:title" content="Subscriptions – AntennaPod">
+  <meta property="og:url" content="https://antennapod.org/documentation/general/proxy">
+  <meta property="og:title" content="Leading traffic through a proxy or TOR network – AntennaPod">
   
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
   
@@ -90,7 +90,7 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/subscriptions">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/proxy">English</a>
   
 
   
@@ -113,7 +113,7 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/subscriptions">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/proxy">English</a>
   
 
   
@@ -191,14 +191,33 @@
       
     
       
-        / Subscriptions
+        / <a href="/documentation/general">General</a>
+      
+    
+      
+        / Leading traffic through a proxy or TOR network
       
     
 </div>
 
-                <h1 id="subscriptions">Subscriptions</h1>
+                <h1 id="leading-traffic-through-a-proxy-or-tor-network">Leading traffic through a proxy or TOR network</h1>
 
-<p>Below, you can find frequently asked questions about subscriptions.</p>
+<p>It’s possible to make AntennaPod lead all traffic (media files, cover images, RSS requests &amp; searches) through a proxy or the TOR network. This may have two potential benefits:</p>
+
+<ul>
+  <li>Privacy: depending on the type of proxy service, your downloading/streaming behaviour may be protected from podcast hosts</li>
+  <li>Access: if podcast host prevents content downloading from other countries (based on IP addresses), setting a proxy with the origin country may allow you to still access its content</li>
+</ul>
+
+<p>You will find this option under <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Network</code> » <code class="language-plaintext highlighter-rouge">Proxy</code>.</p>
+
+<p>In order to lead all traffic via the TOR network, you need to install a proxy app for TOR, and provide the following details in AntennaPod:</p>
+<ul>
+  <li>Type: SOCKS</li>
+  <li>Host: “localhost” or “127.0.0.1”</li>
+  <li>Port: “9050”</li>
+</ul>
+
 
             </article>
             
@@ -246,27 +265,7 @@
                     
                     
                     
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/documentation/subscriptions/listening-without-subscribing">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-play size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Listening to an episode without subscribing</h4>
-        </div>
-    </a>
-</div>
-
                     
-                    
-                    
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/documentation/subscriptions/subscription-groups">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-tags size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Subscription tags (aka groups or categories)</h4>
-        </div>
-    </a>
-</div>
-
                     
                     
                     

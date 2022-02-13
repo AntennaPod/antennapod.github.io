@@ -6,21 +6,21 @@
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Subscriptions – AntennaPod</title>
-  <meta name="description" content="Subscriptions">
+  <title>All my podcasts & episodes are gone – AntennaPod</title>
+  <meta name="description" content="All my podcasts &amp; episodes are gone">
 
-  <link rel="canonical" href="https://antennapod.org/documentation/subscriptions">
+  <link rel="canonical" href="https://antennapod.org/documentation/bugs-first-aid/database-error">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Subscriptions – AntennaPod">
+  <meta name="twitter:title" content="All my podcasts & episodes are gone – AntennaPod">
   <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:url" content="https://antennapod.org/documentation/subscriptions">
-  <meta property="og:title" content="Subscriptions – AntennaPod">
+  <meta property="og:url" content="https://antennapod.org/documentation/bugs-first-aid/database-error">
+  <meta property="og:title" content="All my podcasts & episodes are gone – AntennaPod">
   
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
   
@@ -90,7 +90,7 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/subscriptions">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/database-error">English</a>
   
 
   
@@ -113,7 +113,7 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/subscriptions">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/database-error">English</a>
   
 
   
@@ -191,14 +191,39 @@
       
     
       
-        / Subscriptions
+        / <a href="/documentation/bugs-first-aid">Bugs first aid</a>
+      
+    
+      
+        / All my podcasts &amp; episodes are gone
       
     
 </div>
 
-                <h1 id="subscriptions">Subscriptions</h1>
+                <h1 id="all-my-podcasts--episodes-are-gone">All my podcasts &amp; episodes are gone</h1>
 
-<p>Below, you can find frequently asked questions about subscriptions.</p>
+<p>You might feel like screaming <em>Help! I lost my podcasts/episodes/settings/everything!</em></p>
+
+<p>The problem is that the database with all information (episodes, listening states, etc) has some mistakes. AntennaPod cannot function with the broken database and had to start over with an empty one. While it’s been happening less frequently in recent versions of AntennaPod, it still is occurring for some users. Our community of developers have not been able to pinpoint what exactly causes a database to break. The same issue occurs also in some other open source apps. But we realise it is very frustrating when this happens and are really sorry if you were affected too.</p>
+
+<p>There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest &amp; best results:</p>
+
+<ol>
+  <li>Have you recently <a href="/documentation/general/backup">exported a backup</a> from AntennaPod recently? Then restoring that is relatively easily: go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Storage</code> » <code class="language-plaintext highlighter-rouge">Import/Export</code> » <code class="language-plaintext highlighter-rouge">Database import</code> and select the back-up.</li>
+  <li>If you don’t have a back-up, the next step is to attempt to recover the broken database (‘repair corrupted sql database’). If AntennaPod detects a broken database, it writes it to a file CorruptedDatabaseBackup.db in the app storage directory. It is a challenge and it requires some skills or learning. You will have to use a terminal.
+    <ul>
+      <li>One community member <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">followed these steps</a> to repair the database and <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">indicated</a> that after this they could successfully import the repaired database.</li>
+      <li>Another community member <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">took a clean database and moved content from the corrupted one in it</a>, and then performed <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">another correction</a>. After both steps, they managed to successfully imported the new database in AntennaPod.</li>
+    </ul>
+  </li>
+  <li>While all the data <em>about</em> your subscriptions and episodes are gone, the media files will still be there.
+    <ul>
+      <li>In AntennaPod you can add a folder as if it were a feed. To do this, go to <code class="language-plaintext highlighter-rouge">Add Podcast</code> and tap on <code class="language-plaintext highlighter-rouge">Add local folder</code>. Then go to this folder on your phone: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> and then the select the folder of a podcast. Note that this will only give you access to previously downloaded media - you will not receive new episodes.</li>
+      <li>You can also start adding previous podcasts from scratch. You can look through the folder mentioned above to see which podcasts you were subscribed to.</li>
+    </ul>
+  </li>
+</ol>
+
 
             </article>
             
@@ -246,27 +271,7 @@
                     
                     
                     
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/documentation/subscriptions/listening-without-subscribing">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-play size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Listening to an episode without subscribing</h4>
-        </div>
-    </a>
-</div>
-
                     
-                    
-                    
-                    <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="/documentation/subscriptions/subscription-groups">
-        <div class="card shadow-sm project-card">
-            <i class="fas fa-tags size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">Subscription tags (aka groups or categories)</h4>
-        </div>
-    </a>
-</div>
-
                     
                     
                     
