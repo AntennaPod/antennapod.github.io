@@ -1,9 +1,10 @@
 ---
-title: documentation.categories.general.bug-report
+title: documentation.categories.bugs-first-aid.database-error
 layout: doc
 level: "2"
-group: "general"
-icon: "fas fa-bug"
+group: "bugs-first-aid"
+icon: "fas fa-history"
+order: 40
 ---
 
 # {% t {{ page.title }} %}

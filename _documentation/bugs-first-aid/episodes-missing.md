@@ -1,10 +1,10 @@
 ---
-title: documentation.categories.getting-started.episodes-missing
+title: documentation.categories.bugs-first-aid.episodes-missing
 layout: doc
 level: "2"
-group: "getting-started"
+group: "bugs-first-aid"
 icon: "fas fa-question"
-order: "20"
+order: "10"
 ---
 
 # {% t {{ page.title }} %}
