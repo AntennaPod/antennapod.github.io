@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-02-13 10:18+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
+"antennapod/website-documentation/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.5.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
-
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
 msgid "Why are some downloaded episodes deleted?"
-msgstr ""
+msgstr "Hvorfor blir noen nedlastede episoder slettet?"
 
 #: _i18n/en/documentation/automation/deletion.md:block 2 (paragraph)
 msgid ""
@@ -24,10 +25,12 @@ msgid ""
 "fill up your phone's memory. If you notice some downloaded episodes being "
 "deleted, have a look at these two settings:"
 msgstr ""
+"AntennaPod unngår å fylle opp enhetsminnet på flere vis. Hvis du merker at "
+"episoder blir slettet kan du ta en titt på disse to innstillingene:"
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Episode Cleanup"
-msgstr ""
+msgstr "Episodeopprenskning"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
@@ -37,16 +40,24 @@ msgid ""
 " delay (x time after playback) or Episode. The setting `Episode Cache` "
 "determines the maximum amount of downloaded episodes."
 msgstr ""
+"Episodeopprenskning er å finne i `Innstillinger` → `Nettverk` → `Automatisk "
+"nedlasing`. Hvis plass for nye automatisk nedlastede episoder trengs vil "
+"gamle episoder som ikke er i køen og ikke markert som favoritt slettes. Du "
+"kan legge til en forsinkelse (x tid etter avspilling) eller episode. "
+"Innstillingen `Episodehurtiglager` bestemmer maks. antall nedlastede "
+"episoder."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Auto Delete"
-msgstr ""
+msgstr "Automatisk sletting"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
 msgid ""
 "Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are"
 " deleted when playback completes. You can disable this option."
 msgstr ""
+"Automatisk sletting er å finne i `Innstillinger` → `Lagring`. Når det er "
+"påslått slettes episoder når avspilling fullføres. Du kan skru av dette."
 
 #: _i18n/en/documentation/automation/feed-updates.md:block 1 (paragraph)
 msgid ""
@@ -82,7 +93,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
 msgid "Instructions"
-msgstr ""
+msgstr "Instruks"
 
 #: _i18n/en/documentation/automation/tasker.md:block 5 (paragraph)
 msgid ""
@@ -93,32 +104,34 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Pakkenavn: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
-msgstr ""
+msgstr "Klassenavn: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
 msgid "Instructions for some automation apps"
-msgstr ""
+msgstr "Instruks for noen automasjonsprogrammer"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid "Automate"
-msgstr ""
+msgstr "Automatiser"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid "In a flow, add a block of the type `APPS` » `Broadcast send`, specify"
-msgstr ""
+msgstr "I en flyt, legg til en blokk av type `APPS` → `Broadcast send`, angi"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Pakke skal være `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid ""
 "Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 msgstr ""
+"Mottagerklasse skal være `de.danoeh.antennapod.core.receiver."
+"FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Llama - Location Profiles"
@@ -138,7 +151,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Package name to be `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Pakkenavn skal være `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
@@ -169,7 +182,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Select `System`"
-msgstr ""
+msgstr "Velg `System`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Select `Send Intent`"
@@ -181,7 +194,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "You can leave the other fields blank"
-msgstr ""
+msgstr "Du kan la alle andre felter stå tomme"
 
 #: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
 msgid ""
@@ -224,7 +237,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/backup.md:block 2 (header)
 msgid "Synchronization"
-msgstr ""
+msgstr "Synkronisering"
 
 #: _i18n/en/documentation/general/backup.md:block 3 (paragraph)
 msgid ""
@@ -311,11 +324,12 @@ msgstr ""
 
 #: _i18n/en/documentation/general/beta.md:block 13 (header)
 msgid "F-Droid"
-msgstr ""
+msgstr "F-Droid"
 
 #: _i18n/en/documentation/general/beta.md:block 14 (paragraph)
+#, fuzzy
 msgid "We do not currently offer beta versions on the F-Droid store."
-msgstr ""
+msgstr "Beta-versjoner tilbys ikke på F-Droid."
 
 #: _i18n/en/documentation/general/beta.md:block 15 (paragraph)
 msgid ""
@@ -338,7 +352,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/bug-report.md:block 2 (header)
 msgid "You made a spelling mistake"
-msgstr ""
+msgstr "Du har skrevet noe feil"
 
 #: _i18n/en/documentation/general/bug-report.md:block 3 (paragraph)
 msgid ""
@@ -467,11 +481,11 @@ msgstr ""
 
 #: _i18n/en/documentation/general/gpodder.md:block 4 (paragraph)
 msgid "devices"
-msgstr ""
+msgstr "enheter"
 
 #: _i18n/en/documentation/general/gpodder.md:block 9 (paragraph)
 msgid "synchronize"
-msgstr ""
+msgstr "synkroniser"
 
 #: _i18n/en/documentation/general/gpodder.md:block 13 (paragraph)
 msgid ""
@@ -634,7 +648,7 @@ msgstr ""
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 5 (header)
 msgid "Subscribing to third-party services"
-msgstr ""
+msgstr "Abonnering på tredjepartstjenester"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 6 (paragraph)
 msgid ""
@@ -925,17 +939,18 @@ msgstr ""
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 4 (paragraph)
 msgid "To preview an episode:"
-msgstr ""
+msgstr "For å forhåndsvise en episode:"
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 5 (unordered list)
 msgid "Do as if you were adding a subscription"
-msgstr ""
+msgstr "Gjør det samme som når du legger til et abonnement"
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 5 (unordered list)
+#, fuzzy
 msgid "Don't tap on subscribe but on the episode you want to listen"
-msgstr ""
+msgstr "Ikke trykk på «Abonner», men på episoden du vil lytte til"
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 5 (unordered list)
@@ -962,14 +977,16 @@ msgstr ""
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
 msgid "Open a specific podcast"
-msgstr ""
+msgstr "Åpne et spesifikt nettradioopptak"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
+#, fuzzy
 msgid "Tap on the `gear` icon to access its settings"
-msgstr ""
+msgstr "Trykk på «tannhjuls»-ikonet for å gå til dens innstillinger"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
+#, fuzzy
 msgid "Select the `Tags` setting"
-msgstr ""
+msgstr "Velg «Etiketter»-innstillingen"
