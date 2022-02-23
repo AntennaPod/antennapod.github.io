@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2022-02-13 10:18+0000\n"
+"PO-Revision-Date: 2022-02-20 16:57+0000\n"
 "Last-Translator: ERYpTION <kluddermikkel@pm.me>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/da/>\n"
@@ -34,15 +34,14 @@ msgid "Auto Delete"
 msgstr "Automatisk sletning"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are "
 "deleted when playback completes (but not when manually marking an episode as "
 "'played')."
 msgstr ""
 "Automatisk sletning findes i `Indstillinger` » `Lagring`. Når den er "
-"aktiveret, slettes afsnit, når afspilningen er afsluttet. Du kan deaktivere "
-"denne indstilling."
+"aktiveret, slettes afsnit, når afspilningen er afsluttet (men ikke når et "
+"afsnit manuelt markeres som 'afspillet')."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Episode Cleanup"
@@ -70,6 +69,10 @@ msgid ""
 "the interval period, select a specific time in the day, or turn off the "
 "automatic updates."
 msgstr ""
+"Som standard opdateres alle podcasts med et interval på 12 timer for at "
+"hente nye afsnit. Via `Indstillinger` » `Netværk` » `Opdater podcasts` kan "
+"du ændre intervalperioden, vælge et bestemt tidspunkt på dagen eller slå de "
+"automatiske opdateringer fra."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
 msgid ""
@@ -80,6 +83,12 @@ msgid ""
 "this by going to a podcast, tapping on the `Gear` icon and changing the "
 "`Keep Updated` setting."
 msgstr ""
+"Du kan også slå denne proces fra for individuelle podcasts, hvis det er "
+"unødvendigt at holde en podcast opdateret. Du kan f.eks. bruge dette, hvis "
+"der ikke længere udgives nye afsnit for en podcast. Eller når du har "
+"tilføjet en podcast, som du kun lejlighedsvis vil lytte til et afsnit af. Du "
+"kan indstille dette ved at gå til en podcast, trykke på `Tandhjul` ikonet og "
+"ændre indstillingen `Hold opdateret`."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
 msgid ""
@@ -89,6 +98,11 @@ msgid ""
 "podcast, which will bring new episodes to AntennaPod. But these new episodes "
 "will not be visible in the New tab of the Episodes screen."
 msgstr ""
+"Når du slår denne podcast-indstilling fra, vil podcasten ikke længere blive "
+"opdateret, når podcasts opdateres automatisk, eller når du starter denne "
+"proces fra skærmen Kø eller Afsnit. Du kan stadig opdatere podcasten, "
+"hvilket vil bringe nye afsnit til AntennaPod. Men disse nye afsnit vil ikke "
+"være synlige i fanen Ny på skærmen Afsnit."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -254,7 +268,7 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 1 (paragraph)
 msgid "Did you encounter a bug? We're sorry to hear."
-msgstr ""
+msgstr "Er du stødt på en fejl? Det er vi kede af at høre."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 2 (paragraph)
 msgid ""
@@ -264,6 +278,12 @@ msgid ""
 "can see if there's any suggestions. Also consider providing information from "
 "your situation - it might help developers find the source of the problem."
 msgstr ""
+"Først skal du sikre dig, at du har den nyeste version af AntennaPod. Med "
+"hver opdatering løser vi mange små og større problemer. Søg derefter i vores "
+"forum for at se, om andre har det samme problem. Hvis du finder det problem, "
+"du har, kan du se, om der er nogen forslag. Overvej også at give oplysninger "
+"om din situation - det kan måske hjælpe udviklerne med at finde kilden til "
+"problemet."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
 msgid ""
@@ -272,18 +292,26 @@ msgid ""
 "antennapod.org/c/bug-report/9). To do so you need to create an account (if "
 "you don't have one already) or simply log in via Google."
 msgstr ""
+"Hvis du har opdateret AntennaPod og søgt i vores forum uden held, så fortæl "
+"os om problemet. Du kan oprette et indlæg på [på vores forum](https://forum."
+"antennapod.org/c/bug-report/9). For at gøre det skal du oprette en konto ("
+"hvis du ikke allerede har en) eller blot logge ind via Google."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
 "Whichever way you contact us, please include the system information that is "
 "displayed in `Settings` » `Report bug`."
 msgstr ""
+"Uanset hvordan du kontakter os, bedes du angive de systemoplysninger, der "
+"vises i `Indstillinger` » `Rapportér fejl i appen`."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 1 (paragraph)
 msgid ""
 "You might feel like screaming *Help! I lost my podcasts/episodes/settings/"
 "everything!*"
 msgstr ""
+"Du har måske lyst til at råbe *Hjælp! Jeg har mistet mine podcasts/afsnit/"
+"indstillinger/alting!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
 msgid ""
@@ -296,12 +324,24 @@ msgid ""
 "open source apps. But we realise it is very frustrating when this happens "
 "and are really sorry if you were affected too."
 msgstr ""
+"Problemet er, at databasen med alle oplysninger (afsnit, lyttetilstande osv.)"
+" har nogle fejl. AntennaPod kan ikke fungere med den defekte database og "
+"måtte starte forfra med en tom database. Selv om det er sket mindre hyppigt "
+"i de seneste versioner af AntennaPod, forekommer det stadig for nogle "
+"brugere. Vores udviklerfællesskab har ikke været i stand til at finde ud af, "
+"hvad der præcist forårsager, at en database går i stykker. Det samme problem "
+"forekommer også i nogle andre open source-apps. Men vi er klar over, at det "
+"er meget frustrerende, når dette sker, og vi er virkelig kede af, hvis du "
+"også blev ramt."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "There may be some things you can do to recover your data. We list them "
 "below, starting with the solution that gives the easiest & best results:"
 msgstr ""
+"Der kan være nogle ting, du kan gøre for at gendanne dine data. Vi opregner "
+"dem nedenfor, begyndende med den løsning, der giver de nemmeste og bedste "
+"resultater:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (ordered
 #: list)
@@ -311,6 +351,10 @@ msgid ""
 "`Settings` » `Storage` » `Import/Export` » `Database import` and select the "
 "back-up."
 msgstr ""
+"Har du for nylig [eksporteret en sikkerhedskopi](/documentation/general/"
+"backup) fra AntennaPod? Så er det relativt nemt at gendanne den: Gå til "
+"`Indstillinger` » `Lagring` \" `Import/eksport` » `Importér database` og "
+"vælg sikkerhedskopien."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (ordered
 #: list)
@@ -321,6 +365,12 @@ msgid ""
 "app storage directory. It is a challenge and it requires some skills or "
 "learning. You will have to use a terminal."
 msgstr ""
+"Hvis du ikke har en sikkerhedskopi, er næste skridt at forsøge at gendanne "
+"den ødelagte database ('reparer beskadiget sql-database'). Hvis AntennaPod "
+"registrerer en ødelagt database, skriver den det i filen "
+"CorruptedDatabaseBackup.db i appens lagermappe. Det er en udfordring, og det "
+"kræver nogle færdigheder eller erfaring. Du bliver nødt til at bruge en "
+"terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (unordered
 #: list)
@@ -331,6 +381,11 @@ msgid ""
 "issues/2463#issuecomment-404624614) that after this they could successfully "
 "import the repaired database."
 msgstr ""
+"Et medlem af fællesskabet [fulgte disse trin](https://github.com/AntennaPod/"
+"AntennaPod/issues/2463#issuecomment-384088306) for at reparere databasen og "
+"[angav](https://github.com/AntennaPod/AntennaPod/issues/"
+"2463#issuecomment-404624614), at det herefter lykkedes at importere den "
+"reparerede database."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (unordered
 #: list)
@@ -342,6 +397,12 @@ msgid ""
 "issues/2463#issuecomment-385354995). After both steps, they managed to "
 "successfully imported the new database in AntennaPod."
 msgstr ""
+"Et andet medlem af fællesskabet [tog en ren database og flyttede indhold fra "
+"den beskadigede database ind i den](https://github.com/AntennaPod/AntennaPod/"
+"issues/2463#issuecomment-385341068), og foretog derefter [endnu en "
+"rettelse](https://github.com/AntennaPod/AntennaPod/issues/"
+"2463#issuecomment-385354995). Efter begge trin lykkedes det dem at importere "
+"den nye database i AntennaPod."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (ordered
 #: list)
@@ -349,6 +410,8 @@ msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
 "media files will still be there."
 msgstr ""
+"Mens alle data *om* dine abonnementer og afsnit er væk, vil mediefilerne "
+"stadig være der."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (unordered
 #: list)
@@ -359,6 +422,12 @@ msgid ""
 "then the select the folder of a podcast. Note that this will only give you "
 "access to previously downloaded media - you will not receive new episodes."
 msgstr ""
+"I AntennaPod kan du tilføje en mappe, som om det var et feed. Det gør du ved "
+"at gå til `Tilføj podcast` og trykke på `Tilføj lokal mappe`. Gå derefter "
+"til denne mappe på din telefon: `Android` » `data` \" `de.danoeh.antennapod` "
+"» `files` » `media` og vælg derefter mappen for en podcast. Bemærk, at dette "
+"kun vil give dig adgang til tidligere downloadede medier - du vil ikke "
+"modtage nye afsnit."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (unordered
 #: list)
@@ -367,6 +436,8 @@ msgid ""
 "through the folder mentioned above to see which podcasts you were subscribed "
 "to."
 msgstr ""
+"Du kan også begynde at tilføje tidligere podcasts fra bunden. Du kan kigge i "
+"den ovennævnte mappe for at se, hvilke podcasts du har abonneret på."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 1
 #: (paragraph)
@@ -393,10 +464,14 @@ msgid ""
 "website), or that something has not been translated correctly. Luckily these "
 "issues are often easily fixed."
 msgstr ""
+"Har du fundet en stavefejl eller noget, der lyder mærkeligt? Det er altid "
+"muligt, at vi har lavet en fejl på engelsk (som vi laver appen og webstedet "
+"på), eller at noget ikke er blevet oversat korrekt. Heldigvis er disse "
+"problemer ofte lette at rette."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 2 (header)
 msgid "Do you want to fix it yourself?"
-msgstr ""
+msgstr "Vil du selv rette det?"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 3
 #: (paragraph)
@@ -407,6 +482,11 @@ msgid ""
 "fixed on [Weblate](https://hosted.weblate.org/projects/antennapod/). You can "
 "[find more information in our Contribute section](/contribute/translate)."
 msgstr ""
+"Hvis problemet er på et andet sprog end engelsk, kan du opdatere **app-"
+"oversættelser** på [Transifex](https://www.transifex.com/antennapod/"
+"antennapod/core-values/). Problemer med **webstedsoversættelser** kan rettes "
+"på [Weblate](https://hosted.weblate.org/projects/antennapod/). Du kan [finde "
+"flere oplysninger i vores bidragsafsnit](/contribute/translate)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 4
 #: (paragraph)
@@ -416,10 +496,14 @@ msgid ""
 "github.com/AntennaPod/AntennaPod/) or for [the website](https://github.com/"
 "AntennaPod/antennapod.github.io)."
 msgstr ""
+"Er det et problem med de **engelske tekster**? Så skal du være eller blive "
+"fortrolig med GitHub. Du kan sende et Pull Request for [appen](https://github"
+".com/AntennaPod/AntennaPod/) eller for [webstedet](https://github.com/"
+"AntennaPod/antennapod.github.io)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 5 (header)
 msgid "Do you just want to inform us?"
-msgstr ""
+msgstr "Ønsker du blot at informere os?"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 6
 #: (paragraph)
@@ -428,6 +512,10 @@ msgid ""
 "forum.antennapod.org/c/translations/11). To do so you need to create an "
 "account (if you don't have one already) or simply log in via Google."
 msgstr ""
+"Du kan oprette et indlæg i [oversættelsessektionen på vores "
+"forum](https://forum.antennapod.org/c/translations/11). For at gøre det skal "
+"du oprette en konto (hvis du ikke allerede har en) eller blot logge ind via "
+"Google."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
 msgid ""
@@ -748,6 +836,9 @@ msgid ""
 "delete it from your phone, to free up space. There is different ways that "
 "you can do that."
 msgstr ""
+"Når du er færdig med at lytte til et afsnit, vil du i de fleste tilfælde "
+"ønske at slette den fra din telefon for at frigøre plads. Der er forskellige "
+"måder, du kan gøre det på."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
 msgid ""
@@ -758,6 +849,13 @@ msgid ""
 "from the queue if it is deleted. You can find this option under `Settings` » "
 "`Storage` » `Delete removes from Queue`."
 msgstr ""
+"For det første kan du naturligvis slette afsnit manuelt. Når du ser køen "
+"eller en bestemt podcast, kan du trykke længe på et afsnit og trykke på "
+"`Slet`. Når du kigger på fanen Færdige på skærmen Overførsler, kan du også "
+"blot trykke på ikonet med skraldespanden. Hvis du ønsker det, kan AntennaPod "
+"automatisk fjerne et afsnit fra køen, hvis den bliver slettet. Du kan finde "
+"denne indstilling under `Indstillinger` \" `Lagring` \" `Slet fjerner fra "
+"kø`."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -767,6 +865,11 @@ msgid ""
 "more information on these options, please see the [Automatic Deletion](/"
 "documentation/automation/deletion) article."
 msgstr ""
+"For det andet har AntennaPod nogle løsninger til automatisk at slette "
+"afsnit. AntennaPod kan bl.a. slette afsnit automatisk, når afspilningen er "
+"afsluttet, og når den har brug for plads til den automatiske "
+"overførselsproces. Du kan finde flere oplysninger om disse muligheder i "
+"artiklen [Automatisk sletning](/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
 msgid ""
@@ -891,12 +994,17 @@ msgid ""
 "images, RSS requests & searches) through a proxy or the TOR network. This "
 "may have two potential benefits:"
 msgstr ""
+"Det er muligt at få AntennaPod til at lede al trafik (mediefiler, "
+"coverbilleder, RSS-forespørgsler og søgninger) gennem en proxy eller TOR-"
+"netværket. Dette kan have to potentielle fordele:"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
 "Privacy: depending on the type of proxy service, your downloading/streaming "
 "behaviour may be protected from podcast hosts"
 msgstr ""
+"Privatliv: Afhængigt af typen af proxytjeneste kan din downloading/"
+"streamingadfærd blive beskyttet mod podcast-værter"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
@@ -904,28 +1012,34 @@ msgid ""
 "(based on IP addresses), setting a proxy with the origin country may allow "
 "you to still access its content"
 msgstr ""
+"Adgang: Hvis podcast-værten forhindrer downloading af indhold fra andre "
+"lande (baseret på IP-adresser), kan du ved at indstille en proxy med "
+"oprindelseslandet stadig få adgang til indholdet"
 
 #: _i18n/en/documentation/general/proxy.md:block 3 (paragraph)
 msgid "You will find this option under `Settings` » `Network` » `Proxy`."
 msgstr ""
+"Du finder denne indstilling under `Indstillinger` » `Netværk` » `Proxy`."
 
 #: _i18n/en/documentation/general/proxy.md:block 4 (paragraph)
 msgid ""
 "In order to lead all traffic via the TOR network, you need to install a "
 "proxy app for TOR, and provide the following details in AntennaPod:"
 msgstr ""
+"For at lede al trafik via TOR-netværket skal du installere en proxy-app til "
+"TOR og angive følgende oplysninger i AntennaPod:"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Type: SOCKS"
-msgstr ""
+msgstr "Type: SOCKS"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Host: \"localhost\" or \"127.0.0.1\""
-msgstr ""
+msgstr "Vært: \"localhost\" eller \"127.0.0.0.1\""
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Port: \"9050\""
-msgstr ""
+msgstr "Port: \"9050\""
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
