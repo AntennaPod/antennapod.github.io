@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2022-02-13 10:18+0000\n"
+"PO-Revision-Date: 2022-02-23 21:46+0000\n"
 "Last-Translator: Kusco <franbrich@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/fr/>\n"
@@ -35,7 +35,6 @@ msgid "Auto Delete"
 msgstr "Suppression automatique"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are "
 "deleted when playback completes (but not when manually marking an episode as "
@@ -43,11 +42,11 @@ msgid ""
 msgstr ""
 "La suppression automatique se trouve dans `Préférences` \" `Stockage`. "
 "Lorsqu'elle est activée, les épisodes sont supprimés lorsque la lecture est "
-"terminée. Vous pouvez désactiver cette option."
+"terminée (sauf si vous marquez manuellement un épisode comme lu)."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Episode Cleanup"
-msgstr "Nettoyage des épisodes"
+msgstr "Nettoyage de l'épisode"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
 msgid ""
@@ -72,6 +71,11 @@ msgid ""
 "the interval period, select a specific time in the day, or turn off the "
 "automatic updates."
 msgstr ""
+"Par défaut, tous les podcasts sont rafraîchis avec un intervalle de 12 "
+"heures pour récupérer les nouveaux épisodes. Via `Paramètres` → `Réseau` → `"
+"Rafraîchissement des podcasts` vous pouvez modifier cet intervalle, "
+"sélectionner un moment spécifique de la journée ou désactiver les mises à "
+"jour automatiques."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
 msgid ""
@@ -82,6 +86,13 @@ msgid ""
 "this by going to a podcast, tapping on the `Gear` icon and changing the "
 "`Keep Updated` setting."
 msgstr ""
+"Vous pouvez également désactiver cette vérification, individuellement pour "
+"chaque podcast si c'est inutile pour celui-ci. Vous pouvez utiliser cette "
+"fonction, par exemple, si aucun nouvel épisode n'est prévu pour le podcast. "
+"Ou alors, lorsque vous avez ajouté un podcast dont vous n'écoutez un épisode "
+"qu'occasionnellement. Vous pouvez définir cette option en allant sur un "
+"podcast, en appuyant sur l'icône `Roue dentée` et en décochant `Maintenir à "
+"jour`."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
 msgid ""
@@ -91,6 +102,10 @@ msgid ""
 "podcast, which will bring new episodes to AntennaPod. But these new episodes "
 "will not be visible in the New tab of the Episodes screen."
 msgstr ""
+"Lorsque vous désactivez ce paramètre, le podcast ne sera plus mis à jour "
+"lorsque les podcasts seront actualisés à partir de l'écran 'Nouveaux "
+"épisodes'. Vous pouvez toujours actualiser ce podcast manuellement, mais ces "
+"nouveaux épisodes ne seront pas visibles dans l'onglet 'Nouveaux épisodes'."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -232,11 +247,11 @@ msgstr "Créez une tâche. Dans la tâche, ajoutez une action"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Select `System`"
-msgstr "Sélectionnez `System`"
+msgstr "Sélectionnez `Système`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Select `Send Intent`"
-msgstr "Sélectionnez `Send Intent`"
+msgstr "Sélectionnez `Envoyer l'intention`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (ordered list)
 msgid "Specify Target to be `Broadcast receiver`"
@@ -256,7 +271,7 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 1 (paragraph)
 msgid "Did you encounter a bug? We're sorry to hear."
-msgstr ""
+msgstr "Vous avez rencontré un bug ? Nous en sommes vraiment désolé."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 2 (paragraph)
 msgid ""
@@ -266,6 +281,13 @@ msgid ""
 "can see if there's any suggestions. Also consider providing information from "
 "your situation - it might help developers find the source of the problem."
 msgstr ""
+"Tout d'abord, assurez-vous que vous disposez de la dernière version "
+"d'AntennaPod. Avec chaque mise à jour, nous corrigeons de nombreux "
+"problèmes. Ensuite, faites une recherche sur notre forum pour voir si "
+"quelqu'un d'autre a eu le même problème. Si vous trouvez le problème, vous "
+"pouvez voir s’il y a des suggestions. Pensez également à fournir des "
+"informations sur votre situation - cela pourrait aider les développeurs à "
+"trouver la source du problème."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
 msgid ""
@@ -274,18 +296,28 @@ msgid ""
 "antennapod.org/c/bug-report/9). To do so you need to create an account (if "
 "you don't have one already) or simply log in via Google."
 msgstr ""
+"Si vous avez mis à jour AntennaPod et que vous n'avez pas trouvé de réponse "
+"sur notre forum, parlez-nous de votre problème. Vous pouvez créer un message "
+"sur [notre forum](https://forum.antennapod.org/c/bug-report/9). Pour ce "
+"faire, vous devez créer un compte (si vous n'en avez pas déjà un) ou "
+"simplement vous connecter via Google."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
 "Whichever way you contact us, please include the system information that is "
 "displayed in `Settings` » `Report bug`."
 msgstr ""
+"Quelle que soit la manière dont vous nous contactez, veuillez inclure les "
+"informations relatives à votre appareil, qui sont affichées dans `Paramètres`"
+" \" `Signaler un bug`."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 1 (paragraph)
 msgid ""
 "You might feel like screaming *Help! I lost my podcasts/episodes/settings/"
 "everything!*"
 msgstr ""
+"Vous pourriez avoir envie de crier *A l'aide ! J'ai perdu mes podcasts, "
+"épisodes, réglages et tout le reste !*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
 msgid ""
@@ -298,12 +330,24 @@ msgid ""
 "open source apps. But we realise it is very frustrating when this happens "
 "and are really sorry if you were affected too."
 msgstr ""
+"Le problème est que la base de données contenant toutes les informations ("
+"épisodes, états d'écoute, etc.) comporte quelques erreurs. AntennaPod ne "
+"peut pas fonctionner avec une base de données vérolée et donc a dû créer une "
+"base vide. Bien que ce problème soit moins fréquent dans les versions "
+"récentes d'AntennaPod, il se produit encore chez certains utilisateurs. "
+"Notre communauté de développeurs n'a pas été en mesure de déterminer sa "
+"cause. Le même problème se produit également dans d'autres applications open "
+"source. Mais nous sommes conscients que c'est très frustrant quand cela se "
+"produit et nous sommes vraiment désolés si vous en avez été affecté."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "There may be some things you can do to recover your data. We list them "
 "below, starting with the solution that gives the easiest & best results:"
 msgstr ""
+"Il y a peut-être certaines choses que vous pouvez faire pour récupérer vos "
+"données. Vous trouverez la liste de nos idées ci-dessous, en commençant par "
+"les solutions les plus faciles et les plus efficaces :"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (ordered
 #: list)
@@ -313,6 +357,10 @@ msgid ""
 "`Settings` » `Storage` » `Import/Export` » `Database import` and select the "
 "back-up."
 msgstr ""
+"Avez-vous récemment [exporté une sauvegarde](/documentation/general/backup) "
+"depuis AntennaPod ? Il est alors relativement facile de la restaurer : allez "
+"dans `Paramètres` → `Stockage` → `Importation/Exportation` → `Importer de "
+"base de données` puis sélectionnez la sauvegarde."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (ordered
 #: list)
@@ -323,6 +371,12 @@ msgid ""
 "app storage directory. It is a challenge and it requires some skills or "
 "learning. You will have to use a terminal."
 msgstr ""
+"Si vous ne disposez pas de sauvegarde, l'étape suivante consiste à tenter de "
+"récupérer la base de données endommagée (\"Réparer la base de données SQL "
+"corrompue\"). Si AntennaPod détecte une base de données endommagée, il "
+"l'écrit dans un fichier CorruptedDatabaseBackup.db dans le répertoire de "
+"stockage de l'application. C'est un défi et cela nécessite quelques "
+"compétences techniques. Vous aurez à utiliser un terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (unordered
 #: list)
@@ -333,6 +387,11 @@ msgid ""
 "issues/2463#issuecomment-404624614) that after this they could successfully "
 "import the repaired database."
 msgstr ""
+"Un membre de la communauté [a suivi ces étapes](https://github.com/"
+"AntennaPod/AntennaPod/issues/2463#issuecomment-384088306) pour réparer sa "
+"base de données et [a indiqué](https://github.com/AntennaPod/AntennaPod/"
+"issues/2463#issuecomment-404624614) qu'après cela, il a pu importer avec "
+"succès la base de données réparée."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (unordered
 #: list)
@@ -344,6 +403,12 @@ msgid ""
 "issues/2463#issuecomment-385354995). After both steps, they managed to "
 "successfully imported the new database in AntennaPod."
 msgstr ""
+"Un autre membre de la communauté [a pris une base de données propre et y a "
+"déplacé le contenu de sa base corrompue](https://github.com/AntennaPod/"
+"AntennaPod/issues/2463#issuecomment-385341068), puis a effectué [cette autre "
+"correction](https://github.com/AntennaPod/AntennaPod/issues/"
+"2463#issuecomment-385354995). Après ces deux étapes, il a réussi à importer "
+"cette nouvelle base de données dans AntennaPod."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (ordered
 #: list)
@@ -351,6 +416,8 @@ msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
 "media files will still be there."
 msgstr ""
+"Si toutes les données *à propos* de vos abonnements et vos épisodes ont "
+"disparu, les fichiers multimédias, eux, seront toujours là."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (unordered
 #: list)
@@ -361,6 +428,13 @@ msgid ""
 "then the select the folder of a podcast. Note that this will only give you "
 "access to previously downloaded media - you will not receive new episodes."
 msgstr ""
+"Dans AntennaPod, vous pouvez ajouter un dossier comme s'il s'agissait d'un "
+"flux. Pour ce faire, allez dans `Ajouter un podcast` et choisissez `Ajouter "
+"un dossier local`. Rendez-vous ensuite dans le dossier de votre téléphone : "
+"`Android` → `data` → `de.danoeh.antennapod` → `files` → `media`, puis "
+"sélectionnez le dossier de votre podcast. Notez que cela ne vous donnera "
+"accès qu'aux médias précédemment téléchargés, vous ne recevrez pas les "
+"nouveaux épisodes."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (unordered
 #: list)
@@ -369,6 +443,9 @@ msgid ""
 "through the folder mentioned above to see which podcasts you were subscribed "
 "to."
 msgstr ""
+"Vous pouvez également commencer à ajouter les précédents podcasts en partant "
+"de zéro. Vous pouvez consulter le dossier mentionné ci-dessus pour voir les "
+"podcasts auxquels vous étiez abonné."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 1
 #: (paragraph)
@@ -395,10 +472,15 @@ msgid ""
 "website), or that something has not been translated correctly. Luckily these "
 "issues are often easily fixed."
 msgstr ""
+"Avez-vous trouvé une faute d'orthographe, ou quelque chose qui vous semble "
+"bizarre ? Il est toujours possible que nous ayons fait une erreur de "
+"Français ou de traduction (l'application et le site web sont directement "
+"traduits de l'anglais). Heureusement, ces problèmes sont souvent faciles à "
+"résoudre."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 2 (header)
 msgid "Do you want to fix it yourself?"
-msgstr ""
+msgstr "Voulez-vous régler ce problème vous même ?"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 3
 #: (paragraph)
@@ -409,6 +491,12 @@ msgid ""
 "fixed on [Weblate](https://hosted.weblate.org/projects/antennapod/). You can "
 "[find more information in our Contribute section](/contribute/translate)."
 msgstr ""
+"Si l'erreur concerne une autre langue que l'anglais, vous pouvez mettre à "
+"jour la **traduction de l'application** sur [Transifex](https://www.transifex"
+".com/antennapod/antennapod/core-values/). Les erreurs concernant les **"
+"traductions du site web** peuvent être corrigées sur [Weblate](https://hosted"
+".weblate.org/projects/antennapod/). Vous pouvez [trouver plus d'informations "
+"dans notre section Contribuer](/contribuer/translate)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 4
 #: (paragraph)
@@ -418,10 +506,14 @@ msgid ""
 "github.com/AntennaPod/AntennaPod/) or for [the website](https://github.com/"
 "AntennaPod/antennapod.github.io)."
 msgstr ""
+"L'erreur vient des **textes d'origines (en anglais)** ? Dans ce cas, vous "
+"devrez être ou vous familiariser avec GitHub. Vous pouvez nous transmettre "
+"une requête pour [l'application](https://github.com/AntennaPod/AntennaPod/) "
+"ou pour [le site web](https://github.com/AntennaPod/antennapod.github.io)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 5 (header)
 msgid "Do you just want to inform us?"
-msgstr ""
+msgstr "Vous souhaitez simplement nous en informer ?"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 6
 #: (paragraph)
@@ -430,6 +522,10 @@ msgid ""
 "forum.antennapod.org/c/translations/11). To do so you need to create an "
 "account (if you don't have one already) or simply log in via Google."
 msgstr ""
+"Vous pouvez créer un message dans la [section \"traductions\" de notre "
+"forum](https://forum.antennapod.org/c/translations/11). Pour ce faire, vous "
+"devez créer un compte (si vous n'en avez pas déjà un) ou simplement vous "
+"connecter via Google."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
 msgid ""
@@ -496,7 +592,7 @@ msgid ""
 msgstr ""
 "Synchronisez vos abonnements via [gpodder.net](https://gpodder.net/). Cela "
 "permettra de sauvegarder certaines données relatives aux podcasts et aux "
-"épisodes (par exemple, la position de lecture), mais vous perdrez vos "
+"épisodes (par exemple la position de lecture), mais vous perdrez vos "
 "favoris, votre liste de lecture et les paramètres de l'application. Pour "
 "plus de détails sur gpodder, consultez la section [documentation](/"
 "documentation/general/gpodder) qui lui est consacrée."
@@ -766,6 +862,9 @@ msgid ""
 "delete it from your phone, to free up space. There is different ways that "
 "you can do that."
 msgstr ""
+"Lorsque vous avez terminé l'écoute d'un épisode, dans la plupart des cas, "
+"vous voudrez le supprimer de votre téléphone pour libérer de l'espace. Il "
+"existe différentes façons de le faire."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
 msgid ""
@@ -776,6 +875,14 @@ msgid ""
 "from the queue if it is deleted. You can find this option under `Settings` » "
 "`Storage` » `Delete removes from Queue`."
 msgstr ""
+"Tout d'abord, vous pouvez bien sûr supprimer manuellement vos épisodes. "
+"Lorsque vous consultez vos épisodes, vous pouvez appuyer longuement sur un "
+"épisode et choisir `Supprimer`. Lorsque vous consultez l'onglet Terminé dans "
+"l'écran des Téléchargements, vous pouvez aussi simplement utiliser l'icône "
+"de la poubelle. Si vous le souhaitez, AntennaPod peut automatiquement "
+"supprimer un épisode de la file d'attente s'il est supprimé. Vous pouvez "
+"trouver cette option sous `Parmètres` \" `Stockage` \" `Supprimer retire de "
+"la liste de lecture`."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -785,6 +892,12 @@ msgid ""
 "more information on these options, please see the [Automatic Deletion](/"
 "documentation/automation/deletion) article."
 msgstr ""
+"Deuxièmement, AntennaPod dispose de certaines solutions pour supprimer "
+"automatiquement les épisodes. AntennaPod peut notamment supprimer "
+"automatiquement des épisodes lorsque la lecture est terminée, ou quand il a "
+"besoin d'espace pour téléchargement automatiquement de nouveaux épisodes. "
+"Pour plus d'informations sur ces options, veuillez consulter l'article ["
+"Suppression automatique](/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
 msgid ""
@@ -913,12 +1026,17 @@ msgid ""
 "images, RSS requests & searches) through a proxy or the TOR network. This "
 "may have two potential benefits:"
 msgstr ""
+"Il est possible de faire en sorte qu'AntennaPod dirige tout le trafic ("
+"fichiers multimédias, images de couverture, demandes et recherches RSS) via "
+"un proxy ou via réseau TOR. Cela peut avoir deux avantages potentiels :"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
 "Privacy: depending on the type of proxy service, your downloading/streaming "
 "behaviour may be protected from podcast hosts"
 msgstr ""
+"Confidentialité : selon le type de service proxy, vos comportements liés au "
+"téléchargement/streaming peut être masqués aux hôtes de podcasts"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
@@ -926,28 +1044,35 @@ msgid ""
 "(based on IP addresses), setting a proxy with the origin country may allow "
 "you to still access its content"
 msgstr ""
+"Accès : si l'hôte de podcasts empêche le téléchargement de contenu à partir "
+"d'autres pays (sur la base de votre adresse IP), la configuration d'un proxy "
+"par rapport au pays d'origine peut vous permettre d'accéder à son contenu "
+"malgré tout"
 
 #: _i18n/en/documentation/general/proxy.md:block 3 (paragraph)
 msgid "You will find this option under `Settings` » `Network` » `Proxy`."
-msgstr ""
+msgstr "Vous trouverez cette option sous `Paramètres` → `Réseau` → `Proxy`."
 
 #: _i18n/en/documentation/general/proxy.md:block 4 (paragraph)
 msgid ""
 "In order to lead all traffic via the TOR network, you need to install a "
 "proxy app for TOR, and provide the following details in AntennaPod:"
 msgstr ""
+"Afin de diriger tout le trafic via le réseau TOR, vous devez installer une "
+"application proxy pour TOR, et fournir les informations suivantes dans "
+"AntennaPod :"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Type: SOCKS"
-msgstr ""
+msgstr "Type : SOCKS"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Host: \"localhost\" or \"127.0.0.1\""
-msgstr ""
+msgstr "Hôte : \"localhost\" ou \"127.0.0.1\""
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Port: \"9050\""
-msgstr ""
+msgstr "Port : \"9050\""
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
