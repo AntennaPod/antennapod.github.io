@@ -5,8 +5,8 @@ et chaque méthode copie une certaine quantité de données :
 
 Synchronisez vos abonnements via [gpodder.net](https://gpodder.net/). Cela
 permettra de sauvegarder certaines données relatives aux podcasts et aux
-épisodes (par exemple, la position de lecture), mais vous perdrez vos favoris,
-votre file d'attente et les paramètres de l'application. Pour plus de détails
+épisodes (par exemple la position de lecture), mais vous perdrez vos favoris,
+votre liste de lecture et les paramètres de l'application. Pour plus de détails
 sur gpodder, consultez la section [documentation](/documentation/general/gpodder)
 qui lui est consacrée.
 

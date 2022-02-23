@@ -11,13 +11,13 @@ du podcast.
 - Si vous êtes intéressé par l'épisode, vous pouvez faire l'une des deux choses
 suivantes, en fonction de votre comportement d'écoute.
    - Téléchargez l'épisode. Lors du téléchargement, AntennaPod ajoute aussi
-      automatiquement l'épisode à la file d'attente et supprime le drapeau `Nouveau`.
+      automatiquement l'épisode à la liste de lecture et supprime le drapeau `Nouveau`.
       Il y a un paramètre si vous voulez que les nouveaux épisodes soient mis en au
-      début, à la fin de la file d'attente ou après l'épisode en cours de lecture.
+      début, à la fin de la liste de lecture ou après l'épisode en cours de lecture.
       AntennaPod a été conçu à l'origine pour télécharger les épisodes, mais comme le
       streaming devient de plus en plus populaire, vous pouvez également utiliser la
       deuxième option.
-   - Il suffit d'ajouter l'épisode à la file d'attente. AntennaPod supprime
+   - Il suffit d'ajouter l'épisode à la liste de lecture. AntennaPod supprime
       automatiquement le drapeau `Nouveau` et l'insère dans la file de lecture. Vous
       pouvez par la suite lire directement l'épisode sans avoir à le télécharger, il
       ne prend donc pas de place. Pensez-y : le streaming comme pour les vidéos sur

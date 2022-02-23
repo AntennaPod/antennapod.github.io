@@ -46,8 +46,8 @@ pour créer un exemple d'événement pour commencer.
 
 Créez une tâche. Dans la tâche, ajoutez une action
 
-1. Sélectionnez `System`
-1. Sélectionnez `Send Intent`
+1. Sélectionnez `Système`
+1. Sélectionnez `Envoyer l'intention`
 1. Spécifiez le nom du paquet comme étant `de.danoeh.antennapod`
 1. Spécifiez le nom de la classe comme étant
 `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`

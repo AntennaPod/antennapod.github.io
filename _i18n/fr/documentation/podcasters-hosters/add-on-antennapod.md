@@ -10,5 +10,5 @@ directement votre podcast (et pourront le prévisualiser ou l'ajouter). Les
 utilisateurs qui ne disposent pas de cette version récente verront notre site
 Web avec un joli bouton "S'abonner" qui ouvrira votre podcast dans AntennaPod.
 
-Si vous avez besoin de notre logo, veuillez consulter notre [référentiel de
-marque](https://github.com/AntennaPod/branding).
+Si vous avez besoin de notre logo, veuillez consulter notre [dépôt
+"Branding"](https://github.com/AntennaPod/branding).
