@@ -1,12 +1,12 @@
-# AntennaPod
+# L'application
 
 AntennaPod est sous licence [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
 
-# Thème du site web
+# Le code et le thème du site web
 
-La licence MIT (MIT)
+Le site web est développé sous la licence MIT (MIT) :
 
-Copyright (c) 2020 Anxhelo Lushka
+Copyright (c) 2020 Anxhelo Lushka and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -24,3 +24,10 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# Le contenu du site
+
+Les textes du site sont rédigés et publiés sous une licence [Creative
+Commons Attribution](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
+(CC-BY-SA 4.0). Les images présentes sur ce site sont protégées par les droits
+d'auteur de leurs propriétaires respectifs.

@@ -1,9 +1,9 @@
 ---
-title: documentation.categories.general.donate
+title: documentation.categories.general.episode-deletion
 layout: doc
 level: "2"
 group: "general"
-icon: "fas fa-heart"
+icon: "fas fa-trash"
 ---
 
 # {% t {{ page.title }} %}

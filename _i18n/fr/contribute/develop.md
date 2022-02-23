@@ -19,12 +19,12 @@ avons le plus besoin d'aide](https://github.com/AntennaPod/AntennaPod/projects/2
 Travaillez sur l'un des problèmes suivants et nous ajouterons votre nom à notre
 liste (mentale) de gratitude éternelle !
 
-En dehors de ces projets majeurs, vous pouvez toujours consulter les [questions
-portant l'étiquette « help wanted »](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted)
+En dehors de ces projets majeurs, vous pouvez toujours consulter les [problème
+portant le nom « help wanted »](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted)
 sur GitHub.
 
 Si vous préférez la chasse aux bugs, votre liste de prédilection pour un
-week-end de chasse aux bugs est [l'étiquette « confirmed bugs »](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug)
+week-end de chasse aux bugs est [le problème « confirmed bugs »](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug)
 sur GitHub.
 
 ## Pour commencer
@@ -78,6 +78,5 @@ bienvenue, en particulier en ce qui concerne [ce problème d'API](https://github
 
 # Prenez contact avec nous !
 
-Vaguement intéressé mais pas encore sûr ? Vous êtes prêt à vous lancer ?
-Contactez @Keunes ou @ByteHamster sur [notre forum](https://forum.antennapod.org)
-!
+Vaguement intéressé·e mais pas encore sûr·e ? Vous êtes prêt·e à vous lancer ?
+Contactez @Keunes ou @ByteHamster sur [notre forum](https://forum.antennapod.org) !

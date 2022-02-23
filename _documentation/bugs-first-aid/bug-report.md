@@ -1,9 +1,10 @@
 ---
-title: documentation.categories.automation.feed-updates
+title: documentation.categories.bugs-first-aid.bug-report
 layout: doc
 level: "2"
-group: "automation"
-icon: "fas fa-sync-alt"
+group: "bugs-first-aid"
+icon: "fas fa-bug"
+order: 20
 ---
 
 # {% t {{ page.title }} %}
