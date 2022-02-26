@@ -1,11 +1,24 @@
 <head>
   {% capture title %}{% t page.title %}{% endcapture %}
   {% unless title.size > 0 %}{% assign title = page.title %}{% endunless %}
-  {% capture title %}{% if title.size > 0 %}{{ title }} – {{ site.title }}{% else %}{{ site.title }} – {{ t homepage.header }}{% endif %}{% endcapture %}
+  {% capture title %}{% if title.size > 0 %}{{ title }} – {{ site.title }}{% else %}{{ site.title }} – {% t homepage.header %}{% endif %}{% endcapture %}
+
+  {% capture descrlong %}
+    {% capture descrtransl %}{% t page.excerpt %}{% endcapture %}
+    {% if descrtransl.size > 0 %}
+      {{ descrtransl }}
+    {% elsif page.excerpt %}
+      {{ page.excerpt }}
+    {% else %}
+      {% t homepage.description %}
+    {% endif %}
+  {% endcapture %}
+  {% capture description %}{{ descrlong | strip | strip_html | strip_newlines | truncate: 180 }}{% endcapture %}
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ t homepage.description }}{% endif %}">
+  <meta name="description" content="{{ description }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
@@ -13,7 +26,7 @@
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title }}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{{ description }}">
   <meta name="twitter:image" content="{{ site.url }}/assets/images/favicons/android-chrome-256x256.png">
 
   <!-- Social: Facebook / Open Graph -->
@@ -25,7 +38,7 @@
   <meta property="og:image" content="{{ site.url }}/assets/images/blog/default.png">
   {% endif %}
   <meta property="og:image:type" content="image/png">
-  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{{ description }}">
   <meta property="og:site_name" content="{{ site.title }}">
   
   <!-- Favicon -->
