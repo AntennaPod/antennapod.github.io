@@ -15,6 +15,17 @@
   {% endcapture %}
   {% capture description %}{{ descrlong | strip | strip_html | strip_newlines | truncate: 180 }}{% endcapture %}
 
+  {% capture image %}
+    {% if page.layout == 'blog' %}
+      /assets/images/blog/{{ page.image }}
+    {% elsif page.image %}
+      /assets/images/{{ page.image }}
+    {% else %}
+      /assets/images/blog/default.png
+    {% endif %}
+  {% endcapture %}
+  {% assign image = image | strip | prepend: site.url %}
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }}</title>
@@ -27,17 +38,12 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ description }}">
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/favicons/android-chrome-256x256.png">
+  <meta name="twitter:image" content="{{ image }}">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="{{ title }}">
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image }}">
-  {% else %}
-  <meta property="og:image" content="{{ site.url }}/assets/images/blog/default.png">
-  {% endif %}
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image" content="{{ image }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:site_name" content="{{ site.title }}">
   
