@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>S'abonner un à podcast – AntennaPod</title>
+  <meta name="description" content="S’abonner un à podcast">
+
+  <link rel="canonical" href="https://antennapod.org/fr/documentation/getting-started/subscribe">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="S'abonner un à podcast – AntennaPod">
+  <meta name="twitter:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/favicons/android-chrome-256x256.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/fr/documentation/getting-started/subscribe">
+  <meta property="og:title" content="S'abonner un à podcast – AntennaPod">
+  
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
+  
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:description" content="The easy-to-use, flexible and open-source podcast manager for Android.">
+  <meta property="og:site_name" content="AntennaPod">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+</head>
+
+
+<body>
+<div class="content">
+    <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/fr">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/fr/about">À propos</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/fr/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/fr/contribute">Contribuer</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/fr/documentation">Documentation</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="https://forum.antennapod.org/">Forum</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sélecteur de langue" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">FR</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/getting-started/subscribe">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/getting-started/subscribe">Français</a>
+  
+
+  
+
+
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sélecteur de langue" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">FR</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/getting-started/subscribe">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/getting-started/subscribe">Français</a>
+  
+
+  
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">×</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/fr/about">À propos</a>
+                
+                <a href="/fr/blog">Blog</a>
+                
+                <a href="/fr/contribute">Contribuer</a>
+                
+                <a href="/fr/documentation">Documentation</a>
+                
+                <a href="https://forum.antennapod.org/">Forum</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+    <div class="container-fluid">
+        <div class="container py-4">
+            <article class="post-content">
+                <div id="breadcrumbs" class="pb-3">
+    
+    <a href="/fr">Accueil</a>
+    
+      
+        / <a href="/fr/documentation">Documentation</a>
+      
+    
+      
+        / <a href="/fr/documentation/getting-started">Getting started</a>
+      
+    
+      
+        / S'abonner un à podcast
+      
+    
+</div>
+
+                <h1 id="sabonner-un-à-podcast">S’abonner un à podcast</h1>
+
+<p>La première chose que vous voulez faire après avoir téléchargé une application
+de podcast est de vous abonner à un podcast.</p>
+
+<h2 id="abonnement">Abonnement</h2>
+
+<p>Ouvrez le menu en glissant depuis la gauche ou en appuyant sur l’icône <code class="language-plaintext highlighter-rouge">=</code> dans
+le coin supérieur gauche. Allez dans <code class="language-plaintext highlighter-rouge">+ Ajouter un podcast</code>. Maintenant, vous
+pouvez rechercher, parcourir les suggestions ou ajouter un podcast par l’adresse
+RSS.</p>
+
+<p>Vous pouvez également importer un fichier OPML ou vérifier uniquement la base de
+données iTunes, gpodder.net ou fyyd. L’importation de flux RSS ou Atom, ou de
+schémas d’URL comme <code class="language-plaintext highlighter-rouge">pcast://</code> et <code class="language-plaintext highlighter-rouge">itpc://</code>, fonctionnera aussi.</p>
+
+<h2 id="abonnement-à-des-services-tiers">Abonnement à des services tiers</h2>
+
+<p>Nous avons reçu quelques questions sur le support de plateformes comme
+Soundcloud, Mixcloud et autres. Bien qu’il puisse être intéressant d’avoir une
+fonction permettant de coller/ouvrir simplement les URL des chaînes dans
+AntennaPod, <a href="https://github.com/AntennaPod/AntennaPod/issues/1297">il a été décidé</a>
+de ne pas l’implémenter. De telles plates-formes peuvent apparaître et
+disparaître, tandis que la mise en œuvre de cette fonctionnalité représente un
+travail considérable pour nos bénévoles. Si vous êtes un développeur, vous êtes
+bien sûr le bienvenu pour discuter d’une proposition que vous seriez heureux de
+mettre en œuvre.</p>
+
+<h3 id="soundcloud">Soundcloud</h3>
+
+<p>Soundcloud permet aux <a href="https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed">producteurs de créer des podcasts</a>
+à partir de leur contenu assez facilement. Vous devriez les contacter, leur
+faire part de la page d’aide de SoundCloud (dont le lien figure juste avant) et
+leur demander s’ils sont prêts à mettre en place ce système.</p>
+
+<h3 id="mixcloud">Mixcloud</h3>
+
+<p>Mixcloud ne propose malheureusement pas cette option pour les créateurs de
+contenu. Comme toujours, il y a quelqu’un dans la communauté du podcasting pour
+trouver une solution. Vous devriez <a href="https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures">vérifier les options</a>
+telles qu’elles sont présentées dans cet article.</p>
+
+<h3 id="youtube">YouTube</h3>
+
+<p>YouTube vous permet de vous abonner au flux d’une chaîne, mais.. :</p>
+
+<ul>
+  <li>AntennaPod ne peut pas télécharger automatiquement les vidéos, car YouTube ne
+le permet pas. La diffusion de publicités est leur modèle économique après tout.</li>
+  <li>Vous n’aurez pas d’image liée à votre abonnement, car YouTube ne l’inclut pas
+dans les flux.</li>
+</ul>
+
+<p>Mais c’est un moyen d’être notifié des nouveaux épisodes. Il suffit d’ajouter
+l’URL de l’utilisateur/chaîne (<code class="language-plaintext highlighter-rouge">https://www.youtube.com/user/USERNAME</code> ou
+<code class="language-plaintext highlighter-rouge">https://www.youtube.com/channel/CHANNEL_ID</code>) dans AntennaPod. Vous devriez voir
+apparaître une boîte de dialogue avec l’option ‘RSS’ ; appuyez pour ajouter le
+flux. Si cela ne fonctionne pas, ajoutez
+<code class="language-plaintext highlighter-rouge">https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt;</code> à AntennaPod.
+Vous pouvez trouver l’identifiant de la chaîne dans l’URL de la chaîne. Si la
+chaîne à laquelle vous voulez vous abonner est un compte d’utilisateur (avec une
+URL comme youtube.com/user/UserName), vous pouvez contacter l’utilisateur pour
+lui demander son identifiant de chaîne (ici, on explique <a href="https://support.google.com/youtube/answer/3250431?hl=en">comment les
+utilisateurs peuvent trouver leur identifiant de chaîne</a>).</p>
+
+<p>Comme vous pouvez le constater, nous n’avons pas d’informations sur les autres
+plateformes. Nous serons heureux de les inclure ici si vous nous faites part de
+vos réflexions via le <a href="https://forum.antennapod.org/">forum</a>.</p>
+
+
+            </article>
+            
+            <div class="container-fluid">
+                <div class="container py-3">
+                    <div class="row justify-content-start pb-4">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/fr"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">Le gestionnaire de podcasts simple, flexible et open-source pour Android.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/fr/about"><span>À propos</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/fr/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/fr/contribute"><span>Contribuer</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/fr/documentation"><span>Documentation</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/fr/download"><span>Télécharger</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/fr/media-kit"><span></span></a></div>-->
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="/rss.xml" target="_blank" rel="noopener"><i class="fa fa-rss mr-1"></i>RSS</a>
+                    </p>
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">© 2022 AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/fr/license">Licence</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/fr/privacy">Politique de confidentialité</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
