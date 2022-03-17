@@ -13,6 +13,49 @@
         
         
         <item>
+            <title>2.5 release</title>
+            <link>https://antennapod.org/blog/2022/03/2-5-release</link>
+            <guid isPermaLink="false">https://antennapod.org/blog/2022/03/2-5-release</guid>
+            
+            <description><![CDATA[
+                
+                <p>Published by <a href="https://github.com/keunes">Keunes</a></p>
+                <p>Last week we published version 2.5 of AntennaPod. This update already is available via <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">Google Play</a> and will soon be available also on <a href="https://f-droid.org/packages/de.danoeh.antennapod/">F-Droid</a>. The key feature that we added in this release? That would be synchronisation with <a href="https://apps.nextcloud.com/apps/gpoddersync">“GPodder Sync” app for Nextcloud</a>, implemented by @thrillfall.</p>
+
+<h1 id="a-great-addition">A great addition</h1>
+
+<p>So far AntennaPod only supported synchronisation via gpodder.net. That’s a podcasting synchronisation web tool that can be self-hosted, but which is also offered as a free service via the project’s website. Just like AntennaPod it is an open source &amp; volunteer-run project.</p>
+
+<p>Unfortunately, it has little money for its webservers, few contributors making improvements to code and a lot of people using the free service. As a consequence, its website is often down, leading to errors in AntennaPod for many people. And a considerable number of users telling us that synchronisation doesn’t work.</p>
+
+<p>Now that gpodder.net was made into a Nextcloud app, you can quickly install it on your own instance. Much easier than setting up a full gpodder.net server! This not only means that open source self-hosters can easily set up their own, reliable synchronisation service. We also hope that the situation will improve for everyone else, as the pressure on <a href="https://www.gpodder.net">gpodder.net</a>’s central service will decrease.</p>
+
+<p>You can find this new option under <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code>!</p>
+
+<h1 id="other-changes">Other changes</h1>
+
+<p>Synchronisation aside, we are also happy to list the followign changes in our beloved podcast app:</p>
+<ul>
+  <li>In the podcast-specific auto-download settings you will now also find a ‘duration’ filter (by @thomasdomingos)</li>
+  <li>Tags can now be renamed, and they can be applied to multiple podcasts via multi-select in the Subscriptions screen (by @vbh)</li>
+  <li>TalkBack is available in more places, increasing the accessibility of the app (by @johnjohndoe and @TacoTheDank)</li>
+  <li>The ‘Downloaded episodes’ screen is now available in Android Auto (by @ByteHamster)</li>
+  <li>Support for local feeds is improved, with episode sorting functionality and a better synchronisation &amp; refreshing experience (by @ByteHamster, @shombando and @widlok)</li>
+  <li>Physical interfaces are easier to use, both with the mouse and through keyboard shortcuts to open the app or jump lists (by @ByteHamster, @silansuslu and @tonytamsf)</li>
+  <li>The experience with mobile connections was improved, particularly around connection permissions and warnings (by @RafaelBod, @ByteHamster and @tonytamsf)</li>
+</ul>
+
+<p>These are only the key improvements that we managed to summarise in the limited space of Google’s ‘What’s new’ section. But there are many more bug fixes, additions and other changes in AntennaPod 2.5. We have published a full list of the record number of <a href="https://forum.antennapod.org/t/antennapod-2-5-release-notes/1636">Pull Requests that landed in this update</a> on our forum.</p>
+
+<p>Be sure to check out the list if you’re interested, and don’t hesitate to see <a href="https://antennapod.org/contribute">what you can do to help AntennaPod</a>! The whole project is run by volunteers from across the world in their free time. So anyone who can and wants to get things done, is welcome to reach out to us and join the club.</p>
+
+            ]]></description>
+            <pubDate>Thu, 17 Mar 2022 18:00:00 +0000</pubDate>
+        </item>
+        
+        
+        
+        <item>
             <title>Let's translate this space!</title>
             <link>https://antennapod.org/blog/2022/01/website-translations</link>
             <guid isPermaLink="false">https://antennapod.org/blog/2022/01/website-translations</guid>
