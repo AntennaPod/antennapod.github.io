@@ -8,7 +8,7 @@ choisir `Supprimer`. Lorsque vous consultez l'onglet Terminé dans l'écran des
 Téléchargements, vous pouvez aussi simplement utiliser l'icône de la poubelle.
 Si vous le souhaitez, AntennaPod peut automatiquement supprimer un épisode de la
 file d'attente s'il est supprimé. Vous pouvez trouver cette option sous
-`Parmètres` " `Stockage` " `Supprimer retire de la liste de lecture`.
+`Parmètres` → `Stockage` → `Supprimer retire de la liste de lecture`.
 
 Deuxièmement, AntennaPod dispose de certaines solutions pour supprimer
 automatiquement les épisodes. AntennaPod peut notamment supprimer

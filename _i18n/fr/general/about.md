@@ -16,11 +16,11 @@ votre expérience d'écoute.
 
 Dans cette philosophie, chaque option ajoutée est un choix que nous n’avons pas
 réussi à faire. Cela signifie que nous forçons l’utilisateur final à choisir
-(Voici un excellent [article d'un blog, expliquant pourquoi les développeurs
-ne devraient pas faire cela](http://neugierig.org/software/blog/2018/07/options.html)
-à la légère). Nous promettons de faire de notre mieux pour prendre ces décisions
-qui créent une grande expérience. Parce que vous savez déjà ce que vous allez
-manger ce soir ?
+(Voici un excellent [article d'un blog](http://neugierig.org/software/blog/2018/07/options.html),
+expliquant pourquoi les développeurs ne devraient pas faire cela à la légère).
+Nous promettons de faire de notre mieux pour prendre ces décisions qui créent
+une grande expérience. Parce que vous savez déjà ce que vous allez manger ce
+soir ?
 
 En même temps, ne vous inquiétez pas. Par exemple, nous sommes ouverts à de
 nouvelles fonctionnalités, options ou préférences si cela offre réellement de la
@@ -33,9 +33,9 @@ notre forum](https://forum.antennapod.org/c/feature-request) !
 
 Tout comme d'autres excellents logiciels tels que Firefox et Signal, AntennaPod
 est un logiciel libre. Cela signifie que tout le monde peut consulter et
-contribuer au code de l'application. AntennaPod est disponible dans la boutique
-d'applications F-Droid, une boutique open source et respectueuse de la vie
-privée [Boutique d'applications F-Droid](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+contribuer au code de l'application. AntennaPod est disponible dans [l'App
+Store F-Droid](https://www.f-droid.org/packages/de.danoeh.antennapod/), une
+boutique open source et respectueuse de la vie privée.
 
 De cette façon, vous pouvez être assuré (ou vérifier par vous-même) qu'il n'y a
 pas de collecte de données louches. Comme AntennaPod est créé par des bénévoles,
@@ -49,7 +49,7 @@ Nous défendons un écosystème de podcast ouvert. Un écosystème qui
 * soutient la liberté d'expression,
 * récompense les podcasters pour leur travail créatif,
 * protège les auditeurs contre les contenus inaccessibles dans les [jardins
-clos](https://fr.abcdef.wiki/wiki/Closed_platform), et
+clos](https://fr.abcdef.wiki/wiki/Closed_platform),
 * permet aux utilisateurs d'utiliser et de passer d'une application à l'autre
 sans [un enfermement propriétaire](https://fr.wikipedia.org/wiki/Enfermement_propri%C3%A9taire).
 

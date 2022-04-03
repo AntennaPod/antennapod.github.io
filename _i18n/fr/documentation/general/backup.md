@@ -23,7 +23,7 @@ Les fichiers OPML permettent de transférer vos abonnements vers une autre
 application de podcast. Vous perdrez toutes les données spécifiques aux podcasts
 ou aux épisodes (par exemple, si un épisode spécifique a été lu) et tous les
 paramètres de l'application. Pour exporter votre fichier, allez dans
-`Paramètres` " `Stockage` " `Importation / Exportation`. Pensez à cliquer sur
+`Paramètres` → `Stockage` → `Importation / Exportation`. Pensez à cliquer sur
 `Envoyer...` pour enregistrer le fichier dans un autre dossier de votre
 téléphone ou vers une autre application, car le fichier original sera supprimé
 lorsque vous désinstallerez AntennaPod. Lorsque vous importez le fichier

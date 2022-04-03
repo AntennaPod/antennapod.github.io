@@ -1,6 +1,6 @@
 Avec AntennaPod, vous pouvez spécifier des abonnements (flux de podcasts) à
 mettre à jour à intervalle régulier ou à un moment particulier de la journée
-dans les paramètres `Réseau` " `Automatisation`.
+dans les paramètres `Réseau` → `Automatisation`.
 
 Si vous avez des besoins plus complexes, vous pouvez utiliser diverses
 applications tierces vous permettant d'automatiser AntennaPod. Exemples :
@@ -22,7 +22,7 @@ type d'intention Android) avec les paramètres suivants :
 
 ### Automatiser
 
-Dans un flux, ajouter un bloc de type `APPS` " `Broadcast send`, spécifiez
+Dans un flux, ajouter un bloc de type `APPS` → `Broadcast send`, spécifiez
 
 1. Le paquet doit être `de.danoeh.antennapod`
 1. La classe du récepteur doit être

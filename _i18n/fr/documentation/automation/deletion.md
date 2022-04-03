@@ -7,13 +7,13 @@ paramètres :
 
 ## Suppression automatique
 
-La suppression automatique se trouve dans `Préférences` " `Stockage`.
+La suppression automatique se trouve dans `Préférences` → `Stockage`.
 Lorsqu'elle est activée, les épisodes sont supprimés lorsque la lecture est
 terminée (sauf si vous marquez manuellement un épisode comme lu).
 
 ## Nettoyage de l'épisode
 
-Le nettoyage des épisodes se trouve dans `Préférences` " `Réseau` "
+Le nettoyage des épisodes se trouve dans `Préférences` → `Réseau` →
 `Téléchargement automatique`. Si le téléchargement automatique a besoin d'espace
 pour les nouveaux épisodes, il supprimera les anciens épisodes qui ne sont pas
 dans la liste de lecture et qui ne sont pas marqués comme favoris. Vous pouvez

@@ -1,12 +1,12 @@
 Tout d'abord, vous devez vous abonner à un podcast. Vous pouvez en savoir plus à
 ce sujet [ici](/documentation/getting-started/subscribe). Après l'abonnement,
-les nouveaux épisodes sont affichés dans `Episodes` " `Nouveaux`. C'est là que
+les nouveaux épisodes sont affichés dans `Episodes` → `Nouveaux`. C'est là que
 vous pourrez décider si vous souhaitez réellement les écouter ou non. `Nouveaux`
 signifie que vous n'avez pas encore décidé ce que vous allez faire de l'épisode.
 
 - Si un épisode ne vous intéresse pas, il suffit de le faire glisser et
 AntennaPod supprime le drapeau `nouveau`. L'épisode reste marqué comme non lu et
-vous pouvez le retrouver sur la page `Episodes` " `Tous`, ainsi que sur la page
+vous pouvez le retrouver sur la page `Episodes` → `Tous`, ainsi que sur la page
 du podcast.
 - Si vous êtes intéressé par l'épisode, vous pouvez faire l'une des deux choses
 suivantes, en fonction de votre comportement d'écoute.
@@ -29,15 +29,15 @@ suivantes, en fonction de votre comportement d'écoute.
 de la file de lecture. Un paramètre permet également de supprimer
 automatiquement le téléchargement après la lecture. Vous pouvez trouver une
 liste de tous les épisodes qui sont téléchargés sur votre appareil (qu'ils
-soient dans la file de lecture ou non) sur la page `Téléchargements` "
+soient dans la file de lecture ou non) sur la page `Téléchargements` →
 `Terminés`.
 - Si vous aimez un épisode et que vous envisagez de le réécouter, vous pouvez
-également le marquer comme favori. Il apparaîtra alors sur la page `Episodes` "
+également le marquer comme favori. Il apparaîtra alors sur la page `Episodes` →
 `Favoris` et (par défaut) ne sera pas supprimé après la lecture.
 
 Si vous êtes abonné à un podcast vraiment génial dont vous savez dès le départ
 que tous les épisodes seront excellents, vous pouvez utiliser la fonction de
 téléchargement automatique. Lorsqu'elle est activée pour un podcast, tous ses
 futurs nouveaux épisodes sont automatiquement téléchargés et ajoutés à la file
-de lecture. Ils seront automatiquement supprimés de la page `Episodes` "
+de lecture. Ils seront automatiquement supprimés de la page `Episodes` →
 `Nouveaux` dès qu'ils seront téléchargés.

@@ -58,7 +58,7 @@ faut compter un mois ou deux avant que votre travail soit disponible dans une
 version.
 
 Les contributeurs à la traduction seront mentionnés dans l'application avec leur
-nom d'utilisateur Transifex, sous `Préférences` " `À propos` " `Contributeurs`.
+nom d'utilisateur Transifex, sous `Préférences` → `À propos` → `Contributeurs`.
 
 # Le site web
 
