@@ -1,0 +1,19 @@
+{% capture img-queue %} {% include image.html alt= "
+
+De wachtrij ontgrendelen
+
+     "
+
+loc="/assets/images/documentation" file="queue-unlock.png" width=400 %} {%
+endcapture %}
+
+Een vrij vaak voorkomend probleem is dat gebruikers opeens niet meer handmatig
+de wachtrij kunnen herschikken.
+
+Als afleveringen niet verplaatst kunnen worden in de wachtrij, kan dit een van
+de volgende oorzaken hebben:
+
+- `Gesorteerd houden` is ingeschakeld. Dit is uit te schakelen door op de drie
+puntjes `...` in de bovenste balk te tikken en `Sorteren` te selecteren.
+- De wachtrij is vergrendeld. Ontgrendelen kan door op het `unlock`-pictogram in
+de bovenste balk te tikken: {{ img-queue | strippen }}
