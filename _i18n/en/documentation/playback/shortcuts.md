@@ -3,7 +3,7 @@ If you have a physical ('hardware') keyboard connected to your phone or tablet, 
 ### All screens (except video player and the settings)
 
 | Key | Action |
-| -- | -- |
+| --- | --- |
 |`P` | Play/Pause|
 | `J`/`A`/`,` | Rewind media |
 | `K`/`D`/`.` | Forward media |
@@ -14,7 +14,7 @@ If you have a physical ('hardware') keyboard connected to your phone or tablet, 
 ### Video player
 
 | Key | Action |
-| -- | -- |
+| --- | --- |
 | `P`/`Space` | Play/Pause |
 | `J`/`A`/`,` | Rewind media |
 | `K`/`D`/`.` | Forward media |
