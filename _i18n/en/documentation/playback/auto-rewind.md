@@ -3,6 +3,6 @@ When an episode has been paused and is played again, AntennaPod will automatical
 
 | Time since last playback | Rewind duration |
 | --- | --- |
-|More than 1 day | 20 seconds |
-|More than 1 hour | 10 seconds |
-|More than 1 minute | 3 seconds |
+| More than 1 day | 20 seconds |
+| More than 1 hour | 10 seconds |
+| More than 1 minute | 3 seconds |
