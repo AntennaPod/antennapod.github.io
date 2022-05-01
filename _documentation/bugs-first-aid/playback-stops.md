@@ -1,10 +1,10 @@
 ---
-title: documentation.categories.bugs-first-aid.database-error
+title: documentation.categories.bugs-first-aid.playback-stops
 layout: doc
 level: "2"
 group: "bugs-first-aid"
-icon: "fas fa-history"
-order: 50
+icon: "fas fa-stop-circle"
+order: 20
 ---
 
 # {% t {{ page.title }} %}

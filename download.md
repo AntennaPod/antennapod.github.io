@@ -1,6 +1,6 @@
 ---
 layout: page
-title: generic.download
+title: titles.download
 permalink: /download/
 ---
 

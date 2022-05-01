@@ -4,7 +4,7 @@ layout: doc
 level: "2"
 group: "bugs-first-aid"
 icon: "fas fa-question"
-order: "10"
+order: 10
 ---
 
 # {% t {{ page.title }} %}

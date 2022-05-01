@@ -26,14 +26,14 @@
 
 <!-- mdpo-enable -->
 
-Out of the estimated [world population](https://en.wikipedia.org/wiki/World_population) of 7.9 billion people, 'only' 1.3 billion [speak English](https://www.ethnologue.com/guides/ethnologue200). This may not mean much per say. But if anything, we can conclude that making AntennaPod available in more languages, makes the app accessible by more people. A translated app not only is usable for more people, it also helps our project grow beyond the current main userbases (Germany and the US).
+Out of the estimated [world population](https://en.wikipedia.org/wiki/World_population) of 7.9 billion people, 'only' 1.3 billion [speak English](https://www.ethnologue.com/guides/ethnologue200). This may not mean much per say. But if anything, we can conclude that making AntennaPod available in more languages, makes the app accessible to more people. As a side benefit, localising the app also helps our project grow beyond the current main userbases (Germany and the US).
 
 We therfore much appreciate your help!
 
 # The app
-To help translate the app, we ask you to contribute via [Transifex](https://www.transifex.com/antennapod/antennapod/). Anyone can sign up there and start contributing. Transifex has helpful guides to [get started on their platform](https://docs.transifex.com/getting-started-1/translators) and to [get familiar with the Web Editor interface](https://docs.transifex.com/translation/translating-with-the-web-editor).
+To help translate the app, we ask you to contribute via [Transifex](https://www.transifex.com/antennapod/antennapod/). Anyone can sign up there and get started. Transifex has helpful guides to [get started on their platform](https://docs.transifex.com/getting-started-1/translators) and to [get familiar with the Web Editor interface](https://docs.transifex.com/translation/translating-with-the-web-editor).
 
-Under the AntennaPod project, you will find three 'resources':
+Under the AntennaPod project you will find three 'resources':
 - The app itself
 - The short, one-sentence description for in app stores
 - The more elaborate description for in app stores
