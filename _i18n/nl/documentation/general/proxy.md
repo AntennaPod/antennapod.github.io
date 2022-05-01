@@ -4,14 +4,14 @@ TOR-netwerk te laten leiden. Dat heeft twee potentiële voordelen:
 
 - Privacy: afhankelijk van het type proxy-dienst kan het
 download/streaming-gedrag worden afgeschermd van podcast-hosts
-- Toegang: als de podcast-host het downloaden van inhoud uit andere landen
-verhindert (op basis van IP-adressen), is mogelijk door het instellen van een
-proxy met het land van oorsprong toch toegang tot de inhoud
+- Toegang: als een podcast-host het downloaden van afleveringen vanuit andere
+landen verhindert (op basis van IP-adressen), kun je door het instellen van een
+proxy mogelijk toch toegang krijgen
 
-Deze optie staat onder `Instellingen` " `Netwerk` " `Proxy`.
+Deze optie vind je onder `Instellingen` » `Netwerk` » `Proxy`.
 
 Installeer een proxy-app voor TOR die al het verkeer via het TOR-netwerk leidt.
-Geef in AntennaPod de volgende details op:
+Stel AntennaPod als volgt in:
 
 - Type: SOCKS
 - Host: "localhost" of "127.0.0.1"

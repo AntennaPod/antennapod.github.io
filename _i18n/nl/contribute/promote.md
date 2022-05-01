@@ -1,23 +1,23 @@
-AntennaPod vertrouwt op gratis publiciteit, mond-tot-mondreclame, en een
-bescheiden aanwezigheid in de sociale media voor zijn promotie. We weten dat er
-ruimte is voor verbetering. En dat heb jij misschien ook wel gedacht. Waarom zou
-je ons niet helpen groter te worden? Je hulp op een van de volgende gebieden zal
-zeer op prijs worden gesteld.
+AntennaPod vertrouwt voor de promotie op gratis publiciteit,
+mond-tot-mondreclame, en een bescheiden aanwezigheid op sociale media. We weten
+dat er ruimte is voor verbetering. En dat heb jij je misschien ook wel bedacht.
+Waarom zou je ons niet helpen groter te worden? Je hulp op een van de volgende
+gebieden zal zeer op prijs worden gesteld.
 
-* **Pers** Ken je een interessante website, podcast of magazine die AntennaPod
-zou kunnen behandelen? Help ons dan een lijst op te stellen van media die we
-kunnen bereiken met belangrijke berichten.
+* **Pers** Ken je een interessante website, podcast of tijdschrift dat
+AntennaPod zou kunnen behandelen? Help ons dan een lijst op te stellen van media
+die we kunnen contacteren als we iets belangrijks te melden hebben.
 * **Social media** Bedenk je graag nieuwe invalshoeken om over het project te
 praten, en stel je af en toe bondige en creatieve berichten op? Help mee om een
 breder publiek te bereiken op Twitter.
-* **Blog** Interesse om te schrijven over nieuwe app features, het AntennaPod
-project of een open podcasting ecosysteem in het algemeen? Help ons onze blog te
-onderhouden.
+* **Blog** Vind je het leuk om te schrijven over nieuwe app features, het
+AntennaPod project of een open podcasting ecosysteem in het algemeen? Help ons
+het blog te onderhouden.
 * **Graphics design** Voel jij je comfortabel met (digitale) pen en inkt? Help
 ons dan met het opleuken van onze website, social media en ander
 promotiemateriaal.
-* **Alles** Heb je andere leuke ideeën om het project te promoten? Neem contact
-met ons op en deel ze met ons.
+* **En meer** Heb je andere leuke ideeën om het project te promoten? Neem
+contact met ons op en deel ze met ons.
 
 # Neem contact op
 

@@ -3,16 +3,27 @@ kun je bepaalde sneltoetsen gebruiken om het afspelen in AntennaPod te regelen.
 
 ### Alle schermen (behalve de videospeler en de instellingen)
 
-| Sleutel | Actie | | -- | -- | |`P` | Afspelen/Pauzeren| | `J`/`A`/`,` | Media
-terugspoelen | | `K`/`D`/`.` | Media doorsturen | | `+`/`W` | Verhoog
-mediavolumekanaal | | `-`/`S` | Lager mediavolumekanaal) | | `M` | Dempen/dempen
-opheffen (wisselen) mediavolumekanaal (alleen op Android 6 en hoger) |
+| Toets | Resultaat |
+| --- | --- |
+| `P` | Afspelen/Pauzeren |
+| `J`/`A`/`,` | Media terugspoelen |
+| `K`/`D`/`.` | Media vooruitspoelen |
+| `+`/`W` | Verhoog mediavolume |
+| `-`/`S` | Verlaag mediavolume |
+| `M` | Dempen/dempen opheffen (wisselen) volumekanaal voor media (alleen op Android 6
+en hoger) |
 
 ### Videospeler
 
-| Sleutel | Actie | | -- | -- | | `P`/`Spatie ` | Afspelen/Pauzeren | | `J`/`A`/
-`,` | Media terugspoelen | | `K`/`D`/`.` | Media doorsturen | | `F`/`Esc` |
-Videospeler afsluiten | | `i` | Ga naar de beeld-in-beeld-modus | | `0`-`9` | Ga
-naar 0-90% van de video | | `+`/`W` | Mediavolume verhogen (kanaal) | | `-`/`S`
-| Lager mediavolume (kanaal) | | `M` | Dempen/dempen opheffen (wisselen)
-mediavolumekanaal (alleen op Android 6 en hoger) |
+| Toets | Resultaat |
+| --- | --- |
+| `P`/`Space` | Afspelen/Pauzeren |
+| `J`/`A`/`,` | Media terugspoelen |
+| `K`/`D`/`.` | Media vooruitspoelen |
+| `F`/`Esc` | Videospeler |
+| `i` | Enter picture-in-picture mode |
+| `0`-`9` | Go to 0-90% of the video |
+| `+`/`W` | Raise media volume (channel) |
+| `-`/`S` | Lower media volume (channel) |
+| `M` | Dempen/dempen opheffen (wisselen) volumekanaal voor media (alleen op Android 6
+en hoger) |

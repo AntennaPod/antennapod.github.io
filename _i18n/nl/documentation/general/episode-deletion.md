@@ -5,9 +5,10 @@ methoden.
 Ten eerste zijn afleveringen natuurlijk handmatig te verwijderen. In de wachtrij
 of bij specifieke podcast kun je lang drukken op een aflevering en op
 `Verwijderen` tikken. Op het tabblad Voltooid in het scherm Downloads kun je op
-de Prullenbak tikken. AntennaPod kan automatisch een aflevering uit de wachtrij
-verwijderen als deze wordt gewist. Deze optie staat onder `Instellingen` »
-`Opslag` » `Aflevering verwijderen uit wachtrij na wissen`.
+het prullenbak-icoontje tikken. Als je wilt kan AntennaPod kan automatisch een
+aflevering uit de wachtrij verwijderen wanneer deze wordt gewist. Deze optie
+vind je onder `Instellingen` » `Opslag` »
+`Aflevering verwijderen uit wachtrij na wissen`.
 
 Ten tweede heeft AntennaPod enkele oplossingen om afleveringen automatisch te
 verwijderen. AntennaPod kan met name automatisch afleveringen verwijderen

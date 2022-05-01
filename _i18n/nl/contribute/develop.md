@@ -6,20 +6,20 @@ website en aanverwante projecten.
 
 Je bent er: de kern van het project! Gebruikt door duizenden mensen over de hele
 wereld, vormt jouw code een belangrijke bijdrage aan een open podcasting
-ecosysteem. Dus, heb je ervaring met Java, of begin je net? We verwelkomen je
-bijdragen in onze [GitHub repository](https://github.com/AntennaPod/AntennaPod).
+ecosysteem. Dus, heb je ervaring met Java, of begin je net? Je bijdrage is van
+harte welkom in onze [GitHub repository](https://github.com/AntennaPod/AntennaPod).
 
-## Waarbij we hulp nodig hebben
+## Waar we hulp bij kunnen gebruiken
 
 Er zijn een paar gebieden waar we goed hulp kunnen gebruiken. Omdat ze
 belangrijk zijn, gewild zijn onder onze gebruikers of allebei. We hebben een
-duidelijk overzicht gemaakt van [de kwesties en functiegebieden waar we het
-meest hulp bij nodig hebben](https://github.com/AntennaPod/AntennaPod/projects/2).
+duidelijk overzicht gemaakt van [de problemen en functionaliteiten waar we
+het meest hulp bij nodig hebben](https://github.com/AntennaPod/AntennaPod/projects/2).
 Stort je in een van de volgende issues en we voegen je toe aan onze (mentale)
 lijst voor eeuwige dankbaarheid!
 
-Afgezien van deze grote projecten, kun je altijd kijken naar de [kwesties
-met het 'hulp gezocht' label](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted)
+Afgezien van deze grote projecten, kun je altijd kijken naar de [issues met
+het 'help wanted' label](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted)
 op GitHub.
 
 Als je liever op bug-jacht gaat, is je go-to lijst voor een weekend bug-jacht de
@@ -32,8 +32,8 @@ op GitHub.
 kenbaar*. Soms hebben we nog geen overeenstemming bereikt over een
 gebruikerservaring en interface. Het kan gebeuren dat iemand heeft toegezegd
 ergens aan te gaan werken, maar dat we vergeten zijn op 'assign' te klikken in
-het GitHub issue. Meepraten op ons forum is de beste manier om verloren uren aan
-code die niet zal worden aanvaard te vermijden.
+het GitHub issue. Meepraten op ons forum is de beste manier om te vermijden dat
+je uren verspild aan code die niet zal worden gebruikt.
 
 **Tijdens** Kijk eens op onze wiki; die bevat [handige info voor bijdragers](https://github.com/AntennaPod/AntennaPod/wiki).
 Je vindt er bijvoorbeeld informatie over de [code-stijl](https://github.com/AntennaPod/AntennaPod/wiki/Code-style)

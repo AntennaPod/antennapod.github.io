@@ -1,7 +1,8 @@
 Er zijn in principe twee manieren om een podcast-app te maken:
 
-1. **Central**: Er is een centrale server (gerund door het bedrijf dat de app
-ontwikkelt) die controleert op nieuwe afleveringen en deze vervolgens levert.
+1. **Gecentraliseerd**: Er is een centrale server (gerund door het bedrijf dat
+de app ontwikkelt) die controleert op nieuwe afleveringen en deze vervolgens
+doorstuurt aan jouw app.
 1. **Gedistribueerd**: De app zelf controleert op nieuwe afleveringen,
 rechtstreeks van de podcast-uitgevers.
 

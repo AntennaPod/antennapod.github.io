@@ -27,7 +27,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # De inhoud van de website
 
-De teksten op de website zijn geschreven en vrijgegeven onder een [Creative
-Commons Naamsvermelding-GelijkDelen Internationaal](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
-licentie (CC-BY-SA 4.0). Afbeeldingen op deze website vallen onder het
-auteursrecht van hun respectieve eigenaars.
+De teksten op de website zijn geschreven en vrijgegeven onder de volgende
+licentie: [Creative Commons Naamsvermelding-GelijkDelen Internationaal](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
+(CC-BY-SA 4.0). Afbeeldingen op deze website vallen onder het auteursrecht van
+hun respectievelijke eigenaren.
