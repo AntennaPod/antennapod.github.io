@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ontwikkelen – AntennaPod</title>
+  <meta name="description" content="Schrijf je code? Help met het testen van pull-requests of draag zelf bij met nieuwe functies of bug-fixes voor de app of website.">
+
+  <link rel="canonical" href="https://antennapod.org/nl/contribute/develop">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ontwikkelen – AntennaPod">
+  <meta name="twitter:description" content="Schrijf je code? Help met het testen van pull-requests of draag zelf bij met nieuwe functies of bug-fixes voor de app of website.">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/nl/contribute/develop">
+  <meta property="og:title" content="Ontwikkelen – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
+  <meta property="og:description" content="Schrijf je code? Help met het testen van pull-requests of draag zelf bij met nieuwe functies of bug-fixes voor de app of website.">
+  <meta property="og:site_name" content="AntennaPod">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+</head>
+
+  <body>
+    <div class="content">
+    <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/nl">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/nl/about">Over ons</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/nl/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/nl/contribute">Bijdragen</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/nl/documentation">Documentatie</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="https://forum.antennapod.org/">Forum</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Menu voor taalkeuze" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">NL</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/contribute/develop">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/contribute/develop">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/contribute/develop">Nederlands</a>
+  
+
+
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Menu voor taalkeuze" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">NL</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/contribute/develop">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/contribute/develop">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/contribute/develop">Nederlands</a>
+  
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">×</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/nl/about">Over ons</a>
+                
+                <a href="/nl/blog">Blog</a>
+                
+                <a href="/nl/contribute">Bijdragen</a>
+                
+                <a href="/nl/documentation">Documentatie</a>
+                
+                <a href="https://forum.antennapod.org/">Forum</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+        <div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1 class="color-gray-800 weight-700">Ontwikkelen</h1>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <article class="post-content">
+            <p>Als een gemeenschapsproject vertrouwt AntennaPod op vrijwillige codebijdragen
+van een breed scala van mensen. Niet alleen voor de app zelf, maar ook voor de
+website en aanverwante projecten.</p>
+
+<h1 id="app-java">App (Java)</h1>
+
+<p>Je bent er: de kern van het project! Gebruikt door duizenden mensen over de hele
+wereld, vormt jouw code een belangrijke bijdrage aan een open podcasting
+ecosysteem. Dus, heb je ervaring met Java, of begin je net? Je bijdrage is van
+harte welkom in onze <a href="https://github.com/AntennaPod/AntennaPod">GitHub repository</a>.</p>
+
+<h2 id="waar-we-hulp-bij-kunnen-gebruiken">Waar we hulp bij kunnen gebruiken</h2>
+
+<p>Er zijn een paar gebieden waar we goed hulp kunnen gebruiken. Omdat ze
+belangrijk zijn, gewild zijn onder onze gebruikers of allebei. We hebben een
+duidelijk overzicht gemaakt van <a href="https://github.com/AntennaPod/AntennaPod/projects/2">de problemen en functionaliteiten waar we
+het meest hulp bij nodig hebben</a>.
+Stort je in een van de volgende issues en we voegen je toe aan onze (mentale)
+lijst voor eeuwige dankbaarheid!</p>
+
+<p>Afgezien van deze grote projecten, kun je altijd kijken naar de <a href="https://github.com/AntennaPod/AntennaPod/labels/help%20wanted">issues met
+het ‘help wanted’ label</a>
+op GitHub.</p>
+
+<p>Als je liever op bug-jacht gaat, is je go-to lijst voor een weekend bug-jacht de
+<a href="https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug">‘confirmed bugs’ issue label</a>
+op GitHub.</p>
+
+<h2 id="aan-de-slag">Aan de slag</h2>
+
+<p><strong>Vooraf</strong> Dien niet zomaar een PR in, maar <em>maak altijd eerst je interesse
+kenbaar</em>. Soms hebben we nog geen overeenstemming bereikt over een
+gebruikerservaring en interface. Het kan gebeuren dat iemand heeft toegezegd
+ergens aan te gaan werken, maar dat we vergeten zijn op ‘assign’ te klikken in
+het GitHub issue. Meepraten op ons forum is de beste manier om te vermijden dat
+je uren verspild aan code die niet zal worden gebruikt.</p>
+
+<p><strong>Tijdens</strong> Kijk eens op onze wiki; die bevat <a href="https://github.com/AntennaPod/AntennaPod/wiki">handige info voor bijdragers</a>.
+Je vindt er bijvoorbeeld informatie over de <a href="https://github.com/AntennaPod/AntennaPod/wiki/Code-style">code-stijl</a>
+van het project en we leggen uit <a href="https://github.com/AntennaPod/AntennaPod/wiki/Getting-accredited-on-the-Contributors-page">hoe je ervoor zorgt dat je werk aan de app
+erkend wordt</a>.
+Last but not least: build-instructies en info over debug logs.</p>
+
+<p><strong>Erna</strong> Praat over je bijdrage, en claim die roem! Het kan andere potentiële
+bijdragers inspireren, en helpt met het promoten van de app meer in het
+algemeen. We retweeten je tweets met liefde!</p>
+
+<h1 id="website-scss-html">Website (SCSS, HTML)</h1>
+
+<p>De basis van onze nieuwe website werd gebouwd door <a href="https://lushka.al">Anxhelo</a>.
+Nu zijn we klaar voor verdere verbeteringen! Ben je bekend met <a href="https://jekyllrb.com/">Jekyll</a>?
+Help ons dan (delen van) <a href="https://forum.antennapod.org/t/sitemap-for-the-new-website/240">de wishlist voor onze website</a>
+te verwezenlijken en bekijk onze <a href="https://github.com/AntennaPod/antennapod.github.io">website repository</a>.</p>
+
+<h1 id="upstream--andere-projecten">Upstream &amp; andere projecten</h1>
+
+<p>AntennaPod is niet alleen op de wereld. Het project gebruikt veel andere
+projecten - als je daaraan bijdraagt help je ook AntennaPod:</p>
+
+<ul>
+  <li>
+<strong>Nextcloud Podcast app</strong> (Vue, PHP, Javascript) In december 2020 lanceerde
+Jonas Heinrich de <a href="https://apps.nextcloud.com/apps/podcast">Nextcloud Podcast app</a>.
+Het is een geweldige manier om je te abonneren op en te luisteren naar je
+podcasts - online, in een zelf-gehoste omgeving. De verdere ontwikkeling ervan
+en <a href="https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103">integratie met AntennaPod</a>
+zou een zeer welkome aanvulling zijn.</li>
+  <li>
+<strong>gpodder.net</strong> (Python, HTML) Het reeds lang bestaande en libre <a href="https://gpodder.net/">gpodder.net</a>
+project laat gebruikers toe om podcastspelers te verbinden en te synchroniseren.
+Helaas is het project een slachtoffer van zijn eigen succes: de webserver is
+vaak niet beschikbaar en AntennaPod gebruikers zien sync fouten. Alle steun aan
+het project en de maintainers is welkom, in het bijzonder met <a href="https://github.com/gpodder/mygpo/issues/128">dit API
+probleem</a>.</li>
+</ul>
+
+<h1 id="neem-contact-op">Neem contact op!</h1>
+
+<p>Misschien geïnteresseerd maar nog niet zeker? Klaar om te beginnen? Neem contact
+op met <a href="https://github.com/Keunes" class="user-mention">@Keunes</a> of <a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a> op <a href="https://forum.antennapod.org">ons forum</a>!</p>
+
+
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/nl"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">De makkelijke, flexibele en open source podcast-manager voor Android.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/about"><span>Over ons</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/contribute"><span>Bijdragen</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/documentation"><span>Documentatie</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/nl/media-kit"><span></span></a></div>-->
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="/rss.xml" target="_blank" rel="noopener"><i class="fa fa-rss mr-1"></i>RSS</a>
+                    </p>
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">© 2022 AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/nl/license">Licentie</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/nl/privacy">Privacybeleid</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>
