@@ -10,8 +10,7 @@ The only case where your data from 3rd parties is handled, is when using a synch
 ## App permissions
 The app requests the following privacy-relevant Android permissions:
 
-- Read from/write to Storage (Photos/Media/Files)<br>
-The storage permission is used to open files that are not downloaded directly from within the app. It can also be used to import app settings or OPML files. The permission is only requested if you perform an action that requires reading from storage.
+- Read from/write to Storage (Photos/Media/Files): The storage permission is used to open files that are not downloaded directly from within the app. It can also be used to import app settings or OPML files. The permission is only requested if you perform an action that requires reading from storage.
 
 ## What app data other parties might collect, store and process
 
