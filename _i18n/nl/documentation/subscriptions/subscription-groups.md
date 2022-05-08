@@ -7,5 +7,5 @@ op ons ontwikkelplatform.)
 Om een label aan een podcast toe te kennen moet je:
 
 - Een specifieke podcast openen
-- Tik op het `Tandwiel`-pictogram om de instellingen te openen
-- Selecteer de instelling `Labels`
+- Op het `tandwiel`-pictogram tikken om de instellingen te openen
+- De instelling `Labels` selecteren

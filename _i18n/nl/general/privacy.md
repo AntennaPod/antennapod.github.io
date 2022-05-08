@@ -1,9 +1,9 @@
 AntennaPod wordt ontwikkeld en onderhouden door individuele vrijwilligers en
 wordt niet vertegenwoordigd door een juridische entiteit. De community heeft
-jouw gegevens niet nodig, dus de app en website zijn ontworpen om volledig
-GDPR-compliant te zijn. Lees verder voor meer informatie.
+jouw gegevens niet nodig, dus de app en website zijn ontworpen om volledig te
+voldoen aan de AVG. Lees verder voor meer informatie.
 
-## Welke gegevens de AntennaPod app kan verzamelen, opslaan en verwerken
+## Welke gegevens de app AntennaPod kan verzamelen, opslaan en verwerken
 
 De app slaat alleen gegevens op die strikt noodzakelijk zijn om de app te laten
 functioneren. Dit omvat bijvoorbeeld de lijst van podcasts die je volgt, de
@@ -23,7 +23,7 @@ gebruik wordt gemaakt van een synchronisatieservice, indien ingeschakeld via de
 instellingen. Hierbij kan de app abonnementen en afspeelgebeurtenissen ontvangen
 die door de dienst worden geleverd.
 
-## App rechten
+## App-rechten
 
 De app vraagt de volgende privacy-relevante Android-rechten aan:
 
@@ -77,8 +77,8 @@ AntennaPod hebben geen toegang tot deze gegevens. Voor meer informatie, zie
 diensten van AntennaPod
 
 - Het donatie systeem: AntennaPod maakt gebruik van Open Collective, aangeboden
-door Open Collective Inc (USA) & Open Collective Europe ASBL (België). Wanneer
-je een donatie doet, krijgen deze instanties toegang tot bepaalde gegevens. Voor
+door Open Collective Inc (VS) & Open Collective Europe ASBL (België). Wanneer je
+een donatie doet, krijgen deze instanties toegang tot bepaalde gegevens. Voor
 meer informatie, zie [Open Collective's privacy policy](https://opencollective.com/privacypolicy).
 - De website: AntennaPod's website wordt gehost via GitHub Pages. [GitHub's
 privacybeleid](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)

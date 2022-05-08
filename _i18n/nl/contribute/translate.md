@@ -16,15 +16,15 @@ Overzicht van componenten in Weblate
 loc="/assets/images/documentation" file="translation-components-weblate.png" %}
 {% endcapture %}
 
-Van de geschatte [wereldbevolking](https://en.wikipedia.org/wiki/World_population)
-van 7,9 miljard mensen, spreken 'slechts' 1,3 miljard [ Engels](https://www.ethnologue.com/guides/ethnologue200).
-Dit betekent op zich misschien niet veel. Maar als er iets is, kunnen we
-concluderen dat het beschikbaar maken van AntennaPod in meer talen, de app
+Van de geschatte [wereldbevolking](https://nl.wikipedia.org/wiki/Wereldbevolking)
+van 7,9 miljard mensen, spreken er 'slechts' 1,3 miljard [Engels](https://www.ethnologue.com/guides/ethnologue200).
+Dit betekent op zich misschien niet veel. Maar als we iets kunnen concluderen,
+dan is het wel dat het beschikbaar maken van AntennaPod in meer talen de app
 toegankelijk maakt voor meer mensen. Een vertaalde app is niet alleen bruikbaar
-voor meer mensen, het helpt ons project ook groeien buiten de huidige
-belangrijkste userbases (Duitsland en de VS).
+voor meer mensen, het helpt ons project ook om te groeien buiten de twee huidige
+belangrijkste gebruikersgroepen (in Duitsland en de VS).
 
-Wij stellen uw hulp dan ook zeer op prijs!
+Wij stellen je hulp dan ook zeer op prijs!
 
 # De app
 
@@ -51,17 +51,17 @@ Nieuwe vertalingen worden ten minste voor elke 'puntrelease' van Transifex naar
 GitHub (het ontwikkelplatform) getrokken. Dit zijn releases zoals 2.0, 2.5, etc
 die nieuwe functies introduceren. Maar we brengen ook updates uit met bug fixes
 en nieuwe vertalingen tussendoor. Gemiddeld kan het een maand of twee duren
-voordat uw werk beschikbaar is in een release.
+voordat je werk beschikbaar is in een release.
 
-Wie bijdraagt aan vertalen zal zich vermeld vinden in de app met de Transifex
-gebruikersnaam, onder `Instellingen` " `Over` " `Bijdragers`.
+Wie helpt met aan vertalen zal zich, met de Transifex gebruikersnaam, vermeld
+zien in de app onder `Instellingen` » `Over` » `Bijdragers`.
 
 # De website
 
 Om verschillende redenen (uiteengezet in een [blogpost over
 websitevertalingen](/blog/2022/01/website-vertalingen)) gebruiken we een ander
 vertaalsysteem voor onze website: [Weblate](https://hosted.weblate.org/projects/antennapod/).
-Iedereen kan zich daar aanmelden en beginnen bij te dragen. In de documentatie
+Iedereen kan zich daar aanmelden en beginnen met bijdragen. In de documentatie
 van Weblate vind je [alles wat je moet weten om met vertalen te beginnen](https://docs.weblate.org/en/latest/user/translating.html).
 
 In het AntennaPod project vind je vier 'componenten'. Elk vertegenwoordigt een
@@ -76,29 +76,30 @@ community.
 {{ img-weblate | strip }}
 
 Nieuwe vertalingen worden eens in de zoveel tijd handmatig van Weblate naar
-GitHub (het ontwikkelplatform) getrokken. Wanneer een taal voor 90% vertaald is
-(dat is ruwweg de hele website minus de Contribute sectie), kunnen we het
-inschakelen op de live website. We proberen altijd een lid van de gemeenschap te
-vinden die een testversie van de website kan nakijken om de kwaliteit van de
-vertalingen te verbeteren.
+GitHub (het ontwikkelplatform) getrokken. We maken een nieuwe taal beschikbaar
+op de live website wanneer 90% van de tekst vertaald is (dat is ruwweg de hele
+website minus de Contribute sectie). We proberen altijd iemand te vinden die bij
+AntennaPod betrokken is om een testversie van de vertaalde website na te lezen
+en zo de kwaliteit van de vertalingen te verbeteren.
 
 # Andere materialen
 
 Naast de app en de website kunnen ook de afbeeldingen in de app stores worden
-overgezet. Ze hebben screenshots en teksten. Omdat de ruimte zeer beperkt is
-gebruiken we een handmatig proces met vallen en opstaan. Laat het ons weten op
-het forum als je daarbij wilt helpen. Omdat gelokaliseerde appstore listings
-meer kans hebben om gedownload te worden, is hulp zeer welkom!
+vertaald. De afbeeldingen hebben screenshots en teksten. Omdat de ruimte in zeer
+beperkt is, gebruiken we een handmatig proces met verschillende testrondes. Laat
+een berichtje achter op het forum als je hierbij wilt helpen. In appstores
+worden apps met vertaalde afbeeldingen eerder gedownload, dus hulp is zeer
+welkom!
 
 # Neem contact op!
 
-* Wilt u **feedback** geven op de Engelse teksten of een van de vertalingen?
+* Wil je **feedback** geven op de Engelse teksten of een van de vertalingen?
 * Ben je **geïnteresseerd in helpen** met vertalen, maar weet je het nog niet
 zeker? Of ben je klaar om te beginnen?
-* Wilt je (gaan) bijdragen en **heeft u ondersteuning nodig**? Bijvoorbeeld
-omdat je taal nog niet beschikbaar is, of omdat je niet zeker weet hoe je iets
-moet vertalen?
+* Wil je (gaan) bijdragen en **heb je ondersteuning nodig**? Bijvoorbeeld omdat
+jouw taal nog niet beschikbaar is, of omdat je niet zeker weet hoe je iets moet
+vertalen?
 
-Spreek in op de [vertaal sectie op ons forum](https://forum.antennapod.org/c/translations/11)!
-Dat is de beste manier om ons te bereiken. Commentaren en berichten in de
-respectievelijke vertaalhulpmiddelen bereiken ons niet altijd tijdig.
+Laat van je horen in de [vertaal-sectie op ons forum](https://forum.antennapod.org/c/translations/11)!
+Dat is de beste manier om ons te bereiken. Opmerkingen en berichten in de
+respectievelijke vertaal-tools worden niet altijd snel opgemerkt en beantwoord.

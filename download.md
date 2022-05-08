@@ -1,7 +1,6 @@
 ---
 layout: page
-title: titles.download
-permalink: /download/
+title: generic.download
 ---
 
 {% tf general/download.md %}

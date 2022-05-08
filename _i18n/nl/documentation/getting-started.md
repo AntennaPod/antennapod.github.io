@@ -15,7 +15,7 @@ luistergedrag.
       aflevering in de wachtrij te plaatsen. AntennaPod is oorspronkelijk ontworpen
       voor downloaden, maar aangezien streamen steeds populairder wordt, kun je ook de
       tweede optie gebruiken.
-   - De aflevering aan de wachtrij toevoegen. AntennaPod verwijdert dan automatisch
+   - Voeg de aflevering toe aan de wachtrij. AntennaPod verwijdert dan automatisch
       de `nieuw`-vlag. De aflevering kan later direct afgespeeld worden zonder
       downloaden en neemt geen ruimte in beslag. Denk daarbij aan: Streamen, als
       video's op YouTube. Nadelen: de aflevering is niet offline beschikbaar, mobiel
@@ -24,7 +24,7 @@ luistergedrag.
 - Na het afspelen markeert AntennaPod de aflevering als gespeeld en verwijdert
 hem uit de wachtrij. AntennaPod kan de download ook automatisch verwijderen na
 afspelen. Er is een lijst van alle afleveringen die gedownload zijn (of ze nu in
-de wachtrij staan of niet) op de `Downloads` " `Voltooid` pagina.
+de wachtrij staan of niet) op de pagina `Downloads` » `Voltooid`.
 - Markeer een aflevering die je bevalt en nog eens wilt beluisteren als
 favoriet. De aflevering verschijnt bij `Afleveringen` » `Favorieten`. AntennaPod
 verwijdert deze (standaard) niet na afspelen.
@@ -33,4 +33,4 @@ Als je geabonneerd bent op een werkelijk goede podcast en je weet al dat alle
 afleveringen geweldig zullen zijn, gebruik dan de auto-download functie. Wanneer
 deze ingeschakeld is, worden alle toekomstige nieuwe afleveringen automatisch
 gedownload en toegevoegd aan de wachtrij. Ze verdwijnen automatisch van de
-`Afleveringen` " `Nieuw` pagina zodra ze gedownload zijn.
+pagina `Afleveringen` » `Nieuw` zodra ze gedownload zijn.

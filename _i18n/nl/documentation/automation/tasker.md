@@ -22,7 +22,7 @@ Android-intentie) met de volgende instellingen:
 
 ### Automatiseren
 
-Voeg in een flow een blok toe van het type `APPS` " `Broadcast send`,
+In een 'flow' voeg je een blok toe van het type `APPS` » `Broadcast send`,
 specificeer
 
 1. Pakket moet `de.danoeh.antennapod ` zijn
@@ -31,7 +31,7 @@ zijn
 
 ### Llama - Locatieprofielen
 
-Maak een gebeurtenis (Llama automatiseringsregel). In de gebeurtenis,
+Maak een gebeurtenis (Llama automatiseringsregel) en:
 
 1. Voeg een actie toe van het type Android intent.
 1. Specificeer Intent send mode als `Broadcast`.
@@ -57,5 +57,5 @@ Maak een taak. In de taak, voeg een actie toe
 
 ***
 
-**Disclaimer: ** AntennaPod-community heeft geen relatie met een van de vermelde
-automatiseringstoepassingen van derden.
+**Disclaimer:** De AntennaPod-community heeft geen relatie met een van de
+vermelde automatiseringstoepassingen van derden.

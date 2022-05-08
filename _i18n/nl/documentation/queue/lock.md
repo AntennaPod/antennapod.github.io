@@ -1,12 +1,3 @@
-{% capture img-queue %} {% include image.html alt= "
-
-De wachtrij ontgrendelen
-
-     "
-
-loc="/assets/images/documentation" file="queue-unlock.png" width=400 %} {%
-endcapture %}
-
 Een vrij vaak voorkomend probleem is dat gebruikers opeens niet meer handmatig
 de wachtrij kunnen herschikken.
 

@@ -1,12 +1,3 @@
-{% capture img-queue %} {% include image.html alt= "
-
-Déverrouiller la liste de lecture
-
-     "
-
-loc="/assets/images/documentation" file="queue-unlock.png" width=400 %} {%
-endcapture %}
-
 Un problème assez commun peut arriver, lorsque utilisateur ne peut plus
 réorganiser sa liste de lecture.
 
