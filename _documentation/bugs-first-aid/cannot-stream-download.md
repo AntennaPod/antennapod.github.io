@@ -1,10 +1,10 @@
 ---
-title: documentation.categories.bugs-first-aid.playback-stops
+title: documentation.categories.bugs-first-aid.cannot-stream-download
 layout: doc
 level: "2"
 group: "bugs-first-aid"
-icon: "fas fa-stop-circle"
-order: 05
+icon: "fas fa-microphone-slash"
+order: 10
 ---
 
 # {% t {{ page.title }} %}
