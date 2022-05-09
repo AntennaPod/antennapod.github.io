@@ -1,7 +1,7 @@
 It's possible to make AntennaPod lead all traffic (media files, cover images, RSS requests & searches) through a proxy or the TOR network. This may have two potential benefits:
 
 - Privacy: depending on the type of proxy service, your downloading/streaming behaviour may be protected from podcast hosts
-- Access: if podcast host prevents content downloading from other countries (based on IP addresses), setting a proxy with the origin country may allow you to still access its content
+- Access: if a podcast host prevents the downloading of content from abroad (based on your IP address), setting a proxy with the origin country may allow you to still access its content
 
 You will find this option under `Settings` » `Network` » `Proxy`.
 

@@ -1,5 +1,5 @@
 ---
-title: documentation.categories.general.gpodder
+title: documentation.categories.general.synchronization
 layout: doc
 level: "2"
 group: "general"

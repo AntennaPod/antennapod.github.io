@@ -1,9 +1,9 @@
 The first thing you want to do after downloading a podcast app is to subscribe to a podcast.
 
 ## Subscribing
-Open the drawer by swiping from the left or tapping the `=` burger icon on the top left corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or add a podcast by the RSS address.
+Open the drawer by swiping from the left or tapping the `☰` burger icon on the top left corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or add a podcast with its RSS address.
 
-Alternatively, you can import an OPML file or only check the iTunes, gpodder.net or fyyd database respectively. Importing RSS or Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work.
+Alternatively, you can import an OPML file or only check the iTunes, gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work.
 
 ## Subscribing to third-party services
 We got some questions about support for platforms like SoundCloud, Mixcloud and alike. While it may be cool to have a feature to simply paste/open channel URLs in AntennaPod, [it's been decided](https://github.com/AntennaPod/AntennaPod/issues/1297) to not implement it. Such platforms may come and disappear, while it's quite some work for our volunteers to implement this feature. If you're a developer, you're of course welcome to discuss a proposal that you'd be happy to implement.
