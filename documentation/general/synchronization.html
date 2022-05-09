@@ -16,7 +16,7 @@
   <title>How to synchronize between devices – AntennaPod</title>
   <meta name="description" content="How to synchronize between devices">
 
-  <link rel="canonical" href="https://antennapod.org/documentation/general/gpodder">
+  <link rel="canonical" href="https://antennapod.org/documentation/general/synchronization">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
@@ -26,7 +26,7 @@
   <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:url" content="https://antennapod.org/documentation/general/gpodder">
+  <meta property="og:url" content="https://antennapod.org/documentation/general/synchronization">
   <meta property="og:title" content="How to synchronize between devices – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
   <meta property="og:description" content="How to synchronize between devices">
@@ -94,15 +94,15 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/gpodder">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/synchronization">English</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/gpodder">Français</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/synchronization">Français</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/gpodder">Nederlands</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/synchronization">Nederlands</a>
   
 
 
@@ -123,15 +123,15 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/gpodder">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/synchronization">English</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/gpodder">Français</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/synchronization">Français</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/gpodder">Nederlands</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/synchronization">Nederlands</a>
   
 
 
@@ -222,25 +222,34 @@
 
 
 
-<p>For synchronization, AntennaPod uses the free service gpodder.net. In order to synchronize your clients, you need to create an account there.</p>
+<p>AntennaPod currently supports two synchronization options: via <a href="https://gpodder.net/">gpodder.net</a> and the <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app for Nextcloud</a>.</p>
 
+<p>On gpodder.net anyone can create an account relatively easily and the service is free to use. Unfortunately the service has large numbers of users, limited funding and a lack of volunteer contributions. This means the server often is overloaded, leading to errors in AntennaPod. If possible, we therefore recommend that you use an existing account on a Nextcloud instance or start self-hosting either gpodder.net or Nextcloud.</p>
+
+<h2 id="gpodder-sync-app-for-nextcloud">gPodder Sync app for Nextcloud</h2>
+<p>If you have a Nextcloud account, install the gPodder Sync app or ask your server admin to do so. Once that is installed, simply go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code> in AntennaPod, choose the relevant provider and enter the server address.</p>
+
+<h2 id="gpoddernet--your-own-gpodder-server">gpodder.net &amp; your own gpodder server</h2>
 <ul>
+  <li>
+    <p>Create an account on gpodder.net or log in if you have one already.</p>
+  </li>
   <li>
     <p>After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:
 
 <br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" width="" class=""></p>
   </li>
   <li>
-    <p>After you created the devices, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of both devices synchronized.
+    <p>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of the activated devices synchronized.
 
 <br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" width="" class=""></p>
   </li>
-  <li>Then, have a look at AntennaPod’s <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code>). There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.<br>
-You can also create a new device while logging in and link it later. The disadvantage of this is that only podcasts that were added <strong>after</strong> linking the devices are synchronized. Therefore, in order to get all your existing subscriptions synchronized, you need to create and link the devices <strong>before</strong> logging in (like it is described in this post). There is an <a href="https://github.com/gpodder/mygpo/issues/388">open issue for gpodder.net</a> that requests to change the behavior but for now, linking needs to be done before synchronizing.</li>
-  <li>Enjoy synchronization :)</li>
+  <li>
+    <p>Then go to AntennaPod’s <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code>. There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.</p>
+  </li>
 </ul>
 
-<p>Old AntennaPod versions only upload the “played” state of episodes after signing in, so your old played episodes are not marked as played on the other client. This has changed in AntennaPod 2.0.0: You can now press the <code class="language-plaintext highlighter-rouge">Force sync</code> button to also upload the played state of all the episodes you listened to earlier.</p>
+<p><em>Did you create a device while logging in, rather than in advance as suggested above?</em> Then be sure to press the <code class="language-plaintext highlighter-rouge">Force sync</code> button in AntennaPod to upload the played state of all the episodes you listened to earlier. If you don’t do this, only podcasts that were added <strong>after</strong> linking the devices are synchronized. There is an <a href="https://github.com/gpodder/mygpo/issues/388">open issue for gpodder.net</a> that requests to change the behavior.</p>
 
 
             </article>
@@ -248,6 +257,8 @@ You can also create a new device while logging in and link it later. The disadva
             <div class="container-fluid">
                 <div class="container py-3">
                     <div class="row justify-content-start pb-4">
+                    
+                    
                     
                     
                     
@@ -349,7 +360,7 @@ You can also create a new device while logging in and link it later. The disadva
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
                                 href="/media-kit"><span></span></a></div>-->
                     </div>

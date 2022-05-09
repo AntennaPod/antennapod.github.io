@@ -37,6 +37,12 @@
     } ,
   
     {
+      "title"    : "Cannot download an episode",
+      "url"      : "/documentation/bugs-first-aid/cannot-stream-download",
+      "content"  : "Cannot download an episodeAntennaPod is a decentralized podcast app. This basically means that there is no central server that knows everything about each podcast.Media files are therefore taken directly from the publisher’s website. If the publisher deletes these, AntennaPod can no longer retrieve it for you."
+    } ,
+  
+    {
       "title"    : "Al m'n podcasts en afleveringen zijn verdwenen",
       "url"      : "/documentation/bugs-first-aid/database-error",
       "content"  : "Al m’n podcasts en afleveringen zijn verdwenenYou might feel like screaming Help! I lost my podcasts/episodes/settings/everything!The problem is that the database with all information (episodes, listening states, etc) has some mistakes. AntennaPod cannot function with the broken database and had to start over with an empty one. While it’s been happening less frequently in recent versions of AntennaPod, it still is occurring for some users. Our community of developers have not been able to pinpoint what exactly causes a database to break. The same issue occurs also in some other open source apps. But we realise it is very frustrating when this happens and are really sorry if you were affected too.There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest &amp; best results:  Have you recently exported a backup from AntennaPod recently? Then restoring that is relatively easily: go to Settings » Storage » Import/Export » Database import and select the back-up.  If you don’t have a back-up, the next step is to attempt to recover the broken database (‘repair corrupted sql database’). If AntennaPod detects a broken database, it writes it to a file CorruptedDatabaseBackup.db in the app storage directory. It is a challenge and it requires some skills or learning. You will have to use a terminal.          One community member followed these steps to repair the database and indicated that after this they could successfully import the repaired database.      Another community member took a clean database and moved content from the corrupted one in it, and then performed another correction. After both steps, they managed to successfully imported the new database in AntennaPod.        While all the data about your subscriptions and episodes are gone, the media files will still be there.          In AntennaPod you can add a folder as if it were a feed. To do this, go to Add Podcast and tap on Add local folder. Then go to this folder on your phone: Android » data » de.danoeh.antennapod » files » media and then the select the folder of a podcast. Note that this will only give you access to previously downloaded media - you will not receive new episodes.      You can also start adding previous podcasts from scratch. You can look through the folder mentioned above to see which podcasts you were subscribed to.      "
@@ -45,7 +51,13 @@
     {
       "title"    : "Een aflevering wordt niet gedownload",
       "url"      : "/documentation/bugs-first-aid/episodes-missing",
-      "content"  : "Een aflevering wordt niet gedownloadAntennaPod is a decentralized podcast app. You can find some information about that here. This basically means that there is no central server that knows everything about each podcast. Episodes are loaded directly from the publisher’s website. If the publisher deletes an episode from their website, AntennaPod can no longer access it."
+      "content"  : "Een aflevering wordt niet gedownloadAntennaPod is a decentralized podcast app. This basically means that there is no central server that knows everything about each podcast.Episode information is therefore taken directly from the publisher’s website. When you are subscribed to a podcast, AntennaPod copies and stores information about each new episode in the app. This information is kept even if it is no longer available on the publisher’s site.Many publishers only keep online (information about) the most recent episodes. So when you just subscribed to a podcast, your AntennaPod installation doesn’t have access to information about the older episodes. To get all past episodes listed in the app, you can contact the podcaster and ask them to (reach out to their hoster to) support ‘paged feeds’ (technical information)."
+    } ,
+  
+    {
+      "title"    : "Playback suddenly stops",
+      "url"      : "/documentation/bugs-first-aid/playback-stops",
+      "content"  : "Playback suddenly stopsIf playback always stops for example a few seconds after turning off the screen, or when you haven’t opened AntennaPod for a while, your system might be killing the app. Some vendors are known to be overly aggressive when trying to save battery. Please try to add an exception for AntennaPod in the list of battery optimized apps. As the way to add an exception often differs between phones, we suggest searching on the web for instructions for your phone brand and model, if you don’t know how to add an exception.If this didn’t help, don’t hesitate to reach out to the AntennaPod contributors in our forum."
     } ,
   
     {
@@ -97,15 +109,15 @@
     } ,
   
     {
-      "title"    : "Tussen verschillende apparaten synchroniseren",
-      "url"      : "/documentation/general/gpodder",
-      "content"  : "Tussen verschillende apparaten synchroniserenVoor synchronisatie gebruikt AntennaPod de gratis dienst gpodder.net. Om declients te synchroniseren, moet je daar een account aanmaken.      Het advies is om met een account een toestel aan te maken opgpodder.net/devices/ voor elke client die je gebruikt:    Koppel de toestellen, na het aanmaken, met de “Configure” knop. Op deze manierhoudt gpodder.net automatisch de abonnementen van beide toestellengesynchroniseerd.  Kijk dan eens naar AntennaPod’s Instellingen » Synchronisatie). Daar kunje inloggen op gpodder.net of eventueel een alternatieve, zelf gehoste, servergebruiken. Tijdens het inloggen vraagt AntennaPod op welk toestel je bentingelogd. Selecteer het nieuw gemaakte toestel.  Je kunt ook een nieuwtoestel maken bij de aanmelding en het later koppelen. Het nadeel hiervan is datalleen podcasts die zijn toegevoegd na het aankoppelen van de toestellenworden gesynchroniseerd. Om al de bestaande abonnementen gesynchroniseerd tekrijgen, moet je daarom de toestellen maken en aankoppelen voor inloggen(zoals het in dit bericht wordt beschreven). Er is een open probleem voorgpodder.net dat vraagt om hetgedrag te wijzigen, maar voor nu moet het koppelen worden gedaan voordat hetwordt gesynchroniseerd.  Veel plezier met synchroniseren :)Oude AntennaPod-versies uploaden alleen de status “afgespeeld” van afleveringenna aanmelden, zodat oude afgespeelde afleveringen niet worden gemarkeerd alsafgespeeld op de andere client. Dit is veranderd in AntennaPod 2.0.0: Druk nu opde knop Volledige synchronisatie afdwingen om ook de afspeelstatus te uploadenvan alle afleveringen eerder zijn beluisterd."
-    } ,
-  
-    {
       "title"    : "Verkeer via een proxy of het TOR-netwerk leiden",
       "url"      : "/documentation/general/proxy",
       "content"  : "Verkeer via een proxy of het TOR-netwerk leidenHet is mogelijk om AntennaPod al het verkeer (mediabestanden,omslagafbeeldingen, RSS-verzoeken en zoekopdrachten) via een proxy of hetTOR-netwerk te laten leiden. Dat heeft twee potentiële voordelen:  Privacy: afhankelijk van het type proxy-dienst kan hetdownload/streaming-gedrag worden afgeschermd van podcast-hosts  Toegang: als een podcast-host het downloaden van afleveringen vanuit anderelanden verhindert (op basis van IP-adressen), kun je door het instellen van eenproxy mogelijk toch toegang krijgenDeze optie vind je onder Instellingen » Netwerk » Proxy.Installeer een proxy-app voor TOR die al het verkeer via het TOR-netwerk leidt.Stel AntennaPod als volgt in:  Type: SOCKS  Host: “localhost” of “127.0.0.1”  Poort: “9050”"
+    } ,
+  
+    {
+      "title"    : "How to synchronize between devices",
+      "url"      : "/documentation/general/synchronization",
+      "content"  : "How to synchronize between devicesAntennaPod currently supports two synchronization options: via gpodder.net and the gPodder Sync app for Nextcloud.On gpodder.net anyone can create an account relatively easily and the service is free to use. Unfortunately the service has large numbers of users, limited funding and a lack of volunteer contributions. This means the server often is overloaded, leading to errors in AntennaPod. If possible, we therefore recommend that you use an existing account on a Nextcloud instance or start self-hosting either gpodder.net or Nextcloud.gPodder Sync app for NextcloudIf you have a Nextcloud account, install the gPodder Sync app or ask your server admin to do so. Once that is installed, simply go to Settings » Synchronization in AntennaPod, choose the relevant provider and enter the server address.gpodder.net &amp; your own gpodder server      Create an account on gpodder.net or log in if you have one already.        After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:        When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of the activated devices synchronized.        Then go to AntennaPod’s Settings » Synchronization. There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.  Did you create a device while logging in, rather than in advance as suggested above? Then be sure to press the Force sync button in AntennaPod to upload the played state of all the episodes you listened to earlier. If you don’t do this, only podcasts that were added after linking the devices are synchronized. There is an open issue for gpodder.net that requests to change the behavior."
     } ,
   
     {
@@ -130,12 +142,6 @@
       "title"    : "Automatisch terugspoelen",
       "url"      : "/documentation/playback/auto-rewind",
       "content"  : "Automatisch terugspoelenAls een aflevering is gepauzeerd en opnieuw wordt afgespeeld, wordt dezeautomatisch teruggespoeld. Zo kun je weer makkelijker de rest van de uitzendingvolgen. Je kunt niet instellen hoeveel wordt teruggespoeld; dat hangt af van hoelang een aflevering op pauze heeft gestaan. Terugspoeltijden zijn momenteel:            Tijd sinds laatste keer afspelen      Tijd teruggespoeld                  Meer dan 1 dag      20 seconden              Meer dan 1 uur      10 seconden              Meer dan 1 minuut      3 seconden      "
-    } ,
-  
-    {
-      "title"    : "Wat te doen als het afspelen plotseling stopt",
-      "url"      : "/documentation/playback/crashes",
-      "content"  : "Wat te doen als het afspelen plotseling stoptAls het afspelen altijd stopt enkele seconden na het uitschakelen van hetscherm, stopt het systeem mogelijk de activiteit van de app. Sommigeleveranciers hebben een overdreven beleid om de batterij te sparen. Probeer eenuitzondering voor AntennaPod toe te voegen aan de lijst met voorbatterij-geoptimaliseerde apps.We gebruiken de ingebouwde audiodecoders van Android. Veel toestellen wordengeleverd met nogal foutgevoelige MP4-decoders die leiden tot verschillendeafspeelproblemen en zelfs crashes van het systeem (denk aan het blauwe scherm opde computer). De beste optie is om, waar mogelijk, je te abonneren op MP3-feeds."
     } ,
   
     {

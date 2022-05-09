@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
   
   
@@ -13,23 +13,23 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tussen verschillende apparaten synchroniseren – AntennaPod</title>
-  <meta name="description" content="Tussen verschillende apparaten synchroniseren">
+  <title>Cannot download an episode – AntennaPod</title>
+  <meta name="description" content="Cannot download an episode">
 
-  <link rel="canonical" href="https://antennapod.org/nl/documentation/general/gpodder">
+  <link rel="canonical" href="https://antennapod.org/documentation/bugs-first-aid/cannot-stream-download">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tussen verschillende apparaten synchroniseren – AntennaPod">
-  <meta name="twitter:description" content="Tussen verschillende apparaten synchroniseren">
+  <meta name="twitter:title" content="Cannot download an episode – AntennaPod">
+  <meta name="twitter:description" content="Cannot download an episode">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
 
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:url" content="https://antennapod.org/nl/documentation/general/gpodder">
-  <meta property="og:title" content="Tussen verschillende apparaten synchroniseren – AntennaPod">
+  <meta property="og:url" content="https://antennapod.org/documentation/bugs-first-aid/cannot-stream-download">
+  <meta property="og:title" content="Cannot download an episode – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
-  <meta property="og:description" content="Tussen verschillende apparaten synchroniseren">
+  <meta property="og:description" content="Cannot download an episode">
   <meta property="og:site_name" content="AntennaPod">
   
   <!-- Favicon -->
@@ -56,7 +56,7 @@
     <div class="container py-4">
         <div class="navbar navbar-expand-xl justify-content-between">
             <div>
-                <a href="/nl">
+                <a href="/">
                     <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
                 </a>
             </div>
@@ -64,19 +64,19 @@
                 <div class="navbar-nav align-items-center">
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/nl/about">Over ons</a>
+                        <a class="nav-link" href="/about">About</a>
                     </div>
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/nl/blog">Blog</a>
+                        <a class="nav-link" href="/blog">Blog</a>
                     </div>
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/nl/contribute">Bijdragen</a>
+                        <a class="nav-link" href="/contribute">Contribute</a>
                     </div>
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/nl/documentation">Documentatie</a>
+                        <a class="nav-link" href="/documentation">Documentation</a>
                     </div>
                     
                     <div class="nav-item ml-2">
@@ -85,8 +85,8 @@
                     
                     <div class="nav-item ml-0 ml-sm-1 text-center">
                         <li class="nav-item dropdown mb-0">
-                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Menu voor taalkeuze" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">NL</span>
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language switcher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">EN</span>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 
@@ -94,15 +94,15 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/gpodder">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/cannot-stream-download">English</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/gpodder">Français</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/bugs-first-aid/cannot-stream-download">Français</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/gpodder">Nederlands</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/bugs-first-aid/cannot-stream-download">Nederlands</a>
   
 
 
@@ -114,8 +114,8 @@
             <div class="d-xl-none">
                 <div class="nav-item text-center d-inline-block">
                     <div class="nav-item dropdown">
-                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Menu voor taalkeuze" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">NL</span>
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Language switcher" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">EN</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             
@@ -123,15 +123,15 @@
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/general/gpodder">English</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/cannot-stream-download">English</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/gpodder">Français</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/bugs-first-aid/cannot-stream-download">Français</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/gpodder">Nederlands</a>
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/bugs-first-aid/cannot-stream-download">Nederlands</a>
   
 
 
@@ -149,13 +149,13 @@
             </div>
             <div class="overlay-content">
                 
-                <a href="/nl/about">Over ons</a>
+                <a href="/about">About</a>
                 
-                <a href="/nl/blog">Blog</a>
+                <a href="/blog">Blog</a>
                 
-                <a href="/nl/contribute">Bijdragen</a>
+                <a href="/contribute">Contribute</a>
                 
-                <a href="/nl/documentation">Documentatie</a>
+                <a href="/documentation">Documentation</a>
                 
                 <a href="https://forum.antennapod.org/">Forum</a>
                 
@@ -200,56 +200,27 @@
             <article class="post-content">
                 <div id="breadcrumbs" class="pb-3">
     
-    <a href="/nl">Home</a>
+    <a href="">Home</a>
     
       
-        / <a href="/nl/documentation">Documentation</a>
-      
-    
-      
-        / <a href="/nl/documentation/general">General</a>
+        / <a href="/documentation">Documentation</a>
       
     
       
-        / Tussen verschillende apparaten synchroniseren
+        / <a href="/documentation/bugs-first-aid">Bugs first aid</a>
+      
+    
+      
+        / Cannot download an episode
       
     
 </div>
 
-                <h1 id="tussen-verschillende-apparaten-synchroniseren">Tussen verschillende apparaten synchroniseren</h1>
+                <h1 id="cannot-download-an-episode">Cannot download an episode</h1>
 
-<p>Voor synchronisatie gebruikt AntennaPod de gratis dienst gpodder.net. Om de
-clients te synchroniseren, moet je daar een account aanmaken.</p>
+<p>AntennaPod is a <a href="/documentation/general/central-distributed">decentralized podcast app</a>. This basically means that there is no central server that knows everything about each podcast.</p>
 
-<ul>
-  <li>
-    <p>Het advies is om met een account een toestel aan te maken op
-gpodder.net/devices/ voor elke client die je gebruikt:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="toestellen" width="" class=""></p>
-  </li>
-  <li>Koppel de toestellen, na het aanmaken, met de “Configure” knop. Op deze manier
-houdt gpodder.net automatisch de abonnementen van beide toestellen
-gesynchroniseerd.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchroniseren" width="" class="">
-</li>
-  <li>Kijk dan eens naar AntennaPod’s <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Synchronisatie</code>). Daar kun
-je inloggen op gpodder.net of eventueel een alternatieve, zelf gehoste, server
-gebruiken. Tijdens het inloggen vraagt AntennaPod op welk toestel je bent
-ingelogd. Selecteer het nieuw gemaakte toestel. <br> Je kunt ook een nieuw
-toestel maken bij de aanmelding en het later koppelen. Het nadeel hiervan is dat
-alleen podcasts die zijn toegevoegd <strong>na</strong> het aankoppelen van de toestellen
-worden gesynchroniseerd. Om al de bestaande abonnementen gesynchroniseerd te
-krijgen, moet je daarom de toestellen maken en aankoppelen <strong>voor</strong> inloggen
-(zoals het in dit bericht wordt beschreven). Er is een <a href="https://github.com/gpodder/mygpo/issues/388">open probleem voor
-gpodder.net</a> dat vraagt om het
-gedrag te wijzigen, maar voor nu moet het koppelen worden gedaan voordat het
-wordt gesynchroniseerd.</li>
-  <li>Veel plezier met synchroniseren :)</li>
-</ul>
-
-<p>Oude AntennaPod-versies uploaden alleen de status “afgespeeld” van afleveringen
-na aanmelden, zodat oude afgespeelde afleveringen niet worden gemarkeerd als
-afgespeeld op de andere client. Dit is veranderd in AntennaPod 2.0.0: Druk nu op
-de knop <code class="language-plaintext highlighter-rouge">Volledige synchronisatie afdwingen</code> om ook de afspeelstatus te uploaden
-van alle afleveringen eerder zijn beluisterd.</p>
+<p>Media files are therefore taken directly from the publisher’s website. If the publisher deletes these, AntennaPod can no longer retrieve it for you.</p>
 
 
             </article>
@@ -257,6 +228,8 @@ van alle afleveringen eerder zijn beluisterd.</p>
             <div class="container-fluid">
                 <div class="container py-3">
                     <div class="row justify-content-start pb-4">
+                    
+                    
                     
                     
                     
@@ -344,23 +317,23 @@ van alle afleveringen eerder zijn beluisterd.</p>
         <div class="container">
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
-                    <div class="small mb-4 mb-lg-3"><a href="/nl"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">De makkelijke, flexibele en open source podcast-manager voor Android.</p>
+                    <div class="small mb-4 mb-lg-3"><a href="/"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">The easy-to-use, flexible and open-source podcast manager for Android.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/about"><span>Over ons</span></a></div>
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/blog"><span>Blog</span></a></div>
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/contribute"><span>Bijdragen</span></a></div>
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/documentation"><span>Documentatie</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/about"><span>About</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/contribute"><span>Contribute</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/documentation"><span>Documentation</span></a></div>
                     </div>
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
-                                href="/nl/media-kit"><span></span></a></div>-->
+                                href="/media-kit"><span></span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">
@@ -389,9 +362,9 @@ van alle afleveringen eerder zijn beluisterd.</p>
                 <div class="small mb-2 mb-lg-0">
                     <span class="copyright">© 2022 AntennaPod</span>
                     <span class="copyright mx-2">|</span>
-                    <span class="copyright"><a class="copyright underline-hover" href="/nl/license">Licentie</a></span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/license">License</a></span>
                     <span class="copyright mx-2">|</span>
-                    <span class="copyright"><a class="copyright underline-hover" href="/nl/privacy">Privacybeleid</a></span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/privacy">Privacy Policy</a></span>
                 </div>
             </div>
         </div>

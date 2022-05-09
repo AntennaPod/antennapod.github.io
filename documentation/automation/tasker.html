@@ -218,16 +218,16 @@
 
                 <h1 id="integration-with-other-apps">Integration with other apps</h1>
 
-<p>With AntennaPod, you can specify subscriptions (podcast feeds) to be updated with regular interval or at a particular time of day in <code class="language-plaintext highlighter-rouge">Network</code> » <code class="language-plaintext highlighter-rouge">Automation</code> settings.</p>
+<p>With AntennaPod, you can specify subscriptions (podcast feeds) to be updated regularly (see <a href="/refreshing-podcasts">Refreshing podcasts</a>).</p>
 
-<p>If you have more complex needs, you can use various 3rd-party automation applications with AntennaPod to do so. Examples:</p>
+<p>If you have more complex needs, you can use various 3rd-party automation applications with AntennaPod to do so. For example:</p>
 <ul>
   <li>Get the subscriptions updated at the start of the day: at 7am, switch on WIFI, then update AntennaPod feeds.</li>
-  <li>Update subscriptions 5pm weekdays.</li>
+  <li>Get your subscriptions before your ride home: at 5pm on weekdays update subscriptions.</li>
 </ul>
 
-<h2 id="instructions">Instructions</h2>
-<p>In your automation application, you then ask AntennaPod to update its subscriptions by sending a ‘Broadcast’ (it may be shown as a type of Android intent) with the following settings:</p>
+<h2 id="general-instructions">General instructions</h2>
+<p>In your automation application, you can get AntennaPod to update its subscriptions by sending a ‘Broadcast’ (it may be shown as a type of Android intent) with the following settings:</p>
 <ul>
   <li>Package name: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
@@ -235,10 +235,10 @@
 </li>
 </ul>
 
-<h2 id="instructions-for-some-automation-apps">Instructions for some automation apps</h2>
+<h2 id="steps-for-some-automation-apps">Steps for some automation apps</h2>
 
-<h3 id="automate">Automate</h3>
-<p>In a flow, add a block of the type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code>, specify</p>
+<h3 id="automate-website">Automate (<a href="https://llamalab.com/automate/">website</a>)</h3>
+<p>In a flow, add a block of the type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> and specify</p>
 <ol>
   <li>Package to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
@@ -246,21 +246,7 @@
 </li>
 </ol>
 
-<h3 id="llama---location-profiles">Llama - Location Profiles</h3>
-<p>Create an event (Llama automation rule). In the event,</p>
-<ol>
-  <li>Add an action of type Android intent.</li>
-  <li>Specify Intent send mode to be <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
-  <li>Specify Package name to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Specify Class name to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-</li>
-  <li>Add any other condition / actions for your specific needs.</li>
-</ol>
-
-<p>As a shortcut, you can click the <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">this link</a> to create an example event to get started.</p>
-
-<h3 id="tasker">Tasker</h3>
+<h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">website</a>)</h3>
 <p>Create a task. In the task, add an action</p>
 <ol>
   <li>Select <code class="language-plaintext highlighter-rouge">System</code>
@@ -276,6 +262,20 @@
   <li>You can leave the other fields blank</li>
 </ol>
 
+<h3 id="llama---location-profiles-website">Llama - Location Profiles (<a href="http://kebabapps.blogspot.com/search/label/Llama">website</a>)</h3>
+<p>Create an event (Llama automation rule). In the event,</p>
+<ol>
+  <li>Add an action of type Android intent.</li>
+  <li>Specify Intent send mode to be <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
+  <li>Specify Package name to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Specify Class name to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+  <li>Add any other condition / actions for your specific needs.</li>
+</ol>
+
+<p>As a shortcut, you can click <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">this link</a> to create an example event to get started.</p>
+
 <hr>
 
 <p><strong>Disclaimer:</strong> AntennaPod community has no relationship with any of the 3rd-party automation applications listed.</p>
@@ -286,6 +286,8 @@
             <div class="container-fluid">
                 <div class="container py-3">
                     <div class="row justify-content-start pb-4">
+                    
+                    
                     
                     
                     
@@ -387,7 +389,7 @@
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
                                 href="/media-kit"><span></span></a></div>-->
                     </div>

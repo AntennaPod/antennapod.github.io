@@ -227,15 +227,16 @@
 <strong>Distributed</strong>: The app itself checks new episodes, directly from the podcast publishers.</li>
 </ol>
 
-<p>AntennaPod uses method 2, eg. we do not have a central server. There are a few advantages and disadvantages about that method.</p>
+<p>AntennaPod uses method 2. It has both its advantages and disadvantages:</p>
 
 <ul>
-  <li>Using the central method, if the company shuts down their server for whatever reason, the app will stop to work. AntennaPod will continue to work independently from what we do on our end because the app only looks at the podcast publisher’s websites to collect new episodes.</li>
-  <li>Using the central method, the company must operate the server, which costs money. Therefore, apps that use that approach are either paid or show ads. AntennaPod is developed by volunteers without making any money from it. The app is free and without advertisements but we can therefore not afford operating a server.</li>
-  <li>Using the central method, the server operator knows what podcasts you are subscribed to. They probably even know what episodes you listen to, what parts of the episodes and at what time you listen. AntennaPod does not know anything about that. We do not even have a server where we could collect that data.</li>
-  <li>If you listen to private feeds (some publishers sell their podcasts or give supporters early access to the episodes), the central method requires to send your password to the company running the app. Usually, the central services simply do not allow to add private feeds.</li>
-  <li>Using the central approach, the company running the app can keep episodes on their server even if they are deleted by the podcast publishers. Using the distributed approach, you can only access the episodes that the publishers specify in their feed. If you subscribe to a podcast using AntennaPod and the publisher deletes an episode, the app will keep the episode, too, but if you delete and re-install the app, it is gone (unless you make a backup). Everything happens locally on your device, so if the publishers do not list an episode, the distributed approach can not know that it exists.</li>
-  <li>Using the distributed approach, you can listen to all podcasts. Because your device itself looks for new episodes, app developers can not really censor what you can listen to by removing podcasts from their server.</li>
+  <li>As the app checks for new episodes, the app creators (like us) don’t have to maintain a central server. This saves a lot of time and effort. It also saves a lot of money, which means we don’t need to rely on ads or large sums of donations.</li>
+  <li>As the app doesn’t rely on a central server to collect new episodes, AntennaPod will continue to work independently from what we do on our end. Using the central method, if the company shuts down their server for whatever reason, the app will stop to work.</li>
+  <li>We, as app developers, don’t and cannot know which podcasts you are subscribed to, which episodes you might listen to, or even at what time you do. Publishers of apps with a central server do collect such data, to the detriment of your privacy.</li>
+  <li>Some publishers offer private feeds, providing early access, special content or ad-free episodes. Such feeds require a username and password, which AntennaPod gives directly to the podcast host when requested. Centralised services often simply don’t allow adding private feeds. And if they do, it might require sending your credentials to the app makers.</li>
+  <li>Not having a central point of access, which would allow app developers to remove podcasts from their server, there is no risk of censorship.</li>
+  <li>On the other hand, a distributed model means that you will only get new episodes when you refresh a podcast. In AntennaPod this is by default every 12 hours, but you can change this to more or less often and you can always manually check for new episodes too. A central server can check for new episodes very frequently or even be informed by podcast hosts in realtime. That way apps can also know about new episodes much faster, without having to regularly check all podcasts you are subscribed to.</li>
+  <li>Also it isn’t possible for AntennaPod to serve you any episodes that were removed by the podcast publisher, for example because they only keep the 10 most recent ones online. Apps that rely on a central server could be served with the older episodes even if they have disappeared from the RSS feed.</li>
 </ul>
 
 
@@ -244,6 +245,8 @@
             <div class="container-fluid">
                 <div class="container py-3">
                     <div class="row justify-content-start pb-4">
+                    
+                    
                     
                     
                     
@@ -345,7 +348,7 @@
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
                                 href="/media-kit"><span></span></a></div>-->
                     </div>
