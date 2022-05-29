@@ -17,13 +17,13 @@ en hoger) |
 
 | Toets | Resultaat |
 | --- | --- |
-| `P`/`Space` | Afspelen/Pauzeren |
+| `P`/`Spatie` | Afspelen/Pauzeren |
 | `J`/`A`/`,` | Media terugspoelen |
 | `K`/`D`/`.` | Media vooruitspoelen |
-| `F`/`Esc` | Videospeler |
-| `i` | Enter picture-in-picture mode |
-| `0`-`9` | Go to 0-90% of the video |
-| `+`/`W` | Raise media volume (channel) |
-| `-`/`S` | Lower media volume (channel) |
+| `F`/`Esc` | Videospeler afsluiten |
+| `i` | Ga naar beeld-in-beeld modus |
+| `0`-`9` | Ga naar 0-90% van de video |
+| `+`/`W` | Verhoog mediavolume |
+| `-`/`S` | Verlaag mediavolume |
 | `M` | Dempen/dempen opheffen (wisselen) volumekanaal voor media (alleen op Android 6
 en hoger) |

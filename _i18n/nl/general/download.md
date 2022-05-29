@@ -30,3 +30,5 @@ door de mensen achter F-Droid. Als het niet de laatste versie is, kunnen we er
 niet zo veel aan doen, maar je kunt het ons altijd laten weten door een bericht
 te plaatsen op ons [forum](https://forum.antennapod.org/), en we zullen het
 onderzoeken.
+
+<small>Google Play and the Google Play logo are trademarks of Google LLC.</small>
