@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integrazione con altre app – AntennaPod</title>
+  <meta name="description" content="Integrazione con altre app">
+
+  <link rel="canonical" href="https://antennapod.org/it/documentation/automation/tasker">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Integrazione con altre app – AntennaPod">
+  <meta name="twitter:description" content="Integrazione con altre app">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/it/documentation/automation/tasker">
+  <meta property="og:title" content="Integrazione con altre app – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
+  <meta property="og:description" content="Integrazione con altre app">
+  <meta property="og:site_name" content="AntennaPod">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+</head>
+
+
+<body>
+<div class="content">
+    <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/it">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/it/about">Cos'è</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/it/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/it/contribute">Contribuisci</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/it/documentation">Documentazione</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="https://forum.antennapod.org/">Forum</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Cambia lingua" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">IT</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/automation/tasker">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/automation/tasker">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/automation/tasker">Nederlands</a>
+  
+
+
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Cambia lingua" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">IT</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/automation/tasker">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/automation/tasker">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/automation/tasker">Nederlands</a>
+  
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">×</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/it/about">Cos'è</a>
+                
+                <a href="/it/blog">Blog</a>
+                
+                <a href="/it/contribute">Contribuisci</a>
+                
+                <a href="/it/documentation">Documentazione</a>
+                
+                <a href="https://forum.antennapod.org/">Forum</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+    <div class="container-fluid">
+        <div class="container py-4">
+            <article class="post-content">
+                <div id="breadcrumbs" class="pb-3">
+    
+    <a href="/it">Home</a>
+    
+      
+        / <a href="/it/documentation">Documentation</a>
+      
+    
+      
+        / <a href="/it/documentation/automation">Automation</a>
+      
+    
+      
+        / Integrazione con altre app
+      
+    
+</div>
+
+                <h1 id="integrazione-con-altre-app">Integrazione con altre app</h1>
+
+<p>Con AntennaPod, puoi specificare quali abbonamenti (feed di podcast) devono
+essere aggiornati regolarmente (vedi <a href="/refreshing-podcasts">Aggiornare i podcast</a>).</p>
+
+<p>Se hai esigenze più complesse, è possibile utilizzare su AntennaPod varie
+applicazioni di automazione di terze parti. Per esempio:</p>
+
+<ul>
+  <li>Aggiorna gli abbonamenti all’inizio della giornata: alle 7 del mattino,
+accendi il WIFI, poi aggiorna i feed di AntennaPod.</li>
+  <li>Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro: alle
+17:00 dei giorni feriali aggiorna gli abbonamenti.</li>
+</ul>
+
+<h2 id="istruzioni-generali">Istruzioni generali</h2>
+
+<p>Nella tua applicazione di automazione, è possibile far sì che AntennaPod
+aggiorni le sottoscrizioni mandando un messaggio in broadcast (può apparire in
+Android come un tipo di intent) con le seguenti impostazioni:</p>
+
+<ul>
+  <li>Nome del pacchetto: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Nome della classe: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+</ul>
+
+<h2 id="istruzioni-per-alcune-applicazioni-di-automazione">Istruzioni per alcune applicazioni di automazione</h2>
+
+<h3 id="automate-sito-web">Automate (<a href="https://llamalab.com/automate/">sito web</a>)</h3>
+
+<p>In un flusso, aggiungi un blocco del tipo <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> e specifica</p>
+
+<ol>
+  <li>il nome del pacchetto come <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>la classe del ricevitore come
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+</ol>
+
+<h3 id="tasker-sito-web">Tasker (<a href="https://tasker.joaoapps.com/">sito web</a>)</h3>
+
+<p>Crea una task. Nella task, aggiungi un’azione</p>
+
+<ol>
+  <li>Seleziona ` Sistema`</li>
+  <li>Seleziona <code class="language-plaintext highlighter-rouge">Send Intent</code>
+</li>
+  <li>Assegna al pacchetto il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Assegna alla classe il nome
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+  <li>Specifica come Target <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
+</li>
+  <li>Puoi lasciare gli altri campi vuoti</li>
+</ol>
+
+<h3 id="llama---location-profiles-sito-web">Llama - Location Profiles (<a href="http://kebabapps.blogspot.com/search/label/Llama">sito web</a>)</h3>
+
+<p>Crea un evento (regola di automazione Llama). Nell’evento,</p>
+
+<ol>
+  <li>Aggiungi un’azione di tipo intento di Android.</li>
+  <li>Specifica la modalità di invio dell’intento come <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
+  <li>Assegna al pacchetto il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Assegna alla classe il nome
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+  <li>Aggiungi qualsiasi altra condizione/azione per le tue esigenze specifiche.</li>
+</ol>
+
+<p>Come scorciatoia, puoi cliccare <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">questo link</a>
+per creare un evento di esempio per iniziare.</p>
+
+<hr>
+
+<p><strong>Disclaimer:</strong> La comunità di AntennaPod non ha rapporti con nessuna delle
+applicazioni di automazione di terze parti elencate.</p>
+
+
+            </article>
+            
+            <div class="container-fluid">
+                <div class="container py-3">
+                    <div class="row justify-content-start pb-4">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/it"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open-source.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/it/about"><span>Cos'è</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/it/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/it/contribute"><span>Contribuisci</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/it/documentation"><span>Documentazione</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/it/download"><span>Scarica AntennaPod</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/it/media-kit"><span></span></a></div>-->
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="/rss.xml" target="_blank" rel="noopener"><i class="fa fa-rss mr-1"></i>RSS</a>
+                    </p>
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">© 2022 AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/it/license">Licenza</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/it/privacy">Informativa sulla privacy</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

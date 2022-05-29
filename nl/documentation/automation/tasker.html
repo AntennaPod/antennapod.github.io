@@ -13,23 +13,23 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Integratie met derde partijen – AntennaPod</title>
-  <meta name="description" content="Integratie met derde partijen">
+  <title>Integratie met andere apps – AntennaPod</title>
+  <meta name="description" content="Integratie met andere apps">
 
   <link rel="canonical" href="https://antennapod.org/nl/documentation/automation/tasker">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Integratie met derde partijen – AntennaPod">
-  <meta name="twitter:description" content="Integratie met derde partijen">
+  <meta name="twitter:title" content="Integratie met andere apps – AntennaPod">
+  <meta name="twitter:description" content="Integratie met andere apps">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/nl/documentation/automation/tasker">
-  <meta property="og:title" content="Integratie met derde partijen – AntennaPod">
+  <meta property="og:title" content="Integratie met andere apps – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
-  <meta property="og:description" content="Integratie met derde partijen">
+  <meta property="og:description" content="Integratie met andere apps">
   <meta property="og:site_name" content="AntennaPod">
   
   <!-- Favicon -->
@@ -211,30 +211,32 @@
       
     
       
-        / Integratie met derde partijen
+        / Integratie met andere apps
       
     
 </div>
 
-                <h1 id="integratie-met-derde-partijen">Integratie met derde partijen</h1>
+                <h1 id="integratie-met-andere-apps">Integratie met andere apps</h1>
 
 <p>AntennaPod heeft een instelling om abonnementen (podcastfeeds) met regelmatige
 tussenpozen of op een bepaald tijdstip van de dag te verversen in <code class="language-plaintext highlighter-rouge">Netwerk</code> »
 <code class="language-plaintext highlighter-rouge">Automatische acties</code> » <code class="language-plaintext highlighter-rouge">Podcasts verversen</code>.</p>
 
-<p>Voor meer ingewikkelde wensen bestaan verschillende automatiseringstoepassingen
-van derden voor gebruik met AntennaPod. Voorbeelden:</p>
+<p>Voor meer ingewikkelde behoeften bestaan verschillende
+automatiseringstoepassingen van derden voor gebruik met AntennaPod.
+Bijvoorbeeld:</p>
 
 <ul>
   <li>Abonnementen bij het begin van de dag bijwerken: om 7 uur ‘s morgens WIFI
 aanzetten, dan AntennaPod feeds bijwerken.</li>
-  <li>Abonnementen bijwerken om 17.00 uur op weekdagen.</li>
+  <li>Get your subscriptions before your ride home: at 5pm on weekdays update
+subscriptions.</li>
 </ul>
 
 <h2 id="instructies">Instructies</h2>
 
-<p>In de automatiseringstoepassing vragen AntennaPod de abonnementen bij te laten
-werken door een ‘Broadcast’ te sturen (deze kan worden weergegeven als een soort
+<p>Vraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken
+door een ‘Broadcast’ te verzenden (dit kan worden weergegeven als een soort
 Android-intentie) met de volgende instellingen:</p>
 
 <ul>
@@ -246,7 +248,7 @@ Android-intentie) met de volgende instellingen:</p>
 
 <h2 id="instructies-voor-sommige-automatiseringsapps">Instructies voor sommige automatiseringsapps</h2>
 
-<h3 id="automatiseren">Automatiseren</h3>
+<h3 id="automate-website">Automate (<a href="https://llamalab.com/automate/">website</a>)</h3>
 
 <p>In een ‘flow’ voeg je een blok toe van het type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code>,
 specificeer</p>
@@ -257,25 +259,7 @@ specificeer</p>
 zijn</li>
 </ol>
 
-<h3 id="llama---locatieprofielen">Llama - Locatieprofielen</h3>
-
-<p>Maak een gebeurtenis (Llama automatiseringsregel) en:</p>
-
-<ol>
-  <li>Voeg een actie toe van het type Android intent.</li>
-  <li>Specificeer Intent send mode als <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
-  <li>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Geef de klassenaam op als
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-</li>
-  <li>Voeg elke andere voorwaarde / acties toe voor specifieke behoeften.</li>
-</ol>
-
-<p>Als snelkoppeling kunt u klikken op de <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">deze link</a>
-om een voorbeeldgebeurtenis te maken om mee te beginnen.</p>
-
-<h3 id="tasker">Tasker</h3>
+<h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">website</a>)</h3>
 
 <p>Maak een taak. In de taak, voeg een actie toe</p>
 
@@ -293,6 +277,24 @@ om een voorbeeldgebeurtenis te maken om mee te beginnen.</p>
 </li>
   <li>Laat de andere velden leeg</li>
 </ol>
+
+<h3 id="llama---location-profiles-website">Llama - Location Profiles (<a href="http://kebabapps.blogspot.com/search/label/Llama">website</a>)</h3>
+
+<p>Maak een gebeurtenis (Llama automatiseringsregel) en:</p>
+
+<ol>
+  <li>Voeg een actie toe van het type Android intent.</li>
+  <li>Specificeer Intent send mode als <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
+  <li>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Geef de klassenaam op als
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+  <li>Voeg elke andere voorwaarde / acties toe voor specifieke behoeften.</li>
+</ol>
+
+<p>Als snelkoppeling kunt u klikken op de <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">deze link</a>
+om een voorbeeldgebeurtenis te maken om mee te beginnen.</p>
 
 <hr>
 
