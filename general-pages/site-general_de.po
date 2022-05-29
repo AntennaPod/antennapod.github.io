@@ -140,8 +140,8 @@ msgid ""
 "protects listeners from inaccessible content in [walled gardens](https://en."
 "wikipedia.org/wiki/Walled_garden_(technology)), and"
 msgstr ""
-"schützt die Hörer vor unzugänglichen Inhalten in [Walled Gardens] (https://en"
-".wikipedia.org/wiki/Walled_garden_(Technologie)), und"
+"schützt die Hörer vor unzugänglichen Inhalten in [Walled Gardens] (https://"
+"en.wikipedia.org/wiki/Walled_garden_(Technologie)), und"
 
 #: _i18n/en/general/about.md:block 11 (unordered list)
 #, fuzzy
@@ -238,8 +238,9 @@ msgid "Get it on F-Droid"
 msgstr "Hole es dir auf F-Droid"
 
 #: _i18n/en/general/download.md:block 13 (paragraph)
+#, fuzzy
 msgid ""
-"You can download official AntennaPod builds on Google Play and on F-Droid."
+"Official versions of AntennaPod are available on Google Play and F-Droid:"
 msgstr ""
 "Sie können offizielle AntennaPod-Builds auf Google Play und auf F-Droid "
 "herunterladen."
@@ -247,13 +248,13 @@ msgstr ""
 #: _i18n/en/general/download.md:block 16 (paragraph)
 #, fuzzy
 msgid ""
-"AntennaPod is only officially published in above two stores because we don't "
-"have the time to support more. All other stores listing AntennaPod copied "
-"the app without our explicit permission. We are not responsible for updating "
-"those or making sure they work correctly. The F-Droid repository is not "
-"maintained by us, but by the people behind F-Droid. If it is not the latest "
-"version, there's not so much we can do but you can always let us know by "
-"creating a post on our [forum](https://forum.antennapod.org/), and we'll "
+"AntennaPod is only officially published in above two app stores because we "
+"don't have the time to support more. All other stores listing AntennaPod "
+"copied the app without our explicit permission. We are not responsible for "
+"updating those or making sure they work correctly. The F-Droid repository is "
+"not maintained by us, but by the people behind F-Droid. If it is not the "
+"latest version, there's not so much we can do but you can always let us know "
+"by creating a post on our [forum](https://forum.antennapod.org/), and we'll "
 "investigate it."
 msgstr ""
 "AntennaPod wird offiziell nur in den beiden oben genannten Stores "
@@ -266,6 +267,12 @@ msgstr ""
 "wir nicht viel tun, aber Sie können uns immer informieren, indem Sie einen "
 "Beitrag in unserem [Forum] (https://forum.antennapod.org/) erstellen, und "
 "wir werden das Problem untersuchen."
+
+#: _i18n/en/general/download.md:block 17 (paragraph)
+msgid ""
+"<small>Google Play and the Google Play logo are trademarks of Google LLC.</"
+"small>"
+msgstr ""
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -352,7 +359,7 @@ msgstr ""
 
 #: _i18n/en/general/privacy.md:block 8 (unordered list)
 msgid ""
-"Read from/write to Storage (Photos/Media/Files) The storage permission is "
+"Read from/write to Storage (Photos/Media/Files): The storage permission is "
 "used to open files that are not downloaded directly from within the app. It "
 "can also be used to import app settings or OPML files. The permission is "
 "only requested if you perform an action that requires reading from storage."
