@@ -23,8 +23,8 @@ corresponde à ce que vous voulez.
 
 Vous voulez donc avoir la dernière version possible ? C’est tout à fait possible
 ! Il vous suffit de vous rendre sur le site d'AntennaPod dans le Play Store et
-de cliquer sur " Devenir bêta-testeur " en bas de la page. Ou, si vous êtes
-devant votre ordinateur, vous pouvez vous rendre sur [ce lien](https://play.google.com/apps/testing/de.danoeh.antennapod).
+de cliquer sur "Devenir bêta-testeur" en bas de la page. Ou, si vous êtes devant
+votre ordinateur, vous pouvez vous rendre sur [ce lien](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 {% include image.html alt= "
 

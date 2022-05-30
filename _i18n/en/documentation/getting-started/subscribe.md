@@ -1,15 +1,15 @@
 The first thing you want to do after downloading a podcast app is to subscribe to a podcast.
 
 ## Subscribing
-Open the drawer by swiping from the left or tapping the `=` burger icon on the top left corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or add a podcast by the RSS address.
+Open the drawer by swiping from the left or tapping the `☰` burger icon on the top left corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or add a podcast with its RSS address.
 
-Alternatively, you can import an OPML file or only check the iTunes, gpodder.net or fyyd database respectively. Importing RSS or Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work.
+Alternatively, you can import an OPML file or only check the iTunes, gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work.
 
 ## Subscribing to third-party services
-We got some questions about support for platforms like Soundcloud, Mixcloud and alike. While it may be cool to have a feature to simply paste/open channel URLs in AntennaPod, [it's been decided](https://github.com/AntennaPod/AntennaPod/issues/1297) to not implement it. Such platforms may come and disappear, while it's quite some work for our volunteers to implement this feature. If you're a developer, you're of course welcome to discuss a proposal that you'd be happy to implement.
+We got some questions about support for platforms like SoundCloud, Mixcloud and alike. While it may be cool to have a feature to simply paste/open channel URLs in AntennaPod, [it's been decided](https://github.com/AntennaPod/AntennaPod/issues/1297) to not implement it. Such platforms may come and disappear, while it's quite some work for our volunteers to implement this feature. If you're a developer, you're of course welcome to discuss a proposal that you'd be happy to implement.
 
-### Soundcloud
-Soundcloud allows [producers to create podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed) from their content pretty easily. You should reach out to them, share the SoundCloud help page (linked just before), and ask if they're willing to set it up.
+### SoundCloud
+SoundCloud allows [producers to create podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed) from their content pretty easily. You should reach out to them, share the SoundCloud help page (linked just before), and ask if they're willing to set it up.
 
 ### Mixcloud
 Mixcloud unfortunately doesn't offer this option for content creators. As always, there's someone in the podcasting community to come up with a solution. You should [check out the options](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures) as laid out in this post.

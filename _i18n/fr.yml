@@ -3,7 +3,7 @@ titles:
   blog: Blog
   contribute: Contribuer
   documentation: Documentation
-  download: Télécharger
+  download: Télécharger AntennaPod
   license: Licence
   forum: Forum
   media: Kit presse
@@ -67,13 +67,13 @@ homepage:
       title: Sans publicité
       description: L'application AntennaPod elle-même ne contient pas de publicités.
         Si un éditeur choisit d'ajouter des publicités aux fichiers multimédias, il
-        obtient 100 % des revenus.
+        touche 100 % des revenus.
       img-alt:  
     listenanywhere:
       title: À écouter partout
       description: Avec AntennaPod, vous pouvez télécharger des épisodes et les écouter
-        n'importe où. Vous pouvez même sélectionner les podcasts qui doivent être
-        téléchargés automatiquement.
+        n'importe où. Vous pouvez même sélectionner quels podcast doivent être téléchargés
+        automatiquement.
       img-alt:  
   img-alt:  
   description: AntennaPod est un lecteur de podcasts complètement libre. L'application
@@ -90,8 +90,7 @@ contribute:
     Vous pouvez également contribuer, avec du code ou autre chose !
   translate:
     title: Traduire
-    text: Vous parlez une autre langue que l'anglais ? Aidez-nous à traduire AntennaPod
-      via Transifex.
+    text: Vous parlez une autre langue que l'anglais ? Aidez-nous à traduire AntennaPod.
   support:
     title: Assistance
     text: Vous savez bien expliquer ? Aidez les autres utilisateurs sur notre forum.
@@ -138,15 +137,18 @@ documentation:
       donate: Dons
       external-storage: Utiliser le stockage externe
       gpodder: Comment synchroniser entre plusieurs appareils
+      episode-deletion: Suppression d'épisodes
+      proxy: Transfert du trafic par un proxy ou un réseau TOR
+      synchronization: Comment synchroniser entre les appareils
     playback:
       title: Lecture
       intro: Ci-dessous, vous trouverez des sujets relatifs à la lecture.
-      auto-rewind: Rembobinage automatique
+      auto-rewind: Retour en arrière automatique
       crashes: Que faire si la lecture s'arrête
       shortcuts: Raccourcis clavier
     queue:
       how-to-use: Comment utiliser la file d'attente
-      lock: Verrouiller la file d'attente
+      lock: (Dé)Verrouiller la file d'attente
       multiple-queues: Comment utiliser plusieurs files d'attente
       title: File d'attente
       intro: Ci-dessous, vous trouverez les questions fréquentes concernant la file
@@ -161,13 +163,25 @@ documentation:
       intro: Vous êtes un utilisateur avancé et souhaitez automatiser certaines tâches
         ? Consultez les pages ci-dessous.
       feed-updates: Mise à jour du flux
-      tasker: Intégrations tierces
+      tasker: Intégration avec d'autres applications
       deletion: Suppression automatique
+      refreshing-podcasts: Actualisation des podcasts
     podcasters-hosters:
       title: Pour les diffuseurs et les hébergeurs de podcasts
       intro: Ci-dessous, vous trouverez nos informations d'assistance pour les diffuseurs
         et les hébergeurs de podcasts.
       add-on-antennapod: Créer un lien « Ouvrir dans AntennaPod »
       list-podcast: Répertorier votre podcast
+    bugs-first-aid:
+      title: Problèmes, erreurs et aide
+      intro: La création de logiciels est une activité humaine, et les erreurs sont
+        inévitables. Mais il y a souvent quelque chose que nous pouvons faire pour
+        y remédier !
+      bug-report: Quelque chose ne fonctionne pas
+      typo-translations: J'ai trouvé une faute de frappe ou d'orthographe
+      database-error: Tous mes podcasts et épisodes ont disparu
+      episodes-missing: Les anciens épisodes sont manquants
+      cannot-stream-download: Impossible de télécharger un épisode
+      playback-stops: La lecture s’arrête soudainement
 footer:
   description: Le gestionnaire de podcasts simple, flexible et open-source pour Android.

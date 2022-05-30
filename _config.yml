@@ -21,7 +21,8 @@ plugins:
 permalink: /:categories/:title
 
 # Localization
-languages: [en]
+languages: [en, fr, nl, it]
+# don't forget to add new languages also in _data/locales.yml
 defaultLang: en
 default_locale_in_subfolder: false
 exclude_from_localizations: ["assets"]

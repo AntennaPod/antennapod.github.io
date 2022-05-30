@@ -7,11 +7,15 @@ The app requests the following privacy-relevant Android permissions:
 - Read from/write to Storage (Photos/Media/Files)
   The storage permission is used and only requested when opening files not downloaded directly from within the app.
   It can also be used to import app settings or OPML files.
+
 - Full network access, to download or stream content, or interface with services.
+- Prevent the device from suspending
 - View network connections.
 - View Wi-Fi connections.
+- Ryn at startyp
 - Connect to Bluetooth devices.
 - Control vibration.
+
 
 ## Data the AntennaPod app itself (not third-party services) collects, stores and processes locally
 Other than third-parties, only data strictly necessary for the app to function is recorded, and only on the device.

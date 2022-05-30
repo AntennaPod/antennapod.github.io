@@ -1,41 +1,41 @@
 AntennaPod est un lecteur de podcasts, entièrement gratuit et respectueux de
-votre vie privée. Il est conçu par des bénévoles du monde entier, sans aucun
-intérêt commercial. Ensemble, nous contribuons à un écosystème de podcasts
-ouvert. Pour que vous puissiez profiter du meilleur contenu audio du Web.
+votre vie privée. Il est conçu par des bénévoles du monde entier, sans intérêt
+commercial. Ensemble, nous contribuons à un écosystème de podcasts ouvert. Pour
+que vous puissiez profiter du meilleur contenu audio du Web.
 
 # Simple, mais riche en fonctionnalités
 
 Il y a tellement de choses intéressantes à faire dans le monde, et tellement de
 choses dont il faut se soucier dans la vie. Vous n'avez donc pas envie de passer
 du temps à comprendre comment fonctionne ce truc. Au contraire, vous souhaitez
-commencer par trouver et écouter du contenu de qualité. Et vous souhaitez
-pouvoir organiser ce contenu, accélérer ou ralentir la lecture et automatiser le
-téléchargement ou la suppression. C'est pourquoi nous voulons qu'AntennaPod soit
-simple à utiliser, tout en vous donnant un contrôle total sur votre expérience
-d'écoute.
+commencer par trouver et écouter des choses intéressantes. Vous souhaitez
+pouvoir les organiser, règler la vitesse de lecture et automatiser les
+téléchargements et suppressions d’épisodes. C'est pourquoi nous voulons
+qu'AntennaPod soit simple à utiliser, tout en vous donnant un contrôle total sur
+votre expérience d'écoute.
 
-Dans ce contexte, nous réalisons que chaque option que nous ajoutons signifie
-que nous n'avons pas réussi à faire un choix. Ce dernier aura alors un impact
-très concret pour l'utilisateur final (Voici un excellent [article d'un
-blog, expliquant pourquoi les développeurs ne devraient pas faire cela](http://neugierig.org/software/blog/2018/07/options.html)
-à la légère.) Nous promettons de faire de notre mieux pour prendre ces décisions
-qui créent une grande expérience. Parce que vous savez déjà ce que vous allez
-manger ce soir ?
+Dans cette philosophie, chaque option ajoutée est un choix que nous n’avons pas
+réussi à faire. Cela signifie que nous forçons l’utilisateur final à choisir
+(Voici un excellent [article d'un blog](http://neugierig.org/software/blog/2018/07/options.html),
+expliquant pourquoi les développeurs ne devraient pas faire cela à la légère).
+Nous promettons de faire de notre mieux pour prendre ces décisions qui créent
+une grande expérience. Parce que vous savez déjà ce que vous allez manger ce
+soir ?
 
-En même temps, ne vous inquiétez pas. Nous serons ouverts à de nouvelles
-fonctionnalités, options ou préférences. À chaque fois que nous souhaiterons
-offrir de la flexibilité à nos utilisateurs. Nous travaillons sur de la
-catégorisation pour les podcasts et avons récemment introduit des flux locaux,
-par exemple. Donc, si vous avez votre propre idée, n'hésitez pas à la [partager
-votre demande de nouveauté sur notre forum](https://forum.antennapod.org/c/feature-request) !
+En même temps, ne vous inquiétez pas. Par exemple, nous sommes ouverts à de
+nouvelles fonctionnalités, options ou préférences si cela offre réellement de la
+flexibilité à nos utilisateurs. Nous travaillons sur de la catégorisation pour
+les podcasts et avons récemment introduit des flux locaux. Donc, si vous avez
+votre propre idée, n'hésitez pas à [partager votre demande de nouveauté sur
+notre forum](https://forum.antennapod.org/c/feature-request) !
 
 # Open Source et sans publicité
 
 Tout comme d'autres excellents logiciels tels que Firefox et Signal, AntennaPod
 est un logiciel libre. Cela signifie que tout le monde peut consulter et
-contribuer au code de l'application. AntennaPod est disponible dans la boutique
-d'applications F-Droid, une boutique open source et respectueuse de la vie
-privée [Boutique d'applications F-Droid](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+contribuer au code de l'application. AntennaPod est disponible dans [l'App
+Store F-Droid](https://www.f-droid.org/packages/de.danoeh.antennapod/), une
+boutique open source et respectueuse de la vie privée.
 
 De cette façon, vous pouvez être assuré (ou vérifier par vous-même) qu'il n'y a
 pas de collecte de données louches. Comme AntennaPod est créé par des bénévoles,
@@ -49,7 +49,7 @@ Nous défendons un écosystème de podcast ouvert. Un écosystème qui
 * soutient la liberté d'expression,
 * récompense les podcasters pour leur travail créatif,
 * protège les auditeurs contre les contenus inaccessibles dans les [jardins
-clos](https://fr.abcdef.wiki/wiki/Closed_platform), et
+clos](https://fr.abcdef.wiki/wiki/Closed_platform),
 * permet aux utilisateurs d'utiliser et de passer d'une application à l'autre
 sans [un enfermement propriétaire](https://fr.wikipedia.org/wiki/Enfermement_propri%C3%A9taire).
 
@@ -59,8 +59,8 @@ et que vous pouvez synchroniser, importer et exporter vos données.
 
 # Nous vous entendons : communauté et accessibilité
 
-AntennaPod envoie le contenu dans vos oreilles, mais nous aimons aussi avoir
-votre avis ! Notre communauté est ouverte à vos commentaires et à vos idées. En
+AntennaPod envoie le contenu dans vos oreilles, mais nous aimons aussi avoir vos
+retours ! Notre communauté est ouverte à vos commentaires et à vos idées. En
 tant qu'êtres humains, nous pouvons être en désaccord, mais faites-le avec
 respect. Nous faisons de notre mieux pour rendre l'application conviviale pour
 tous. C’est pourquoi il est possible de masquer les suggestions automatiques et
@@ -80,14 +80,14 @@ milliers d'utilisateurs ont installé l'application via F-Droid, la boutique
 d'applications respectueuse de la vie privée.
 
 L'ensemble du projet est maintenu par un collectif de volontaires du monde
-entier. Il n'y a pas d'organisation officielle derrière lui. Il y a environ 3
-personnes qui contribuent régulièrement au code, avec [beaucoup d'autres](https://github.com/AntennaPod/AntennaPod/graphs/contributors)
-qui contribuent de manière occasionnelle. Notre forum compte plus de 190 membres
-et reçoit chaque mois plus de 300 visiteurs. Le projet est actuellement dirigé
-par @ByteHamster et @Keunes.
+entier. Il n’y a pas d’organisation officielle. Environ 3 personnes contribuent
+régulièrement au code et [beaucoup d'autres](https://github.com/AntennaPod/AntennaPod/graphs/contributors)
+contribuent de manière occasionnelle. Notre forum compte plus de 190 membres et
+reçoit chaque mois plus de 300 visiteurs. Le projet est actuellement dirigé par
+@ByteHamster et @Keunes.
 
 Nous sommes heureux de vous avoir ou de vous accueillir en tant qu'utilisateur.
 Si vous avez des questions, vous êtes le bienvenu sur notre [forum](https://forum.antennapod.org).
-Notre communauté est heureuse de vous aider. Regardez les façons dont vous
-pouvez [contribute](/contribute/) si vous voulez donner quelque chose en retour
-à ce projet génial !
+Notre communauté est heureuse de vous aider. Allez voir comment vous pouvez
+[aider](/contribute/) si vous voulez donner quelque chose en retour à ce projet
+génial !

@@ -1,7 +1,7 @@
 AntennaPod s'appuie sur la publicité gratuite, le bouche-à-oreille et une
 modeste présence sur les médias sociaux pour sa promotion. Nous savons qu’il est
 possible de faire mieux. Et vous l'avez peut-être pensé aussi. Pourquoi ne pas
-nous aider à grandir ? Votre aide dans l'un des domaines suivants sera très
+nous aider à grandir ? Votre aide dans l'un des domaines suivants sera très
 appréciée.
 
 * **Presse** Vous connaissez un site Web, un podcast ou un magazine intéressant

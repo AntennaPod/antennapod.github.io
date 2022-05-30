@@ -1,4 +1,4 @@
-AntennaPod relies on free publicity, word-of-mouth, and a modest social media presence for its promotion. We know there's room for improvement. And you might have thought that as well. Why not help us grow bigger? Your help in any of the following areas will be much appreciated.
+AntennaPod relies on free publicity, word-of-mouth, and a modest social media presence for its promotion. We know there's room for improvement. And you might have thought that as well. Why not help us grow bigger? Your contribution in any of the following areas will be much appreciated.
 
 * **Press**
 Know an interesting website, podcast or magazine that might cover AntennaPod? Then help us build a list media to reach out to with important messages.
