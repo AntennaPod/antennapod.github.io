@@ -1,7 +1,7 @@
 With AntennaPod, you can specify subscriptions (podcast feeds) to be updated regularly (see [Refreshing podcasts](/refreshing-podcasts)).
 
 If you have more complex needs, you can use various 3rd-party automation applications with AntennaPod to do so. For example: 
-- Get the subscriptions updated at the start of the day: at 7am, switch on WIFI, then update AntennaPod feeds.
+- Get the subscriptions updated at the start of the day: at 7am, switch on WiFi, then update AntennaPod feeds.
 - Get your subscriptions before your ride home: at 5pm on weekdays update subscriptions.
 
 ## General instructions

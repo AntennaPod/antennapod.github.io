@@ -2,7 +2,7 @@
 AntennaPod is licensed under the [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
 
 # The website code & theme
-The website is developed under the MIT License (MIT):
+The website is developed under the MIT License:
 
 <!-- mdpo-disable -->
 Copyright (c) 2020 Anxhelo Lushka and other contributors
