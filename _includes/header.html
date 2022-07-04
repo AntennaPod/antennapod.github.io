@@ -2,7 +2,15 @@
     <div class="container pt-3 pb-0">
         <div class="row justify-content-between align-items-center py-5">
             <div class="col-12 col-lg-6 order-2 order-lg-1">
-                <h2 class="color-gray-900 hero-header">{% t homepage.header %}</h2>
+                <div class="changelog">
+                    <details>
+                        <summary class="latest-release"><span>Latest release:</span>{{ site.github.latest_release.name | remove: '"' }}</summary>
+                        <!-- <a href="{{ site.github.latest_release.html_url }}" target="_blank" rel="noopener noreferrer">Link to release</a> -->
+                        <p class="mt-2">Changelog</p>
+                        <p>{{ site.github.latest_release.body }}</p>
+                    </details> 
+                </div>
+                <h2 class="color-gray-900 mt-3 hero-header">{% t homepage.header %}</h2>
                 <p class="size-20 mb-4 color-gray-900">{% t homepage.description %}</p>
                 <div class="row align-items-center">
                     <div class="col-12 col-xs-6">
