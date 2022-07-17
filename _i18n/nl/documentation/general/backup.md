@@ -11,7 +11,7 @@ downloaden.
 ## Synchronisatie
 
 Synchronizing AntennaPod via *gpodder.net* or the *gPodder Sync* app for
-Nextcloud allows to save and migrate some podcast & episode data. You will loose
+Nextcloud allows to save and migrate some podcast & episode data. You will lose
 your favorites, queue, and app settings. This may be a solution when switching
 between phone, tablet and/or desktop. Please see the [article on
 synchronization](/documentation/general/synchronization) for instructions.

@@ -1,6 +1,6 @@
-È possibile fare in modo che AntennaPod conduca tutto il traffico (file
+È possibile fare in modo che AntennaPod indirizzi tutto il traffico (file
 multimediali, immagini di copertina, richieste RSS e ricerche) attraverso un
-proxy o la rete TOR. Questo può avere due potenziali vantaggi:
+proxy o la rete Tor. Questo può avere due potenziali vantaggi:
 
 - Privacy: a seconda del tipo di servizio proxy, il tuo comportamento di
 download/streaming può essere protetto dagli host di podcast
@@ -8,10 +8,10 @@ download/streaming può essere protetto dagli host di podcast
 dall'estero (basandosi sul tuo indirizzo IP), impostare un proxy con il paese
 d'origine può permetterti di accedere comunque ai suoi contenuti
 
-Troverai questa opzione in `Impostazioni` " `Rete` " `Proxy`.
+Troverai questa opzione in `Impostazioni` » `Rete` » `Proxy`.
 
-Al fine di indirizzare tutto il traffico attraverso la rete TOR, è necessario
-installare un'applicazione proxy per TOR e fornire i seguenti dettagli in
+Al fine di indirizzare tutto il traffico attraverso la rete Tor, è necessario
+installare un'applicazione proxy per Tor e fornire i seguenti dettagli in
 AntennaPod:
 
 - Tipo: SOCKS

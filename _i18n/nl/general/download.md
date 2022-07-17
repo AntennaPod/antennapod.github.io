@@ -31,4 +31,4 @@ niet zo veel aan doen, maar je kunt het ons altijd laten weten door een bericht
 te plaatsen op ons [forum](https://forum.antennapod.org/), en we zullen het
 onderzoeken.
 
-<small>Google Play and the Google Play logo are trademarks of Google LLC.</small>
+<small>Google Play en het Google Play logo zijn handelsmerken van Google LLC.</small>

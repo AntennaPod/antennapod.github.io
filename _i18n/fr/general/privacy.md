@@ -28,12 +28,12 @@ lecture fournis par le service.
 L'application demande les autorisations Android suivantes relatives à la
 confidentialité :
 
-- Lire depuis/écrire dans le stockage (photos/médias/fichiers). L'autorisation
-de stockage est utilisée pour ouvrir des fichiers qui ne sont pas téléchargés
-directement depuis l'application. Elle peut également être utilisée pour
-importer des paramètres de l'application ou des fichiers OPML. L'autorisation
-n'est demandée que si vous effectuez une action qui nécessite une lecture depuis
-le stockage.
+- Lecture depuis/écriture dans le stockage (photos/médias/fichiers) :
+l'autorisation de stockage est utilisée pour ouvrir des fichiers qui ne sont pas
+téléchargés directement depuis l'application. Elle peut également être utilisée
+pour importer des paramètres de l'application ou des fichiers OPML.
+L'autorisation n'est demandée que si vous effectuez une action qui nécessite une
+lecture depuis le stockage.
 
 ## Les données de l'application que des tiers peuvent collecter, stocker et traiter
 

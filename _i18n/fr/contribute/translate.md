@@ -16,26 +16,26 @@ Aperçu des composants de Weblate
 loc="/assets/images/documentation" file="translation-components-weblate.png" %}
 {% endcapture %}
 
-Sur une [population mondiale estimée](https://en.wikipedia.org/wiki/World_population)
-à 7,9 milliards d'habitants, seuls 1,3 milliard [parlent anglais](https://www.ethnologue.com/guides/ethnologue200).
-Cela ne signifie peut-être pas grand-chose en soi, mais on peut en conclure que
-traduire AntennaPod dans plusieurs langues rend l'application accessible au plus
-grand nombre. Une application traduite est non seulement utilisable par un plus
-grand nombre de personnes, mais elle aide également notre projet à se développer
-au-delà des principales bases d'utilisateurs actuelles (Allemagne et
-États-Unis).
+Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population)
+estimée à 7,9 milliards d'habitants, seuls 1,3 milliard d'entre eux [parlent
+anglais](https://www.ethnologue.com/guides/ethnologue200). Cela ne signifie
+peut-être pas grand-chose en soi, mais on peut en conclure que proposer une
+version multilingue d'AntennaPod permettrait de rendre cette application
+accessible au plus grand nombre. De plus, une application traduite pourrait
+également aider notre projet à se développer au-delà de ses principales bases
+d'utilisateurs (Allemagne et États-Unis).
 
 Nous apprécions donc beaucoup votre aide !
 
 # L'application
 
-Pour nous aider à traduire l'application, nous vous demandons de contribuer via
-[Transifex](https://www.transifex.com/antennapod/antennapod/). Tout le monde
-peut s'y inscrire et commencer à traduire. Transifex propose des guides utiles
-pour [démarrer sur leur plateforme](https://docs.transifex.com/getting-started-1/translators)
-et pour [se familiariser avec l'interface de l'éditeur Web](https://docs.transifex.com/translation/translating-with-the-web-editor).
+Pour nous aider à traduire l'application, nous vous demandons d'apporter votre
+contribution via [Transifex](https://www.transifex.com/antennapod/antennapod/).
+Tout le monde peut s'y inscrire et commencer à traduire. Transifex met à
+disposition des guides utiles pour [se lancer sur leur plateforme](https://docs.transifex.com/getting-started-1/translators)
+et pour [se familiariser avec l'interface de l'éditeur web](https://docs.transifex.com/translation/translating-with-the-web-editor).
 
-Au sein du projet AntennaPod, vous trouverez trois « ressources » :
+Dans le cadre du projet AntennaPod, vous trouverez trois types « ressources » :
 
 - L'application elle-même
 - La description courte, en une phrase, pour les AppStores

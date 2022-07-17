@@ -5,15 +5,15 @@ Se hai esigenze più complesse, è possibile utilizzare su AntennaPod varie
 applicazioni di automazione di terze parti. Per esempio:
 
 - Aggiorna gli abbonamenti all'inizio della giornata: alle 7 del mattino,
-accendi il WIFI, poi aggiorna i feed di AntennaPod.
-- Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro: alle
-17:00 dei giorni feriali aggiorna gli abbonamenti.
+accendi il Wi-Fi, poi aggiorna i feed di AntennaPod.
+- Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro, ad es.
+alle 17:00 dei giorni feriali.
 
 ## Istruzioni generali
 
 Nella tua applicazione di automazione, è possibile far sì che AntennaPod
-aggiorni le sottoscrizioni mandando un messaggio in broadcast (può apparire in
-Android come un tipo di intent) con le seguenti impostazioni:
+aggiorni gli abbonamenti mandando un messaggio in broadcast (può apparire come
+un tipo di intent di Android) con le seguenti impostazioni:
 
 - Nome del pacchetto: `de.danoeh.antennapod`
 - Nome della classe: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`
@@ -22,7 +22,7 @@ Android come un tipo di intent) con le seguenti impostazioni:
 
 ### Automate ([sito web](https://llamalab.com/automate/))
 
-In un flusso, aggiungi un blocco del tipo `APPS` » `Broadcast send` e specifica
+In un flusso, aggiungi un blocco del tipo `APPS` » `Invia broadcast` e specifica
 
 1. il nome del pacchetto come `de.danoeh.antennapod`
 1. la classe del ricevitore come
@@ -33,19 +33,19 @@ In un flusso, aggiungi un blocco del tipo `APPS` » `Broadcast send` e specifica
 Crea una task. Nella task, aggiungi un'azione
 
 1. Seleziona ` Sistema`
-1. Seleziona `Send Intent`
+1. Seleziona `Invia intent`
 1. Assegna al pacchetto il nome `de.danoeh.antennapod`
 1. Assegna alla classe il nome
 `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`
-1. Specifica come Target `Broadcast receiver`
+1. Specifica come target `Broadcast receiver`
 1. Puoi lasciare gli altri campi vuoti
 
 ### Llama - Location Profiles ([sito web](http://kebabapps.blogspot.com/search/label/Llama))
 
 Crea un evento (regola di automazione Llama). Nell'evento,
 
-1. Aggiungi un'azione di tipo intento di Android.
-1. Specifica la modalità di invio dell'intento come `Broadcast`.
+1. Aggiungi un'azione di tipo intent di Android.
+1. Specifica la modalità di invio dell'intent come `Broadcast`.
 1. Assegna al pacchetto il nome `de.danoeh.antennapod`
 1. Assegna alla classe il nome
 `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`
@@ -56,5 +56,5 @@ per creare un evento di esempio per iniziare.
 
 ***
 
-**Disclaimer:** La comunità di AntennaPod non ha rapporti con nessuna delle
+**Avvertenza:** La comunità di AntennaPod non ha rapporti con nessuna delle
 applicazioni di automazione di terze parti elencate.

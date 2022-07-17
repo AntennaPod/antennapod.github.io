@@ -7,9 +7,9 @@ sul canale audio per i media (e non, ad esempio, su quello per le notifiche).
 
 | Tasto | Azione |
 | --- | --- |
-| `P` | Play/Pausa |
-| `J`/`A`/`,` | Rewind |
-| `K`/`D`/`.` | Avanti veloce |
+| `P` | Riproduci/Metti in pausa |
+| `J`/`A`/`,` | Riavvolgi |
+| `K`/`D`/`.` | Avanti |
 | `+`/`W` | Alza il volume |
 | `-`/`S` | Abbassa il volume |
 | ` M` | Disattivare/attivare il volume (interruttore on/off) - solo su Android 6 o
@@ -19,9 +19,9 @@ superiore |
 
 | Tasto | Azione |
 | --- | --- |
-| `P`/` Spazio` | Play/Pausa |
-| `J`/`A`/`,` | Rewind |
-| `K`/`D`/`.` | Avanti veloce |
+| `P`/` Spazio` | Riproduci/Metti in pausa |
+| `J`/`A`/`,` | Riavvolgi |
+| `K`/`D`/`.` | Avanti |
 | `F`/`Esc` | Esci dal lettore video |
 | `i` | Entra nella modalità picture-in-picture |
 | `0`-`9` | Vai allo 0-90% del video |

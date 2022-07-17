@@ -1,5 +1,6 @@
-Nos développements sont totalement exempts de publicité et sont open source ! Si
-vous voyez des publicités, il peut y avoir deux raisons :
+Les versions officielles d'AntennaPod sont totalement exemptes de publicité et
+open source ! Si vous voyez des publicités, il peut y avoir deux raisons à cela
+:
 
 - Les éditeurs de podcasts ont ajouté les publicités à leurs notes ou à leur
 fichier audio. AntennaPod lit les podcasts tels qu'ils ont été publiés par leurs

@@ -1,5 +1,5 @@
 Per impostazione predefinita, tutti i podcast vengono aggiornati ogni 12 ore per
-raccogliere nuovi episodi. Tramite `Impostazioni` " `Rete` " `Aggiorna podcast`
+raccogliere nuovi episodi. Tramite `Impostazioni` » `Rete` » `Aggiorna podcast`
 è possibile modificare questo intervallo, selezionare un momento specifico della
 giornata, o disattivare gli aggiornamenti automatici.
 
@@ -14,4 +14,4 @@ Quando disattivi questa impostazione del podcast, il podcast non sarà più
 compreso nell'aggiornamento automatico dei podcast, o quando si avvia questo
 processo dalla coda o dalla schermata degli episodi. Puoi comunque aggiornare
 quel podcast, i cui nuovi episodi verranno aggiunti su AntennaPod. Ma questi
-nuovi episodi non saranno visibili nella scheda Nuovi della schermata Episodi.
+nuovi episodi non saranno visibili nella scheda Novità della schermata Episodi.

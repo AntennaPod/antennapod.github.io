@@ -5,8 +5,8 @@ l'application) qui vérifie les nouveaux épisodes et vous les propose ensuite.
 1. **Distribué** : L'application elle-même vérifie les nouveaux épisodes,
 directement auprès des éditeurs de podcasts.
 
-AntennaPod utilise la méthode 2, c'est-à-dire que nous n'avons pas de serveur
-central. Il y a quelques avantages et inconvénients à cette méthode.
+AntennaPod utilise la méthode numéro 2. Elle a à la fois des avantages et des
+inconvénients :
 
 - As the app checks for new episodes, the app creators (like us) don't have to
 maintain a central server. This saves a lot of time and effort. It also saves a
