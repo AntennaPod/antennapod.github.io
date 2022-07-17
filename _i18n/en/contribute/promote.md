@@ -3,7 +3,7 @@ AntennaPod relies on free publicity, word-of-mouth, and a modest social media pr
 * **Press**
 Know an interesting website, podcast or magazine that might cover AntennaPod? Then help us build a list media to reach out to with important messages.
 * **Social media**
-Happy to think of new hooks to talk about the project every, and draft consise & creative messages ever now & then? Help engage with a wider audience on Twitter.
+Happy to think of new hooks to talk about the project, and draft concise & creative messages every now & then? Help engage with a wider audience on Twitter & Mastodon.
 * **Blog**
 Interested in writing about new app features, the AntennaPod project or an open podcasting ecosystem in general? Help us maintain our blog.
 * **Graphics design**
