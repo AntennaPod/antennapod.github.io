@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2022-04-03 08:36+0000\n"
-"Last-Translator: Keunes <keunes@mailbox.org>\n"
+"PO-Revision-Date: 2022-06-20 09:18+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -108,23 +108,21 @@ msgstr ""
 "nouveaux épisodes ne seront pas visibles dans l'onglet 'Nouveaux épisodes'."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "With AntennaPod, you can specify subscriptions (podcast feeds) to be updated "
 "regularly (see [Refreshing podcasts](/refreshing-podcasts))."
 msgstr ""
-"Avec AntennaPod, vous pouvez spécifier des abonnements (flux de podcasts) à "
-"mettre à jour à intervalle régulier ou à un moment particulier de la journée "
-"dans les paramètres `Réseau` → `Automatisation`."
+"Avec AntennaPod, vous pouvez spécifier les abonnements (flux de podcasts) à "
+"mettre à jour régulièrement (voir l'[Actualisation des podcasts](/refreshing-"
+"podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. For example:"
 msgstr ""
-"Si vous avez des besoins plus complexes, vous pouvez utiliser diverses "
-"applications tierces vous permettant d'automatiser AntennaPod. Exemples :"
+"Si vous avez des besoins plus complexes, vous pouvez utiliser différentes "
+"applications tierces vous permettant d'automatiser AntennaPod. Par exemple :"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
@@ -141,20 +139,18 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
-#, fuzzy
 msgid "General instructions"
-msgstr "Instructions"
+msgstr "Consignes générales"
 
 #: _i18n/en/documentation/automation/tasker.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "In your automation application, you can get AntennaPod to update its "
 "subscriptions by sending a 'Broadcast' (it may be shown as a type of Android "
 "intent) with the following settings:"
 msgstr ""
-"Dans votre automatisation d'application, vous demandez à AntennaPod de "
-"mettre à jour ses abonnement en envoyant un 'Broadcast' (il peut être "
-"présenté comme un type d'intention Android) avec les paramètres suivants :"
+"Dans votre application d'automatisation, vous pouvez demander à AntennaPod "
+"de mettre à jour ses abonnements en envoyant un 'Broadcast' (qui peut être "
+"présenté comme un type d'Intent Android) avec les paramètres suivants :"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
@@ -166,20 +162,18 @@ msgstr ""
 "Nom de la classe : `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
-#, fuzzy
 msgid "Steps for some automation apps"
 msgstr "Instructions pour certaines applications d'automatisation"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
-msgstr ""
+msgstr "Automatiser ([site web](https://llamalab.com/automate/))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "In a flow, add a block of the type `APPS` » `Broadcast send` and specify"
 msgstr ""
-"Dans un flux, ajouter un bloc de type `APPS` → `Broadcast send`, spécifiez"
+"Dans un flux, ajoutez un bloc de type `APPS` → `Broadcast send`, et spécifiez"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
@@ -194,7 +188,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Tasker ([website](https://tasker.joaoapps.com/))"
-msgstr ""
+msgstr "Tasker ([site web](https://tasker.joaoapps.com/))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
 msgid "Create a task. In the task, add an action"
@@ -233,6 +227,8 @@ msgid ""
 "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"
 "label/Llama))"
 msgstr ""
+"Llama - Profils de localisation ([site web](http://kebabapps.blogspot.com/"
+"search/label/Llama))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
 msgid "Create an event (Llama automation rule). In the event,"
@@ -252,7 +248,6 @@ msgid "Add any other condition / actions for your specific needs."
 msgstr "Ajoutez toute autre condition / action pour vos besoins spécifiques."
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (paragraph)
-#, fuzzy
 msgid ""
 "As a shortcut, you can click [this link](http://llama.location.profiles/"
 "AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C"
@@ -264,13 +259,15 @@ msgid ""
 "started."
 msgstr ""
 "En guise de raccourci, vous pouvez cliquer sur [ce lien](http://llama."
-"location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update"
-"%7C0-1-0-0-0-0-0-1-0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod"
-"%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F"
-"%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F"
-"%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA"
-"%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) pour créer un exemple d'événement "
-"pour commencer."
+"location.profiles/AntennaPod+feeds+Update/"
+"AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde."
+"danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZ"
+"QBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%"
+"2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkA"
+"GUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQ"
+"BpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAA"
+"AAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) pour commencer en créant "
+"un exemple d'événement."
 
 #: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
 msgid ""
@@ -324,18 +321,14 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod is a [decentralized podcast app](/documentation/general/central-"
 "distributed). This basically means that there is no central server that "
 "knows everything about each podcast."
 msgstr ""
-"AntennaPod est une application de podcast décentralisée. Vous pouvez trouver "
-"des informations à ce sujet [ici](/documentation/general/central-"
-"distributed). Cela signifie essentiellement qu'il n'y a pas de serveur "
-"central qui sait tout sur chaque podcast. Les épisodes sont chargés "
-"directement depuis le site Web de l’éditeur. Si l'éditeur supprime un "
-"épisode de son site Web, AntennaPod ne peut plus y accéder."
+"AntennaPod est une [application de podcast décentralisée](/documentation/"
+"general/central-distributed). Cela signifie qu'il n'y a pas de serveur "
+"central capable de tout savoir à propos de chaque podcast."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 2
 #: (paragraph)
@@ -343,6 +336,9 @@ msgid ""
 "Media files are therefore taken directly from the publisher's website. If "
 "the publisher deletes these, AntennaPod can no longer retrieve it for you."
 msgstr ""
+"Les fichiers multimédias proviennent donc directement du site web de l’"
+"éditeur. Si l'éditeur les supprime, AntennaPod ne peut plus les récupérer "
+"pour vous."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 1 (paragraph)
 msgid ""
@@ -501,7 +497,6 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "If playback always stops for example a few seconds after turning off the "
 "screen, or when you haven't opened AntennaPod for a while, your system might "
@@ -511,11 +506,16 @@ msgid ""
 "differs between phones, we suggest searching on the web for instructions for "
 "your phone brand and model, if you don't know how to add an exception."
 msgstr ""
-"Si la lecture à s'arrête toujours quelques secondes après avoir éteint "
-"l'écran, c'est peut-être que votre système a fermé l'application. Certains "
+"Si la lecture s'arrête systématiquement quelques secondes après avoir éteint "
+"l'écran, ou lorsque vous n'avez pas ouvert AntennaPod depuis un certain "
+"temps, c'est peut-être que votre système a fermé l'application. Certains "
 "systèmes sont connus pour être excessivement agressifs lorsqu'ils essaient "
-"d'économiser la batterie. Essayez d'ajouter une exception pour AntennaPod "
-"dans la liste des applications optimisées pour la batterie."
+"d'économiser la batterie. **Merci d'essayez d'ajouter une exception pour "
+"AntennaPod dans la liste des applications optimisées pour la batterie.** "
+"Comme la façon d'ajouter une exception diffère souvent d'un téléphone à "
+"l'autre, nous vous suggérons de chercher sur le web la méthode applicable à "
+"la marque et au modèle de votre téléphone, si vous ne savez pas comment "
+"ajouter une exception."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 2 (paragraph)
 msgid ""
@@ -587,13 +587,13 @@ msgstr ""
 "via Google."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "The official versions of AntennaPod are completely ad-free and open source! "
 "If you are seeing ads, this can have two reasons:"
 msgstr ""
-"Nos développements sont totalement exempts de publicité et sont open "
-"source ! Si vous voyez des publicités, il peut y avoir deux raisons :"
+"Les versions officielles d'AntennaPod sont totalement exemptes de publicité "
+"et open source ! Si vous voyez des publicités, il peut y avoir deux raisons "
+"à cela :"
 
 #: _i18n/en/documentation/general/ads.md:block 2 (unordered list)
 #, fuzzy
@@ -818,11 +818,10 @@ msgstr ""
 "directement auprès des éditeurs de podcasts."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 3 (paragraph)
-#, fuzzy
 msgid "AntennaPod uses method 2. It has both its advantages and disadvantages:"
 msgstr ""
-"AntennaPod utilise la méthode 2, c'est-à-dire que nous n'avons pas de "
-"serveur central. Il y a quelques avantages et inconvénients à cette méthode."
+"AntennaPod utilise la méthode numéro 2. Elle a à la fois des avantages et "
+"des inconvénients :"
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1380,18 +1379,16 @@ msgstr ""
 "faites part de vos réflexions via le [forum](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When an episode has been paused and is played again, AntennaPod will "
 "automatically rewind, so it is easier to continue following the show. How "
 "much is rewound is not configurable and depends on how long an episode has "
 "been paused."
 msgstr ""
-"Lorsqu'un épisode a été mis en pause et qu'il est relu, AntennaPod retourne "
-"automatiquement en arrière, ce qui permet de continuer à suivre l'émission "
-"plus facilement. La durée du retour en arrière n'est pas configurable et "
-"dépend de la durée de la pause de l'épisode. Les temps de retour en arrière "
-"sont actuellement :"
+"Lorsqu'un épisode est mis en pause, puis à nouveau en lecture, AntennaPod "
+"revient automatiquement en arrière afin de faciliter le suivi de l'émission. "
+"La durée du retour en arrière n'est pas configurable et dépend de la durée "
+"de pause de l'épisode."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Time since last playback"
