@@ -4,7 +4,7 @@ AntennaPod is gelicenseerd onder de [General Public License](https://github.com/
 
 # De website code en thema
 
-De website is ontwikkeld onder de MIT-licentie (MIT):
+De website is ontwikkeld onder de MIT-licentie:
 
 Copyright (c) 2020 Anxhelo Lushka and other contributors
 

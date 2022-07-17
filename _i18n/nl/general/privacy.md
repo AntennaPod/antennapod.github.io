@@ -27,11 +27,11 @@ die door de dienst worden geleverd.
 
 De app vraagt de volgende privacy-relevante Android-rechten aan:
 
-- Lezen van/schrijven naar Opslag (Foto's/Media/Bestanden) Het opslagrecht wordt
-gebruikt om bestanden te openen die niet rechtstreeks vanuit de app zijn
-gedownload. Het kan ook worden gebruikt om app-instellingen of OPML-bestanden te
-importeren. De toestemming wordt alleen gevraagd als je een actie uitvoert die
-lezen uit opslag vereist.
+- Lezen van/schrijven naar Opslag (Foto's/Media/Bestanden): De rechten voor
+opslag worden gebruikt om bestanden te openen die niet rechtstreeks via de app
+zijn gedownload. Het kan ook worden gebruikt om app-instellingen of
+OPML-bestanden te importeren. De toestemming wordt alleen gevraagd als je een
+actie uitvoert die lezen uit opslag vereist.
 
 ## Welke app-gegevens andere partijen kunnen verzamelen, opslaan en verwerken
 
@@ -48,16 +48,17 @@ op dezelfde server worden gehost, kan de server de lijst van
 podcast-abonnementen achterhalen die op de server worden gehost. Dit kan
 gebeuren als uitgevers feedburner, podtrac of soortgelijke diensten gebruiken om
 hun feeds te verspreiden.
-- Ontdekkings- en zoekservices: wanneer het Ontdek-scherm in de app wordt
+- Ontdekkings- en zoekservices: Wanneer het Ontdek-scherm in de app wordt
 geopend, wordt er een oproep naar Apple gestuurd om podcast-suggesties te
 verzamelen. Ze kunnen de zoekopdracht opslaan, inclusief het land (dat standaard
 het land van het apparaat is). Deze suggesties kunnen worden uitgeschakeld door
 "uit" te kiezen in de regiokiezer. Wanneer de zoekfunctie in AntennaPod wordt
 gebruikt, kunnen de services PodcastIndex.org, iTunes, fyyd en gpodder.net de
-zoekopdracht opslaan, inclusief de zoektermen. Detectie- en zoekopdrachten
-bevatten ook het IP-adres, de tijd en de app-naam "AntennaPod". Na het abonneren
-wordt de feed geleverd vanuit de podcast-host, wat betekent dat de
-discovery-/zoekservice niet langer betrokken is.
+zoekopdracht opslaan, inclusief de zoektermen. Activiteit rond het Ontdek-scherm
+en zoekopdrachten bevatten ook het IP-adres, de tijd en de app-naam
+"AntennaPod". Nadat je je op een podcast hebt geabonneerd, wordt de feed direct
+geleverd door de podcast-host. Daar is de discovery-/zoekservice niet meer bij
+betrokken.
 - Synchronisatiediensten: Indien ingeschakeld via de instellingen,
 synchroniseert AntennaPod je gegevens. Deze gegevens kunnen inloggegevens,
 geabonneerde podcasts, beluisterde afleveringen, afspelen, pauzeren en favoriete

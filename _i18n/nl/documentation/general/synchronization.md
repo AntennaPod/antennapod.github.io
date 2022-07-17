@@ -16,41 +16,42 @@ synchroniseren
 loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {%
 endcapture %}
 
-AntennaPod currently supports two synchronization options: via [gpodder.net](https://gpodder.net/)
-and the [gPodder Sync app for Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
+AntennaPod ondersteunt momenteel twee opties voor synchronisatie: via
+[gpodder.net](https://gpodder.net/) en de [gPodder Sync app voor Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
 
-On gpodder.net anyone can create an account relatively easily and the service is
-free to use. Unfortunately the service has large numbers of users, limited
-funding and a lack of volunteer contributions. This means the server often is
-overloaded, leading to errors in AntennaPod. If possible, we therefore recommend
-that you use an existing account on a Nextcloud instance or start self-hosting
-either gpodder.net or Nextcloud.
+Op gpodder.net kan iedereen betrekkelijk eenvoudig een account aanmaken en de
+dienst is gratis te gebruiken. Helaas heeft de dienst grote aantallen
+gebruikers, beperkte financiering en een gebrek aan vrijwilligers. Dit betekent
+dat de server vaak overbelast is, wat leidt tot foutmeldingen in AntennaPod.
+Indien mogelijk raden wij daarom aan om een bestaand account op een
+Nextcloud-server te gebruiken of zelf gpodder.net of Nextcloud te gaan hosten.
 
-## gPodder Sync app for Nextcloud
+## gPodder Sync-app voor Nextcloud
 
-If you have a Nextcloud account, install the gPodder Sync app or ask your server
-admin to do so. Once that is installed, simply go to `Settings` »
-`Synchronization` in AntennaPod, choose the relevant provider and enter the
-server address.
+Heb je een Nextcloud-account? Installeer dan de gPodder Sync-app of vraag je
+server-administrator om dit te doen. Eens de app geïnstalleerd is, ga je
+simpelweg naar `Instellingen` » `Synchronisatie` in AntennaPod, kies je de
+relevante provider en voer je het serveradres in.
 
-## gpodder.net & your own gpodder server
+## gpodder.net & je eigen gpodder-server
 
-- Create an account on gpodder.net or log in if you have one already.
+- Maak een account aan op gpodder.net of log in als je er al een hebt.
 
    - Het advies is om met een account een toestel aan te maken op
 gpodder.net/devices/ voor elke client die je gebruikt:<br />{{ img-devices | strip }}
 
    - Koppel de toestellen, na het aanmaken, met de "Configure" knop. Op deze manier
-houdt gpodder.net automatisch de abonnementen van beide toestellen
+houdt gpodder.net automatisch de abonnementen van de geactiveerde toestellen
 gesynchroniseerd.<br />{{ img-synchronize | strip }}
-- Then go to AntennaPod's `Settings` » `Synchronization`. There you can log in
-to gpodder.net or even provide an alternative server if you want to host it
-yourself. During login, AntennaPod asks what device you are currently logged
-into. Select your newly created device.
+- Ga dan in AntennaPod naar `Instellingen` » `Synchronisatie`. Daar kun je
+inloggen op gpodder.net of zelfs een alternatieve server opgeven als je zelf
+wilt hosten. Tijdens het inloggen vraagt AntennaPod op welk apparaat je
+momenteel ingelogd bent. Selecteer je nieuw aangemaakte apparaat.
 
-*Did you create a device while logging in, rather than in advance as suggested
-above?* Then be sure to press the `Force sync` button in AntennaPod to upload
-the played state of all the episodes you listened to earlier. If you don't do
-this, only podcasts that were added **after** linking the devices are
-synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388)
-that requests to change the behavior.
+*Heb je een apparaat aangemaakt tijdens het inloggen in plaats van vooraf, zoals
+hierboven voorgesteld?* Druk dan op de knop `Volledige synchronisatie afdwingen`
+in AntennaPod om de 'afgespeeld'-status te uploaden van alle afleveringen die je
+eerder beluisterd hebt. Als je dit niet doet, worden alleen de podcasts
+gesynchroniseerd die werden toegevoegd **na** het koppelen van de apparaten. Er
+is een [open ticket voor gpodder.net](https://github.com/gpodder/mygpo/issues/388)
+dat vraagt om dit te veranderen.

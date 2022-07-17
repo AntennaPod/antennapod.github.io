@@ -2,13 +2,14 @@ Na het downloaden van een podcast-app abonneer je je allereerst op een podcast.
 
 ## Abonneren
 
-Open het menu door van links te vegen of te tikken op het `=` hamburgerpictogram
-in de linkerbovenhoek. Ga naar `+ Podcast toevoegen`. Zoek, bekijk suggesties of
-voeg een podcast toe met een RSS adres.
+Open het menu door van links te vegen of te tikken op het `☰` hamburgerpictogram
+in de linkerbovenhoek. Ga naar `+ Podcast toevoegen`. Daar kun je zoeken,
+suggesties bekijken en een podcast toevoegen met het RSS adres.
 
-Je kan ook OPML-bestand importeren. Of zoek uitsluitend in de iTunes-,
-gpodder.net- of fyyd-database. Het importeren van RSS- of Atom-feeds of het
-gebruik van URL-schema's zoals `pcast://` en `itpc://` zijn ook mogelijk.
+Je kan ook een OPML-bestand importeren. Of zoek uitsluitend in de iTunes-,
+gpodder.net-, fyyd- of Podcast Index-database. Het importeren van RSS- of
+Atom-feeds of het gebruik van URL-schema's zoals `pcast://` en `itpc://` zijn
+ook mogelijk.
 
 ## Abonneren op diensten van derden
 

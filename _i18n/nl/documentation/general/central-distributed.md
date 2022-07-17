@@ -6,36 +6,39 @@ doorstuurt aan jouw app.
 1. **Gedistribueerd**: De app zelf controleert op nieuwe afleveringen,
 rechtstreeks van de podcast-uitgevers.
 
-AntennaPod gebruikt methode 2, omdat wij hebben geen centrale server hebben. Er
-zijn voor- en nadelen van die methode.
+AntennaPod gebruikt methode 2. Dit heeft zowel voor- als nadelen:
 
-- As the app checks for new episodes, the app creators (like us) don't have to
-maintain a central server. This saves a lot of time and effort. It also saves a
-lot of money, which means we don't need to rely on ads or large sums of
-donations.
-- As the app doesn't rely on a central server to collect new episodes,
-AntennaPod will continue to work independently from what we do on our end. Using
-the central method, if the company shuts down their server for whatever reason,
-the app will stop to work.
-- We, as app developers, don't and cannot know which podcasts you are subscribed
-to, which episodes you might listen to, or even at what time you do. Publishers
-of apps with a central server do collect such data, to the detriment of your
-privacy.
-- Some publishers offer private feeds, providing early access, special content
-or ad-free episodes. Such feeds require a username and password, which
-AntennaPod gives directly to the podcast host when requested. Centralised
-services often simply don't allow adding private feeds. And if they do, it might
-require sending your credentials to the app makers.
-- Not having a central point of access, which would allow app developers to
-remove podcasts from their server, there is no risk of censorship.
-- On the other hand, a distributed model means that you will only get new
-episodes when you refresh a podcast. In AntennaPod this is by default every 12
-hours, but you can change this to more or less often and you can always manually
-check for new episodes too. A central server can check for new episodes very
-frequently or even be informed by podcast hosts in realtime. That way apps can
-also know about new episodes much faster, without having to regularly check all
-podcasts you are subscribed to.
-- Also it isn't possible for AntennaPod to serve you any episodes that were
-removed by the podcast publisher, for example because they only keep the 10 most
-recent ones online. Apps that rely on a central server could be served with the
-older episodes even if they have disappeared from the RSS feed.
+- Omdat de app controleert op nieuwe afleveringen, hoeven de makers van de app
+(zoals wij) geen centrale server te onderhouden. Dit scheelt een hoop tijd en
+energie. Het bespaart ons ook hoop geld, wat betekent dat we niet afhankelijk
+zijn van advertenties, of van veel of grote donaties.
+- Omdat de app niet afhankelijk is van een centrale server om nieuwe
+afleveringen op te halen, zal AntennaPod blijven werken, onafhankelijk van ons
+doen en laten. Bij een gecentraliseerd model zou de app stoppen met werken als
+de app-makers, om welke reden dan ook, hun server off-line halen.
+- Wij, als de maker van de app, weten niet en kunnen zelfs niet weten op welke
+podcasts je geabonneerd bent, welke afleveringen je al dan niet beluisterd, of
+wanneer je dat doet. App-makers die een centrale server gebruiken, verzamelen
+wel zulke gegevens - ten nadele van jouw privacy.
+- Sommige uitgevers bieden privé-feeds aan, voor eerdere toegang tot
+afleveringen, specials of advertentievrije afleveringen. Zulke feeds vereisen
+een gebruikersnaam en wachtwoord, welke AntennaPod direct aan de podcast-host
+doorgeeft wanneer nodig. Bij gecentraliseerde apps is dit vaak simpelweg niet
+mogelijk. En als het wel kan, betekent dit dat je je inloggegevens aan de
+app-makers moet geven.
+- Omdat er geen centraal toegangspunt is, waardoor app-ontwikkelaars podcasts
+van hun server kunnen weren of verwijderen, is er geen risico op censuur.
+- Aan de andere kant betekent een gedistribueerd model dat je alleen nieuwe
+afleveringen krijgt wanneer je een podcast ververst. In AntennaPod is dit
+standaard elke 12 uur, maar je kunt dit veranderen om vaker of minder vaak te
+laten gebeuren. Je kunt ook altijd handmatig controleren op nieuwe afleveringen.
+Een centrale server kan zeer frequent controleren of er nieuwe afleveringen zijn
+of zelfs in realtime op de hoogte gebracht worden door podcast-hosts. Op die
+manier kunnen apps ook veel sneller op de hoogte zijn van nieuwe afleveringen,
+zonder dat je regelmatig alle podcasts waarop je geabonneerd bent hoeft te
+controleren.
+- Bovendien is het niet mogelijk voor AntennaPod om je afleveringen aan te
+bieden die door de podcast-uitgever zijn verwijderd, bijvoorbeeld omdat ze
+alleen de 10 meest recente afleveringen online houden. Apps die afhankelijk zijn
+van een centrale server zouden je wel toegang kunnen geven tot oudere
+afleveringen, zelfs als deze zijn verdwenen uit de RSS-feed.

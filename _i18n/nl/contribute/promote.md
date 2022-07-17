@@ -1,15 +1,15 @@
 AntennaPod vertrouwt voor de promotie op gratis publiciteit,
 mond-tot-mondreclame, en een bescheiden aanwezigheid op sociale media. We weten
 dat er ruimte is voor verbetering. En dat heb jij je misschien ook wel bedacht.
-Waarom zou je ons niet helpen groter te worden? Je hulp op een van de volgende
-gebieden zal zeer op prijs worden gesteld.
+Waarom zou je ons niet helpen groter te worden? Je hulp bij één van de volgende
+activiteiten zal zeer gewaardeerd worden.
 
 * **Pers** Ken je een interessante website, podcast of tijdschrift dat
 AntennaPod zou kunnen behandelen? Help ons dan een lijst op te stellen van media
 die we kunnen contacteren als we iets belangrijks te melden hebben.
 * **Social media** Bedenk je graag nieuwe invalshoeken om over het project te
-praten, en stel je af en toe bondige en creatieve berichten op? Help mee om een
-breder publiek te bereiken op Twitter.
+praten, of stel je graag af en toe bondige en creatieve berichten op? Help ons
+om een breder publiek te bereiken op Twitter & Mastodon.
 * **Blog** Vind je het leuk om te schrijven over nieuwe app features, het
 AntennaPod project of een open podcasting ecosysteem in het algemeen? Help ons
 het blog te onderhouden.
