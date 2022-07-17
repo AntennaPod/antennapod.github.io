@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/automation/tasker">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/automation/tasker">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/automation/tasker">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/automation/tasker">Italiano</a>
   
 
   
@@ -217,12 +225,11 @@
 
                 <h1 id="intégration-avec-dautres-applications">Intégration avec d’autres applications</h1>
 
-<p>Avec AntennaPod, vous pouvez spécifier des abonnements (flux de podcasts) à
-mettre à jour à intervalle régulier ou à un moment particulier de la journée
-dans les paramètres <code class="language-plaintext highlighter-rouge">Réseau</code> → <code class="language-plaintext highlighter-rouge">Automatisation</code>.</p>
+<p>Avec AntennaPod, vous pouvez spécifier les abonnements (flux de podcasts) à
+mettre à jour régulièrement (voir l’<a href="/refreshing-podcasts">Actualisation des podcasts</a>).</p>
 
-<p>Si vous avez des besoins plus complexes, vous pouvez utiliser diverses
-applications tierces vous permettant d’automatiser AntennaPod. Exemples :</p>
+<p>Si vous avez des besoins plus complexes, vous pouvez utiliser différentes
+applications tierces vous permettant d’automatiser AntennaPod. Par exemple :</p>
 
 <ul>
   <li>Mettez les abonnements à jour en début de journée : à 7 heures du matin,
@@ -231,11 +238,11 @@ allumez le WIFI, puis mettez à jour les flux d’AntennaPod.</li>
 subscriptions.</li>
 </ul>
 
-<h2 id="instructions">Instructions</h2>
+<h2 id="consignes-générales">Consignes générales</h2>
 
-<p>Dans votre automatisation d’application, vous demandez à AntennaPod de mettre à
-jour ses abonnement en envoyant un ‘Broadcast’ (il peut être présenté comme un
-type d’intention Android) avec les paramètres suivants :</p>
+<p>Dans votre application d’automatisation, vous pouvez demander à AntennaPod de
+mettre à jour ses abonnements en envoyant un ‘Broadcast’ (qui peut être présenté
+comme un type d’Intent Android) avec les paramètres suivants :</p>
 
 <ul>
   <li>Nom du paquet : <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -246,9 +253,9 @@ type d’intention Android) avec les paramètres suivants :</p>
 
 <h2 id="instructions-pour-certaines-applications-dautomatisation">Instructions pour certaines applications d’automatisation</h2>
 
-<h3 id="automate-website">Automate (<a href="https://llamalab.com/automate/">website</a>)</h3>
+<h3 id="automatiser-site-web">Automatiser (<a href="https://llamalab.com/automate/">site web</a>)</h3>
 
-<p>Dans un flux, ajouter un bloc de type <code class="language-plaintext highlighter-rouge">APPS</code> → <code class="language-plaintext highlighter-rouge">Broadcast send</code>, spécifiez</p>
+<p>Dans un flux, ajoutez un bloc de type <code class="language-plaintext highlighter-rouge">APPS</code> → <code class="language-plaintext highlighter-rouge">Broadcast send</code>, et spécifiez</p>
 
 <ol>
   <li>Le paquet doit être <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -258,7 +265,7 @@ type d’intention Android) avec les paramètres suivants :</p>
 </li>
 </ol>
 
-<h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">website</a>)</h3>
+<h3 id="tasker-site-web">Tasker (<a href="https://tasker.joaoapps.com/">site web</a>)</h3>
 
 <p>Créez une tâche. Dans la tâche, ajoutez une action</p>
 
@@ -277,7 +284,7 @@ type d’intention Android) avec les paramètres suivants :</p>
   <li>Vous pouvez laisser les autres champs vides</li>
 </ol>
 
-<h3 id="llama---location-profiles-website">Llama - Location Profiles (<a href="http://kebabapps.blogspot.com/search/label/Llama">website</a>)</h3>
+<h3 id="llama---profils-de-localisation-site-web">Llama - Profils de localisation (<a href="http://kebabapps.blogspot.com/search/label/Llama">site web</a>)</h3>
 
 <p>Créez un événement (règle d’automatisation de Llama). Dans l’événement,</p>
 
@@ -293,7 +300,7 @@ type d’intention Android) avec les paramètres suivants :</p>
 </ol>
 
 <p>En guise de raccourci, vous pouvez cliquer sur <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">ce lien</a>
-pour créer un exemple d’événement pour commencer.</p>
+pour commencer en créant un exemple d’événement.</p>
 
 <hr>
 

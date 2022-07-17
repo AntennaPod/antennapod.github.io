@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2020/09/2-0-0-release">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2020/09/2-0-0-release">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2020/09/2-0-0-release">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2020/09/2-0-0-release">Italiano</a>
   
 
   
@@ -238,7 +246,7 @@
     <a aria-label="Condividi su Twitter" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2020/09/2-0-0-release&amp;hashtags=" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Condividi su Twitter">
     <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
     </a>
-    <a aria-label="Condividi via email" href="mailto:?subject=Ti%20volevo%20far%20vedere%20questo&amp;body=Ti%20volevo%20far%20vedere%20questo%20https://antennapod.org/blog/2020/09/2-0-0-release" title="Condividi via email">
+    <a aria-label="Condividi per email" href="mailto:?subject=Ti%20volevo%20far%20vedere%20questo&amp;body=Ti%20volevo%20far%20vedere%20questo%20https://antennapod.org/blog/2020/09/2-0-0-release" title="Condividi per email">
         <i class="fas fa-envelope size-20 color-gray-600"></i>
     </a>
 </div>
@@ -246,7 +254,7 @@
 <script>
     function copyUrl() {
       if (!window.getSelection) {
-        alert('Per favore copia l'URL dalla barra degli indirizzi.');
+        alert('Copia l'URL dalla barra degli indirizzi.');
         return;
       }
       const dummy = document.createElement('p');
@@ -276,7 +284,7 @@
           if (!default_url)
                   default_url = "https://"; 
   
-          var instance = prompt("Inserisci un indirizzo specifico: (ad es. https://mastodon.social)", default_url);
+          var instance = prompt("Inserisci l'indirizzo della tua istanza: (ad es. https://mastodon.social)", default_url);
           if (instance) { 
                   // Handle URL formats
                   if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
@@ -383,7 +391,7 @@ We have fixed too many things to list them all. They include things like better 
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
                     <div class="small mb-4 mb-lg-3"><a href="/it"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open-source.</p>
+                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open source.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">

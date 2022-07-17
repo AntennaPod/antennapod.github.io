@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/automation/tasker">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/automation/tasker">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/automation/tasker">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/automation/tasker">Italiano</a>
   
 
   
@@ -225,16 +233,16 @@ applicazioni di automazione di terze parti. Per esempio:</p>
 
 <ul>
   <li>Aggiorna gli abbonamenti all’inizio della giornata: alle 7 del mattino,
-accendi il WIFI, poi aggiorna i feed di AntennaPod.</li>
-  <li>Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro: alle
-17:00 dei giorni feriali aggiorna gli abbonamenti.</li>
+accendi il Wi-Fi, poi aggiorna i feed di AntennaPod.</li>
+  <li>Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro, ad es.
+alle 17:00 dei giorni feriali.</li>
 </ul>
 
 <h2 id="istruzioni-generali">Istruzioni generali</h2>
 
 <p>Nella tua applicazione di automazione, è possibile far sì che AntennaPod
-aggiorni le sottoscrizioni mandando un messaggio in broadcast (può apparire in
-Android come un tipo di intent) con le seguenti impostazioni:</p>
+aggiorni gli abbonamenti mandando un messaggio in broadcast (può apparire come
+un tipo di intent di Android) con le seguenti impostazioni:</p>
 
 <ul>
   <li>Nome del pacchetto: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -247,7 +255,7 @@ Android come un tipo di intent) con le seguenti impostazioni:</p>
 
 <h3 id="automate-sito-web">Automate (<a href="https://llamalab.com/automate/">sito web</a>)</h3>
 
-<p>In un flusso, aggiungi un blocco del tipo <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> e specifica</p>
+<p>In un flusso, aggiungi un blocco del tipo <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Invia broadcast</code> e specifica</p>
 
 <ol>
   <li>il nome del pacchetto come <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -263,14 +271,14 @@ Android come un tipo di intent) con le seguenti impostazioni:</p>
 
 <ol>
   <li>Seleziona ` Sistema`</li>
-  <li>Seleziona <code class="language-plaintext highlighter-rouge">Send Intent</code>
+  <li>Seleziona <code class="language-plaintext highlighter-rouge">Invia intent</code>
 </li>
   <li>Assegna al pacchetto il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
   <li>Assegna alla classe il nome
 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
-  <li>Specifica come Target <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
+  <li>Specifica come target <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
 </li>
   <li>Puoi lasciare gli altri campi vuoti</li>
 </ol>
@@ -280,8 +288,8 @@ Android come un tipo di intent) con le seguenti impostazioni:</p>
 <p>Crea un evento (regola di automazione Llama). Nell’evento,</p>
 
 <ol>
-  <li>Aggiungi un’azione di tipo intento di Android.</li>
-  <li>Specifica la modalità di invio dell’intento come <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
+  <li>Aggiungi un’azione di tipo intent di Android.</li>
+  <li>Specifica la modalità di invio dell’intent come <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
   <li>Assegna al pacchetto il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
   <li>Assegna alla classe il nome
@@ -295,7 +303,7 @@ per creare un evento di esempio per iniziare.</p>
 
 <hr>
 
-<p><strong>Disclaimer:</strong> La comunità di AntennaPod non ha rapporti con nessuna delle
+<p><strong>Avvertenza:</strong> La comunità di AntennaPod non ha rapporti con nessuna delle
 applicazioni di automazione di terze parti elencate.</p>
 
 
@@ -394,7 +402,7 @@ applicazioni di automazione di terze parti elencate.</p>
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
                     <div class="small mb-4 mb-lg-3"><a href="/it"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open-source.</p>
+                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open source.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">

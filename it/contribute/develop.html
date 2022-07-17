@@ -14,7 +14,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sviluppo – AntennaPod</title>
-  <meta name="description" content="Sai scrivere codice? Aiutaci a testare il codice, inoltra nuove funzioni oppure risolvi dei bug nell'applicazione o nel sito web.">
+  <meta name="description" content="Sai scrivere codice? Aiutaci a testare le richieste pull, invia nuove funzioni oppure risolvi dei bug nell'applicazione o nel sito web.">
 
   <link rel="canonical" href="https://antennapod.org/it/contribute/develop">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
@@ -22,14 +22,14 @@
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sviluppo – AntennaPod">
-  <meta name="twitter:description" content="Sai scrivere codice? Aiutaci a testare il codice, inoltra nuove funzioni oppure risolvi dei bug nell'applicazione o nel sito web.">
+  <meta name="twitter:description" content="Sai scrivere codice? Aiutaci a testare le richieste pull, invia nuove funzioni oppure risolvi dei bug nell'applicazione o nel sito web.">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/it/contribute/develop">
   <meta property="og:title" content="Sviluppo – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
-  <meta property="og:description" content="Sai scrivere codice? Aiutaci a testare il codice, inoltra nuove funzioni oppure risolvi dei bug nell'applicazione o nel sito web.">
+  <meta property="og:description" content="Sai scrivere codice? Aiutaci a testare le richieste pull, invia nuove funzioni oppure risolvi dei bug nell'applicazione o nel sito web.">
   <meta property="og:site_name" content="AntennaPod">
   
   <!-- Favicon -->
@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/contribute/develop">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/contribute/develop">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/contribute/develop">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/contribute/develop">Italiano</a>
   
 
   
@@ -205,54 +213,54 @@
     <div class="row justify-content-center">
       <div class="col-lg-12">
         <article class="post-content">
-            <p>Come progetto comunitario, AntennaPod si basa su contributi volontari di codice
-da una vasta gamma di persone. Non solo per l’applicazione stessa, ma anche per
+            <p>Come progetto di comunità, AntennaPod si basa su contributi volontari di codice
+da una vasta gamma di persone. Non solo per l’applicazione in sé, ma anche per
 il sito web e i progetti correlati.</p>
 
 <h1 id="app-java">App (Java)</h1>
 
-<p>Sei proprio lì: nel cuore del progetto! Usato da migliaia di persone in tutto il
-mondo, i tuoi contributi sono un contributo importante per un ecosistema di
+<p>Sei proprio lì: nel cuore del progetto! Usati da migliaia di persone in tutto il
+mondo, i tuoi contributi danno un apporto importante ad un ecosistema di
 podcasting aperto. Allora, hai esperienza con Java o sei solo agli inizi?
 Accogliamo i tuoi contributi nel nostro <a href="https://github.com/AntennaPod/AntennaPod">repository GitHub</a>.</p>
 
 <h2 id="dove-abbiamo-bisogno-di-aiuto">Dove abbiamo bisogno di aiuto</h2>
 
 <p>Ci sono alcune aree in cui il tuo supporto può essere prezioso. Perché sono cose
-importanti, molto richieste, o entrambe. Abbiamo impostato una chiara panoramica
-<a href="https://github.com/AntennaPod/AntennaPod/projects/2">dei problemi e delle aree di funzionalità in cui abbiamo più bisogno di
-aiuto</a>. Dedicati a uno dei
-seguenti problemi e ti aggiungeremo alla nostra lista (mentale) di eterna
-gratitudine!</p>
+importanti, molto richieste, o entrambe le cose. Abbiamo predisposto una chiara
+panoramica <a href="https://github.com/AntennaPod/AntennaPod/projects/2">dei problemi e delle aree di funzionalità in cui abbiamo più
+bisogno di aiuto</a>. Dedicati
+a uno dei seguenti problemi e ti aggiungeremo alla nostra lista (mentale) di
+eterna gratitudine!</p>
 
-<p>Oltre a questi grandi progetti, puoi sempre controllare <a href="https://github.com/AntennaPod/AntennaPod/labels/help%20wanted">i problemi
-(“issues”) contrassegnati con l’etichetta “help wanted” (cercasi aiuto)</a>
+<p>Oltre a questi grandi progetti, puoi sempre controllare <a href="https://github.com/AntennaPod/AntennaPod/labels/help%20wanted">le issue
+contrassegnate con l’etichetta “help wanted” (cercasi aiuto)</a>
 su GitHub.</p>
 
-<p>Se preferisci andare a caccia di bug, la lista da cui partire per una caccia ai
-bug nel fine settimana è <a href="https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug">quella che trovi nel problema (“issue”) con
-etichetta “confirmed bugs” (bug confermati)</a>
+<p>Se preferisci andare a caccia di bug, l’elenco da cui partire per un fine
+settimana di caccia è <a href="https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug">quello delle issue con etichetta “confirmed bugs”
+(bug confermati)</a>
 su GitHub.</p>
 
 <h2 id="per-iniziare">Per iniziare</h2>
 
-<p><strong>Prima</strong> Per favore non limitarti a presentare un PR, ma <em>annuncia sempre prima
-il tuo interesse</em>. A volte non abbiamo ancora raggiunto un accordo
-sull’esperienza utente e sull’interfaccia. Può succedere che qualcuno abbia
-accettato di iniziare a lavorare su qualcosa, ma abbiamo dimenticato di
-‘assegnare’ il problema su GitHub. Contribuire sul nostro forum è il modo
+<p><strong>Prima</strong> Per favore non limitarti a presentare una PR, ma <em>annuncia sempre in
+anticipo che sei interessato</em>. A volte non abbiamo ancora raggiunto un accordo
+sull’esperienza utente e sull’interfaccia. Può anche succedere che qualcuno
+abbia accettato di iniziare a lavorare su qualcosa, ma che abbiamo dimenticato
+di “assegnare” loro la issue su GitHub. Intervenire sul nostro forum è il modo
 migliore per evitare di perdere ore su codice che non verrà accettato.</p>
 
-<p><strong>Durante</strong> Dai un’occhiata alla nostro wiki; contiene <a href="https://github.com/AntennaPod/AntennaPod/wiki">informazioni utili
+<p><strong>Durante</strong> Dai un’occhiata alla nostra wiki; contiene <a href="https://github.com/AntennaPod/AntennaPod/wiki">informazioni utili
 per chi contribuisce</a>. Ci
 troverai, per esempio, informazioni sullo <a href="https://github.com/AntennaPod/AntennaPod/wiki/Code-style">stile del codice</a>
-del progetto e <a href="https://github.com/AntennaPod/AntennaPod/wiki/Getting-accredited-on-the-Contributors-page">come assicurarti di essere accreditato</a>
-per il tuo lavoro nell’applicazione. Ultimo ma non meno importante: istruzioni
+del progetto e su <a href="https://github.com/AntennaPod/AntennaPod/wiki/Getting-accredited-on-the-Contributors-page">come assicurarti di essere accreditato</a>
+per il tuo lavoro sull’applicazione. Ultimo ma non meno importante: istruzioni
 per la compilazione e informazioni sui log di debug.</p>
 
-<p><strong>Dopo</strong> Parla del tuo lavoro, e rivendica il riconoscimento che meriti!
-Potrebbe ispirare altri potenziali collaboratori, e aiuta a promuovere
-l’applicazione in generale. Saremo felici di ritwittare i tuoi tweet!</p>
+<p><strong>Dopo</strong> Parla del tuo lavoro e rivendica il riconoscimento che meriti! Potrebbe
+ispirare altri potenziali collaboratori e in generale aiuta a promuovere
+l’applicazione. Saremo felici di ritwittare i tuoi tweet!</p>
 
 <h1 id="sito-web-scss-html">Sito web (SCSS, HTML)</h1>
 
@@ -261,31 +269,32 @@ Ora siamo pronti ad espanderci! Hai familiarità con <a href="https://jekyllrb.c
 Allora aiutaci a implementare <a href="https://forum.antennapod.org/t/sitemap-for-the-new-website/240">la nostra lista dei desideri del sito web</a>
 (o parte di essa) e controlla il nostro <a href="https://github.com/AntennaPod/antennapod.github.io">repository del sito web</a>.</p>
 
-<h1 id="altri-progetti-a-monte">Altri progetti a monte</h1>
+<h1 id="progetti-a-monte-e-altri">Progetti a monte e altri</h1>
 
-<p>AntennaPod non vive in isolamento. Il progetto si basa su molti altri -
-contribuire a questi significa aiutare AntennaPod a prosperare:</p>
+<p>AntennaPod non vive in isolamento, ma si basa su molti altri progetti.
+Contribuire a questi significa aiutare AntennaPod a prosperare:</p>
 
 <ul>
   <li>
-<strong>Nextcloud Podcast app</strong> (Vue, PHP, Javascript) Nel dicembre 2020 Jonas
-Heinrich ha creato l’applicazione <a href="https://apps.nextcloud.com/apps/podcast">Nextcloud Podcast</a>,
-che è perfetta per iscriversi e ascoltare i podcast online, in un ambiente
+<strong>App di Podcast Nextcloud</strong> (Vue, PHP, Javascript) Nel dicembre 2020 Jonas
+Heinrich ha creato l’app di <a href="https://apps.nextcloud.com/apps/podcast">Podcast di Nextcloud</a>,
+che è già ottima per iscriversi e ascoltare i podcast online in un ambiente
 “self-hosted”. Il suo ulteriore sviluppo e <a href="https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103">l’integrazione con AntennaPod</a>
 sarebbero un’aggiunta molto gradita.</li>
   <li>
 <strong>gpodder.net</strong> (Python, HTML) L’ormai storico e libero progetto <a href="https://gpodder.net/">gpodder.net</a>
 permette agli utenti di collegare e sincronizzare i loro lettori di podcast.
-Purtroppo il progetto è vittima del suo stesso successo: il webserver spesso non
-è disponibile e gli utenti di AntennaPod riscontrano errori di sincronizzazione.
-Qualsiasi contributo e sostegno al progetto e ai suoi manutentori è benvenuto,
-in particolare con <a href="https://github.com/gpodder/mygpo/issues/128">questo problema API</a>.</li>
+Purtroppo il progetto è vittima del suo stesso successo: il server web spesso
+non è disponibile e gli utenti di AntennaPod riscontrano errori di
+sincronizzazione. Qualsiasi contributo e sostegno al progetto e ai suoi
+manutentori è benvenuto, in particolare per quanto riguarda <a href="https://github.com/gpodder/mygpo/issues/128">questo problema
+di API</a>.</li>
 </ul>
 
-<h1 id="fatti-sentire">Fatti sentire!</h1>
+<h1 id="mettiti-in-contatto">Mettiti in contatto!</h1>
 
 <p>Vagamente interessato ma non ancora sicuro? Pronto per iniziare? Mettiti in
-contatto con <a href="https://github.com/Keunes" class="user-mention">@Keunes</a> o <a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a> <a href="https://forum.antennapod.org">nel nostro forum</a>!</p>
+contatto con <a href="https://github.com/Keunes" class="user-mention">@Keunes</a> o <a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a> <a href="https://forum.antennapod.org">sul nostro forum</a>!</p>
 
 
         </article>
@@ -307,7 +316,7 @@ contatto con <a href="https://github.com/Keunes" class="user-mention">@Keunes</a
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
                     <div class="small mb-4 mb-lg-3"><a href="/it"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open-source.</p>
+                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open source.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">

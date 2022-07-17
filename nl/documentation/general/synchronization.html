@@ -13,23 +13,23 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>How to synchronize between devices – AntennaPod</title>
-  <meta name="description" content="How to synchronize between devices">
+  <title>Tussen verschillende apparaten synchroniseren – AntennaPod</title>
+  <meta name="description" content="Tussen verschillende apparaten synchroniseren">
 
   <link rel="canonical" href="https://antennapod.org/nl/documentation/general/synchronization">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="How to synchronize between devices – AntennaPod">
-  <meta name="twitter:description" content="How to synchronize between devices">
+  <meta name="twitter:title" content="Tussen verschillende apparaten synchroniseren – AntennaPod">
+  <meta name="twitter:description" content="Tussen verschillende apparaten synchroniseren">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/nl/documentation/general/synchronization">
-  <meta property="og:title" content="How to synchronize between devices – AntennaPod">
+  <meta property="og:title" content="Tussen verschillende apparaten synchroniseren – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
-  <meta property="og:description" content="How to synchronize between devices">
+  <meta property="og:description" content="Tussen verschillende apparaten synchroniseren">
   <meta property="og:site_name" content="AntennaPod">
   
   <!-- Favicon -->
@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/general/synchronization">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/general/synchronization">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/general/synchronization">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/general/synchronization">Italiano</a>
   
 
   
@@ -210,35 +218,35 @@
       
     
       
-        / How to synchronize between devices
+        / Tussen verschillende apparaten synchroniseren
       
     
 </div>
 
-                <h1 id="how-to-synchronize-between-devices">How to synchronize between devices</h1>
+                <h1 id="tussen-verschillende-apparaten-synchroniseren">Tussen verschillende apparaten synchroniseren</h1>
 
-<p>AntennaPod currently supports two synchronization options: via <a href="https://gpodder.net/">gpodder.net</a>
-and the <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app for Nextcloud</a>.</p>
+<p>AntennaPod ondersteunt momenteel twee opties voor synchronisatie: via
+<a href="https://gpodder.net/">gpodder.net</a> en de <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app voor Nextcloud</a>.</p>
 
-<p>On gpodder.net anyone can create an account relatively easily and the service is
-free to use. Unfortunately the service has large numbers of users, limited
-funding and a lack of volunteer contributions. This means the server often is
-overloaded, leading to errors in AntennaPod. If possible, we therefore recommend
-that you use an existing account on a Nextcloud instance or start self-hosting
-either gpodder.net or Nextcloud.</p>
+<p>Op gpodder.net kan iedereen betrekkelijk eenvoudig een account aanmaken en de
+dienst is gratis te gebruiken. Helaas heeft de dienst grote aantallen
+gebruikers, beperkte financiering en een gebrek aan vrijwilligers. Dit betekent
+dat de server vaak overbelast is, wat leidt tot foutmeldingen in AntennaPod.
+Indien mogelijk raden wij daarom aan om een bestaand account op een
+Nextcloud-server te gebruiken of zelf gpodder.net of Nextcloud te gaan hosten.</p>
 
-<h2 id="gpodder-sync-app-for-nextcloud">gPodder Sync app for Nextcloud</h2>
+<h2 id="gpodder-sync-app-voor-nextcloud">gPodder Sync-app voor Nextcloud</h2>
 
-<p>If you have a Nextcloud account, install the gPodder Sync app or ask your server
-admin to do so. Once that is installed, simply go to <code class="language-plaintext highlighter-rouge">Settings</code> »
-<code class="language-plaintext highlighter-rouge">Synchronization</code> in AntennaPod, choose the relevant provider and enter the
-server address.</p>
+<p>Heb je een Nextcloud-account? Installeer dan de gPodder Sync-app of vraag je
+server-administrator om dit te doen. Eens de app geïnstalleerd is, ga je
+simpelweg naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Synchronisatie</code> in AntennaPod, kies je de
+relevante provider en voer je het serveradres in.</p>
 
-<h2 id="gpoddernet--your-own-gpodder-server">gpodder.net &amp; your own gpodder server</h2>
+<h2 id="gpoddernet--je-eigen-gpodder-server">gpodder.net &amp; je eigen gpodder-server</h2>
 
 <ul>
   <li>
-    <p>Create an account on gpodder.net or log in if you have one already.</p>
+    <p>Maak een account aan op gpodder.net of log in als je er al een hebt.</p>
 
     <ul>
       <li>
@@ -247,25 +255,26 @@ gpodder.net/devices/ voor elke client die je gebruikt:<br><img src="/assets/imag
       </li>
       <li>
         <p>Koppel de toestellen, na het aanmaken, met de “Configure” knop. Op deze manier
-houdt gpodder.net automatisch de abonnementen van beide toestellen
+houdt gpodder.net automatisch de abonnementen van de geactiveerde toestellen
 gesynchroniseerd.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchroniseren" width="" class=""></p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Then go to AntennaPod’s <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code>. There you can log in
-to gpodder.net or even provide an alternative server if you want to host it
-yourself. During login, AntennaPod asks what device you are currently logged
-into. Select your newly created device.</p>
+    <p>Ga dan in AntennaPod naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Synchronisatie</code>. Daar kun je
+inloggen op gpodder.net of zelfs een alternatieve server opgeven als je zelf
+wilt hosten. Tijdens het inloggen vraagt AntennaPod op welk apparaat je
+momenteel ingelogd bent. Selecteer je nieuw aangemaakte apparaat.</p>
   </li>
 </ul>
 
-<p><em>Did you create a device while logging in, rather than in advance as suggested
-above?</em> Then be sure to press the <code class="language-plaintext highlighter-rouge">Force sync</code> button in AntennaPod to upload
-the played state of all the episodes you listened to earlier. If you don’t do
-this, only podcasts that were added <strong>after</strong> linking the devices are
-synchronized. There is an <a href="https://github.com/gpodder/mygpo/issues/388">open issue for gpodder.net</a>
-that requests to change the behavior.</p>
+<p><em>Heb je een apparaat aangemaakt tijdens het inloggen in plaats van vooraf, zoals
+hierboven voorgesteld?</em> Druk dan op de knop <code class="language-plaintext highlighter-rouge">Volledige synchronisatie afdwingen</code>
+in AntennaPod om de ‘afgespeeld’-status te uploaden van alle afleveringen die je
+eerder beluisterd hebt. Als je dit niet doet, worden alleen de podcasts
+gesynchroniseerd die werden toegevoegd <strong>na</strong> het koppelen van de apparaten. Er
+is een <a href="https://github.com/gpodder/mygpo/issues/388">open ticket voor gpodder.net</a>
+dat vraagt om dit te veranderen.</p>
 
 
             </article>
@@ -376,7 +385,7 @@ that requests to change the behavior.</p>
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
                                 href="/nl/media-kit"><span></span></a></div>-->
                     </div>

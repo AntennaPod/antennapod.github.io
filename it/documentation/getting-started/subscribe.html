@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/getting-started/subscribe">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/getting-started/subscribe">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/getting-started/subscribe">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/getting-started/subscribe">Italiano</a>
   
 
   
@@ -220,15 +228,16 @@
 <p>La prima cosa da fare dopo aver scaricato un’applicazione per podcast è
 abbonarsi a un podcast.</p>
 
-<h2 id="come-abbonarsi">Come abbonarsi</h2>
+<h2 id="abbonamenti">Abbonamenti</h2>
 
-<p>Apri il cassetto scorrendo col dito da sinistra a destra o toccando l’icona <code class="language-plaintext highlighter-rouge">☰</code>
-in alto a sinistra. Vai su <code class="language-plaintext highlighter-rouge">+ Aggiungi Podcast</code>. Da qui puoi fare una ricerca,
-sfogliare i suggerimenti o aggiungere un podcast inserendo il suo indirizzo RSS.</p>
+<p>Apri il menù laterale scorrendo col dito da sinistra a destra o toccando l’icona
+<code class="language-plaintext highlighter-rouge">☰</code> in alto a sinistra. Vai su <code class="language-plaintext highlighter-rouge">+ Aggiungi Podcast</code>. Da qui puoi fare una
+ricerca, sfogliare i suggerimenti o aggiungere un podcast inserendo il suo
+indirizzo RSS.</p>
 
-<p>In alternativa, puoi importare un file OPML o controllare solo i database di
-iTunes, gpodder.net, fyyd o Podcast Index rispettivamente. Va bene anche
-importare feed RSS o Atom o schemi di URL come <code class="language-plaintext highlighter-rouge">pcast://</code> e <code class="language-plaintext highlighter-rouge">itpc://</code>.</p>
+<p>In alternativa, puoi importare un file OPML o controllare solo il database di
+iTunes, gpodder.net, fyyd o Podcast Index rispettivamente. Funzionerà anche
+l’importazione di feed RSS o Atom, o schemi di URL come <code class="language-plaintext highlighter-rouge">pcast://</code> e <code class="language-plaintext highlighter-rouge">itpc://</code>.</p>
 
 <h2 id="abbonarsi-a-servizi-di-terzi">Abbonarsi a servizi di terzi</h2>
 
@@ -237,31 +246,32 @@ SoundCloud, Mixcloud e simili. Sebbene possa essere bello avere una funzione per
 incollare/aprire semplicemente gli indirizzi URL dei canali in AntennaPod, <a href="https://github.com/AntennaPod/AntennaPod/issues/1297">è
 stato deciso</a> di non
 implementarla. Tali piattaforme possono nascere e scomparire, mentre per i
-nostri volontari implementare questa funzione è un bel po’ di lavoro. Se sei uno
-sviluppatore, naturalmente sei il benvenuto se vuoi parlare di una proposta che
-saresti felice di implementare.</p>
+nostri volontari implementare questa funzione richiede un bel po’ di lavoro. Se
+sei uno sviluppatore, naturalmente sei il benvenuto se vuoi discutere una
+proposta che vorresti implementare tu stesso.</p>
 
 <h3 id="soundcloud">SoundCloud</h3>
 
 <p>SoundCloud permette <a href="https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed">ai produttori di creare podcast</a>
-dai loro contenuti abbastanza facilmente. Dovresti contattarli, condividere la
-pagina di aiuto di SoundCloud (linkata poco sopra) e chiedere loro se sono
-disposti a configurarlo.</p>
+a partire dai loro contenuti abbastanza facilmente. Dovresti contattarli,
+condividere la pagina di aiuto di SoundCloud (linkata qui sopra) e chiedere loro
+se sono disposti a configurarlo.</p>
 
 <h3 id="mixcloud">Mixcloud</h3>
 
-<p>Mixcloud purtroppo non offre questa opzione per i creatori di contenuti. Come
+<p>Purtroppo Mixcloud non offre questa opzione per i creatori di contenuti. Come
 sempre, ci ha pensato qualcuno nella comunità del podcasting a trovare una
 soluzione. Dovresti <a href="https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures">controllare le opzioni</a>
 come indicato in questo post.</p>
 
 <h3 id="youtube">YouTube</h3>
 
-<p>YouTube ti permette di iscriverti a un canale, ma:</p>
+<p>YouTube ti permette di abbonarti a un canale, ma:</p>
 
 <ul>
   <li>AntennaPod non può scaricare automaticamente i video, perché YouTube non lo
-permette. Mostrare annunci è il loro modello di business, dopo tutto.</li>
+permette. Mostrare inserzioni pubblicitarie è il loro modello di business, dopo
+tutto.</li>
   <li>Non avrai un’immagine collegata al tuo abbonamento, poiché YouTube non la
 include nei feed.</li>
 </ul>
@@ -272,10 +282,10 @@ dell’utente/canale (<code class="language-plaintext highlighter-rouge">https:/
 finestra di dialogo con l’opzione ‘RSS’; tocca per aggiungere il feed. Se questo
 non funziona come descritto, aggiungi
 <code class="language-plaintext highlighter-rouge">https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt;</code> ad
-AntennaPod. Puoi trovare l’id del canale nell’URL del canale. Se il canale a cui
-vuoi iscriverti è un account utente (con un URL del tipo
+AntennaPod. Puoi trovare l’ID del canale nell’URL del canale. Se il canale a cui
+vuoi abbonarti è un account utente (con un URL del tipo
 youtube.com/user/UserName), puoi contattare l’utente per chiedergli qual è il
-suo channel id (qui è spiegato <a href="https://support.google.com/youtube/answer/3250431?hl=en">come gli utenti possono trovare il loro
+suo channel ID (qui è spiegato <a href="https://support.google.com/youtube/answer/3250431?hl=en">come gli utenti possono trovare il loro
 channel id</a>).</p>
 
 <p>Non abbiamo informazioni su altre piattaforme, come puoi vedere. Saremo lieti di
@@ -377,7 +387,7 @@ includerle qui se condividerai le tue osservazioni tramite il <a href="https://f
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
                     <div class="small mb-4 mb-lg-3"><a href="/it"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open-source.</p>
+                    <p class="size-14 color-gray-900 mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open source.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">

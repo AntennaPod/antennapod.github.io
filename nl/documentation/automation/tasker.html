@@ -101,6 +101,10 @@
   
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/automation/tasker">Italiano</a>
+  
+
+  
     <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/automation/tasker">Nederlands</a>
   
 
@@ -127,6 +131,10 @@
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/automation/tasker">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/automation/tasker">Italiano</a>
   
 
   
@@ -217,19 +225,18 @@
 
                 <h1 id="integratie-met-andere-apps">Integratie met andere apps</h1>
 
-<p>AntennaPod heeft een instelling om abonnementen (podcastfeeds) met regelmatige
-tussenpozen of op een bepaald tijdstip van de dag te verversen in <code class="language-plaintext highlighter-rouge">Netwerk</code> »
-<code class="language-plaintext highlighter-rouge">Automatische acties</code> » <code class="language-plaintext highlighter-rouge">Podcasts verversen</code>.</p>
+<p>AntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te
+verversen (zie <a href="/refreshing-podcasts">Refreshing podcasts</a>).</p>
 
 <p>Voor meer ingewikkelde behoeften bestaan verschillende
 automatiseringstoepassingen van derden voor gebruik met AntennaPod.
 Bijvoorbeeld:</p>
 
 <ul>
-  <li>Abonnementen bij het begin van de dag bijwerken: om 7 uur ‘s morgens WIFI
-aanzetten, dan AntennaPod feeds bijwerken.</li>
-  <li>Get your subscriptions before your ride home: at 5pm on weekdays update
-subscriptions.</li>
+  <li>Werk de abonnementen bij aan het begin van de dag: zet om 7 uur ‘s ochtends
+WiFi aan, werk vervolgens AntennaPod feeds bij.</li>
+  <li>Haal je abonnementen op voor je naar huis gaat: update abonnementen op
+werkdagen om 17:00.</li>
 </ul>
 
 <h2 id="instructies">Instructies</h2>
@@ -249,13 +256,15 @@ Android-intentie) met de volgende instellingen:</p>
 
 <h3 id="automate-website">Automate (<a href="https://llamalab.com/automate/">website</a>)</h3>
 
-<p>In een ‘flow’ voeg je een blok toe van het type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code>,
+<p>Voeg in een ‘flow’ een blok toe van het type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> en
 specificeer</p>
 
 <ol>
-  <li>Pakket moet <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod </code> zijn</li>
-  <li>Ontvangerklasse moet <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-zijn</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> als het pakket</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> als de ‘receiver
+class’</li>
 </ol>
 
 <h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">website</a>)</h3>
@@ -293,7 +302,7 @@ zijn</li>
 </ol>
 
 <p>Als snelkoppeling kunt u klikken op de <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">deze link</a>
-om een voorbeeldgebeurtenis te maken om mee te beginnen.</p>
+om een voorbeeldgebeurtenis te maken, om mee te beginnen.</p>
 
 <hr>
 
@@ -409,7 +418,7 @@ vermelde automatiseringstoepassingen van derden.</p>
                 </div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
                     <div class="small">
-                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
                                 href="/nl/media-kit"><span></span></a></div>-->
                     </div>
