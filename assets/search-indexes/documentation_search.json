@@ -5,8 +5,9 @@ layout: null
   {% for documentation in site.documentation %}
     {
       "title"    : "{% t {{ documentation.title | escape }} %}",
-      "url"      : "{{ documentation.url | replace:'.html','' }}",
+      "url"      : "{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{{ documentation.url | replace:'.html','' }}",
       "content"  : {{ documentation.content | strip_html | strip_newlines | jsonify }}
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
+
