@@ -1,7 +1,4 @@
-Quando un episodio è stato messo in pausa e poi viene ripresa la riproduzione,
-AntennaPod si riavvolge automaticamente, così è più facile continuare a seguire
-lo spettacolo. Quanto viene riavvolto non è configurabile e dipende da quanto
-tempo un episodio è stato messo in pausa.
+Quando un episodio è stato messo in pausa e poi viene ripresa la riproduzione, AntennaPod si riavvolge automaticamente, così è più facile continuare a seguire lo spettacolo. Quanto viene riavvolto non è configurabile e dipende da quanto tempo un episodio è stato messo in pausa.
 
 | Tempo trascorso dall'ultima riproduzione | Durata del riavvolgimento |
 | --- | --- |
