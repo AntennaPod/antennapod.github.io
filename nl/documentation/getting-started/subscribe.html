@@ -229,64 +229,38 @@
 
 <h2 id="abonneren">Abonneren</h2>
 
-<p>Open het menu door van links te vegen of te tikken op het <code class="language-plaintext highlighter-rouge">☰</code> hamburgerpictogram
-in de linkerbovenhoek. Ga naar <code class="language-plaintext highlighter-rouge">+ Podcast toevoegen</code>. Daar kun je zoeken,
-suggesties bekijken en een podcast toevoegen met het RSS adres.</p>
+<p>Open het menu door van links te vegen of te tikken op het <code class="language-plaintext highlighter-rouge">☰</code> hamburgerpictogram in de linkerbovenhoek. Ga naar <code class="language-plaintext highlighter-rouge">+ Podcast toevoegen</code>. Daar kun je zoeken, suggesties bekijken en een podcast toevoegen met het RSS adres.</p>
 
-<p>Je kan ook een OPML-bestand importeren. Of zoek uitsluitend in de iTunes-,
-gpodder.net-, fyyd- of Podcast Index-database. Het importeren van RSS- of
-Atom-feeds of het gebruik van URL-schema’s zoals <code class="language-plaintext highlighter-rouge">pcast://</code> en <code class="language-plaintext highlighter-rouge">itpc://</code> zijn
-ook mogelijk.</p>
+<p>Je kan ook een OPML-bestand importeren. Of zoek uitsluitend in de iTunes-, gpodder.net-, fyyd- of Podcast Index-database. Het importeren van RSS- of Atom-feeds of het gebruik van URL-schema’s zoals <code class="language-plaintext highlighter-rouge">pcast://</code> en <code class="language-plaintext highlighter-rouge">itpc://</code> zijn ook mogelijk.</p>
 
 <h2 id="abonneren-op-diensten-van-derden">Abonneren op diensten van derden</h2>
 
-<p>We kregen enkele vragen over ondersteuning voor platforms zoals SoundCloud,
-Mixcloud en dergelijke. Hoewel een functie om een kanaal-URL direct in
-AntennaPod te plakken/openen handig lijkt, is <a href="https://github.com/AntennaPod/AntennaPod/issues/1297">besloten</a>
-dit niet te implementeren. Dergelijke platformen zijn soms maar kort actief,
-terwijl het behoorlijk wat werk is voor onze vrijwilligers om deze functie te
-implementeren. Als je ontwikkelaar bent, ben je natuurlijk welkom om een
-voorstel te bespreken dat je graag zou willen implementeren.</p>
+<p>We kregen enkele vragen over ondersteuning voor platforms zoals SoundCloud, Mixcloud en dergelijke. Hoewel een functie om een kanaal-URL direct in AntennaPod te plakken/openen handig lijkt, is <a href="https://github.com/AntennaPod/AntennaPod/issues/1297">besloten</a> dit niet te implementeren. Dergelijke platformen zijn soms maar kort actief, terwijl het behoorlijk wat werk is voor onze vrijwilligers om deze functie te implementeren. Als je ontwikkelaar bent, ben je natuurlijk welkom om een voorstel te bespreken dat je graag zou willen implementeren.</p>
 
 <h3 id="soundcloud">SoundCloud</h3>
 
-<p>Op SoundCloud kunnen makers vrij eenvoudig hun <a href="https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed">content omtoveren tot
-podcast</a>.
-Neem contact met op met de maker, deel de SoundCloud-helppagina (zie de link) en
-vraag of ze bereid zijn om het in te stellen.</p>
+<p>Op SoundCloud kunnen makers vrij eenvoudig hun <a href="https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed">content omtoveren tot podcast</a>. Neem contact met op met de maker, deel de SoundCloud-helppagina (zie de link) en vraag of ze bereid zijn om het in te stellen.</p>
 
 <h3 id="mixcloud">Mixcloud</h3>
 
-<p>Mixcloud biedt deze functie voor contentmakers helaas niet aan. Zoals altijd is
-er iemand in de podcasting-community met een oplossing. We raden je aan om eens
-te kijken naar <a href="https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures">de opties beschreven in deze blogpost</a>.</p>
+<p>Mixcloud biedt deze functie voor contentmakers helaas niet aan. Zoals altijd is er iemand in de podcasting-community met een oplossing. We raden je aan om eens te kijken naar <a href="https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures">de opties beschreven in deze blogpost</a>.</p>
 
 <h3 id="youtube">YouTube</h3>
 
 <p>YouTube laat je abonneren op een kanaal-feed, maar:</p>
 
 <ul>
-  <li>AntennaPod kan de video’s niet automatisch downloaden, omdat YouTube dat niet
-toestaat. Het tonen van advertenties is immers hun businessmodel.</li>
-  <li>Je zult geen afbeelding hebben die aan je abonnement gekoppeld is, omdat
-YouTube deze niet in de feeds opneemt.</li>
+  <li>
+    <p>AntennaPod kan de video’s niet automatisch downloaden, omdat YouTube dat niet toestaat. Het tonen van advertenties is immers hun businessmodel.</p>
+  </li>
+  <li>
+    <p>Je zult geen afbeelding hebben die aan je abonnement gekoppeld is, omdat YouTube deze niet in de feeds opneemt.</p>
+  </li>
 </ul>
 
-<p>Maar het is een manier om op de hoogte te blijven van nieuwe afleveringen. Voeg
-gewoon de URL van de gebruiker/kanaal (<code class="language-plaintext highlighter-rouge">https://www.youtube.com/user/USERNAME</code>
-of <code class="language-plaintext highlighter-rouge">https://www.youtube.com/channel/CHANNEL_ID</code>) toe aan AntennaPod. Er
-verschijnt een dialoogvenster met de optie ‘RSS’; tik om de feed toe te voegen.
-Als je op deze manier je niet kunt abonneren, voeg dan
-<code class="language-plaintext highlighter-rouge">https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt;</code> toe aan
-AntennaPod. De kanaal-ID staat in de URL van het kanaal. Als het kanaal een
-gebruikersaccount is (met een URL zoals youtube.com/user/UserName), vraag je aan
-de gebruiker wat zijn kanaal-ID is (hier wordt uitgelegd <a href="https://support.google.com/youtube/answer/3250431?hl=nl">hoe gebruikers hun
-kanaal-ID kunnen vinden</a>).</p>
+<p>Maar het is een manier om op de hoogte te blijven van nieuwe afleveringen. Voeg gewoon de URL van de gebruiker/kanaal (<code class="language-plaintext highlighter-rouge">https://www.youtube.com/user/USERNAME</code> of <code class="language-plaintext highlighter-rouge">https://www.youtube.com/channel/CHANNEL_ID</code>) toe aan AntennaPod. Er verschijnt een dialoogvenster met de optie ‘RSS’; tik om de feed toe te voegen. Als je op deze manier je niet kunt abonneren, voeg dan <code class="language-plaintext highlighter-rouge">https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt;</code> toe aan AntennaPod. De kanaal-ID staat in de URL van het kanaal. Als het kanaal een gebruikersaccount is (met een URL zoals youtube.com/user/UserName), vraag je aan de gebruiker wat zijn kanaal-ID is (hier wordt uitgelegd <a href="https://support.google.com/youtube/answer/3250431?hl=nl">hoe gebruikers hun kanaal-ID kunnen vinden</a>).</p>
 
-<p>We hebben geen info over andere platforms, zoals je kunt zien. Als je een idee
-hebt van een platform en hoe je je daar op een kanaal kunt abonneren, laat het
-ons weten via ons <a href="https://forum.antennapod.org/">forum</a>. We voegen de info hier
-graag toe.</p>
+<p>We hebben geen info over andere platforms, zoals je kunt zien. Als je een idee hebt van een platform en hoe je je daar op een kanaal kunt abonneren, laat het ons weten via ons <a href="https://forum.antennapod.org/">forum</a>. We voegen de info hier graag toe.</p>
 
 
             </article>

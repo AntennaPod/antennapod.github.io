@@ -225,30 +225,30 @@
 
                 <h1 id="intégration-avec-dautres-applications">Intégration avec d’autres applications</h1>
 
-<p>Avec AntennaPod, vous pouvez spécifier les abonnements (flux de podcasts) à
-mettre à jour régulièrement (voir l’<a href="/refreshing-podcasts">Actualisation des podcasts</a>).</p>
+<p>Avec AntennaPod, vous pouvez spécifier les abonnements (flux de podcasts) à mettre à jour régulièrement (voir l’<a href="/refreshing-podcasts">Actualisation des podcasts</a>).</p>
 
-<p>Si vous avez des besoins plus complexes, vous pouvez utiliser différentes
-applications tierces vous permettant d’automatiser AntennaPod. Par exemple :</p>
+<p>Si vous avez des besoins plus complexes, vous pouvez utiliser différentes applications tierces vous permettant d’automatiser AntennaPod. Par exemple :</p>
 
 <ul>
-  <li>Mettez les abonnements à jour en début de journée : à 7 heures du matin,
-allumez le WIFI, puis mettez à jour les flux d’AntennaPod.</li>
-  <li>Get your subscriptions before your ride home: at 5pm on weekdays update
-subscriptions.</li>
+  <li>
+    <p>Mettez les abonnements à jour en début de journée : à 7 heures du matin, allumez le WIFI, puis mettez à jour les flux d’AntennaPod.</p>
+  </li>
+  <li>
+    <p>Get your subscriptions before your ride home: at 5pm on weekdays update subscriptions.</p>
+  </li>
 </ul>
 
 <h2 id="consignes-générales">Consignes générales</h2>
 
-<p>Dans votre application d’automatisation, vous pouvez demander à AntennaPod de
-mettre à jour ses abonnements en envoyant un ‘Broadcast’ (qui peut être présenté
-comme un type d’Intent Android) avec les paramètres suivants :</p>
+<p>Dans votre application d’automatisation, vous pouvez demander à AntennaPod de mettre à jour ses abonnements en envoyant un ‘Broadcast’ (qui peut être présenté comme un type d’Intent Android) avec les paramètres suivants :</p>
 
 <ul>
-  <li>Nom du paquet : <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Nom de la classe : <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Nom du paquet : <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Nom de la classe : <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="instructions-pour-certaines-applications-dautomatisation">Instructions pour certaines applications d’automatisation</h2>
@@ -258,11 +258,12 @@ comme un type d’Intent Android) avec les paramètres suivants :</p>
 <p>Dans un flux, ajoutez un bloc de type <code class="language-plaintext highlighter-rouge">APPS</code> → <code class="language-plaintext highlighter-rouge">Broadcast send</code>, et spécifiez</p>
 
 <ol>
-  <li>Le paquet doit être <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>La classe du récepteur doit être
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Le paquet doit être <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>La classe du récepteur doit être <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
+  </li>
 </ol>
 
 <h3 id="tasker-site-web">Tasker (<a href="https://tasker.joaoapps.com/">site web</a>)</h3>
@@ -270,18 +271,24 @@ comme un type d’Intent Android) avec les paramètres suivants :</p>
 <p>Créez une tâche. Dans la tâche, ajoutez une action</p>
 
 <ol>
-  <li>Sélectionnez <code class="language-plaintext highlighter-rouge">Système</code>
-</li>
-  <li>Sélectionnez <code class="language-plaintext highlighter-rouge">Envoyer l'intention</code>
-</li>
-  <li>Spécifiez le nom du paquet comme étant <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Spécifiez le nom de la classe comme étant
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-</li>
-  <li>Spécifier la cible comme étant <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
-</li>
-  <li>Vous pouvez laisser les autres champs vides</li>
+  <li>
+    <p>Sélectionnez <code class="language-plaintext highlighter-rouge">Système</code></p>
+  </li>
+  <li>
+    <p>Sélectionnez <code class="language-plaintext highlighter-rouge">Envoyer l'intention</code></p>
+  </li>
+  <li>
+    <p>Spécifiez le nom du paquet comme étant <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Spécifiez le nom de la classe comme étant <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
+  </li>
+  <li>
+    <p>Spécifier la cible comme étant <code class="language-plaintext highlighter-rouge">Broadcast receiver</code></p>
+  </li>
+  <li>
+    <p>Vous pouvez laisser les autres champs vides</p>
+  </li>
 </ol>
 
 <h3 id="llama---profils-de-localisation-site-web">Llama - Profils de localisation (<a href="http://kebabapps.blogspot.com/search/label/Llama">site web</a>)</h3>
@@ -289,23 +296,28 @@ comme un type d’Intent Android) avec les paramètres suivants :</p>
 <p>Créez un événement (règle d’automatisation de Llama). Dans l’événement,</p>
 
 <ol>
-  <li>Ajouter une action d’intention pour Android.</li>
-  <li>Spécifier le mode d’envoi de l’intention comme étant <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
-  <li>Spécifiez le nom du paquet comme étant <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Spécifiez le nom de la classe comme étant
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
-</li>
-  <li>Ajoutez toute autre condition / action pour vos besoins spécifiques.</li>
+  <li>
+    <p>Ajouter une action d’intention pour Android.</p>
+  </li>
+  <li>
+    <p>Spécifier le mode d’envoi de l’intention comme étant <code class="language-plaintext highlighter-rouge">Broadcast</code>.</p>
+  </li>
+  <li>
+    <p>Spécifiez le nom du paquet comme étant <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Spécifiez le nom de la classe comme étant <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
+  </li>
+  <li>
+    <p>Ajoutez toute autre condition / action pour vos besoins spécifiques.</p>
+  </li>
 </ol>
 
-<p>En guise de raccourci, vous pouvez cliquer sur <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">ce lien</a>
-pour commencer en créant un exemple d’événement.</p>
+<p>En guise de raccourci, vous pouvez cliquer sur <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">ce lien</a> pour commencer en créant un exemple d’événement.</p>
 
 <hr>
 
-<p><strong>Avertissement:</strong> La communauté AntennaPod n’a aucune relation avec les
-applications d’automatisation tierces citées.</p>
+<p><strong>Avertissement:</strong> La communauté AntennaPod n’a aucune relation avec les applications d’automatisation tierces citées.</p>
 
 
             </article>
