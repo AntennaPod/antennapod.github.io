@@ -323,28 +323,6 @@ a {
   }
 }
 
-.latest-release {
-  font-size: 0.85rem;
-  color: $white;
-  background-color: $brand-dark;
-  padding: 0.4rem 0.8rem 0.4rem 0.4rem;
-  border-radius: 1rem;
-
-  &:hover {
-    color: $white;
-    background-color: $gray-800;
-    text-decoration: none;
-  }
-
-  span {
-    color: $white;
-    background-color: $brand-primary;
-    padding: 0.2rem 0.5rem;
-    border-radius: 1rem;
-    margin-right: 0.5rem;
-  }
-}
-
 // Buttons
 
 button {
@@ -639,6 +617,7 @@ blockquote {
   & #donate {
     color: $gray-800;
   }
+
 }
 
 .post .cover {
@@ -841,11 +820,11 @@ i.member-img {
 
 .project-card > h4.text-main,
 .post-content .project-card > p.text-main {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .post-content .project-card > h4.text-main {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .highlight-card {
@@ -1105,23 +1084,6 @@ footer {
   border-left: 0.3rem solid transparent;
   vertical-align: 0.1em;
   margin-left: 0.1em;
-}
-
-.changelog {
-  display: inline-block;
-  margin-block: 1rem;
-  p {
-    color: $gray-900;
-    margin-bottom: 0;
-  }
-}
-
-details > summary {
-  list-style: none;
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
 }
 
 // Pagination
