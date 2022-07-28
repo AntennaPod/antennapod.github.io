@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+      
+  
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privatlivspolitik – AntennaPod</title>
+  <meta name="description" content="AntennaPod er en podcast-afspiller, der er helt åben. Appen har åben kildekode, og du kan abonnere på alle RSS-feeds. AntennaPod er bygget af frivillige uden kommercielle intere...">
+
+  <link rel="canonical" href="https://antennapod.org/da/privacy">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Privatlivspolitik – AntennaPod">
+  <meta name="twitter:description" content="AntennaPod er en podcast-afspiller, der er helt åben. Appen har åben kildekode, og du kan abonnere på alle RSS-feeds. AntennaPod er bygget af frivillige uden kommercielle intere...">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/default.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/da/privacy">
+  <meta property="og:title" content="Privatlivspolitik – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/default.png">
+  <meta property="og:description" content="AntennaPod er en podcast-afspiller, der er helt åben. Appen har åben kildekode, og du kan abonnere på alle RSS-feeds. AntennaPod er bygget af frivillige uden kommercielle intere...">
+  <meta property="og:site_name" content="AntennaPod">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+
+  </head>
+  <body>
+    <div class="content">
+    <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/da">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/about">Om</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/contribute">Bidrag</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/documentation">Dokumentation</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="https://forum.antennapod.org/">Forum</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sprogskifter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">DA</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/privacy">Dansk</a>
+  
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/privacy">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/privacy">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/privacy">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/privacy">Nederlands</a>
+  
+
+
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sprogskifter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">DA</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/privacy">Dansk</a>
+  
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/privacy">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/privacy">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/privacy">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/privacy">Nederlands</a>
+  
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">×</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/da/about">Om</a>
+                
+                <a href="/da/blog">Blog</a>
+                
+                <a href="/da/contribute">Bidrag</a>
+                
+                <a href="/da/documentation">Dokumentation</a>
+                
+                <a href="https://forum.antennapod.org/">Forum</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+        <div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1 class="color-gray-800 weight-700">Privatlivspolitik</h1>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <article class="post-content">
+            <p>AntennaPod udvikles og vedligeholdes af individuelle frivillige og er ikke
+repræsenteret af nogen juridisk enhed. Fællesskabet har ikke brug for dine data,
+så appen og webstedet er designet til at være fuldt GDPR-kompatibelt. Læs videre
+for at få mere at vide.</p>
+
+<h2 id="hvilke-data-antennapod-appen-kan-indsamle-gemme-og-behandle">Hvilke data AntennaPod-appen kan indsamle, gemme og behandle</h2>
+
+<p>AntennaPod-appen gemmer kun de data, der er strengt nødvendige for, at appen kan
+fungere, og som du som bruger har givet. Dette omfatter f.eks. listen over
+podcasts, du følger, app-indstillingerne og autentifikationsdata, der er angivet
+for specifikke podcasts eller tjenester (f.eks. Gpodder). Appen indeholder ikke
+nogen reklamebiblioteker eller nogen tredjeparts sporingskode (analysekode),
+såsom Google Analytics.</p>
+
+<p>**Alle data, der leveres og oprettes af AntennaPod-appen, gemmes lokalt på din
+enhed. AntennaPod sender eller uploader ikke dine data nogen steder, undtagen
+hvor det er strengt nødvendigt for at appen kan fungere. ** Se det andet
+næstfølgende afsnit om de tilfælde, hvor dine oplysninger kan videregives til
+tredjeparter.</p>
+
+<p>Det eneste tilfælde, hvor dine data fra tredjeparter håndteres, er ved brug af
+en synkroniseringstjeneste, hvis den er aktiveret via indstillingerne. I det
+tilfælde kan appen modtage abonnementer og afspilningshændelser, der leveres af
+tjenesten.</p>
+
+<h2 id="app-tilladelser">App-tilladelser</h2>
+
+<p>Appen anmoder om følgende Android-tilladelser, der er relevante for beskyttelse
+af personlige oplysninger:</p>
+
+<ul>
+  <li>Læs fra/skriv til lager (fotos/medier/filer) Lagertilladelsen bruges til at
+åbne filer, som ikke er downloadet direkte fra appen. Den kan også bruges til at
+importere appindstillinger eller OPML-filer. Der anmodes kun om tilladelsen,
+hvis du udfører en handling, der kræver læsning fra lageret.</li>
+</ul>
+
+<h2 id="hvilke-app-data-andre-parter-kan-indsamle-gemme-og-behandle">Hvilke app-data andre parter kan indsamle, gemme og behandle</h2>
+
+<ul>
+  <li>Podcast-host: Når det er angivet i podcast-indstillingerne, modtager en host
+de godkendelsesdata, du har angivet. Webservere, der leverer podcast-feeds,
+indsamler muligvis yderligere data, f.eks. din IP-adresse, adgangstidspunkt og
+det, der er tilgået. Dette omfatter de episoder, du downloader eller streamer.
+Se deres respektive politikker om beskyttelse af personlige oplysninger for
+nærmere oplysninger. Du kan se URL’en for en podcast ved at åbne podcasten og
+trykke på infoikonet. AntennaPod tillader ikke, at fjernservere sætter cookies.
+Serverne kan registrere, at du bruger AntennaPod, og hvilken version af
+AntennaPod du bruger (HTTP User-Agent). Hvis flere podcasts er hostet på den
+samme server, kan serveren registrere listen over podcasts, som du har abonneret
+på, og som er hostet på den pågældende server. Dette kan ske, hvis udgivere
+bruger feedburner, podtrac eller lignende tjenester til at distribuere deres
+feeds.</li>
+  <li>Opdagelses- og søgetjenester: Når du åbner skærmen Opdag i appen, sender den
+et opkald til Apple for at indsamle podcast-forslag. De kan gemme forespørgslen,
+herunder land (der som standard er enhedens land). Disse forslag kan deaktiveres
+ved at vælge “fra” i regionsvælgeren. Når du bruger søgefunktionen i AntennaPod,
+kan tjenesterne PodcastIndex.org, iTunes, fyyd og gpodder.net gemme din
+forespørgsel, herunder søgetermerne. Opdagelses- og søgeforespørgsler omfatter
+også IP-adresse, tid og appnavn “AntennaPod”. Når du abonnerer, serveres feed’et
+fra podcast-hosteren, hvilket betyder, at opdagelses-/søgetjenesten ikke længere
+er involveret.</li>
+  <li>Synkroniseringstjenester: Når det er aktiveret via indstillingerne,
+synkroniserer AntennaPod dine data. Disse data kan omfatte loginoplysninger,
+abonnerede podcasts, aflyttede episoder, afspilning, pause og favorithandlinger
+med dato- og tidsstempler og IP-adresse. Du kan få flere oplysninger i din
+udbyders privatlivspolitik (f.eks. <a href="https://gpodder.net/privacy">gpodder.net’s privatlivspolitik</a>,
+eller den for din Nextcloud-vært).</li>
+  <li>Google: Hvis du har aktiveret sikkerhedskopiering og nulstilling i din
+telefons indstillinger (Indstillinger → Sikkerhedskopiering og nulstilling →
+Sikkerhedskopiering af mine data), skal du være opmærksom på, at Android selv
+med jævne mellemrum gemmer en kopi af din telefons data på Googles servere.
+Denne sikkerhedskopi indeholder private oplysninger, herunder dine
+WiFi-adgangskoder, beskeder og opkaldshistorik. Den kan også indeholde data fra
+AntennaPod og fra andre apps, du bruger. Udviklerne af AntennaPod har ikke
+adgang til disse data. For mere information, se <a href="https://policies.google.com">Google’s privatlivspolitik</a>.</li>
+</ul>
+
+<h2 id="hvilke-data-der-kan-blive-indsamlet-gemt-og-behandlet-fra-antennapod-online">Hvilke data der kan blive indsamlet, gemt og behandlet fra AntennaPod online</h2>
+<p>tjenester</p>
+
+<ul>
+  <li>Donationssystemet: AntennaPod bruger Open Collective, som tilbydes af Open
+Collective Inc (USA) &amp; Open Collective Europe ASBL (Belgien). Når du foretager
+en donation, får disse foretagender adgang til visse data. For yderligere
+oplysninger, se <a href="https://opencollective.com/privacypolicy">Open Collective’s privatlivspolitik</a>.</li>
+  <li>Webstedet: AntennaPod’s websted er hostet via GitHub Pages. I <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages">GitHub’s
+fortrolighedspolitik</a>
+oplyses det, at “GitHub kan indsamle personlige brugeroplysninger fra besøgende
+på dit GitHub Pages-websted, herunder logfiler over de besøgendes IP-adresser,
+for at overholde juridiske forpligtelser og for at opretholde sikkerheden og
+integriteten af webstedet og tjenesten.” Webstedet gemmer ikke nogen cookies på
+din maskine, og der anvendes ingen tredjepartssporing (analyse) eller andre
+tjenester.</li>
+  <li>Forummet: AntennaPod’s forum bruger Discourse-softwaren, som hostes af
+kerneholdet. Se venligst <a href="https://forum.antennapod.org/privacy">forum’s privatlivspolitik</a>
+med hensyn til hvilke data det drejer sig om.</li>
+</ul>
+
+<h2 id="hvilke-data-antennapod-kerneholdet-kan-få-adgang-til">Hvilke data AntennaPod-kerneholdet kan få adgang til</h2>
+
+<p>Udviklerne af AntennaPod har <strong>ikke</strong> adgang til nogen af dine oplysninger,
+undtagen når du</p>
+
+<ul>
+  <li>aktivt deler fejlfindingsoplysninger (enten via e-mail ved hjælp af funktionen
+‘Nedbrudsrapport’ eller via Googles funktion til rapportering af
+Android-nedbrud):
+    <ul>
+      <li>enhedstype</li>
+      <li>Android-version</li>
+      <li>AntennaPod-version</li>
+    </ul>
+  </li>
+  <li>aktivt deler en anmeldelse i Google Play-butikken:
+    <ul>
+      <li>offentlige profiloplysninger</li>
+      <li>AntennaPod-version</li>
+      <li>enhedstype</li>
+      <li>enhedens sprog</li>
+      <li>Android-version</li>
+    </ul>
+  </li>
+  <li>besøger eller deltager i vores forum: som beskrevet i <a href="https://forum.antennapod.org/privacy">forummets
+privatlivspolitik</a>
+</li>
+  <li>aktivt yder et finansielt bidrag via Open Collective (medmindre du yder et
+<a href="https://docs.opencollective.com/help/financial-contributors/payments#profile">incognito</a>
+bidrag):
+    <ul>
+      <li>offentlige profiloplysninger (navn, virksomhed, beskrivelse, billede, Twitter,
+ GitHub, websted)</li>
+      <li>e-mailadresse</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="opdateringer-af-denne-privatlivspolitik">Opdateringer af denne privatlivspolitik</h2>
+
+<p>Udviklerne kan opdatere denne politik i fremtiden. Det er tilrådeligt at
+kontrollere politikken regelmæssigt for eventuelle ændringer. Ændringer af denne
+privatlivspolitik er gældende, når de foretages på dette dokument.</p>
+
+<p>Denne privatlivspolitik blev senest opdateret den 13-02-20022. Hvis du har
+spørgsmål, kan du oprette et problem på GitHub.</p>
+
+<p>Denne privatlivspolitik er oversat fra engelsk for at hjælpe dig med at forstå,
+hvordan AnteannPod håndterer emnet. I tilfælde af uoverensstemmelse mellem den
+originale og den oversatte version, vil den engelske version have forrang.</p>
+
+
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/da"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">Den brugervenlige, fleksible og open source podcastmanager til Android.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/about"><span>Om</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/contribute"><span>Bidrag</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/documentation"><span>Dokumentation</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/download"><span>Hent</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/da/media-kit"><span></span></a></div>-->
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="/rss.xml" target="_blank" rel="noopener"><i class="fa fa-rss mr-1"></i>RSS</a>
+                    </p>
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">© 2022 AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/da/license">Licens</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/da/privacy">Privatlivspolitik</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>

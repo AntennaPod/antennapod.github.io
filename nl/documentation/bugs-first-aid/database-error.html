@@ -91,6 +91,10 @@
                                 
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/bugs-first-aid/database-error">Dansk</a>
+  
+
+  
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/database-error">English</a>
@@ -122,6 +126,10 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/bugs-first-aid/database-error">Dansk</a>
+  
 
   
 
@@ -225,27 +233,42 @@
 
                 <h1 id="al-mn-podcasts-en-afleveringen-zijn-verdwenen">Al m’n podcasts en afleveringen zijn verdwenen</h1>
 
-<p>You might feel like screaming <em>Help! I lost my podcasts/episodes/settings/everything!</em></p>
+<p>Misschien wil je het uitschreeuwen: <em>Help! Al mijn podcasts, afleveringen en instellingen zijn weg!</em></p>
 
-<p>The problem is that the database with all information (episodes, listening states, etc) has some mistakes. AntennaPod cannot function with the broken database and had to start over with an empty one. While it’s been happening less frequently in recent versions of AntennaPod, it still is occurring for some users. Our community of developers have not been able to pinpoint what exactly causes a database to break. The same issue occurs also in some other open source apps. But we realise it is very frustrating when this happens and are really sorry if you were affected too.</p>
+<p>Het probleem is dat de database met alle informatie (afleveringen, luisterstaten, etc) een aantal fouten bevat. AntennaPod functioneert niet met een kapotte database en moet dan opnieuw beginnen met een lege database. Hoewel het minder vaak voorkomt in recente versies van AntennaPod, komt het nog steeds voor bij sommige gebruikers. Onze gemeenschap van ontwikkelaars heeft (nog) niet kunnen vaststellen wat precies de oorzaak is van de kapotte databases. Hetzelfde probleem doet zich ook voor in sommige andere open source apps. Maar we realiseren ons dat het erg frustrerend is dat dit gebeurt en het spijt ons echt als u ook getroffen bent.</p>
 
-<p>There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest &amp; best results:</p>
+<p>Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hieronder op een rij, te beginnen met de oplossing die het gemakkelijkst is en de beste resultaten geeft:</p>
 
 <ol>
-  <li>Have you recently <a href="/documentation/general/backup">exported a backup</a> from AntennaPod recently? Then restoring that is relatively easily: go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Storage</code> » <code class="language-plaintext highlighter-rouge">Import/Export</code> » <code class="language-plaintext highlighter-rouge">Database import</code> and select the back-up.</li>
-  <li>If you don’t have a back-up, the next step is to attempt to recover the broken database (‘repair corrupted sql database’). If AntennaPod detects a broken database, it writes it to a file CorruptedDatabaseBackup.db in the app storage directory. It is a challenge and it requires some skills or learning. You will have to use a terminal.
-    <ul>
-      <li>One community member <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">followed these steps</a> to repair the database and <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">indicated</a> that after this they could successfully import the repaired database.</li>
-      <li>Another community member <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">took a clean database and moved content from the corrupted one in it</a>, and then performed <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">another correction</a>. After both steps, they managed to successfully imported the new database in AntennaPod.</li>
-    </ul>
+  <li>
+    <p>Is er recent <a href="/documentation/general/backup">een back-up geëxporteerd</a> van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Opslag</code> » <code class="language-plaintext highlighter-rouge">Importeren/Exporteren</code> » <code class="language-plaintext highlighter-rouge">Database importeren</code> en selecteer de back-up.</p>
   </li>
-  <li>While all the data <em>about</em> your subscriptions and episodes are gone, the media files will still be there.
-    <ul>
-      <li>In AntennaPod you can add a folder as if it were a feed. To do this, go to <code class="language-plaintext highlighter-rouge">Add Podcast</code> and tap on <code class="language-plaintext highlighter-rouge">Add local folder</code>. Then go to this folder on your phone: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> and then the select the folder of a podcast. Note that this will only give you access to previously downloaded media - you will not receive new episodes.</li>
-      <li>You can also start adding previous podcasts from scratch. You can look through the folder mentioned above to see which podcasts you were subscribed to.</li>
-    </ul>
+  <li>
+    <p>Is er geen back-up dan is de volgende stap een poging om de kapotte database te herstellen (‘repair corrupted sql database’). Als AntennaPod een kapotte database detecteert, slaat het deze op als CorruptedDatabaseBackup.db in het mapje met app-data. Het is een uitdaging en het vereist enige vaardigheden of oefening. Je zult een terminal moeten gebruiken.</p>
   </li>
 </ol>
+
+<ul>
+  <li>
+    <p>Een lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">volgde deze stappen</a> om de database te herstellen en <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">gaf aan</a> dat hij daarna de herstelde database met succes kon importeren.</p>
+  </li>
+  <li>
+    <p>Een ander lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">nam een schone database en verplaatste inhoud van de beschadigde erin</a>, en voerde vervolgens <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">een andere correctie</a> uit. Na beide stappen slaagden ze erin de nieuwe database met succes te importeren in AntennaPod.</p>
+  </li>
+</ul>
+
+<ol>
+  <li>Hoewel alle gegevens <em>over</em> de abonnementen en afleveringen verdwenen zijn, zijn de mediabestanden nog steeds beschikbaar.</li>
+</ol>
+
+<ul>
+  <li>
+    <p>In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar <code class="language-plaintext highlighter-rouge">Podcast toevoegen</code> en tik op <code class="language-plaintext highlighter-rouge">Lokale map toevoegen</code>. Ga vervolgens naar deze map op je telefoon: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.</p>
+  </li>
+  <li>
+    <p>Het is mogelijk de eerdere podcasts toe te voegen vanaf nul. In de bovenvermelde map kun je je recente podcast-abonnementen vinden.</p>
+  </li>
+</ul>
 
 
             </article>

@@ -91,6 +91,10 @@
                                 
 
   
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/bugs-first-aid/database-error">Dansk</a>
+  
+
+  
 
   
     <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/database-error">English</a>
@@ -122,6 +126,10 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/bugs-first-aid/database-error">Dansk</a>
+  
 
   
 
@@ -225,27 +233,42 @@
 
                 <h1 id="tutti-i-miei-podcast-e-i-miei-episodi-sono-spariti">Tutti i miei podcast e i miei episodi sono spariti</h1>
 
-<p>You might feel like screaming <em>Help! I lost my podcasts/episodes/settings/everything!</em></p>
+<p>Potresti aver voglia di urlare <em>Aiuto! Ho perso i miei podcast/episodi/impostazioni/tutto!</em></p>
 
-<p>The problem is that the database with all information (episodes, listening states, etc) has some mistakes. AntennaPod cannot function with the broken database and had to start over with an empty one. While it’s been happening less frequently in recent versions of AntennaPod, it still is occurring for some users. Our community of developers have not been able to pinpoint what exactly causes a database to break. The same issue occurs also in some other open source apps. But we realise it is very frustrating when this happens and are really sorry if you were affected too.</p>
+<p>Il problema è che il database con tutte le informazioni (episodi, stati di ascolto, ecc.) contiene alcuni errori. AntennaPod non può funzionare con il database danneggiato e ha dovuto ricominciare con uno vuoto. Anche se nelle ultime versioni di AntennaPod questo accade meno frequentemente, per alcuni utenti questo problema continua a verificarsi. La nostra comunità di sviluppatori non è stata in grado di individuare esattamente cosa causa il danneggiamento di un database. Lo stesso problema si verifica anche in alcune altre applicazioni open source. Ci rendiamo comunque conto che è molto frustrante quando ciò accade e siamo davvero dispiaciuti se è capitato anche a te.</p>
 
-<p>There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest &amp; best results:</p>
+<p>Ci potrebbero essere alcune cose che puoi fare per recuperare i tuoi dati. Le elenchiamo qui sotto, iniziando con la soluzione più semplice e che dà i migliori risultati:</p>
 
 <ol>
-  <li>Have you recently <a href="/documentation/general/backup">exported a backup</a> from AntennaPod recently? Then restoring that is relatively easily: go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Storage</code> » <code class="language-plaintext highlighter-rouge">Import/Export</code> » <code class="language-plaintext highlighter-rouge">Database import</code> and select the back-up.</li>
-  <li>If you don’t have a back-up, the next step is to attempt to recover the broken database (‘repair corrupted sql database’). If AntennaPod detects a broken database, it writes it to a file CorruptedDatabaseBackup.db in the app storage directory. It is a challenge and it requires some skills or learning. You will have to use a terminal.
-    <ul>
-      <li>One community member <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">followed these steps</a> to repair the database and <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">indicated</a> that after this they could successfully import the repaired database.</li>
-      <li>Another community member <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">took a clean database and moved content from the corrupted one in it</a>, and then performed <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">another correction</a>. After both steps, they managed to successfully imported the new database in AntennaPod.</li>
-    </ul>
+  <li>
+    <p>Hai <a href="/documentation/general/backup">esportato un backup</a> da AntennaPod di recente? Allora ripristinarlo è relativamente facile: vai su <code class="language-plaintext highlighter-rouge">Impostazioni</code> » <code class="language-plaintext highlighter-rouge">Memoria</code> » <code class="language-plaintext highlighter-rouge">Importa/Esporta</code> » ` Importa database` e seleziona il backup.</p>
   </li>
-  <li>While all the data <em>about</em> your subscriptions and episodes are gone, the media files will still be there.
-    <ul>
-      <li>In AntennaPod you can add a folder as if it were a feed. To do this, go to <code class="language-plaintext highlighter-rouge">Add Podcast</code> and tap on <code class="language-plaintext highlighter-rouge">Add local folder</code>. Then go to this folder on your phone: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> and then the select the folder of a podcast. Note that this will only give you access to previously downloaded media - you will not receive new episodes.</li>
-      <li>You can also start adding previous podcasts from scratch. You can look through the folder mentioned above to see which podcasts you were subscribed to.</li>
-    </ul>
+  <li>
+    <p>Se non si dispone di un backup, il passo successivo è quello di tentare di recuperare il database danneggiato (‘riparare un database SQL corrotto’). Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato CorruptedDatabaseBackup.db nella directory di archiviazione dell’applicazione. È un’operazione delicata e richiede alcune abilità o nozioni. Dovrai usare un terminale.</p>
   </li>
 </ol>
+
+<ul>
+  <li>
+    <p>Un membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">ha seguito questi passi</a> per riparare il database e <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">ha affermato</a> che fatto questo era in grado di importare con successo il database riparato.</p>
+  </li>
+  <li>
+    <p>Un altro membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">ha preso un database pulito e vi ha spostato il contenuto di quello corrotto</a>, poi ha eseguito <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">un’altra correzione</a>. Dopo entrambi i passaggi, è riuscito a importare con successo il nuovo database in AntennaPod.</p>
+  </li>
+</ul>
+
+<ol>
+  <li>Mentre tutti i dati <em>sui</em> tuoi abbonamenti ed episodi sono spariti, i file multimediali saranno ancora presenti.</li>
+</ol>
+
+<ul>
+  <li>
+    <p>In AntennaPod è possibile aggiungere una cartella come se fosse un feed. Per farlo, vai su <code class="language-plaintext highlighter-rouge">Aggiungi podcast</code> e tocca <code class="language-plaintext highlighter-rouge">Aggiungi cartella locale</code>. Poi vai a questa cartella nel tuo telefono: <code class="language-plaintext highlighter-rouge">Android</code> “ <code class="language-plaintext highlighter-rouge">data</code> “ <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> “ <code class="language-plaintext highlighter-rouge">files</code> “ <code class="language-plaintext highlighter-rouge">media</code> e poi seleziona la cartella di un podcast. Nota che questo ti darà accesso solo ai media precedentemente scaricati: non riceverai nuovi episodi.</p>
+  </li>
+  <li>
+    <p>Puoi anche iniziare ad aggiungere i podcast precedenti da zero. Puoi guardare nella cartella di cui sopra per vedere a quali podcast eri abbonato.</p>
+  </li>
+</ul>
 
 
             </article>

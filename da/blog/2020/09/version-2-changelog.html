@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    
+  
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Version 2.0 Changelog – AntennaPod</title>
+  <meta name="description" content="AntennaPod version 2 released with a range of new features">
+
+  <link rel="canonical" href="https://antennapod.org/da/blog/2020/09/version-2-changelog">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Version 2.0 Changelog – AntennaPod">
+  <meta name="twitter:description" content="AntennaPod version 2 released with a range of new features">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/pic.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/da/blog/2020/09/version-2-changelog">
+  <meta property="og:title" content="Version 2.0 Changelog – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/pic.png">
+  <meta property="og:description" content="AntennaPod version 2 released with a range of new features">
+  <meta property="og:site_name" content="AntennaPod">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+
+</head>
+<body>
+  <div class="content">
+  <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/da">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/about">Om</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/contribute">Bidrag</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/da/documentation">Dokumentation</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="https://forum.antennapod.org/">Forum</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sprogskifter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">DA</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2020/09/version-2-changelog">Dansk</a>
+  
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2020/09/version-2-changelog">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2020/09/version-2-changelog">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2020/09/version-2-changelog">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2020/09/version-2-changelog">Nederlands</a>
+  
+
+
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sprogskifter" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">DA</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2020/09/version-2-changelog">Dansk</a>
+  
+
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2020/09/version-2-changelog">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2020/09/version-2-changelog">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2020/09/version-2-changelog">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2020/09/version-2-changelog">Nederlands</a>
+  
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">×</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/da/about">Om</a>
+                
+                <a href="/da/blog">Blog</a>
+                
+                <a href="/da/contribute">Bidrag</a>
+                
+                <a href="/da/documentation">Dokumentation</a>
+                
+                <a href="https://forum.antennapod.org/">Forum</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+  <div class="container-fluid">
+    <div class="container py-3">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-9 col-sm-12 pt-3">
+          <div class="post">
+
+            
+
+            <header class="post-header">
+              <p class="size-14 color-orange-900 mb-2 weight-500">
+              
+              
+              </p>
+              <h1 class="size-36 weight-700 color-gray-900">Version 2.0 Changelog</h1>
+              
+              
+              <p class="size-14 weight-600 color-gray-500">6 min læst</p>
+              
+              <div class="row no-gutters align-items-center justify-content-between my-3">
+                <p class="size-14 weight-700 color-gray-900 mb-0">
+                  
+                  <img class="round-img" src="/assets/images/authors/keunes.png" width="40px" height="auto">
+                  <a class="underline" href="https://github.com/keunes" target="_blank" rel="noopener">Keunes</a>
+                  
+                  • 
+                  
+                  Sep 29, 2020
+                </p>
+                <div class="inline-flex">
+
+        
+
+   <p class="size-14 color-gray-900 mb-0 mr-2">Del</p>
+    <button class="copy-link" aria-label="Kopier til udklipsholder" onclick="copyUrl();" title="Kopier til udklipsholder"><span data-tooltip="Link kopieret!" data-flow="top">
+    <i class="fas fa-link color-gray-600 size-20 mr-2"></i></span></button>
+    <a aria-label="Del på Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2020/09/version-2-changelog" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Del på Facebook">
+    <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+    </a>
+    <a aria-label="Del på Mastodon" href="#" onclick="share_on_mastodon();" title="Del på Mastodon">
+    <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Del på Twitter" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2020/09/version-2-changelog&amp;hashtags=" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Del på Twitter">
+    <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Del via e-mail" href="mailto:?subject=Jeg%20syntes,%20at%20du%20skulle%20se%20dette&amp;body=Jeg%20syntes,%20at%20du%20skulle%20se%20dette%20https://antennapod.org/blog/2020/09/version-2-changelog" title="Del via e-mail">
+        <i class="fas fa-envelope size-20 color-gray-600"></i>
+    </a>
+</div>
+
+<script>
+    function copyUrl() {
+      if (!window.getSelection) {
+        alert('Kopier URL-adressen fra placeringsbjælken.');
+        return;
+      }
+      const dummy = document.createElement('p');
+      dummy.textContent = window.location.href;
+      document.body.appendChild(dummy);
+    
+      const range = document.createRange();
+      range.setStartBefore(dummy);
+      range.setEndAfter(dummy);
+    
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    
+      document.execCommand('copy');
+      document.body.removeChild(dummy);
+    }
+</script>
+    
+<script>
+  // The actual function. Set this as an onclick function for your "Share on Mastodon" button
+  function share_on_mastodon() {
+          // Prefill the form with the user's previously-specified Mastodon instance, if applicable
+          var default_url = localStorage['mastodon_instance']; 
+  
+          // If there is no cached instance/domain, then insert a "https://" with no domain at the start of the prompt. 
+          if (!default_url)
+                  default_url = "https://"; 
+  
+          var instance = prompt("Angiv adressen på din server: (f.eks. https://mastodon.social)", default_url);
+          if (instance) { 
+                  // Handle URL formats
+                  if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
+                          instance = "https://" + instance;  
+  
+                  // Get the current page's URL
+                  var url   = window.location.href;
+          
+                  // Get the page title from the og:title meta tag, if it exists.
+                  var title = document.querySelectorAll('meta[property="og:title"]')[0].getAttribute("content"); 
+          
+                  // Otherwise, use the <title> tag as the title
+                  if (!title)    var title = document.getElementsByTagName("title")[0].innerHTML;
+          
+                  // Handle slash
+                  if ( !instance.endsWith("/") )
+                          instance = instance + "/"; 
+  
+                  // Cache the instance/domain for future requests
+                  localStorage['mastodon_instance'] = instance; 
+  
+                  // Hashtags 
+                  hashtags     =  "";
+  
+                  // Tagging users, such as offical accounts or the author of the post 
+                  var author   = "Keunes"; 
+  
+                  // Create the Share URL
+                  // https://someinstance.tld/share?text=URL%20encoded%20text
+                  mastodon_url = instance + "share?text=" + encodeURIComponent(title + "\n\n" + url + "\n\n" + hashtags + " " + author);
+  
+                  // Open a new window at the share location   
+                  window.open(mastodon_url, '_blank');
+          }
+  }
+  </script>
+
+              </div>
+            </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container py-3">
+
+
+      <div class="row no-gutters justify-content-center pb-4">
+        <div class="col-lg-9">
+          <article class="post-content pb-3">
+            <p>AntennaPod version 2 released with a range of new features, bug fixes and improvements. Below you’ll find an extensive list of highlights, with each time the Pull Request ID.</p>
+
+<p>Special mention: new app logo &amp; icon <a href="https://github.com/AntennaPod/AntennaPod/issues/4441">#4441</a></p>
+
+<h2 id="new">New</h2>
+<ul>
+  <li>option to export favourites to HTML file <a href="https://github.com/AntennaPod/AntennaPod/issues/4106">#4106</a>
+</li>
+  <li>ask user if they prefer streaming over downloading, when they stream a lot <a href="https://github.com/AntennaPod/AntennaPod/issues/4121">#4121</a>
+</li>
+  <li>feed settings to reduce its volume (none/light/heavy), skip its episodes’ intro and ending <a href="https://github.com/AntennaPod/AntennaPod/issues/3975">#3975</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3248">#3248</a>
+</li>
+  <li>include modern security provider (Conscrypt) to fix SSL issues on older Android versions [F-Droid] <a href="https://github.com/AntennaPod/AntennaPod/issues/4077">#4077</a>
+</li>
+  <li>app shortcuts to directly refresh, or go to episodes, subscriptions or queue <a href="https://github.com/AntennaPod/AntennaPod/issues/3748">#3748</a>
+</li>
+  <li>notification when episodes have been auto-downloaded <a href="https://github.com/AntennaPod/AntennaPod/issues/3839">#3839</a>
+</li>
+  <li>‘special thanks’ screen to credit individuals for contributions other than code or translations <a href="https://github.com/AntennaPod/AntennaPod/issues/4386">#4386</a>
+</li>
+  <li>option to preview episodes when adding new podcasts <a href="https://github.com/AntennaPod/AntennaPod/issues/4177">#4177</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4039">#4039</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3882">#3882</a>
+</li>
+  <li>possibility to export latest crash log <a href="https://github.com/AntennaPod/AntennaPod/issues/3886">#3886</a>
+</li>
+  <li>support for chapter images (only for new episodes) <a href="https://github.com/AntennaPod/AntennaPod/issues/3838">#3838</a>
+</li>
+  <li>statistics screen to show storage size of episodes on device <a href="https://github.com/AntennaPod/AntennaPod/issues/3523">#3523</a>
+</li>
+  <li>support for “Subscribe on Android” links on websites <a href="https://github.com/AntennaPod/AntennaPod/issues/3739">#3739</a>
+</li>
+</ul>
+
+<h2 id="general-improvements">General improvements</h2>
+<ul>
+  <li>more fail-safe adding of feeds <a href="https://github.com/AntennaPod/AntennaPod/issues/4301">#4301</a>
+</li>
+  <li>support for feeds that don’t specify episode duration <a href="https://github.com/AntennaPod/AntennaPod/issues/4162">#4162</a>
+</li>
+  <li>theme switching by keeping settings opened <a href="https://github.com/AntennaPod/AntennaPod/issues/4125">#4125</a>
+</li>
+  <li>support for RTL languages <a href="https://github.com/AntennaPod/AntennaPod/issues/4097">#4097</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4020">#4020</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4046">#4046</a> and other localisation improvements <a href="https://github.com/AntennaPod/AntennaPod/issues/4096">#4096</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4088">#4088</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4047">#4047</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4032">#4032</a>
+</li>
+  <li>show warning when importing database <a href="https://github.com/AntennaPod/AntennaPod/issues/4011">#4011</a>
+</li>
+  <li>performance improvements <a href="https://github.com/AntennaPod/AntennaPod/issues/3998">#3998</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3997">#3997</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3996">#3996</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3993">#3993</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3992">#3992</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3989">#3989</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3991">#3991</a>
+</li>
+  <li>fast scrolling available across all lists &amp; screens <a href="https://github.com/AntennaPod/AntennaPod/issues/3995">#3995</a>
+</li>
+  <li>show dialog instead of notification when attempting streaming over mobile network <a href="https://github.com/AntennaPod/AntennaPod/issues/4324">#4324</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3897">#3897</a>
+</li>
+  <li>datestamp in filenames of all exports (database, opml and html) <a href="https://github.com/AntennaPod/AntennaPod/issues/3980">#3980</a>
+</li>
+  <li>better in-app search experience: faster, don’t display episodes if podcast matches, added progress bar <a href="https://github.com/AntennaPod/AntennaPod/issues/3830">#3830</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3715">#3715</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3714">#3714</a>
+</li>
+  <li>display podcast author instead of feed URL when searching for new podcasts <a href="https://github.com/AntennaPod/AntennaPod/issues/3762">#3762</a>
+</li>
+  <li>updated translations in 28 languages, of which 17 fully translated (indicated with an asterisk): br<em>, ca, cs, da</em>, de<em>, es, et</em>, eu<em>, fa, fi, fr</em>, gl<em>, he</em>, hu<em>, hi, it</em>, iw, ja, ko<em>, lt</em>, nb, nl<em>, pl, pt-BR, pt</em>, ru<em>, sv</em>, uk, zh-CN* &amp; zh-TW</li>
+  <li>prevent Google snooping on WebView (show notes) <a href="https://github.com/AntennaPod/AntennaPod/issues/3877">#3877</a>
+</li>
+  <li>stop attempting automatic download when content is not available any-more <a href="https://github.com/AntennaPod/AntennaPod/issues/3848">#3848</a>
+</li>
+  <li>increase button sizes on notification &amp; lock screen <a href="https://github.com/AntennaPod/AntennaPod/issues/3840">#3840</a>
+</li>
+  <li>Allow to click timecodes in item screen, not just on the player screen <a href="https://github.com/AntennaPod/AntennaPod/issues/3813">#3813</a>
+</li>
+  <li>applied design to html subscriptions export <a href="https://github.com/AntennaPod/AntennaPod/issues/3796">#3796</a>
+</li>
+  <li>decrease likelyhood of duplicates after gpodder sync <a href="https://github.com/AntennaPod/AntennaPod/issues/3690">#3690</a>
+</li>
+  <li>paged loading on the ‘new episodes’ list <a href="https://github.com/AntennaPod/AntennaPod/issues/3711">#3711</a>
+</li>
+</ul>
+
+<h2 id="ui-improvements">UI improvements</h2>
+<ul>
+  <li>pretty display of episode art now in landscape view <a href="https://github.com/AntennaPod/AntennaPod/issues/4292">#4292</a>
+</li>
+  <li>greatly improved support for video feeds <a href="https://github.com/AntennaPod/AntennaPod/issues/4306">#4306</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4306">#4306</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4105">#4105</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4002">#4002</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4000">#4000</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3858">#3858</a>
+</li>
+  <li>more spacious player screen for easier tapping <a href="https://github.com/AntennaPod/AntennaPod/issues/4174">#4174</a>
+</li>
+  <li>darker dark theme <a href="https://github.com/AntennaPod/AntennaPod/issues/4138">#4138</a>
+</li>
+  <li>improved audio description of elements (TalkBack accessibility) <a href="https://github.com/AntennaPod/AntennaPod/issues/4132">#4132</a>
+</li>
+  <li>no more shouting, caps-locked buttons <a href="https://github.com/AntennaPod/AntennaPod/issues/4107">#4107</a>
+</li>
+  <li>tweaked podcast view &amp; transitions <a href="https://github.com/AntennaPod/AntennaPod/issues/4069">#4069</a>
+</li>
+  <li>consistent colour use <a href="https://github.com/AntennaPod/AntennaPod/issues/4036">#4036</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3981">#3981</a>
+</li>
+  <li>several other improvements <a href="https://github.com/AntennaPod/AntennaPod/issues/4043">#4043</a>
+</li>
+  <li>easier to understand sorting options <a href="https://github.com/AntennaPod/AntennaPod/issues/4004">#4004</a>
+</li>
+  <li>improve statistics screen, especially for smaller screens &amp; in landscape mode <a href="https://github.com/AntennaPod/AntennaPod/issues/4005">#4005</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3873">#3873</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3821">#3821</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3751">#3751</a>
+</li>
+  <li>updated queue icon <a href="https://github.com/AntennaPod/AntennaPod/issues/3960">#3960</a>
+</li>
+  <li>prettier lists: unify all lists, rounded image corners, display favourite status, display episode duration whenever possible, more subtle drag handles in queue <a href="https://github.com/AntennaPod/AntennaPod/issues/4015">#4015</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3937">#3937</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3827">#3827</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3957">#3957</a>
+</li>
+  <li>updated ‘add podcast’ screen: cleaner, more proposed podcasts, pre-fill URL from clipboard when adding from, clearer alternative search options URL <a href="https://github.com/AntennaPod/AntennaPod/issues/3936">#3936</a>
+</li>
+  <li>fancier header on podcast screen with animation &amp; other improvements <a href="https://github.com/AntennaPod/AntennaPod/issues/3923">#3923</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3927">#3927</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3922">#3922</a>
+</li>
+  <li>new speed indicator with animation <a href="https://github.com/AntennaPod/AntennaPod/issues/3785">#3785</a>
+</li>
+  <li>smoother spinner in refresh button when updating feeds <a href="https://github.com/AntennaPod/AntennaPod/issues/3874">#3874</a>
+</li>
+  <li>updated episode detail screen: bigger image, everything left-aligned, reduced line thickness <a href="https://github.com/AntennaPod/AntennaPod/issues/3854">#3854</a>
+</li>
+  <li>updated player screen: cleaner screen, sharper buttons, improved display of cover image &amp; episode information, wider seek bar for easier scrolling <a href="https://github.com/AntennaPod/AntennaPod/issues/3856">#3856</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3857">#3857</a>
+</li>
+  <li>cleaner sleep timer dialogs <a href="https://github.com/AntennaPod/AntennaPod/issues/4174">#4174</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3811">#3811</a>
+</li>
+  <li>indicate with open circle in player screen tabs when there are no chapters <a href="https://github.com/AntennaPod/AntennaPod/issues/3817">#3817</a>
+</li>
+  <li>improved import/export settings screen <a href="https://github.com/AntennaPod/AntennaPod/issues/3794">#3794</a>
+</li>
+  <li>consistently use the term ‘podcast’ instead of ‘feed’ <a href="https://github.com/AntennaPod/AntennaPod/issues/3763">#3763</a>
+</li>
+  <li>add summary for each of the categories on the main settings screen <a href="https://github.com/AntennaPod/AntennaPod/issues/3745">#3745</a>
+</li>
+</ul>
+
+<h2 id="fixes">Fixes</h2>
+<ul>
+  <li>issues with time stamp links in show notes <a href="https://github.com/AntennaPod/AntennaPod/issues/4286">#4286</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4023">#4023</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3825">#3825</a>
+</li>
+  <li>app unusable after removing SD card storage <a href="https://github.com/AntennaPod/AntennaPod/issues/4270">#4270</a>
+</li>
+  <li>don’t always pass on correct useragent to server <a href="https://github.com/AntennaPod/AntennaPod/issues/4272">#4272</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4008">#4008</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3931">#3931</a>
+</li>
+  <li>database import not working or causing a crash in some cases <a href="https://github.com/AntennaPod/AntennaPod/issues/4269">#4269</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3832">#3832</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3831">#3831</a>
+</li>
+  <li>played/unplayed state in downloads not updated while playing podcast <a href="https://github.com/AntennaPod/AntennaPod/issues/4250">#4250</a>
+</li>
+  <li>service notification intendedly persistent <a href="https://github.com/AntennaPod/AntennaPod/issues/4199">#4199</a> and tapping loads wrong screen <a href="https://github.com/AntennaPod/AntennaPod/issues/4197">#4197</a>
+</li>
+  <li>issues with searching &amp; subscribing to podcasts <a href="https://github.com/AntennaPod/AntennaPod/issues/4179">#4179</a>, <a href="https://github.com/AntennaPod/AntennaPod/issues/4147">#4147</a>, <a href="https://github.com/AntennaPod/AntennaPod/issues/4110">#4110</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/4024">#4024</a>
+</li>
+  <li>issues with gpodder sync <a href="https://github.com/AntennaPod/AntennaPod/issues/4100">#4100</a> <a href="https://github.com/AntennaPod/AntennaPod/issues/3970">#3970</a>
+</li>
+  <li>embedded episode images not being used <a href="https://github.com/AntennaPod/AntennaPod/issues/4059">#4059</a>
+</li>
+  <li>player sometimes not updating <a href="https://github.com/AntennaPod/AntennaPod/issues/3966">#3966</a>
+</li>
+  <li>sidebar menu sometimes highlighting wrong item <a href="https://github.com/AntennaPod/AntennaPod/issues/3958">#3958</a>
+</li>
+  <li>“confirm” text not visible when entering private feed credential 3948</li>
+  <li>default sort order not selected for newly added podcasts <a href="https://github.com/AntennaPod/AntennaPod/issues/3926">#3926</a>
+</li>
+  <li>error in download log not always showing podcast title <a href="https://github.com/AntennaPod/AntennaPod/issues/3921">#3921</a>
+</li>
+  <li>multi select crops long episode titles <a href="https://github.com/AntennaPod/AntennaPod/issues/3920">#3920</a>
+</li>
+  <li>app crashes when trying to resume streaming after a while <a href="https://github.com/AntennaPod/AntennaPod/issues/3881">#3881</a>
+</li>
+  <li>changing default playback speed while playing podcast does not work correctly <a href="https://github.com/AntennaPod/AntennaPod/issues/3819">#3819</a>
+</li>
+  <li>seeking not possible in edge cases with variable bitrate <a href="https://github.com/AntennaPod/AntennaPod/issues/3782">#3782</a>
+</li>
+</ul>
+
+          </article>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row no-gutters pt-4">
+            <h2 class="size-24 color-gray-900 pb-2"></h2>
+      </div>
+
+        <div class="row no-gutters pb-4">
+            <div class="row justify-content-start">
+
+                  
+
+                  
+
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/da"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">Den brugervenlige, fleksible og open source podcastmanager til Android.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/about"><span>Om</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/contribute"><span>Bidrag</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/documentation"><span>Dokumentation</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/da/download"><span>Hent</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/da/media-kit"><span></span></a></div>-->
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="/rss.xml" target="_blank" rel="noopener"><i class="fa fa-rss mr-1"></i>RSS</a>
+                    </p>
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">© 2022 AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/da/license">Licens</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/da/privacy">Privatlivspolitik</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

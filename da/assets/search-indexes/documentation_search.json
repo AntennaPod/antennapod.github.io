@@ -1,0 +1,249 @@
+[
+  
+    
+    {
+      "title"    : "Automatisering",
+      "url"      : "/da/documentation/automation",
+      "content"  : "AutomatiseringEr du en erfaren bruger og ønsker at automatisere opgaver? Så tag et kig på nedenstående sider."
+    } ,
+  
+    
+    {
+      "title"    : "Automatisk sletning",
+      "url"      : "/da/documentation/automation/deletion",
+      "content"  : "Automatisk sletningHvorfor bliver nogle overførte afsnit slettet?AntennaPod har adskillige mekanismer til at sikre, at overførte podcasts ikkefylder din telefons hukommelse. Hvis du bemærker, at nogle overførte afsnitbliver slettet, skal du kigge på disse to indstillinger:Automatisk sletningAutomatisk sletning findes i Indstillinger » Lagring. Når den er aktiveret,slettes afsnit, når afspilningen er afsluttet (men ikke når et afsnit manueltmarkeres som ‘afspillet’).Oprydning af afsnitAfsnitsoprydning findes i Indstillinger » Netværk » Automatisk overførsel.Hvis Automatisk overførsel har brug for plads til nye afsnit, sletter den gamleafsnit, der ikke er i køen og ikke er markeret som favorit. Du kan tilføje enforsinkelse (x tid efter afspilning) eller Afsnit. IndstillingenMellemlager for afsnit bestemmer den maksimale mængde overførte afsnit."
+    } ,
+  
+    
+    {
+      "title"    : "Opdatering af podcasts",
+      "url"      : "/da/documentation/automation/refreshing-podcasts",
+      "content"  : "Opdatering af podcastsSom standard opdateres alle podcasts med et interval på 12 timer for at hentenye afsnit. Via Indstillinger » Netværk » Opdater podcasts kan du ændreintervalperioden, vælge et bestemt tidspunkt på dagen eller slå de automatiskeopdateringer fra.Du kan også slå denne proces fra for individuelle podcasts, hvis det erunødvendigt at holde en podcast opdateret. Du kan f.eks. bruge dette, hvis derikke længere udgives nye afsnit for en podcast. Eller når du har tilføjet enpodcast, som du kun lejlighedsvis vil lytte til et afsnit af. Du kan indstilledette ved at gå til en podcast, trykke på Tandhjul ikonet og ændreindstillingen Hold opdateret.Når du slår denne podcast-indstilling fra, vil podcasten ikke længere bliveopdateret, når podcasts opdateres automatisk, eller når du starter denne procesfra skærmen Kø eller Afsnit. Du kan stadig opdatere podcasten, hvilket vilbringe nye afsnit til AntennaPod. Men disse nye afsnit vil ikke være synlige ifanen Ny på skærmen Afsnit."
+    } ,
+  
+    
+    {
+      "title"    : "Tredjepartsintegration",
+      "url"      : "/da/documentation/automation/tasker",
+      "content"  : "TredjepartsintegrationMed AntennaPod kan du angive abonnementer (podcast-feeds), der skal opdateresmed regelmæssige intervaller eller på et bestemt tidspunkt på dagen iindstillingerne for Netværk » Automatisering.Hvis du har mere komplekse behov, kan du bruge forskelligeautomatiseringsprogrammer fra tredjeparter sammen med AntennaPod til at gøredet. Eksempler:  Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes wi-fi, ogderefter opdateres AntennaPod-feeds.  Opdater abonnementer kl. 17.00 på hverdage.InstruktionerI din automatiseringsapplikation beder du derefter AntennaPod om at opdateresine abonnementer ved at sende en ‘Broadcast’ (det kan blive vist som en typeAndroid-hensigt) med følgende indstillinger:  Pakkenavn: de.danoeh.antennapod  Klassenavn: de.danoeh.antennapod.core.receiver.FeedUpdateReceiverVejledning til nogle automatiseringsappsAutomatiserI et flow skal du tilføje en blok af typen APPS » Broadcast send, angive  Pakke skal være de.danoeh.antennapod  Modtagerklasse skal værede.danoeh.antennapod.core.receiver.FeedUpdateReceiverLama - PlaceringsprofilerOpret en begivenhed (Llama automatiseringsregel). I hændelsen,  Tilføj en handling af typen Android intention.  Specificer at intentionen skal sendes som en Broadcast.  Specificer at pakkenavn skal være de.danoeh.antennapod  Specificer at klassenavn skal værede.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Tilføj eventuelle andre betingelser / handlinger for dine specifikke behov.Som en genvej kan du klikke på dette linkfor at oprette et begivenhedseksempel til at komme i gang med.OpgavestyringOpret en opgave. Tilføj en handling i opgaven  Vælg System  Vælg Send intent  Specificer at pakkenavn skal være de.danoeh.antennapod  Specificer at klassenavn skal værede.danoeh.antennapod.core.receiver.FeedUpdateReceiver  Angiv, at målet skal være Broadcast receiver  Du kan lade de andre felter være tommeAnsvarsfraskrivelse: AntennaPod-fællesskabet har ingen forbindelse med nogenaf de nævnte tredjepartsapplikationer til automatisering."
+    } ,
+  
+    
+    {
+      "title"    : "Programfejl, fejl &amp; førstehjælp",
+      "url"      : "/da/documentation/bugs-first-aid",
+      "content"  : "Programfejl, fejl &amp; førstehjælpAt lave software er et menneskeligt håndværk, så fejl er uundgåelige. Men der er ofte noget, vi kan gøre ved det!"
+    } ,
+  
+    
+    {
+      "title"    : "Der er noget, der ikke virker",
+      "url"      : "/da/documentation/bugs-first-aid/bug-report",
+      "content"  : "Der er noget, der ikke virkerDid you encounter a bug? We’re sorry to hear.First, please make sure you have the latest version of AntennaPod. With every update we fix many small and bigger issues. Then search our forum to see if anyone else has the same issue. If you find the issue you have, you can see if there’s any suggestions. Also consider providing information from your situation - it might help developers find the source of the problem.If you have updated AntennaPod and searched our forum to no avail, then tell us about the issue. You can create a post on on our forum. To do so you need to create an account (if you don’t have one already) or simply log in via Google.Whichever way you contact us, please include the system information that is displayed in Settings » Report bug."
+    } ,
+  
+    
+    {
+      "title"    : "Cannot download an episode",
+      "url"      : "/da/documentation/bugs-first-aid/cannot-stream-download",
+      "content"  : "Cannot download an episodeAntennaPod is a decentralized podcast app. This basically means that there is no central server that knows everything about each podcast.Media files are therefore taken directly from the publisher’s website. If the publisher deletes these, AntennaPod can no longer retrieve it for you."
+    } ,
+  
+    
+    {
+      "title"    : "Alle mine podcasts og afsnit er væk",
+      "url"      : "/da/documentation/bugs-first-aid/database-error",
+      "content"  : "Alle mine podcasts og afsnit er vækYou might feel like screaming Help! I lost my podcasts/episodes/settings/everything!The problem is that the database with all information (episodes, listening states, etc) has some mistakes. AntennaPod cannot function with the broken database and had to start over with an empty one. While it’s been happening less frequently in recent versions of AntennaPod, it still is occurring for some users. Our community of developers have not been able to pinpoint what exactly causes a database to break. The same issue occurs also in some other open source apps. But we realise it is very frustrating when this happens and are really sorry if you were affected too.There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest &amp; best results:  Have you recently exported a backup from AntennaPod recently? Then restoring that is relatively easily: go to Settings » Storage » Import/Export » Database import and select the back-up.  If you don’t have a back-up, the next step is to attempt to recover the broken database (‘repair corrupted sql database’). If AntennaPod detects a broken database, it writes it to a file CorruptedDatabaseBackup.db in the app storage directory. It is a challenge and it requires some skills or learning. You will have to use a terminal.          One community member followed these steps to repair the database and indicated that after this they could successfully import the repaired database.      Another community member took a clean database and moved content from the corrupted one in it, and then performed another correction. After both steps, they managed to successfully imported the new database in AntennaPod.        While all the data about your subscriptions and episodes are gone, the media files will still be there.          In AntennaPod you can add a folder as if it were a feed. To do this, go to Add Podcast and tap on Add local folder. Then go to this folder on your phone: Android » data » de.danoeh.antennapod » files » media and then the select the folder of a podcast. Note that this will only give you access to previously downloaded media - you will not receive new episodes.      You can also start adding previous podcasts from scratch. You can look through the folder mentioned above to see which podcasts you were subscribed to.      "
+    } ,
+  
+    
+    {
+      "title"    : "Kan ikke downloade et afsnit",
+      "url"      : "/da/documentation/bugs-first-aid/episodes-missing",
+      "content"  : "Kan ikke downloade et afsnitAntennaPod is a decentralized podcast app. This basically means that there is no central server that knows everything about each podcast.Episode information is therefore taken directly from the publisher’s website. When you are subscribed to a podcast, AntennaPod copies and stores information about each new episode in the app. This information is kept even if it is no longer available on the publisher’s site.Many publishers only keep online (information about) the most recent episodes. So when you just subscribed to a podcast, your AntennaPod installation doesn’t have access to information about the older episodes. To get all past episodes listed in the app, you can contact the podcaster and ask them to (reach out to their hoster to) support ‘paged feeds’ (technical information)."
+    } ,
+  
+    
+    {
+      "title"    : "Playback suddenly stops",
+      "url"      : "/da/documentation/bugs-first-aid/playback-stops",
+      "content"  : "Playback suddenly stopsIf playback always stops for example a few seconds after turning off the screen, or when you haven’t opened AntennaPod for a while, your system might be killing the app. Some vendors are known to be overly aggressive when trying to save battery. Please try to add an exception for AntennaPod in the list of battery optimized apps. As the way to add an exception often differs between phones, we suggest searching on the web for instructions for your phone brand and model, if you don’t know how to add an exception.If this didn’t help, don’t hesitate to reach out to the AntennaPod contributors in our forum."
+    } ,
+  
+    
+    {
+      "title"    : "Jeg har fundet en tastefejl",
+      "url"      : "/da/documentation/bugs-first-aid/typo-translations",
+      "content"  : "Jeg har fundet en tastefejlDid you find a spelling mistake, or something that sounds odd? It’s always possible that we made a mistake in English (in which we make the app &amp; website), or that something has not been translated correctly. Luckily these issues are often easily fixed.Do you want to fix it yourself?If the issue is in any other language than English, you can update app translations on Transifex. Issue with the website translations can be fixed on Weblate. You can find more information in our Contribute section.Is the issue with the English texts? Then you will need to be or get familiar with GitHub. You can send a Pull Request for the app or for the website.Do you just want to inform us?You can create a post in the translations section on our forum. To do so you need to create an account (if you don’t have one already) or simply log in via Google."
+    } ,
+  
+    
+    {
+      "title"    : "Generelt",
+      "url"      : "/da/documentation/general",
+      "content"  : "GenereltNedenfor kan du finde flere oplysninger om AntennaPod-projektet."
+    } ,
+  
+    
+    {
+      "title"    : "Om annoncer i AntennaPod",
+      "url"      : "/da/documentation/general/ads",
+      "content"  : "Om annoncer i AntennaPodVores builds er helt reklamefri og open source! Hvis du ser reklamer, kan dethave to årsager:  Udgiverne af podcasten tilføjede annoncerne til deres afsnitbeskrivelse ellerlydfil. AntennaPod afspiller podcasts, som de blev udgivet af skaberne. Hvis deindeholder reklamer, afspiller AntennaPod dem. Vi har intet med disse annoncerat gøre, så indtægterne går fuldt ud til udgiverne af din podcast.  Du har hentet en uofficiel version af AntennaPod. AntennaPod er open source.Det betyder, at alle kan hente kildekoden. Desværre tager nogle udviklereAntennaPod, indsætter reklamer og udgiver den derefter som en ny app. Du kan fåden officielle AntennaPod-app på Google Playeller F-Droid. Du kanendda få den seneste version på GitHubog selv bygge AntennaPod!"
+    } ,
+  
+    
+    {
+      "title"    : "Sikkerhedskopiering af dine afsnit",
+      "url"      : "/da/documentation/general/backup",
+      "content"  : "Sikkerhedskopiering af dine afsnitDer er et par muligheder for at kopiere dine data til din nye telefon, og hvermetode kopierer en bestemt mængde data:SynkroniseringSynkroniser dine abonnementer via gpodder.net. Dettegemmer nogle podcast- og afsnitsdata (f.eks. afspilningsposition), men du misterdine favoritter, kø og app-indstillinger. Du kan få flere oplysninger om gpodderved at besøge vores dokumentationsafsnit omdet.Eksport af databaseEksporter AntennaPod-databasen. Dette er eksperimentelt, og du skal sikre dig,at du har den samme version af AntennaPod på både den gamle og den nye telefon.Efter import er alle data gendannet; du skal kun overføre afsnit igen.OPMLOPML-filer gør det muligt at overføre dine abonnementer til en andenpodcast-app. Du mister alle podcast- eller afsnitsspecifikke data (f.eks. om etbestemt afsnit er blevet afspillet) og alle app-indstillinger. Hvis du vileksportere din fil, skal du gå til Indstillinger » Lagring »Import/eksport. Sørg for at klikke på Send... for at gemme filen i en andenmappe på din telefon eller et andet sted, for den oprindelige fil slettes, nårdu afinstallerer AntennaPod. Når du importerer filen til AntennaPod på en andenenhed, viser appen en liste over podcasts med afkrydsningsfelter. De podcasts,du vælger fra denne liste, vil blive tilføjet til dine eksisterendeabonnementer. Ingen af dine eksisterende abonnementer vil blive påvirket."
+    } ,
+  
+    
+    {
+      "title"    : "Beta-testning",
+      "url"      : "/da/documentation/general/beta",
+      "content"  : "Beta-testningAntennaPod har mange brugere, og vi ønsker ikke, at de skal få problemer, når vitilføjer en ny funktion. Det er vigtigt, at vi har en betydelig gruppe til atteste vores app, så vi ved, at alle mulige kombinationer af telefoner,Android-versioner og brugssituationer fungerer som forventet.Mindre problemer dukker ofte op efter større opdateringer, og de bliver kunopdaget via fejlrapporter fra brugere i disse tidlige faser. Der er kun énhovedudvikler, som arbejder på dette i sin fritid. Han har kun et par enhedertil at teste tingene på, mens opførslen kan variere fra enhed til enhed.Google PlayHver ny version af AntennaPod sendes til vores beta-testere via GooglePlay-butikken, før den sendes til offentligheden. Det giver os mulighed for atteste opdateringer på mange forskellige enheder og Android-versioner, så vi kanfange fejl og problemer med brugeroplevelsen i tide. Hvis du har et kritisk øjeog kan forklare, hvad der går galt, er din hjælp meget velkommen! Hvis du sernoget, du ikke kan lide, er der desuden større sandsynlighed for, at du kan fådet ændret, så det passer til det, du ønsker.Så du vil have det nyeste og bedste? Det er helt sikkert muligt! Du skal blotbesøge AntennaPod i Play Store og gå til “Bliv betatester” nederst på siden.Hvis du sidder ved din computer, kan du gå til denne url.F-DroidVi tilbyder i øjeblikket ikke betaversioner i F-Droid-butikken.Dette skyldes, at F-Droid ikkeautomatisk genkender betaversioner. Tilføjelse af betaversioner til F-Droidville kræve en manuel indgriben for hver enkelt betaversion. Hvis der skalrettes noget vigtigt, skal en opdatering også straks udrulles, hvis der er behovfor det. Dette kan desværre ikke garanteres."
+    } ,
+  
+    
+    {
+      "title"    : "Centrale og decentrale podcast-apps",
+      "url"      : "/da/documentation/general/central-distributed",
+      "content"  : "Centrale og decentrale podcast-appsDer er dybest set to måder, hvorpå man laver en podcast app:  Central: Der er en central server (drevet af det firma, der udviklerappen), som tjekker, om der er nye afsnit, og derefter leverer dem til dig.  Decentral: Appen kontrollerer selv nye afsnit direkte frapodcast-udgiverne.AntennaPod bruger metode 2, dvs. vi har ikke en central server. Der er et parfordele og ulemper ved denne metode.  Hvis virksomheden lukker sin server ned af en eller anden grund med dencentrale metode, vil appen ophøre med at fungere. AntennaPod vil fortsat fungereuafhængigt af, hvad vi gør i vores ende, fordi appen kun ser påpodcastudgiverens websteder for at indsamle nye afsnit.  Ved brug af den centrale metode skal virksomheden drive serveren, hvilketkoster penge. Derfor er apps, der anvender denne metode, enten betalte ellerviser reklamer. AntennaPod er udviklet af frivillige uden at tjene nogen pengepå det. Appen er gratis og uden reklamer, men vi har derfor ikke råd til atdrive en server.  Ved hjælp af den centrale metode ved serveroperatøren, hvilke podcasts du erabonneret på. De ved sandsynligvis også, hvilke afsnit du lytter til, hvilkedele af afsnittene du lytter til, og på hvilket tidspunkt du lytter til dem.AntennaPod ved ikke noget om det. Vi har ikke engang en server, hvor vi kanindsamle disse data.  Hvis du lytter til private feeds (nogle udgivere sælger deres podcasts ellergiver støtter tidlig adgang til afsnittene), kræver den centrale metode, at dusender din adgangskode til det firma, der driver appen. Normalt tillader decentrale tjenester simpelthen ikke at tilføje private feeds.  Ved hjælp af den centrale tilgang kan den virksomhed, der driver appen,beholde afsnittene på deres server, selv om podcast-udgiverne sletter dem. Medden decentrale metode kan du kun få adgang til de afsnit, som udgiverne angiveri deres feed. Hvis du abonnerer på en podcast ved hjælp af AntennaPod, ogudgiveren sletter et afsnit, beholder appen også afsnittet, men hvis du sletterog geninstallerer appen, er det væk (medmindre du laver en sikkerhedskopi). Altsker lokalt på din enhed, så hvis udgiverne ikke offentliggøre et afsnit, kanappen med den decentrale metode ikke vide, at den findes.  Ved at bruge den decentrale metode kan du lytte til alle podcasts. Da dinenhed selv leder efter nye afsnit, kan app-udviklere ikke rigtig censurere, hvaddu kan lytte til ved at fjerne podcasts fra deres server."
+    } ,
+  
+    
+    {
+      "title"    : "Sletning af afsnit",
+      "url"      : "/da/documentation/general/episode-deletion",
+      "content"  : "Sletning af afsnitNår du er færdig med at lytte til et afsnit, vil du i de fleste tilfælde ønskeat slette den fra din telefon for at frigøre plads. Der er forskellige måder, dukan gøre det på.For det første kan du naturligvis slette afsnit manuelt. Når du ser køen elleren bestemt podcast, kan du trykke længe på et afsnit og trykke på Slet. Når dukigger på fanen Færdige på skærmen Overførsler, kan du også blot trykke påikonet med skraldespanden. Hvis du ønsker det, kan AntennaPod automatisk fjerneet afsnit fra køen, hvis den bliver slettet. Du kan finde denne indstillingunder Indstillinger “ Lagring “ Slet fjerner fra kø.For det andet har AntennaPod nogle løsninger til automatisk at slette afsnit.AntennaPod kan bl.a. slette afsnit automatisk, når afspilningen er afsluttet, ognår den har brug for plads til den automatiske overførselsproces. Du kan findeflere oplysninger om disse muligheder i artiklen Automatisk sletning."
+    } ,
+  
+    
+    {
+      "title"    : "Brug af eksternt lager",
+      "url"      : "/da/documentation/general/external-storage",
+      "content"  : "Brug af eksternt lagerDu kan indstille AntennaPod til at overføre afsnit til dit sd-kort i stedet forden interne hukommelse. Dette sikrer, at du har mere plads til afsnittene. Forat vælge lagringskortet skal du gå til Indstillinger » Lagring » Datamappe.FejlfindingDit SD-kort vises muligvis ikke i dialogboksen Vælg datamappe. For at ditSD-kort kan vises, skal Android genkende kortet som eksternt lager. Enten erkortet ikke monteret korrekt, eller også har producenten eller din smartphonekonfigureret hardwaren forkert.Hvis du kører Android 6+ (Marshmallow eller nyere), kan du prøve at formattereSD-kortet som intern lagringsplads. Ellers er der intet, vi kan gøre for at løsedette."
+    } ,
+  
+    
+    {
+      "title"    : "Føre trafik gennem et proxy- eller TOR-netværk",
+      "url"      : "/da/documentation/general/proxy",
+      "content"  : "Føre trafik gennem et proxy- eller TOR-netværkDet er muligt at få AntennaPod til at lede al trafik (mediefiler, coverbilleder,RSS-forespørgsler og søgninger) gennem en proxy eller TOR-netværket. Dette kanhave to potentielle fordele:  Privatliv: Afhængigt af typen af proxytjeneste kan dindownloading/streamingadfærd blive beskyttet mod podcast-værter  Adgang: Hvis podcast-værten forhindrer downloading af indhold fra andre lande(baseret på IP-adresser), kan du ved at indstille en proxy med oprindelseslandetstadig få adgang til indholdetDu finder denne indstilling under Indstillinger » Netværk » Proxy.For at lede al trafik via TOR-netværket skal du installere en proxy-app til TORog angive følgende oplysninger i AntennaPod:  Type: SOCKS  Vært: “localhost” eller “127.0.0.0.1”  Port: “9050”"
+    } ,
+  
+    
+    {
+      "title"    : "How to synchronize between devices",
+      "url"      : "/da/documentation/general/synchronization",
+      "content"  : "How to synchronize between devicesAntennaPod currently supports two synchronization options: via gpodder.net and the gPodder Sync app for Nextcloud.On gpodder.net anyone can create an account relatively easily and the service is free to use. Unfortunately the service has large numbers of users, limited funding and a lack of volunteer contributions. This means the server often is overloaded, leading to errors in AntennaPod. If possible, we therefore recommend that you use an existing account on a Nextcloud instance or start self-hosting either gpodder.net or Nextcloud.gPodder Sync app for NextcloudIf you have a Nextcloud account, install the gPodder Sync app or ask your server admin to do so. Once that is installed, simply go to Settings » Synchronization in AntennaPod, choose the relevant provider and enter the server address.gpodder.net &amp; your own gpodder server      Create an account on gpodder.net or log in if you have one already.        After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:        When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of the activated devices synchronized.        Then go to AntennaPod’s Settings » Synchronization. There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.  Did you create a device while logging in, rather than in advance as suggested above? Then be sure to press the Force sync button in AntennaPod to upload the played state of all the episodes you listened to earlier. If you don’t do this, only podcasts that were added after linking the devices are synchronized. There is an open issue for gpodder.net that requests to change the behavior."
+    } ,
+  
+    
+    {
+      "title"    : "Kom godt i gang",
+      "url"      : "/da/documentation/getting-started",
+      "content"  : "Kom godt i gangVelkommen til AntennaPod! Nedenfor kan du finde oplysninger om, hvordan du kommer i gang med AntennaPod.Først skal du abonnere på en podcast. Du kan finde mere om det her.Når du har abonneret, vises nye afsnit på Afsnit » Nye. Der kan du selvbestemme, om du vil lytte til dem eller ej. Nye betyder, at du endnu ikke harbesluttet, hvad du vil gøre med afsnittet.  Hvis du ikke er interesseret i et afsnit, kan du blot stryge det væk, ogAntennaPod fjerner ny-markeringen. Afsnittet forbliver stadig markeret somuafspillet, og du kan finde det på siden Afsnit » Alle, samt på podcastensside.  Hvis du er interesseret i afsnittet, kan du gøre én af to ting, afhængigt afdin lytteadfærd.          Overfør afsnittet. Ved overførsel tilføjer AntennaPod også automatisk afsnittet til køen og fjerner ny-markeringen. Der er en indstilling, hvis du ønsker, at nye episoder skal sættes i kø bagerst, foran eller efter det afsnit, der afspilles i øjeblikket. Overførsel er den primære måde AntennaPod oprindeligt blev designet til at blive brugt på, men da streaming bliver mere og mere populært, kan du også bruge den anden mulighed.      Du skal blot tilføje afsnittet til køen. AntennaPod fjerner automatisk ny-markeringen og indsætter det i køen. Du kan senere afspille afsnittet direkte uden at skulle overføre det, så det ikke optager plads. Kort sagt er det som at streame videoer på YouTube. Ulempen er, at det ikke vil være tilgængeligt offline, bruger din mobildataforbindelse, når du er på farten, og gør det lidt langsommere at springe frem (og lægger mere belastning på podcastværtens servere).        Hvis du er færdig med at afspille, markerer AntennaPod afsnittet som afspilletog fjerner det fra køen. Der er en indstilling, så overførslen også automatiskslettes efter afspilning. Du kan finde en liste over alle afsnit, der stadig eroverført til din enhed (uanset om de er i køen eller ej) på siden Overførsler» Færdige.  Hvis du kan lide et afsnit og overvejer at lytte til det igen, kan du ogsåmarkere det som favorit. Det vil så blive vist på siden Afsnit » Favoritterog vil (som standard) ikke blive slettet efter afspilning.Hvis du har abonneret på en rigtig god podcast, hvor du fra starten ved, at alleafsnit vil være gode, kan du bruge funktionen til automatisk overførsel. Når dener aktiveret for en podcast, overføres alle fremtidige nye afsnit automatisk ogføjes til køen. De vil automatisk blive fjernet fra siden Afsnit » Nye, såsnart de er overført."
+    } ,
+  
+    
+    {
+      "title"    : "Abonnering på en podcast",
+      "url"      : "/da/documentation/getting-started/subscribe",
+      "content"  : "Abonnering på en podcastNår du har hentet en podcast-app, er næste skridt at abonnere på en podcast.AbonnereÅbn skuffen ved at stryge fra venstre eller ved at trykke på = burgerikonet iøverste venstre hjørne. Gå til + Tilføj podcast. Nu kan du søge, gennemseforslag eller tilføje en podcast ved hjælp af RSS-adressen.Alternativt kan du importere en OPML-fil eller kun tjekke iTunes-, gpodder.net-eller fyyd-databasen. Import af RSS- eller Atom-feeds eller URL-skemaer sompcast:// og itpc:// fungerer også.Abonnement på tjenester fra tredjeparterVi har fået nogle spørgsmål om understøttelse af platforme som Soundcloud,Mixcloud og lignende. Selv om det kunne være fedt at have en funktion til blotat indsætte/åbne kanal-URL’er i AntennaPod, er det blevet besluttetikke at implementere det. Sådanne platforme kan komme og forsvinde, mens detkræver en del arbejde for vores frivillige at implementere denne funktion. Hvisdu er udvikler, er du naturligvis velkommen til at diskutere et forslag, som dugerne vil implementere.SoundcloudSoundcloud giver producenter mulighed for at lave podcastsud fra deres indhold ganske nemt. Du bør kontakte dem, deleSoundcloud-hjælpssiden (førnævnte link) og spørge, om de er villige til at sættedet op.MixcloudMixcloud tilbyder desværre ikke denne mulighed for indholdsskabere. Som altid erder nogen i podcast-fællesskabet, der kan finde en løsning. Du bør tjekkemulighedernebeskrevet i dette indlæg.YouTubeYouTube giver dig mulighed for at abonnere på en kanals feed, men:  AntennaPod kan ikke overføre videoerne automatisk, da YouTube ikke tilladerdet. Det er trods alt deres forretningsmodel at vise reklamer.  Du vil ikke få et billede forbundet med dit abonnement, da YouTube ikkeinkluderer det i feeds.Men det er en måde at få besked om nye afsnit på. Du skal blot tilføjebrugerens/kanalens URL (https://www.youtube.com/user/USERNAME ellerhttps://www.youtube.com/channel/CHANNEL_ID) i AntennaPod. Du bør få vist endialogboks med indstillingen ‘RSS’; tryk på den for at tilføje feed’et. Hvis detikke fungerer som beskrevet, skal du tilføjehttps://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt; tilAntennaPod. Du kan finde kanal-id’et i kanalens URL-adresse. Hvis den kanal, duvil abonnere på, er en brugerkonto (med en URL som youtube.com/user/UserName),kan du kontakte brugeren for at bede om deres kanal-id (her er det forklarethvordan brugere kan finde deres kanal-id).Som du kan se, har vi ikke nogen oplysninger om andre platforme. Vi inkludererdet gerne her, hvis du deler dine tanker via forummet."
+    } ,
+  
+    
+    {
+      "title"    : "Afspilning",
+      "url"      : "/da/documentation/playback",
+      "content"  : "AfspilningNedenfor kan du finde emner vedrørende afspilning."
+    } ,
+  
+    
+    {
+      "title"    : "Automatisk tilbagespoling",
+      "url"      : "/da/documentation/playback/auto-rewind",
+      "content"  : "Automatisk tilbagespolingNår et afsnit er blevet sat på pause og afspilles igen, spoler AntennaPodautomatisk tilbage, så det er nemmere at følge med igen. Hvor meget der spolestilbage kan ikke indstilles og afhænger af, hvor længe et afsnit har været satpå pause. Tider for tilbagespoling er i øjeblikket:            Tid siden sidste afspilning      Tilbagespolingsvarighed             –      –             Mere end 1                     dag      20 sekunder             Mere end 1 time      10 sekunder             Mere end 1 minut      3 sekunder                                                                      "
+    } ,
+  
+    
+    {
+      "title"    : "Genveje på fysisk tastatur",
+      "url"      : "/da/documentation/playback/shortcuts",
+      "content"  : "Genveje på fysisk tastaturHvis du har et fysisk (‘hardware’) tastatur tilsluttet din telefon eller tablet,kan du bruge visse genveje til at styre afspilningen i AntennaPod.Alle skærme (undtagen videoafspiller og indstillingerne)            Tast      Funktion             –      –             P      Afspil/Pause             J/A/,      Tilbagespol              medie             K/D/.      Spol media frem             +/W      Øg lydstyrke på mediekanal                                                 -/S      Dæmp lydstyrke på mediekanal)             M      Slå mediekanals lyd til                                                 eller fra (kun på Android 6 eller højere)                                                                            Videoafspiller            Tast      Funktion             –      –             P/Mellemrumstast      Afspil/Pause             J/              A/,      Tilbagespol medie             K/D/.      Spol medie frem             F/Esc                                   Forlad videoafspiller             i      Vælg billede-i-billede-tilstand             0-9      Gå                                   til 0-90% af videoen             +/W      Øg lydstyrke på medikanal             -/S      Dæmp                                   lydstyrke på mediakanal             M      Slå mediekanals lyd til eller fra (kun på                                                        Android 6 eller højere)                                                                     "
+    } ,
+  
+    
+    {
+      "title"    : "Til podcastere og hostingudbydere",
+      "url"      : "/da/documentation/podcasters-hosters",
+      "content"  : "Til podcastere og hostingudbydereNedenfor kan du finde vores supportoplysninger til podcastere og hostingudbydere."
+    } ,
+  
+    
+    {
+      "title"    : "Opret et &#39;Åbn i AntennaPod&#39;-link",
+      "url"      : "/da/documentation/podcasters-hosters/add-on-antennapod",
+      "content"  : "Opret et ‘Åbn i AntennaPod’-linkVil du gøre det nemt for dit netværk eller publikum at tilføje din(e) podcast(s)i AntennaPod?Indsætte blot et link til https://antennapod.org/deeplink/subscribe?url=xyz pådit websted eller hvor end du vil. Sørg for at erstatte xyz med URL-adressenpå dit RSS-feed.Brugere, der har installeret AntennaPod version 2.4.0 eller nyere, vil se dinpodcast direkte (og kunne få en forhåndsvisning eller tilføje den). Brugere, derikke har denne nyere version, vil se vores websted med en fin ‘Abonner’-knap,som åbner din podcast i AntennaPod.Hvis du har brug for vores logo, kan du tjekke vores branding-depot."
+    } ,
+  
+    
+    {
+      "title"    : "Få din podcast registreret",
+      "url"      : "/da/documentation/podcasters-hosters/list-podcast",
+      "content"  : "Få din podcast registreretHvis du er podcast-producent og ønsker at gøre din podcast synlig i AntennaPod,er denne side til dig.AntennaPod bruger primært tre kataloger til sin søgefunktion:  Podcast Index (spørg din host, hvordan dutilføjer din podcast, eller tilføj din egen podcast via API)  iTunes (tilføj via Podcast Connect)  Fyyd (tilføj via deres websted)Hvis din podcast er tilgængelig i et af dem, kan den findes frem i AntennaPod."
+    } ,
+  
+    
+    {
+      "title"    : "Kø",
+      "url"      : "/da/documentation/queue",
+      "content"  : "KøNedenfor kan du finde ofte stillede spørgsmål om køen."
+    } ,
+  
+    
+    {
+      "title"    : "Sådan bruges køen",
+      "url"      : "/da/documentation/queue/how-to-use",
+      "content"  : "Sådan bruges køenDu kan bruge køen til at gemme afnit, som du planlægger at lytte til. Hvis dustøder på et interessant afsnit, skal du trykke længe og vælge Tilføj til køen.Hvis du overfører et afsnit, tilføjer AntennaPod det automatisk til køen."
+    } ,
+  
+    
+    {
+      "title"    : "Låsning af køen",
+      "url"      : "/da/documentation/queue/lock",
+      "content"  : "Låsning af køenEt ret almindeligt problem, som brugerne oplever, er, at de pludselig ikke kanomarrangere køen manuelt.Hvis du ikke kan flytte afsnit rundt i køen, kan det skyldes en af følgendeting:  Hold sorteret er aktiveret. Du kan deaktivere dette ved at trykke på de treprikker ... i den øverste bjælke og vælge Sorter.  Køen er låst. Du kan låse køen op ved at trykke på ikonet oplåsning iøverste bjælke: "
+    } ,
+  
+    
+    {
+      "title"    : "Sådan bruges flere køer",
+      "url"      : "/da/documentation/queue/multiple-queues",
+      "content"  : "Sådan bruges flere køerFlere køer understøttes ikke i øjeblikket. Du kan følge issue 2648på GitHub for at få flere oplysninger og/eller for at blive holdt opdateret."
+    } ,
+  
+    
+    {
+      "title"    : "Abonnementer",
+      "url"      : "/da/documentation/subscriptions",
+      "content"  : "AbonnementerNedenfor kan du finde ofte stillede spørgsmål om abonnementer."
+    } ,
+  
+    
+    {
+      "title"    : "Lytte til et afsnit uden at abonnere",
+      "url"      : "/da/documentation/subscriptions/listening-without-subscribing",
+      "content"  : "Lytte til et afsnit uden at abonnereI øjeblikket er der ingen mulighed for at tilføje et afsnit til køen uden atabonnere. Du kan finde flere oplysninger i funktionsanmodningen på voresudviklingsplatform.Der er dog en måde at få en forsmag på et afsnit på uden at skulle abonnerepå podcasten. De vigtigste forskelle ved at tilføje et afsnit til køen uden atabonnere er:  Afspilningen af afsnittet starter automatisk (det bliver det aktuelle afsnit)  Det er ikke muligt at skifte til et andet afsnit og vende tilbage til detsenereSådan får du en forsmag på et afsnit:  Gør som om du tilføjede et abonnement  Du skal ikke trykke på abonner, men på det afsnit, du vil lytte til  Beskrivelsen af afsnittet vil blive udvidet; tryk på Forhåndsvisning underbeskrivelsen"
+    } ,
+  
+    
+    {
+      "title"    : "Abonnementsetiketter (grupper eller kategorier)",
+      "url"      : "/da/documentation/subscriptions/subscription-groups",
+      "content"  : "Abonnementsetiketter (grupper eller kategorier)For at hjælpe med at organisere dine abonnementer kan du tildele podcastsetiketter (nogle gange kaldet grupper eller kategorier). Bemærk venligst, at deti øjeblikket ikke er muligt at oprette køer baseret på etiketter. Dette villekræve understøttelse af flere køer først. (Se også feature requestpå vores udviklingsplatform).For at tildele etiketter til en podcast skal du:  Åbne en bestemt podcast  Trykke på gear ikonet for at få adgang til dens indstillinger  Vælg indstillingen Etiketter"
+    } 
+  
+]
+
