@@ -23,10 +23,10 @@ de synchroniser vos podcasts, vous devez y créer un compte.
    - Après avoir créé le compte, nous vous suggérons de créer un appareil sur
 gpodder.net/devices/ pour chaque client que vous utilisez :<br />{{ img-devices | strip }}
 
-   - Après avoir créé les appareils, reliez-les à l'aide du bouton "Configure" ;.
-De cette façon, gpodder.net maintiendra automatiquement la synchronisation des
+   - Après avoir créé les appareils, reliez-les à l'aide du bouton "Configure". De
+cette façon, gpodder.net maintiendra automatiquement la synchronisation des
 abonnements des deux appareils.<br />{{ img-synchronize | strip }}
-- Ensuite, jetez un coup d'œil aux `Préférences` " `Synchronisation`)
+- Ensuite, jetez un coup d'œil aux `Préférences` → `Synchronisation`)
 d'AntennaPod's. Là, vous pouvez vous connecter à gpodder.net ou même fournir un
 autre serveur si vous voulez l'héberger vous-même. Pendant la connexion,
 AntennaPod demande quel est le périphérique sur lequel vous êtes actuellement
@@ -37,8 +37,8 @@ ajoutés **après** avoir lié les appareils seront synchronisés. Par conséque
 pour que tous vos abonnements existants soient synchronisés, vous devez créer et
 lier les appareils **avant** de vous connecter (comme il est décrit dans ce
 post). Il existe un [problème ouvert pour gpodder.net](https://github.com/gpodder/mygpo/issues/388)
-qui demande de changer le comportement mais pour l'instant, la liaison doit être
-faite avant la synchronisation.
+qui demande de changer le comportement, mais pour l'instant, la liaison doit
+être faite avant la synchronisation.
 - Bonne synchronisation :)
 
 Les anciennes versions d'AntennaPod ne téléchargent que l'information "épisode
