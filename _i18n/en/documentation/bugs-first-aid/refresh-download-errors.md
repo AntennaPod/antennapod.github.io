@@ -1,9 +1,9 @@
 Do you get a notification saying that downloads completed with errors? Then AntennaPod could not refresh the podcast or download an audio file from the website of the podcast hoster.
 
 Issues that only occur with one or a few specific podcasts are often related to those podcasts. To confirm if this is the case, you can follow these steps:
-1. tap on the notification to open the Download Log
-2. tap on the specific log entry with the error
-3. long-press on the URL that is displayed, and copy it or open it in your web browser
+1. Tap on the notification to open the Download Log
+2. Tap on the specific log entry with the error
+3. Long-press on the URL that is displayed, and copy or open it in your web browser
 
 If the URL doesn't work in the browser either, this means that it is not a problem with AntennaPod. If you get the error message consistently then the podcast has likely been moved, taken off-line or is not properly configured. In this case, please contact the podcast creators (as this cannot be fixed at our end).
 
