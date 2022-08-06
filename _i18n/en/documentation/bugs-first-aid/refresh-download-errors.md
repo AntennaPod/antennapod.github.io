@@ -9,6 +9,6 @@ If the URL doesn't work in the browser either, this means that it is not a probl
 
 Does the error message in the Download log say "Failed to connect to [url]"? Then this probably means that there is interference on your network. If you have an ad-blocker, VPN, captive portal, proxy, privacy guard, special DNS service, or parental control set up on your phone, you can try turning these off.
 
-Do you see an error message like "not well-formed (invalid token)”? Then the publisher messed up their (RSS) feed. (For example, they might have used a plain `&`-sign rather than encoding it as `&amp;`.) 
+Do you see an error message like "not well-formed (invalid token)”? Then the publisher messed up their (RSS) feed. (For example, they might have used a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the publisher directly, as this cannot be fixed at our end.
 
 If you can't pinpoint the issue, please copy the error message via the Copy-button and share it [on our forum](https://forum.antennapod.org/c/support/7). Our community will happily have a look to find out the exact cause!
