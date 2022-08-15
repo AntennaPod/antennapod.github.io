@@ -5,8 +5,8 @@ msgstr ""
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
 "PO-Revision-Date: 2022-08-04 12:20+0000\n"
 "Last-Translator: Keunes <keunes@mailbox.org>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/"
-"website-documentation/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website-"
+"documentation/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -259,14 +259,13 @@ msgid ""
 "started."
 msgstr ""
 "Als snelkoppeling kunt u klikken op de [deze link](http://llama.location."
-"profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--"
-"0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAG"
-"QALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2"
-"F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbg"
-"B0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGE"
-"AcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBS"
-"AGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%"
-"7C2%7C) om een voorbeeldgebeurtenis te maken, om mee te beginnen."
+"profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--0-"
+"%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod"
+"%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F"
+"%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F"
+"%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA"
+"%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) om een voorbeeldgebeurtenis te "
+"maken, om mee te beginnen."
 
 #: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
 msgid ""
@@ -527,6 +526,77 @@ msgid ""
 msgstr ""
 "Als dit niet helpt, aarzal dan niet om contact zoeken met AntennaPod-"
 "vrijwilligers in ons [forum](https://forum.antennapod.org)."
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 1
+#: (paragraph)
+msgid ""
+"Do you get a notification saying that downloads completed with errors? Then "
+"AntennaPod could not refresh the podcast or download an audio file from the "
+"website of the podcast hoster."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
+#: (paragraph)
+msgid ""
+"Issues that only occur with one or a few specific podcasts are often related "
+"to those podcasts. To confirm if this is the case, you can follow these "
+"steps:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
+#: (ordered list)
+msgid "Tap on the notification to open the Download Log"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
+#: (ordered list)
+msgid "Tap on the specific log entry with the error"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
+#: (ordered list)
+msgid ""
+"Long-press on the URL that is displayed, and copy or open it in your web "
+"browser"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 4
+#: (paragraph)
+msgid ""
+"If the URL doesn't work in the browser either, this means that it is not a "
+"problem with AntennaPod. If you get the error message consistently then the "
+"podcast has likely been moved, taken off-line or is not properly configured. "
+"In this case, please contact the podcast creators (as this cannot be fixed "
+"at our end)."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
+#: (paragraph)
+msgid ""
+"Does the error message in the Download log say \"Failed to connect to "
+"[url]\"? Then this probably means that there is interference on your "
+"network. If you have an ad-blocker, VPN, captive portal, proxy, privacy "
+"guard, special DNS service, or parental control set up on your phone, you "
+"can try turning these off."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
+#: (paragraph)
+msgid ""
+"Do you see an error message like \"not well-formed (invalid token)”? Then "
+"the publisher messed up their (RSS) feed. (For example, they might have used "
+"a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the "
+"publisher directly, as this cannot be fixed at our end."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 7
+#: (paragraph)
+msgid ""
+"If you can't pinpoint the issue, please copy the error message via the Copy-"
+"button and share it [on our forum](https://forum.antennapod.org/c/"
+"support/7). Our community will happily have a look to find out the exact "
+"cause!"
+msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 1
 #: (paragraph)
@@ -1065,8 +1135,8 @@ msgid ""
 "nextcloud.com/apps/gpoddersync)."
 msgstr ""
 "AntennaPod ondersteunt momenteel twee opties voor synchronisatie: via "
-"[gpodder.net](https://gpodder.net/) en de [gPodder Sync app voor "
-"Nextcloud](https://apps.nextcloud.com/apps/gpoddersync)."
+"[gpodder.net](https://gpodder.net/) en de [gPodder Sync app voor Nextcloud]"
+"(https://apps.nextcloud.com/apps/gpoddersync)."
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (paragraph)
 msgid ""
@@ -1154,9 +1224,8 @@ msgstr ""
 "afdwingen` in AntennaPod om de 'afgespeeld'-status te uploaden van alle "
 "afleveringen die je eerder beluisterd hebt. Als je dit niet doet, worden "
 "alleen de podcasts gesynchroniseerd die werden toegevoegd **na** het "
-"koppelen van de apparaten. Er is een [open ticket voor gpodder."
-"net](https://github.com/gpodder/mygpo/issues/388) dat vraagt om dit te "
-"veranderen."
+"koppelen van de apparaten. Er is een [open ticket voor gpodder.net](https://"
+"github.com/gpodder/mygpo/issues/388) dat vraagt om dit te veranderen."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
@@ -1580,11 +1649,11 @@ msgid ""
 "will be able to preview episodes and subscribe to your podcast directly in "
 "our app."
 msgstr ""
-"Plaats simpelweg een link naar `https://antennapod.org/deeplink/"
-"subscribe?url=xyz` op je website of waar je maar wilt. Vervang `xyz` door de "
-"URL van de feed-RSS. Gebruikers die AntennaPod hebben geïnstalleerd en die "
-"de link openen, kunnen een afleveringen als voorproefje beluisteren en zich "
-"direct in onze app abonneren op je podcast."
+"Plaats simpelweg een link naar `https://antennapod.org/deeplink/subscribe?"
+"url=xyz` op je website of waar je maar wilt. Vervang `xyz` door de URL van "
+"de feed-RSS. Gebruikers die AntennaPod hebben geïnstalleerd en die de link "
+"openen, kunnen een afleveringen als voorproefje beluisteren en zich direct "
+"in onze app abonneren op je podcast."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 3
 #: (paragraph)
@@ -1696,9 +1765,9 @@ msgid ""
 "github.com/AntennaPod/AntennaPod/issues/2648) on GitHub for more information "
 "and / or subscribe to the issue to get updated in case of any developments."
 msgstr ""
-"Meerdere wachtrijen worden momenteel niet ondersteund. Je kunt [issue "
-"2648](https://github.com/AntennaPod/AntennaPod/issues/2648) op GitHub "
-"bekijken voor meer informatie en/of je daar op updates abonneren voor als er "
+"Meerdere wachtrijen worden momenteel niet ondersteund. Je kunt [issue 2648]"
+"(https://github.com/AntennaPod/AntennaPod/issues/2648) op GitHub bekijken "
+"voor meer informatie en/of je daar op updates abonneren voor als er "
 "ontwikkelingen zijn."
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
