@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-15 17:37+0200\n"
-"PO-Revision-Date: 2022-03-18 13:57+0000\n"
-"Last-Translator: Omar Macías Molina <omar.maciasmolina@gmail.com>\n"
+"PO-Revision-Date: 2022-08-22 11:21+0000\n"
+"Last-Translator: Maite Guix <maite.guix@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/antennapod/"
 "website-general/ca/>\n"
 "Language: ca\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -241,15 +241,13 @@ msgid "Get it on F-Droid"
 msgstr "Aconsegueix-ho a F-Droid"
 
 #: _i18n/en/general/download.md:block 13 (paragraph)
-#, fuzzy
 msgid ""
 "Official versions of AntennaPod are available on Google Play and F-Droid:"
 msgstr ""
-"Podeu descarregar les versions oficials d'AntennaPod a Google Play i a F-"
-"Droid."
+"Podeu descarregar les versions oficials d'AntennaPod a Google Play i a "
+"F-Droid:"
 
 #: _i18n/en/general/download.md:block 16 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod is only officially published in above two app stores because we "
 "don't have the time to support more. All other stores listing AntennaPod "
@@ -261,12 +259,12 @@ msgid ""
 "investigate it."
 msgstr ""
 "AntennaPod només es publica oficialment a les dues botigues anteriors perquè "
-"no tenim temps per donar suport a més. La resta de botigues que inclouen "
-"AntennaPod van copiar l'aplicació sense el nostre permís explícit. No som "
-"responsables d'actualitzar-los ni d'assegurar-nos que funcionin "
-"correctament. El repositori F-Droid no el mantenim nosaltres, sinó la gent "
-"que hi ha darrere de F-Droid. Si no és l'última versió, no hi podem fer "
-"gaire, però sempre ens ho podeu fer saber creant una publicació al nostre "
+"no tenim temps per a donar suport a més. La resta de botigues que inclouen "
+"AntennaPod han copiar l'aplicació sense el nostre permís explícit. No som "
+"responsables d'actualitzar-la ni d'assegurar-nos que funcioni correctament. "
+"El repositori F-Droid no el mantenim nosaltres, sinó la gent que hi ha "
+"darrere de F-Droid. Si no és l'última versió, no hi podem fer gaire, però "
+"sempre ens ho podeu fer saber creant una publicació al nostre "
 "[fòrum](https://forum.antennapod.org/), i ho investigarem."
 
 #: _i18n/en/general/download.md:block 17 (paragraph)
@@ -274,6 +272,8 @@ msgid ""
 "<small>Google Play and the Google Play logo are trademarks of Google LLC.</"
 "small>"
 msgstr ""
+"<small>Google Play i el logo de Google Play són marques comercials de Google "
+"LLC.</small>"
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -292,9 +292,8 @@ msgid "The website code & theme"
 msgstr "El codi i el tema del lloc web"
 
 #: _i18n/en/general/license.md:block 4 (paragraph)
-#, fuzzy
 msgid "The website is developed under the MIT License:"
-msgstr "El lloc web està desenvolupat sota la llicència MIT (MIT):"
+msgstr "El lloc web es desenvolupa sota la llicència MIT:"
 
 #: _i18n/en/general/license.md:block 11 (header)
 msgid "The website content"
@@ -383,18 +382,17 @@ msgstr ""
 "privadesa:"
 
 #: _i18n/en/general/privacy.md:block 8 (unordered list)
-#, fuzzy
 msgid ""
 "Read from/write to Storage (Photos/Media/Files): The storage permission is "
 "used to open files that are not downloaded directly from within the app. It "
 "can also be used to import app settings or OPML files. The permission is "
 "only requested if you perform an action that requires reading from storage."
 msgstr ""
-"Llegir des/escriure a l'emmagatzematge (Fotos/Mitjans/Fitxers) El permís "
-"d'emmagatzematge s'utilitza per obrir fitxers que no es descarreguen "
-"directament des de l'aplicació. També es pot utilitzar per importar la "
-"configuració de l'aplicació o fitxers OPML. El permís només es demana si "
-"realitzeu una acció que requereix llegir des de l'emmagatzematge."
+"Llegir/escriure des de/a l'emmagatzematge (Fotos/Multimèdia/Fitxers): El "
+"permís d'emmagatzematge s'utilitza per a obrir fitxers que no es "
+"descarreguen directament des de l'aplicació. També es pot utilitzar per a "
+"importar la configuració de l'aplicació o fitxers OPML. El permís només es "
+"demana si realitzeu una acció que requereix llegir des de l'emmagatzematge."
 
 #: _i18n/en/general/privacy.md:block 9 (header)
 msgid "What app data other parties might collect, store and process"
@@ -434,7 +432,6 @@ msgstr ""
 "feedburner, podtrac o serveis similars per distribuir els seus canals."
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
-#, fuzzy
 msgid ""
 "Discovery and search services: When opening the Discover screen in the app, "
 "it sends a call to Apple to collect podcast suggestions. They may store the "
@@ -446,17 +443,17 @@ msgid ""
 "name \"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
-"Serveis de descoberta i cerca: quan obre la pantalla Discover a l'aplicació, "
-"envia una trucada a Apple per recollir suggeriments de podcasts. Poden "
-"emmagatzemar la consulta, inclòs el país (que per defecte és el país del "
-"dispositiu). Aquests suggeriments es poden desactivar si escolliu "
-"\"desactivat\" al selector de regió. Quan utilitzeu la funció de cerca a "
-"AntennaPod, els serveis PodcastIndex.org, iTunes, fyyd i gpodder.net poden "
-"emmagatzemar la vostra consulta, inclosos els termes de cerca. Les consultes "
-"de descobriment i cerca també inclouen l'adreça IP, l'hora i el nom de "
-"l'aplicació \"AntennaPod\". Després de subscriure's, el canal es publica des "
-"de l'allotjament de podcasts, és a dir, el servei de descobriment/cerca ja "
-"no està implicat."
+"Serveis de descobriment i cerca: Quan s'obre la pàgina de descobriment a "
+"l'aplicació, s'envia una petició a Apple per a recollir els suggeriments de "
+"podcast. Ells poden desar la petició, incloent-hi el país (que per defecte "
+"és el país del dispositiu). Aquests suggeriments es poden desactivar "
+"escollint «off» al selector de regió. Quan s'utilitza la característica de "
+"cerca a AntennaPod, els serveis PodcastIndex.org, iTunes, fyyd i gpodder.net "
+"poden emmagatzemar la vostra petició, incloent els termes de cerca. Les "
+"peticions de cerca i descobriment inclouen les adreces IP, l'hora, el nom de "
+"l'aplicació «AntennaPod». Després de la subscripció, el feed es servirà des "
+"del servidor del podcast, cosa que significa que els serveis de cerca/"
+"descobriment ja no hi estaran involucrats."
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
 msgid ""
