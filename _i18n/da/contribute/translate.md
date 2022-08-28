@@ -17,12 +17,12 @@ loc="/assets/images/documentation" file="translation-components-weblate.png" %}
 {% endcapture %}
 
 Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_population)
-på 7,9 milliarder mennesker er det kun 1,3 milliarder, der [taler engelsk](https://www.ethnologue.com/guides/ethnologue200).
+på 7,9 milliarder mennesker er det 'kun' 1,3 milliarder, der [taler engelsk](https://www.ethnologue.com/guides/ethnologue200).
 Det betyder måske ikke så meget i sig selv. Men om noget, kan vi konkludere, at
 hvis vi gør AntennaPod tilgængelig på flere sprog, bliver appen tilgængelig for
-flere mennesker. En oversat app er ikke kun anvendelig for flere mennesker, den
-hjælper også vores projekt til at vokse ud over de nuværende primære
-brugergrupper (Tyskland og USA).
+flere mennesker. Som en ekstra bonus vil en oversat app også hjælper vores
+projekt med at vokse ud over de nuværende primære brugergrupper (Tyskland og
+USA).
 
 Vi sætter derfor stor pris på din hjælp!
 

@@ -4,7 +4,7 @@ AntennaPod er licenseret under [General Public License](https://github.com/Anten
 
 # Websted-kode og tema
 
-Hjemmesiden er udviklet under MIT-licensen (MIT):
+Hjemmesiden er udviklet under MIT-licensen:
 
 Copyright (c) 2020 Anxhelo Lushka and other contributors
 

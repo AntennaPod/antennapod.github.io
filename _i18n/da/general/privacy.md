@@ -28,9 +28,9 @@ tjenesten.
 Appen anmoder om følgende Android-tilladelser, der er relevante for beskyttelse
 af personlige oplysninger:
 
-- Læs fra/skriv til lager (fotos/medier/filer) Lagertilladelsen bruges til at
-åbne filer, som ikke er downloadet direkte fra appen. Den kan også bruges til at
-importere appindstillinger eller OPML-filer. Der anmodes kun om tilladelsen,
+- Læs fra/skriv til lager (fotos/medier/filer): Lagertilladelsen bruges til at
+åbne filer, som ikke downloades direkte inde fra appen. Den kan også bruges til
+at importere appindstillinger eller OPML-filer. Der anmodes kun om tilladelsen,
 hvis du udfører en handling, der kræver læsning fra lageret.
 
 ## Hvilke app-data andre parter kan indsamle, gemme og behandle
@@ -38,16 +38,15 @@ hvis du udfører en handling, der kræver læsning fra lageret.
 - Podcast-host: Når det er angivet i podcast-indstillingerne, modtager en host
 de godkendelsesdata, du har angivet. Webservere, der leverer podcast-feeds,
 indsamler muligvis yderligere data, f.eks. din IP-adresse, adgangstidspunkt og
-det, der er tilgået. Dette omfatter de episoder, du downloader eller streamer.
-Se deres respektive politikker om beskyttelse af personlige oplysninger for
-nærmere oplysninger. Du kan se URL'en for en podcast ved at åbne podcasten og
-trykke på infoikonet. AntennaPod tillader ikke, at fjernservere sætter cookies.
-Serverne kan registrere, at du bruger AntennaPod, og hvilken version af
-AntennaPod du bruger (HTTP User-Agent). Hvis flere podcasts er hostet på den
-samme server, kan serveren registrere listen over podcasts, som du har abonneret
-på, og som er hostet på den pågældende server. Dette kan ske, hvis udgivere
-bruger feedburner, podtrac eller lignende tjenester til at distribuere deres
-feeds.
+det, der er tilgået. Dette omfatter de afsnit, du downloader eller streamer. Se
+deres respektive politikker om beskyttelse af personlige oplysninger for nærmere
+oplysninger. Du kan se URL'en for en podcast ved at åbne podcasten og trykke på
+infoikonet. AntennaPod tillader ikke, at fjernservere sætter cookies. Serverne
+kan registrere, at du bruger AntennaPod, og hvilken version af AntennaPod du
+bruger (HTTP User-Agent). Hvis flere podcasts er hostet på den samme server, kan
+serveren registrere listen over podcasts, som du har abonneret på, og som er
+hostet på den pågældende server. Dette kan ske, hvis udgivere bruger feedburner,
+podtrac eller lignende tjenester til at distribuere deres feeds.
 - Opdagelses- og søgetjenester: Når du åbner skærmen Opdag i appen, sender den
 et opkald til Apple for at indsamle podcast-forslag. De kan gemme forespørgslen,
 herunder land (der som standard er enhedens land). Disse forslag kan deaktiveres
@@ -59,7 +58,7 @@ fra podcast-hosteren, hvilket betyder, at opdagelses-/søgetjenesten ikke længe
 er involveret.
 - Synkroniseringstjenester: Når det er aktiveret via indstillingerne,
 synkroniserer AntennaPod dine data. Disse data kan omfatte loginoplysninger,
-abonnerede podcasts, aflyttede episoder, afspilning, pause og favorithandlinger
+abonnerede podcasts, aflyttede afsnit, afspilning, pause og favorithandlinger
 med dato- og tidsstempler og IP-adresse. Du kan få flere oplysninger i din
 udbyders privatlivspolitik (f.eks. [gpodder.net's privatlivspolitik](https://gpodder.net/privacy),
 eller den for din Nextcloud-vært).

@@ -5,21 +5,21 @@ nyde nettets bedste lydindhold.
 
 # Enkel, men rig på funktioner
 
-Der er så mange fede ting at tage sig til i verden og så mange ting i livet, som
-man skal bekymre sig om. Så du vil ikke skulle bruge tid på at finde ud af,
-hvordan denne her ting fungerer. Du vil hellere i gerne med at finde og lytte
-til fremragende indhold. Og du vil gerne kunne organisere indhold, skrue op
-eller ned for afspilningshastigheden og automatisere overførsel og sletning. Det
-er derfor, vi ønsker, at AntennaPod skal være enkel at bruge, samtidig med at du
-får fuld kontrol over din lytteoplevelse.
+Der er så mange fede ting at tage sig til her i verden og så mange ting i livet
+at bekymre sig om. Så du gider ikke også skulle bruge tid på at finde ud af,
+hvordan denne her fungerer. Du vil hellere i gang med at finde og lytte til godt
+indhold. Og du vil gerne kunne organisere indhold, skrue op eller ned for
+afspilningshastigheden og automatisere overførsel og sletning. Det er derfor, vi
+ønsker, at AntennaPod skal være enkel at bruge, samtidig med at du får fuld
+kontrol over din lytteoplevelse.
 
-I den forbindelse er vi klar over, at for hver mulighed, vi tilføjer, betyder
-det, at andre muligheder ikke er valgt. Og et fravalg er en beslutning, som vi
-tager for slutbrugeren. (Her er et godt [blogindlæg om, hvorfor udviklere
-ikke bør gøre det](http://neugierig.org/software/blog/2018/07/options.html) uden
-overvejelse.) Vi lover at gøre vores bedste for at træffe de beslutninger, der
-skaber en god oplevelse. Fordi - har du allerede besluttet dig for, hvad du skal
-spise i aften?
+I den forbindelse er vi klar over, at hver valgmulighed, vi tilføjer, er et
+valg, der ikke er taget. Og et valg, der ikke er taget, er en beslutning, som vi
+skubber videre til slutbrugeren. (Her er et godt [blogindlæg om, hvorfor
+udviklere ikke bør gøre det](http://neugierig.org/software/blog/2018/07/options.html)
+uden grundig overvejelse.) Vi lover at gøre vores bedste for at træffe de
+beslutninger, der skaber en god oplevelse. Fordi du sikkert har andre ting, du
+skal beslutte – såsom hvad du skal have til aftensmad i aften.
 
 Du skal dog ikke være bekymret. Vi er åbne over for nye funktioner, muligheder
 eller præferencer - når der er et godt argument for at tilbyde vores brugere
@@ -47,13 +47,13 @@ Vi står for et åbent økosystem for podcasting. Et økosystem, der
 * beskytter lytterne mod utilgængeligt indhold i [walled gardens](https://en.wikipedia.org/wiki/Walled_garden_(teknologi)),
 og
 * gør det muligt for brugerne at bruge og skifte mellem apps uden [vendor
-lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
+lock-in](https://da.wikipedia.org/wiki/Vendor_lock-in).
 
 I praksis betyder det, at du kan abonnere på alle RSS-feeds, der findes, at vi
 gør det nemt for dig at støtte podcastere (økonomisk) og at du kan synkronisere,
 importere og eksportere dine data.
 
-# Vi hører dig: fællesskab & tilgængelighed
+# Vi lytter til dig: Fællesskab & tilgængelighed
 
 AntennaPod sender indhold til dine ører, men vi vil også gerne høre fra dig!
 Vores fællesskab er åbent for din feedback og dine tanker. Som mennesker kan vi
