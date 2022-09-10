@@ -109,7 +109,12 @@ contribute:
   design:
     title: "Design"
     text: "You turn complex requests in understandable user stories or wireframes? Help tackle these issues."
-  donate: "Or, if you can't contribute in any of the ways listed above, you can also make a <a href=\"https://opencollective.com/antennapod\" target=\"_blank\">donation</a>."
+  donate:
+    link: "I want to make a <a href=\"https://opencollective.com/antennapod\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#donationModal\">donation</a>."
+    modal-title: "Are you sure you want to donate?"
+    modal-button-donate: "Donate anyway"
+    modal-button-chat: "Discuss with us how you can help"
+    modal-button-contribute: "Check contribution options again"
 
 ## Documentation
 documentation:
