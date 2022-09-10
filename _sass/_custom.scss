@@ -496,10 +496,6 @@ button {
   border-radius: 50%;
 }
 
-.modal-content {
-  border-radius: 5px;
-}
-
 // Texts
 
 textarea {
@@ -531,20 +527,26 @@ blockquote {
 // Posts
 
 .post-content {
-  & p {
+  & p, li {
     font-size: 14px;
     color: $gray-900;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     line-height: 24px;
   }
 
-  & a {
-    color: $gray-900;
-    font-weight: 600;
-    text-decoration: underline;
+  & p + p {
+    margin-top: 20px;
+  }
 
-    &:hover {
-      text-decoration: none;
+  & p, li, h1, h2, h3, h4, h5, h6, #breadcrumbs {
+    & a {
+      color: $gray-900;
+      font-weight: 600;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 
@@ -582,16 +584,6 @@ blockquote {
     font-weight: 700;
   }
 
-  & li {
-    list-style-position: outside;
-    margin: 0 0 20px 20px;
-    font-size: 14px;
-  }
-
-  & ul li {
-    list-style-type: disc;
-  }
-
   & img[alt$=" > "] {
     float: right;
     margin: 0 0 20px 20px;
@@ -619,6 +611,10 @@ blockquote {
   }
 
 }
+
+.post-content + .row, p + .row {
+    margin-top: 20px;
+  }
 
 .post .cover {
   max-height: 350px;
@@ -894,6 +890,44 @@ i.member-img {
     margin-left: -30px;
     margin-top: -30px;
   }
+}
+
+// Lists
+
+.post-content, .modal-body {
+  & ul {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  & li {
+    list-style-position: outside;
+    margin: 0 0 5px 20px;
+  }
+
+  & ul li {
+    list-style-type: disc;
+  }
+
+  & ul + p {
+    margin-bottom: 5px;
+  }
+
+  & p + ul {
+    margin-top: 5px;
+  }
+}
+
+// Modals
+
+.modal-body p, .modal-body li {
+  padding: 0;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  border-top: 0;
+  padding-top: 0;
 }
 
 // Backgrounds
