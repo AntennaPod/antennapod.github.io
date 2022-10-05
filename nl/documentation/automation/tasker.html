@@ -233,45 +233,46 @@
 
                 <h1 id="integratie-met-andere-apps">Integratie met andere apps</h1>
 
-<p>AntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te verversen (zie <a href="/refreshing-podcasts">Refreshing podcasts</a>).</p>
+<p>AntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te
+verversen (zie <a href="/refreshing-podcasts">Refreshing podcasts</a>).</p>
 
-<p>Voor meer ingewikkelde behoeften bestaan verschillende automatiseringstoepassingen van derden voor gebruik met AntennaPod. Bijvoorbeeld:</p>
+<p>Voor meer ingewikkelde behoeften bestaan verschillende
+automatiseringstoepassingen van derden voor gebruik met AntennaPod.
+Bijvoorbeeld:</p>
 
 <ul>
-  <li>
-    <p>Werk de abonnementen bij aan het begin van de dag: zet om 7 uur ‘s ochtends WiFi aan, werk vervolgens AntennaPod feeds bij.</p>
-  </li>
-  <li>
-    <p>Haal je abonnementen op voor je naar huis gaat: update abonnementen op werkdagen om 17:00.</p>
-  </li>
+  <li>Werk de abonnementen bij aan het begin van de dag: zet om 7 uur ‘s ochtends
+WiFi aan, werk vervolgens AntennaPod feeds bij.</li>
+  <li>Haal je abonnementen op voor je naar huis gaat: update abonnementen op
+werkdagen om 17:00.</li>
 </ul>
 
 <h2 id="instructies">Instructies</h2>
 
-<p>Vraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken door een ‘Broadcast’ te verzenden (dit kan worden weergegeven als een soort Android-intentie) met de volgende instellingen:</p>
+<p>Vraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken
+door een ‘Broadcast’ te verzenden (dit kan worden weergegeven als een soort
+Android-intentie) met de volgende instellingen:</p>
 
 <ul>
-  <li>
-    <p>Pakketnaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod </code></p>
-  </li>
-  <li>
-    <p>Klassenaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
-  </li>
+  <li>Pakketnaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod </code>
+</li>
+  <li>Klassenaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
 </ul>
 
 <h2 id="instructies-voor-sommige-automatiseringsapps">Instructies voor sommige automatiseringsapps</h2>
 
 <h3 id="automate-website">Automate (<a href="https://llamalab.com/automate/">website</a>)</h3>
 
-<p>Voeg in een ‘flow’ een blok toe van het type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> en specificeer</p>
+<p>Voeg in een ‘flow’ een blok toe van het type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> en
+specificeer</p>
 
 <ol>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> als het pakket</p>
-  </li>
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> als het pakket</li>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> als de ‘receiver class’</p>
-  </li>
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> als de ‘receiver
+class’</li>
 </ol>
 
 <h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">website</a>)</h3>
@@ -279,24 +280,18 @@
 <p>Maak een taak. In de taak, voeg een actie toe</p>
 
 <ol>
-  <li>
-    <p>Kies <code class="language-plaintext highlighter-rouge">Systeem</code></p>
-  </li>
-  <li>
-    <p>Kies <code class="language-plaintext highlighter-rouge">Send Intent</code></p>
-  </li>
-  <li>
-    <p>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
-  </li>
-  <li>
-    <p>Geef de klassenaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
-  </li>
-  <li>
-    <p>Specificeer Doel als <code class="language-plaintext highlighter-rouge">Broadcast ontvanger</code></p>
-  </li>
-  <li>
-    <p>Laat de andere velden leeg</p>
-  </li>
+  <li>Kies <code class="language-plaintext highlighter-rouge">Systeem</code>
+</li>
+  <li>Kies <code class="language-plaintext highlighter-rouge">Send Intent</code>
+</li>
+  <li>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Geef de klassenaam op als
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+  <li>Specificeer Doel als <code class="language-plaintext highlighter-rouge">Broadcast ontvanger</code>
+</li>
+  <li>Laat de andere velden leeg</li>
 </ol>
 
 <h3 id="llama---location-profiles-website">Llama - Location Profiles (<a href="http://kebabapps.blogspot.com/search/label/Llama">website</a>)</h3>
@@ -304,28 +299,23 @@
 <p>Maak een gebeurtenis (Llama automatiseringsregel) en:</p>
 
 <ol>
-  <li>
-    <p>Voeg een actie toe van het type Android intent.</p>
-  </li>
-  <li>
-    <p>Specificeer Intent send mode als <code class="language-plaintext highlighter-rouge">Broadcast</code>.</p>
-  </li>
-  <li>
-    <p>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
-  </li>
-  <li>
-    <p>Geef de klassenaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
-  </li>
-  <li>
-    <p>Voeg elke andere voorwaarde / acties toe voor specifieke behoeften.</p>
-  </li>
+  <li>Voeg een actie toe van het type Android intent.</li>
+  <li>Specificeer Intent send mode als <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
+  <li>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Geef de klassenaam op als
+<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
+  <li>Voeg elke andere voorwaarde / acties toe voor specifieke behoeften.</li>
 </ol>
 
-<p>Als snelkoppeling kunt u klikken op de <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">deze link</a> om een voorbeeldgebeurtenis te maken, om mee te beginnen.</p>
+<p>Als snelkoppeling kunt u klikken op de <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">deze link</a>
+om een voorbeeldgebeurtenis te maken, om mee te beginnen.</p>
 
 <hr>
 
-<p><strong>Disclaimer:</strong> De AntennaPod-community heeft geen relatie met een van de vermelde automatiseringstoepassingen van derden.</p>
+<p><strong>Disclaimer:</strong> De AntennaPod-community heeft geen relatie met een van de
+vermelde automatiseringstoepassingen van derden.</p>
 
 
             </article>
