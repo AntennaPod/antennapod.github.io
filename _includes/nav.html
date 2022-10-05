@@ -2,7 +2,7 @@
     <div class="container py-4">
         <div class="navbar navbar-expand-xl justify-content-between">
             <div>
-                <a href="{% if site.lang == "en" %}/{% else %}{{ site.baseurl }}{% endif %}">
+                <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">
                     <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo" />
                 </a>
             </div>
