@@ -1,6 +1,6 @@
 <div id="breadcrumbs" class="pb-3">
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-    <a href="{{ site.baseurl }}">{% t generic.home %}</a>
+    <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">{% t generic.home %}</a>
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
         / {% t page.title %}
