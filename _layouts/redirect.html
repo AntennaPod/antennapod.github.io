@@ -10,7 +10,7 @@
       {% include nav.html %}
       <div class="container-fluid background-gray-100 py-4">
         <div class="container">
-          <h1 class="color-gray-800 weight-700">{% t generic.redirect %}</h1>
+          <h1 class="color-gray-800 weight-700">{% t generic.redirect.title %}</h1>
         </div>
       </div>
 
@@ -19,7 +19,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-12">
               <article class="post-content">
-                  This page was moved. <a href="{{ redirect_to }}">Click here if you are not redirected.<a>
+                  <a href="{{ redirect_to }}">{% t generic.redirect.link %}<a>
                   <script>location='{{ redirect_to }}'</script>
               </article>
             </div>
