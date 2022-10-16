@@ -1,0 +1,33 @@
+---
+layout: internal
+title: Events
+permalink: /events
+---
+
+<div class="container-fluid background-gray-100 py-4">
+    <div class="container">
+      <h1>{% t titles.events %}</h1>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container py-5">
+        <div class="row justify-content-between">
+            <div class="col-xl-7 mb-4 mb-xl-0">
+                {% assign events = site.events | sort: 'date' %}
+                {% for event in events %}
+                {% if event.unlisted != true %}
+                {% include event-card.html item=event %}
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="col-xl-3">
+              <div class="card bg-light">
+                <div class="card-body">
+                  {% tf general/event-sidebar.md %}
+                </div>
+             </div>
+           </div>
+        </div>
+    </div>
+</div>

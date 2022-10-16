@@ -146,6 +146,8 @@ body {
 .h1,
 h1 {
   font-size: 48px;
+  color: $brand-dark;
+  font-weight: 700;
 }
 
 .h2,
@@ -177,7 +179,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: $gray-100;
+  color: $brand-dark;
 }
 
 .size-10 {
@@ -639,10 +641,14 @@ blockquote {
 
 // Boxes and Cards
 
+.card {
+  border-radius: 10px;
+  border: 0;
+}
+
 .news-card {
   padding: 25px;
   background: $white;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -670,7 +676,6 @@ blockquote {
 .partner-card {
   padding: 25px;
   background: $white;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -684,7 +689,6 @@ blockquote {
   padding: 25px;
   background: $gray-100;
   border: 1px solid $gray-200;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -697,7 +701,6 @@ blockquote {
 .press-card {
   padding: 25px;
   background: $gray-100;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -720,7 +723,6 @@ i.member-img {
 .member-card {
   padding: 25px;
   background: $white;
-  border-radius: 8px;
   box-sizing: border-box;
   box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.06);
   transition: 0.25s ease-in-out;
@@ -752,7 +754,6 @@ i.member-img {
 .info-box {
   padding: 30px 20px;
   background: $gray-100;
-  border-radius: 10px;
 
   &:before {
     position: absolute;
@@ -850,6 +851,34 @@ i.member-img {
   }
 }
 
+.event-card {
+  background: $gray-100;
+  position: relative;
+  transition: 0.25s ease-in-out;
+  flex-direction: row;
+
+  &:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  & p {
+    color: $gray-800;
+  }
+
+  & > img {
+    height: 100%;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  & .bottom {
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
 .post-card {
   background: $gray-100;
   background-repeat: no-repeat;
@@ -889,6 +918,26 @@ i.member-img {
     max-width: calc(100% + 60px);
     margin-left: -30px;
     margin-top: -30px;
+  }
+
+  .event-card {
+    flex-direction: column;
+
+    & .card-body  {
+    padding: 0.5em 1.2em;
+    }
+
+    & .card-body .card-text {
+      margin: 0;
+    }
+
+    & img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    }
   }
 }
 

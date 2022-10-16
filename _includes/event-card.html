@@ -1,0 +1,16 @@
+  <div class="card event-card">
+    <a class="stretched-link" href="{{ site.baseurl }}{{ event.url | replace:'.html','' }}"></a>
+      <img src="/assets/images/blog/{{ event.image }}" loading="lazy" />
+      <div class="card-body">
+        <h3 class="card-title">{{ event.title }}</h3>
+        <h4 class="card-subtitle text-muted mb-2">
+            {% if event.recurring == true %}
+                {% t events.general.recurring %} ({% t events.recurrence.{{ event.recurrence}} %})
+            {% else %}
+                {% t events.general.date %}:
+                {% t long_month.{{ event.date | date: "%B" }} %} {{ event.date | date: "%-d, %Y"}}
+            {% endif %}
+        </h4>
+        <p class="card-text">{{ event.excerpt | strip_html | truncatewords: 15 }}</p>
+      </div>
+  </div>
