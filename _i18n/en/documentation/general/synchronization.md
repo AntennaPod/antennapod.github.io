@@ -26,24 +26,25 @@
 
 <!-- mdpo-enable -->
 
-AntennaPod currently supports two synchronization options: via [gpodder.net](https://gpodder.net/) and the [gPodder Sync app for Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
+AntennaPod supports synchronization via [gpodder.net](https://gpodder.net/) and the [gPodder Sync app for Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
 
-On gpodder.net anyone can create an account relatively easily and the service is free to use. Unfortunately the service has large numbers of users, limited funding and a lack of volunteer contributions. This means the server often is overloaded, leading to errors in AntennaPod. If possible, we therefore recommend that you use an existing account on a Nextcloud instance or start self-hosting either gpodder.net or Nextcloud.
+gpodder.net is a free podcast synchronization web service that anyone can sign up for. Unfortunately, due to the popularity of the service and limited funding, the server is often overloaded, leading to errors in AntennaPod. We recommend that more technical users start self-hosting using either Nextcloud and gPodder Sync or their own gpodder service from the [github repo](https://github.com/gpodder).
 
-## gPodder Sync app for Nextcloud
-If you have a Nextcloud account, install the gPodder Sync app or ask your server admin to do so. Once that is installed, simply go to `Settings` » `Synchronization` in AntennaPod, choose the relevant provider and enter the server address.
+After creating an account or setting up a server, the following steps will get synchronization up and running:
+1. Set-up device(s) **gPodder ONLY**
+  - Log in to your account on gpodder.net (or on your self-hosted instance)
 
-## gpodder.net & your own gpodder server
-- Create an account on gpodder.net or log in if you have one already.
+  - Create a device under `Subscriptions` » `Devices` for each client that you use:
+    <!-- mdpo-disable-next-line -->
+    <br />{{ img-devices | strip }}
 
-- After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:
-  <!-- mdpo-disable-next-line -->
-  <br />{{ img-devices | strip }}
+  - When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the subscriptions of the chosen devices synchronized.
+    <!-- mdpo-disable-next-line -->
+    <br />{{ img-synchronize | strip }}
 
-- When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the subscriptions of the activated devices synchronized.
-  <!-- mdpo-disable-next-line -->
-  <br />{{ img-synchronize | strip }}
-
-- Then go to AntennaPod's `Settings` » `Synchronization`. There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.
-
-*Did you create a device while logging in, rather than in advance as suggested above?* Then be sure to press the `Force sync` button in AntennaPod to upload the played state of all the episodes you listened to earlier. If you don't do this, only podcasts that were added **after** linking the devices are synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
+2. Activate AntennaPod sync.
+  - Under `Settings` » `Synchronization`, select `Choose synchronization provider`.
+  - If using Nextcloud or custom gpodder server, enter the URL (the same thing you would put in a web browser) of the service you set up, otherwise select the official server.
+  - **gPodder ONLY** Enter Username and Password.
+  - **gPodder ONLY** Select the device you created in the previous step.
+    - **NOTE:** If you didn't create a new device in the previous step and instead created one when you logged in, be sure to press the `Force sync` button upload the played state of all the episodes you listened to earlier. If you don't do this, only podcasts that were added **after** linking the devices are synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
