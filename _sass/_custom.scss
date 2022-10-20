@@ -237,7 +237,8 @@ p {
 // Horizontal Line
 
 hr {
-  border: 1px solid $gray-300;
+  border-color: $gray-300;
+  border-style: solid;
 }
 
 .hr-slate {
@@ -623,6 +624,10 @@ blockquote {
   object-fit: cover;
 }
 
+.capitalise-first-letter::first-letter {
+  text-transform: capitalize;
+}
+
 // Borders
 
 .curved-img {
@@ -644,6 +649,10 @@ blockquote {
 .card {
   border-radius: 10px;
   border: 0;
+
+  & > img {
+    border-radius: 10px 10px 0px 0px;
+  }
 }
 
 .news-card {
@@ -867,7 +876,6 @@ i.member-img {
   }
 
   & > img {
-    height: 100%;
     max-width: 200px;
     object-fit: cover;
     border-radius: 10px 0px 0px 10px;

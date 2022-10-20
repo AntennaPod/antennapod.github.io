@@ -1,0 +1,68 @@
+---
+layout: internal
+---
+
+<div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-3 order-lg-2 mb-4 mb-xl-0">
+        <div class="d-lg-none">
+          <p>{% if page.summary %}{{ page.summary }}{% endif %}</p>
+        </div>
+        <div class="card bg-light">
+          <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
+          <div class="card-body">
+            <p class="card-text font-italic capitalise-first-letter" >
+            {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+            {% capture posttime %}{{ page.date | date: '%s' }}{% endcapture %}
+            {% if page.recurring == true %}
+                {% capture recurrence %}{% t events.recurrence.{{ page.recurrence}} %}{% endcapture %}
+                {{ recurrence }}
+            {% else %}
+              <time datetime="{{ page.date }}">{% t long_month.{{ page.date | date: "%B" }} %} {{ page.date | date: "%-d, %Y %R" }} {{ page.date | date: "%Z"}}</time>
+              {% if posttime > nowunix %}
+                {% assign status = 'upcoming' %}
+              {% else %}
+                {% assign status = 'past' %}
+              {% endif %}
+            {% endif %}
+            </p>
+          </div>
+          {% for link in site.data.event-links %}
+            {% if page[link.key] %}{% assign info_counter = info_counter | plus:1 %}{% endif %}
+          {% endfor %}
+          {% assign info_counter = info_counter | minus:1 %}
+          <div class="row m-0 text-center {% if info_counter > 3 %}row-cols-2{% endif %}">
+            {% for link in site.data.event-links %}
+            {%- if page[link.key] -%}
+            {% unless page[link.key] == 'online' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}
+            {% if info_counter > 3 %}
+              {% assign link-index = forloop.index0 | modulo: 2 %}
+            {% else %}
+              {% assign link-index = forloop.index0 | modulo: 3 %}
+            {% endif %}
+            <div class="col py-3 border-top{% unless link-index == 0 %} border-left{% endunless %}">
+              <a href="{{ link.url }}{{ page[link.key] }}{% if link.key == 'ICS' %}.ics{% endif %}" class="stretched-link"{% if link.key == 'location' %} target="_blank"{% endif %}>
+                <i class="fas fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
+              </a>
+            </div>
+            {% endunless %}{% endunless %}{% endunless %}
+            {%- endif -%}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="post-content">
+            {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

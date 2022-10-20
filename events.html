@@ -1,6 +1,6 @@
 ---
 layout: internal
-title: Events
+title: titles.events
 permalink: /events
 ---
 
@@ -14,7 +14,9 @@ permalink: /events
     <div class="container py-5">
         <div class="row justify-content-between">
             <div class="col-xl-7 mb-4 mb-xl-0">
-                {% assign events = site.events | sort: 'date' %}
+                {% assign recurringevents = site.events | sort: 'date' | reverse | where:"recurring", true %}
+                {% assign normalevents = site.events | sort: 'date' | reverse | where:"recurring", false %}
+                {% assign events = recurringevents | concat: normalevents %}
                 {% for event in events %}
                 {% if event.unlisted != true %}
                 {% include event-card.html item=event %}

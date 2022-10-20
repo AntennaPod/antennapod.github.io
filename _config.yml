@@ -36,7 +36,7 @@ collections:
     permalink: /blog/:year/:month/:slug
   events:
     output: "true"
-    permalink: /events/:slug
+    permalink: /events/:year/:month/:title
 
 defaults:
   - scope:
@@ -48,7 +48,7 @@ defaults:
       path: ""
       type: "events"
     values:
-      layout: "blog"
+      layout: "event"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -69,4 +69,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - "*.ics"
