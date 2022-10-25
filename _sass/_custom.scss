@@ -254,10 +254,16 @@ hr {
 
 a {
   color: $teal-800;
+  text-decoration: underline;
 
   &:hover {
     color: $teal-900;
+    text-decoration: none;
   }
+}
+
+.nav-link, .dropdown-item {
+  text-decoration: none !important;
 }
 
 .orange-link {
@@ -541,18 +547,6 @@ blockquote {
     margin-top: 20px;
   }
 
-  & p, li, h1, h2, h3, h4, h5, h6, #breadcrumbs {
-    & a {
-      color: $gray-900;
-      font-weight: 600;
-      text-decoration: underline;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
-
   & img {
     max-width: 100%;
   }
@@ -646,13 +640,8 @@ blockquote {
 
 // Boxes and Cards
 
-.card {
-  border-radius: 10px;
-  border: 0;
-
-  & > img {
+.card > img {
     border-radius: 10px 10px 0px 0px;
-  }
 }
 
 .news-card {
@@ -812,7 +801,7 @@ i.member-img {
 
 .project-card {
   background: $gray-100;
-  border-radius: 10px;
+  border: $border-width solid $card-border-color;
   padding: 30px;
   height: 100%;
   transition: 0.25s ease-in-out;
@@ -834,8 +823,6 @@ i.member-img {
 }
 
 .highlight-card {
-  background: $gray-100;
-  border-radius: 10px;
   padding: 30px;
   position: relative;
   transition: 0.25s ease-in-out;
@@ -851,7 +838,7 @@ i.member-img {
     margin-top: -30px;
     max-height: 200px;
     object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: $border-radius-lg $border-radius-lg 0 0;
   }
 
   & .bottom {
@@ -861,7 +848,6 @@ i.member-img {
 }
 
 .event-card {
-  background: $gray-100;
   position: relative;
   transition: 0.25s ease-in-out;
   flex-direction: row;
@@ -871,14 +857,10 @@ i.member-img {
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
-  & p {
-    color: $gray-800;
-  }
-
   & > img {
     max-width: 200px;
     object-fit: cover;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: $border-radius-lg 0 0 $border-radius-lg;
   }
 
   & .bottom {
