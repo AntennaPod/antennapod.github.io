@@ -26,7 +26,7 @@
 
 <!-- mdpo-enable -->
 
-## Introfuction
+## Introduction
 AntennaPod can communicate with a central point to share data about your podcasts with the other podcast apps that you use, we call this the Synchronization Server. AntennaPod can be told the location of the synchronization server via the server's hostname, which is often a URL much like you enter into your web browser, but can occasionally simply be an IP address if you set up the server yourself (or have a friend help set one up for you).
 
 [gpodder.net](https://gpodder.net/) provides a free podcast synchronization server that anyone can sign up for. Unfortunately, due to the popularity of the service and limited funding, this server is often overloaded, leading to errors in AntennaPod. Fortunately, for more technically inclined users, AntennaPod also supports custom gPodder instances and the [gPodder Sync app for Nextcloud](https://apps.nextcloud.com/apps/gpoddersync). In order to help reduce the load on the free server as much as possible, we strongly recommend that more technical users start self-hosting using either [Nextcloud](https://nextcloud.com/install/#instructions-server) and [gPodder Sync](https://github.com/thrillfall/nextcloud-gpodder), or their own [gpodder service](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html).
