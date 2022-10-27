@@ -1,7 +1,7 @@
 ---
 title: We're looking for a translations coordinator!
 excerpt: AntennaPod already is available in many languages. Will you bring us to the next level?
-date: "2022-10-11 08:00:00"
+date: "2022-10-27 22:30:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
@@ -9,7 +9,7 @@ layout: blog
 
 Just over nine months ago we [announced](/blog/2022/01/website-translations) that we would be translating our website. The app itself was translated from the get-go ([starting](https://github.com/AntennaPod/AntennaPod/commits/b49aa41e24e125a9d05050070dc620531db61963/res) with Russian and German), using Transifex also [pretty much](https://github.com/AntennaPod/AntennaPod/commits/efd120f55f3ac83c26b92f1d0b339c5a1861970f/.tx/config) from the beginning.
 
-Today, we want to up our game. We would like to make our website available in (almost) as many languages as the app. To better engage our community of translators. To localise our communication materials. And to change the translation platform used for the app, so we can improve translations efficiency and quality.
+Today, we want to up our game. We would like to make our website available in (almost) as many languages as the app. To better engage our community of translators. To localise our communication materials. And to (explore the option to) change the translation platform used for the app, so we can improve translations efficiency and quality.
 
 We're not in a rush and don't have a timeline for all this. But still — it's an ambitious programme that requires some effort. So, to make this happen, **we're looking for a volunteer** that would like to take up the role of **Translations Coordinator**.
 
