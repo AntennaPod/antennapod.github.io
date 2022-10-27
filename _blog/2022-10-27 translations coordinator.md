@@ -1,7 +1,7 @@
 ---
 title: We're looking for a translations coordinator!
 excerpt: AntennaPod already is available in many languages. Will you bring us to the next level?
-date: "2022-10-27 22:30:00"
+date: "2022-10-27 22:40:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
@@ -36,4 +36,4 @@ Whoever will pick up this task, will of course not be alone in this effort. You'
 
 We're all doing this for our own pleasure and entertainment. So we hope you'll have a good time working on this together with us. And unless you're an expert already, you'll also learn a lot about different translation tools & processes, and build experience with community management.
 
-**With the support of our community members, we make a great podcasting experience accessible to thousands of people across the world. Will you join us? Contact @Keunes via [username]@mailbox.org to learn more or indicate your interest.**
+**With the support of our community members, we make a great podcasting experience accessible to thousands of people across the world. Will you join us? Contact @Keunes on our forum or via [username]@mailbox.org to learn more or indicate your interest.**
