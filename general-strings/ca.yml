@@ -33,7 +33,9 @@ generic:
   masto-share:
     server: "Introduïu l'adreça de la vostra instància: (p. ex. https://mastodont.cat)"
   learn: Aprendre més
-  redirect: Redirecció
+  redirect:
+    title: Redirigir
+    link: Feu clic aquí si no se us redirigeix.
 month:
   Jan: Gen
   Feb: Feb
@@ -71,10 +73,13 @@ homepage:
       title: Sense anuncis
       description: L'aplicació AntennaPod en si no conté anuncis. Si un editor decideix
         afegir anuncis als fitxers multimèdia, obté el 100% dels ingressos.
+      img-alt: ' '
     listenanywhere:
       title: Escolta arreu
       description: Amb AntennaPod, podeu descarregar episodis i escoltar-los a qualsevol
         lloc. Fins i tot podeu seleccionar podcasts que s'haurien de baixar automàticament.
+      img-alt: ' '
+  img-alt: ' '
 blog:
   posted: Publicat el
 readtime:
@@ -104,8 +109,13 @@ contribute:
     title: Dissenyar
     text: Saps convertir les sol·licituds complexes en històries d'usuari o trames
       de fil entenedores? Ajuda a abordar aquests problemes.
-  donate: O, si no pots contribuir de cap de les maneres esmentades anteriorment,
-    també pots fer una <a href="https://opencollective.com/antennapod" target="_blank">donació</a>.
+  donate:
+    link: Vull fer una <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">donació</a>.
+    modal-title: Segur que vols fer una donació?
+    modal-button-donate: Fer un donatiu de totes maneres
+    modal-button-chat: Comenta amb nosaltres com pots ajudar
+    modal-button-contribute: Torna a comprovar les opcions de contribució
 documentation:
   general:
     search-placeholder: Cercar documentació
@@ -125,3 +135,50 @@ documentation:
       ads: Sobre els anuncis a AntennaPod
       backup: Guarda els teus episodis
       central-distributed: Aplicacions de podcast centralitzades i distribuïdes
+      external-storage: Ús d'emmagatzematge extern
+      episode-deletion: Eliminació d'episodis
+      synchronization: Com sincronitzar entre dispositius
+      proxy: Dirigint el Trànsit a través d'un servidor intermediari o la xarxa Tor
+    queue:
+      lock: (Des)bloqueig de la cua
+      title: Cua
+      how-to-use: Com utilitzar la cua
+      intro: A continuació, podeu trobar les preguntes més freqüents sobre la cua.
+      multiple-queues: Com utilitzar diverses cues
+    podcasters-hosters:
+      list-podcast: Llistar el teu podcast
+      title: Per a Podcasters i hosters
+      intro: A sota, podeu trobar la nostra informació de suport per a podcasters
+        i proveïdors de hosting.
+      add-on-antennapod: Crear un enllaç «Obrir a Antennapod»
+    playback:
+      title: Reproducció
+      intro: Més avall, podeu trobar temes relacionats amb la reproducció d'episodis.
+      auto-rewind: Rebobinat automàtic
+      shortcuts: Dreceres de teclat
+    automation:
+      tasker: Integració amb altres aplicacions
+      title: Automatització
+      intro: Ets un usuari experimentat i vols automatitzar tasques? Fes una ullada
+        a les pàgines següents.
+      deletion: Supressió automàtica
+      refreshing-podcasts: Actualització de podcasts
+    bugs-first-aid:
+      refresh-download-errors: Error al descarregar o actualitzar el canal
+      title: Bugs, errores y primeros auxilios
+      intro: Fer programari és una cosa humana, així que els errors són inevitables.
+        Però normalment hi ha alguna cosa que podem fer per solucionar-los!
+      bug-report: Alguna cosa no funciona
+      database-error: Tots els meus podcasts i episodis han desaparegut
+      episodes-missing: Manquen episodis antics
+      playback-stops: La reproducció s'atura sobtadament
+      cannot-stream-download: No es pot descarregar un episodi
+      typo-translations: He trobat una errada
+    subscriptions:
+      listening-without-subscribing: Escoltar un episodi sense subscriure's
+      title: Subscripcions
+      intro: A continuació, podeu trobar les preguntes més freqüents sobre les subscripcions.
+      subscription-groups: Etiquetes de subscripció (també conegudes com a grups o
+        categories)
+footer:
+  description: El gestor de podcast flexible, fàcil d'utilitzar i lliure per a Android.
