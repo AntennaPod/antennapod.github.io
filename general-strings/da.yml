@@ -13,7 +13,9 @@ generic:
   contribute: Bidrag
   share: Del
   error: Fejl
-  redirect: Omdiriger
+  redirect:
+    title: Omdiriger
+    link: Klik her, hvis du ikke omdirigeres.
   page-not-found-long: Den ønskede side kunne ikke findes.
   accessibility:
     lang-menu: Sprogskifter
@@ -106,8 +108,13 @@ contribute:
       wireframes? Hjælp med at løse disse problemer.
   introduction: AntennaPod er under aktiv udvikling af frivillige. Du kan også bidrage
     med kode eller andet!
-  donate: Hvis du ikke kan bidrage på nogen af de ovennævnte måder, kan du også give
-    et <a href="https://opencollective.com/antennapod" target="_blank"> bidrag</a>.
+  donate:
+    modal-button-contribute: Tjek bidragsmulighederne igen
+    link: Jeg ønsker at foretage en <a href="https://opencollective.com/antennapod"
+      target="_blank" data-toggle="modal" data-target="#donationModal">donation</a>.
+    modal-button-chat: Diskuter med os, hvordan du kan hjælpe
+    modal-title: Er du sikker på, at du ønsker at donere?
+    modal-button-donate: Donér alligevel
 documentation:
   general:
     search-placeholder: Søg i dokumentation
