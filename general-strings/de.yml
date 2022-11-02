@@ -1,7 +1,6 @@
 contribute:
   translate:
-    text: Du sprichst eine andere Sprache als Englisch? Hilf uns, AntennaPod auf Transifex
-      zu übersetzen.
+    text: Sprichst du andere Sprachen als Englisch? Hilf uns, AntennaPod zu übersetzen.
     title: Übersetze
   support:
     text: Du kannst gut erklären? Hilf anderen in unserem Forum.
@@ -12,17 +11,86 @@ contribute:
   develop:
     title: Entwickle
     text: Du schreibst Code? Hilf uns, Änderungen zu testen oder schreibe eigene neue
-      Funktionen oder behebe Fehler in App und Website.
+      Funktionen oder behebe Fehler in der App und Webseite.
   promote:
     title: Werbe
-    text: Du schreibst einprägsame Tweets, interessante Blog-posts oder zeichnest
+    text: Du schreibst einprägsame Tweets, interessante Blog-Posts oder zeichnest
       wunderschöne Grafiken? Hilf uns, für AntennaPod zu werben.
   design:
     title: Designe
+    text: Du verwandelst komplexe Anfragen in verständliche Erzählungen oder Drahtgittermodelle?
+      Hilf uns diese Probleme anzupacken.
+  donate:
+    link: Ich möchte eine <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">Spende</a> tätigen.
+    modal-button-donate: Spende dennoch
+    modal-button-chat: Besprich mit uns, wie du helfen kannst
+    modal-button-contribute: Beitragsmöglichkeiten erneut anschauen
+    modal-title: Bist du dir sicher, dass du spenden möchtest?
+  introduction: AntennaPod wird aktiv von Freiwilligen entwickelt. Du kannst auch
+    mit Code oder anderweitig beitragen!
 documentation:
   general:
     search-placeholder: Dokumentation durchsuchen
     no-results: Entschuldigung, keine Ergebnisse
+    introduction: Willkommen im Dokumentationsbereich von AntennaPod. Dieser Bereich
+      beabsichtigt Informationen für aktuelle Funktionen bereitzustellen.
+  categories:
+    queue:
+      intro: Unten findest du oft gestellte Fragen zur Warteschlange.
+      how-to-use: Warteschlange verwenden
+      multiple-queues: Mehrere Warteschlangen verwenden
+      title: Warteschlange
+      lock: Warteschlange (ent)sperren
+    subscriptions:
+      title: Abonnements
+      intro: Unten kannst du oft gestellte Fragen zu Abonnements finden.
+      subscription-groups: Abonnement-Tags (alias Gruppen oder Kategorien)
+      listening-without-subscribing: Eine Episode ohne Abonnement hören
+    bugs-first-aid:
+      intro: Software wird von Menschen erstellt, daher sind Fehler unvermeidbar.
+        Aber wir können etwas dagegen unternehmen!
+      bug-report: Etwas funktioniert nicht
+      typo-translations: Ich habe einen Tipp- oder Rechtschreibfehler entdeckt
+      database-error: All meine Podcasts & Episoden sind verschwunden
+      cannot-stream-download: Episode lässt sich nicht herunterladen
+      episodes-missing: Alte Episoden fehlen
+      playback-stops: Wiedergabe stoppt abrupt
+      refresh-download-errors: Fehler beim Herunterladen oder Feed-Aktualisieren
+      title: Bugs, Fehler & Erste Hilfe
+    podcasters-hosters:
+      title: Für Podcaster & Hosts
+      list-podcast: Deinen Podcast listen lassen
+      add-on-antennapod: Einen „In AntennaPod öffnen“-Link erstellen
+      intro: Unten findest du Informationen zur Unterstützung von Podcastern und Hosts.
+    general:
+      episode-deletion: Episoden löschen
+      title: Allgemein
+      intro: Unten kannst du weitere Informationen zum AntennaPod-Projekt finden.
+      ads: Über Werbung in AntennaPod
+      backup: Deine Episoden sichern
+      beta: Beta-Testen
+      central-distributed: Zentrale und dezentrale Podcast-Apps
+      external-storage: Externen Speicher verwenden
+      synchronization: Synchronisation zwischen Geräten
+      proxy: Daten durch einen Proxy oder Tor leiten
+    playback:
+      title: Wiedergabe
+      intro: Unten findest du Themen bezüglich der Wiedergabe.
+      auto-rewind: Automatisches Zurückspulen
+      shortcuts: Hardware-Tastatur-Kürzel
+    getting-started:
+      title: Erste Schritte
+      intro: Willkommen bei AntennaPod! Unten kannst du herausfinden, wie du AntennaPod
+        nutzen kannst.
+      subscribe: Abonniere einen Podcast
+    automation:
+      title: Automatisierung
+      deletion: Automatische Löschung
+      refreshing-podcasts: Podcasts aktualisieren
+      intro: Du bist erfahren und möchtest Aufgaben automatisieren? Schau dir die
+        unten gelisteten Seiten an.
+      tasker: Integration in andere Anwendungen
 long_month:
   October: Oktober
   July: Juli
@@ -45,11 +113,14 @@ titles:
   documentation: Dokumentation
   about: Über
   privacy: Datenschutzbestimmungen
+  media: Pressemappe
 generic:
   share: Teilen
   download: Download
   error: Fehler
-  redirect: Weiterleitung
+  redirect:
+    title: Weiterleitung
+    link: Klicke hier, falls du nicht weitergeleitet wirst.
   page-not-found-long: Die angeforderte Seite konnte nicht gefunden werden.
   accessibility:
     copied: Link kopiert!
@@ -66,8 +137,11 @@ generic:
   page-not-found-short: Seite nicht gefunden
   eml-share:
     body: Lesen Sie diesen Artikel
+    subject: Ich wollte, dass du das siehst
   view: Alle ansehen
   learn: Mehr erfahren
+  masto-share:
+    server: 'Gib die Adresse deiner Instanz ein: (z. B. https://mastodon.social)'
 month:
   Jun: Jun
   Jul: Jul
@@ -76,31 +150,36 @@ month:
   May: Mai
   Feb: Feb
   Apr: Apr
-  Mar: März
+  Mar: Mär
   Sep: Sept
   Oct: Okt
   Nov: Nov
   Dec: Dez
 homepage:
   description: AntennaPod ist ein Podcast-Player, der im wahrsten Sinne des Wortes
-    Frei ist. Der Quellcode der App ist frei und du kannst jeden RSS-Feed abonnieren.
+    frei ist. Der Quellcode der App ist frei und du kannst jeden RSS-Feed abonnieren.
     AntennaPod wird von Freiwilligen ohne finanzielle Interessen entwickelt. Die App
     respektiert deine Privatsphäre und gibt dir volle Kontrolle.
-  header: Der Freie Podcast-Player
+  header: Der freie Podcast-Player
   features:
     adfree:
       title: Werbefrei
       description: Die AntennaPod-Anwendung selbst enthält keine Werbung. Wenn sich
         ein Herausgeber dafür entscheidet, den Mediendateien Werbung hinzuzufügen,
         erhält er 100 % der Einnahmen.
+      img-alt: ' '
     listenanywhere:
       title: Überall anhören
       description: Mit AntennaPod, kannst du Episoden herunterladen und überall anhören.
         Du kannst sogar Podcast auswählen, die automatisch heruntergeladen werden
         sollen.
+      img-alt: ' '
+  img-alt: ' '
 readtime:
-  singular: min zu lesen
-  plural: min zu lesen
+  singular: Min. zu lesen
+  plural: Min. zu lesen
 footer:
-  description: Der einfach zu benutzende, flexible und open-source Podcast-Manager
+  description: Der einfach zu benutzende, flexible und Open-Source Podcast-Manager
     für Android.
+blog:
+  posted: Veröffentlicht am

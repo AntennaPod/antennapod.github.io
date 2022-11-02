@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2022-08-04 12:20+0000\n"
-"Last-Translator: bab <32wtwsedgsdgfsete__asc@byom.de>\n"
+"PO-Revision-Date: 2022-11-02 10:43+0000\n"
+"Last-Translator: Vri 🌈 <weblate@vrifox.cc>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/de/>\n"
 "Language: de\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
 msgid "Why are some downloaded episodes deleted?"
-msgstr "Warum werden einige heruntergeladene Episoden gelöscht?"
+msgstr "Warum werden manche heruntergeladene Episoden gelöscht?"
 
 #: _i18n/en/documentation/automation/deletion.md:block 2 (paragraph)
 msgid ""
@@ -112,56 +112,53 @@ msgstr ""
 "angezeigt."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "With AntennaPod, you can specify subscriptions (podcast feeds) to be updated "
 "regularly (see [Refreshing podcasts](/refreshing-podcasts))."
 msgstr ""
-"Mit AntennaPod können Sie in den Einstellungen `Netzwerk` \" "
-"`Automatisierung` festlegen, dass die Abonnements (Podcast-Feeds) in "
-"regelmäßigen Abständen oder zu einer bestimmten Tageszeit aktualisiert "
-"werden."
+"Mit AntennaPod kannst du festlegen, dass Abonnements (Podcast-Feeds) in "
+"regelmäßigen Abständen aktualisiert werden (siehe [Podcasts aktualisieren"
+"](/refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. For example:"
 msgstr ""
-"Wenn Sie komplexere Anforderungen haben, können Sie verschiedene "
+"Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene "
 "Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod "
-"verwenden, um diese zu erfüllen. Beispiele:"
+"verwenden. Beispielsweise:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
-#, fuzzy
 msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WiFi, then update AntennaPod feeds."
 msgstr ""
-"Aktualisieren Sie die Abonnements zu Beginn des Tages: Schalten Sie um 7 Uhr "
-"morgens WIFI ein, und aktualisieren Sie dann die AntennaPod-Feeds."
+"Beziehe Abonnements zu Beginn des Tages: 7 Uhr wird das WLAN eingeschaltet "
+"und anschließend werden die AntennaPod-Feeds aktualisiert."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get your subscriptions before your ride home: at 5pm on weekdays update "
 "subscriptions."
 msgstr ""
+"Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements "
+"um 17 Uhr aktualisiert."
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
-#, fuzzy
 msgid "General instructions"
-msgstr "Anweisungen"
+msgstr "Generelle Anweisungen"
 
 #: _i18n/en/documentation/automation/tasker.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "In your automation application, you can get AntennaPod to update its "
 "subscriptions by sending a 'Broadcast' (it may be shown as a type of Android "
 "intent) with the following settings:"
 msgstr ""
-"In Ihrer Automatisierungsanwendung fordern Sie AntennaPod dann auf, seine "
-"Abonnements zu aktualisieren, indem Sie einen 'Broadcast' (er kann als eine "
-"Art Android-Intent angezeigt werden) mit den folgenden Einstellungen senden:"
+"In deiner Automatisierungsanwendung kannst du AntennaPod auffordern "
+"Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als eine "
+"Art Android-Anweisung angezeigt werden) mit den folgenden Einstellungen "
+"senden:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
@@ -172,21 +169,18 @@ msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 msgstr "Klassenname: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
-#, fuzzy
 msgid "Steps for some automation apps"
 msgstr "Anleitungen für einige Automatisierungs-Apps"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
-msgstr "Automate ([Website](https://llamalab.com/automate/))"
+msgstr "Automate ([Webseite](https://llamalab.com/automate/))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "In a flow, add a block of the type `APPS` » `Broadcast send` and specify"
 msgstr ""
-"Fügen Sie in einem Fluss einen Block des Typs `APPS` \" `Broadcast send` ein "
-"und geben Sie an"
+"Füge einen Block des Typs `APPS` » `Broadcast senden` ein und spezifiziere"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
@@ -200,7 +194,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Tasker ([website](https://tasker.joaoapps.com/))"
-msgstr ""
+msgstr "Tasker ([Webseite](https://tasker.joaoapps.com/))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
 msgid "Create a task. In the task, add an action"
@@ -216,15 +210,15 @@ msgstr "Wählen Sie `Sendeabsicht`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Package name to be `de.danoeh.antennapod`"
-msgstr "Geben Sie als Paketnamen `de.danoeh.antennapod` an."
+msgstr "Gib als Paketname `de.danoeh.antennapod` an"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
 "Specify Class name to be `de.danoeh.antennapod.core.receiver."
 "FeedUpdateReceiver`"
 msgstr ""
-"Geben Sie als Klassennamen `de.danoeh.antennapod.core.receiver."
-"FeedUpdateReceiver` an."
+"Gib als Klassenname `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver` "
+"an"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Target to be `Broadcast receiver`"
@@ -239,6 +233,8 @@ msgid ""
 "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"
 "label/Llama))"
 msgstr ""
+"Llama – Standortprofile ([Webseite](http://kebabapps.blogspot.com/search/"
+"label/Llama))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
 msgid "Create an event (Llama automation rule). In the event,"
@@ -260,7 +256,6 @@ msgstr ""
 "Bedürfnisse hinzu."
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (paragraph)
-#, fuzzy
 msgid ""
 "As a shortcut, you can click [this link](http://llama.location.profiles/"
 "AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C"
@@ -271,14 +266,16 @@ msgid ""
 "%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) to create an example event to get "
 "started."
 msgstr ""
-"Als Abkürzung können Sie auf [diesen Link](http://llama.location.profiles/"
-"AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--0-%7C%3A"
-"%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod"
-"%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F"
-"%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F"
-"%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA"
-"%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) um ein Beispielereignis zu "
-"erstellen, das den Einstieg erleichtert."
+"Als Abkürzung kannst du auf [diesen Link](http://llama.location.profiles/"
+"AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--"
+"0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAG"
+"QALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2"
+"F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbg"
+"B0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGE"
+"AcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBS"
+"AGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%"
+"7C2%7C) klicken, um ein Beispielereignis zu erstellen, das den Einstieg "
+"erleichtert."
 
 #: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
 msgid ""
@@ -382,8 +379,8 @@ msgid ""
 "There may be some things you can do to recover your data. We list them "
 "below, starting with the solution that gives the easiest & best results:"
 msgstr ""
-"Es gibt einige Möglichkeiten, wie Sie Ihre Daten wiederherstellen können. "
-"Wir führen sie im Folgenden auf, beginnend mit der Lösung, die die "
+"Es gibt einige Möglichkeiten, mit denen du deine Daten wiederherstellen "
+"könntest. Wir führen sie im folgend auf, beginnend mit der Lösung, die am "
 "einfachsten & besten Ergebnisse liefert:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (ordered
@@ -432,7 +429,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "Another community member [took a clean database and moved content from the "
 "corrupted one in it](https://github.com/AntennaPod/AntennaPod/"
@@ -441,12 +437,12 @@ msgid ""
 "issues/2463#issuecomment-385354995). After both steps, they managed to "
 "successfully imported the new database in AntennaPod."
 msgstr ""
-"Ein anderes Community-Mitglied [nahm eine saubere Datenbank und verschob den "
-"Inhalt der beschädigten Datenbank] (https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385341068), und führte dann [eine weitere "
-"Korrektur] (https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385354995) durch. Nach beiden Schritten gelang es "
-"ihnen, die neue Datenbank erfolgreich in AntennaPod zu importieren."
+"Eine andere Person [hat den Inhalt der beschädigten Datenbank in eine neue "
+"verschoben](https://github.com/AntennaPod/AntennaPod/issues/"
+"2463#issuecomment-385341068) und führte dann [eine weitere "
+"Korrektur](https://github.com/AntennaPod/AntennaPod/issues/"
+"2463#issuecomment-385354995) durch. Danach gelang es, die neue Datenbank "
+"erfolgreich in AntennaPod zu importieren."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (ordered
 #: list)
@@ -454,8 +450,8 @@ msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
 "media files will still be there."
 msgstr ""
-"Während alle Daten *über* Ihre Abonnements und Episoden verschwunden sind, "
-"sind die Mediendateien noch vorhanden."
+"Während alle Daten *über* deine Abonnements und Episoden abhandenkamen, sind "
+"die Mediendateien noch vorhanden."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (unordered
 #: list)
@@ -1136,7 +1132,6 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 7 (header)
-#, fuzzy
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
