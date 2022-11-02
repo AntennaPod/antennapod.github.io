@@ -31,7 +31,9 @@ generic:
     server: 'Introduce la dirección de tu instancia: (ej. https://mastodon.social)'
   learn: Aprender más
   share: Compartir
-  redirect: Redirigir
+  redirect:
+    title: Redirigir
+    link: Haga clic aquí si no es redirigido.
   error: Error
   subscribe: Suscribirse
 month:
@@ -109,8 +111,13 @@ contribute:
       "wireframes"? Ayuda a solucionar estos problemas.
   introduction: AntennaPod está siendo desarrollada activamente por gente voluntaria.
     ¡Tú también puedes contribuir, mediante código o de otra manera!
-  donate: O, si no puedes contribuir de ninguna de las formas arriba listadas, también
-    puedes hacer una <a href="https://opencollective.com/antennapod" target="_blank">donación</a>.
+  donate:
+    link: Quiero hacer una <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">donación</a>.
+    modal-title: ¿Estás seguro de que quieres hacer una donación?
+    modal-button-donate: Donar de todas formas
+    modal-button-chat: Comente con nosotros cómo puede ayudar
+    modal-button-contribute: Verifique las opciones para contribuir nuevamente
 documentation:
   general:
     introduction: Bienvenida a la sección de documentación de AntennaPod. Esta sección
