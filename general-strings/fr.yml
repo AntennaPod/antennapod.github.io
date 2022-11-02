@@ -11,7 +11,9 @@ titles:
 generic:
   share: Partager
   error: Erreur
-  redirect: Redirection
+  redirect:
+    link: Cliquez ici si la redirection ne fonctionne pas.
+    title: Redirection
   subscribe: S'abonner
   page-not-found-short: Page non trouvée
   page-not-found-long: La page demandée n'a pas été trouvée.
@@ -110,9 +112,13 @@ contribute:
   test:
     text: Vous êtes doué pour casser des trucs ? Devenez bêta-testeur.
     title: Tester
-  donate: Ou, si vous ne pouvez pas contribuer de l'une des manières énumérées ci-dessus,
-    vous pouvez également faire un <a href="https://opencollective.com/antennapod"
-    target="_blank">don</a>.
+  donate:
+    link: Je souhaite <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">faire un don</a>.
+    modal-title: Voulez-vous vraiment faire un don ?
+    modal-button-donate: Donner quand même
+    modal-button-chat: Discutez avec nous de la manière dont vous pouvez nous aider
+    modal-button-contribute: Vérifiez à nouveau les options de contribution
 documentation:
   general:
     search-placeholder: Rechercher dans la documentation
@@ -138,7 +144,7 @@ documentation:
       external-storage: Utiliser le stockage externe
       gpodder: Comment synchroniser entre plusieurs appareils
       episode-deletion: Suppression d'épisodes
-      proxy: Transfert du trafic par un proxy ou un réseau TOR
+      proxy: Transfert du trafic par un proxy ou un réseau Tor
       synchronization: Comment synchroniser entre les appareils
     playback:
       title: Lecture
@@ -183,5 +189,6 @@ documentation:
       episodes-missing: Les anciens épisodes sont manquants
       cannot-stream-download: Impossible de télécharger un épisode
       playback-stops: La lecture s’arrête soudainement
+      refresh-download-errors: Erreur de téléchargement ou de mise à jour du flux
 footer:
   description: Le gestionnaire de podcasts simple, flexible et open-source pour Android.
