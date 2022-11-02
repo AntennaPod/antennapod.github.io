@@ -11,7 +11,9 @@ titles:
 generic:
   share: Del
   error: Feil
-  redirect: Videresend
+  redirect:
+    title: Videresend
+    link: Klikk her hvis du ikke blir videresendt.
   accessibility:
     lang-menu: Språkveksler
     copy: Kopier til utklippstavle
@@ -103,7 +105,13 @@ contribute:
   test:
     title: Test
     text: Er du god til å finne feil? Bli betatester.
-  donate: Du kan også bidra til <a href="https://opencollective.com/antennapod" target="_blank">kronerullingen</a>.
+  donate:
+    modal-button-chat: Diskuter med oss hvordan du kan hjelpe til
+    link: Jeg vil sende en <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">donasjon</a>.
+    modal-title: Er du sikker på at du vil donere?
+    modal-button-donate: Doner uansett
+    modal-button-contribute: Sjekk bidragsalternativene igjen
 documentation:
   categories:
     getting-started:
