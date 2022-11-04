@@ -6,7 +6,7 @@ tredjeparts-automatiseringsprogrammer sammen med AntennaPod til at gøre det. Fo
 eksempel:
 
 - Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes for
-wi-fi, og derefter opdateres AntennaPod-feeds.
+Wi-Fi, og derefter opdateres AntennaPod-feeds.
 - Få dine abonnementer inden turen hjem: opdater abonnementer kl. 17.00 på
 hverdage.
 
@@ -21,7 +21,7 @@ Android-hensigt) med følgende indstillinger:
 
 ## Vejledning til nogle automatiseringsapps
 
-### Automatiser ([websted](https://llamalab.com/automate/))
+### Automate ([hjemmeside](https://llamalab.com/automate/))
 
 I et flow skal du tilføje en blok af typen `APPS` » `Broadcast send`, angive
 
@@ -45,12 +45,12 @@ Opret en opgave. Tilføj en handling i opgaven
 
 Opret en begivenhed (Llama automatiseringsregel). I hændelsen,
 
-1. Tilføj en handling af typen Android intention.
+1. Tilføj en handling af typen Android intent.
 1. Specificer at intentionen skal sendes som en `Broadcast`.
 1. Specificer at pakkenavn skal være `de.danoeh.antennapod`
 1. Specificer at klassenavn skal være
 `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`
-1. Tilføj eventuelle andre betingelser / handlinger for dine specifikke behov.
+1. Tilføj eventuelle andre betingelser/handlinger for dine specifikke behov.
 
 Som en genvej kan du klikke på [dette link](http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C)
 for at oprette et begivenhedseksempel til at komme i gang med.

@@ -1,6 +1,6 @@
 {% capture img-devices %} {% include image.html alt="
 
-appareils
+       appareils
 
        "
 
@@ -9,44 +9,47 @@ loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture
 
 {% capture img-synchronize %} {% include image.html alt="
 
-synchroniser
+       synchroniser
 
        "
 
 loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {%
 endcapture %}
 
-AntennaPod currently supports two synchronization options: via [gpodder.net](https://gpodder.net/)
-and the [gPodder Sync app for Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
+AntennaPod supporte actuellement deux options de synchronisation : via
+[gpodder.net](https://gpodder.net/) et l'[application gPodder Sync pour
+Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
 
-On gpodder.net anyone can create an account relatively easily and the service is
-free to use. Unfortunately the service has large numbers of users, limited
-funding and a lack of volunteer contributions. This means the server often is
-overloaded, leading to errors in AntennaPod. If possible, we therefore recommend
-that you use an existing account on a Nextcloud instance or start self-hosting
-either gpodder.net or Nextcloud.
+Sur gpodder.net n'importe qui peut créer un compte assez facilement et le
+service est gratuit. Malheureusement, le service a un grand nombre
+d'utilisateurs, des fonds limités et un manque de contributeurs bénévoles. Cela
+signifique que le serveur est souvent surchargé, amenant des erreurs dans
+AntennaPod. Si possible, nous recommandons par conséquent d'utiliser un compte
+existant sur une instance Nextcloud ou d'héberger votre propre instance
+gpodder.net ou Nextcloud.
 
-## gPodder Sync app for Nextcloud
+## application gPodder Sync pour Nextcloud
 
-If you have a Nextcloud account, install the gPodder Sync app or ask your server
-admin to do so. Once that is installed, simply go to `Settings` »
-`Synchronization` in AntennaPod, choose the relevant provider and enter the
-server address.
+Si vous avez un compte Nextcloud, installez l'application gPodder Sync ou
+demandez à l'administrateur du réseau de le faire. Une fois installée, allez
+simplament dans `Paramètres` » `Synchronisation` dans AntennaPod, choisissez le
+fournisseur pertinent et entrez l'adresse du serveur.
 
-## gpodder.net & your own gpodder server
+## gpodder.net & votre propre serveur gpodder
 
-- Create an account on gpodder.net or log in if you have one already.
+- Créez un compte sur gpodder.net ou connectez-vous si vous en possédez déjà un.
 
    - Après avoir créé le compte, nous vous suggérons de créer un appareil sur
 gpodder.net/devices/ pour chaque client que vous utilisez :<br />{{ img-devices | strip }}
 
-   - Après avoir créé les appareils, reliez-les à l'aide du bouton "Configure". De
-cette façon, gpodder.net maintiendra automatiquement la synchronisation des
-abonnements des deux appareils.<br />{{ img-synchronize | strip }}
-- Then go to AntennaPod's `Settings` » `Synchronization`. There you can log in
-to gpodder.net or even provide an alternative server if you want to host it
-yourself. During login, AntennaPod asks what device you are currently logged
-into. Select your newly created device.
+   - Après avoir ajouté les appareils à votre compte, reliez-les à l'aide du bouton
+"Configurer". De cette façon, gpodder.net maintiendra automatiquement la
+synchronisation des abonnements des appareils activés.<br />{{ img-synchronize | strip }}
+- Allez ensuite dans la section `Settings` " `Synchronization` d'AntennaPod's.
+Là, vous pouvez vous connecter à gpodder.net ou même fournir un serveur
+alternatif si vous voulez l'héberger vous-même. Lors de la connexion, AntennaPod
+demande quel est le périphérique sur lequel vous êtes actuellement connecté.
+Sélectionnez votre appareil nouvellement créé.
 
 *Did you create a device while logging in, rather than in advance as suggested
 above?* Then be sure to press the `Force sync` button in AntennaPod to upload

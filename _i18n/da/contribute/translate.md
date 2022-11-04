@@ -1,6 +1,6 @@
 {% capture img-transifex %} {% include image.html alt="
 
-Oversigt over ressourcer i Transifex
+       Oversigt over ressourcer i Transifex
 
        "
 
@@ -9,7 +9,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 {% capture img-weblate %} {% include image.html alt="
 
-Oversigt over komponenter i Weblate
+       Oversigt over komponenter i Weblate
 
        "
 
@@ -36,7 +36,7 @@ og til at [blive fortrolig med Web Editor-grænsefladen](https://docs.transifex.
 Under AntennaPod-projektet finder du tre 'ressourcer':
 
 - Selve appen
-- Den korte, én-sætningsbeskrivelse til app-butikker
+- Den korte beskrivelse i én sætning til app-butikker
 - Den mere udførlige beskrivelse til app-butikker
 
 {{ img-transifex | strip }}

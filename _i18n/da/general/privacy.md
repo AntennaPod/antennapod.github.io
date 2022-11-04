@@ -1,7 +1,7 @@
 AntennaPod udvikles og vedligeholdes af individuelle frivillige og er ikke
 repræsenteret af nogen juridisk enhed. Fællesskabet har ikke brug for dine data,
-så appen og webstedet er designet til at være fuldt GDPR-kompatibelt. Læs videre
-for at få mere at vide.
+så appen og webstedet er designet til at være fuldt ud GDPR-kompatibelt. Læs
+videre for at få mere at vide.
 
 ## Hvilke data AntennaPod-appen kan indsamle, gemme og behandle
 
@@ -56,12 +56,12 @@ forespørgsel, herunder søgetermerne. Opdagelses- og søgeforespørgsler omfatt
 også IP-adresse, tid og appnavn "AntennaPod". Når du abonnerer, serveres feed'et
 fra podcast-hosteren, hvilket betyder, at opdagelses-/søgetjenesten ikke længere
 er involveret.
-- Synkroniseringstjenester: Når det er aktiveret via indstillingerne,
+- Synkroniseringstjenester: Når den er aktiveret via indstillingerne,
 synkroniserer AntennaPod dine data. Disse data kan omfatte loginoplysninger,
-abonnerede podcasts, aflyttede afsnit, afspilning, pause og favorithandlinger
-med dato- og tidsstempler og IP-adresse. Du kan få flere oplysninger i din
+abonnerede podcasts, lyttede afsnit, afspilning, pause- og favorithandlinger med
+dato- og tidsstempler samt IP-adresse. Du kan få flere oplysninger i din
 udbyders privatlivspolitik (f.eks. [gpodder.net's privatlivspolitik](https://gpodder.net/privacy),
-eller den for din Nextcloud-vært).
+eller i din Nextcloud-værts politik).
 - Google: Hvis du har aktiveret sikkerhedskopiering og nulstilling i din
 telefons indstillinger (Indstillinger → Sikkerhedskopiering og nulstilling →
 Sikkerhedskopiering af mine data), skal du være opmærksom på, at Android selv
@@ -76,9 +76,9 @@ tjenester
 
 - Donationssystemet: AntennaPod bruger Open Collective, som tilbydes af Open
 Collective Inc (USA) & Open Collective Europe ASBL (Belgien). Når du foretager
-en donation, får disse foretagender adgang til visse data. For yderligere
+en donation, får disse enheder adgang til visse data. For yderligere
 oplysninger, se [Open Collective's privatlivspolitik](https://opencollective.com/privacypolicy).
-- Webstedet: AntennaPod's websted er hostet via GitHub Pages. I [GitHub's
+- Hjemmesiden: AntennaPod's websted er hostet via GitHub Pages. I [GitHub's
 fortrolighedspolitik](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
 oplyses det, at "GitHub kan indsamle personlige brugeroplysninger fra besøgende
 på dit GitHub Pages-websted, herunder logfiler over de besøgendes IP-adresser,
@@ -88,7 +88,7 @@ din maskine, og der anvendes ingen tredjepartssporing (analyse) eller andre
 tjenester.
 - Forummet: AntennaPod's forum bruger Discourse-softwaren, som hostes af
 kerneholdet. Se venligst [forum's privatlivspolitik](https://forum.antennapod.org/privacy)
-med hensyn til hvilke data det drejer sig om.
+for hvilke data der er tale om.
 
 ## Hvilke data AntennaPod-kerneholdet kan få adgang til
 
@@ -101,7 +101,7 @@ Android-nedbrud):
    - enhedstype
    - Android-version
    - AntennaPod-version
-- aktivt deler en anmeldelse i Google Play-butikken:
+- aktivt dele en anmeldelse i Google Play-butikken:
    - offentlige profiloplysninger
    - AntennaPod-version
    - enhedstype
@@ -120,7 +120,7 @@ bidrag):
 
 Udviklerne kan opdatere denne politik i fremtiden. Det er tilrådeligt at
 kontrollere politikken regelmæssigt for eventuelle ændringer. Ændringer af denne
-privatlivspolitik er gældende, når de foretages på dette dokument.
+fortrolighedspolitik er gældende, når de foretages på dette dokument.
 
 Denne privatlivspolitik blev senest opdateret den 13-02-20022. Hvis du har
 spørgsmål, kan du oprette et problem på GitHub.

@@ -1,6 +1,6 @@
 Il est possible de faire en sorte qu'AntennaPod dirige tout le trafic (fichiers
 multimédias, images de couverture, demandes et recherches RSS) via un proxy ou
-via réseau TOR. Cela peut avoir deux avantages potentiels :
+le réseau TOR. Cela peut avoir deux avantages potentiels :
 
 - Confidentialité : selon le type de service proxy, vos comportements liés au
 téléchargement/streaming peut être masqués aux hôtes de podcasts

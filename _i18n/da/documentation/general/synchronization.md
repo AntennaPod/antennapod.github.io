@@ -1,6 +1,6 @@
 {% capture img-devices %} {% include image.html alt="
 
-enheder
+       enheder
 
        "
 
@@ -9,7 +9,7 @@ loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture
 
 {% capture img-synchronize %} {% include image.html alt="
 
-synkroniser
+       synkroniser
 
        "
 
@@ -44,9 +44,9 @@ gpodder.net/devices/ for hver klient, du bruger:<br />{{ img-devices | strip }}
 knappen "Konfigurer". På denne måde holder gpodder.net automatisk abonnementerne
 på de aktiverede enheder synkroniseret.<br />{{ img-synchronize | strip }}
 - Gå derefter til AntennaPods `Indstillinger` » `Synkronisering`. Der kan du
-logge ind på gpodder.net eller endda give en alternativ server, hvis du selv vil
-hoste den. Under login spørger AntennaPod, hvilken enhed du i øjeblikket er
-logget ind på. Vælg din nyoprettede enhed.
+logge ind på gpodder.net eller endda angive en alternativ server, hvis du selv
+vil være vært for den. Under login spørger AntennaPod, hvilken enhed du i
+øjeblikket er logget ind på. Vælg din nyoprettede enhed.
 
 *Oprettede du en enhed, mens du loggede ind, i stedet for på forhånd som
 foreslået ovenfor?* Så sørg for at trykke på knappen
