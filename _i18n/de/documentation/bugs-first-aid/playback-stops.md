@@ -1,0 +1,3 @@
+Wenn die Wiedergabe z. B. immer ein paar Sekunden nach dem Ausschalten des Bildschirms stoppt oder nachdem du AntennaPod eine Weile nicht geöffnet hast, könnte es daran liegen, dass dein System die Anwendung beenden. Einige Hersteller sind dafür bekannt, dass sie übermäßig aggressiv vorgehen, wenn es darum geht, den Akku zu schonen. **Bitte versuche eine Ausnahme für AntennaPod in der Liste der akkuoptimierten Anwendungen hinzuzufügen.** Da sich das Hinzufügen einer Ausnahme von Telefon zu Telefon unterscheidet, empfehlen wir, im Internet nach Anweisungen für dein Modell zu suchen.
+
+Wenn dies nicht geholfen hat, zögere nicht, dich an die AntennaPod-Beitragenden in unserem [Forum](https://forum.antennapod.org) zu wenden.
