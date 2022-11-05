@@ -36,7 +36,7 @@ Die App fordert die folgenden datenschutzrelevanten Android-Berechtigungen an:
 
 Die Entwickler von AntennaPod haben **keinen**Zugang zu deinen Daten, es sei denn du
 
-- aktiv Debugging-Informationen weitergeben (entweder per E-Mail mit der Funktion „Crash Report“ oder über die Android-Absturzmeldefunktion von Google):
+- gibst aktiv Debugging-Informationen weiter (entweder per E-Mail mit der Funktion „Crash Report“ oder über die Android-Absturzmeldefunktion von Google):
 
    - Gerätetyp
 
@@ -44,7 +44,7 @@ Die Entwickler von AntennaPod haben **keinen**Zugang zu deinen Daten, es sei den
 
    - AntennaPod-Version
 
-- aktiv eine Bewertung in Google Play abgeben:
+- gibst aktiv eine Bewertung in Google Play ab:
 
    - Informationen zum öffentlichen Profil
 
@@ -56,9 +56,9 @@ Die Entwickler von AntennaPod haben **keinen**Zugang zu deinen Daten, es sei den
 
    - Android-Version
 
-- Besuch oder Teilnahme an unserem Forum: Wie in der [Datenschutzrichtlinie des Forums](https://forum.antennapod.org/privacy) beschrieben
+- besuchst unser Forum: Wie in der [Datenschutzrichtlinie des Forums](https://forum.antennapod.org/privacy) beschrieben
 
-- aktiv einen finanziellen Beitrag über Open Collective leisten (es sei denn, Sie leisten einen [inkognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) Beitrag):
+- leistest aktiv einen finanziellen Beitrag über Open Collective (es sei denn, du leistest einen [inkognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) Beitrag):
 
    - öffentliche Profilinformationen (Name, Unternehmen, Beschreibung, Bild, Twitter, GitHub, Webseite)
 
@@ -68,7 +68,7 @@ Die Entwickler von AntennaPod haben **keinen**Zugang zu deinen Daten, es sei den
 
 Die Entwickler können diese Richtlinie in Zukunft aktualisieren. Es ist ratsam, die Richtlinie regelmäßig auf etwaige Änderungen zu überprüfen. Änderungen an dieser Datenschutzrichtlinie werden wirksam, wenn sie in diesem Dokument veröffentlicht werden.
 
-Diese Datenschutzrichtlinie wurde zuletzt am 13.02.2022 aktualisiert. Wenn du Fragen hast, öffne ein Problem auf GitHub oder in unserem Forum.
+Diese Datenschutzrichtlinie wurde zuletzt am 13.02.2022 aktualisiert. Wenn du Fragen hast, öffne einen Beitrag auf GitHub oder in unserem Forum.
 
 {% if site.lang != 'en' %}
 

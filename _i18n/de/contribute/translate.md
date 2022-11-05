@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Von der geschätzten [Weltbevölkerung](https://en.wikipedia.org/wiki/World_population) von 7,9 Milliarden Menschen sprechen „nur“ 1,3 Milliarden [Englisch](https://www.ethnologue.com/guides/ethnologue200). Das mag an sich nicht viel bedeuten. Aber, wenn überhaupt, dann können wir daraus schließen, dass die Bereitstellung von AntennaPod in mehr Sprachen die App für mehr Menschen zugänglich macht. Als Nebeneffekt trägt die Lokalisierung der App auch dazu bei, dass unser Projekt über die derzeitigen Hauptnutzergruppen (Deutschland und USA) hinauswächst.
+Von der geschätzten [Weltbevölkerung](https://en.wikipedia.org/wiki/World_population) von 7,9 Milliarden Menschen [sprechen „nur“ 1,3 Milliarden Englisch](https://www.ethnologue.com/guides/ethnologue200). Das mag an sich nicht viel bedeuten. Aber, wenn überhaupt, dann können wir daraus schließen, dass die Übersetzung von AntennaPod in mehr Sprachen die App für mehr Menschen zugänglich macht. Als Nebeneffekt trägt die Lokalisierung der App auch dazu bei, dass unser Projekt über die derzeitigen Hauptnutzergruppen (Deutschland und USA) hinauswächst.
 
 Wir wissen deine Hilfe daher sehr zu schätzen!
 
@@ -26,13 +26,13 @@ Unter dem Projekt AntennaPod findest du drei „Ressourcen“:
 
 - Die App selbst
 
-- Die kurze Ein-Satz-Beschreibung für die Paketquellen
+- Die kurze Ein-Satz-Beschreibung zur Verwendung in App Stores
 
-- Die ausführlichere Beschreibung für die Paketquellen
+- Die ausführlichere Beschreibung für die App Stores
 
 {{ img-transifex | strip }}
 
-Die App ist derzeit in 34 Sprachen verfügbar. Es gibt zwar mehr Sprachen in Transifex, aber wir nehmen sie nicht in die App auf. Wir versuchen, eine [Schwelle von 40 % Vollständigkeit](https://github.com/AntennaPod/AntennaPod/pull/4112) für Sprachen einzuhalten. Wenn dieser Wert unterschritten wird, bietet die App kaum noch ein gutes Benutzererlebnis.
+Die App ist derzeit in 34 Sprachen verfügbar. Es gibt zwar mehr Sprachen auf Transifex, aber wir nehmen sie nicht in die App auf. Wir versuchen, eine [Schwelle von 40% Vollständigkeit](https://github.com/AntennaPod/AntennaPod/pull/4112) für Sprachen einzuhalten. Wenn dieser Wert unterschritten wird, bietet die App kaum noch ein gutes Benutzererlebnis.
 
 Neue Übersetzungen werden von Transifex auf GitHub (die Entwicklungsplattform) mindestens für jede „Punktversion“ gezogen. Dies sind Versionen wie 2.0, 2.5 usw., die neue Funktionen einführen. Wir veröffentlichen aber auch zwischendurch Aktualisierungen mit Fehlerbehebungen und neuen Übersetzungen. Im Durchschnitt kann es ein oder zwei Monate dauern, bis deine Arbeit in einer neuen Version verfügbar ist.
 
@@ -46,7 +46,7 @@ In dem Projekt AntennaPod findest du vier „Komponenten“. Jede stellt einen T
 
 {{ img-weblate | strip }}
 
-Neue Übersetzungen werden von Zeit zu Zeit manuell von Weblate zu GitHub (der Entwicklungsplattform) gezogen. Wenn eine Sprache einen Übersetzungsgrad von 90 % erreicht hat (das entspricht in etwa der gesamten Webseite, abzüglich des Contribute-Bereichs), können wir sie für die Live-Webseite aktivieren. Wir versuchen immer, ein Community-Mitglied zu finden, das eine Testversion der Webseite überprüfen kann, um die Qualität der Übersetzungen zu verbessern.
+Neue Übersetzungen werden von Zeit zu Zeit manuell von Weblate zu GitHub (der Entwicklungsplattform) gezogen. Wenn eine Sprache einen Übersetzungsgrad von 90% erreicht hat (das entspricht in etwa der gesamten Webseite, abzüglich des Contribute-Bereichs), können wir sie für die Live-Webseite aktivieren. Wir versuchen immer, ein Community-Mitglied zu finden, das eine Testversion der Webseite überprüfen kann, um die Qualität der Übersetzungen zu verbessern.
 
 # Andere Materialien
 

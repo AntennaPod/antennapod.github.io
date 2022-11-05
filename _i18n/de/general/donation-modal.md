@@ -1,5 +1,5 @@
-AntennaPod benötigt nicht viel Geld. **Unsere (jährlichen) Kosten sind bereits gedeckt** durch unsere existierenden Spenden. Deshalb würden wir es vorziehen, wenn du
+AntennaPod benötigt nicht viel Geld. Unsere (jährlichen) Kosten sind bereits durch unsere existierenden Spenden **gedeckt**. Deshalb würden wir es vorziehen, wenn du
 
-* spende deinem Lieblings-Podcast(-enden) oder
+* deinem Lieblings-Podcast(-enden) spendest oder
 
-* unterstütze uns mit einem nicht monetären Beitrag.
+* uns mit einem nicht-monetären Beitrag unterstützt.

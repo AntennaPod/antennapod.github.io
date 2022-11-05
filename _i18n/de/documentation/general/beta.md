@@ -1,4 +1,4 @@
-AntennaPod hat viele Nutzer, und wir wollen nicht, dass sie in Schwierigkeiten geraten, wenn wir eine neue Funktion hinzufügen. Es ist wichtig unsere App von einer großen Gruppe testen zu lassen, um sicherstellen zu können, dass alle möglichen Kombinationen von Telefonen, Android-Versionen und Anwendungsfällen wie erwartet funktionieren.
+AntennaPod hat viele Nutzer, und wir wollen nicht, dass diese in Schwierigkeiten geraten, wenn wir eine neue Funktion hinzufügen. Es ist wichtig, unsere App von einer großen Gruppe testen zu lassen, um sicherstellen zu können, dass alle möglichen Kombinationen von Telefonen, Android-Versionen und Anwendungsfällen wie erwartet funktionieren.
 
 Kleinere Probleme tauchen oft erst nach größeren Updates auf, und sie werden nur durch Fehlerberichte von Benutzenden in diesen frühen Phasen entdeckt. Es gibt nur einen Hauptentwickler, der in seiner Freizeit an diesem Projekt arbeitet. Er hat nur ein paar Geräte zum Testen, und das Verhalten kann von Gerät zu Gerät variieren.
 

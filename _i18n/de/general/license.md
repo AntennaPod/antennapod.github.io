@@ -2,7 +2,7 @@
 
 AntennaPod ist lizenziert unter der [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
 
-# Der Website-Code & Thema
+# Der Website-Code & Design
 
 Die Webseite wird unter der MIT-Lizenz (MIT) entwickelt:
 
