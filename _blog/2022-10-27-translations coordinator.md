@@ -5,6 +5,7 @@ date: "2022-10-27 23:40:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
+guid: https://antennapod.org/blog/2022/10/translations-coordinator
 ---
 
 Almost ten months ago we [announced](/blog/2022/01/website-translations) that we would be translating our website. The app itself was translated from the get-go ([starting](https://github.com/AntennaPod/AntennaPod/commits/b49aa41e24e125a9d05050070dc620531db61963/res) with Russian and German), using Transifex also [pretty much](https://github.com/AntennaPod/AntennaPod/commits/efd120f55f3ac83c26b92f1d0b339c5a1861970f/.tx/config) from the beginning.

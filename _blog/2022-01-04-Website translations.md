@@ -5,6 +5,7 @@ date: "2022-01-04 13:00:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
+guid: https://antennapod.org/blog/2022/01/website-translations
 ---
 
 While the app itself could already be used in 34 languages[^1], the website remained in English. As the website hosts the documentation, important help and information is not easy to understand for everyone. The same goes for those website areas that integrate with the app, such the page [enabling](documentation/podcasters-hosters/add-on-antennapod) users to subscribe to a specific podcast on AntennaPod. Plus, an English-only website doesn't help when aiming to promote the project outside an existing main user base (Germany and the US, currently).

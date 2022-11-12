@@ -10,6 +10,11 @@ jobs:
       uses: reviewdog/action-misspell@v1
       with:
         pattern: "*.md"
+  guids:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+      - run: .github/workflows/guids.sh
   build:
     runs-on: ubuntu-20.04
     steps:

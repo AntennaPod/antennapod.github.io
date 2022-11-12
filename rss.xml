@@ -18,7 +18,7 @@ layout: null
         <item>
             <title>{{ blog.title }}</title>
             <link>{{ blog.url | replace:'.html','' | prepend: site.url }}</link>
-            <guid isPermaLink="false">{{ blog.url | replace:'.html','' | prepend: site.url }}</guid>
+            <guid isPermaLink="false">{{ blog.guid }}</guid>
             {% assign url_and_equals = '="' | append: site.url | append: '/' %}
             <description><![CDATA[
                 {% assign author = site.data.authors[blog.author] %}

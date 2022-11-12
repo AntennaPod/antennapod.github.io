@@ -5,6 +5,7 @@ date: "2021-06-01 12:00:00"
 image: "2021/forum-anniversary.png"
 author: bytehamster
 layout: blog
+guid: https://antennapod.org/blog/2021/06/forum-anniversary
 ---
 
 User feedback is vital to building a great open-source app. Having a direct channel to users helps to solve questions and makes the overall experience of AntennaPod better. Celebrating one year of the AntennaPod forum, this blog post describes how the forum was born.
