@@ -7,6 +7,7 @@ date: "2022-04-09 18:00:00 +0200" # yyyy-mm-dd hh:mm:ss _hhmm Where _ is either 
 ICS: 0361F458-FD97-46CD-A014-076C1995439E # Name of file added in assets/events folder
 recurring: yes
 recurrence: every-1st-saturday
+recurrence-rule: FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
 location: online # Must be an osm.org relation ID or the text 'online'
 # Following are optional, but if provided, should be URLs
 more-information: https://forum.antennapod.org/t/monthly-community-call/1869

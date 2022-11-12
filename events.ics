@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+{% assign recurringevents = site.events | sort: 'date' | reverse | where:"recurring", true %}
+{% assign normalevents = site.events | sort: 'date' | reverse | where:"recurring", false %}
+{% assign events = recurringevents | concat: normalevents %}
+{% for event in events %}
+{% if event.unlisted != true %}
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Brussels:20220409T180000
+DTEND;TZID=Europe/Brussels:20220409T190000
+STATUS:CONFIRMED
+SUMMARY:{{ event.title }}
+LOCATION:{{ event.location }}
+URL:{{ event.more-information }}
+CONFERENCE:{{ event.meeting-room }}
+RRULE:{{ event.recurrence-rule }}
+END:VEVENT
+{% endif %}
+{% endfor %}
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
