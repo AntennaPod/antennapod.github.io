@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2022-10-27 15:02+0000\n"
-"Last-Translator: Arthur Tavernier <arthur.tavernier45@gmail.com>\n"
+"PO-Revision-Date: 2022-11-08 22:02+0000\n"
+"Last-Translator: 3raven <elise_declerck@laposte.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1307,7 +1307,6 @@ msgstr ""
 "que vous allez faire de l'épisode."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "If you are not interested in an episode, just swipe it away and AntennaPod "
 "removes the `new` label. The episode still stays marked as unplayed and you "
@@ -1315,7 +1314,7 @@ msgid ""
 msgstr ""
 "Si un épisode ne vous intéresse pas, il suffit de le faire glisser et "
 "AntennaPod supprime le drapeau `nouveau`. L'épisode reste marqué comme non "
-"lu et vous pouvez le retrouver sur la page `Episodes` → `Tous`, ainsi que "
+"lu et vous pouvez le retrouver sur la page `Épisodes` → `Tous`, ainsi que "
 "sur la page du podcast."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
@@ -1345,7 +1344,6 @@ msgstr ""
 "pouvez également utiliser la deuxième option."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "Just add the episode to the queue. AntennaPod automatically removes the "
 "`new` label and inserts it into the queue. You can later directly play the "
@@ -1359,7 +1357,7 @@ msgstr ""
 "Vous pouvez par la suite lire directement l'épisode sans avoir à le "
 "télécharger, il ne prend donc pas de place. Pensez-y : le streaming comme "
 "pour les vidéos sur YouTube. L’inconvénient est qu’il n’est pas disponible "
-"hors ligne, qu’il peut être couteux en données mobiles lorsque vous êtes en "
+"hors ligne, qu’il peut être coûteux en données mobiles lorsque vous êtes en "
 "déplacement, et que lancement sera un peu plus lent (cela chargera davantage "
 "les serveurs de l’hôte du podcast)."
 
@@ -1428,22 +1426,21 @@ msgstr ""
 "podcast par l'adresse RSS."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Alternatively, you can import an OPML file or only check the iTunes, gpodder."
 "net, fyyd or Podcast Index database respectively. Importing RSS or Atom "
 "feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
 msgstr ""
-"Vous pouvez également importer un fichier OPML ou vérifier uniquement la "
-"base de données iTunes, gpodder.net ou fyyd. L'importation de flux RSS ou "
-"Atom, ou de schémas d'URL comme `pcast://` et `itpc://`, fonctionnera aussi."
+"Vous pouvez également importer un fichier OPML ou vérifier uniquement les "
+"base de données de iTunes, gpodder.net ou fyyd respectivement. L'importation "
+"de flux RSS ou Atom, ou de schémas d'URL comme `pcast://` et `itpc://`, "
+"fonctionnera aussi."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 5 (header)
 msgid "Subscribing to third-party services"
 msgstr "Abonnement à des services tiers"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "We got some questions about support for platforms like SoundCloud, Mixcloud "
 "and alike. While it may be cool to have a feature to simply paste/open "
@@ -1454,7 +1451,7 @@ msgid ""
 "discuss a proposal that you'd be happy to implement."
 msgstr ""
 "Nous avons reçu quelques questions sur le support de plateformes comme "
-"Soundcloud, Mixcloud et autres. Bien qu'il puisse être intéressant d'avoir "
+"SoundCloud, Mixcloud et autres. Bien qu'il puisse être intéressant d'avoir "
 "une fonction permettant de coller/ouvrir simplement les URL des chaînes dans "
 "AntennaPod, [il a été décidé](https://github.com/AntennaPod/AntennaPod/"
 "issues/1297) de ne pas l'implémenter. De telles plates-formes peuvent "
@@ -1668,9 +1665,8 @@ msgid "`-`/`S`"
 msgstr "`-`/`S`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
-#, fuzzy
 msgid "Lower volume"
-msgstr "Baisser le volume)"
+msgstr "Baisser le volume"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`M`"
@@ -1724,7 +1720,6 @@ msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Simply include a link to `https://antennapod.org/deeplink/subscribe?url=xyz` "
 "on your website or wherever you want. Make sure to replace `xyz` with the "
@@ -1732,9 +1727,11 @@ msgid ""
 "will be able to preview episodes and subscribe to your podcast directly in "
 "our app."
 msgstr ""
-"Il suffit d'inclure un lien vers `https://antennapod.org/deeplink/subscribe?"
-"url=xyz` sur votre site Web où vous le souhaitez. Veillez à remplacer `xyz` "
-"par l'URL de votre flux RSS."
+"Il suffit d'inclure un lien vers `https://antennapod.org/deeplink/"
+"subscribe?url=xyz` sur votre site Web où vous le souhaitez. Veillez à "
+"remplacer `xyz` par l'URL de votre flux RSS. Les utilisateurs qui ont "
+"installé AntennaPod et ouvrent ce lien seront capables de prévisualiser les "
+"épisodes et de s'abonner à votre podcast directement dans notre application."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 3
 #: (paragraph)
@@ -1835,14 +1832,13 @@ msgstr ""
 "` dans la barre supérieure et en sélectionnant `Filtrer`."
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
-#, fuzzy
 msgid ""
 "The queue is locked. You can unlock the queue by tapping the 3-dot overflow "
 "menu in the top bar and un-checking `Lock queue`."
 msgstr ""
 "La liste de lecture est verrouillée. Vous pouvez déverrouiller la liste de "
-"lecture en tapant sur l'icône `dévrouiller` dans la barre supérieure : "
-"{{ img-queue | strip }}"
+"lecture en tapant sur l'icône `déverrouiller` dans la barre supérieure : {{ "
+"img-queue | strip }}"
 
 #: _i18n/en/documentation/queue/multiple-queues.md:block 1 (paragraph)
 #, fuzzy
