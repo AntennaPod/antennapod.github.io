@@ -6,7 +6,7 @@ signifie que vous n'avez pas encore décidé ce que vous allez faire de l'épiso
 
 - Si un épisode ne vous intéresse pas, il suffit de le faire glisser et
 AntennaPod supprime le drapeau `nouveau`. L'épisode reste marqué comme non lu et
-vous pouvez le retrouver sur la page `Episodes` → `Tous`, ainsi que sur la page
+vous pouvez le retrouver sur la page `Épisodes` → `Tous`, ainsi que sur la page
 du podcast.
 - Si vous êtes intéressé par l'épisode, vous pouvez faire l'une des deux choses
 suivantes, en fonction de votre comportement d'écoute.
@@ -22,7 +22,7 @@ suivantes, en fonction de votre comportement d'écoute.
       pouvez par la suite lire directement l'épisode sans avoir à le télécharger, il
       ne prend donc pas de place. Pensez-y : le streaming comme pour les vidéos sur
       YouTube. L’inconvénient est qu’il n’est pas disponible hors ligne, qu’il peut
-      être couteux en données mobiles lorsque vous êtes en déplacement, et que
+      être coûteux en données mobiles lorsque vous êtes en déplacement, et que
       lancement sera un peu plus lent (cela chargera davantage les serveurs de l’hôte
       du podcast).
 - Lorsque vous avez terminé, AntennaPod marque l'épisode comme lu et le supprime

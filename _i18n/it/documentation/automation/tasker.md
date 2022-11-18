@@ -1,5 +1,5 @@
 Con AntennaPod, puoi specificare quali abbonamenti (feed di podcast) devono
-essere aggiornati regolarmente (vedi [Aggiornare i podcast](/refreshing-podcasts)).
+essere aggiornati regolarmente (vedi [Aggiornare i podcast](/documentation/automation/refreshing-podcasts)).
 
 Se hai esigenze più complesse, è possibile utilizzare su AntennaPod varie
 applicazioni di automazione di terze parti. Per esempio:

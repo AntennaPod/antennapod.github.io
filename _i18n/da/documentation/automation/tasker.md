@@ -1,5 +1,5 @@
 Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal opdateres
-med regelmæssigt (se [Opdatering af podcasts](/refreshing-podcasts)).
+regelmæssigt (se [Opdatering af podcasts](/documentation/automation/refreshing-podcasts)).
 
 Hvis du har mere komplekse behov, kan du bruge forskellige
 tredjeparts-automatiseringsprogrammer sammen med AntennaPod til at gøre det. For
