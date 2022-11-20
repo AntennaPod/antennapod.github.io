@@ -5,9 +5,9 @@
         <h3 class="card-title">{{ event.title }}</h3>
         <h4 class="card-subtitle text-muted mb-2">
             {% if event.recurring == true %}
-                {% t events.general.recurring %}: {% t events.recurrence.{{ event.recurrence}} %}
+                {% t events.general.recurring %}: {% t events.recurrence.{{ event.recurrence-text}} %}
             {% else %}
-                {% t long_month.{{ event.date | date: "%B" }} %} {{ event.date | date: "%-d, %Y"}}
+                {% t long_month.{{ event.datetime-start | date: "%B" }} %} {{ event.datetime-start | date: "%-d, %Y"}}
             {% endif %}
         </h4>
         <p class="card-text">{% if event.summary %}{{ event.summary }}{% else %}{{ event.excerpt | strip_html | truncatewords: 15 }}{% endif %}</p>

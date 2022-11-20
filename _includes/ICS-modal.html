@@ -1,0 +1,33 @@
+<script type="text/javascript" src="/assets/js/copy-url.js" />
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(function () {
+   $(document).on('shown.bs.tooltip', function (e) {
+      setTimeout(function () {
+        $(e.target).tooltip('hide');
+      }, 1000);
+   });
+});
+</script>
+
+<div class="modal fade" id="icsModal" tabindex="-1" role="dialog" aria-labelledby="icsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="icsModalLabel">{% t events.links.add-calendar %}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {% tf general/events-add-calendar-modal.md %}
+      </div>
+      <div class="modal-footer">
+        <a role="button" class="btn btn-secondary" href="{% if site.lang != 'en' %}{{ site.lang }}{% endif %}/events.ics">{% t events.general.download-ics %}</a>
+        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-title="{% t generic.accessibility.copied %}" value="{{site.url}}{{site.baseurl}}/events.ics">{% t events.general.copy-url %}</button>
+      </div>
+    </div>
+  </div>
+</div>

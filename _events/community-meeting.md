@@ -1,18 +1,24 @@
 ---
-title: Community meeting
+title: Monthly community meeting ☎ 🎙
 summary: Our monthly meeting to discuss anything AntennaPod. Join us!
-image:
 permalink: /events/:slug
-date: "2022-04-09 18:00:00 +0200" # yyyy-mm-dd hh:mm:ss _hhmm Where _ is either + or - to indicate the timezone in which the event is noted
-ICS: 0361F458-FD97-46CD-A014-076C1995439E # Name of file added in assets/events folder
+uid: 0fc58c3c-517f-4467-b0e3-7e036cf1420c
+sequence: 4
+timezone: Europe/Brussels
+datetime-start: 2022-04-09 17:00
+datetime-end: 2022-04-09 18:00
 recurring: yes
-recurrence: every-1st-saturday
+recurrence-text: every-1st-saturday
 recurrence-rule: FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
-location: online # Must be an osm.org relation ID or the text 'online'
-# Following are optional, but if provided, should be URLs
+recurrence-exceptions:
+- 2022-10-15
+recurrence-additions:
+- start: 2022-10-22 16:00
+  end: 2022-10-22 17:00
+location: online
+location-label: AntennaPod's Jitsi Meet
 more-information: https://forum.antennapod.org/t/monthly-community-call/1869
-meeting-room: https://meet.antennapod.org/CommunityCall # Must be a URL, only rendered if location is online
-blog-post: # Path of the blog post, starting with the year
+meeting-room: https://meet.antennapod.org/CommunityCall
 ---
 
 {% tf "events/{{ page.slug }}.md" %}
