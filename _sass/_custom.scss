@@ -638,6 +638,17 @@ blockquote {
   border-top: 1px solid $gray-900;
 }
 
+.hidden-border-margin-parent {
+  overflow: hidden;
+}
+
+.hidden-border-margin-child {
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 // Boxes and Cards
 
 .card > img {

@@ -11,7 +11,7 @@ layout: internal
 <div class="container-fluid py-5">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-3 order-lg-2 mb-4 mb-xl-0">
+      <div class="col-lg-4 order-lg-2 mb-4 mb-xl-0">
         <div class="d-lg-none">
           <p>{% if page.summary %}{{ page.summary }}{% endif %}</p>
         </div>
@@ -38,7 +38,7 @@ layout: internal
           {% if page[link.key] or link.key == 'ICS' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'ICS' %}{% assign info_counter = info_counter | plus:1 %}{% endunless %}{% endunless %}{% endunless %}{% endif %}
           {% endfor %}
           {% assign info_counter = info_counter | minus:1 %}
-          <div class="row m-0 text-center {% if info_counter > 3 %}row-cols-2{% endif %}">
+          <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} hidden-border-margin-parent">
             {% for link in site.data.event-links %}
             {%- if page[link.key] or link.key == 'ICS' -%}
             {% unless page[link.key] == 'online' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'ICS' %}
@@ -50,7 +50,7 @@ layout: internal
             {% else %}
               {% assign link-index = link-index | modulo: 3 %}
             {% endif %}
-            <div class="col py-3 border-top{% unless link-index == 0 %} border-left{% endunless %}">
+            <div class="col py-3 border-top{% unless link-index == 0 %} border-left{% endunless %}  hidden-border-margin-child">
               <a href="{{ link.url }}{{ page[link.key] }}" class="stretched-link"{% if link.key == 'location' %} target="_blank"{% endif %}{% if link.key == 'ICS' %} data-toggle="modal" data-target="#icsModal"{% endif %}>
                 <i class="fas fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
               </a>
