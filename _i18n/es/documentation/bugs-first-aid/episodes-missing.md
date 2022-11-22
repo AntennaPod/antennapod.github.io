@@ -1,0 +1,5 @@
+AntennaPod es una [aplicación de podcasts descentralizada](/documentation/general/central-distributed). Esto básicamente significa que no hay un servidor central que sepa todo sobre cada podcast.
+
+Por lo tanto, la información de los episodios se toma directamente del sitio web del editor. Cuando estás suscrito a un podcast, AntennaPod copia y almacena la información de cada episodio nuevo en la aplicación. Esta información se mantiene aunque ya no esté disponible en el sitio del editor.
+
+Muchos editores sólo mantienen en línea (información sobre) los episodios más recientes. Por lo tanto, cuando te acabas de suscribir a un podcast, tu instalación de AntennaPod no tiene acceso a la información sobre los episodios más antiguos. Para conseguir que todos los episodios anteriores aparezcan en la aplicación, puedes ponerte en contacto con el podcaster y pedirle que (se ponga en contacto con su editor para que) soporte 'paged feeds' ([información técnica](https://datatracker.ietf.org/doc/html/rfc5005#section-3)).
