@@ -89,8 +89,8 @@ bezoekers, om te voldoen aan wettelijke verplichtingen, en om de veiligheid en
 integriteit van de website en de service te handhaven." De website slaat geen
 cookies op jouw machine op, en er worden geen 3rd party tracking (analytics) of
 andere diensten gebruikt.
-- Het forum: AntennaPod's forum maakt gebruik van de Discourse software, gehost
-door het kernteam. Zie de [forum's privacy policy](https://forum.antennapod.org/privacy)
+- Het forum: AntennaPod's forum maakt gebruik van de software Discourse, gehost
+door het kernteam. Zie het [privacybeleid van het forum](https://forum.antennapod.org/privacy)
 over welke gegevens het gaat.
 
 ## Tot welke gegevens het AntennaPod kernteam toegang kan hebben

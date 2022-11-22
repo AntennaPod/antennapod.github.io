@@ -8,14 +8,15 @@ le coin supérieur gauche. Allez dans `+ Ajouter un podcast`. Maintenant, vous
 pouvez rechercher, parcourir les suggestions ou ajouter un podcast par l'adresse
 RSS.
 
-Vous pouvez également importer un fichier OPML ou vérifier uniquement la base de
-données iTunes, gpodder.net ou fyyd. L'importation de flux RSS ou Atom, ou de
-schémas d'URL comme `pcast://` et `itpc://`, fonctionnera aussi.
+Vous pouvez également importer un fichier OPML ou vérifier uniquement les base
+de données de iTunes, gpodder.net ou fyyd respectivement. L'importation de flux
+RSS ou Atom, ou de schémas d'URL comme `pcast://` et `itpc://`, fonctionnera
+aussi.
 
 ## Abonnement à des services tiers
 
 Nous avons reçu quelques questions sur le support de plateformes comme
-Soundcloud, Mixcloud et autres. Bien qu'il puisse être intéressant d'avoir une
+SoundCloud, Mixcloud et autres. Bien qu'il puisse être intéressant d'avoir une
 fonction permettant de coller/ouvrir simplement les URL des chaînes dans
 AntennaPod, [il a été décidé](https://github.com/AntennaPod/AntennaPod/issues/1297)
 de ne pas l'implémenter. De telles plates-formes peuvent apparaître et

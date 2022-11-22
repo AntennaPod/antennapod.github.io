@@ -1,0 +1,3 @@
+Als het afspelen altijd stopt enkele seconden na het uitschakelen van het scherm, of als je AntennaPod een tijdje niet hebt geopend, kan het zijn dat het systeem de app stopt. Sommige leveranciers hebben een overdreven streng beleid om energie te besparen. **Probeer alsjeblieft een uitzondering voor AntennaPod toe te voegen aan de lijst met voor batterij-geoptimaliseerde apps.** Omdat de manier om zo'n uitzondering toe te voegen nogal eens verschilt tussen telefoons, raden we aan om op internet te zoeken naar instructies specifiek voor jouw merk en model (als je niet al weet hoe je een uitzondering kan toevoegen).
+
+Als dit niet helpt, aarzal dan niet om contact zoeken met AntennaPod-vrijwilligers in ons [forum](https://forum.antennapod.org).

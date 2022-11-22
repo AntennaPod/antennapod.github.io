@@ -2,25 +2,25 @@ Når du har hentet en podcast-app, er næste skridt at abonnere på en podcast.
 
 ## Abonnere
 
-Åbn skuffen ved at stryge fra venstre eller ved at trykke på `=` burgerikonet i
+Åbn skuffen ved at stryge fra venstre eller ved at trykke på `☰` burgerikonet i
 øverste venstre hjørne. Gå til `+ Tilføj podcast`. Nu kan du søge, gennemse
-forslag eller tilføje en podcast ved hjælp af RSS-adressen.
+forslag eller tilføje en podcast ved hjælp af des RSS-adresse.
 
-Alternativt kan du importere en OPML-fil eller kun tjekke iTunes-, gpodder.net-
-eller fyyd-databasen. Import af RSS- eller Atom-feeds eller URL-skemaer som
-`pcast://` og `itpc://` fungerer også.
+Alternativt kan du importere en OPML-fil eller kun tjekke henholdsvis iTunes-,
+gpodder.net-, fyyd- eller Podcast Index-databasen. Import af RSS- eller
+Atom-feeds eller URL-metoder som `pcast://` og `itpc://` fungerer også.
 
 ## Abonnement på tjenester fra tredjeparter
 
-Vi har fået nogle spørgsmål om understøttelse af platforme som Soundcloud,
+Vi har fået nogle forespørgsler om understøttelse af platforme som Soundcloud,
 Mixcloud og lignende. Selv om det kunne være fedt at have en funktion til blot
 at indsætte/åbne kanal-URL'er i AntennaPod, [er det blevet besluttet](https://github.com/AntennaPod/AntennaPod/issues/1297)
 ikke at implementere det. Sådanne platforme kan komme og forsvinde, mens det
-kræver en del arbejde for vores frivillige at implementere denne funktion. Hvis
-du er udvikler, er du naturligvis velkommen til at diskutere et forslag, som du
-gerne vil implementere.
+kræver en hel del arbejde for vores frivillige at implementere denne funktion.
+Hvis du er udvikler, er du naturligvis velkommen til at diskutere et forslag,
+som du gerne vil implementere.
 
-### Soundcloud
+### SoundCloud
 
 Soundcloud giver [producenter mulighed for at lave podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed)
 ud fra deres indhold ganske nemt. Du bør kontakte dem, dele

@@ -23,7 +23,7 @@ Met OPML-bestanden zet je abonnementen over naar een andere podcast-app. Alle
 podcast- of afleveringsspecifieke gegevens (bijvoorbeeld of een specifieke
 aflevering is afgespeeld) en alle app-instellingen gaan verloren. Ga naar
 `Instellingen` » `Opslag` » `Importeren/Exporteren` om het OPML-bestand aan te
-maken. Klik op `Versturen...` om het bestand op te slaan in een andere map op je
+maken. Klik op `Versturen…` om het bestand op te slaan in een andere map op je
 telefoon of ergens anders te bewaren, want het originele bestand wordt
 verwijderd bij het deïnstalleren van AntennaPod.
 

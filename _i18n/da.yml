@@ -5,7 +5,7 @@ titles:
   forum: Forum
   privacy: Privatlivspolitik
   documentation: Dokumentation
-  download: Hent
+  download: Hent AntennaPod
   about: Om
   contribute: Bidrag
 generic:
@@ -13,7 +13,9 @@ generic:
   contribute: Bidrag
   share: Del
   error: Fejl
-  redirect: Omdiriger
+  redirect:
+    title: Omdiriger
+    link: Klik her, hvis du ikke omdirigeres.
   page-not-found-long: Den ønskede side kunne ikke findes.
   accessibility:
     lang-menu: Sprogskifter
@@ -106,8 +108,13 @@ contribute:
       wireframes? Hjælp med at løse disse problemer.
   introduction: AntennaPod er under aktiv udvikling af frivillige. Du kan også bidrage
     med kode eller andet!
-  donate: Hvis du ikke kan bidrage på nogen af de ovennævnte måder, kan du også give
-    et <a href="https://opencollective.com/antennapod" target="_blank"> bidrag</a>.
+  donate:
+    modal-button-contribute: Tjek bidragsmulighederne igen
+    link: Jeg ønsker at foretage en <a href="https://opencollective.com/antennapod"
+      target="_blank" data-toggle="modal" data-target="#donationModal">donation</a>.
+    modal-button-chat: Diskuter med os, hvordan du kan hjælpe
+    modal-title: Er du sikker på, at du ønsker at donere?
+    modal-button-donate: Donér alligevel
 documentation:
   general:
     search-placeholder: Søg i dokumentation
@@ -132,8 +139,9 @@ documentation:
       external-storage: Brug af eksternt lager
       gpodder: Sådan synkroniserer du mellem enheder
       central-distributed: Centrale og decentrale podcast-apps
-      proxy: Føre trafik gennem et proxy- eller TOR-netværk
+      proxy: Før trafik gennem et proxy- eller Tor-netværk
       episode-deletion: Sletning af afsnit
+      synchronization: Sådan synkroniserer du mellem enheder
     playback:
       title: Afspilning
       intro: Nedenfor kan du finde emner vedrørende afspilning.
@@ -145,7 +153,7 @@ documentation:
       how-to-use: Sådan bruges køen
       multiple-queues: Sådan bruges flere køer
       intro: Nedenfor kan du finde ofte stillede spørgsmål om køen.
-      lock: Låsning af køen
+      lock: (Op)låsning af køen
     subscriptions:
       title: Abonnementer
       subscription-groups: Abonnementsetiketter (grupper eller kategorier)
@@ -153,7 +161,7 @@ documentation:
       listening-without-subscribing: Lytte til et afsnit uden at abonnere
     automation:
       title: Automatisering
-      tasker: Tredjepartsintegration
+      tasker: Integration med andre apps
       deletion: Automatisk sletning
       feed-updates: Feed-opdateringer
       intro: Er du en erfaren bruger og ønsker at automatisere opgaver? Så tag et
@@ -165,13 +173,16 @@ documentation:
       add-on-antennapod: Opret et 'Åbn i AntennaPod'-link
       intro: Nedenfor kan du finde vores supportoplysninger til podcastere og hostingudbydere.
     bugs-first-aid:
-      title: Programfejl, fejl & førstehjælp
-      typo-translations: Jeg har fundet en tastefejl
+      title: Programfejl, mangler & førstehjælp
+      typo-translations: Jeg har fundet en taste- eller stavefejl
       database-error: Alle mine podcasts og afsnit er væk
       bug-report: Der er noget, der ikke virker
-      episodes-missing: Kan ikke downloade et afsnit
+      episodes-missing: Gamle afsnit mangler
       intro: At lave software er et menneskeligt håndværk, så fejl er uundgåelige.
         Men der er ofte noget, vi kan gøre ved det!
+      cannot-stream-download: Kan ikke downloade et afsnit
+      playback-stops: Afspilning stopper pludselig
+      refresh-download-errors: Fejl ved overførsel eller opdatering af feed
 blog:
   posted: Udgivet
 footer:

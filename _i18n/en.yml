@@ -19,7 +19,9 @@ generic:
   learn: "Learn More"
   share: "Share"
   error: "Error"
-  redirect: "Redirect"
+  redirect:
+    title: "Redirect"
+    link: "Click here if you are not redirected."
   subscribe: "Subscribe"
   page-not-found-short: "Page not found"
   page-not-found-long: "The requested page could not be found."
@@ -109,7 +111,12 @@ contribute:
   design:
     title: "Design"
     text: "You turn complex requests in understandable user stories or wireframes? Help tackle these issues."
-  donate: "Or, if you can't contribute in any of the ways listed above, you can also make a <a href=\"https://opencollective.com/antennapod\" target=\"_blank\">donation</a>."
+  donate:
+    link: "I want to make a <a href=\"https://opencollective.com/antennapod\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#donationModal\">donation</a>."
+    modal-title: "Are you sure you want to donate?"
+    modal-button-donate: "Donate anyway"
+    modal-button-chat: "Discuss with us how you can help"
+    modal-button-contribute: "Check contribution options again"
 
 ## Documentation
 documentation:
@@ -164,6 +171,7 @@ documentation:
       cannot-stream-download: "Cannot download an episode"
       episodes-missing: "Old episodes are missing"
       playback-stops: "Playback suddenly stops"
+      refresh-download-errors: "Download or feed refresh error"
     podcasters-hosters:
       title: "For Podcasters & Hosters"
       intro: "Below, you can find our support information for podcasters & hosting providers."

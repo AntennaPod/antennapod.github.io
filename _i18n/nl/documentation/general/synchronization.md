@@ -1,6 +1,6 @@
 {% capture img-devices %} {% include image.html alt="
 
-toestellen
+       toestellen
 
        "
 
@@ -9,7 +9,7 @@ loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture
 
 {% capture img-synchronize %} {% include image.html alt="
 
-synchroniseren
+       synchroniseren
 
        "
 

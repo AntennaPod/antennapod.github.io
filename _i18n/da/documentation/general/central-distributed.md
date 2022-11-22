@@ -1,39 +1,40 @@
-Der er dybest set to måder, hvorpå man laver en podcast app:
+Der er grundlæggende to måder at lave en podcast-app på:
 
 1. **Central**: Der er en central server (drevet af det firma, der udvikler
 appen), som tjekker, om der er nye afsnit, og derefter leverer dem til dig.
 1. **Decentral**: Appen kontrollerer selv nye afsnit direkte fra
 podcast-udgiverne.
 
-AntennaPod bruger metode 2, dvs. vi har ikke en central server. Der er et par
-fordele og ulemper ved denne metode.
+AntennaPod bruger metode 2. Der er både fordele og ulemper ved denne:
 
-- Hvis virksomheden lukker sin server ned af en eller anden grund med den
-centrale metode, vil appen ophøre med at fungere. AntennaPod vil fortsat fungere
-uafhængigt af, hvad vi gør i vores ende, fordi appen kun ser på
-podcastudgiverens websteder for at indsamle nye afsnit.
-- Ved brug af den centrale metode skal virksomheden drive serveren, hvilket
-koster penge. Derfor er apps, der anvender denne metode, enten betalte eller
-viser reklamer. AntennaPod er udviklet af frivillige uden at tjene nogen penge
-på det. Appen er gratis og uden reklamer, men vi har derfor ikke råd til at
-drive en server.
-- Ved hjælp af den centrale metode ved serveroperatøren, hvilke podcasts du er
-abonneret på. De ved sandsynligvis også, hvilke afsnit du lytter til, hvilke
-dele af afsnittene du lytter til, og på hvilket tidspunkt du lytter til dem.
-AntennaPod ved ikke noget om det. Vi har ikke engang en server, hvor vi kan
-indsamle disse data.
-- Hvis du lytter til private feeds (nogle udgivere sælger deres podcasts eller
-giver støtter tidlig adgang til afsnittene), kræver den centrale metode, at du
-sender din adgangskode til det firma, der driver appen. Normalt tillader de
-centrale tjenester simpelthen ikke at tilføje private feeds.
-- Ved hjælp af den centrale tilgang kan den virksomhed, der driver appen,
-beholde afsnittene på deres server, selv om podcast-udgiverne sletter dem. Med
-den decentrale metode kan du kun få adgang til de afsnit, som udgiverne angiver
-i deres feed. Hvis du abonnerer på en podcast ved hjælp af AntennaPod, og
-udgiveren sletter et afsnit, beholder appen også afsnittet, men hvis du sletter
-og geninstallerer appen, er det væk (medmindre du laver en sikkerhedskopi). Alt
-sker lokalt på din enhed, så hvis udgiverne ikke offentliggøre et afsnit, kan
-appen med den decentrale metode ikke vide, at den findes.
-- Ved at bruge den decentrale metode kan du lytte til alle podcasts. Da din
-enhed selv leder efter nye afsnit, kan app-udviklere ikke rigtig censurere, hvad
-du kan lytte til ved at fjerne podcasts fra deres server.
+- Da appen kontrollerer, om der er nye afsnit, behøver app-skaberne (som os)
+ikke at vedligeholde en central server. Det sparer en masse tid og kræfter. Det
+sparer også en masse penge, hvilket betyder, at vi ikke behøver at være
+afhængige af annoncer eller store beløb i donationer.
+- Da appen ikke er afhængig af en central server til at indsamle nye afsnit, vil
+AntennaPod fortsat fungere uafhængigt af det, vi gør fra vores side. Hvis vi
+bruger den centrale metode, vil appen stoppe med at fungere, hvis virksomheden
+lukker sin server ned af en eller anden grund.
+- Som appudviklere ved vi ikke og kan ikke vide, hvilke podcasts du abonnerer
+på, hvilke afsnit du lytter til, eller på hvilket tidspunkt du lytter til dem.
+Udgivere af apps med en central server indsamler sådanne data, hvilket er til
+skade for dit privatliv.
+- Nogle udgivere tilbyder private feeds, der giver tidlig adgang, særligt
+indhold eller reklamefrie afsnit. Sådanne feeds kræver et brugernavn og en
+adgangskode, som AntennaPod giver direkte til podcastværten, når der anmodes om
+det. Centraliserede tjenester tillader ofte slet ikke at tilføje private feeds.
+Og hvis de gør det, kan det være nødvendigt at sende dine
+legitimationsoplysninger til app-udviklerne.
+- Der er ingen risiko for censur, da der ikke er et centralt adgangspunkt, som
+gør det muligt for app-udviklere at fjerne podcasts fra deres server.
+- På den anden side betyder en distribueret model, at du kun får nye afsnit, når
+du opdaterer en podcast. I AntennaPod er dette som standard hver 12. time, men
+du kan ændre dette til mere eller mindre ofte, og du kan også altid manuelt
+tjekke efter nye afsnit. En central server kan kontrollere, om der er nye afsnit
+meget ofte eller endda blive informeret af podcastværter i realtid. På den måde
+kan apps også få besked om nye afsnit meget hurtigere, uden at du behøver at
+tjekke alle podcasts, du er abonneret på, regelmæssigt.
+- Det er heller ikke muligt for AntennaPod at levere afsnit, der er blevet
+fjernet af podcastudgiveren, f.eks. fordi de kun beholder de 10 seneste afsnit
+online. Apps, der er afhængige af en central server, kan få leveret de ældre
+afsnit, selv om de er forsvundet fra RSS-feedet.

@@ -41,7 +41,7 @@ title: titles.documentation
       searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
       limit: 5,
       fuzzy: false,
-      json: '/search.json'
+      json: '{% if site.lang != "en" %}/{{ site.lang }}{% endif %}/assets/datasets/documentation_index.json'
     })
   });
 </script>

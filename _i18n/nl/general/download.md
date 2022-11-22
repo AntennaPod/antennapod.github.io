@@ -1,6 +1,6 @@
 {% capture img-GP %} {% include image.html alt="
 
-Download het op Google Play
+       Download het op Google Play
 
        "
 
@@ -9,7 +9,7 @@ endcapture %}
 
 {% capture img-FD %} {% include image.html alt="
 
-Download het op F-Droid
+       Download het op F-Droid
 
        "
 

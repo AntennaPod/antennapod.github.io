@@ -23,7 +23,7 @@ concerne l'utilisation d'un service de synchronisation, s'il est activé dans le
 paramètres. L'application recevra alors les abonnements et les éléments de
 lecture fournis par le service.
 
-## Autorisations de l'application
+## permissions de l'appliaction
 
 L'application demande les autorisations Android suivantes relatives à la
 confidentialité :

@@ -1,17 +1,37 @@
 @media (prefers-color-scheme: dark) {
+
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ *
+ * Bootstrap-Dark (https://vinorodrigues.github.io/bootstrap-dark/)
+ * Copyright 2020 Vino Rodrigues
+ * This version is a dual color theme, with the default light mode and the dark
+ * elements optioned in by a `prefers-color-scheme: dark` media query
+ */
+
+  @import "./bootstrap-dark/functions";
+  @import "./bootstrap-dark/variables-alt";
+  @import "./bootstrap-dark/buttons";
+  @import "./bootstrap-dark/modal";
+
     :root {
         scrollbar-color: #333 #000;
     }
 
     body {
-        color: #bbb;
+        color: #ddd;
         background-color: #111;
     }
 
     .content h1,
     .content h2,
     .content h3,
-    .content h4 {
+    .content h4,
+    .content h5,
+    .content h6 {
         color: #ddd;
     }
 
@@ -44,10 +64,13 @@
         border-color: #333;
     }
 
-    .post-content {
+    .post-content, .modal-body {
+        & p, li {
+          color: #ddd;
 
-        & p {
-            color: #ddd;
+          & a {
+            color: #bbf;
+          }
         }
 
         & #donate {
@@ -82,11 +105,6 @@
         color: #fff;
     }
 
-    .post-header a,
-    .post-content a {
-        color: #bbf;
-    }
-
     .overlay {
         background-color: #333;
     }
@@ -106,6 +124,10 @@
     .color-gray-800,
     .color-gray-900 {
         color: #ddd !important;
+    }
+
+    .modal-footer {
+      border-top: 0;
     }
 
 }

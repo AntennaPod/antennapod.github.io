@@ -49,7 +49,7 @@ tratta (HTTP User-Agent). Se più podcast sono ospitati sullo stesso server, il
 server potrà rilevare l'elenco di podcast a cui sei abbonato che sono ospitati
 su quel server. Questo potrebbe accadere se l'editore utilizza feedburner,
 podtrac o altri servizi simili per distribuire i suoi feed.
-- Servizi di ricerca e scoperta: Quando si apre la schermata Scopri
+- Servizi di ricerca e scoperta: quando si apre la schermata Scopri
 nell'applicazione, viene inviata una richiesta ad Apple per ricevere
 suggerimenti di podcast. Apple potrebbe memorizzare i dati della richiesta,
 incluso il Paese (che per impostazione predefinita è il Paese del dispositivo).

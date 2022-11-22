@@ -8,7 +8,7 @@ potrebbe parlare di AntennaPod? Allora aiutaci a costruire una lista di media da
 contattare con messaggi importanti.
 * **Social media** Ti piace pensare a nuovi modi per attirare l'attenzione sul
 progetto e buttare giù messaggi concisi e creativi di tanto in tanto? Aiutaci a
-coinvolgere un pubblico più ampio su Twitter.
+coinvolgere un pubblico più ampio su Twitter e Mastodon.
 * **Blog** Sei interessato a scrivere delle nuove funzionalità dell'app, del
 progetto AntennaPod o in generale di un ecosistema di podcasting aperto? Aiutaci
 a mantenere il nostro blog.

@@ -1,5 +1,5 @@
 Som et fællesskabsprojekt er AntennaPod afhængig af frivillige kodebidrag fra en
-lang række mennesker. Ikke kun til selve appen, men også til webstedet og
+lang række mennesker. Ikke kun til selve appen, men også til hjemmesiden og
 relaterede projekter.
 
 # App (Java)
@@ -21,8 +21,8 @@ Ud over disse større projekter kan du altid tjekke [problemer med etiketten
 'hjælp ønsket'](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted)
 på GitHub.
 
-Hvis du foretrækker at jagte fejl, kan du gå til listen ['bekræftede fejl'
-problem-etiketten](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug)
+Hvis du foretrækker at jagte fejl, kan du gå til listen med [problem-etiketten
+'bekræftede fejl'](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug)
 på GitHub.
 
 ## Kom godt i gang
@@ -30,9 +30,9 @@ på GitHub.
 **Før** Du skal ikke bare indsende en PR, men altid *tilkendegive din interesse
 først*. Nogle gange er vi endnu ikke nået til enighed om en brugeroplevelse og
 grænseflade. Det kan ske, at nogen har indvilliget i at begynde at arbejde på
-noget, men vi har glemt at 'tildele' GitHub-emnet. At give sig til kende i vores
-forum er den bedste måde at undgå at spilde tid på kode, der ikke bliver
-accepteret.
+noget, men at vi har glemt at 'tildele' GitHub-problemet til vedkommende. At
+give sig til kende i vores forum er den bedste måde at undgå at spilde tid på
+kode, der ikke bliver accepteret.
 
 **Undervejs** Tag et kig i vores wiki; den indeholder [praktisk information
 for bidragydere](https://github.com/AntennaPod/AntennaPod/wiki). Der finder du
@@ -45,9 +45,9 @@ fejlfindings-logs.
 inspirere andre potentielle bidragydere og er med til at fremme appen generelt.
 Vi retweeter gerne dine tweets!
 
-# Websted (SCSS, HTML)
+# Hjemmeside (SCSS, HTML)
 
-Grundlaget for vores nye websted blev venligst bygget af [Anxhelo](https://lushka.al).
+Fundamentet for vores nye hjemmeside blev venligst bygget af [Anxhelo](https://lushka.al).
 Nu er vi klar til at udvide! Er du bekendt med [Jekyll](https://jekyllrb.com/)?
 Så hjælp os med at implementere (dele af) [vores ønskeliste til webstedet](https://forum.antennapod.org/t/sitemap-for-the-new-website/240)
 og tjek vores [website-depot](https://github.com/AntennaPod/antennapod.github.io)
@@ -55,13 +55,13 @@ nu.
 
 # Opstrøms & andre projekter
 
-AntennaPod eksisterer ikke i isolation. Projektet er afhængig af mange andre -
-at bidrage til dem hjælper også AntennaPod med at trives:
+AntennaPod eksisterer ikke i isolation. Projektet er afhængig af mange andre
+projekter – at bidrage til dem hjælper også AntennaPod med at trives:
 
-* **Nextcloud Podcast app** (Vue, PHP, Javascript) I december 2020 oprettede
-Jonas Heinrich [Nextcloud Podcast app](https://apps.nextcloud.com/apps/podcast).
-Det er allerede en god måde at abonnere på og lytte til dine podcasts online i
-et selvhostet miljø. Den videreudvikling og [integration med AntennaPod](https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103)
+* **Nextcloud Podcast-app** (Vue, PHP, Javascript) I december 2020 oprettede
+Jonas Heinrich [Nextcloud Podcast-appen](https://apps.nextcloud.com/apps/podcast).
+Den er allerede en god måde at abonnere på og lytte til dine podcasts online i
+et selvhostet miljø. Dens videreudvikling og [integration med AntennaPod](https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103)
 ville være en meget velkommen tilføjelse.
 * **gpodder.net** (Python, HTML) Det langvarige og libre [gpodder.net](https://gpodder.net/)
 projekt giver brugerne mulighed for at forbinde og synkronisere deres
