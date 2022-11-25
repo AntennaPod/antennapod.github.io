@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+  
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A new way to catch up on the latest episodes – AntennaPod</title>
+  <meta name="description" content="Version 2.7, released today, introduces the Inbox!">
+
+  <link rel="canonical" href="https://antennapod.org/es/blog/2022/10/2-7-release">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A new way to catch up on the latest episodes – AntennaPod">
+  <meta name="twitter:description" content="Version 2.7, released today, introduces the Inbox!">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/2022/version2-7_inbox.jpg">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/es/blog/2022/10/2-7-release">
+  <meta property="og:title" content="A new way to catch up on the latest episodes – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/2022/version2-7_inbox.jpg">
+  <meta property="og:description" content="Version 2.7, released today, introduces the Inbox!">
+  <meta property="og:site_name" content="AntennaPod">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
+  <meta name="msapplication-TileColor" content="#2a854e">
+  <meta name="theme-color" content="#2a854e">
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+
+</head>
+<body>
+  <div class="content">
+  <div class="container-fluid fixed background-gray-100">
+    <div class="container py-4">
+        <div class="navbar navbar-expand-xl justify-content-between">
+            <div>
+                <a href="/es">
+                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 weight-500">
+                <div class="navbar-nav align-items-center">
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/es/about">Acerca de</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/es/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/es/contribute">Contribuir</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/es/documentation">Documentación</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="https://forum.antennapod.org/">Foro</a>
+                    </div>
+                    
+                    <div class="nav-item ml-0 ml-sm-1 text-center">
+                        <li class="nav-item dropdown mb-0">
+                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Selección de idioma" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">ES</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2022/10/2-7-release">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/blog/2022/10/2-7-release">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2022/10/2-7-release">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/blog/2022/10/2-7-release">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2022/10/2-7-release">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2022/10/2-7-release">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2022/10/2-7-release">Nederlands</a>
+  
+
+
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xl-none">
+                <div class="nav-item text-center d-inline-block">
+                    <div class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Selección de idioma" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">ES</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2022/10/2-7-release">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/blog/2022/10/2-7-release">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2022/10/2-7-release">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/blog/2022/10/2-7-release">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2022/10/2-7-release">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2022/10/2-7-release">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2022/10/2-7-release">Nederlands</a>
+  
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+            </div>
+        </div>
+
+        <div id="navbar-mobile" class="overlay">
+            <button class="closebtn" onclick="closeNav()">×</button>
+            <div class="overlay-header">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="">
+            </div>
+            <div class="overlay-content">
+                
+                <a href="/es/about">Acerca de</a>
+                
+                <a href="/es/blog">Blog</a>
+                
+                <a href="/es/contribute">Contribuir</a>
+                
+                <a href="/es/documentation">Documentación</a>
+                
+                <a href="https://forum.antennapod.org/">Foro</a>
+                
+            </div>
+            <div class="overlay-footer">
+                
+                <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                
+                
+                <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
+    });
+</script>
+
+  <div class="container-fluid">
+    <div class="container py-3">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-9 col-sm-12 pt-3">
+          <div class="post">
+
+            
+
+            <header class="post-header">
+              <p class="size-14 color-orange-900 mb-2 weight-500">
+              
+              
+              </p>
+              <h1 class="size-36 weight-700 color-gray-900">A new way to catch up on the latest episodes</h1>
+              
+              
+              <p class="size-14 weight-600 color-gray-500">4 minutos de lectura</p>
+              
+              <div class="row no-gutters align-items-center justify-content-between my-3">
+                <p class="size-14 weight-700 color-gray-900 mb-0">
+                  
+                  <img class="round-img" src="/assets/images/authors/keunes.png" width="40px" height="auto">
+                  <a class="underline" href="https://github.com/keunes" target="_blank" rel="noopener">Keunes</a>
+                  
+                  • 
+                  
+                  oct 11, 2022
+                </p>
+                <div class="inline-flex">
+
+        
+
+   <p class="size-14 color-gray-900 mb-0 mr-2">Compartir</p>
+    <button class="copy-link" aria-label="Copiar al portapapeles" onclick="copyUrl();" title="Copiar al portapapeles"><span data-tooltip="¡Link copiado!" data-flow="top">
+    <i class="fas fa-link color-gray-600 size-20 mr-2"></i></span></button>
+    <a aria-label="Compartir en Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2022/10/2-7-release" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Compartir en Facebook">
+    <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+    </a>
+    <a aria-label="Compartir en Mastodon" href="#" onclick="share_on_mastodon();" title="Compartir en Mastodon">
+    <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Compartir en Twitter" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2022/10/2-7-release&amp;hashtags=" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Compartir en Twitter">
+    <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+    </a>
+    <a aria-label="Compartir por correo electrónico" href="mailto:?subject=Quer%C3%ADa%20que%20vieras%20esto&amp;body=Quer%C3%ADa%20que%20vieras%20esto%20https://antennapod.org/blog/2022/10/2-7-release" title="Compartir por correo electrónico">
+        <i class="fas fa-envelope size-20 color-gray-600"></i>
+    </a>
+</div>
+
+<script>
+    function copyUrl() {
+      if (!window.getSelection) {
+        alert('Por favor, copia la URL desde la barra de direcciones.');
+        return;
+      }
+      const dummy = document.createElement('p');
+      dummy.textContent = window.location.href;
+      document.body.appendChild(dummy);
+    
+      const range = document.createRange();
+      range.setStartBefore(dummy);
+      range.setEndAfter(dummy);
+    
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    
+      document.execCommand('copy');
+      document.body.removeChild(dummy);
+    }
+</script>
+    
+<script>
+  // The actual function. Set this as an onclick function for your "Share on Mastodon" button
+  function share_on_mastodon() {
+          // Prefill the form with the user's previously-specified Mastodon instance, if applicable
+          var default_url = localStorage['mastodon_instance']; 
+  
+          // If there is no cached instance/domain, then insert a "https://" with no domain at the start of the prompt. 
+          if (!default_url)
+                  default_url = "https://"; 
+  
+          var instance = prompt("Introduce la dirección de tu instancia: (ej. https://mastodon.social)", default_url);
+          if (instance) { 
+                  // Handle URL formats
+                  if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
+                          instance = "https://" + instance;  
+  
+                  // Get the current page's URL
+                  var url   = window.location.href;
+          
+                  // Get the page title from the og:title meta tag, if it exists.
+                  var title = document.querySelectorAll('meta[property="og:title"]')[0].getAttribute("content"); 
+          
+                  // Otherwise, use the <title> tag as the title
+                  if (!title)    var title = document.getElementsByTagName("title")[0].innerHTML;
+          
+                  // Handle slash
+                  if ( !instance.endsWith("/") )
+                          instance = instance + "/"; 
+  
+                  // Cache the instance/domain for future requests
+                  localStorage['mastodon_instance'] = instance; 
+  
+                  // Hashtags 
+                  hashtags     =  "";
+  
+                  // Tagging users, such as offical accounts or the author of the post 
+                  var author   = "Keunes"; 
+  
+                  // Create the Share URL
+                  // https://someinstance.tld/share?text=URL%20encoded%20text
+                  mastodon_url = instance + "share?text=" + encodeURIComponent(title + "\n\n" + url + "\n\n" + hashtags + " " + author);
+  
+                  // Open a new window at the share location   
+                  window.open(mastodon_url, '_blank');
+          }
+  }
+  </script>
+
+              </div>
+            </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container py-3">
+
+
+      <div class="row no-gutters justify-content-center pb-4">
+        <div class="col-lg-9">
+          <article class="post-content pb-3">
+            <p>Whether you’re subscribed to a lot of podcasts or just a handful, you want to know what’s the next thing to play. Version 2.7 of AntennaPod introduces a better way to do just that: the Inbox!</p>
+
+<h1 id="introducing-the-inbox">Introducing the Inbox</h1>
+<p>The Inbox displays all new episodes. As soon as you interact with an episode anywhere in the app (start playback, download, etc.), it automatically gets removed from the Inbox. At that point, after all, you’ve seen it exists and made a decision on what to do with it.</p>
+
+<p>With swipe actions in the inbox, which you are invited to set up on first use, you can:</p>
+<ul>
+  <li>Add episodes to the Queue</li>
+  <li>Remove episodes from the Inbox
+(similar to removing the ‘new’ label in previous versions)</li>
+  <li>Download episodes</li>
+</ul>
+
+<p>True podcast addicts might use the Inbox as a ‘triage’ screen, manually curating episodes and swiping the best ones straight into the queue. Those who follow just 2 or 3 podcasts might check this overview of new episodes when they’re up for listening to something, and start playing an episode that looks interesting.</p>
+
+<p>If you’re an existing user, you’ll notice that your inbox will be full. That’s because all episodes that had the ‘new’ label are now in your inbox. Whether you ignore the list, slowly work your way through it, or ‘remove all from inbox’ is up to you.</p>
+
+<h1 id="not-all-that-special">Not all that special</h1>
+<p>Now you wonder - what’s so special about an inbox? Don’t we already know this concept from email since the nineties?</p>
+
+<p>Truth be told: yes. But none of the other major podcast apps seem to have this<sup>1</sup>. This functionality has been developed after a <a href="https://forum.antennapod.org/t/introduce-new-screen-sytem-inbox/723">request</a> from one of our active contributors (the author of this post, as it happens), rather than by copying the other apps.</p>
+
+<p>And we have to admit: even for AntennaPod, it’s not that revolutionary. Our long-time users probably already know the ‘New’ tab of the Episodes screen. The downside of the old Episodes screen was that the presence of tabs prevented the introduction of swipe actions. With swipe actions, managing new episodes is a whole lot easier.</p>
+
+<h1 id="whats-next">What’s next</h1>
+<p>So far we’ve had positive feedback from our beta testers. (You can <a href="/documentation/general/beta">join the beta testing</a> if you want.) But there are already ideas for further improvements. For example:</p>
+<ul>
+  <li>Allow to swipe episodes from the inbox directly into an ‘ignored’ status. So that auto-download will never spend bandwidth &amp; memory on these episodes. And podcast junkies can build stats showing which podcasts they might want to unsubscribe from.</li>
+  <li>Introduce a ‘Skip inbox’ setting at podcast-level. Because the podcast is so great that it doesn’t need triaging. Or because it has only very few gems, and your friends will tell you about them.</li>
+  <li>Indicate which episodes were released recently. So that you can see what’s been added to your inbox since you last opened AntennaPod.</li>
+  <li>Add a dating app-like swipe experience. Because the list view doesn’t provide much information, while a full-screen swipe mode allows to show (part of) the description text.</li>
+</ul>
+
+<p>It’s important to know that these are just ideas of the post’s author. No guarantees that any of these will be implemented. But more importantly: what further tweaks or features around the Inbox would <em>you</em> like to see? And how will you use the Inbox? Don’t hesitate to chip in on our forum to <a href="https://forum.antennapod.org">share your thoughts</a>!</p>
+
+<h1 id="ps-theres-more-to-explore">PS: there’s more to explore</h1>
+
+<p>The inbox is just one of the improvements that was released. Here are some other changes in 2.7:</p>
+<ul>
+  <li>Use swipe actions and quickly toggle Favourites on the Episodes screen (<a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a>)</li>
+  <li>View a list of (unplayed) episodes in Android Auto (<a href="https://github.com/tonytamsf" class="user-mention">@tonytamsf</a>)</li>
+  <li>Scroll to the top of lists by long-pressing the toolbar (<a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a>)</li>
+  <li>Bug fixes around authentication for podcasts &amp; Nextcloud sync (<a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a>)</li>
+  <li>Directly open localised documentation if available (for now: da, fr, it, nl) (<a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a>)</li>
+</ul>
+
+<p>Check our forum for a <a href="https://forum.antennapod.org/t/antennapod-2-7-release-notes/2255">full list of changes</a>.</p>
+
+<p><sup>1</sup> We checked Podcast Addict, Castbox and Podbean and they didn’t have an Inbox/New episodes screen with swipe actions. We wanted to try Google Podcasts but to install it you must install the Google app, so we didn’t bother.</p>
+
+<p><small>Photo by <a href="https://pixabay.com/de/users/anne-onyme-1513318/">Anne-Onyme</a>.</small></p>
+
+          </article>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row no-gutters pt-4">
+            <h2 class="size-24 color-gray-900 pb-2"></h2>
+      </div>
+
+        <div class="row no-gutters pb-4">
+            <div class="row justify-content-start">
+
+                  
+
+                  
+
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid svg-wave no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+        <path fill="#F7FAFC" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+</div>
+<footer>
+    <div class="container-fluid pb-2 background-gray-100">
+        <div class="container">
+            <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+                <div class="col-12 col-lg-4 col-md-12 mb-3">
+                    <div class="small mb-4 mb-lg-3"><a href="/es"><img src="/assets/logos/logo.png" width="260px"></a></div>
+                    <p class="size-14 color-gray-900 mb-3">El gestor de podcast flexible, fácil de utilizar y libre para Android.</p>
+                </div>
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/es/about"><span>Acerca de</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/es/blog"><span>Blog</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/es/contribute"><span>Contribuir</span></a></div>
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/es/documentation"><span>Documentación</span></a></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+                    <div class="small">
+                        <div class="mb-2 size-16"><a class="color-gray-900" href="/es/download"><span>Descargar AntennaPod</span></a></div>
+                        <!--<div class="mb-2 size-16"><a class="color-gray-900"
+                                href="/es/media-kit"><span></span></a></div>-->
+                    </div>
+                </div>
+                <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+                    </p>
+                    
+                    
+                    <p class="mb-2">
+                        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+                    </p>
+                    
+                    <p>
+                        <a class="mr-2 color-gray-900" href="/rss.xml" target="_blank" rel="noopener"><i class="fa fa-rss mr-1"></i>RSS</a>
+                    </p>
+                </div>
+            </div>
+            <p class="top-border mb-2"></p>
+            <div class="d-block d-lg-flex justify-content-between pt-0 pb-3">
+                <div class="small mb-2 mb-lg-0">
+                    <span class="copyright">© 2022 AntennaPod</span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/es/license">Licencia</a></span>
+                    <span class="copyright mx-2">|</span>
+                    <span class="copyright"><a class="copyright underline-hover" href="/es/privacy">Política de privacidad</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
