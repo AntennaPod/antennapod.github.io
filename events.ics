@@ -6,6 +6,7 @@ CALSCALE:GREGORIAN
 VERSION:2.0
 PRODID:-//AntennaPod//Website events section 0.1//EN
 LAST-MODIFIED:{{ 'now' | date: "%Y%m%dT%H%M00Z"}}
+NAME:AntennaPod
 
 {%- assign recurringevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", true %}
 {%- assign normalevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", false %}
