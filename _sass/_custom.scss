@@ -254,16 +254,15 @@ hr {
 
 a {
   color: $teal-800;
-  text-decoration: underline;
 
   &:hover {
     color: $teal-900;
     text-decoration: none;
   }
-}
 
-.nav-link, .dropdown-item {
-  text-decoration: none !important;
+  & .btn {
+    text-decoration: none;
+  }
 }
 
 .orange-link {

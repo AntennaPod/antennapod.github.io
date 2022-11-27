@@ -25,8 +25,8 @@ $(function () {
         {% tf general/events-add-calendar-modal.md %}
       </div>
       <div class="modal-footer">
-        <a role="button" class="btn btn-secondary" href="{% if site.lang != 'en' %}{{ site.lang }}{% endif %}/events.ics">{% t events.general.download-ics %}</a>
-        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-title="{% t generic.accessibility.copied %}" value="{{site.url}}{{site.baseurl}}/events.ics">{% t events.general.copy-url %}</button>
+        <a role="button" class="btn btn-secondary" href="{{ site.baseurl }}/events.ics">{% t events.general.download-ics %}</a>
+        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-title="{% t generic.accessibility.copied %}" value="{{ site.url }}{{ site.baseurl }}/events.ics">{% t events.general.copy-url %}</button>
       </div>
     </div>
   </div>

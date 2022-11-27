@@ -15,7 +15,7 @@ layout: internal
         <div class="d-lg-none">
           <p>{% if page.summary %}{{ page.summary }}{% endif %}</p>
         </div>
-        <div class="card bg-light">
+        <div class="card">
           <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
           <div class="card-body">
             <p class="card-text font-italic capitalise-first-letter" >
@@ -51,7 +51,9 @@ layout: internal
               {% assign link-index = link-index | modulo: 3 %}
             {% endif %}
             <div class="col py-3 border-top{% unless link-index == 0 %} border-left{% endunless %}  hidden-border-margin-child">
-              <a href="{{ link.url }}{{ page[link.key] }}" class="stretched-link"{% if link.key == 'location' %} target="_blank"{% endif %}{% if link.key == 'ICS' %} data-toggle="modal" data-target="#icsModal"{% endif %}>
+              <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
+              {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
+              {%- if link.key == 'ICS' %} data-toggle="modal" data-target="#icsModal"{% endif %}>
                 <i class="fas fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
               </a>
             </div>
@@ -60,6 +62,15 @@ layout: internal
             {% endfor %}
           </div>
         </div>
+        {%- if status != 'past' %}
+        <div class="card mt-4">
+          <div class="card-body">
+            <div class="card-text">
+              {% t events.general.announce-add-calendar %}
+            </div>
+          </div>
+        </div>
+        {%- endif %}
       </div>
       <div class="col-lg-8">
         <div class="post-content">

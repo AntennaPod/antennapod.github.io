@@ -30,6 +30,7 @@ DESCRIPTION:
 {{- event.content | remove_last: '</p>' | replace: '</p>','\n\n' | strip_html | replace:',','\,' | replace:':','\:' | replace:';','\;' | strip_newlines }}
 {%- if event.location == 'online' %}{% if event.location-label %}\n\n{{ event.meeting-room }}{% endif %}{% endif %}
 {%- endcapture %}
+{%- assign description = description | replace: '\n\n\n\n','\n\n' %}
 
 {%- assign descriptionChars = description.size %}
 {%- assign descriptionTotalRows = descriptionChars | divided_by: 74.00 | ceil %}
@@ -90,7 +91,11 @@ END:VEVENT
 {%- endfor %}{%- for timezone in site.data.ics-timezones %}
 BEGIN:VTIMEZONE
 TZID:{{ timezone[0] }}
-{{ timezone[1] }}
+{%- comment %} Following is unfortunately necessary to ensure that CRLF is used for EOL, as Jekyll uses LF when printing an array value in build process on Unix machine {% endcomment %}
+{%- assign timezoneDefinitionArray = timezone[1] | split: ' ' %}
+{%- for definitionLine in timezoneDefinitionArray %}
+{{ definitionLine }}
+{%- endfor %}
 END:VTIMEZONE
 {%- endfor %}
 END:VCALENDAR

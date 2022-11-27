@@ -8,7 +8,7 @@ timezone: Europe/Brussels
 datetime-start: 2022-04-09 17:00
 datetime-end: 2022-04-09 18:00
 recurring: yes
-recurrence-text: every-1st-saturday
+recurrence-text: every-2nd-saturday
 recurrence-rule: FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
 recurrence-exceptions:
 - 2022-10-15
