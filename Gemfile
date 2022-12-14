@@ -4,6 +4,7 @@ gem "jekyll"
 gem "jekyll-watch"
 gem "jekyll-mentions"
 gem "jekyll-multiple-languages-plugin"
+gem "jekyll-github-metadata"
 gem "kramdown"
 gem "webrick"
 
