@@ -13,11 +13,11 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7.x'
+          ruby-version: '3.2.0'
       - run: gem install bundler jekyll --no-document
       - run: bundle install
       - run: bundle exec jekyll build
