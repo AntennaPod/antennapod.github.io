@@ -6,7 +6,7 @@ summary:
 image: 
 # Optional. Displayed on Events overview page and the event detail page.
 permalink: 
-# Optional. "/events/:slug" recommended for recurring events, to avoid an an event getting a date-based URL.
+# Optional. "/events/short-text" recommended for recurring events, to avoid that the event gets a date-based URL.
 uid: 
 # Required. Don't edit after publishing. Get one here: https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&unique=on&format=html&rnd=new
 sequence: 

@@ -1,14 +1,12 @@
-  {% if page.layout == "blog" %}
-    {% capture title %}{{ page.title }}{% endcapture %}
+  {% if page.layout == "blog" or page.layout == "event" %}
+    {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
   {% elsif page.title %}
-    {% capture title %}{% t page.title %}{% endcapture %}
+    {% capture title %}{% t page.title %} - {{ site.title }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
   {% endif %}
 
-  {% if page.layout == "blog" %}
-    {% capture descrlong %}{{ page.excerpt }}{% endcapture %}
-  {% elsif page.layout == "doc" %}
+  {% if page.layout == "blog" or page.layout == "doc" or page.layout == "event" %}
     {% capture descrlong %}{{ page.excerpt }}{% endcapture %}
   {% elsif page.excerpt %}
     {% capture descrlong %}{% t page.excerpt %}{% endcapture %}
