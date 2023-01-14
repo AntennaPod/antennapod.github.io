@@ -1,5 +1,5 @@
 ---
 layout: redirect
 sitemap: false
-redirect_to:  /documentation/general/synchronization
+redirect_to: /documentation/general/synchronization
 ---

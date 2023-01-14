@@ -5,9 +5,9 @@ Si vous avez des besoins plus complexes, vous pouvez utiliser différentes
 applications tierces vous permettant d'automatiser AntennaPod. Par exemple :
 
 - Mettez les abonnements à jour en début de journée : à 7 heures du matin,
-allumez le WIFI, puis mettez à jour les flux d'AntennaPod.
-- Get your subscriptions before your ride home: at 5pm on weekdays update
-subscriptions.
+allumez le wifi, puis mettez à jour les flux d'AntennaPod.
+- Obtenez vos abonnements avant de rentrer chez vous : à 17 heures en semaine,
+mettez à jour vos abonnements.
 
 ## Consignes générales
 

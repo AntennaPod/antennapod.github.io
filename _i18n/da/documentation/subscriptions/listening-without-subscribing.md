@@ -12,7 +12,7 @@ forhåndsviste afsnit senere
 
 Sådan får du en forsmag på et afsnit:
 
-- Gør som om du tilføjede et abonnement
+- Gør, som om du ville tilføje et abonnement
 - Du skal ikke trykke på abonner, men på det afsnit, du vil lytte til
 - Beskrivelsen af afsnittet vil blive udvidet; tryk på `Forhåndsvisning` under
 beskrivelsen

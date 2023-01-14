@@ -32,6 +32,7 @@ generic:
   share: Compartir
   redirect:
     title: Redirigir
+    link: Haga clic aquí si no es redirigido.
   error: Error
   subscribe: Suscribirse
 month:
@@ -62,17 +63,17 @@ long_month:
   September: septiembre
 homepage:
   header: El Reproductor de Podcast Abierto
-  description: AntennaPod es un reproductor de podcast que es completamente abierto.
-    La aplicación es software libre y puedes suscribirte a cualquier feed de RSS.
-    Antennapod está desarrollado por voluntarios sin intereses comerciales, así que
-    respeta tu privacidad mientras que te da todo el control.
+  description: AntennaPod es un reproductor de podcast completamente abierto. La aplicación
+    es software libre y puedes suscribirte a cualquier canal RSS. Antennapod está
+    desarrollado por voluntarios sin intereses comerciales, así que respeta tu privacidad
+    mientras que te da todo el control.
   features:
     adfree:
-      title: Libre de anuncios
+      title: Sin anuncios
       img-alt: ' '
-      description: La aplicación de AntennaPod en si misma no contiene ningún anuncio.
-        Si una publicadora decide introducir anuncios en los archivos multimedia,
-        se quedan con el 100% de los beneficios.
+      description: La aplicación AntennaPod en sí misma no contiene ningún anuncio.
+        Si una editora decide introducir anuncios en los archivos multimedia, se queda
+        con el 100% de los beneficios.
     listenanywhere:
       title: Escucha en cualquier lugar
       img-alt: ' '
@@ -91,14 +92,14 @@ contribute:
     text: ¿Hablas algún otro idioma aparte de Inglés? Ayúdanos a traducir AntennaPod.
   support:
     title: Ayudar
-    text: ¿Puedes explicar bien? Ayuda a otros usuarios en los foros.
+    text: ¿Puedes explicar bien? Ayuda a otros usuarios en el foro.
   test:
     title: Probar
     text: ¿Se te da bien romper cosas? Conviértete en beta tester.
   develop:
     title: Desarrollar
-    text: ¿Escribes código? Ayuda a probar pull requests o presenta soluciones de
-      errores para la aplicación o el sitio web.
+    text: ¿Escribes código? Ayuda a probar pull requests o presenta características
+      nuevas o soluciones de errores para la aplicación o el sitio web.
   promote:
     title: Promocionar
     text: ¿Puedes escribir tweets pegadizos, blogs interesantes o hacer gráficos maravillosos?
@@ -107,11 +108,18 @@ contribute:
     title: Diseñar
     text: ¿Puedes convertir peticiones complejas en "user stories" comprensibles o
       "wireframes"? Ayuda a solucionar estos problemas.
-  introduction: AntennaPod está siendo desarrollado activamente por gente voluntaria.
+  introduction: AntennaPod está siendo desarrollada activamente por gente voluntaria.
     ¡Tú también puedes contribuir, mediante código o de otra manera!
+  donate:
+    link: Quiero hacer una <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">donación</a>.
+    modal-title: ¿Estás seguro de que quieres hacer una donación?
+    modal-button-donate: Donar de todas formas
+    modal-button-chat: Comente con nosotros cómo puede ayudar
+    modal-button-contribute: Verifique las opciones para contribuir nuevamente
 documentation:
   general:
-    introduction: Bienvenido a la sección de documentación de AntennaPod. Esta sección
+    introduction: Bienvenida a la sección de documentación de AntennaPod. Esta sección
       busca proporcionar información sobre las características actuales.
     search-placeholder: Buscar en la documentación
     no-results: Lo sentimos, no se ha encontrado nada
@@ -127,9 +135,9 @@ documentation:
       central-distributed: Aplicaciones de podcasts centralizadas y distribuidas
       external-storage: Utilizando almacenamiento externo
       gpodder: Cómo sincronizar entre dispositivo
-      proxy: Dirigiendo el Tráfico a través de un proxy o la red TOR
+      proxy: Dirigiendo el Tráfico a través de un proxy o la red Tor
       title: General
-      intro: Más abajo, puedes encontrar más detalles sobre el proyecto de Antennapod.
+      intro: Más abajo, puedes encontrar más detalles sobre el proyecto Antennapod.
       beta: Beta testing
       episode-deletion: Eliminación de episodios
       synchronization: Cómo sincronizar entre dispositivos
@@ -168,11 +176,12 @@ documentation:
       episodes-missing: Faltan episodios antiguos
       cannot-stream-download: No se puede descargar un episodio
       playback-stops: La reproducción se detiene repentinamente
+      refresh-download-errors: Error al descargar o refrescar el canal
     podcasters-hosters:
-      title: Para podcasters y hosters
+      title: Para Podcasters y hosters
       intro: Debajo, puedes encontrar nuestra información de soporte para podcasters
         y proveedores de hosting.
-      add-on-antennapod: Crear un enlace 'Open in Antennapod'
+      add-on-antennapod: Crear un enlace 'Abrir en Antennapod'
       list-podcast: Listar tu podcast
 footer:
-  description: El gestor de podcast flexible y fácil de utilizar para Android.
+  description: El gestor de podcast flexible, fácil de utilizar y libre para Android.

@@ -1,4 +1,4 @@
-Der er dybest set to måder, hvorpå man laver en podcast app:
+Der er grundlæggende to måder at lave en podcast-app på:
 
 1. **Central**: Der er en central server (drevet af det firma, der udvikler
 appen), som tjekker, om der er nye afsnit, og derefter leverer dem til dig.
@@ -25,9 +25,8 @@ adgangskode, som AntennaPod giver direkte til podcastværten, når der anmodes o
 det. Centraliserede tjenester tillader ofte slet ikke at tilføje private feeds.
 Og hvis de gør det, kan det være nødvendigt at sende dine
 legitimationsoplysninger til app-udviklerne.
-- Ved ikke at have et centralt adgangspunkt, som ville give appudviklere
-mulighed for at fjerne podcasts fra deres server, er der ingen risiko for
-censur.
+- Der er ingen risiko for censur, da der ikke er et centralt adgangspunkt, som
+gør det muligt for app-udviklere at fjerne podcasts fra deres server.
 - På den anden side betyder en distribueret model, at du kun får nye afsnit, når
 du opdaterer en podcast. I AntennaPod er dette som standard hver 12. time, men
 du kan ændre dette til mere eller mindre ofte, og du kan også altid manuelt

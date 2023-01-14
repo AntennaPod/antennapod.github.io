@@ -27,7 +27,7 @@ puoi andare a [questo link](https://play.google.com/apps/testing/de.danoeh.anten
 
 {% include image.html alt= "
 
-Diventa un beta tester - finestra di conferma in Google Play
+     Diventa un beta tester - finestra di conferma in Google Play
 
      "
 

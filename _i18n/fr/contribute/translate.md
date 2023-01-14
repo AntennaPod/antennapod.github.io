@@ -1,6 +1,6 @@
 {% capture img-transifex %} {% include image.html alt="
 
-Aperçu des ressources dans Transifex
+       Aperçu des ressources dans Transifex
 
        "
 
@@ -9,7 +9,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 {% capture img-weblate %} {% include image.html alt="
 
-Aperçu des composants de Weblate
+       Aperçu des composants de Weblate
 
        "
 

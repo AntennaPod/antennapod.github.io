@@ -5,6 +5,7 @@ date: "2020-06-04 12:00:00"
 image: "2020/design.jpg"
 author: keunes
 layout: blog
+guid: https://antennapod.org/blog/2020/06/getting-to-a-new-icon
 ---
 
 After users [requested](https://github.com/AntennaPod/AntennaPod/issues/1281) a new icon for over 5 years, I persuaded main developer ByteHamster that the release of version 2.0.0 is a good time to rework the icon. We therefore developed and published a design brief with requirements for the new icon. You can find the design brief below.

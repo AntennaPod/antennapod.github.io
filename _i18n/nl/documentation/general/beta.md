@@ -26,7 +26,7 @@ de pagina. Of ga naar [deze url](https://play.google.com/apps/testing/de.danoeh.
 
 {% include image.html alt= "
 
-Word een bètatester - bevestigingsvenster in Google Play
+     Word een bètatester - bevestigingsvenster in Google Play
 
      "
 

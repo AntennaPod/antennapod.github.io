@@ -4,7 +4,7 @@ AntennaPod est sous licence [General Public License](https://github.com/AntennaP
 
 # Le code et le thème du site web
 
-Le site web est développé sous la licence MIT (MIT) :
+Le site web est développé sous la licence MIT :
 
 Copyright (c) 2020 Anxhelo Lushka and other contributors
 

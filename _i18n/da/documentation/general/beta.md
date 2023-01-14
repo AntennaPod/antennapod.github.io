@@ -24,7 +24,7 @@ Hvis du sidder ved din computer, kan du gå til [denne url](https://play.google.
 
 {% include image.html alt= "
 
-Bliv betatester - bekræftelsesvindue i Google Play
+     Bliv betatester - bekræftelsesvindue i Google Play
 
      "
 

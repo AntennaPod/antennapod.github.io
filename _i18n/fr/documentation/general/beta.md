@@ -28,7 +28,7 @@ votre ordinateur, vous pouvez vous rendre sur [ce lien](https://play.google.com/
 
 {% include image.html alt= "
 
-Devenez un bêta-testeur - fenêtre de confirmation dans Google Play
+     Devenez un bêta-testeur - fenêtre de confirmation dans Google Play
 
      "
 

@@ -1,17 +1,20 @@
-  {% capture title %}{% t page.title %}{% endcapture %}
-  {% unless title.size > 0 %}{% assign title = page.title %}{% endunless %}
-  {% capture title %}{% if title.size > 0 %}{{ title }} – {{ site.title }}{% else %}{{ site.title }} – {% t homepage.header %}{% endif %}{% endcapture %}
+  {% if page.layout == "blog" %}
+    {% capture title %}{{ page.title }}{% endcapture %}
+  {% elsif page.title %}
+    {% capture title %}{% t page.title %}{% endcapture %}
+  {% else %}
+    {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
+  {% endif %}
 
-  {% capture descrlong %}
-    {% capture descrtransl %}{% t page.excerpt %}{% endcapture %}
-    {% if descrtransl.size > 0 %}
-      {{ descrtransl }}
-    {% elsif page.excerpt %}
-      {{ page.excerpt }}
-    {% else %}
-      {% t homepage.description %}
-    {% endif %}
-  {% endcapture %}
+  {% if page.layout == "blog" %}
+    {% capture descrlong %}{{ page.excerpt }}{% endcapture %}
+  {% elsif page.layout == "doc" %}
+    {% capture descrlong %}{{ page.excerpt }}{% endcapture %}
+  {% elsif page.excerpt %}
+    {% capture descrlong %}{% t page.excerpt %}{% endcapture %}
+  {% else %}
+    {% capture descrlong %}{% t homepage.description %}{% endcapture %}
+  {% endif %}
   {% capture description %}{{ descrlong | strip | strip_html | strip_newlines | truncate: 180 }}{% endcapture %}
 
   {% capture image %}

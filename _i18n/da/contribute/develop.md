@@ -1,5 +1,5 @@
 Som et fællesskabsprojekt er AntennaPod afhængig af frivillige kodebidrag fra en
-lang række mennesker. Ikke kun til selve appen, men også til webstedet og
+lang række mennesker. Ikke kun til selve appen, men også til hjemmesiden og
 relaterede projekter.
 
 # App (Java)
@@ -45,9 +45,9 @@ fejlfindings-logs.
 inspirere andre potentielle bidragydere og er med til at fremme appen generelt.
 Vi retweeter gerne dine tweets!
 
-# Websted (SCSS, HTML)
+# Hjemmeside (SCSS, HTML)
 
-Grundlaget for vores nye websted blev venligst bygget af [Anxhelo](https://lushka.al).
+Fundamentet for vores nye hjemmeside blev venligst bygget af [Anxhelo](https://lushka.al).
 Nu er vi klar til at udvide! Er du bekendt med [Jekyll](https://jekyllrb.com/)?
 Så hjælp os med at implementere (dele af) [vores ønskeliste til webstedet](https://forum.antennapod.org/t/sitemap-for-the-new-website/240)
 og tjek vores [website-depot](https://github.com/AntennaPod/antennapod.github.io)

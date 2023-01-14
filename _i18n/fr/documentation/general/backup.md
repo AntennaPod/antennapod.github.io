@@ -3,18 +3,20 @@ et chaque méthode copie une certaine quantité de données :
 
 ## Exportation de la base de données
 
-Exportez la base de données AntennaPod. Ceci est expérimental, vous devez vous
-assurer que vous avez la même version d'AntennaPod sur l'ancien et le nouveau
-téléphone. Après l'importation, toutes les données sont restaurées ; vous devrez
-seulement télécharger à nouveau les épisodes.
+Exporter la base de données d'AntennaPod est une bonne méthode si vous migrez
+vers un nouveau téléphone ou une nouvelle tablette. Vous devriez vous assurer
+d'avoir la même version d'AntennaPod sur les deux appareils. Après l'importation
+toutes les données sont restaurées ; vous aurez juste à télécharger à nouveau
+les épisodes.
 
 ## Synchronisation
 
-Synchronizing AntennaPod via *gpodder.net* or the *gPodder Sync* app for
-Nextcloud allows to save and migrate some podcast & episode data. You will lose
-your favorites, queue, and app settings. This may be a solution when switching
-between phone, tablet and/or desktop. Please see the [article on
-synchronization](/documentation/general/synchronization) for instructions.
+Synchroniser AntennaPod via *gpodder.net* ou l'application *gPodder Sync* pour
+Nextcloud permet de sauvegarder et de migrer quelques données de podcast &
+d'épisode. Vous perdrez vos favoris, file d'attente et paramètres de
+l'application. Cela peut être une solution lors du changement entre téléphone,
+tablette et/ou bureau. Veuillez consulter l'[article sur la synchronisation](/documentation/general/synchronization)
+pour les instructions.
 
 ## OPML
 
@@ -31,7 +33,7 @@ cases à cocher. Les podcasts que vous sélectionnez dans cette liste seront
 ajoutés à vos abonnements existants. Aucun de vos abonnements existants ne sera
 affecté.
 
-If you import the file in AntennaPod on another device, the app will display a
-list of podcasts with checkboxes. The podcasts you select from that list will be
-added to your existing subscriptions. None of your existing subscriptions will
-be affected.
+Si vous importez le fichier dans AntennaPod sur un autre appareil, l'application
+affichera une liste de podcasts avec des cases à cocher. Les podcasts que vous
+sélectionnez dans cette liste seront ajoutés à vos abonnements existants. Aucun
+de vos abonnements existants ne sera affecté.
