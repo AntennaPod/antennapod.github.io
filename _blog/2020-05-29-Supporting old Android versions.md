@@ -5,6 +5,7 @@ date: "2020-05-29 12:00:00"
 image: "2020/old-phone.jpg"
 author: bytehamster
 layout: blog
+guid: https://antennapod.org/blog/2020/05/supporting-old-android-versions
 ---
 
 Supporting old Android versions is hard. Vendors only publish updates for a limited time and the devices' software decays while the actual hardware would still work great. To look for new episodes, AntennaPod needs to connect to the servers of podcast publishers. While the servers are upgraded to modern cryptography standards, the old devices lack behind. Especially devices with Android versions older than 5.1 are getting more and more trouble fetching new episodes.

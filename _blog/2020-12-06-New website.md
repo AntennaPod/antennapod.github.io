@@ -5,6 +5,7 @@ date: "2020-12-06 12:00:00"
 image: "2020/new-website.jpg"
 author: bytehamster
 layout: blog
+guid: https://antennapod.org/blog/2020/12/new-website
 ---
 
 The old AntennaPod website was pretty basic. Its FAQ section was outdated and did not follow the design of the rest of the page. Additionally, the FAQ page was linked nowhere -- if you did not know where to look, you did not find it. Links to platforms for contribution ([GitHub](https://github.com/AntennaPod/AntennaPod/) for development, [Transifex](https://www.transifex.com/antennapod/antennapod/) for translations and the [forum](https://forum.antennapod.org/)) were hidden in a small footer menu. The website highlighted a few features but it did not describe how to use them. Additionally, the website was a plain html file, making it rather hard to update. You can find the old website on the [internet archive](https://web.archive.org/web/20200814004524/https://antennapod.org/).

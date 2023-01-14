@@ -6,6 +6,7 @@ image: "pic.png"
 author: keunes
 layout: blog
 unlisted: true
+guid: https://antennapod.org/blog/2020/09/version-2-changelog
 ---
 
 AntennaPod version 2 released with a range of new features, bug fixes and improvements. Below you'll find an extensive list of highlights, with each time the Pull Request ID.
