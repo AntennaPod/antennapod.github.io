@@ -1,0 +1,94 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+PRODID:-//AntennaPod//Website events section 0.1//EN
+LAST-MODIFIED:{{ 'now' | date: "%Y%m%dT%H%M00Z"}}
+NAME:AntennaPod
+
+{%- assign recurringevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", true %}
+{%- assign normalevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", false %}
+{%- assign events = recurringevents | concat: normalevents %}
+
+{%- for event in events -%}{% if event.unlisted != true %}
+BEGIN:VEVENT
+DTSTAMP:{{ event.datetime-start | date: "%Y%m%dT%H%M00Z" }}{% if event.sequence %}
+SEQUENCE:{{ event.sequence }}{% endif %}
+UID:{{ event.uid | upcase }}
+DTSTART
+{%- if event.timezone -%};TZID={{ event.timezone }}{% endif %}:
+{{- event.datetime-start | date: "%Y%m%dT%H%M00" }}{% unless event.timezone %}Z{% endunless %}
+DTEND
+{%- if event.timezone -%};TZID={{ event.timezone }}{% endif %}:
+{{- event.datetime-end | date: "%Y%m%dT%H%M00" }}{% unless event.timezone %}Z{% endunless %}
+STATUS:CONFIRMED
+SUMMARY:{{ event.title }}
+
+{%- capture description %}
+DESCRIPTION:
+{{- event.content | remove_last: '</p>' | replace: '</p>','\n\n' | strip_html | replace:',','\,' | replace:':','\:' | replace:';','\;' | strip_newlines }}
+{%- if event.location == 'online' %}{% if event.location-label %}\n\n{{ event.meeting-room }}{% endif %}{% endif %}
+{%- endcapture %}
+{%- assign description = description | replace: '\n\n\n\n','\n\n' %}
+
+{%- assign descriptionChars = description.size %}
+{%- assign descriptionTotalRows = descriptionChars | divided_by: 74.00 | ceil %}
+{%- assign descriptionChars = descriptionChars | plus: descriptionTotalRows %}
+{%- assign descriptionTotalRows = descriptionChars | divided_by: 74.00 | ceil %}
+{%- assign descriptionChars = descriptionChars | minus: descriptionTotalRows %}
+{%- assign start = 0 %}
+{%- assign separator = '\||/' %}
+{%- assign descriptionWorker = '' %}
+
+{%- for rowToBe in (1..descriptionTotalRows) %}
+  {%- if descriptionChars <= 74  %}
+    {%- assign descriptionWorker = description %}
+    {%- break %}
+  {%- else %}
+    {%- assign descriptionRow = description | slice: start, 73 | prepend: ' ' | append: separator %}
+    {%- assign descriptionWorker = descriptionWorker | append: descriptionRow %}
+    {%- assign start = start | plus: 73 %}
+  {%- endif %}
+{%- endfor %}
+
+{%- if descriptionChars > 74  %}
+  {%- assign descriptionWorker = descriptionWorker | lstrip %}
+  {%- assign lastChar = descriptionWorker.size | minus: separator.size %}
+  {%- assign descriptionWorker = descriptionWorker | slice: 0, lastChar %}
+  {%- assign descriptionArray = descriptionWorker | split: separator %}
+{%- endif %}
+
+{%- for descriptionLine in descriptionArray %}
+{{ descriptionLine }}
+{%- endfor %}
+LOCATION:{% if event.location-label %}{{ event.location-label }}
+{%- elsif event.location == 'online' %}{{ event.meeting-room }}
+{%- else %}{{ site.data.event-links[location].url }}{{ event.location }}
+{%- endif %}{% if event.location == 'online' %}
+URL:{{ event.meeting-room }}
+CONFERENCE:{{ event.meeting-room }}
+{%- endif %}{% if event.recurring == true %}
+RRULE:{{ event.recurrence-rule -}}
+{%- endif %}{% if event.recurrence-exceptions %}
+EXDATE
+{%- if event.timezone -%};TZID={{ event.timezone }}{% endif %}:
+{%- for exception in event.recurrence-exceptions %}
+{{- exception | date: "%Y%m%d" }}T{{ event.datetime-start | date: "%H%M00" }}{% unless event.timezone %}Z{% endunless %}
+{%- unless forloop.last %},{% endunless %}
+{%- endfor -%}
+{%- endif %}
+END:VEVENT
+{%- endif %}
+{%- endfor %}{%- for timezone in site.data.ics-timezones %}
+BEGIN:VTIMEZONE
+TZID:{{ timezone[0] }}
+{%- comment %} Following is unfortunately necessary to ensure that CRLF is used for EOL, as Jekyll uses LF when printing an array value in build process on Unix machine {% endcomment %}
+{%- assign timezoneDefinitionArray = timezone[1] | split: ' ' %}
+{%- for definitionLine in timezoneDefinitionArray %}
+{{ definitionLine }}
+{%- endfor %}
+END:VTIMEZONE
+{%- endfor %}
+END:VCALENDAR
