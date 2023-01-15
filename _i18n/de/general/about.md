@@ -1,6 +1,6 @@
 AntennaPod ist ein Podcast-Player, der völlig kostenlos ist und deine Privatsphäre respektiert. Er wird von Freiwilligen aus der ganzen Welt ohne kommerzielle Interessen erstellt. Gemeinsam tragen wir zu einem offenen Podcast-Ökosystem bei, damit du die besten Audioinhalte des Internets genießen kannst.
 
-# Einfach, aber voller Funktionen
+## Einfach, aber voller Funktionen
 
 Es gibt so viele coole Dinge auf der Welt zu tun, und so viele Dinge im Leben, über die man sich Sorgen machen muss. Du willst also keine Zeit damit verbringen, herauszufinden, wie diese App funktioniert. Stattdessen willst du lieber gleich damit anfangen, tolle Inhalte zu finden und zu hören. Und du möchtest in der Lage sein, Inhalte zu organisieren, die Wiedergabe zu beschleunigen oder zu verlangsamen und das Herunterladen und Löschen zu automatisieren. Deshalb wollen wir, dass AntennaPod einfach zu bedienen ist und dir gleichzeitig die volle Kontrolle über dein Hörerlebnis gibt.
 
@@ -8,13 +8,13 @@ Dabei ist uns klar, dass jede von uns hinzugefügte Option eine nicht getroffene
 
 Und gleichzeitig: Keine Sorge. Wir sind offen für neue Funktionen oder Einstellungen – wann immer es sich anbietet, unseren Nutzern mehr Flexibilität zu bieten. Wir arbeiten zum Beispiel an Tags für Podcasts und haben kürzlich lokale Feeds eingeführt. Wenn du also eine eigene Idee hast, zögere nicht, [deine Funktionsanfrage in unserem Forum zu stellen](https://forum.antennapod.org/c/feature-request)!
 
-# Open-Source und werbefrei
+## Open-Source und werbefrei
 
 Wie andere großartige Software, wie beispielsweise Firefox und Signal, ist AntennaPod Open-Source. Das bedeutet, dass jeder den Code hinter der Anwendung einsehen und zu ihm beitragen kann. Und dass AntennaPod im quelloffenen und datenschutzfreundlichen [F-Droid Store](https://www.f-droid.org/packages/de.danoeh.antennapod/) erhältlich ist.
 
 Auf diese Weise kannst du dir sicher sein (oder dich selbst davon überzeugen), dass keine fragwürdige Datenerfassung stattfindet. Und da AntennaPod von Freiwilligen erstellt wird, brauchen wir keine Werbeeinblendungen, die dich beim Benutzen der App stören.
 
-# Das Podcasting-Ökosystem offen halten
+## Das Podcasting-Ökosystem offen halten
 
 Wir stehen für ein offenes Podcasting-Ökosystem. Ein Ökosystem, das
 
@@ -28,11 +28,11 @@ Wir stehen für ein offenes Podcasting-Ökosystem. Ein Ökosystem, das
 
 In der Praxis bedeutet das, dass du jeden beliebigen RSS-Feed abonnieren kannst, dass wir es dir leicht machen, Podcaster (finanziell) zu unterstützen, und dass du deine Daten synchronisieren, importieren und exportieren kannst.
 
-# Wir verstehen dich: Community & Barrierefreiheit
+## Wir verstehen dich: Community & Barrierefreiheit
 
 Mit AntennaPod hörst du Podcasts, aber wir möchten auch von dir hören! Unsere Community ist offen für Ihr Feedback und deine Gedanken. Als Menschen können wir unterschiedlicher Meinung sein, aber bitte sei respektvoll. Und wir tun unser Bestes, um die App für alle freundlich zu gestalten. Deshalb ist es möglich, automatische Vorschläge auszublenden, und die Navigation durch die App wird durch Sprachausgabe erleichtert.
 
-# Seit 2011: das AntennaPod-Projekt heute
+## Seit 2011: das AntennaPod-Projekt heute
 
 Das [erste Stück Code](https://github.com/AntennaPod/AntennaPod/commit/c9283f09dced6f156e13675ef4c13ebeb20cb9e5) von AntennaPod wurde 2011 von Daniel Oeh, dem ursprünglichen Schöpfer von AntennaPod, veröffentlicht. Seitdem hat sich die App verbessert und unsere Community ist gewachsen.
 
