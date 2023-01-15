@@ -5,8 +5,8 @@ permalink: /events/:slug
 uid: 0fc58c3c-517f-4467-b0e3-7e036cf1420c
 sequence: 4
 timezone: Europe/Brussels
-datetime-start: 2022-04-09 17:00
-datetime-end: 2022-04-09 18:00
+datetime-start: 2022-04-09 18:00
+datetime-end: 2022-04-09 19:00
 recurring: yes
 recurrence-text: every-2nd-saturday
 recurrence-rule: FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
