@@ -13,7 +13,16 @@ permalink: /events
 <div class="container-fluid">
     <div class="container py-5">
         <div class="row justify-content-between">
-            <div class="col-xl-7 mb-4 mb-xl-0">
+            <div class="col-xl-3 mb-4 mb-xl-0 order-lg-2">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-text">
+                    {% tf general/event-sidebar.md %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-7">
                 {% assign recurringevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", true %}
                 {% assign normalevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", false %}
                 {% assign events = recurringevents | concat: normalevents %}
@@ -23,15 +32,6 @@ permalink: /events
                 {% endif %}
                 {% endfor %}
             </div>
-            <div class="col-xl-3">
-              <div class="card">
-                <div class="card-body">
-                  <div class="card-text">
-                    {% tf general/event-sidebar.md %}
-                  </div>
-                </div>
-             </div>
-           </div>
         </div>
     </div>
 </div>

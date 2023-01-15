@@ -13,7 +13,7 @@ layout: internal
     <div class="row justify-content-between">
       <div class="col-lg-4 order-lg-2 mb-4 mb-xl-0">
         <div class="d-lg-none">
-          <p>{% if page.summary %}{{ page.summary }}{% endif %}</p>
+          {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
         </div>
         <div class="card">
           <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
