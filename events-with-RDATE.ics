@@ -78,6 +78,14 @@ EXDATE
 {{- exception | date: "%Y%m%d" }}T{{ event.datetime-start | date: "%H%M00" }}{% unless event.timezone %}Z{% endunless %}
 {%- unless forloop.last %},{% endunless %}
 {%- endfor -%}
+{%- endif %}{% if event.recurrence-additions %}
+RDATE;VALUE=PERIOD
+{%- if event.timezone -%};TZID={{ event.timezone }}{% endif %}:
+{%- for extra-occurrence in event.recurrence-additions %}
+{{- extra-occurrence.start | date: "%Y%m%dT%H%M00" }}{% unless event.timezone %}Z{% endunless %}/
+{{- extra-occurrence.end | date: "%Y%m%dT%H%M00" }}{% unless event.timezone %}Z{% endunless %}
+{%- unless forloop.last %},{% endunless %}
+{%- endfor -%}
 {%- endif %}
 END:VEVENT
 {%- endif %}
