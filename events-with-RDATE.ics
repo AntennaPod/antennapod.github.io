@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+PRODID:-//AntennaPod//Website events section 0.1//EN
+LAST-MODIFIED:20230116T221900Z
+NAME:AntennaPod
+BEGIN:VEVENT
+DTSTAMP:20220409T180000Z
+SEQUENCE:4
+UID:0FC58C3C-517F-4467-B0E3-7E036CF1420C
+DTSTART;TZID=Europe/Brussels:20220409T180000
+DTEND;TZID=Europe/Brussels:20220409T190000
+STATUS:CONFIRMED
+SUMMARY:Monthly community meeting ☎ 🎙
+DESCRIPTION:Every month we meet to discuss anything related to AntennaP
+ od. From feature and enhancement suggestions by contributors\, via usabil
+ ity questions and donation expense proposals\, to branding updates.\n\nWe
+ ’ll discuss and announce the next topics\, and report back on what we dis
+ cussed on the forum. Do you want to receive a notification every now and 
+ then about the community calls? Then join the ‘community callers’ group o
+ n the forum. The group will be tagged before and after the meetings\, so 
+ you’ll get a ping at each relevant update.\n\nhttps://meet.antennapod.org
+ /CommunityCall
+LOCATION:AntennaPod's Jitsi Meet
+URL:https://meet.antennapod.org/CommunityCall
+CONFERENCE:https://meet.antennapod.org/CommunityCall
+RRULE:FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
+EXDATE;TZID=Europe/Brussels:20221008T180000
+RDATE;VALUE=PERIOD;TZID=Europe/Brussels:20221022T160000/20221022T170000
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220722T180000Z
+UID:C9C773D2-8106-4075-89B6-E071A1DAEDEB
+DTSTART;TZID=Europe/Brussels:20220722T180000
+DTEND;TZID=Europe/Brussels:20220722T190000
+STATUS:CONFIRMED
+SUMMARY:10 Year anniversary 🎉
+DESCRIPTION:AntennaPod’s very first release was on 2012-07-22. This is 
+ also when the app was first uploaded to Google Play. AntennaPod is turnin
+ g a decade old!\n\nWe would like to honor the event by inviting past\, cu
+ rrent and future users to celebrate.\n\nThe agenda includes looking back 
+ at how the App has evolved throughout the releases. This could also be a 
+ great opportunity for socializing with the core team\, occasional contrib
+ utors as well as with normal users.\n\n
+LOCATION:https://meet.antennapod.org/10YearsAnniversary
+URL:https://meet.antennapod.org/10YearsAnniversary
+CONFERENCE:https://meet.antennapod.org/10YearsAnniversary
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR

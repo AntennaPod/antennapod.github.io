@@ -11,7 +11,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>2.0.0 release</title>
+  <title>2.0.0 release – AntennaPod</title>
   <meta name="description" content="We just released version 2.0.0 of AntennaPod">
 
   <link rel="canonical" href="https://antennapod.org/es/blog/2020/09/2-0-0-release">
@@ -19,13 +19,13 @@
 
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="2.0.0 release">
+  <meta name="twitter:title" content="2.0.0 release – AntennaPod">
   <meta name="twitter:description" content="We just released version 2.0.0 of AntennaPod">
   <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/2020/release-2.0.jpg">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/es/blog/2020/09/2-0-0-release">
-  <meta property="og:title" content="2.0.0 release">
+  <meta property="og:title" content="2.0.0 release – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/images/blog/2020/release-2.0.jpg">
   <meta property="og:description" content="We just released version 2.0.0 of AntennaPod">
   <meta property="og:site_name" content="AntennaPod">
@@ -45,6 +45,7 @@
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
+  <script defer type="text/javascript" src="/assets/js/copy-url.js"></script>
 
 </head>
 <body>
@@ -66,6 +67,10 @@
                     
                     <div class="nav-item ml-2">
                         <a class="nav-link" href="/es/blog">Blog</a>
+                    </div>
+                    
+                    <div class="nav-item ml-2">
+                        <a class="nav-link" href="/es/events">Events</a>
                     </div>
                     
                     <div class="nav-item ml-2">
@@ -178,6 +183,8 @@
                 
                 <a href="/es/blog">Blog</a>
                 
+                <a href="/es/events">Events</a>
+                
                 <a href="/es/contribute">Contribuir</a>
                 
                 <a href="/es/documentation">Documentación</a>
@@ -265,29 +272,6 @@
     </a>
 </div>
 
-<script>
-    function copyUrl() {
-      if (!window.getSelection) {
-        alert('Por favor, copia la URL desde la barra de direcciones.');
-        return;
-      }
-      const dummy = document.createElement('p');
-      dummy.textContent = window.location.href;
-      document.body.appendChild(dummy);
-    
-      const range = document.createRange();
-      range.setStartBefore(dummy);
-      range.setEndAfter(dummy);
-    
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-    
-      document.execCommand('copy');
-      document.body.removeChild(dummy);
-    }
-</script>
-    
 <script>
   // The actual function. Set this as an onclick function for your "Share on Mastodon" button
   function share_on_mastodon() {
