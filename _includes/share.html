@@ -22,29 +22,6 @@
 </div>
 
 <script>
-    function copyUrl() {
-      if (!window.getSelection) {
-        alert('{% t generic.accessibility.copy-fail %}');
-        return;
-      }
-      const dummy = document.createElement('p');
-      dummy.textContent = window.location.href;
-      document.body.appendChild(dummy);
-    
-      const range = document.createRange();
-      range.setStartBefore(dummy);
-      range.setEndAfter(dummy);
-    
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-    
-      document.execCommand('copy');
-      document.body.removeChild(dummy);
-    }
-</script>
-    
-<script>
   // The actual function. Set this as an onclick function for your "Share on Mastodon" button
   function share_on_mastodon() {
           // Prefill the form with the user's previously-specified Mastodon instance, if applicable

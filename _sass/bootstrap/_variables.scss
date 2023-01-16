@@ -174,7 +174,7 @@ $body-color:                $gray-900 !default;
 // Style anchor elements.
 
 $link-color:                              theme-color("primary") !default;
-$link-decoration:                         none !default;
+$link-decoration:                         underline;
 $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
@@ -238,7 +238,7 @@ $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
 $border-radius:               .25rem !default;
-$border-radius-lg:            .3rem !default;
+$border-radius-lg:            .6rem;
 $border-radius-sm:            .2rem !default;
 
 $rounded-pill:                50rem !default;
@@ -826,15 +826,15 @@ $jumbotron-bg:                      $gray-200 !default;
 
 $card-spacer-y:                     .75rem !default;
 $card-spacer-x:                     1.25rem !default;
-$card-border-width:                 $border-width !default;
-$card-border-radius:                $border-radius !default;
+$card-border-width:                 0;
+$card-border-radius:                $border-radius-lg;
 $card-border-color:                 rgba($black, .125) !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-bg:                       rgba($black, .03) !default;
 $card-cap-color:                    null !default;
 $card-height:                       null !default;
 $card-color:                        null !default;
-$card-bg:                           $white !default;
+$card-bg:                           $gray-100;
 
 $card-img-overlay-padding:          1.25rem !default;
 

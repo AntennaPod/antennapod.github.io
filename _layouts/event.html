@@ -1,0 +1,84 @@
+---
+layout: internal
+---
+
+<div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-4 order-lg-2 mb-4 mb-xl-0">
+        <div class="d-lg-none">
+          {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+        </div>
+        <div class="card">
+          <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
+          <div class="card-body">
+            <p class="card-text font-italic capitalise-first-letter" >
+            {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+            {% capture posttime %}{{ page.datetime-start | date: '%s' }}{% endcapture %}
+            {% if page.recurring == true %}
+                {% capture recurrence %}{% t events.recurrence.{{ page.recurrence-text}} %}{% endcapture %}
+                {{ recurrence }}
+            {% else %}
+              <time datetime="{{ page.datetime-start }}">{% t long_month.{{ page.datetime-start | date: "%B" }} %} {{ page.datetime-start | date: "%-d, %Y %R" }} {{ page.datetime-start | date: "%Z"}}</time>
+              {% if posttime > nowunix %}
+                {% assign status = 'upcoming' %}
+              {% else %}
+                {% assign status = 'past' %}
+              {% endif %}
+            {% endif %}
+            </p>
+          </div>
+          {% for link in site.data.event-links %}
+          {% if page[link.key] or link.key == 'ICS' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'ICS' %}{% assign info_counter = info_counter | plus:1 %}{% endunless %}{% endunless %}{% endunless %}{% endif %}
+          {% endfor %}
+          {% assign info_counter = info_counter | minus:1 %}
+          <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} hidden-border-margin-parent">
+            {% for link in site.data.event-links %}
+            {%- if page[link.key] or link.key == 'ICS' -%}
+            {% unless page[link.key] == 'online' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'ICS' %}
+            {%- assign link-index = forloop.index0 %}
+            {% comment%} Remove 1 from link index count if te event is in the past as ICS link not displayed {% endcomment %}
+            {% if status == 'past' %}{% assign link-index = link-index | minus: 1 %}{% endif %}
+            {% if info_counter > 3 %}
+              {% assign link-index = link-index | modulo: 2 %}
+            {% else %}
+              {% assign link-index = link-index | modulo: 3 %}
+            {% endif %}
+            <div class="col py-3 border-top{% unless link-index == 0 %} border-left{% endunless %}  hidden-border-margin-child">
+              <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
+              {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
+              {%- if link.key == 'ICS' %} data-toggle="modal" data-target="#icsModal"{% endif %}>
+                <i class="fas fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
+              </a>
+            </div>
+            {% endunless %}{% endunless %}{% endunless %}{% endunless %}
+            {%- endif -%}
+            {% endfor %}
+          </div>
+        </div>
+        {%- if status != 'past' %}
+        <div class="card mt-4">
+          <div class="card-body">
+            <div class="card-text">
+              {% t events.general.announce-add-calendar %}
+            </div>
+          </div>
+        </div>
+        {%- endif %}
+      </div>
+      <div class="col-lg-8">
+        <div class="post-content">
+            {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include ICS-modal.html %}

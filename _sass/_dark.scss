@@ -16,6 +16,7 @@
   @import "./bootstrap-dark/variables-alt";
   @import "./bootstrap-dark/buttons";
   @import "./bootstrap-dark/modal";
+  @import "./bootstrap-dark/card";
 
     :root {
         scrollbar-color: #333 #000;
@@ -33,6 +34,18 @@
     .content h5,
     .content h6 {
         color: #ddd;
+    }
+
+    p {
+      color: $gray-300;
+    }
+
+    a {
+      color: $teal-200;
+
+      &:hover {
+        color: $teal-300;
+      }
     }
 
     .nav-item:hover {
@@ -67,10 +80,6 @@
     .post-content, .modal-body {
         & p, li {
           color: #ddd;
-
-          & a {
-            color: #bbf;
-          }
         }
 
         & #donate {
@@ -79,10 +88,8 @@
 
     }
 
-    .project-card,
-    .highlight-card {
-        color: var(--primary);
-        background-color: #000;
+    .card {
+        background-color: $black;
     }
 
     hr {

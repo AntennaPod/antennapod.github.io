@@ -1,0 +1,39 @@
+---
+layout: internal
+title: titles.events
+permalink: /events
+---
+
+<div class="container-fluid background-gray-100 py-4">
+    <div class="container">
+      <h1>{% t titles.events %}</h1>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container py-5">
+        <div class="row justify-content-between">
+            <div class="col-xl-3 mb-4 mb-xl-0 order-lg-2">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-text">
+                    {% tf general/event-sidebar.md %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-7">
+                {% assign recurringevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", true %}
+                {% assign normalevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", false %}
+                {% assign events = recurringevents | concat: normalevents %}
+                {% for event in events %}
+                {% if event.unlisted != true %}
+                {% include event-card.html item=event %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include ICS-modal.html %}

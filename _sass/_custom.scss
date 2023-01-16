@@ -146,6 +146,8 @@ body {
 .h1,
 h1 {
   font-size: 48px;
+  color: $brand-dark;
+  font-weight: 700;
 }
 
 .h2,
@@ -177,7 +179,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: $gray-100;
+  color: $brand-dark;
 }
 
 .size-10 {
@@ -235,7 +237,8 @@ p {
 // Horizontal Line
 
 hr {
-  border: 1px solid $gray-300;
+  border-color: $gray-300;
+  border-style: solid;
 }
 
 .hr-slate {
@@ -254,6 +257,11 @@ a {
 
   &:hover {
     color: $teal-900;
+    text-decoration: none;
+  }
+
+  & .btn {
+    text-decoration: none;
   }
 }
 
@@ -538,18 +546,6 @@ blockquote {
     margin-top: 20px;
   }
 
-  & p, li, h1, h2, h3, h4, h5, h6, #breadcrumbs {
-    & a {
-      color: $gray-900;
-      font-weight: 600;
-      text-decoration: underline;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
-
   & img {
     max-width: 100%;
   }
@@ -621,6 +617,10 @@ blockquote {
   object-fit: cover;
 }
 
+.capitalise-first-letter::first-letter {
+  text-transform: capitalize;
+}
+
 // Borders
 
 .curved-img {
@@ -637,12 +637,26 @@ blockquote {
   border-top: 1px solid $gray-900;
 }
 
+.hidden-border-margin-parent {
+  overflow: hidden;
+}
+
+.hidden-border-margin-child {
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 // Boxes and Cards
+
+.card > img {
+    border-radius: 10px 10px 0px 0px;
+}
 
 .news-card {
   padding: 25px;
   background: $white;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -670,7 +684,6 @@ blockquote {
 .partner-card {
   padding: 25px;
   background: $white;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -684,7 +697,6 @@ blockquote {
   padding: 25px;
   background: $gray-100;
   border: 1px solid $gray-200;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -697,7 +709,6 @@ blockquote {
 .press-card {
   padding: 25px;
   background: $gray-100;
-  border-radius: 8px;
   box-sizing: border-box;
   transition: 0.25s ease-in-out;
 
@@ -720,7 +731,6 @@ i.member-img {
 .member-card {
   padding: 25px;
   background: $white;
-  border-radius: 8px;
   box-sizing: border-box;
   box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.06);
   transition: 0.25s ease-in-out;
@@ -752,7 +762,6 @@ i.member-img {
 .info-box {
   padding: 30px 20px;
   background: $gray-100;
-  border-radius: 10px;
 
   &:before {
     position: absolute;
@@ -802,7 +811,7 @@ i.member-img {
 
 .project-card {
   background: $gray-100;
-  border-radius: 10px;
+  border: $border-width solid $card-border-color;
   padding: 30px;
   height: 100%;
   transition: 0.25s ease-in-out;
@@ -824,8 +833,6 @@ i.member-img {
 }
 
 .highlight-card {
-  background: $gray-100;
-  border-radius: 10px;
   padding: 30px;
   position: relative;
   transition: 0.25s ease-in-out;
@@ -841,7 +848,29 @@ i.member-img {
     margin-top: -30px;
     max-height: 200px;
     object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: $border-radius-lg $border-radius-lg 0 0;
+  }
+
+  & .bottom {
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.event-card {
+  position: relative;
+  transition: 0.25s ease-in-out;
+  flex-direction: row;
+
+  &:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  & > img {
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: $border-radius-lg 0 0 $border-radius-lg;
   }
 
   & .bottom {
@@ -889,6 +918,26 @@ i.member-img {
     max-width: calc(100% + 60px);
     margin-left: -30px;
     margin-top: -30px;
+  }
+
+  .event-card {
+    flex-direction: column;
+
+    & .card-body  {
+    padding: 0.5em 1.2em;
+    }
+
+    & .card-body .card-text {
+      margin: 0;
+    }
+
+    & img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    }
   }
 }
 
