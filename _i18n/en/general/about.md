@@ -22,7 +22,7 @@ We stand for an open podcasting ecosystem. An ecosystem that
 In practice, this means you can subscribe to any RSS feed that's out there, that we make it easy for you to (financially) support podcasters, and that you can synchronise, import and export your data.
 
 ## We hear you: community & accessibility
-AntennaPod pushes the content in your ears, but we like to hear from you as well! Our community is open to your feedback and your thoughts. As humans we can disagree, but do so respectfully. And we do our best to make the app friendly for everyone. That's why it is possible to hide automatic suggestions and easy to navigate around the app through talkback.
+AntennaPod pushes the content in your ears, but we like to hear from you as well! Our community is open to your feedback and your thoughts. As humans we can disagree, but do so respectfully. And we do our best to make the app friendly for everyone. That's why it is possible to hide automatic suggestions and easy to navigate around the app through TalkBack.
 
 ## Est. 2011: the AntennaPod project today
 The [first bit of code](https://github.com/AntennaPod/AntennaPod/commit/c9283f09dced6f156e13675ef4c13ebeb20cb9e5) of AntennaPod was published in 2011 by Daniel Oeh, the original creator of AntennaPod. Since then, the app has improved and our community grown.
