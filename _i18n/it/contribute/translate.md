@@ -16,13 +16,15 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 loc="/assets/images/documentation" file="translation-components-weblate.png" %}
 {% endcapture %}
 
-Su una [popolazione mondiale stimata](https://it.wikipedia.org/wiki/Popolazione_mondiale)
-di 7,9 miliardi di persone, "solo" 1,3 miliardi di esse [parlano inglese](https://www.ethnologue.com/guides/ethnologue200).
-Questo potrebbe non significare molto di per sé. Ma, se non altro, da ciò
-possiamo concludere che rendere AntennaPod disponibile in più lingue fa sì che
-l'applicazione sia accessibile a più persone. Come beneficio collaterale, la
-localizzazione dell'applicazione aiuta anche il nostro progetto a crescere oltre
-le attuali basi di utenti principali (Germania e Stati Uniti).
+Su una [popolazione mondiale
+stimata](https://it.wikipedia.org/wiki/Popolazione_mondiale) di 7,9 miliardi di
+persone, "solo" 1,3 miliardi di esse [parlano
+inglese](https://www.ethnologue.com/guides/ethnologue200). Questo potrebbe non
+significare molto di per sé. Ma, se non altro, da ciò possiamo concludere che
+rendere AntennaPod disponibile in più lingue fa sì che l'applicazione sia
+accessibile a più persone. Come beneficio collaterale, la localizzazione
+dell'applicazione aiuta anche il nostro progetto a crescere oltre le attuali
+basi di utenti principali (Germania e Stati Uniti).
 
 Perciò apprezziamo molto il tuo aiuto!
 
@@ -30,9 +32,10 @@ Perciò apprezziamo molto il tuo aiuto!
 
 Per aiutare a tradurre l'applicazione, ti chiediamo di contribuire tramite
 [Transifex](https://www.transifex.com/antennapod/antennapod/). Chiunque può
-iscriversi e iniziare. Transifex ha guide utili per [iniziare a lavorare
-sulla piattaforma](https://docs.transifex.com/getting-started-1/translators) e
-per [familiarizzarsi con l'interfaccia del Web Editor](https://docs.transifex.com/translation/translating-with-the-web-editor).
+iscriversi e iniziare. Transifex ha guide utili per [iniziare a lavorare sulla
+piattaforma](https://docs.transifex.com/getting-started-1/translators) e per
+[familiarizzarsi con l'interfaccia del Web
+Editor](https://docs.transifex.com/translation/translating-with-the-web-editor).
 
 All'interno del progetto AntennaPod troverete tre 'risorse':
 
@@ -56,17 +59,18 @@ aggiornamenti per correggere bug e inserire nuove parti tradotte. In media,
 potrebbe volerci un mese o due prima che il tuo lavoro venga reso disponibile in
 una release.
 
-I collaboratori alla traduzione verranno menzionati nell'applicazione con il
-loro nome utente Transifex, sotto `Impostazioni` » `Informazioni` »
-`Contributori`.
+I collaboratori alla traduzione verranno menzionati nell'applicazione con il loro
+nome utente Transifex, sotto `Impostazioni` » `Informazioni` » `Contributori`.
 
 # Il sito web
 
-Per diverse ragioni (descritte in un [articolo del blog sulle traduzioni del
-sito web](/blog/2022/01/website-translations)) usiamo un sistema di traduzione
-diverso per il nostro sito web: [Weblate](https://hosted.weblate.org/projects/antennapod/).
-Chiunque può iscriversi e iniziare a contribuire. Nella documentazione di
-Weblate troverai [tutto quello che devi sapere per iniziare a tradurre](https://docs.weblate.org/en/latest/user/translating.html).
+Per diverse ragioni (descritte in un [articolo del blog sulle traduzioni del sito
+web](/blog/2022/01/website-translations)) usiamo un sistema di traduzione
+diverso per il nostro sito web:
+[Weblate](https://hosted.weblate.org/projects/antennapod/). Chiunque può
+iscriversi e iniziare a contribuire. Nella documentazione di Weblate troverai
+[tutto quello che devi sapere per iniziare a
+tradurre](https://docs.weblate.org/en/latest/user/translating.html).
 
 Nel progetto AntennaPod, troverete quattro 'componenti'. Ognuno rappresenta una
 parte del sito web. Ti consigliamo di iniziare con i componenti `Generale` e
@@ -103,6 +107,7 @@ sei pronto ad iniziare?
 perché la tua lingua non è ancora disponibile, o perché non sei sicuro di come
 tradurre qualcosa?
 
-Intervieni nella [sezione sulle traduzioni sul nostro forum](https://forum.antennapod.org/c/translations/11)!
-Questo è il modo migliore per raggiungerci. I commenti e i messaggi nei
-rispettivi strumenti di traduzione non sempre ci raggiungono in modo tempestivo.
+Intervieni nella [sezione sulle traduzioni sul nostro
+forum](https://forum.antennapod.org/c/translations/11)! Questo è il modo
+migliore per raggiungerci. I commenti e i messaggi nei rispettivi strumenti di
+traduzione non sempre ci raggiungono in modo tempestivo.

@@ -22,7 +22,8 @@ dat het werkt zoals je wil.
 
 Dus je wilt het nieuwste van het nieuwste hebben? Dat kan zeker! Ga gewoon naar
 de AntennaPod-lijst in de Play Store en ga naar "Word een bètatester" onderaan
-de pagina. Of ga naar [deze url](https://play.google.com/apps/testing/de.danoeh.antennapod).
+de pagina. Of ga naar [deze
+url](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 {% include image.html alt= "
 
@@ -36,8 +37,8 @@ loc="/assets/images/documentation" file="project-beta.png" %}
 
 We bieden momenteel geen bètaversies aan in de F-Droid Store.
 
-Dit komt omdat F-Droid bètaversies [niet](https://gitlab.com/fdroid/fdroidserver/-/issues/161)
-automatisch herkent. Het toevoegen van bètaversies aan F-Droid zou een
-handmatige interventie voor elke bètaversie vereisen. Ook als er iets
-belangrijks moet worden opgelost, moet er direct een update worden uitgerold.
-Helaas kan dit niet worden gegarandeerd.
+Dit komt omdat F-Droid bètaversies
+[niet](https://gitlab.com/fdroid/fdroidserver/-/issues/161) automatisch herkent.
+Het toevoegen van bètaversies aan F-Droid zou een handmatige interventie voor
+elke bètaversie vereisen. Ook als er iets belangrijks moet worden opgelost, moet
+er direct een update worden uitgerold. Helaas kan dit niet worden gegarandeerd.

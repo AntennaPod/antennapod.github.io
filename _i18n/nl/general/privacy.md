@@ -35,8 +35,8 @@ actie uitvoert die lezen uit opslag vereist.
 
 ## Welke app-gegevens andere partijen kunnen verzamelen, opslaan en verwerken
 
-- Podcast hosters: een host ontvangt je verificatiegegevens als je die opgeeft
-in de podcast-instellingen. Webservers die de podcast-feeds aanbieden, kunnen
+- Podcast hosters: een host ontvangt je verificatiegegevens als je die opgeeft in
+de podcast-instellingen. Webservers die de podcast-feeds aanbieden, kunnen
 extra gegevens verzamelen, zoals het IP-adres, de tijd van toegang en wat er
 wordt opgevraagd. Dit omvat de afleveringen die je aan het downloaden of
 streamen bent. Raadpleeg het privacybeleid van de aanbieders voor meer
@@ -59,12 +59,12 @@ en zoekopdrachten bevatten ook het IP-adres, de tijd en de app-naam
 "AntennaPod". Nadat je je op een podcast hebt geabonneerd, wordt de feed direct
 geleverd door de podcast-host. Daar is de discovery-/zoekservice niet meer bij
 betrokken.
-- Synchronisatiediensten: Indien ingeschakeld via de instellingen,
-synchroniseert AntennaPod je gegevens. Deze gegevens kunnen inloggegevens,
-geabonneerde podcasts, beluisterde afleveringen, afspelen, pauzeren en favoriete
-acties met datum- en tijdstempels en IP-adres bevatten. Raadpleeg voor meer
-informatie het privacybeleid van je provider (bijvoorbeeld [privacybeleid
-van gpodder.net](https://gpodder.net/privacy), of dat van je Nextcloud-host).
+- Synchronisatiediensten: Indien ingeschakeld via de instellingen, synchroniseert
+AntennaPod je gegevens. Deze gegevens kunnen inloggegevens, geabonneerde
+podcasts, beluisterde afleveringen, afspelen, pauzeren en favoriete acties met
+datum- en tijdstempels en IP-adres bevatten. Raadpleeg voor meer informatie het
+privacybeleid van je provider (bijvoorbeeld [privacybeleid van
+gpodder.net](https://gpodder.net/privacy), of dat van je Nextcloud-host).
 - Google: Als back-up & reset is geactiveerd in de instellingen van je telefoon
 (Instellingen → Back-up & Reset → Maak een back-up van mijn gegevens), wees er
 dan van bewust dat Android zelf periodiek een kopie van de telefoongegevens
@@ -78,9 +78,10 @@ AntennaPod hebben geen toegang tot deze gegevens. Voor meer informatie, zie
 diensten van AntennaPod
 
 - Het donatie systeem: AntennaPod maakt gebruik van Open Collective, aangeboden
-door Open Collective Inc (VS) & Open Collective Europe ASBL (België). Wanneer je
-een donatie doet, krijgen deze instanties toegang tot bepaalde gegevens. Voor
-meer informatie, zie [Open Collective's privacy policy](https://opencollective.com/privacypolicy).
+door Open Collective Inc (VS) & Open Collective Europe ASBL (België). Wanneer
+je een donatie doet, krijgen deze instanties toegang tot bepaalde gegevens. Voor
+meer informatie, zie [Open Collective's privacy
+policy](https://opencollective.com/privacypolicy).
 - De website: AntennaPod's website wordt gehost via GitHub Pages. [GitHub's
 privacybeleid](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
 vermeldt dat "GitHub persoonlijke gebruikersinformatie kan verzamelen van
@@ -90,8 +91,8 @@ integriteit van de website en de service te handhaven." De website slaat geen
 cookies op jouw machine op, en er worden geen 3rd party tracking (analytics) of
 andere diensten gebruikt.
 - Het forum: AntennaPod's forum maakt gebruik van de software Discourse, gehost
-door het kernteam. Zie het [privacybeleid van het forum](https://forum.antennapod.org/privacy)
-over welke gegevens het gaat.
+door het kernteam. Zie het [privacybeleid van het
+forum](https://forum.antennapod.org/privacy) over welke gegevens het gaat.
 
 ## Tot welke gegevens het AntennaPod kernteam toegang kan hebben
 
@@ -115,7 +116,7 @@ van het forum's](https://forum.antennapod.org/privacy)
 [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)
 bijdrage levert):
    - openbare profielinformatie (naam, bedrijf, beschrijving, afbeelding, Twitter,
-      GitHub, website)
+GitHub, website)
    - e-mailadres
 
 ## Updates van dit privacybeleid

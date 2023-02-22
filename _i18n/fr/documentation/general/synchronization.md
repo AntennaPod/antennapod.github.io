@@ -4,8 +4,7 @@
 
        "
 
-loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture
-%}
+loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture %}
 
 {% capture img-synchronize %} {% include image.html alt="
 
@@ -20,13 +19,12 @@ AntennaPod supporte actuellement deux options de synchronisation : via
 [gpodder.net](https://gpodder.net/) et l'[application gPodder Sync pour
 Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
 
-Sur gpodder.net n'importe qui peut créer un compte assez facilement et le
-service est gratuit. Malheureusement, le service a un grand nombre
-d'utilisateurs, des fonds limités et un manque de contributeurs bénévoles. Cela
-signifique que le serveur est souvent surchargé, amenant des erreurs dans
-AntennaPod. Si possible, nous recommandons par conséquent d'utiliser un compte
-existant sur une instance Nextcloud ou d'héberger votre propre instance
-gpodder.net ou Nextcloud.
+Sur gpodder.net n'importe qui peut créer un compte assez facilement et le service
+est gratuit. Malheureusement, le service a un grand nombre d'utilisateurs, des
+fonds limités et un manque de contributeurs bénévoles. Cela signifique que le
+serveur est souvent surchargé, amenant des erreurs dans AntennaPod. Si possible,
+nous recommandons par conséquent d'utiliser un compte existant sur une instance
+Nextcloud ou d'héberger votre propre instance gpodder.net ou Nextcloud.
 
 ## application gPodder Sync pour Nextcloud
 
@@ -55,5 +53,6 @@ Sélectionnez votre appareil nouvellement créé.
 above?* Then be sure to press the `Force sync` button in AntennaPod to upload
 the played state of all the episodes you listened to earlier. If you don't do
 this, only podcasts that were added **after** linking the devices are
-synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388)
-that requests to change the behavior.
+synchronized. There is an [open issue for
+gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to
+change the behavior.

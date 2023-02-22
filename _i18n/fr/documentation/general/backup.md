@@ -15,8 +15,8 @@ Synchroniser AntennaPod via *gpodder.net* ou l'application *gPodder Sync* pour
 Nextcloud permet de sauvegarder et de migrer quelques données de podcast &
 d'épisode. Vous perdrez vos favoris, file d'attente et paramètres de
 l'application. Cela peut être une solution lors du changement entre téléphone,
-tablette et/ou bureau. Veuillez consulter l'[article sur la synchronisation](/documentation/general/synchronization)
-pour les instructions.
+tablette et/ou bureau. Veuillez consulter l'[article sur la
+synchronisation](/documentation/general/synchronization) pour les instructions.
 
 ## OPML
 

@@ -1,6 +1,7 @@
 Het is momenteel niet mogelijk om een aflevering aan de wachtrij toe te voegen
 zonder je te abonneren op de podcast. Meer informatie vind je in het
-[functieverzoek op het platform waar AntennaPod ontwikkeld wordt](https://github.com/AntennaPod/AntennaPod/issues/4710).
+[functieverzoek op het platform waar AntennaPod ontwikkeld
+wordt](https://github.com/AntennaPod/AntennaPod/issues/4710).
 
 Je kunt echter een **voorproefje** van een aflevering beluisteren zonder je te
 abonneren op de podcast. Er zijn een aantal nadelen van deze onofficiële

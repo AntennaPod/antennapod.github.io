@@ -32,8 +32,10 @@ Nous apprécions donc beaucoup votre aide !
 Pour nous aider à traduire l'application, nous vous demandons d'apporter votre
 contribution via [Transifex](https://www.transifex.com/antennapod/antennapod/).
 Tout le monde peut s'y inscrire et commencer à traduire. Transifex met à
-disposition des guides utiles pour [se lancer sur leur plateforme](https://docs.transifex.com/getting-started-1/translators)
-et pour [se familiariser avec l'interface de l'éditeur web](https://docs.transifex.com/translation/translating-with-the-web-editor).
+disposition des guides utiles pour [se lancer sur leur
+plateforme](https://docs.transifex.com/getting-started-1/translators) et pour
+[se familiariser avec l'interface de l'éditeur
+web](https://docs.transifex.com/translation/translating-with-the-web-editor).
 
 Dans le cadre du projet AntennaPod, vous trouverez trois types « ressources » :
 
@@ -45,9 +47,10 @@ Dans le cadre du projet AntennaPod, vous trouverez trois types « ressources �
 
 L'application est actuellement disponible en 34 langues. Bien qu'il existe
 d'autres langues dans Transifex, nous ne les incluons pas dans l'application.
-Nous essayons de maintenir un [seuil d'achèvement de 40 %](https://github.com/AntennaPod/AntennaPod/pull/4112)
-pour les langues. En dessous de ce seuil, l'application n'offre pas une
-expérience utilisateur suffisante.
+Nous essayons de maintenir un [seuil d'achèvement de 40
+%](https://github.com/AntennaPod/AntennaPod/pull/4112) pour les langues. En
+dessous de ce seuil, l'application n'offre pas une expérience utilisateur
+suffisante.
 
 Les nouvelles traductions sont transférées de Transifex vers GitHub (la
 plateforme de développement) au moins à chaque "version intermédiaire". Il
@@ -62,11 +65,12 @@ nom d'utilisateur Transifex, sous `Préférences` → `À propos` → `Contribut
 
 # Le site web
 
-Pour plusieurs raisons (exposées sur [le blog, à propos des traductions de
-sites Web](/blog/2022/01/website-translations)), nous utilisons un autre système
-de traduction pour notre site Web : [Weblate](https://hosted.weblate.org/projects/antennapod/).
-Tout le monde peut s'y inscrire et commencer à contribuer. Dans la documentation
-de Weblate, vous trouverez [tout ce que vous devez savoir pour commencer à
+Pour plusieurs raisons (exposées sur [le blog, à propos des traductions de sites
+Web](/blog/2022/01/website-translations)), nous utilisons un autre système de
+traduction pour notre site Web :
+[Weblate](https://hosted.weblate.org/projects/antennapod/). Tout le monde peut
+s'y inscrire et commencer à contribuer. Dans la documentation de Weblate, vous
+trouverez [tout ce que vous devez savoir pour commencer à
 traduire](https://docs.weblate.org/en/latest/user/translating.html).
 
 Dans le projet AntennaPod, vous trouverez quatre 'composants' ;. Chacun
@@ -102,11 +106,11 @@ susceptibles d'être téléchargées, toute aide est la bienvenue !
 traductions ?
 * Vous êtes **intéressé(e) pour aider** à la traduction mais n'êtes pas encore
 sûr(e) ? Ou vous êtes prêt(e) à vous lancer ?
-* Vous voulez contribuer et avez **besoin d'aide** ? Par exemple, parce que
-votre langue n'est pas encore disponible, ou parce que vous ne savez pas comment
+* Vous voulez contribuer et avez **besoin d'aide** ? Par exemple, parce que votre
+langue n'est pas encore disponible, ou parce que vous ne savez pas comment
 traduire quelque chose ?
 
-Participez à la [section traduction de notre forum](https://forum.antennapod.org/c/translations/11)
-! C'est le meilleur moyen de nous contacter. Les commentaires et les messages
-dans les outils de traduction respectifs ne nous parviennent pas toujours en
-temps voulu.
+Participez à la [section traduction de notre
+forum](https://forum.antennapod.org/c/translations/11) ! C'est le meilleur moyen
+de nous contacter. Les commentaires et les messages dans les outils de
+traduction respectifs ne nous parviennent pas toujours en temps voulu.

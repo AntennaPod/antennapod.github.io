@@ -4,9 +4,9 @@ proxy o la rete Tor. Questo può avere due potenziali vantaggi:
 
 - Privacy: a seconda del tipo di servizio proxy, il tuo comportamento di
 download/streaming può essere protetto dagli host di podcast
-- Accesso: se l'host di un podcast impedisce il download di contenuti
-dall'estero (basandosi sul tuo indirizzo IP), impostare un proxy con il paese
-d'origine può permetterti di accedere comunque ai suoi contenuti
+- Accesso: se l'host di un podcast impedisce il download di contenuti dall'estero
+(basandosi sul tuo indirizzo IP), impostare un proxy con il paese d'origine
+può permetterti di accedere comunque ai suoi contenuti
 
 Troverai questa opzione in `Impostazioni` » `Rete` » `Proxy`.
 

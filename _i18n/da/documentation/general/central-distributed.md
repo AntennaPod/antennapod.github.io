@@ -7,20 +7,20 @@ podcast-udgiverne.
 
 AntennaPod bruger metode 2. Der er både fordele og ulemper ved denne:
 
-- Da appen kontrollerer, om der er nye afsnit, behøver app-skaberne (som os)
-ikke at vedligeholde en central server. Det sparer en masse tid og kræfter. Det
+- Da appen kontrollerer, om der er nye afsnit, behøver app-skaberne (som os) ikke
+at vedligeholde en central server. Det sparer en masse tid og kræfter. Det
 sparer også en masse penge, hvilket betyder, at vi ikke behøver at være
 afhængige af annoncer eller store beløb i donationer.
 - Da appen ikke er afhængig af en central server til at indsamle nye afsnit, vil
 AntennaPod fortsat fungere uafhængigt af det, vi gør fra vores side. Hvis vi
 bruger den centrale metode, vil appen stoppe med at fungere, hvis virksomheden
 lukker sin server ned af en eller anden grund.
-- Som appudviklere ved vi ikke og kan ikke vide, hvilke podcasts du abonnerer
-på, hvilke afsnit du lytter til, eller på hvilket tidspunkt du lytter til dem.
+- Som appudviklere ved vi ikke og kan ikke vide, hvilke podcasts du abonnerer på,
+hvilke afsnit du lytter til, eller på hvilket tidspunkt du lytter til dem.
 Udgivere af apps med en central server indsamler sådanne data, hvilket er til
 skade for dit privatliv.
-- Nogle udgivere tilbyder private feeds, der giver tidlig adgang, særligt
-indhold eller reklamefrie afsnit. Sådanne feeds kræver et brugernavn og en
+- Nogle udgivere tilbyder private feeds, der giver tidlig adgang, særligt indhold
+eller reklamefrie afsnit. Sådanne feeds kræver et brugernavn og en
 adgangskode, som AntennaPod giver direkte til podcastværten, når der anmodes om
 det. Centraliserede tjenester tillader ofte slet ikke at tilføje private feeds.
 Og hvis de gør det, kan det være nødvendigt at sende dine

@@ -8,16 +8,16 @@ vil være meget værdsat.
 kunne tænkes at dække AntennaPod? Så hjælp os med at opbygge en liste over
 medier, som vi kan nå ud til med vigtige meddelelser.
 * **Sociale medier** Glad for at finde på nye vinkle til at tale om projektet ud
-fra, og udarbejde koncise & kreative budskaber af og til? Hjælp med at engagere
-et bredere publikum på Twitter & Mastodon.
+fra, og udarbejde koncise & kreative budskaber af og til? Hjælp med at
+engagere et bredere publikum på Twitter & Mastodon.
 * **Blog** Er du interesseret i at skrive om nye app-funktioner,
-AntennaPod-projektet eller et åbent podcasting-økosystem generelt? Hjælp os med
-at vedligeholde vores blog.
+AntennaPod-projektet eller et åbent podcasting-økosystem generelt? Hjælp os
+med at vedligeholde vores blog.
 * **Grafisk design** Er du fortrolig med (digital) pen og tusch? Så hjælp os med
 at pifte vores hjemmeside, tilstedeværelse på de sociale medier og andre
 reklamematerialer op.
-* **Alt andet** Har du andre gode idéer til at fremme projektet? Så kontakt os
-og del dem med os.
+* **Alt andet** Har du andre gode idéer til at fremme projektet? Så kontakt os og
+del dem med os.
 
 # Kontakt os
 

@@ -18,8 +18,8 @@ hvor det er strengt nødvendigt for at appen kan fungere. ** Se det andet
 næstfølgende afsnit om de tilfælde, hvor dine oplysninger kan videregives til
 tredjeparter.
 
-Det eneste tilfælde, hvor dine data fra tredjeparter håndteres, er ved brug af
-en synkroniseringstjeneste, hvis den er aktiveret via indstillingerne. I det
+Det eneste tilfælde, hvor dine data fra tredjeparter håndteres, er ved brug af en
+synkroniseringstjeneste, hvis den er aktiveret via indstillingerne. I det
 tilfælde kan appen modtage abonnementer og afspilningshændelser, der leveres af
 tjenesten.
 
@@ -29,14 +29,14 @@ Appen anmoder om følgende Android-tilladelser, der er relevante for beskyttelse
 af personlige oplysninger:
 
 - Læs fra/skriv til lager (fotos/medier/filer): Lagertilladelsen bruges til at
-åbne filer, som ikke downloades direkte inde fra appen. Den kan også bruges til
-at importere appindstillinger eller OPML-filer. Der anmodes kun om tilladelsen,
-hvis du udfører en handling, der kræver læsning fra lageret.
+åbne filer, som ikke downloades direkte inde fra appen. Den kan også bruges
+til at importere appindstillinger eller OPML-filer. Der anmodes kun om
+tilladelsen, hvis du udfører en handling, der kræver læsning fra lageret.
 
 ## Hvilke app-data andre parter kan indsamle, gemme og behandle
 
-- Podcast-host: Når det er angivet i podcast-indstillingerne, modtager en host
-de godkendelsesdata, du har angivet. Webservere, der leverer podcast-feeds,
+- Podcast-host: Når det er angivet i podcast-indstillingerne, modtager en host de
+godkendelsesdata, du har angivet. Webservere, der leverer podcast-feeds,
 indsamler muligvis yderligere data, f.eks. din IP-adresse, adgangstidspunkt og
 det, der er tilgået. Dette omfatter de afsnit, du downloader eller streamer. Se
 deres respektive politikker om beskyttelse af personlige oplysninger for nærmere
@@ -47,8 +47,8 @@ bruger (HTTP User-Agent). Hvis flere podcasts er hostet på den samme server, ka
 serveren registrere listen over podcasts, som du har abonneret på, og som er
 hostet på den pågældende server. Dette kan ske, hvis udgivere bruger feedburner,
 podtrac eller lignende tjenester til at distribuere deres feeds.
-- Opdagelses- og søgetjenester: Når du åbner skærmen Opdag i appen, sender den
-et opkald til Apple for at indsamle podcast-forslag. De kan gemme forespørgslen,
+- Opdagelses- og søgetjenester: Når du åbner skærmen Opdag i appen, sender den et
+opkald til Apple for at indsamle podcast-forslag. De kan gemme forespørgslen,
 herunder land (der som standard er enhedens land). Disse forslag kan deaktiveres
 ved at vælge "fra" i regionsvælgeren. Når du bruger søgefunktionen i AntennaPod,
 kan tjenesterne PodcastIndex.org, iTunes, fyyd og gpodder.net gemme din
@@ -60,16 +60,18 @@ er involveret.
 synkroniserer AntennaPod dine data. Disse data kan omfatte loginoplysninger,
 abonnerede podcasts, lyttede afsnit, afspilning, pause- og favorithandlinger med
 dato- og tidsstempler samt IP-adresse. Du kan få flere oplysninger i din
-udbyders privatlivspolitik (f.eks. [gpodder.net's privatlivspolitik](https://gpodder.net/privacy),
-eller i din Nextcloud-værts politik).
-- Google: Hvis du har aktiveret sikkerhedskopiering og nulstilling i din
-telefons indstillinger (Indstillinger → Sikkerhedskopiering og nulstilling →
-Sikkerhedskopiering af mine data), skal du være opmærksom på, at Android selv
+udbyders privatlivspolitik (f.eks. [gpodder.net's
+privatlivspolitik](https://gpodder.net/privacy), eller i din Nextcloud-værts
+politik).
+- Google: Hvis du har aktiveret sikkerhedskopiering og nulstilling i din telefons
+indstillinger (`Indstillinger` » `Sikkerhedskopiering og nulstilling` »
+`Sikkerhedskopiering af mine data`), skal du være opmærksom på, at Android selv
 med jævne mellemrum gemmer en kopi af din telefons data på Googles servere.
 Denne sikkerhedskopi indeholder private oplysninger, herunder dine
 WiFi-adgangskoder, beskeder og opkaldshistorik. Den kan også indeholde data fra
 AntennaPod og fra andre apps, du bruger. Udviklerne af AntennaPod har ikke
-adgang til disse data. For mere information, se [Google's privatlivspolitik](https://policies.google.com).
+adgang til disse data. For mere information, se [Google's
+privatlivspolitik](https://policies.google.com).
 
 ## Hvilke data der kan blive indsamlet, gemt og behandlet fra AntennaPod online
 tjenester
@@ -77,7 +79,8 @@ tjenester
 - Donationssystemet: AntennaPod bruger Open Collective, som tilbydes af Open
 Collective Inc (USA) & Open Collective Europe ASBL (Belgien). Når du foretager
 en donation, får disse enheder adgang til visse data. For yderligere
-oplysninger, se [Open Collective's privatlivspolitik](https://opencollective.com/privacypolicy).
+oplysninger, se [Open Collective's
+privatlivspolitik](https://opencollective.com/privacypolicy).
 - Hjemmesiden: AntennaPod's websted er hostet via GitHub Pages. I [GitHub's
 fortrolighedspolitik](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
 oplyses det, at "GitHub kan indsamle personlige brugeroplysninger fra besøgende
@@ -87,8 +90,9 @@ integriteten af webstedet og tjenesten." Webstedet gemmer ikke nogen cookies på
 din maskine, og der anvendes ingen tredjepartssporing (analyse) eller andre
 tjenester.
 - Forummet: AntennaPod's forum bruger Discourse-softwaren, som hostes af
-kerneholdet. Se venligst [forum's privatlivspolitik](https://forum.antennapod.org/privacy)
-for hvilke data der er tale om.
+kerneholdet. Se venligst [forum's
+privatlivspolitik](https://forum.antennapod.org/privacy) for hvilke data der er
+tale om.
 
 ## Hvilke data AntennaPod-kerneholdet kan få adgang til
 
@@ -113,7 +117,7 @@ privatlivspolitik](https://forum.antennapod.org/privacy)
 [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)
 bidrag):
    - offentlige profiloplysninger (navn, virksomhed, beskrivelse, billede, Twitter,
-      GitHub, websted)
+GitHub, websted)
    - e-mailadresse
 
 ## Opdateringer af denne privatlivspolitik

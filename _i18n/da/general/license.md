@@ -1,6 +1,7 @@
 # Appen
 
-AntennaPod er licenseret under [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
+AntennaPod er licenseret under [General Public
+License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
 
 # Websted-kode og tema
 
@@ -28,6 +29,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 # Hjemmesidens indhold
 
 Teksterne på webstedet er skrevet og frigivet under en [Creative Commons
-Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
-licens (CC-BY-SA 4.0). Billederne på dette websted er ophavsretligt beskyttet af
-deres respektive ejere.
+Attribution-ShareAlike
+International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) licens
+(CC-BY-SA 4.0). Billederne på dette websted er ophavsretligt beskyttet af deres
+respektive ejere.

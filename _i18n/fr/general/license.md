@@ -1,6 +1,7 @@
 # L'application
 
-AntennaPod est sous licence [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
+AntennaPod est sous licence [General Public
+License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
 
 # Le code et le thème du site web
 
@@ -27,7 +28,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Le contenu du site
 
-Les textes du site sont rédigés et publiés sous une licence [Creative
-Commons Attribution](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
-(CC-BY-SA 4.0). Les images présentes sur ce site sont protégées par les droits
-d'auteur de leurs propriétaires respectifs.
+Les textes du site sont rédigés et publiés sous une licence [Creative Commons
+Attribution](http://creativecommons.org/licenses/by-sa/4.0/legalcode) (CC-BY-SA
+4.0). Les images présentes sur ce site sont protégées par les droits d'auteur de
+leurs propriétaires respectifs.

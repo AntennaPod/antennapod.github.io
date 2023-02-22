@@ -1,5 +1,5 @@
-Som standard opdateres alle podcasts med et interval på 12 timer for at hente
-nye afsnit. Via `Indstillinger` » `Netværk` » `Opdater podcasts` kan du ændre
+Som standard opdateres alle podcasts med et interval på 12 timer for at hente nye
+afsnit. Via `Indstillinger` » `Netværk` » `Opdater podcasts` kan du ændre
 intervalperioden, vælge et bestemt tidspunkt på dagen eller slå de automatiske
 opdateringer fra.
 

@@ -29,9 +29,9 @@ L'application demande les autorisations Android suivantes relatives à la
 confidentialité :
 
 - Lecture depuis/écriture dans le stockage (photos/médias/fichiers) :
-l'autorisation de stockage est utilisée pour ouvrir des fichiers qui ne sont pas
-téléchargés directement depuis l'application. Elle peut également être utilisée
-pour importer des paramètres de l'application ou des fichiers OPML.
+l'autorisation de stockage est utilisée pour ouvrir des fichiers qui ne sont
+pas téléchargés directement depuis l'application. Elle peut également être
+utilisée pour importer des paramètres de l'application ou des fichiers OPML.
 L'autorisation n'est demandée que si vous effectuez une action qui nécessite une
 lecture depuis le stockage.
 
@@ -62,21 +62,23 @@ nom de l'application "AntennaPod". En cas d'abonnement, le flux est transmis par
 l'hébergeur du podcast, ce qui signifie que le service de recherche/découverte
 n'est plus impliqué.
 - Services de synchronisation : Lorsqu'ils sont activés via les paramètres,
-AntennaPod synchronise vos données. Ces données peuvent inclure les identifiants
-de connexion, les podcasts auxquels vous êtes abonné, les épisodes écoutés, les
-actions de lecture, de pause et de favoris avec les horodatages et l'adresse IP.
-Pour plus d'informations, consultez la politique de confidentialité de votre
-fournisseur (par exemple, la politique de confidentialité de [gpodder.net's](https://gpodder.net/privacy),
-ou celle de votre hébergement Nextcloud).
+AntennaPod synchronise vos données. Ces données peuvent inclure les
+identifiants de connexion, les podcasts auxquels vous êtes abonné, les épisodes
+écoutés, les actions de lecture, de pause et de favoris avec les horodatages et
+l'adresse IP. Pour plus d'informations, consultez la politique de
+confidentialité de votre fournisseur (par exemple, la politique de
+confidentialité de [gpodder.net's](https://gpodder.net/privacy), ou celle de
+votre hébergement Nextcloud).
 - Google : Si vous avez activé la sauvegarde et la réinitialisation dans les
-paramètres de votre téléphone (Paramètres → Sauvegarde & Réinitialisation →
-Sauvegarder mes données), vous devez savoir qu'Android lui-même enregistre
+paramètres de votre téléphone (`Paramètres` » `Sauvegarde & Réinitialisation`
+» `Sauvegarder mes données`), vous devez savoir qu'Android lui-même enregistre
 périodiquement une copie des données de votre téléphone sur les serveurs de
 Google. Cette sauvegarde contient des informations privées, notamment vos mots
 de passe Wifi, vos messages et l'historique de vos appels. Elle peut également
 inclure des données provenant d'AntennaPod et d'autres applications que vous
 utilisez. Les développeurs d'AntennaPod n'ont pas accès à ces données. Pour plus
-d'information, regardez les [règles de confidentialité de Google](https://policies.google.com).
+d'information, regardez les [règles de confidentialité de
+Google](https://policies.google.com).
 
 ## Les données des services en ligne d'AntennaPod que des tiers peuvent collecter,
 stocker et traiter
@@ -84,17 +86,19 @@ stocker et traiter
 - Le système de donation : AntennaPod utilise Open Collective, proposé par Open
 Collective Inc (USA) & Open Collective Europe ASBL (Belgique). Lorsque vous
 faites un don, ces entités ont accès à certaines données. Pour plus
-d'informations, voir la [politique de confidentialité d'Open Collective](https://opencollective.com/privacypolicy).
+d'informations, voir la [politique de confidentialité d'Open
+Collective](https://opencollective.com/privacypolicy).
 - Le site web : Le site web d'AntennaPod est hébergé via GitHub Pages. [La
-politique de confidentialité de GitHub](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
+politique de confidentialité de
+GitHub](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
 indique que "GitHub peut collecter les informations personnelles des visiteurs
 de votre site web GitHub Pages, y compris les journaux des adresses IP des
 visiteurs, afin de se conformer aux obligations légales et de maintenir la
 sécurité et l'intégrité du site web et de ses services".
 - Le forum : Le forum d'AntennaPod utilise le logiciel Discourse, hébergé par
-l'équipe de développement. Veuillez consulter la [politique de
-confidentialité du forum](https://forum.antennapod.org/privacy) pour savoir
-quelles données sont concernées.
+l'équipe de développement. Veuillez consulter la [politique de confidentialité
+du forum](https://forum.antennapod.org/privacy) pour savoir quelles données sont
+concernées.
 
 ## Les données auxquelles l'équipe de développement d'AntennaPod peut avoir accès
 
@@ -117,10 +121,10 @@ de rapport de panne d'Android de Google) :
 - visiter ou participer à notre forum : comme décrit dans la [politique de
 confidentialité du forum](https://forum.antennapod.org/privacy)
 - faire une contribution financière via Open Collective (sauf si vous faites une
-contribution [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile))
-:
-   - information sur le profil public (nom, entreprise, description, image,
-      Twitter, GitHub, site web)
+contribution
+[incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)) :
+   - information sur le profil public (nom, entreprise, description, image, Twitter,
+GitHub, site web)
    - adresse e-mail
 
 ## Mises à jour de la politique de confidentialité

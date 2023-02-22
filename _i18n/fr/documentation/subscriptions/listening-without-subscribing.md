@@ -1,6 +1,7 @@
 Actuellement, il n'existe aucun moyen d'ajouter un épisode à la liste de lecture
-sans s'abonner. Vous pouvez trouver plus d'informations sur cette [demande
-de fonctionnalité sur notre plateforme de développement](https://github.com/AntennaPod/AntennaPod/issues/4710).
+sans s'abonner. Vous pouvez trouver plus d'informations sur cette [demande de
+fonctionnalité sur notre plateforme de
+développement](https://github.com/AntennaPod/AntennaPod/issues/4710).
 
 Il existe toutefois un moyen de **lire** un épisode sans avoir à s'abonner au
 podcast. Les principales différences avec l'ajout d'un épisode à la liste de

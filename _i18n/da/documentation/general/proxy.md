@@ -5,8 +5,8 @@ have to potentielle fordele:
 - Privatliv: Afhængigt af typen af proxytjeneste kan din
 downloading/streamingadfærd være beskyttet mod podcast-værter
 - Adgang: Hvis podcast-værten forhindrer download af indhold fra andre lande
-(baseret på IP-adresser), kan du ved at indstille en proxy med oprindelseslandet
-stadig få adgang til indholdet
+(baseret på IP-adresser), kan du ved at indstille en proxy med
+oprindelseslandet stadig få adgang til indholdet
 
 Du finder denne indstilling under `Indstillinger` » `Netværk` » `Proxy`.
 

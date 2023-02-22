@@ -15,11 +15,12 @@ ook mogelijk.
 
 We kregen enkele vragen over ondersteuning voor platforms zoals SoundCloud,
 Mixcloud en dergelijke. Hoewel een functie om een kanaal-URL direct in
-AntennaPod te plakken/openen handig lijkt, is [besloten](https://github.com/AntennaPod/AntennaPod/issues/1297)
-dit niet te implementeren. Dergelijke platformen zijn soms maar kort actief,
-terwijl het behoorlijk wat werk is voor onze vrijwilligers om deze functie te
-implementeren. Als je ontwikkelaar bent, ben je natuurlijk welkom om een
-voorstel te bespreken dat je graag zou willen implementeren.
+AntennaPod te plakken/openen handig lijkt, is
+[besloten](https://github.com/AntennaPod/AntennaPod/issues/1297) dit niet te
+implementeren. Dergelijke platformen zijn soms maar kort actief, terwijl het
+behoorlijk wat werk is voor onze vrijwilligers om deze functie te implementeren.
+Als je ontwikkelaar bent, ben je natuurlijk welkom om een voorstel te bespreken
+dat je graag zou willen implementeren.
 
 ### SoundCloud
 
@@ -32,7 +33,8 @@ vraag of ze bereid zijn om het in te stellen.
 
 Mixcloud biedt deze functie voor contentmakers helaas niet aan. Zoals altijd is
 er iemand in de podcasting-community met een oplossing. We raden je aan om eens
-te kijken naar [de opties beschreven in deze blogpost](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures).
+te kijken naar [de opties beschreven in deze
+blogpost](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures).
 
 ### YouTube
 
@@ -52,7 +54,8 @@ Als je op deze manier je niet kunt abonneren, voeg dan
 AntennaPod. De kanaal-ID staat in de URL van het kanaal. Als het kanaal een
 gebruikersaccount is (met een URL zoals youtube.com/user/UserName), vraag je aan
 de gebruiker wat zijn kanaal-ID is (hier wordt uitgelegd [hoe gebruikers hun
-kanaal-ID kunnen vinden](https://support.google.com/youtube/answer/3250431?hl=nl)).
+kanaal-ID kunnen vinden](https://support.google.com/youtube/answer/3250431?
+hl=nl)).
 
 We hebben geen info over andere platforms, zoals je kunt zien. Als je een idee
 hebt van een platform en hoe je je daar op een kanaal kunt abonneren, laat het

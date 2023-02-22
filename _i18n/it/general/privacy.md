@@ -1,7 +1,7 @@
-AntennaPod è sviluppato e mantenuto da singoli volontari e non è rappresentato
-da alcuna entità legale. La comunità non ha bisogno dei tuoi dati, quindi l'app
-e il sito web sono progettati per essere completamente conformi al GDPR.
-Continua a leggere per saperne di più.
+AntennaPod è sviluppato e mantenuto da singoli volontari e non è rappresentato da
+alcuna entità legale. La comunità non ha bisogno dei tuoi dati, quindi l'app e
+il sito web sono progettati per essere completamente conformi al GDPR. Continua
+a leggere per saperne di più.
 
 ## Quali dati l'app di AntennaPod potrebbe raccogliere, immagazzinare ed elaborare
 
@@ -18,9 +18,9 @@ tuoi dati da nessuna parte, tranne quando strettamente necessario per il
 funzionamento dell'app.** Si prega di vedere la seconda sezione successiva per i
 casi in cui i tuoi dati possono essere forniti a terzi.
 
-L'unico caso in cui i tuoi dati provenienti da terze parti sono trattati è
-quando hai abilitato un servizio di sincronizzazione nelle impostazioni. In
-questo caso, l'applicazione potrebbe ricevere informazioni su abbonamenti e
+L'unico caso in cui i tuoi dati provenienti da terze parti sono trattati è quando
+hai abilitato un servizio di sincronizzazione nelle impostazioni. In questo
+caso, l'applicazione potrebbe ricevere informazioni su abbonamenti e
 riproduzioni da quel servizio.
 
 ## Autorizzazioni dell'applicazione
@@ -33,11 +33,11 @@ dall'app. Può anche essere usato per importare le impostazioni dell'app o i fil
 OPML. Il permesso viene richiesto solo se si esegue un'azione che richiede la
 lettura dalla memoria.
 
-## Quali dati dell'applicazione potrebbero esser raccolti, archiviati o elaborati
-da terze parti
+## Quali dati dell'applicazione potrebbero esser raccolti, archiviati o elaborati da
+terze parti
 
-- Host di podcast: Ove inseriti nelle impostazioni del podcast, l'host riceverà
-i dati di autenticazione che hai fornito. Qualunque server web che fornisce feed
+- Host di podcast: Ove inseriti nelle impostazioni del podcast, l'host riceverà i
+dati di autenticazione che hai fornito. Qualunque server web che fornisce feed
 di podcast potrebbe raccogliere ulteriori dati, come il tuo indirizzo IP, l'ora
 di accesso e il contenuto cui si sta accedendo. Questo include gli episodi che
 stai scaricando o che stai ascoltando in streaming. Per i dettagli ti invitiamo
@@ -66,16 +66,17 @@ sincronizza i tuoi dati. Questi dati possono includere le credenziali di
 accesso, i podcast a cui sei abbonato, gli episodi ascoltati, le azioni di
 riproduzione, pausa e preferiti con data, ora e indirizzo IP. Per maggiori
 informazioni, consulta l'informativa sulla privacy del tuo fornitore di servizi
-di sincronizzazione (ad esempio [l'informativa sulla privacy di gpodder.net](https://gpodder.net/privacy)
-o quella del tuo host Nextcloud).
+di sincronizzazione (ad esempio [l'informativa sulla privacy di
+gpodder.net](https://gpodder.net/privacy) o quella del tuo host Nextcloud).
 - Google: Se hai attivato il backup & ripristino nelle impostazioni del tuo
-telefono (Impostazioni → Backup & Ripristino → Backup dei miei dati), sappi che
-Android stesso salverà periodicamente una copia dei dati del tuo telefono nei
-server di Google. Questo backup contiene informazioni private, comprese le
-password WiFi, i messaggi e la cronologia delle chiamate. Potrebbe includere
-anche dati da AntennaPod e da altre applicazioni che usi. Gli sviluppatori di
-AntennaPod non hanno accesso a questi dati. Per ulteriori informazioni, consulta
-[l'informativa sulla privacy di Google](https://policies.google.com).
+telefono (`Impostazioni` » `Backup & Ripristino` » `Backup dei miei dati`),
+sappi che Android stesso salverà periodicamente una copia dei dati del tuo
+telefono nei server di Google. Questo backup contiene informazioni private,
+comprese le password WiFi, i messaggi e la cronologia delle chiamate. Potrebbe
+includere anche dati da AntennaPod e da altre applicazioni che usi. Gli
+sviluppatori di AntennaPod non hanno accesso a questi dati. Per ulteriori
+informazioni, consulta [l'informativa sulla privacy di
+Google](https://policies.google.com).
 
 ## Quali dati potrebbero essere raccolti, memorizzati ed elaborati dai servizi
 online di AntennaPod
@@ -86,7 +87,8 @@ effettua una donazione, queste entità hanno accesso a determinati dati. Per
 ulteriori informazioni, consulta [l'informativa sulla privacy di Open
 Collective](https://opencollective.com/privacypolicy).
 - Il sito web: il sito web di AntennaPod è ospitato tramite GitHub Pages.
-[L'informativa sulla privacy di GitHub](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
+[L'informativa sulla privacy di
+GitHub](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
 avverte che "GitHub può raccogliere informazioni personali degli utenti dai
 visitatori del tuo sito web GitHub Pages, compresi i log degli indirizzi IP dei
 visitatori, per rispettare gli obblighi di legge e per mantenere la sicurezza e
@@ -94,8 +96,8 @@ l'integrità del sito web e del servizio". Il sito web non memorizza alcun cooki
 sul tuo dispositivo, e non vengono utilizzati servizi di monitoraggio
 (analitiche) di terze parti o altri servizi.
 - Il forum: Il forum di AntennaPod utilizza il software Discourse, ospitato dal
-team centrale. Consulta [l'informativa sulla privacy del forum](https://forum.antennapod.org/privacy)
-per i dati in questione.
+team centrale. Consulta [l'informativa sulla privacy del
+forum](https://forum.antennapod.org/privacy) per i dati in questione.
 
 ## A quali dati potrebbe avere accesso il team di sviluppo di AntennaPod
 
@@ -117,20 +119,21 @@ Android di Google):
 - visiti o partecipi al nostro forum: come spiegato nell'[informativa sulla
 privacy del forum](https://forum.antennapod.org/privacy)
 - dai attivamente un contributo finanziario tramite Open Collective (a meno che
-tu non versi un contributo [in incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile):
+tu non versi un contributo [in
+incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile):
    - informazioni pubbliche sul profilo (nome, azienda, descrizione, immagine,
-      Twitter, GitHub, sito web)
+Twitter, GitHub, sito web)
    - indirizzo email
 
 ## Aggiornamenti di questa informativa sulla privacy
 
-Gli sviluppatori potrebbero aggiornare questa informativa in futuro. Si
-consiglia di controllare periodicamente l'informativa per eventuali modifiche.
-Le modifiche a questa informativa sulla privacy sono effettive quando vengono
+Gli sviluppatori potrebbero aggiornare questa informativa in futuro. Si consiglia
+di controllare periodicamente l'informativa per eventuali modifiche. Le
+modifiche a questa informativa sulla privacy sono effettive quando vengono
 apportate su questo documento.
 
-Questa informativa sulla privacy è stata aggiornata l'ultima volta il
-13/02/2022. Se hai domande, apri una issue su GitHub o sul nostro forum.
+Questa informativa sulla privacy è stata aggiornata l'ultima volta il 13/02/2022.
+Se hai domande, apri una issue su GitHub o sul nostro forum.
 
 {% if site.lang != 'en' %}
 

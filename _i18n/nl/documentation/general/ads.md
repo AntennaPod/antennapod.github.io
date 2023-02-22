@@ -10,7 +10,9 @@ uitgevers van je podcast.
 open source. Dat houdt in dat iedereen de broncode kan downloaden. Helaas
 gebruiken sommige ontwikkelaars AntennaPod om snel een podcast-app te maken met
 advertenties en die vervolgens te publiceren als nieuwe app. De officiële
-AntennaPod app staat op [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod)
-of [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Het is ook
-mogelijk de laatste versie van [GitHub](https://github.com/AntennaPod/AntennaPod/)
-te downloaden en AntennaPod zelf te bouwen!
+AntennaPod app staat op [Google Play](https://play.google.com/store/apps/details?
+id=de.danoeh.antennapod) of
+[F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Het is ook
+mogelijk de laatste versie van
+[GitHub](https://github.com/AntennaPod/AntennaPod/) te downloaden en AntennaPod
+zelf te bouwen!

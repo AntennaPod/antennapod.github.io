@@ -1,6 +1,6 @@
-Het is mogelijk om AntennaPod al het verkeer (mediabestanden,
-omslagafbeeldingen, RSS-verzoeken en zoekopdrachten) via een proxy of het
-Tor-netwerk te laten leiden. Dat heeft twee potentiële voordelen:
+Het is mogelijk om AntennaPod al het verkeer (mediabestanden, omslagafbeeldingen,
+RSS-verzoeken en zoekopdrachten) via een proxy of het Tor-netwerk te laten
+leiden. Dat heeft twee potentiële voordelen:
 
 - Privacy: afhankelijk van het type proxy-dienst kan het
 download/streaming-gedrag worden afgeschermd van podcast-hosts

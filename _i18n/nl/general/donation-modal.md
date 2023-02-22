@@ -1,5 +1,6 @@
-AntennaPod doesn't need a lot of money. **Our (annual) costs are already covered**
-by our existing donation funds. Therefore, we'd much prefer it if you
+AntennaPod heeft niet veel geld nodig. **Onze (jaarlijkse) kosten worden al
+gedekt** door onze bestaande donatiegelden. Daarom zouden we het zeer op prijs
+stellen als u
 
 * donate to your favorite podcast(er), or
 * help us with a non-monetary contribution.

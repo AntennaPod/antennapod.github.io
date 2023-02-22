@@ -1,4 +1,7 @@
-Cuando un episodio que se pausó se vuelve a reproducir, AntennaPod lo rebobinará de manera automática, por lo que será más fácil continuar siguiendo el programa. Cuánto se rebobinará no puede ser configurado y dependerá de cuánto tiempo lleve en pausa el episodio.
+Cuando un episodio que se pausó se vuelve a reproducir, AntennaPod lo rebobinará
+de manera automática, por lo que será más fácil continuar siguiendo el programa.
+Cuánto se rebobinará no puede ser configurado y dependerá de cuánto tiempo lleve
+en pausa el episodio.
 
 | Tiempo desde la última reproducción | Duración del rebobinado |
 | --- | --- |

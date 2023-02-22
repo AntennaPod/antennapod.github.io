@@ -12,8 +12,8 @@ non quando si contrassegna manualmente un episodio come "riprodotto").
 
 ## Pulizia episodi
 
-"Pulizia episodi" si trova in `Impostazioni` » `Rete` » `Download automatico`.
-Se il download automatico ha bisogno di spazio per i nuovi episodi, eliminerà i
+"Pulizia episodi" si trova in `Impostazioni` » `Rete` » `Download automatico`. Se
+il download automatico ha bisogno di spazio per i nuovi episodi, eliminerà i
 vecchi episodi che non sono in coda e non sono segnati come preferiti. È
 possibile aggiungere un ritardo (tempo x dopo la riproduzione) o Episodio.
 L'impostazione `Cache degli episodi` determina la quantità massima di episodi

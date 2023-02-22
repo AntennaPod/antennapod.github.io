@@ -17,21 +17,25 @@ loc="/assets/images/documentation" file="translation-components-weblate.png" %}
 {% endcapture %}
 
 Van de geschatte [wereldbevolking](https://nl.wikipedia.org/wiki/Wereldbevolking)
-van 7,9 miljard mensen, spreken er 'slechts' 1,3 miljard [Engels](https://www.ethnologue.com/guides/ethnologue200).
-Dit betekent op zich misschien niet veel. Maar als we iets kunnen concluderen,
-dan is het wel dat het beschikbaar maken van AntennaPod in meer talen de app
-toegankelijk maakt voor meer mensen. Bovendien, het vertalen van de app helpt
-ons project ook om te groeien buiten de twee huidige belangrijkste
-gebruikersgroepen (in Duitsland en de VS).
+van 7,9 miljard mensen, spreken er 'slechts' 1,3 miljard
+[Engels](https://www.ethnologue.com/guides/ethnologue200). Dit betekent op zich
+misschien niet veel. Maar als we iets kunnen concluderen, dan is het wel dat het
+beschikbaar maken van AntennaPod in meer talen de app toegankelijk maakt voor
+meer mensen. Bovendien, het vertalen van de app helpt ons project ook om te
+groeien buiten de twee huidige belangrijkste gebruikersgroepen (in Duitsland en
+de VS).
 
 Wij stellen je hulp dan ook zeer op prijs!
 
 # De app
 
-Om de app te helpen vertalen, vragen we je om bij te dragen via [Transifex](https://www.transifex.com/antennapod/antennapod/).
-Iedereen kan zich daar aanmelden en aan de slag gaan. Transifex heeft handige
-handleidingen om te [beginnen op hun platform](https://docs.transifex.com/getting-started-1/translators)
-en om [vertrouwd te raken met de Web Editor interface](https://docs.transifex.com/translation/translating-with-the-web-editor).
+Om de app te helpen vertalen, vragen we je om bij te dragen via
+[Transifex](https://www.transifex.com/antennapod/antennapod/). Iedereen kan zich
+daar aanmelden en aan de slag gaan. Transifex heeft handige handleidingen om te
+[beginnen op hun
+platform](https://docs.transifex.com/getting-started-1/translators) en om
+[vertrouwd te raken met de Web Editor
+interface](https://docs.transifex.com/translation/translating-with-the-web-editor).
 
 Onder het project AntennaPod vind je drie 'resources':
 
@@ -60,9 +64,11 @@ zien in de app onder `Instellingen` » `Over` » `Bijdragers`.
 
 Om verschillende redenen (uiteengezet in een [blogpost over
 websitevertalingen](/blog/2022/01/website-vertalingen)) gebruiken we een ander
-vertaalsysteem voor onze website: [Weblate](https://hosted.weblate.org/projects/antennapod/).
-Iedereen kan zich daar aanmelden en beginnen met bijdragen. In de documentatie
-van Weblate vind je [alles wat je moet weten om met vertalen te beginnen](https://docs.weblate.org/en/latest/user/translating.html).
+vertaalsysteem voor onze website:
+[Weblate](https://hosted.weblate.org/projects/antennapod/). Iedereen kan zich
+daar aanmelden en beginnen met bijdragen. In de documentatie van Weblate vind je
+[alles wat je moet weten om met vertalen te
+beginnen](https://docs.weblate.org/en/latest/user/translating.html).
 
 In het AntennaPod project vind je vier 'componenten'. Elk vertegenwoordigt een
 onderdeel van de website. We raden aan te beginnen met de componenten `Algemeen`
@@ -97,9 +103,10 @@ welkom!
 * Ben je **geïnteresseerd in helpen** met vertalen, maar weet je het nog niet
 zeker? Of ben je klaar om te beginnen?
 * Wil je (gaan) bijdragen en **heb je ondersteuning nodig**? Bijvoorbeeld omdat
-jouw taal nog niet beschikbaar is, of omdat je niet zeker weet hoe je iets moet
-vertalen?
+jouw taal nog niet beschikbaar is, of omdat je niet zeker weet hoe je iets
+moet vertalen?
 
-Laat van je horen in de [vertaal-sectie op ons forum](https://forum.antennapod.org/c/translations/11)!
-Dat is de beste manier om ons te bereiken. Opmerkingen en berichten in de
-respectievelijke vertaal-tools worden niet altijd snel opgemerkt en beantwoord.
+Laat van je horen in de [vertaal-sectie op ons
+forum](https://forum.antennapod.org/c/translations/11)! Dat is de beste manier
+om ons te bereiken. Opmerkingen en berichten in de respectievelijke
+vertaal-tools worden niet altijd snel opgemerkt en beantwoord.

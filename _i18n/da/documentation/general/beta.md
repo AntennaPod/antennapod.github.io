@@ -20,7 +20,8 @@ det ændret, så det passer til det, du ønsker.
 
 Så du vil have det nyeste og bedste? Det er helt sikkert muligt! Du skal blot
 besøge AntennaPod i Play Store og gå til "Bliv betatester" nederst på siden.
-Hvis du sidder ved din computer, kan du gå til [denne url](https://play.google.com/apps/testing/de.danoeh.antennapod).
+Hvis du sidder ved din computer, kan du gå til [denne
+url](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 {% include image.html alt= "
 
@@ -34,8 +35,9 @@ loc="/assets/images/documentation" file="project-beta.png" %}
 
 Vi tilbyder i øjeblikket ikke betaversioner i F-Droid-butikken.
 
-Dette skyldes, at F-Droid [ikke](https://gitlab.com/fdroid/fdroidserver/-/issues/161)
-automatisk genkender betaversioner. Tilføjelse af betaversioner til F-Droid
-ville kræve en manuel indgriben for hver enkelt betaversion. Hvis der skal
-rettes noget vigtigt, skal en opdatering også straks udrulles, hvis der er behov
-for det. Dette kan desværre ikke garanteres.
+Dette skyldes, at F-Droid
+[ikke](https://gitlab.com/fdroid/fdroidserver/-/issues/161) automatisk genkender
+betaversioner. Tilføjelse af betaversioner til F-Droid ville kræve en manuel
+indgriben for hver enkelt betaversion. Hvis der skal rettes noget vigtigt, skal
+en opdatering også straks udrulles, hvis der er behov for det. Dette kan
+desværre ikke garanteres.

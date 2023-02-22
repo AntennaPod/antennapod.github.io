@@ -1,8 +1,8 @@
-Een vrij vaak voorkomend probleem is dat gebruikers opeens niet meer handmatig
-de wachtrij kunnen herschikken.
+Een vrij vaak voorkomend probleem is dat gebruikers opeens niet meer handmatig de
+wachtrij kunnen herschikken.
 
-Als afleveringen niet verplaatst kunnen worden in de wachtrij, kan dit een van
-de volgende oorzaken hebben:
+Als afleveringen niet verplaatst kunnen worden in de wachtrij, kan dit een van de
+volgende oorzaken hebben:
 
 - `Gesorteerd houden` is ingeschakeld. Dit is uit te schakelen door op de drie
 puntjes `…` in de bovenste balk te tikken en `Sorteren` te selecteren.

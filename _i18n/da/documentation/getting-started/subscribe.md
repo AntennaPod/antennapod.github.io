@@ -14,15 +14,17 @@ Atom-feeds eller URL-metoder som `pcast://` og `itpc://` fungerer også.
 
 Vi har fået nogle forespørgsler om understøttelse af platforme som Soundcloud,
 Mixcloud og lignende. Selv om det kunne være fedt at have en funktion til blot
-at indsætte/åbne kanal-URL'er i AntennaPod, [er det blevet besluttet](https://github.com/AntennaPod/AntennaPod/issues/1297)
-ikke at implementere det. Sådanne platforme kan komme og forsvinde, mens det
-kræver en hel del arbejde for vores frivillige at implementere denne funktion.
-Hvis du er udvikler, er du naturligvis velkommen til at diskutere et forslag,
-som du gerne vil implementere.
+at indsætte/åbne kanal-URL'er i AntennaPod, [er det blevet
+besluttet](https://github.com/AntennaPod/AntennaPod/issues/1297) ikke at
+implementere det. Sådanne platforme kan komme og forsvinde, mens det kræver en
+hel del arbejde for vores frivillige at implementere denne funktion. Hvis du er
+udvikler, er du naturligvis velkommen til at diskutere et forslag, som du gerne
+vil implementere.
 
 ### SoundCloud
 
-Soundcloud giver [producenter mulighed for at lave podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed)
+Soundcloud giver [producenter mulighed for at lave
+podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed)
 ud fra deres indhold ganske nemt. Du bør kontakte dem, dele
 Soundcloud-hjælpssiden (førnævnte link) og spørge, om de er villige til at sætte
 det op.
@@ -52,7 +54,9 @@ ikke fungerer som beskrevet, skal du tilføje
 AntennaPod. Du kan finde kanal-id'et i kanalens URL-adresse. Hvis den kanal, du
 vil abonnere på, er en brugerkonto (med en URL som youtube.com/user/UserName),
 kan du kontakte brugeren for at bede om deres kanal-id (her er det forklaret
-[hvordan brugere kan finde deres kanal-id](https://support.google.com/youtube/answer/3250431?hl=en)).
+[hvordan brugere kan finde deres
+kanal-id](https://support.google.com/youtube/answer/3250431?hl=en)).
 
 Som du kan se, har vi ikke nogen oplysninger om andre platforme. Vi inkluderer
-det gerne her, hvis du deler dine tanker via [forummet](https://forum.antennapod.org/).
+det gerne her, hvis du deler dine tanker via
+[forummet](https://forum.antennapod.org/).

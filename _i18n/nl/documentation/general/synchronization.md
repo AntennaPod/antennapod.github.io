@@ -4,8 +4,7 @@
 
        "
 
-loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture
-%}
+loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture %}
 
 {% capture img-synchronize %} {% include image.html alt="
 
@@ -17,7 +16,8 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {%
 endcapture %}
 
 AntennaPod ondersteunt momenteel twee opties voor synchronisatie: via
-[gpodder.net](https://gpodder.net/) en de [gPodder Sync app voor Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
+[gpodder.net](https://gpodder.net/) en de [gPodder Sync app voor
+Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
 
 Op gpodder.net kan iedereen betrekkelijk eenvoudig een account aanmaken en de
 dienst is gratis te gebruiken. Helaas heeft de dienst grote aantallen
@@ -53,5 +53,6 @@ hierboven voorgesteld?* Druk dan op de knop `Volledige synchronisatie afdwingen`
 in AntennaPod om de 'afgespeeld'-status te uploaden van alle afleveringen die je
 eerder beluisterd hebt. Als je dit niet doet, worden alleen de podcasts
 gesynchroniseerd die werden toegevoegd **na** het koppelen van de apparaten. Er
-is een [open ticket voor gpodder.net](https://github.com/gpodder/mygpo/issues/388)
-dat vraagt om dit te veranderen.
+is een [open ticket voor
+gpodder.net](https://github.com/gpodder/mygpo/issues/388) dat vraagt om dit te
+veranderen.

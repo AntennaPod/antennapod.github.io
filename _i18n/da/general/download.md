@@ -18,8 +18,9 @@ endcapture %}
 
 Officielle versioner af AntennaPod er tilgængelige på Google Play og F-Droid:
 
-[{{ img-GP | strip }}](https://play.google.com/store/apps/details?id=de.danoeh.antennapod)
-[{{ img-FD | strip }}](https://f-droid.org/packages/de.danoeh.antennapod/)
+[{{ img-GP | strip }}](https://play.google.com/store/apps/details?
+id=de.danoeh.antennapod) [{{ img-FD |
+strip }}](https://f-droid.org/packages/de.danoeh.antennapod/)
 
 AntennaPod udgives kun officielt i de to ovennævnte butikker, da vi ikke har tid
 til at understøtte flere. Alle andre butikker, der tilbyder AntennaPod, har
@@ -30,4 +31,5 @@ nyeste version, er der ikke så meget vi kan gøre, men du kan altid fortælle o
 det ved at oprette et indlæg på vores [forum](https://forum.antennapod.org/), så
 undersøger vi det.
 
-<small>Google Play og Google Play-logoet er varemærker tilhørende Google LLC.</small>
+<small>Google Play og Google Play-logoet er varemærker tilhørende Google
+LLC.</small>
