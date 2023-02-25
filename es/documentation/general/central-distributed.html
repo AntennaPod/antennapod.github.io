@@ -70,7 +70,7 @@
                     </div>
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/es/events">Events</a>
+                        <a class="nav-link" href="/es/events">Eventos</a>
                     </div>
                     
                     <div class="nav-item ml-2">
@@ -175,7 +175,7 @@
         <div id="navbar-mobile" class="overlay">
             <button class="closebtn" onclick="closeNav()">×</button>
             <div class="overlay-header">
-                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="AntennaPod Logo">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="Logotipo de AntennaPod">
             </div>
             <div class="overlay-content">
                 
@@ -183,7 +183,7 @@
                 
                 <a href="/es/blog">Blog</a>
                 
-                <a href="/es/events">Events</a>
+                <a href="/es/events">Eventos</a>
                 
                 <a href="/es/contribute">Contribuir</a>
                 
@@ -254,37 +254,50 @@
 
 <ol>
   <li>
-    <p><strong>Central</strong>: Hay un servidor central (hospedado por la empresa que desarrolla la aplicación) que comprueba si hay episodios nuevos y te los entrega.</p>
-  </li>
+<strong>Central</strong>: Hay un servidor central (hospedado por la empresa que desarrolla
+la aplicación) que comprueba si hay episodios nuevos y te los entrega.</li>
   <li>
-    <p><strong>Distribuida</strong>: La aplicación comprueba por sí misma si hay episodios nuevos, directamente desde los servidores de los publicadores.</p>
-  </li>
+<strong>Distribuida</strong>: La aplicación comprueba por sí misma si hay episodios nuevos,
+directamente desde los servidores de los publicadores.</li>
 </ol>
 
-<p>AntennaPod utiliza el segundo método. Esto tiene unas cuantas ventajas y desventajas:</p>
+<p>AntennaPod utiliza el segundo método. Esto tiene unas cuantas ventajas y
+desventajas:</p>
 
 <ul>
-  <li>
-    <p>Como la aplicación busca episodios nuevos, los creadores de la aplicaciones (como nosotros), no tienen que mantener un servidor central. Esto ahorra un montón de tiempo y esfuerzo. También ahorra mucho dinero, lo que significa que no tenemos que depender de anuncios o grandes cantidades de donaciones.</p>
-  </li>
-  <li>
-    <p>Como la aplicación no depende de un servidor central para recolectar los episodios nuevos, AntennaPod seguirá funcionando independientemente de lo que hagamos en nuestra parte. Utilizando el método centralizado, si la empresa termina su servidor por cualquier motivo, la aplicación dejará de funcionar.</p>
-  </li>
-  <li>
-    <p>Nosotros, como desarrolladores de aplicaciones, no sabemos ni podemos saber a qué podcasts estás suscrito, qué episodios escucharás o a qué hora lo harás. Los publicadores de aplicaciones con un servidor central recogen tales datos, para el detrimento de tu privacidad.</p>
-  </li>
-  <li>
-    <p>Algunos publicadores ofrecen canales privados, proveyendo acceso por adelantado, contenido especial o episodios sin anuncios. Tales canales requieren un usuario y una contraseña, que AntennaPod le da directamente al huésped cuando lo pide. Los servicios centralizados muchas veces simplemente no permiten añadir canales privados. Y si lo hacen, puede que requieran que mandes tus credenciales a quienes hacen la aplicación.</p>
-  </li>
-  <li>
-    <p>Al no tener un punto central de acceso, lo que permitiría a los desarrolladores eliminar podcasts de su servidor, no hay riesgo de censura.</p>
-  </li>
-  <li>
-    <p>Por otro lado, un modelo distribuido significa que solo obtendrás episodios nuevos cuando actualices un podcast. En AntennaPod, esto ocurre por defecto cada 12 horas, pero puedes cambiarlo a una frecuencia mayor o menor y también puedes comprobar manualmente si hay episodios nuevos. Un servidor central puede comprobar si hay episodios nuevos con mucha frecuencia o incluso ser informado por los huéspedes de los podcasts en tiempo real. De este modo, las aplicaciones pueden saber si hay episodios nuevos mucho más rápido, sin tener que comprobar regularmente todos los podcasts a los que estás suscrito.</p>
-  </li>
-  <li>
-    <p>Tampoco es posible que AntennaPod te sirva ningún episodio que haya sido eliminado por el editor, por ejemplo porque solo mantienen los últimos 10 episodios más recientes en línea. Las aplicaciones que dependen de un servidor central, pueden servirse de los episodios antiguos incluso si desaparecieron del canal RSS.</p>
-  </li>
+  <li>Como la aplicación busca episodios nuevos, los creadores de la aplicaciones
+(como nosotros), no tienen que mantener un servidor central. Esto ahorra un
+montón de tiempo y esfuerzo. También ahorra mucho dinero, lo que significa que
+no tenemos que depender de anuncios o grandes cantidades de donaciones.</li>
+  <li>Como la aplicación no depende de un servidor central para recolectar los
+episodios nuevos, AntennaPod seguirá funcionando independientemente de lo que
+hagamos en nuestra parte. Utilizando el método centralizado, si la empresa
+termina su servidor por cualquier motivo, la aplicación dejará de funcionar.</li>
+  <li>Nosotros, como desarrolladores de aplicaciones, no sabemos ni podemos saber a
+qué podcasts estás suscrito, qué episodios escucharás o a qué hora lo harás.
+Los publicadores de aplicaciones con un servidor central recogen tales datos,
+para el detrimento de tu privacidad.</li>
+  <li>Algunos publicadores ofrecen canales privados, proveyendo acceso por
+adelantado, contenido especial o episodios sin anuncios. Tales canales
+requieren un usuario y una contraseña, que AntennaPod le da directamente al
+huésped cuando lo pide. Los servicios centralizados muchas veces simplemente no
+permiten añadir canales privados. Y si lo hacen, puede que requieran que mandes
+tus credenciales a quienes hacen la aplicación.</li>
+  <li>Al no tener un punto central de acceso, lo que permitiría a los desarrolladores
+eliminar podcasts de su servidor, no hay riesgo de censura.</li>
+  <li>Por otro lado, un modelo distribuido significa que solo obtendrás episodios
+nuevos cuando actualices un podcast. En AntennaPod, esto ocurre por defecto
+cada 12 horas, pero puedes cambiarlo a una frecuencia mayor o menor y también
+puedes comprobar manualmente si hay episodios nuevos. Un servidor central puede
+comprobar si hay episodios nuevos con mucha frecuencia o incluso ser informado
+por los huéspedes de los podcasts en tiempo real. De este modo, las aplicaciones
+pueden saber si hay episodios nuevos mucho más rápido, sin tener que comprobar
+regularmente todos los podcasts a los que estás suscrito.</li>
+  <li>Tampoco es posible que AntennaPod te sirva ningún episodio que haya sido
+eliminado por el editor, por ejemplo porque solo mantienen los últimos 10
+episodios más recientes en línea. Las aplicaciones que dependen de un servidor
+central, pueden servirse de los episodios antiguos incluso si desaparecieron del
+canal RSS.</li>
 </ul>
 
 
@@ -399,7 +412,7 @@
                     <div class="small">
                         <div class="mb-2 size-16"><a class="color-gray-900" href="/es/download"><span>Descargar AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
-                                href="/es/media-kit"><span>Media Kit</span></a></div>-->
+                                href="/es/media-kit"><span>Dossier de medios</span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">

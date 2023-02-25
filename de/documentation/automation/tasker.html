@@ -70,7 +70,7 @@
                     </div>
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/de/events">Events</a>
+                        <a class="nav-link" href="/de/events">Veranstaltungen</a>
                     </div>
                     
                     <div class="nav-item ml-2">
@@ -175,7 +175,7 @@
         <div id="navbar-mobile" class="overlay">
             <button class="closebtn" onclick="closeNav()">×</button>
             <div class="overlay-header">
-                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="AntennaPod Logo">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="AntennaPod-Logo">
             </div>
             <div class="overlay-content">
                 
@@ -183,7 +183,7 @@
                 
                 <a href="/de/blog">Blog</a>
                 
-                <a href="/de/events">Events</a>
+                <a href="/de/events">Veranstaltungen</a>
                 
                 <a href="/de/contribute">Beitragen</a>
                 
@@ -250,30 +250,32 @@
 
                 <h1 id="integration-in-andere-anwendungen">Integration in andere Anwendungen</h1>
 
-<p>Mit AntennaPod kannst du festlegen, dass Abonnements (Podcast-Feeds) in regelmäßigen Abständen aktualisiert werden (siehe <a href="/refreshing-podcasts">Podcasts aktualisieren</a>).</p>
+<p>Mit AntennaPod kannst du festlegen, dass Abonnements (Podcast-Feeds) in
+regelmäßigen Abständen aktualisiert werden (siehe <a href="/de/documentation/automation/refreshing-podcasts">Podcasts
+aktualisieren</a>).</p>
 
-<p>Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod verwenden. Beispielsweise:</p>
+<p>Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene
+Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod
+verwenden. Beispielsweise:</p>
 
 <ul>
-  <li>
-    <p>Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet und anschließend werden die AntennaPod-Feeds aktualisiert.</p>
-  </li>
-  <li>
-    <p>Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um 17 Uhr aktualisiert.</p>
-  </li>
+  <li>Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet
+und anschließend werden die AntennaPod-Feeds aktualisiert.</li>
+  <li>Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um
+17 Uhr aktualisiert.</li>
 </ul>
 
 <h2 id="generelle-anweisungen">Generelle Anweisungen</h2>
 
-<p>In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als “Android-Intent” angezeigt werden) mit den folgenden Einstellungen sendest:</p>
+<p>In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements
+zu aktualisieren, indem du einen „Broadcast“ (könnte als “Android-Intent”
+angezeigt werden) mit den folgenden Einstellungen sendest:</p>
 
 <ul>
-  <li>
-    <p>Paketname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
-  </li>
-  <li>
-    <p>Klassenname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
-  </li>
+  <li>Paketname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Klassenname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
 </ul>
 
 <h2 id="anleitungen-für-einige-automatisierungs-apps">Anleitungen für einige Automatisierungs-Apps</h2>
@@ -283,12 +285,10 @@
 <p>Füge einen Block des Typs <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast senden</code> ein und spezifiziere</p>
 
 <ol>
-  <li>
-    <p>Paket zu <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
-  </li>
-  <li>
-    <p>Empfängerklasse zu <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code></p>
-  </li>
+  <li>Paket zu <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>Empfängerklasse zu <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+</li>
 </ol>
 
 <h3 id="tasker-webseite">Tasker (<a href="https://tasker.joaoapps.com/">Webseite</a>)</h3>
@@ -296,53 +296,37 @@
 <p>Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu</p>
 
 <ol>
-  <li>
-    <p>Wähle <code class="language-plaintext highlighter-rouge">System</code></p>
-  </li>
-  <li>
-    <p>Wähle <code class="language-plaintext highlighter-rouge">Intent senden</code></p>
-  </li>
-  <li>
-    <p>Gib als Paketname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> an</p>
-  </li>
-  <li>
-    <p>Gib als Klassenname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> an</p>
-  </li>
-  <li>
-    <p>Gib als Ziel <code class="language-plaintext highlighter-rouge">Broadcast-Empfänger</code> an</p>
-  </li>
-  <li>
-    <p>Du kannst die anderen Felder leer lassen</p>
-  </li>
+  <li>Wähle <code class="language-plaintext highlighter-rouge">System</code>
+</li>
+  <li>Wähle <code class="language-plaintext highlighter-rouge">Intent senden</code>
+</li>
+  <li>Gib als Paketname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> an</li>
+  <li>Gib als Klassenname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> an</li>
+  <li>Gib als Ziel <code class="language-plaintext highlighter-rouge">Broadcast-Empfänger</code> an</li>
+  <li>Du kannst die anderen Felder leer lassen</li>
 </ol>
 
-<h3 id="llama--standortprofile-webseite">Llama – Standortprofile (<a href="http://kebabapps.blogspot.com/search/label/Llama">Webseite</a>)</h3>
+<h3 id="llama--standortprofile">Llama – Standortprofile</h3>
+<p>(<a href="http://kebabapps.blogspot.com/search/label/Llama">Webseite</a>)</p>
 
 <p>Erstelle ein Ereignis (Llama-Automatisierungsregel). In dem Ereignis,</p>
 
 <ol>
-  <li>
-    <p>Füge eine Aktion vom Typ “Android Intent” hinzu.</p>
-  </li>
-  <li>
-    <p>Lege den Sendemodus für den Intent als <code class="language-plaintext highlighter-rouge">Broadcast</code> fest.</p>
-  </li>
-  <li>
-    <p>Gib als Paketname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> an</p>
-  </li>
-  <li>
-    <p>Gib als Klassenname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> an</p>
-  </li>
-  <li>
-    <p>Füge nach Belieben andere Bedingungen/Aktionen hinzu.</p>
-  </li>
+  <li>Füge eine Aktion vom Typ “Android Intent” hinzu.</li>
+  <li>Lege den Sendemodus für den Intent als <code class="language-plaintext highlighter-rouge">Broadcast</code> fest.</li>
+  <li>Gib als Paketname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> an</li>
+  <li>Gib als Klassenname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code> an</li>
+  <li>Füge nach Belieben andere Bedingungen/Aktionen hinzu.</li>
 </ol>
 
-<p>Als Abkürzung kannst du auf <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">diesen Link</a> klicken, um ein Beispielereignis zu erstellen, das den Einstieg erleichtert.</p>
+<p>Als Abkürzung kannst du auf <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">diesen
+Link</a>
+klicken, um ein Beispielereignis zu erstellen, das den Einstieg erleichtert.</p>
 
 <hr>
 
-<p><strong>Haftungsausschluss:</strong> Die AntennaPod-Community steht in keiner Beziehung zu den aufgeführten Automatisierungsanwendungen von Drittanbietern.</p>
+<p><strong>Haftungsausschluss:</strong> Die AntennaPod-Community steht in keiner Beziehung zu den
+aufgeführten Automatisierungsanwendungen von Drittanbietern.</p>
 
 
             </article>
@@ -441,7 +425,7 @@
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
                     <div class="small mb-4 mb-lg-3"><a href="/de"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">Der einfach zu benutzende, flexible und quelloffene Podcast-Manager für Android.</p>
+                    <p class="size-14 color-gray-900 mb-3">Der einfach zu benutzende, flexible und quelloffene Podcast-Player für Android.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
@@ -456,7 +440,7 @@
                     <div class="small">
                         <div class="mb-2 size-16"><a class="color-gray-900" href="/de/download"><span>AntennaPod herunterladen</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
-                                href="/de/media-kit"><span>Media Kit</span></a></div>-->
+                                href="/de/media-kit"><span>Pressematerial</span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">

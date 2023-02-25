@@ -70,7 +70,7 @@
                     </div>
                     
                     <div class="nav-item ml-2">
-                        <a class="nav-link" href="/de/events">Events</a>
+                        <a class="nav-link" href="/de/events">Veranstaltungen</a>
                     </div>
                     
                     <div class="nav-item ml-2">
@@ -175,7 +175,7 @@
         <div id="navbar-mobile" class="overlay">
             <button class="closebtn" onclick="closeNav()">×</button>
             <div class="overlay-header">
-                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="AntennaPod Logo">
+                <img src="/assets/logos/icon.png" width="80px" height="auto" alt="AntennaPod-Logo">
             </div>
             <div class="overlay-content">
                 
@@ -183,7 +183,7 @@
                 
                 <a href="/de/blog">Blog</a>
                 
-                <a href="/de/events">Events</a>
+                <a href="/de/events">Veranstaltungen</a>
                 
                 <a href="/de/contribute">Beitragen</a>
                 
@@ -250,35 +250,60 @@
 
                 <h1 id="synchronisation-zwischen-geräten">Synchronisation zwischen Geräten</h1>
 
-<p>AntennaPod unterstützt derzeit zwei Synchronisierungsoptionen: via <a href="https://gpodder.net/">gpodder.net</a> und die <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync-App für Nextcloud</a>.</p>
+<p>AntennaPod unterstützt derzeit zwei Synchronisierungsoptionen: via
+<a href="https://gpodder.net/">gpodder.net</a> und die <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync-App für
+Nextcloud</a>.</p>
 
-<p>Auf gpodder.net kann jeder relativ einfach ein Konto anlegen und die Nutzung des Dienstes ist kostenlos. Leider hat der Dienst eine große Anzahl von Benutzern, begrenzte finanzielle Mittel und einen Mangel an freiwilligen Beiträgen. Das bedeutet, dass der Server oft überlastet ist, was zu Fehlern in AntennaPod führt. Wenn möglich, empfehlen wir dir daher, ein bestehendes Konto auf einer Nextcloud-Instanz zu verwenden oder entweder gpodder.net oder Nextcloud selbst zu hosten.</p>
+<p>Auf gpodder.net kann jeder relativ einfach ein Konto anlegen und die Nutzung des
+Dienstes ist kostenlos. Leider hat der Dienst eine große Anzahl von Benutzern,
+begrenzte finanzielle Mittel und einen Mangel an freiwilligen Beiträgen. Das
+bedeutet, dass der Server oft überlastet ist, was zu Fehlern in AntennaPod
+führt. Wenn möglich, empfehlen wir dir daher, ein bestehendes Konto auf einer
+Nextcloud-Instanz zu verwenden oder entweder gpodder.net oder Nextcloud selbst
+zu hosten.</p>
 
 <h2 id="gpodder-sync-anwendung-für-nextcloud">gPodder Sync-Anwendung für Nextcloud</h2>
 
-<p>Falls du ein Nextcloud-Konto hast, installiere die gPodder Sync-App oder bitte deine Server-Administration, dies zu tun. Sobald diese installiert ist, gehe einfach in AntennaPod zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code>, wähle den entsprechenden Anbieter und gib die Server-Adresse ein.</p>
+<p>Falls du ein Nextcloud-Konto hast, installiere die gPodder Sync-App oder bitte
+deine Server-Administration, dies zu tun. Sobald diese installiert ist, gehe
+einfach in AntennaPod zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code>, wähle den
+entsprechenden Anbieter und gib die Server-Adresse ein.</p>
 
 <h2 id="gpoddernet--dein-eigener-gpodder-server">gpodder.net &amp; dein eigener gpodder-Server</h2>
 
 <ul>
   <li>
-    <p>Erstelle ein Konto auf gpodder.net oder melde dich an, solltest du bereits eines haben.</p>
+    <p>Erstelle ein Konto auf gpodder.net oder melde dich an, solltest du bereits
+eines haben.</p>
 
     <ul>
       <li>
-        <p>Nachdem du das Konto erstellt hast, empfehlen wir, für jedes Programm, das du verwendest, ein Gerät auf gpodder.net/devices/ zu erstellen:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="Geräte" width="" class=""></p>
+        <p>Nachdem du das Konto erstellt hast, empfehlen wir, für jedes Programm, das du
+verwendest, ein Gerät auf gpodder.net/devices/ zu erstellen:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="Geräte" width="" class=""></p>
       </li>
       <li>
-        <p>Wenn du die Geräte zu deinem Konto hinzugefügt hast, verknüpfe sie über die Schaltfläche „Konfigurieren“. Auf diese Weise hält gpodder.net die Abonnements der aktivierten Geräte automatisch synchron.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronisiere" width="" class=""></p>
+        <p>Wenn du die Geräte zu deinem Konto hinzugefügt hast, verknüpfe sie über die
+Schaltfläche „Konfigurieren“. Auf diese Weise hält gpodder.net die Abonnements
+der aktivierten Geräte automatisch synchron.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronisiere" width="" class=""></p>
       </li>
     </ul>
   </li>
   <li>
-    <p>Gehe dann in AntennaPod zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code>. Dort kannst du dich bei gpodder.net anmelden oder sogar einen alternativen Server angeben, wenn du ihn selbst bereitstellen willst. Während der Anmeldung fragt AntennaPod, bei welchem Gerät du gerade angemeldet bist. Wähle dein neu erstelltes Gerät aus.</p>
+    <p>Gehe dann in AntennaPod zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code>. Dort kannst du
+dich bei gpodder.net anmelden oder sogar einen alternativen Server angeben,
+wenn du ihn selbst bereitstellen willst. Während der Anmeldung fragt AntennaPod,
+bei welchem Gerät du gerade angemeldet bist. Wähle dein neu erstelltes Gerät aus.</p>
   </li>
 </ul>
 
-<p><em>Hast du ein Gerät während des Anmeldens erstellt und nicht davor, wie oben beschrieben?</em> Dann stelle sicher, dass du auf die Schaltfläche <code class="language-plaintext highlighter-rouge">Komplette Synchronisation erzwingen</code> in AntennaPod tippst, um den Abspielstatus aller Episoden hochzuladen, die du zuvor angehört hast. Wenn du dies nicht machst, werden nur Podcasts synchronisiert, die <strong>nach</strong> der Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein <a href="https://github.com/gpodder/mygpo/issues/388">offenes Issue für gpodder.net</a>, das darum bittet, dieses Verhalten zu ändern.</p>
+<p><em>Hast du ein Gerät während des Anmeldens erstellt und nicht davor, wie oben
+beschrieben?</em> Dann stelle sicher, dass du auf die Schaltfläche
+<code class="language-plaintext highlighter-rouge">Komplette Synchronisation erzwingen</code> in AntennaPod tippst, um den Abspielstatus
+aller Episoden hochzuladen, die du zuvor angehört hast. Wenn du dies nicht
+machst, werden nur Podcasts synchronisiert, die <strong>nach</strong> der Verknüpfung der
+Geräte hinzugefügt wurden. Es gibt ein <a href="https://github.com/gpodder/mygpo/issues/388">offenes Issue für
+gpodder.net</a>, das darum bittet,
+dieses Verhalten zu ändern.</p>
 
 
             </article>
@@ -377,7 +402,7 @@
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
                     <div class="small mb-4 mb-lg-3"><a href="/de"><img src="/assets/logos/logo.png" width="260px"></a></div>
-                    <p class="size-14 color-gray-900 mb-3">Der einfach zu benutzende, flexible und quelloffene Podcast-Manager für Android.</p>
+                    <p class="size-14 color-gray-900 mb-3">Der einfach zu benutzende, flexible und quelloffene Podcast-Player für Android.</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
@@ -392,7 +417,7 @@
                     <div class="small">
                         <div class="mb-2 size-16"><a class="color-gray-900" href="/de/download"><span>AntennaPod herunterladen</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
-                                href="/de/media-kit"><span>Media Kit</span></a></div>-->
+                                href="/de/media-kit"><span>Pressematerial</span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">
