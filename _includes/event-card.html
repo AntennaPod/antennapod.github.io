@@ -1,6 +1,6 @@
   <div class="card event-card mb-4">
     <a class="stretched-link" href="{{ site.baseurl }}{{ event.url | replace:'.html','' }}"></a>
-      <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
+      <img src="/assets/{% if page.image %}images/events/{{ event.image }}{% else %}branding/default-cover.png{% endif %}" loading="lazy" />
       <div class="card-body">
         <h3 class="card-title">{{ event.title }}</h3>
         <h4 class="card-subtitle text-muted mb-2">
