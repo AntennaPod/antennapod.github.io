@@ -107,11 +107,12 @@ msgstr ""
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
 "With AntennaPod, you can specify subscriptions (podcast feeds) to be updated "
-"regularly (see [Refreshing podcasts](/refreshing-podcasts))."
+"regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
+"podcasts))."
 msgstr ""
 "Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal "
-"opdateres med regelmæssigt (se [Opdatering af podcasts](/refreshing-"
-"podcasts))."
+"opdateres regelmæssigt (se [Opdatering af podcasts](/documentation/"
+"automation/refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
@@ -524,6 +525,101 @@ msgid ""
 msgstr ""
 "Hvis dette ikke hjalp, skal du ikke tøve med at kontakte AntennaPod-"
 "bidragsydere i vores [forum](https://forum.antennapod.org)."
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 1
+#: (paragraph)
+msgid ""
+"Do you get a notification saying that downloads completed with errors? Then "
+"AntennaPod could not refresh the podcast or download an audio file from the "
+"website of the podcast hoster."
+msgstr ""
+"Får du en meddelelse om, at overførsler er afsluttet med fejl? Det betyder, "
+"at AntennaPod ikke kunne opdatere podcasten eller overføre en lydfil fra "
+"podcast-værtens websted."
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
+#: (paragraph)
+msgid ""
+"Issues that only occur with one or a few specific podcasts are often related "
+"to those podcasts. To confirm if this is the case, you can follow these "
+"steps:"
+msgstr ""
+"Problemer, der kun opstår i forbindelse med en eller nogle få bestemte "
+"podcasts, er ofte relateret til disse podcasts. Hvis du vil bekræfte, om det "
+"er tilfældet, kan du følge disse trin:"
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
+#: (ordered list)
+msgid "Tap on the notification to open the Download Log"
+msgstr "Tryk på meddelelsen for at åbne overførselsloggen"
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
+#: (ordered list)
+msgid "Tap on the specific log entry with the error"
+msgstr "Tryk på den specifikke logbogspost med fejlen"
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
+#: (ordered list)
+msgid ""
+"Long-press on the URL that is displayed, and copy or open it in your web "
+"browser"
+msgstr ""
+"Tryk længe på den URL, der vises, og kopier eller åbn den i din webbrowser"
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 4
+#: (paragraph)
+msgid ""
+"If the URL doesn't work in the browser either, this means that it is not a "
+"problem with AntennaPod. If you get the error message consistently then the "
+"podcast has likely been moved, taken off-line or is not properly configured. "
+"In this case, please contact the podcast creators (as this cannot be fixed "
+"at our end)."
+msgstr ""
+"Hvis URL'en heller ikke virker i browseren, betyder det, at det ikke er et "
+"problem med AntennaPod. Hvis du får fejlmeddelelsen konstant, er podcasten "
+"sandsynligvis blevet flyttet, taget offline eller ikke konfigureret korrekt. "
+"I så fald skal du kontakte podcast-skaberne (da dette ikke kan løses hos os)."
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
+#: (paragraph)
+msgid ""
+"Does the error message in the Download log say \"Failed to connect to "
+"[url]\"? Then this probably means that there is interference on your "
+"network. If you have an ad-blocker, VPN, captive portal, proxy, privacy "
+"guard, special DNS service, or parental control set up on your phone, you "
+"can try turning these off."
+msgstr ""
+"Står der \"Failed to connect to [url]\" i fejlmeddelelsen i "
+"overførselsloggen? Så betyder det sandsynligvis, at der er forstyrrelser på "
+"dit netværk. Hvis du har en ad-blocker, VPN, captive portal, proxy, privacy "
+"guard, en særlig DNS-tjeneste eller forældrekontrol installeret på din "
+"telefon, kan du prøve at slå disse fra."
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
+#: (paragraph)
+msgid ""
+"Do you see an error message like \"not well-formed (invalid token)”? Then "
+"the publisher messed up their (RSS) feed. (For example, they might have used "
+"a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the "
+"publisher directly, as this cannot be fixed at our end."
+msgstr ""
+"Ser du en fejlmeddelelse såsom \"not well-formed (invalid token)\"? Så har "
+"udgiveren ødelagt sit (RSS-)feed. (F.eks. ved at have brugt et almindeligt "
+"`&`-tegn i stedet for at kode det som `&amp;`.) Kontakt venligst udgiveren "
+"direkte, da dette ikke kan rettes hos os."
+
+#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 7
+#: (paragraph)
+msgid ""
+"If you can't pinpoint the issue, please copy the error message via the Copy-"
+"button and share it [on our forum](https://forum.antennapod.org/c/"
+"support/7). Our community will happily have a look to find out the exact "
+"cause!"
+msgstr ""
+"Hvis du ikke kan finde problemet, bedes du kopiere fejlmeddelelsen via Kopi-"
+"knappen og dele den [på vores forum](https://forum.antennapod.org/c/"
+"support/7). Vores fællesskab vil med glæde kigge på det for at finde den "
+"præcise årsag!"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 1
 #: (paragraph)
@@ -1272,10 +1368,11 @@ msgstr ""
 "søge, gennemse forslag eller tilføje en podcast ved hjælp af des RSS-adresse."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
-"Alternatively, you can import an OPML file or only check the iTunes, gpodder."
-"net, fyyd or Podcast Index database respectively. Importing RSS or Atom "
-"feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
+"Alternatively, you can import an OPML file or only check the Apple Podcasts, "
+"gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or "
+"Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
 msgstr ""
 "Alternativt kan du importere en OPML-fil eller kun tjekke henholdsvis "
 "iTunes-, gpodder.net-, fyyd- eller Podcast Index-databasen. Import af RSS- "
@@ -1396,6 +1493,53 @@ msgstr ""
 "Som du kan se, har vi ikke nogen oplysninger om andre platforme. Vi "
 "inkluderer det gerne her, hvis du deler dine tanker via [forummet](https://"
 "forum.antennapod.org/)."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 1 (paragraph)
+msgid ""
+"You can use AntennaPod to listen to podcasts in your [Android Auto](https://"
+"www.android.com/auto/) enabled car."
+msgstr ""
+"Du kan bruge AntennaPod til at lytte til podcasts i din [Android Auto]"
+"(https://www.android.com/auto/)-aktiverede bil."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 2 (header)
+msgid "Did you download AntennaPod from **Google Play**?"
+msgstr "Har du downloadet AntennaPod fra **Google Play**?"
+
+#: _i18n/en/documentation/playback/android-auto.md:block 3 (paragraph)
+msgid ""
+"No further steps are required to use AntennaPod in your car. Just connect "
+"your phone and start listening."
+msgstr ""
+"Der er ikke behov for yderligere trin for at bruge AntennaPod i din bil. Du "
+"skal bare tilslutte din telefon og begynde at lytte."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 4 (header)
+msgid "Did you download AntennaPod from **F-Droid**?"
+msgstr "Har du downloadet AntennaPod fra **F-Droid**?"
+
+#: _i18n/en/documentation/playback/android-auto.md:block 5 (paragraph)
+msgid "If you downloaded AntennaPod from F-Droid, further steps are required."
+msgstr ""
+"Hvis du har downloadet AntennaPod fra F-Droid, er der brug for yderligere "
+"trin."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
+msgid "Open the Android Auto settings."
+msgstr "Åbn indstillingerne for Android Auto."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
+msgid "Enable `Developer settings` by pressing the version number 10 times."
+msgstr ""
+"Aktivér `Udviklerindstillinger` ved at trykke 10 gange på versionsnummeret."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
+msgid "Open the 3-dot menu and launch the developer settings."
+msgstr "Åbn 3-punktsmenuen, og start indstillingerne for udviklere."
+
+#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
+msgid "Enable `Unknown sources`."
+msgstr "Aktivér `Ukendte kilder`."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 1 (paragraph)
 msgid ""
@@ -1605,9 +1749,10 @@ msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
+#, fuzzy
 msgid ""
-"[iTunes](https://podcasts.apple.com) (add via [Podcast Connect](https://"
-"podcastsconnect.apple.com/))"
+"[Apple Podcasts](https://podcasts.apple.com) (add via [Podcast Connect]"
+"(https://podcastsconnect.apple.com/))"
 msgstr ""
 "[iTunes](https://podcasts.apple.com) (tilføj via [Podcast Connect](https://"
 "podcastsconnect.apple.com/))"
@@ -1779,157 +1924,13 @@ msgstr "Trykke på `gear` ikonet for at få adgang til dens indstillinger"
 msgid "Select the `Tags` setting"
 msgstr "Vælg indstillingen `Etiketter`"
 
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 1
-#: (paragraph)
-msgid ""
-"Do you get a notification saying that downloads completed with errors? Then "
-"AntennaPod could not refresh the podcast or download an audio file from the "
-"website of the podcast hoster."
-msgstr ""
-"Får du en meddelelse om, at overførsler er afsluttet med fejl? Det betyder, "
-"at AntennaPod ikke kunne opdatere podcasten eller overføre en lydfil fra "
-"podcast-værtens websted."
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
-#: (paragraph)
-msgid ""
-"Issues that only occur with one or a few specific podcasts are often related "
-"to those podcasts. To confirm if this is the case, you can follow these "
-"steps:"
-msgstr ""
-"Problemer, der kun opstår i forbindelse med en eller nogle få bestemte "
-"podcasts, er ofte relateret til disse podcasts. Hvis du vil bekræfte, om det "
-"er tilfældet, kan du følge disse trin:"
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
-#: (ordered list)
-msgid "Tap on the notification to open the Download Log"
-msgstr "Tryk på meddelelsen for at åbne overførselsloggen"
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
-#: (ordered list)
-msgid "Tap on the specific log entry with the error"
-msgstr "Tryk på den specifikke logbogspost med fejlen"
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
-#: (ordered list)
-msgid ""
-"Long-press on the URL that is displayed, and copy or open it in your web "
-"browser"
-msgstr ""
-"Tryk længe på den URL, der vises, og kopier eller åbn den i din webbrowser"
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 4
-#: (paragraph)
-msgid ""
-"If the URL doesn't work in the browser either, this means that it is not a "
-"problem with AntennaPod. If you get the error message consistently then the "
-"podcast has likely been moved, taken off-line or is not properly configured. "
-"In this case, please contact the podcast creators (as this cannot be fixed "
-"at our end)."
-msgstr ""
-"Hvis URL'en heller ikke virker i browseren, betyder det, at det ikke er et "
-"problem med AntennaPod. Hvis du får fejlmeddelelsen konstant, er podcasten "
-"sandsynligvis blevet flyttet, taget offline eller ikke konfigureret korrekt. "
-"I så fald skal du kontakte podcast-skaberne (da dette ikke kan løses hos os)."
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
-#: (paragraph)
-msgid ""
-"Does the error message in the Download log say \"Failed to connect to "
-"[url]\"? Then this probably means that there is interference on your "
-"network. If you have an ad-blocker, VPN, captive portal, proxy, privacy "
-"guard, special DNS service, or parental control set up on your phone, you "
-"can try turning these off."
-msgstr ""
-"Står der \"Failed to connect to [url]\" i fejlmeddelelsen i "
-"overførselsloggen? Så betyder det sandsynligvis, at der er forstyrrelser på "
-"dit netværk. Hvis du har en ad-blocker, VPN, captive portal, proxy, privacy "
-"guard, en særlig DNS-tjeneste eller forældrekontrol installeret på din "
-"telefon, kan du prøve at slå disse fra."
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
-#: (paragraph)
-msgid ""
-"Do you see an error message like \"not well-formed (invalid token)”? Then "
-"the publisher messed up their (RSS) feed. (For example, they might have used "
-"a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the "
-"publisher directly, as this cannot be fixed at our end."
-msgstr ""
-"Ser du en fejlmeddelelse såsom \"not well-formed (invalid token)\"? Så har "
-"udgiveren ødelagt sit (RSS-)feed. (F.eks. ved at have brugt et almindeligt "
-"`&`-tegn i stedet for at kode det som `&amp;`.) Kontakt venligst udgiveren "
-"direkte, da dette ikke kan rettes hos os."
-
-#: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 7
-#: (paragraph)
-msgid ""
-"If you can't pinpoint the issue, please copy the error message via the Copy-"
-"button and share it [on our forum](https://forum.antennapod.org/c/"
-"support/7). Our community will happily have a look to find out the exact "
-"cause!"
-msgstr ""
-"Hvis du ikke kan finde problemet, bedes du kopiere fejlmeddelelsen via Kopi-"
-"knappen og dele den [på vores forum](https://forum.antennapod.org/c/"
-"support/7). Vores fællesskab vil med glæde kigge på det for at finde den "
-"præcise årsag!"
-
-#: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
-msgid ""
-"With AntennaPod, you can specify subscriptions (podcast feeds) to be updated "
-"regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
-"podcasts))."
-msgstr ""
-"Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal "
-"opdateres regelmæssigt (se [Opdatering af podcasts](/documentation/"
-"automation/refreshing-podcasts))."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 1 (paragraph)
-msgid ""
-"You can use AntennaPod to listen to podcasts in your [Android Auto](https://"
-"www.android.com/auto/) enabled car."
-msgstr ""
-"Du kan bruge AntennaPod til at lytte til podcasts i din [Android Auto]"
-"(https://www.android.com/auto/)-aktiverede bil."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 2 (header)
-msgid "Did you download AntennaPod from **Google Play**?"
-msgstr "Har du downloadet AntennaPod fra **Google Play**?"
-
-#: _i18n/en/documentation/playback/android-auto.md:block 3 (paragraph)
-msgid ""
-"No further steps are required to use AntennaPod in your car. Just connect "
-"your phone and start listening."
-msgstr ""
-"Der er ikke behov for yderligere trin for at bruge AntennaPod i din bil. Du "
-"skal bare tilslutte din telefon og begynde at lytte."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 4 (header)
-msgid "Did you download AntennaPod from **F-Droid**?"
-msgstr "Har du downloadet AntennaPod fra **F-Droid**?"
-
-#: _i18n/en/documentation/playback/android-auto.md:block 5 (paragraph)
-msgid "If you downloaded AntennaPod from F-Droid, further steps are required."
-msgstr ""
-"Hvis du har downloadet AntennaPod fra F-Droid, er der brug for yderligere "
-"trin."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-msgid "Open the Android Auto settings."
-msgstr "Åbn indstillingerne for Android Auto."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-msgid "Enable `Developer settings` by pressing the version number 10 times."
-msgstr ""
-"Aktivér `Udviklerindstillinger` ved at trykke 10 gange på versionsnummeret."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-msgid "Open the 3-dot menu and launch the developer settings."
-msgstr "Åbn 3-punktsmenuen, og start indstillingerne for udviklere."
-
-#: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-msgid "Enable `Unknown sources`."
-msgstr "Aktivér `Ukendte kilder`."
+#~ msgid ""
+#~ "With AntennaPod, you can specify subscriptions (podcast feeds) to be "
+#~ "updated regularly (see [Refreshing podcasts](/refreshing-podcasts))."
+#~ msgstr ""
+#~ "Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal "
+#~ "opdateres med regelmæssigt (se [Opdatering af podcasts](/refreshing-"
+#~ "podcasts))."
 
 #~ msgid "Update subscriptions 5pm weekdays."
 #~ msgstr "Opdater abonnementer kl. 17.00 på hverdage."
