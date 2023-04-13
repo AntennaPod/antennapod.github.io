@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
-"PO-Revision-Date: 2022-08-04 12:20+0000\n"
-"Last-Translator: Keunes <keunes@mailbox.org>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website-"
-"documentation/nl/>\n"
+"PO-Revision-Date: 2023-04-18 11:22+0000\n"
+"Last-Translator: mm4c <oldblue@vivaldi.net>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/"
+"website-documentation/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.17\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -107,14 +107,13 @@ msgstr ""
 "scherm Afleveringen."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "With AntennaPod, you can specify subscriptions (podcast feeds) to be updated "
 "regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
 "podcasts))."
 msgstr ""
 "AntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te "
-"verversen (zie [Refreshing podcasts](/refreshing-podcasts))."
+"verversen (zie [Podcasts verversen](/refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
@@ -235,7 +234,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
 msgid "Create an event (Llama automation rule). In the event,"
-msgstr "Maak een gebeurtenis (Llama automatiseringsregel) en:"
+msgstr "Maak een gebeurtenis (Llama automatiseringsregel). In geval dat"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Add an action of type Android intent."
@@ -440,8 +439,8 @@ msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
 "media files will still be there."
 msgstr ""
-"Hoewel alle gegevens *over* de abonnementen en afleveringen verdwenen zijn, "
-"zijn de mediabestanden nog steeds beschikbaar."
+"Hoewel alle gegevens *over* abonnementen en afleveringen zijn verdwenen, "
+"zijn de mediabestanden er nog wel."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (unordered
 #: list)
@@ -466,8 +465,8 @@ msgid ""
 "through the folder mentioned above to see which podcasts you were subscribed "
 "to."
 msgstr ""
-"Het is mogelijk de eerdere podcasts toe te voegen vanaf nul. In de "
-"bovenvermelde map kun je je recente podcast-abonnementen vinden."
+"Je kunt ook opnieuw beginnen met het toevoegen van eerdere podcasts. In de "
+"bovengenoemde map kun je zien op welke podcasts je geabonneerd was."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 2
 #: (paragraph)
@@ -494,12 +493,12 @@ msgid ""
 "information](https://datatracker.ietf.org/doc/html/rfc5005#section-3))."
 msgstr ""
 "Veel uitgevers houden alleen (informatie over) de meest recente afleveringen "
-"online. Dus wanneer je je net hebt geabonneerd op een podcast, heeft je "
-"AntennaPod-installatie geen toegang tot informatie over de oudere "
-"afleveringen. Om alle eerdere afleveringen in de app te krijgen, kunt u "
-"contact opnemen met de podcaster en hen vragen om (hun hoster te contacteren "
-"teneinde) ondersteuning te bieden voor 'paged feeds' ([technische informatie "
-"in het Engels](https://datatracker.ietf.org/doc/html/rfc5005#section-3))."
+"online. Dus als je net geabonneerd bent op een podcast, heeft je AntennaPod "
+"installatie geen toegang tot informatie over de oudere afleveringen. Om alle "
+"vorige afleveringen in de app te krijgen, kun je contact opnemen met de "
+"podcaster en vragen (contact op te nemen met zijn hoster om) 'paged feeds' "
+"te ondersteunen ([technische informatie](https://datatracker.ietf.org/doc/"
+"html/rfc5005#section-3))."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 1 (paragraph)
 msgid ""
@@ -536,6 +535,9 @@ msgid ""
 "AntennaPod could not refresh the podcast or download an audio file from the "
 "website of the podcast hoster."
 msgstr ""
+"Krijg je een melding dat downloads met fouten worden voltooid? Dan kan "
+"AntennaPod de podcast niet vernieuwen of als audiobestand downloaden van de "
+"website van de podcast hoster."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
 #: (paragraph)
@@ -544,23 +546,26 @@ msgid ""
 "to those podcasts. To confirm if this is the case, you can follow these "
 "steps:"
 msgstr ""
+"Problemen die zich slechts bij één of enkele specifieke podcasts voordoen, "
+"houden vaak verband met die podcasts. Om te bevestigen of dit het geval is, "
+"neem je de volgende stappen:"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
 msgid "Tap on the notification to open the Download Log"
-msgstr ""
+msgstr "Tik op de melding om het Download Logboek te openen"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
 msgid "Tap on the specific log entry with the error"
-msgstr ""
+msgstr "Tik op het specifieke logboekitem met de fout"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
 msgid ""
 "Long-press on the URL that is displayed, and copy or open it in your web "
 "browser"
-msgstr ""
+msgstr "Druk lang op de weergegeven URL en kopieer of open deze in de browser"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 4
 #: (paragraph)
@@ -571,6 +576,11 @@ msgid ""
 "In this case, please contact the podcast creators (as this cannot be fixed "
 "at our end)."
 msgstr ""
+"Als de URL evenmin werkt in de browser, betekent dit dat het niet aan "
+"AntennaPod ligt. Als je de foutmelding consequent krijgt, dan is de podcast "
+"waarschijnlijk verplaatst, offline gehaald of niet goed geconfigureerd. Neem "
+"in dit geval contact op met de makers van de podcast (aangezien dit niet "
+"door ons verholpen kan worden)."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
 #: (paragraph)
@@ -581,6 +591,11 @@ msgid ""
 "guard, special DNS service, or parental control set up on your phone, you "
 "can try turning these off."
 msgstr ""
+"Staat er in de foutmelding in het Download logboek \"Failed to connect to "
+"[url]\"? Dan is er waarschijnlijk sprake van storing op uw netwerk. Als je "
+"een ad-blocker, VPN, captive portal, proxy, privacy guard, speciale DNS-"
+"dienst of ouderlijk toezicht op je telefoon hebt ingesteld, kun je proberen "
+"deze uit te schakelen."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
 #: (paragraph)
@@ -590,6 +605,10 @@ msgid ""
 "a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the "
 "publisher directly, as this cannot be fixed at our end."
 msgstr ""
+"Zie je een foutmelding als \"not well-formed (invalid token)\"? Dan heeft de "
+"uitgever de RSS-feed verknoeid. (Misschien is bijvoorbeeld een `&`-teken "
+"gebruikt in plaats van het te coderen als `&amp;`). Neem rechtstreeks "
+"contact op met de uitgever, want dit kan niet door ons worden opgelost."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 7
 #: (paragraph)
@@ -599,6 +618,9 @@ msgid ""
 "support/7). Our community will happily have a look to find out the exact "
 "cause!"
 msgstr ""
+"Als je het probleem niet kunt lokaliseren, kopieer dan de foutmelding via de "
+"Kopieer-knop en deel deze [op ons forum](https://forum.antennapod.org/c/"
+"support/7). Onze gemeenschap zal graag de precieze oorzaak onderzoeken!"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 1
 #: (paragraph)
@@ -775,10 +797,10 @@ msgid ""
 "will be added to your existing subscriptions. None of your existing "
 "subscriptions will be affected."
 msgstr ""
-"Als je het bestand importeerd in AntennaPod op een ander apparaat, zal de "
-"app een lijst van podcasts met selectievakjes tonen. De podcasts die je in "
-"die lijst aanvinkt, zullen dan worden toegevoegd aan je bestaande "
-"abonnementen. Dit heeft verder geen invloed op je bestaande abonnementen."
+"Als je het bestand in AntennaPod in een ander apparaat importeert, toont de "
+"app een lijst met podcasts met selectievakjes. De podcasts die je uit die "
+"lijst selecteert, worden toegevoegd aan je bestaande abonnementen. Geen van "
+"je bestaande abonnementen wordt beïnvloed."
 
 #: _i18n/en/documentation/general/beta.md:block 1 (paragraph)
 msgid ""
@@ -901,10 +923,10 @@ msgid ""
 "saves a lot of money, which means we don't need to rely on ads or large sums "
 "of donations."
 msgstr ""
-"Omdat de app controleert op nieuwe afleveringen, hoeven de makers van de app "
-"(zoals wij) geen centrale server te onderhouden. Dit scheelt een hoop tijd "
-"en energie. Het bespaart ons ook hoop geld, wat betekent dat we niet "
-"afhankelijk zijn van advertenties, of van veel of grote donaties."
+"Omdat de app controleert opber nieuwe, hoeven de makers van de app (zoals "
+"wij) geen centrale server te onderhouden. Dit bespaart veel tijd en moeite. "
+"Het bespaart ook veel geld, daardoor zijn we niet afhankelijk van "
+"advertenties of grote bedragen aan donaties."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -915,9 +937,9 @@ msgid ""
 "whatever reason, the app will stop to work."
 msgstr ""
 "Omdat de app niet afhankelijk is van een centrale server om nieuwe "
-"afleveringen op te halen, zal AntennaPod blijven werken, onafhankelijk van "
-"ons doen en laten. Bij een gecentraliseerd model zou de app stoppen met "
-"werken als de app-makers, om welke reden dan ook, hun server off-line halen."
+"afleveringen te verzamelen, zal AntennaPod zelfstandig blijven werken. Als "
+"het bedrijf zijn server om welke reden dan ook afsluit, zal de app niet meer "
+"werken."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -927,10 +949,10 @@ msgid ""
 "do. Publishers of apps with a central server do collect such data, to the "
 "detriment of your privacy."
 msgstr ""
-"Wij, als de maker van de app, weten niet en kunnen zelfs niet weten op welke "
-"podcasts je geabonneerd bent, welke afleveringen je al dan niet beluisterd, "
-"of wanneer je dat doet. App-makers die een centrale server gebruiken, "
-"verzamelen wel zulke gegevens - ten nadele van jouw privacy."
+"Als app-ontwikkelaars weten wij niet op welke podcasts je geabonneerd bent, "
+"welke afleveringen je beluistert of zelfs op welk tijdstip u dat doet. "
+"Uitgevers van apps met een centrale server verzamelen dergelijke gegevens "
+"wel, ten koste van uw privacy."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -941,12 +963,12 @@ msgid ""
 "services often simply don't allow adding private feeds. And if they do, it "
 "might require sending your credentials to the app makers."
 msgstr ""
-"Sommige uitgevers bieden privé-feeds aan, voor eerdere toegang tot "
-"afleveringen, specials of advertentievrije afleveringen. Zulke feeds "
-"vereisen een gebruikersnaam en wachtwoord, welke AntennaPod direct aan de "
-"podcast-host doorgeeft wanneer nodig. Bij gecentraliseerde apps is dit vaak "
-"simpelweg niet mogelijk. En als het wel kan, betekent dit dat je je "
-"inloggegevens aan de app-makers moet geven."
+"Sommige uitgevers bieden besloten feeds aan, met vroege toegang, speciale "
+"content of reclamevrije afleveringen. Dergelijke feeds vereisen een "
+"gebruikersnaam en wachtwoord, die AntennaPod op verzoek rechtstreeks aan de "
+"podcasthost doorgeeft. Gecentraliseerde diensten staan het toevoegen van "
+"private feeds gewoon niet toe. En als ze dat wel doen, kan het nodig zijn je "
+"gegevens naar de makers van de app te sturen."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1337,8 +1359,8 @@ msgid ""
 "The first thing you want to do after downloading a podcast app is to "
 "subscribe to a podcast."
 msgstr ""
-"Na het downloaden van een podcast-app abonneer je je allereerst op een "
-"podcast."
+"Het eerste wat je wilt doen na het downloaden van een podcast-app is je "
+"abonneren op een podcast."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 2 (header)
 msgid "Subscribing"
@@ -1356,16 +1378,15 @@ msgstr ""
 "adres."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Alternatively, you can import an OPML file or only check the Apple Podcasts, "
 "gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or "
 "Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
 msgstr ""
-"Je kan ook een OPML-bestand importeren. Of zoek uitsluitend in de iTunes-, "
-"gpodder.net-, fyyd- of Podcast Index-database. Het importeren van RSS- of "
-"Atom-feeds of het gebruik van URL-schema's zoals `pcast://` en `itpc://` "
-"zijn ook mogelijk."
+"Als alternatief kun je een OPML-bestand importeren of alleen de database van "
+"respectievelijk Apple Podcasts, gpodder.net, fyyd of Podcast Index "
+"controleren. Het importeren van RSS- of Atom-feeds, of URL-schema's zoals "
+"`pcast://` en `itpc://`, werkt ook."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 5 (header)
 msgid "Subscribing to third-party services"
@@ -1480,50 +1501,56 @@ msgid ""
 "happy to include it here if you share your thoughts via the [forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
-"We hebben geen info over andere platforms, zoals je kunt zien. Als je een "
-"idee hebt van een platform en hoe je je daar op een kanaal kunt abonneren, "
-"laat het ons weten via ons [forum](https://forum.antennapod.org/). We voegen "
-"de info hier graag toe."
+"We hebben geen informatie over andere platforms, zoals je kunt zien. We "
+"delen graag je ideeën middels het [forum](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 1 (paragraph)
 msgid ""
 "You can use AntennaPod to listen to podcasts in your [Android Auto](https://"
 "www.android.com/auto/) enabled car."
 msgstr ""
+"U kunt AntennaPod gebruiken om naar podcasts te luisteren in uw auto met ["
+"Android Auto](https://www.android.com/auto/)."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 2 (header)
 msgid "Did you download AntennaPod from **Google Play**?"
-msgstr ""
+msgstr "Heb je AntennaPod gedownload van **Google Play**?"
 
 #: _i18n/en/documentation/playback/android-auto.md:block 3 (paragraph)
 msgid ""
 "No further steps are required to use AntennaPod in your car. Just connect "
 "your phone and start listening."
 msgstr ""
+"Er zijn geen verdere stappen nodig om AntennaPod in je auto te gebruiken. "
+"Sluit gewoon je telefoon aan en begin te luisteren."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 4 (header)
 msgid "Did you download AntennaPod from **F-Droid**?"
-msgstr ""
+msgstr "Heb je AntennaPod gedownload van **F-Droid**?"
 
 #: _i18n/en/documentation/playback/android-auto.md:block 5 (paragraph)
 msgid "If you downloaded AntennaPod from F-Droid, further steps are required."
 msgstr ""
+"Als je AntennaPod hebt gedownload van F-Droid, zijn aanvullende stappen "
+"nodig."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Open the Android Auto settings."
-msgstr ""
+msgstr "Open de Android Auto instellingen."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Developer settings` by pressing the version number 10 times."
 msgstr ""
+"Activeer `Ontwikkelaarsinstellingen` door 10 keer op het versienummer te "
+"drukken."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Open the 3-dot menu and launch the developer settings."
-msgstr ""
+msgstr "Open het 3-dot menu en start de ontwikkelaarsinstellingen."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Unknown sources`."
-msgstr ""
+msgstr "`Onbekende bronnen` inschakelen."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 1 (paragraph)
 msgid ""
@@ -1539,11 +1566,11 @@ msgstr ""
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Time since last playback"
-msgstr "Tijd sinds laatste keer afspelen"
+msgstr "Tijd sinds laatste weergave"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Rewind duration"
-msgstr "Tijd teruggespoeld"
+msgstr "Tijdsuur terugspoelen"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "More than 1 day"
@@ -1592,7 +1619,7 @@ msgstr "Toets"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Action"
-msgstr "Resultaat"
+msgstr "Actie"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`P`"
@@ -1734,13 +1761,12 @@ msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "[Apple Podcasts](https://podcasts.apple.com) (add via [Podcast Connect]"
 "(https://podcastsconnect.apple.com/))"
 msgstr ""
-"[iTunes](https://podcasts.apple.com) (toevoegen via [Podcast Connect]"
-"(https://podcastsconnect.apple.com/))"
+"[Apple Podcasts](https://podcasts.apple.com) (toevoegen via [Podcast "
+"Connect](https://podcastsconnect.apple.com/))"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
