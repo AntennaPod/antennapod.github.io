@@ -10,8 +10,11 @@
         <div class="container">
             <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
                 <div class="col-12 col-lg-4 col-md-12 mb-3">
-                    <div class="small mb-4 mb-lg-3"><a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}"><img
-                                src="{{ site.baseurl_root }}/assets/logos/logo.png" width="260px" /></a></div>
+                    <div class="small mb-4 mb-lg-3">
+                        <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">
+                            <img src="{{ site.baseurl_root }}/assets/logos/logo.png" width="260" alt="{% t generic.accessibility.logo %}"/>
+                        </a>
+                    </div>
                     <p class="size-14 color-gray-900 mb-3">{% t footer.description %}</p>
                 </div>
                 <div class="col-0 col-lg-2"></div>
