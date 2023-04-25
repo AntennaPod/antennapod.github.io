@@ -16,7 +16,7 @@
                     <div class="nav-item ml-0 ml-sm-1 text-center">
                         <li class="nav-item dropdown mb-0">
                             <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-globe size-16 color-gray-900"></i><span
                                     class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
                             </button>
@@ -31,7 +31,7 @@
                 <div class="nav-item text-center d-inline-block">
                     <div class="nav-item dropdown">
                         <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-globe size-16 color-gray-900"></i><span
                                 class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
                         </button>
@@ -48,8 +48,7 @@
         <div id="navbar-mobile" class="overlay">
             <button class="closebtn" onclick="closeNav()">&times;</button>
             <div class="overlay-header">
-                <img src="{{ site.baseurl_root }}/assets/logos/icon.png" width="80px" height="auto"
-                    alt="{% t generic.accessibility.logo %}" />
+                <img src="{{ site.baseurl_root }}/assets/logos/icon.png" width="80" alt="{% t generic.accessibility.logo %}" />
             </div>
             <div class="overlay-content">
                 {% for link in site.data.navbar %}
