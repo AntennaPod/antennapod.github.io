@@ -1,15 +1,56 @@
 {% capture native-url %}{{ include.loc }}/{{ site.lang }}/{{ include.file }}{% endcapture %}
 {% capture english-url %}{{ include.loc }}/en/{{ include.file }}{% endcapture %}
+{% capture single-url %}{{ include.loc }}/{{ include.file }}{% endcapture %}
 {% assign img-alt = include.alt | remove:'<!-- mdpo-enable-next-line -->' | strip %}
 
 {% for file in site.static_files %}
    {% if file.path == native-url %}
       {% assign native-exists = true %}
+   {% elsif file.path == english-url %}
+      {% assign english-exists = true %}
    {% endif %}
 {% endfor %}
 
-{% if native-exists == true %}
+<a href="" data-toggle="modal" data-target="#imgModal">
+{%- if native-exists == true %}
 <img src="{{ native-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
-{% else %}
+{%- elsif english-exists == true %}
 <img src="{{ english-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
-{% endif %}
+{%- else %}
+<img src="{{ single-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
+{%- endif %}
+</a>
+
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(function () {
+   $(document).on('shown.bs.tooltip', function (e) {
+      setTimeout(function () {
+        $(e.target).tooltip('hide');
+      }, 1000);
+   });
+});
+</script>
+
+<div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        {%- if native-exists == true %}
+        <img src="{{ native-url }}" alt="{{ img-alt }}" width="100%" class="{{ include.class }}">
+        {%- elsif english-exists == true %}
+        <img src="{{ english-url }}" alt="{{ img-alt }}" width="100%" class="{{ include.class }}">
+        {%- else %}
+        <img src="{{ single-url }}" alt="{{ img-alt }}" width="100%" class="{{ include.class }}">
+        {%- endif %}
+      </div>
+      {%- if include.footnote %}
+      <div class="modal-footer">
+        {% include.footnote %}
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+</div>

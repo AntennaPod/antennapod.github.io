@@ -1,0 +1,25 @@
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(function () {
+   $(document).on('shown.bs.tooltip', function (e) {
+      setTimeout(function () {
+        $(e.target).tooltip('hide');
+      }, 1000);
+   });
+});
+</script>
+
+<div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        {% tf general/events-add-calendar-modal.md %}
+      </div>
+      <div class="modal-footer">
+        footnote
+      </div>
+    </div>
+  </div>
+</div>
