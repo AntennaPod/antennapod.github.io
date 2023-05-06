@@ -1,6 +1,6 @@
 ---
 title: Welcome Home! 🏠 Introducing AntennaPod’s new default screen
-excerpt: Let's show you your new home - one of the main new features in AntennaPod 3.0.
+excerpt: Let's show you your new home — one of the main new features in AntennaPod 3.0.
 date: "2023-05-08 08:20:00"
 image: "2023/v3-home.jpg"
 author: loucasal
@@ -8,6 +8,7 @@ layout: blog
 guid: 2QUY-1288-Q8NP-HU3N-PSBY
 ---
 
+{: .lead}
 One of the biggest new features in AntennaPod 3.0 (available now on [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) and [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/)) is the Home screen. It introduces a new way to get a quick overview, start listening and perform a range of actions. Which, in turn, allows you to enjoy the app without opening the menu to navigate between different screens.
 
 ## Personalising the app experience
@@ -30,8 +31,8 @@ The Home screen currently contains five sections, each of which displays episode
    alt="Visual explainer of the Home screen features."
    loc="/assets/images/blog/2023"
    file="Home-screen-showcase.png"
-   width="30%"
-   class="rounded float-right ml-3"
+   max-width="22rem"
+   class="float-md-right ml-md-3 w-100"
 %}
 
 ## Configuring your Home screen to best suit your needs
