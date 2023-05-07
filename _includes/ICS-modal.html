@@ -1,16 +1,3 @@
-<script type="text/javascript">
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-$(function () {
-   $(document).on('shown.bs.tooltip', function (e) {
-      setTimeout(function () {
-        $(e.target).tooltip('hide');
-      }, 1000);
-   });
-});
-</script>
-
 <div class="modal fade" id="icsModal" tabindex="-1" role="dialog" aria-labelledby="icsModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
