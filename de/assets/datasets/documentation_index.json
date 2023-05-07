@@ -135,6 +135,13 @@
   
     
     {
+      "title"    : "Updates on F-Droid",
+      "url"      : "/de/documentation/general/f-droid",
+      "content"  : "Updates on F-DroidAfter a new version of AntennaPod gets released, we often are asked when it will be available on F-Droid. We can’t give an exact answer — it usually takes a few days.Getting a new version on F-Droid involves the following steps:  After we create a release, F-Droid needs to detect that something in AntennaPod changed. For this, F-Droid runs an update checker server about every 2 days.  After F-Droid detects that there is a new AntennaPod release, it builds the app. With this, F-Droid makes sure that the app you download really matches the source code that AntennaPod publishes. Because there are many apps to build, the F-Droid server takes an additional 1-2 days to build the app.  Finally, the resulting app needs to get signed cryptographically. This happens on a computer that is not connected to the internet. A person at F-Droid needs to take the app and physically walk it to that special computer. How long this takes depends on how often the person walks to that special computer. Usually, this step takes an additional 1-2 days after the app was built.As you can see it can easily take a week before a new AntennaPod release is available on F-Droid, so please be patient. If an update is still not available more than a week after its release, feel free to let us know by creating a post on our forum, and we’ll investigate it.You can get an idea of the progress by checking if F-Droid’s releases list was updated since the new AntennaPod release and by checking on F-Droid Monitor if the new release was built yet."
+    } ,
+  
+    
+    {
       "title"    : "Daten durch einen Proxy oder Tor leiten",
       "url"      : "/de/documentation/general/proxy",
       "content"  : "Daten durch einen Proxy oder Tor leitenEs ist möglich, AntennaPod den gesamten Datenverkehr (Mediendateien, Titelbilder,RSS- und Suchanfragen) über einen Proxy oder das Tor-Netzwerk leiten zu lassen.Dies kann potenziell zwei Vorteile bieten:  Datenschutz: Je nach Art des Proxy-Dienstes kann deinDownload-/Streaming-Verhalten vor Podcast-Hosts geschützt werden  Zugang: Wenn ein Podcast-Host das Herunterladen von Inhalten aus dem Auslandverhindert (auf der Grundlage der IP-Adresse), kannst du durch Einrichtungeines Proxys mit dem Herkunftsland dennoch auf die Inhalte zugreifenDu findest diese Option unter Einstellungen » Netzwerk » Proxy.Um den gesamten Datenverkehr über das Tor-Netzwerk zu leiten, musst du eineProxy-App für Tor installieren und die folgenden Daten in AntennaPod eintragen:  Typ: SOCKS  Host: „localhost“ oder „127.0.0.1“  Port: „9050“"
