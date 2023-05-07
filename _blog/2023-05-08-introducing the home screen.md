@@ -9,7 +9,7 @@ guid: 2QUY-1288-Q8NP-HU3N-PSBY
 ---
 
 {: .lead}
-One of the biggest new features in AntennaPod 3.0 (available now on [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) and [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/)) is the Home screen. It introduces a new way to get a quick overview, start listening and perform a range of actions. Which, in turn, allows you to enjoy the app without opening the menu to navigate between different screens.
+One of the biggest new features in AntennaPod 3.0 (available now on [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) and soon on [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/)) is the Home screen. It introduces a new way to get a quick overview, start listening and perform a range of actions. Which, in turn, allows you to enjoy the app without opening the menu to navigate between different screens.
 
 ## Personalising the app experience
 
