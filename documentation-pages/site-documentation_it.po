@@ -1278,94 +1278,92 @@ msgstr "sincronizzare"
 
 #: _i18n/en/documentation/general/synchronization.md:block 13 (paragraph)
 msgid ""
-"AntennaPod currently supports two synchronization options: via [gpodder.net]"
-"(https://gpodder.net/) and the [gPodder Sync app for Nextcloud](https://apps."
-"nextcloud.com/apps/gpoddersync)."
+"AntennaPod can synchronise your subscriptions and listening progress with "
+"other AntennaPod installations as well as other (desktop) apps. To set up "
+"synchronisation, you need a server - the central point through which your "
+"data is shared with other devices. You have several options for this:"
 msgstr ""
-"AntennaPod attualmente supporta due opzioni di sincronizzazione: tramite "
-"[gpodder.net](https://gpodder.net/) e l'[app gPodder Sync per Nextcloud]"
-"(https://apps.nextcloud.com/apps/gpoddersync)."
 
-#: _i18n/en/documentation/general/synchronization.md:block 14 (paragraph)
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
-"On gpodder.net anyone can create an account relatively easily and the "
-"service is free to use. Unfortunately the service has large numbers of "
-"users, limited funding and a lack of volunteer contributions. This means the "
-"server often is overloaded, leading to errors in AntennaPod. If possible, we "
-"therefore recommend that you use an existing account on a Nextcloud instance "
-"or start self-hosting either gpodder.net or Nextcloud."
+"[gpodder.net](https://gpodder.net/) provides a free gPodder synchronization "
+"server that **anyone can sign up** for. Unfortunately, due to the popularity "
+"of the service and its limited funding, this server is often overloaded, "
+"leading to errors in AntennaPod."
 msgstr ""
-"Su gpodder.net chiunque può creare un account con relativa facilità e il "
-"servizio è gratuito. Purtroppo il servizio ha un gran numero di utenti, "
-"fondi limitati e pochi volontari che contribuiscono. Questo significa che il "
-"server è spesso sovraccarico, il che dà luogo ad errori in AntennaPod. Se "
-"possibile, si consiglia quindi di utilizzare un account esistente su "
-"un'istanza di Nextcloud o di iniziare a fare self-hosting di gpodder.net o "
-"Nextcloud."
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid ""
+"More technically inclined users are strongly encouraged to **self-host a "
+"synchronization server**. A self-hosted server is more reliable and helps "
+"reduce the load on free, public services. There are several options: "
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
+"[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) "
+"server, or the [Micro GPodder server](https://github.com/bohwaz/micro-"
+"gpodder-server)."
+msgstr ""
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (header)
-msgid "gPodder Sync app for Nextcloud"
-msgstr "app gPodder Sync per Nextcloud"
+msgid "Enable synchronization via Nextcloud"
+msgstr ""
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (paragraph)
+#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
-"server admin to do so. Once that is installed, simply go to `Settings` » "
-"`Synchronization` in AntennaPod, choose the relevant provider and enter the "
-"server address."
+"server admin to do so"
 msgstr ""
-"Se hai un account Nextcloud, installa l'applicazione gPodder Sync o chiedi "
-"al tuo amministratore del server di farlo. Una volta che questa è "
-"installata, vai semplicemente su `Impostazioni` » ` Sincronizzazione` in "
-"AntennaPod, scegli il relativo provider e inserisci l'indirizzo del server."
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+msgid ""
+"Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
+"synchronization provider`"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+msgid "Select 'Nextcloud'"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+msgid ""
+"Enter the 'Server address' (the URL or IP address of the server) and tap "
+"`Proceed`"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+msgid "Log in on the browser window that opens and authorize AntennaPod"
+msgstr ""
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (header)
-msgid "gpodder.net & your own gpodder server"
-msgstr "gpodder.net e il tuo server gpodder"
+msgid "Enable synchronization via gPodder"
+msgstr ""
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (unordered list)
-msgid "Create an account on gpodder.net or log in if you have one already."
+#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#, fuzzy
+msgid "Create an account on the server www.gpodder.net or on your own server"
 msgstr "Crea un account su gpodder.net o accedi se ne hai già uno."
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (unordered list)
-msgid ""
-"After you created the account, we suggest to create a device on gpodder.net/"
-"devices/ for each client that you use:"
-msgstr ""
-"Dopo aver creato l'account, ti suggeriamo di creare un dispositivo su "
-"gpodder.net/devices/ per ogni client che usi:"
-
-#: _i18n/en/documentation/general/synchronization.md:block 18 (unordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#, fuzzy
 msgid ""
 "When you have added the devices to your account, link them using the "
 "\"Configure\" button. This way, gpodder.net automatically keeps the "
-"subscriptions of the activated devices synchronized."
+"activated devices synchronized."
 msgstr ""
 "Quando hai aggiunto i dispositivi al tuo account, collegali usando il "
 "pulsante \"Configura\". In questo modo, gpodder.net mantiene automaticamente "
 "sincronizzati gli abbonamenti dei dispositivi attivati."
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (unordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 21 (paragraph)
+#, fuzzy
 msgid ""
-"Then go to AntennaPod's `Settings` » `Synchronization`. There you can log in "
-"to gpodder.net or even provide an alternative server if you want to host it "
-"yourself. During login, AntennaPod asks what device you are currently logged "
-"into. Select your newly created device."
-msgstr ""
-"Poi in AntennaPod vai su `Impostazioni` » `Sincronizzazione`. Lì puoi "
-"accedere a gpodder.net o anche fornire un server alternativo se vuoi "
-"ospitarlo tu stesso. Durante il login, AntennaPod chiede a quale dispositivo "
-"sei attualmente connesso. Seleziona il dispositivo che hai appena creato."
-
-#: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
-msgid ""
-"*Did you create a device while logging in, rather than in advance as "
-"suggested above?* Then be sure to press the `Force sync` button in "
-"AntennaPod to upload the played state of all the episodes you listened to "
-"earlier. If you don't do this, only podcasts that were added **after** "
-"linking the devices are synchronized. There is an [open issue for gpodder."
-"net](https://github.com/gpodder/mygpo/issues/388) that requests to change "
-"the behavior."
+"**NOTE:** Did you create a device while setting up synchronisation in "
+"AntennaPod, rather creating a device in advance on the website? Then be sure "
+"to press the `Force sync` button upload the played state of all previously "
+"listened to episodes. If you don't do this, only podcasts that were added "
+"**after** linking the devices will be synchronized. There is an [open issue "
+"for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests "
+"to change the behavior."
 msgstr ""
 "*Hai creato un dispositivo al momento dell'accesso invece che in anticipo "
 "come suggerito sopra?* Allora assicurati di premere il pulsante `Forza "
@@ -2066,6 +2064,68 @@ msgstr "Tocca `l'icona dell'ingranaggio` per accedere alle sue impostazioni"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleziona l'opzione `Tag`"
+
+#~ msgid ""
+#~ "AntennaPod currently supports two synchronization options: via [gpodder."
+#~ "net](https://gpodder.net/) and the [gPodder Sync app for Nextcloud]"
+#~ "(https://apps.nextcloud.com/apps/gpoddersync)."
+#~ msgstr ""
+#~ "AntennaPod attualmente supporta due opzioni di sincronizzazione: tramite "
+#~ "[gpodder.net](https://gpodder.net/) e l'[app gPodder Sync per Nextcloud]"
+#~ "(https://apps.nextcloud.com/apps/gpoddersync)."
+
+#~ msgid ""
+#~ "On gpodder.net anyone can create an account relatively easily and the "
+#~ "service is free to use. Unfortunately the service has large numbers of "
+#~ "users, limited funding and a lack of volunteer contributions. This means "
+#~ "the server often is overloaded, leading to errors in AntennaPod. If "
+#~ "possible, we therefore recommend that you use an existing account on a "
+#~ "Nextcloud instance or start self-hosting either gpodder.net or Nextcloud."
+#~ msgstr ""
+#~ "Su gpodder.net chiunque può creare un account con relativa facilità e il "
+#~ "servizio è gratuito. Purtroppo il servizio ha un gran numero di utenti, "
+#~ "fondi limitati e pochi volontari che contribuiscono. Questo significa che "
+#~ "il server è spesso sovraccarico, il che dà luogo ad errori in AntennaPod. "
+#~ "Se possibile, si consiglia quindi di utilizzare un account esistente su "
+#~ "un'istanza di Nextcloud o di iniziare a fare self-hosting di gpodder.net "
+#~ "o Nextcloud."
+
+#~ msgid "gPodder Sync app for Nextcloud"
+#~ msgstr "app gPodder Sync per Nextcloud"
+
+#~ msgid ""
+#~ "If you have a Nextcloud account, install the gPodder Sync app or ask your "
+#~ "server admin to do so. Once that is installed, simply go to `Settings` » "
+#~ "`Synchronization` in AntennaPod, choose the relevant provider and enter "
+#~ "the server address."
+#~ msgstr ""
+#~ "Se hai un account Nextcloud, installa l'applicazione gPodder Sync o "
+#~ "chiedi al tuo amministratore del server di farlo. Una volta che questa è "
+#~ "installata, vai semplicemente su `Impostazioni` » ` Sincronizzazione` in "
+#~ "AntennaPod, scegli il relativo provider e inserisci l'indirizzo del "
+#~ "server."
+
+#~ msgid "gpodder.net & your own gpodder server"
+#~ msgstr "gpodder.net e il tuo server gpodder"
+
+#~ msgid ""
+#~ "After you created the account, we suggest to create a device on gpodder."
+#~ "net/devices/ for each client that you use:"
+#~ msgstr ""
+#~ "Dopo aver creato l'account, ti suggeriamo di creare un dispositivo su "
+#~ "gpodder.net/devices/ per ogni client che usi:"
+
+#~ msgid ""
+#~ "Then go to AntennaPod's `Settings` » `Synchronization`. There you can log "
+#~ "in to gpodder.net or even provide an alternative server if you want to "
+#~ "host it yourself. During login, AntennaPod asks what device you are "
+#~ "currently logged into. Select your newly created device."
+#~ msgstr ""
+#~ "Poi in AntennaPod vai su `Impostazioni` » `Sincronizzazione`. Lì puoi "
+#~ "accedere a gpodder.net o anche fornire un server alternativo se vuoi "
+#~ "ospitarlo tu stesso. Durante il login, AntennaPod chiede a quale "
+#~ "dispositivo sei attualmente connesso. Seleziona il dispositivo che hai "
+#~ "appena creato."
 
 #~ msgid ""
 #~ "The official versions of AntennaPod are completely ad-free and open "
