@@ -45,7 +45,9 @@
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
   <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
 
 </head>
 <body>
@@ -252,73 +254,23 @@
                   Mai 29, 2020
                 </p>
                 <div class="inline-flex">
-
-        
-
-   <p class="size-14 color-gray-900 mb-0 mr-2">Partager</p>
-    <button class="copy-link" aria-label="Copier dans le presse-papiers" onclick="copyUrl();" title="Copier dans le presse-papiers"><span data-tooltip="Lien copié !" data-flow="top">
-    <i class="fas fa-link color-gray-600 size-20 mr-2"></i></span></button>
-    <a aria-label="Partager sur Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2020/05/supporting-old-android-versions" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Partager sur Facebook">
-    <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
-    </a>
-    <a aria-label="Partager sur Mastodon" href="#" onclick="share_on_mastodon();" title="Partager sur Mastodon">
-    <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
-    </a>
-    <a aria-label="Partager sur Twitter" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2020/05/supporting-old-android-versions&amp;hashtags=" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Partager sur Twitter">
-    <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
-    </a>
-    <a aria-label="Partager par e-mail" href="mailto:?subject=Je%20voulais%20que%20tu%20vois%20%C3%A7a&amp;body=Je%20voulais%20que%20tu%20vois%20%C3%A7a%20https://antennapod.org/blog/2020/05/supporting-old-android-versions" title="Partager par e-mail">
-        <i class="fas fa-envelope size-20 color-gray-600"></i>
-    </a>
+  <p class="size-14 color-gray-900 mb-0 mr-2">Partager</p>
+  <button title="Copier dans le presse-papiers" class="copy-link" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-selector="true" data-title="Lien copié !" value="https://antennapod.org/blog/2020/05/supporting-old-android-versions">
+      <i class="fas fa-link color-gray-600 size-20 mr-2"></i>
+  </button>
+  <a title="Partager sur Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2020/05/supporting-old-android-versions" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+  </a>
+  <a title="Partager sur Mastodon" href="#" onclick="share_on_mastodon();">
+      <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+  </a>
+  <a title="Partager sur Twitter" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2020/05/supporting-old-android-versions&amp;hashtags=&amp;via=AntennaPod" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
+      <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+  </a>
+  <a title="Partager par e-mail" href="mailto:?subject=Je%20voulais%20que%20tu%20vois%20%C3%A7a&amp;body=Je%20voulais%20que%20tu%20vois%20%C3%A7a%20https://antennapod.org/blog/2020/05/supporting-old-android-versions">
+      <i class="fas fa-envelope size-20 color-gray-600"></i>
+  </a>
 </div>
-
-<script>
-  // The actual function. Set this as an onclick function for your "Share on Mastodon" button
-  function share_on_mastodon() {
-          // Prefill the form with the user's previously-specified Mastodon instance, if applicable
-          var default_url = localStorage['mastodon_instance']; 
-  
-          // If there is no cached instance/domain, then insert a "https://" with no domain at the start of the prompt. 
-          if (!default_url)
-                  default_url = "https://"; 
-  
-          var instance = prompt("Saisissez l'adresse de votre instance : (par ex. https://mastodon.social)", default_url);
-          if (instance) { 
-                  // Handle URL formats
-                  if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
-                          instance = "https://" + instance;  
-  
-                  // Get the current page's URL
-                  var url   = window.location.href;
-          
-                  // Get the page title from the og:title meta tag, if it exists.
-                  var title = document.querySelectorAll('meta[property="og:title"]')[0].getAttribute("content"); 
-          
-                  // Otherwise, use the <title> tag as the title
-                  if (!title)    var title = document.getElementsByTagName("title")[0].innerHTML;
-          
-                  // Handle slash
-                  if ( !instance.endsWith("/") )
-                          instance = instance + "/"; 
-  
-                  // Cache the instance/domain for future requests
-                  localStorage['mastodon_instance'] = instance; 
-  
-                  // Hashtags 
-                  hashtags     =  "";
-  
-                  // Tagging users, such as offical accounts or the author of the post 
-                  var author   = "ByteHamster"; 
-  
-                  // Create the Share URL
-                  // https://someinstance.tld/share?text=URL%20encoded%20text
-                  mastodon_url = instance + "share?text=" + encodeURIComponent(title + "\n\n" + url + "\n\n" + hashtags + " " + author);
-  
-                  // Open a new window at the share location   
-                  window.open(mastodon_url, '_blank');
-          }
-  }
-  </script>
 
               </div>
             </header>

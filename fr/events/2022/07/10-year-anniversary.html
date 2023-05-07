@@ -45,7 +45,9 @@
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
   <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
 
   </head>
   <body>
@@ -281,19 +283,6 @@
     </div>
   </div>
 </div>
-
-<script type="text/javascript">
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-$(function () {
-   $(document).on('shown.bs.tooltip', function (e) {
-      setTimeout(function () {
-        $(e.target).tooltip('hide');
-      }, 1000);
-   });
-});
-</script>
 
 <div class="modal fade" id="icsModal" tabindex="-1" role="dialog" aria-labelledby="icsModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">

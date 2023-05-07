@@ -45,7 +45,9 @@
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
   <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
 
 </head>
 <body>
@@ -252,73 +254,23 @@
                   Okt 27, 2022
                 </p>
                 <div class="inline-flex">
-
-        
-
-   <p class="size-14 color-gray-900 mb-0 mr-2">Teilen</p>
-    <button class="copy-link" aria-label="In die Zwischenablage kopieren" onclick="copyUrl();" title="In die Zwischenablage kopieren"><span data-tooltip="Link kopiert!" data-flow="top">
-    <i class="fas fa-link color-gray-600 size-20 mr-2"></i></span></button>
-    <a aria-label="Auf Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2022/10/translations-coordinator" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Auf Facebook teilen">
-    <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
-    </a>
-    <a aria-label="Auf Mastodon teilen" href="#" onclick="share_on_mastodon();" title="Auf Mastodon teilen">
-    <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
-    </a>
-    <a aria-label="Auf Twitter teilen" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2022/10/translations-coordinator&amp;hashtags=" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;" title="Auf Twitter teilen">
-    <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
-    </a>
-    <a aria-label="Per E-Mail teilen" href="mailto:?subject=Schau%20dir%20das%20an&amp;body=Schau%20dir%20das%20an%20https://antennapod.org/blog/2022/10/translations-coordinator" title="Per E-Mail teilen">
-        <i class="fas fa-envelope size-20 color-gray-600"></i>
-    </a>
+  <p class="size-14 color-gray-900 mb-0 mr-2">Teilen</p>
+  <button title="In die Zwischenablage kopieren" class="copy-link" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-selector="true" data-title="Link kopiert!" value="https://antennapod.org/blog/2022/10/translations-coordinator">
+      <i class="fas fa-link color-gray-600 size-20 mr-2"></i>
+  </button>
+  <a title="Auf Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2022/10/translations-coordinator" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+  </a>
+  <a title="Auf Mastodon teilen" href="#" onclick="share_on_mastodon();">
+      <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+  </a>
+  <a title="Auf Twitter teilen" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2022/10/translations-coordinator&amp;hashtags=&amp;via=AntennaPod" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
+      <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+  </a>
+  <a title="Per E-Mail teilen" href="mailto:?subject=Schau%20dir%20das%20an&amp;body=Schau%20dir%20das%20an%20https://antennapod.org/blog/2022/10/translations-coordinator">
+      <i class="fas fa-envelope size-20 color-gray-600"></i>
+  </a>
 </div>
-
-<script>
-  // The actual function. Set this as an onclick function for your "Share on Mastodon" button
-  function share_on_mastodon() {
-          // Prefill the form with the user's previously-specified Mastodon instance, if applicable
-          var default_url = localStorage['mastodon_instance']; 
-  
-          // If there is no cached instance/domain, then insert a "https://" with no domain at the start of the prompt. 
-          if (!default_url)
-                  default_url = "https://"; 
-  
-          var instance = prompt("Gib die Adresse deiner Instanz ein: (z. B. https://mastodon.social)", default_url);
-          if (instance) { 
-                  // Handle URL formats
-                  if ( !instance.startsWith("https://") && !instance.startsWith("http://") )
-                          instance = "https://" + instance;  
-  
-                  // Get the current page's URL
-                  var url   = window.location.href;
-          
-                  // Get the page title from the og:title meta tag, if it exists.
-                  var title = document.querySelectorAll('meta[property="og:title"]')[0].getAttribute("content"); 
-          
-                  // Otherwise, use the <title> tag as the title
-                  if (!title)    var title = document.getElementsByTagName("title")[0].innerHTML;
-          
-                  // Handle slash
-                  if ( !instance.endsWith("/") )
-                          instance = instance + "/"; 
-  
-                  // Cache the instance/domain for future requests
-                  localStorage['mastodon_instance'] = instance; 
-  
-                  // Hashtags 
-                  hashtags     =  "";
-  
-                  // Tagging users, such as offical accounts or the author of the post 
-                  var author   = "Keunes"; 
-  
-                  // Create the Share URL
-                  // https://someinstance.tld/share?text=URL%20encoded%20text
-                  mastodon_url = instance + "share?text=" + encodeURIComponent(title + "\n\n" + url + "\n\n" + hashtags + " " + author);
-  
-                  // Open a new window at the share location   
-                  window.open(mastodon_url, '_blank');
-          }
-  }
-  </script>
 
               </div>
             </header>
