@@ -3,7 +3,7 @@ title: documentation.categories.podcasters-hosters.title
 layout: doc
 level: "1"
 group: "podcasters-hosters"
-icon: "fas fa-microphone-alt"
+icon: "fa-solid fa-microphone-lines"
 order: "80"
 ---
 

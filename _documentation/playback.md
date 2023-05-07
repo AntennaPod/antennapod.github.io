@@ -3,7 +3,7 @@ title: documentation.categories.playback.title
 layout: doc
 level: "1"
 group: "playback"
-icon: "fas fa-play"
+icon: "fa-solid fa-play"
 order: "30"
 ---
 

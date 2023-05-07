@@ -3,7 +3,7 @@ title: documentation.categories.queue.lock
 layout: doc
 level: "2"
 group: "queue"
-icon: "fas fa-lock"
+icon: "fa-solid fa-lock"
 ---
 
 # {% t {{ page.title }} %}

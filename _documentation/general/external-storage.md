@@ -3,7 +3,7 @@ title: documentation.categories.general.external-storage
 layout: doc
 level: "2"
 group: "general"
-icon: "fas fa-hdd"
+icon: "fa-solid fa-hard-drive"
 ---
 
 # {% t {{ page.title }} %}

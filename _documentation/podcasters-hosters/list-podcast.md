@@ -3,7 +3,7 @@ title: documentation.categories.podcasters-hosters.list-podcast
 layout: doc
 level: "2"
 group: "podcasters-hosters"
-icon: "fas fa-plus"
+icon: "fa-solid fa-plus"
 ---
 
 # {% t {{ page.title }} %}

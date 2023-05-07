@@ -2,20 +2,20 @@
   {%- assign author = site.data.authors[page.author] %}
   <p class="size-14 color-gray-900 mb-0 mr-2">{% t generic.share %}</p>
   <button title="{% t generic.accessibility.copy %}" class="copy-link" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-selector="true" data-title="{% t generic.accessibility.copied %}" value="{{ site.url }}{{ page.url | replace: '.html', '' }}">
-      <i class="fas fa-link color-gray-600 size-20 mr-2"></i>
+      <i class="fa-solid fa-link color-gray-600 size-20 mr-2"></i>
   </button>
   <a title="{% t generic.accessibility.share-fb %}" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | replace: '.html', '' }}"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-      <i class="fab fa-facebook color-gray-600 size-20 mr-2"></i>
+      <i class="fa-brands fa-facebook color-gray-600 size-20 mr-2"></i>
   </a>
   <a title="{% t generic.accessibility.share-md %}" href="#" onclick="share_on_mastodon();">
-      <i class="fab fa-mastodon size-20 color-gray-600 mr-2"></i>
+      <i class="fa-brands fa-mastodon size-20 color-gray-600 mr-2"></i>
   </a>
   <a title="{% t generic.accessibility.share-tw %}" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url | replace: '.html', '' }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}&via=AntennaPod"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
-      <i class="fab fa-twitter size-20 color-gray-600 mr-2"></i>
+      <i class="fa-brands fa-twitter size-20 color-gray-600 mr-2"></i>
   </a>
   <a title="{% t generic.accessibility.share-eml %}" href="mailto:?subject={% t generic.eml-share.subject %}&amp;body={% t generic.eml-share.subject %} {{ site.url }}{{ page.url | replace: '.html', '' }}">
-      <i class="fas fa-envelope size-20 color-gray-600"></i>
+      <i class="fa-solid fa-envelope size-20 color-gray-600"></i>
   </a>
 </div>

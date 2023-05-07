@@ -3,7 +3,7 @@ title: documentation.categories.bugs-first-aid.cannot-stream-download
 layout: doc
 level: "2"
 group: "bugs-first-aid"
-icon: "fas fa-microphone-slash"
+icon: "fa-solid fa-microphone-slash"
 order: 10
 ---
 

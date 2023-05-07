@@ -3,7 +3,7 @@ title: documentation.categories.bugs-first-aid.playback-stops
 layout: doc
 level: "2"
 group: "bugs-first-aid"
-icon: "fas fa-stop-circle"
+icon: "fa-solid fa-circle-stop"
 order: 05
 ---
 
