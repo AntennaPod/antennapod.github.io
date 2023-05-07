@@ -10022,10 +10022,9 @@ blockquote {
 }
 
 .post-content p, .post-content li {
-  font-size: 14px;
   color: #1a202c;
   margin-bottom: 0px;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 .post-content p + p {
   margin-top: 20px;
@@ -10034,7 +10033,7 @@ blockquote {
   max-width: 100%;
 }
 .post-content p img {
-  padding: 15px 0 0;
+  margin: 0.5rem 0 0;
 }
 .post-content blockquote p {
   color: #22543d;
@@ -10049,13 +10048,38 @@ blockquote {
   text-align: center;
 }
 .post-content h1,
+.post-content .h1,
 .post-content h2,
+.post-content .h2,
 .post-content h3,
+.post-content .h3,
 .post-content h4,
+.post-content .h4,
 .post-content h5,
-.post-content h6 {
-  color: #4a5568;
+.post-content .h5,
+.post-content h6,
+.post-content .h6 {
   font-weight: 700;
+}
+.post-content .h2,
+.post-content h2 {
+  margin-top: 1.4rem;
+}
+.post-content .h3,
+.post-content h3 {
+  margin-top: 1.3rem;
+}
+.post-content .h4,
+.post-content h4 {
+  margin-top: 1.2rem;
+}
+.post-content .h5,
+.post-content h5 {
+  margin-top: 1.1rem;
+}
+.post-content .h6,
+.post-content h6 {
+  margin-top: 1rem;
 }
 .post-content img[alt$=" > "] {
   float: right;
@@ -10373,8 +10397,9 @@ i.member-img {
     border-radius: 10px 10px 0px 0px;
   }
 }
-.post-content ul, .modal-body ul {
+.post-content ul, .post-content ol, .modal-body ul, .modal-body ol {
   padding: 0;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 .post-content li, .modal-body li {

@@ -269,16 +269,43 @@
   <li>
     <p>After you created the account, we suggest to create a device on gpodder.net/devices/ for each client that you use:
 
-<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" width="" class=""></p>
+<br><a href="" data-toggle="modal" data-target="#imgModalgpodder-devicespng">
+<img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" class="rounded "></a></p>
   </li>
-  <li>
-    <p>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of the activated devices synchronized.
+</ul>
 
-<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" width="" class=""></p>
-  </li>
-  <li>
-    <p>Then go to AntennaPod’s <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code>. There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.</p>
-  </li>
+<div class="modal fade" id="imgModalgpodder-devicespng" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content rounded">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem;">
+          <i class="fas fa-times-circle"></i>
+        </button>
+        <img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" width="100%" class="rounded">
+    </div>
+  </div>
+</div>
+
+<ul>
+  <li>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the subscriptions of the activated devices synchronized.
+
+<br><a href="" data-toggle="modal" data-target="#imgModalgpodder-synchronizepng">
+<img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" class="rounded "></a>
+</li>
+</ul>
+
+<div class="modal fade" id="imgModalgpodder-synchronizepng" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content rounded">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem;">
+          <i class="fas fa-times-circle"></i>
+        </button>
+        <img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" width="100%" class="rounded">
+    </div>
+  </div>
+</div>
+
+<ul>
+  <li>Then go to AntennaPod’s <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code>. There you can log in to gpodder.net or even provide an alternative server if you want to host it yourself. During login, AntennaPod asks what device you are currently logged into. Select your newly created device.</li>
 </ul>
 
 <p><em>Did you create a device while logging in, rather than in advance as suggested above?</em> Then be sure to press the <code class="language-plaintext highlighter-rouge">Force sync</code> button in AntennaPod to upload the played state of all the episodes you listened to earlier. If you don’t do this, only podcasts that were added <strong>after</strong> linking the devices are synchronized. There is an <a href="https://github.com/gpodder/mygpo/issues/388">open issue for gpodder.net</a> that requests to change the behavior.</p>
