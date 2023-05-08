@@ -37,6 +37,9 @@ collections:
   events:
     output: true
     permalink: /events/:year/:month/:title
+  press-releases:
+    output: true
+    permalink: /media-branding/press-releases/:year/:month/:title
 
 defaults:
   - scope:
@@ -49,6 +52,11 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  - scope:
+      path: ""
+      type: "press-releases"
+    values:
+      layout: "press-release"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
