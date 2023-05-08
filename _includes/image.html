@@ -2,6 +2,7 @@
 {%- capture english-url %}{{ include.loc }}/en/{{ include.file }}{% endcapture %}
 {%- capture single-url %}{{ include.loc }}/{{ include.file }}{% endcapture %}
 {%- assign img-alt = include.alt | remove:'<!-- mdpo-enable-next-line -->' | strip %}
+{%- assign img-url = include.url %}
 
 {%- for file in site.static_files %}
    {%- if file.path == native-url %}
@@ -21,7 +22,7 @@
    {%- endif %}
 {%- endcapture -%}
 
-<a href="" data-toggle="modal" data-target="#imgModal{{ include.file | remove:'.' }}">
+<a href="{{ include.url }}" data-toggle="modal" data-target="#imgModal{{ include.file | remove:'.' }}">
   <img src="{{ url }}" alt="{{ img-alt }}"
     {%- if include.width %} width="{{ include.width }}"{% endif %}
     {%- if include.max-width %} style="max-width:{{ include.max-width }};"{% endif %}
