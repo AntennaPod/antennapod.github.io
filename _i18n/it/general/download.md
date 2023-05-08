@@ -1,26 +1,39 @@
-{% capture img-GP %} {% include image.html alt="
+<!-- mdpo-disable -->
 
+{% capture img-GP %}
+{% include image.html
+   alt="
+       <!-- mdpo-enable-next-line -->
        Scaricala da Google Play
 
        "
+   url="https://play.google.com/store/apps/details?id=de.danoeh.antennapod"
+   loc="/assets/images/badges"
+   file="get-it-on-google-play.png"
+   width="170"
+%}
+{% endcapture %}
 
-loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" %} {%
-endcapture %}
-
-{% capture img-FD %} {% include image.html alt="
-
+{% capture img-FD %}
+{% include image.html
+   alt="
+       <!-- mdpo-enable-next-line -->
        Scaricala da F-Droid
 
        "
+   url="https://f-droid.org/packages/de.danoeh.antennapod/"
+   loc="/assets/images/badges"
+   file="get-it-on-fdroid.png"
+   width="170"
+%}
+{% endcapture %}
 
-loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" %} {%
-endcapture %}
+<!-- mdpo-enable -->
 
 Le versioni ufficiali di AntennaPod sono disponibili su Google Play e F-Droid:
 
-[{{ img-GP | strip }}](https://play.google.com/store/apps/details?
-id=de.danoeh.antennapod) [{{ img-FD |
-strip }}](https://f-droid.org/packages/de.danoeh.antennapod/)
+<!-- mdpo-disable-next-line -->
+{{ img-GP | strip }} {{ img-FD | strip }}
 
 AntennaPod è pubblicato ufficialmente solo su questi due app store perché non
 abbiamo il tempo di supportarne altri. Tutti gli altri store che hanno in
