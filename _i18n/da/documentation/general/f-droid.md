@@ -1,11 +1,31 @@
-After a new version of AntennaPod gets released, we often are asked when it will be available on F-Droid. We can't give an exact answer — it usually takes a few days.
+Når en ny version af AntennaPod udgives, bliver vi ofte spurgt, hvornår den vil
+være tilgængelig på F-Droid. Vi kan ikke give et præcist svar - det tager
+normalt et par dage.
 
-Getting a new version on F-Droid involves the following steps:
+Følg disse trin for at få en ny version på F-Droid:
 
-- After we create a [release](https://github.com/AntennaPod/AntennaPod/releases), F-Droid needs to detect that something in AntennaPod changed. For this, F-Droid runs an update checker server about every 2 days.
-- After F-Droid detects that there is a new AntennaPod release, it builds the app. With this, F-Droid makes sure that the app you download really matches the source code that AntennaPod publishes. Because there are many apps to build, the F-Droid server takes an additional 1-2 days to build the app.
-- Finally, the resulting app needs to get signed cryptographically. This happens on a computer that is not connected to the internet. A person at F-Droid needs to take the app and physically walk it to that special computer. How long this takes depends on how often the person walks to that special computer. Usually, this step takes an additional 1-2 days after the app was built.
+- Når vi har oprettet en
+[udgivelse](https://github.com/AntennaPod/AntennaPod/releases), skal F-Droid
+registrere, at noget i AntennaPod er ændret. Til dette formål kører F-Droid en
+opdateringskontrolserver ca. hver anden dag.
+- Når F-Droid registrerer, at der er en ny AntennaPod-udgave, bygger den appen.
+På den måde sikrer F-Droid sig, at den app, du downloader, virkelig svarer til
+den kildekode, som AntennaPod offentliggør. Da der er mange apps at bygge, tager
+F-Droid-serveren yderligere 1-2 dage om at bygge appen.
+- Endelig skal den resulterende app signeres kryptografisk. Dette sker på en
+computer, der ikke er forbundet til internettet. En person hos F-Droid skal
+tage appen og fysisk gå med den hen til denne særlige computer. Hvor lang tid
+det tager, afhænger af, hvor ofte personen går til den særlige computer. Normalt
+tager dette trin yderligere 1-2 dage efter, at appen er bygget.
 
-As you can see it can easily take a week before a new AntennaPod release is available on F-Droid, so please be patient. If an update is still not available more than a week after its release, feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/), and we'll investigate it.
+Som du kan se, kan det nemt tage en uge, før en ny AntennaPod-udgave er
+tilgængelig på F-Droid, så vær tålmodig. Hvis en opdatering stadig ikke er
+tilgængelig mere end en uge efter udgivelsen, er du velkommen til at fortælle os
+det ved at oprette et indlæg på vores [forum](https://forum.antennapod.org/), så
+undersøger vi det.
 
-You can get an idea of the progress by checking [if F-Droid's releases list was updated](https://gitlab.com/fdroid/fdroiddata/-/commits/master?search=Update+known+apks) since the new AntennaPod release and by checking on [F-Droid Monitor](https://monitor.f-droid.org/builds/build) if the new release was built yet.
+Du kan få en idé om fremskridtene ved at kontrollere [om F-Droids udgivelsesliste
+er blevet opdateret](https://gitlab.com/fdroid/fdroiddata/-/commits/master?
+search=Update+known+apks) siden den nye AntennaPod-udgivelse og ved at
+kontrollere på [F-Droid Monitor](https://monitor.f-droid.org/builds/build) om
+den nye udgave er blevet bygget endnu.

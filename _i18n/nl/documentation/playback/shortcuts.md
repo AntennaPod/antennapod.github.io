@@ -1,8 +1,11 @@
-Als een fysiek toetsenbord ('hardware') is aangesloten op telefoon of tablet, kun je bepaalde sneltoetsen gebruiken om het afspelen in AntennaPod te regelen. Aanpassingen van het volume en dempen (opheffen) worden toegepast op het audiokanaal voor media (en, bijvoorbeeld, niet op die voor notificaties).
+Als een fysiek toetsenbord ('hardware') is aangesloten op telefoon of tablet, kun
+je bepaalde sneltoetsen gebruiken om het afspelen in AntennaPod te regelen.
+Aanpassingen van het volume en dempen (opheffen) worden toegepast op het
+audiokanaal voor media (en, bijvoorbeeld, niet op die voor notificaties).
 
 ### Alle schermen (behalve de videospeler en de instellingen)
 
-| Toets | Resultaat |
+| Toets | Actie |
 | --- | --- |
 | `P` | Afspelen/Pauzeren |
 | `J`/`A`/`,` | Terugspoelen |
@@ -13,7 +16,7 @@ Als een fysiek toetsenbord ('hardware') is aangesloten op telefoon of tablet, ku
 
 ### Videospeler
 
-| Toets | Resultaat |
+| Toets | Actie |
 | --- | --- |
 | `P`/`Spatie` | Afspelen/Pauzeren |
 | `J`/`A`/`,` | Terugspoelen |

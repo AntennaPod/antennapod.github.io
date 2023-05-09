@@ -1,4 +1,8 @@
-Wenn du eine physische (Hardware-)Tastatur an dein Telefon oder Tablet angeschlossen hast, kannst du bestimmte Tastenkombinationen zur Steuerung der Wiedergabe in AntennaPod verwenden. Die Aktionen Lautstärke und (Aufheben der) Stummschaltung wirken sich auf den Audiokanal für Medien aus (und nicht beispielsweise auf den für Benachrichtigungen).
+Wenn du eine physische (Hardware-)Tastatur an dein Telefon oder Tablet
+angeschlossen hast, kannst du bestimmte Tastenkombinationen zur Steuerung der
+Wiedergabe in AntennaPod verwenden. Die Aktionen Lautstärke und (Aufheben der)
+Stummschaltung wirken sich auf den Audiokanal für Medien aus (und nicht
+beispielsweise auf den für Benachrichtigungen).
 
 ### Alle Bildschirme (außer dem Video-Player und den Einstellungen)
 

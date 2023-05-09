@@ -1,4 +1,6 @@
-Si vous disposez d'un clavier physique connecté à votre téléphone ou tablette, vous pouvez utiliser certains raccourcis pour contrôler la lecture dans AntennaPod.
+Si vous disposez d'un clavier physique connecté à votre téléphone ou tablette,
+vous pouvez utiliser certains raccourcis pour contrôler la lecture dans
+AntennaPod.
 
 ### Tous les écrans (sauf le lecteur vidéo et les paramètres)
 

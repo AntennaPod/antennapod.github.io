@@ -12,27 +12,60 @@ loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture %
 
        "
 
-loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcapture %}
+loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {%
+endcapture %}
 
-AntennaPod can synchronise your subscriptions and listening progress with other AntennaPod installations as well as other (desktop) apps. To set up synchronisation, you need a server - the central point through which your data is shared with other devices. You have several options for this:
+AntennaPod puede sincronizar tus suscripciones y el progreso de escucha con otras
+instalaciones de AntennaPod, así como con otras aplicaciones (de escritorio).
+Para configurar la sincronización, necesitas un servidor, el punto central a
+través del cual tus datos se comparten con otros dispositivos. Tienes varias
+opciones para esto:
 
-* [gpodder.net](https://gpodder.net/) provides a free gPodder synchronization server that **anyone can sign up** for. Unfortunately, due to the popularity of the service and its limited funding, this server is often overloaded, leading to errors in AntennaPod.
-* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options: [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) server, or the [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server).
+* [gpodder.net](https://gpodder.net/) ofrece un servidor de sincronización
+gPodder gratuito al que **cualquiera puede unirse**. Desafortunadamente,
+debido a la popularidad del servicio y su financiamiento limitado, este servidor
+a menudo está sobrecargado, lo que genera errores en AntennaPod.
+* Se recomienda encarecidamente a los usuarios más inclinados a la tecnología que
+**autohospeden un servidor de sincronización**. Un servidor autohospedado es
+más confiable y ayuda a reducir la carga de los servicios públicos gratuitos.
+Hay varias opciones:
+[Nextcloud](https://nextcloud.com/install/#instructions-server) con la
+[aplicación gPodder Sync](https://apps.nextcloud.com/apps/gpoddersync), una
+[ gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html), o
+el [servidor Micro GPodder](https://github.com/bohwaz/micro-gpodder-server).
 
-## Enable synchronization via Nextcloud
+## Activa la sincronización a través de Nextcloud
 
-1. If you have a Nextcloud account, install the gPodder Sync app or ask your server admin to do so
-1. Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose synchronization provider`
-1. Select 'Nextcloud'
-1. Enter the 'Server address' (the URL or IP address of the server) and tap `Proceed`
-1. Log in on the browser window that opens and authorize AntennaPod
+1. Si tienes una cuenta de Nextcloud, instala la aplicación gPodder Sync o
+solicita al administrador del servidor que lo haga
+1. Ve a `Configuración` » `Sincronización` en AntennaPod y toca
+`Seleccionar un proveedor de sincronización`
+1. Selecciona 'Nextcloud'
+1. Ingresa la 'Dirección del servidor' (la URL o la dirección IP del servidor) y
+toca 'Proceed'
+1. Inicia sesión en la ventana del navegador que se abre y autoriza a AntennaPod
 
-## Enable synchronization via gPodder
+## Habilitar la sincronización a través de gPodder
 
-1. Create an account on the server www.gpodder.net or on your own server
-1.  When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices | strip }}
-1. When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the activated devices synchronized.
+1. Crea una cuenta en el servidor www.gpodder.net o en tu propio servidor
+1.  When you have an account, log in on the webserver and create a device under
+`Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices
+| strip }}
+1. Cuando hayas agregado los dispositivos a tu cuenta, vincúlalos usando el botón
+"Configurar". De esta forma, gpodder.net mantiene automáticamente
+sincronizados los dispositivos activados.
 
-  <br />{{ img-synchronize | strip }} 4. Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose synchronization provider` 5. Select 'gPodder' 6. Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login` 7. Enter the 'Username' and 'Password' and tap `Log in` 8. Select the device that you created on the server
+  <br />{{ img-synchronize | strip }} 4. Go to `Settings` » `Synchronization` in
+AntennaPod and tap `Choose synchronization provider` 5. Select 'gPodder' 6.
+Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login` 7.
+Enter the 'Username' and 'Password' and tap `Log in` 8. Select the device that
+you created on the server
 
-**NOTE:** Did you create a device while setting up synchronisation in AntennaPod, rather creating a device in advance on the website? Then be sure to press the `Force sync` button upload the played state of all previously listened to episodes. If you don't do this, only podcasts that were added **after** linking the devices will be synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
+**Nota** ¿Creó un dispositivo mientras configuraba la sincronización en
+AntennaPod en lugar de crear un dispositivo de antemano en el sitio web? Así que
+asegúrate de presionar el botón "Forzar sincronización completa" en AntennaPod
+para cargar el modo de reproducción de todos los episodios que escuchó en el
+pasado. Si no haces esto, solo se sincronizarán los podcasts que se agregaron
+**después** de vincular los dispositivos. Hay un [problema abierto para
+gpodder.net](https://github.com/gpodder/mygpo/issues/388) que solicita cambiar
+este comportamiento.

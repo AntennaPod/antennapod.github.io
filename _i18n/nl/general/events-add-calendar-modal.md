@@ -1,3 +1,4 @@
-Always want to have the latest community call dates and times in your calendar? Then copy the URL and add it as a remote calendar in your calendar app.
+Wil je altijd de laatste data en tijden van de community call in je agenda
+hebben? Kopieer dan de URL en voeg deze als externe agenda in je agenda-app.
 
-Hope to see you!
+Tot ziens!

@@ -1,3 +1,5 @@
-Always want to have the latest community call dates and times in your calendar? Then copy the URL and add it as a remote calendar in your calendar app.
+Vuoi avere date e orari aggiornati delle riunioni della comunità sempre nel tuo
+calendario? Copia l'URL e aggiungilo come calendario remoto nella tua
+applicazione calendario.
 
-Hope to see you!
+Speriamo di vederti!

@@ -1,19 +1,56 @@
-The official versions of AntennaPod do not insert any ads. The app is developed by volunteers without commercial interest and the project relies on donations to cover costs. As AntennaPod's [source code](https://github.com/AntennaPod/AntennaPod) and [income and expenses](https://opencollective.com/antennapod#category-BUDGET) are public everyone is free to verify this.
+De officielle versioner af AntennaPod indeholder ingen reklamer. Appen er
+udviklet af frivillige uden kommercielle interesser, og projektet er afhængig af
+donationer for at dække omkostningerne. Da AntennaPods
+[kildekode](https://github.com/AntennaPod/AntennaPod) og [indtægter og
+udgifter](https://opencollective.com/antennapod#category-BUDGET) er offentlige,
+står det enhver frit for at kontrollere dette.
 
-If you are seeing ads, this can have two reasons:
+Hvis du ser annoncer, kan det skyldes to ting:
 
-### 1. You downloaded an unofficial version of AntennaPod
+### 1. Du har downloadet en uofficiel version af AntennaPod
 
-AntennaPod is open-source. This means that anyone can download the source code. Unfortunately, some developers take AntennaPod, insert ads and then publish it as a new app. You can get the official AntennaPod app on [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) and [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). You can even get the latest release from [GitHub](https://github.com/AntennaPod/AntennaPod/) and build AntennaPod yourself!
+AntennaPod er open-source. Det betyder, at alle kan hente kildekoden. Desværre
+tager nogle udviklere AntennaPod, indsætter reklamer og udgiver den derefter som
+en ny app. Du kan få den officielle AntennaPod-app på [Google
+Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) og
+[F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Du kan endda få
+den seneste version på [GitHub](https://github.com/AntennaPod/AntennaPod/) og
+selv bygge AntennaPod!
 
-### 2. The podcast publishers added the ads to their shownotes or audio file
+### 2. Udgiverne af podcasten tilføjede annoncerne til deres afsnitbeskrivelse eller
+lydfil
 
-AntennaPod plays podcasts just like they were published by the creators. If they include ads, AntennaPod plays them. We have nothing to do with those ads, so the revenue fully goes to the publishers of your podcast.
+AntennaPod afspiller podcasts, nøjagtigt som de blev udgivet af skaberne. Hvis de
+indeholder reklamer, afspiller AntennaPod dem. Vi har intet med disse annoncer
+at gøre, så indtægterne går fuldt ud til udgiverne af din podcast.
 
-Now, you might ask something like "But then why is the podcast in English and the ad in German?" or "But why is the podcast episode from 2008 but still promotes a product released in 2023?". The reason is a technique called *dynamic ad insertion*. Podcast publishers can instruct the hosting company to insert those ads. Then, while downloading or streaming the episode with AntennaPod, the media file delivered to AntennaPod gets cut on-the-fly to include the ads. The ads are recent (while the episode might not be) and can be targeted based on the IP address from which you request the media file (e.g. a company in your country). Depending on how smart the hosting company does this, the ads might get inserted right in the middle of a sentence. Some of the hosting companies also mess up the chapter marks while inserting the ads (so the chapters are off by the duration of the ad).
+Nu tænker du måske noget i retning af "Men hvorfor er podcasten så på engelsk og
+annoncen på tysk?" eller "Men hvorfor er podcasten fra 2008, men reklamerer
+stadig for et produkt, der blev udgivet i 2023?". Årsagen er en teknik, der
+hedder *dynamic ad insertion*. Udgivere af podcasts kan bede hostingselskabet om
+at indsætte disse annoncer. Når afsnittet downloades eller streames med
+AntennaPod, bliver mediefilen, der leveres til AntennaPod, redigeret i undervejs
+for at inkludere reklamerne. Annoncerne er nye (mens episoden måske ikke er det)
+og kan målrettes på grundlag af den IP-adresse, hvorfra du anmoder om mediefilen
+(f.eks. en virksomhed i dit land). Afhængigt af hvor smart hostingfirmaet gør
+det, kan reklamerne blive indsat lige midt i en sætning. Nogle af
+hostingselskaberne laver også kludder i kapitelmarkeringerne, når de indsætter
+annoncerne (så kapitlerne er forskudt i forhold til annoncens varighed).
 
-You can always use the fast forward button in AntennaPod to skip the ads. If you are streaming an episode instead of downloading, the hosting company has an idea of how far you are in the podcast. It might be possible that the company detects the fact that you skipped the ad and insert a new one. If you instead download the episode, they cannot do that and you can skip the ads more reliably. (Downloading is also better for your privacy because then the hosting company does not know when you listen to which section of the episode. AntennaPod can be configured to automatically download and later delete episodes, so you don't have to do that manually.)
+Du kan altid bruge knappen til at spole fremad i AntennaPod for at springe
+reklamerne over. Hvis du streamer et afsnit i stedet for at downloade det, har
+hostingfirmaet en idé om, hvor langt du er nået i podcasten. Det kan være
+muligt, at selskabet registrerer, at du har sprunget reklamen over, og indsætter
+en ny reklame. Hvis du i stedet downloader afsnittet, kan de ikke gøre det, og
+du kan mere pålideligt springe annoncerne over. (Det er også bedre for dit
+privatliv, hvis du downloader, fordi hostingfirmaet så ikke ved, hvornår du
+lytter til hvilket afsnit af episoden. AntennaPod kan konfigureres til
+automatisk at downloade og senere slette episoder, så du ikke behøver at gøre
+det manuelt.)
 
-Additionally, many podcast hosts provide an ad-free feed that you can buy. Usually, you then either get a secret podcast feed URL, or alternatively username and password that you can enter in AntennaPod.
+Desuden tilbyder mange podcast-værter et reklamefrit feed, som du kan betale for.
+Normalt får du så enten en hemmelig URL til podcast-feed eller alternativt et
+brugernavn og en adgangskode, som du kan indtaste i AntennaPod.
 
-If you find these ads annoying, consider talking to the podcast publishers about this.
+Hvis du synes, at disse reklamer er irriterende, kan du overveje at tale med
+podcast-udgiverne om dette.

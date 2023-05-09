@@ -1,8 +1,10 @@
-You can use AntennaPod to listen to podcasts in your [Android Auto](https://www.android.com/auto/) enabled car.
+You can use AntennaPod to listen to podcasts in your [Android
+Auto](https://www.android.com/auto/) enabled car.
 
 ### Did you download AntennaPod from **Google Play**?
 
-No further steps are required to use AntennaPod in your car. Just connect your phone and start listening.
+No further steps are required to use AntennaPod in your car. Just connect your
+phone and start listening.
 
 ### Did you download AntennaPod from **F-Droid**?
 
