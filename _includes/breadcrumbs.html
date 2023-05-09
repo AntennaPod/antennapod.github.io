@@ -1,11 +1,14 @@
-<div id="breadcrumbs" class="pb-3">
-    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-    <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">{% t generic.home %}</a>
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0" id="breadcrumbs">
+    <li class="breadcrumb-item"><a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">{% t generic.home %}</a></li>
     {% for crumb in crumbs offset: 1 %}
-      {% if forloop.last %}
-        / {% t page.title %}
-      {% else %}
-        / <a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-      {% endif %}
+    {% if forloop.last %}
+    <li class="breadcrumb-item active" aria-current="page">{% t page.title %}</li>
+    {% else %}
+    <li class="breadcrumb-item"><a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+    {% endif %}
     {% endfor %}
-</div>
+  </ol>
+</nav>
