@@ -1,4 +1,1 @@
-Actualmente no se soportan varias colas. Puedes seguir la [cuestión
-2648](https://github.com/AntennaPod/AntennaPod/issues/2648) en GitHub para más
-información y/o suscribirte a la cuestión para mantenerte al día en caso de que
-haya algún avance.
+Actualmente no se soportan varias colas. Puedes seguir la [cuestión 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) en GitHub para más información y/o suscribirte a la cuestión para mantenerte al día en caso de que haya algún avance.

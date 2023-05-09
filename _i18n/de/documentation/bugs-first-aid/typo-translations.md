@@ -2,7 +2,7 @@ Du hast einen Rechtschreibfehler gefunden oder etwas klingt seltsam? Es ist imme
 
 # Möchtest du es selbst beheben?
 
-Falls das Problem nicht in der englischen, sondern einer anderen Fassung auftritt, kannst du die **Übersetzung der Anwendung** auf [Transifex](https://www.transifex.com/antennapod/antennapod/core-values/) aktualisieren. Probleme mit der **Übersetzung der Webseite** können auf [Weblate](https://hosted.weblate.org/projects/antennapod/) behoben werden. Du kannst [weitere Informationen in unserem Contribute-Bereich finden](/contribute/translate).
+Falls das Problem nicht in der englischen, sondern einer anderen Fassung auftritt, kannst du die **Übersetzung der Anwendung** auf [Transifex](https://www.transifex.com/antennapod/antennapod/core-values/) aktualisieren. Probleme mit der **Übersetzung der Webseite** können auf [Weblate](https://hosted.weblate.org/projects/antennapod/) behoben werden. Du kannst [weitere Informationen in unserem Contribute-Bereich finden](/de/contribute/translate).
 
 Liegt das Problem bei der **englischen Fassung**? Dann musst du mit GitHub vertraut sein oder werden. Du kannst einen Pull-Request für [die App](https://github.com/AntennaPod/AntennaPod/) oder für [die Webseite](https://github.com/AntennaPod/antennapod.github.io) erstellen.
 
