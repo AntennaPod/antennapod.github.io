@@ -261,41 +261,53 @@
 
                 <h1 id="synchronisation-zwischen-geräten">Synchronisation zwischen Geräten</h1>
 
-<p>AntennaPod unterstützt derzeit zwei Synchronisierungsoptionen: via
-<a href="https://gpodder.net/">gpodder.net</a> und die <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync-App für
-Nextcloud</a>.</p>
-
-<p>Auf gpodder.net kann jeder relativ einfach ein Konto anlegen und die Nutzung des
-Dienstes ist kostenlos. Leider hat der Dienst eine große Anzahl von Benutzern,
-begrenzte finanzielle Mittel und einen Mangel an freiwilligen Beiträgen. Das
-bedeutet, dass der Server oft überlastet ist, was zu Fehlern in AntennaPod
-führt. Wenn möglich, empfehlen wir dir daher, ein bestehendes Konto auf einer
-Nextcloud-Instanz zu verwenden oder entweder gpodder.net oder Nextcloud selbst
-zu hosten.</p>
-
-<h2 id="gpodder-sync-anwendung-für-nextcloud">gPodder Sync-Anwendung für Nextcloud</h2>
-
-<p>Falls du ein Nextcloud-Konto hast, installiere die gPodder Sync-App oder bitte
-deine Server-Administration, dies zu tun. Sobald diese installiert ist, gehe
-einfach in AntennaPod zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code>, wähle den
-entsprechenden Anbieter und gib die Server-Adresse ein.</p>
-
-<h2 id="gpoddernet--dein-eigener-gpodder-server">gpodder.net &amp; dein eigener gpodder-Server</h2>
+<p>AntennaPod can synchronise your subscriptions and listening progress with other
+AntennaPod installations as well as other (desktop) apps. To set up
+synchronisation, you need a server - the central point through which your data
+is shared with other devices. You have several options for this:</p>
 
 <ul>
   <li>
-    <p>Erstelle ein Konto auf gpodder.net oder melde dich an, solltest du bereits
-eines haben.</p>
+<a href="https://gpodder.net/">gpodder.net</a> provides a free gPodder synchronization
+server that <strong>anyone can sign up</strong> for. Unfortunately, due to the popularity
+of the service and its limited funding, this server is often overloaded, leading
+to errors in AntennaPod.</li>
+  <li>More technically inclined users are strongly encouraged to <strong>self-host a
+synchronization server</strong>. A self-hosted server is more reliable and helps
+reduce the load on free, public services. There are several options:
+<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> with the
+<a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app</a>, a full
+<a href="https://gpoddernet.readthedocs.io/en/latest/dev/installation.html">gPodder</a>
+server, or the <a href="https://github.com/bohwaz/micro-gpodder-server">Micro GPodder
+server</a>.</li>
+</ul>
 
-    <ul>
-      <li>Nachdem du das Konto erstellt hast, empfehlen wir, für jedes Programm, das du
-verwendest, ein Gerät auf gpodder.net/devices/ zu erstellen:<br><a data-toggle="modal" data-target="#imgModalgpodder-devicespng" style="cursor: pointer;">
-<img src="/assets/images/documentation/en/gpodder-devices.png" alt="Geräte" style="" class="rounded mt-2 ">
+<h2 id="enable-synchronization-via-nextcloud">Enable synchronization via Nextcloud</h2>
+
+<ol>
+  <li>If you have a Nextcloud account, install the gPodder Sync app or ask your
+server admin to do so</li>
+  <li>Go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code> in AntennaPod and tap
+<code class="language-plaintext highlighter-rouge">Choose synchronization provider</code>
+</li>
+  <li>Select ‘Nextcloud’</li>
+  <li>Enter the ‘Server address’ (the URL or IP address of the server) and tap
+<code class="language-plaintext highlighter-rouge">Proceed</code>
+</li>
+  <li>Log in on the browser window that opens and authorize AntennaPod</li>
+</ol>
+
+<h2 id="enable-synchronization-via-gpodder">Enable synchronization via gPodder</h2>
+
+<ol>
+  <li>Erstelle ein Konto auf gpodder.net oder melde dich an, solltest du bereits
+eines haben.</li>
+  <li>When you have an account, log in on the webserver and create a device under
+<code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><a data-toggle="modal" data-target="#imgModalgpodder-devicespng" style="cursor: pointer;">
+  <img src="/assets/images/documentation/en/gpodder-devices.png" alt="Geräte" style="" class="rounded mt-2 ">
 </a>
 </li>
-    </ul>
-  </li>
-</ul>
+</ol>
 
 <div class="modal fade" id="imgModalgpodder-devicespng" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -307,15 +319,15 @@ verwendest, ein Gerät auf gpodder.net/devices/ zu erstellen:<br><a data-toggle=
     </div>
   </div>
 </div>
-
-<ul>
+<ol>
   <li>Wenn du die Geräte zu deinem Konto hinzugefügt hast, verknüpfe sie über die
-Schaltfläche „Konfigurieren“. Auf diese Weise hält gpodder.net die Abonnements
-der aktivierten Geräte automatisch synchron.<br><a data-toggle="modal" data-target="#imgModalgpodder-synchronizepng" style="cursor: pointer;">
+Schaltfläche „Konfigurieren“. Auf diese Weise hält gpodder.net die
+Abonnements der aktivierten Geräte automatisch synchron.</li>
+</ol>
+
+<p><br><a data-toggle="modal" data-target="#imgModalgpodder-synchronizepng" style="cursor: pointer;">
   <img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronisiere" style="" class="rounded mt-2 ">
-</a>
-</li>
-</ul>
+</a></p>
 
 <div class="modal fade" id="imgModalgpodder-synchronizepng" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -327,12 +339,13 @@ der aktivierten Geräte automatisch synchron.<br><a data-toggle="modal" data-tar
     </div>
   </div>
 </div>
-<ul>
-  <li>Gehe dann in AntennaPod zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code>. Dort kannst du
-dich bei gpodder.net anmelden oder sogar einen alternativen Server angeben,
-wenn du ihn selbst bereitstellen willst. Während der Anmeldung fragt AntennaPod,
-bei welchem Gerät du gerade angemeldet bist. Wähle dein neu erstelltes Gerät aus.</li>
-</ul>
+<ol>
+  <li>Go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code> in
+AntennaPod and tap <code class="language-plaintext highlighter-rouge">Choose synchronization provider</code> 5. Select ‘gPodder’ 6.
+Enter the ‘Server address’ (e.g. www.gpodder.net) and tap <code class="language-plaintext highlighter-rouge">Proceed to login</code> 7.
+Enter the ‘Username’ and ‘Password’ and tap <code class="language-plaintext highlighter-rouge">Log in</code> 8. Select the device that
+you created on the server</li>
+</ol>
 
 <p><em>Hast du ein Gerät während des Anmeldens erstellt und nicht davor, wie oben
 beschrieben?</em> Dann stelle sicher, dass du auf die Schaltfläche

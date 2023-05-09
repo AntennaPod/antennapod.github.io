@@ -77,7 +77,7 @@
             </div>
             
             <div class="nav-item ml-2">
-              <a class="nav-link" href="/nl/events">Events</a>
+              <a class="nav-link" href="/nl/events">Evenementen</a>
             </div>
             
             <div class="nav-item ml-2">
@@ -186,7 +186,7 @@
   <div id="navbar-mobile" class="overlay">
     <button class="closebtn" onclick="closeNav()">×</button>
       <div class="overlay-header">
-        <img src="/assets/branding/logo-icon.svg" width="80px" height="auto" alt="AntennaPod Logo">
+        <img src="/assets/branding/logo-icon.svg" width="80px" height="auto" alt="AntennePod Logo">
       </div>
       <div class="overlay-content">
         
@@ -194,7 +194,7 @@
         
         <a href="/nl/blog">Blog</a>
         
-        <a href="/nl/events">Events</a>
+        <a href="/nl/events">Evenementen</a>
         
         <a href="/nl/contribute">Bijdragen</a>
         
@@ -268,21 +268,13 @@
 <p>Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hieronder op een rij, te beginnen met de oplossing die het gemakkelijkst is en de beste resultaten geeft:</p>
 
 <ol>
-  <li>
-    <p>Is er recent <a href="/documentation/general/backup">een back-up geëxporteerd</a> van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Opslag</code> » <code class="language-plaintext highlighter-rouge">Importeren/Exporteren</code> » <code class="language-plaintext highlighter-rouge">Database importeren</code> en selecteer de back-up.</p>
-  </li>
-  <li>
-    <p>Is er geen back-up dan is de volgende stap een poging om de kapotte database te herstellen (‘repair corrupted sql database’). Als AntennaPod een kapotte database detecteert, slaat het deze op als CorruptedDatabaseBackup.db in het mapje met app-data. Het is een uitdaging en het vereist enige vaardigheden of oefening. Je zult een terminal moeten gebruiken.</p>
-  </li>
+  <li>Is er recent <a href="/documentation/general/backup">een back-up geëxporteerd</a> van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Opslag</code> » <code class="language-plaintext highlighter-rouge">Importeren/Exporteren</code> » <code class="language-plaintext highlighter-rouge">Database importeren</code> en selecteer de back-up.</li>
+  <li>Is er geen back-up dan is de volgende stap een poging om de kapotte database te herstellen (‘repair corrupted sql database’). Als AntennaPod een kapotte database detecteert, slaat het deze op als CorruptedDatabaseBackup.db in het mapje met app-data. Het is een uitdaging en het vereist enige vaardigheden of oefening. Je zult een terminal moeten gebruiken.</li>
 </ol>
 
 <ul>
-  <li>
-    <p>Een lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">volgde deze stappen</a> om de database te herstellen en <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">gaf aan</a> dat hij daarna de herstelde database met succes kon importeren.</p>
-  </li>
-  <li>
-    <p>Een ander lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">nam een schone database en verplaatste inhoud van de beschadigde erin</a>, en voerde vervolgens <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">een andere correctie</a> uit. Na beide stappen slaagden ze erin de nieuwe database met succes te importeren in AntennaPod.</p>
-  </li>
+  <li>Een lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">volgde deze stappen</a> om de database te herstellen en <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">gaf aan</a> dat hij daarna de herstelde database met succes kon importeren.</li>
+  <li>Een ander lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">nam een schone database en verplaatste inhoud van de beschadigde erin</a>, en voerde vervolgens <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">een andere correctie</a> uit. Na beide stappen slaagden ze erin de nieuwe database met succes te importeren in AntennaPod.</li>
 </ul>
 
 <ol>
@@ -290,12 +282,8 @@
 </ol>
 
 <ul>
-  <li>
-    <p>In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar <code class="language-plaintext highlighter-rouge">Podcast toevoegen</code> en tik op <code class="language-plaintext highlighter-rouge">Lokale map toevoegen</code>. Ga vervolgens naar deze map op je telefoon: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.</p>
-  </li>
-  <li>
-    <p>Het is mogelijk de eerdere podcasts toe te voegen vanaf nul. In de bovenvermelde map kun je je recente podcast-abonnementen vinden.</p>
-  </li>
+  <li>In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar <code class="language-plaintext highlighter-rouge">Podcast toevoegen</code> en tik op <code class="language-plaintext highlighter-rouge">Lokale map toevoegen</code>. Ga vervolgens naar deze map op je telefoon: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.</li>
+  <li>Het is mogelijk de eerdere podcasts toe te voegen vanaf nul. In de bovenvermelde map kun je je recente podcast-abonnementen vinden.</li>
 </ul>
 
 
@@ -412,7 +400,7 @@
                     <div class="small">
                         <div class="mb-2 size-16"><a class="color-gray-900" href="/nl/download"><span>Download AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
-                                href="/nl/media-kit"><span>Media Kit</span></a></div>-->
+                                href="/nl/media-kit"><span>Persmateriaal</span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">

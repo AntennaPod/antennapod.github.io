@@ -77,7 +77,7 @@
             </div>
             
             <div class="nav-item ml-2">
-              <a class="nav-link" href="/it/events">Events</a>
+              <a class="nav-link" href="/it/events">Eventi</a>
             </div>
             
             <div class="nav-item ml-2">
@@ -186,7 +186,7 @@
   <div id="navbar-mobile" class="overlay">
     <button class="closebtn" onclick="closeNav()">×</button>
       <div class="overlay-header">
-        <img src="/assets/branding/logo-icon.svg" width="80px" height="auto" alt="AntennaPod Logo">
+        <img src="/assets/branding/logo-icon.svg" width="80px" height="auto" alt="Logo di AntennaPod">
       </div>
       <div class="overlay-content">
         
@@ -194,7 +194,7 @@
         
         <a href="/it/blog">Blog</a>
         
-        <a href="/it/events">Events</a>
+        <a href="/it/events">Eventi</a>
         
         <a href="/it/contribute">Contribuisci</a>
         
@@ -268,21 +268,13 @@
 <p>Ci potrebbero essere alcune cose che puoi fare per recuperare i tuoi dati. Le elenchiamo qui sotto, iniziando con la soluzione più semplice e che dà i migliori risultati:</p>
 
 <ol>
-  <li>
-    <p>Hai <a href="/documentation/general/backup">esportato un backup</a> da AntennaPod di recente? Allora ripristinarlo è relativamente facile: vai su <code class="language-plaintext highlighter-rouge">Impostazioni</code> » <code class="language-plaintext highlighter-rouge">Memoria</code> » <code class="language-plaintext highlighter-rouge">Importa/Esporta</code> » ` Importa database` e seleziona il backup.</p>
-  </li>
-  <li>
-    <p>Se non si dispone di un backup, il passo successivo è quello di tentare di recuperare il database danneggiato (‘riparare un database SQL corrotto’). Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato CorruptedDatabaseBackup.db nella directory di archiviazione dell’applicazione. È un’operazione delicata e richiede alcune abilità o nozioni. Dovrai usare un terminale.</p>
-  </li>
+  <li>Hai <a href="/documentation/general/backup">esportato un backup</a> da AntennaPod di recente? Allora ripristinarlo è relativamente facile: vai su <code class="language-plaintext highlighter-rouge">Impostazioni</code> » <code class="language-plaintext highlighter-rouge">Memoria</code> » <code class="language-plaintext highlighter-rouge">Importa/Esporta</code> » ` Importa database` e seleziona il backup.</li>
+  <li>Se non si dispone di un backup, il passo successivo è quello di tentare di recuperare il database danneggiato (‘riparare un database SQL corrotto’). Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato CorruptedDatabaseBackup.db nella directory di archiviazione dell’applicazione. È un’operazione delicata e richiede alcune abilità o nozioni. Dovrai usare un terminale.</li>
 </ol>
 
 <ul>
-  <li>
-    <p>Un membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">ha seguito questi passi</a> per riparare il database e <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">ha affermato</a> che fatto questo era in grado di importare con successo il database riparato.</p>
-  </li>
-  <li>
-    <p>Un altro membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">ha preso un database pulito e vi ha spostato il contenuto di quello corrotto</a>, poi ha eseguito <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">un’altra correzione</a>. Dopo entrambi i passaggi, è riuscito a importare con successo il nuovo database in AntennaPod.</p>
-  </li>
+  <li>Un membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">ha seguito questi passi</a> per riparare il database e <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">ha affermato</a> che fatto questo era in grado di importare con successo il database riparato.</li>
+  <li>Un altro membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">ha preso un database pulito e vi ha spostato il contenuto di quello corrotto</a>, poi ha eseguito <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">un’altra correzione</a>. Dopo entrambi i passaggi, è riuscito a importare con successo il nuovo database in AntennaPod.</li>
 </ul>
 
 <ol>
@@ -290,12 +282,8 @@
 </ol>
 
 <ul>
-  <li>
-    <p>In AntennaPod è possibile aggiungere una cartella come se fosse un feed. Per farlo, vai su <code class="language-plaintext highlighter-rouge">Aggiungi podcast</code> e tocca <code class="language-plaintext highlighter-rouge">Aggiungi cartella locale</code>. Poi vai a questa cartella nel tuo telefono: <code class="language-plaintext highlighter-rouge">Android</code> “ <code class="language-plaintext highlighter-rouge">data</code> “ <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> “ <code class="language-plaintext highlighter-rouge">files</code> “ <code class="language-plaintext highlighter-rouge">media</code> e poi seleziona la cartella di un podcast. Nota che questo ti darà accesso solo ai media precedentemente scaricati: non riceverai nuovi episodi.</p>
-  </li>
-  <li>
-    <p>Puoi anche iniziare ad aggiungere i podcast precedenti da zero. Puoi guardare nella cartella di cui sopra per vedere a quali podcast eri abbonato.</p>
-  </li>
+  <li>In AntennaPod è possibile aggiungere una cartella come se fosse un feed. Per farlo, vai su <code class="language-plaintext highlighter-rouge">Aggiungi podcast</code> e tocca <code class="language-plaintext highlighter-rouge">Aggiungi cartella locale</code>. Poi vai a questa cartella nel tuo telefono: <code class="language-plaintext highlighter-rouge">Android</code> “ <code class="language-plaintext highlighter-rouge">data</code> “ <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> “ <code class="language-plaintext highlighter-rouge">files</code> “ <code class="language-plaintext highlighter-rouge">media</code> e poi seleziona la cartella di un podcast. Nota che questo ti darà accesso solo ai media precedentemente scaricati: non riceverai nuovi episodi.</li>
+  <li>Puoi anche iniziare ad aggiungere i podcast precedenti da zero. Puoi guardare nella cartella di cui sopra per vedere a quali podcast eri abbonato.</li>
 </ul>
 
 
@@ -412,7 +400,7 @@
                     <div class="small">
                         <div class="mb-2 size-16"><a class="color-gray-900" href="/it/download"><span>Scarica AntennaPod</span></a></div>
                         <!--<div class="mb-2 size-16"><a class="color-gray-900"
-                                href="/it/media-kit"><span>Media Kit</span></a></div>-->
+                                href="/it/media-kit"><span>Cartella stampa</span></a></div>-->
                     </div>
                 </div>
                 <div class="col-5 col-lg-2 col-md-4 col-sm-4">
