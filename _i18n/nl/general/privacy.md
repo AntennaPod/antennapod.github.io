@@ -54,11 +54,10 @@ verzamelen. Ze kunnen de zoekopdracht opslaan, inclusief het land (dat standaard
 het land van het apparaat is). Deze suggesties kunnen worden uitgeschakeld door
 "uit" te kiezen in de regiokiezer. Wanneer de zoekfunctie in AntennaPod wordt
 gebruikt, kunnen de services PodcastIndex.org, iTunes, fyyd en gpodder.net de
-zoekopdracht opslaan, inclusief de zoektermen. Activiteit rond het Ontdek-scherm
-en zoekopdrachten bevatten ook het IP-adres, de tijd en de app-naam
-"AntennaPod". Nadat je je op een podcast hebt geabonneerd, wordt de feed direct
-geleverd door de podcast-host. Daar is de discovery-/zoekservice niet meer bij
-betrokken.
+zoekopdracht opslaan, inclusief de zoektermen. Ontdek en zoekopdrachten bevatten
+ook het IP-adres, de tijd en de app-naam "AntennaPod". Meteen na abonneren op
+een podcast wordt de feed geleverd door de podcast-host. Daar is de
+ontdek-/zoekservice niet meer bij betrokken.
 - Synchronisatiediensten: Indien ingeschakeld via de instellingen, synchroniseert
 AntennaPod je gegevens. Deze gegevens kunnen inloggegevens, geabonneerde
 podcasts, beluisterde afleveringen, afspelen, pauzeren en favoriete acties met
@@ -66,13 +65,13 @@ datum- en tijdstempels en IP-adres bevatten. Raadpleeg voor meer informatie het
 privacybeleid van je provider (bijvoorbeeld [privacybeleid van
 gpodder.net](https://gpodder.net/privacy), of dat van je Nextcloud-host).
 - Google: Als back-up & reset is geactiveerd in de instellingen van je telefoon
-(Instellingen → Back-up & Reset → Maak een back-up van mijn gegevens), wees er
-dan van bewust dat Android zelf periodiek een kopie van de telefoongegevens
-opslaat op Google-servers. Deze back-up bevat privé-informatie, waaronder de
-wifi-wachtwoorden, berichten en belgeschiedenis. Het kan ook gegevens bevatten
-van AntennaPod en van andere apps die in gebruik zijn. De ontwikkelaars van
-AntennaPod hebben geen toegang tot deze gegevens. Voor meer informatie, zie
-[Google's privacybeleid](https://policies.google.com).
+(`Instellingen` » `Backup & Reset` » `Maak een back-up van mijn gegevens`),
+wees er dan van bewust dat Android zelf periodiek een kopie van de
+telefoongegevens opslaat op Google-servers. Deze back-up bevat privé-informatie,
+waaronder de wifi-wachtwoorden, berichten en belgeschiedenis. Het kan ook
+gegevens bevatten van AntennaPod en van andere apps die in gebruik zijn. De
+ontwikkelaars van AntennaPod hebben geen toegang tot deze gegevens. Voor meer
+informatie, zie [Google's privacy policy](https://policies.google.com).
 
 ## Welke gegevens kunnen worden verzameld, opgeslagen en verwerkt via de online
 diensten van AntennaPod

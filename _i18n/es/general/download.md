@@ -4,8 +4,8 @@
 
        "
 
-loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" %} {%
-endcapture %}
+loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" islink =
+true %} {% endcapture %}
 
 {% capture img-FD %} {% include image.html alt="
 
@@ -13,23 +13,27 @@ endcapture %}
 
        "
 
-loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" %} {%
-endcapture %}
+loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" islink = true
+%} {% endcapture %}
 
 Puedes descargar versiones oficiales de AntennaPod en Google Play y en F-Droid:
 
-[{{ img-GP | strip }}](https://play.google.com/store/apps/details?
-id=de.danoeh.antennapod) [{{ img-FD |
-strip }}](https://f-droid.org/packages/de.danoeh.antennapod/)
+<a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod"
+target="_blank">{{- img-GP | strip -}}</a> <a
+href="https://f-droid.org/packages/de.danoeh.antennapod" target="_blank">{{-
+img-FD | strip -}}</a>
 
-AntennaPod solo está publicado de manera oficial en las dos tiendas de arriba
-porque no tenemos tiempo para estar en más. Todas las otras tiendas que listen
-la aplicación de AntennaPod han copiado nuestra aplicación sin nuestro permiso
-explícito. No somos responsables de actualizarlas o asegurarnos de que funcionan
-correctamente. El repositorio de F-Droid no lo mantenemos nosotros, sino que lo
-hace la gente que gestiona F-Droid. Si no es la última versión, no hay mucho que
-podamos hacer, pero siempre puedes hacer que lo sepamos creando una entrada en
-nuestro [foro](https://forum.antennapod.org/), e intentaremos investigarlo.
+AntennaPod sólo se publica oficialmente en las dos tiendas de aplicaciones
+anteriores porque no tenemos tiempo para dar soporte a más. Todas las demás
+tiendas que listan AntennaPod copiaron la aplicación sin nuestro permiso
+explícito. No somos responsables de actualizarlas ni de asegurarnos de que
+funcionen correctamente. El repositorio de F-Droid no lo mantenemos nosotros,
+sino la gente que está detrás de F-Droid. F-Droid suele tardar unos días hasta
+que las actualizaciones están disponibles ([leer
+más](/documentation/general/f-droid)). Si una actualización sigue sin estar
+disponible más de una semana después de su lanzamiento, no dudes en hacérnoslo
+saber creando un post en nuestro [foro](https://forum.antennapod.org/)), y lo
+investigaremos.
 
 <small>Google Play y el logotipo de Google Play son marcas registradas de Google
 LLC.</small>

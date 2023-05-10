@@ -1,4 +1,4 @@
-AntennaPod ist eine [dezentrale Podcast-App](/documentation/general/central-distributed). Das bedeutet, dass es keinen zentralen Server gibt, der alles über jeden Podcast weiß.
+AntennaPod ist eine [dezentrale Podcast-App](/de/documentation/general/central-distributed). Das bedeutet, dass es keinen zentralen Server gibt, der alles über jeden Podcast weiß.
 
 Die Episodeninformationen werden daher direkt von der Webseite des Podcasts übernommen. Wenn du einen Podcast abonniert hast, kopiert und speichert AntennaPod Informationen über jede neue Episode. Diese Informationen bleiben auch dann erhalten, wenn sie auf der Webseite nicht mehr verfügbar sind.
 

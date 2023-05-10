@@ -8,9 +8,10 @@ hamburgesa `☰` en la esquina superior izquierda. Ve a `+ Añadir Pódcast` Aho
 puedes buscar, ver las sugerencias o añadir un podcast a través de su dirección
 RSS.
 
-Alternativamente, puedes importar un archivo OPML o solo comprobar la base de
-datos de iTunes, gpodder.net o fyyd respectivamente. Importar feeds de RSS o
-Atom, o esquemas de URL como `pcast://` e `itpc://`, también funcionará.
+También puedes importar un archivo OPML o consultar únicamente la base de datos
+de Apple Podcasts, gpodder.net, fyyd o Podcast Index, respectivamente. También
+puede importar fuentes RSS o Atom, o esquemas de las URL como `pcast://` y
+`itpc://`.
 
 ## Suscribiéndose a servicios de terceros
 

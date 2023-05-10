@@ -1,77 +1,84 @@
-<div class="container-fluid fixed background-gray-100">
-    <div class="container py-4">
-        <div class="navbar navbar-expand-xl justify-content-between">
-            <div>
-                <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">
-                    <img class="smallermobile" src="/assets/logos/logo.png" id="mainlogo" />
-                </a>
+<div class="w-100 fixed background-gray-100">
+  <div class="container px-0 py-2 py-md-4">
+    <div class="navbar navbar-expand-xl">
+
+      <div class="col">
+        <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">
+          <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo" />
+        </a>
+      </div>
+
+      <div class="col-auto">
+        <div class="collapse navbar-collapse flex-grow-0 weight-500">
+          <div class="navbar-nav align-items-center">
+            {% for link in site.data.navbar %}
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
             </div>
-            <div class="collapse navbar-collapse flex-grow-0 weight-500">
-                <div class="navbar-nav align-items-center">
-                    {% for link in site.data.navbar %}
-                    <div class="nav-item ml-2">
-                        <a class="nav-link" href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
-                    </div>
-                    {% endfor %}
-                    <div class="nav-item ml-0 ml-sm-1 text-center">
-                        <li class="nav-item dropdown mb-0">
-                            <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
-                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-globe size-16 color-gray-900"></i><span
-                                    class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                {% include nav_languages.html %}
-                            </div>
-                        </li>
-                    </div>
+            {% endfor %}
+            <div class="nav-item ml-2 ml-sm-1 text-center">
+              <li class="nav-item dropdown mb-0">
+                <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-globe size-16 color-gray-900"></i><span
+                     class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {% include nav_languages.html %}
                 </div>
+              </li>
             </div>
-            <div class="d-xl-none">
-                <div class="nav-item text-center d-inline-block">
-                    <div class="nav-item dropdown">
-                        <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-globe size-16 color-gray-900"></i><span
-                                class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            {% include nav_languages.html %}
-                        </div>
-                    </div>
-                </div>
-                <button class="navbar-toggler" onclick="openNav()"><img
-                        src="{{ site.baseurl_root }}/assets/images/icons/burger.svg" /></button>
-            </div>
+          </div>
         </div>
 
-        <div id="navbar-mobile" class="overlay">
-            <button class="closebtn" onclick="closeNav()">&times;</button>
-            <div class="overlay-header">
-                <img src="{{ site.baseurl_root }}/assets/logos/icon.png" width="80px" height="auto"
-                    alt="{% t generic.accessibility.logo %}" />
+        <div class="d-xl-none">
+          <div class="nav-item text-center d-inline-block">
+            <div class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="{% t generic.accessibility.lang-menu %}"
+                      role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-globe size-16 color-gray-900"></i><span
+                   class="ml-1 size-16 color-gray-900 weight-600">{{ site.lang | upcase }}</span>
+              </button>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% include nav_languages.html %}
             </div>
-            <div class="overlay-content">
-                {% for link in site.data.navbar %}
-                <a href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
-                {% endfor %}
-            </div>
-            <div class="overlay-footer">
-                {% if site.twitter_username %}
-                <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
-                    rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
-                {% endif %}
-                {% if site.mastodon_username %}
-                <a class="mr-2 color-gray-900" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}" target="_blank"
-                    rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
-                {% endif %}
-                {% if site.github_username %}
-                <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}" target="_blank"
-                    rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
-                {% endif %}
-            </div>
+          </div>
         </div>
+
+        <button class="navbar-toggler" onclick="openNav()"><img
+                src="{{ site.baseurl_root }}/assets/images/icons/burger.svg" /></button>
+      </div>
+
     </div>
+  </div>
+
+  <div id="navbar-mobile" class="overlay">
+    <button class="closebtn" onclick="closeNav()">&times;</button>
+      <div class="overlay-header">
+        <img src="/assets/branding/logo-icon.svg" width="80px" height="auto"
+             alt="{% t generic.accessibility.logo %}" />
+      </div>
+      <div class="overlay-content">
+        {% for link in site.data.navbar %}
+        <a href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
+        {% endfor %}
+      </div>
+      <div class="overlay-footer">
+        {% if site.twitter_username %}
+        <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
+           rel="noopener"><i class="fab fa-twitter mr-1"></i>Twitter</a>
+        {% endif %}
+        {% if site.mastodon_username %}
+        <a class="mr-2 color-gray-900" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}" target="_blank"
+           rel="me noopener"><i class="fab fa-mastodon mr-1"></i>Mastodon</a>
+        {% endif %}
+        {% if site.github_username %}
+        <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}" target="_blank"
+           rel="noopener"><i class="fab fa-github mr-1"></i>GitHub</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>

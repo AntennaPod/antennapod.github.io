@@ -6,7 +6,7 @@ AntennaPod utilizza principalmente tre directory per la sua funzione di ricerca:
 * [Podcast Index](https://podcastindex.org/) (chiedi al tuo host come aggiungere
 il tuo podcast, o aggiungilo tramite le
 [API](https://podcastindex-org.github.io/docs-api/#get-/add/byfeedurl))
-* [iTunes](https://podcasts.apple.com) (aggiungilo via [Podcast
+* [Apple Podcasts](https://podcasts.apple.com) (aggiungilo via [Podcast
 Connect](https://podcastsconnect.apple.com/))
 * [Fyyd](https://fyyd.de/) (aggiungilo tramite il loro [sito
 web](https://fyyd.de/add-feed))

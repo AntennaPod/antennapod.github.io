@@ -1,5 +1,5 @@
 AntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te
-verversen (zie [Refreshing podcasts](/refreshing-podcasts)).
+verversen (zie [Podcasts verversen](/refreshing-podcasts)).
 
 Voor meer ingewikkelde behoeften bestaan verschillende
 automatiseringstoepassingen van derden voor gebruik met AntennaPod. Bijvoorbeeld:
@@ -43,7 +43,7 @@ Maak een taak. In de taak, voeg een actie toe
 ### Llama - Location Profiles
 ([website](http://kebabapps.blogspot.com/search/label/Llama))
 
-Maak een gebeurtenis (Llama automatiseringsregel) en:
+Maak een gebeurtenis (Llama automatiseringsregel). In geval dat
 
 1. Voeg een actie toe van het type Android intent.
 1. Specificeer Intent send mode als `Broadcast`.

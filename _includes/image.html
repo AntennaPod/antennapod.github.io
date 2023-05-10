@@ -23,14 +23,14 @@
    {%- endif %}
 {%- endcapture -%}
 
-{% unless include.file contains 'AntennaPod/Branding' == true %}<a data-toggle="modal" data-target="#imgModal{{ include.file | remove:'.' }}" style="cursor: pointer;">{% endunless %}
+{% unless include.islink == true %}<a data-toggle="modal" data-target="#imgModal{{ include.file | remove:'.' }}" style="cursor: pointer;">{% endunless %}
   <img src="{{ url }}" alt="{{ img-alt }}"
     {%- if include.width %} width="{{ include.width }}"{% endif %}
     style="
       {%- if include.max-width %}max-width:{{ include.max-width }}; {% endif %}
       {%- if include.max-height %}max-height:{{ include.max-height }}; {% endif %}"
-    class="rounded {{ include.class }}">
-{% unless include.file contains 'AntennaPod/Branding' == true %}</a>
+    class="rounded mt-2 {{ include.class }}">
+{% unless include.islink == true %}</a>
 
 <div class="modal fade" id="imgModal{{ include.file | remove:'.' }}" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">

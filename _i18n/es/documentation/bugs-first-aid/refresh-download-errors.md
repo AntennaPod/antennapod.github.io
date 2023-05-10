@@ -3,11 +3,8 @@
 Problemas que solamente pasan con uno o algunos podcasts suelen estar relacionados con los podcasts en si. Para confirmar si ese es el caso, puedes seguir estos pasos:
 
 1. Pulsa sobre la notificación para abrir el registro de descargas
-
 1. Pulsa sobre la entrada de registro específica con el error
-
 1. Mantén pulsada la URL que se muestra y cópiala o ábrela en tu navegador
-
 
 Si la URL tampoco funciona en el navegador, significa que no es un problema de AntennaPod. Si recibes el mensaje de error constantemente, es probable que el podcast haya sido movido, retirado de la red o no esté configurado correctamente. En este caso, ponte en contacto con los creadores del podcast (ya que esto no lo podemos arreglar de nuestro lado).
 

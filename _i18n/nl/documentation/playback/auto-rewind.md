@@ -3,7 +3,7 @@ deze automatisch terug. Zo kun je weer makkelijker de rest van de uitzending
 volgen. Je kunt niet instellen hoeveel wordt teruggespoeld; dat hangt af van hoe
 lang een aflevering op pauze heeft gestaan.
 
-| Tijd sinds laatste keer afspelen | Tijd teruggespoeld |
+| Tijd sinds laatste weergave | Tijdsuur terugspoelen |
 | --- | --- |
 | Meer dan 1 dag | 20 seconden |
 | Meer dan 1 uur | 10 seconden |

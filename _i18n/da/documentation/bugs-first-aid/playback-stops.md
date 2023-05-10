@@ -1,0 +1,3 @@
+Hvis afspilningen altid stopper et par sekunder efter, at du har slukket for skærmen, eller når du ikke har åbnet AntennePod i et stykke tid, kan det være, at dit system lukker appen ned. Nogle leverandører er kendt for at være overdrevent aggressive, når de forsøger at spare på batteriet. **Prøv at tilføje en undtagelse for AntennaPod på listen over batterioptimerede apps.** Da måden at tilføje en undtagelse ofte er forskellig fra telefon til telefon, foreslår vi, at du søger på internettet efter instruktioner for dit telefonmærke og din telefonmodel, hvis du ikke ved, hvordan du tilføjer en undtagelse.
+
+Hvis dette ikke hjalp, skal du ikke tøve med at kontakte AntennaPod-bidragsydere i vores [forum](https://forum.antennapod.org).

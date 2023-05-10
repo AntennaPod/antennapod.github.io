@@ -1,10 +1,10 @@
-## Meet us!
+## Ontmoet ons!
 
-Are you interested in meeting the people behind AntennaPod? You'll find all the
-opportunities here on this page!
+Wil je de mensen achter AntennaPod ontmoeten? Alle mogelijkheden staan op deze
+pagina!
 
-Do you know of an event in your neighbourhood and would love to meet up with
-AntennaPod contributors and users? Tell about the event on our forum to organise
-a get-together!
+Weet je van een evenement bij jou in de buurt en wil je graag AntennaPod
+medewerkers en gebruikers ontmoeten? Vertel erover op ons forum om een
+bijeenkomst te organiseren!
 
-[Propose a meet-up](https://forum.antennapod.org/)
+[Stel een meet-up voor](https://forum.antennapod.org/)
