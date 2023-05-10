@@ -30,7 +30,7 @@ The Home screen currently contains five sections, each of which displays episode
 {% include image.html
    alt="Visual explainer of the Home screen features."
    loc="/assets/images/blog/2023"
-   file="Home-screen-showcase.png"
+   file="home-screen-showcase.png"
    max-width="22rem"
    class="float-md-right ml-md-3 w-100"
 %}
