@@ -30,6 +30,8 @@ jobs:
         run: md2po _i18n/en/contribute/*.md --po-filepath _i18n/translation-files/site-contribute.pot --save --quiet
       - name: Create/update POT file of Documentation section
         run: md2po _i18n/en/documentation/*.md _i18n/en/documentation/*/*.md --po-filepath _i18n/translation-files/site-documentation.pot --save --quiet
+      - name: Create/update POT file of Press releases
+        run: md2po _i18n/en/press-releases/*.md --po-filepath _i18n/translation-files/site-press-releases.pot --save --quiet
       - name: Create/update POT file of other website pages
         run: md2po _i18n/en/general/*.md --po-filepath _i18n/translation-files/site-general.pot --save --quiet
       - name: Push to translation-files branch

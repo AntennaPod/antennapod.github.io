@@ -113,6 +113,20 @@ jobs:
             done
             cd ../
           done
+      - name: Make Press releases
+        run: |
+          cd _i18n/en/press-releases
+          languages=(${{ env.languages }})
+          for language in "${languages[@]}"
+          do mkdir -p ../../$language/press-releases
+          done
+          for file in *
+          do
+            for language in "${languages[@]}"
+            do po2md $file --po-files ../../../translation-files/press-releases/site-press-releases_$language.po --save ../../$language/press-releases/$file --wrapwidth inf
+            git add ../../$language/press-releases/$file
+            done
+          done
       - name: Make General pages
         run: |
           cd _i18n/en/general
