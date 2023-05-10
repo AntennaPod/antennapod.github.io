@@ -21,7 +21,7 @@
     {% elsif page.image %}
       /assets/images/{{ page.image }}
     {% else %}
-      /assets/images/blog/default.png
+      /assets/branding/covers/Cover_001.png
     {% endif %}
   {% endcapture %}
   {% assign image = image | strip | prepend: site.url %}
@@ -48,13 +48,15 @@
   <meta property="og:site_name" content="{{ site.title }}">
   
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#2a854e">
-  <meta name="msapplication-TileColor" content="#2a854e">
-  <meta name="theme-color" content="#2a854e">
-  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/branding/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/branding/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/branding/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/branding/favicons/safari-pinned-tab.svg?v=2" color="#364ff3">
+  <link rel="shortcut icon" href="/assets/branding/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#364ff3">
+  <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Resources -->
   <link rel="stylesheet" href="/assets/css/main.css">

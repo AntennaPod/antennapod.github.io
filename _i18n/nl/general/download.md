@@ -4,8 +4,8 @@
 
        "
 
-loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" %} {%
-endcapture %}
+loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" islink =
+true %} {% endcapture %}
 
 {% capture img-FD %} {% include image.html alt="
 
@@ -13,14 +13,15 @@ endcapture %}
 
        "
 
-loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" %} {%
-endcapture %}
+loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" islink = true
+%} {% endcapture %}
 
 Officiële versies van AntennaPod zijn beschikbaar via Google Play en F-Droid:
 
-[{{ img-GP | strip }}](https://play.google.com/store/apps/details?
-id=de.danoeh.antennapod) [{{ img-FD |
-strip }}](https://f-droid.org/packages/de.danoeh.antennapod/)
+<a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod"
+target="_blank">{{- img-GP | strip -}}</a> <a
+href="https://f-droid.org/packages/de.danoeh.antennapod" target="_blank">{{-
+img-FD | strip -}}</a>
 
 AntennaPod is alleen officieel gepubliceerd in de twee bovengenoemde winkels
 omdat we geen tijd hebben om de app op meer plekken publiceren. Alle andere

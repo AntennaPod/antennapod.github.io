@@ -6,7 +6,7 @@ AntennaPod bruger primært tre kataloger til sin søgefunktion:
 * [Podcast Index](https://podcastindex.org/) (spørg din host, hvordan du tilføjer
 din podcast, eller tilføj din egen podcast via
 [API](https://podcastindex-org.github.io/docs-api/#get-/add/byfeedurl))
-* [iTunes](https://podcasts.apple.com) (tilføj via [Podcast
+* [Apple Podcasts](https://podcasts.apple.com) (tilføj via [Podcast
 Connect](https://podcastsconnect.apple.com/))
 * [Fyyd](https://fyyd.de/) (tilføj via deres [websted](https://fyyd.de/add-feed))
 

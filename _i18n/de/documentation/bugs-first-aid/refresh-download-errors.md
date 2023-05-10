@@ -3,11 +3,8 @@ Du hast eine Benachrichtigung erhalten, weil das Herunterladen mit Fehlern abges
 Probleme, die nur bei einem oder wenigen bestimmten Podcasts auftreten, hängen oft mit ebenjenen Podcasts zusammen. Um festzustellen, ob dies der Fall ist, kannst du folgende Schritte ausführen:
 
 1. Tippe auf die Benachrichtigung, um das Download-Protokoll zu öffnen
-
 1. Tippe auf den Fehler-spezifischen Protokolleintrag
-
 1. Drücke lange auf die angezeigte Adresse, um sie zu kopieren oder im Browser zu öffnen
-
 
 Falls die Adresse auch im Browser nicht funktioniert, bedeutet dies, dass es sich nicht um ein Problem mit AntennaPod handelt. Wenn du die Fehlermeldung immer wieder erhältst, wurde der Podcast wahrscheinlich verschoben, vom Netz genommen oder ist nicht richtig konfiguriert. In diesem Fall wende dich bitte an die Erstellenden des Podcasts (da das Problem nicht von unserer Seite aus behoben werden kann).
 

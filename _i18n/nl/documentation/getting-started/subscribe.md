@@ -1,4 +1,5 @@
-Na het downloaden van een podcast-app abonneer je je allereerst op een podcast.
+Het eerste wat je wilt doen na het downloaden van een podcast-app is je abonneren
+op een podcast.
 
 ## Abonneren
 
@@ -6,10 +7,10 @@ Open het menu door van links te vegen of te tikken op het `☰` hamburgerpictogr
 in de linkerbovenhoek. Ga naar `+ Podcast toevoegen`. Daar kun je zoeken,
 suggesties bekijken en een podcast toevoegen met het RSS adres.
 
-Je kan ook een OPML-bestand importeren. Of zoek uitsluitend in de iTunes-,
-gpodder.net-, fyyd- of Podcast Index-database. Het importeren van RSS- of
-Atom-feeds of het gebruik van URL-schema's zoals `pcast://` en `itpc://` zijn
-ook mogelijk.
+Als alternatief kun je een OPML-bestand importeren of alleen de database van
+respectievelijk Apple Podcasts, gpodder.net, fyyd of Podcast Index controleren.
+Het importeren van RSS- of Atom-feeds, of URL-schema's zoals `pcast://` en
+`itpc://`, werkt ook.
 
 ## Abonneren op diensten van derden
 
@@ -57,7 +58,5 @@ de gebruiker wat zijn kanaal-ID is (hier wordt uitgelegd [hoe gebruikers hun
 kanaal-ID kunnen vinden](https://support.google.com/youtube/answer/3250431?
 hl=nl)).
 
-We hebben geen info over andere platforms, zoals je kunt zien. Als je een idee
-hebt van een platform en hoe je je daar op een kanaal kunt abonneren, laat het
-ons weten via ons [forum](https://forum.antennapod.org/). We voegen de info hier
-graag toe.
+We hebben geen informatie over andere platforms, zoals je kunt zien. We delen
+graag je ideeën middels het [forum](https://forum.antennapod.org/).

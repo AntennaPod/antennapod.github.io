@@ -16,7 +16,7 @@ layout: internal
           {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
         </div>
         <div class="card">
-          <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
+          <img src="/assets/{% if page.image %}images/events/{{ event.image }}{% else %}branding/covers/Cover_001.png{% endif %}" loading="lazy" />
           <div class="card-body">
             <p class="card-text font-italic capitalise-first-letter" >
             {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
