@@ -8,7 +8,7 @@ AntennaPod is open-source. This means that anyone can download the source code. 
 
 ### 2. The podcast creators or their hosting company added the ads to their shownotes or audio file
 
-AntennaPod plays podcasts just like they were published by the creators. If they include ads, AntennaPod plays them. We have nothing to do with those ads, so all revenues go to the podcast creators.
+AntennaPod plays podcasts just like they were published by the creators. If they include ads, AntennaPod plays them. We have nothing to do with those ads, so all revenues go to the creators and/or their hosting company.
 
 Now, you might ask something like "But then why is the podcast in English and the ad in German?" or "But why is the podcast episode from 2008 but still promotes a product released in 2023?". The reason is a technique called _dynamic ad insertion_. Podcast creators can instruct the hosting company to insert those ads. Then, while downloading or streaming the episode with AntennaPod, the media file delivered to AntennaPod gets cut on-the-fly to include the ads. The ads are recent (while the episode might not be) and can be targeted based on the IP address from which you request the media file (e.g. a company in your country). Depending on how smart the hosting company does this, the ads might get inserted right in the middle of a sentence. Some of the hosting companies also mess up the chapter marks while inserting the ads (so the chapters are off by the duration of the ad).
 
