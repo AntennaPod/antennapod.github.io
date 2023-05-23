@@ -13,8 +13,7 @@ recurrence-rule: FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
 recurrence-exceptions:
 - 2022-10-08
 recurrence-additions:
-- start: 2022-10-22 16:00
-  end: 2022-10-22 17:00
+- 2022-10-22 16:00
 location: online
 location-label: AntennaPod's Jitsi Meet
 more-information: https://forum.antennapod.org/t/monthly-community-call/1869

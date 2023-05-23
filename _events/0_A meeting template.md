@@ -30,10 +30,8 @@ recurrence-exceptions:
 # - yyyy-mm-dd
 recurrence-additions: 
 # List of date-times on which the event is additionally taking place. Format:
-# - start: yyyy-mm-dd hh:mm
-#   end: yyyy-mm-dd hh:mm
-# - start: yyyy-mm-dd hh:mm
-#   end: yyyy-mm-dd hh:mm
+# - yyyy-mm-dd hh:mm
+# - yyyy-mm-dd hh:mm
 location: 
 # Required. Must be an osm.org relation ID or the text 'online'.
 location-label: 
