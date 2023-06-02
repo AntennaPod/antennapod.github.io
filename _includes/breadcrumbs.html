@@ -1,4 +1,4 @@
-<div id="breadcrumbs" class="pb-3">
+<div id="breadcrumbs">
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
     <a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">{% t generic.home %}</a>
     {% for crumb in crumbs offset: 1 %}
