@@ -3,7 +3,7 @@ title: documentation.categories.queue.how-to-use
 layout: doc
 level: "2"
 group: "queue"
-icon: "fas fa-list"
+icon: "fa-solid fa-list"
 ---
 
 # {% t {{ page.title }} %}

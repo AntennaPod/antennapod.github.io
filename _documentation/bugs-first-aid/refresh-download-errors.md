@@ -3,7 +3,7 @@ title: documentation.categories.bugs-first-aid.refresh-download-errors
 layout: doc
 level: "2"
 group: "bugs-first-aid"
-icon: "fas fa-exclamation-circle"
+icon: "fa-solid fa-circle-exclamation"
 order: 07
 ---
 

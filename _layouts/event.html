@@ -54,7 +54,7 @@ layout: internal
               <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
               {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
               {%- if link.key == 'ICS' %} data-toggle="modal" data-target="#icsModal"{% endif %}>
-                <i class="fas fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
+                <i class="fa-solid fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
               </a>
             </div>
             {% endunless %}{% endunless %}{% endunless %}{% endunless %}

@@ -3,7 +3,7 @@ title: documentation.categories.general.f-droid
 layout: doc
 level: "2"
 group: "general"
-icon: "fas fa-robot"
+icon: "fa-solid fa-robot"
 ---
 
 # {% t {{ page.title }} %}

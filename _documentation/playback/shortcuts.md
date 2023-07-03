@@ -3,7 +3,7 @@ title: documentation.categories.playback.shortcuts
 layout: doc
 level: "2"
 group: "playback"
-icon: "fas fa-keyboard"
+icon: "fa-solid fa-keyboard"
 ---
 
 # {% t {{ page.title }} %}

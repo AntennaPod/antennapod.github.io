@@ -3,7 +3,7 @@ title: documentation.categories.general.synchronization
 layout: doc
 level: "2"
 group: "general"
-icon: "fas fa-sync"
+icon: "fa-solid fa-arrows-rotate"
 ---
 
 # {% t {{ page.title }} %}

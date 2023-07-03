@@ -3,7 +3,7 @@ title: documentation.categories.general.title
 layout: doc
 level: "1"
 group: "general"
-icon: "fas fa-info"
+icon: "fa-solid fa-info"
 order: "20"
 ---
 

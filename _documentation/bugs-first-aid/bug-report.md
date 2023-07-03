@@ -3,7 +3,7 @@ title: documentation.categories.bugs-first-aid.bug-report
 layout: doc
 level: "2"
 group: "bugs-first-aid"
-icon: "fas fa-bug"
+icon: "fa-solid fa-bug"
 order: 20
 ---
 

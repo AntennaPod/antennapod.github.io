@@ -3,7 +3,7 @@ title: documentation.categories.getting-started.title
 layout: doc
 level: "1"
 group: "getting-started"
-icon: "fas fa-users"
+icon: "fa-solid fa-users"
 order: "10"
 ---
 
