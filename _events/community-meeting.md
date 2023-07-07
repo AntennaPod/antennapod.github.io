@@ -13,6 +13,8 @@ recurrence-rule: FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
 recurrence-exceptions:
 - 2022-10-08
 - 2023-06-10
+- 2023-07-08
+- 2023-08-12
 recurrence-additions:
 - start: 2022-10-22 16:00
   end: 2022-10-22 17:00
