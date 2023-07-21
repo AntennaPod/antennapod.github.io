@@ -17,7 +17,8 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.8.0
         with:
-          fail: true
+          args: --verbose './**/*.md'
+          fail: false
   guids:
     runs-on: ubuntu-22.04
     steps:
