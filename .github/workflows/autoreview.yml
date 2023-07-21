@@ -10,6 +10,14 @@ jobs:
       uses: reviewdog/action-misspell@v1
       with:
         pattern: "*.md"
+  checklinks:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          fail: true
   guids:
     runs-on: ubuntu-22.04
     steps:
