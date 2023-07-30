@@ -1,3 +1,9 @@
+// Mock bootstrap 5 classes
+
+.bg-body-tertiary {
+  background-color: var(--bs-tertiary-bg);
+}
+
 // Smooth Scrolling
 
 html {
@@ -1042,16 +1048,16 @@ i.member-img {
 
 footer {
   flex-shrink: 0;
+  color: var(--bs-secondary-color);
 }
 
-.copyright {
-  font-size: 14px;
-  font-weight: 400;
-  color: $gray-900;
+footer a {
+  color: var(--bs-secondary-color) !important;
 }
 
-.copyright a:hover {
-  color: $gray-900;
+footer .svg-wave {
+  fill: var(--bs-tertiary-bg);
+  fill-opacity: 1;
 }
 
 // Form
