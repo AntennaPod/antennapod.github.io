@@ -10,6 +10,7 @@ jobs:
       uses: reviewdog/action-misspell@v1
       with:
         pattern: "*.md"
+        locale: "US"
   guids:
     runs-on: ubuntu-22.04
     steps:
