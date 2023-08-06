@@ -21,29 +21,29 @@
         <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
           <div class="mb-2">
             <a href="{{ site.baseurl }}/about">
-              <i class="fa fa-circle-info mr-1"></i>{% t titles.about %}
+              {% t titles.about %}
             </a>
           </div>
           <div class="mb-2">
             <a href="{{ site.baseurl }}/blog">
-              <i class="fa fa-blog mr-1"></i>{% t titles.blog %}
+              {% t titles.blog %}
             </a>
           </div>
           <div class="mb-2">
             <a href="{{ site.baseurl }}/contribute">
-              <i class="fa fa-heart mr-1"></i>{% t titles.contribute %}
+              {% t titles.contribute %}
             </a>
           </div>
           <div class="mb-2">
             <a href="{{ site.baseurl }}/documentation">
-              <i class="fa fa-book mr-1"></i>{% t titles.documentation %}
+              {% t titles.documentation %}
             </a>
           </div>
         </div>
         <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
           <div class="mb-2">
             <a href="{{ site.baseurl }}/download">
-              <i class="fa fa-download mr-1"></i>{% t titles.download %}
+              {% t titles.download %}
             </a>
           </div>
           <!--<div class="mb-2">-->
@@ -53,13 +53,6 @@
           <!--</div>-->
         </div>
         <div class="col-5 col-lg-2 col-md-4 col-sm-4">
-          {% if site.twitter_username %}
-          <p class="mb-2">
-            <a class="mr-2" href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
-              <i class="fa-brands fa-twitter mr-1"></i>Twitter
-            </a>
-          </p>
-          {% endif %}
           {% if site.mastodon_username %}
           <p class="mb-2">
             <a class="mr-2" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}" target="_blank" rel="me noopener">
@@ -71,6 +64,13 @@
           <p class="mb-2">
             <a class="mr-2" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
               <i class="fa-brands fa-github mr-1"></i>GitHub
+            </a>
+          </p>
+          {% endif %}
+          {% if site.twitter_username %}
+          <p class="mb-2">
+            <a class="mr-2" href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
+              <i class="fa-brands fa-twitter mr-1"></i>Twitter
             </a>
           </p>
           {% endif %}
@@ -87,11 +87,11 @@
           &copy;&nbsp;{{ 'now' | date: "%Y" }}&nbsp;{{ site.title }}
           <span class="mx-1">|</span>
           <a class="underline-hover" href="{{ site.baseurl }}/license">
-            <i class="fa fa-gavel mr-1"></i>{% t titles.license %}
+            {%- t titles.license -%}
           </a>
           <span class="mx-1">|</span>
           <a class="underline-hover" href="{{ site.baseurl }}/privacy">
-            <i class="fa fa-user-shield mr-1"></i>{% t titles.privacy %}
+            {%- t titles.privacy -%}
           </a>
         </div>
       </div>
