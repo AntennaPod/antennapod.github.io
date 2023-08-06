@@ -383,6 +383,11 @@
   color: #234e52 !important;
 }
 
+:root {
+  --bs-secondary-color: #1a202c;
+  --bs-tertiary-bg: #f7fafc;
+}
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -9596,6 +9601,10 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #e2e8f0;
   }
 }
+.bg-body-tertiary {
+  background-color: var(--bs-tertiary-bg);
+}
+
 html {
   scroll-behavior: smooth;
   height: 100%;
@@ -10516,16 +10525,16 @@ i.member-img {
 
 footer {
   flex-shrink: 0;
+  color: var(--bs-secondary-color);
 }
 
-.copyright {
-  font-size: 14px;
-  font-weight: 400;
-  color: #1a202c;
+footer a {
+  color: var(--bs-secondary-color) !important;
 }
 
-.copyright a:hover {
-  color: #1a202c;
+footer .svg-wave {
+  fill: var(--bs-tertiary-bg);
+  fill-opacity: 1;
 }
 
 .form-control {
@@ -11131,6 +11140,8 @@ footer {
     border-top: 0 solid rgba(250, 250, 250, 0.125);
   }
   :root {
+    --bs-secondary-color: #ddd;
+    --bs-tertiary-bg: #223;
     scrollbar-color: #333 #000;
   }
   body {
@@ -11188,17 +11199,17 @@ footer {
   hr {
     border: none;
   }
-  path {
-    fill: #223;
-  }
   #search-input {
     color: #fff;
   }
   .copyright {
-    color: #bbb;
+    color: #bbb !important;
+  }
+  .copyright a {
+    color: #bbb !important;
   }
   .copyright a:hover {
-    color: #fff;
+    color: #fff !important;
   }
   .overlay {
     background-color: #333;
