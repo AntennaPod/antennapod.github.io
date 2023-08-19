@@ -33,8 +33,8 @@ title: titles.documentation
 </div>
 
 <script>
-  $(document).ready(function() {
-    var sjs = SimpleJekyllSearch({
+  const initSearch = () => {
+    SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       noResultsText: "{% t documentation.general.no-results %} :(",
@@ -42,6 +42,13 @@ title: titles.documentation
       limit: 5,
       fuzzy: false,
       json: '{% if site.lang != "en" %}/{{ site.lang }}{% endif %}/assets/datasets/documentation_index.json'
-    })
-  });
+    });
+  };
+  if ('loading' === document.readyState) {
+    // Loading hasn't finished yet.
+    document.addEventListener('DOMContentLoaded', initSearch)
+  } else {
+    // `DOMContentLoaded` has already fired.
+    initSearch()
+  }
 </script>
