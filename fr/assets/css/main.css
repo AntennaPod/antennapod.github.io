@@ -1,35 +1,35 @@
 @charset "UTF-8";
 /* sarabun-regular - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Sarabun";
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: local("Sarabun Regular"), local("Sarabun-Regular"), url("../fonts/sarabun/sarabun-v8-latin-regular.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/sarabun/sarabun-v13-latin-regular.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v13-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* sarabun-500 - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Sarabun";
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
-  src: local("Sarabun Medium"), local("Sarabun-Medium"), url("../fonts/sarabun/sarabun-v8-latin-500.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v8-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/sarabun/sarabun-v13-latin-500.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v13-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* sarabun-600 - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Sarabun";
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
-  src: local("Sarabun SemiBold"), local("Sarabun-SemiBold"), url("../fonts/sarabun/sarabun-v8-latin-600.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v8-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/sarabun/sarabun-v13-latin-600.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v13-latin-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* sarabun-700 - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Sarabun";
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
-  src: local("Sarabun Bold"), local("Sarabun-Bold"), url("../fonts/sarabun/sarabun-v8-latin-700.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v8-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/sarabun/sarabun-v13-latin-700.woff2") format("woff2"), url("../fonts/sarabun/sarabun-v13-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 .background-brand-primary {
   background-color: #1b8bf6 !important;
