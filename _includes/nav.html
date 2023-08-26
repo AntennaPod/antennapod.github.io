@@ -12,8 +12,14 @@
         <div class="collapse navbar-collapse flex-grow-0 weight-500">
           <div class="navbar-nav align-items-center">
             {% for link in site.data.navbar %}
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">{% t {{ link.key }} %}</a>
+            {% assign link_collection = link.url | replace: '/', '' %}
+            {% assign url_collection = page.url | split: '/' %}
+            {% assign url_collection = url_collection[1] %}
+            <div class="nav-item ml-2{% if link_collection == url_collection %} active{% endif %}">
+              <a class="nav-link"
+                 href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">
+                {% t {{ link.key }} %}
+              </a>
             </div>
             {% endfor %}
             <div class="nav-item ml-2 ml-sm-1 text-center">
@@ -93,10 +99,4 @@
         document.documentElement.style.overflow = 'scroll';
         document.body.scroll = "yes";
     }
-</script>
-
-<script>
-    $(document).ready(function ($) {
-        $('.navbar-nav > .nav-item > a[href="/' + location.pathname.split('/')[1] + '"]').closest(".nav-item").addClass('active');
-    });
 </script>

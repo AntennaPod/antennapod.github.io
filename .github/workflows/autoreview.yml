@@ -10,6 +10,7 @@ jobs:
       uses: reviewdog/action-misspell@v1
       with:
         pattern: "*.md"
+        locale: "US"
   checklinks:
     runs-on: ubuntu-22.04
     steps:
@@ -28,10 +29,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.0'
-      - run: gem install bundler jekyll --no-document
-      - run: bundle install
+          ruby-version: '3.2'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: bundle exec jekyll build
