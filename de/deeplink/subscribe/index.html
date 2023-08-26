@@ -290,22 +290,27 @@ und in das Suchfeld von AntennaPod einfügen.</p>
 </div>
 
 <script>
-  var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-      sURLVariables = sPageURL.split('&'), sParameterName, i;
-    for (i = 0; i < sURLVariables.length; i++) {
-      sParameterName = sURLVariables[i].split('=');
-      if (sParameterName[0] === sParam) {
-        return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-      }
+  const getUrlParameter = (sParam) => {
+    const paramValue = new URLSearchParams(window.location.search.substring(1)).get(sParam) ?? "";
+    if (0 < paramValue.length) {
+      return decodeURIComponent(paramValue);
     }
     return false;
   };
 
-  jQuery("#urlTextBox").text(getUrlParameter("url"));
-  jQuery("#retryButton").click(function() {
-    window.open("antennapod-subscribe://" + getUrlParameter("url"));
-  });
+  const urlTextBox = document.getElementById("urlTextBox");
+  const retryButton = document.getElementById("retryButton");
+  if (getUrlParameter("url") === false) {
+    urlTextBox.textContent = "URL not available";
+    retryButton.disabled = true;
+    retryButton.textContent += " (error)";
+
+  } else {
+    urlTextBox.textContent = getUrlParameter("url");
+    retryButton.onclick = () => {
+      window.open("antennapod-subscribe://" + getUrlParameter("url"));
+    };
+  }
 </script>
 
     </div>
