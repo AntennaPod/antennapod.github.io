@@ -267,14 +267,15 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
 msgid ""
-"The problem is that the database with all information (episodes, listening "
-"states, etc) has some mistakes. AntennaPod cannot function with the broken "
-"database and had to start over with an empty one. While it's been happening "
-"less frequently in recent versions of AntennaPod, it still is occurring for "
-"some users. Our community of developers have not been able to pinpoint what "
-"exactly causes a database to break. The same issue occurs also in some other "
-"open source apps. But we realise it is very frustrating when this happens "
-"and are really sorry if you were affected too."
+"The problem is that in a very old AntennaPod version, the database with all "
+"information (episodes, listening states, etc) had some problems. While the "
+"problems are long fixed, they might have left your database in a state that "
+"works but is slightly corrupted. With that corrupted database, the problem "
+"can manifest even in more recent versions if they happen to write to the "
+"corrupted parts (eg. during an update). If this happens, AntennaPod cannot "
+"function with the broken database and has to start over with an empty one. "
+"We realise it is very frustrating when this happens and are really sorry if "
+"you were affected."
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
@@ -287,19 +288,20 @@ msgstr ""
 #: list)
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
-"AntennaPod recently? Then restoring that is relatively easily: go to "
-"`Settings` » `Storage` » `Import/Export` » `Database import` and select the "
-"back-up."
+"AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
+"`Storage` » `Import/Export` » `Database import` and select the back-up. Note "
+"that the backup might contain the partial corruption, so it is still "
+"recommended to go through the second step to fix the problem once and for "
+"all."
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (ordered
 #: list)
 msgid ""
-"If you don't have a back-up, the next step is to attempt to recover the "
-"broken database ('repair corrupted sql database'). If AntennaPod detects a "
-"broken database, it writes it to a file CorruptedDatabaseBackup.db in the "
-"app storage directory. It is a challenge and it requires some skills or "
-"learning. You will have to use a terminal."
+"If AntennaPod detects a broken database, it writes it to a file named "
+"CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
+"repair this file (or repair an exported backup) using one of the steps "
+"below. This is a challenge and requires learning how to deal with a terminal."
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (unordered
@@ -530,14 +532,15 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
 msgid ""
-"2. The podcast publishers added the ads to their shownotes or audio file"
+"2. The podcast creators or their hosting company added the ads to their "
+"shownotes or audio file"
 msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
 "AntennaPod plays podcasts just like they were published by the creators. If "
 "they include ads, AntennaPod plays them. We have nothing to do with those "
-"ads, so the revenue fully goes to the publishers of your podcast."
+"ads, so all revenues go to the creators and/or their hosting company."
 msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 7 (paragraph)
@@ -545,7 +548,7 @@ msgid ""
 "Now, you might ask something like \"But then why is the podcast in English "
 "and the ad in German?\" or \"But why is the podcast episode from 2008 but "
 "still promotes a product released in 2023?\". The reason is a technique "
-"called *dynamic ad insertion*. Podcast publishers can instruct the hosting "
+"called *dynamic ad insertion*. Podcast creators can instruct the hosting "
 "company to insert those ads. Then, while downloading or streaming the "
 "episode with AntennaPod, the media file delivered to AntennaPod gets cut on-"
 "the-fly to include the ads. The ads are recent (while the episode might not "
@@ -571,14 +574,14 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 9 (paragraph)
 msgid ""
-"Additionally, many podcast hosts provide an ad-free feed that you can buy. "
-"Usually, you then either get a secret podcast feed URL, or alternatively "
-"username and password that you can enter in AntennaPod."
+"Additionally, many podcast creators provide an ad-free feed that you can "
+"buy. Usually, you then either get a secret podcast feed URL, or "
+"alternatively username and password that you can enter in AntennaPod."
 msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
-"If you find these ads annoying, consider talking to the podcast publishers "
+"If you find these ads annoying, consider talking to the podcast creators "
 "about this."
 msgstr ""
 
@@ -1025,16 +1028,16 @@ msgstr ""
 msgid ""
 "First, you want to subscribe to a podcast. You can find more about that "
 "[here](/documentation/getting-started/subscribe). After subscribing, new "
-"episodes are shown on `Episodes` » `New`. There you can decide if you "
-"actually like to listen to them or not. `New` means that you have not yet "
-"decided what to do with the episode."
+"episodes are shown in the `Inbox`. There you can decide if you actually like "
+"to listen to them or not. If an episode is in the inbox, it means that you "
+"have not yet decided what to do with the episode."
 msgstr ""
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
-"If you are not interested in an episode, just swipe it away and AntennaPod "
-"removes the `new` label. The episode still stays marked as unplayed and you "
-"can find it on the `Episodes` » `All` page, as well as on the podcast's page."
+"If you are not interested in an episode, just swipe it away to remove it "
+"from the inbox. The episode still stays marked as unplayed and you can find "
+"it on the `Episodes` page, as well as on the podcast's page."
 msgstr ""
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
@@ -1046,8 +1049,8 @@ msgstr ""
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
 "Download the episode. When downloading, AntennaPod also automatically adds "
-"the episode to the queue and removes the `new` label. There is a setting if "
-"you want new episodes to be enqueued in the back, front or after the "
+"the episode to the queue and removes it from the inbox. There is a setting "
+"if you want new episodes to be enqueued in the back, front or after the "
 "currently playing episode. Downloading is the main way AntennaPod was "
 "originally designed to be used but as streaming is becoming more and more "
 "popular, you can also use the second option."
@@ -1055,8 +1058,8 @@ msgstr ""
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
-"Just add the episode to the queue. AntennaPod automatically removes the "
-"`new` label and inserts it into the queue. You can later directly play the "
+"Just add the episode to the queue. AntennaPod automatically removes it from "
+"the inbox and inserts it into the queue. You can later directly play the "
 "episode without having to download, so it does not take up space. Think: "
 "Streaming like videos on YouTube. The disadvantage is that it will not be "
 "available offline, uses up your mobile data connection when you are on the "
@@ -1069,14 +1072,15 @@ msgid ""
 "it from the queue. There is a setting to also automatically delete the "
 "download after playing. You can find a list of all episodes that are still "
 "downloaded to your device (whether they are in the queue or not) on the "
-"`Downloads` » `Completed` page."
+"`Downloads` page."
 msgstr ""
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
 "If you like an episode and are thinking about listening to it again, you can "
-"also mark it as favorite. It will then appear on the `Episodes` » "
-"`Favorites` page and (by default) will not be deleted after playing."
+"also mark it as favorite. You can filter the `Episodes` page to show only "
+"your favorites and (by default) AntennaPod will not delete favorites after "
+"playing."
 msgstr ""
 
 #: _i18n/en/documentation/getting-started.md:block 3 (paragraph)
@@ -1085,7 +1089,7 @@ msgid ""
 "beginning that all episodes will be great, you can use the auto-download "
 "feature. When enabled for a podcast, all of its future new episodes are "
 "automatically downloaded and added to the queue. They will automatically be "
-"removed from the `Episodes` » `New` page as soon as they are downloaded."
+"removed from the inbox as soon as they are downloaded."
 msgstr ""
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
