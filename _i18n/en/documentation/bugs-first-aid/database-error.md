@@ -1,6 +1,8 @@
 You might feel like screaming *Help! I lost my podcasts/episodes/settings/everything!*
 
-The problem is that in a very old AntennaPod version, the database with all information (episodes, listening states, etc) had some problems. While the problems are long fixed, they might have left your database in a state that works but is slightly corrupted. With that corrupted database, the problem can manifest even in more recent versions if they happen to write to the corrupted parts (eg. during an update). If this happens, AntennaPod cannot function with the broken database and has to start over with an empty one. We realise it is very frustrating when this happens and are really sorry if you were affected.
+In a very old AntennaPod version, there were some issues with the database with all information (episodes, listening states, etc). While the cause is long fixed, your database might have been damaged (even when the app was working without issues). If a recent AntennaPod version makes changes to the damaged parts of the database, these damages may suddenly become a problem. At that point AntennaPod can no longer work with the broken database and has to start over with an empty one.
+
+We realise it is very frustrating when this happens and are really sorry if you were affected.
 
 There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest & best results:
 
