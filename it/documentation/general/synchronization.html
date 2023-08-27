@@ -288,46 +288,48 @@
             <article class="post-content">
                 <h1 id="come-sincronizzare-più-dispositivi">Come sincronizzare più dispositivi</h1>
 
-<p>AntennaPod can synchronise your subscriptions and listening progress with other
-AntennaPod installations as well as other (desktop) apps. To set up
-synchronisation, you need a server - the central point through which your data
-is shared with other devices. You have several options for this:</p>
+<p>AntennaPod può sincronizzare gli abbonamenti e i progressi di ascolto con altre
+installazioni di AntennaPod e con altre applicazioni (desktop). Per impostare la
+sincronizzazione, è necessario un server - il punto centrale attraverso il quale
+i dati vengono condivisi con altri dispositivi. A tal fine, sono disponibili
+diverse opzioni:</p>
 
 <ul>
   <li>
-<a href="https://gpodder.net/">gpodder.net</a> provides a free gPodder synchronization
-server that <strong>anyone can sign up</strong> for. Unfortunately, due to the popularity
-of the service and its limited funding, this server is often overloaded, leading
-to errors in AntennaPod.</li>
-  <li>More technically inclined users are strongly encouraged to <strong>self-host a
-synchronization server</strong>. A self-hosted server is more reliable and helps
-reduce the load on free, public services. There are several options:
-<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> with the
-<a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app</a>, a full
+<a href="https://gpodder.net/">gpodder.net</a> fornisce un server di sincronizzazione
+gPodder gratuito a cui <strong>chiunque può iscriversi</strong>. Purtroppo, a causa della
+popolarità del servizio e dei fondi limitati, questo server è spesso
+sovraccarico, con conseguenti errori in AntennaPod.</li>
+  <li>Gli utenti più esperti sono caldamente incoraggiati ad <strong>auto-ospitare un
+server di sincronizzazione</strong>. Un server auto-ospitato è più affidabile e
+contribuisce a ridurre il carico dei servizi pubblici gratuiti. Esistono diverse
+opzioni: <a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> con
+l’applicazione <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync</a>, un
+server
 <a href="https://gpoddernet.readthedocs.io/en/latest/dev/installation.html">gPodder</a>
-server, or the <a href="https://github.com/bohwaz/micro-gpodder-server">Micro GPodder
+completo o il <a href="https://github.com/bohwaz/micro-gpodder-server">Micro GPodder
 server</a>.</li>
 </ul>
 
-<h2 id="enable-synchronization-via-nextcloud">Enable synchronization via Nextcloud</h2>
+<h2 id="abilita-la-sincronizzazione-tramite-nextcloud">Abilita la sincronizzazione tramite Nextcloud</h2>
 
 <ol>
-  <li>If you have a Nextcloud account, install the gPodder Sync app or ask your
-server admin to do so</li>
-  <li>Go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code> in AntennaPod and tap
-<code class="language-plaintext highlighter-rouge">Choose synchronization provider</code>
+  <li>Se disponi di un account Nextcloud, installa l’applicazione gPodder Sync o
+chiedi all’amministratore del server di farlo</li>
+  <li>Vai su <code class="language-plaintext highlighter-rouge">Impostazioni</code> » <code class="language-plaintext highlighter-rouge">Sincronizzazione</code> in AntennaPod e tocca
+<code class="language-plaintext highlighter-rouge">Scegli provider di sincronizzazione</code>
 </li>
-  <li>Select ‘Nextcloud’</li>
-  <li>Enter the ‘Server address’ (the URL or IP address of the server) and tap
-<code class="language-plaintext highlighter-rouge">Proceed</code>
+  <li>Seleziona “Nextcloud”</li>
+  <li>Inserisci l’“indirizzo del server” (l’URL o l’indirizzo IP del server) e tocca
+<code class="language-plaintext highlighter-rouge">Procedere</code>
 </li>
-  <li>Log in on the browser window that opens and authorize AntennaPod</li>
+  <li>Accedi nella finestra del browser che si apre e autorizza AntennaPod</li>
 </ol>
 
-<h2 id="enable-synchronization-via-gpodder">Enable synchronization via gPodder</h2>
+<h2 id="abilita-la-sincronizzazione-tramite-gpodder">Abilita la sincronizzazione tramite gPodder</h2>
 
 <ol>
-  <li>Crea un account su gpodder.net o accedi se ne hai già uno.</li>
+  <li>Crea un account sul server www.gpodder.net o sul tuo server</li>
   <li>When you have an account, log in on the webserver and create a device under
 <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><a data-toggle="modal" data-target="#imgModalgpodder-devicespng" style="cursor: pointer;">
   <img src="/assets/images/documentation/en/gpodder-devices.png" alt="dispositivi" style="" class="rounded mt-2 ">
@@ -348,7 +350,7 @@ server admin to do so</li>
 <ol>
   <li>Quando hai aggiunto i dispositivi al tuo account, collegali usando il pulsante
 “Configura”. In questo modo, gpodder.net mantiene automaticamente
-sincronizzati gli abbonamenti dei dispositivi attivati.</li>
+sincronizzati i dispositivi attivati.</li>
 </ol>
 
 <p><br><a data-toggle="modal" data-target="#imgModalgpodder-synchronizepng" style="cursor: pointer;">
@@ -373,12 +375,12 @@ Enter the ‘Username’ and ‘Password’ and tap <code class="language-plaint
 you created on the server</li>
 </ol>
 
-<p><em>Hai creato un dispositivo al momento dell’accesso invece che in anticipo come
-suggerito sopra?</em> Allora assicurati di premere il pulsante
-<code class="language-plaintext highlighter-rouge">Forza sincronizzazione</code> su AntennaPod per caricare lo stato di riproduzione di
-tutti gli episodi che hai ascoltato in precedenza. Se non lo fai, solo i podcast
-che sono stati aggiunti <strong>dopo</strong> aver collegato i dispositivi saranno
-sincronizzati. C’è una <a href="https://github.com/gpodder/mygpo/issues/388">issue aperta per
+<p><strong>NOTA:</strong> Hai creato un dispositivo quando hai impostato la sincronizzazione su
+AntennaPod anziché farlo in anticipo sul sito web? Allora assicurati di premere
+il pulsante <code class="language-plaintext highlighter-rouge">Forza sincronizzazione</code> su AntennaPod per caricare lo stato di
+riproduzione di tutti gli episodi che hai ascoltato in precedenza. Se non lo
+fai, solo i podcast che sono stati aggiunti <strong>dopo</strong> aver collegato i
+dispositivi saranno sincronizzati. C’è una <a href="https://github.com/gpodder/mygpo/issues/388">issue aperta per
 gpodder.net</a> in cui viene chiesto
 di cambiare questo comportamento.</p>
 
