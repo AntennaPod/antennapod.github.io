@@ -8,7 +8,7 @@ layout: blog
 guid: https://antennapod.org/blog/2022/01/website-translations
 ---
 
-While the app itself could already be used in 34 languages[^1], the website remained in English. As the website hosts the documentation, important help and information is not easy to understand for everyone. The same goes for those website areas that integrate with the app, such the page [enabling](documentation/podcasters-hosters/add-on-antennapod) users to subscribe to a specific podcast on AntennaPod. Plus, an English-only website doesn't help when aiming to promote the project outside an existing main user base (Germany and the US, currently).
+While the app itself could already be used in 34 languages[^1], the website remained in English. As the website hosts the documentation, important help and information is not easy to understand for everyone. The same goes for those website areas that integrate with the app, such the page [enabling](/documentation/podcasters-hosters/add-on-antennapod) users to subscribe to a specific podcast on AntennaPod. Plus, an English-only website doesn't help when aiming to promote the project outside an existing main user base (Germany and the US, currently).
 
 And thus, after someone [asked on our forum](https://forum.antennapod.org/t/french-translation-of-the-website/1454) if and how they could translate the website into French, we set out to make that possible. It's yet another step into making our project a bit more accessible[^2].
 

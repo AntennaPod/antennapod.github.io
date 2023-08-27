@@ -11,6 +11,15 @@ jobs:
       with:
         pattern: "*.md"
         locale: "US"
+  checklinks:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          args: --verbose './**/*.md' 
+          fail: true
   guids:
     runs-on: ubuntu-22.04
     steps:
