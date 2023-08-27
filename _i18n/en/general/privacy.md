@@ -38,7 +38,7 @@ The developers of AntennaPod do **not** have access to any of your information, 
   - device language
   - Android version
 - visit or participate on our forum: as described in the [forum's privacy policy](https://forum.antennapod.org/privacy)
-- actively make a financial contribution via Open Collective (unless you make an [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) contribution):
+- actively make a financial contribution via Open Collective (unless you make an [anonymous guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) or [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) contribution):
   - public profile information (name, company, description, image, Twitter, GitHub, website)
   - email address
 
