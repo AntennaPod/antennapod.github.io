@@ -17,25 +17,27 @@ Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) og
 den seneste version på [GitHub](https://github.com/AntennaPod/AntennaPod/) og
 selv bygge AntennaPod!
 
-### 2. Udgiverne af podcasten tilføjede annoncerne til deres afsnitbeskrivelse eller
+### 2. Udgiverne af podcasten tilføjede annoncerne til deres afsnitsbeskrivelse eller
 lydfil
 
-AntennaPod afspiller podcasts, nøjagtigt som de blev udgivet af skaberne. Hvis de
-indeholder reklamer, afspiller AntennaPod dem. Vi har intet med disse annoncer
-at gøre, så indtægterne går fuldt ud til udgiverne af din podcast.
+AntennaPod afspiller podcasts, nøjagtigt som de blev udgivet af producenterne.
+Hvis de indeholder reklamer, afspiller AntennaPod dem. Vi har intet med disse
+reklamer at gøre, så alle indtægter går til producenterne og/eller deres
+hostingselskab.
 
 Nu tænker du måske noget i retning af "Men hvorfor er podcasten så på engelsk og
-annoncen på tysk?" eller "Men hvorfor er podcasten fra 2008, men reklamerer
-stadig for et produkt, der blev udgivet i 2023?". Årsagen er en teknik, der
-hedder *dynamic ad insertion*. Udgivere af podcasts kan bede hostingselskabet om
-at indsætte disse annoncer. Når afsnittet downloades eller streames med
-AntennaPod, bliver mediefilen, der leveres til AntennaPod, redigeret i undervejs
-for at inkludere reklamerne. Annoncerne er nye (mens episoden måske ikke er det)
-og kan målrettes på grundlag af den IP-adresse, hvorfra du anmoder om mediefilen
-(f.eks. en virksomhed i dit land). Afhængigt af hvor smart hostingfirmaet gør
-det, kan reklamerne blive indsat lige midt i en sætning. Nogle af
-hostingselskaberne laver også kludder i kapitelmarkeringerne, når de indsætter
-annoncerne (så kapitlerne er forskudt i forhold til annoncens varighed).
+annoncen på tysk?" eller "Men hvorfor er podcast-afsnittet fra 2008, men
+reklamerer alligevel for et produkt, der blev udgivet i 2023?". Årsagen er en
+teknik, der hedder *dynamic ad insertion*. Udgivere af podcasts kan bede
+hostingselskabet om at indsætte disse annoncer. Når afsnittet downloades eller
+streames med AntennaPod, bliver mediefilen, der leveres til AntennaPod,
+redigeret i undervejs for at inkludere reklamerne. Annoncerne er nye (mens
+afsnittet måske ikke er det) og kan målrettes på grundlag af den IP-adresse,
+hvorfra du anmoder om mediefilen (f.eks. en virksomhed i dit land). Afhængigt af
+hvor smart hostingfirmaet gør det, kan reklamerne blive indsat lige midt i en
+sætning. Nogle af hostingselskaberne laver også kludder i kapitelmarkeringerne,
+når de indsætter annoncerne (så kapitlerne er forskudt i forhold til annoncens
+varighed).
 
 Du kan altid bruge knappen til at spole fremad i AntennaPod for at springe
 reklamerne over. Hvis du streamer et afsnit i stedet for at downloade det, har
@@ -48,9 +50,9 @@ lytter til hvilket afsnit af episoden. AntennaPod kan konfigureres til
 automatisk at downloade og senere slette episoder, så du ikke behøver at gøre
 det manuelt.)
 
-Desuden tilbyder mange podcast-værter et reklamefrit feed, som du kan betale for.
-Normalt får du så enten en hemmelig URL til podcast-feed eller alternativt et
-brugernavn og en adgangskode, som du kan indtaste i AntennaPod.
+Desuden tilbyder mange podcast-producenter et reklamefrit feed, som du kan betale
+for. Normalt får du så enten en hemmelig URL til podcast-feed eller alternativt
+et brugernavn og en adgangskode, som du kan indtaste i AntennaPod.
 
-Hvis du synes, at disse reklamer er irriterende, kan du overveje at tale med
-podcast-udgiverne om dette.
+Hvis du synes, at disse reklamer er irriterende, kan du overveje at henvende dig
+til producenterne af podcasten om dette.

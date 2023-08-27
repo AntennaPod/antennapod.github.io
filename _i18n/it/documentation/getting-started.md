@@ -1,41 +1,36 @@
-Per prima cosa, devi abbonarti a un podcast. Puoi trovare maggiori informazioni
-su questo passaggio [qui](/documentation/getting-started/subscribe). Dopo
-l'abbonamento, i nuovi episodi vengono mostrati in `Episodi` » `Novità`. Lì puoi
-decidere se ascoltarli o no. `Nuovo` significa che non hai ancora deciso cosa
-fare con l'episodio.
+First, you want to subscribe to a podcast. You can find more about that
+[here](/documentation/getting-started/subscribe). After subscribing, new
+episodes are shown in the `Inbox`. There you can decide if you actually like to
+listen to them or not. If an episode is in the inbox, it means that you have not
+yet decided what to do with the episode.
 
-- Se non sei interessato a un episodio, toccalo e fai swipe verso destra:
-AntennaPod rimuoverà da esso l'etichetta `nuovo`. L'episodio rimarrà comunque
-contrassegnato come non riprodotto e potrai trovarlo nella pagina `Episodi` »
-`Tutti`, così come nella pagina del relativo podcast.
+- If you are not interested in an episode, just swipe it away to remove it from
+the inbox. The episode still stays marked as unplayed and you can find it on
+the `Episodes` page, as well as on the podcast's page.
 - Se sei interessato all'episodio, puoi fare una di queste due cose, a seconda
 delle tue abitudini di ascolto.
-   - Scaricare l'episodio. Durante il download, AntennaPod aggiunge automaticamente
-l'episodio alla coda e rimuove l'etichetta `nuovo`. È presente un'impostazione
-per far sì che i nuovi episodi vengano messi in coda in fondo, in cima o
-immediatamente dopo l'episodio in riproduzione. Il download è il modo principale
-in cui AntennaPod è stato originariamente progettato per essere utilizzato, ma,
-poiché lo streaming sta diventando sempre più diffuso, è possibile utilizzare
-anche la seconda opzione.
-   - Aggiungere semplicemente l'episodio alla coda. AntennaPod rimuove
-automaticamente l'etichetta `nuovo` e lo inserisce nella coda. In seguito è
-possibile riprodurre direttamente l'episodio senza doverlo scaricare, quindi
-senza occupare spazio. Pensa: riprodurre in streaming come i video su YouTube.
-Lo svantaggio è che l'episodio non sarà disponibile offline, consuma la tua
-connessione dati mobile quando sei in giro, e rende l'avanzamento veloce un po'
-più lento.
-- Se hai finito di ascoltare l'episodio, AntennaPod lo contrassegna come
-riprodotto e lo rimuove dalla coda. È presente un'impostazione per eliminare
-automaticamente il download dopo la riproduzione. Puoi trovare un elenco di
-tutti gli episodi che sono ancora scaricati sul tuo dispositivo (che siano nella
-coda o meno) nella pagina `Download` » `Completati`.
-- Se ti piace un episodio e stai pensando di riascoltarlo, puoi anche aggiungerlo
-ai preferiti. Apparirà quindi nella pagina `Episodi` » `Preferiti` e (di
-default) non sarà eliminato dopo la riproduzione.
+   - Download the episode. When downloading, AntennaPod also automatically adds the
+episode to the queue and removes it from the inbox. There is a setting if you
+want new episodes to be enqueued in the back, front or after the currently
+playing episode. Downloading is the main way AntennaPod was originally designed
+to be used but as streaming is becoming more and more popular, you can also use
+the second option.
+   - Just add the episode to the queue. AntennaPod automatically removes it from the
+inbox and inserts it into the queue. You can later directly play the episode
+without having to download, so it does not take up space. Think: Streaming like
+videos on YouTube. The disadvantage is that it will not be available offline,
+uses up your mobile data connection when you are on the run, and makes fast
+forwarding a little bit slower.
+- If you are done playing, AntennaPod marks the episode as played and removes it
+from the queue. There is a setting to also automatically delete the download
+after playing. You can find a list of all episodes that are still downloaded to
+your device (whether they are in the queue or not) on the `Downloads` page.
+- If you like an episode and are thinking about listening to it again, you can
+also mark it as favorite. You can filter the `Episodes` page to show only your
+favorites and (by default) AntennaPod will not delete favorites after playing.
 
-Nel caso in cui tu sia abbonato a un podcast davvero fantastico per il quale sai
-fin dall'inizio che tutti gli episodi saranno grandiosi, puoi usare la funzione
-di download automatico. Quando è abilitata per un podcast, tutti i nuovi episodi
-futuri vengono automaticamente scaricati e aggiunti alla coda. Saranno
-automaticamente rimossi dalla pagina `Episodi` » `Novità` non appena vengono
-scaricati.
+In case you are subscribed to a really great podcast where you know from the
+beginning that all episodes will be great, you can use the auto-download
+feature. When enabled for a podcast, all of its future new episodes are
+automatically downloaded and added to the queue. They will automatically be
+removed from the inbox as soon as they are downloaded.

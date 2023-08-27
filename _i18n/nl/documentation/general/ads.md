@@ -1,59 +1,59 @@
-The official versions of AntennaPod do not insert any ads. The app is developed
-by volunteers without commercial interest and the project relies on donations to
-cover costs. As AntennaPod's [source
-code](https://github.com/AntennaPod/AntennaPod) and [income and
-expenses](https://opencollective.com/antennapod#category-BUDGET) are public
-everyone is free to verify this.
+De officiële versies van AntennaPod voegen geen advertenties toe. De app is
+ontwikkeld door vrijwilligers zonder commercieel belang en het project is
+afhankelijk van donaties om de kosten te dekken. Aangezien de
+[broncode](https://github.com/AntennaPod/AntennaPod) en [inkomsten en
+uitgaven](https://opencollective.com/antennapod#category-BUDGET) van AntennaPod
+openbaar zijn, staat het iedereen vrij dit te controleren.
 
-If you are seeing ads, this can have two reasons:
+Als je advertenties ziet, kan dat twee redenen hebben:
 
-### 1. You downloaded an unofficial version of AntennaPod
+### 1. Je hebt een onofficiële versie van AntennaPod gedownload
 
-**Je hebt een niet-officiële versie van AntennaPod gedownload.** AntennaPod is
-open source. Dat houdt in dat iedereen de broncode kan downloaden. Helaas
-gebruiken sommige ontwikkelaars AntennaPod om snel een podcast-app te maken met
-advertenties en die vervolgens te publiceren als nieuwe app. De officiële
-AntennaPod app staat op [Google Play](https://play.google.com/store/apps/details?
-id=de.danoeh.antennapod) of
-[F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Het is ook
-mogelijk de laatste versie van
-[GitHub](https://github.com/AntennaPod/AntennaPod/) te downloaden en AntennaPod
-zelf te bouwen!
+AntennaPod is open-source. Dit betekent dat iedereen de broncode kan downloaden.
+Helaas voegen sommige ontwikkelaars advertenties toe aan AntennaPod om het
+daarna te publiceren als een nieuwe app. Je kunt de officiële AntennaPod app
+vinden op [Google Play](https://play.google.com/store/apps/details?
+id=de.danoeh.antennapod) en
+[F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Je kunt zelfs de
+laatste release van [GitHub](https://github.com/AntennaPod/AntennaPod/) halen en
+AntennaPod zelf bouwen!
 
-### 2. The podcast publishers added the ads to their shownotes or audio file
+### 2. De podcast makers of hun uitgevers voegden de advertenties toe aan hun
+shownotes of audiobestand
 
-**De podcast-uitgevers hebben advertenties toegevoegd aan hun shownotes of
-audiobestand.** AntennaPod speelt podcasts af zoals ze door de makers zijn
-gepubliceerd. Als ze advertenties bevatten, speelt AntennaPod die af. Wij hebben
-niets met die advertenties te maken, dus de opbrengst gaat volledig naar de
-uitgevers van je podcast.
+AntennaPod speelt podcasts af zoals ze door de makers zijn gepubliceerd. Als ze
+advertenties bevatten, speelt AntennaPod ze af. Wij hebben niets te maken met
+die advertenties, dus gaan alle inkomsten naar de makers en/of hun hoster.
 
-Now, you might ask something like "But then why is the podcast in English and the
-ad in German?" or "But why is the podcast episode from 2008 but still promotes a
-product released in 2023?". The reason is a technique called *dynamic ad
-insertion*. Podcast publishers can instruct the hosting company to insert those
-ads. Then, while downloading or streaming the episode with AntennaPod, the media
-file delivered to AntennaPod gets cut on-the-fly to include the ads. The ads are
-recent (while the episode might not be) and can be targeted based on the IP
-address from which you request the media file (e.g. a company in your country).
-Depending on how smart the hosting company does this, the ads might get inserted
-right in the middle of a sentence. Some of the hosting companies also mess up
-the chapter marks while inserting the ads (so the chapters are off by the
-duration of the ad).
+Wellicht vraag je "Maar waarom is de podcast in het Engels en de advertentie in
+het Duits?" of "Maar waarom is de podcast aflevering uit 2008 maar promoot toch
+een product dat in 2023 is uitgebracht?". De reden is een techniek die *dynamic
+ad insertion* heet. Podcastuitgevers kunnen het hostingbedrijf opdracht geven
+die advertenties in te voegen. Dan wordt bij het downloaden of streamen van de
+aflevering met AntennaPod het mediabestand dat aan AntennaPod wordt geleverd ter
+plekke onderbroken om de advertenties in te voegen. De advertenties zijn recent
+(terwijl de aflevering dat misschien niet is) en kunnen gericht zijn op basis
+van het IP-adres van waaruit je het mediabestand opvraagt (bijvoorbeeld een
+bedrijf in jouw land). Afhankelijk van hoe slim het hostingbedrijf dit doet,
+kunnen de advertenties midden in een zin worden ingevoegd. Sommige
+hostingbedrijven verknoeien ook de hoofdstukmarkeringen tijdens het invoegen van
+de advertenties (zodat de hoofdstukken niet overeenkomen met de duur van de
+advertentie).
 
-You can always use the fast forward button in AntennaPod to skip the ads. If you
-are streaming an episode instead of downloading, the hosting company has an idea
-of how far you are in the podcast. It might be possible that the company detects
-the fact that you skipped the ad and insert a new one. If you instead download
-the episode, they cannot do that and you can skip the ads more reliably.
-(Downloading is also better for your privacy because then the hosting company
-does not know when you listen to which section of the episode. AntennaPod can be
-configured to automatically download and later delete episodes, so you don't
-have to do that manually.)
+Je kunt altijd de vooruitspoelknop in AntennaPod gebruiken om de advertenties
+over te slaan. Als je een aflevering streamt in plaats van downloadt, dan heeft
+het hostingbedrijf een idee hoever je in de podcast bent. Het is mogelijk dat
+het bedrijf detecteert dat je de advertentie hebt overgeslagen en een nieuwe
+invoegt. Als je in plaats daarvan de aflevering downloadt, kan dat niet en kun
+je de advertenties betrouwbaarder overslaan. (Downloaden is ook beter voor je
+privacy, omdat het hostingbedrijf dan niet weet wanneer je naar welk deel van de
+aflevering luistert. AntennaPod kan worden ingesteld om afleveringen automatisch
+te downloaden en later te verwijderen, zodat je dat niet handmatig hoeft te
+doen.)
 
-Additionally, many podcast hosts provide an ad-free feed that you can buy.
-Usually, you then either get a secret podcast feed URL, or alternatively
-username and password that you can enter in AntennaPod.
+Daarnaast bieden veel podcastmakers een feed zonder reclame die je kunt kopen.
+Meestal krijg je dan of een geheime podcast feed URL, of andere gebruikersnaam
+en wachtwoord die je in AntennaPod kunt invoeren.
 
-If you find these ads annoying, consider talking to the podcast publishers about
-this.
+Als je deze advertenties vervelend vindt, overweeg dan hierover contact op te
+nemen met de podcastmakers.

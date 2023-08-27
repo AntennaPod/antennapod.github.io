@@ -120,9 +120,12 @@ de rapport de panne d'Android de Google) :
    - Version d'Android
 - visiter ou participer à notre forum : comme décrit dans la [politique de
 confidentialité du forum](https://forum.antennapod.org/privacy)
-- faire une contribution financière via Open Collective (sauf si vous faites une
-contribution
-[incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)) :
+- actively make a financial contribution via Open Collective (unless you make an
+[anonymous
+guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)
+or
+[incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)
+contribution):
    - information sur le profil public (nom, entreprise, description, image, Twitter,
 GitHub, site web)
    - adresse e-mail

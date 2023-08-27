@@ -26,7 +26,7 @@ dat je graag zou willen implementeren.
 ### SoundCloud
 
 Op SoundCloud kunnen makers vrij eenvoudig hun [content omtoveren tot
-podcast](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed).
+podcast](https://help.soundcloud.com/hc/nl/articles/115003451347-Adding-tracks-to-your-RSS-feed).
 Neem contact met op met de maker, deel de SoundCloud-helppagina (zie de link) en
 vraag of ze bereid zijn om het in te stellen.
 

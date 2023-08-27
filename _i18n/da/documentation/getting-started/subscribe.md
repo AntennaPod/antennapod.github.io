@@ -24,7 +24,7 @@ vil implementere.
 ### SoundCloud
 
 Soundcloud giver [producenter mulighed for at lave
-podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed)
+podcasts](https://help.soundcloud.com/hc/da/articles/115003451347-Adding-tracks-to-your-RSS-feed)
 ud fra deres indhold ganske nemt. Du bør kontakte dem, dele
 Soundcloud-hjælpssiden (førnævnte link) og spørge, om de er villige til at sætte
 det op.

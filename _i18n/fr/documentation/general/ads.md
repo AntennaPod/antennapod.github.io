@@ -20,7 +20,8 @@ obtenir la dernière version sur
 [GitHub](https://github.com/AntennaPod/AntennaPod/) et construire AntennaPod
 vous-même !
 
-### 2. The podcast publishers added the ads to their shownotes or audio file
+### 2. The podcast creators or their hosting company added the ads to their shownotes
+or audio file
 
 **Les éditeurs de podcasts ont ajouté les publicités à leurs notes ou à leur
 fichier audio.** AntennaPod lit les podcasts tels qu'ils ont été publiés par
@@ -31,7 +32,7 @@ reversés aux éditeurs de votre podcast.
 Now, you might ask something like "But then why is the podcast in English and the
 ad in German?" or "But why is the podcast episode from 2008 but still promotes a
 product released in 2023?". The reason is a technique called *dynamic ad
-insertion*. Podcast publishers can instruct the hosting company to insert those
+insertion*. Podcast creators can instruct the hosting company to insert those
 ads. Then, while downloading or streaming the episode with AntennaPod, the media
 file delivered to AntennaPod gets cut on-the-fly to include the ads. The ads are
 recent (while the episode might not be) and can be targeted based on the IP
@@ -51,9 +52,9 @@ does not know when you listen to which section of the episode. AntennaPod can be
 configured to automatically download and later delete episodes, so you don't
 have to do that manually.)
 
-Additionally, many podcast hosts provide an ad-free feed that you can buy.
+Additionally, many podcast creators provide an ad-free feed that you can buy.
 Usually, you then either get a secret podcast feed URL, or alternatively
 username and password that you can enter in AntennaPod.
 
-If you find these ads annoying, consider talking to the podcast publishers about
+If you find these ads annoying, consider talking to the podcast creators about
 this.

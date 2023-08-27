@@ -111,9 +111,12 @@ uitgezonderd
    - Android-versie
 - ons forum bezoeken of eraan deelnemen: zoals beschreven in het [privacybeleid
 van het forum's](https://forum.antennapod.org/privacy)
-- actief een financiële bijdrage leveren via Open Collective (tenzij je een
-[incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)
-bijdrage levert):
+- actively make a financial contribution via Open Collective (unless you make an
+[anonymous
+guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)
+or
+[incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)
+contribution):
    - openbare profielinformatie (naam, bedrijf, beschrijving, afbeelding, Twitter,
 GitHub, website)
    - e-mailadres

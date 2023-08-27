@@ -113,9 +113,12 @@ Android-nedbrud):
    - Android-version
 - besøger eller deltager i vores forum: som beskrevet i [forummets
 privatlivspolitik](https://forum.antennapod.org/privacy)
-- aktivt yder et finansielt bidrag via Open Collective (medmindre du yder et
-[incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)
-bidrag):
+- actively make a financial contribution via Open Collective (unless you make an
+[anonymous
+guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)
+or
+[incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)
+contribution):
    - offentlige profiloplysninger (navn, virksomhed, beskrivelse, billede, Twitter,
 GitHub, websted)
    - e-mailadresse

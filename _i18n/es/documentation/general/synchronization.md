@@ -41,8 +41,8 @@ solicita al administrador del servidor que lo haga
 1. Ve a `Configuración` » `Sincronización` en AntennaPod y toca
 `Seleccionar un proveedor de sincronización`
 1. Selecciona 'Nextcloud'
-1. Ingresa la 'Dirección del servidor' (la URL o la dirección IP del servidor) y
-toca 'Proceed'
+1. Ingresa la 'Server address' (la URL o la dirección IP del servidor) y toca
+`Proceed`
 1. Inicia sesión en la ventana del navegador que se abre y autoriza a AntennaPod
 
 ## Habilitar la sincronización a través de gPodder
@@ -63,9 +63,9 @@ you created on the server
 
 **Nota** ¿Creó un dispositivo mientras configuraba la sincronización en
 AntennaPod en lugar de crear un dispositivo de antemano en el sitio web? Así que
-asegúrate de presionar el botón "Forzar sincronización completa" en AntennaPod
-para cargar el modo de reproducción de todos los episodios que escuchó en el
-pasado. Si no haces esto, solo se sincronizarán los podcasts que se agregaron
-**después** de vincular los dispositivos. Hay un [problema abierto para
+asegúrate de presionar el botón `Force sync` en AntennaPod para cargar el modo
+de reproducción de todos los episodios que escuchó en el pasado. Si no haces
+esto, solo se sincronizarán los podcasts que se agregaron **después** de
+vincular los dispositivos. Hay un [problema abierto para
 gpodder.net](https://github.com/gpodder/mygpo/issues/388) que solicita cambiar
 este comportamiento.

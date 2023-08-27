@@ -26,10 +26,12 @@ img-FD | strip -}}</a>
 AntennaPod è pubblicato ufficialmente solo su questi due app store perché non
 abbiamo il tempo di supportarne altri. Tutti gli altri store che hanno in
 catalogo AntennaPod hanno copiato l'applicazione senza il nostro permesso
-esplicito. Non siamo responsabili per l'aggiornamento dell'app su quegli store o
-per la verifica del suo corretto funzionamento. Il repository di F-Droid non è
-mantenuto da noi, ma dalle persone dietro a F-Droid. Se non ha l'ultima
-versione, non c'è molto che possiamo fare, ma puoi sempre farcelo sapere creando
-un post sul nostro [forum](https://forum.antennapod.org/) e noi indagheremo.
+esplicito. Non siamo responsabili dell'aggiornamento dell'app su quegli store o
+di verificare che funzioni correttamente. Il repository di F-Droid non è
+mantenuto da noi, ma dalle persone dietro a F-Droid. Di solito ci vuole qualche
+giorno prima che gli aggiornamenti siano disponibili su F-Droid ([più
+dettagli](/documentation/general/f-droid)). Se un aggiornamento non è ancora
+disponibile più di una settimana dopo la sua pubblicazione, faccelo sapere
+creando un post sul nostro [forum](https://forum.antennapod.org/) e indagheremo.
 
 <small>Google Play e il logo di Google Play sono proprietà di Google LLC.</small>

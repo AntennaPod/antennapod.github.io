@@ -27,7 +27,7 @@ charlar sobre una propuesta sobre lo que estarías dispuesto en implementar.
 ### SoundCloud
 
 SoundCloud permite a los [productores crear
-podcasts](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed)
+podcasts](https://help.soundcloud.com/hc/es/articles/115003451347-Adding-tracks-to-your-RSS-feed)
 a partir de su contenido de una forma bastante fácil. Deberás de dirigirte a
 ellos, compartir la página de ayuda de SoundCloud (enlazada justo arriba), y
 preguntar si estarían dispuestos a ponerlo en funcionamiento.
