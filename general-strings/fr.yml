@@ -8,6 +8,8 @@ titles:
   forum: Forum
   media: Kit presse
   privacy: Politique de confidentialité
+  media-kit: Kit Média
+  events: Évènements
 generic:
   share: Partager
   error: Erreur
@@ -19,13 +21,14 @@ generic:
   page-not-found-long: La page demandée n'a pas été trouvée.
   accessibility:
     lang-menu: Sélecteur de langue
-    copy: Copier dans le presse-papiers
+    copy: Copier le lien
     copied: Lien copié !
     copy-fail: Veuillez copier l'URL à partir de la barre d'adresse.
     share-fb: Partager sur Facebook
     share-md: Partager sur Mastodon
     share-tw: Partager sur Twitter
     share-eml: Partager par e-mail
+    logo: Logo d'AntennaPod
   eml-share:
     subject: Je voulais que tu vois ça
     body: Lis cet article
@@ -146,12 +149,14 @@ documentation:
       episode-deletion: Suppression d'épisodes
       proxy: Transfert du trafic par un proxy ou un réseau Tor
       synchronization: Comment synchroniser entre les appareils
+      f-droid: Mises à jour sur F-Droid
     playback:
       title: Lecture
       intro: Ci-dessous, vous trouverez des sujets relatifs à la lecture.
       auto-rewind: Retour en arrière automatique
       crashes: Que faire si la lecture s'arrête
       shortcuts: Raccourcis clavier
+      android-auto: Lecture dans les voitures (Android Auto)
     queue:
       how-to-use: Comment utiliser la file d'attente
       lock: (Dé)Verrouiller la file d'attente
@@ -192,3 +197,21 @@ documentation:
       refresh-download-errors: Erreur de téléchargement ou de mise à jour du flux
 footer:
   description: Le gestionnaire de podcasts simple, flexible et open-source pour Android.
+events:
+  general:
+    recurring: Événement récurrent
+    download-ics: Télécharger le fichier ICS
+    copy-url: Copier l'URL du calendrier
+    announce-add-calendar: Vous voulez toujours avoir les derniers événements et mettre
+      à jour les informations sur les appels communautaires à portée de main ? Alors
+      abonnez-vous à notre calendrier dans votre application préférée via le lien
+      "Ajouter au calendrier" !
+  links:
+    add-calendar: Ajouter au calendrier
+    more-information: Plus d'informations
+    open-meeting: Meeting ouvert
+    open-map: Voir la localisation
+    open-blog: Lire le post du blog
+    watch-recording: Regarder l'enregistrement
+  recurrence:
+    every-2nd-saturday: Chaque second Samedi du mois
