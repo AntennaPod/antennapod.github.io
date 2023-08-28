@@ -2,7 +2,7 @@ You might feel like screaming *Help! I lost my podcasts/episodes/settings/everyt
 
 In a very old AntennaPod version, there were some issues with the database with all information (episodes, listening states, etc). While the cause is long fixed, your database might have been damaged (even when the app was working without issues). If a recent AntennaPod version makes changes to the damaged parts of the database, these damages may suddenly become a problem. At that point AntennaPod can no longer work with the broken database and has to start over with an empty one.
 
-We realise it is very frustrating when this happens and are really sorry if you were affected.
+We realize it is very frustrating when this happens and are really sorry if you were affected.
 
 There may be some things you can do to recover your data. We list them below, starting with the solution that gives the easiest & best results:
 

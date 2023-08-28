@@ -2,7 +2,7 @@ Did you see that there's a new AntennaPod release and wonder:
 * _why isn't the latest version not on F-Droid yet?_
 * _when will the new release be available on F-Droid?_
 
-If the new version is in beta, it is _only_ available through Google Play ((here is why)[/documentation/general/beta]). When the new version is ready for the public, we upload it to Google Play and tag the release on GitHub. F-Droid then has to find out about this release, build it and make it available. All these steps may take some time.
+If the new version is in beta, it is _only_ available through Google Play ((here is why)[/documentation/general/beta]). When we think it's ready we upload it to Google Play. A few days later, when we're confident there are no critical bugs, we tag the release on GitHub. F-Droid then has to find out about this release, build it and make it available. All these steps may take some time.
 Due to the different steps and because we are not involved in publishing releases on F-Droid, we can't tell when exactly the latest version will be available there. It usually takes a few days after the release is tagged on GitHub.
 
 In short: it may take some time. Please be patient.
