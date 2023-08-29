@@ -41,11 +41,11 @@ AntennaPod can synchronise your subscriptions and listening progress with other 
 ## Enable synchronization via gPodder
 1. Create an account on the server www.gpodder.net or on your own server
 2. When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:
-    <!-- mdpo-disable-next-line -->
-    <br />{{ img-devices | strip }}
+   <!-- mdpo-disable-next-line -->
+   <br />{{ img-devices | strip }}
 3. When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the activated devices synchronized.
-  <!-- mdpo-disable-next-line -->
-  <br />{{ img-synchronize | strip }}
+   <!-- mdpo-disable-next-line -->
+   <br />{{ img-synchronize | strip }}
 4. Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose synchronization provider`
 5. Select 'gPodder'
 6. Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`
