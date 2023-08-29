@@ -70,10 +70,6 @@
         {% endfor %}
       </div>
       <div class="overlay-footer">
-        {% if site.twitter_username %}
-        <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
-           rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
-        {% endif %}
         {% if site.mastodon_username %}
         <a class="mr-2 color-gray-900" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}" target="_blank"
            rel="me noopener"><i class="fa-brands fa-mastodon mr-1"></i>Mastodon</a>
@@ -81,6 +77,10 @@
         {% if site.github_username %}
         <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}" target="_blank"
            rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
+           rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
         {% endif %}
       </div>
     </div>
