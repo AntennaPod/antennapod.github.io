@@ -6,7 +6,7 @@ There are (open source) alternatives, however, which we would like to point you 
 <!-- mdpo-enable-next-line -->
 
 App|Code|iOS|MacOS|Windows|Linux
----|---|---|---|---|---
+---|---|:---:|:---:|:---:|:---:
 [Podverse](https://podverse.fm/about)|[<i class="fab fa-github"></i>](https://github.com/podverse/podverse-rn)|✅|✅|❌|❌
 [Pocket Casts](https://pocketcasts.com/)|[<i class="fab fa-github"></i>](https://github.com/Automattic/pocket-casts-ios)|✅|❌|❌|❌
 [gPodder](https://gpodder.github.io/)|[<i class="fab fa-github"></i>](https://github.com/gpodder/gpodder)|❌|✅|✅|✅
