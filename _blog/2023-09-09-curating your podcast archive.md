@@ -15,10 +15,6 @@ However, it doesn’t have to be that way (unless you want it, of course): Anten
 
 ## Step no. 1: switch off those updates
 
-As you don’t expect new episodes to be published anymore for this podcast, you can safely disable its “[Keep updated](https://antennapod.org/documentation/automation/refreshing-podcasts)” setting. That way, AntennaPod will refresh your subscriptions faster, as it will only do so for active ones.
-
-If you aren’t sure whether new episodes will be published, you can still refresh this podcast manually (by swiping down on that podcast’s screen or by using the refresh icon on the same screen), or toggle back the “Keep updated” setting at any time.
-
 {% include image.html
    alt="Where to find the settings described in Steps no. 1 and 2."
    loc="/assets/images/blog/2023"
@@ -27,9 +23,17 @@ If you aren’t sure whether new episodes will be published, you can still refre
    class="float-md-right ml-md-3 w-100"
 %}
 
+As you don’t expect new episodes to be published anymore for this podcast, you can safely disable its “[Keep updated](https://antennapod.org/documentation/automation/refreshing-podcasts)” setting. That way, AntennaPod will refresh your subscriptions faster, as it will only do so for active ones.
+
+If you aren’t sure whether new episodes will be published, you can still refresh this podcast manually (by swiping down on that podcast’s screen or by using the refresh icon on the same screen), or toggle back the “Keep updated” setting at any time.
+
 ## Step no. 2: assign a tag
 
 From that same Podcast settings screen, or from your Subscriptions screen, edit the [tags](https://antennapod.org/documentation/subscriptions/subscription-groups) for this podcast, adding one named “Archive”.
+
+## Step no. 3: off to the archive you go!
+
+As a final step, deselect the “Show in main list” checkbox on the Tags dialog to hide this podcast from the list that is displayed on your Subscriptions screen.
 
 {% include image.html
    alt="How to assign tags and show/hide podcasts from the main list."
@@ -38,10 +42,6 @@ From that same Podcast settings screen, or from your Subscriptions screen, edit 
    max-width="22rem"
    class="float-md-right ml-md-3 w-100"
 %}
-
-## Step no. 3: off to the archive you go!
-
-As a final step, deselect the “Show in main list” checkbox on the Tags dialog to hide this podcast from the list that is displayed on your Subscriptions screen.
 
 ## Wait, does that mean…
 
