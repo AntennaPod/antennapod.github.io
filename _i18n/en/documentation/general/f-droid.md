@@ -18,6 +18,6 @@ As you can see it may take a week before a new AntennaPod release is available o
 You can get an idea of the progress by checking
 1. [if F-Droid's releases list was updated](https://gitlab.com/fdroid/fdroiddata/-/commits/master?search=Update+known+apks) since the new [release was tagged on GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (you may need to hover, for example, 'last week' to see the exact date on GitHub),
 2. if the release is included in `known_apks.txt` ([download from F-Droid](https://gitlab.com/fdroid/fdroiddata/-/raw/master/stats/known_apks.txt?inline=false) and search for AntennaPod), and
-3. whether AntennaPod succesfully ended up on the [build queue](https://monitor.f-droid.org/builds/needsupdate).
+3. whether AntennaPod successfully ended up on the [build queue](https://monitor.f-droid.org/builds/needsupdate).
 
 Is it not listed in the known apks-list while it should be, as per step 1? Or is it included in the known apks-list but it's not in the build queue and has not been built yet (see [F-Droid Monitor](https://monitor.f-droid.org/builds/build)? Then someting may be off.
