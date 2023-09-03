@@ -13,6 +13,11 @@ In short: it may take some time. Please be patient.
 - Finally, the resulting app needs to get signed cryptographically. This happens on a computer that is not connected to the internet. A person at F-Droid needs to take the app and physically walk it to that special computer. How long this takes depends on how often the person walks to that special computer. Usually, this step takes an additional 1-2 days after the app was built.
 
 ### What you can do if it takes longer than expected
-As you can see it can easily take a week before a new AntennaPod release is available on F-Droid. If an update is still not available more than a week after its release, feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/), and we'll investigate it.
+As you can see it may take a week before a new AntennaPod release is available on F-Droid. Is an update still not available more than a week after its release? Feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/c/support/7).
 
-You can get an idea of the progress by checking [if F-Droid's releases list was updated](https://gitlab.com/fdroid/fdroiddata/-/commits/master?search=Update+known+apks) since the new AntennaPod release and by checking on [F-Droid Monitor](https://monitor.f-droid.org/builds/build) if the new release was built yet.
+You can get an idea of the progress by checking
+1. [if F-Droid's releases list was updated](https://gitlab.com/fdroid/fdroiddata/-/commits/master?search=Update+known+apks) since the new [release was tagged on GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (you may need to hover, for example, 'last week' to see the exact date on GitHub),
+2. if the release is included in `known_apks.txt` ([download from F-Droid](https://gitlab.com/fdroid/fdroiddata/-/raw/master/stats/known_apks.txt?inline=false) and search for AntennaPod), and
+3. whether AntennaPod succesfully ended up on the [build queue](https://monitor.f-droid.org/builds/needsupdate).
+
+Is it not listed in the known apks-list while it should be, as per step 1? Or is it included in the known apks-list but it's not in the build queue and has not been built yet (see [F-Droid Monitor](https://monitor.f-droid.org/builds/build)? Then someting may be off.
