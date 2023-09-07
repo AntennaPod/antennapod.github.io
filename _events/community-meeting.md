@@ -15,11 +15,14 @@ recurrence-exceptions:
 - 2023-06-10
 - 2023-07-08
 - 2023-08-12
+- 2023-09-09
 recurrence-additions:
 - start: 2022-10-22 16:00
   end: 2022-10-22 17:00
 - start: 2023-06-17 18:00
   end: 2023-06-17 19:00
+- start: 2023-09-21 18:00
+  end: 2023-09-21 19:00
 location: online
 location-label: AntennaPod's Jitsi Meet
 more-information: https://forum.antennapod.org/t/monthly-community-call/1869
