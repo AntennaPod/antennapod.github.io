@@ -1,7 +1,7 @@
 ---
 title: Curating your personal podcast archive with AntennaPod 🗃
 excerpt: Your favourite podcast is over? No need to part ways with it!
-date: "2023-09-09 08:20:00"
+date: "2023-09-27 08:35:00"
 image: "2023/archive.jpg"
 author: loucasal
 layout: blog
@@ -47,7 +47,7 @@ As a final step, deselect the “Show in main list” checkbox on the Tags dialo
 
 Yes, you got it! You can create one large archive or even several ones divided by topic, publisher, language, frequency… you name it! You can also assign multiple tags to the same podcast. And of course, you can use tags just as well to organise your active subscriptions, not just your archive.
 
-Keeping old subscriptions also has an additional benefit: it ensures that your listening statistics remain accurate, as removed subscriptions are not counted, at least for now.
+Keeping old subscriptions also has an additional benefit: it ensures that your listening statistics remain accurate, as removed subscriptions are not counted.
 
 ## What if I wanted to unarchive a podcast?
 
