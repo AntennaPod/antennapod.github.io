@@ -60,7 +60,7 @@ Designs are provided with an unlimited and unrevokable license to the AntennaPod
 
 Keunes (comms) and ByteHamster (lead developer) are responsible for guiding the process. Keunes will be the contact person for the designer(s).
 
-As a community project, contributing users and others interested will have an important role. To that end, the 'active community' will be involved (in a resticted manner, as described below). With 'active community', we refer to all beta users of the app (3.4k), those following a GitHub issue on the topic (13+) and those following the project on Twitter (867).
+As a community project, contributing users and others interested will have an important role. To that end, the 'active community' will be involved (in a restricted manner, as described below). With 'active community', we refer to all beta users of the app (3.4k), those following a GitHub issue on the topic (13+) and those following the project on Twitter (867).
 
 - **First round**. After the call for proposals, one to three are selected by Keunes & ByteHamster. Feedback is provided to selected proposals. New iterations based on the feedback (if any) are expected.
 - **Second round**. The new iterations (and those that stayed the same) are put up for a vote by the active community. Participants will rate each of the proposals, and optionally provide open comments on their favourite proposal. To make sure the winner is validated as better than the current icon, the current icon will also be included. For the most popular proposal, relevant comments will be filtered and bundled by Keunes and provided to the designer. Based on the feedback (if any), an iteration is welcomed but not required.
@@ -73,10 +73,10 @@ We'd love to hear from you by Wednesday 24 June if you're interested to help out
 
 ## Financial thank-you
 
-As a project without official structure or own funds, proper compensation wont be possible. However, as to support open source designers, Keunes would like to offer € 25 to those selected in the first round, plus € 50 to the selected logo. Designers may also decline the offer, in which case their financial thank-you will be donated to the [Open Source Design initiative](https://opencollective.com/opensourcedesign).
+As a project without official structure or own funds, proper compensation won't be possible. However, as to support open source designers, Keunes would like to offer € 25 to those selected in the first round, plus € 50 to the selected logo. Designers may also decline the offer, in which case their financial thank-you will be donated to the [Open Source Design initiative](https://opencollective.com/opensourcedesign).
 
 Of course you'd be acknowledged by name on the site and in the app's 'About' section.
 
 ## Interested? Contact us!
 
-Thank you for considering support to this open source app! Reply to the [ad on opensourcedesign.net](https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update) or get in touch at [email adress removed].
+Thank you for considering support to this open source app! Reply to the [ad on opensourcedesign.net](https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update) or get in touch at [email address removed].
