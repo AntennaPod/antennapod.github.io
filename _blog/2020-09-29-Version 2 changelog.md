@@ -45,7 +45,7 @@ Special mention: new app logo & icon #4441
 * increase button sizes on notification & lock screen #3840
 * Allow to click timecodes in item screen, not just on the player screen #3813
 * applied design to html subscriptions export #3796
-* decrease likelyhood of duplicates after gpodder sync #3690
+* decrease likelihood of duplicates after gpodder sync #3690
 * paged loading on the 'new episodes' list #3711
 
 ## UI improvements
