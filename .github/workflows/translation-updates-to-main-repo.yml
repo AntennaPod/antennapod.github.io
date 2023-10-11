@@ -23,20 +23,17 @@ jobs:
     name: Generate & push translated files
     runs-on: ubuntu-latest
     steps:
-        # Check out the repository and download it to the runner, allowing to run actions against the code
-      - name: Get main repository
+      - name: Install mdpo
+        run: pip install mdpo
+      - name: Get main branch
         uses: actions/checkout@v2
         with:
           ref: master
-      - name: Get translation repository
+      - name: Get translation files branch
         uses: actions/checkout@v2
         with:
           ref: translation-files
           path: translation-files
-      - run: git branch
-      - run: ls -al
-      - name: Install mdpo
-        run: pip install mdpo
       - name: Set languages
         id: lang-set
         run: |
@@ -46,7 +43,6 @@ jobs:
             languagelist=$(cat _config.yml | grep "languages: \[.*\]" )
             languagelist=${languagelist//[}
             languagelist=${languagelist//]}
-            echo $languagelist
             languagelist=${languagelist//'languages: '}
           fi
           languagelist=${languagelist//,}
@@ -55,28 +51,36 @@ jobs:
           languagelist=${languagelist//'en'}
           # Make variable consistent between steps
           echo "languages=$languagelist" >> $GITHUB_ENV
-      - name: Print tree
+      - name: Make General pages
         run: |
-          sudo apt-get install tree
-          tree -L 2
-      - name: Print languages
-        run: |
+          cd _i18n/en/general
           languages=(${{ env.languages }})
           for language in "${languages[@]}"
-          do echo $language
+          do
+            mkdir -p ../../$language/general
+          done
+          for file in *
+          do
+            for language in "${languages[@]}"
+            do
+              po2md $file --po-files ../../../translation-files/general-pages/site-general_$language.po --save ../../$language/general/$file
+              git add ../../$language/general/$file
+            done
           done
       - name: Make Contribution pages
         run: |
           cd _i18n/en/contribute
           languages=(${{ env.languages }})
           for language in "${languages[@]}"
-          do mkdir -p ../../$language/contribute
+          do
+            mkdir -p ../../$language/contribute
           done
           for file in *
           do
             for language in "${languages[@]}"
-            do po2md $file --po-files ../../../translation-files/contribute-pages/site-contribute_$language.po --save ../../$language/contribute/$file
-            git add ../../$language/contribute/$file
+            do
+              po2md $file --po-files ../../../translation-files/contribute-pages/site-contribute_$language.po --save ../../$language/contribute/$file
+              git add ../../$language/contribute/$file
             done
           done
       - name: Make Documentation pages
@@ -85,55 +89,44 @@ jobs:
           cd _i18n/en/documentation
           languages=(${{ env.languages }})
           for language in "${languages[@]}"
-          do mkdir -p ../../$language/documentation
+          do
+            mkdir -p ../../$language/documentation
           done
           for file in *.md
           do
             for language in "${languages[@]}"
-            do po2md $file --po-files ../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../$language/documentation/$file
-            git add ../../$language/documentation/$file
+            do
+              po2md $file --po-files ../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../$language/documentation/$file
+              git add ../../$language/documentation/$file
             done
           done
           # sub-level files
-          documentation_groups=(automation general getting-started playback podcasters-hosters queue subscriptions)
+          documentation_groups=(automation general getting-started playback podcasters-hosters queue subscriptions bugs-first-aid)
           for category in "${documentation_groups[@]}"
           do
             cd $category
             languages=(${{ env.languages }})
             for language in "${languages[@]}"
-            do mkdir -p ../../../$language/documentation/$category
+            do
+              mkdir -p ../../../$language/documentation/$category
             done
             for file in *
             do
               for language in "${languages[@]}"
               do
                 po2md $file --po-files ../../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../../$language/documentation/$category/$file
-              git add ../../../$language/documentation/$category/$file
+                git add ../../../$language/documentation/$category/$file
               done
             done
             cd ../
-          done
-      - name: Make General pages
-        run: |
-          cd _i18n/en/general
-          ls
-          languages=(${{ env.languages }})
-          for language in "${languages[@]}"
-          do mkdir -p ../../$language/general
-          done
-          for file in *
-          do
-            for language in "${languages[@]}"
-            do po2md $file --po-files ../../../translation-files/general-pages/site-general_$language.po --save ../../$language/general/$file
-            git add ../../$language/general/$file
-            done
           done
       - name: Stage yml files
         run: |
           languages=(${{ env.languages }})
           for language in "${languages[@]}"
-          do cp translation-files/general-strings/$language.yml _i18n/$language.yml
-          git add _i18n/$language.yml
+          do
+            cp translation-files/general-strings/$language.yml _i18n/$language.yml
+            git add _i18n/$language.yml
           done
       - name: Commit changes
         run: |
