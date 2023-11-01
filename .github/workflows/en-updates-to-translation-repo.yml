@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install mdpo
         run: pip install mdpo
       - name: Create folder for files to be copied

@@ -5,7 +5,7 @@ jobs:
   misspellcheck:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Run misspell with reviewdog
       uses: reviewdog/action-misspell@v1
       with:
@@ -14,7 +14,7 @@ jobs:
   checklinks:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.8.0
         with:
@@ -23,12 +23,12 @@ jobs:
   guids:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: .github/workflows/guids.sh
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
