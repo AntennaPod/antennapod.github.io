@@ -19,6 +19,7 @@ jobs:
       - run: gem install bundler jekyll --no-document
       - run: bundle install
       - run: bundle exec jekyll build
+      - run: touch _site/.nojekyll
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
