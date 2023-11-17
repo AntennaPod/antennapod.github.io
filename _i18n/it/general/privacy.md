@@ -118,9 +118,12 @@ Android di Google):
    - versione di Android
 - visiti o partecipi al nostro forum: come spiegato nell'[informativa sulla
 privacy del forum](https://forum.antennapod.org/privacy)
-- dai attivamente un contributo finanziario tramite Open Collective (a meno che
-tu non versi un contributo [in
-incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile):
+- actively make a financial contribution via Open Collective (unless you make an
+[anonymous
+guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)
+or
+[incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)
+contribution):
    - informazioni pubbliche sul profilo (nome, azienda, descrizione, immagine,
 Twitter, GitHub, sito web)
    - indirizzo email

@@ -63,7 +63,7 @@ hai da dire tu! La nostra comunità è aperta ai tuoi suggerimenti e alle tue
 osservazioni. Come esseri umani possiamo trovarci in disaccordo, ma l'importante
 è farlo sempre con rispetto. Facciamo anche del nostro meglio per rendere l'app
 accessibile a tutti. Ecco perché è possibile nascondere i suggerimenti
-automatici ed è semplice navigare nella app tramite talkback.
+automatici ed è semplice navigare nella app tramite TalkBack.
 
 ## Dal 2011: il progetto AntennaPod oggi
 

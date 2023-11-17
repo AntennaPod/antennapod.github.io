@@ -30,12 +30,12 @@ exclude_from_localizations: ["assets"]
 # Collections
 collections:
   documentation:
-    output: "true"
+    output: true
   blog:
-    output: "true"
+    output: true
     permalink: /blog/:year/:month/:slug
   events:
-    output: "true"
+    output: true
     permalink: /events/:year/:month/:title
 
 defaults:
@@ -70,3 +70,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - _events/0_A meeting template.md
+include:
+  - .well-known

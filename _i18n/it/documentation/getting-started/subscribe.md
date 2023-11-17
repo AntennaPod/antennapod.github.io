@@ -9,24 +9,24 @@ ricerca, sfogliare i suggerimenti o aggiungere un podcast inserendo il suo
 indirizzo RSS.
 
 In alternativa, puoi importare un file OPML o controllare solo il database di
-iTunes, gpodder.net, fyyd o Podcast Index rispettivamente. Funzionerà anche
-l'importazione di feed RSS o Atom, o schemi di URL come `pcast://` e `itpc://`.
+Apple Podcasts, gpodder.net, fyyd o Podcast Index rispettivamente. È supportato
+anche importare feed RSS o Atom, o schemi di URL come `pcast://` e `itpc://`.
 
 ## Abbonarsi a servizi di terzi
 
 Abbiamo ricevuto alcune richieste di aggiungere il supporto per piattaforme come
-SoundCloud, Mixcloud e simili. Sebbene possa essere bello avere una funzione per
-incollare/aprire semplicemente gli indirizzi URL dei canali in AntennaPod, [è
+SoundCloud, Mixcloud e simili. Sebbene potrebbe essere interessante avere una
+funzione per incollare/aprire semplicemente gli URL dei canali in AntennaPod, [è
 stato deciso](https://github.com/AntennaPod/AntennaPod/issues/1297) di non
 implementarla. Tali piattaforme possono nascere e scomparire, mentre per i
-nostri volontari implementare questa funzione richiede un bel po' di lavoro. Se
-sei uno sviluppatore, naturalmente sei il benvenuto se vuoi discutere una
+nostri volontari implementare questa funzionalità richiede un bel po' di lavoro.
+Se sei uno sviluppatore, naturalmente sei il benvenuto se vuoi discutere una
 proposta che vorresti implementare tu stesso.
 
 ### SoundCloud
 
 SoundCloud permette [ai produttori di creare
-podcast](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed)
+podcast](https://help.soundcloud.com/hc/it/articles/115003451347-Adding-tracks-to-your-RSS-feed)
 a partire dai loro contenuti abbastanza facilmente. Dovresti contattarli,
 condividere la pagina di aiuto di SoundCloud (linkata qui sopra) e chiedere loro
 se sono disposti a configurarlo.
@@ -58,8 +58,8 @@ non funziona come descritto, aggiungi
 AntennaPod. Puoi trovare l'ID del canale nell'URL del canale. Se il canale a cui
 vuoi abbonarti è un account utente (con un URL del tipo
 youtube.com/user/UserName), puoi contattare l'utente per chiedergli qual è il
-suo channel ID (qui è spiegato [come gli utenti possono trovare il loro channel
-id](https://support.google.com/youtube/answer/3250431?hl=en)).
+suo ID del canale (qui è spiegato [come gli utenti possono trovare il loro ID
+del canale](https://support.google.com/youtube/answer/3250431?hl=it)).
 
 Non abbiamo informazioni su altre piattaforme, come puoi vedere. Saremo lieti di
 includerle qui se condividerai le tue osservazioni tramite il

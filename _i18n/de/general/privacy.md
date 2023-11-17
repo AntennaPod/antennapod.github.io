@@ -116,10 +116,12 @@ Funktion „Crash Report“ oder über die Android-Absturzmeldefunktion von Goog
    - Android-Version
 - besuchst unser Forum: Wie in der [Datenschutzrichtlinie des
 Forums](https://forum.antennapod.org/privacy) beschrieben
-- leistest aktiv einen finanziellen Beitrag über Open Collective (es sei denn, du
-leistest einen
-[inkognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)
-Beitrag):
+- actively make a financial contribution via Open Collective (unless you make an
+[anonymous
+guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)
+or
+[incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)
+contribution):
    - öffentliche Profilinformationen (Name, Unternehmen, Beschreibung, Bild,
 Twitter, GitHub, Webseite)
    - E-Mail-Adresse

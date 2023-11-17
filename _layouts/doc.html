@@ -8,8 +8,8 @@
     {% include nav.html %}
     <div class="container-fluid">
         <div class="container py-4">
+            {% include breadcrumbs.html %}
             <article class="post-content">
-                {% include breadcrumbs.html %}
                 {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}
             </article>
             

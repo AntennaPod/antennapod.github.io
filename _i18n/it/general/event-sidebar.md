@@ -1,10 +1,10 @@
-## Meet us!
+## Incontriamoci!
 
-Are you interested in meeting the people behind AntennaPod? You'll find all the
-opportunities here on this page!
+Sei interessato a conoscere le persone che stanno dietro ad AntennaPod? Troverai
+tutte le opportunità in questa pagina!
 
-Do you know of an event in your neighbourhood and would love to meet up with
-AntennaPod contributors and users? Tell about the event on our forum to organise
-a get-together!
+Sei a conoscenza di un evento dalle tue parti e ti piacerebbe incontrare
+collaboratori e utenti di AntennaPod? Segnala l'evento sul nostro forum per
+organizzare un incontro!
 
-[Propose a meet-up](https://forum.antennapod.org/)
+[Proponi un incontro](https://forum.antennapod.org/)

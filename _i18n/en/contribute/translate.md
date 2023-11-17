@@ -26,7 +26,7 @@
 
 <!-- mdpo-enable -->
 
-Out of the estimated [world population](https://en.wikipedia.org/wiki/World_population) of 7.9 billion people, 'only' 1.3 billion [speak English](https://www.ethnologue.com/guides/ethnologue200). This may not mean much per se. But if anything, we can conclude that making AntennaPod available in more languages, makes the app accessible to more people. As a side benefit, localising the app also helps our project grow beyond the current main userbases (Germany and the US).
+Out of the estimated [world population](https://en.wikipedia.org/wiki/World_population) of 7.9 billion people, 'only' 1.5 billion [speak English](https://www.ethnologue.com/insights/ethnologue200/). This may not mean much per se. But if anything, we can conclude that making AntennaPod available in more languages, makes the app accessible to more people. As a side benefit, localising the app also helps our project grow beyond the current main userbases (Germany and the US).
 
 We therefore much appreciate your help!
 
@@ -58,7 +58,7 @@ In the AntennaPod project, you will find four 'components'. Each represents a pa
 New translations are pulled from Weblate to GitHub (the development platform) manually once in a while. When a language hits 90% translation (that's roughly the whole website minus the Contribute section), we can enable it on the live website. We always try to find a community member that can review a test version of the website, to improve the quality of translations.
 
 # Other materials
-In addition to the app and website, also the images in the app stores can be translated. They have screenshots and texts. Because there is very limited space we use a manual process with trial and error. Please let us know on the forum if you want to help with that. Because localised app store listings are more likely to be downloaded, help is very much welcome!
+In addition to the app and website, also the images in the app stores can be translated. They have screenshots and texts. Because there is very limited space we use a manual process with trial and error. Please let us know on the forum if you want to help with that. Because localized app store listings are more likely to be downloaded, help is very much welcome!
 
 # Get in touch!
 * Do you want to give **feedback** on the English texts or any of the translations? 

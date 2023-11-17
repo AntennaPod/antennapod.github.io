@@ -3,7 +3,7 @@ title: documentation.categories.general.ads
 layout: doc
 level: "2"
 group: "general"
-icon: "fas fa-ad"
+icon: "fa-solid fa-rectangle-ad"
 ---
 
 # {% t {{ page.title }} %}

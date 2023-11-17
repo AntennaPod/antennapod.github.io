@@ -3,7 +3,7 @@ title: documentation.categories.subscriptions.title
 layout: doc
 level: "1"
 group: "subscriptions"
-icon: "fas fa-folder"
+icon: "fa-solid fa-folder"
 order: "50"
 ---
 

@@ -17,9 +17,9 @@ title: titles.blog
                     <div class="col-12 col-md-4 mb-4 d-flex">
                       <div class="card highlight-card">
                         <a class="stretched-link" href="{{ site.baseurl }}{{ blog.url | replace:'.html','' }}"></a>
-                          <img src="/assets/images/blog/{{ blog.image }}" loading="lazy" alt="{{ blog.title }}" />
+                          <img src="/assets/{% if blog.image %}images/blog/{{ blog.image }}{% else %}branding/default-cover.png{% endif %}" loading="lazy" />
                           <h3 class="weight-700 pt-4">{{ blog.title }}</h3>
-                          <p class="mb-4">{{ blog.excerpt | strip_html | truncatewords: 15 }}</p>
+                          <p class="mb-4">{{ blog.excerpt | strip_html | truncate: 100 }}</p>
                           <div class="bottom">
                             <p class="text-muted">{% t blog.posted %} 
                                 {% capture month %}{{ blog.date | date: "%b" }}{% endcapture %}

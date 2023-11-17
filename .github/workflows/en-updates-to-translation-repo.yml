@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Install mdpo
         run: pip install mdpo
       - name: Create folder for files to be copied
@@ -34,7 +34,7 @@ jobs:
         run: md2po _i18n/en/general/*.md --po-filepath _i18n/translation-files/site-general.pot --save --quiet
       - name: Push to translation-files branch
         # see https://github.com/s0/git-publish-subdir-action
-        uses: s0/git-publish-subdir-action@v2.5.0
+        uses: s0/git-publish-subdir-action@v2
         env:
           REPO: self
           BRANCH: translation-files

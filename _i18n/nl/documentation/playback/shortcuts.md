@@ -5,7 +5,7 @@ audiokanaal voor media (en, bijvoorbeeld, niet op die voor notificaties).
 
 ### Alle schermen (behalve de videospeler en de instellingen)
 
-| Toets | Resultaat |
+| Toets | Actie |
 | --- | --- |
 | `P` | Afspelen/Pauzeren |
 | `J`/`A`/`,` | Terugspoelen |
@@ -16,7 +16,7 @@ audiokanaal voor media (en, bijvoorbeeld, niet op die voor notificaties).
 
 ### Videospeler
 
-| Toets | Resultaat |
+| Toets | Actie |
 | --- | --- |
 | `P`/`Spatie` | Afspelen/Pauzeren |
 | `J`/`A`/`,` | Terugspoelen |

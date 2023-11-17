@@ -16,7 +16,7 @@ layout: internal
           {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
         </div>
         <div class="card">
-          <img src="/assets/images/events/{% if page.image %}{{ event.image }}{% else %}default.png{% endif %}" loading="lazy" />
+          <img src="/assets/{% if page.image %}images/events/{{ event.image }}{% else %}branding/covers/cover_001.png{% endif %}" loading="lazy" />
           <div class="card-body">
             <p class="card-text font-italic capitalise-first-letter" >
             {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
@@ -54,7 +54,7 @@ layout: internal
               <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
               {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
               {%- if link.key == 'ICS' %} data-toggle="modal" data-target="#icsModal"{% endif %}>
-                <i class="fas fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
+                <i class="fa-solid fa-{{ link.icon }} text-main mr-2"></i>{% t {{ link.text }} %}
               </a>
             </div>
             {% endunless %}{% endunless %}{% endunless %}{% endunless %}

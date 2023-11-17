@@ -3,7 +3,7 @@ title: documentation.categories.getting-started.subscribe
 layout: doc
 level: "2"
 group: "getting-started"
-icon: "fas fa-plus"
+icon: "fa-solid fa-plus"
 order: "10"
 ---
 

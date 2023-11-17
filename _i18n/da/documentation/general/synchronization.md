@@ -15,44 +15,55 @@ loc="/assets/images/documentation" file="gpodder-devices.png" %} {% endcapture %
 loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {%
 endcapture %}
 
-AntennaPod understøtter i øjeblikket to synkroniseringsmuligheder: via
-[gpodder.net](https://gpodder.net/) og [gPodder Sync app for
-Nextcloud](https://apps.nextcloud.com/apps/gpoddersync).
+AntennaPod kan synkronisere dine abonnementer og lyttefremskridt med andre
+AntennaPod-installationer samt andre (desktop-)apps. For at konfigurere
+synkronisering skal du bruge en server - det centrale punkt, hvor dine data
+deles med andre enheder. Du har flere muligheder for dette:
 
-På gpodder.net kan alle relativt nemt oprette en konto, og det er gratis at bruge
-tjenesten. Desværre har tjenesten et stort antal brugere, begrænsede midler og
-mangel på frivillige bidrag. Det betyder, at serveren ofte er overbelastet,
-hvilket fører til fejl i AntennaPod. Hvis det er muligt, anbefaler vi derfor, at
-du bruger en eksisterende konto på en Nextcloud-instans eller begynder at selv
-hoste enten gpodder.net eller Nextcloud.
+* [gpodder.net](https://gpodder.net/) tilbyder en gratis
+gPodder-synkroniseringsserver, som **alle kan tilmelde sig**. Desværre er
+denne server på grund af tjenestens popularitet og dens begrænsede finansiering
+ofte overbelastet, hvilket fører til fejl i AntennaPod.
+* Mere teknisk interesserede brugere opfordres kraftigt til at **selv at hoste en
+synkroniseringsserver**. En selvhostet server er mere pålidelig og er med til
+at mindske belastningen på de gratis, offentlige tjenester. Der er flere
+muligheder: [Nextcloud](https://nextcloud.com/install/#instructions-server) med
+[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), en fuld
+[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)
+server eller [Micro GPodder
+server](https://github.com/bohwaz/micro-gpodder-server).
 
-## gPodder Sync-app til Nextcloud
+## Aktivér synkronisering via Nextcloud
 
-Hvis du har en Nextcloud-konto, skal du installere gPodder Sync-appen eller bede
-din serveradministrator om at gøre det. Når den er installeret, skal du blot gå
-til `Indstillinger` » `Synkronisering` i AntennaPod, vælge den relevante
-udbyder, og indtaste serveradressen.
+1. Hvis du har en Nextcloud-konto, skal du installere gPodder Sync-appen eller
+bede din serveradministrator om at gøre det
+1. Gå til `Indstillinger` » `Synkronisering` i AntennaPod, og tryk på
+`Vælg synkroniseringsudbyder`
+1. Vælg 'Nextcloud'
+1. Indtast 'Serveradresse' (serverens URL- eller IP-adresse), og tryk på `Fortsæt`
+1. Log ind i det browservindue, der åbnes, og godkend AntennaPod
 
-## gpodder.net & din egen gpodder-server
+## Aktivér synkronisering via gPodder
 
-- Opret en konto på gpodder.net, eller log ind, hvis du allerede har en konto.
+1. Opret en konto på serveren www.gpodder.net eller på din egen server
+1.  When you have an account, log in on the webserver and create a device under
+`Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices
+| strip }}
+1. Når du har tilføjet enhederne til din konto, skal du forbinde dem ved hjælp af
+knappen "Konfigurer". På denne måde holder gpodder.net automatisk de
+aktiverede enheder synkroniseret.
 
-   - Når du har oprettet kontoen, foreslår vi, at du opretter en enhed på
-gpodder.net/devices/ for hver klient, du bruger:<br />{{ img-devices | strip }}
+  <br />{{ img-synchronize | strip }} 4. Go to `Settings` » `Synchronization` in
+AntennaPod and tap `Choose synchronization provider` 5. Select 'gPodder' 6.
+Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login` 7.
+Enter the 'Username' and 'Password' and tap `Log in` 8. Select the device that
+you created on the server
 
-   - Når du har tilføjet enhederne til din konto, skal du forbinde dem ved hjælp af
-knappen "Konfigurer". På denne måde holder gpodder.net automatisk
-abonnementerne på de aktiverede enheder synkroniseret.<br />{{ img-synchronize | strip }}
-- Gå derefter til AntennaPods `Indstillinger` » `Synkronisering`. Der kan du
-logge ind på gpodder.net eller endda angive en alternativ server, hvis du selv
-vil være vært for den. Under login spørger AntennaPod, hvilken enhed du i
-øjeblikket er logget ind på. Vælg din nyoprettede enhed.
-
-*Oprettede du en enhed, mens du loggede ind, i stedet for på forhånd som
-foreslået ovenfor?* Så sørg for at trykke på knappen
-`Fremtving fuld synkronisering` i AntennaPod for at uploade
-afspilningstilstanden for alle de episoder, du lyttede til tidligere. Hvis du
-ikke gør dette, synkroniseres kun podcasts, der blev tilføjet **efter**
+**Bemærk** Oprettede du en enhed, mens du indstillede synkroniseringen i
+AntennaPod, i stedet for at oprette en enhed i forvejen på webstedet? Så sørg
+for at trykke på knappen `Fremtving fuld synkronisering` i AntennaPod for at
+uploade afspilningstilstanden for alle de episoder, du har lyttet til tidligere.
+Hvis du ikke gør dette, synkroniseres kun podcasts, der blev tilføjet **efter**
 sammenkobling af enhederne. Der er et [åbent issue for
 gpodder.net](https://github.com/gpodder/mygpo/issues/388), som anmoder om at
 ændre denne adfærd.

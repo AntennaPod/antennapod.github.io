@@ -8,10 +8,10 @@ Burger-Symbol in der oberen linken Ecke tippst. Gehe zu `Podcast hinzufügen`.
 Hier kannst du suchen, Vorschläge durchforsten oder einen Podcast per
 RSS-Adresse hinzufügen.
 
-Alternativ kannst du auch eine OPML-Datei importieren oder nur die iTunes-,
-gpodder.net-, fyyd- bzw. Podcast-Index-Datenbank durchsuchen. Der Import von
-RSS- oder Atom-Feeds oder URL-Schemata wie `pcast://` und `itpc://` funktioniert
-ebenfalls.
+Alternativ kannst du auch eine OPML-Datei importieren oder nur die Apple
+Podcasts-, gpodder.net-, fyyd- bzw. Podcast-Index-Datenbank durchsuchen. Das
+Importieren von RSS- oder Atom-Feeds oder URL-Schemata wie `pcast://` und
+`itpc://` funktioniert ebenfalls.
 
 ## Abonnieren von Diensten Dritter
 
@@ -27,7 +27,7 @@ diskutieren, die du gerne umsetzen würdest.
 ### SoundCloud
 
 SoundCloud ermöglicht es [Produzenten Podcasts ganz einfach aus ihren Inhalten zu
-erstellen](https://help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-feed).
+erstellen](https://help.soundcloud.com/hc/de/articles/115003451347-Adding-tracks-to-your-RSS-feed).
 Du solltest dich mit ihnen in Verbindung setzen, die SoundCloud-Hilfeseite
 (siehe Link zuvor) mit ihnen teilen und sie fragen, ob sie bereit sind, es
 einzurichten.

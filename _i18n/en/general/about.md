@@ -16,7 +16,7 @@ That way, you can rest assured (or check for yourself) that there's no shady dat
 We stand for an open podcasting ecosystem. An ecosystem that
 * supports free speech, 
 * rewards podcasters for their creative work, 
-* spares listeners from inaccessible content in [walled gardens](https://en.wikipedia.org/wiki/Walled_garden_(technology)), and 
+* spares listeners from inaccessible content in [walled gardens](https://en.wikipedia.org/wiki/Closed_platform), and 
 * allows users to use and switch between apps without [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
 
 In practice, this means you can subscribe to any RSS feed that's out there, that we make it easy for you to (financially) support podcasters, and that you can synchronise, import and export your data.

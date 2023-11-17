@@ -1,15 +1,50 @@
 {% capture native-url %}{{ include.loc }}/{{ site.lang }}/{{ include.file }}{% endcapture %}
-{% capture english-url %}{{ include.loc }}/en/{{ include.file }}{% endcapture %}
-{% assign img-alt = include.alt | remove:'<!-- mdpo-enable-next-line -->' | strip %}
+{%- capture english-url %}{{ include.loc }}/en/{{ include.file }}{% endcapture %}
+{%- capture single-url %}{{ include.loc }}/{{ include.file }}{% endcapture %}
+{%- assign img-alt = include.alt | remove:'<!-- mdpo-enable-next-line -->' | strip %}
 
-{% for file in site.static_files %}
-   {% if file.path == native-url %}
-      {% assign native-exists = true %}
-   {% endif %}
-{% endfor %}
+{%- for file in site.static_files %}
+   {%- if file.path == native-url %}
+      {%- assign native-exists = true %}
+   {%- elsif file.path == english-url %}
+      {%- assign english-exists = true %}
+   {%- endif %}
+{%- endfor %}
 
-{% if native-exists == true %}
-<img src="{{ native-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
-{% else %}
-<img src="{{ english-url }}" alt="{{ img-alt }}" width="{{ include.width }}" class="{{ include.class }}">
-{% endif %}
+{%- capture url %}
+   {%- if include.file contains 'http' == true %}
+       {{ include.file }}
+   {%- elsif native-exists == true %}
+      {{- native-url }}
+   {%- elsif english-exists == true %}
+      {{- english-url }}
+   {%- else %}
+      {{- single-url }}	
+   {%- endif %}
+{%- endcapture -%}
+
+{% unless include.islink == true %}<a data-toggle="modal" data-target="#imgModal{{ include.file | remove:'.' }}" style="cursor: pointer;">{% endunless %}
+  <img src="{{ url }}" alt="{{ img-alt }}"
+    {%- if include.width %} width="{{ include.width }}"{% endif %}
+    style="
+      {%- if include.max-width %}max-width:{{ include.max-width }}; {% endif %}
+      {%- if include.max-height %}max-height:{{ include.max-height }}; {% endif %}"
+    class="rounded mt-2 {{ include.class }}">
+{% unless include.islink == true %}</a>
+
+<div class="modal fade" id="imgModal{{ include.file | remove:'.' }}" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content rounded">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem;">
+          <i class="fas fa-times-circle"></i>
+        </button>
+        <img src="{{ url }}" alt="{{ img-alt }}" width="100%" class="rounded">
+      {%- if include.footnote %}
+      <div class="modal-footer">
+        {{ include.footnote }}
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+</div>
+{%- endunless %}

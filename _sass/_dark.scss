@@ -19,6 +19,8 @@
   @import "./bootstrap-dark/card";
 
     :root {
+        --bs-secondary-color: #ddd;
+        --bs-tertiary-bg: #223; // .background-gray-100
         scrollbar-color: #333 #000;
     }
 
@@ -96,20 +98,22 @@
         border: none;
     }
 
-    path {
-        fill: #223;
-    }
-
     #search-input {
         color: #fff;
     }
 
-    .copyright {
-        color: #bbb;
-    }
+    // Footer
 
-    .copyright a:hover {
-        color: #fff;
+    .copyright {
+      color: #bbb !important;
+
+      & a {
+        color: #bbb !important;
+      }
+
+      & a:hover {
+        color: #fff !important;
+      }
     }
 
     .overlay {

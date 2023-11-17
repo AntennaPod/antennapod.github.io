@@ -1,3 +1,9 @@
+// Mock bootstrap 5 classes
+
+.bg-body-tertiary {
+  background-color: var(--bs-tertiary-bg);
+}
+
 // Smooth Scrolling
 
 html {
@@ -20,6 +26,10 @@ body {
 }
 
 // Navbar
+
+#mainlogo {
+  max-width: 100%;
+}
 
 .fixed {
   position: sticky;
@@ -533,13 +543,15 @@ blockquote {
 }
 
 // Posts
+#breadcrumbs {
+  background-color: unset;
+}
 
 .post-content {
   & p, li {
-    font-size: 14px;
     color: $gray-900;
     margin-bottom: 0px;
-    line-height: 24px;
+    line-height: 1.5rem;
   }
 
   & p + p {
@@ -551,7 +563,7 @@ blockquote {
   }
 
   & p img {
-    padding: 15px 0 0;
+    margin: 0.5rem 0 0;
   }
 
   & blockquote p {
@@ -571,13 +583,43 @@ blockquote {
   }
 
   & h1,
+  .h1,
   h2,
+  .h2,
   h3,
+  .h3,
   h4,
+  .h4,
   h5,
-  h6 {
-    color: $gray-700;
+  .h5,
+  h6,
+  .h6 {
     font-weight: 700;
+  }
+
+  & .h2,
+  h2 {
+    margin-top: 1.4rem;
+  }
+
+  .h3,
+  h3 {
+    margin-top: 1.3rem;
+  }
+
+  .h4,
+  h4 {
+    margin-top: 1.2rem;
+  }
+
+  .h5,
+  h5 {
+    margin-top: 1.1rem;
+  }
+
+  .h6,
+  h6 {
+    margin-top: 1rem;
   }
 
   & img[alt$=" > "] {
@@ -944,8 +986,9 @@ i.member-img {
 // Lists
 
 .post-content, .modal-body {
-  & ul {
+  & ul, & ol {
     padding: 0;
+    margin-top: 1rem;
     margin-bottom: 0;
   }
 
@@ -1005,16 +1048,16 @@ i.member-img {
 
 footer {
   flex-shrink: 0;
+  color: var(--bs-secondary-color);
 }
 
-.copyright {
-  font-size: 14px;
-  font-weight: 400;
-  color: $gray-900;
+footer a {
+  color: var(--bs-secondary-color) !important;
 }
 
-.copyright a:hover {
-  color: $gray-900;
+footer .svg-wave {
+  fill: var(--bs-tertiary-bg);
+  fill-opacity: 1;
 }
 
 // Form
@@ -1029,111 +1072,6 @@ footer {
   &:focus {
     background-color: $gray-200;
   }
-}
-
-// Tooltip
-
-[data-tooltip] {
-  position: relative;
-  cursor: pointer;
-}
-[data-tooltip]:before,
-[data-tooltip]:after {
-  line-height: 1;
-  font-size: 0.9em;
-  pointer-events: none;
-  position: absolute;
-  box-sizing: border-box;
-  display: none;
-  opacity: 0;
-}
-[data-tooltip]:before {
-  content: "";
-  border: 5px solid transparent;
-  z-index: 100;
-}
-[data-tooltip]:after {
-  content: attr(data-tooltip);
-  text-align: center;
-  min-width: 3em;
-  max-width: 21em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 6px 7px;
-  border-radius: 5px;
-  background: #5646ea;
-  color: #ffffff;
-  z-index: 99;
-}
-[data-tooltip]:hover:before,
-[data-tooltip]:hover:after {
-  display: block;
-  opacity: 1;
-}
-[data-tooltip]:not([data-flow])::before,
-[data-tooltip][data-flow="top"]::before {
-  bottom: 100%;
-  border-bottom-width: 0;
-  border-top-color: #5646ea;
-}
-[data-tooltip]:not([data-flow])::after,
-[data-tooltip][data-flow="top"]::after {
-  bottom: calc(100% + 5px);
-}
-[data-tooltip]:not([data-flow])::before,
-[tooltip]:not([data-flow])::after,
-[data-tooltip][data-flow="top"]::before,
-[data-tooltip][data-flow="top"]::after {
-  left: 50%;
-  -webkit-transform: translate(-50%, -4px);
-  transform: translate(-50%, -4px);
-}
-[data-tooltip][data-flow="bottom"]::before {
-  top: 100%;
-  border-top-width: 0;
-  border-bottom-color: #5646ea;
-}
-[data-tooltip][data-flow="bottom"]::after {
-  top: calc(100% + 5px);
-}
-[data-tooltip][data-flow="bottom"]::before,
-[data-tooltip][data-flow="bottom"]::after {
-  left: 50%;
-  -webkit-transform: translate(-50%, 8px);
-  transform: translate(-50%, 8px);
-}
-[data-tooltip][data-flow="left"]::before {
-  top: 50%;
-  border-right-width: 0;
-  border-left-color: #5646ea;
-  left: calc(0em - 5px);
-  -webkit-transform: translate(-8px, -50%);
-  transform: translate(-8px, -50%);
-}
-[data-tooltip][data-flow="left"]::after {
-  top: 50%;
-  right: calc(100% + 5px);
-  -webkit-transform: translate(-8px, -50%);
-  transform: translate(-8px, -50%);
-}
-[data-tooltip][data-flow="right"]::before {
-  top: 50%;
-  border-left-width: 0;
-  border-right-color: #5646ea;
-  right: calc(0em - 5px);
-  -webkit-transform: translate(8px, -50%);
-  transform: translate(8px, -50%);
-}
-[data-tooltip][data-flow="right"]::after {
-  top: 50%;
-  left: calc(100% + 5px);
-  -webkit-transform: translate(8px, -50%);
-  transform: translate(8px, -50%);
-}
-[data-tooltip=""]::after,
-[data-tooltip=""]::before {
-  display: none !important;
 }
 
 // Misc

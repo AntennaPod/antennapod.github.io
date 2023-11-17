@@ -4,8 +4,8 @@
 
        "
 
-loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" %} {%
-endcapture %}
+loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" islink =
+true %} {% endcapture %}
 
 {% capture img-FD %} {% include image.html alt="
 
@@ -13,15 +13,16 @@ endcapture %}
 
        "
 
-loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" %} {%
-endcapture %}
+loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" islink = true
+%} {% endcapture %}
 
 Vous pouvez télécharger les versions officielles d'AntennaPod sur Google Play et
 sur F-Droid :
 
-[{{ img-GP | strip }}](https://play.google.com/store/apps/details?
-id=de.danoeh.antennapod) [{{ img-FD |
-strip }}](https://f-droid.org/packages/de.danoeh.antennapod/)
+<a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod"
+target="_blank">{{- img-GP | strip -}}</a> <a
+href="https://f-droid.org/packages/de.danoeh.antennapod" target="_blank">{{-
+img-FD | strip -}}</a>
 
 AntennaPod n'est officiellement publié que dans les deux AppStores pré-cités, car
 nous n'avons pas le temps d'en gérer davantage. Tous les autres AppStores

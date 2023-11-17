@@ -25,11 +25,11 @@ jobs:
     steps:
         # Check out the repository and download it to the runner, allowing to run actions against the code
       - name: Get main repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: master
       - name: Get translation repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: translation-files
           path: translation-files

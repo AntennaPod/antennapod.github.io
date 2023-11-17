@@ -8,6 +8,6 @@ unserer Entwicklungsplattform.)
 
 Um einem Podcast Tags zuzuweisen, musst du:
 
-- Öffne den entsprechenden Podcast
-- Tippe auf das `Zahnrad`-Symbol, um die Einstellungen öffnen
+- Öffne einen bestimmten Podcast
+- Tippe auf das `Zahnrad`-Symbol, um die Einstellungen zu öffnen
 - `Tags`-Einstellung wählen

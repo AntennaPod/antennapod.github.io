@@ -27,7 +27,7 @@ maken. Klik op `Versturen…` om het bestand op te slaan in een andere map op je
 telefoon of ergens anders te bewaren, want het originele bestand wordt
 verwijderd bij het deïnstalleren van AntennaPod.
 
-Als je het bestand importeerd in AntennaPod op een ander apparaat, zal de app een
-lijst van podcasts met selectievakjes tonen. De podcasts die je in die lijst
-aanvinkt, zullen dan worden toegevoegd aan je bestaande abonnementen. Dit heeft
-verder geen invloed op je bestaande abonnementen.
+Als je het bestand in AntennaPod in een ander apparaat importeert, toont de app
+een lijst met podcasts met selectievakjes. De podcasts die je uit die lijst
+selecteert, worden toegevoegd aan je bestaande abonnementen. Geen van je
+bestaande abonnementen wordt beïnvloed.

@@ -3,26 +3,34 @@ on: [pull_request]
 
 jobs:
   misspellcheck:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Run misspell with reviewdog
       uses: reviewdog/action-misspell@v1
       with:
         pattern: "*.md"
-  guids:
-    runs-on: ubuntu-20.04
+        locale: "US"
+  checklinks:
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          args: --verbose './**/*.md' 
+          fail: true
+  guids:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
       - run: .github/workflows/guids.sh
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
-      - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.0'
-      - run: gem install bundler jekyll --no-document
-      - run: bundle install
+          ruby-version: '3.2'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: bundle exec jekyll build
