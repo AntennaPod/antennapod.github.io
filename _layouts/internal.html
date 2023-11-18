@@ -2,6 +2,9 @@
 <html lang="{{ site.lang }}">
   <head>
     {% include head.html %}
+    {%- if page.robots == "block" %}
+    <meta name="robots" content="noindex, nofollow" />
+    {%- endif %}
   </head>
   <body>
     <div class="content">

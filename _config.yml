@@ -52,6 +52,13 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  - scope:
+      path: ""
+      type: "shortlinks"
+    values:
+      layout: "redirect"
+      sitemap: false
+      robots: block
 
 # Exclude from processing.
 # The following items will not be processed, by default.
