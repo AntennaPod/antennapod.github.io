@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
-    {% include head.html %}
-    {%- if page.robots == "block" %}
-    <meta name="robots" content="noindex, nofollow" />
-    {%- endif %}
-    {% capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture -%}
+    {%- capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
     <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
+    {% include head.html %}
   </head>
   <body>
     <div class="content">
