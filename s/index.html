@@ -1,0 +1,27 @@
+---
+layout: internal
+title: titles.shortlinks
+---
+
+<div class="container-fluid background-gray-100 py-4">
+  <div class="container">
+    <h1 class="color-gray-800 weight-700">{% t titles.shortlinks %}</h1>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container py-5">
+    <div class="row">
+      {%- for link in site.shortlinks %}
+      <div class="col-12 col-md-4 mb-4 d-flex">
+        <div class="card shadow-sm project-card">
+          <a class="stretched-link" href="{{ link.url }}"></a>
+          <p class="mb-2">{{ link.url }}</p>
+          <h3 class="mb-2">{% t link.title %}</h3>
+          <p class="mb-0">{{ site.baseurl }}{{ link.redirect_to }}</p>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</div>
