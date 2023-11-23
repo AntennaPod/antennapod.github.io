@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
-    {%- capture redirect_to %}{{ page.redirect_to }}{% endcapture %}
+    {%- capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
     <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
     {% include head.html %}
   </head>
