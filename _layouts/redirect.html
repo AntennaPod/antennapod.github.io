@@ -3,6 +3,8 @@
   <head>
   {% if page.layout == "blog" or page.layout == "event" %}
     {% capture title %}{{ page.title }} – {{ site.title }}{% endcapture %}
+  {% elsif page.title %}
+    Test (elsif problem)
   {% else %}
     {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
   {% endif %}
