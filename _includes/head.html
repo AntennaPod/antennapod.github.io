@@ -1,5 +1,5 @@
-  {% if page.layout == "blog" or page.layout == "event" %}
-    {% capture title %}{{ page.title }} – {{ site.title }}{% endcapture %}
+  {% if page.title %}
+    {% capture title %}{% t page.title %} – {{ site.title }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
   {% endif %}
