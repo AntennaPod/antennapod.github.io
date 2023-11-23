@@ -3,8 +3,6 @@
   <head>
   {% if page.layout == "blog" or page.layout == "event" %}
     {% capture title %}{{ page.title }} – {{ site.title }}{% endcapture %}
-  {% elsif page.title %}
-    {% capture title %}{% t page.title %} – {{ site.title }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
   {% endif %}
@@ -27,6 +25,11 @@
               <article class="post-content">
                   <a href="{{ redirect_to }}">{% t generic.redirect.link %}</a>
                   <script>location='{{ redirect_to }}'</script>
+                  <p>
+                  Page title: {{ page.title }}<br><br>
+                  Translated page title: {% t page.title %}<br><br>
+                  {{ title }}
+                  </p>
               </article>
             </div>
           </div>
