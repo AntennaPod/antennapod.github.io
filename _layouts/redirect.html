@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
-    {%- capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
-    <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
     {% include head.html %}
+    {% capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
+    <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
   </head>
   <body>
     <div class="content">
@@ -30,4 +30,3 @@
     {% include footer.html %}
   </body>
 </html>
-
