@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
+  {% if page.layout == "blog" or page.layout == "event" %}
+    {% capture title %}{{ page.title }} – {{ site.title }}{% endcapture %}
+  {% elsif page.title %}
+    {% capture title %}{% t page.title %} – {{ site.title }}{% endcapture %}
+  {% else %}
+    {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
+  {% endif %}
     {% capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
     <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
   </head>
