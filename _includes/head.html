@@ -1,4 +1,10 @@
-    {% capture title %}Test title{% endcapture %}
+  {% if page.layout == "blog" or page.layout == "event" %}
+    {% capture title %}{{ page.title }} – {{ site.title }}{% endcapture %}
+  {% elsif page.title %}
+    {% capture title %}{% t page.title %} – {{ site.title }}{% endcapture %}
+  {% else %}
+    {% capture title %}{{ site.title }} – {% t homepage.header %}{% endcapture %}
+  {% endif %}
 
   {% if page.layout == "blog" or page.layout == "doc" or page.layout == "event" %}
     {% capture descrlong %}{{ page.excerpt }}{% endcapture %}
