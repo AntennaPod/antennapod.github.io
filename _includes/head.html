@@ -1,8 +1,4 @@
-  {% if page.layout == "blog" or page.layout == "event" %}
-    {% capture title %}{{ page.title }} – {{ site.title }}{% endcapture %}
-  {% elsif page.title %}
-    {% capture title %}{% t page.title %} – {{ site.title }}{% endcapture %}
-  {% endif %}
+    {% capture title %}Test title{% endcapture %}
 
   {% if page.layout == "blog" or page.layout == "doc" or page.layout == "event" %}
     {% capture descrlong %}{{ page.excerpt }}{% endcapture %}
