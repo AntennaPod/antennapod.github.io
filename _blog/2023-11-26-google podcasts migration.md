@@ -1,5 +1,5 @@
 ---
-title: Migrating from Google Podcasts to AntennaPod: why and how to do it
+title: "Migrating from Google Podcasts to AntennaPod: why and how to do it"
 excerpt: Other apps might come and go, but AntennaPod is always by your side!
 date: "2023-11-26 08:20:00"
 image: "2023/cassette.jpg"
