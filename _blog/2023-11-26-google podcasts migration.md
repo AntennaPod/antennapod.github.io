@@ -21,7 +21,7 @@ The app is actively developed since 2011 by a small but dedicated team of volunt
 
 Say no more! Here is a brief overview of where to find the AntennaPod equivalents of the screens you are already used to in Google Podcasts:
 
-* *Home*: the name is the same, but AntennaPod’s Home screen does not just contain a chronological feed of the latest episodes, it is a lot more powerful and customisable! To find out more, read our [blog post](https://antennapod.org/blog/2023/05/introducing-the-home-screen) introducing this feature.
+* *Home*: the name is the same, but AntennaPod’s Home screen does not just contain a chronological feed of the latest episodes, it is a lot more powerful and customisable! To find out more, read our [blog post](https://antennapod.org/blog/2023/05/introducing-the-home-screen) introducing this feature. If you are looking for a chronological list, have a look at the "Episodes" screen.
 
 * *Explore*: you can access new podcasts from the Discover section of the “Add podcast” screen. In AntennaPod, you can quickly change your location to a different country directly from the Discover screen, without having to go into your settings.
 
