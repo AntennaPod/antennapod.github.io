@@ -188,7 +188,6 @@ h6 {
 // Paragraphs and Custom Font Sizes
 
 p {
-  font-size: 16px;
   color: $brand-dark;
 }
 
@@ -952,6 +951,35 @@ i.member-img {
     bottom: -15px;
   }
 }
+
+.rating-list {
+  padding-left: 15px;
+
+  li {
+    list-style-type: none !important;
+    margin: 0 0.5rem 0 0 !important;
+  }
+}
+
+#reviewCarouselGooglePodcast {
+  .carousel-control-prev, .carousel-control-next {
+    width: 7%;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: $brand-dark;
+    border-radius: 50%;
+  }
+  .carousel-indicators {
+    justify-content: unset;
+
+    li {
+      background-color: $brand-dark;
+    }
+  }
+  blockquote {
+    border-left: 4px solid $brand-dark;
+  }
+}  
 
 @media (max-width: 768px) {
   .post-card img {
