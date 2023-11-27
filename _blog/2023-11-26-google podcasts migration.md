@@ -41,8 +41,8 @@ Your subscriptions will automatically become available in AntennaPod.
 
 Now you’re all set for your podcast listening journey to continue. Listen away and do tell everyone about AntennaPod, just like these users:
 
-<div id="reviewCarouselGooglePodcast" class="carousel slide pd-2" data-ride="carousel">
-  <ol class="carousel-indicators m-0 ml-5 mb-2">
+<div id="reviewCarouselGooglePodcast" class="carousel slide pd-2 mt-3 mb-3" data-ride="carousel">
+  <ol class="carousel-indicators mt-0 mr-5 mb-2 ml-5 rounded-pill">
     <li data-target="#reviewCarouselGooglePodcast" data-slide-to="0" class="active"></li>
     <li data-target="#reviewCarouselGooglePodcast" data-slide-to="1"></li>
     <li data-target="#reviewCarouselGooglePodcast" data-slide-to="2"></li>
@@ -91,7 +91,7 @@ Now you’re all set for your podcast listening journey to continue. Listen away
      %}
     </div>
     {% endif %}
-    <div class="carousel-item {% if site.lang != 'nl' and site.lang != 'fr' %}active{% endif %}">
+    <div class="carousel-item {% if site.lang != 'nl' and site.lang != 'fr' and site.lang != 'de' and site.lang != 'es' %}active{% endif %}">
       {% include review-card.html
         review-text="Great features, low power drain, no ads. Should have switched from Google Podcasts sooner!"
         rating=5
