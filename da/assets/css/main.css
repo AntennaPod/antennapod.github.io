@@ -9775,7 +9775,6 @@ h6 {
 }
 
 p {
-  font-size: 16px;
   color: #001937;
 }
 
@@ -10452,6 +10451,33 @@ i.member-img {
 .post-card .bottom {
   position: absolute;
   bottom: -15px;
+}
+
+.rating-list {
+  padding-left: 15px;
+}
+.rating-list li {
+  list-style-type: none !important;
+  margin: 0 0.5rem 0 0 !important;
+}
+
+#reviewCarouselGooglePodcast .carousel-control-prev, #reviewCarouselGooglePodcast .carousel-control-next {
+  width: 7%;
+  align-items: flex-end;
+  padding: 0 0 0.9rem 0;
+}
+#reviewCarouselGooglePodcast .carousel-control-prev-icon, #reviewCarouselGooglePodcast .carousel-control-next-icon {
+  background-color: #001937;
+  border-radius: 50%;
+}
+#reviewCarouselGooglePodcast .carousel-indicators {
+  justify-content: unset;
+}
+#reviewCarouselGooglePodcast .carousel-indicators li {
+  background-color: #001937;
+}
+#reviewCarouselGooglePodcast blockquote {
+  border-left: 4px solid #001937;
 }
 
 @media (max-width: 768px) {

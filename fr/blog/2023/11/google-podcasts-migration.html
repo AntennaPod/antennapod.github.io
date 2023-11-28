@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Migrating from Google Podcasts to AntennaPod: why and how to do it – AntennaPod</title>
+  <meta name="description" content="Other apps might come and go, but AntennaPod is always by your side!">
+
+  <link rel="canonical" href="https://antennapod.org/fr/blog/2023/11/google-podcasts-migration">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Migrating from Google Podcasts to AntennaPod: why and how to do it – AntennaPod">
+  <meta name="twitter:description" content="Other apps might come and go, but AntennaPod is always by your side!">
+  <meta name="twitter:image" content="https://antennapod.org/assets/images/blog/2023/cassette.jpg">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/fr/blog/2023/11/google-podcasts-migration">
+  <meta property="og:title" content="Migrating from Google Podcasts to AntennaPod: why and how to do it – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/images/blog/2023/cassette.jpg">
+  <meta property="og:description" content="Other apps might come and go, but AntennaPod is always by your side!">
+  <meta property="og:site_name" content="AntennaPod">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/branding/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/branding/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/branding/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/branding/favicons/safari-pinned-tab.svg?v=2" color="#364ff3">
+  <link rel="shortcut icon" href="/assets/branding/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#364ff3">
+  <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
+  <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
+
+</head>
+<body>
+  <div class="content">
+  <div class="w-100 fixed background-gray-100">
+  <div class="container px-0 py-2 py-md-4">
+    <div class="navbar navbar-expand-xl">
+
+      <div class="col">
+        <a href="/fr">
+          <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo">
+        </a>
+      </div>
+
+      <div class="col-auto">
+        <div class="collapse navbar-collapse flex-grow-0 weight-500">
+          <div class="navbar-nav align-items-center">
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fr/about">
+                À propos
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2 active">
+              <a class="nav-link" href="/fr/blog">
+                Blog
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fr/events">
+                Évènements
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fr/contribute">
+                Contribuer
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fr/documentation">
+                Documentation
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="https://forum.antennapod.org/">
+                Forum
+              </a>
+            </div>
+            
+            <div class="nav-item ml-2 ml-sm-1 text-center">
+              <li class="nav-item dropdown mb-0">
+                <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sélecteur de langue" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">FR</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2023/11/google-podcasts-migration">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/blog/2023/11/google-podcasts-migration">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2023/11/google-podcasts-migration">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/blog/2023/11/google-podcasts-migration">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2023/11/google-podcasts-migration">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2023/11/google-podcasts-migration">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2023/11/google-podcasts-migration">Nederlands</a>
+  
+
+
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-xl-none">
+          <div class="nav-item text-center d-inline-block">
+            <div class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" id="navbarDropdown" aria-label="Sélecteur de langue" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">FR</span>
+              </button>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2023/11/google-podcasts-migration">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/blog/2023/11/google-podcasts-migration">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2023/11/google-podcasts-migration">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/blog/2023/11/google-podcasts-migration">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2023/11/google-podcasts-migration">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2023/11/google-podcasts-migration">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2023/11/google-podcasts-migration">Nederlands</a>
+  
+
+
+            </div>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="navbar-mobile" class="overlay">
+    <button class="closebtn" onclick="closeNav()">×</button>
+      <div class="overlay-header">
+        <img src="/assets/branding/logo-icon.svg" width="80" height="auto" alt="Logo d'AntennaPod">
+      </div>
+      <div class="overlay-content">
+        
+        <a href="/fr/about">À propos</a>
+        
+        <a href="/fr/blog">Blog</a>
+        
+        <a href="/fr/events">Évènements</a>
+        
+        <a href="/fr/contribute">Contribuer</a>
+        
+        <a href="/fr/documentation">Documentation</a>
+        
+        <a href="https://forum.antennapod.org/">Forum</a>
+        
+      </div>
+      <div class="overlay-footer">
+        
+        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fa-brands fa-mastodon mr-1"></i>Mastodon</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+  <div class="container-fluid">
+    <div class="container py-3">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-9 col-sm-12 pt-3">
+          <div class="post">
+
+            
+
+            <header class="post-header">
+              <h1 class="size-36 weight-700 color-gray-900">Migrating from Google Podcasts to AntennaPod: why and how to do it</h1>
+              
+              
+              <p class="size-14 weight-600 color-gray-500">7 min de lecture</p>
+              
+              <div class="row no-gutters align-items-center justify-content-between my-3">
+                <p class="size-14 weight-700 color-gray-900 mb-0">
+                  
+                  <img class="round-img" src="/assets/images/authors/loucasal.png" width="40">
+                  <a class="underline" href="https://forum.antennapod.org/u/loucasal/" target="_blank" rel="noopener">Loucasal</a>
+                  
+                  • 
+                  
+                  Nov 26, 2023
+                </p>
+                <div class="inline-flex">
+  <p class="size-14 color-gray-900 mb-0 mr-2">Partager</p>
+  <button title="Copier le lien" class="copy-link" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-selector="true" data-title="Lien copié !" value="https://antennapod.org/blog/2023/11/google-podcasts-migration">
+      <i class="fa-solid fa-link color-gray-600 size-20 mr-2"></i>
+  </button>
+  <a title="Partager sur Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2023/11/google-podcasts-migration" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <i class="fa-brands fa-facebook color-gray-600 size-20 mr-2"></i>
+  </a>
+  <a title="Partager sur Mastodon" href="#" onclick="share_on_mastodon();">
+      <i class="fa-brands fa-mastodon size-20 color-gray-600 mr-2"></i>
+  </a>
+  <a title="Partager sur Twitter" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2023/11/google-podcasts-migration&amp;hashtags=&amp;via=AntennaPod" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
+      <i class="fa-brands fa-x-twitter size-20 color-gray-600 mr-2"></i>
+  </a>
+  <a title="Partager par e-mail" href="mailto:?subject=Je%20voulais%20que%20tu%20vois%20%C3%A7a&amp;body=Je%20voulais%20que%20tu%20vois%20%C3%A7a%20https://antennapod.org/blog/2023/11/google-podcasts-migration">
+      <i class="fa-solid fa-envelope size-20 color-gray-600"></i>
+  </a>
+</div>
+
+              </div>
+            </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container py-3">
+      <div class="row no-gutters justify-content-center pb-4">
+        <div class="col-lg-9">
+          <article class="post-content pb-3">
+            <p class="lead">With Google Podcasts quickly approaching its end of life, many of its users are looking for a new favourite podcast app. And what better time to switch to AntennaPod, the open podcast player?</p>
+
+<h2 id="why-should-i-choose-antennapod-there-are-many-podcast-apps-out-there">Why should I choose AntennaPod? There are many podcast apps out there!</h2>
+
+<p><a href="https://antennapod.org/about/">AntennaPod</a> is designed to be simple to use, yet it gives you full control over your listening experience. It is open source, doesn’t have any ads and is free from any tracking. It supports an open podcasting ecosystem based on open standards, interoperability and accessibility.</p>
+
+<p>The app is actively developed since 2011 by a small but dedicated team of volunteers, and it keeps getting better. In the last year, key new features such as the <a href="https://antennapod.org/blog/2023/05/introducing-the-home-screen">Home screen</a> were added, and more is already under development.</p>
+
+<h2 id="ok-i-will-give-it-a-try-but-the-app-is-so-different-from-what-im-used-to">Ok, I will give it a try. But the app is so different from what I’m used to…</h2>
+
+<p>Say no more! Here is a brief overview of where to find the AntennaPod equivalents of the screens you are already used to in Google Podcasts:</p>
+
+<ul>
+  <li>
+<em>Home</em>: the name is the same, but AntennaPod’s Home screen does not just contain a chronological feed of the latest episodes, it is a lot more powerful and customisable! To find out more, read our <a href="https://antennapod.org/blog/2023/05/introducing-the-home-screen">blog post</a> introducing this feature. If you are looking for a chronological list, have a look at the “Episodes” screen.</li>
+  <li>
+<em>Explore</em>: you can access new podcasts from the Discover section of the “Add podcast” screen. In AntennaPod, you can quickly change your location to a different country directly from the Discover screen, without having to go into your settings.</li>
+  <li>
+<em>Library</em>: each of the four screens Google Podcasts lists as part of your Library (Subscriptions, Queue, Downloads, History) is available as a separate screen in AntennaPod, with all the features you are used to and then some more!</li>
+</ul>
+
+<p>And that’s not all: just like Google Podcasts, AntennaPod has built-in support for casting to external devices, as well as automation features (for instance, automatic downloading and deletion). Plus you will gain access to new features, such as Swipe actions to make the app behave just like you want it.</p>
+
+<p>Also, if you were using the Google app solely because of Google Podcasts, note that you can now disable it and free up some storage space on your phone.</p>
+
+<h2 id="sounds-great-but-i-listen-to-a-lot-of-podcasts-and-i-dont-want-to-add-them-again-one-by-one-in-antennapod">Sounds great. But I listen to a lot of podcasts and I don’t want to add them again one by one in AntennaPod!</h2>
+
+<p>We can promise you won’t need to do that. Here is how to export all your subscriptions and automatically add them to AntennaPod:</p>
+
+<ol>
+  <li>Visit <a href="https://takeout.google.com">takeout.google.com</a> and select Google Podcasts to export your Google Podcasts data in OPML format.</li>
+  <li>Once you have downloaded your zip archive from Google, locate the OPML file and copy it to your phone (or send it to yourself via email).</li>
+  <li>Finally, open AntennaPod’s settings &gt; Import/Export &gt; “OPML import” and select your OPML file.</li>
+</ol>
+
+<p>Your subscriptions will automatically become available in AntennaPod.</p>
+
+<p>Now you’re all set for your podcast listening journey to continue. Listen away and do tell everyone about AntennaPod, just like these users:</p>
+
+<div id="reviewCarouselGooglePodcast" class="carousel slide pd-2 mt-3 mb-3" data-ride="carousel">
+  <ol class="carousel-indicators mt-0 mr-5 mb-2 ml-5 rounded-pill">
+    <li data-target="#reviewCarouselGooglePodcast" data-slide-to="0" class="active">
+    <li data-target="#reviewCarouselGooglePodcast" data-slide-to="1">
+    <li data-target="#reviewCarouselGooglePodcast" data-slide-to="2">
+    <li data-target="#reviewCarouselGooglePodcast" data-slide-to="3">
+    <li data-target="#reviewCarouselGooglePodcast" data-slide-to="4">
+    <li data-target="#reviewCarouselGooglePodcast" data-slide-to="5">
+  </ol>
+  <div class="carousel-inner">
+    
+    
+    <div class="carousel-item active">
+      <div class="card mt-2 mb-2 review-card bg-transparent">
+  <div class="card-body m-2 ml-5 mr-5">
+    <blockquote class="blockquote m-0">très bonne application. j espère qu'ils développeront une version desktop comme Google Podcast avec synchronisation des appareils</blockquote>
+    <ul class="rating-list d-flex">
+      
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      
+      
+      
+      
+      <li><i class="fa-regular fa-star text-warning"></i></li>
+      
+     </ul>
+     <p class="text-secondary">Monday  6 November 2023</p>
+  </div>
+</div>
+
+    </div>
+    
+    
+    
+    <div class="carousel-item ">
+      <div class="card mt-2 mb-2 review-card bg-transparent">
+  <div class="card-body m-2 ml-5 mr-5">
+    <blockquote class="blockquote m-0">Great features, low power drain, no ads. Should have switched from Google Podcasts sooner!</blockquote>
+    <ul class="rating-list d-flex">
+      
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      
+      
+      
+      
+     </ul>
+     <p class="text-secondary">Sunday 12 November 2023</p>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="card mt-2 mb-2 review-card bg-transparent">
+  <div class="card-body m-2 ml-5 mr-5">
+    <blockquote class="blockquote m-0">The best substitute for Google Podcasts. I would be not exaggerating when I say that this app is even better than Google Podcasts.</blockquote>
+    <ul class="rating-list d-flex">
+      
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      
+      
+      
+      
+     </ul>
+     <p class="text-secondary">Friday 24 November 2023</p>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item" data-interval="10000">
+      <div class="card mt-2 mb-2 review-card bg-transparent">
+  <div class="card-body m-2 ml-5 mr-5">
+    <blockquote class="blockquote m-0">If you are looking for a replacement for Google's soon-to-be-discontinued podcast app, AntennaPod should be on your list. It is both more functional and customizable than Google and is free software.</blockquote>
+    <ul class="rating-list d-flex">
+      
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      
+      
+      
+      
+     </ul>
+     <p class="text-secondary">Friday 17 November 2023</p>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="card mt-2 mb-2 review-card bg-transparent">
+  <div class="card-body m-2 ml-5 mr-5">
+    <blockquote class="blockquote m-0">Nice replacement for Google Podcasts. Once paused, a podcast cannot always be continued from the notification menu. The search for new episodes is a bit slow, and few minor things should be improved but so far I'm satisfied</blockquote>
+    <ul class="rating-list d-flex">
+      
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      
+      
+      
+      
+      <li><i class="fa-regular fa-star text-warning"></i></li>
+      
+     </ul>
+     <p class="text-secondary">Monday 16 October 2023</p>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="card mt-2 mb-2 review-card bg-transparent">
+  <div class="card-body m-2 ml-5 mr-5">
+    <blockquote class="blockquote m-0">I was looking for a replacement for Google Podcasts which is soon to be discontinued, this was recommended on a review site. I think it's better. simple, easy to use, does exactly what I want</blockquote>
+    <ul class="rating-list d-flex">
+      
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      <li><i class="fa-solid fa-star text-warning"></i></li>
+      
+      
+      
+      
+      
+     </ul>
+     <p class="text-secondary">Tuesday 31 October 2023</p>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-target="#reviewCarouselGooglePodcast" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#reviewCarouselGooglePodcast" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+
+<p><em>If you appreciate your new podcast app, or even if you miss a feature you relied upon, why not come and tell us about it on the <a href="https://forum.antennapod.org">forum</a>?</em></p>
+
+<p><small>Photo by <a href="%5Bhttps://unsplash.com/@lunarts">Volodymyr Hryshchenko</a>.</small></p>
+
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  <div class="container-fluid no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path class="svg-wave" fill="#00000" fill-opacity="0" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="container-fluid pb-2 bg-body-tertiary">
+    <div class="container">
+      <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+        <div class="col-12 col-lg-4 col-md-12 mb-3">
+          <div class="mb-4 mb-lg-3">
+            <a href="/fr">
+              <img src="/assets/branding/logo-full-horizontal-dynamic.svg" width="260" alt="Logo d'AntennaPod">
+            </a>
+          </div>
+          <p class="small mb-3">Le gestionnaire de podcasts simple, flexible et open-source pour Android.</p>
+        </div>
+        <div class="col-0 col-lg-2"></div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/fr/about">
+              À propos
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/fr/blog">
+              Blog
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/fr/contribute">
+              Contribuer
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/fr/documentation">
+              Documentation
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/fr/download">
+              Télécharger AntennaPod
+            </a>
+          </div>
+          <!--<div class="mb-2">-->
+          <!--  <a href="/fr/media-kit">-->
+          <!--    <span>Kit Média</span>-->
+          <!--  </a>-->
+          <!--</div>-->
+        </div>
+        <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+              <i class="fa-brands fa-mastodon mr-1"></i>Mastodon
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github mr-1"></i>GitHub
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter mr-1"></i>Twitter
+            </a>
+          </p>
+          
+          <p>
+            <a class="mr-2" href="/rss.xml" target="_blank" rel="noopener">
+              <i class="fa fa-rss mr-1"></i>RSS
+            </a>
+          </p>
+        </div>
+      </div>
+      <p class="top-border mb-2"></p>
+      <div class="d-block d-lg-flex justify-content-between pt-0 pb-3 copyright">
+        <div class="small mb-2 mb-lg-0">
+          © 2023 AntennaPod
+          <span class="mx-1">|</span>
+          <a class="underline-hover" href="/fr/license">Licence</a>
+          <span class="mx-1">|</span>
+          <a class="underline-hover" href="/fr/privacy">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
