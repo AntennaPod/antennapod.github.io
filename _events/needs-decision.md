@@ -1,5 +1,5 @@
 ---
-title: Needs: Decision - AntennaPod UX discussions
+title: "Needs: Decision - AntennaPod UX discussions"
 summary: A bi-weekly meeting where core contributors discuss feature requests & make tough choices.
 permalink: /events/:slug
 uid: TDL9-28GB-50YV-P6X4-D48Y
@@ -9,7 +9,7 @@ timezone: Europe/Brussels
 datetime-start: 2023-12-27 21:00
 datetime-end: 2023-12-27 22:30
 recurring: yes
-recurrence-text: every-2nd-4th-wednesday
+recurrence-text: 2nd-4th-wednesday
 recurrence-rule: FREQ=WEEKLY;INTERVAL=2;BYDAY=WE
 recurrence-exceptions:
 - 2023-01-10
