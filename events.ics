@@ -2,8 +2,31 @@ BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
 VERSION:2.0
 PRODID:-//AntennaPod//Website events section 0.1//EN
-LAST-MODIFIED:20231128T072700Z
+LAST-MODIFIED:20231211T123500Z
 NAME:AntennaPod
+BEGIN:VEVENT
+DTSTAMP:20231227T210000Z
+UID:TDL9-28GB-50YV-P6X4-D48Y
+DTSTART;TZID=Europe/Brussels:20231227T210000
+DTEND;TZID=Europe/Brussels:20231227T223000
+STATUS:CONFIRMED
+SUMMARY:Needs: Decision - AntennaPod UX discussions
+DESCRIPTION:We are very careful about AntennaPod’s User Experience (UX)
+ . The project’s goal here is to balance simplicity with feature-richness.
+  Sometimes that requires some hard thinking on how to implement a feature
+  request.\n\nWhere do we place this button? What would most users expect 
+ AntennaPod to do here? Which impact does this choice have on other settin
+ gs? How can we implement this without making the UI or code complex?\n\nI
+ n these meetings @ByteHamster and @Keunes get together to do just that\: 
+ discuss the options for a given feature request\, and try to reach a deci
+ sion. One issue at a time. You’re most welcome to listen in as a fly on t
+ he wall\, or jump in and share your thoughts.\n\n
+LOCATION:https://meet.antennapod.org/needsdecision
+URL:https://meet.antennapod.org/needsdecision
+CONFERENCE:https://meet.antennapod.org/needsdecision
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=WE
+EXDATE;TZID=Europe/Brussels:20230110T210000,20240124T210000
+END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220409T180000Z
 SEQUENCE:4
