@@ -144,4 +144,4 @@ Now you’re all set for your podcast listening journey to continue. Listen away
 
 *If you appreciate your new podcast app, or even if you miss a feature you relied upon, why not come and tell us about it on the [forum](https://forum.antennapod.org)?*
 
-<small>Photo by [Volodymyr Hryshchenko]([https://unsplash.com/@lunarts).</small>
+<small>Photo by [Volodymyr Hryshchenko](https://unsplash.com/@lunarts).</small>
