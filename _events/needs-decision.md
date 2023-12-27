@@ -12,12 +12,13 @@ recurring: yes
 recurrence-text: 2nd-4th-wednesday
 recurrence-rule: FREQ=WEEKLY;INTERVAL=2;BYDAY=WE
 recurrence-exceptions:
-- 2023-01-10
+- 2023-12-27
+- 2024-01-10
 - 2024-01-24
 recurrence-additions: 
 # List of date-times on which the event is additionally taking place. Format:
-# - start: yyyy-mm-dd hh:mm
-#   end: yyyy-mm-dd hh:mm
+- start: 2023-12-28 21:00
+  end: 2023-12-28 22:30
 location: online
 more-information: https://github.com/AntennaPod/AntennaPod/labels/Needs%3A%20decision
 meeting-room: https://meet.antennapod.org/needsdecision
