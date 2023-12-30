@@ -2,7 +2,7 @@
 title: Version 2.0 Changelog
 excerpt: AntennaPod version 2 released with a range of new features
 date: "2020-09-29 12:00:00"
-image: "pic.png"
+image: "2020/default.png"
 author: keunes
 layout: blog
 unlisted: true
