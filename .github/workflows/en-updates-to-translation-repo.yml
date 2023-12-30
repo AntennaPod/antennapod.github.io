@@ -34,7 +34,7 @@ jobs:
         run: md2po _i18n/en/general/*.md --po-filepath _i18n/translation-files/site-general.pot --save --quiet
       - name: Push to translation-files branch
         # see https://github.com/s0/git-publish-subdir-action
-        uses: s0/git-publish-subdir-action@v2
+        uses: s0/git-publish-subdir-action@v2.6.0
         env:
           REPO: self
           BRANCH: translation-files
