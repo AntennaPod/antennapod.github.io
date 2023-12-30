@@ -1,8 +1,20 @@
-Als een nieuwe versie van AntennaPod wordt uitgebracht, krijgen we vaak de vraag
-wanneer deze beschikbaar komt op F-Droid. We kunnen geen exact antwoord geven -
-het duurt meestal een paar dagen.
+Did you see that there's a new AntennaPod release and wonder:
 
-Een nieuwe versie op F-Droid krijgen gaat als volgt:
+* *why isn't the latest version not on F-Droid yet?*
+* *when will the new release be available on F-Droid?*
+
+If the new version is in beta, it is *only* available through Google Play ((here
+is why)[/documentation/general/beta]). When we think it's ready we upload it to
+Google Play. A few days later, when we're confident there are no critical bugs,
+we tag the release on GitHub. F-Droid then has to find out about this release,
+build it and make it available. All these steps may take some time. Due to the
+different steps and because we are not involved in publishing releases on
+F-Droid, we can't tell when exactly the latest version will be available there.
+It usually takes a few days after the release is tagged on GitHub.
+
+In short: it may take some time. Please be patient.
+
+### The steps of getting a new version on F-Droid
 
 - Nadat we een [release](https://github.com/AntennaPod/AntennaPod/releases)
 hebben gemaakt, moet F-Droid detecteren dat er iets in AntennaPod is
@@ -18,10 +30,12 @@ F-Droid moet de app meenemen en fysiek naar die speciale computer lopen. Hoe
 lang dit duurt hangt af van hoe vaak de persoon naar die speciale computer
 loopt. Meestal duurt het 1-2 dagen.
 
-Zoals je ziet kan het een week duren voordat op F-Droid een nieuwe AntennaPod
-release beschikbaar is, wees dus geduldig. Als een update meer dan een week
-later nog niet beschikbaar is, meld het op ons
-[forum](https://forum.antennapod.org/) en we zullen het onderzoeken.
+### What you can do if it takes longer than expected
+
+As you can see it can easily take a week before a new AntennaPod release is
+available on F-Droid. If an update is still not available more than a week after
+its release, feel free to let us know by creating a post on our
+[forum](https://forum.antennapod.org/), and we'll investigate it.
 
 Je kunt een idee krijgen van de voortgang door te controleren [of F-Droid's
 releases lijst is

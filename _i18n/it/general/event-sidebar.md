@@ -7,4 +7,4 @@ Sei a conoscenza di un evento dalle tue parti e ti piacerebbe incontrare
 collaboratori e utenti di AntennaPod? Segnala l'evento sul nostro forum per
 organizzare un incontro!
 
-[Proponi un incontro](https://forum.antennapod.org/)
+[Propose a meet-up](https://forum.antennapod.org)

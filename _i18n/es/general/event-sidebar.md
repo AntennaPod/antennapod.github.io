@@ -7,4 +7,4 @@ encontrarás todas las oportunidades!
 colaboradores y usuarios de AntennaPod? ¡Cuéntanos sobre el evento en nuestro
 foro para organizar una reunión!
 
-[Proponer un encuentro](https://forum.antennapod.org/)
+[Propose a meet-up](https://forum.antennapod.org)

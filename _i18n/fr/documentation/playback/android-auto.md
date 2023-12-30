@@ -1,16 +1,18 @@
-You can use AntennaPod to listen to podcasts in your [Android
-Auto](https://www.android.com/auto/) enabled car.
+Vous pouvez utiliser AntennaPod pour écouter des podcasts dans votre voiture avec
+[Android Auto](https://www.android.com/auto/).
 
-### Did you download AntennaPod from **Google Play**?
+### Avez-vous téléchargé AntennaPod depuis **Google Play** ?
 
-No further steps are required to use AntennaPod in your car. Just connect your
-phone and start listening.
+Aucune autre étape n'est nécessaire pour utiliser AntennaPod dans votre voiture.
+Il suffit de connecter votre téléphone et de commencer à écouter.
 
-### Did you download AntennaPod from **F-Droid**?
+### Avez-vous téléchargé AntennaPod depuis **F-Droid** ?
 
-If you downloaded AntennaPod from F-Droid, further steps are required.
+Si vous avez téléchargé AntennaPod depuis F-Droid, d'autres étapes sont
+nécessaires.
 
-- Open the Android Auto settings.
-- Enable `Developer settings` by pressing the version number 10 times.
-- Open the 3-dot menu and launch the developer settings.
-- Enable `Unknown sources`.
+- Ouvrez les paramètres d'Android Auto.
+- Activez les `paramètres de développement` en appuyant 10 fois sur le numéro de
+version.
+- Ouvrez le menu à 3 points et lancez les paramètres de développement.
+- Activer `Sources inconnues`.

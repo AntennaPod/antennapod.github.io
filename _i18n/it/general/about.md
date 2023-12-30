@@ -47,8 +47,8 @@ Sosteniamo un ecosistema di podcasting aperto. Un ecosistema che
 
 * sostiene la libertà di espressione,
 * ricompensa i podcaster per il loro lavoro creativo,
-* protegge gli ascoltatori da contenuti inaccessibili su [piattaforme
-chiuse](https://en.wikipedia.org/wiki/Walled_garden_(technology)) e
+* spares listeners from inaccessible content in [walled
+gardens](https://en.wikipedia.org/wiki/Closed_platform), and
 * permette agli utenti di usare e passare da un'app all'altra senza alcun [vendor
 lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
 

@@ -92,11 +92,11 @@ Webseite überprüfen kann, um die Qualität der Übersetzungen zu verbessern.
 
 # Andere Materialien
 
-Neben der App und der Webseite können auch die Bilder in den Paketquellen
-übersetzt werden. Sie enthalten Bildschirmfotos und Texte. Da der Platz sehr
-begrenzt ist, muss manuell herumprobiert werden. Bitte lass uns im Forum wissen,
-wenn du dabei helfen willst. Da lokalisierte Einträge mit größerer
-Wahrscheinlichkeit heruntergeladen werden, ist Hilfe sehr willkommen!
+In addition to the app and website, also the images in the app stores can be
+translated. They have screenshots and texts. Because there is very limited space
+we use a manual process with trial and error. Please let us know on the forum if
+you want to help with that. Because localized app store listings are more likely
+to be downloaded, help is very much welcome!
 
 # Nimm Kontakt auf!
 

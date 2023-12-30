@@ -89,11 +89,11 @@ hjemmesiden for at forbedre kvaliteten af oversættelserne.
 
 # Andre materialer
 
-Ud over appen og hjemmesiden kan også billederne i appbutikkerne oversættes. De
-har skærmbilleder og tekster. Da der er meget begrænset plads, bruger vi en
-manuel proces, hvor vi prøver os frem. Lad os vide på forummet, hvis du vil
-hjælpe med det. Da der er større sandsynlighed for, at lokaliserede
-app-butiksannoncer bliver downloadet, er hjælp meget velkommen!
+In addition to the app and website, also the images in the app stores can be
+translated. They have screenshots and texts. Because there is very limited space
+we use a manual process with trial and error. Please let us know on the forum if
+you want to help with that. Because localized app store listings are more likely
+to be downloaded, help is very much welcome!
 
 # Kontakt os!
 

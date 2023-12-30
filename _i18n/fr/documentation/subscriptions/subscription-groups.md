@@ -2,7 +2,7 @@ Pour faciliter l'organisation de vos abonnements, vous pouvez attribuer des tags
 (parfois appelés groupes ou catégories) à un podcast. Veuillez noter que pour le
 moment, il n'est pas possible de créer des listes de liste de lecture basées sur
 des tags. Pour cela, il faudrait d'abord prendre en charge les liste de lecture
-multiples. (Voir également la [demande de
+multiples (voir également la [demande de
 fonctionnalité](https://github.com/AntennaPod/AntennaPod/issues/2648) sur notre
 plate-forme de développement).
 

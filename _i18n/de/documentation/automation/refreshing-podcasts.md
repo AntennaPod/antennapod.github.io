@@ -5,9 +5,9 @@ Tageszeit auswählen oder die automatischen Aktualisierungen abschalten.
 
 Du kannst diesen Vorgang auch für einzelne Podcasts abschalten, wenn es nicht
 notwendig ist, einen Podcast auf dem neuesten Stand zu halten. Das kannst du zum
-Beispiel dann tun, wenn für einen Podcast keine neuen Folgen mehr erscheinen.
+Beispiel dann tun, wenn für einen Podcast keine neuen Episoden mehr erscheinen.
 Oder wenn du einen Podcast hinzugefügt hast, von dem du nur gelegentlich eine
-Folge hören möchtest. Du kannst die Option ändern, indem du zu einem Podcast
+Episode hören möchtest. Du kannst die Option ändern, indem du zu einem Podcast
 gehst, auf das `Zahnrad`-Symbol tippst und die Einstellung `Aktualisiert halten`
 änderst.
 

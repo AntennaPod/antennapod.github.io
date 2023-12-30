@@ -48,18 +48,18 @@ solicita al administrador del servidor que lo haga
 ## Habilitar la sincronización a través de gPodder
 
 1. Crea una cuenta en el servidor www.gpodder.net o en tu propio servidor
-1.  When you have an account, log in on the webserver and create a device under
+1. When you have an account, log in on the webserver and create a device under
 `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices
 | strip }}
-1. Cuando hayas agregado los dispositivos a tu cuenta, vincúlalos usando el botón
-"Configurar". De esta forma, gpodder.net mantiene automáticamente
-sincronizados los dispositivos activados.
-
-  <br />{{ img-synchronize | strip }} 4. Go to `Settings` » `Synchronization` in
-AntennaPod and tap `Choose synchronization provider` 5. Select 'gPodder' 6.
-Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login` 7.
-Enter the 'Username' and 'Password' and tap `Log in` 8. Select the device that
-you created on the server
+1. When you have added the devices to your account, link them using the
+"Configure" button. This way, gpodder.net automatically keeps the activated
+devices synchronized.<br />{{ img-synchronize | strip }}
+1. Ve a `Configuración` » `Sincronización` en AntennaPod y toca
+`Seleccionar un proveedor de sincronización`
+1. Select 'gPodder'
+1. Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`
+1. Enter the 'Username' and 'Password' and tap `Log in`
+1. Select the device that you created on the server
 
 **Nota** ¿Creó un dispositivo mientras configuraba la sincronización en
 AntennaPod en lugar de crear un dispositivo de antemano en el sitio web? Así que

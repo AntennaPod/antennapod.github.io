@@ -1,8 +1,20 @@
-Dopo il rilascio di una nuova versione di AntennaPod, spesso ci viene chiesto
-quando sarà disponibile su F-Droid. Non possiamo dare una risposta precisa: di
-solito ci vogliono alcuni giorni.
+Did you see that there's a new AntennaPod release and wonder:
 
-Far arrivare una nuova versione su F-Droid comporta i seguenti passaggi:
+* *why isn't the latest version not on F-Droid yet?*
+* *when will the new release be available on F-Droid?*
+
+If the new version is in beta, it is *only* available through Google Play ((here
+is why)[/documentation/general/beta]). When we think it's ready we upload it to
+Google Play. A few days later, when we're confident there are no critical bugs,
+we tag the release on GitHub. F-Droid then has to find out about this release,
+build it and make it available. All these steps may take some time. Due to the
+different steps and because we are not involved in publishing releases on
+F-Droid, we can't tell when exactly the latest version will be available there.
+It usually takes a few days after the release is tagged on GitHub.
+
+In short: it may take some time. Please be patient.
+
+### The steps of getting a new version on F-Droid
 
 - Dopo aver creato una
 [versione](https://github.com/AntennaPod/AntennaPod/releases), F-Droid deve
@@ -20,11 +32,12 @@ Il tempo necessario dipende dalla frequenza con cui il responsabile si reca a
 quel particolare computer. Di solito, questa fase richiede altri 1-2 giorni dopo
 la compilazione dell'app.
 
-Come potete vedere, può passare facilmente una settimana prima che una nuova
-versione di AntennaPod sia disponibile su F-Droid, quindi siate pazienti. Se un
-aggiornamento non è ancora disponibile dopo più di una settimana dal suo
-rilascio, non esitate a farcelo sapere creando un post sul nostro
-[forum](https://forum.antennapod.org/), e indagheremo.
+### What you can do if it takes longer than expected
+
+As you can see it can easily take a week before a new AntennaPod release is
+available on F-Droid. If an update is still not available more than a week after
+its release, feel free to let us know by creating a post on our
+[forum](https://forum.antennapod.org/), and we'll investigate it.
 
 Puoi farti un'idea degli ultimi progressi controllando [se l'elenco di versioni
 di F-Droid è stato

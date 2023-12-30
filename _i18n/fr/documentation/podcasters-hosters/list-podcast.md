@@ -7,7 +7,7 @@ recherche :
 * [Index des podcasts](https://podcastindex.org/) (demandez à votre hébergeur
 comment ajouter votre podcast ou ajoutez votre propre podcast via
 l'[API](https://podcastindex-org.github.io/docs-api/#get-/add/byfeedurl))
-* [iTunes](https://podcasts.apple.com) (ajouter via [Podcast
+* [Apple Podcasts](https://podcasts.apple.com) (ajouter via [Podcast
 Connect](https://podcastsconnect.apple.com/))
 * [Fyyd](https://fyyd.de/) (ajouter via leur [site web](https://fyyd.de/add-feed))
 

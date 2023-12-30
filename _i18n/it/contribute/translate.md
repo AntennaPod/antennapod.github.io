@@ -91,11 +91,11 @@ migliorare la qualità delle traduzioni.
 
 # Altri materiali
 
-Oltre all'app e al sito web, anche le immagini negli app store possono essere
-tradotte. Contengono schermate e testi. Poiché lo spazio è molto limitato,
-usiamo un processo manuale con tentativi ed errori. Fateci sapere sul forum se
-volete aiutarci in questo. Poiché le inserzioni localizzate negli app store
-hanno più probabilità di essere scaricate, l'aiuto è molto gradito!
+In addition to the app and website, also the images in the app stores can be
+translated. They have screenshots and texts. Because there is very limited space
+we use a manual process with trial and error. Please let us know on the forum if
+you want to help with that. Because localized app store listings are more likely
+to be downloaded, help is very much welcome!
 
 # Mettiti in contatto!
 

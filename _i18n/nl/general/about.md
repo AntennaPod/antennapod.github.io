@@ -45,8 +45,8 @@ Wij staan voor een open podcasting ecosysteem. Een ecosysteem dat
 
 * de vrije meningsuiting steunt,
 * podcasters beloont voor hun creatieve werk,
-* bescherming biedt tegen ontoegankelijke inhoud in [walled
-gardens](https://en.wikipedia.org/wiki/Walled_garden_(technology)), en
+* spares listeners from inaccessible content in [walled
+gardens](https://en.wikipedia.org/wiki/Closed_platform), and
 * gebruikers in staat stelt apps te gebruiken en te wisselen tussen apps zonder
 [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
 

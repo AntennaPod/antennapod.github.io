@@ -29,7 +29,7 @@ les podcasts et avons récemment introduit des flux locaux. Donc, si vous avez
 votre propre idée, n'hésitez pas à [partager votre demande de nouveauté sur
 notre forum](https://forum.antennapod.org/c/feature-request) !
 
-## Open Source et sans publicité
+## Libre et sans publicité
 
 Tout comme d'autres excellents logiciels tels que Firefox et Signal, AntennaPod
 est un logiciel libre. Cela signifie que tout le monde peut consulter et
@@ -48,8 +48,8 @@ Nous défendons un écosystème de podcast ouvert. Un écosystème qui
 
 * soutient la liberté d'expression,
 * récompense les podcasters pour leur travail créatif,
-* protège les auditeurs contre les contenus inaccessibles dans les [jardins
-clos](https://en.wikipedia.org/wiki/Walled_garden_(technology)), et
+* spares listeners from inaccessible content in [walled
+gardens](https://en.wikipedia.org/wiki/Closed_platform), and
 * permet aux utilisateurs d'utiliser et de passer d'une application à l'autre
 sans [un enfermement
 propriétaire](https://fr.wikipedia.org/wiki/Enfermement_propri%C3%A9taire).

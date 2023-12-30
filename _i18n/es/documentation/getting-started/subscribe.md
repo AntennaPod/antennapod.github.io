@@ -59,7 +59,7 @@ AntennaPod. Puedes encontrar el canal con el id en la URL del canal. Si el canal
 al que te quieres suscribir es una cuenta de usuario (con una URL como
 youtube.com/user/UserName), puedes contactar con el usuario para pedirles su
 cuenta de usuario (aquí se explica [cómo un usuario puede averiguar el id de su
-canal](https://support.google.com/answer/3250431?hl=es)).
+canal](https://support.google.com/youtube/answer/3250431?hl=es)).
 
 No tenemos ninguna información sobre otras plataformas, como puedes ver. Estamos
 contentos de compartirla aquí si compartes tu opinión mediante el

@@ -29,10 +29,10 @@ nous n'avons pas le temps d'en gérer davantage. Tous les autres AppStores
 proposant AntennaPod ont copié l'application sans notre permission explicite.
 Nous ne sommes pas responsables de leur mise à jour ou de leur bon
 fonctionnement. Le référentiel F-Droid n'est pas entretenu par nous, mais par
-l'équipe de F-Droid. S’il ne s’agit pas de la dernière version disponible, nous
-ne pouvons rien y faire, mais vous pouvez toujours nous le faire savoir en nous
-adressant un message sur notre [forum](https://forum.antennapod.org/) et nous
-examinerons la question.
+l'équipe de F-Droid ([en savoir plus](/documentation/general/f-droid)). S’il ne
+s’agit pas de la dernière version disponible, nous ne pouvons rien y faire, mais
+vous pouvez toujours nous le faire savoir en nous adressant un message sur notre
+[forum](https://forum.antennapod.org/) et nous examinerons la question.
 
 <small>Google Play et le logo Google Play sont des marques déposées de Google
 LLC.</small>

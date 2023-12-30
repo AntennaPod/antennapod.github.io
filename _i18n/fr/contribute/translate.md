@@ -93,12 +93,11 @@ version test du site web, afin d'améliorer la qualité des traductions.
 
 # Autres matériels
 
-Outre l'application et le site web, les éléments figurant dans les magasins
-d'applications peuvent également être traduits. Il s'agit de captures d'écran et
-de textes. L'espace étant très limité, nous utilisons un processus manuel avec
-des essais et des erreurs. Si vous souhaitez nous aider, faites-le savoir sur le
-forum. Les entrées traduites dans les magasins d'applications étant plus
-susceptibles d'être téléchargées, toute aide est la bienvenue !
+In addition to the app and website, also the images in the app stores can be
+translated. They have screenshots and texts. Because there is very limited space
+we use a manual process with trial and error. Please let us know on the forum if
+you want to help with that. Because localized app store listings are more likely
+to be downloaded, help is very much welcome!
 
 # Prenez contact avec nous !
 

@@ -31,7 +31,7 @@ lokale Feeds eingeführt. Wenn du also eine eigene Idee hast, [stelle gerne dein
 Funktionsanfrage in unserem
 Forum](https://forum.antennapod.org/c/feature-request)!
 
-## Open-Source und werbefrei
+## Quelloffen und werbefrei
 
 Wie andere großartige Software, wie beispielsweise Firefox und Signal, ist
 AntennaPod Open-Source. Das bedeutet, dass jeder den Code hinter der Anwendung
@@ -50,8 +50,8 @@ Wir stehen für ein offenes Podcasting-Ökosystem. Ein Ökosystem, das
 
 * die Redefreiheit gewährleistet,
 * Podcaster für ihre kreative Arbeit belohnt,
-* verschont die Hörer vor unzugänglichen Inhalten in [Geschlossenen
-Plattformen](https://de.wikipedia.org/wiki/Geschlossene_Plattform), und
+* spares listeners from inaccessible content in [walled
+gardens](https://en.wikipedia.org/wiki/Closed_platform), and
 * die Verwendung von und den Wechsel zwischen Anwendungen ohne
 [Lock-In-Effekt](https://de.wikipedia.org/wiki/Lock-in-Effekt) ermöglicht.
 

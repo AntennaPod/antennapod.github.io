@@ -90,12 +90,11 @@ en zo de kwaliteit van de vertalingen te verbeteren.
 
 # Andere materialen
 
-Naast de app en de website kunnen ook de afbeeldingen in de app stores worden
-vertaald. De afbeeldingen hebben screenshots en teksten. Omdat de ruimte in zeer
-beperkt is, gebruiken we een handmatig proces met verschillende testrondes. Laat
-een berichtje achter op het forum als je hierbij wilt helpen. In appstores
-worden apps met vertaalde afbeeldingen eerder gedownload, dus hulp is zeer
-welkom!
+In addition to the app and website, also the images in the app stores can be
+translated. They have screenshots and texts. Because there is very limited space
+we use a manual process with trial and error. Please let us know on the forum if
+you want to help with that. Because localized app store listings are more likely
+to be downloaded, help is very much welcome!
 
 # Neem contact op!
 

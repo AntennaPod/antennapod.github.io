@@ -9,7 +9,7 @@ Wenn du Werbung siehst, kann das zwei Ursachen haben:
 
 ### 1. Du hast eine inoffizielle Version von AntennaPod heruntergeladen
 
-AntennaPod ist Open-Source. Das bedeutet, dass jeder den Quelltext herunterladen
+AntennaPod ist Open-Source. Das bedeutet, dass jeder den Quellcode herunterladen
 kann. Leider nehmen einige Entwickler AntennaPod, fügen Werbung hinzu und
 veröffentlichen dies dann als neue App. Du kannst die offizielle AntennaPod-App
 auf [Google Play](https://play.google.com/store/apps/details?
@@ -42,11 +42,11 @@ bringen beim Einfügen der Werbung auch die Kapitelmarken durcheinander (sodass
 die Kapitel um die Dauer der Werbung verschoben werden).
 
 Du kannst jederzeit in AntennaPod vorspulen, um die Werbung zu überspringen. Wenn
-du eine Folge streamst, anstatt sie herunterzuladen, weiß der Anbieter, wie weit
-du den Podcast gehört hast. Es ist möglich, dass das Unternehmen erkennt, dass
-du die Werbung übersprungen hast, und eine neue einfügt. Wenn du die Episode
-stattdessen herunterlädst, kann dies nicht geschehen und du kannst die Werbung
-zuverlässiger überspringen. (Das Herunterladen ist auch besser für deine
+du eine Episode streamst, anstatt sie herunterzuladen, weiß der Anbieter, wie
+weit du den Podcast gehört hast. Es ist möglich, dass das Unternehmen erkennt,
+dass du die Werbung übersprungen hast, und eine neue einfügt. Wenn du die
+Episode stattdessen herunterlädst, kann dies nicht geschehen und du kannst die
+Werbung zuverlässiger überspringen. (Das Herunterladen ist auch besser für deine
 Privatsphäre, da der Anbieter nicht weiß, wann du welchen Teil der Episode
 anhörst. AntennaPod kann so konfiguriert werden, dass Episoden automatisch
 heruntergeladen und später gelöscht werden, sodass du das nicht manuell machen

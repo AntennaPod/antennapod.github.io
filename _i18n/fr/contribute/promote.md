@@ -10,7 +10,7 @@ médias à cibler avec des messages importants.
 * **Réseaux sociaux** Heureux de penser à de nouvelles accroches pour parler du
 projet à chaque fois, et de rédiger des messages consensuels et créatifs de
 temps en temps ? Aidez-nous à nous engager auprès d'un public plus large sur
-Twitter.
+Twitter/X & Mastodon.
 * **Blog** Vous souhaitez écrire sur les nouvelles fonctionnalités de
 l'application, le projet AntennaPod ou un écosystème ouvert de podcasting en
 général ? Aidez-nous à maintenir notre blog.

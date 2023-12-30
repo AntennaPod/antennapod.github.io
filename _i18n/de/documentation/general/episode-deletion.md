@@ -1,5 +1,5 @@
-Wenn du eine Folge nicht mehr hören möchtest, willst du sie in den meisten Fällen
-vom Telefon löschen, um Speicherplatz freizugeben. Es gibt verschiedene
+Wenn du eine Episode nicht mehr hören möchtest, willst du sie in den meisten
+Fällen vom Telefon löschen, um Speicherplatz freizugeben. Es gibt verschiedene
 Möglichkeiten, dies zu erreichen.
 
 Erstens kannst du natürlich auch manuell Episoden löschen. Wenn du die
