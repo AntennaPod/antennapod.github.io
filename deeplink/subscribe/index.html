@@ -262,26 +262,36 @@
     }
 </script>
 
-        <div class="container-fluid py-5">
+        <div class="container-fluid">
   <div class="container">
-    <article class="post-content">
-      <div class="row pb-4">
-        <button id="retryButton" class="btn btn-primary">Subscribe</button>
-      </div>
-      <div class="row">
-        <p>Press the button above to subscribe to this podcast in AntennaPod. If you don’t have AntennaPod installed yet, you can <a href="/download">download the app here</a>.</p>
+    <div class="row justify-content-md-center">
+      <div class="col col-xl-6">
+        <article class="post-content">
+          <h2 id="podcastTitle">Subscribe</h2>
+          <p>Press the button below to subscribe to this podcast in AntennaPod. Don’t have AntennaPod yet? You can <a href="/download">download</a> the app to enjoy free access to millions of podcasts.</p>
 
-<p>If your web browser does not support opening AntennaPod directly using the button, you can also copy the address displayed in the box below and paste it into AntennaPod’s search box.</p>
 
+<p><button id="subscribeButton" class="btn btn-primary">
+Subscribe in AntennaPod
+
+</button></p>
+
+<p>Do you use another podcast app or does your web browser not support opening AntennaPod directly?
+You can find the RSS address of the podcast in the box below.
+To subscribe, paste the address into AntennaPod’s search box or into your other podcast app.</p>
+
+          <p>
+            </p>
+<div class="card">
+              <div class="card-body">
+                <i class="fa fa-rss mr-1"></i>
+                <span id="urlTextBox">JavaScript required</span>
+              </div>
+            </div>
+          
+        </article>
       </div>
-      <div class="row pb-4">
-        <div class="card">
-          <div class="card-body" id="urlTextBox">
-            JavaScript required.
-          </div>
-        </div>
-      </div>
-    </article>
+    </div>
   </div>
 </div>
 
@@ -295,15 +305,18 @@
   };
 
   const urlTextBox = document.getElementById("urlTextBox");
-  const retryButton = document.getElementById("retryButton");
+  const subscribeButton = document.getElementById("subscribeButton");
+  const podcastTitle = document.getElementById("podcastTitle");
   if (getUrlParameter("url") === false) {
     urlTextBox.textContent = "URL not available";
-    retryButton.disabled = true;
-    retryButton.textContent += " (error)";
-
+    subscribeButton.disabled = true;
+    subscribeButton.textContent += " (error)";
   } else {
+    if (getUrlParameter("title") !== false) {
+      podcastTitle.textContent = getUrlParameter("title");
+    }
     urlTextBox.textContent = getUrlParameter("url");
-    retryButton.onclick = () => {
+    subscribeButton.onclick = () => {
       window.open("antennapod-subscribe://" + getUrlParameter("url"));
     };
   }

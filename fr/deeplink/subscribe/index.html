@@ -262,14 +262,13 @@
     }
 </script>
 
-        <div class="container-fluid py-5">
+        <div class="container-fluid">
   <div class="container">
-    <article class="post-content">
-      <div class="row pb-4">
-        <button id="retryButton" class="btn btn-primary">S'abonner</button>
-      </div>
-      <div class="row">
-        <p>Appuyez sur le bouton ci-dessus pour vous abonner à ce podcast dans AntennaPod.
+    <div class="row justify-content-md-center">
+      <div class="col col-xl-6">
+        <article class="post-content">
+          <h2 id="podcastTitle">S'abonner</h2>
+          <p>Appuyez sur le bouton ci-dessus pour vous abonner à ce podcast dans AntennaPod.
 Si vous n’avez pas encore installé AntennaPod, vous pouvez <a href="/download">télécharger
 l’application ici</a>.</p>
 
@@ -277,15 +276,18 @@ l’application ici</a>.</p>
 bouton, vous pouvez également copier l’adresse affichée dans le cadre ci-dessous
 et la coller dans le champ de recherche d’AntennaPod.</p>
 
+          <p>
+            </p>
+<div class="card">
+              <div class="card-body">
+                <i class="fa fa-rss mr-1"></i>
+                <span id="urlTextBox">JavaScript required</span>
+              </div>
+            </div>
+          
+        </article>
       </div>
-      <div class="row pb-4">
-        <div class="card">
-          <div class="card-body" id="urlTextBox">
-            JavaScript required.
-          </div>
-        </div>
-      </div>
-    </article>
+    </div>
   </div>
 </div>
 
@@ -299,15 +301,18 @@ et la coller dans le champ de recherche d’AntennaPod.</p>
   };
 
   const urlTextBox = document.getElementById("urlTextBox");
-  const retryButton = document.getElementById("retryButton");
+  const subscribeButton = document.getElementById("subscribeButton");
+  const podcastTitle = document.getElementById("podcastTitle");
   if (getUrlParameter("url") === false) {
     urlTextBox.textContent = "URL not available";
-    retryButton.disabled = true;
-    retryButton.textContent += " (error)";
-
+    subscribeButton.disabled = true;
+    subscribeButton.textContent += " (error)";
   } else {
+    if (getUrlParameter("title") !== false) {
+      podcastTitle.textContent = getUrlParameter("title");
+    }
     urlTextBox.textContent = getUrlParameter("url");
-    retryButton.onclick = () => {
+    subscribeButton.onclick = () => {
       window.open("antennapod-subscribe://" + getUrlParameter("url"));
     };
   }
