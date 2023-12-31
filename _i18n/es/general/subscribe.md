@@ -1,6 +1,7 @@
-Pulsa el botón de encima para suscribirte a este podcast en AntennaPod. Si aún no
-tienes AntennaPod instalado, puedes [descargar la aplicación aquí](/download).
+Pulsa el botón de encima para suscribirte a este podcast en AntennaPod. Si aún no tienes AntennaPod instalado, puedes [descargar la aplicación aquí](/download).
 
-Si tu navegador no soporta abrir AntennaPod directamente pulsando el botón,
-también puedes copiar la dirección mostrada en la caja de debajo y pegarla en la
-caja de búsqueda de AntennaPod.
+
+<button id="subscribeButton" class="btn btn-primary">
+Subscribe in AntennaPod
+
+</button>Do you use another podcast app or does your web browser not support opening AntennaPod directly? You can find the RSS address of the podcast in the box below. To subscribe, paste the address into AntennaPod's search box or into your other podcast app.

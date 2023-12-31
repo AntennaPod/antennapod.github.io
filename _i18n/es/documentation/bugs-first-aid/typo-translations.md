@@ -2,9 +2,9 @@
 
 # ¿Quieres arreglarlo tú mismo?
 
-Si el problema está en otro idioma a parte de Inglés, puedes actualizar las **traducciones de la aplicación** en [Transifex](https://www.transifex.com/antennapod/antenappod/core-values/). Los problemas con las **traducciones de la web** pueden ser arreglados en [Weblate](https://hosted.weblate.org/projects/antennapod/). Puedes [encontrar más información en nuestra sección de Contribución](/contribute/translate).
+Si el problema está en otro idioma a parte de Inglés, puedes actualizar las **traducciones de la aplicación** en [Transifex](https://www.transifex.com/antennapod/antennapod/core-values/). Los problemas con las **traducciones de la web** pueden ser arreglados en [Weblate](https://hosted.weblate.org/projects/antennapod/). Puedes [encontrar más información en nuestra sección de Contribución](/contribute/translate).
 
-¿El problema tiene que ver con **los textos en Inglés**? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para [la aplicación](https://github.com/AntennaPod/AntennaPod/) o para el [sitio web](https://gitub.com/AntennaPod/antennapod.github.io).
+¿El problema tiene que ver con **los textos en Inglés**? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para [la aplicación](https://github.com/AntennaPod/AntennaPod/) o para el [sitio web](https://github.com/AntennaPod/antennapod.github.io).
 
 # ¿Simplemente quieres informarnos?
 

@@ -1,41 +1,10 @@
-Tout d'abord, vous devez vous abonner à un podcast. Vous pouvez en savoir plus à
-ce sujet [ici](/documentation/getting-started/subscribe). Après l'abonnement,
-les nouveaux épisodes sont affichés dans `Episodes` → `Nouveaux`. C'est là que
-vous pourrez décider si vous souhaitez réellement les écouter ou non. `Nouveaux`
-signifie que vous n'avez pas encore décidé ce que vous allez faire de l'épisode.
+Tout d'abord, vous devez vous abonner à un podcast. Vous pouvez en savoir plus à ce sujet [ici](/documentation/getting-started/subscribe). Après l'abonnement, les nouveaux épisodes sont affichés dans `Episodes` → `Nouveaux`. C'est là que vous pourrez décider si vous souhaitez réellement les écouter ou non. `Nouveaux` signifie que vous n'avez pas encore décidé ce que vous allez faire de l'épisode.
 
-- Si un épisode ne vous intéresse pas, il suffit de le faire glisser et
-AntennaPod supprime le drapeau `nouveau`. L'épisode reste marqué comme non lu
-et vous pouvez le retrouver sur la page `Épisodes` → `Tous`, ainsi que sur la
-page du podcast.
-- Si vous êtes intéressé par l'épisode, vous pouvez faire l'une des deux choses
-suivantes, en fonction de votre comportement d'écoute.
-   - Téléchargez l'épisode. Lors du téléchargement, AntennaPod ajoute également
-automatiquement l'épisode à la liste de lecture et le supprime de la boîte de
-réception. Il existe un paramètre si vous souhaitez que les nouveaux épisodes
-soient mis, dans la liste de lecture, à l'arrière, au début ou après l'épisode
-en cours de lecture. Le téléchargement est le principal moyen d'utilisation
-d'AntennaPod, mais comme le streaming devient de plus en plus populaire, vous
-pouvez aussi utiliser la deuxième option.
-   - Ajoutez simplement l'épisode à la liste de lecture. AntennaPod le supprime
-automatiquement de la boîte de réception et l'insère dans la liste de lecture.
-Vous pourrez ensuite lire directement l'épisode sans avoir à le télécharger,
-afin qu'il ne prenne pas de place. C'est le même fonctionnement que regarder une
-vidéo sur YouTube. L'inconvénient est qu'il ne sera pas disponible hors ligne,
-utilisera votre connexion de données mobile lorsque vous êtes en déplacement et
-ralentira un peu l'avance rapide.
-- Lorsque vous avez terminé, AntennaPod marque l'épisode comme lu et le supprime
-de la file de lecture. Un paramètre permet également de supprimer
-automatiquement le téléchargement après la lecture. Vous pouvez trouver une
-liste de tous les épisodes qui sont téléchargés sur votre appareil (qu'ils
-soient dans la file de lecture ou non) sur la page `Téléchargements`.
-- Si vous aimez un épisode et que vous envisagez de le réécouter, vous pouvez
-également le marquer comme favori. Il apparaîtra alors sur la page `Episodes`
-→ `Favoris` et (par défaut) ne sera pas supprimé après la lecture.
+- Si un épisode ne vous intéresse pas, il suffit de le faire glisser et AntennaPod supprime le drapeau `nouveau`. L'épisode reste marqué comme non lu et vous pouvez le retrouver sur la page `Épisodes` → `Tous`, ainsi que sur la page du podcast.
+- Si vous êtes intéressé par l'épisode, vous pouvez faire l'une des deux choses suivantes, en fonction de votre comportement d'écoute.
+   - Téléchargez l'épisode. Lors du téléchargement, AntennaPod ajoute également automatiquement l'épisode à la liste de lecture et le supprime de la boîte de réception. Il existe un paramètre si vous souhaitez que les nouveaux épisodes soient mis, dans la liste de lecture, à l'arrière, au début ou après l'épisode en cours de lecture. Le téléchargement est le principal moyen d'utilisation d'AntennaPod, mais comme le streaming devient de plus en plus populaire, vous pouvez aussi utiliser la deuxième option.
+   - Ajoutez simplement l'épisode à la liste de lecture. AntennaPod le supprime automatiquement de la boîte de réception et l'insère dans la liste de lecture. Vous pourrez ensuite lire directement l'épisode sans avoir à le télécharger, afin qu'il ne prenne pas de place. C'est le même fonctionnement que regarder une vidéo sur YouTube. L'inconvénient est qu'il ne sera pas disponible hors ligne, utilisera votre connexion de données mobile lorsque vous êtes en déplacement et ralentira un peu l'avance rapide.
+- Lorsque vous avez terminé, AntennaPod marque l'épisode comme lu et le supprime de la file de lecture. Un paramètre permet également de supprimer automatiquement le téléchargement après la lecture. Vous pouvez trouver une liste de tous les épisodes qui sont téléchargés sur votre appareil (qu'ils soient dans la file de lecture ou non) sur la page `Téléchargements`.
+- Si vous aimez un épisode et que vous envisagez de le réécouter, vous pouvez également le marquer comme favori. Il apparaîtra alors sur la page `Episodes` → `Favoris` et (par défaut) ne sera pas supprimé après la lecture.
 
-Si vous êtes abonné à un podcast vraiment génial dont vous savez dès le départ
-que tous les épisodes seront excellents, vous pouvez utiliser la fonction de
-téléchargement automatique. Lorsqu'elle est activée pour un podcast, tous ses
-futurs nouveaux épisodes sont automatiquement téléchargés et ajoutés à la file
-de lecture. Ils seront automatiquement supprimés de la boîte de réception dès
-leur téléchargement.
+Si vous êtes abonné à un podcast vraiment génial dont vous savez dès le départ que tous les épisodes seront excellents, vous pouvez utiliser la fonction de téléchargement automatique. Lorsqu'elle est activée pour un podcast, tous ses futurs nouveaux épisodes sont automatiquement téléchargés et ajoutés à la file de lecture. Ils seront automatiquement supprimés de la boîte de réception dès leur téléchargement.

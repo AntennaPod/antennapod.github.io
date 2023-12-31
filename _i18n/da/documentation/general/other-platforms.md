@@ -1,10 +1,6 @@
-However attractive the title may sound, AntennaPod is not and will not be
-available on Windows, iOS or the Linux desktop. The app is made by a small team
-of volunteers, and making the app for these other platforms would be a lot of
-work.
+However attractive the title may sound, AntennaPod is not and will not be available on Windows, iOS or the Linux desktop. The app is made by a small team of volunteers, and making the app for these other platforms would be a lot of work.
 
-There are (open source) alternatives, however, which we would like to point you
-to:
+There are (open source) alternatives, however, which we would like to point you to:
 
 | App | Code | iOS | MacOS | Windows | Linux |
 | --- | --- | :-: | :-: | :-: | :-: |
@@ -17,5 +13,4 @@ to:
 | [GNOME Podcasts](https://apps.gnome.org/app/org.gnome.Podcasts/) | [<i class="fab fa-gitlab"></i>](https://gitlab.gnome.org/World/podcasts) | ❌ | ❌ | ❌ | ✅ |
 | [MusicPod](https://snapcraft.io/musicpod) | [<i class="fab fa-github"></i>](https://github.com/ubuntu-flutter-community/musicpod) | ❌ | ❌ | ❌ | ✅ |
 
-Do you have a recommendation of an open source podcast app for these platforms?
-[Let us know on the forum!](https://forum.antennapod.org)
+Som du kan se, har vi ikke nogen oplysninger om andre platforme. Vi inkluderer det gerne her, hvis du deler dine tanker via [forummet](https://forum.antennapod.org/).

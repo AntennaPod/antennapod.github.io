@@ -1,36 +1,10 @@
-First, you want to subscribe to a podcast. You can find more about that
-[here](/documentation/getting-started/subscribe). After subscribing, new
-episodes are shown in the `Inbox`. There you can decide if you actually like to
-listen to them or not. If an episode is in the inbox, it means that you have not
-yet decided what to do with the episode.
+Først skal du abonnere på en podcast. Du kan finde mere om det [her](/documentation/getting-started/subscribe). Når du har abonneret, vises nye afsnit på `Afsnit` » `Nye`. Der kan du selv bestemme, om du vil lytte til dem eller ej. `Nye` betyder, at du endnu ikke har besluttet, hvad du vil gøre med afsnittet.
 
-- If you are not interested in an episode, just swipe it away to remove it from
-the inbox. The episode still stays marked as unplayed and you can find it on
-the `Episodes` page, as well as on the podcast's page.
-- Hvis du er interesseret i afsnittet, kan du gøre én af to ting, afhængigt af
-din lytteadfærd.
-   - Download the episode. When downloading, AntennaPod also automatically adds the
-episode to the queue and removes it from the inbox. There is a setting if you
-want new episodes to be enqueued in the back, front or after the currently
-playing episode. Downloading is the main way AntennaPod was originally designed
-to be used but as streaming is becoming more and more popular, you can also use
-the second option.
-   - Just add the episode to the queue. AntennaPod automatically removes it from the
-inbox and inserts it into the queue. You can later directly play the episode
-without having to download, so it does not take up space. Think: Streaming like
-videos on YouTube. The disadvantage is that it will not be available offline,
-uses up your mobile data connection when you are on the run, and makes fast
-forwarding a little bit slower.
-- If you are done playing, AntennaPod marks the episode as played and removes it
-from the queue. There is a setting to also automatically delete the download
-after playing. You can find a list of all episodes that are still downloaded to
-your device (whether they are in the queue or not) on the `Downloads` page.
-- If you like an episode and are thinking about listening to it again, you can
-also mark it as favorite. You can filter the `Episodes` page to show only your
-favorites and (by default) AntennaPod will not delete favorites after playing.
+- Hvis du ikke er interesseret i et afsnit, kan du blot swipe det væk, og så fjerner AntennaPod `ny`-markeringen. Afsnittet forbliver stadig markeret som uafspillet, og du kan finde det på siden `Afsnit` » `Alle`, samt på podcastens side.
+- Hvis du er interesseret i afsnittet, kan du gøre én af to ting, afhængigt af din lytteadfærd.
+   - Download afsnittet. Når du downloader, tilføjer AntennaPod også automatisk afsnittet til køen og fjerner `ny`-mærket. Der findes en indstilling, hvis du ønsker, at nye afsnit skal sættes bagerst i køen, forrest eller efter det afsnit, der afspilles i øjeblikket. Downloading er den primære måde AntennaPod oprindeligt blev designet til at blive brugt på, men da streaming bliver mere og mere populært, kan du også bruge den anden mulighed.
+   - Du skal blot tilføje afsnittet til køen. AntennaPod fjerner automatisk `ny`-markeringen og indsætter det i køen. Du kan senere afspille afsnittet direkte uden at skulle downloade det, så det ikke optager plads. Kort sagt er det som at streame videoer på YouTube. Ulempen er, at det ikke vil være tilgængeligt offline, bruger din mobildataforbindelse, mens du er på farten, og gør det lidt langsommere at spole frem.
+- Hvis du er færdig med at afspille, markerer AntennaPod afsnittet som afspillet og fjerner det fra køen. Der er en indstilling, så overførslen også automatisk slettes efter afspilning. Du kan finde en liste over alle afsnit, der stadig er overført til din enhed (uanset om de er i køen eller ej) på siden `Overførsler` » `Færdige`.
+- Hvis du kan lide et afsnit og overvejer at lytte til det igen, kan du også markere det som favorit. Det vil så blive vist på siden `Afsnit` » `Favoritter` og vil (som standard) ikke blive slettet efter afspilning.
 
-In case you are subscribed to a really great podcast where you know from the
-beginning that all episodes will be great, you can use the auto-download
-feature. When enabled for a podcast, all of its future new episodes are
-automatically downloaded and added to the queue. They will automatically be
-removed from the inbox as soon as they are downloaded.
+Hvis du har abonneret på en rigtig god podcast, hvor du fra starten ved, at alle afsnit vil være gode, kan du bruge funktionen til automatisk overførsel. Når den er aktiveret for en podcast, overføres alle fremtidige nye afsnit automatisk og føjes til køen. De vil automatisk blive fjernet fra siden `Afsnit` » `Nye`, så snart de er overført.

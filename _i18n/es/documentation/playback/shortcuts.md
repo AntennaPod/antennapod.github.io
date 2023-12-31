@@ -1,7 +1,4 @@
-Si tienes un teclado físico ('hardware') conectado a tu teléfono o tablet, puedes
-utilizar ciertas combinaciones de teclas para controlar la reproducción en
-AntennaPod. El volumen y las acciones de (des)enmudecer afectan al canal de
-audio para los medios (en lugar de, por ejemplo, el de las notificaciones).
+Si tienes un teclado físico ('hardware') conectado a tu teléfono o tablet, puedes utilizar ciertas combinaciones de teclas para controlar la reproducción en AntennaPod. El volumen y las acciones de (des)enmudecer afectan al canal de audio para los medios (en lugar de, por ejemplo, el de las notificaciones).
 
 ### Todas las pantallas (excepto el reproductor de video y los ajustes)
 
