@@ -288,25 +288,18 @@
             <article class="post-content">
                 <h1 id="integración-con-otras-aplicaciones">Integración con otras aplicaciones</h1>
 
-<p>Con AntennaPod, puede especificar las suscripciones (fuentes del podcasts) para
-que se actualicen regularmente (véase <a href="/documentation/automation/refreshing-podcasts">Actualización de
-podcasts</a>).</p>
+<p>Con AntennaPod, puede especificar las suscripciones (fuentes del podcasts) para que se actualicen regularmente (véase <a href="/documentation/automation/refreshing-podcasts">Actualización de podcasts</a>).</p>
 
-<p>Si tienes unas necesidades más complejas, puedes utilizar varias aplicaciones de
-automatizaciones de terceros con AntennaPod para hacerlo. Ejemplos:</p>
+<p>Si tienes unas necesidades más complejas, puedes utilizar varias aplicaciones de automatizaciones de terceros con AntennaPod para hacerlo. Ejemplos:</p>
 
 <ul>
-  <li>Actualizar las suscripciones al principio del día: a las 07, encender el WiFi,
-luego actualizar los feeds de AntennaPod.</li>
-  <li>Obtén tus suscripciones antes de llegar a casa: a las 17:00 horas en días
-laborables actualiza las suscripciones.</li>
+  <li>Actualizar las suscripciones al principio del día: a las 07, encender el WiFi, luego actualizar los feeds de AntennaPod.</li>
+  <li>Obtén tus suscripciones antes de llegar a casa: a las 17:00 horas en días laborables actualiza las suscripciones.</li>
 </ul>
 
 <h2 id="instrucciones-generales">Instrucciones generales</h2>
 
-<p>En tu aplicación de automatizaciones, puedes pedirle a AntennaPod que actualice
-sus suscripciones enviando un ‘Broadcast’ (puede que se muestre como un tipo de
-intención de Android) con las siguientes opciones:</p>
+<p>En tu aplicación de automatizaciones, puedes pedirle a AntennaPod que actualice sus suscripciones enviando un ‘Broadcast’ (puede que se muestre como un tipo de intención de Android) con las siguientes opciones:</p>
 
 <ul>
   <li>Nombre del paquete: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -324,8 +317,7 @@ intención de Android) con las siguientes opciones:</p>
 <ol>
   <li>El paquete debe ser <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>La clase del receptor será
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>La clase del receptor será <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
 </ol>
 
@@ -340,16 +332,14 @@ intención de Android) con las siguientes opciones:</p>
 </li>
   <li>Especifica que el nombre del paquete sea <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Especifica que el nombre de la clase sea
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Especifica que el nombre de la clase sea <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
   <li>Especifica que el objetivo sea <code class="language-plaintext highlighter-rouge">Receptor de difusión</code>
 </li>
   <li>Puedes dejar los demás campos en blanco</li>
 </ol>
 
-<h3 id="llama---perfiles-de-ubicación-sitio">Llama - Perfiles de Ubicación ([sitio</h3>
-<p>web](http://kebabapps.blogspot.com/search/label/Llama))</p>
+<h3 id="llama---perfiles-de-ubicación-sitio-web">Llama - Perfiles de Ubicación (<a href="http://kebabapps.blogspot.com/search/label/Llama">sitio web</a>)</h3>
 
 <p>Crea un evento (regla de automatización de Llama). En el evento,</p>
 
@@ -358,22 +348,16 @@ intención de Android) con las siguientes opciones:</p>
   <li>Especifica que el modo de envío de la intención sea <code class="language-plaintext highlighter-rouge">Difusión</code>.</li>
   <li>Especifica que el nombre del paquete sea <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Especifica que el nombre de la clase sea
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Especifica que el nombre de la clase sea <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
-  <li>Añade cualquier otra condición / acciones para cumplir tus necesidades
-específicas.</li>
+  <li>Añade cualquier otra condición / acciones para cumplir tus necesidades específicas.</li>
 </ol>
 
-<p>Como atajo, puedes hacer clic en <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">este
-enlace</a>
-para crear un evento de ejemplo con el que empezar.</p>
+<p>Como atajo, puedes hacer clic en <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">este enlace</a> para crear un evento de ejemplo con el que empezar.</p>
 
 <hr>
 
-<p><strong>Descargo de responsabilidad:</strong> La comunidad de AntennaPod no tiene ninguna
-relación con ninguna de las aplicaciones de automatización de terceros que
-aparecen en la lista.</p>
+<p><strong>Descargo de responsabilidad:</strong> La comunidad de AntennaPod no tiene ninguna relación con ninguna de las aplicaciones de automatización de terceros que aparecen en la lista.</p>
 
 
             </article>

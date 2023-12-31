@@ -288,26 +288,18 @@
             <article class="post-content">
                 <h1 id="integration-med-andre-apps">Integration med andre apps</h1>
 
-<p>Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal opdateres
-regelmæssigt (se <a href="/documentation/automation/refreshing-podcasts">Opdatering af
-podcasts</a>).</p>
+<p>Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal opdateres regelmæssigt (se <a href="/documentation/automation/refreshing-podcasts">Opdatering af podcasts</a>).</p>
 
-<p>Hvis du har mere komplekse behov, kan du bruge forskellige
-tredjeparts-automatiseringsprogrammer sammen med AntennaPod til at gøre det. For
-eksempel:</p>
+<p>Hvis du har mere komplekse behov, kan du bruge forskellige tredjeparts-automatiseringsprogrammer sammen med AntennaPod til at gøre det. For eksempel:</p>
 
 <ul>
-  <li>Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes for Wi-Fi,
-og derefter opdateres AntennaPod-feeds.</li>
-  <li>Få dine abonnementer inden turen hjem: opdater abonnementer kl. 17.00 på
-hverdage.</li>
+  <li>Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes for Wi-Fi, og derefter opdateres AntennaPod-feeds.</li>
+  <li>Få dine abonnementer inden turen hjem: opdater abonnementer kl. 17.00 på hverdage.</li>
 </ul>
 
 <h2 id="generelle-instruktioner">Generelle instruktioner</h2>
 
-<p>I din automatiseringsapplikation kan du få AntennaPod til at opdatere sine
-abonnementer ved at sende en ‘Broadcast’ (det kan blive vist som en type
-Android-hensigt) med følgende indstillinger:</p>
+<p>I din automatiseringsapplikation kan du få AntennaPod til at opdatere sine abonnementer ved at sende en ‘Broadcast’ (det kan blive vist som en type Android-hensigt) med følgende indstillinger:</p>
 
 <ul>
   <li>Pakkenavn: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -325,8 +317,7 @@ Android-hensigt) med følgende indstillinger:</p>
 <ol>
   <li>Pakke skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Modtagerklasse skal være
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Modtagerklasse skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
 </ol>
 
@@ -341,16 +332,14 @@ Android-hensigt) med følgende indstillinger:</p>
 </li>
   <li>Specificer at pakkenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Specificer at klassenavn skal være
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Specificer at klassenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
   <li>Angiv, at målet skal være <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
 </li>
   <li>Du kan lade de andre felter være tomme</li>
 </ol>
 
-<h3 id="llama---placeringsprofiler">Llama - Placeringsprofiler</h3>
-<p>(<a href="http://kebabapps.blogspot.com/search/label/Llama">websted</a>)</p>
+<h3 id="llama---placeringsprofiler-websted">Llama - Placeringsprofiler (<a href="http://kebabapps.blogspot.com/search/label/Llama">websted</a>)</h3>
 
 <p>Opret en begivenhed (Llama automatiseringsregel). I hændelsen,</p>
 
@@ -359,20 +348,16 @@ Android-hensigt) med følgende indstillinger:</p>
   <li>Specificer at intentionen skal sendes som en <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
   <li>Specificer at pakkenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Specificer at klassenavn skal være
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Specificer at klassenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
 </li>
   <li>Tilføj eventuelle andre betingelser/handlinger for dine specifikke behov.</li>
 </ol>
 
-<p>Som en genvej kan du klikke på <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">dette
-link</a>
-for at oprette et begivenhedseksempel til at komme i gang med.</p>
+<p>Som en genvej kan du klikke på <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">dette link</a> for at oprette et begivenhedseksempel til at komme i gang med.</p>
 
 <hr>
 
-<p><strong>Ansvarsfraskrivelse:</strong> AntennaPod-fællesskabet har ingen tilknytning til nogen
-af de nævnte tredjepartsapplikationer til automatisering.</p>
+<p><strong>Ansvarsfraskrivelse:</strong> AntennaPod-fællesskabet har ingen tilknytning til nogen af de nævnte tredjepartsapplikationer til automatisering.</p>
 
 
             </article>

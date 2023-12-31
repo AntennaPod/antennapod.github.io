@@ -288,26 +288,18 @@
             <article class="post-content">
                 <h1 id="integration-in-andere-anwendungen">Integration in andere Anwendungen</h1>
 
-<p>Mit AntennaPod kannst du festlegen, dass Abonnements (Podcast-Feeds) in
-regelmäßigen Abständen aktualisiert werden (siehe <a href="/de/documentation/automation/refreshing-podcasts">Podcasts
-aktualisieren</a>).</p>
+<p>Mit AntennaPod kannst du festlegen, dass Abonnements (Podcast-Feeds) in regelmäßigen Abständen aktualisiert werden (siehe <a href="/de/documentation/automation/refreshing-podcasts">Podcasts aktualisieren</a>).</p>
 
-<p>Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene
-Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod
-verwenden. Beispielsweise:</p>
+<p>Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod verwenden. Beispielsweise:</p>
 
 <ul>
-  <li>Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet
-und anschließend werden die AntennaPod-Feeds aktualisiert.</li>
-  <li>Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um
-17 Uhr aktualisiert.</li>
+  <li>Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet und anschließend werden die AntennaPod-Feeds aktualisiert.</li>
+  <li>Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um 17 Uhr aktualisiert.</li>
 </ul>
 
 <h2 id="generelle-anweisungen">Generelle Anweisungen</h2>
 
-<p>In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements
-zu aktualisieren, indem du einen „Broadcast“ (könnte als “Android-Intent”
-angezeigt werden) mit den folgenden Einstellungen sendest:</p>
+<p>In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als “Android-Intent” angezeigt werden) mit den folgenden Einstellungen sendest:</p>
 
 <ul>
   <li>Paketname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
@@ -344,8 +336,7 @@ angezeigt werden) mit den folgenden Einstellungen sendest:</p>
   <li>Du kannst die anderen Felder leer lassen</li>
 </ol>
 
-<h3 id="llama--standortprofile">Llama – Standortprofile</h3>
-<p>(<a href="http://kebabapps.blogspot.com/search/label/Llama">Webseite</a>)</p>
+<h3 id="llama--standortprofile-webseite">Llama – Standortprofile (<a href="http://kebabapps.blogspot.com/search/label/Llama">Webseite</a>)</h3>
 
 <p>Erstelle ein Ereignis (Llama-Automatisierungsregel). In dem Ereignis,</p>
 
@@ -357,14 +348,11 @@ angezeigt werden) mit den folgenden Einstellungen sendest:</p>
   <li>Füge nach Belieben andere Bedingungen/Aktionen hinzu.</li>
 </ol>
 
-<p>Als Abkürzung kannst du auf <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">diesen
-Link</a>
-klicken, um ein Beispielereignis zu erstellen, das den Einstieg erleichtert.</p>
+<p>Als Abkürzung kannst du auf <a href="http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C">diesen Link</a> klicken, um ein Beispielereignis zu erstellen, das den Einstieg erleichtert.</p>
 
 <hr>
 
-<p><strong>Haftungsausschluss:</strong> Die AntennaPod-Community steht in keiner Beziehung zu den
-aufgeführten Automatisierungsanwendungen von Drittanbietern.</p>
+<p><strong>Haftungsausschluss:</strong> Die AntennaPod-Community steht in keiner Beziehung zu den aufgeführten Automatisierungsanwendungen von Drittanbietern.</p>
 
 
             </article>

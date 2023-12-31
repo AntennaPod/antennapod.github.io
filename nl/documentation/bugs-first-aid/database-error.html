@@ -290,13 +290,15 @@
 
 <p>Misschien wil je het uitschreeuwen: <em>Help! Al mijn podcasts, afleveringen en instellingen zijn weg!</em></p>
 
-<p>Het probleem is dat de database met alle informatie (afleveringen, luisterstaten, etc) een aantal fouten bevat. AntennaPod functioneert niet met een kapotte database en moet dan opnieuw beginnen met een lege database. Hoewel het minder vaak voorkomt in recente versies van AntennaPod, komt het nog steeds voor bij sommige gebruikers. Onze gemeenschap van ontwikkelaars heeft (nog) niet kunnen vaststellen wat precies de oorzaak is van de kapotte databases. Hetzelfde probleem doet zich ook voor in sommige andere open source apps. Maar we realiseren ons dat het erg frustrerend is dat dit gebeurt en het spijt ons echt als u ook getroffen bent.</p>
+<p>In a very old AntennaPod version, there were some issues with the database with all information (episodes, listening states, etc). While the cause is long fixed, your database might have been damaged (even when the app was working without issues). If a recent AntennaPod version makes changes to the damaged parts of the database, these damages may suddenly become a problem. At that point AntennaPod can no longer work with the broken database and has to start over with an empty one.</p>
+
+<p>We realize it is very frustrating when this happens and are really sorry if you were affected.</p>
 
 <p>Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hieronder op een rij, te beginnen met de oplossing die het gemakkelijkst is en de beste resultaten geeft:</p>
 
 <ol>
   <li>Is er recent <a href="/documentation/general/backup">een back-up geëxporteerd</a> van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Opslag</code> » <code class="language-plaintext highlighter-rouge">Importeren/Exporteren</code> » <code class="language-plaintext highlighter-rouge">Database importeren</code> en selecteer de back-up.</li>
-  <li>Is er geen back-up dan is de volgende stap een poging om de kapotte database te herstellen (‘repair corrupted sql database’). Als AntennaPod een kapotte database detecteert, slaat het deze op als CorruptedDatabaseBackup.db in het mapje met app-data. Het is een uitdaging en het vereist enige vaardigheden of oefening. Je zult een terminal moeten gebruiken.</li>
+  <li>Als AntennaPod een kapotte database detecteert, wordt dit weggeschreven naar een bestand met de naam CorruptedDatabaseBackup.db in de opslagmap van de app. Je kunt dit bestand (of een geëxporteerde back-up) proberen te repareren met een van de onderstaande stappen. Dit is een uitdaging en vereist het leren omgaan met een terminal.</li>
 </ol>
 
 <ul>
@@ -305,12 +307,12 @@
 </ul>
 
 <ol>
-  <li>Hoewel alle gegevens <em>over</em> de abonnementen en afleveringen verdwenen zijn, zijn de mediabestanden nog steeds beschikbaar.</li>
+  <li>Hoewel alle gegevens <em>over</em> abonnementen en afleveringen zijn verdwenen, zijn de mediabestanden er nog wel.</li>
 </ol>
 
 <ul>
   <li>In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar <code class="language-plaintext highlighter-rouge">Podcast toevoegen</code> en tik op <code class="language-plaintext highlighter-rouge">Lokale map toevoegen</code>. Ga vervolgens naar deze map op je telefoon: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.</li>
-  <li>Het is mogelijk de eerdere podcasts toe te voegen vanaf nul. In de bovenvermelde map kun je je recente podcast-abonnementen vinden.</li>
+  <li>Je kunt ook opnieuw beginnen met het toevoegen van eerdere podcasts. In de bovengenoemde map kun je zien op welke podcasts je geabonneerd was.</li>
 </ul>
 
 
