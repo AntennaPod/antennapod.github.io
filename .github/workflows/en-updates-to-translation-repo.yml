@@ -24,6 +24,8 @@ jobs:
           md2po --version
       - name: Create folder for files to be copied
         run: mkdir _i18n/translation-files
+      - name: Keep workflows up-to-date
+        run: cp -r .github _i18n/translation-files
       - name: Create/update YAML file with short texts
         # translated files are not copied because translation is done in Weblate - any manual translation edits will be lost
         run: cp _i18n/en.yml _i18n/translation-files
