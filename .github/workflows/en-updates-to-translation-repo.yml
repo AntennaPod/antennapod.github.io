@@ -19,7 +19,9 @@ jobs:
       - name: Get repository
         uses: actions/checkout@v4
       - name: Install mdpo
-        run: pip install mdpo
+        run: |
+          pip install mdpo
+          md2po --version
       - name: Create folder for files to be copied
         run: mkdir _i18n/translation-files
       - name: Create/update YAML file with short texts
