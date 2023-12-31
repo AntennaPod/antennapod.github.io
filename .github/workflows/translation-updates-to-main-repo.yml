@@ -25,18 +25,20 @@ jobs:
     steps:
         # Check out the repository and download it to the runner, allowing to run actions against the code
       - name: Get main repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: master
       - name: Get translation repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: translation-files
           path: translation-files
       - run: git branch
       - run: ls -al
       - name: Install mdpo
-        run: pip install mdpo
+        run: |
+          pip install mdpo
+          po2md --version
       - name: Set languages
         id: lang-set
         run: |
@@ -75,7 +77,7 @@ jobs:
           for file in *
           do
             for language in "${languages[@]}"
-            do po2md $file --po-files ../../../translation-files/contribute-pages/site-contribute_$language.po --save ../../$language/contribute/$file
+            do po2md $file --po-files ../../../translation-files/contribute-pages/site-contribute_$language.po --save ../../$language/contribute/$file --wrapwidth inf
             git add ../../$language/contribute/$file
             done
           done
@@ -90,12 +92,12 @@ jobs:
           for file in *.md
           do
             for language in "${languages[@]}"
-            do po2md $file --po-files ../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../$language/documentation/$file
+            do po2md $file --po-files ../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../$language/documentation/$file --wrapwidth inf
             git add ../../$language/documentation/$file
             done
           done
           # sub-level files
-          documentation_groups=(automation general getting-started playback podcasters-hosters queue subscriptions)
+          documentation_groups=(automation bugs-first-aid general getting-started playback podcasters-hosters queue subscriptions)
           for category in "${documentation_groups[@]}"
           do
             cd $category
@@ -107,7 +109,7 @@ jobs:
             do
               for language in "${languages[@]}"
               do
-                po2md $file --po-files ../../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../../$language/documentation/$category/$file
+                po2md $file --po-files ../../../../translation-files/documentation-pages/site-documentation_$language.po --save ../../../$language/documentation/$category/$file --wrapwidth inf
               git add ../../../$language/documentation/$category/$file
               done
             done
@@ -124,7 +126,7 @@ jobs:
           for file in *
           do
             for language in "${languages[@]}"
-            do po2md $file --po-files ../../../translation-files/general-pages/site-general_$language.po --save ../../$language/general/$file
+            do po2md $file --po-files ../../../translation-files/general-pages/site-general_$language.po --save ../../$language/general/$file --wrapwidth inf
             git add ../../$language/general/$file
             done
           done

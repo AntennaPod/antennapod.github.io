@@ -11,15 +11,16 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
-      - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.0'
-      - run: gem install bundler jekyll --no-document
-      - run: bundle install
+          ruby-version: '3.2'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: bundle exec jekyll build
-      - uses: JamesIves/github-pages-deploy-action@v4
+      - run: touch _site/.nojekyll
+      - name: Deploy to gh-pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: github.repository_owner == 'antennapod' # do not run on forks
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages

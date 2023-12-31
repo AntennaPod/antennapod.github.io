@@ -1,0 +1,27 @@
+name: autoreview
+on: [pull_request]
+
+jobs:
+  misspellcheck:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run misspell with reviewdog
+      uses: reviewdog/action-misspell@v1
+      with:
+        pattern: "*.md"
+        locale: "US"
+  guids:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: .github/workflows/guids.sh
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - run: bundle exec jekyll build
