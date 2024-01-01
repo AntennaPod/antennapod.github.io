@@ -1,7 +1,4 @@
-Als een aflevering is gepauzeerd en opnieuw wordt afgespeeld, spoelt AntennaPod
-deze automatisch terug. Zo kun je weer makkelijker de rest van de uitzending
-volgen. Je kunt niet instellen hoeveel wordt teruggespoeld; dat hangt af van hoe
-lang een aflevering op pauze heeft gestaan.
+Als een aflevering is gepauzeerd en opnieuw wordt afgespeeld, spoelt AntennaPod deze automatisch terug. Zo kun je weer makkelijker de rest van de uitzending volgen. Je kunt niet instellen hoeveel wordt teruggespoeld; dat hangt af van hoe lang een aflevering op pauze heeft gestaan.
 
 | Tijd sinds laatste weergave | Tijdsuur terugspoelen |
 | --- | --- |

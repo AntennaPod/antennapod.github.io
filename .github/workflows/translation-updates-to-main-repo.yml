@@ -36,7 +36,9 @@ jobs:
       - run: git branch
       - run: ls -al
       - name: Install mdpo
-        run: pip install mdpo
+        run: |
+          pip install mdpo
+          po2md --version
       - name: Set languages
         id: lang-set
         run: |

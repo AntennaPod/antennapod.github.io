@@ -1,10 +1,8 @@
-Puoi usare AntennaPod per ascoltare podcast nella tua auto abilitata ad [Android
-Auto](https://www.android.com/auto/).
+Puoi usare AntennaPod per ascoltare podcast nella tua auto abilitata ad [Android Auto](https://www.android.com/auto/).
 
 ### Hai scaricato AntennaPod da **Google Play**?
 
-Non sono necessari altri passaggi per utilizzare AntennaPod in auto. Basta
-collegare il telefono e iniziare ad ascoltare.
+Non sono necessari altri passaggi per utilizzare AntennaPod in auto. Basta collegare il telefono e iniziare ad ascoltare.
 
 ### Hai scaricato AntennaPod da **F-Droid**?
 

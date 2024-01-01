@@ -1,7 +1,4 @@
-Hvis du har et fysisk ('hardware') tastatur tilsluttet din telefon eller tablet,
-kan du bruge visse genveje til at styre afspilningen i AntennaPod.
-Lydstyrke-handlinger påvirker lydkanalen for medier (i stedet for f.eks. den for
-meddelelser).
+Hvis du har et fysisk ('hardware') tastatur tilsluttet din telefon eller tablet, kan du bruge visse genveje til at styre afspilningen i AntennaPod. Lydstyrke-handlinger påvirker lydkanalen for medier (i stedet for f.eks. den for meddelelser).
 
 ### Alle skærme (undtagen videoafspiller og indstillingerne)
 

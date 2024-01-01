@@ -19,9 +19,13 @@ jobs:
       - name: Get repository
         uses: actions/checkout@v4
       - name: Install mdpo
-        run: pip install mdpo
+        run: |
+          pip install mdpo
+          md2po --version
       - name: Create folder for files to be copied
         run: mkdir _i18n/translation-files
+      - name: Keep workflows up-to-date
+        run: cp -r .github _i18n/translation-files
       - name: Create/update YAML file with short texts
         # translated files are not copied because translation is done in Weblate - any manual translation edits will be lost
         run: cp _i18n/en.yml _i18n/translation-files
@@ -34,7 +38,7 @@ jobs:
         run: md2po _i18n/en/general/*.md --po-filepath _i18n/translation-files/site-general.pot --save --quiet
       - name: Push to translation-files branch
         # see https://github.com/s0/git-publish-subdir-action
-        uses: s0/git-publish-subdir-action@v2
+        uses: s0/git-publish-subdir-action@v2.6.0
         env:
           REPO: self
           BRANCH: translation-files

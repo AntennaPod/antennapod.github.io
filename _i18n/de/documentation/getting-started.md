@@ -1,36 +1,10 @@
-First, you want to subscribe to a podcast. You can find more about that
-[here](/documentation/getting-started/subscribe). After subscribing, new
-episodes are shown in the `Inbox`. There you can decide if you actually like to
-listen to them or not. If an episode is in the inbox, it means that you have not
-yet decided what to do with the episode.
+Zunächst solltest du einen Podcast abonnieren. Mehr dazu findest du [hier](/de/documentation/getting-started/subscribe). Nach dem Abonnieren werden neue Episoden auf `Episoden` » `Neu` angezeigt. Dort kannst du entscheiden, ob du sie dir anhören möchtest oder nicht. `Neu` bedeutet, dass du noch nicht entschieden hast, was du mit der Folge machen willst.
 
-- If you are not interested in an episode, just swipe it away to remove it from
-the inbox. The episode still stays marked as unplayed and you can find it on
-the `Episodes` page, as well as on the podcast's page.
-- Wenn du dich für die Episode interessierst, kannst du je nach deinem
-Hörverhalten eines von zwei Dingen tun.
-   - Download the episode. When downloading, AntennaPod also automatically adds the
-episode to the queue and removes it from the inbox. There is a setting if you
-want new episodes to be enqueued in the back, front or after the currently
-playing episode. Downloading is the main way AntennaPod was originally designed
-to be used but as streaming is becoming more and more popular, you can also use
-the second option.
-   - Just add the episode to the queue. AntennaPod automatically removes it from the
-inbox and inserts it into the queue. You can later directly play the episode
-without having to download, so it does not take up space. Think: Streaming like
-videos on YouTube. The disadvantage is that it will not be available offline,
-uses up your mobile data connection when you are on the run, and makes fast
-forwarding a little bit slower.
-- If you are done playing, AntennaPod marks the episode as played and removes it
-from the queue. There is a setting to also automatically delete the download
-after playing. You can find a list of all episodes that are still downloaded to
-your device (whether they are in the queue or not) on the `Downloads` page.
-- If you like an episode and are thinking about listening to it again, you can
-also mark it as favorite. You can filter the `Episodes` page to show only your
-favorites and (by default) AntennaPod will not delete favorites after playing.
+- Wenn du an einer Episode nicht interessiert bist, wische sie einfach weg, und AntennaPod entfernt die Markierung `Neu`. Die Episode bleibt weiterhin als nicht gespielt markiert und du kannst sie auf der Seite `Episoden` » `Alle` sowie auf der Seite des Podcasts finden.
+- Wenn du dich für die Episode interessierst, kannst du je nach deinem Hörverhalten eines von zwei Dingen tun.
+   - Lade die Episode herunter. Beim Herunterladen fügt AntennaPod die Episode auch automatisch der Warteschlange hinzu und entfernt die Markierung `Neu`. Es gibt eine Einstellung, ob neue Episoden hinten, vorne oder nach der aktuell abgespielten Episode in die Warteschlange eingereiht werden sollen. Ursprünglich war AntennaPod hauptsächlich für das Herunterladen gedacht, aber da das Streaming immer beliebter wird, kannst du auch die zweite Option nutzen.
+   - Füge die Episode einfach zur Warteschlange hinzu. AntennaPod entfernt automatisch die Markierung `Neu` und fügt die Episode in die Warteschlange ein. Du kannst sie später direkt abspielen, ohne sie herunterladen zu müssen, sodass sie keinen Speicherplatz verbraucht. Betrachte es so: Streamen ist wie Videos auf YouTube ansehen. Der Nachteil ist, dass diese Funktion nicht offline verfügbar ist, unterwegs deine mobile Datenverbindung braucht und das Vorspulen etwas langsamer ist.
+- Wenn du mit dem Abspielen fertig bist, markiert AntennaPod die Episode als gespielt und löscht sie aus der Warteschlange. Es gibt eine Einstellung, mit der die Datei nach dem Abspielen automatisch gelöscht wird. Eine Liste aller Episoden, die noch auf dem Gerät heruntergeladen werden (unabhängig davon, ob sie sich in der Warteschlange befinden oder nicht), findest du auf der Seite `Downloads` » `Erledigt`.
+- Wenn dir eine Folge gefällt und du sie noch einmal anhören möchtest, kannst du sie auch als Favorit markieren. Sie erscheint dann auf der Seite `Episoden` » `Favoriten` und wird (standardmäßig) nach der Wiedergabe nicht gelöscht.
 
-In case you are subscribed to a really great podcast where you know from the
-beginning that all episodes will be great, you can use the auto-download
-feature. When enabled for a podcast, all of its future new episodes are
-automatically downloaded and added to the queue. They will automatically be
-removed from the inbox as soon as they are downloaded.
+Wenn du einen wirklich guten Podcast abonniert hast, bei dem du von Anfang an weißt, dass alle Episoden gut sein werden, kannst die Funktion zum automatischen Herunterladen nutzen. Wenn sie für einen Podcast aktiviert ist, werden alle zukünftigen neuen Episoden automatisch heruntergeladen und der Warteschlange hinzugefügt. Sie werden automatisch von der Seite `Episoden` » `Neu` entfernt, sobald sie heruntergeladen sind.
