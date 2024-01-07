@@ -25,7 +25,8 @@ layout: internal
                 {% capture recurrence %}{% t events.recurrence.{{ page.recurrence-text}} %}{% endcapture %}
                 {{ recurrence }}
             {% else %}
-              <time datetime="{{ page.datetime-start }}">{% t long_month.{{ page.datetime-start | date: "%B" }} %} {{ page.datetime-start | date: "%-d, %Y %R" }} {{ page.datetime-start | date: "%Z"}}</time>
+              <time datetime="{{ page.datetime-start }}">{% t long_month.{{ page.datetime-start | date: "%B" }} %} {{ page.datetime-start | date: "%-d, %Y %R" }}</time>
+              ({%- if page.timezone -%}{{ page.timezone }}{% else %}UTC{% endif %})
               {% if posttime > nowunix %}
                 {% assign status = 'upcoming' %}
               {% else %}
