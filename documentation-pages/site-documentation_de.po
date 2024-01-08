@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2024-01-06 18:07+0000\n"
-"Last-Translator: VfBFan <VfBFan@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-01-08 18:48+0000\n"
+"Last-Translator: Lisa Scheier <lisascheier08@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/de/>\n"
 "Language: de\n"
@@ -354,12 +354,22 @@ msgid ""
 "At that point AntennaPod can no longer work with the broken database and has "
 "to start over with an empty one."
 msgstr ""
+"In einer sehr alten Version von AntennaPod gab es einige Probleme mit der "
+"Datenbank mit allen Informationen (Episoden, Hörstatus, etc.). Die Ursache "
+"ist zwar längst behoben, aber Ihre Datenbank wurde möglicherweise beschädigt "
+"(auch wenn die App ohne Probleme funktioniert hat). Wenn eine neuere "
+"AntennaPod-Version Änderungen an den beschädigten Teilen der Datenbank "
+"vornimmt, können diese Schäden plötzlich zu einem Problem werden. In diesem "
+"Fall kann AntennaPod nicht mehr mit der beschädigten Datenbank arbeiten und "
+"muss mit einer leeren Datenbank neu beginnen."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "We realize it is very frustrating when this happens and are really sorry if "
 "you were affected."
 msgstr ""
+"Wir wissen, dass es sehr frustrierend ist, wenn so etwas passiert, und es "
+"tut uns sehr leid, wenn Sie davon betroffen sind."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (paragraph)
 msgid ""
@@ -372,7 +382,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -381,10 +390,12 @@ msgid ""
 "recommended to go through the second step to fix the problem once and for "
 "all."
 msgstr ""
-"Hast du kürzlich eine [Sicherung](/de/documentation/general/backup) von "
-"AntennaPod exportiert? Dann ist das Wiederherstellen relativ einfach: Gehe "
-"zu `Einstellungen` » `Speicher` » `Import/Export` » `Datenbankimport` und "
-"wähle das Backup."
+"Haben Sie kürzlich eine [Sicherung](/de/documentation/general/backup) von "
+"AntennaPod exportiert? Dann ist das Wiederherstellen relativ einfach: Gehen "
+"Sie zu `Einstellungen` » `Speicher` » `Import/Export` » `Datenbankimport` "
+"und wählen Sie das Backup. Beachten Sie, dass die Sicherungskopie eine "
+"teilweise Beschädigung enthalten kann. Es wird daher empfohlen, den zweiten "
+"Schritt auszuführen, um das Problem ein für alle Mal zu beheben."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -394,6 +405,12 @@ msgid ""
 "repair this file (or repair an exported backup) using one of the steps "
 "below. This is a challenge and requires learning how to deal with a terminal."
 msgstr ""
+"Wenn AntennaPod eine defekte Datenbank erkennt, wird diese in eine Datei "
+"namens CorruptedDatabaseBackup.db im Speicherverzeichnis der Anwendung "
+"geschrieben. Sie können versuchen, diese Datei zu reparieren (oder eine "
+"exportierte Sicherung zu reparieren), indem Sie einen der folgenden Schritte "
+"ausführen. Dies ist eine Herausforderung und erfordert, dass Sie den Umgang "
+"mit einem Terminal lernen."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -1154,16 +1171,15 @@ msgstr ""
 "automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your sd card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Data folder`."
 msgstr ""
-"Du kannst AntennaPod so einstellen, dass Episoden auf die SD-Karte statt auf "
-"den internen Speicher heruntergeladen werden. So hast du mehr Platz für "
-"Episoden. Um die Speicherkarte auszuwählen, gehe zu `Einstellungen` » "
-"`Speicher` » `Datenordner auswählen`."
+"Sie können AntennaPod so einstellen, dass Episoden auf die SD-Karte statt "
+"auf den internen Speicher heruntergeladen werden. So haben Sie mehr Platz "
+"für Episoden. Um die Speicherkarte auszuwählen, gehen Sie zu `Einstellungen` "
+"» `Speicher` » `Datenordner auswählen`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
