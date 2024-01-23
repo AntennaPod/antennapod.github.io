@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2024-01-10 16:50+0000\n"
+"PO-Revision-Date: 2024-01-23 21:15+0000\n"
 "Last-Translator: VfBFan <VfBFan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website-documentation/de/>\n"
@@ -1233,6 +1233,17 @@ msgid ""
 "version will be available there. It usually takes a few days after the "
 "release is tagged on GitHub."
 msgstr ""
+"Wenn sich die neue Version in der Beta-Phase befindet, ist sie *nur* über "
+"Google Play verfügbar ((hier ist der Grund dafür)[/documentation/general/"
+"beta]). Wenn wir glauben, dass sie fertig ist, laden wir sie auf Google Play "
+"hoch. Ein paar Tage später, wenn wir sicher sind, dass es keine kritischen "
+"Fehler gibt, taggen wir die Veröffentlichung auf GitHub. F-Droid muss dann "
+"von dieser Version erfahren, sie bauen und zur Verfügung stellen. All diese "
+"Schritte können einige Zeit in Anspruch nehmen. Aufgrund der verschiedenen "
+"Schritte und weil wir nicht an der Veröffentlichung von Versionen auf F-"
+"Droid beteiligt sind, können wir nicht sagen, wann genau die neueste Version "
+"dort verfügbar sein wird. Normalerweise dauert es ein paar Tage, nachdem die "
+"Veröffentlichung auf GitHub getaggt wurde."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid "In short: it may take some time. Please be patient."
@@ -1283,10 +1294,9 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (header)
 msgid "What you can do if it takes longer than expected"
-msgstr ""
+msgstr "Was du tun kannst, wenn es länger dauert als erwartet"
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "As you can see it can easily take a week before a new AntennaPod release is "
 "available on F-Droid. If an update is still not available more than a week "
@@ -1322,12 +1332,18 @@ msgid ""
 "team of volunteers, and making the app for these other platforms would be a "
 "lot of work."
 msgstr ""
+"So verlockend der Titel auch klingen mag, AntennaPod ist nicht auf Windows, "
+"iOS oder dem Linux-Desktop verfügbar und wird es auch nicht sein. Die App "
+"wird von einem kleinen Team von Freiwilligen erstellt, und das Erstellen der "
+"App für diese anderen Plattformen wäre eine Menge Arbeit."
 
 #: _i18n/en/documentation/general/other-platforms.md:block 2 (paragraph)
 msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
 msgstr ""
+"Es gibt jedoch (quelloffene) Alternativen, auf die wir gerne hinweisen "
+"möchten:"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
@@ -1536,7 +1552,6 @@ msgstr ""
 "issues/388), das darum bittet, dieses Verhalten zu ändern."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "First, you want to subscribe to a podcast. You can find more about that "
 "[here](/documentation/getting-started/subscribe). After subscribing, new "
@@ -1544,23 +1559,23 @@ msgid ""
 "to listen to them or not. If an episode is in the inbox, it means that you "
 "have not yet decided what to do with the episode."
 msgstr ""
-"Zunächst solltest du einen Podcast abonnieren. Mehr dazu findest du [hier](/"
-"de/documentation/getting-started/subscribe). Nach dem Abonnieren werden neue "
-"Episoden auf `Episoden` » `Neu` angezeigt. Dort kannst du entscheiden, ob du "
-"sie dir anhören möchtest oder nicht. `Neu` bedeutet, dass du noch nicht "
-"entschieden hast, was du mit der Folge machen willst."
+"Zuerst solltest du einen Podcast abonnieren. Mehr dazu findest du [hier](/"
+"documentation/getting-started/subscribe). Nach dem Abonnieren werden neue "
+"Episoden im `Posteingang` angezeigt. Dort kannst du entscheiden, ob du sie "
+"dir anhören möchtest oder nicht. Wenn eine Episode im Posteingang ist, "
+"bedeutet das, dass du noch nicht entschieden hast, was du mit der Episode "
+"machen willst."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "If you are not interested in an episode, just swipe it away to remove it "
 "from the inbox. The episode still stays marked as unplayed and you can find "
 "it on the `Episodes` page, as well as on the podcast's page."
 msgstr ""
-"Wenn du an einer Episode nicht interessiert bist, wische sie einfach weg, "
-"und AntennaPod entfernt die Markierung `Neu`. Die Episode bleibt weiterhin "
-"als nicht gespielt markiert und du kannst sie auf der Seite `Episoden` » "
-"`Alle` sowie auf der Seite des Podcasts finden."
+"Wenn du an einer Episode nicht interessiert bist, wische sie einfach weg, um "
+"sie aus dem Posteingang zu entfernen. Die Episode bleibt weiterhin als nicht "
+"abgespielt markiert und du kannst sie auf der Seite `Episoden` sowie auf der "
+"Seite des Podcasts finden."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1571,7 +1586,6 @@ msgstr ""
 "Hörverhalten eines von zwei Dingen tun."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "Download the episode. When downloading, AntennaPod also automatically adds "
 "the episode to the queue and removes it from the inbox. There is a setting "
@@ -1581,15 +1595,14 @@ msgid ""
 "popular, you can also use the second option."
 msgstr ""
 "Lade die Episode herunter. Beim Herunterladen fügt AntennaPod die Episode "
-"auch automatisch der Warteschlange hinzu und entfernt die Markierung `Neu`. "
-"Es gibt eine Einstellung, ob neue Episoden hinten, vorne oder nach der "
-"aktuell abgespielten Episode in die Warteschlange eingereiht werden sollen. "
-"Ursprünglich war AntennaPod hauptsächlich für das Herunterladen gedacht, "
-"aber da das Streaming immer beliebter wird, kannst du auch die zweite Option "
-"nutzen."
+"auch automatisch der Warteschlange hinzu und entfernt sie aus dem "
+"Posteingang. Es gibt eine Einstellung, mit der du festlegen kannst, ob neue "
+"Episoden hinten, vorne oder nach der aktuell abgespielten Episode in die "
+"Warteschlange eingereiht werden sollen. Ursprünglich war AntennaPod "
+"hauptsächlich für das Herunterladen konzipiert, aber da das Streaming immer "
+"beliebter wird, kannst du auch die zweite Option nutzen."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "Just add the episode to the queue. AntennaPod automatically removes it from "
 "the inbox and inserts it into the queue. You can later directly play the "
@@ -1598,16 +1611,15 @@ msgid ""
 "available offline, uses up your mobile data connection when you are on the "
 "run, and makes fast forwarding a little bit slower."
 msgstr ""
-"Füge die Episode einfach zur Warteschlange hinzu. AntennaPod entfernt "
-"automatisch die Markierung `Neu` und fügt die Episode in die Warteschlange "
-"ein. Du kannst sie später direkt abspielen, ohne sie herunterladen zu "
-"müssen, sodass sie keinen Speicherplatz verbraucht. Betrachte es so: "
-"Streamen ist wie Videos auf YouTube ansehen. Der Nachteil ist, dass diese "
-"Funktion nicht offline verfügbar ist, unterwegs deine mobile Datenverbindung "
-"braucht und das Vorspulen etwas langsamer ist."
+"Füge die Episode einfach zur Warteschlange hinzu. AntennaPod entfernt sie "
+"automatisch aus dem Posteingang und fügt sie in die Warteschlange ein. Du "
+"kannst die Episode später direkt abspielen, ohne sie herunterzuladen, sodass "
+"sie keinen Speicherplatz verbraucht. Denk dran: Streamen ist wie Videos auf "
+"YouTube ansehen. Der Nachteil ist, dass diese Funktion nicht offline "
+"verfügbar ist, unterwegs deine mobile Datenverbindung braucht und das "
+"Vorspulen etwas langsamer ist."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "If you are done playing, AntennaPod marks the episode as played and removes "
 "it from the queue. There is a setting to also automatically delete the "
@@ -1616,11 +1628,11 @@ msgid ""
 "`Downloads` page."
 msgstr ""
 "Wenn du mit dem Abspielen fertig bist, markiert AntennaPod die Episode als "
-"gespielt und löscht sie aus der Warteschlange. Es gibt eine Einstellung, mit "
-"der die Datei nach dem Abspielen automatisch gelöscht wird. Eine Liste aller "
-"Episoden, die noch auf dem Gerät heruntergeladen werden (unabhängig davon, "
-"ob sie sich in der Warteschlange befinden oder nicht), findest du auf der "
-"Seite `Downloads` » `Erledigt`."
+"abgespielt und löscht sie aus der Warteschlange. Es gibt eine Einstellung, "
+"mit der die Datei nach dem Abspielen automatisch gelöscht wird. Eine Liste "
+"aller Episoden, die noch auf dein Gerät heruntergeladen werden (unabhängig "
+"davon, ob sie sich in der Warteschlange befinden oder nicht), findest du auf "
+"der Seite `Downloads`."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1629,13 +1641,12 @@ msgid ""
 "your favorites and (by default) AntennaPod will not delete favorites after "
 "playing."
 msgstr ""
-"Wenn dir eine Folge gefällt und du sie dir noch einmal anhören möchtest, "
+"Wenn dir eine Episode gefällt und du sie dir noch einmal anhören möchtest, "
 "kannst du sie als Favorit markieren. Du kannst die `Episoden`-Seite so "
 "filtern, dass nur deine Favoriten angezeigt werden und (standardmäßig) "
 "löscht AntennaPod keine Favoriten nach dem Abspielen."
 
 #: _i18n/en/documentation/getting-started.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "In case you are subscribed to a really great podcast where you know from the "
 "beginning that all episodes will be great, you can use the auto-download "
@@ -1643,12 +1654,12 @@ msgid ""
 "automatically downloaded and added to the queue. They will automatically be "
 "removed from the inbox as soon as they are downloaded."
 msgstr ""
-"Wenn du einen wirklich guten Podcast abonniert hast, bei dem du von Anfang "
-"an weißt, dass alle Episoden gut sein werden, kannst die Funktion zum "
-"automatischen Herunterladen nutzen. Wenn sie für einen Podcast aktiviert "
+"Wenn du einen wirklich tollen Podcast abonniert hast, bei dem du von Anfang "
+"an weißt, dass alle Episoden großartig sein werden, kannst du die Funktion "
+"zum automatischen Herunterladen nutzen. Wenn sie für einen Podcast aktiviert "
 "ist, werden alle zukünftigen neuen Episoden automatisch heruntergeladen und "
-"der Warteschlange hinzugefügt. Sie werden automatisch von der Seite "
-"`Episoden` » `Neu` entfernt, sobald sie heruntergeladen sind."
+"zur Warteschlange hinzugefügt. Sie werden automatisch aus dem Posteingang "
+"entfernt, sobald sie heruntergeladen sind."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
 msgid ""
@@ -1950,7 +1961,7 @@ msgstr "`+`/`W`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Raise volume"
-msgstr "Lautstärke anheben"
+msgstr "Lautstärke erhöhen"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`-`/`S`"
@@ -1958,7 +1969,7 @@ msgstr "`-`/`S`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Lower volume"
-msgstr "Lautstärke senken"
+msgstr "Lautstärke reduzieren"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`M`"
@@ -2008,6 +2019,11 @@ msgid ""
 "your website or wherever you want. Make sure to replace `xyz` with the URL "
 "of your RSS feed and `abc` with the title of your podcast."
 msgstr ""
+"Möchtest du es deinem Netzwerk oder deinen Zuhörenden leicht machen, deine(n)"
+" Podcast(s) in AntennaPod hinzuzufügen? Füge einfach einen Link wie den "
+"unten stehenden auf deiner Website oder wo auch immer du willst ein. Achte "
+"darauf, dass du `xyz` durch die URL deines RSS-Feeds und `abc` durch den "
+"Titel deines Podcasts ersetzt."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2023,6 +2039,12 @@ msgid ""
 "antennapod.org/rss.xml&title=Blog+Posts). If you need our logo, please have "
 "a look at our [branding repository](https://github.com/AntennaPod/branding)."
 msgstr ""
+"Benutzer, die AntennaPod installiert haben und diesen Link öffnen, können "
+"eine Vorschau der Episoden ansehen und deinen Podcast direkt in unserer App "
+"abonnieren. Ein Beispiel für eine solche Seite kannst du dir [hier](/"
+"deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts) "
+"ansehen. Falls du unser Logo benötigst, wirf bitte einen Blick auf unser "
+"[Branding-Repository](https://github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
