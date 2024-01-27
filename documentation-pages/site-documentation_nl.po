@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
-"PO-Revision-Date: 2023-11-06 07:26+0000\n"
-"Last-Translator: mm4c <oldblue@vivaldi.net>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website-"
-"documentation/nl/>\n"
+"PO-Revision-Date: 2024-01-31 12:35+0000\n"
+"Last-Translator: Luka van der Plas <lukavdplas@users.noreply.hosted.weblate."
+"org>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/"
+"website-documentation/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -347,12 +348,21 @@ msgid ""
 "At that point AntennaPod can no longer work with the broken database and has "
 "to start over with an empty one."
 msgstr ""
+"In een hele oude versie van AntennaPod waren er problemen met de database "
+"van alle informatie (afleveringen, luisterdata, etc.). Hoewel de oorzaak al "
+"lang is opgelost, kan je database beschadigd zijn (zelfs als de app zonder "
+"problemen werkte). Als een huidige versie van AntennaPod veranderingen maakt "
+"aan de beschadigde delen van de database, kan deze schade opeens een "
+"probleem worden. Op dat moment kan AntennaPod niet meer werken met de "
+"beschadigde database en moet het opnieuw beginnen met een lege database."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "We realize it is very frustrating when this happens and are really sorry if "
 "you were affected."
 msgstr ""
+"We zijn ons ervan bewust dat het erg frustrerend is als dit gebeurt en het "
+"spijt ons als dit jou is overkomen."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (paragraph)
 msgid ""
@@ -365,7 +375,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -377,7 +386,9 @@ msgstr ""
 "Is er recent [een back-up geëxporteerd](/documentation/general/backup) van "
 "AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar `Instellingen` "
 "» `Opslag` » `Importeren/Exporteren` » `Database importeren` en selecteer de "
-"back-up."
+"back-up. Merk op dat de backup de gedeeltelijke corruptie kan bevatten, dus "
+"we raden nog steeds aan om de tweede stap te doorlopen om het probleem voor "
+"eens en altijd op te lossen."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -1167,27 +1178,26 @@ msgstr ""
 "geconfigureerd."
 
 #: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "If you are running Android 6+ (Marshmallow or newer), you can try formatting "
 "the SD card as internal storage. Else, there is nothing we can do to fix "
 "this."
 msgstr ""
-"Probeer bij Android 6 + (Marshmallow of nieuwer) de SD-kaart te [formatteren]"
-"(https://lmgtfy.com/?q=android+6+sd+card+internal+storage) als interne "
-"opslag. Er zijn verder geen andere oplossingen voor dit probleem."
+"Probeer bij Android 6 + (Marshmallow of nieuwer) de SD-kaart te formatteren "
+"als interne opslag. Verder kunnen wij niets doen om dit probleem op te "
+"lossen."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
-msgstr ""
+msgstr "Heb je gezien dat er een nieuwe AntennaPod-versie is je afgevraagd:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*why isn't the latest version not on F-Droid yet?*"
-msgstr ""
+msgstr "*waarom staat de laatste versie nog niet op F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*when will the new release be available on F-Droid?*"
-msgstr ""
+msgstr "*wanneer zal de nieuwe versie beschikbaar zijn op F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 3 (paragraph)
 msgid ""
@@ -1201,14 +1211,25 @@ msgid ""
 "version will be available there. It usually takes a few days after the "
 "release is tagged on GitHub."
 msgstr ""
+"Als de nieuwe versie in beta is, is deze *alleen* beschikbaar via Google "
+"Play ((dit is waarom)[/documentation/general/beta]). Als we denken dat de "
+"versie klaar is, uploaden we hem naar Google Play. Een paar dagen later, als "
+"we zeker zijn dat er geen kritieke bugs zijn, taggen we de versie op GitHub. "
+"F-Droid moet dan de nieuwe versie detecteren, en hem bouwen en beschikbaar "
+"maken. Deze stappen kunnen even duren. Vanwege de verschillende stappen en "
+"omdat wij niet betrokken zijn bij het publiceren van versies op F-Droid, "
+"kunnen we niet zeggen wanneer precies de nieuwste versie daar beschikbaar "
+"zal zijn. Het duurt meestal een paar dagen nadat de versie is getagd op "
+"GitHub."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
+#, fuzzy
 msgid "In short: it may take some time. Please be patient."
-msgstr ""
+msgstr "Kortom: het kan even duren. Heb geduld."
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps of getting a new version on F-Droid"
-msgstr ""
+msgstr "De stappen om een nieuwe versie op F-Droid te zetten"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (unordered list)
 msgid ""
@@ -1251,20 +1272,19 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (header)
 msgid "What you can do if it takes longer than expected"
-msgstr ""
+msgstr "Wat kun je doen als het langer duurt dan verwacht"
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "As you can see it can easily take a week before a new AntennaPod release is "
 "available on F-Droid. If an update is still not available more than a week "
 "after its release, feel free to let us know by creating a post on our [forum]"
 "(https://forum.antennapod.org/), and we'll investigate it."
 msgstr ""
-"Zoals je ziet kan het een week duren voordat op F-Droid een nieuwe "
-"AntennaPod release beschikbaar is, wees dus geduldig. Als een update meer "
-"dan een week later nog niet beschikbaar is, meld het op ons [forum](https://"
-"forum.antennapod.org/) en we zullen het onderzoeken."
+"Zoals je ziet kan het goed een week duren voordat een nieuwe AntennaPod "
+"release op F-Droid beschikbaar is. Als een update meer dan een week na de "
+"release nog niet beschikbaar is, kun je dit melden via ons "
+"[forum](https://forum.antennapod.org/) en we zullen het onderzoeken."
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1287,25 +1307,30 @@ msgid ""
 "team of volunteers, and making the app for these other platforms would be a "
 "lot of work."
 msgstr ""
+"Howel de titel aantrekkelijk klinkt, is AntennaPod niet beschikbaar op "
+"Windows, iOS of de Linux desktop, en zal dat ook niet zijn. De app wordt "
+"gemaakt door een klein team van vrijwilligers, en het ontwikkelen van de app "
+"voor deze andere platforms zou een hoop werk zijn."
 
 #: _i18n/en/documentation/general/other-platforms.md:block 2 (paragraph)
 msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
 msgstr ""
+"Er zijn echter (open source) alternatieven, waar we je graag op willen "
+"wijzen:"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
-msgstr ""
+msgstr "App"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Do you have a recommendation of an open source podcast app for these "
 "platforms? [Let us know on the forum!](https://forum.antennapod.org)"
 msgstr ""
-"We hebben geen informatie over andere platforms, zoals je kunt zien. We "
-"delen graag je ideeën middels het [forum](https://forum.antennapod.org/)."
+"Heb je aanbevelingen voor open source podcast-apps voor deze platforms? ["
+"Laat het ons weten op het forum!](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/proxy.md:block 1 (paragraph)
 msgid ""
@@ -1459,25 +1484,21 @@ msgstr ""
 "Maak een account aan op de server www.gpodder.net of op een eigen server"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
-#, fuzzy
 msgid "Select 'gPodder'"
-msgstr "Kies 'Nextcloud'"
+msgstr "Kies 'gPodder'"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
-#, fuzzy
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
-msgstr ""
-"Vul het \"Serveradres\" in (de URL of het IP-adres van de server) en tik op "
-"`Verder `"
+msgstr "Vul het 'Serveradres' in (bijv. www.gpodder.net) en tik op `Verder `"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
-msgstr ""
+msgstr "Vul de 'Gebruikersnaam' en 'Wachtwoord' in en tik op `Log in`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select the device that you created on the server"
-msgstr ""
+msgstr "Selecteer het apparaat waarop je de server hebt gemaakt"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
 msgid ""
@@ -1533,7 +1554,6 @@ msgstr ""
 "luistergedrag."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "Download the episode. When downloading, AntennaPod also automatically adds "
 "the episode to the queue and removes it from the inbox. There is a setting "
@@ -1543,11 +1563,11 @@ msgid ""
 "popular, you can also use the second option."
 msgstr ""
 "Download de aflevering. Bij het downloaden voegt AntennaPod de aflevering "
-"ook automatisch toe aan de wachtrij en wordt de `nieuw`-status verwijderd. "
-"Er is een instelling om nieuwe afleveringen achteraan, vooraan of na de "
-"momenteel spelende aflevering in de wachtrij te plaatsen. AntennaPod is "
-"oorspronkelijk ontworpen voor downloaden, maar aangezien streamen steeds "
-"populairder wordt, kun je ook de tweede optie gebruiken."
+"ook automatisch toe aan de wachtrij en verwijderd het uit de inbox. Er is "
+"een instelling om nieuwe afleveringen achteraan, vooraan of na de momenteel "
+"spelende aflevering in de wachtrij te plaatsen. AntennaPod is oorspronkelijk "
+"ontworpen voor downloaden, maar aangezien streamen steeds populairder wordt, "
+"kun je ook de tweede optie gebruiken."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 #, fuzzy
