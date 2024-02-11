@@ -1,0 +1,1 @@
+Multiple queues are currently not supported. Please see [issue 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) on GitHub for more information and / or subscribe to the issue to get updated in case of any developments.
