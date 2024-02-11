@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-De la [población mundial](https://en.wikipedia.org/wiki/World_population) estimada en 7.9 mil millones de habitantes, 'solo' 1.3 mil millones [hablan Inglés](https://www.ethnologue.com/guides/ethnologue200). Esto puede no parecer mucho. Pero si algo, podemos concluir que AntennaPod esté disponible en otros idiomas, hará la aplicación accesible para más gente. Como beneficio adicional, traducir la aplicación también ayuda al proyecto a crecer más hayá de las bases de usuario principales (Alemania y EEUU).
+De una [población mundial](https://en.wikipedia.org/wiki/World_population) estimada en 7.900 millones de personas, "sólo" 1.500 millones [hablan inglés](https://www.ethnologue.com/insights/ethnologue200/). Puede que esto no signifique mucho per se. Pero, en todo caso, podemos concluir que hacer que AntennaPod esté disponible en más idiomas hace que la aplicación sea accesible a más personas. Como beneficio secundario, la localización de la aplicación también ayuda a que nuestro proyecto crezca más allá de las principales bases de usuarios actuales (Alemania y Estados Unidos).
 
 ¡Por ello, apreciamos mucho tu colaboración!
 
@@ -48,7 +48,7 @@ De vez en cuando, las traducciones nuevas se transfieren manualmente de Weblate 
 
 # Otros materiales
 
-Además de la aplicación y el sitio web, también se pueden traducir las imágenes de las tiendas de aplicaciones. Tienen capturas de pantalla y textos. Debido a que el espacio es muy limitado, utilizamos un proceso manual de prueba y error. Por favor, haznos saber en el foro si quieres ayudar con eso. Dado que los listados de las tiendas de aplicaciones localizadas tienen más probabilidades de ser descargados, ¡la ayuda es muy bienvenida!
+Además de la aplicación y el sitio web, también se pueden traducir las imágenes de las tiendas de aplicaciones. Tienen capturas de pantalla y textos. Debido a que el espacio es muy limitado, utilizamos un proceso manual con ensayo y error. Por favor, háganoslo saber en el foro si desea ayudar con eso. Dado que los listados localizados de las tiendas de aplicaciones tienen más probabilidades de ser descargados, ¡la ayuda es muy bienvenida!
 
 # ¡Ponte en contacto!
 

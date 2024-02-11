@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Von der geschätzten [Weltbevölkerung](https://en.wikipedia.org/wiki/World_population) von 7,9 Milliarden Menschen [sprechen „nur“ 1,3 Milliarden Englisch](https://www.ethnologue.com/guides/ethnologue200). Das mag an sich nicht viel bedeuten. Aber, wenn überhaupt, dann können wir daraus schließen, dass die Übersetzung von AntennaPod in mehr Sprachen die App für mehr Menschen zugänglich macht. Als Nebeneffekt trägt die Lokalisierung der App auch dazu bei, dass unser Projekt über die derzeitigen Hauptnutzergruppen (Deutschland und USA) hinauswächst.
+Von der geschätzten [Weltbevölkerung](https://de.wikipedia.org/wiki/Weltbevölkerung) von 7,9 Milliarden Menschen sprechen „nur“ 1,5 Milliarden [Englisch](https://www.ethnologue.com/insights/ethnologue200/). Das mag an sich nicht viel bedeuten. Aber wenn überhaupt, dann können wir daraus schließen, dass das Bereitstellen von AntennaPod in mehr Sprachen die App für mehr Menschen zugänglich macht. Als Nebeneffekt trägt die Lokalisierung der App auch dazu bei, dass unser Projekt über die derzeitigen Hauptnutzergruppen (Deutschland und die USA) hinauswächst.
 
 Wir wissen deine Hilfe daher sehr zu schätzen!
 
@@ -48,7 +48,7 @@ Neue Übersetzungen werden von Zeit zu Zeit manuell von Weblate zu GitHub (der E
 
 # Andere Materialien
 
-Neben der App und der Webseite können auch die Bilder in den Paketquellen übersetzt werden. Sie enthalten Bildschirmfotos und Texte. Da der Platz sehr begrenzt ist, muss manuell herumprobiert werden. Bitte lass uns im Forum wissen, wenn du dabei helfen willst. Da lokalisierte Einträge mit größerer Wahrscheinlichkeit heruntergeladen werden, ist Hilfe sehr willkommen!
+Neben der App und der Website können auch die Bilder in den App-Stores übersetzt werden. Sie enthalten Bildschirmfotos und Texte. Da der Platz sehr begrenzt ist, verwenden wir einen manuellen Prozess mit Versuch und Irrtum. Bitte lass es uns im Forum wissen, wenn du dabei helfen willst. Da lokalisierte Einträge in den App-Stores mit größerer Wahrscheinlichkeit heruntergeladen werden, ist Hilfe sehr willkommen!
 
 # Nimm Kontakt auf!
 

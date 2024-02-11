@@ -42,7 +42,7 @@ Udviklerne af AntennaPod har **ikke** adgang til nogen af dine oplysninger, undt
    - enhedens sprog
    - Android-version
 - besøger eller deltager i vores forum: som beskrevet i [forummets privatlivspolitik](https://forum.antennapod.org/privacy)
-- aktivt yder et finansielt bidrag via Open Collective (medmindre du yder et [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) bidrag):
+- aktivt yder et finansielt bidrag via Open Collective (medmindre du yder et bidrag som [anonym gæst](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) eller [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)):
    - offentlige profiloplysninger (navn, virksomhed, beskrivelse, billede, Twitter, GitHub, websted)
    - e-mailadresse
 

@@ -7,8 +7,8 @@ Wenn du eine physische (Hardware-)Tastatur an dein Telefon oder Tablet angeschlo
 | `P` | Wiedergeben/Pausieren |
 | `J`/`A`/`,` | Zurückspulen |
 | `K`/`D`/`.` | Vorwärts |
-| `+`/`W` | Lautstärke anheben |
-| `-`/`S` | Lautstärke senken |
+| `+`/`W` | Lautstärke erhöhen |
+| `-`/`S` | Lautstärke reduzieren |
 | `M` | Stumm schalten (aufheben) (umschalten) – nur unter Android 6 und neuer |
 
 ### Video-Player
@@ -21,6 +21,6 @@ Wenn du eine physische (Hardware-)Tastatur an dein Telefon oder Tablet angeschlo
 | `F`/`Esc` | Video-Player schließen |
 | `i` | Bild-in-Bild-Modus öffnen |
 | `0`–`9` | Gehe zu 0–90% des Videos |
-| `+`/`W` | Lautstärke anheben |
-| `-`/`S` | Lautstärke senken |
+| `+`/`W` | Lautstärke erhöhen |
+| `-`/`S` | Lautstärke reduzieren |
 | `M` | Stumm schalten (aufheben) (umschalten) – nur unter Android 6 und neuer |

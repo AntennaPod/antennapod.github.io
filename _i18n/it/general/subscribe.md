@@ -1,4 +1,4 @@
-Premi il pulsante qui sopra per abbonarti a questo podcast in AntennaPod. Se non hai ancora installato AntennaPod, puoi [scaricare l'applicazione qui](/download).
+Premi il pulsante qui sopra per abbonarti a questo podcast in AntennaPod. Non hai ancora installato AntennaPod? Puoi [scaricare l'applicazione qui](/download) e accedere liberamente a milioni di podcast.
 
 
 <button id="subscribeButton" class="btn btn-primary">

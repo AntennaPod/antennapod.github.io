@@ -24,8 +24,8 @@ AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen Antenna
 1. Wenn du ein Nextcloud-Konto hast, installiere die gPodder-Sync-App oder bitten deinen Server-Administrator, dies zu tun
 1. Öffne `Einstellungen` » `Synchronisation` in AntennaPod und tippe auf `Anbieter für Synchronisierung auswählen`
 1. Wähle „Nextcloud“
-1. Gib den „Hostname“ (die URL oder IP-Adresse des Servers) ein und tippe auf `Anmelden`
-1. Melden dich in dem sich öffnenden Browserfenster an und autorisiere AntennaPod
+1. Gib die „Server-Adresse“ (die URL oder IP-Adresse des Servers) ein und tippe auf `Weiter zur Anmeldung`
+1. Melde dich in dem sich öffnenden Browserfenster an und autorisiere AntennaPod
 
 ## Aktiviere die Synchronisierung per gPodder
 
@@ -33,9 +33,9 @@ AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen Antenna
 1. When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices | strip }}
 1. When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the activated devices synchronized.<br />{{ img-synchronize | strip }}
 1. Öffne `Einstellungen` » `Synchronisation` in AntennaPod und tippe auf `Anbieter für Synchronisierung auswählen`
-1. Wähle „Nextcloud“
-1. Gib den „Hostname“ (die URL oder IP-Adresse des Servers) ein und tippe auf `Anmelden`
-1. Enter the 'Username' and 'Password' and tap `Log in`
-1. Select the device that you created on the server
+1. Wähle „gPodder“
+1. Gib die „Server-Adresse“ (z. B. www.gpodder.net) ein und tippe auf `Weiter zur Anmeldung`
+1. Gib den „Benutzernamen“ und das „Passwort“ ein und tippe auf `Anmelden`
+1. Wähle das Gerät aus, das du auf dem Server erstellt hast
 
 **Anmerkung:** Hast du ein Gerät während der Einrichtung der Synchronisierung erstellt und nicht davor, wie oben beschrieben? Dann stelle sicher, dass du auf die Schaltfläche `Komplette Synchronisation erzwingen` in AntennaPod tippst, um den Abspielstatus aller Episoden hochzuladen, die du zuvor angehört hast. Wenn du dies nicht machst, werden nur Podcasts synchronisiert, die **nach** der Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein [offenes Issue für gpodder.net](https://github.com/gpodder/mygpo/issues/388), das darum bittet, dieses Verhalten zu ändern.

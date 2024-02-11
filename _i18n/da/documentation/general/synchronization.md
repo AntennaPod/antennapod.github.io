@@ -33,9 +33,9 @@ AntennaPod kan synkronisere dine abonnementer og lyttefremskridt med andre Anten
 1. When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices | strip }}
 1. When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the activated devices synchronized.<br />{{ img-synchronize | strip }}
 1. Gå til `Indstillinger` » `Synkronisering` i AntennaPod, og tryk på `Vælg synkroniseringsudbyder`
-1. Vælg 'Nextcloud'
-1. Indtast 'Serveradresse' (serverens URL- eller IP-adresse), og tryk på `Fortsæt`
-1. Enter the 'Username' and 'Password' and tap `Log in`
-1. Select the device that you created on the server
+1. Vælg 'gPodder'
+1. Indtast 'Serveradresse' (f.eks. www.gpodder.net), og tryk på `Fortsæt til login`
+1. Indtast 'Brugernavn' og 'Adgangskode' og tryk på `Log ind`
+1. Vælg den enhed, du oprettede på serveren
 
 **Bemærk** Oprettede du en enhed, mens du indstillede synkroniseringen i AntennaPod, i stedet for at oprette en enhed i forvejen på webstedet? Så sørg for at trykke på knappen `Fremtving fuld synkronisering` i AntennaPod for at uploade afspilningstilstanden for alle de episoder, du har lyttet til tidligere. Hvis du ikke gør dette, synkroniseres kun podcasts, der blev tilføjet **efter** sammenkobling af enhederne. Der er et [åbent issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388), som anmoder om at ændre denne adfærd.

@@ -1,4 +1,4 @@
-Tryk på knappen ovenfor for at abonnere på denne podcast i AntennaPod. Hvis du endnu ikke har Installeret AntennaPod, kan du [downloade appen her](/download).
+Tryk på knappen nedenfor for at abonnere på denne podcast i AntennaPod. Hvis du endnu ikke har Installeret AntennaPod, kan du [downloade](/download) appen for at få gratis adgang.
 
 
 <button id="subscribeButton" class="btn btn-primary">

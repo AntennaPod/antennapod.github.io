@@ -20,7 +20,7 @@ Sosteniamo un ecosistema di podcasting aperto. Un ecosistema che
 
 * sostiene la libertà di espressione,
 * ricompensa i podcaster per il loro lavoro creativo,
-* protegge gli ascoltatori da contenuti inaccessibili su [piattaforme chiuse](https://en.wikipedia.org/wiki/Walled_garden_(technology)) e
+* protegge gli ascoltatori da contenuti inaccessibili su [piattaforme chiuse](https://en.wikipedia.org/wiki/Walled_garden_(technology), e
 * permette agli utenti di usare e passare da un'app all'altra senza alcun [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
 
 In pratica, questo significa che puoi abbonarti a qualsiasi feed RSS esistente, che ti rendiamo più facile sostenere (finanziariamente) i podcaster, e che puoi sincronizzare, importare ed esportare i tuoi dati.

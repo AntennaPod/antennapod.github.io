@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 7,9 milliarder mennesker er det 'kun' 1,3 milliarder, der [taler engelsk](https://www.ethnologue.com/guides/ethnologue200). Det betyder måske ikke så meget i sig selv. Men om noget, kan vi konkludere, at hvis vi gør AntennaPod tilgængelig på flere sprog, bliver appen tilgængelig for flere mennesker. Som en ekstra bonus vil en oversat app også hjælper vores projekt med at vokse ud over de nuværende primære brugergrupper (Tyskland og USA).
+Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 7,9 milliarder mennesker er det 'kun' 1,5 milliarder, der [taler engelsk](https://www.ethnologue.com/insights/ethnologue200/). Det betyder måske ikke så meget i sig selv. Men om noget, kan vi konkludere, at hvis vi gør AntennaPod tilgængelig på flere sprog, bliver appen tilgængelig for flere mennesker. Som en ekstra bonus vil en oversat app også hjælper vores projekt med at vokse ud over de nuværende primære brugergrupper (Tyskland og USA).
 
 Vi sætter derfor stor pris på din hjælp!
 
@@ -48,7 +48,7 @@ Nye oversættelser bliver manuelt overført fra Weblate til GitHub (udviklingspl
 
 # Andre materialer
 
-Ud over appen og hjemmesiden kan også billederne i appbutikkerne oversættes. De har skærmbilleder og tekster. Da der er meget begrænset plads, bruger vi en manuel proces, hvor vi prøver os frem. Lad os vide på forummet, hvis du vil hjælpe med det. Da der er større sandsynlighed for, at lokaliserede app-butiksannoncer bliver downloadet, er hjælp meget velkommen!
+Ud over appen og hjemmesiden kan også billederne i appbutikkerne oversættes. De har skærmbilleder og tekster. Da der er meget begrænset plads, bruger vi en manuel proces, hvor vi prøver os frem. Lad os vide på forummet, hvis du vil hjælpe med det. Da der er større sandsynlighed for, at lokaltilpassede app store-præsentationer fører til downloads, er hjælp meget velkommen!
 
 # Kontakt os!
 

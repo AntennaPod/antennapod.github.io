@@ -20,7 +20,7 @@ Vi står for et åbent økosystem for podcasting. Et økosystem, der
 
 * støtter ytringsfrihed,
 * belønner podcastere for deres kreative arbejde,
-* forskåner lytterne for utilgængeligt indhold i [lukkede systemer](https://en.wikipedia.org/wiki/Walled_garden_(technology)), og
+* forskåner lytterne for utilgængeligt indhold i [lukkede systemer](https://en.wikipedia.org/wiki/Closed_platform), og
 * gør det muligt for brugerne at bruge og skifte mellem apps uden [vendor lock-in](https://da.wikipedia.org/wiki/Vendor_lock-in).
 
 I praksis betyder det, at du kan abonnere på alle de RSS-feeds, der findes, at vi gør det nemt for dig at støtte podcastere (økonomisk) og at du kan synkronisere, importere og eksportere dine data.

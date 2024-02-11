@@ -1,4 +1,4 @@
-Sie können AntennaPod verwenden, um Podcasts in Ihrem [Android Auto](https://www.android.com/auto/) fähigen Auto zu hören.
+Du kannst AntennaPod verwenden, um Podcasts in deinem [Android Auto](https://www.android.com/auto/)-fähigen Auto zu hören.
 
 ### Hast du AntennaPod von **Google Play** heruntergeladen?
 

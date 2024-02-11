@@ -33,9 +33,9 @@ AntennaPod puede sincronizar tus suscripciones y el progreso de escucha con otra
 1. When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices | strip }}
 1. When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the activated devices synchronized.<br />{{ img-synchronize | strip }}
 1. Ve a `Configuración` » `Sincronización` en AntennaPod y toca `Seleccionar un proveedor de sincronización`
-1. Selecciona 'Nextcloud'
-1. Ingresa la 'Server address' (la URL o la dirección IP del servidor) y toca `Proceed`
-1. Enter the 'Username' and 'Password' and tap `Log in`
-1. Select the device that you created on the server
+1. Seleccione 'gPodder'
+1. Introduzca la dirección del servidor (por ejemplo, www.gpodder.net) y pulse `Iniciar sesión`
+1. Introduzca el "Nombre de usuario" y la "Contraseña" y pulse `Iniciar sesión`
+1. Seleccione el dispositivo que ha creado en el servidor
 
 **Nota** ¿Creó un dispositivo mientras configuraba la sincronización en AntennaPod en lugar de crear un dispositivo de antemano en el sitio web? Así que asegúrate de presionar el botón `Force sync` en AntennaPod para cargar el modo de reproducción de todos los episodios que escuchó en el pasado. Si no haces esto, solo se sincronizarán los podcasts que se agregaron **después** de vincular los dispositivos. Hay un [problema abierto para gpodder.net](https://github.com/gpodder/mygpo/issues/388) que solicita cambiar este comportamiento.
