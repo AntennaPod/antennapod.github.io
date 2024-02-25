@@ -1,4 +1,4 @@
-¿Has visto que hay un nuevo lanzamiento de AntennaPod y te preguntas?:
+¿Has visto que ha salido una nueva versión de AntennaPod y te preguntas?:
 
 * *¿Por qué la última versión aún no está en F-Droid?*
 * *¿Cuándo estará disponible la nueva versión en F-Droid?*

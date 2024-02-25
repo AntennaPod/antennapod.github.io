@@ -36,6 +36,6 @@ AntennaPod kan je abonnementen en luistervorderingen synchroniseren met andere A
 1. Kies 'gPodder'
 1. Vul het 'Serveradres' in (bijv. www.gpodder.net) en tik op `Verder `
 1. Vul de 'Gebruikersnaam' en 'Wachtwoord' in en tik op `Log in`
-1. Selecteer het apparaat waarop je de server hebt gemaakt
+1. Selecteer het apparaat dat je op de server hebt gemaakt
 
 **LET OP:**Heb je een apparaat aangemaakt tijdens het inloggen in plaats van vooraf, zoals hierboven voorgesteld? Druk dan op de knop `Forceer volledige synchronisatie` in AntennaPod om de 'afgespeeld'-status te uploaden van alle afleveringen die je eerder beluisterd hebt. Als je dit niet doet worden alleen de podcasts gesynchroniseerd die werden toegevoegd **na** het koppelen van de apparaten. Er is een [open ticket voor gpodder.net](https://github.com/gpodder/mygpo/issues/388) dat vraagt om dit te veranderen.
