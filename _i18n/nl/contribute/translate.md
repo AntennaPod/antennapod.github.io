@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Van de geschatte [wereldbevolking](https://nl.wikipedia.org/wiki/Wereldbevolking) van 7,9 miljard mensen, spreken er 'slechts' 1,3 miljard [Engels](https://www.ethnologue.com/guides/ethnologue200). Dit betekent op zich misschien niet veel. Maar als we iets kunnen concluderen, dan is het wel dat het beschikbaar maken van AntennaPod in meer talen de app toegankelijk maakt voor meer mensen. Bovendien, het vertalen van de app helpt ons project ook om te groeien buiten de twee huidige belangrijkste gebruikersgroepen (in Duitsland en de VS).
+Van de geschatte [wereldbevolking](https://nl.wikipedia.org/wiki/Wereldbevolking) van 7,9 miljard mensen, spreken er 'slechts' 1,5 miljard [Engels](https://www.ethnologue.com/insights/ethnologue200/). Dit betekent op zich misschien niet veel. Maar als we iets kunnen concluderen, dan is het wel dat het beschikbaar maken van AntennaPod in meer talen de app toegankelijk maakt voor meer mensen. Bovendien, het vertalen van de app helpt ons project ook om te groeien buiten de twee huidige belangrijkste gebruikersgroepen (in Duitsland en de VS).
 
 Wij stellen je hulp dan ook zeer op prijs!
 

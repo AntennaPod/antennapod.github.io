@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) estimée à 7,9 milliards d'habitants, seuls 1,3 milliard d'entre eux [parlent anglais](https://www.ethnologue.com/guides/ethnologue200). Cela ne signifie peut-être pas grand-chose en soi, mais on peut en conclure que proposer une version multilingue d'AntennaPod permettrait de rendre cette application accessible au plus grand nombre. De plus, une application traduite pourrait également aider notre projet à se développer au-delà de ses principales bases d'utilisateurs (Allemagne et États-Unis).
+Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) estimée à 7,9 milliards d'habitants, seuls 1,5 milliard d'entre eux [parlent anglais](https://www.ethnologue.com/insights/ethnologue200/). Cela ne signifie peut-être pas grand-chose en soi, mais on peut en conclure que proposer une version multilingue d'AntennaPod permettrait de rendre cette application accessible au plus grand nombre. De plus, une application traduite pourrait également aider notre projet à se développer au-delà de ses principales bases d'utilisateurs (Allemagne et États-Unis).
 
 Nous apprécions donc beaucoup votre aide !
 

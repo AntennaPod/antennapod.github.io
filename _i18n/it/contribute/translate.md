@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Su una [popolazione mondiale stimata](https://it.wikipedia.org/wiki/Popolazione_mondiale) di 7,9 miliardi di persone, "solo" 1,3 miliardi di esse [parlano inglese](https://www.ethnologue.com/guides/ethnologue200). Questo potrebbe non significare molto di per sé. Ma, se non altro, da ciò possiamo concludere che rendere AntennaPod disponibile in più lingue fa sì che l'applicazione sia accessibile a più persone. Come beneficio collaterale, la localizzazione dell'applicazione aiuta anche il nostro progetto a crescere oltre le attuali basi di utenti principali (Germania e Stati Uniti).
+Su una [popolazione mondiale stimata](https://it.wikipedia.org/wiki/Popolazione_mondiale) di 7,9 miliardi di persone, "solo" 1,5 miliardi di esse [parlano inglese](https://www.ethnologue.com/insights/ethnologue200/). Questo potrebbe non significare molto di per sé. Ma, se non altro, da ciò possiamo concludere che rendere AntennaPod disponibile in più lingue fa sì che l'applicazione sia accessibile a più persone. Come beneficio collaterale, la localizzazione dell'applicazione aiuta anche il nostro progetto a crescere oltre le attuali basi di utenti principali (Germania e Stati Uniti).
 
 Perciò apprezziamo molto il tuo aiuto!
 
