@@ -14,7 +14,7 @@ title: generic.subscribe
             <div class="card">
               <div class="card-body">
                 <i class="fa fa-rss mr-1"></i>
-                <span id="urlTextBox">JavaScript required</span>
+                <span id="urlTextBox">Error: JavaScript not available</span>
               </div>
             </div>
           </p>
@@ -30,7 +30,7 @@ title: generic.subscribe
   const subscribeButton = document.getElementById("subscribeButton");
   const podcastTitle = document.getElementById("podcastTitle");
   if (!urlParams.has("url")) {
-    urlTextBox.textContent = "URL not available";
+    urlTextBox.textContent = "Error: URL not provided";
     subscribeButton.disabled = true;
     subscribeButton.textContent += " (error)";
   } else {
