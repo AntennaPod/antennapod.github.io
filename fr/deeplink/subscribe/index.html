@@ -280,7 +280,7 @@ Subscribe in AntennaPod</button></p>
 <div class="card">
               <div class="card-body">
                 <i class="fa fa-rss mr-1"></i>
-                <span id="urlTextBox">JavaScript required</span>
+                <span id="urlTextBox">Error: JavaScript not available</span>
               </div>
             </div>
           
@@ -296,7 +296,7 @@ Subscribe in AntennaPod</button></p>
   const subscribeButton = document.getElementById("subscribeButton");
   const podcastTitle = document.getElementById("podcastTitle");
   if (!urlParams.has("url")) {
-    urlTextBox.textContent = "URL not available";
+    urlTextBox.textContent = "Error: URL not provided";
     subscribeButton.disabled = true;
     subscribeButton.textContent += " (error)";
   } else {
