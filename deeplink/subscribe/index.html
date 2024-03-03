@@ -25,28 +25,22 @@ title: generic.subscribe
 </div>
 
 <script>
-  const getUrlParameter = (sParam) => {
-    const paramValue = new URLSearchParams(window.location.search.substring(1)).get(sParam) ?? "";
-    if (0 < paramValue.length) {
-      return decodeURIComponent(paramValue);
-    }
-    return false;
-  };
-
+  const urlParams = new URLSearchParams(window.location.search.substring(1));
   const urlTextBox = document.getElementById("urlTextBox");
   const subscribeButton = document.getElementById("subscribeButton");
   const podcastTitle = document.getElementById("podcastTitle");
-  if (getUrlParameter("url") === false) {
+  if (!urlParams.has("url")) {
     urlTextBox.textContent = "URL not available";
     subscribeButton.disabled = true;
     subscribeButton.textContent += " (error)";
   } else {
-    if (getUrlParameter("title") !== false) {
-      podcastTitle.textContent = getUrlParameter("title");
+    if (urlParams.has("title")) {
+      podcastTitle.textContent = urlParams.get("title");
     }
-    urlTextBox.textContent = getUrlParameter("url");
+    const url = urlParams.get("url");
+    urlTextBox.textContent = url;
     subscribeButton.onclick = () => {
-      window.open("antennapod-subscribe://" + getUrlParameter("url"));
+      window.open("antennapod-subscribe://" + url);
     };
   }
 </script>
