@@ -14,7 +14,7 @@ title: generic.subscribe
             <div class="card">
               <div class="card-body">
                 <i class="fa fa-rss mr-1"></i>
-                <span id="urlTextBox">JavaScript required</span>
+                <span id="urlTextBox">To display dynamic data about the shared podcast, please ensure JavaScript is active</span>
               </div>
             </div>
           </p>
@@ -28,6 +28,8 @@ title: generic.subscribe
   const getUrlParameter = (sParam) => {
     const paramValue = new URLSearchParams(window.location.search.substring(1)).get(sParam) ?? "";
     if (0 < paramValue.length) {
+      // Replace %25 with %
+      const decodedValue = paramValue.replace(/%25/g, '%');
       return decodeURIComponent(paramValue);
     }
     return false;
