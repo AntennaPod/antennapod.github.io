@@ -1,4 +1,4 @@
-When you change hoster, the URL of your RSS feed often changes as well. In this situation, we strongly recommend that you organise a proper 'redirect' from the old to the new feed with either of these HTTP response status codes:
+When you change hoster, the URL of your RSS feed often changes as well. In this situation, we strongly recommend that you organize a proper 'redirect' from the old to the new feed with either of these HTTP response status codes:
 * [301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/301)
 * [308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/308)
 
