@@ -44,6 +44,13 @@
   
     
     {
+      "title"    : "Can&#39;t resume playback from lock screen / notification",
+      "url"      : "/nl/documentation/bugs-first-aid/cannot-resume-playback",
+      "content"  : "Can’t resume playback from lock screen / notificationIn Android 13 and Android 14 it is not always possible to resume playback from the lock screen or media notification. This occurs specifically if playback has been paused for a while.It currently is not clear why this issue occurs. We have established the same problem affects other apps, including Google’s apps. We suspect, therefore, that this is an issue with Android.WorkaroundIn order to still be able to resume playback, you can add the so-called AntennaPod ‘tile’ on your device. Tiles are essentially the buttons that you see when you pull down from the top of the screen. You probably know the Internet or Flashlight tile. The AntennaPod tile allows you play and pause playback, even if playback has been paused for a while.To add the AntennaPod tile:  Pull down twice from the top of the screen, so you see the full buttons (below the brightness indicator)  Tap on the pencil icon at the bottom of the tiles section to edit the tiles  Scroll down the list of tiles, tap on the AntennaPod tile and drag it up into the list of active tiles  Tap the back arrow to exit the tile editing"
+    } ,
+  
+    
+    {
       "title"    : "Een aflevering kan niet gedownload worden",
       "url"      : "/nl/documentation/bugs-first-aid/cannot-stream-download",
       "content"  : "Een aflevering kan niet gedownload wordenAntennaPod is een gedecentraliseerde podcast-app. Dat betekent dat er geen centrale server is die alles weet over elke podcast.De mediabestanden worden rechtstreeks van de website van de uitgever geladen. Als de uitgever ze verwijdert, kan AntennaPod ze niet meer voor je downloaden."
@@ -222,6 +229,13 @@
       "title"    : "Je podcast vermeld krijgen",
       "url"      : "/nl/documentation/podcasters-hosters/list-podcast",
       "content"  : "Je podcast vermeld krijgenAls je een podcast producer bent en je wilt je podcast zichtbaar maken in AntennaPod, is deze pagina voor jou.AntennaPod gebruikt hoofdzakelijk drie bronnen voor zijn zoekfunctie:  Podcast Index (vraag je hoster hoe je de podcast toevoegt, of voeg je eigen podcast toe via de API)  Apple Podcasts (toevoegen via Podcast Connect)  Fyyd (toevoegen via hun website)Je podcast kan in AntennaPod gevonden worden zodra deze beschikbaar is in een van bovenstaande databases."
+    } ,
+  
+    
+    {
+      "title"    : "Updating feed URLs",
+      "url"      : "/nl/documentation/podcasters-hosters/update-feed-urls",
+      "content"  : "Updating feed URLsWhen you change hoster, the URL of your RSS feed often changes as well. In this situation, we strongly recommend that you organize a proper ‘redirect’ from the old to the new feed with either of these HTTP response status codes:  301 Moved Permanently  308 Permanent RedirectThis way you make sure that AntennaPod users get this change applied in their app. Your audience will then continue to receive your episodes, without having to subscribe again to the new feed.Don’t forget also to update your entry in the directories AntennaPod uses for its search functionality."
     } ,
   
     
