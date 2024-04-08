@@ -78,6 +78,10 @@
         <a class="mr-2 color-gray-900" href="https://github.com/{{ site.github_username }}" target="_blank"
            rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
         {% endif %}
+        {% if site.bluesky_username %}
+        <a class="mr-2 color-gray-900" href="https://bsky.app/profile/{{ site.bluesky_username }}" target="_blank"
+           rel="noopener"><i class="fa-brands fa-bluesky mr-1"></i>Bluesky</a>
+        {% endif %}
         {% if site.twitter_username %}
         <a class="mr-2 color-gray-900" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"
            rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
