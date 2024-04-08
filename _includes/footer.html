@@ -67,6 +67,13 @@
             </a>
           </p>
           {% endif %}
+          {% if site.bluesky_username %}
+          <p class="mb-2">
+            <a class="mr-2" href="https://bsky.app/profile/{{ site.bluesky_username }}" target="_blank" rel="noopener">
+              <i class="fa-brands fa-bluesky mr-1"></i>Bluesky
+            </a>
+          </p>
+          {% endif %}
           {% if site.twitter_username %}
           <p class="mb-2">
             <a class="mr-2" href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
