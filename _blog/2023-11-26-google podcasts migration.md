@@ -34,6 +34,10 @@ Also, if you were using the Google app solely because of Google Podcasts, note t
 We can promise you won’t need to do that. Here is how to export all your subscriptions and automatically add them to AntennaPod:
 
 1. Export your Google Podcasts data in OPML format: you can do this directly from your phone, via the Export Subscriptions screen in Google Podcasts, or, alternatively, by visiting [takeout.google.com](https://takeout.google.com) and selecting Google Podcasts.
+
+{: .alert .alert-warning}
+There [seems](https://github.com/AntennaPod/AntennaPod/issues/6884#issuecomment-2101029913) to be an issue with exporting subscriptions from the web. We strongly recommend going to the app on your phone or tablet, and tap on 'Export subscriptions' on the Home screen.
+
 2. If necessary, copy the OPML file to your phone (or send it to yourself via email).
 3. Finally, open AntennaPod’s settings > Import/Export > “OPML import” and select your OPML file.
 
