@@ -10,6 +10,8 @@ documentation:
       database-error: Tüm podcast'lerim ve bölümlerim gitti
       cannot-stream-download: Bölüm indiremiyorum
       typo-translations: Bir yazım veya imla hatası buldum
+      cannot-resume-playback: Kilit ekranından bildirimden oynatmaya devam edilemiyor
+      refresh-download-errors: İndirme veya akış yenileme hatası
     subscriptions:
       intro: Aşağıda, abonelikler hakkında sıkça sorulan soruları bulabilirsiniz.
       title: Abonelikler
@@ -44,8 +46,21 @@ documentation:
       intro: Aşağıda, oynatma ile ilgili konuları bulabilirsiniz.
       title: Oynatma
       android-auto: Arabalarda oynatma (Android Auto)
+      auto-rewind: Otomatik geri sarma
+      shortcuts: Donanım klavye kısayolları
     podcasters-hosters:
       title: Podcast Yayıncıları ve Sunucuları için
+      update-feed-urls: Akış bağlantı linkini yenile
+      intro: Aşağıda podcast yayıncıları ve barındırma sağlayıcıları için destek bilgilerimizi
+        bulabilirsiniz.
+      list-podcast: Podcast'inizin listelenmesi
+      add-on-antennapod: "'AnrennaPod'da Aç' bağlantısı oluşturun"
+    queue:
+      title: Sıra
+      lock: Sıranın kilitlenmesi (kaldırılması)
+      intro: Aşağıda kuyrukla ilgili sık sorulan soruları bulabilirsiniz.
+      how-to-use: Sıra nasıl kullanılır
+      multiple-queues: Birden çok kuyruk nasıl kullanılır
   general:
     introduction: AntennaPod'un dokümantasyon bölümüne hoş geldiniz. Bu bölüm güncel
       özellikler hakkında bilgi vermeyi amaçlamaktadır.
@@ -79,12 +94,15 @@ contribute:
       data-target="#donationModal">bağış</a> yapmak istiyorum.
     modal-title: Bağış yapmak istediğinize emin misiniz?
     modal-button-chat: Nasıl yardım edebileceğinizi bizimle görüşün
+    modal-button-contribute: Katkı seçeneklerini tekrar kontrol edin
   promote:
     title: Tanıtın
     text: Akılda kalıcı tweetler, ilginç bloglar veya harika grafikler mi hazırlıyorsunuz?
       Dünyaya yayılmamıza yardımcı olun.
   design:
     title: Tasarlayın
+    text: Karmaşık istekleri anlaşılır kullanıcı öykülerine veya tel çerçevelere mi
+      dönüştürüyorsunuz? Bu sorunların çözülmesine yardımcı olun.
   develop:
     title: Geliştirin
     text: Kod mu yazıyorsunuz? Pull requstleri test etmeye yardımcı olun veya uygulama
@@ -119,6 +137,11 @@ generic:
   subscribe: Abone ol
   redirect:
     link: Eğer yönlendirilmediyseniz buraya tıklayın.
+    title: Yönlendirme
+  previous: Öncesi
+  next: Sonrası
+  masto-share:
+    server: 'Örneğinizin adresini girin: (örn. https://mastadon.social)'
 long_month:
   November: Kasım
   September: Eylül
@@ -139,26 +162,38 @@ events:
   general:
     copy-url: Takvim URL'sini kopyala
     download-ics: ICS dosyasını indir
+    announce-add-calendar: Her zaman en son etkinliklerin ve güncel topluluk çağrı
+      bilgilerinin elinizin altında olmasını mı istiyorsunuz? Ardından 'Takvime ekle'
+      bağlantısını kullanarak favori uygulamanızdaki takvimimize abone olun!
+    recurring: Tekrarlanan olay
   links:
     more-information: Daha fazla bilgi
     add-calendar: Takvime ekle
+    open-map: Konumu görüntüle
+    open-blog: Blog yazısını oku
+    watch-recording: Kayıt izle
+    open-meeting: Görüşme başlat
   recurrence:
     every-2nd-saturday: her ayın ikinci Cumartesi günü
+    2nd-4th-wednesday: (Neredeyse her) ayın ikinci ve dördüncü Çarşamba günü
 homepage:
   features:
     adfree:
       title: Reklamsız
       description: AntennaPod uygulamasının kendisi reklam içermez. Eğer bir yayıncı
         medya dosyalarına reklam eklemeyi seçerse, gelirin %100'ünü alırlar.
+      img-alt: '-'
     listenanywhere:
       title: İstediğiniz yerde dinleyin
       description: AntennaPod ile bölümleri indirebilir ve istediğiniz yerde dinleyebilirsiniz.
         Otomatik olarak indirilmesi gereken podcast'leri bile seçebilirsiniz.
+      img-alt: '-'
   description: AntennaPod tamamen açık bir podcast oynatıcısıdır. Uygulama açık kaynaklıdır
     ve dilediğiniz RSS feed'ine abone olabilirsiniz. AntennaPod gönüllüler tarafından
     ticari çıkar gözetilmeksizin oluşturulmuştur, bu nedenle size tam kontrol sağlar
     ve gizliliğinize saygı duyar.
   header: Açık Podcast Oynatıcı
+  img-alt: '-'
 titles:
   media-kit: Medya Seti
   contribute: Katkıda bulunun
@@ -172,3 +207,5 @@ titles:
   blog: Blog
 footer:
   description: Android için kullanımı kolay, esnek ve açık kaynaklı podcast yöneticisi.
+blog:
+  posted: Yayınlanan

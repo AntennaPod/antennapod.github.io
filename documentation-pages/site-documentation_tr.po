@@ -3,21 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 19:23+0200\n"
-"PO-Revision-Date: 2024-01-23 21:15+0000\n"
-"Last-Translator: \"EmreA.\" <emrea109@gmail.com>\n"
+"PO-Revision-Date: 2024-06-20 19:45+0000\n"
+"Last-Translator: Sxinar <oshidev@proton.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/antennapod/"
-"website-documentation/tr/>\n"
+"website/documentation/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.6-rc\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
 msgid "Why are some downloaded episodes deleted?"
-msgstr ""
+msgstr "İndirilen bazı bölümler neden siliniyor?"
 
 #: _i18n/en/documentation/automation/deletion.md:block 2 (paragraph)
 msgid ""
@@ -25,10 +25,13 @@ msgid ""
 "fill up your phone's memory. If you notice some downloaded episodes being "
 "deleted, have a look at these two settings:"
 msgstr ""
+"AntennaPod'un indirilen podcast'lerin telefonunuzun belleğini doldurmamasını "
+"sağlayacak çeşitli mekanizmaları vardır. İndirilen bazı bölümlerin "
+"silindiğini fark ederseniz şu iki ayara göz atın :"
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Auto Delete"
-msgstr ""
+msgstr "Otomatik silme"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
@@ -36,12 +39,16 @@ msgid ""
 "deleted when playback completes (but not when manually marking an episode as "
 "'played')."
 msgstr ""
+"Otomatik Silme , ` Ayarlar` » ` Depolama` bölümünde bulunur . "
+"Etkinleştirildiğinde, oynatma tamamlandığında bölümler silinir (ancak bir "
+"bölümü manuel olarak 'oynandı' olarak işaretlediğinizde silinmez)."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Episode Cleanup"
-msgstr ""
+msgstr "Bölüm temizleme"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
 "Episode Cleanup is located in `Settings` » `Network` » `Automatic Download`. "
 "If Automatic Download needs space for new episodes, it will delete old "
@@ -49,6 +56,11 @@ msgid ""
 "delay (x time after playback) or Episode. The setting `Episode Cache` "
 "determines the maximum amount of downloaded episodes."
 msgstr ""
+"Bölüm Temizleme \" Ayarlar \" » \" Ağ \" » \" Otomatik İndirme \" bölümünde "
+"bulunur . Otomatik İndirme, yeni bölümler için alana ihtiyaç duyarsa, sırada "
+"olmayan ve favori olarak işaretlenmeyen eski bölümleri siler . Bir gecikme ("
+"oynatmadan sonra x süre) veya Bölüm ekleyebilirsiniz . ' Bölüm Önbelleği ' "
+"ayarı , indirilen maksimum bölüm miktarını belirler."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
@@ -57,8 +69,13 @@ msgid ""
 "the interval period, select a specific time in the day, or turn off the "
 "automatic updates."
 msgstr ""
+"Varsayılan olarak tüm podcast'ler, yeni bölümlerin alınması için 12 saatlik "
+"aralıklarla yenilenir. ` Ayarlar ` » ` Ağ ` » ` Podcast'leri yenile ` "
+"aracılığıyla aralık dönemini değiştirebilir, günün belirli bir saatini "
+"seçebilir veya otomatik güncellemeleri kapatabilirsiniz."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "You can also turn off this process for individual podcasts in case keeping a "
 "podcast up to date is unnecessary. You can use this, for example, if no new "
@@ -67,6 +84,12 @@ msgid ""
 "this by going to a podcast, tapping on the `Gear` icon and changing the "
 "`Keep Updated` setting."
 msgstr ""
+"Bir podcast'i güncel tutmanın gereksiz olması durumunda bu işlemi bireysel "
+"podcast'ler için de kapatabilirsiniz. Örneğin bir podcast için artık yeni "
+"bölüm yayınlanmıyorsa bunu kullanabilirsiniz. Veya bir bölümünü yalnızca ara "
+"sıra dinleyeceğiniz bir podcast eklediğinizde . Bunu bir podcast'e giderek, "
+"' Dişli ' simgesine dokunarak ve ' Güncellemeyi Tut ' ayarını değiştirerek "
+"ayarlayabilirsiniz ."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
 msgid ""
@@ -76,6 +99,11 @@ msgid ""
 "podcast, which will bring new episodes to AntennaPod. But these new episodes "
 "will not be visible in the New tab of the Episodes screen."
 msgstr ""
+"Bu podcast ayarını kapattığınızda, podcast'ler otomatik olarak "
+"yenilendiğinde veya bu işlemi Kuyruk veya Bölümler ekranından "
+"başlattığınızda podcast artık güncellenmeyecektir. AntennaPod'a yeni "
+"bölümler getirecek olan podcast'i hâlâ yenileyebilirsiniz . Ancak bu yeni "
+"bölümler, Bölümler ekranının Yeni sekmesinde görünmeyecek."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -83,18 +111,25 @@ msgid ""
 "regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
 "podcasts))."
 msgstr ""
+"AntennaPod ile düzenli olarak güncellenecek abonelikleri (podcast yayınları) "
+"belirtebilirsiniz (bkz. [Podcast'leri yenileme](/documentation/automation/"
+"refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. For example:"
 msgstr ""
+"Daha karmaşık ihtiyaçlarınız varsa bunu yapmak için AntennaPod ile çeşitli "
+"3. parti otomasyon uygulamalarını kullanabilirsiniz . Örneğin:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WiFi, then update AntennaPod feeds."
 msgstr ""
+"Aboneliklerin günün başında güncellenmesini sağlayın : sabah 7'de Wi-Fi'yi "
+"açın ve ardından AntennaPod yayınlarını güncelleyin ."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
