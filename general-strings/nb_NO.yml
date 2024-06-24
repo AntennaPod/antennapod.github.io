@@ -3,7 +3,7 @@ titles:
   blog: Blogg
   contribute: Bidra
   documentation: Dokumentasjon
-  download: Last ned
+  download: Last ned AntennaPod
   forum: Forum
   media: Mediamateriale
   license: Lisens
@@ -18,8 +18,8 @@ generic:
     link: Klikk her hvis du ikke blir videresendt.
   accessibility:
     lang-menu: Språkveksler
-    copy: Kopier til utklippstavle
-    copied: Lenke kopiert.
+    copy: Kopier lenke
+    copied: Lenke kopiert!
     copy-fail: Kopier nettadressen fra adresselinjen.
     share-fb: Del på Facebook
     share-md: Del på Mastodon
@@ -71,42 +71,42 @@ homepage:
   features:
     adfree:
       title: Reklamefri
-      description: AntennaPod inneholder ikke reklame. Hvis en kanal velger å legge
-        til reklame i sine filer får de 100% av inntektene.
+      description: Appen AntennaPod inneholder i seg selv ikke reklame. Hvis en utgiver
+        velger å legge til reklame i sine mediefiler får de 100% av inntektene.
       img-alt: '  '
     listenanywhere:
       title: Lytt hvor som helst
       description: Med AntennaPod kan du laste ned episoder og lytte hvor som helst.
-        Du kan velge nettradioopptak som skal lastes ned automatisk.
+        Du kan til og med velge at podkaster skal lastes ned automatisk.
       img-alt: '  '
-  header: Den åpne nettradioopptaks-spilleren
-  description: AntennaPod er en avspiller for nettradioopptak som er helt fri. Du
-    kan abonnere på enhver RSS-informasjonsflyt. Det er bygd av frivillige uten kommersiell
-    interesse, så det respekterer personvernet samtidig som det gir deg full kontroll.
+  header: Den åpne podkastspilleren
+  description: AntennaPod er en podkastspiller som er helt gratis. Du kan abonnere
+    på enhver RSS-strøm. AntennaPod er laget av frivillige uten kommersiell interesse,
+    så det respekterer personvernet samtidig som det gir deg full kontroll.
   img-alt: '  '
 blog:
-  posted: Delt
+  posted: Delt den
 contribute:
   develop:
-    title: Utvikling
-    text: Skriver du kode? Hjelp til å teste flettingsforespørsler, eller send inn
+    title: Utvikle
+    text: Skriver du kode? Hjelp til å teste flettingsforespørsler eller send inn
       nye funksjoner eller feilrapporter for programmet eller nettsiden.
   promote:
     title: Framsnakk
-    text: Du lager fengende tvitringer, interessante blogger, eller bra grafikk? Hjelp
+    text: Lager du fengende tvitringer, interessante blogger, eller bra grafikk? Hjelp
       til å spre ordet.
   design:
     text: Kan du gjøre komplekse forespørsler til forståelige brukerfortellinger eller
       skisser? Hjelp til å takle disse problemene.
     title: Design
-  introduction: AntennaPod er i aktiv utvikliing av frivillige. Du kan også bidra,
-    med kode eller annet.
+  introduction: AntennaPod er i aktiv utvikling av frivillige. Du kan også bidra,
+    med kode eller noe annet!
   translate:
-    title: Bistå oversettelsen
-    text: Snakker du et annet språk enn Engelsk. Hjelp til å oversette AntennaPod.
+    title: Oversett
+    text: Snakker du et annet språk enn Engelsk. Hjelp oss å oversette AntennaPod.
   support:
     title: Støtte
-    text: Er du god til å forklare. Hjelp andre brukere på forumet.
+    text: Er du god til å forklare? Hjelp andre brukere på forumet.
   test:
     title: Test
     text: Er du god til å finne feil? Bli betatester.
@@ -121,91 +121,93 @@ documentation:
   categories:
     getting-started:
       title: Begynn
-      intro: Velkommen til AntennaPod. Nedenfor finner du detaljer om hvordan du bruker
-        det.
+      intro: Velkommen til AntennaPod. Nedenfor finner du detaljer om hvordan du kommer
+        i gang med AntennaPod.
       episodes-missing: Det mangler episoder
-      subscribe: Abonner på et nettradioopptak
+      subscribe: Abonner på en podkast
     general:
       beta: Beta-testing
       bug-report: Innrapportering av feil
-      central-distributed: Sentrale og distribuerte programmer for nettradioopptak
+      central-distributed: Sentrale og distribuerte podkast-apper
       donate: Donasjoner
       title: Generelt
-      intro: Nedenfor finner du flere detaljer om AntennaPod-prosjektet.
-      ads: Om reklamer i AntennaPod
+      intro: Under kan du finne flere detaljer om AntennaPod-prosjektet.
+      ads: Om reklame i AntennaPod
       backup: Sikkerhetskopierer episodene dine
-      external-storage: Bruk av eksternlagring
+      external-storage: Bruker ekstern lagring
       gpodder: Synkronisering mellom enheter
-      proxy: Forsendelse av trafikk gjennom mellomtjener eller Tor-nettverket
+      proxy: Leder trafikk via en mellomtjener eller Tor-nettverket
       episode-deletion: Sletting av episoder
-      synchronization: Synkronisering mellom enheter
-      f-droid: Nye versjoner på F-Droid
-      other-platforms: AntennaPod for Linux, Apple, og Windows
+      synchronization: Hvordan synkronisere mellom enheter
+      f-droid: Oppdateringer på F-Droid
+      other-platforms: AntennaPod for Windows, Apple, og Linux
     playback:
       title: Avspilling
-      intro: Nedenfor finner du emner om avspilling.
+      intro: Under kan du finne emner om avspilling.
       auto-rewind: Automatisk tilbakespoling
       crashes: Hva man bør gjøre hvis avspillingen krasjer
       shortcuts: Tastatursnarveier
       android-auto: Avspilling i bil (Android Auto)
     queue:
       how-to-use: Hvordan bruke køen
-      lock: Låsing av køen
-      multiple-queues: Bruk av flere køer
+      lock: (Opp)låsing av køen
+      multiple-queues: Hvordan bruke flere køer
       title: Kø
-      intro: Nedenfor finner du spørsmål om køen.
+      intro: Under kan du finne ofte stilte spørsmål om køen.
     subscriptions:
       title: Abonnementer
-      listening-without-subscribing: Lytt til en episode uten å abonnere
+      listening-without-subscribing: Lytte til en episode uten å abonnere
       subscription-groups: Abonnementsetiketter (altså grupper eller kategorier)
-      intro: Nedenfor finner du ofte stilte spørsmål om abonnementer.
+      intro: Under kan du finne ofte stilte spørsmål om abonnementer.
     automation:
       title: Automasjon
-      intro: Erfaren bruker som vil automatisere oppgaver? Sjekk sidene nedenfor.
+      intro: Er du en erfaren bruker som vil automatisere oppgaver? Sjekk sidene nedenfor.
       deletion: Automatisk sletting
       feed-updates: Oppdateringer av informasjonskanaler
       tasker: Tredjepartsintegrasjon
-      refreshing-podcasts: Gjenoppfrisking av nettradioopptak
+      refreshing-podcasts: Oppdaterer podkaster
     podcasters-hosters:
-      intro: Nedenfor finner du brukerstøtteinfo for skapere av nettradioopptak og
-        vertstjenere.
+      intro: Under kan du finne brukerstøtteinfo for skapere av podkaster og tilbydere.
       add-on-antennapod: Lag en «Åpne i AntennaPod»-lenke
-      list-podcast: Opplisting av ditt nettradioopptak
-      title: For nettradioopptaksskapere og vertstjenere
+      list-podcast: Opplisting av dine podkaster
+      title: For podkastere og tilbydere
+      update-feed-urls: Oppdaterer nettadresser for strømmer
     bugs-first-aid:
-      title: Feil, problemer, og førstehjelp
+      title: Feil, problemer og førstehjelp
       bug-report: Noe fungerer ikke
       typo-translations: Jeg har funnet en skrivefeil
-      episodes-missing: En episode lar seg ikke laste ned
-      intro: Å lage programvare er et menneskelig håndtverk, så feil skjer. Det kan
-        alltid fikses.
-      database-error: Alle mine nettradioopptak og episoder er borte
+      episodes-missing: Gamle episoder mangler
+      intro: Å lage programvare er et menneskelig håndverk, så feil er uunngåelig.
+        Det kan alltid fikses!
+      database-error: Alle mine podkaster og episoder er borte
       cannot-stream-download: Kan ikke laste ned en episode
       playback-stops: Avspilling stopper plutselig
-      refresh-download-errors: Feil med nedlasting eller gjenoppfrisking av informasjonskanal
+      refresh-download-errors: Feil med nedlasting eller oppdatering av strøm
+      cannot-resume-playback: Kan ikke gjenoppta avspilling fra låseskjerm/varselfelt
   general:
-    introduction: Velkommen til dokumentasjonsdelen av AntennaPod. Her finner du info
-      om funksjoner.
+    introduction: Velkommen til dokumentasjonsdelen av AntennaPod. Denne delen tilbyr
+      informasjon om nåværende funksjoner.
     search-placeholder: Søk i dokumentasjonen
-    no-results: Resultatløst
+    no-results: Beklager. Fant ingenting
 footer:
-  description: Det enkle, fleksible og frie Android-programmet for nettradioopptak.
+  description: Det enkle, fleksible og åpen kildekode podkastbehandleren for Android.
 readtime:
-  singular: minutter å lese
-  plural: minutt å lese
+  singular: minutt å lese
+  plural: minutter å lese
 events:
   links:
     add-calendar: Legg til i kalenderen
-    watch-recording: Vis opptak
+    watch-recording: Se opptak
     open-blog: Les bloggpost
     open-map: Vis posisjon
     open-meeting: Åpent møte
-    more-information: Mer info
+    more-information: Mer informasjon
   general:
     recurring: Gjentagende begivenhet
     copy-url: Kopier kalendernettadresse
-    announce-add-calendar: Abonner på kalenderen for å ha de siste begivenhetene og
-      telefonnumre klare. Legg dem til i ditt favorittprogram med «Legg til i kalender»-lenken.
+    announce-add-calendar: Ønsker du å ha de seneste arrangementer og oppdaterte felleskapsmøter
+      tilgjengelig? Da kan du abonnere på kalenderen vår i favorittprogrammet ditt
+      med «Legg til i kalender»-lenken!
     download-ics: Last ned ICS-fil
   recurrence:
     every-2nd-saturday: hver andre søndag i måneden
