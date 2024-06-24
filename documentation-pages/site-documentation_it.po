@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 23:16+0200\n"
-"PO-Revision-Date: 2024-02-25 20:18+0000\n"
-"Last-Translator: ByteHamster <info@bytehamster.com>\n"
+"PO-Revision-Date: 2024-03-21 00:24+0000\n"
+"Last-Translator: Luca <salo.rock+weblate@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/antennapod/"
-"website-documentation/it/>\n"
+"website/documentation/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,8 +112,8 @@ msgid ""
 "regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
 "podcasts))."
 msgstr ""
-"Con AntennaPod, puoi specificare quali abbonamenti (feed di podcast) devono "
-"essere aggiornati regolarmente (vedi [Aggiornare i podcast](/documentation/"
+"Con AntennaPod puoi specificare le iscrizioni (feed di podcast) da "
+"aggiornare regolarmente (vedi [Aggiornare i podcast](/documentation/"
 "automation/refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
@@ -129,7 +129,7 @@ msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WiFi, then update AntennaPod feeds."
 msgstr ""
-"Aggiorna gli abbonamenti all'inizio della giornata: alle 7 del mattino, "
+"Aggiorna le iscrizioni all'inizio della giornata: alle 7 del mattino, "
 "accendi il Wi-Fi, poi aggiorna i feed di AntennaPod."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
@@ -137,8 +137,8 @@ msgid ""
 "Get your subscriptions before your ride home: at 5pm on weekdays update "
 "subscriptions."
 msgstr ""
-"Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro, ad es. "
-"alle 17:00 dei giorni feriali."
+"Aggiorna le tue iscrizioni prima del rientro a casa, ad es. alle 17:00 dei "
+"giorni feriali."
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
 msgid "General instructions"
@@ -151,8 +151,8 @@ msgid ""
 "intent) with the following settings:"
 msgstr ""
 "Nella tua applicazione di automazione, è possibile far sì che AntennaPod "
-"aggiorni gli abbonamenti mandando un messaggio in broadcast (può apparire "
-"come un tipo di intent di Android) con le seguenti impostazioni:"
+"aggiorni le iscrizioni mandando un messaggio in broadcast (può apparire come "
+"un tipo di intent di Android) con le seguenti impostazioni:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
@@ -199,7 +199,7 @@ msgstr "Crea una task. Nella task, aggiungi un'azione"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Select `System`"
-msgstr "Seleziona ` Sistema`"
+msgstr "Seleziona `Sistema`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Select `Send Intent`"
@@ -349,12 +349,23 @@ msgid ""
 "At that point AntennaPod can no longer work with the broken database and has "
 "to start over with an empty one."
 msgstr ""
+"In una versione molto vecchia di AntennaPod, erano presenti alcuni problemi "
+"con il database che contiene tutte le informazioni (episodi, stati di "
+"riproduzione, ecc.). Anche se la causa del problema è stata risolta da molto "
+"tempo, è possibile che il tuo database abbia subito dei danni (anche quando "
+"l'app funzionava senza problemi). Se una versione recente di AntennaPod "
+"modifica le parti danneggiate del database, questi danni potrebbero "
+"improvvisamente diventare un problema. A quel punto, AntennaPod non può più "
+"funzionare con il database danneggiato e deve ricominciare da capo con un "
+"nuovo database."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "We realize it is very frustrating when this happens and are really sorry if "
 "you were affected."
 msgstr ""
+"Capiamo che questo è molto frustrante e ci dispiace se sei stato colpito da "
+"questo problema."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (paragraph)
 msgid ""
@@ -367,7 +378,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -378,7 +388,10 @@ msgid ""
 msgstr ""
 "Hai [esportato un backup](/documentation/general/backup) da AntennaPod di "
 "recente? Allora ripristinarlo è relativamente facile: vai su `Impostazioni` "
-"» `Memoria` » `Importa/Esporta` » ` Importa database` e seleziona il backup."
+"» `Memoria` » `Importa/Esporta` » `Importa database` e seleziona il backup. "
+"Tieni presente che il backup potrebbe contenere la corruzione parziale, "
+"quindi ti consigliamo di seguire anche il secondo passaggio per risolvere "
+"definitivamente il problema."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -388,6 +401,11 @@ msgid ""
 "repair this file (or repair an exported backup) using one of the steps "
 "below. This is a challenge and requires learning how to deal with a terminal."
 msgstr ""
+"Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato "
+"CorruptedDatabaseBackup.db nella cartella di archiviazione dell'app. Puoi "
+"provare a riparare questo file (o un backup esportato) seguendo i passaggi "
+"qui sotto. Quest'operazione non è semplice e richiede di imparare a "
+"utilizzare un terminale."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -401,7 +419,7 @@ msgstr ""
 "Un membro della comunità [ha seguito questi passi](https://github.com/"
 "AntennaPod/AntennaPod/issues/2463#issuecomment-384088306) per riparare il "
 "database e [ha affermato](https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-404624614) che fatto questo era in grado di "
+"issues/2463#issuecomment-404624614) che, fatto questo, è stato in grado di "
 "importare con successo il database riparato."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
@@ -418,7 +436,7 @@ msgstr ""
 "il contenuto di quello corrotto](https://github.com/AntennaPod/AntennaPod/"
 "issues/2463#issuecomment-385341068), poi ha eseguito [un'altra correzione]"
 "(https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385354995). Dopo entrambi i passaggi, è riuscito a "
+"issues/2463#issuecomment-385354995). Dopo questi due passaggi, è riuscito a "
 "importare con successo il nuovo database in AntennaPod."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (ordered
@@ -427,8 +445,8 @@ msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
 "media files will still be there."
 msgstr ""
-"Mentre tutti i dati *sui* tuoi abbonamenti ed episodi sono spariti, i file "
-"multimediali saranno ancora presenti."
+"Mentre tutti i dati *riguardo* le tue iscrizioni e i tuoi episodi sono "
+"spariti, i file multimediali saranno ancora presenti."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 8 (unordered
 #: list)
@@ -441,8 +459,8 @@ msgid ""
 msgstr ""
 "In AntennaPod è possibile aggiungere una cartella come se fosse un feed. Per "
 "farlo, vai su `Aggiungi podcast` e tocca `Aggiungi cartella locale`. Poi vai "
-"a questa cartella nel tuo telefono: `Android` \" `data` \" `de.danoeh."
-"antennapod` \" `files` \" `media` e poi seleziona la cartella di un podcast. "
+"a questa cartella nel tuo telefono: `Android` » `data` » `de.danoeh."
+"antennapod` » `files` » `media` e poi seleziona la cartella di un podcast. "
 "Nota che questo ti darà accesso solo ai media precedentemente scaricati: non "
 "riceverai nuovi episodi."
 
@@ -454,7 +472,7 @@ msgid ""
 "to."
 msgstr ""
 "Puoi anche iniziare ad aggiungere i podcast precedenti da zero. Puoi "
-"guardare nella cartella di cui sopra per vedere a quali podcast eri abbonato."
+"guardare nella cartella di cui sopra per vedere a quali podcast eri iscritto."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 2
 #: (paragraph)
@@ -465,7 +483,7 @@ msgid ""
 "if it is no longer available on the publisher's site."
 msgstr ""
 "Le informazioni sugli episodi sono quindi prese direttamente dal sito web "
-"dell'editore. Quando sei abbonato a un podcast, AntennaPod copia e memorizza "
+"dell'editore. Quando sei iscritto a un podcast, AntennaPod copia e memorizza "
 "le informazioni su ogni nuovo episodio nell'applicazione. Queste "
 "informazioni vengono conservate anche se non sono più disponibili sul sito "
 "dell'editore."
@@ -481,7 +499,7 @@ msgid ""
 "information](https://datatracker.ietf.org/doc/html/rfc5005#section-3))."
 msgstr ""
 "Molti editori tengono online solo (informazioni su)gli episodi più recenti. "
-"Quindi, quando ti sei appena abbonato a un podcast, la tua installazione di "
+"Quindi, quando ti sei appena iscritto a un podcast, la tua installazione di "
 "AntennaPod non ha accesso alle informazioni sugli episodi precedenti. Per "
 "avere tutti gli episodi passati elencati nell'applicazione, puoi contattare "
 "il podcaster e chiedergli di (contattare il proprio host per) supportare i "
@@ -721,8 +739,8 @@ msgid ""
 "2. The podcast creators or their hosting company added the ads to their "
 "shownotes or audio file"
 msgstr ""
-"2. I creatori del podcast o la società di hosting hanno aggiunto le "
-"pubblicità alle loro note o al file audio"
+"2. I creatori del podcast o la loro società di hosting hanno aggiunto le "
+"pubblicità alle note dell'episodio o al file audio"
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
@@ -805,8 +823,8 @@ msgid ""
 "If you find these ads annoying, consider talking to the podcast creators "
 "about this."
 msgstr ""
-"Se trovate fastidiose queste pubblicità, prendete in considerazione l'idea "
-"di parlarne con i creatori dei podcast."
+"Se trovi fastidiose queste pubblicità, prendi in considerazione l'idea di "
+"parlarne con i creatori dei podcast."
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
@@ -865,7 +883,7 @@ msgid ""
 "another folder on your phone or somewhere else, because the original file "
 "will be deleted when you uninstall AntennaPod."
 msgstr ""
-"I file OPML permettono di trasferire i tuoi abbonamenti in un'altra app di "
+"I file OPML permettono di trasferire le tue iscrizioni in un'altra app di "
 "podcast. Perderai tutti i dati specifici dei podcast o degli episodi (ad "
 "esempio, quali episodi sono stati riprodotti) e tutte le impostazioni "
 "dell'applicazione. Per esportare il tuo file, vai su `Impostazioni` » "
@@ -882,8 +900,8 @@ msgid ""
 msgstr ""
 "Se importi il file in AntennaPod su un altro dispositivo, l'applicazione "
 "mostrerà una lista di podcast con caselle di controllo. I podcast "
-"selezionati da questo elenco saranno aggiunti ai tuoi abbonamenti esistenti. "
-"Nessuno dei tuoi abbonamenti esistenti sarà toccato."
+"selezionati da questo elenco saranno aggiunti alle tue iscrizioni esistenti. "
+"Nessuna delle tue iscrizioni esistenti sarà toccata."
 
 #: _i18n/en/documentation/general/beta.md:block 1 (paragraph)
 msgid ""
@@ -986,7 +1004,7 @@ msgid ""
 "**Central**: There is a central server (run by the company that develops the "
 "app) that checks for new episodes and then delivers them to you."
 msgstr ""
-"**Centralizzata**: C'è un server centrale (gestito dalla società che "
+"**Centralizzata**: c'è un server centrale (gestito dalla società che "
 "sviluppa l'applicazione) che controlla se ci sono nuovi episodi e li invia "
 "all'utente."
 
@@ -995,7 +1013,7 @@ msgid ""
 "**Distributed**: The app itself checks new episodes, directly from the "
 "podcast publishers."
 msgstr ""
-"**Distribuita**: L'applicazione stessa controlla se ci sono nuovi episodi, "
+"**Distribuita**: l'applicazione stessa controlla se ci sono nuovi episodi, "
 "direttamente dagli editori del podcast."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 3 (paragraph)
@@ -1039,7 +1057,7 @@ msgid ""
 "detriment of your privacy."
 msgstr ""
 "Noi, come sviluppatori dell'app, non sappiamo e non possiamo sapere a quali "
-"podcast sei abbonato, quali episodi potresti ascoltare, o anche a che ora lo "
+"podcast sei iscritto, quali episodi potresti ascoltare, o anche a che ora lo "
 "fai. Gli editori di app con un server centrale raccolgono questi dati, a "
 "scapito della tua privacy."
 
@@ -1080,13 +1098,14 @@ msgid ""
 "to regularly check all podcasts you are subscribed to."
 msgstr ""
 "D'altra parte, un modello distribuito significa che riceverai nuovi episodi "
-"solo quando aggiorni un podcast. In AntennaPod questo avviene di default "
-"ogni 12 ore, ma puoi impostare un controllo più o meno frequente e inoltre "
-"puoi sempre controllare manualmente se ci sono nuovi episodi. Un server "
-"centrale può controllare i nuovi episodi molto frequentemente o anche essere "
-"informato dagli host dei podcast in tempo reale. In questo modo anche le app "
-"possono ricevere i nuovi episodi molto più velocemente, senza dover "
-"controllare regolarmente tutti i podcast a cui sei abbonato."
+"solo quando aggiorni un podcast. In AntennaPod, per impostazione predefinita "
+"questo avviene ogni 12 ore, ma puoi impostare una frequenza maggiore o "
+"minore; inoltre, puoi sempre controllare manualmente se ci sono nuovi "
+"episodi. Un server centrale può controllare i nuovi episodi molto "
+"frequentemente o anche essere informato dagli host dei podcast in tempo "
+"reale. In quel modo, anche le app possono ricevere i nuovi episodi molto più "
+"velocemente, senza dover controllare regolarmente tutti i podcast a cui sei "
+"iscritto."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1145,16 +1164,15 @@ msgstr ""
 "(/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your sd card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Data folder`."
 msgstr ""
-"È possibile impostare che AntennaPod scarichi gli episodi sulla scheda SD "
-"invece che nella memoria interna. Questo ti permetterà di avere più spazio "
-"per gli episodi. Per selezionare la scheda di memoria, andare su "
-"`Impostazioni` » ` Memoria` » ` Scegli la cartella per i dati`."
+"È possibile impostare AntennaPod in modo da scaricare gli episodi sulla "
+"scheda SD invece che nella memoria interna. Questo ti permetterà di avere "
+"più spazio per gli episodi. Per selezionare la scheda di memoria, vai su "
+"`Impostazioni` » `Download` » ` Scegli la cartella per i dati`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -1179,21 +1197,23 @@ msgid ""
 "the SD card as internal storage. Else, there is nothing we can do to fix "
 "this."
 msgstr ""
-"Se stai usando Android 6+ (Marshmallow o più recente), puoi provare a "
-"formattare la scheda SD come memoria interna. Altrimenti, non c'è niente che "
-"possiamo fare per risolvere il problema."
+"Se stai usando da Android 6 in su, puoi provare a formattare la scheda SD "
+"come memoria interna. Altrimenti, non c'è niente che possiamo fare per "
+"risolvere il problema."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
 msgstr ""
+"Ti sei accorto che è uscita una nuova versione di AntennaPod e ti sei "
+"chiesto:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*why isn't the latest version not on F-Droid yet?*"
-msgstr ""
+msgstr "*perché l'ultima versione non è ancora disponibile su F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*when will the new release be available on F-Droid?*"
-msgstr ""
+msgstr "*quando sarà disponibile su F-Droid la nuova versione?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 3 (paragraph)
 msgid ""
@@ -1210,11 +1230,11 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid "In short: it may take some time. Please be patient."
-msgstr ""
+msgstr "In breve: ci può volere un po' di tempo. Porta pazienza."
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps of getting a new version on F-Droid"
-msgstr ""
+msgstr "I passaggi per far sì che una nuova versione arrivi su F-Droid"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (unordered list)
 msgid ""
@@ -1258,21 +1278,20 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (header)
 msgid "What you can do if it takes longer than expected"
-msgstr ""
+msgstr "Cosa puoi fare se ci vuole più tempo del previsto"
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "As you can see it can easily take a week before a new AntennaPod release is "
 "available on F-Droid. If an update is still not available more than a week "
 "after its release, feel free to let us know by creating a post on our [forum]"
 "(https://forum.antennapod.org/), and we'll investigate it."
 msgstr ""
-"Come potete vedere, può passare facilmente una settimana prima che una nuova "
-"versione di AntennaPod sia disponibile su F-Droid, quindi siate pazienti. Se "
-"un aggiornamento non è ancora disponibile dopo più di una settimana dal suo "
-"rilascio, non esitate a farcelo sapere creando un post sul nostro [forum]"
-"(https://forum.antennapod.org/), e indagheremo."
+"Come puoi vedere, può passare facilmente una settimana prima che una nuova "
+"versione di AntennaPod sia disponibile su F-Droid. Se un aggiornamento non è "
+"ancora disponibile più di una settimana dopo la sua pubblicazione, faccelo "
+"sapere creando un post sul nostro [forum](https://forum.antennapod.org/) e "
+"indagheremo."
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1296,26 +1315,30 @@ msgid ""
 "team of volunteers, and making the app for these other platforms would be a "
 "lot of work."
 msgstr ""
+"Per quanto il titolo possa suonare allettante, AntennaPod non è né sarà "
+"disponibile su Windows, iOS o Linux. L'app è creata da un piccolo team di "
+"volontari e renderla disponibile su queste altre piattaforme richiederebbe "
+"molto lavoro."
 
 #: _i18n/en/documentation/general/other-platforms.md:block 2 (paragraph)
 msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
 msgstr ""
+"Ciononostante, esistono alternative (open source) che ti segnaliamo "
+"volentieri:"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
-msgstr ""
+msgstr "App"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Do you have a recommendation of an open source podcast app for these "
 "platforms? [Let us know on the forum!](https://forum.antennapod.org)"
 msgstr ""
-"Non abbiamo informazioni su altre piattaforme, come puoi vedere. Saremo "
-"lieti di includerle qui se condividerai le tue osservazioni tramite il "
-"[forum](https://forum.antennapod.org/)."
+"Vuoi consigliare un'app di podcast open source per queste piattaforme? "
+"[Faccelo sapere sul forum!](https://forum.antennapod.org)"
 
 #: _i18n/en/documentation/general/proxy.md:block 1 (paragraph)
 msgid ""
@@ -1385,7 +1408,7 @@ msgid ""
 "synchronisation, you need a server - the central point through which your "
 "data is shared with other devices. You have several options for this:"
 msgstr ""
-"AntennaPod può sincronizzare gli abbonamenti e i progressi di ascolto con "
+"AntennaPod può sincronizzare le iscrizioni e il progresso di ascolto con "
 "altre installazioni di AntennaPod e con altre applicazioni (desktop). Per "
 "impostare la sincronizzazione, è necessario un server - il punto centrale "
 "attraverso il quale i dati vengono condivisi con altri dispositivi. A tal "
@@ -1468,25 +1491,23 @@ msgid "Create an account on the server www.gpodder.net or on your own server"
 msgstr "Crea un account sul server www.gpodder.net o sul tuo server"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
-#, fuzzy
 msgid "Select 'gPodder'"
-msgstr "Seleziona \"Nextcloud\""
+msgstr "Seleziona \"gPodder\""
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
-#, fuzzy
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
-"Inserisci l'\"indirizzo del server\" (l'URL o l'indirizzo IP del server) e "
-"tocca `Procedere`"
+"Inserisci l'indirizzo del server (per es. www.gpodder.net) e tocca `Effettua "
+"l'accesso`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
-msgstr ""
+msgstr "Inserisci nome utente e password e tocca `Accedi`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select the device that you created on the server"
-msgstr ""
+msgstr "Seleziona il dispositivo che hai creato sul server"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
 msgid ""
@@ -1508,7 +1529,6 @@ msgstr ""
 "chiesto di cambiare questo comportamento."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "First, you want to subscribe to a podcast. You can find more about that "
 "[here](/documentation/getting-started/subscribe). After subscribing, new "
@@ -1516,23 +1536,22 @@ msgid ""
 "to listen to them or not. If an episode is in the inbox, it means that you "
 "have not yet decided what to do with the episode."
 msgstr ""
-"Per prima cosa, devi abbonarti a un podcast. Puoi trovare maggiori "
+"Per prima cosa, devi iscriverti a un podcast. Puoi trovare maggiori "
 "informazioni su questo passaggio [qui](/documentation/getting-started/"
-"subscribe). Dopo l'abbonamento, i nuovi episodi vengono mostrati in "
-"`Episodi` » `Novità`. Lì puoi decidere se ascoltarli o no. `Nuovo` significa "
-"che non hai ancora deciso cosa fare con l'episodio."
+"subscribe). Dopo l'iscrizione, i nuovi episodi vengono mostrati in `Inbox`. "
+"Lì puoi decidere se vuoi ascoltarli o no. Se un episodio è nell'inbox, "
+"significa che non hai ancora deciso cosa farne."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "If you are not interested in an episode, just swipe it away to remove it "
 "from the inbox. The episode still stays marked as unplayed and you can find "
 "it on the `Episodes` page, as well as on the podcast's page."
 msgstr ""
-"Se non sei interessato a un episodio, toccalo e fai swipe verso destra: "
-"AntennaPod rimuoverà da esso l'etichetta `nuovo`. L'episodio rimarrà "
-"comunque contrassegnato come non riprodotto e potrai trovarlo nella pagina "
-"`Episodi` » `Tutti`, così come nella pagina del relativo podcast."
+"Se non sei interessato a un episodio, fallo scorrere velocemente con il dito "
+"per rimuoverlo dall'inbox. L'episodio rimarrà comunque contrassegnato come "
+"non riprodotto e potrai trovarlo nella pagina `Episodi` , così come nella "
+"pagina del relativo podcast."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1543,7 +1562,6 @@ msgstr ""
 "delle tue abitudini di ascolto."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "Download the episode. When downloading, AntennaPod also automatically adds "
 "the episode to the queue and removes it from the inbox. There is a setting "
@@ -1553,15 +1571,14 @@ msgid ""
 "popular, you can also use the second option."
 msgstr ""
 "Scaricare l'episodio. Durante il download, AntennaPod aggiunge "
-"automaticamente l'episodio alla coda e rimuove l'etichetta `nuovo`. È "
-"presente un'impostazione per far sì che i nuovi episodi vengano messi in "
-"coda in fondo, in cima o immediatamente dopo l'episodio in riproduzione. Il "
-"download è il modo principale in cui AntennaPod è stato originariamente "
-"progettato per essere utilizzato, ma, poiché lo streaming sta diventando "
-"sempre più diffuso, è possibile utilizzare anche la seconda opzione."
+"automaticamente l'episodio alla coda e lo rimuove dall'inbox. È presente "
+"un'impostazione per far sì che i nuovi episodi vengano messi in coda in "
+"fondo, in cima o immediatamente dopo l'episodio in riproduzione. AntennaPod "
+"è stato originariamente progettato per essere usato soprattutto con il "
+"download, ma, poiché lo streaming sta diventando sempre più diffuso, è "
+"possibile utilizzare anche la seconda opzione."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "Just add the episode to the queue. AntennaPod automatically removes it from "
 "the inbox and inserts it into the queue. You can later directly play the "
@@ -1571,15 +1588,14 @@ msgid ""
 "run, and makes fast forwarding a little bit slower."
 msgstr ""
 "Aggiungere semplicemente l'episodio alla coda. AntennaPod rimuove "
-"automaticamente l'etichetta `nuovo` e lo inserisce nella coda. In seguito è "
-"possibile riprodurre direttamente l'episodio senza doverlo scaricare, quindi "
-"senza occupare spazio. Pensa: riprodurre in streaming come i video su "
-"YouTube. Lo svantaggio è che l'episodio non sarà disponibile offline, "
-"consuma la tua connessione dati mobile quando sei in giro, e rende "
-"l'avanzamento veloce un po' più lento."
+"automaticamente l'episodio dall'inbox e lo inserisce nella coda. In seguito "
+"sarà possibile riprodurre direttamente l'episodio senza doverlo scaricare, "
+"quindi senza occupare spazio. Funziona allo stesso modo con cui "
+"riprodurresti un video su YouTube. Lo svantaggio è che l'episodio non sarà "
+"disponibile offline, consuma la tua connessione dati mobile quando sei in "
+"giro, e rende l'avanzamento veloce un po' più lento."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "If you are done playing, AntennaPod marks the episode as played and removes "
 "it from the queue. There is a setting to also automatically delete the "
@@ -1591,10 +1607,9 @@ msgstr ""
 "riprodotto e lo rimuove dalla coda. È presente un'impostazione per eliminare "
 "automaticamente il download dopo la riproduzione. Puoi trovare un elenco di "
 "tutti gli episodi che sono ancora scaricati sul tuo dispositivo (che siano "
-"nella coda o meno) nella pagina `Download` » `Completati`."
+"nella coda o meno) nella pagina `Download` ."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
-#, fuzzy
 msgid ""
 "If you like an episode and are thinking about listening to it again, you can "
 "also mark it as favorite. You can filter the `Episodes` page to show only "
@@ -1602,11 +1617,11 @@ msgid ""
 "playing."
 msgstr ""
 "Se ti piace un episodio e stai pensando di riascoltarlo, puoi anche "
-"aggiungerlo ai preferiti. Apparirà quindi nella pagina `Episodi` » "
-"`Preferiti` e (di default) non sarà eliminato dopo la riproduzione."
+"aggiungerlo ai preferiti. Puoi filtrare la pagina `Episodi` per mostrare "
+"solo i tuoi preferiti e (come impostazione predefinita) AntennaPod non "
+"eliminerà i preferiti dopo la riproduzione."
 
 #: _i18n/en/documentation/getting-started.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "In case you are subscribed to a really great podcast where you know from the "
 "beginning that all episodes will be great, you can use the auto-download "
@@ -1614,12 +1629,11 @@ msgid ""
 "automatically downloaded and added to the queue. They will automatically be "
 "removed from the inbox as soon as they are downloaded."
 msgstr ""
-"Nel caso in cui tu sia abbonato a un podcast davvero fantastico per il quale "
+"Nel caso in cui tu sia iscritto a un podcast davvero fantastico per il quale "
 "sai fin dall'inizio che tutti gli episodi saranno grandiosi, puoi usare la "
 "funzione di download automatico. Quando è abilitata per un podcast, tutti i "
 "nuovi episodi futuri vengono automaticamente scaricati e aggiunti alla coda. "
-"Saranno automaticamente rimossi dalla pagina `Episodi` » `Novità` non appena "
-"vengono scaricati."
+"Saranno automaticamente rimossi dall'inbox non appena vengono scaricati."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
 msgid ""
@@ -1627,11 +1641,11 @@ msgid ""
 "subscribe to a podcast."
 msgstr ""
 "La prima cosa da fare dopo aver scaricato un'applicazione per podcast è "
-"abbonarsi a un podcast."
+"iscriversi a un podcast."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 2 (header)
 msgid "Subscribing"
-msgstr "Abbonamenti"
+msgstr "Come iscriversi"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
 msgid ""
@@ -1651,13 +1665,12 @@ msgid ""
 "Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
 msgstr ""
 "In alternativa, puoi importare un file OPML o controllare solo il database "
-"di Apple Podcasts, gpodder.net, fyyd o Podcast Index rispettivamente. È "
-"supportato anche importare feed RSS o Atom, o schemi di URL come `pcast://` "
-"e `itpc://`."
+"di Apple Podcasts, gpodder.net, fyyd o Podcast Index rispettivamente. Puoi "
+"anche importare feed RSS o Atom, o schemi di URL come `pcast://` e `itpc://`."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 5 (header)
 msgid "Subscribing to third-party services"
-msgstr "Abbonarsi a servizi di terzi"
+msgstr "Iscriversi a servizi di terzi"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 6 (paragraph)
 msgid ""
@@ -1669,13 +1682,13 @@ msgid ""
 "implement this feature. If you're a developer, you're of course welcome to "
 "discuss a proposal that you'd be happy to implement."
 msgstr ""
-"Abbiamo ricevuto alcune richieste di aggiungere il supporto per piattaforme "
-"come SoundCloud, Mixcloud e simili. Sebbene potrebbe essere interessante "
-"avere una funzione per incollare/aprire semplicemente gli URL dei canali in "
-"AntennaPod, [è stato deciso](https://github.com/AntennaPod/AntennaPod/"
-"issues/1297) di non implementarla. Tali piattaforme possono nascere e "
+"Abbiamo ricevuto alcune domande sul supporto a piattaforme come SoundCloud, "
+"Mixcloud e simili. Anche se potrebbe essere interessante avere una funzione "
+"per incollare/aprire semplicemente gli URL dei canali in AntennaPod, [è "
+"stato deciso](https://github.com/AntennaPod/AntennaPod/issues/1297) di non "
+"implementarla. Le piattaforme di questo genere possono apparire e "
 "scomparire, mentre per i nostri volontari implementare questa funzionalità "
-"richiede un bel po' di lavoro. Se sei uno sviluppatore, naturalmente sei il "
+"richiede parecchio lavoro. Se sei uno sviluppatore, naturalmente sei il "
 "benvenuto se vuoi discutere una proposta che vorresti implementare tu stesso."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 7 (header)
@@ -1717,7 +1730,7 @@ msgstr "YouTube"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 12 (paragraph)
 msgid "YouTube allows you subscribe to a channel's feed, but:"
-msgstr "YouTube ti permette di abbonarti a un canale, ma:"
+msgstr "YouTube ti permette di iscriverti al feed di un canale, ma:"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 13 (unordered
 #: list)
@@ -1735,7 +1748,7 @@ msgid ""
 "You won't have an image connected to your subscription, as YouTube doesn't "
 "include it in the feeds."
 msgstr ""
-"Non avrai un'immagine collegata al tuo abbonamento, poiché YouTube non la "
+"Non avrai un'immagine collegata alla tua iscrizione, poiché YouTube non la "
 "include nei feed."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 14 (paragraph)
@@ -1757,7 +1770,7 @@ msgstr ""
 "di dialogo con l'opzione 'RSS'; tocca per aggiungere il feed. Se questo non "
 "funziona come descritto, aggiungi `https://www.youtube.com/feeds/videos.xml?"
 "channel_id=<CHANNEL_ID>` ad AntennaPod. Puoi trovare l'ID del canale "
-"nell'URL del canale. Se il canale a cui vuoi abbonarti è un account utente "
+"nell'URL del canale. Se il canale a cui vuoi iscriverti è un account utente "
 "(con un URL del tipo youtube.com/user/UserName), puoi contattare l'utente "
 "per chiedergli qual è il suo ID del canale (qui è spiegato [come gli utenti "
 "possono trovare il loro ID del canale](https://support.google.com/youtube/"
@@ -1929,7 +1942,7 @@ msgstr "Abbassa il volume"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`M`"
-msgstr "` M`"
+msgstr "`M`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Mute/unmute (toggle) - only on Android 6 and higher"
@@ -1977,11 +1990,16 @@ msgid ""
 "your website or wherever you want. Make sure to replace `xyz` with the URL "
 "of your RSS feed and `abc` with the title of your podcast."
 msgstr ""
+"Vuoi rendere più semplice per il tuo network o per il tuo pubblico "
+"aggiungere il tuo/i tuoi podcast su AntennaPod? Inserisci semplicemente un "
+"link come quello qui sotto sul tuo sito o dove vuoi. Assicurati di "
+"sostituire `xyz` con l'URL del tuo feed RSS e `abc` con il titolo del tuo "
+"podcast."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
 msgid "`https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`"
-msgstr ""
+msgstr "`https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 3
 #: (paragraph)
@@ -1992,6 +2010,12 @@ msgid ""
 "antennapod.org/rss.xml&title=Blog+Posts). If you need our logo, please have "
 "a look at our [branding repository](https://github.com/AntennaPod/branding)."
 msgstr ""
+"Gli utenti che hanno installato AntennaPod e aprono quel link potranno "
+"aprire gli episodi in anteprima e iscriversi al tuo podcast direttamente "
+"nella nostra app. Puoi visualizzare un esempio di questo tipo di pagina [qui]"
+"(/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). "
+"Se hai bisogno del nostro logo, dai un'occhiata al nostro [repository del "
+"branding](https://github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2108,7 +2132,7 @@ msgid ""
 "development platform](https://github.com/AntennaPod/AntennaPod/issues/4710)."
 msgstr ""
 "Attualmente non c'è modo di aggiungere un episodio alla coda senza "
-"abbonarsi. Puoi trovare maggiori informazioni nella [richiesta di "
+"iscriversi. Puoi trovare maggiori informazioni nella [richiesta di "
 "funzionalità sulla nostra piattaforma di sviluppo](https://github.com/"
 "AntennaPod/AntennaPod/issues/4710)."
 
@@ -2119,7 +2143,7 @@ msgid ""
 "subscribe to the podcast. There are some downsides of this workaround:"
 msgstr ""
 "C'è comunque un modo per **aprire in anteprima** un episodio senza doversi "
-"abbonare al podcast. Questo espediente presenta anche alcuni lati negativi:"
+"iscrivere al podcast. Questo espediente presenta anche alcuni lati negativi:"
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 3 (unordered list)
@@ -2147,12 +2171,12 @@ msgstr "Per aprire in anteprima un episodio:"
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 5 (unordered list)
 msgid "Do as if you were adding a subscription"
-msgstr "Fa' come se stessi aggiungendo un abbonamento"
+msgstr "Fa' come se stessi aggiungendo un'iscrizione"
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 5 (unordered list)
 msgid "Don't tap on subscribe but on the episode you want to listen"
-msgstr "Non toccare su \"Abbonati\" ma sull'episodio che vuoi ascoltare"
+msgstr "Non toccare su \"Iscriviti\" ma sull'episodio che vuoi ascoltare"
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 5 (unordered list)
@@ -2170,10 +2194,10 @@ msgid ""
 "multiple queues first. (See also the [feature request](https://github.com/"
 "AntennaPod/AntennaPod/issues/2648) on our development platform.)"
 msgstr ""
-"Per organizzare meglio le tue sottoscrizioni, puoi assegnare dei tag (a "
-"volte chiamati gruppi o categorie) a un podcast. Nota che per il momento non "
-"è possibile creare code sulla base dei tag. Questo richiederebbe prima il "
-"supporto per le code multiple. (Vedi anche la [richiesta di funzionalità]"
+"Per organizzare meglio le tue iscrizioni, puoi assegnare dei tag (a volte "
+"chiamati gruppi o categorie) a un podcast. Tieni presente che per il momento "
+"non è possibile creare code sulla base dei tag. Questo richiederebbe prima "
+"il supporto per le code multiple. (Vedi anche la [richiesta di funzionalità]"
 "(https://github.com/AntennaPod/AntennaPod/issues/2648) sulla nostra "
 "piattaforma di sviluppo.)"
 
@@ -2196,6 +2220,172 @@ msgstr "Tocca `l'icona dell'ingranaggio` per accedere alle sue impostazioni"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleziona l'opzione `Tag`"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
+#: (paragraph)
+msgid ""
+"In Android 13 and Android 14 it is not always possible to resume playback "
+"from the lock screen or media notification. This occurs specifically if "
+"playback has been paused for a while."
+msgstr ""
+"Su Android 13 e Android 14 non è sempre possibile riprendere la riproduzione "
+"dalla schermata di blocco o dai controlli multimediali. Nello specifico, "
+"potrebbe non essere possibile se la riproduzione è in pausa da un po' di "
+"tempo."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
+#: (paragraph)
+msgid ""
+"It currently is not clear why this issue occurs. We have established the "
+"same problem affects other apps, including Google's apps. We suspect, "
+"therefore, that this is an issue with Android."
+msgstr ""
+"Al momento la causa del problema non è chiara. Abbiamo verificato che lo "
+"stesso problema interessa anche altre app, tra cui quelle di Google. "
+"Pertanto, pensiamo che sia un bug di Android."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
+#: (header)
+msgid "Workaround"
+msgstr "Rimedio temporaneo"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
+#: (paragraph)
+msgid ""
+"In order to still be able to resume playback, you can add the so-called "
+"AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
+"see when you pull down from the top of the screen. You probably know the "
+"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
+"playback, even if playback has been paused for a while."
+msgstr ""
+"Per poter riprendere la riproduzione, puoi aggiungere la cosiddetta 'tile' "
+"di AntennaPod sul tuo dispositivo. Le tile sono i pulsanti che vedi quando "
+"scorri dall'alto verso il basso sul tuo schermo. Probabilmente hai già "
+"familiarità con la tile di internet o della torcia. La tile di AntennaPod ti "
+"permette di (ri)avviare e mettere in pausa la riproduzione, anche quando "
+"questa è in pausa da un po' di tempo."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
+#: (paragraph)
+msgid "To add the AntennaPod tile:"
+msgstr "Per aggiungere la tile di AntennaPod:"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Pull down twice** from the top of the screen, so you see the full buttons "
+"(below the brightness indicator)"
+msgstr ""
+"**Scorri verso il basso due volte**, in modo da vedere tutti i pulsanti (al "
+"di sotto dell'indicatore della luminosità)"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
+"tiles"
+msgstr ""
+"**Tocca l'icona della matita** in fondo alla sezione delle tile per "
+"modificarle"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
+"into the list of active tiles"
+msgstr ""
+"Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** "
+"verso l'alto nell'elenco di tile attive"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid "Tap the back arrow to exit the tile editing"
+msgstr "Tocca la freccia indietro per uscire dalla modalità di modifica tile"
+
+#: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
+msgid ""
+"If you are running Android 6 or newer, you can try formatting the SD card as "
+"internal storage. Else, there is nothing we can do to fix this."
+msgstr ""
+"Se stai usando da Android 6 in su, puoi provare a formattare la scheda SD "
+"come memoria interna. Altrimenti, non c'è niente che possiamo fare per "
+"risolvere il problema."
+
+#: _i18n/en/documentation/general/f-droid.md:block 3 (paragraph)
+msgid ""
+"If the new version is in beta, it is *only* available through Google Play "
+"([here is why](/documentation/general/beta)). When we think it's ready we "
+"upload it to Google Play. A few days later, when we're confident there are "
+"no critical bugs, we tag the release on GitHub. F-Droid then has to find out "
+"about this release, build it and make it available. All these steps may take "
+"some time. Due to the different steps and because we are not involved in "
+"publishing releases on F-Droid, we can't tell when exactly the latest "
+"version will be available there. It usually takes a few days after the "
+"release is tagged on GitHub."
+msgstr ""
+"Se la nuova versione è in beta, è disponibile *solo* attraverso Google Play "
+"([qui trovi il perché](/documentation/general/beta)). Quando riteniamo che "
+"sia pronta la carichiamo su Google Play. Qualche giorno dopo, quando siamo "
+"sicuri che non ci siano bug critici, tagghiamo la versione su GitHub. F-"
+"Droid deve quindi venire a conoscenza di questa versione, compilarla e "
+"renderla disponibile. Tutti questi passaggi possono richiedere un po' di "
+"tempo. Per via dei diversi passaggi e poiché non siamo coinvolti nella "
+"pubblicazione delle versioni su F-Droid, non possiamo sapere quando "
+"esattamente la versione più recente sarà disponibile su F-Droid. "
+"Generalmente ci vuole qualche giorno da quando la versione è stata taggata "
+"su GitHub."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
+#: (paragraph)
+msgid ""
+"When you change hoster, the URL of your RSS feed often changes as well. In "
+"this situation, we strongly recommend that you organize a proper 'redirect' "
+"from the old to the new feed with either of these HTTP response status codes:"
+msgstr ""
+"Quando cambi host, spesso anche l'URL del tuo feed RSS cambia. In questa "
+"situazione, sei caldamente incoraggiato a mettere in atto un "
+"'reindirizzamento' vero e proprio dal vecchio feed a quello nuovo attraverso "
+"uno di questi codici di stato di risposta HTTP:"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+msgstr ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+msgstr ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
+#: (paragraph)
+msgid ""
+"This way you make sure that AntennaPod users get this change applied in "
+"their app. Your audience will then continue to receive your episodes, "
+"without having to subscribe again to the new feed."
+msgstr ""
+"In questo modo, ti assicuri che gli utenti di AntennaPod ricevano questo "
+"cambiamento direttamente nella loro app. Il tuo pubblico continuerà così a "
+"ricevere i tuoi episodi senza doversi iscrivere nuovamente al nuovo feed."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
+#: (paragraph)
+msgid ""
+"Don't forget also to update your entry in [the directories](/documentation/"
+"podcasters-hosters/list-podcast) AntennaPod uses for its search "
+"functionality."
+msgstr ""
+"Non ti dimenticare di aggiornare anche la tua voce nelle [directory](/"
+"documentation/podcasters-hosters/list-podcast) che AntennaPod usa per la sua "
+"funzione di ricerca."
 
 #~ msgid ""
 #~ "Do you want to make it easy for your network or audience to add your "
