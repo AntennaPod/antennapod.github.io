@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:40+0200\n"
-"PO-Revision-Date: 2024-05-09 19:45+0000\n"
+"PO-Revision-Date: 2024-08-08 19:45+0000\n"
 "Last-Translator: VfBFan <VfBFan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website/general/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -396,7 +396,6 @@ msgid "What data the AntennaPod app might collect, store and process"
 msgstr "Daten, die von AntennaPod erfasst, gespeichert und verarbeitet werden"
 
 #: _i18n/en/general/privacy.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
 "includes for example the list of podcasts you follow, the app settings, and "
@@ -405,12 +404,12 @@ msgid ""
 "libraries or any 3rd party tracking (analytics) code, such as Google "
 "Analytics."
 msgstr ""
-"Die Anwendung erfasst nur Daten, die für die Funktion unbedingt erforderlich "
-"sind. Dazu gehören z. B. die Liste der Podcasts, denen du folgst, die "
-"Anwendungseinstellungen und Authentifizierungsdaten, die für bestimmte "
-"Podcasts oder Dienste (wie Synchronisierungsdienste) bereitgestellt werden. "
-"Die Anwendung enthält keine Werbebibliotheken oder Tracking- (Analyse-) "
-"Codes von Drittanbietern, wie z. B. Google Analytics."
+"Die App erfasst nur Daten, die für die Funktion unbedingt erforderlich sind. "
+"Dazu gehören z. B. die Liste der Podcasts, denen du folgst, die "
+"Appeinstellungen und Authentifizierungsdaten, die für bestimmte Podcasts "
+"oder Dienste (wie Synchronisierungsdienste) bereitgestellt werden. Die App "
+"enthält keine Werbebibliotheken oder Tracking-/(Analyse-)Codes von "
+"Drittanbietern, wie z. B. Google Analytics."
 
 #: _i18n/en/general/privacy.md:block 4 (paragraph)
 msgid ""
@@ -428,7 +427,6 @@ msgstr ""
 "werden können."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "The only case where your data from 3rd parties is handled, is when using a "
 "synchronization service if enabled via the settings. In that case, the app "
@@ -501,7 +499,6 @@ msgstr ""
 "Verbreitung von Feeds verwendet werden."
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
-#, fuzzy
 msgid ""
 "Discovery and search services: When opening the Discover screen in the app, "
 "it sends a call to Apple to collect podcast suggestions. They may store the "
@@ -515,18 +512,17 @@ msgid ""
 msgstr ""
 "Entdeckungs- und Suchdienste: Wenn du den Entdeckungsbildschirm in der App "
 "öffnest, werden Daten von Apple gesammelt, um Podcast-Vorschläge anzuzeigen. "
-"Apple könnte diese Abfrage protokollieren, einschließlich deines Landes "
-"(standardmäßig das Land deines Gerätes). Diese Vorschläge können deaktiviert "
-"werden, indem in der Regionsauswahl „Ausblenden“ gewählt wird. Wenn du die "
-"Suchfunktion in AntennaPod verwendest, könnten die Dienste PodcastIndex.org, "
-"iTunes, fyyd und gpodder.net deine Suchanfrage einschließlich der "
-"Suchbegriffe speichern. Zu den Suchanfragen gehören auch deine IP-Adresse, "
-"die Uhrzeit und der App-Name „AntennaPod“. Nach dem Abonnement wird der Feed "
-"vom Podcast-Hoster bereitgestellt, d. h. der Entdeckungs- bzw. Suchdienst "
-"ist nicht mehr beteiligt."
+"Apple könnte diese Abfrage protokollieren, einschließlich deines Landes ("
+"standardmäßig das Land deines Gerätes). Diese Vorschläge können deaktiviert "
+"werden, indem in der Regionsauswahl „Ausblenden“ ausgewählt wird. Wenn du "
+"die Suchfunktion in AntennaPod verwendest, könnten die Dienste "
+"PodcastIndex.org, iTunes, fyyd und gpodder.net deine Suchanfrage "
+"einschließlich der Suchbegriffe speichern. Zu den Suchanfragen gehören auch "
+"deine IP-Adresse, die Uhrzeit und der App-Name „AntennaPod“. Nach dem "
+"Abonnieren wird der Feed vom Podcast-Hoster bereitgestellt, d. h. der "
+"Entdeckungs- bzw. Suchdienst ist nicht mehr beteiligt."
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
-#, fuzzy
 msgid ""
 "Synchronization services: When enabled via the settings, AntennaPod "
 "synchronizes your data. This data may include login credentials, subscribed "
@@ -536,11 +532,10 @@ msgid ""
 msgstr ""
 "Synchronisierungsdienste: Wenn diese in den Einstellungen aktiviert werden, "
 "synchronisiert AntennaPod deine Daten. Diese Daten können "
-"Anmeldeinformationen, abonnierte Podcasts, gehörte Episoden, Wiedergabe-, "
-"Pause- und Favoritenaktionen mit Datums- und Zeitstempeln sowie deine IP-"
+"Anmeldeinformationen, abonnierte Podcasts, angehörte Episoden, Wiedergabe-, "
+"Pause- und Favoritenaktionen mit Datums- und Zeitstempeln sowie die IP-"
 "Adresse umfassen. Weitere Informationen findest du in den "
-"Datenschutzrichtlinien deines Anbieters (z. B. [gpodder.net's privacy policy]"
-"(https://gpodder.net/privacy) oder der deines Nextcloud-Hosts)."
+"Datenschutzrichtlinien deines Anbieters."
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
 msgid ""
@@ -712,13 +707,12 @@ msgstr ""
 "diesem Dokument veröffentlicht werden."
 
 #: _i18n/en/general/privacy.md:block 18 (paragraph)
-#, fuzzy
 msgid ""
 "This Privacy Policy was last updated on 2024-07-13. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"Diese Datenschutzrichtlinie wurde zuletzt am 13.02.2022 aktualisiert. Wenn "
-"du Fragen hast, öffne einen Beitrag auf GitHub oder in unserem Forum."
+"Diese Datenschutzrichtlinie wurde zuletzt am 13.07.2024 aktualisiert. Wenn "
+"du Fragen hast, öffne ein Issue auf GitHub oder in unserem Forum."
 
 #: _i18n/en/general/privacy.md:block 21 (paragraph)
 msgid ""
