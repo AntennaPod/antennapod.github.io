@@ -9,6 +9,7 @@ titles:
   license: Lisenssi
   privacy: Tietosuojakäytäntö
   events: Tapahtumat
+  media-kit: Mediapaketti
 generic:
   home: Koti
   download: Lataa
@@ -17,7 +18,9 @@ generic:
   learn: Opi lisää
   share: Jaa
   error: Virhe
-  redirect: Uudelleenohjaa
+  redirect:
+    title: Uudelleenohjaus
+    link: Napsauta tätä, jos uudelleenohjausta ei tehdä.
   subscribe: Tilaa
   page-not-found-short: Sivua ei löydy
   page-not-found-long: Pyydettyä sivua ei löytynyt.
@@ -38,6 +41,7 @@ generic:
     server: 'Syötä instanssin osoite: (esim. https://mastodon.social)'
   previous: Edellinen
   next: Seuraava
+  error404: Virhe 404
 month:
   Jan: Tam
   Feb: Hel
@@ -69,8 +73,12 @@ homepage:
   features:
     adfree:
       title: Mainokseton
+      description: AntennaPod-sovelluksessa itsessään ei ole mainoksia. Jos julkaisija
+        haluaa lisätä mainoksia mediatiedostoihinsa, hän saa itse niiden tuotot.
     listenanywhere:
       title: Kuuntele missä vain
+      description: AntennaPodilla voit ladata jaksoja ja kuunnella niitä missä tahansa.
+        Voit myös valita podcasteja automattisesti ladattaviksi.
 documentation:
   general:
     search-placeholder: Etsi dokumentaatiosta
@@ -78,18 +86,88 @@ documentation:
   categories:
     getting-started:
       subscribe: Tilaa podcast
+      title: Aloittaminen
     general:
       title: Yleinen
+      intro: Alla on lisätietoja AntennaPod-projektista.
+      episode-deletion: Jaksojen poistaminen
+      other-platforms: AntennaPod Windowsille, Applelle ja Linuxille
+      beta: Beetatestaus
+      ads: Mainoksista AntennaPodissa
+      external-storage: Ulkoisen tallennustilan käyttö
+      synchronization: Synkronointi laitteiden välillä
+      backup: Jaksojen varmuuskopiointi
+      proxy: Verkkoliikenteen kuljettaminen välityspalvelimen tai Tor-verkon kautta
+    subscriptions:
+      title: Tilaukset
+      intro: Alla on usein kysyttyjä kysymyksiä tilauksista.
+      listening-without-subscribing: Jakson kuunteleminen ilman tilausta
+    bugs-first-aid:
+      database-error: Kaikki podcastini ja jaksoni ovat kadonneet
+      cannot-stream-download: Jakson lataaminen ei onnistu
+      playback-stops: Toisto keskeytyy yhtäkkiä
+      bug-report: Jokin ei toimi
+      typo-translations: Löysin lyönti- tai kirjoitusvirheen
+      episodes-missing: Vanhoja jaksoja puuttuu
+      intro: Ohjelmistoja kehittävät ihmiset, joten virheitä sattuu. Niille voi kuitenkin
+        yleensä tehdä jotain!
+      refresh-download-errors: Latausvirhe tai syötteen päivitysvirhe
+      cannot-resume-playback: Toistoa ei voi jatkaa lukitusnäytöltä/ilmoituksesta
+    podcasters-hosters:
+      list-podcast: Oman podcastin lisääminen luetteloon
+      update-feed-urls: Syötteen verkko-osoitteiden päivittäminen
+      title: Podcastinpitäjille ja palvelujen ylläpitäjille
+      add-on-antennapod: Luo Avaa AntennaPodissa -linkki
+      intro: Alla on tukitietoja podcastinpitäjille ja palvelujen ylläpitäjille.
+    automation:
+      title: Automaatio
+      deletion: Automaattinen poistaminen
+      refreshing-podcasts: Podcastien päivittäminen
+      tasker: Integrointi muihin sovelluksiin
+    playback:
+      android-auto: Toisto autoissa (Android Auto)
+      intro: Alla on toistoon liittyviä aiheita.
+      auto-rewind: Automaattinen takaisinkelaus
+      title: Toisto
+      shortcuts: Fyysisen näppäimistön pikanäppäimet
+    queue:
+      multiple-queues: Useiden jonojen käyttäminen
+      intro: Alla on usein kysyttyjä kysymyksiä jonoista.
+      title: Jono
+      how-to-use: Jonon käyttäminen
 contribute:
   translate:
     title: Käännä
+    text: Puhutko jotakin muuta kieltä englannin lisäksi? Auta meitä kääntämään AntennaPod.
   donate:
     modal-title: Haluatko varmasti lahjoittaa?
     modal-button-donate: Lahjoita
     modal-button-contribute: Näytä osallistumisvaihtoehdot uudestaan
   test:
     title: Testaa
+    text: Oletko hyvä tuhoamaan? Ryhdy beetatestaajaksi.
   support:
     title: Tuki
+    text: Osaatko kertoa asioista selkeästi? Auta muita käyttäjiä foorumillamme.
   develop:
     title: Kehitä
+events:
+  links:
+    open-blog: Lue blogikirjoitus
+    open-meeting: Avoin kokous
+    watch-recording: Katso tallenne
+    add-calendar: Lisää kalenteriin
+    more-information: Lisätietoja
+    open-map: Näytä paikka
+  general:
+    recurring: Toistuva tapahtuma
+    copy-url: Kopioi kalenterin verkko-osoite
+    download-ics: Lataa ICS-tiedosto
+  recurrence:
+    every-2nd-saturday: kuukauden joka toinen lauantai
+    2nd-4th-wednesday: kuukauden (lähes) joka toinen ja neljäs keskiviikko
+footer:
+  description: Helppokäyttöinen ja joustava avoimen lähdekoodin podcastinhallintasovellus
+    Androidille.
+blog:
+  posted: Julkaistu
