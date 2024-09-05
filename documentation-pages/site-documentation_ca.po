@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-15 17:39+0200\n"
-"PO-Revision-Date: 2024-05-07 19:45+0000\n"
+"PO-Revision-Date: 2024-09-06 04:42+0000\n"
 "Last-Translator: Ander Romero <anderromeroaldana@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ca/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -25,10 +25,13 @@ msgid ""
 "fill up your phone's memory. If you notice some downloaded episodes being "
 "deleted, have a look at these two settings:"
 msgstr ""
+"AntennaPod fa servir diversos mecanismes per assegurar-se que els pòdcasts "
+"baixats no omplen la memòria del teu telèfon. Si noteu que s'han esborrat "
+"alguns episodis, feu un cop d'ull a aquestes dues configuracions:"
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Auto Delete"
-msgstr ""
+msgstr "Esborrat automàtic"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
@@ -36,12 +39,16 @@ msgid ""
 "deleted when playback completes (but not when manually marking an episode as "
 "'played')."
 msgstr ""
+"L'esborrat automàtic es troba a `Configuració` » `Baixades`. Un cop "
+"activada, els episodis se suprimeixen un cop s'han reproduït (però no si es "
+"marca un episodi com a «reproduït»)."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Episode Cleanup"
-msgstr ""
+msgstr "Neteja d'episodis"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
 "Episode Cleanup is located in `Settings` » `Network` » `Automatic Download`. "
 "If Automatic Download needs space for new episodes, it will delete old "
@@ -49,6 +56,11 @@ msgid ""
 "delay (x time after playback) or Episode. The setting `Episode Cache` "
 "determines the maximum amount of downloaded episodes."
 msgstr ""
+"La neteja d'episodis es troba a `Configuració` » `Baixades` » `Baixada "
+"automàtica`. Si la Baixada automàtica necessita més espai per a nous "
+"episodis, esborrarà els episodis vells que no siguin a la cua i no estiguin "
+"marcats com a preferits. Podeu afegir un retard (x temps després de la "
+"reproducció) o Episodi. La configuració ``"
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
