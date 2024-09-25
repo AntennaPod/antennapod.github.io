@@ -2,8 +2,8 @@
 title: "AntennaPod is participating in Hacktoberfest 2024 – Join us!"
 excerpt: Whether code or non-code, we welcome your contributions. With stickers for top contributors!
 date: "2024-10-24 08:00:00"
-image:
-author:
+image: "2024/hacktoberfest.png"
+author: keunes
 layout: blog
 guid: 5d919229-2fb6-4017-ba9d-b936f0229792
 ---
