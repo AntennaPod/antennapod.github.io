@@ -15,7 +15,7 @@ It’s that time of year again — **Hacktoberfest**! We’re happy to announce 
 
 [Hacktoberfest](https://hacktoberfest.com/) is an annual celebration of open-source software. It's a month-long event that encourages people from all around the world to contribute to open-source projects. Over the years, many AntennaPod contributors first got involved through Hacktoberfest, helping us make the app better for everyone.
 
-For example, @RafaB6n added a warning when manually refreshing a podcast when on mobile data ([#5462](https://github.com/AntennaPod/AntennaPod/pull/5462)). @Lukmannudin fixed several bugs and made the number in sleep timer window selected when you tap on the field, so it's easy to edit it ([#6131](https://github.com/AntennaPod/AntennaPod/pull/6131)). And @vinodpatildev brought multi-select actions to search results ([#6719](https://github.com/AntennaPod/AntennaPod/pull/6719)).
+For example, @RafaB6n added a warning when manually refreshing a podcast when on mobile data (#5462). @Lukmannudin fixed several bugs and made the number in sleep timer window selected when you tap on the field, so it's easy to edit it (#6131). And @vinodpatildev brought multi-select actions to search results (#6719).
 
 ### How to join Hacktoberfest with AntennaPod
 
