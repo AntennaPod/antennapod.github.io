@@ -158,7 +158,10 @@ msgid "Package name: `de.danoeh.antennapod`"
 msgstr "Nombre del paquete: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
-msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+#, fuzzy
+msgid ""
+"Class name: `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 "Nombre de la clase: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
@@ -181,8 +184,10 @@ msgid "Package to be `de.danoeh.antennapod`"
 msgstr "El paquete debe ser `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
-"Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+"Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 "La clase del receptor será `de.danoeh.antennapod.core.receiver."
 "FeedUpdateReceiver`"
@@ -208,8 +213,9 @@ msgid "Specify Package name to be `de.danoeh.antennapod`"
 msgstr "Especifica que el nombre del paquete sea `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#, fuzzy
 msgid ""
-"Specify Class name to be `de.danoeh.antennapod.core.receiver."
+"Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
 "Especifica que el nombre de la clase sea `de.danoeh.antennapod.core.receiver."
@@ -312,6 +318,68 @@ msgstr ""
 "Independientemente de la manera de la que contactes con nosotros, por favor "
 "incluye la información del sistema que se muestra en `Ajustes` » `Reportar "
 "un error`."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
+#: (paragraph)
+msgid ""
+"In Android 13 and Android 14 it is not always possible to resume playback "
+"from the lock screen or media notification. This occurs specifically if "
+"playback has been paused for a while."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
+#: (paragraph)
+msgid ""
+"It currently is not clear why this issue occurs. We have established the "
+"same problem affects other apps, including Google's apps. We suspect, "
+"therefore, that this is an issue with Android."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
+#: (header)
+msgid "Workaround"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
+#: (paragraph)
+msgid ""
+"In order to still be able to resume playback, you can add the so-called "
+"AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
+"see when you pull down from the top of the screen. You probably know the "
+"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
+"playback, even if playback has been paused for a while."
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
+#: (paragraph)
+msgid "To add the AntennaPod tile:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Pull down twice** from the top of the screen, so you see the full buttons "
+"(below the brightness indicator)"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
+"tiles"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
+"into the list of active tiles"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid "Tap the back arrow to exit the tile editing"
+msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -1192,10 +1260,10 @@ msgstr ""
 "configurado el hardware incorrectamente."
 
 #: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
-"If you are running Android 6+ (Marshmallow or newer), you can try formatting "
-"the SD card as internal storage. Else, there is nothing we can do to fix "
-"this."
+"If you are running Android 6 or newer, you can try formatting the SD card as "
+"internal storage. Else, there is nothing we can do to fix this."
 msgstr ""
 "Si está ejecutando Android 6+ (Marshmallow o más reciente), puede intentar "
 "formatear la tarjeta SD como almacenamiento interno. De lo contrario, no hay "
@@ -2082,6 +2150,44 @@ msgid ""
 msgstr ""
 "Si tu podcast está disponible en cualquiera de las tres, puede ser "
 "encontrado en AntennaPod."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
+#: (paragraph)
+msgid ""
+"When you change hoster, the URL of your RSS feed often changes as well. In "
+"this situation, we strongly recommend that you organize a proper 'redirect' "
+"from the old to the new feed with either of these HTTP response status codes:"
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
+#: (paragraph)
+msgid ""
+"This way you make sure that AntennaPod users get this change applied in "
+"their app. Your audience will then continue to receive your episodes, "
+"without having to subscribe again to the new feed."
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
+#: (paragraph)
+msgid ""
+"Don't forget also to update your entry in [the directories](/documentation/"
+"podcasters-hosters/list-podcast) AntennaPod uses for its search "
+"functionality."
+msgstr ""
 
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""

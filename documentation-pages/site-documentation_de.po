@@ -165,7 +165,10 @@ msgid "Package name: `de.danoeh.antennapod`"
 msgstr "Paketname: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
-msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+#, fuzzy
+msgid ""
+"Class name: `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr "Klassenname: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
@@ -187,8 +190,10 @@ msgid "Package to be `de.danoeh.antennapod`"
 msgstr "Paket zu `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
-"Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+"Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 "Empfängerklasse zu `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
@@ -213,8 +218,9 @@ msgid "Specify Package name to be `de.danoeh.antennapod`"
 msgstr "Gib als Paketname `de.danoeh.antennapod` an"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#, fuzzy
 msgid ""
-"Specify Class name to be `de.danoeh.antennapod.core.receiver."
+"Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
 "Gib als Klassenname `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver` "
@@ -589,9 +595,9 @@ msgstr ""
 "vor. Wenn du also gerade einen Podcast abonniert hast, hat AntennaPod keinen "
 "Zugriff auf Informationen über ältere Episoden. Um alle vergangenen Episoden "
 "in der App aufgelistet zu bekommen, kannst du dich an den Podcaster wenden "
-"und ihn bitten, „Paged Feeds“ ([technische Informationen](https://datatracker"
-".ietf.org/doc/html/rfc5005#section-3)) zu unterstützen (oder sich an seinen "
-"Hoster zu wenden)."
+"und ihn bitten, „Paged Feeds“ ([technische Informationen](https://"
+"datatracker.ietf.org/doc/html/rfc5005#section-3)) zu unterstützen (oder sich "
+"an seinen Hoster zu wenden)."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 1 (paragraph)
 msgid ""
@@ -778,10 +784,10 @@ msgid ""
 "forum.antennapod.org/c/translations/11). To do so you need to create an "
 "account (if you don't have one already) or simply log in via Google."
 msgstr ""
-"Du kannst einen Beitrag in der Rubrik [„Translations“ in unserem "
-"Forum](https://forum.antennapod.org/c/translations/11) erstellen. Um dies zu "
-"tun, musst du ein Konto erstellen (falls du noch keins hast) oder dich via "
-"Google anmelden."
+"Du kannst einen Beitrag in der Rubrik [„Translations“ in unserem Forum]"
+"(https://forum.antennapod.org/c/translations/11) erstellen. Um dies zu tun, "
+"musst du ein Konto erstellen (falls du noch keins hast) oder dich via Google "
+"anmelden."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
 msgid ""
@@ -1996,9 +2002,9 @@ msgid ""
 msgstr ""
 "Wenn du eine physische (Hardware-)Tastatur an dein Telefon oder Tablet "
 "angeschlossen hast, kannst du bestimmte Tastenkombinationen zur "
-"Wiedergabesteuerung in AntennaPod verwenden. Die Aktionen Lautstärke und ("
-"Aufheben der) Stummschaltung wirken sich auf den Audiokanal für Medien aus ("
-"und nicht etwa auf den für Benachrichtigungen)."
+"Wiedergabesteuerung in AntennaPod verwenden. Die Aktionen Lautstärke und "
+"(Aufheben der) Stummschaltung wirken sich auf den Audiokanal für Medien aus "
+"(und nicht etwa auf den für Benachrichtigungen)."
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 2 (header)
 msgid "All screens (except video player and the settings)"
@@ -2196,8 +2202,8 @@ msgid ""
 "[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
 "Status/301)"
 msgstr ""
-"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/"
-"301)"
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2205,8 +2211,8 @@ msgid ""
 "[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
 "Status/308)"
 msgstr ""
-"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/"
-"308)"
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
 #: (paragraph)
@@ -2280,10 +2286,10 @@ msgid ""
 "github.com/AntennaPod/AntennaPod/issues/2648) on GitHub for more information "
 "and / or subscribe to the issue to get updated in case of any developments."
 msgstr ""
-"Mehrfache Warteschlangen werden derzeit nicht unterstützt. Bitte beachte ["
-"Issue 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) auf GitHub "
-"und/oder abonniere es, um bei neuen Entwicklungen auf dem Laufenden zu "
-"bleiben."
+"Mehrfache Warteschlangen werden derzeit nicht unterstützt. Bitte beachte "
+"[Issue 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) auf "
+"GitHub und/oder abonniere es, um bei neuen Entwicklungen auf dem Laufenden "
+"zu bleiben."
 
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 1 (paragraph)

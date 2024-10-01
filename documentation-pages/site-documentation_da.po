@@ -158,7 +158,10 @@ msgid "Package name: `de.danoeh.antennapod`"
 msgstr "Pakkenavn: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
-msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+#, fuzzy
+msgid ""
+"Class name: `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr "Klassenavn: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
@@ -180,8 +183,10 @@ msgid "Package to be `de.danoeh.antennapod`"
 msgstr "Pakke skal være `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
-"Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+"Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 "Modtagerklasse skal være `de.danoeh.antennapod.core.receiver."
 "FeedUpdateReceiver`"
@@ -207,8 +212,9 @@ msgid "Specify Package name to be `de.danoeh.antennapod`"
 msgstr "Specificer at pakkenavn skal være `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#, fuzzy
 msgid ""
-"Specify Class name to be `de.danoeh.antennapod.core.receiver."
+"Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
 "Specificer at klassenavn skal være `de.danoeh.antennapod.core.receiver."
@@ -307,6 +313,85 @@ msgid ""
 msgstr ""
 "Uanset hvordan du kontakter os, bedes du angive de systemoplysninger, der "
 "vises i `Indstillinger` » `Rapportér fejl i appen`."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
+#: (paragraph)
+msgid ""
+"In Android 13 and Android 14 it is not always possible to resume playback "
+"from the lock screen or media notification. This occurs specifically if "
+"playback has been paused for a while."
+msgstr ""
+"I Android 13 og Android 14 er det ikke altid muligt at genoptage "
+"afspilningen fra låseskærmen eller medienotifikationen. Det sker især, hvis "
+"afspilningen har været sat på pause i et stykke tid."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
+#: (paragraph)
+msgid ""
+"It currently is not clear why this issue occurs. We have established the "
+"same problem affects other apps, including Google's apps. We suspect, "
+"therefore, that this is an issue with Android."
+msgstr ""
+"Det er i øjeblikket ikke klart, hvorfor dette problem opstår. Vi har "
+"konstateret, at det samme problem påvirker andre apps, herunder Googles "
+"apps. Vi mistænker derfor, at det er et problem med Android."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
+#: (header)
+msgid "Workaround"
+msgstr "Midlertidig løsning"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
+#: (paragraph)
+msgid ""
+"In order to still be able to resume playback, you can add the so-called "
+"AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
+"see when you pull down from the top of the screen. You probably know the "
+"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
+"playback, even if playback has been paused for a while."
+msgstr ""
+"For stadig at kunne genoptage afspilningen, kan du tilføje den såkaldte "
+"AntennaPod 'flise' på din enhed. Fliser er i bund og grund de knapper, du "
+"ser, når du trækker ned fra toppen af skærmen. Du kender sikkert internet- "
+"eller lommelygteflisen. AntennaPod-flisen giver dig mulighed for at afspille "
+"og sætte afspilningen på pause, selv hvis afspilningen har været sat på "
+"pause i et stykke tid."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
+#: (paragraph)
+msgid "To add the AntennaPod tile:"
+msgstr "For at tilføje AntennaPod-flisen:"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Pull down twice** from the top of the screen, so you see the full buttons "
+"(below the brightness indicator)"
+msgstr ""
+"**Træk ned to gange** fra toppen af skærmen, så du ser alle knapperne (under "
+"lysstyrkeindikatoren)"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
+"tiles"
+msgstr ""
+"**Tryk på blyantsikonet** i bunden af fliserne for at redigere fliserne"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
+"into the list of active tiles"
+msgstr ""
+"Scroll ned i listen over fliser, **tryk på AntennaPod-flisen, og træk den.** "
+"op i listen over aktive fliser"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid "Tap the back arrow to exit the tile editing"
+msgstr "Tryk på tilbage-pilen for at afslutte fliseredigering"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -1165,13 +1250,11 @@ msgstr ""
 
 #: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
 msgid ""
-"If you are running Android 6+ (Marshmallow or newer), you can try formatting "
-"the SD card as internal storage. Else, there is nothing we can do to fix "
-"this."
+"If you are running Android 6 or newer, you can try formatting the SD card as "
+"internal storage. Else, there is nothing we can do to fix this."
 msgstr ""
-"Hvis du kører Android 6+ (Marshmallow eller nyere), kan du prøve at "
-"formattere SD-kortet som intern lagringsplads. Ellers er der intet, vi kan "
-"gøre for at løse dette."
+"Hvis du kører Android 6+ eller nyere, kan du prøve at formattere SD-kortet "
+"som intern lagringsplads. Ellers er der intet, vi kan gøre for at løse dette."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
@@ -2035,6 +2118,57 @@ msgstr ""
 "Hvis din podcast er tilgængelig i et af dem, kan den findes frem i "
 "AntennaPod."
 
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
+#: (paragraph)
+msgid ""
+"When you change hoster, the URL of your RSS feed often changes as well. In "
+"this situation, we strongly recommend that you organize a proper 'redirect' "
+"from the old to the new feed with either of these HTTP response status codes:"
+msgstr ""
+"Når du skifter hoster, ændres URL'en til dit RSS-feed ofte også. I denne "
+"situation anbefaler vi på det kraftigste, at du organiserer en ordentlig "
+"'redirect' fra det gamle til det nye feed med en af disse HTTP-"
+"responsstatuskoder:"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+msgstr ""
+"[301 Flyttet permanent](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+msgstr ""
+"[308 Permanent omdirigering](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
+#: (paragraph)
+msgid ""
+"This way you make sure that AntennaPod users get this change applied in "
+"their app. Your audience will then continue to receive your episodes, "
+"without having to subscribe again to the new feed."
+msgstr ""
+"På den måde sikrer du, at AntennaPod-brugere får denne ændring i deres app. "
+"Dit publikum vil så fortsætte med at modtage dine episoder uden at skulle "
+"abonnere på det nye feed igen."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
+#: (paragraph)
+msgid ""
+"Don't forget also to update your entry in [the directories](/documentation/"
+"podcasters-hosters/list-podcast) AntennaPod uses for its search "
+"functionality."
+msgstr ""
+"Glem ikke også at opdatere din post i [katalogerne](/documentation/"
+"podcasters-hosters/list-podcast), som AntennaPod bruger til sin søgefunktion."
+
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
 "You can use the queue to store episodes that you plan to listen to. If you "
@@ -2185,143 +2319,14 @@ msgstr "Trykke på `gear` ikonet for at få adgang til dens indstillinger"
 msgid "Select the `Tags` setting"
 msgstr "Vælg indstillingen `Etiketter`"
 
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
-#: (paragraph)
-msgid ""
-"In Android 13 and Android 14 it is not always possible to resume playback "
-"from the lock screen or media notification. This occurs specifically if "
-"playback has been paused for a while."
-msgstr ""
-"I Android 13 og Android 14 er det ikke altid muligt at genoptage "
-"afspilningen fra låseskærmen eller medienotifikationen. Det sker især, hvis "
-"afspilningen har været sat på pause i et stykke tid."
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
-#: (paragraph)
-msgid ""
-"It currently is not clear why this issue occurs. We have established the "
-"same problem affects other apps, including Google's apps. We suspect, "
-"therefore, that this is an issue with Android."
-msgstr ""
-"Det er i øjeblikket ikke klart, hvorfor dette problem opstår. Vi har "
-"konstateret, at det samme problem påvirker andre apps, herunder Googles "
-"apps. Vi mistænker derfor, at det er et problem med Android."
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
-#: (header)
-msgid "Workaround"
-msgstr "Midlertidig løsning"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
-#: (paragraph)
-msgid ""
-"In order to still be able to resume playback, you can add the so-called "
-"AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
-"see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
-msgstr ""
-"For stadig at kunne genoptage afspilningen, kan du tilføje den såkaldte "
-"AntennaPod 'flise' på din enhed. Fliser er i bund og grund de knapper, du "
-"ser, når du trækker ned fra toppen af skærmen. Du kender sikkert internet- "
-"eller lommelygteflisen. AntennaPod-flisen giver dig mulighed for at afspille "
-"og sætte afspilningen på pause, selv hvis afspilningen har været sat på "
-"pause i et stykke tid."
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
-#: (paragraph)
-msgid "To add the AntennaPod tile:"
-msgstr "For at tilføje AntennaPod-flisen:"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
-msgstr ""
-"**Træk ned to gange** fra toppen af skærmen, så du ser alle knapperne (under "
-"lysstyrkeindikatoren)"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
-msgstr ""
-"**Tryk på blyantsikonet** i bunden af fliserne for at redigere fliserne"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
-msgstr ""
-"Scroll ned i listen over fliser, **tryk på AntennaPod-flisen, og træk den.** "
-"op i listen over aktive fliser"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
-msgstr "Tryk på tilbage-pilen for at afslutte fliseredigering"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
-#: (paragraph)
-msgid ""
-"When you change hoster, the URL of your RSS feed often changes as well. In "
-"this situation, we strongly recommend that you organize a proper 'redirect' "
-"from the old to the new feed with either of these HTTP response status codes:"
-msgstr ""
-"Når du skifter hoster, ændres URL'en til dit RSS-feed ofte også. I denne "
-"situation anbefaler vi på det kraftigste, at du organiserer en ordentlig "
-"'redirect' fra det gamle til det nye feed med en af disse HTTP-"
-"responsstatuskoder:"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
-#: (unordered list)
-msgid ""
-"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
-msgstr ""
-"[301 Flyttet permanent](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
-#: (unordered list)
-msgid ""
-"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
-msgstr ""
-"[308 Permanent omdirigering](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
-#: (paragraph)
-msgid ""
-"This way you make sure that AntennaPod users get this change applied in "
-"their app. Your audience will then continue to receive your episodes, "
-"without having to subscribe again to the new feed."
-msgstr ""
-"På den måde sikrer du, at AntennaPod-brugere får denne ændring i deres app. "
-"Dit publikum vil så fortsætte med at modtage dine episoder uden at skulle "
-"abonnere på det nye feed igen."
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
-#: (paragraph)
-msgid ""
-"Don't forget also to update your entry in [the directories](/documentation/"
-"podcasters-hosters/list-podcast) AntennaPod uses for its search "
-"functionality."
-msgstr ""
-"Glem ikke også at opdatere din post i [katalogerne](/documentation/"
-"podcasters-hosters/list-podcast), som AntennaPod bruger til sin søgefunktion."
-
-#: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
-msgid ""
-"If you are running Android 6 or newer, you can try formatting the SD card as "
-"internal storage. Else, there is nothing we can do to fix this."
-msgstr ""
-"Hvis du kører Android 6+ eller nyere, kan du prøve at formattere SD-kortet "
-"som intern lagringsplads. Ellers er der intet, vi kan gøre for at løse dette."
+#~ msgid ""
+#~ "If you are running Android 6+ (Marshmallow or newer), you can try "
+#~ "formatting the SD card as internal storage. Else, there is nothing we can "
+#~ "do to fix this."
+#~ msgstr ""
+#~ "Hvis du kører Android 6+ (Marshmallow eller nyere), kan du prøve at "
+#~ "formattere SD-kortet som intern lagringsplads. Ellers er der intet, vi "
+#~ "kan gøre for at løse dette."
 
 #~ msgid ""
 #~ "Do you want to make it easy for your network or audience to add your "
