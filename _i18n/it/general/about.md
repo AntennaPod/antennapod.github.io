@@ -12,18 +12,18 @@ Ma allo stesso tempo, non preoccuparti. Siamo aperti a introdurre nuove funziona
 
 Così come altre ottime applicazioni come Firefox e Signal, AntennaPod è open source. Ciò significa che chiunque può esaminare il codice che sta dietro l'app e contribuirvi. E che AntennaPod è disponibile su [F-Droid](https://www.f-droid.org/packages/de.danoeh.antennapod/), l'app store open source e rispettoso della privacy.
 
-In questo modo, puoi stare sicuro (o puoi verificare tu stesso) che non stiamo raccogliendo nessun dato di nascosto. E, poiché AntennaPod è creata da volontari, non abbiamo bisogno di disturbarti con inserzioni pubblicitarie mentre utilizzi l'app.
+In questo modo, puoi stare sicuro (o puoi verificare tu stesso) che non stiamo raccogliendo nessun dato di nascosto. E, poiché AntennaPod è creato da volontari, non abbiamo bisogno di disturbarti con inserzioni pubblicitarie mentre utilizzi l'app.
 
-## Mantenere l'ecosistema di podcasting aperto
+## Mantenere aperto l'ecosistema del podcasting
 
-Sosteniamo un ecosistema di podcasting aperto. Un ecosistema che
+Sosteniamo un ecosistema del podcasting aperto. Un ecosistema che
 
 * sostiene la libertà di espressione,
 * ricompensa i podcaster per il loro lavoro creativo,
-* protegge gli ascoltatori da contenuti inaccessibili su [piattaforme chiuse](https://en.wikipedia.org/wiki/Walled_garden_(technology), e
-* permette agli utenti di usare e passare da un'app all'altra senza alcun [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
+* protegge gli ascoltatori da contenuti inaccessibili su [piattaforme chiuse](https://en.wikipedia.org/wiki/Closed_platform), e
+* permette agli utenti di usare e passare da un'app all'altra senza alcun [vendor lock-in](https://it.wikipedia.org/wiki/Vendor_lock-in).
 
-In pratica, questo significa che puoi abbonarti a qualsiasi feed RSS esistente, che ti rendiamo più facile sostenere (finanziariamente) i podcaster, e che puoi sincronizzare, importare ed esportare i tuoi dati.
+In pratica, questo significa che puoi iscriverti a qualsiasi feed RSS esistente, che ti rendiamo più facile sostenere (finanziariamente) i podcaster, e che puoi sincronizzare, importare ed esportare i tuoi dati.
 
 ## Ti ascoltiamo: comunità e accessibilità
 

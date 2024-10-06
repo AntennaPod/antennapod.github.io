@@ -14,7 +14,7 @@ loc="/assets/images/documentation" file="translation-resources-transifex.png" %}
 
 loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
 
-Su una [popolazione mondiale stimata](https://it.wikipedia.org/wiki/Popolazione_mondiale) di 7,9 miliardi di persone, "solo" 1,5 miliardi di esse [parlano inglese](https://www.ethnologue.com/insights/ethnologue200/). Questo potrebbe non significare molto di per sé. Ma, se non altro, da ciò possiamo concludere che rendere AntennaPod disponibile in più lingue fa sì che l'applicazione sia accessibile a più persone. Come beneficio collaterale, la localizzazione dell'applicazione aiuta anche il nostro progetto a crescere oltre le attuali basi di utenti principali (Germania e Stati Uniti).
+Su una [popolazione mondiale stimata](https://it.wikipedia.org/wiki/Popolazione_mondiale) di 7,9 miliardi di persone, "solo" 1,5 miliardi di esse [parlano inglese](https://www.ethnologue.com/insights/ethnologue200/). Questo potrebbe non significare molto di per sé. Ma, se non altro, da ciò possiamo concludere che rendere AntennaPod disponibile in più lingue fa sì che l'applicazione sia accessibile a più persone. Come beneficio collaterale, la localizzazione dell'applicazione aiuta anche il nostro progetto a crescere oltre gli attuali bacini principali di utenti (Germania e Stati Uniti).
 
 Perciò apprezziamo molto il tuo aiuto!
 
@@ -22,7 +22,7 @@ Perciò apprezziamo molto il tuo aiuto!
 
 Per aiutare a tradurre l'applicazione, ti chiediamo di contribuire tramite [Transifex](https://www.transifex.com/antennapod/antennapod/). Chiunque può iscriversi e iniziare. Transifex ha guide utili per [iniziare a lavorare sulla piattaforma](https://docs.transifex.com/getting-started-1/translators) e per [familiarizzarsi con l'interfaccia del Web Editor](https://docs.transifex.com/translation/translating-with-the-web-editor).
 
-All'interno del progetto AntennaPod troverete tre 'risorse':
+All'interno del progetto AntennaPod troverai tre 'risorse':
 
 - L'applicazione stessa
 - La descrizione breve, in una frase, per gli app store
@@ -32,7 +32,7 @@ All'interno del progetto AntennaPod troverete tre 'risorse':
 
 L'app è attualmente disponibile in 34 lingue. Anche se ci sono più lingue su Transifex, non le includiamo tutte nell'app. Cerchiamo di mantenere una [soglia di completamento del 40%](https://github.com/AntennaPod/AntennaPod/pull/4112) per le lingue. Se la traduzione si trova al di sotto di questa soglia, è difficile che l'app possa fornire una buona esperienza utente.
 
-Le nuove traduzioni sono trasferite da Transifex a GitHub (la piattaforma di sviluppo) almeno ogniqualvolta viene rilasciata una nuova versione con modifiche significative. Si tratta ad es. delle versioni numerate 2.0, 2.5, ecc. che introducono nuove funzionalità. Ma tra l'una e l'altra rilasciamo anche aggiornamenti per correggere bug e inserire nuove parti tradotte. In media, potrebbe volerci un mese o due prima che il tuo lavoro venga reso disponibile in una release.
+Le nuove traduzioni sono trasferite da Transifex a GitHub (la piattaforma di sviluppo) almeno ogniqualvolta viene rilasciata una nuova versione con modifiche significative. Si tratta ad es. delle versioni numerate 2.0, 2.5, ecc. che introducono nuove funzionalità. Ma tra l'una e l'altra rilasciamo anche aggiornamenti per correggere bug e inserire nuove parti tradotte. In media, potrebbe volerci un mese o due prima che il tuo lavoro venga reso disponibile in una nuova versione.
 
 I collaboratori alla traduzione verranno menzionati nell'applicazione con il loro nome utente Transifex, sotto `Impostazioni` » `Informazioni` » `Contributori`.
 
@@ -48,7 +48,7 @@ Le nuove traduzioni sono trasferite da Weblate a GitHub (la piattaforma di svilu
 
 # Altri materiali
 
-Oltre all'app e al sito web, anche le immagini negli app store possono essere tradotte. Contengono schermate e testi. Poiché lo spazio è molto limitato, usiamo un processo manuale con tentativi ed errori. Fateci sapere sul forum se volete aiutarci in questo. Poiché le inserzioni localizzate negli app store hanno più probabilità di essere scaricate, l'aiuto è molto gradito!
+Oltre all'app e al sito web, anche le immagini negli app store possono essere tradotte. Contengono schermate e testi. Poiché lo spazio è molto limitato, usiamo un processo manuale con tentativi ed errori. Se vuoi darci una mano, faccelo sapere sul forum. Poiché le inserzioni localizzate negli app store hanno più probabilità di essere scaricate, ogni aiuto è molto gradito!
 
 # Mettiti in contatto!
 

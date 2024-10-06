@@ -8,4 +8,4 @@ Liegt das Problem bei der **englischen Fassung**? Dann musst du mit GitHub vertr
 
 # Du möchtest uns nur informieren?
 
-Du kannst einen Beitrag in der Rubrik [„translations“ in unserem Forum](https://forum.antennapod.org/c/translations/11) erstellen. Um dies zu tun, musst du ein Konto erstellen (falls du noch keins hast) oder dich via Google anmelden.
+Du kannst einen Beitrag in der Rubrik [„Translations“ in unserem Forum](https://forum.antennapod.org/c/translations/11) erstellen. Um dies zu tun, musst du ein Konto erstellen (falls du noch keins hast) oder dich via Google anmelden.

@@ -6,7 +6,7 @@ Das Erste, was du nach dem Herunterladen einer Podcast-App tun solltest, ist, ei
 
 Alternativ kannst du auch eine OPML-Datei importieren oder nur die Apple Podcasts-, gpodder.net-, fyyd- bzw. Podcast-Index-Datenbank durchsuchen. Das Importieren von RSS- oder Atom-Feeds oder URL-Schemata wie `pcast://` und `itpc://` funktioniert ebenfalls.
 
-## Abonnieren von Diensten Dritter
+## Abonnieren von Dritteranbieter-Diensten
 
 Wir haben einige Fragen zur Unterstützung von Plattformen wie SoundCloud, Mixcloud und ähnlichen. Obwohl es cool wäre, eine Funktion zu haben, mit der man Kanal-Adressen einfach in AntennaPod einfügen/öffnen kann, [wurde beschlossen](https://github.com/AntennaPod/AntennaPod/issues/1297), diese nicht zu implementieren. Solche Plattformen können kommen und gehen, während es für unsere Freiwilligen eine Menge Arbeit ist, diese Funktion zu implementieren. Wenn du ein Entwickler bist, laden wir dich natürlich gerne ein, Vorschläge zu diskutieren, die du gerne umsetzen würdest.
 

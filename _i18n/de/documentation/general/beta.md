@@ -18,6 +18,6 @@ loc="/assets/images/documentation" file="project-beta.png" %}
 
 ## F-Droid
 
-Wir bieten derzeit keine Beta-Versionen in F-Droid an.
+Wir bieten derzeit keine Beta-Versionen auf F-Droid an.
 
 Das liegt daran, dass F-Droid [nicht](https://gitlab.com/fdroid/fdroidserver/-/issues/161) automatisch Beta-Versionen erkennt. Das Hinzufügen von Beta-Versionen zu F-Droid würde einen manuellen Eingriff für jede Beta-Version erfordern. Wenn etwas Wichtiges behoben wird, muss eine Aktualisierung sofort erfolgen. Leider kann dies nicht garantiert werden.

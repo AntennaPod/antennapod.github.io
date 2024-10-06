@@ -1,14 +1,14 @@
-La prima cosa da fare dopo aver scaricato un'applicazione per podcast è abbonarsi a un podcast.
+La prima cosa da fare dopo aver scaricato un'applicazione per podcast è iscriversi a un podcast.
 
-## Abbonamenti
+## Come iscriversi
 
 Apri il menù laterale scorrendo col dito da sinistra a destra o toccando l'icona `☰` in alto a sinistra. Vai su `+ Aggiungi Podcast`. Da qui puoi fare una ricerca, sfogliare i suggerimenti o aggiungere un podcast inserendo il suo indirizzo RSS.
 
-In alternativa, puoi importare un file OPML o controllare solo il database di Apple Podcasts, gpodder.net, fyyd o Podcast Index rispettivamente. È supportato anche importare feed RSS o Atom, o schemi di URL come `pcast://` e `itpc://`.
+In alternativa, puoi importare un file OPML o controllare solo il database di Apple Podcasts, gpodder.net, fyyd o Podcast Index rispettivamente. Puoi anche importare feed RSS o Atom, o schemi di URL come `pcast://` e `itpc://`.
 
-## Abbonarsi a servizi di terzi
+## Iscriversi a servizi di terzi
 
-Abbiamo ricevuto alcune richieste di aggiungere il supporto per piattaforme come SoundCloud, Mixcloud e simili. Sebbene potrebbe essere interessante avere una funzione per incollare/aprire semplicemente gli URL dei canali in AntennaPod, [è stato deciso](https://github.com/AntennaPod/AntennaPod/issues/1297) di non implementarla. Tali piattaforme possono nascere e scomparire, mentre per i nostri volontari implementare questa funzionalità richiede un bel po' di lavoro. Se sei uno sviluppatore, naturalmente sei il benvenuto se vuoi discutere una proposta che vorresti implementare tu stesso.
+Abbiamo ricevuto alcune domande sul supporto a piattaforme come SoundCloud, Mixcloud e simili. Anche se potrebbe essere interessante avere una funzione per incollare/aprire semplicemente gli URL dei canali in AntennaPod, [è stato deciso](https://github.com/AntennaPod/AntennaPod/issues/1297) di non implementarla. Le piattaforme di questo genere possono apparire e scomparire, mentre per i nostri volontari implementare questa funzionalità richiede parecchio lavoro. Se sei uno sviluppatore, naturalmente sei il benvenuto se vuoi discutere una proposta che vorresti implementare tu stesso.
 
 ### SoundCloud
 
@@ -20,11 +20,11 @@ Purtroppo Mixcloud non offre questa opzione per i creatori di contenuti. Come se
 
 ### YouTube
 
-YouTube ti permette di abbonarti a un canale, ma:
+YouTube ti permette di iscriverti al feed di un canale, ma:
 
 - AntennaPod non può scaricare automaticamente i video, perché YouTube non lo permette. Mostrare inserzioni pubblicitarie è il loro modello di business, dopo tutto.
-- Non avrai un'immagine collegata al tuo abbonamento, poiché YouTube non la include nei feed.
+- Non avrai un'immagine collegata alla tua iscrizione, poiché YouTube non la include nei feed.
 
-Ma è un modo per essere avvisati dei nuovi episodi. Basta aggiungere l'URL dell'utente/canale (`https://www.youtube.com/user/USERNAME` o `https://www.youtube.com/channel/CHANNEL_ID`) in AntennaPod. Dovresti vedere una finestra di dialogo con l'opzione 'RSS'; tocca per aggiungere il feed. Se questo non funziona come descritto, aggiungi `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>` ad AntennaPod. Puoi trovare l'ID del canale nell'URL del canale. Se il canale a cui vuoi abbonarti è un account utente (con un URL del tipo youtube.com/user/UserName), puoi contattare l'utente per chiedergli qual è il suo ID del canale (qui è spiegato [come gli utenti possono trovare il loro ID del canale](https://support.google.com/youtube/answer/3250431?hl=it)).
+Ma è un modo per essere avvisati dei nuovi episodi. Basta aggiungere l'URL dell'utente/canale (`https://www.youtube.com/user/USERNAME` o `https://www.youtube.com/channel/CHANNEL_ID`) in AntennaPod. Dovresti vedere una finestra di dialogo con l'opzione 'RSS'; tocca per aggiungere il feed. Se questo non funziona come descritto, aggiungi `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>` ad AntennaPod. Puoi trovare l'ID del canale nell'URL del canale. Se il canale a cui vuoi iscriverti è un account utente (con un URL del tipo youtube.com/user/UserName), puoi contattare l'utente per chiedergli qual è il suo ID del canale (qui è spiegato [come gli utenti possono trovare il loro ID del canale](https://support.google.com/youtube/answer/3250431?hl=it)).
 
 Non abbiamo informazioni su altre piattaforme, come puoi vedere. Saremo lieti di includerle qui se condividerai le tue osservazioni tramite il [forum](https://forum.antennapod.org/).

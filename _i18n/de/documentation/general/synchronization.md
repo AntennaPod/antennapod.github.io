@@ -19,7 +19,7 @@ AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen Antenna
 * [gpodder.net](https://gpodder.net/) bietet einen kostenlosen gPodder-Synchronisations-Server an, für den sich **jeder anmelden kann**. Leider ist dieser Server aufgrund der Beliebtheit des Dienstes und seiner begrenzten Finanzierung oft überlastet, was zu Fehlern in AntennaPod führt.
 * Technisch versierteren Benutzern wird dringend empfohlen, **selbst einen Synchronisations-Server zu betreiben**. Ein selbst betriebener Server ist zuverlässiger und trägt dazu bei, die Belastung der kostenlosen öffentlichen Dienste zu verringern. Es gibt mehrere Optionen: [Nextcloud](https://nextcloud.com/install/#instructions-server) mit der [gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync), ein vollständiger [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)-Server oder der [Micro-GPodder-Server](https://github.com/bohwaz/micro-gpodder-server).
 
-## Die Synchronisierung per Nextcloud aktivieren
+## Synchronisierung per Nextcloud aktivieren
 
 1. Wenn du ein Nextcloud-Konto hast, installiere die gPodder-Sync-App oder bitten deinen Server-Administrator, dies zu tun
 1. Öffne `Einstellungen` » `Synchronisation` in AntennaPod und tippe auf `Anbieter für Synchronisierung auswählen`
@@ -27,7 +27,7 @@ AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen Antenna
 1. Gib die „Server-Adresse“ (die URL oder IP-Adresse des Servers) ein und tippe auf `Weiter zur Anmeldung`
 1. Melde dich in dem sich öffnenden Browserfenster an und autorisiere AntennaPod
 
-## Aktiviere die Synchronisierung per gPodder
+## Synchronisierung per gPodder aktivieren
 
 1. Erstelle ein Konto auf gpodder.net oder melde dich an, solltest du bereits eines haben
 1. When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices | strip }}

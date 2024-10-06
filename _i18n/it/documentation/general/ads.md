@@ -6,7 +6,7 @@ Se vedi delle pubblicità, ci possono essere due motivi:
 
 AntennaPod è open source. Questo significa che chiunque può scaricarne il codice sorgente. Sfortunatamente, alcuni sviluppatori prendono AntennaPod, inseriscono delle pubblicità e poi lo pubblicano come una nuova app. Puoi installare l'app ufficiale di AntennaPod da [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) o [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Puoi anche ottenere l'ultima versione da [GitHub](https://github.com/AntennaPod/AntennaPod/) e compilare tu stesso AntennaPod!
 
-### 2. I creatori del podcast o la società di hosting hanno aggiunto le pubblicità alle loro note o al file audio
+### 2. I creatori del podcast o la loro società di hosting hanno aggiunto le pubblicità alle note dell'episodio o al file audio
 
 AntennaPod riproduce i podcast esattamente come sono stati pubblicati dai loro creatori. Se questi includono annunci pubblicitari, AntennaPod li riproduce. Non abbiamo nulla a che vedere con questi annunci, perciò i ricavi vanno interamente ai creatori e/o alla società di hosting.
 
@@ -16,4 +16,4 @@ Puoi sempre utilizzare il pulsante di avanzamento rapido di AntennaPod per salta
 
 Inoltre, molti creatori di podcast forniscono un feed privo di pubblicità che è possibile acquistare. Di solito, si ottiene un URL segreto del feed del podcast o, in alternativa, un nome utente e una password da inserire in AntennaPod.
 
-Se trovate fastidiose queste pubblicità, prendete in considerazione l'idea di parlarne con i creatori dei podcast.
+Se trovi fastidiose queste pubblicità, prendi in considerazione l'idea di parlarne con i creatori del podcast.

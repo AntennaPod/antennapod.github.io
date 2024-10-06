@@ -13,9 +13,9 @@ homepage:
       description: Con AntennaPod, puoi scaricare episodi e ascoltarli ovunque. Puoi
         anche selezionare quali podcast scaricare automaticamente.
   description: AntennaPod è un lettore di podcast completamente libero. L'applicazione
-    è open source e ti permette di abbonarti a qualunque feed RSS. AntennaPod è creato
-    da volontari senza scopo di lucro, rispettando così la tua privacy mentre dà a
-    te tutto il controllo.
+    è open source e ti permette di iscriverti a qualunque feed RSS. AntennaPod è creato
+    da volontari senza scopo di lucro, quindi rispetta la tua privacy e ti dà un controllo
+    totale.
   header: Il lettore di podcast libero
 contribute:
   support:
@@ -56,7 +56,7 @@ readtime:
 generic:
   masto-share:
     server: 'Inserisci l''indirizzo della tua istanza: (ad es. https://mastodon.social)'
-  subscribe: Abbonati
+  subscribe: Iscriviti
   view: Mostra tutto
   page-not-found-long: La pagina richiesta non è stata trovata.
   accessibility:
@@ -84,6 +84,7 @@ generic:
     link: Clicca qui se non vieni reindirizzato.
   previous: Precedente
   next: Successivo
+  error404: Errore 404
 titles:
   blog: Blog
   contribute: Contribuisci
@@ -133,7 +134,7 @@ documentation:
       title: Per cominciare
       intro: Benvenuto su AntennaPod! Qui di seguito puoi trovare alcune informazioni
         per iniziare a utilizzare AntennaPod.
-      subscribe: Abbonarsi a un podcast
+      subscribe: Iscriversi a un podcast
     general:
       backup: Fare il backup dei tuoi episodi
       intro: Qui di seguito puoi trovare maggiori dettagli sul progetto AntennaPod.
@@ -160,10 +161,10 @@ documentation:
       how-to-use: Come usare la coda
       multiple-queues: Come utilizzare code multiple
     subscriptions:
-      intro: Qui di seguito puoi trovare le domande più frequenti riguardo agli abbonamenti.
-      listening-without-subscribing: Ascoltare un episodio senza abbonarsi
-      title: Abbonamenti
-      subscription-groups: Tag degli abbonamenti (cioè gruppi o categorie)
+      intro: Qui di seguito puoi trovare le domande più frequenti riguardo alle iscrizioni.
+      listening-without-subscribing: Ascoltare un episodio senza iscriversi
+      title: Iscrizioni
+      subscription-groups: Tag delle iscrizioni (cioè gruppi o categorie)
     automation:
       deletion: Eliminazione automatica
       refreshing-podcasts: Aggiornare i podcast
@@ -182,12 +183,15 @@ documentation:
         Ma spesso è possibile rimediare!
       playback-stops: La riproduzione si interrompe improvvisamente
       refresh-download-errors: Errore nel download o nell'aggiornamento del feed
+      cannot-resume-playback: Impossibile riprendere la riproduzione dalla schermata
+        di blocco / dalla notifica
     podcasters-hosters:
       title: Per podcaster ed editori
       add-on-antennapod: Crea un link "Apri in AntennaPod"
       intro: Di seguito puoi trovare le nostre informazioni di supporto per podcaster
         e fornitori di hosting.
       list-podcast: Come far includere il tuo podcast nel catalogo
+      update-feed-urls: Aggiornare l'URL di un feed
 footer:
   description: Il gestore di podcast per Android semplice da usare, flessibile e open source.
 events:
@@ -209,3 +213,7 @@ events:
   recurrence:
     every-2nd-saturday: ogni secondo sabato del mese
     2nd-4th-wednesday: (quasi) ogni secondo e quarto mercoledì del mese
+not-installed:
+  title: AntennaPod non è installato
+  text: AntennaPod non è installato o il tuo browser non supporta l'apertura diretta
+    dell'app.

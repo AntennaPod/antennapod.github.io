@@ -41,6 +41,7 @@ generic:
   subscribe: Abonner
   previous: Tidligere
   next: Næste
+  error404: Fejl 404
 month:
   Jan: Jan
   Apr: Apr
@@ -180,6 +181,7 @@ documentation:
       list-podcast: Få din podcast registreret
       add-on-antennapod: Opret et 'Åbn i AntennaPod'-link
       intro: Nedenfor kan du finde vores supportoplysninger til podcastere og hostingudbydere.
+      update-feed-urls: Opdatering af feed-URL'er
     bugs-first-aid:
       title: Programfejl, mangler & førstehjælp
       typo-translations: Jeg har fundet en taste- eller stavefejl
@@ -191,6 +193,7 @@ documentation:
       cannot-stream-download: Kan ikke downloade et afsnit
       playback-stops: Afspilning stopper pludselig
       refresh-download-errors: Fejl ved overførsel eller opdatering af feed
+      cannot-resume-playback: Kan ikke genoptage afspilning fra låseskærm/notifikation
 blog:
   posted: Udgivet
 footer:
@@ -213,3 +216,7 @@ events:
   recurrence:
     every-2nd-saturday: hver anden lørdag i måneden
     2nd-4th-wednesday: (næsten hver) anden & fjerde onsdag I måneden
+not-installed:
+  title: AntennaPod ikke installeret
+  text: AntennaPod er ikke installeret, eller din browser understøtter ikke at åbne
+    den direkte.

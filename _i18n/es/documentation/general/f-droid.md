@@ -3,7 +3,7 @@
 * *¿Por qué la última versión aún no está en F-Droid?*
 * *¿Cuándo estará disponible la nueva versión en F-Droid?*
 
-Si la nueva versión está en beta, *solo* está disponible a través de Google Play ((aquí se explica por qué)[/documentación/general/beta]). Cuando creemos que está lista, la subimos a Google Play. Unos días más tarde, cuando estamos seguros de que no hay errores críticos, etiquetamos la versión en GitHub. F-Droid entonces tiene que averiguar acerca de esta versión, construirla y hacerla disponible. Todos estos pasos pueden llevar algún tiempo. Debido a los diferentes pasos y porque no estamos involucrados en la publicación de versiones en F-Droid, no podemos decir exactamente cuando la última versión estará disponible allí. Por lo general, se tarda unos días después de la liberación está etiquetado en GitHub.
+Si la nueva versión está en beta, *solo* está disponible a través de Google Play ([aquí se explica por qué](/documentación/general/beta)). Cuando creemos que está lista, la subimos a Google Play. Unos días más tarde, cuando estamos seguros de que no hay errores críticos, etiquetamos la versión en GitHub. F-Droid entonces tiene que averiguar acerca de esta versión, construirla y hacerla disponible. Todos estos pasos pueden llevar algún tiempo. Debido a los diferentes pasos y porque no estamos involucrados en la publicación de versiones en F-Droid, no podemos decir exactamente cuando la última versión estará disponible allí. Por lo general, se tarda unos días después de la liberación en GitHub.
 
 En resumen: puede llevar algún tiempo. Por favor, tenga paciencia.
 

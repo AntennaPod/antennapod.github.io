@@ -8,7 +8,7 @@ L'application AntennaPod ne stocke que les données strictement nécessaires au 
 
 Le seul cas dans lequel vos données provenant de tiers peuvent être traité, concerne l'utilisation d'un service de synchronisation, s'il est activé dans les paramètres. L'application recevra alors les abonnements et les éléments de lecture fournis par le service.
 
-## permissions de l'appliaction
+## Permissions de l'application
 
 L'application demande les autorisations Android suivantes relatives à la confidentialité :
 
