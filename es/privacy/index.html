@@ -280,11 +280,11 @@
 
 <h2 id="datos-que-la-aplicación-de-antennapod-puede-recolectar-guardar-y-procesar">Datos que la aplicación de AntennaPod puede recolectar, guardar y procesar</h2>
 
-<p>La aplicación solo recoge los datos estrictamente necesarios para que la aplicación funcione. Esto incluye, por ejemplo, la lista de podcasts que sigues, las configuraciones de la aplicación y los datos de autenticación provistos para servicios de podcast específicos (como los servicios de sincronización). La aplicación no incluye ninguna de librería de anuncios o rastreadores de terceros (analíticas), como Google Analytics.</p>
+<p>La aplicación solo registra los datos estrictamente necesarios para su funcionamiento. Esto incluye, por ejemplo, la lista de podcasts que sigues, la configuración de la aplicación y los datos de autenticación proporcionados para podcasts o servicios específicos (como los servicios de sincronización). La aplicación no incluye bibliotecas de anuncios ni códigos de seguimiento (analíticas) de terceros, como Google Analytics.</p>
 
 <p><strong>Todos los datos provistos y creados durante el uso de AntennaPod se guardarán en tu dispositivo. AntennaPod no envía ni sube tus datos a ningún sitio, excepto cuando estrictamente necesario para el funcionamiento de la aplicación.</strong> Por favor mira la segunda siguiente sección para los casos en los que tus datos pueden ser provistos a terceras partes.</p>
 
-<p>El único caso en el que tus datos de terceras partes son manejados, es cuando se utilizan los servicios de sincronización si están activados en los ajustes de la aplicación. En ese caso, la aplicación puede recibir eventos de suscripciones y reproducción provistos por el servicio.</p>
+<p>El único caso en el que se manejan datos de terceros es cuando se utiliza un servicio de sincronización, si está habilitado en los ajustes. En ese caso, la aplicación puede recibir suscripciones y eventos de reproducción proporcionados por el servicio.</p>
 
 <h2 id="permisos-de-aplicaciones">Permisos de aplicaciones</h2>
 
@@ -302,16 +302,8 @@
 
 <ul>
   <li>Anfitriones de podcasts: Cuando provisto en las opciones de podcast, un anfitrión recibirá los datos de autenticación que tú proveiste. Cualquier servidor web que provea las listas de podcast, podría recolectar información adicional, como tu dirección IP, la hora de acceso y qué estás accediendo. Esto incluye los episodios que estás descargando o retransmitiendo. Por favor, lee sus políticas de privacidad respectivas para más detalles. Puedes ver la URL de un podcast abriendo el podcast y presionando el icono de información. AntennaPod no permite a los servidores remotos fijar cookies. Los servidores pueden detectar el hecho de que estás utilizando AntennaPod y qué versión de Antennapod estás utilizando (HTTP User-Agent). Si varios podcast se alojan en el mismo servidor, el servidor puede detectar la lista de podcasts a los que estás suscrito y que se alojan en ese servidor. Esto puede ocurrir si los publicadores utilizan feedburner, podtrac o servicios similares para distribuir sus feeds.</li>
-  <li>
-    <ul>
-      <li>Servicios de descubrimiento y búsqueda: Cuando se abre la página de descubrimiento en la aplicación, se manda una petición a Apple para recolectar las sugerencias de podcast. Ellos pueden guardar la petición, incluyendo el país (que por defecto es el país del dispositivo). Estas sugerencias pueden deshabilitarse eligiendo “off” en el selector de región. Cuendo se utiliza la característica de búsqueda en AntennaPod, los servicios PodcastIndex.org, iTunes, fyyd y gpodder.net pueden almacenar tu petición, incluyendo los términos de búsqueda. Las peticiones de búsqueda y descubrimiento incluyen las direcciones IP, la hora, el nombre de la aplicación “AntennaPod”. Después de la suscripción, el feed se servirá desde el huesped del podcast, lo que significa que los servicios de búsqueda/descubrimiento ya no estarán involucrados.</li>
-    </ul>
-  </li>
-  <li>
-    <ul>
-      <li>Servicios de sincronización: Cuando activados a través de los ajustes, AntennaPod sincronizará tus datos. Estos datos pueden incluir credenciales de inicio de sesión, suscripciones, historial de episodios, acciones de reproducción, pausa y favoritos com la fecha y ora y la dirección IP. Para más información, lee la política de tu proveedor (ej. <a href="https://gpodder.net/privacy">política de privacidad de gpodder.net</a>, o la de tu huesped de nextcloud).</li>
-    </ul>
-  </li>
+  <li>Servicios de descubrimiento y búsqueda: Al abrir la pantalla Descubrir en la aplicación, ésta envía una llamada a Apple para recopilar sugerencias de podcasts. Pueden almacenar la consulta, incluido el país (que por defecto es el del dispositivo). Estas sugerencias pueden desactivarse eligiendo “desactivado” en el selector de región. Al utilizar la función de búsqueda en AntennaPod, los servicios PodcastIndex.org, Apple Podcasts y fyyd pueden almacenar su consulta, incluidos los términos de búsqueda. Las consultas de descubrimiento y búsqueda también incluyen la dirección IP, la hora y el nombre de la aplicación “AntennaPod”. Después de suscribirte, la fuente se sirve desde el proveedor de podcasts, lo que significa que el servicio de descubrimiento/búsqueda ya no está involucrado.</li>
+  <li>Servicios de sincronización: Cuando se activa a través de los ajustes, AntennaPod sincroniza tus datos. Estos datos pueden incluir credenciales de inicio de sesión, podcasts suscritos, episodios escuchados, acciones de reproducción, pausa y favoritos con marcas de fecha y hora y dirección IP. Para más información, consulte la política de privacidad de su proveedor.</li>
   <li>Google: Si has activado la copia de seguridad y restablecimiento en los ajustes de tu teléfono (<code class="language-plaintext highlighter-rouge">Configuración</code> “ <code class="language-plaintext highlighter-rouge">Copia de seguridad y restablecimiento</code> “ <code class="language-plaintext highlighter-rouge">Copia de seguridad de mis datos</code>), debes saber que el propio Android guardará periódicamente una copia de los datos de tu teléfono en los servidores de Google. Esta copia de seguridad contiene información privada, incluyendo tus contraseñas WiFi, mensajes e historial de llamadas. También puede incluir datos de AntennaPod y de otras aplicaciones que utilices. Los desarrolladores de AntennaPod no tienen acceso a estos datos. Para más información, consulte <a href="https://policies.google.com">la política de privacidad de Google</a>.</li>
 </ul>
 
@@ -358,7 +350,7 @@
 
 <p>Los desarrolladores podrán actualizar esta política en el futuro. Es recomendable comprobar esta política de privacidad de manera periódica para ver si se producen algunos cambios. Los cambios a esta Política de Privacidad se harán efectivos cuando se introduzcan en este documento.</p>
 
-<p>Esta política de privacidad se actualizó por última vez el 13-02-2022. Si tienes alguna pregunta, abre una cuestión en GitHub o en nuestro foro.</p>
+<p>Esta Política de privacidad se actualizó por última vez el 13-07-2024. Si tienes alguna pregunta, abre una incidencia en GitHub o en nuestro foro.</p>
 
 <p>Esta política de privacidad se ha traducido del inglés para ayudarle a entender cómo AntennaPod trata el tema. En caso de conflicto entre la versión original y la traducida, prevalecerá la versión en inglés.</p>
 

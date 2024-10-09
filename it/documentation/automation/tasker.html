@@ -291,23 +291,23 @@
             <article class="post-content">
                 <h1 id="integrazione-con-altre-app">Integrazione con altre app</h1>
 
-<p>Con AntennaPod, puoi specificare quali abbonamenti (feed di podcast) devono essere aggiornati regolarmente (vedi <a href="/documentation/automation/refreshing-podcasts">Aggiornare i podcast</a>).</p>
+<p>Con AntennaPod puoi specificare le iscrizioni (feed di podcast) da aggiornare regolarmente (vedi <a href="/documentation/automation/refreshing-podcasts">Aggiornare i podcast</a>).</p>
 
 <p>Se hai esigenze più complesse, è possibile utilizzare su AntennaPod varie applicazioni di automazione di terze parti. Per esempio:</p>
 
 <ul>
-  <li>Aggiorna gli abbonamenti all’inizio della giornata: alle 7 del mattino, accendi il Wi-Fi, poi aggiorna i feed di AntennaPod.</li>
-  <li>Aggiorna i tuoi abbonamenti prima del tuo ritorno a casa dal lavoro, ad es. alle 17:00 dei giorni feriali.</li>
+  <li>Aggiorna le iscrizioni all’inizio della giornata: alle 7 del mattino, accendi il Wi-Fi, poi aggiorna i feed di AntennaPod.</li>
+  <li>Aggiorna le tue iscrizioni prima del rientro a casa, ad es. alle 17:00 dei giorni feriali.</li>
 </ul>
 
 <h2 id="istruzioni-generali">Istruzioni generali</h2>
 
-<p>Nella tua applicazione di automazione, è possibile far sì che AntennaPod aggiorni gli abbonamenti mandando un messaggio in broadcast (può apparire come un tipo di intent di Android) con le seguenti impostazioni:</p>
+<p>Nella tua applicazione di automazione, è possibile far sì che AntennaPod aggiorni le iscrizioni mandando un messaggio in broadcast (può apparire come un tipo di intent di Android) con le seguenti impostazioni:</p>
 
 <ul>
   <li>Nome del pacchetto: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Nome della classe: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Class name: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
 </li>
 </ul>
 
@@ -320,7 +320,7 @@
 <ol>
   <li>il nome del pacchetto come <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>la classe del ricevitore come <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Receiver class to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
 </li>
 </ol>
 
@@ -329,12 +329,13 @@
 <p>Crea una task. Nella task, aggiungi un’azione</p>
 
 <ol>
-  <li>Seleziona ` Sistema`</li>
+  <li>Seleziona <code class="language-plaintext highlighter-rouge">Sistema</code>
+</li>
   <li>Seleziona <code class="language-plaintext highlighter-rouge">Invia intent</code>
 </li>
   <li>Assegna al pacchetto il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Assegna alla classe il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Specify Class name to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
 </li>
   <li>Specifica come target <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
 </li>
@@ -350,7 +351,7 @@
   <li>Specifica la modalità di invio dell’intent come <code class="language-plaintext highlighter-rouge">Broadcast</code>.</li>
   <li>Assegna al pacchetto il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-  <li>Assegna alla classe il nome <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.core.receiver.FeedUpdateReceiver</code>
+  <li>Specify Class name to be <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
 </li>
   <li>Aggiungi qualsiasi altra condizione/azione per le tue esigenze specifiche.</li>
 </ol>
