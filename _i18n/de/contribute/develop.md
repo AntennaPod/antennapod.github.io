@@ -6,9 +6,7 @@ Direkt dran: das Herzstück des Projekts! Da AntennaPod von tausenden Menschen a
 
 ## Damit kannst du uns unterstützen
 
-Es gibt ein paar Bereiche, in denen wir deine Unterstützung gut gebrauchen können. Weil sie wichtig sind, oft nachgefragt werden oder beides. Wir haben eine klare Übersicht über [die Themen und Funktionsbereiche, bei denen wir am meisten Hilfe benötigen](https://github.com/AntennaPod/AntennaPod/projects/2) erstellt. Arbeite dich in eines der folgenden Themen ein und wir werden dich in unsere (mentale) Liste für ewige Dankbarkeit aufnehmen!
-
-Abgesehen von diesen großen Projekten kannst du dir immer die [Issues mit der Markierung „help wanted“](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted) auf GitHub ansehen.
+There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. That label means that the feature was not reviewed by the core AntennaPod team yet.
 
 Falls du lieber nach Fehlern suchst, sind [Issues mit der Markierung „confirmed bugs“](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) auf GitHub deine erste Anlaufstelle für ein Fehlerjagd-Wochenende.
 

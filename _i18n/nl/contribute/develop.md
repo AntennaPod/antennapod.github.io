@@ -6,9 +6,7 @@ Je bent er: de kern van het project! Gebruikt door duizenden mensen over de hele
 
 ## Waar we hulp bij kunnen gebruiken
 
-Er zijn een paar gebieden waar we goed hulp kunnen gebruiken. Omdat ze belangrijk zijn, gewild zijn onder onze gebruikers of allebei. We hebben een duidelijk overzicht gemaakt van [de problemen en functionaliteiten waar we het meest hulp bij nodig hebben](https://github.com/AntennaPod/AntennaPod/projects/2). Stort je in een van de volgende issues en we voegen je toe aan onze (mentale) lijst voor eeuwige dankbaarheid!
-
-Afgezien van deze grote projecten, kun je altijd kijken naar de [issues met het 'help wanted' label](https://github.com/AntennaPod/AntennaPod/labels/help%20wanted) op GitHub.
+There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. That label means that the feature was not reviewed by the core AntennaPod team yet.
 
 Als je liever op bug-jacht gaat, is je go-to lijst voor een weekend bug-jacht de ['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) op GitHub.
 
