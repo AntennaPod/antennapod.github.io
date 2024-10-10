@@ -149,7 +149,9 @@ msgid "Package name: `de.danoeh.antennapod`"
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
-msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+msgid ""
+"Class name: `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
@@ -171,7 +173,8 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid ""
-"Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+"Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
@@ -196,7 +199,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
-"Specify Class name to be `de.danoeh.antennapod.core.receiver."
+"Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
 
@@ -1708,6 +1711,57 @@ msgstr ""
 "Si el vostre pòdcast és disponible a qualsevol d'aquestes, es pot trobar a "
 "AntennaPod."
 
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
+#: (paragraph)
+msgid ""
+"When you change hoster, the URL of your RSS feed often changes as well. In "
+"this situation, we strongly recommend that you organize a proper 'redirect' "
+"from the old to the new feed with either of these HTTP response status codes:"
+msgstr ""
+"Quan canvieu de proveïdor, normalment l'URL de la font RSS també canvia. En "
+"aquest cas, recomanem encaridament que configureu l'adequada «redirecció» "
+"des del vell cap al nou feed amb algun d'aquests codis d'estat HTTP:"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+msgstr ""
+"[301 Mogut permanentment](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+msgstr ""
+"[308 Redirecció permanent](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
+#: (paragraph)
+msgid ""
+"This way you make sure that AntennaPod users get this change applied in "
+"their app. Your audience will then continue to receive your episodes, "
+"without having to subscribe again to the new feed."
+msgstr ""
+"D'aquesta manera us assegureu que els usuaris d'AntennaPod veuen aquest "
+"canvi reflectit a l'aplicació. La vostra audiència continuarà rebent els "
+"vostres episodis, sense haver-se de subscriure al nou feed."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
+#: (paragraph)
+msgid ""
+"Don't forget also to update your entry in [the directories](/documentation/"
+"podcasters-hosters/list-podcast) AntennaPod uses for its search "
+"functionality."
+msgstr ""
+"No us oblideu d'actualitzar també la vostra entrada [als directoris](/"
+"documentation/podcasters-hosters/list-podcast) que AntennaPod fa servir per "
+"a la funcionalitat de cerca."
+
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
 "You can use the queue to store episodes that you plan to listen to. If you "
@@ -1832,12 +1886,12 @@ msgid ""
 "multiple queues first. (See also the [feature request](https://github.com/"
 "AntennaPod/AntennaPod/issues/2648) on our development platform.)"
 msgstr ""
-"Per ajudar-vos a organitzar les subscripcions, podeu assignar-hi etiquetes ("
-"de vegades anomenades grups o categories) a un pòdcast. Tingueu en compte "
+"Per ajudar-vos a organitzar les subscripcions, podeu assignar-hi etiquetes "
+"(de vegades anomenades grups o categories) a un pòdcast. Tingueu en compte "
 "que ara per ara no es poden crear cues segons etiquetes. Per això abans "
-"requeriria que es poguessin fer múltiples cues. (Feu una ullada també a la ["
-"petició de funcionalitat](https://github.com/AntennaPod/AntennaPod/issues/"
-"2648) a la nostra plataforma de desenvolupament.)"
+"requeriria que es poguessin fer múltiples cues. (Feu una ullada també a la "
+"[petició de funcionalitat](https://github.com/AntennaPod/AntennaPod/"
+"issues/2648) a la nostra plataforma de desenvolupament.)"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 2
 #: (paragraph)
@@ -1858,57 +1912,6 @@ msgstr "Prémer la icona de l'`engranatge` per accedir a la seva configuració"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleccionar la configuració d'`Etiquetes`"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
-#: (paragraph)
-msgid ""
-"When you change hoster, the URL of your RSS feed often changes as well. In "
-"this situation, we strongly recommend that you organize a proper 'redirect' "
-"from the old to the new feed with either of these HTTP response status codes:"
-msgstr ""
-"Quan canvieu de proveïdor, normalment l'URL de la font RSS també canvia. En "
-"aquest cas, recomanem encaridament que configureu l'adequada «redirecció» "
-"des del vell cap al nou feed amb algun d'aquests codis d'estat HTTP:"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
-#: (unordered list)
-msgid ""
-"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
-msgstr ""
-"[301 Mogut permanentment](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
-#: (unordered list)
-msgid ""
-"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
-msgstr ""
-"[308 Redirecció permanent](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
-#: (paragraph)
-msgid ""
-"This way you make sure that AntennaPod users get this change applied in "
-"their app. Your audience will then continue to receive your episodes, "
-"without having to subscribe again to the new feed."
-msgstr ""
-"D'aquesta manera us assegureu que els usuaris d'AntennaPod veuen aquest "
-"canvi reflectit a l'aplicació. La vostra audiència continuarà rebent els "
-"vostres episodis, sense haver-se de subscriure al nou feed."
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
-#: (paragraph)
-msgid ""
-"Don't forget also to update your entry in [the directories](/documentation/"
-"podcasters-hosters/list-podcast) AntennaPod uses for its search "
-"functionality."
-msgstr ""
-"No us oblideu d'actualitzar també la vostra entrada [als directoris](/"
-"documentation/podcasters-hosters/list-podcast) que AntennaPod fa servir per "
-"a la funcionalitat de cerca."
 
 #~ msgid "Tasker"
 #~ msgstr "Tasker"

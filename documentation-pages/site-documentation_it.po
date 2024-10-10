@@ -159,7 +159,10 @@ msgid "Package name: `de.danoeh.antennapod`"
 msgstr "Nome del pacchetto: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
-msgid "Class name: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+#, fuzzy
+msgid ""
+"Class name: `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 "Nome della classe: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
 
@@ -183,8 +186,10 @@ msgid "Package to be `de.danoeh.antennapod`"
 msgstr "il nome del pacchetto come `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
-"Receiver class to be `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+"Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
+"FeedUpdateReceiver`"
 msgstr ""
 "la classe del ricevitore come `de.danoeh.antennapod.core.receiver."
 "FeedUpdateReceiver`"
@@ -210,8 +215,9 @@ msgid "Specify Package name to be `de.danoeh.antennapod`"
 msgstr "Assegna al pacchetto il nome `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#, fuzzy
 msgid ""
-"Specify Class name to be `de.danoeh.antennapod.core.receiver."
+"Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
 "Assegna alla classe il nome `de.danoeh.antennapod.core.receiver."
@@ -311,6 +317,87 @@ msgstr ""
 "In qualsiasi modo tu ci contatti, per favore includi le informazioni di "
 "sistema che sono visualizzate in `Impostazioni` » `Segnala un problema`."
 
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
+#: (paragraph)
+msgid ""
+"In Android 13 and Android 14 it is not always possible to resume playback "
+"from the lock screen or media notification. This occurs specifically if "
+"playback has been paused for a while."
+msgstr ""
+"Su Android 13 e Android 14 non è sempre possibile riprendere la riproduzione "
+"dalla schermata di blocco o dai controlli multimediali. Nello specifico, "
+"potrebbe non essere possibile se la riproduzione è in pausa da un po' di "
+"tempo."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
+#: (paragraph)
+msgid ""
+"It currently is not clear why this issue occurs. We have established the "
+"same problem affects other apps, including Google's apps. We suspect, "
+"therefore, that this is an issue with Android."
+msgstr ""
+"Al momento la causa del problema non è chiara. Abbiamo verificato che lo "
+"stesso problema interessa anche altre app, tra cui quelle di Google. "
+"Pertanto, pensiamo che sia un bug di Android."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
+#: (header)
+msgid "Workaround"
+msgstr "Espediente"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
+#: (paragraph)
+msgid ""
+"In order to still be able to resume playback, you can add the so-called "
+"AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
+"see when you pull down from the top of the screen. You probably know the "
+"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
+"playback, even if playback has been paused for a while."
+msgstr ""
+"Per poter riprendere la riproduzione, puoi aggiungere la cosiddetta 'tile' "
+"di AntennaPod sul tuo dispositivo. Le tile sono i pulsanti che vedi quando "
+"scorri dall'alto verso il basso sul tuo schermo. Probabilmente hai già "
+"familiarità con la tile di internet o della torcia. La tile di AntennaPod ti "
+"permette di (ri)avviare e mettere in pausa la riproduzione, anche quando "
+"questa è in pausa da un po' di tempo."
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
+#: (paragraph)
+msgid "To add the AntennaPod tile:"
+msgstr "Per aggiungere la tile di AntennaPod:"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Pull down twice** from the top of the screen, so you see the full buttons "
+"(below the brightness indicator)"
+msgstr ""
+"**Scorri verso il basso due volte**, in modo da vedere tutti i pulsanti (al "
+"di sotto dell'indicatore della luminosità)"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
+"tiles"
+msgstr ""
+"**Tocca l'icona della matita** in fondo alla sezione delle tile per "
+"modificarle"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid ""
+"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
+"into the list of active tiles"
+msgstr ""
+"Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** "
+"verso l'alto nell'elenco di tile attive"
+
+#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
+#: (ordered list)
+msgid "Tap the back arrow to exit the tile editing"
+msgstr "Tocca la freccia indietro per uscire dalla modalità di modifica tile"
+
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
 msgid ""
@@ -387,8 +474,8 @@ msgid ""
 "all."
 msgstr ""
 "Hai [esportato un backup](/documentation/general/backup) da AntennaPod di "
-"recente? Allora ripristinarlo è relativamente facile: vai su `Impostazioni` »"
-" `Memoria` » `Importa/Esporta` » `Importa database` e seleziona il backup. "
+"recente? Allora ripristinarlo è relativamente facile: vai su `Impostazioni` "
+"» `Memoria` » `Importa/Esporta` » `Importa database` e seleziona il backup. "
 "Tieni presente che il backup potrebbe contenere la corruzione parziale, "
 "quindi ti consigliamo di seguire anche il secondo passaggio per risolvere "
 "definitivamente il problema."
@@ -418,8 +505,8 @@ msgid ""
 msgstr ""
 "Un membro della comunità [ha seguito questi passi](https://github.com/"
 "AntennaPod/AntennaPod/issues/2463#issuecomment-384088306) per riparare il "
-"database e [ha affermato](https://github.com/AntennaPod/AntennaPod/issues/"
-"2463#issuecomment-404624614) che, fatto questo, è stato in grado di "
+"database e [ha affermato](https://github.com/AntennaPod/AntennaPod/"
+"issues/2463#issuecomment-404624614) che, fatto questo, è stato in grado di "
 "importare con successo il database riparato."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
@@ -434,9 +521,9 @@ msgid ""
 msgstr ""
 "Un altro membro della comunità [ha preso un database pulito e vi ha spostato "
 "il contenuto di quello corrotto](https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385341068), poi ha eseguito [un'altra "
-"correzione](https://github.com/AntennaPod/AntennaPod/issues/"
-"2463#issuecomment-385354995). Dopo questi due passaggi, è riuscito a "
+"issues/2463#issuecomment-385341068), poi ha eseguito [un'altra correzione]"
+"(https://github.com/AntennaPod/AntennaPod/"
+"issues/2463#issuecomment-385354995). Dopo questi due passaggi, è riuscito a "
 "importare con successo il nuovo database in AntennaPod."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (ordered
@@ -728,11 +815,11 @@ msgstr ""
 "AntennaPod è open source. Questo significa che chiunque può scaricarne il "
 "codice sorgente. Sfortunatamente, alcuni sviluppatori prendono AntennaPod, "
 "inseriscono delle pubblicità e poi lo pubblicano come una nuova app. Puoi "
-"installare l'app ufficiale di AntennaPod da [Google Play](https://play.google"
-".com/store/apps/details?id=de.danoeh.antennapod) o [F-Droid](https://f-droid."
-"org/packages/de.danoeh.antennapod/). Puoi anche ottenere l'ultima versione "
-"da [GitHub](https://github.com/AntennaPod/AntennaPod/) e compilare tu stesso "
-"AntennaPod!"
+"installare l'app ufficiale di AntennaPod da [Google Play](https://play."
+"google.com/store/apps/details?id=de.danoeh.antennapod) o [F-Droid](https://f-"
+"droid.org/packages/de.danoeh.antennapod/). Puoi anche ottenere l'ultima "
+"versione da [GitHub](https://github.com/AntennaPod/AntennaPod/) e compilare "
+"tu stesso AntennaPod!"
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
 msgid ""
@@ -1191,6 +1278,15 @@ msgstr ""
 "correttamente o il produttore dello smartphone ha configurato l'hardware in "
 "modo errato."
 
+#: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
+msgid ""
+"If you are running Android 6 or newer, you can try formatting the SD card as "
+"internal storage. Else, there is nothing we can do to fix this."
+msgstr ""
+"Se stai usando da Android 6 in su, puoi provare a formattare la scheda SD "
+"come memoria interna. Altrimenti, non c'è niente che possiamo fare per "
+"risolvere il problema."
+
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
 msgstr ""
@@ -1303,9 +1399,9 @@ msgid ""
 "release was built yet."
 msgstr ""
 "Puoi farti un'idea degli ultimi progressi controllando [se l'elenco di "
-"versioni di F-Droid è stato aggiornato](https://gitlab.com/fdroid/fdroiddata/"
-"-/commits/master?search=Update+known+apks) da quando è stata rilasciata la "
-"nuova versione di AntennaPod e controllando su [F-Droid "
+"versioni di F-Droid è stato aggiornato](https://gitlab.com/fdroid/"
+"fdroiddata/-/commits/master?search=Update+known+apks) da quando è stata "
+"rilasciata la nuova versione di AntennaPod e controllando su [F-Droid "
 "Monitor](https://monitor.f-droid.org/builds/build) se la nuova versione è "
 "già stata compilata."
 
@@ -1338,8 +1434,8 @@ msgid ""
 "Do you have a recommendation of an open source podcast app for these "
 "platforms? [Let us know on the forum!](https://forum.antennapod.org)"
 msgstr ""
-"Vuoi consigliare un'app di podcast open source per queste piattaforme? ["
-"Faccelo sapere sul forum!](https://forum.antennapod.org)"
+"Vuoi consigliare un'app di podcast open source per queste piattaforme? "
+"[Faccelo sapere sul forum!](https://forum.antennapod.org)"
 
 #: _i18n/en/documentation/general/proxy.md:block 1 (paragraph)
 msgid ""
@@ -1444,8 +1540,8 @@ msgstr ""
 "diverse opzioni: [Nextcloud](https://nextcloud.com/install/#instructions-"
 "server) con l'applicazione [gPodder Sync](https://apps.nextcloud.com/apps/"
 "gpoddersync), un server [gPodder](https://gpoddernet.readthedocs.io/en/"
-"latest/dev/installation.html) completo o il [Micro GPodder "
-"server](https://github.com/bohwaz/micro-gpodder-server)."
+"latest/dev/installation.html) completo o il [Micro GPodder server](https://"
+"github.com/bohwaz/micro-gpodder-server)."
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -1703,11 +1799,11 @@ msgid ""
 "content pretty easily. You should reach out to them, share the SoundCloud "
 "help page (linked just before), and ask if they're willing to set it up."
 msgstr ""
-"SoundCloud permette [ai produttori di creare podcast](https://help.soundcloud"
-".com/hc/it/articles/115003451347-Adding-tracks-to-your-RSS-feed) a partire "
-"dai loro contenuti abbastanza facilmente. Dovresti contattarli, condividere "
-"la pagina di aiuto di SoundCloud (linkata qui sopra) e chiedere loro se sono "
-"disposti a configurarlo."
+"SoundCloud permette [ai produttori di creare podcast](https://help."
+"soundcloud.com/hc/it/articles/115003451347-Adding-tracks-to-your-RSS-feed) a "
+"partire dai loro contenuti abbastanza facilmente. Dovresti contattarli, "
+"condividere la pagina di aiuto di SoundCloud (linkata qui sopra) e chiedere "
+"loro se sono disposti a configurarlo."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 9 (header)
 msgid "Mixcloud"
@@ -1769,11 +1865,11 @@ msgstr ""
 "dell'utente/canale (`https://www.youtube.com/user/USERNAME` o `https://www."
 "youtube.com/channel/CHANNEL_ID`) in AntennaPod. Dovresti vedere una finestra "
 "di dialogo con l'opzione 'RSS'; tocca per aggiungere il feed. Se questo non "
-"funziona come descritto, aggiungi `https://www.youtube.com/feeds/videos."
-"xml?channel_id=<CHANNEL_ID>` ad AntennaPod. Puoi trovare l'ID del canale "
-"nell'URL del canale. Se il canale a cui vuoi iscriverti è un account utente ("
-"con un URL del tipo youtube.com/user/UserName), puoi contattare l'utente per "
-"chiedergli qual è il suo ID del canale (qui è spiegato [come gli utenti "
+"funziona come descritto, aggiungi `https://www.youtube.com/feeds/videos.xml?"
+"channel_id=<CHANNEL_ID>` ad AntennaPod. Puoi trovare l'ID del canale "
+"nell'URL del canale. Se il canale a cui vuoi iscriverti è un account utente "
+"(con un URL del tipo youtube.com/user/UserName), puoi contattare l'utente "
+"per chiedergli qual è il suo ID del canale (qui è spiegato [come gli utenti "
 "possono trovare il loro ID del canale](https://support.google.com/youtube/"
 "answer/3250431?hl=it))."
 
@@ -1792,8 +1888,8 @@ msgid ""
 "You can use AntennaPod to listen to podcasts in your [Android Auto](https://"
 "www.android.com/auto/) enabled car."
 msgstr ""
-"Puoi usare AntennaPod per ascoltare podcast nella tua auto abilitata ad ["
-"Android Auto](https://www.android.com/auto/)."
+"Puoi usare AntennaPod per ascoltare podcast nella tua auto abilitata ad "
+"[Android Auto](https://www.android.com/auto/)."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 2 (header)
 msgid "Did you download AntennaPod from **Google Play**?"
@@ -2013,10 +2109,10 @@ msgid ""
 msgstr ""
 "Gli utenti che hanno installato AntennaPod e aprono quel link potranno "
 "aprire gli episodi in anteprima e iscriversi al tuo podcast direttamente "
-"nella nostra app. Puoi visualizzare un esempio di questo tipo di pagina "
-"[qui](/deeplink/subscribe?url=https://antennapod.org/rss."
-"xml&title=Blog+Posts). Se hai bisogno del nostro logo, dai un'occhiata al "
-"nostro [repository del branding](https://github.com/AntennaPod/branding)."
+"nella nostra app. Puoi visualizzare un esempio di questo tipo di pagina [qui]"
+"(/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). "
+"Se hai bisogno del nostro logo, dai un'occhiata al nostro [repository del "
+"branding](https://github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2070,6 +2166,58 @@ msgid ""
 msgstr ""
 "Se il tuo podcast è disponibile su uno qualsiasi di questi, può essere "
 "trovato in AntennaPod."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
+#: (paragraph)
+msgid ""
+"When you change hoster, the URL of your RSS feed often changes as well. In "
+"this situation, we strongly recommend that you organize a proper 'redirect' "
+"from the old to the new feed with either of these HTTP response status codes:"
+msgstr ""
+"Quando cambi host, spesso anche l'URL del tuo feed RSS cambia. In questa "
+"situazione, sei caldamente incoraggiato a mettere in atto un "
+"'reindirizzamento' vero e proprio dal vecchio feed a quello nuovo attraverso "
+"uno di questi codici di stato di risposta HTTP:"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+msgstr ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/301)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
+#: (unordered list)
+msgid ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+msgstr ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
+"Status/308)"
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
+#: (paragraph)
+msgid ""
+"This way you make sure that AntennaPod users get this change applied in "
+"their app. Your audience will then continue to receive your episodes, "
+"without having to subscribe again to the new feed."
+msgstr ""
+"In questo modo, ti assicuri che gli utenti di AntennaPod ricevano questo "
+"cambiamento direttamente nella loro app. Il tuo pubblico continuerà così a "
+"ricevere i tuoi episodi senza doversi iscrivere nuovamente al nuovo feed."
+
+#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
+#: (paragraph)
+msgid ""
+"Don't forget also to update your entry in [the directories](/documentation/"
+"podcasters-hosters/list-podcast) AntennaPod uses for its search "
+"functionality."
+msgstr ""
+"Non ti dimenticare di aggiornare anche la tua voce nelle [directory](/"
+"documentation/podcasters-hosters/list-podcast) che AntennaPod usa per la sua "
+"funzione di ricerca."
 
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
@@ -2198,9 +2346,9 @@ msgstr ""
 "Per organizzare meglio le tue iscrizioni, puoi assegnare dei tag (a volte "
 "chiamati gruppi o categorie) a un podcast. Tieni presente che per il momento "
 "non è possibile creare code sulla base dei tag. Questo richiederebbe prima "
-"il supporto per le code multiple. (Vedi anche la [richiesta di "
-"funzionalità](https://github.com/AntennaPod/AntennaPod/issues/2648) sulla "
-"nostra piattaforma di sviluppo.)"
+"il supporto per le code multiple. (Vedi anche la [richiesta di funzionalità]"
+"(https://github.com/AntennaPod/AntennaPod/issues/2648) sulla nostra "
+"piattaforma di sviluppo.)"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 2
 #: (paragraph)
@@ -2221,145 +2369,3 @@ msgstr "Tocca `l'icona dell'ingranaggio` per accedere alle sue impostazioni"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleziona l'opzione `Tag`"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
-#: (paragraph)
-msgid ""
-"In Android 13 and Android 14 it is not always possible to resume playback "
-"from the lock screen or media notification. This occurs specifically if "
-"playback has been paused for a while."
-msgstr ""
-"Su Android 13 e Android 14 non è sempre possibile riprendere la riproduzione "
-"dalla schermata di blocco o dai controlli multimediali. Nello specifico, "
-"potrebbe non essere possibile se la riproduzione è in pausa da un po' di "
-"tempo."
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
-#: (paragraph)
-msgid ""
-"It currently is not clear why this issue occurs. We have established the "
-"same problem affects other apps, including Google's apps. We suspect, "
-"therefore, that this is an issue with Android."
-msgstr ""
-"Al momento la causa del problema non è chiara. Abbiamo verificato che lo "
-"stesso problema interessa anche altre app, tra cui quelle di Google. "
-"Pertanto, pensiamo che sia un bug di Android."
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
-#: (header)
-msgid "Workaround"
-msgstr "Espediente"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
-#: (paragraph)
-msgid ""
-"In order to still be able to resume playback, you can add the so-called "
-"AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
-"see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
-msgstr ""
-"Per poter riprendere la riproduzione, puoi aggiungere la cosiddetta 'tile' "
-"di AntennaPod sul tuo dispositivo. Le tile sono i pulsanti che vedi quando "
-"scorri dall'alto verso il basso sul tuo schermo. Probabilmente hai già "
-"familiarità con la tile di internet o della torcia. La tile di AntennaPod ti "
-"permette di (ri)avviare e mettere in pausa la riproduzione, anche quando "
-"questa è in pausa da un po' di tempo."
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
-#: (paragraph)
-msgid "To add the AntennaPod tile:"
-msgstr "Per aggiungere la tile di AntennaPod:"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
-msgstr ""
-"**Scorri verso il basso due volte**, in modo da vedere tutti i pulsanti (al "
-"di sotto dell'indicatore della luminosità)"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
-msgstr ""
-"**Tocca l'icona della matita** in fondo alla sezione delle tile per "
-"modificarle"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
-msgstr ""
-"Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** "
-"verso l'alto nell'elenco di tile attive"
-
-#: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
-#: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
-msgstr "Tocca la freccia indietro per uscire dalla modalità di modifica tile"
-
-#: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
-msgid ""
-"If you are running Android 6 or newer, you can try formatting the SD card as "
-"internal storage. Else, there is nothing we can do to fix this."
-msgstr ""
-"Se stai usando da Android 6 in su, puoi provare a formattare la scheda SD "
-"come memoria interna. Altrimenti, non c'è niente che possiamo fare per "
-"risolvere il problema."
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
-#: (paragraph)
-msgid ""
-"When you change hoster, the URL of your RSS feed often changes as well. In "
-"this situation, we strongly recommend that you organize a proper 'redirect' "
-"from the old to the new feed with either of these HTTP response status codes:"
-msgstr ""
-"Quando cambi host, spesso anche l'URL del tuo feed RSS cambia. In questa "
-"situazione, sei caldamente incoraggiato a mettere in atto un "
-"'reindirizzamento' vero e proprio dal vecchio feed a quello nuovo attraverso "
-"uno di questi codici di stato di risposta HTTP:"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
-#: (unordered list)
-msgid ""
-"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
-msgstr ""
-"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/"
-"301)"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
-#: (unordered list)
-msgid ""
-"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
-msgstr ""
-"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/"
-"308)"
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
-#: (paragraph)
-msgid ""
-"This way you make sure that AntennaPod users get this change applied in "
-"their app. Your audience will then continue to receive your episodes, "
-"without having to subscribe again to the new feed."
-msgstr ""
-"In questo modo, ti assicuri che gli utenti di AntennaPod ricevano questo "
-"cambiamento direttamente nella loro app. Il tuo pubblico continuerà così a "
-"ricevere i tuoi episodi senza doversi iscrivere nuovamente al nuovo feed."
-
-#: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
-#: (paragraph)
-msgid ""
-"Don't forget also to update your entry in [the directories](/documentation/"
-"podcasters-hosters/list-podcast) AntennaPod uses for its search "
-"functionality."
-msgstr ""
-"Non ti dimenticare di aggiornare anche la tua voce nelle [directory](/"
-"documentation/podcasters-hosters/list-podcast) che AntennaPod usa per la sua "
-"funzione di ricerca."
