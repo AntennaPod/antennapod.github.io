@@ -18,4 +18,10 @@ App|Code|iOS|MacOS|Windows|Linux
 
 <!-- mdpo-enable -->
 
+Another option: use [Genymotion](https://www.genymotion.com) on your desktop (Windows, macOS, Linux).
+
+On Linux with Wayland you can try https://waydro.id
+
+Or with a strong desire - install Android to virtual machine or to your computer with https://blissos.org
+
 Do you have a recommendation of an open source podcast app for these platforms? [Let us know on the forum!](https://forum.antennapod.org)
