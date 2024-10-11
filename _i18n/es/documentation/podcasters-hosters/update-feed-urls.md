@@ -1,8 +1,8 @@
-When you change hoster, the URL of your RSS feed often changes as well. In this situation, we strongly recommend that you organize a proper 'redirect' from the old to the new feed with either of these HTTP response status codes:
+Al cambiar de proveedor de alojamiento, la URL de su canal RSS también suele cambiar. En este caso, le recomendamos encarecidamente que organice una "redirección" adecuada del antiguo al nuevo canal con cualquiera de estos códigos de estado de respuesta HTTP:
 
-* [301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/301)
-* [308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/308)
+* [301 Movido permanentemente](https://developer.mozilla.org/docs/Web/HTTP/Status/301)
+* [308 Redirección permanente](https://developer.mozilla.org/docs/Web/HTTP/Status/308)
 
-This way you make sure that AntennaPod users get this change applied in their app. Your audience will then continue to receive your episodes, without having to subscribe again to the new feed.
+De esta forma te aseguras de que los usuarios de AntennaPod reciban este cambio aplicado en su app. Tu audiencia seguirá recibiendo tus episodios, sin tener que suscribirse de nuevo al nuevo feed.
 
-Don't forget also to update your entry in [the directories](/documentation/podcasters-hosters/list-podcast) AntennaPod uses for its search functionality.
+No olvide actualizar también su entrada en [los directorios](/documentación/podcasters-hosters/list-podcast) que AntennaPod utiliza la búsqueda.
