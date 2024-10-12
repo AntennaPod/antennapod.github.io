@@ -6,7 +6,7 @@ Du er nu ved kernen i projektet! Dit bidrag bruges af tusindvis af mennesker ove
 
 ## Her har vi brug for hjælp
 
-There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. That label means that the feature was not reviewed by the core AntennaPod team yet.
+Der er et par områder, hvor vi godt kunne bruge din støtte. Når man først kommer i gang med at udvikle AntennaPod, anbefaler vi, at man vælger et problem med ['Good first issue' mærkaten](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) på GitHub. Før du begynder at arbejde på et problem, skal du sikre dig, at det ikke har 'Needs: Triage' eller 'Needs: Decision' mærkaten. Denne mærkat betyder, at funktionen endnu ikke er blevet gennemgået af AntennaPods kerneteam.
 
 Hvis du foretrækker at jagte fejl, kan du gå til listen med [problem-etiketten 'bekræftede fejl'](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) på GitHub.
 
