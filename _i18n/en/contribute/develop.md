@@ -4,7 +4,7 @@ As a community project, AntennaPod relies on voluntary code contributions from a
 You're right at it: the core of the project! Used by thousands of people across the world, your contributions are an important contribution to an open podcasting ecosystem. So, are you experienced with Java, or just getting started? We welcome your contributions in our [GitHub repository](https://github.com/AntennaPod/AntennaPod).
 
 ## Where we need help
-There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. Those label mean that the feature was not reviewed by the core AntennaPod team yet.
+There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. Those labels mean that the feature was not reviewed by the core AntennaPod team yet.
 
 If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the ['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) on GitHub.
 
