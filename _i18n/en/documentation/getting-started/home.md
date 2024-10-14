@@ -1,6 +1,4 @@
-The Home screen, introduced in AntennaPod 3.0, brought about a new way to have a quick overview of your podcasts, start listening and perform a range of actions.
-
-It contains five sections, each of which displays episodes to interact with directly, but also provides a shortcut to the related screen (e.g. your queue):
+The Home screen allows you to have a quick overview of your podcasts, start listening and perform a range of actions, all conveniently from the same screen. It contains five sections, each of which displays episodes or subscriptions to interact with directly, but also provides a shortcut to the related screen (e.g. your queue):
 
 ## Continue listening
 This section allows you to quickly and easily carry on listening to episodes you already have in your queue, beginning with those you have already started listening to, but haven’t finished just yet.
