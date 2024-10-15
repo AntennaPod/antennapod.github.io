@@ -1,4 +1,4 @@
-However attractive the title may sound, AntennaPod is not and will not be available on Windows, iOS or the Linux desktop. The app is made by a small team of volunteers, and making the app for these other platforms would be a lot of work. Feel free to try [Genymotion](https://www.genymotion.com) of for Linux [Waydroid](https://waydro.id) (if you use Wayland).
+However attractive the title may sound, AntennaPod is not and will not be available on Windows, iOS or the Linux desktop. The app is made by a small team of volunteers, and making the app for these other platforms would be a lot of work. Feel free to try [Genymotion](https://www.genymotion.com) or for Linux [Waydroid](https://waydro.id) (if you use Wayland).
 
 There are (open source) alternatives, however, which we would like to point you to:
 
