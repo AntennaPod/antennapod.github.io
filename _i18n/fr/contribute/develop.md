@@ -6,7 +6,7 @@ Vous êtes en plein dedans : le cœur du projet ! Utilisé par des milliers de p
 
 ## Où nous avons besoin d'aide
 
-There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. That label means that the feature was not reviewed by the core AntennaPod team yet.
+There's a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the ['Good first issue' label](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) on GitHub. Before you start working on an issue, make sure that it does not have the 'Needs: Triage' or 'Needs: Decision' label. Those labels mean that the feature was not reviewed by the core AntennaPod team yet.
 
 Si vous préférez la chasse aux bugs, votre liste de prédilection pour un week-end de chasse aux bugs est [le problème « confirmed bugs »](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) sur GitHub.
 
