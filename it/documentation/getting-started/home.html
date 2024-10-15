@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Using the Home screen – AntennaPod</title>
+  <meta name="description" content="Using the Home screen">
+
+  <link rel="canonical" href="https://antennapod.org/it/documentation/getting-started/home">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Using the Home screen – AntennaPod">
+  <meta name="twitter:description" content="Using the Home screen">
+  <meta name="twitter:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/it/documentation/getting-started/home">
+  <meta property="og:title" content="Using the Home screen – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
+  <meta property="og:description" content="Using the Home screen">
+  <meta property="og:site_name" content="AntennaPod">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/branding/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/branding/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/branding/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/branding/favicons/safari-pinned-tab.svg?v=2" color="#364ff3">
+  <link rel="shortcut icon" href="/assets/branding/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#364ff3">
+  <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
+  <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
+
+</head>
+<body>
+<div class="content">
+    <div class="w-100 fixed background-gray-100">
+  <div class="container px-0 py-2 py-md-4">
+    <div class="navbar navbar-expand-xl">
+
+      <div class="col">
+        <a href="/it">
+          <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo">
+        </a>
+      </div>
+
+      <div class="col-auto">
+        <div class="collapse navbar-collapse flex-grow-0 weight-500">
+          <div class="navbar-nav align-items-center">
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/it/about">
+                Cos'è
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/it/blog">
+                Blog
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/it/events">
+                Eventi
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/it/contribute">
+                Contribuisci
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2 active">
+              <a class="nav-link" href="/it/documentation">
+                Documentazione
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="https://forum.antennapod.org/">
+                Forum
+              </a>
+            </div>
+            
+            <div class="nav-item ml-2 ml-sm-1 text-center">
+              <div class="nav-item dropdown mb-0">
+                <button class="nav-link dropdown-toggle" id="navbarDropdown1" aria-label="Cambia lingua" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">IT</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/getting-started/home">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/documentation/getting-started/home">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/getting-started/home">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/documentation/getting-started/home">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/getting-started/home">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/getting-started/home">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/getting-started/home">Nederlands</a>
+  
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-xl-none">
+          <div class="nav-item text-center d-inline-block">
+            <div class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" id="navbarDropdown2" aria-label="Cambia lingua" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">IT</span>
+              </button>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/getting-started/home">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/documentation/getting-started/home">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/getting-started/home">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/documentation/getting-started/home">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/getting-started/home">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/getting-started/home">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/getting-started/home">Nederlands</a>
+  
+
+
+            </div>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="navbar-mobile" class="overlay">
+    <button class="closebtn" onclick="closeNav()">×</button>
+      <div class="overlay-header">
+        <img src="/assets/branding/logo-icon.svg" width="80" alt="Logo di AntennaPod">
+      </div>
+      <div class="overlay-content">
+        
+        <a href="/it/about">Cos'è</a>
+        
+        <a href="/it/blog">Blog</a>
+        
+        <a href="/it/events">Eventi</a>
+        
+        <a href="/it/contribute">Contribuisci</a>
+        
+        <a href="/it/documentation">Documentazione</a>
+        
+        <a href="https://forum.antennapod.org/">Forum</a>
+        
+      </div>
+      <div class="overlay-footer">
+        
+        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fa-brands fa-mastodon mr-1"></i>Mastodon</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky mr-1"></i>Bluesky</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+    <div class="container-fluid">
+        <div class="container py-4">
+            
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0" id="breadcrumbs">
+    <li class="breadcrumb-item"><a href="/it">Home</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="/it/documentation">Documentation</a></li>
+    
+    
+    
+    <li class="breadcrumb-item"><a href="/it/documentation/getting-started">Getting started</a></li>
+    
+    
+    
+    <li class="breadcrumb-item active" aria-current="page">Using the Home screen</li>
+    
+    
+  </ol>
+</nav>
+
+            <article class="post-content">
+                <h1 id="using-the-home-screen">Using the Home screen</h1>
+
+<p>The Home screen allows you to have a quick overview of your podcasts, start listening and perform a range of actions, all conveniently from the same screen.</p>
+
+<p>It contains five sections, each of which displays episodes or subscriptions to interact with directly, but also provides a shortcut to the related screen (e.g. your queue).
+You can customize your Home screen – that is, reorder these sections or hide some of them – by tapping <code class="language-plaintext highlighter-rouge">…</code> in the top bar and selecting <code class="language-plaintext highlighter-rouge">Configure Home Screen</code>.</p>
+
+<h2 id="continue-listening">Continue listening</h2>
+<p>This section allows you to quickly and easily carry on listening to episodes you already have in your queue, beginning with those you have already started listening to, but haven’t finished just yet.</p>
+
+<h2 id="see-whats-new">See what’s new</h2>
+<p>In this section, you will find the latest episodes that have landed in your inbox as a result of having refreshed your subscriptions.</p>
+
+<h2 id="get-surprised">Get surprised</h2>
+<p>Here you can find a random selection of episodes from your subscriptions you haven’t listened to yet. If you don’t see anything you feel like listening, you can tap the arrow button to refresh the selection.</p>
+
+<h2 id="check-your-classics">Check your classics</h2>
+<p>Here you can quickly see and get access to your all-time most-listened subscriptions.</p>
+
+<h2 id="manage-downloads">Manage downloads</h2>
+<p>In this section, you can interact with the episodes you downloaded on your device.</p>
+
+
+            </article>
+            
+            <div class="row justify-content-start pb-4">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <footer>
+  <div class="container-fluid no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path class="svg-wave" fill="#00000" fill-opacity="0" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="container-fluid pb-2 bg-body-tertiary">
+    <div class="container">
+      <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+        <div class="col-12 col-lg-4 col-md-12 mb-3">
+          <div class="mb-4 mb-lg-3">
+            <a href="/it">
+              <img src="/assets/branding/logo-full-horizontal-dynamic.svg" width="260" alt="Logo di AntennaPod">
+            </a>
+          </div>
+          <p class="small mb-3">Il gestore di podcast per Android semplice da usare, flessibile e open source.</p>
+        </div>
+        <div class="col-0 col-lg-2"></div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/it/about">
+              Cos'è
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/it/blog">
+              Blog
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/it/contribute">
+              Contribuisci
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/it/documentation">
+              Documentazione
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/it/download">
+              Scarica AntennaPod
+            </a>
+          </div>
+          <!--<div class="mb-2">-->
+          <!--  <a href="/it/media-kit">-->
+          <!--    <span>Cartella stampa</span>-->
+          <!--  </a>-->
+          <!--</div>-->
+        </div>
+        <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+              <i class="fa-brands fa-mastodon mr-1"></i>Mastodon
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github mr-1"></i>GitHub
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+              <i class="fa-brands fa-bluesky mr-1"></i>Bluesky
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter mr-1"></i>Twitter
+            </a>
+          </p>
+          
+          <p>
+            <a class="mr-2" href="/rss.xml" target="_blank" rel="noopener">
+              <i class="fa fa-rss mr-1"></i>RSS
+            </a>
+          </p>
+        </div>
+      </div>
+      <p class="top-border mb-2"></p>
+      <div class="d-block d-lg-flex justify-content-between pt-0 pb-3 copyright">
+        <div class="small mb-2 mb-lg-0">
+          © 2024 AntennaPod
+          <span class="mx-1">|</span>
+          <a class="underline-hover" href="/it/license">Licenza</a>
+          <span class="mx-1">|</span>
+          <a class="underline-hover" href="/it/privacy">Informativa sulla privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
