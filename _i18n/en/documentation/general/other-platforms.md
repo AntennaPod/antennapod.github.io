@@ -1,4 +1,4 @@
-However attractive the title may sound, AntennaPod is not and will not be available on Windows, iOS or the Linux desktop. The app is made by a small team of volunteers, and making the app for these other platforms would be a lot of work.
+However attractive the title may sound, AntennaPod is not and will not be available on Windows, iOS or the Linux desktop. The app is made by a small team of volunteers, and making the app for these other platforms would be a lot of work. Feel free to try [Genymotion](https://www.genymotion.com) of for Linux [Waydroid](https://waydro.id) (if you use Wayland).
 
 There are (open source) alternatives, however, which we would like to point you to:
 
@@ -17,11 +17,4 @@ App|Code|iOS|MacOS|Windows|Linux
 [MusicPod](https://snapcraft.io/musicpod)|[<i class="fab fa-github"></i>](https://github.com/ubuntu-flutter-community/musicpod)|❌|❌|❌|✅
 
 <!-- mdpo-enable -->
-
-Another option: use [Genymotion](https://www.genymotion.com) on your desktop (Windows, macOS, Linux).
-
-On Linux with Wayland you can try https://waydro.id
-
-Or with a strong desire - install Android to virtual machine or to your computer with https://blissos.org
-
 Do you have a recommendation of an open source podcast app for these platforms? [Let us know on the forum!](https://forum.antennapod.org)
