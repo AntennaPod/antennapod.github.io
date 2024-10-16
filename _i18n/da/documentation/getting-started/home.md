@@ -1,23 +1,23 @@
-The Home screen allows you to have a quick overview of your podcasts, start listening and perform a range of actions, all conveniently from the same screen.
+Hjem-skærmen giver dig mulighed for at få et hurtigt overblik over dine podcasts, begynde at lytte og udføre en række handlinger, alt sammen bekvemt fra den samme skærm.
 
-It contains five sections, each of which displays episodes or subscriptions to interact with directly, but also provides a shortcut to the related screen (e.g. your queue). You can customize your Home screen – that is, reorder these sections or hide some of them – by tapping `…` in the top bar and selecting `Configure Home Screen`.
+Den indeholder fem sektioner, som hver især viser afsnit eller abonnementer, som man kan interagere direkte med, men som også giver en genvej til den relaterede skærm (f.eks. din kø). Du kan tilpasse din Hjem-skærm - dvs. ændre rækkefølgen på disse sektioner eller skjule nogle af dem - ved at trykke på `…` i topbjælken og vælge `Konfigurer Hjem-skærm`.
 
-## Continue listening
+## Fortsæt med at lytte
 
-This section allows you to quickly and easily carry on listening to episodes you already have in your queue, beginning with those you have already started listening to, but haven’t finished just yet.
+I denne sektion kan du hurtigt og nemt fortsætte med at lytte til afsnit, du allerede har i din kø, og begynde med dem, du allerede er begyndt at lytte til, men ikke er færdig med endnu.
 
-## See what’s new
+## Se nyheder
 
-In this section, you will find the latest episodes that have landed in your inbox as a result of having refreshed your subscriptions.
+I denne sektion finder du de seneste afsnit, der er landet i din indbakke som følge af, at du har opdateret dine abonnementer.
 
-## Get surprised
+## Bliv overrasket
 
-Here you can find a random selection of episodes from your subscriptions you haven’t listened to yet. If you don’t see anything you feel like listening, you can tap the arrow button to refresh the selection.
+Her kan du finde et tilfældigt udvalg af afsnit fra dine abonnementer, som du ikke har lyttet til endnu. Hvis du ikke kan se noget, du har lyst til at lytte til, kan du trykke på pileknappen for at opdatere udvalget.
 
-## Check your classics
+## Tjek dine klassiskere
 
-Here you can quickly see and get access to your all-time most-listened subscriptions.
+Her kan du hurtigt se og få adgang til dine mest lyttede abonnementer nogensinde.
 
-## Manage downloads
+## Administrer overførsler
 
-In this section, you can interact with the episodes you downloaded on your device.
+I denne sektion kan du interagere med de afsnit, du har overført til din enhed.

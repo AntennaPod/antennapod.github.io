@@ -6,7 +6,7 @@ Du er nu ved kernen i projektet! Dit bidrag bruges af tusindvis af mennesker ove
 
 ## Her har vi brug for hjælp
 
-Der er et par områder, hvor vi godt kunne bruge din støtte. Når man først kommer i gang med at udvikle AntennaPod, anbefaler vi, at man vælger et problem med ['Good first issue' mærkaten](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) på GitHub. Før du begynder at arbejde på et problem, skal du sikre dig, at det ikke har 'Needs: Triage' eller 'Needs: Decision' mærkaten. Denne mærkat betyder, at funktionen endnu ikke er blevet gennemgået af AntennaPods kerneteam.
+Der er et par områder, hvor vi godt kunne bruge din støtte. Når man første gang begynder at udvikle AntennaPod, anbefaler vi, at man vælger et problem med ['Good first issue' mærkaten](https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue) på GitHub. Før du begynder at arbejde på et problem, skal du sikre dig, at det ikke har 'Needs: Triage' eller 'Needs: Decision' mærkaten. Denne mærkat betyder, at funktionen endnu ikke er blevet gennemgået af AntennaPods kerneteam.
 
 Hvis du foretrækker at jagte fejl, kan du gå til listen med [problem-etiketten 'bekræftede fejl'](https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug) på GitHub.
 
