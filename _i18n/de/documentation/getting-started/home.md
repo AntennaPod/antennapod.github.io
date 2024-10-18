@@ -8,7 +8,7 @@ Dieser Bereich ermöglicht es dir, schnell und einfach die Episoden weiterzuhör
 
 ## Was gibt’s Neues
 
-In diesem Bereich kannst du die neuesten Episoden sehen, die durch die Aktualisierung deiner Abonnements in deinem Posteingang gelandet sind.
+In diesem Bereich kannst du die neuesten Episoden sehen, die durch das Aktualisieren deiner Abonnements in deinem Posteingang gelandet sind.
 
 ## Lass dich überraschen
 
