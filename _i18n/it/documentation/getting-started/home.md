@@ -1,23 +1,23 @@
-The Home screen allows you to have a quick overview of your podcasts, start listening and perform a range of actions, all conveniently from the same screen.
+La schermata Home ti permette di avere una panoramica dei tuoi podcast, iniziare ad ascoltarli ed eseguire una gamma di azioni, tutto comodamente dalla stessa schermata.
 
-It contains five sections, each of which displays episodes or subscriptions to interact with directly, but also provides a shortcut to the related screen (e.g. your queue). You can customize your Home screen – that is, reorder these sections or hide some of them – by tapping `…` in the top bar and selecting `Configure Home Screen`.
+Contiene cinque sezioni, ognuna delle quali mostra episodi o iscrizioni con cui interagire direttamente e fornisce anche una scorciatoia verso la schermata dedicata (per es. la tua coda). Puoi personalizzare la tua schermata Home, cioè riordinare queste sezioni o nasconderne alcune, toccando `…` nella barra superiore e selezionando `Configura schermata Home`.
 
-## Continue listening
+## Prosegui l'ascolto
 
-This section allows you to quickly and easily carry on listening to episodes you already have in your queue, beginning with those you have already started listening to, but haven’t finished just yet.
+Questa sezione ti permette di continuare rapidamente e facilmente l'ascolto di episodi che hai già nella tua coda, a partire da quelli che hai già iniziato ad ascoltare, ma che non hai ancora finito.
 
-## See what’s new
+## Controlla le novità
 
-In this section, you will find the latest episodes that have landed in your inbox as a result of having refreshed your subscriptions.
+In questa sezione troverai gli ultimi episodi approdati nel tuo inbox dopo che hai aggiornato le tue iscrizioni.
 
-## Get surprised
+## Lasciati sorprendere
 
-Here you can find a random selection of episodes from your subscriptions you haven’t listened to yet. If you don’t see anything you feel like listening, you can tap the arrow button to refresh the selection.
+Qui puoi trovare una selezione casuale di episodi che non hai ancora ascoltato provenienti dalle tue iscrizioni. Se non vedi nulla che ti va di ascoltare, puoi toccare il pulsante con le frecce per aggiornare la selezione.
 
-## Check your classics
+## Riscopri i tuoi classici
 
-Here you can quickly see and get access to your all-time most-listened subscriptions.
+Qui puoi vedere e accedere rapidamente alle tue iscrizioni più ascoltate di sempre.
 
-## Manage downloads
+## Gestisci i download
 
-In this section, you can interact with the episodes you downloaded on your device.
+In questa sezione puoi interagire con gli episodi che hai scaricato sul tuo dispositivo.
