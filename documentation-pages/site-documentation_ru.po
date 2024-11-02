@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 21:56+0200\n"
-"PO-Revision-Date: 2024-10-20 21:39+0000\n"
+"PO-Revision-Date: 2024-11-02 18:14+0000\n"
 "Last-Translator: XblateX <blate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.8-rc\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -94,6 +94,8 @@ msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. For example:"
 msgstr ""
+"Если у вас есть более сложные потребности, вы можете использовать различные "
+"сторонние приложения для автоматизации вместе с AntennaPod. Например:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
@@ -108,8 +110,9 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
+#, fuzzy
 msgid "General instructions"
-msgstr ""
+msgstr "Общие инструкции"
 
 #: _i18n/en/documentation/automation/tasker.md:block 5 (paragraph)
 msgid ""
@@ -130,7 +133,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
 msgid "Steps for some automation apps"
-msgstr ""
+msgstr "Шаги для некоторых приложений автоматизации"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -157,7 +160,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
 msgid "Create a task. In the task, add an action"
-msgstr ""
+msgstr "Создайте задачу. В задаче добавьте действие"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Select `System`"
@@ -183,7 +186,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "You can leave the other fields blank"
-msgstr ""
+msgstr "Остальные поля можно оставить пустыми"
 
 #: _i18n/en/documentation/automation/tasker.md:block 14 (header)
 msgid ""
@@ -224,9 +227,10 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 1 (paragraph)
 msgid "Did you encounter a bug? We're sorry to hear."
-msgstr ""
+msgstr "Вы столкнулись с ошибкой? Нам очень жаль."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "First, please make sure you have the latest version of AntennaPod. With "
 "every update we fix many small and bigger issues. Then search our forum to "
@@ -234,6 +238,13 @@ msgid ""
 "can see if there's any suggestions. Also consider providing information from "
 "your situation - it might help developers find the source of the problem."
 msgstr ""
+"Во-первых, убедитесь, что у вас последняя версия AntennaPod. С каждым "
+"обновлением мы исправляем множество мелких и более серьезных проблем. Затем "
+"поищите на нашем форуме, чтобы узнать, нет ли у кого-нибудь такой же "
+"проблемы. Если вы найдете проблему, которая возникла у вас, вы сможете "
+"узнать, есть ли какие-либо предложения. Также попробуйте предоставить "
+"информацию о вашей ситуации - это может помочь разработчикам найти источник "
+"проблемы."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
 msgid ""
@@ -251,19 +262,27 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
 #: (paragraph)
+#, fuzzy
 msgid ""
 "In Android 13 and Android 14 it is not always possible to resume playback "
 "from the lock screen or media notification. This occurs specifically if "
 "playback has been paused for a while."
 msgstr ""
+"В Android 13 и Android 14 не всегда можно возобновить воспроизведение с "
+"экрана блокировки или медиа-уведомления. Это происходит, в частности, если "
+"воспроизведение было приостановлено на некоторое время."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
 #: (paragraph)
+#, fuzzy
 msgid ""
 "It currently is not clear why this issue occurs. We have established the "
 "same problem affects other apps, including Google's apps. We suspect, "
 "therefore, that this is an issue with Android."
 msgstr ""
+"В настоящее время неясно, почему возникает эта проблема. Мы установили, что "
+"эта же проблема затрагивает другие приложения, включая приложения Google. "
+"Поэтому мы подозреваем, что это проблема Android."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
 #: (header)
@@ -318,6 +337,9 @@ msgid ""
 "distributed). This basically means that there is no central server that "
 "knows everything about each podcast."
 msgstr ""
+"AntennaPod - это [децентрализованное приложение для подкастов](/"
+"documentation/general/central-distributed). Это означает, что нет "
+"центрального сервера, который бы знал все о каждом подкасте."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 2
 #: (paragraph)
@@ -333,6 +355,7 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "In a very old AntennaPod version, there were some issues with the database "
 "with all information (episodes, listening states, etc). While the cause is "
@@ -342,12 +365,21 @@ msgid ""
 "At that point AntennaPod can no longer work with the broken database and has "
 "to start over with an empty one."
 msgstr ""
+"В очень старой версии AntennaPod были проблемы с базой данных, содержащей "
+"всю информацию (эпизоды, состояния прослушивания и т. д.). Хотя причина "
+"давно устранена, Ваша база данных могла быть повреждена (даже если "
+"приложение работало без проблем). Если последняя версия AntennaPod вносит "
+"изменения в поврежденные части базы данных, эти повреждения могут внезапно "
+"стать проблемой. В этом случае AntennaPod больше не может работать с "
+"поврежденной базой данных и вынужден начать работу с пустой."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "We realize it is very frustrating when this happens and are really sorry if "
 "you were affected."
 msgstr ""
+"Мы понимаем, что это очень неприятно, когда такое случается, и очень "
+"сожалеем, если Вы пострадали."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (paragraph)
 msgid ""
