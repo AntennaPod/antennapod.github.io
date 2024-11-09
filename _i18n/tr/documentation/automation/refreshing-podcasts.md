@@ -1,0 +1,5 @@
+Varsayqılan olarak tüm podcast'ler, yeni bölümlerin alınması için 12 saatlik aralıklarla yenilenir. ` Ayarlar ` » ` Ağ ` » ` Podcast'leri yenile ` aracılığıyla aralık dönemini değiştirebilir, günün belirli bir saatini seçebilir veya otomatik güncellemeleri kapatabilirsiniz.
+
+Ayrıca, bir podcast'i güncel tutmanın gereksiz olması durumunda, bu işlemi tek tek podcast'ler için de kapatabilirsiniz. Örneğin, bir podcast için artık yeni bölüm yayınlanmıyorsa bunu kullanabilirsiniz. Ya da yalnızca ara sıra bir bölümünü dinleyeceğiniz bir podcast eklediğinizde . Bunu, bir podcast'e giderek, ` Dişli ` simgesine dokunarak ve ` Güncel Tut ` ayarını değiştirerek ayarlayabilirsiniz .
+
+Bu podcast ayarını kapattığınızda, podcast'ler otomatik olarak yenilendiğinde veya bu işlemi Kuyruk veya Bölümler ekranından başlattığınızda podcast artık güncellenmeyecektir. AntennaPod'a yeni bölümler getirecek olan podcast'i hâlâ yenileyebilirsiniz . Ancak bu yeni bölümler, Bölümler ekranının Yeni sekmesinde görünmeyecek.

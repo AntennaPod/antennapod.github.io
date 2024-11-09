@@ -1,0 +1,1 @@
+Dinlemeyi planladığınız bölümleri saklamak için kuyruğu kullanabilirsiniz . İlgi çekici bir bölümle karşılaşırsanız , uzun basın ve ` Kuyruğa ekle ` yi seçin. Bir bölüm indirirseniz , AntennaPod onu otomatik olarak kuyruğa ekler .
