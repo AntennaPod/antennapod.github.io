@@ -1,0 +1,3 @@
+Hvis avspillingen alltid stopper, for eksempel noen sekunder etter at du har slått av skjermen, eller når du ikke har åpnet AntennaPod på en stund, kan det hende at systemet ditt tvangsavslutter appen. Noen leverandører er kjent for å være altfor aggressive når de prøver å spare batteri. **Prøv å legge til et unntak for AntennaPod i listen over batterioptimaliserte apper.** Siden måten å legge til et unntak på ofte varierer fra telefon til telefon, foreslår vi at du søker på nettet etter instruksjoner for telefonmerket og -modellen din hvis du ikke vet hvordan du legger til et unntak.
+
+Hvis dette ikke hjalp, ikke nøl med å ta kontakt med AntennaPod-bidragsyterne i vårt [forum](https://forum.antennapod.org).
