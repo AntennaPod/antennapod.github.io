@@ -41,6 +41,9 @@ generic:
   view: Voir tout
   next: Suivant
   error404: Erreur 404
+  subscribe-subtitle: Cliquer pour vous abonner à ce podcast sur AntennaPod ou n'importe
+    quelle autre application de podcast.
+  previous: Précédent
 month:
   Jan: Jan
   Feb: Fév
@@ -137,6 +140,7 @@ documentation:
         sur la façon de démarrer avec AntennaPod.
       subscribe: S'abonner un à podcast
       episodes-missing: Des épisodes sont manquants
+      home: Utiliser l'écran d'accueil
     general:
       title: Général
       intro: Ci-dessous, vous trouverez plus d'informations à propos du projet AntennaPod.
@@ -186,6 +190,7 @@ documentation:
         et les hébergeurs de podcasts.
       add-on-antennapod: Créer un lien « Ouvrir dans AntennaPod »
       list-podcast: Répertorier votre podcast
+      update-feed-urls: Mise à jour des liens URL
     bugs-first-aid:
       title: Problèmes, erreurs et aide
       intro: La création de logiciels est une activité humaine, et les erreurs sont
@@ -198,6 +203,8 @@ documentation:
       cannot-stream-download: Impossible de télécharger un épisode
       playback-stops: La lecture s’arrête soudainement
       refresh-download-errors: Erreur de téléchargement ou de mise à jour du flux
+      cannot-resume-playback: Impossible de reprendre la lecture à partir de l'écran
+        de verrouillage / des notifications
 footer:
   description: Le gestionnaire de podcasts simple, flexible et open-source pour Android.
 events:
@@ -218,5 +225,7 @@ events:
     watch-recording: Regarder l'enregistrement
   recurrence:
     every-2nd-saturday: Chaque second Samedi du mois
+    2nd-4th-wednesday: (presque tous) les deuxièmes et quatrième mercredi du mois
 not-installed:
   title: AntennaPod non installé
+  text: AntennaPod n'est pas installé ou votre navigateur ne peut pas l'ouvrir directement.

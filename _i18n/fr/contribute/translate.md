@@ -48,7 +48,7 @@ Les nouvelles traductions sont transférées manuellement de Weblate vers GitHub
 
 # Autres matériels
 
-Outre l'application et le site web, les éléments figurant dans les magasins d'applications peuvent également être traduits. Il s'agit de captures d'écran et de textes. L'espace étant très limité, nous utilisons un processus manuel avec des essais et des erreurs. Si vous souhaitez nous aider, faites-le savoir sur le forum. Les entrées traduites dans les magasins d'applications étant plus susceptibles d'être téléchargées, toute aide est la bienvenue !
+En plus de l'application et du site web, les images des app stores peuvent être traduites. Ils s'agit de captures d'écran et de textes. L'espace étant très limité, nous utilisons un processus manuel avec des essais et des erreurs. Si vous souhaitez nous aider, faites-le nous savoir sur le forum. Les applications traduites dans les app stores étant plus susceptibles d'être téléchargées, toute aide est bienvenue !
 
 # Prenez contact avec nous !
 

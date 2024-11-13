@@ -2,11 +2,11 @@ AntennaPod est développé et maintenu par des bénévoles individuels et n'est 
 
 ## Les données que l’application AntennaPod peut collecter, stocker et traiter
 
-L'application AntennaPod ne stocke que les données strictement nécessaires au fonctionnement de l'application, telles que vous nous les fournissez en tant qu'utilisateur. Cela inclut par exemple la liste des podcasts que vous suivez, les paramètres de l'application et les données d'authentification transmises pour des podcasts ou des services spécifiques (tels que Gpodder). L'application n'inclut aucune bibliothèque publicitaire, ni aucun code de suivi provenant tiers, tel que Google Analytics.
+L'application ne stocke que les données strictement nécessaires à son fonctionnement. Par exemple la liste des podcasts que vous suivez, vos préférences, vos données d'authentification entrées pour accéder à certains podcasts spécifiques ou services (tels qu'un serveur de synchronisation). L'application n'inclut aucune bibliothèque publicitaire, ni aucun code tiers de suivi de type Google Analytics.
 
 **Toutes les données fournies à l'aide de l'application AntennaPod sont stockées localement sur votre appareil. AntennaPod ne stocke pas vos données, sauf lorsque cela est strictement nécessaire au fonctionnement de l'application.** Voici les cas où des éléments sont envoyés à des tiers.
 
-Le seul cas dans lequel vos données provenant de tiers peuvent être traité, concerne l'utilisation d'un service de synchronisation, s'il est activé dans les paramètres. L'application recevra alors les abonnements et les éléments de lecture fournis par le service.
+Le seul cas d'utilisation de vos données provenant de service tiers est quand vous avez activé dans les paramètres un service de synchronisation. Dans ce cas l'application recevra les abonnements et les évènements de lecture fournis par le service.
 
 ## Permissions de l'application
 
@@ -42,7 +42,7 @@ Les développeurs d'AntennaPod n'ont **pas** accès à vos informations, sauf lo
    - langage de votre périphérique
    - Version d'Android
 - visiter ou participer à notre forum : comme décrit dans la [politique de confidentialité du forum](https://forum.antennapod.org/privacy)
-- faire une contribution financière via Open Collective (sauf si vous faites une contribution [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile)) :
+- faire une contribution financière via Open Collective (sauf si vous voulez faire une contribution [anonyme](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) ou [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) contribution) :
    - information sur le profil public (nom, entreprise, description, image, Twitter, GitHub, site web)
    - adresse e-mail
 
@@ -50,7 +50,7 @@ Les développeurs d'AntennaPod n'ont **pas** accès à vos informations, sauf lo
 
 Les développeurs peuvent mettre à jour cette politique à l'avenir. Il est conseillé de vérifier périodiquement si des modifications ont été apportées à la politique. Les modifications apportées à cette politique de confidentialité sont effectives lorsqu'elles sont effectuées sur ce document.
 
-Cette politique de confidentialité a été mise à jour le 13/02/2022. Si vous avez des questions, faîtes une demande sur GitHub ou sur notre forum.
+La politique de confidentialité a été mise à jour le 13/07/2024. Si vous avez des questions, ouvrez une demande sur GitHub ou sur notre forum.
 
 {% if site.lang != 'en' %}
 
