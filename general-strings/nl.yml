@@ -29,6 +29,8 @@ generic:
     subject: Ik wilde dit met je delen
   previous: Vorige
   next: Volgende
+  subscribe-subtitle: Klik om je te abonneren op deze podcast in AntennaPod of een
+    andere podcast app.
 month:
   Jun: jun
   Jul: jul
@@ -124,6 +126,7 @@ documentation:
       title: Voor podcasters & hosters
       add-on-antennapod: Maak een 'Open in AntennaPod'-link
       list-podcast: Je podcast vermeld krijgen
+      update-feed-urls: Feed URLS aan het updaten
     general:
       proxy: Verkeer via een proxy of het Tor-netwerk leiden
       episode-deletion: Afleveringen verwijderen
@@ -137,6 +140,7 @@ documentation:
       gpodder: Tussen verschillende apparaten synchroniseren
       synchronization: Tussen verschillende apparaten synchroniseren
       f-droid: Updates op F-Droid
+      other-platforms: AntennaPod voor Windows, Apple en Linux
     playback:
       crashes: Wat te doen als het afspelen plotseling stopt
       shortcuts: Sneltoetsen voor fysieke toetsenborden
@@ -168,11 +172,14 @@ documentation:
       playback-stops: Het afspelen stopt plotseling
       cannot-stream-download: Een aflevering kan niet gedownload worden
       refresh-download-errors: Fout bij het downloaden of verversen van de feed
+      cannot-resume-playback: Kan niet ontpauzeren vanaf het ontgrendelscherm of een
+        notificatie
     getting-started:
       title: Aan de slag
       intro: Welkom bij AntennaPod! Hieronder vind je informatie voor je eerste stappen
         met AntennaPod.
       subscribe: Je abonneren op een podcast
+      home: De startpagina gebruiken
     subscriptions:
       title: Abonnementen
       intro: Hieronder vind je vaak gestelde vragen over abonnementen.
@@ -207,3 +214,8 @@ events:
     watch-recording: Opname bekijken
   recurrence:
     every-2nd-saturday: elke tweede zaterdag van de maand
+    2nd-4th-wednesday: (bijna elke) tweede en vierde woensdag van de maand
+not-installed:
+  title: AntennaPod niet geïnstalleerd
+  text: AntennaPod is niet geïnstalleerd of je browser ondersteunt het direct openen
+    ervan niet.
