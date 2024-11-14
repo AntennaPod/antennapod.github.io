@@ -13,4 +13,4 @@ Er zijn echter (open source) alternatieven, waar we je graag op willen wijzen:
 | [GNOME Podcasts](https://apps.gnome.org/app/org.gnome.Podcasts/) | [<i class="fab fa-gitlab"></i>](https://gitlab.gnome.org/World/podcasts) | ❌ | ❌ | ❌ | ✅ |
 | [MusicPod](https://snapcraft.io/musicpod) | [<i class="fab fa-github"></i>](https://github.com/ubuntu-flutter-community/musicpod) | ❌ | ❌ | ❌ | ✅ |
 
-Heb je aanbevelingen voor open source podcast-apps voor deze platforms? [Laat het ons weten op het forum!](https://forum.antennapod.org/).
+Heb je aanbevelingen voor open source podcast-apps voor deze platforms? [Laat het ons weten op het forum!](https://forum.antennapod.org/)
