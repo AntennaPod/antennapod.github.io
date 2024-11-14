@@ -3,21 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2024-02-25 20:18+0000\n"
-"Last-Translator: ByteHamster <info@bytehamster.com>\n"
+"PO-Revision-Date: 2024-11-14 00:41+0000\n"
+"Last-Translator: klint <klint@free.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
-"website-documentation/fr/>\n"
+"website/documentation/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
 msgid "Why are some downloaded episodes deleted?"
-msgstr "Pourquoi certains épisodes téléchargés sont-ils supprimés ?"
+msgstr "Pourquoi certains épisodes téléchargés sont-ils supprimés ?"
 
 #: _i18n/en/documentation/automation/deletion.md:block 2 (paragraph)
 msgid ""
@@ -328,6 +328,10 @@ msgid ""
 "from the lock screen or media notification. This occurs specifically if "
 "playback has been paused for a while."
 msgstr ""
+"Dans Android 13 et Android 14, il n'est pas toujours possible de reprendre "
+"la lecture à partir de l'écran de verrouillage ou de la notification "
+"multimédia. Cela se produit notamment lorsque la lecture a été interrompue "
+"pendant un certain temps."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
 #: (paragraph)
@@ -336,11 +340,15 @@ msgid ""
 "same problem affects other apps, including Google's apps. We suspect, "
 "therefore, that this is an issue with Android."
 msgstr ""
+"La raison de ce problème n'est pas claire pour l'instant. Nous avons "
+"constaté que le même problème affecte d'autres applications, y compris les "
+"applications de Google. Nous pensons donc qu'il s'agit d'un problème lié à "
+"Android."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
 #: (header)
 msgid "Workaround"
-msgstr ""
+msgstr "Solution de contournement"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
@@ -351,11 +359,17 @@ msgid ""
 "Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
 "playback, even if playback has been paused for a while."
 msgstr ""
+"Pour pouvoir reprendre la lecture, vous pouvez ajouter la \"tuile\" "
+"AntennaPod à votre appareil. Les tuiles sont essentiellement les boutons que "
+"vous voyez lorsque vous tirez vers le bas à partir du haut de l'écran. Vous "
+"connaissez probablement la tuile Internet ou la tuile Lampe de poche. La "
+"tuile AntennaPod vous permet de lire et d'interrompre la lecture, même si "
+"celle-ci a été interrompue pendant un certain temps."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
 #: (paragraph)
 msgid "To add the AntennaPod tile:"
-msgstr ""
+msgstr "Pour ajouter la tuile AntennaPod :"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -363,6 +377,8 @@ msgid ""
 "**Pull down twice** from the top of the screen, so you see the full buttons "
 "(below the brightness indicator)"
 msgstr ""
+"**Tirez deux fois vers le bas** à partir du haut de l'écran, de manière à "
+"voir les boutons complets (sous l'indicateur de luminosité)."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -370,6 +386,8 @@ msgid ""
 "**Tap on the pencil icon** at the bottom of the tiles section to edit the "
 "tiles"
 msgstr ""
+"**Tapez sur l'icône du crayon** en bas de la section des tuiles pour "
+"modifier les tuiles."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -377,11 +395,13 @@ msgid ""
 "Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
 "into the list of active tiles"
 msgstr ""
+"Faites défiler la liste des tuiles, **tapez sur la tuile AntennaPod et "
+"faites-la glisser** vers le haut dans la liste des tuiles actives."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid "Tap the back arrow to exit the tile editing"
-msgstr ""
+msgstr "Touchez la flèche de retour pour quitter l'édition de la tuile"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -422,12 +442,23 @@ msgid ""
 "At that point AntennaPod can no longer work with the broken database and has "
 "to start over with an empty one."
 msgstr ""
+"Dans une très ancienne version d'AntennaPod, il y avait des problèmes avec "
+"la base de données contenant toutes les informations (épisodes, états "
+"d'écoute, etc.). Bien que la cause soit réparée depuis longtemps, votre base "
+"de données peut avoir été endommagée (même lorsque l'application "
+"fonctionnait sans problème). Si une version récente d'AntennaPod apporte des "
+"modifications aux parties endommagées de la base de données, ces dommages "
+"peuvent soudainement devenir un problème. A ce moment là, AntennaPod ne peut "
+"plus travailler avec la base de données endommagée et doit recommencer avec "
+"une base de données vide."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "We realize it is very frustrating when this happens and are really sorry if "
 "you were affected."
 msgstr ""
+"Nous sommes conscients qu'il est très frustrant que cela se produise et nous "
+"sommes vraiment désolés si vous avez été affecté."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (paragraph)
 msgid ""
@@ -1288,14 +1319,17 @@ msgstr ""
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
 msgstr ""
+"Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous "
+"interrogez :"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
+#, fuzzy
 msgid "*why isn't the latest version not on F-Droid yet?*"
-msgstr ""
+msgstr "*Pourquoi la dernière version n'est-elle pas encore sur F-Droid ?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*when will the new release be available on F-Droid?*"
-msgstr ""
+msgstr "*quand la nouvelle version sera-t-elle disponible sur F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 3 (paragraph)
 msgid ""
@@ -1309,14 +1343,27 @@ msgid ""
 "version will be available there. It usually takes a few days after the "
 "release is tagged on GitHub."
 msgstr ""
+"Si la nouvelle version est en version bêta, elle est *uniquement* disponible "
+"sur Google Play ([voici pourquoi](/documentation/general/beta)). Lorsque "
+"nous pensons qu'elle est prête, nous la téléchargeons sur Google Play. "
+"Quelques jours plus tard, lorsque nous sommes sûrs qu'il n'y a pas de bugs "
+"critiques, nous marquons la version sur GitHub. F-Droid doit alors découvrir "
+"cette version, la construire et la rendre disponible. Toutes ces étapes "
+"peuvent prendre un certain temps. En raison des différentes étapes et parce "
+"que nous ne sommes pas impliqués dans la publication des versions sur F-"
+"Droid, nous ne pouvons pas dire quand exactement la dernière version sera "
+"disponible. Cela prend généralement quelques jours après que la version soit "
+"étiquetée sur GitHub."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid "In short: it may take some time. Please be patient."
 msgstr ""
+"En bref : cela peut prendre un certain temps. Nous vous demandons d'être "
+"patients."
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps of getting a new version on F-Droid"
-msgstr ""
+msgstr "Les étapes pour obtenir une nouvelle version sur F-Droid"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (unordered list)
 msgid ""
@@ -1360,7 +1407,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (header)
 msgid "What you can do if it takes longer than expected"
-msgstr ""
+msgstr "Ce que vous pouvez faire si la procédure prend plus de temps que prévu"
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (paragraph)
 #, fuzzy
@@ -1398,16 +1445,22 @@ msgid ""
 "team of volunteers, and making the app for these other platforms would be a "
 "lot of work."
 msgstr ""
+"Aussi attrayant que le titre puisse paraître, AntennaPod n'est pas et ne "
+"sera pas disponible sur Windows, iOS ou Linux. L'application est réalisée "
+"par une petite équipe de bénévoles, et l'adapter à ces autres plateformes "
+"représenterait un travail considérable."
 
 #: _i18n/en/documentation/general/other-platforms.md:block 2 (paragraph)
 msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
 msgstr ""
+"Il existe cependant des alternatives (open source) que nous aimerions vous "
+"indiquer :"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
-msgstr ""
+msgstr "Application"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 6 (paragraph)
 #, fuzzy
@@ -1588,12 +1641,15 @@ msgstr ""
 "sur `Procéder`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#, fuzzy
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
 msgstr ""
+"Saisissez le \"Nom d'utilisateur\" et le \"Mot de passe\" et appuyez sur "
+"\"Connexion\"."
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select the device that you created on the server"
-msgstr ""
+msgstr "Sélectionnez le périphérique que vous avez créé sur le serveur"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
 msgid ""
@@ -1727,6 +1783,9 @@ msgid ""
 "listening and perform a range of actions, all conveniently from the same "
 "screen."
 msgstr ""
+"L'écran d'accueil vous permet d'avoir une vue d'ensemble rapide de vos "
+"podcasts, de commencer à les écouter et d'effectuer toute une série "
+"d'actions, le tout à partir du même écran."
 
 #: _i18n/en/documentation/getting-started/home.md:block 2 (paragraph)
 msgid ""
@@ -1736,10 +1795,16 @@ msgid ""
 "reorder these sections or hide some of them – by tapping `…` in the top bar "
 "and selecting `Configure Home Screen`."
 msgstr ""
+"Il contient cinq sections, chacune d'entre elles affichant des épisodes ou "
+"des abonnements avec lesquels interagir directement, mais fournissant "
+"également un raccourci vers l'écran correspondant (par exemple votre file "
+"d'attente). Vous pouvez personnaliser votre écran d'accueil - c'est-à-dire "
+"réorganiser ces sections ou en masquer certaines - en appuyant sur `...` "
+"dans la barre supérieure et en sélectionnant `Configurer l'écran d'accueil`."
 
 #: _i18n/en/documentation/getting-started/home.md:block 3 (header)
 msgid "Continue listening"
-msgstr ""
+msgstr "Continuer à écouter"
 
 #: _i18n/en/documentation/getting-started/home.md:block 4 (paragraph)
 msgid ""
@@ -1747,20 +1812,26 @@ msgid ""
 "you already have in your queue, beginning with those you have already "
 "started listening to, but haven’t finished just yet."
 msgstr ""
+"Cette section vous permet de poursuivre rapidement et facilement l'écoute "
+"des épisodes que vous avez déjà dans votre file d'attente, en commençant par "
+"ceux que vous avez déjà commencé à écouter, mais que vous n'avez pas encore "
+"terminés."
 
 #: _i18n/en/documentation/getting-started/home.md:block 5 (header)
 msgid "See what’s new"
-msgstr ""
+msgstr "Voir les nouveautés"
 
 #: _i18n/en/documentation/getting-started/home.md:block 6 (paragraph)
 msgid ""
 "In this section, you will find the latest episodes that have landed in your "
 "inbox as a result of having refreshed your subscriptions."
 msgstr ""
+"Dans cette section, vous trouverez les derniers épisodes qui ont atterri "
+"dans votre boîte de réception suite à l'actualisation de vos abonnements."
 
 #: _i18n/en/documentation/getting-started/home.md:block 7 (header)
 msgid "Get surprised"
-msgstr ""
+msgstr "Soyez surpris"
 
 #: _i18n/en/documentation/getting-started/home.md:block 8 (paragraph)
 msgid ""
@@ -1768,26 +1839,34 @@ msgid ""
 "haven’t listened to yet. If you don’t see anything you feel like listening, "
 "you can tap the arrow button to refresh the selection."
 msgstr ""
+"Vous trouverez ici une sélection aléatoire d'épisodes de vos abonnements que "
+"vous n'avez pas encore écoutés. Si vous ne voyez rien qui vous donne envie "
+"d'écouter, vous pouvez appuyer sur le bouton flèche pour actualiser la "
+"sélection."
 
 #: _i18n/en/documentation/getting-started/home.md:block 9 (header)
 msgid "Check your classics"
-msgstr ""
+msgstr "Vos classiques"
 
 #: _i18n/en/documentation/getting-started/home.md:block 10 (paragraph)
 msgid ""
 "Here you can quickly see and get access to your all-time most-listened "
 "subscriptions."
 msgstr ""
+"Ici, vous pouvez rapidement voir et accéder à vos abonnements les plus "
+"écoutés de tous les temps."
 
 #: _i18n/en/documentation/getting-started/home.md:block 11 (header)
 msgid "Manage downloads"
-msgstr ""
+msgstr "Derniers téléchargements"
 
 #: _i18n/en/documentation/getting-started/home.md:block 12 (paragraph)
 msgid ""
 "In this section, you can interact with the episodes you downloaded on your "
 "device."
 msgstr ""
+"Dans cette section, vous pouvez interagir avec les épisodes que vous avez "
+"téléchargés sur votre appareil."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
 msgid ""
@@ -2147,14 +2226,20 @@ msgid ""
 "your website or wherever you want. Make sure to replace `xyz` with the URL "
 "of your RSS feed and `abc` with the title of your podcast."
 msgstr ""
+"Voulez-vous que votre réseau ou votre public puisse facilement ajouter votre "
+"(vos) podcast(s) à AntennaPod ? Il vous suffit d'inclure un lien tel que "
+"celui présenté ci-dessous sur votre site web ou à l'endroit de votre choix. "
+"Veillez à remplacer `xyz` par l'URL de votre flux RSS et `abc` par le titre "
+"de votre podcast."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
 msgid "`https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`"
-msgstr ""
+msgstr "`https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 3
 #: (paragraph)
+#, fuzzy
 msgid ""
 "Users who have installed AntennaPod and open that link will be able to "
 "preview episodes and subscribe to your podcast directly in our app. You can "
@@ -2162,6 +2247,12 @@ msgid ""
 "antennapod.org/rss.xml&title=Blog+Posts). If you need our logo, please have "
 "a look at our [branding repository](https://github.com/AntennaPod/branding)."
 msgstr ""
+"Les utilisateurs qui ont installé AntennaPod et qui ouvrent ce lien pourront "
+"prévisualiser les épisodes et s'abonner à votre podcast directement dans "
+"notre application. Vous pouvez voir un exemple d'une telle page [ici] (/"
+"deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). Si "
+"vous avez besoin de notre logo, veuillez consulter notre [dépôt de marque] "
+"(https://github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2223,6 +2314,10 @@ msgid ""
 "this situation, we strongly recommend that you organize a proper 'redirect' "
 "from the old to the new feed with either of these HTTP response status codes:"
 msgstr ""
+"Lorsque vous changez d'hébergeur, l'URL de votre flux RSS change souvent "
+"aussi. Dans ce cas, nous vous recommandons vivement d'organiser une "
+"\"redirection\" correcte de l'ancien vers le nouveau flux avec l'un ou "
+"l'autre de ces codes de réponse HTTP :"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2230,6 +2325,8 @@ msgid ""
 "[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
 "Status/301)"
 msgstr ""
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/"
+"301)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2237,6 +2334,8 @@ msgid ""
 "[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
 "Status/308)"
 msgstr ""
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/"
+"308)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
 #: (paragraph)
@@ -2245,6 +2344,9 @@ msgid ""
 "their app. Your audience will then continue to receive your episodes, "
 "without having to subscribe again to the new feed."
 msgstr ""
+"De cette manière, vous vous assurez que les utilisateurs d'AntennaPod "
+"reçoivent ce changement dans leur application. Votre public continuera alors "
+"à recevoir vos épisodes, sans avoir à s'abonner à nouveau au nouveau flux."
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
 #: (paragraph)
@@ -2253,6 +2355,9 @@ msgid ""
 "podcasters-hosters/list-podcast) AntennaPod uses for its search "
 "functionality."
 msgstr ""
+"N'oubliez pas non plus de mettre à jour votre entrée dans [les répertoires](/"
+"documentation/podcasters-hosters/list-podcast) qu'AntennaPod utilise pour sa "
+"fonctionnalité de recherche."
 
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
