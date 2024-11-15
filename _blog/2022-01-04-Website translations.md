@@ -49,5 +49,5 @@ Photo by [Daria Sannikova](https://www.pexels.com/@dariabuntaria).
 
 Footnotes:
 
-[^1]: See the [translation status of the app](https://www.transifex.com/antennapod/antennapod/) - we maintain a [threshold of 40% completion](https://github.com/AntennaPod/AntennaPod/pull/4112) for languages.
+[^1]: See the [translation status of the app](https://hosted.weblate.org/projects/antennapod/app/) - we maintain a [threshold of 40% completion](https://github.com/AntennaPod/AntennaPod/pull/4112) for languages.
 [^2]: According to the [EF English Proficiency Index](https://www.ef.com/wwen/epi/), only 44 countries have a (very) high proficiency in English. Making the project available in more languages, helps make it accessible to more people. Who of your family and friends would not feel comfortable reading the news, or using a tool in English?
