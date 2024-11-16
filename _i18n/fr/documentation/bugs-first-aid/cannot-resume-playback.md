@@ -8,7 +8,7 @@ Pour pouvoir reprendre la lecture, vous pouvez ajouter la "tuile" AntennaPod à 
 
 Pour ajouter la tuile AntennaPod :
 
-1. **Tirez deux fois vers le bas** à partir du haut de l'écran, de manière à voir les boutons complets (sous l'indicateur de luminosité).
-1. **Tapez sur l'icône du crayon** en bas de la section des tuiles pour modifier les tuiles.
-1. Faites défiler la liste des tuiles, **tapez sur la tuile AntennaPod et faites-la glisser** vers le haut dans la liste des tuiles actives.
+1. **Tirez deux fois vers le bas** à partir du haut de l'écran, de manière à voir les boutons complets (sous l'indicateur de luminosité)
+1. **Tapez sur l'icône du crayon** en bas de la section des tuiles pour modifier les tuiles
+1. Faites défiler la liste des tuiles, **tapez sur la tuile AntennaPod et faites-la glisser** vers le haut dans la liste des tuiles actives
 1. Touchez la flèche de retour pour quitter l'édition de la tuile

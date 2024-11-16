@@ -1,6 +1,6 @@
 Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous interrogez :
 
-* *Pourquoi la dernière version n'est-elle pas encore sur F-Droid ?
+* *Pourquoi la dernière version n'est-elle pas encore sur F-Droid ?*
 * *quand la nouvelle version sera-t-elle disponible sur F-Droid?*
 
 Si la nouvelle version est en version bêta, elle est *uniquement* disponible sur Google Play ([voici pourquoi](/documentation/general/beta)). Lorsque nous pensons qu'elle est prête, nous la téléchargeons sur Google Play. Quelques jours plus tard, lorsque nous sommes sûrs qu'il n'y a pas de bugs critiques, nous marquons la version sur GitHub. F-Droid doit alors découvrir cette version, la construire et la rendre disponible. Toutes ces étapes peuvent prendre un certain temps. En raison des différentes étapes et parce que nous ne sommes pas impliqués dans la publication des versions sur F-Droid, nous ne pouvons pas dire quand exactement la dernière version sera disponible. Cela prend généralement quelques jours après que la version soit étiquetée sur GitHub.
@@ -15,6 +15,6 @@ En bref : cela peut prendre un certain temps. Nous vous demandons d'être patie
 
 ### Ce que vous pouvez faire si la procédure prend plus de temps que prévu
 
-Comme vous pouvez le constater, il peut facilement s'écouler une semaine avant qu'une nouvelle version d'AntennaPod ne soit disponible sur F-Droid, alors soyez patient. Si une mise à jour n'est toujours pas disponible plus d'une semaine après sa sortie, n'hésitez pas à nous le faire savoir en créant un message sur notre [forum](https://forum.antennapod.org/), et nous étudierons la question.
+Comme vous pouvez le constater, il peut facilement s'écouler une semaine avant qu'une nouvelle version d'AntennaPod ne soit disponible sur F-Droid. Si une mise à jour n'est toujours pas disponible plus d'une semaine après sa sortie, faîtes le nous savoir en créant un message sur notre [forum](https://forum.antennapod.org/) pour que nous regardions pourquoi.
 
 Vous pouvez avoir une idée de la progression en vérifiant [si la liste des versions de F-Droid a été mise à jour](https://gitlab.com/fdroid/fdroiddata/-/commits/master?search=Update+known+apks) depuis la nouvelle version d'AntennaPod et en vérifiant sur [F-Droid Monitor](https://monitor.f-droid.org/builds/build) si la nouvelle version a déjà été construite.
