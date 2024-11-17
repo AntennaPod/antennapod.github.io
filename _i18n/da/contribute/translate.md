@@ -1,34 +1,12 @@
-{% capture img-transifex %} {% include image.html alt="
-
-       Oversigt over ressourcer i Transifex
-
-       "
-
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
-
-{% capture img-weblate %} {% include image.html alt="
-
-       Oversigt over komponenter i Weblate
-
-       "
-
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
-
 Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 7,9 milliarder mennesker er det 'kun' 1,5 milliarder, der [taler engelsk](https://www.ethnologue.com/insights/ethnologue200/). Det betyder måske ikke så meget i sig selv. Men om noget, kan vi konkludere, at hvis vi gør AntennaPod tilgængelig på flere sprog, bliver appen tilgængelig for flere mennesker. Som en ekstra bonus vil en oversat app også hjælper vores projekt med at vokse ud over de nuværende primære brugergrupper (Tyskland og USA).
 
 Vi sætter derfor stor pris på din hjælp!
 
+Af flere grunde (beskrevet i et [blogindlæg om oversættelser af websteder](/blog/2022/01/website-oversættelser)) bruger vi et andet oversættelsessystem til vores hjemmeside: [Weblate](https://hosted.weblate.org/projects/antennapod/). Alle kan tilmelde sig der og begynde at bidrage. I Weblate's dokumentation finder du [alt, hvad du skal vide for at begynde at oversætte](https://docs.weblate.org/en/latest/user/translating.html).
+
+[![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
+
 # Appen
-
-For at hjælpe med at oversætte appen beder vi dig om at bidrage via [Transifex](https://www.transifex.com/antennapod/antennapod/). Alle kan tilmelde sig der og begynde at bidrage. Transifex har nyttige vejledninger til at [komme i gang med deres platform](https://docs.transifex.com/getting-started-1/translators) og til at [blive fortrolig med Web Editor-grænsefladen](https://docs.transifex.com/translation/translating-with-the-web-editor).
-
-Under AntennaPod-projektet finder du tre 'ressourcer':
-
-- Selve appen
-- Den korte beskrivelse i én sætning til app-butikker
-- Den mere udførlige beskrivelse til app-butikker
-
-{{ img-transifex | strip }}
 
 Appen er i øjeblikket tilgængelig på 34 sprog. Selv om der findes flere sprog i Transifex, er de ikke inkluderet i appen. Vi forsøger at opretholde en [tærskel på 40 % færdiggørelse](https://github.com/AntennaPod/AntennaPod/pull/4112) for sprog. Hvis den går under det, får man næppe en god brugeroplevelse i appen.
 
@@ -38,11 +16,7 @@ Oversættelsesbidragydere vil blive nævnt i appen med deres Transifex-brugernav
 
 # Hjemmesiden
 
-Af flere grunde (beskrevet i et [blogindlæg om oversættelser af websteder](/blog/2022/01/website-oversættelser)) bruger vi et andet oversættelsessystem til vores hjemmeside: [Weblate](https://hosted.weblate.org/projects/antennapod/). Alle kan tilmelde sig der og begynde at bidrage. I Weblate's dokumentation finder du [alt, hvad du skal vide for at begynde at oversætte](https://docs.weblate.org/en/latest/user/translating.html).
-
 I AntennaPod-projektet finder du fire 'komponenter'. Hver især repræsenterer de en del af hjemmesiden. Vi opfordrer dig til at starte med komponenterne `General` og `Short strings`, da disse vil være de første elementer, som en bruger ser på hjemmesiden. Komponenten `Documentation` er meget tæt på andenprioritet, fordi denne del er direkte tilgængelig via appen, når folk trykker på Support. Komponenten `Contribute` kommer til sidst, da der alligevel er behov for en grundlæggende forståelse af engelsk for at kunne interagere med fællesskabet.
-
-{{ img-weblate | strip }}
 
 Nye oversættelser bliver manuelt overført fra Weblate til GitHub (udviklingsplatformen) fra tid til anden. Når et sprog når op på 90 % oversættelse (det svarer stort set til hele hjemmesiden minus Contribute-sektionen), kan vi aktivere det på den live hjemmeside. Vi forsøger altid at finde et medlem af fællesskabet, der kan gennemgå en testversion af hjemmesiden for at forbedre kvaliteten af oversættelserne.
 

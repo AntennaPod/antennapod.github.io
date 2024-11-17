@@ -1,23 +1,23 @@
-The Home screen allows you to have a quick overview of your podcasts, start listening and perform a range of actions, all conveniently from the same screen.
+Het startscherm geeft je een snel overzicht van je podcasts, waar je kunt beginnen met luisteren en een hoop andere acties kunt uitvoeren, allemaal handig op hetzelfde scherm.
 
-It contains five sections, each of which displays episodes or subscriptions to interact with directly, but also provides a shortcut to the related screen (e.g. your queue). You can customize your Home screen – that is, reorder these sections or hide some of them – by tapping `…` in the top bar and selecting `Configure Home Screen`.
+Het bevat vijf secties, die ieder afleveringen of abonnementen tonen waar je direct acties op kunt uitvoeren, maar biedt ook een snelkoppeling naar het betreffende scherm (bijv. je wachtrij). Je kunt het startscherm aanpassen – door deze secties te herordenen of sommigen ervan te verbergen – door op `…` te tikken bovenaan het scherm en `Startscherm instellen` te kiezen.
 
 ## Luister verder
 
-This section allows you to quickly and easily carry on listening to episodes you already have in your queue, beginning with those you have already started listening to, but haven’t finished just yet.
+In deze sectie kun je snel en makkelijk doorgaan met het beluisteren van afleveringen die je al in je wachtrij hebt staan, te beginnen met degenen waar je al gedeeltelijk naar geluisterd hebt.
 
 ## Bekijk wat er nieuw is
 
-In this section, you will find the latest episodes that have landed in your inbox as a result of having refreshed your subscriptions.
+In deze sectie vind je de nieuwste afleveringen die in je Postvak IN zijn beland door het verversen van je abonnementen.
 
 ## Laat je verrassen
 
-Here you can find a random selection of episodes from your subscriptions you haven’t listened to yet. If you don’t see anything you feel like listening, you can tap the arrow button to refresh the selection.
+Hier vind je een willekeurige selectie van afleveringen van je abonnementen waar je nog niet naar geluisterd hebt. Als je niets ziet dat je aanspreekt, kun je op de pijlknop tikken om de selectie te verversen.
 
 ## Beluister klassiekers
 
-Here you can quickly see and get access to your all-time most-listened subscriptions.
+Hier zie je een overzicht van je meest beluisterde abonnementen en kun je deze snel bezoeken.
 
 ## Downloads beheren
 
-In this section, you can interact with the episodes you downloaded on your device.
+In deze sectie kun je acties uitvoeren op de afleveringen die gedownload staan op je apparaat.

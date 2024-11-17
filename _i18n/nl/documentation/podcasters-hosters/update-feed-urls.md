@@ -1,8 +1,8 @@
-When you change hoster, the URL of your RSS feed often changes as well. In this situation, we strongly recommend that you organize a proper 'redirect' from the old to the new feed with either of these HTTP response status codes:
+Als je veranderd van hoster, verandert vaak ook de URL van de RSS feed. In deze situatie raden we sterk aan dat je een correcte 'doorverwijzing' van de oude naar de nieuwe feed regelt met één van deze HTTP-antwoordstatuscodes:
 
-* [301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/301)
-* [308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/308)
+* [301 Permanent Verhuisd](https://developer.mozilla.org/docs/Web/HTTP/Status/301)
+* [308 Permanente Doorverwijzing](https://developer.mozilla.org/docs/Web/HTTP/Status/308)
 
-This way you make sure that AntennaPod users get this change applied in their app. Your audience will then continue to receive your episodes, without having to subscribe again to the new feed.
+Op deze manier verzeker je dat AntennaPod gebruikers deze verandering toegepast krijgen in hun app. Je publiek blijft dan je afleveringen ontvangen, zonder dat ze zich opnieuw hoeven te abonneren op de nieuwe feed.
 
-Don't forget also to update your entry in [the directories](/documentation/podcasters-hosters/list-podcast) AntennaPod uses for its search functionality.
+Vergeet ook niet om je vermelding bij te werken in [de bronnen](/documentation/podcasters-hosters/list-podcast) die AntennaPod gebruikt voor zijn zoekfunctionaliteit.

@@ -1,34 +1,12 @@
-{% capture img-transifex %} {% include image.html alt="
-
-       Resumen de recursos en Transifex
-
-       "
-
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
-
-{% capture img-weblate %} {% include image.html alt="
-
-       Resumen de componentes en Weblate
-
-       "
-
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
-
 De una [población mundial](https://en.wikipedia.org/wiki/World_population) estimada en 7.900 millones de personas, "solo" 1.500 millones [hablan inglés](https://www.ethnologue.com/insights/ethnologue200/). Puede que esto no signifique mucho per se. Pero, en todo caso, podemos concluir que hacer que AntennaPod esté disponible en más idiomas hace que la aplicación sea accesible a más personas. Como beneficio secundario, la localización de la aplicación también ayuda a que nuestro proyecto crezca más allá de las principales bases de usuarios actuales (Alemania y Estados Unidos).
 
 ¡Por ello, apreciamos mucho tu colaboración!
 
+Por varias razones (mencionadas en una [entrada sobre las traducciones de la web](/blog/2022/01/website-translations)) utilizamos un sistema de traducciones diferentes para el sitio web. [Weblate](https://hosted.weblate.org/projects/antennapod/). Cualquiera puede registrarse allí y empezar a contribuir. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
+
+[![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
+
 # La aplicación
-
-Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [Transifex](https://www.transifex.com/antennapod/antennapod/). Cualquiera puede registrarse ahí y empezar a contribuir. Transifex tiene guías útiles para [iniciarse en su plataforma](https://docs.transifex.com/getting-started-1/translators) y para [familiarizarse con la interfaz del Editor Web](https://docs.transifex.com/translation/translating-with-the-web-editor).
-
-Bajo el proyecto de AntennaPod encontrarás tres 'recursos':
-
-- La propia aplicación
-- La breve descripción de una frase para las tiendas de aplicaciones
-- La descripción más elaborada para las tiendas de aplicaciones
-
-{{ img-transifex | strip }}
 
 La aplicación actualmente está disponible en 34 idiomas. Aunque hay más idiomas en Transifex, no los incluimos en la aplicación. Intentamos mantener un [umbral del 40% de finalización](https://github.com/AntennaPod/AntennaPod/pull/4112) para los idiomas. Si se baja de ese porcentaje, la aplicación apenas ofrece una buena experiencia de usuario.
 
@@ -38,11 +16,7 @@ Los colaboradores de traducción se encontrarán mencionados en la aplicación c
 
 # El sitio web
 
-Por varias razones (mencionadas en una [entrada sobre las traducciones de la web](/blog/2022/01/website-translations)) utilizamos un sistema de traducciones diferentes para el sitio web. [Weblate](https://hosted.weblate.org/projects/antennapod/). Cualquiera puede registrarse allí y empezar a contribuir. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
-
 En el proyecto AntennaPod, encontrarás cuatro 'componentes'. Cada uno representa una parte del sitio web. Te animamos a que empieces por los componentes `General` y el `Cadenas cortas`, porque serán los primeros elementos que vea un usuario en la web. El componente `Documentación` es una segunda prioridad muy cercana, porque esta sección está directamente disponible a través de la aplicación cuando la gente toca en Soporte. El componente `Contribuir` queda en último lugar, ya que se necesita un conocimiento básico del inglés para interactuar con la comunidad.
-
-{{ img-weblate | strip }}
 
 De vez en cuando, las traducciones nuevas se transfieren manualmente de Weblate a GitHub (la plataforma de desarrollo). Cuando un idioma alcanza el 90% de traducción (esto es, aproximadamente, todo el sitio web menos la sección Contribute), podemos habilitarlo en el sitio web real. Siempre intentamos encontrar un miembro de la comunidad que pueda revisar una versión de prueba del sitio web, para mejorar la calidad de las traducciones.
 
