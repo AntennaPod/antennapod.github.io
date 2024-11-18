@@ -2,17 +2,17 @@ De una [población mundial](https://en.wikipedia.org/wiki/World_population) esti
 
 ¡Por ello, apreciamos mucho tu colaboración!
 
-Por varias razones (mencionadas en una [entrada sobre las traducciones de la web](/blog/2022/01/website-translations)) utilizamos un sistema de traducciones diferentes para el sitio web. [Weblate](https://hosted.weblate.org/projects/antennapod/). Cualquiera puede registrarse allí y empezar a contribuir. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
+Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [Weblate](https://hosted.weblate.org/projects/antennapod/app/). Cualquiera puede registrarse allí y empezar. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
 
 [![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
 
 # La aplicación
 
-La aplicación actualmente está disponible en 34 idiomas. Aunque hay más idiomas en Transifex, no los incluimos en la aplicación. Intentamos mantener un [umbral del 40% de finalización](https://github.com/AntennaPod/AntennaPod/pull/4112) para los idiomas. Si se baja de ese porcentaje, la aplicación apenas ofrece una buena experiencia de usuario.
+Actualmente, la aplicación está disponible en más de 38 idiomas. Aunque hay más idiomas en Weblate, no los incluimos en la aplicación. Intentamos mantener un umbral del 40% de idiomas completados. Si es inferior, la aplicación apenas ofrece una buena experiencia al usuario.
 
-Las traducciones traducciones se extraen de Transifex a GitHub (la plataforma de desarrollo) al menos para cada 'versión puntual'. Se trata de versiones como la 2.0, la 2.5, etc., que introducen nuevas características. Pero también lanzamos actualizaciones con correcciones de errores y nuevas traducciones entre medias. De media, pueden pasar uno o dos meses antes de que tu trabajo esté disponible en una versión.
+Las nuevas traducciones se transfieren de Weblate a GitHub (la plataforma de desarrollo) al menos cada vez que se lanza una "versión puntual". Se trata de versiones como 2.0, 2.5, etc. que introducen nuevas funciones. Pero también lanzamos actualizaciones con correcciones de errores y nuevas traducciones. Por término medio, pueden pasar uno o dos meses antes de que tu trabajo esté disponible en una versión.
 
-Los colaboradores de traducción se encontrarán mencionados en la aplicación con su nombre de usuario de Transifex, en `Configuración` » `Acerca` » `Contribuyentes`.
+Los colaboradores en la traducción aparecerán mencionados en la aplicación con su nombre de usuario de Weblate, en `Configuración` " `Acerca de` " `Colaboradores`.
 
 # El sitio web
 

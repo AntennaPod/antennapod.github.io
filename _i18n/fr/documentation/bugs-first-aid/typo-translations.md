@@ -2,7 +2,7 @@ Avez-vous trouvé une faute d'orthographe, ou quelque chose qui vous semble biza
 
 # Voulez-vous régler ce problème vous même ?
 
-Si l'erreur concerne une autre langue que l'anglais, vous pouvez mettre à jour la **traduction de l'application** sur [Transifex](https://www.transifex.com/antennapod/antennapod/core-values/). Les erreurs concernant les **traductions du site web** peuvent être corrigées sur [Weblate](https://hosted.weblate.org/projects/antennapod/). Vous pouvez [trouver plus d'informations dans notre section Contribuer](/contribuer/translate).
+Si le problème concerne une autre langue que l'anglais, vous pouvez mettre à jour la traduction [Weblate](https://hosted.weblate.org/projects/antennapod/). Pour plus d'information consulter la section [Contribuer](/contribute/translate).
 
 L'erreur vient des **textes d'origines (en anglais)** ? Dans ce cas, vous devrez être ou vous familiariser avec GitHub. Vous pouvez nous transmettre une requête pour [l'application](https://github.com/AntennaPod/AntennaPod/) ou pour [le site web](https://github.com/AntennaPod/antennapod.github.io).
 

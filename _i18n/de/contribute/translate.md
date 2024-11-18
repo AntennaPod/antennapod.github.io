@@ -2,17 +2,17 @@ Von der geschätzten [Weltbevölkerung](https://de.wikipedia.org/wiki/Weltbevöl
 
 Wir wissen deine Hilfe daher sehr zu schätzen!
 
-Aus verschiedenen Gründen (die in einem [Blogbeitrag über Webseiten-Übersetzungen](/blog/2022/01/website-translations) dargelegt sind) verwenden wir ein anderes Übersetzungssystem für unsere Webseite: [Weblate](https://hosted.weblate.org/projects/antennapod/). Jeder kann sich dort anmelden und einen Beitrag leisten. In der Dokumentation von Weblate findest du [alles, was du wissen musst, um mit dem Übersetzen zu beginnen](https://docs.weblate.org/de/latest/user/translating.html).
+Um bei der Übersetzung der App zu helfen, bitten wir dich, dich über [Weblate](https://hosted.weblate.org/projects/antennapod/app/) einzubringen. Jeder kann sich dort anmelden und einen Beitrag leisten. In der Dokumentation von Weblate findest du [alles, was du wissen musst, um mit dem Übersetzen zu beginnen](https://docs.weblate.org/de/latest/user/translating.html).
 
 [![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
 
 # Die App
 
-Die App ist derzeit in 34 Sprachen verfügbar. Es gibt zwar mehr Sprachen auf Transifex, aber wir nehmen sie nicht in die App auf. Wir versuchen, eine [Schwelle von 40% Vollständigkeit](https://github.com/AntennaPod/AntennaPod/pull/4112) für Sprachen einzuhalten. Wenn dieser Wert unterschritten wird, bietet die App kaum noch ein gutes Benutzererlebnis.
+Die App ist derzeit in mehr als 38 Sprachen verfügbar. Es gibt zwar mehr Sprachen in Weblate, aber wir nehmen sie nicht in die App auf. Wir versuchen, einen Schwellenwert von 40 % für die Vollständigkeit von Sprachen einzuhalten. Wenn dieser Wert unterschritten wird, bietet die App kaum noch ein gutes Nutzungserlebnis.
 
 Neue Übersetzungen werden von Transifex auf GitHub (die Entwicklungsplattform) mindestens für jede „Punktversion“ gezogen. Dies sind Versionen wie 2.0, 2.5 usw., die neue Funktionen einführen. Wir veröffentlichen aber auch zwischendurch Aktualisierungen mit Fehlerbehebungen und neuen Übersetzungen. Im Durchschnitt kann es ein oder zwei Monate dauern, bis deine Arbeit in einer neuen Version verfügbar ist.
 
-Übersetzer finden sich in der App mit ihrem Transifex-Benutzernamen unter `Einstellungen` » `Über` » `Beitragende`.
+Übersetzer finden sich in der App mit ihrem Weblate-Benutzernamen unter `Einstellungen` » `Über` » `Beitragende`.
 
 # Die Webseite
 
