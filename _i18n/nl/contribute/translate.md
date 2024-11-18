@@ -2,17 +2,17 @@ Van de geschatte [wereldbevolking](https://nl.wikipedia.org/wiki/Wereldbevolking
 
 Wij stellen je hulp dan ook zeer op prijs!
 
-Om verschillende redenen (uiteengezet in een [blogpost over websitevertalingen](/blog/2022/01/website-vertalingen)) gebruiken we een ander vertaalsysteem voor onze website: [Weblate](https://hosted.weblate.org/projects/antennapod/). Iedereen kan zich daar aanmelden en beginnen met bijdragen. In de documentatie van Weblate vind je [alles wat je moet weten om met vertalen te beginnen](https://docs.weblate.org/en/latest/user/translating.html).
+Om de app the helpen vertalen vragen we je bij te dragen via [Weblate](https://hosted.weblate.org/projects/antennapod/). Iedereen kan zich daar aanmelden en beginnen met bijdragen. In de documentatie van Weblate vind je [alles wat je moet weten om met vertalen te beginnen](https://docs.weblate.org/en/latest/user/translating.html).
 
 [![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
 
 # De app
 
-De app is momenteel beschikbaar in 34 talen. Hoewel er meer talen in Transifex zijn, nemen we ze niet op in de app. We proberen een [drempel van 40% voltooiing](https://github.com/AntennaPod/AntennaPod/pull/4112) voor talen te handhaven. Als het daaronder komt, biedt de app nauwelijks een goede gebruikerservaring.
+De app is momenteel beschikbaar in meer dan 38 talen. Hoewel er meer talen in Weblate zijn, nemen we ze niet op in de app. We proberen een drempel van 40% voltooiing voor talen te handhaven. Als het daaronder komt, biedt de app nauwelijks een goede gebruikerservaring.
 
-Nieuwe vertalingen worden ten minste voor elke 'puntrelease' van Transifex naar GitHub (het ontwikkelplatform) getrokken. Dit zijn releases zoals 2.0, 2.5, etc die nieuwe functies introduceren. Maar we brengen ook updates uit met bug fixes en nieuwe vertalingen tussendoor. Gemiddeld kan het een maand of twee duren voordat je werk beschikbaar is in een release.
+Nieuwe vertalingen worden ten minste voor elke 'puntrelease' van Weblate naar GitHub (het ontwikkelplatform) getrokken. Dit zijn releases zoals 2.0, 2.5, etc die nieuwe functies introduceren. Maar we brengen ook updates uit met bug fixes en nieuwe vertalingen tussendoor. Gemiddeld kan het een maand of twee duren voordat je werk beschikbaar is in een release.
 
-Wie helpt met aan vertalen zal zich, met de Transifex gebruikersnaam, vermeld zien in de app onder `Instellingen` » `Over` » `Bijdragers`.
+Wie helpt met aan vertalen zal zich, met de Weblate gebruikersnaam, vermeld zien in de app onder `Instellingen` » `Over AntennaPod` » `Bijdragers`.
 
 # De website
 

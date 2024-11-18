@@ -2,17 +2,17 @@ Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_popu
 
 Vi sætter derfor stor pris på din hjælp!
 
-Af flere grunde (beskrevet i et [blogindlæg om oversættelser af websteder](/blog/2022/01/website-oversættelser)) bruger vi et andet oversættelsessystem til vores hjemmeside: [Weblate](https://hosted.weblate.org/projects/antennapod/). Alle kan tilmelde sig der og begynde at bidrage. I Weblate's dokumentation finder du [alt, hvad du skal vide for at begynde at oversætte](https://docs.weblate.org/en/latest/user/translating.html).
+For at hjælpe med at oversætte appen beder vi dig bidrage via [Weblate](https://hosted.weblate.org/projects/antennapod/app/). Alle kan tilmelde sig der og gå i gang. I Weblate's dokumentation kan du finde [alt, du behøver at vide for at komme i gang med at oversætte](https://docs.weblate.org/en/latest/user/translating.html).
 
 [![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
 
 # Appen
 
-Appen er i øjeblikket tilgængelig på 34 sprog. Selv om der findes flere sprog i Transifex, er de ikke inkluderet i appen. Vi forsøger at opretholde en [tærskel på 40 % færdiggørelse](https://github.com/AntennaPod/AntennaPod/pull/4112) for sprog. Hvis den går under det, får man næppe en god brugeroplevelse i appen.
+Appen er i øjeblikket tilgængelig på 38 sprog. Selv om der findes flere sprog i Weblate, inkluderer vi dem ikke i appen. Vi forsøger at opretholde en tærskel på 40 % færdiggørelse for sprog. Hvis den går under det, får man næppe en god brugeroplevelse i appen.
 
-Nye oversættelser bliver hentet fra Transifex til GitHub (udviklingsplatformen) mindst for hver 'punktudgivelse'. Det er udgivelser som 2.0, 2.5 osv., der introducerer nye funktioner. Men vi udsender også opdateringer med fejlrettelser og nye oversættelser ind i mellem. I gennemsnit kan det tage en måned eller to, før dit arbejde er tilgængeligt i en udgivelse.
+Nye oversættelser bliver hentet fra Weblate til GitHub (udviklingsplatformen) for mindst hver 'punktudgivelse'. Det er udgivelser som 2.0, 2.5 osv., der introducerer nye funktioner. Men vi udsender også opdateringer med fejlrettelser og nye oversættelser ind i mellem. I gennemsnit kan det tage en måned eller to, før dit arbejde er tilgængeligt i en udgivelse.
 
-Oversættelsesbidragydere vil blive nævnt i appen med deres Transifex-brugernavn under `Indstillinger` » `Om` » `Bidragydere`.
+Oversættelsesbidragydere vil blive nævnt i appen med deres Weblate-brugernavn under `Indstillinger` » `Om` » `Bidragydere`.
 
 # Hjemmesiden
 
