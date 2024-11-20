@@ -3,14 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:58+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-20 23:54+0000\n"
+"Last-Translator: Максим Горпиніч <mgorpinic2005@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
+"website/contribute/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.14.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #
 #: _i18n/en/contribute/develop.md:block 1 (paragraph)
@@ -19,10 +22,13 @@ msgid ""
 "from a wide range of people. Not just for the app itself, but also the "
 "website and related projects."
 msgstr ""
+"Як проект спільноти, AntennaPod покладається на добровільні внески коду від "
+"широкого кола людей. Не лише для самої програми, але й для веб-сайту та пов’"
+"язаних проектів."
 
 #: _i18n/en/contribute/develop.md:block 2 (header)
 msgid "1. App (Java)"
-msgstr ""
+msgstr "1. Додаток (Java)"
 
 #: _i18n/en/contribute/develop.md:block 3 (paragraph)
 msgid ""
@@ -32,10 +38,14 @@ msgid ""
 "getting started? We welcome your contributions in our [GitHub repository]"
 "(https://github.com/AntennaPod/AntennaPod)."
 msgstr ""
+"Ви маєте рацію: суть проекту! Ваші внески, якими користуються тисячі людей у "
+"всьому світі, є важливим внеском у відкриту екосистему подкастингу. Отже, ви "
+"маєте досвід роботи з Java чи тільки починаєте? Ми вітаємо ваші внески в "
+"нашому [репозиторії GitHub](https://github.com/AntennaPod/AntennaPod)."
 
 #: _i18n/en/contribute/develop.md:block 4 (header)
 msgid "Where we need help"
-msgstr ""
+msgstr "Де нам потрібна допомога"
 
 #: _i18n/en/contribute/develop.md:block 5 (paragraph)
 msgid ""
@@ -47,6 +57,13 @@ msgid ""
 "Those labels mean that the feature was not reviewed by the core AntennaPod "
 "team yet."
 msgstr ""
+"Є кілька сфер, де нам може бути корисна ваша підтримка. Коли ви вперше "
+"починаєте розробляти AntennaPod, ми рекомендуємо вибрати проблему з міткою ["
+"'Good first issue'](https://github.com/AntennaPod/AntennaPod/labels/"
+"Good%20first%20issue) на GitHub. Перш ніж почати працювати над проблемою, "
+"переконайтеся, що вона не має мітки «Потреби: сортування» або «Потреби: "
+"рішення». Ці мітки означають, що ця функція ще не перевірена основною "
+"командою AntennaPod."
 
 #: _i18n/en/contribute/develop.md:block 6 (paragraph)
 msgid ""
@@ -54,10 +71,13 @@ msgid ""
 "['confirmed bugs' issue label](https://github.com/AntennaPod/AntennaPod/"
 "labels/Type%3A%20Confirmed%20bug) on GitHub."
 msgstr ""
+"Якщо ви віддаєте перевагу пошуку помилок, ваш список для пошуку помилок на "
+"вихідних — це [мітка проблеми з підтвердженими помилками](https://github.com/"
+"AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug ) на GitHub."
 
 #: _i18n/en/contribute/develop.md:block 7 (header)
 msgid "Getting started"
-msgstr ""
+msgstr "Початок роботи"
 
 #: _i18n/en/contribute/develop.md:block 8 (paragraph)
 msgid ""
@@ -67,6 +87,12 @@ msgid ""
 "but we forgot to 'assign' the GitHub issue. Chipping in on our forum is the "
 "best way to avoid lost hours on code that won't be accepted."
 msgstr ""
+"**До** Будь ласка, не просто надсилайте PR, але завжди *спочатку оголошуйте "
+"про свою зацікавленість*. Іноді ми ще не дійшли згоди щодо взаємодії з "
+"користувачем та інтерфейсу. Може статися так, що хтось погодився почати "
+"працювати над чимось, але ми забули «призначити» проблему GitHub. "
+"Підключення до нашого форуму – це найкращий спосіб уникнути втрачених годин "
+"на код, який не буде прийнято."
 
 #: _i18n/en/contribute/develop.md:block 9 (paragraph)
 msgid ""
@@ -78,6 +104,14 @@ msgid ""
 "accredited-on-the-Contributors-page) for your work in the app. Last but not "
 "least: build instructions and info about debug logs."
 msgstr ""
+"**Протягом** Перегляньте нашу вікі; він містить [зручну інформацію для "
+"учасників](https://github.com/AntennaPod/AntennaPod/wiki). Ви знайдете там, "
+"наприклад, інформацію про проекту [стиль коду](https://github.com/AntennaPod/"
+"AntennaPod/wiki/Code-style) і можете дізнатися [як переконатися, що ви "
+"отримали акредитацію](https://github.com/AntennaPod/AntennaPod/wiki/Getting-"
+"accredited-on-the-Contributors-page) для вашої роботи в програмі. І останнє, "
+"але не менш важливе: інструкції зі створення та інформація про журнали "
+"налагодження."
 
 #: _i18n/en/contribute/develop.md:block 10 (paragraph)
 msgid ""
@@ -85,10 +119,13 @@ msgid ""
 "potential contributors, and helps promote the app generally. We're happy to "
 "retweet your tweets!"
 msgstr ""
+"**Після** Розповідайте про свою роботу та претендуйте на цю славу! Це може "
+"надихнути інших потенційних співавторів і сприяти просуванню програми в "
+"цілому. Ми раді ретвітнути ваші твіти!"
 
 #: _i18n/en/contribute/develop.md:block 11 (header)
 msgid "2. Website (SCSS, HTML)"
-msgstr ""
+msgstr "2. Веб-сайт (SCSS, HTML)"
 
 #: _i18n/en/contribute/develop.md:block 12 (paragraph)
 msgid ""
@@ -99,16 +136,24 @@ msgid ""
 "out our [website repository](https://github.com/AntennaPod/antennapod.github."
 "io) now."
 msgstr ""
+"Основу нашого нового веб-сайту люб’язно створив [Anxhelo](https://lushka.al)"
+". Тепер ми готові до розширення! Ви знайомі з [Jekyll](https://jekyllrb.com/)"
+"? Тоді допоможіть нам реалізувати (частини) [списку побажань нашого "
+"веб-сайту](https://forum.antennapod.org/t/sitemap-for-the-new-website/240) і "
+"перегляньте наш [репозиторій веб-сайту](https://github.com/AntennaPod/"
+"antennapod.github.io) зараз."
 
 #: _i18n/en/contribute/develop.md:block 13 (header)
 msgid "3. Upstream & other projects"
-msgstr ""
+msgstr "3. Розвідка та інші проекти"
 
 #: _i18n/en/contribute/develop.md:block 14 (paragraph)
 msgid ""
 "AntennaPod doesn't live in isolation. The project relies on many others - "
 "contributing to those means helping AntennaPod thrive:"
 msgstr ""
+"AntennaPod не живе ізольовано. Проект спирається на багато інших – сприяти "
+"цьому означає допомагати AntennaPod процвітати:"
 
 #: _i18n/en/contribute/develop.md:block 15 (unordered list)
 msgid ""
@@ -119,6 +164,12 @@ msgid ""
 "[integration with AntennaPod](https://git.project-insanity.org/onny/"
 "nextcloud-app-podcast/-/issues/103) would be a very welcome addition."
 msgstr ""
+"**Додаток Nextcloud Podcast** (Vue, PHP, Javascript) Грудень 2020 р. Йонас "
+"Генріх створив [додаток Nextcloud Podcast](https://apps.nextcloud.com/apps/"
+"podcast). Це вже чудовий спосіб підписатися та слухати ваші подкасти онлайн, "
+"у власному середовищі. Його подальший розвиток та [інтеграція з "
+"AntennaPod](https://git.project-insanity.org/onny/nextcloud-app-podcast/-/"
+"issues/103) були б дуже бажаним доповненням."
 
 #: _i18n/en/contribute/develop.md:block 15 (unordered list)
 msgid ""
@@ -129,16 +180,25 @@ msgid ""
 "Any support to the project and its maintainers is welcome, in particular "
 "with [this API issue](https://github.com/gpodder/mygpo/issues/128)."
 msgstr ""
+"**gpodder.net** (Python, HTML) Давній безкоштовний проект [gpodder."
+"net](https://gpodder.net/) дозволяє користувачам підключати та "
+"синхронізувати свої програвачі подкастів. На жаль, проект став жертвою "
+"власного успіху: веб-сервер часто недоступний, а користувачі AntennaPod "
+"бачать помилки синхронізації. Будь-яка підтримка проекту та його "
+"супроводжуючих вітається, зокрема щодо [цієї проблеми API](https://github."
+"com/gpodder/mygpo/issues/128)."
 
 #: _i18n/en/contribute/develop.md:block 16 (header)
 msgid "Get in touch!"
-msgstr ""
+msgstr "Зв'яжіться з нами!"
 
 #: _i18n/en/contribute/develop.md:block 17 (paragraph)
 msgid ""
 "Vaguely interested but not sure yet? Ready to get started? Get in touch with "
 "@Keunes or @ByteHamster on [our forum](https://forum.antennapod.org)!"
 msgstr ""
+"Непевно зацікавлені, але ще не впевнені? Готові почати? Зв’яжіться з @Keunes "
+"або @ByteHamster на [нашому форумі](https://forum.antennapod.org)!"
 
 #: _i18n/en/contribute/promote.md:block 1 (paragraph)
 msgid ""
@@ -147,6 +207,10 @@ msgid ""
 "you might have thought that as well. Why not help us grow bigger? Your "
 "contribution in any of the following areas will be much appreciated."
 msgstr ""
+"AntennaPod покладається на безкоштовну рекламу, сарафанне радіо та скромну "
+"присутність у соціальних мережах для свого просування. Ми знаємо, що є місце "
+"для вдосконалення. І ви також могли це подумати. Чому б не допомогти нам "
+"рости? Ваш внесок у будь-яку з наведених нижче сфер буде високо оцінений."
 
 #: _i18n/en/contribute/promote.md:block 2 (unordered list)
 msgid ""
@@ -154,6 +218,9 @@ msgid ""
 "AntennaPod? Then help us build a list of media to reach out to with "
 "important messages."
 msgstr ""
+"**Преса** Знаєте цікавий веб-сайт, подкаст чи журнал, який міг би охоплювати "
+"AntennaPod? Тоді допоможіть нам створити список засобів масової інформації, "
+"до яких можна надіслати важливі повідомлення."
 
 #: _i18n/en/contribute/promote.md:block 2 (unordered list)
 msgid ""
@@ -161,6 +228,9 @@ msgid ""
 "draft concise & creative messages every now & then? Help engage with a wider "
 "audience on Twitter & Mastodon."
 msgstr ""
+"**Соціальні медіа** З радістю думаєте про нові способи поговорити про проект "
+"і час від часу створювати стислі та творчі повідомлення? Допоможіть залучити "
+"ширшу аудиторію в Twitter і Mastodon."
 
 #: _i18n/en/contribute/promote.md:block 2 (unordered list)
 msgid ""
@@ -168,6 +238,9 @@ msgid ""
 "project or an open podcasting ecosystem in general? Help us maintain our "
 "blog."
 msgstr ""
+"**Блог** Хочете написати про нові функції програми, проект AntennaPod чи "
+"відкриту екосистему подкастингу загалом? Допоможіть нам підтримувати наш "
+"блог."
 
 #: _i18n/en/contribute/promote.md:block 2 (unordered list)
 msgid ""
@@ -175,16 +248,21 @@ msgid ""
 "us spice up our website, social media presence and other promotional "
 "materials."
 msgstr ""
+"**Графічний дизайн** Почуваєтеся комфортно з (цифровим) пером і чорнилом? "
+"Тоді допоможіть нам оживити наш веб-сайт, присутність у соціальних мережах "
+"та інші рекламні матеріали."
 
 #: _i18n/en/contribute/promote.md:block 2 (unordered list)
 msgid ""
 "**Everything else** Do you have other great ideas to promote the project? "
 "Get in touch and share them with us."
 msgstr ""
+"**Усе інше** Чи є у вас інші чудові ідеї для просування проекту? Зв’яжіться "
+"з нами та поділіться ними."
 
 #: _i18n/en/contribute/promote.md:block 3 (header)
 msgid "Get in touch"
-msgstr ""
+msgstr "Зв'яжіться"
 
 #: _i18n/en/contribute/promote.md:block 4 (paragraph)
 msgid ""
@@ -194,6 +272,11 @@ msgid ""
 "(https://www.twitter.com/antennapod), [our blog](/blog) and the [Branding "
 "repository](https://github.com/AntennaPod/Branding) on GitHub."
 msgstr ""
+"Непевно зацікавлені, але ще не впевнені? Готові почати? Зв’яжіться з [@"
+"Keunes на нашому форумі](https://forum.antennapod.org/u/keunes)! Щоб "
+"отримати уявлення про наші поточні матеріали, ви також можете переглянути ["
+"нашу стрічку Twitter](https://www.twitter.com/antennapod), [наш блог](/blog) "
+"і [репозиторій брендингу](https://github.com/AntennaPod/Branding) на GitHub."
 
 #: _i18n/en/contribute/translate.md:block 1 (paragraph)
 msgid ""
@@ -205,10 +288,18 @@ msgid ""
 "localising the app also helps our project grow beyond the current main "
 "userbases (Germany and the US)."
 msgstr ""
+"З приблизного [населення світу](https://en.wikipedia.org/wiki/"
+"World_population) у 7,9 мільярда людей «лише» 1,5 мільярда [розмовляють "
+"англійською](https://www.ethnologue.com/insights/етнолог200/). Само по собі "
+"це може не означати багато. Але ми можемо зробити висновок, що доступність "
+"AntennaPod більшою кількістю мов робить програму доступною для більшої "
+"кількості людей. Як побічна перевага, локалізація програми також допомагає "
+"нашому проекту вирости за межі поточних основних баз користувачів (Німеччина "
+"та США)."
 
 #: _i18n/en/contribute/translate.md:block 2 (paragraph)
 msgid "We therefore much appreciate your help!"
-msgstr ""
+msgstr "Тому ми дуже цінуємо вашу допомогу!"
 
 #: _i18n/en/contribute/translate.md:block 3 (paragraph)
 msgid ""
@@ -218,10 +309,15 @@ msgid ""
 "know to start translating](https://docs.weblate.org/en/latest/user/"
 "translating.html)."
 msgstr ""
+"Щоб допомогти з перекладом програми, ми просимо вас зробити внесок через "
+"[Weblate](https://hosted.weblate.org/projects/antennapod/app/). Будь-хто "
+"може зареєструватися там і почати. У документації Weblate ви знайдете [все, "
+"що вам потрібно знати, щоб розпочати переклад](https://docs.weblate.org/en/"
+"latest/user/translating.html)."
 
 #: _i18n/en/contribute/translate.md:block 6 (header)
 msgid "The app"
-msgstr ""
+msgstr "Додаток"
 
 #: _i18n/en/contribute/translate.md:block 7 (paragraph)
 msgid ""
@@ -230,6 +326,10 @@ msgid ""
 "maintain a threshold of 40% completion for languages. If it goes below that, "
 "the app hardly provides a good user experience."
 msgstr ""
+"Наразі додаток доступний понад 38 мовами. Хоча в Weblate є більше мов, ми не "
+"включаємо їх у додаток. Ми намагаємося підтримувати поріг у 40% завершення "
+"для мов. Якщо він нижче цього, додаток навряд чи забезпечує хорошу взаємодію "
+"з користувачем."
 
 #: _i18n/en/contribute/translate.md:block 8 (paragraph)
 msgid ""
@@ -239,16 +339,23 @@ msgid ""
 "fixes and new translations in between. On average, it might take a month or "
 "two before your work is available in a release."
 msgstr ""
+"Нові переклади витягуються з Weblate на GitHub (платформу розробки) "
+"принаймні для кожного «точкового випуску». Це такі випуски, як 2.0, 2.5 "
+"тощо, які вводять нові функції. Але ми також випускаємо оновлення з "
+"виправленнями помилок і новими перекладами між ними. У середньому може "
+"пройти місяць або два, перш ніж ваша робота стане доступною у випуску."
 
 #: _i18n/en/contribute/translate.md:block 9 (paragraph)
 msgid ""
 "Translation contributors will find themselves mentioned in the app with "
 "their Weblate username, under `Settings` » `About` » `Contributors`."
 msgstr ""
+"Учасники перекладу будуть згадані в додатку за допомогою свого імені "
+"користувача Weblate у розділі `Налаштування` » `Про` » `Учасники`."
 
 #: _i18n/en/contribute/translate.md:block 10 (header)
 msgid "The website"
-msgstr ""
+msgstr "Веб-сайт"
 
 #: _i18n/en/contribute/translate.md:block 11 (paragraph)
 msgid ""
@@ -261,6 +368,13 @@ msgid ""
 "basic understanding of English is needed anyway to interact with the "
 "community."
 msgstr ""
+"У проекті AntennaPod ви знайдете чотири «компоненти». Кожен представляє "
+"частину веб-сайту. Радимо вам почати з компонентів `Загальні` та `Короткі "
+"рядки`, тому що це будуть перші елементи, які користувач побачить на веб-"
+"сайті. Компонент «Документація» є другим за пріоритетом, оскільки цей розділ "
+"доступний безпосередньо через додаток, коли користувачі натискають "
+"«Підтримка». Компонент `Contribute` стоїть на останньому місці, тому що "
+"базове розуміння англійської мови потрібне для взаємодії зі спільнотою."
 
 #: _i18n/en/contribute/translate.md:block 12 (paragraph)
 msgid ""
@@ -271,10 +385,16 @@ msgid ""
 "can review a test version of the website, to improve the quality of "
 "translations."
 msgstr ""
+"Час від часу нові переклади завантажуються з Weblate на GitHub (платформу "
+"розробки) вручну. Коли мова досягає 90% перекладу (це приблизно весь веб-"
+"сайт без розділу «Внести свій внесок»), ми можемо ввімкнути його на веб-"
+"сайті в реальному часі. Ми завжди намагаємося знайти учасника спільноти, "
+"який може переглянути тестову версію веб-сайту, щоб покращити якість "
+"перекладів."
 
 #: _i18n/en/contribute/translate.md:block 13 (header)
 msgid "Other materials"
-msgstr ""
+msgstr "Інші матеріали"
 
 #: _i18n/en/contribute/translate.md:block 14 (paragraph)
 msgid ""
@@ -284,18 +404,27 @@ msgid ""
 "the forum if you want to help with that. Because localized app store "
 "listings are more likely to be downloaded, help is very much welcome!"
 msgstr ""
+"Окрім програми та веб-сайту, також можна перекладати зображення в магазинах "
+"програм. У них є скріншоти та тексти. Оскільки простір дуже обмежений, ми "
+"використовуємо ручний процес методом проб і помилок. Будь ласка, повідомте "
+"нас на форумі, якщо ви хочете допомогти з цим. Оскільки локалізовані списки "
+"додатків у магазині, швидше за все, будуть завантажені, допомога дуже "
+"вітається!"
 
 #: _i18n/en/contribute/translate.md:block 16 (unordered list)
 msgid ""
 "Do you want to give **feedback** on the English texts or any of the "
 "translations?"
 msgstr ""
+"Хочете залишити **відгук** про англійські тексти чи будь-який із перекладів?"
 
 #: _i18n/en/contribute/translate.md:block 16 (unordered list)
 msgid ""
 "Are you **interested in helping** with translations but not sure yet? Or you "
 "are ready to get started?"
 msgstr ""
+"Ви **зацікавлені в допомозі** з перекладами, але ще не впевнені? Або ви "
+"готові почати?"
 
 #: _i18n/en/contribute/translate.md:block 16 (unordered list)
 msgid ""
@@ -303,6 +432,8 @@ msgid ""
 "language isn't available yet, or because you are not sure how to translate "
 "something?"
 msgstr ""
+"Ви (бажаєте) зробити внесок і **потрібна підтримка**? Наприклад, тому що "
+"ваша мова ще не доступна, або тому що ви не впевнені, як щось перекласти?"
 
 #: _i18n/en/contribute/translate.md:block 17 (paragraph)
 msgid ""
@@ -311,3 +442,7 @@ msgid ""
 "and messages in the respective translation tools don't always reach us in a "
 "timely manner."
 msgstr ""
+"Долучайтесь до [розділу перекладу на нашому форумі](https://forum.antennapod."
+"org/c/translations/11)! Це найкращий спосіб зв’язатися з нами. Коментарі та "
+"повідомлення у відповідних інструментах перекладу не завжди надходять до нас "
+"вчасно."
