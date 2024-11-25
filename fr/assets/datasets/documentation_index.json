@@ -88,7 +88,7 @@
     {
       "title"    : "J&#39;ai trouvé une faute de frappe ou d&#39;orthographe",
       "url"      : "/fr/documentation/bugs-first-aid/typo-translations",
-      "content"  : "J’ai trouvé une faute de frappe ou d’orthographeAvez-vous trouvé une faute d’orthographe, ou quelque chose qui vous semble bizarre ? Il est toujours possible que nous ayons fait une erreur de Français ou de traduction (l’application et le site web sont directement traduits de l’anglais). Heureusement, ces problèmes sont souvent faciles à résoudre.Voulez-vous régler ce problème vous même ?Si l’erreur concerne une autre langue que l’anglais, vous pouvez mettre à jour la traduction de l’application sur Transifex. Les erreurs concernant les traductions du site web peuvent être corrigées sur Weblate. Vous pouvez trouver plus d’informations dans notre section Contribuer.L’erreur vient des textes d’origines (en anglais) ? Dans ce cas, vous devrez être ou vous familiariser avec GitHub. Vous pouvez nous transmettre une requête pour l’application ou pour le site web.Vous souhaitez simplement nous en informer ?Vous pouvez créer un message dans la section “traductions” de notre forum. Pour ce faire, vous devez créer un compte (si vous n’en avez pas déjà un) ou simplement vous connecter via Google."
+      "content"  : "J’ai trouvé une faute de frappe ou d’orthographeAvez-vous trouvé une faute d’orthographe, ou quelque chose qui vous semble bizarre ? Il est toujours possible que nous ayons fait une erreur de Français ou de traduction (l’application et le site web sont directement traduits de l’anglais). Heureusement, ces problèmes sont souvent faciles à résoudre.Voulez-vous régler ce problème vous même ?Si le problème concerne une autre langue que l’anglais, vous pouvez mettre à jour la traduction Weblate. Pour plus d’information consulter la section Contribuer.L’erreur vient des textes d’origines (en anglais) ? Dans ce cas, vous devrez être ou vous familiariser avec GitHub. Vous pouvez nous transmettre une requête pour l’application ou pour le site web.Vous souhaitez simplement nous en informer ?Vous pouvez créer un message dans la section “traductions” de notre forum. Pour ce faire, vous devez créer un compte (si vous n’en avez pas déjà un) ou simplement vous connecter via Google."
     } ,
   
     
@@ -271,6 +271,13 @@
       "title"    : "Comment utiliser plusieurs files d&#39;attente",
       "url"      : "/fr/documentation/queue/multiple-queues",
       "content"  : "Comment utiliser plusieurs files d’attenteLes files de lecture multiples ne sont actuellement pas prises en charge. Vous pouvez suivre le problème 2648 sur GitHub pour plus d’informations et/ou pour être tenu au courant."
+    } ,
+  
+    
+    {
+      "title"    : "How to use smart shuffle",
+      "url"      : "/fr/documentation/queue/smart-shuffle",
+      "content"  : "How to use smart shuffleSmart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.To use smart shuffle, place some episodes from different subscriptions in your queue, then tap … in the top bar, select Sort and finally Smart shuffle.Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.How it works in detailLet’s say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.Publication dates play a role both within podcasts (in our example, episodes from podcast E are sorted accordingly) and between podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is more recent)."
     } ,
   
     

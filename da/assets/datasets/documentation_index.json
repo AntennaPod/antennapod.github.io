@@ -88,7 +88,7 @@
     {
       "title"    : "Jeg har fundet en taste- eller stavefejl",
       "url"      : "/da/documentation/bugs-first-aid/typo-translations",
-      "content"  : "Jeg har fundet en taste- eller stavefejlHar du fundet en stavefejl eller noget, der lyder mærkeligt? Det er altid muligt, at vi har lavet en fejl på engelsk (som vi laver appen og hjemmesiden på), eller at noget ikke er blevet oversat korrekt. Heldigvis er disse problemer ofte lette at rette.Vil du selv rette det?Hvis problemet er på et andet sprog end engelsk, kan du opdatere app-oversættelser på Transifex. Problemer med webstedsoversættelser kan rettes på Weblate. Du kan finde flere oplysninger i vores bidragsafsnit.Er det et problem med de engelske tekster? Så skal du være eller blive fortrolig med GitHub. Du kan sende et Pull Request for appen eller for webstedet.Ønsker du blot at informere os?Du kan oprette et indlæg i oversættelsessektionen på vores forum. For at gøre det skal du oprette en konto (hvis du ikke allerede har en) eller blot logge ind via Google."
+      "content"  : "Jeg har fundet en taste- eller stavefejlHar du fundet en stavefejl eller noget, der lyder mærkeligt? Det er altid muligt, at vi har lavet en fejl på engelsk (som vi laver appen og hjemmesiden på), eller at noget ikke er blevet oversat korrekt. Heldigvis er disse problemer ofte lette at rette.Vil du selv rette det?Hvis problemet er på et andet sprog end engelsk, kan du opdatere oversættelserne på Weblate. Du kan finde flere oplysninger i vores bidragsafsnit.Er det et problem med de engelske tekster? Så skal du være eller blive fortrolig med GitHub. Du kan sende et Pull Request for appen eller for webstedet.Ønsker du blot at informere os?Du kan oprette et indlæg i oversættelsessektionen på vores forum. For at gøre det skal du oprette en konto (hvis du ikke allerede har en) eller blot logge ind via Google."
     } ,
   
     
@@ -271,6 +271,13 @@
       "title"    : "Sådan bruges flere køer",
       "url"      : "/da/documentation/queue/multiple-queues",
       "content"  : "Sådan bruges flere køerFlere køer understøttes ikke i øjeblikket. Du kan følge issue 2648 på GitHub for at få flere oplysninger og/eller for at blive holdt opdateret om eventuel udvikling på dette issue."
+    } ,
+  
+    
+    {
+      "title"    : "How to use smart shuffle",
+      "url"      : "/da/documentation/queue/smart-shuffle",
+      "content"  : "How to use smart shuffleSmart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.To use smart shuffle, place some episodes from different subscriptions in your queue, then tap … in the top bar, select Sort and finally Smart shuffle.Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.How it works in detailLet’s say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.Publication dates play a role both within podcasts (in our example, episodes from podcast E are sorted accordingly) and between podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is more recent)."
     } ,
   
     

@@ -88,7 +88,7 @@
     {
       "title"    : "He encontrado una errata",
       "url"      : "/es/documentation/bugs-first-aid/typo-translations",
-      "content"  : "He encontrado una errata¿Encontraste un errata o algo que suena raro? Siempre existe la posibilidad de que hayamos cometido un error en Inglés (idioma en el que hacemos la aplicación y el sitio), o que algo no se haya traducido correctamente. Por suerte, normalmente, estos problemas se pueden arreglar fácilmente.¿Quieres arreglarlo tú mismo?Si el problema está en otro idioma a parte de Inglés, puedes actualizar las traducciones de la aplicación en Transifex. Los problemas con las traducciones de la web pueden ser arreglados en Weblate. Puedes encontrar más información en nuestra sección de Contribución.¿El problema tiene que ver con los textos en Inglés? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para la aplicación o para el sitio web.¿Simplemente quieres informarnos?Puedes crear una entrada en la sección de traducciones de nuestro foro. Para hacerlo necesitas crear una cuenta (si aún no tienes una) o simplemente iniciar sesión a través de Google."
+      "content"  : "He encontrado una errata¿Encontraste un errata o algo que suena raro? Siempre existe la posibilidad de que hayamos cometido un error en Inglés (idioma en el que hacemos la aplicación y el sitio), o que algo no se haya traducido correctamente. Por suerte, normalmente, estos problemas se pueden arreglar fácilmente.¿Quieres arreglarlo tú mismo?Si el tema está en otro idioma que no sea el inglés, puedes actualizar las traducciones en Weblate. Puedes encontrar más información en nuestra sección Colaborar.¿El problema tiene que ver con los textos en Inglés? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para la aplicación o para el sitio web.¿Simplemente quieres informarnos?Puedes crear una entrada en la sección de traducciones de nuestro foro. Para hacerlo necesitas crear una cuenta (si aún no tienes una) o simplemente iniciar sesión a través de Google."
     } ,
   
     
@@ -271,6 +271,13 @@
       "title"    : "Cómo utilizar múltiples colas",
       "url"      : "/es/documentation/queue/multiple-queues",
       "content"  : "Cómo utilizar múltiples colasActualmente no se soportan varias colas. Puedes seguir la cuestión 2648 en GitHub para más información y/o suscribirte a la cuestión para mantenerte al día en caso de que haya algún avance."
+    } ,
+  
+    
+    {
+      "title"    : "How to use smart shuffle",
+      "url"      : "/es/documentation/queue/smart-shuffle",
+      "content"  : "How to use smart shuffleSmart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.To use smart shuffle, place some episodes from different subscriptions in your queue, then tap … in the top bar, select Sort and finally Smart shuffle.Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.How it works in detailLet’s say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.Publication dates play a role both within podcasts (in our example, episodes from podcast E are sorted accordingly) and between podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is more recent)."
     } ,
   
     
