@@ -1,9 +1,9 @@
-Smart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.
+Schlaues Mischen ist ein fortschrittliches Sortierkriterium für die Warteschlange, mit dem die Warteschlange nach Veröffentlichungsdatum sortiert und gleichzeitig so weit wie möglich vermieden wird, dass sich mehrere Episoden eines einzigen Abonnements in der Warteschlange befinden.
 
-To use smart shuffle, place some episodes from different subscriptions in your queue, then tap `…` in the top bar, select `Sort` and finally `Smart shuffle`. Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.
+Um Schlaues Mischen zu verwenden, lege einige Episoden aus verschiedenen Abonnements in die Warteschlange, tippe dann auf `…` in der oberen Leiste, wähle `Sortieren` und schließlich `Schlaues Mischen`. Genau wie andere Sortierkriterien kann auch Schlaues Mischen in aufsteigender oder absteigender Reihenfolge sortiert werden.
 
-## How it works in detail
+## Wie es im Einzelnen funktioniert
 
-Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.
+Angenommen, du hast 15 Episoden in der Warteschlange: Jeweils 1 aus den Podcasts A, B und C, 2 aus dem Podcast D und 10 aus dem Podcast E. Schlaues Mischen nimmt zuerst den Podcast mit den meisten Episoden (E) und verteilt seine Episoden in der Warteschlange: EE_EE_E_E_EE_EE. Dann nimmt es den Podcast mit den zweitmeisten Episoden (D) und verteilt diese auf die verfügbaren Plätze: EE_EEDE_EDEE_EE. So geht es weiter, bis die Warteschlange wie folgt aussieht: EEBEEDECEDEEAEE.
 
-Publication dates play a role both *within* podcasts (in our example, episodes from podcast E are sorted accordingly) and *between* podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is more recent).
+Das Veröffentlichungsdatum spielt sowohl *innerhalb* der Podcasts (in unserem Beispiel werden die Episoden aus Podcast E entsprechend sortiert) als auch *zwischen* den Podcasts eine Rolle (die Episode aus Podcast B erhält einen früheren Platz als die Episode aus Podcast A, da erstere jünger ist).
