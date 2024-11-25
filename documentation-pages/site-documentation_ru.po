@@ -1746,6 +1746,45 @@ msgid ""
 "and / or subscribe to the issue to get updated in case of any developments."
 msgstr ""
 
+#: _i18n/en/documentation/queue/smart-shuffle.md:block 1 (paragraph)
+msgid ""
+"Smart shuffle is an advanced queue sorting criterion that allows you to keep "
+"your queue sorted by publication date while also avoiding as much as "
+"possible having clusters of episodes from a single subscription in your "
+"queue."
+msgstr ""
+
+#: _i18n/en/documentation/queue/smart-shuffle.md:block 2 (paragraph)
+msgid ""
+"To use smart shuffle, place some episodes from different subscriptions in "
+"your queue, then tap `…` in the top bar, select `Sort` and finally `Smart "
+"shuffle`. Just like other sorting criteria, smart shuffle can be sorted in "
+"ascending or descending order."
+msgstr ""
+
+#: _i18n/en/documentation/queue/smart-shuffle.md:block 3 (header)
+msgid "How it works in detail"
+msgstr ""
+
+#: _i18n/en/documentation/queue/smart-shuffle.md:block 4 (paragraph)
+msgid ""
+"Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B "
+"and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the "
+"podcast with the most episodes (E) and spreads out its episodes in the "
+"queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most "
+"episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. "
+"This continues until we end up with a queue that looks like this: "
+"EEBEEDECEDEEAEE."
+msgstr ""
+
+#: _i18n/en/documentation/queue/smart-shuffle.md:block 5 (paragraph)
+msgid ""
+"Publication dates play a role both *within* podcasts (in our example, "
+"episodes from podcast E are sorted accordingly) and *between* podcasts (the "
+"episode from podcast B gets an earlier spot than the one from podcast A "
+"because the former is more recent)."
+msgstr ""
+
 #: _i18n/en/documentation/subscriptions/listening-without-subscribing.md:block
 #: 1 (paragraph)
 msgid ""
