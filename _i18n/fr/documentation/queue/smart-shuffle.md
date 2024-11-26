@@ -1,9 +1,9 @@
-Smart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.
+Le tri intelligent est un tri avancé qui permet de conserver l'ordre de publication mais en évitant autant que possible de grouper des épisodes d'un même podcast dans votre liste de lecture.
 
-To use smart shuffle, place some episodes from different subscriptions in your queue, then tap `…` in the top bar, select `Sort` and finally `Smart shuffle`. Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.
+Pour utiliser le tri intelligent ajouter des épisodes de podcasts différents dans la liste de lecture, puis appuyez sur `…` dans la barre en haut, choisir `Trier` et enfin  `Tri intelligent`. Comme pour les autres types de tri, l'ordre du tri intelligent peut être ascendant ou descendant.
 
-## How it works in detail
+## Comment ça marche
 
-Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.
+Disons que vous avez 15 épisodes dans votre liste de lecture : 1 par podcasts pour A, B et C, 2 pour le podcast D et 10 du podcast E. Le tri intelligent va commencer par le podcast avec le plus d'épisodes (E) et disperser ces épisodes dans la liste de lecture : EE_EE_E_E_EE_EE. Puis les épisodes du deuxième podcast avec le plus d'épisodes (D) sont placés dans les emplacements libres : EE_EEDE_EDEE_EE. Et ainsi de suite jusqu'à obtenir une liste de lecture ressemblant à ceci : EEBEEDECEDEEAEE.
 
-Publication dates play a role both *within* podcasts (in our example, episodes from podcast E are sorted accordingly) and *between* podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is more recent).
+Les dates de publications joue un rôle par rapport aux autres épisodes d'un *même* podcast (dans notre exemple, les épisodes de E sont triés en respectant leurs ordre) et aussi *entre* les différents podcasts (l'épisode du podcast B est avant celui de A car il est plus récent).
