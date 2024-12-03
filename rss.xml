@@ -2,13 +2,13 @@
 layout: null
 ---
 <?xml version="1.0"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
     <channel>
         <title>AntennaPod Blog</title>
         <description>AntennaPod Blog posts</description>
         <link>{{ site.url }}/blog</link>
         <image>
-            <url>{{ site.url }}/assets/images/favicons/android-chrome-512x512.png</url>
+            <url>{{ site.url }}/assets/branding/favicons/android-chrome-512x512.png</url>
             <title>AntennaPod Blog</title>
         </image>
         <language>en-us</language>
@@ -26,6 +26,7 @@ layout: null
                 {{ blog.content | replace:'="/',url_and_equals }}
             ]]></description>
             <pubDate>{{ blog.date | date_to_rfc822 }}</pubDate>
+            <media:content medium="image" url="{{ site.url }}/assets/images/blog/{% if blog.image %}{{ blog.image }}{% else %}2020/default.png{% endif %}" />
         </item>
         {% endif %}
         {% endfor %}
