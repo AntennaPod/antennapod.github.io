@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
-"PO-Revision-Date: 2024-11-18 19:36+0000\n"
-"Last-Translator: Frits van Bommel <fvbommel@gmail.com>\n"
+"PO-Revision-Date: 2024-12-24 08:02+0000\n"
+"Last-Translator: Jan-Pieter <janpieter.baert@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website/"
 "documentation/nl/>\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -2031,11 +2031,10 @@ msgid "3 seconds"
 msgstr "3 seconden"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 1 (paragraph)
-#, fuzzy
 msgid "You can use AntennaPod to listen to podcasts on your Google Chromecast."
 msgstr ""
-"U kunt AntennaPod gebruiken om naar podcasts te luisteren in uw auto met "
-"[Android Auto](https://www.android.com/auto/)."
+"U kunt AntennaPod gebruiken om naar podcasts te luisteren op uw Google "
+"Chromecast."
 
 #: _i18n/en/documentation/playback/chromecast.md:block 3 (paragraph)
 msgid ""
@@ -2044,16 +2043,22 @@ msgid ""
 "the Chromecast button. Make sure that you are in the same WiFi network as "
 "your Chromecast."
 msgstr ""
+"Er zijn geen bijkomende stappen nodig om AntennaPod met je Google Chromecast "
+"te gebruiken. Je opent het spelerscherm door de kleine speler te vergroten "
+"en op de Chromecast knop te duwen. Zorg er zker voor dat zowel je toestel "
+"als Chromecast op hetzeflde WiFi netwerk zijn."
 
 #: _i18n/en/documentation/playback/chromecast.md:block 7 (paragraph)
 msgid "Cast button in AntennaPod"
-msgstr ""
+msgstr "Cast-knop in AntennaPod"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 12 (paragraph)
 msgid ""
 "Unforntunately, Google Chromecast support is not available in the F-Droid "
 "version because Chromecast is not open-source."
 msgstr ""
+"Jammergenoeg is Google Chromecast niet ondersteund in de F-Droid versie "
+"omdat Chromecast niet open-source is."
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 1 (paragraph)
 msgid ""
@@ -2358,6 +2363,10 @@ msgid ""
 "possible having clusters of episodes from a single subscription in your "
 "queue."
 msgstr ""
+"Slimme shuffle is een geavanceerd sorteeringscriterium dat je toelaat om je "
+"afspeellijst te sorteren op publicatiedatum, waar je ook vermijd dat je "
+"grote clusters van afleveringen van een enkel abonnement hebt in de "
+"afspeellijst."
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 2 (paragraph)
 msgid ""
@@ -2366,10 +2375,15 @@ msgid ""
 "shuffle`. Just like other sorting criteria, smart shuffle can be sorted in "
 "ascending or descending order."
 msgstr ""
+"Om slimme shuffle te gebruiken, plaats een aantal afleveringen van "
+"verschillende abonnementen in je afspeellijst, druk daarna op `...` in de "
+"bovenste balk, selecteer dan `Sorteer` en finaal `Slimme shuffle`. Net als "
+"andere sortingscriteria kan je slimme shuffle in oplopende of aflopende "
+"richting sorteren."
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 3 (header)
 msgid "How it works in detail"
-msgstr ""
+msgstr "Hoe werkt het in detail"
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 4 (paragraph)
 msgid ""
@@ -2381,6 +2395,13 @@ msgid ""
 "This continues until we end up with a queue that looks like this: "
 "EEBEEDECEDEEAEE."
 msgstr ""
+"Veronderstel dat je 15 afleveringen in je afspeellijst hebt: 1 van podcasts "
+"A, B en C, 2 van podcast D en 10 van podcast E. Smart shuffle zal eerst de "
+"podcast met het meest afleveringen (E) nemen en de afleveringen hiervan "
+"uitspreiden in de afspeellijst: EE_EE_E_E_EE_EE. Dan komt de podcast met het "
+"tweede meest aantal afleveringen (D), hiervan worden de afleveringen "
+"uitgespreid over de overblijven de plaatsen: EE_EEDE_EDEE_EE. Dit proces "
+"herhaalt zich tot de afspeellijst er ongeveer zo uitziet: EEBEEDECEDEEAEE."
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 5 (paragraph)
 msgid ""
@@ -2389,6 +2410,10 @@ msgid ""
 "episode from podcast B gets an earlier spot than the one from podcast A "
 "because the former is more recent)."
 msgstr ""
+"De publicatiedatum speelt een rol zowel *binnen* de podcast (in ons "
+"voorbeeld, afleveringen van podcast E zijn gesorteerd volgens "
+"publicatiedatum) als *tussen* podcasts (de aflevering van podcast B krijgt "
+"een eerdere plek dan die van podcast A omdat die recenter is)."
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 1
 #: (paragraph)
