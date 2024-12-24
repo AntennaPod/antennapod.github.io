@@ -1,9 +1,9 @@
-Smart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.
+Slimme shuffle is een geavanceerd sorteeringscriterium dat je toelaat om je afspeellijst te sorteren op publicatiedatum, waar je ook vermijd dat je grote clusters van afleveringen van een enkel abonnement hebt in de afspeellijst.
 
-To use smart shuffle, place some episodes from different subscriptions in your queue, then tap `…` in the top bar, select `Sort` and finally `Smart shuffle`. Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.
+Om slimme shuffle te gebruiken, plaats een aantal afleveringen van verschillende abonnementen in je afspeellijst, druk daarna op `...` in de bovenste balk, selecteer dan `Sorteer` en finaal `Slimme shuffle`. Net als andere sortingscriteria kan je slimme shuffle in oplopende of aflopende richting sorteren.
 
-## How it works in detail
+## Hoe werkt het in detail
 
-Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.
+Veronderstel dat je 15 afleveringen in je afspeellijst hebt: 1 van podcasts A, B en C, 2 van podcast D en 10 van podcast E. Smart shuffle zal eerst de podcast met het meest afleveringen (E) nemen en de afleveringen hiervan uitspreiden in de afspeellijst: EE_EE_E_E_EE_EE. Dan komt de podcast met het tweede meest aantal afleveringen (D), hiervan worden de afleveringen uitgespreid over de overblijven de plaatsen: EE_EEDE_EDEE_EE. Dit proces herhaalt zich tot de afspeellijst er ongeveer zo uitziet: EEBEEDECEDEEAEE.
 
-Publication dates play a role both *within* podcasts (in our example, episodes from podcast E are sorted accordingly) and *between* podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is more recent).
+De publicatiedatum speelt een rol zowel *binnen* de podcast (in ons voorbeeld, afleveringen van podcast E zijn gesorteerd volgens publicatiedatum) als *tussen* podcasts (de aflevering van podcast B krijgt een eerdere plek dan die van podcast A omdat die recenter is).

@@ -1,4 +1,4 @@
-AntennaPod is een podcast speler, gratis en met respect voor privacy. Het is gemaakt door vrijwilligers over de hele wereld zonder enig zakelijk belang. Samen dragen we bij aan een open podcasting-ecosysteem. Geniet van de beste audio-inhoud op het web.
+AntennaPod is een podcast speler, gratis en met respect voor uw privacy. Het is gemaakt door vrijwilligers over de hele wereld zonder enig zakelijk belang. Samen dragen we bij aan een open podcasting-ecosysteem. Zodat u kan genieten van de beste audio-inhoud op het web.
 
 ## Gemakkelijk en boordevol functies
 
