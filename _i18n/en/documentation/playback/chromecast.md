@@ -21,4 +21,4 @@ Make sure that you are in the same WiFi network as your Chromecast.
 
 ### Did you download AntennaPod from **F-Droid**?
 
-Unforntunately, Google Chromecast support is not available in the F-Droid version because Chromecast is not open-source.
+Unfortunately, Google Chromecast support is not available in the F-Droid version because Chromecast is not open-source.
