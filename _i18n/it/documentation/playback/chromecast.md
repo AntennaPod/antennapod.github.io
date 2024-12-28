@@ -1,12 +1,12 @@
-Puoi usare AntennaPod per ascoltare podcast nella tua auto abilitata ad [Android Auto](https://www.android.com/auto/).
+Puoi usare AntennaPod per ascoltare podcast sul tuo Google Chromecast.
 
 ### Hai scaricato AntennaPod da **Google Play**?
 
-No further steps are required to use AntennaPod with your Google Chromecast. Open the player screen by expanding the small player on the bottom and press the Chromecast button. Make sure that you are in the same WiFi network as your Chromecast.
+Non sono necessari altri passaggi per utilizzare AntennaPod con il tuo Google Chromecast. Apri la schermata lettore espandendo il mini-lettore nella parte bassa dello schermo e premi il pulsante Chromecast. Assicurati di essere sulla stessa rete Wi-Fi del tuo Chromecast.
 
 {% include image.html alt= "
 
-     Cast button in AntennaPod
+     Pulsante di trasmissione in AntennaPod
 
      "
 
@@ -14,4 +14,4 @@ loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}
 
 ### Hai scaricato AntennaPod da **F-Droid**?
 
-Unforntunately, Google Chromecast support is not available in the F-Droid version because Chromecast is not open-source.
+Sfortunatamente, il supporto per Google Chromecast non è disponibile nella versione F-Droid perché Chromecast non è open source.

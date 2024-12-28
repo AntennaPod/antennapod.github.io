@@ -1,6 +1,6 @@
 Le tri intelligent est un tri avancé qui permet de conserver l'ordre de publication mais en évitant autant que possible de grouper des épisodes d'un même podcast dans votre liste de lecture.
 
-Pour utiliser le tri intelligent ajouter des épisodes de podcasts différents dans la liste de lecture, puis appuyez sur `…` dans la barre en haut, choisir `Trier` et enfin  `Tri intelligent`. Comme pour les autres types de tri, l'ordre du tri intelligent peut être ascendant ou descendant.
+Pour utiliser le tri intelligent ajouter des épisodes de podcasts différents dans la liste de lecture, puis appuyez sur `…` dans la barre en haut, choisir `Trier` et enfin `Tri intelligent`. Comme pour les autres types de tri, l'ordre du tri intelligent peut être ascendant ou descendant.
 
 ## Comment ça marche
 
