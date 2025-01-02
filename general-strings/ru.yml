@@ -21,20 +21,31 @@ contribute:
       перевести AntennaPod.
   test:
     title: Тестирование
-    text: Вы хороши в ломании вещей? Станьте бета-тестировщиком.
+    text: Вы умеете хорошо ломать? Станьте бета-тестировщиком.
+  promote:
+    text: Вы пишите твиты, интересные блоги или прекрасно рисуете? Расскажите про
+      нас.
+  design:
+    title: Дизайн
+  donate:
+    link: Вы можете сделать <a href="https://opencollective.com/antennapod" target="_blank"
+      data-toggle="modal" data-target="#donationModal">пожертвование</a>.
+    modal-title: Хотите ли вы пожертвовать?
+    modal-button-chat: Обсудите с нами как вы можете помочь
+    modal-button-contribute: Посмотрите параметры поддержки еще раз
 month:
   Jan: Январь
   Feb: Февраль
   Mar: Март
   Apr: Апрель
   May: Май
-  Jun: Июнь
-  Jul: Июль
+  Jun: Июн
+  Jul: Июл
   Sep: Сентябрь
   Oct: Октябрь
   Nov: Ноябрь
   Dec: Декабрь
-  Aug: Август
+  Aug: Авг
 readtime:
   singular: минут на чтение
   plural: минут на чтение
@@ -104,3 +115,60 @@ not-installed:
   title: AntennaPod не установлен
   text: AntennaPod не установлен или Ваш браузер не поддерживает его непосредственное
     открытие.
+documentation:
+  categories:
+    automation:
+      title: Автоматизация
+      refreshing-podcasts: Обновление подкастов
+      deletion: Автоматическое удаление
+      tasker: Интеграция с другими приложениями
+      intro: Вы опытный пользователь и хотите автоматизировать задачи? Смотрите страницу
+        ниже.
+    subscriptions:
+      subscription-groups: Тэги подписок (или же группы или категории)
+      intro: Ниже вы можете найти ответы на вопросы про подписки.
+      title: Подписки
+    bugs-first-aid:
+      title: Баги, ошибки и первая помощь
+      bug-report: Некоторое может не работать
+    getting-started:
+      home: Использовать на Домашнем экране
+      title: Давайте начнем
+      intro: Добро пожаловать в AntennaPod! Ниже вы можете найти детали как начать
+        с AntennaPod.
+      subscribe: Подписаться на подкаст
+    general:
+      intro: Ниже вы можете найти больше о проекте AntennaPod.
+      ads: Про рекламу в AntennaPod
+      beta: Бета-тестрирование
+      external-storage: Использовать внешнее хранилище
+      synchronization: Как синхронизировать устройства
+      proxy: Пропускать траффик через прокси или сеть Tor
+      episode-deletion: Удалить эпизоды
+      other-platforms: AntennaPod для Windows, Apple и GNU/Linux
+      title: Главное
+      f-droid: Обновления в F-Droid
+    queue:
+      how-to-use: Как использовать очередь
+      lock: (Раз)блокировать очередь
+      title: Очередь
+      intro: Ниже вы можете найти ответы на вопросы про очередь.
+    podcasters-hosters:
+      add-on-antennapod: Создайте ссылку 'Открыть в AntennaPod'
+      intro: Ниже вы можете найти информацию для подкастеров и хостинг провайдеров.
+      title: Для подкастеров и хостеров
+  general:
+    search-placeholder: Найти документацию
+    no-results: Простите, ничего не найдено
+events:
+  links:
+    open-blog: Почитать посты в блоге
+    add-calendar: Добавить в календарь
+    open-meeting: Открыть обсуждение
+    more-information: Больше информации
+    open-map: Посмотреть локацию
+    watch-recording: Посмотреть записи
+  general:
+    download-ics: Скачайте ICS файл
+footer:
+  description: Простой в использовании, гибкий и открытый менеджер подкастов для Android.
