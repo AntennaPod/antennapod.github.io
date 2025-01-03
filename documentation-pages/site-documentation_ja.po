@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-19 15:24+0200\n"
 "PO-Revision-Date: 2025-01-04 18:12+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: \"Shuuji TAKAHASHI (shuuji3)\" <shuuji3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ja/>\n"
 "Language: ja\n"
@@ -156,11 +155,11 @@ msgid "Package name: `de.danoeh.antennapod`"
 msgstr "パッケージ名: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Class name: `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
-msgstr "クラス名: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+msgstr ""
+"クラス名: `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
 msgid "Steps for some automation apps"
@@ -182,12 +181,12 @@ msgid "Package to be `de.danoeh.antennapod`"
 msgstr "Package: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
-#, fuzzy
 msgid ""
 "Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
-"Receiver class: `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver`"
+"Receiverクラスを "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` にする"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Tasker ([website](https://tasker.joaoapps.com/))"
@@ -210,13 +209,13 @@ msgid "Specify Package name to be `de.danoeh.antennapod`"
 msgstr "パッケージ名として `de.danoeh.antennapod` を指定します"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
-#, fuzzy
 msgid ""
 "Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 msgstr ""
-"クラス名として `de.danoeh.antennapod.core.receiver.FeedUpdateReceiver` を指定"
-"します"
+"クラス名として "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` "
+"を指定します"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Target to be `Broadcast receiver`"
@@ -716,18 +715,15 @@ msgstr "自分自身で修正したいですか？"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 3
 #: (paragraph)
-#, fuzzy
 msgid ""
 "If the issue is in any other language than English, you can update the "
 "translations on [Weblate](https://hosted.weblate.org/projects/antennapod/). "
 "You can [find more information in our Contribute section](/contribute/"
 "translate)."
 msgstr ""
-"問題が英語以外の言語にある場合は、**アプリの翻訳**は[Transifex](https://www."
-"transifex.com/antennapod/antennapod/core-values/)で更新できます。**ウェブサイ"
-"トの翻訳**に問題がある場合は、[Weblate](https://hosted.weblate.org/projects/"
-"antennapod/)で修正できます。詳しい情報は、[コントリビューションのセクション]"
-"(/contribute/translate)で確認できます。"
+"問題が英語以外の言語にある場合は、[Weblate](https://hosted.weblate.org/"
+"projects/antennapod/)で修正できます。[詳しい情報は、貢献のセクション](/"
+"contribute/translate)で確認できます。"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 4
 #: (paragraph)
@@ -1679,6 +1675,8 @@ msgid ""
 "listening and perform a range of actions, all conveniently from the same "
 "screen."
 msgstr ""
+"ホーム画面では、すべて同じ画面から簡単に、ポッドキャストの概要を簡単に確認し"
+"たり、リスニングを開始したり、さまざまなアクションを実行したりできます。"
 
 #: _i18n/en/documentation/getting-started/home.md:block 2 (paragraph)
 msgid ""
@@ -1688,6 +1686,11 @@ msgid ""
 "reorder these sections or hide some of them – by tapping `…` in the top bar "
 "and selecting `Configure Home Screen`."
 msgstr ""
+"ここには5つのセクションがあり、各セクションには直接操作するエピソードや購読が"
+"表示されますが、関連する画面（キューなど）へのショートカットも提供されます。"
+"トップバーの`…`をタップして`ホーム画面の設定`を選択すると、ホーム画面をカスタ"
+"マイズできます。つまり、これらのセクションの順序を変更したり、一部を非表示に"
+"したりできます。"
 
 #: _i18n/en/documentation/getting-started/home.md:block 3 (header)
 msgid "Continue listening"
@@ -1698,7 +1701,8 @@ msgid ""
 "This section allows you to quickly and easily carry on listening to episodes "
 "you already have in your queue, beginning with those you have already "
 "started listening to, but haven’t finished just yet."
-msgstr ""
+msgstr "このセクションでは、キューにあるエピソードを、再生途中のエピソードから始めて"
+"、すばやく簡単に聴き続けることができます。"
 
 #: _i18n/en/documentation/getting-started/home.md:block 5 (header)
 msgid "See what’s new"
@@ -1708,7 +1712,8 @@ msgstr "新着の確認"
 msgid ""
 "In this section, you will find the latest episodes that have landed in your "
 "inbox as a result of having refreshed your subscriptions."
-msgstr ""
+msgstr "このセクションでは、購読を更新した結果として受信箱に届いた最新のエピソードが"
+"表示されます。"
 
 #: _i18n/en/documentation/getting-started/home.md:block 7 (header)
 msgid "Get surprised"
@@ -1720,6 +1725,9 @@ msgid ""
 "haven’t listened to yet. If you don’t see anything you feel like listening, "
 "you can tap the arrow button to refresh the selection."
 msgstr ""
+"ここでは、購読からまだ聞いていないエピソードをランダムに選択して見つけられま"
+"す。聴きたいエピソードが見つからない場合は、矢印ボタンをタップして選択内容を"
+"更新できます。"
 
 #: _i18n/en/documentation/getting-started/home.md:block 9 (header)
 msgid "Check your classics"
@@ -1729,7 +1737,7 @@ msgstr "過去のエピソード"
 msgid ""
 "Here you can quickly see and get access to your all-time most-listened "
 "subscriptions."
-msgstr ""
+msgstr "ここでは、これまでで最もよく聞かれた購読をすぐに確認してアクセスできます。"
 
 #: _i18n/en/documentation/getting-started/home.md:block 11 (header)
 msgid "Manage downloads"
@@ -1739,7 +1747,7 @@ msgstr "ダウンロードの管理"
 msgid ""
 "In this section, you can interact with the episodes you downloaded on your "
 "device."
-msgstr ""
+msgstr "このセクションでは、デバイスにダウンロードしたエピソードを操作できます。"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
 msgid ""
@@ -1978,11 +1986,8 @@ msgid "3 seconds"
 msgstr "3秒間"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 1 (paragraph)
-#, fuzzy
 msgid "You can use AntennaPod to listen to podcasts on your Google Chromecast."
-msgstr ""
-"AntennaPodを使用すると、[Android Auto](https://www.android.com/auto/)を有効化"
-"した車でポッドキャストを視聴できます。"
+msgstr "AntennaPodを使用すると、Google Chromecastでポッドキャストを視聴できます。"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 3 (paragraph)
 msgid ""
@@ -1991,16 +1996,22 @@ msgid ""
 "the Chromecast button. Make sure that you are in the same WiFi network as "
 "your Chromecast."
 msgstr ""
+"Google "
+"ChromecastでAntennaPodを使用するために、これ以上の手順は必要ありません。下部"
+"の小さなプレーヤーを展開してプレーヤー画面を開き、Chromecastボタンを押します"
+"。 Chromecastと同じWiFiネットワークにいることを確認してください。"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 7 (paragraph)
 msgid "Cast button in AntennaPod"
-msgstr ""
+msgstr "AntennaPodのキャストボタン"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 12 (paragraph)
 msgid ""
 "Unfortunately, Google Chromecast support is not available in the F-Droid "
 "version because Chromecast is not open-source."
 msgstr ""
+"残念ながら、Chromecastはオープンソースではないため、F-"
+"DroidバージョンではGoogle Chromecastのサポートは利用できません。"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 1 (paragraph)
 msgid ""
@@ -2298,6 +2309,9 @@ msgid ""
 "possible having clusters of episodes from a single subscription in your "
 "queue."
 msgstr ""
+"スマートシャッフルは、高度なキューの並べ替え基準です。これを使用すると、でき"
+"るだけキュー内に単一の購読のエピソードのクラスターができないようにしながら、"
+"公開日によってキューを並べ替えられます。"
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 2 (paragraph)
 msgid ""
@@ -2306,10 +2320,14 @@ msgid ""
 "shuffle`. Just like other sorting criteria, smart shuffle can be sorted in "
 "ascending or descending order."
 msgstr ""
+"スマートシャッフルを使用するには、さまざまな購読からいくつかのエピソードをキ"
+"ューに入れ、上部バーの`…`をタップし、`並べ替え`を選択して、最後に`スマートシ"
+"ャッフル`を選択します。他の並べ替え基準と同様に、スマート "
+"シャッフルは昇順または降順で並べ替えられます。"
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 3 (header)
 msgid "How it works in detail"
-msgstr ""
+msgstr "詳しい仕組み"
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 4 (paragraph)
 msgid ""
@@ -2321,6 +2339,13 @@ msgid ""
 "This continues until we end up with a queue that looks like this: "
 "EEBEEDECEDEEAEE."
 msgstr ""
+"たとえばキューに15個のエピソードがあるとします。ポッドキャストA、B、Cからそれ"
+"ぞれ1個、ポッドキャストDから2個、ポッドキャストEから 10 "
+"個です。スマートシャッフルは、まずエピソードが最も多いポッドキャスト（E）を取"
+"得し、そのエピソードを次のように展開します。キュー: EE_EE_E_E_EE_EE。次に、2 "
+"番目に多いエピソードを含むポッドキャスト（D）を取得し、それらを使用可能なスロ"
+"ットEE_EEDE_EDEE_EEに振り分けます。これを、EEBEEDECEDEEAEEのようなキューが完"
+"成するまで続けます。"
 
 #: _i18n/en/documentation/queue/smart-shuffle.md:block 5 (paragraph)
 msgid ""
@@ -2329,6 +2354,10 @@ msgid ""
 "episode from podcast B gets an earlier spot than the one from podcast A "
 "because the former is more recent)."
 msgstr ""
+"公開日は、ポッドキャスト*内*（この例では、ポッドキャストEのエピソードがそれに"
+"応じて並べ替えられます）とポッドキャスト*間*の両方で役割を果たします（ポッド"
+"キャストBのエピソードは、ポッドキャストAのエピソードよりも早いスポットを獲得"
+"します。前者の方が新しいためです）。"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 1
 #: (paragraph)
