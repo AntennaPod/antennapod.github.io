@@ -15,10 +15,10 @@
             {% assign link_collection = link.url | replace: '/', '' %}
             {% assign url_collection = page.url | split: '/' %}
             {% assign url_collection = url_collection[1] %}
-            <div class="nav-item ml-2{% if link_collection == url_collection %} active{% endif %}">
+            <div class="nav-item ml-2{% if link_collection == url_collection %} active{% endif %}{% if link.url == "/contribute" %} highlight{% endif %}">
               <a class="nav-link"
                  href="{% unless link.url contains 'http' %}{{ site.baseurl }}{% endunless %}{{ link.url }}">
-                {% t {{ link.key }} %}
+                {% t {{ link.key }} %}{% if link.url == "/contribute" %} ♥{% endif %}
               </a>
             </div>
             {% endfor %}
