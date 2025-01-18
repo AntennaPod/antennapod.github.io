@@ -42,6 +42,8 @@ generic:
   previous: Edellinen
   next: Seuraava
   error404: Virhe 404
+  subscribe-subtitle: Napsauta ja tilaa tämä podcast AntennaPodissa tai jossakin muussa
+    podcast-sovelluksessa.
 month:
   Jan: Tam
   Feb: Hel
@@ -79,14 +81,23 @@ homepage:
       title: Kuuntele missä vain
       description: AntennaPodilla voit ladata jaksoja ja kuunnella niitä missä tahansa.
         Voit myös valita podcasteja automattisesti ladattaviksi.
+  description: AntennaPod on täysin avoin podcast-soitin. Sovelluksen lähdekoodi on
+    avointa, ja sillä voi tilata minkä tahansa RSS-syötteen. AntennaPodia kehitetään
+    vapaaehtoisvoimin ilman kaupallisia intressejä, joten se kunnioittaa käyttäjiensä
+    yksityisyyttä ja pysyy täysin käyttäjien hallinnassa.
 documentation:
   general:
     search-placeholder: Etsi dokumentaatiosta
     no-results: Harmi, ei löydetty
+    introduction: Tervetuloa AntennaPodin asiakirjaosioon, jossa kerrotaan sovelluksen
+      toiminnoista.
   categories:
     getting-started:
       subscribe: Tilaa podcast
       title: Aloittaminen
+      home: Aloitusnäytön käyttäminen
+      intro: Tervetuloa käyttämään AntennaPodia! Alla on ohjeita AntennaPodin käytön
+        aloittamiseen.
     general:
       title: Yleinen
       intro: Alla on lisätietoja AntennaPod-projektista.
@@ -98,10 +109,12 @@ documentation:
       synchronization: Synkronointi laitteiden välillä
       backup: Jaksojen varmuuskopiointi
       proxy: Verkkoliikenteen kuljettaminen välityspalvelimen tai Tor-verkon kautta
+      f-droid: F-Droid-päivitykset
     subscriptions:
       title: Tilaukset
       intro: Alla on usein kysyttyjä kysymyksiä tilauksista.
       listening-without-subscribing: Jakson kuunteleminen ilman tilausta
+      subscription-groups: Tilausten tunnisteet (eli ryhmät tai luokat)
     bugs-first-aid:
       database-error: Kaikki podcastini ja jaksoni ovat kadonneet
       cannot-stream-download: Jakson lataaminen ei onnistu
@@ -124,12 +137,15 @@ documentation:
       deletion: Automaattinen poistaminen
       refreshing-podcasts: Podcastien päivittäminen
       tasker: Integrointi muihin sovelluksiin
+      intro: Oletko kokenut käyttäjä, joka haluaa automatisoida tehtäviä? Lue lisää
+        alta.
     playback:
       android-auto: Toisto autoissa (Android Auto)
       intro: Alla on toistoon liittyviä aiheita.
       auto-rewind: Automaattinen takaisinkelaus
       title: Toisto
       shortcuts: Fyysisen näppäimistön pikanäppäimet
+      chromecast: Toisto Google Chromecastissa
     queue:
       multiple-queues: Useiden jonojen käyttäminen
       intro: Alla on usein kysyttyjä kysymyksiä jonoista.
@@ -143,6 +159,9 @@ contribute:
     modal-title: Haluatko varmasti lahjoittaa?
     modal-button-donate: Lahjoita
     modal-button-contribute: Näytä osallistumisvaihtoehdot uudestaan
+    link: Haluan <a href="https://opencollective.com/antennapod" target="_blank" data-toggle="modal"
+      data-target="#donationModal">lahjoittaa</a>.
+    modal-button-chat: Kysy meiltä, miten voit auttaa
   test:
     title: Testaa
     text: Oletko hyvä tuhoamaan? Ryhdy beetatestaajaksi.
@@ -151,6 +170,10 @@ contribute:
     text: Osaatko kertoa asioista selkeästi? Auta muita käyttäjiä foorumillamme.
   develop:
     title: Kehitä
+  introduction: AntennaPodia kehitetään aktiivisesti vapaaehtoisvoimin. Sinäkin voit
+    osallistua, joko ohjelmoimalla tai muulla tavoin.
+  promote:
+    title: Mainosta
 events:
   links:
     open-blog: Lue blogikirjoitus
@@ -171,3 +194,6 @@ footer:
     Androidille.
 blog:
   posted: Julkaistu
+not-installed:
+  title: AntennaPodia ei ole asennettu
+  text: AntennaPodia ei ole asennettu tai selaimesi ei tue sen avaamista suoraan.
