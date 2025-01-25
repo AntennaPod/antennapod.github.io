@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:45+0200\n"
-"PO-Revision-Date: 2025-01-18 18:12+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-01-25 18:11+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fi/>\n"
 "Language: fi\n"
@@ -35,15 +34,14 @@ msgid "Auto Delete"
 msgstr "Automaattinen poisto"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are "
 "deleted when playback completes (but not when manually marking an episode as "
 "'played')."
 msgstr ""
-"Automaattinen poistotoiminto on kohdassa Asetukset » Muisti. Kun se on "
-"käytössä, jaksot poistetaan niiden toistamisen jälkeen (mutta ei kuitenkaan, "
-"jos ne merkitään toistetuiksi)."
+"`Automaattinen poisto` sijaitsee kohdassa `Asetukset` » `Tallennustila`. Kun "
+"tämä on otettu käyttöön, jaksot poistetaan, kun toisto on valmis (mutta ei, "
+"kun jakso merkitään manuaalisesti 'toistetuksi')."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Episode Cleanup"
@@ -57,6 +55,12 @@ msgid ""
 "delay (x time after playback) or Episode. The setting `Episode Cache` "
 "determines the maximum amount of downloaded episodes."
 msgstr ""
+"'Jakson puhdistus' sijaitsee kohdassa `Asetukset` » `Verkko` » `"
+"Automaattinen lataus`. Jos automaattinen lataus tarvitsee tilaa uusille "
+"jaksoille, se poistaa vanhat jaksot, jotka eivät ole jonossa ja joita ei ole "
+"merkitty suosikeiksi. Voit lisätä viiveen (x aika toiston jälkeen) tai "
+"jakson. Asetus 'Jaksovälimuisti' määrittää ladattujen jaksojen "
+"enimmäismäärän."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
@@ -65,6 +69,10 @@ msgid ""
 "the interval period, select a specific time in the day, or turn off the "
 "automatic updates."
 msgstr ""
+"Oletuksena kaikki podcastit päivitetään 12 tunnin välein uusien jaksojen "
+"poimimiseksi. Kohdassa `Asetukset` » `Verkko` » `Virkistä podcastit` voit "
+"muuttaa aikaväliä, valita tietyn ajan päivästä tai poistaa automaattiset "
+"päivitykset käytöstä."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
 msgid ""
@@ -75,6 +83,12 @@ msgid ""
 "this by going to a podcast, tapping on the `Gear` icon and changing the "
 "`Keep Updated` setting."
 msgstr ""
+"Voit myös kytkeä tämän prosessin pois päältä yksittäisille podcasteille, jos "
+"podcastin pitäminen ajan tasalla ei ole tarpeen. Voit käyttää tätä "
+"esimerkiksi, jos podcastille ei enää julkaista uusia jaksoja. Tai kun olet "
+"lisännyt podcastin, josta kuuntelet jakson vain satunnaisesti. Voit "
+"määrittää tämän siirtymällä podcastiin, napauttamalla `Gear`-kuvaketta ja "
+"muuttamalla `Pidä ajan tasalla` -asetusta."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
 msgid ""
@@ -84,6 +98,11 @@ msgid ""
 "podcast, which will bring new episodes to AntennaPod. But these new episodes "
 "will not be visible in the New tab of the Episodes screen."
 msgstr ""
+"Kun poistat tämän podcast-asetuksen käytöstä, podcastia ei enää päivitetä, "
+"kun podcastit virkistetään automaattisesti tai kun aloitat tämän prosessin "
+"Jono- tai Jaksot-näytöstä. Voit silti virkistää podcastin, joka tuo uusia "
+"jaksoja AntennaPodiin. Nämä uudet jaksot eivät kuitenkaan näy Jaksot-näytön "
+"Uusi-välilehdellä."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -91,27 +110,32 @@ msgid ""
 "regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
 "podcasts))."
 msgstr ""
+"AntennaPodin avulla voit määrittää tilauksia (podcast-syötteitä), jotka "
+"päivitetään säännöllisesti (katso [Podcastien virkistäminen](/documentation/"
+"automation/refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. For example:"
 msgstr ""
+"Jos sinulla on monimutkaisempia tarpeita, voit käyttää erilaisia kolmannen "
+"osapuolen automaatiosovelluksia AntennaPodin kanssa tehdäksesi niin. "
+"Esimerkiksi:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
-#, fuzzy
 msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WiFi, then update AntennaPod feeds."
 msgstr ""
-"Aseta tilaukset päivittymään aamulla: muodosta aamuseitsemältä wifi-yhteys "
-"ja päivitä AntennaPodin syötteet."
+"Saat tilaukset päivitettyinä heti päivän alussa: klo 7.00, kytke Wi-Fi "
+"päälle ja päivitä AntennaPod-syötteet."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get your subscriptions before your ride home: at 5pm on weekdays update "
 "subscriptions."
-msgstr ""
+msgstr "Hanki tilauksesi ennen kotimatkaa: arkisin klo 17.00 päivitä tilaukset."
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
 msgid "General instructions"
@@ -123,6 +147,9 @@ msgid ""
 "subscriptions by sending a 'Broadcast' (it may be shown as a type of Android "
 "intent) with the following settings:"
 msgstr ""
+"Automaatiosovelluksessasi voit saada AntennaPodin päivittämään tilauksensa "
+"lähettämällä 'Laajalahetys' (se voidaan näyttää eräänlaisena Android-"
+"tarkoituksena) seuraavilla asetuksilla:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
@@ -138,7 +165,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
 msgid "Steps for some automation apps"
-msgstr ""
+msgstr "Joidenkin automaatiosovellusten vaiheet"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -148,6 +175,8 @@ msgstr "Automate ([sivusto](https://llamalab.com/automate/))"
 msgid ""
 "In a flow, add a block of the type `APPS` » `Broadcast send` and specify"
 msgstr ""
+"Lisää kulkuun lohko, jonka tyyppi on `APPS` » `Laajalähetyksen lähetäminem` "
+"ja määritä"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
@@ -169,11 +198,11 @@ msgstr "Luo tehtävä ja lisää siihen toiminto"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Select `System`"
-msgstr ""
+msgstr "Valitse `Järjestelmä`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Select `Send Intent`"
-msgstr ""
+msgstr "Valitse `Lähetä tarkoitus`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Specify Package name to be `de.danoeh.antennapod`"
@@ -201,7 +230,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
 msgid "Create an event (Llama automation rule). In the event,"
-msgstr ""
+msgstr "Luo tapahtuma (Llama-automatisointisääntö). Tapahtumassa,"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Add an action of type Android intent."
@@ -229,6 +258,8 @@ msgid ""
 "**Disclaimer:** AntennaPod community has no relationship with any of the 3rd-"
 "party automation applications listed."
 msgstr ""
+"**Vastuuvapauslauseke:** AntennaPod-yhteisöllä ei ole suhdetta mihinkään "
+"luetelluista kolmannen osapuolen automaatiosovellusten kanssa."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 1 (paragraph)
 msgid "Did you encounter a bug? We're sorry to hear."
@@ -242,6 +273,11 @@ msgid ""
 "can see if there's any suggestions. Also consider providing information from "
 "your situation - it might help developers find the source of the problem."
 msgstr ""
+"Varmista ensin, että sinulla on uusin AntennaPod-versio. Jokaisen "
+"päivityksen myötä korjaamme monia pieniä ja suurempia ongelmia. Etsi sitten "
+"foorumiltamme, onko muilla samaa ongelmaa. Jos löydät ongelmasi, voit "
+"katsoa, onko sinulla ehdotuksia. Harkitse myös tietojen antamista "
+"tilanteestasi – se saattaa auttaa kehittäjiä löytämään ongelman lähteen."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
 msgid ""
@@ -250,12 +286,18 @@ msgid ""
 "antennapod.org/c/bug-report/9). To do so you need to create an account (if "
 "you don't have one already) or simply log in via Google."
 msgstr ""
+"Jos olet päivittänyt AntennaPodin ja etsinyt keskustelupalstaltamme turhaan, "
+"kerro meille viasta. Voit luoda viestin [keskustelupalstaamme](https://"
+"forum.antennapod.org/c/bug-report/9). Tätä varten sinun on luotava tili (jos "
+"sinulla ei vielä ole) tai kirjauduttava sisään Googlen kautta."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
 "Whichever way you contact us, please include the system information that is "
 "displayed in `Settings` » `Report bug`."
 msgstr ""
+"Miten tahansa otat meihin yhteyttä, liitä mukaan järjestelmätiedot, jotka "
+"näkyvät kohdassa `Asetukset` » `Ilmoita viasta`."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
 #: (paragraph)
@@ -264,6 +306,9 @@ msgid ""
 "from the lock screen or media notification. This occurs specifically if "
 "playback has been paused for a while."
 msgstr ""
+"Android 13:ssa ja Android 14:ssä ei aina ole mahdollista jatkaa toistoa "
+"lukitusnäytöstä tai media-ilmoituksesta. Tämä tapahtuu erityisesti, jos "
+"toisto on keskeytetty jonkin aikaa."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
 #: (paragraph)
@@ -272,6 +317,9 @@ msgid ""
 "same problem affects other apps, including Google's apps. We suspect, "
 "therefore, that this is an issue with Android."
 msgstr ""
+"Tällä hetkellä ei ole selvää, miksi tämä vika ilmenee. Olemme havainneet, "
+"että sama ongelma koskee muita sovelluksia, mukaan lukien Googlen "
+"sovelluksia. Siksi epäilemme, että tämä on Android-vika."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
 #: (header)
@@ -287,11 +335,16 @@ msgid ""
 "Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
 "playback, even if playback has been paused for a while."
 msgstr ""
+"Jotta voit edelleen jatkaa toistoa, voit lisätä laitteeseesi niin kutsutun "
+"AntennaPod-'ruudun'. Laatat ovat pohjimmiltaan painikkeita, jotka näet, kun "
+"vedät alas näytön yläreunasta. Tiedät todennäköisesti Internetin tai "
+"Taskulamppu-laatan. AntennaPod-laatan avulla voit toistaa ja keskeyttää "
+"toiston, vaikka toisto olisi keskeytetty jonkin aikaa."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
 #: (paragraph)
 msgid "To add the AntennaPod tile:"
-msgstr ""
+msgstr "AntennaPod-ruudun lisääminen:"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -299,6 +352,8 @@ msgid ""
 "**Pull down twice** from the top of the screen, so you see the full buttons "
 "(below the brightness indicator)"
 msgstr ""
+"**Vedä alas kahdesti** näytön yläreunasta, jotta näet koko painikkeet ("
+"kirkkauden ilmaisimen alla)"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -313,6 +368,8 @@ msgid ""
 "Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
 "into the list of active tiles"
 msgstr ""
+"Vieritä alas laattojen luetteloa, **napauta AntennaPod-laattaa ja vedä se** "
+"ylöspäin aktiivisten ruutujen luetteloon"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -326,6 +383,9 @@ msgid ""
 "distributed). This basically means that there is no central server that "
 "knows everything about each podcast."
 msgstr ""
+"AntennaPod on [hajautettu podcast-sovellus](/documentation/general/central-"
+"distributed). Tämä tarkoittaa pohjimmiltaan sitä, että ei ole "
+"keskuspalvelinta, joka tietäisi kaiken jokaisesta podcastista."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 2
 #: (paragraph)
@@ -333,12 +393,15 @@ msgid ""
 "Media files are therefore taken directly from the publisher's website. If "
 "the publisher deletes these, AntennaPod can no longer retrieve it for you."
 msgstr ""
+"Mediatiedostot otetaan siksi suoraan julkaisijan verkkosivustolta. Jos "
+"julkaisija poistaa nämä, AntennaPod ei voi enää noutaa niitä puolestasi."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 1 (paragraph)
 msgid ""
 "You might feel like screaming *Help! I lost my podcasts/episodes/settings/"
 "everything!*"
 msgstr ""
+"Saatat tehdä mieli huutaa *Apua! Kadotin podcastit/jaksot/asetukset/kaiken!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
 msgid ""
@@ -350,6 +413,13 @@ msgid ""
 "At that point AntennaPod can no longer work with the broken database and has "
 "to start over with an empty one."
 msgstr ""
+"Hyvin vanhassa AntennaPod-versiossa oli joitain ongelmia tietokannassa "
+"kaikkien tietojen kanssa (jaksot, kuuntelutilat jne.). Vaikka syy on "
+"korjattu pitkään, tietokanta on saattanut vaurioitua (vaikka sovellus toimi "
+"ilman vikoja). Jos uusi AntennaPod-versio tekee muutoksia tietokannan "
+"vaurioituneisiin osiin, näistä vaurioista voi yhtäkkiä tulla vika. Tuolloin "
+"AntennaPod ei voi enää toimia rikkinäisen tietokannan kanssa ja sen on "
+"aloitettava alusta tyhjästä."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -364,6 +434,8 @@ msgid ""
 "There may be some things you can do to recover your data. We list them "
 "below, starting with the solution that gives the easiest & best results:"
 msgstr ""
+"Saatat tehdä joitain asioita tietojen palauttamiseksi. Luettelemme ne alla "
+"alkaen ratkaisusta, joka antaa helpoimman ja parhaan tuloksen:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -375,6 +447,12 @@ msgid ""
 "recommended to go through the second step to fix the problem once and for "
 "all."
 msgstr ""
+"Oletko äskettäin [vienyt varmuuskopion](/documentation/general/backup) "
+"AntennaPodista? Tämän jälkeen sen palauttaminen on suhteellisen helppoa: "
+"mene kohtaan `Asetukset` » `Tallennus` » `Tuo/Vie` » `Tietokannan tuonti` ja "
+"valitse varmuuskopio. Huomaa, että varmuuskopio saattaa sisältää osittaisen "
+"vioittumisen, joten on silti suositeltavaa käydä läpi toinen vaihe ongelman "
+"korjaamiseksi lopullisesti."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -384,6 +462,11 @@ msgid ""
 "repair this file (or repair an exported backup) using one of the steps "
 "below. This is a challenge and requires learning how to deal with a terminal."
 msgstr ""
+"Jos AntennaPod havaitsee rikkinäisen tietokannan, se kirjoittaa sen "
+"tiedostoon nimeltä CorruptedDatabaseBackup.db sovellusten "
+"tallennushakemistossa. Voit yrittää korjata tämän tiedoston (tai korjata "
+"viedyn varmuuskopion) jollakin alla olevista vaiheista. Tämä on haaste ja "
+"vaatii opettelua käsittelemään terminaalia."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -394,6 +477,11 @@ msgid ""
 "issues/2463#issuecomment-404624614) that after this they could successfully "
 "import the repaired database."
 msgstr ""
+"Yksi yhteisön jäsen [noudatti näitä ohjeita](https://github.com/AntennaPod/"
+"AntennaPod/issues/2463#issuecomment-384088306) korjatakseen tietokannan ja "
+"[ilmoitettiin](https://github.com/AntennaPod/AntennaPod/ issues/"
+"2463#issuecomment-404624614) että tämän jälkeen he voivat tuoda korjatun "
+"tietokannan onnistuneesti."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -405,6 +493,12 @@ msgid ""
 "issues/2463#issuecomment-385354995). After both steps, they managed to "
 "successfully imported the new database in AntennaPod."
 msgstr ""
+"Toinen yhteisön jäsen "
+"[otti puhtaan tietokannan ja siirsi sisällön siinä olevasta vioittuneesta]"
+"(https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068)"
+" ja suoritti sitten [toisen korjaus](https://github.com/AntennaPod/"
+"AntennaPod/issues/2463#issuecomment-385354995). Molempien vaiheiden jälkeen "
+"he onnistuivat tuomaan uuden tietokannan AntennaPodiin."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (ordered
 #: list)
@@ -424,6 +518,12 @@ msgid ""
 "then the select the folder of a podcast. Note that this will only give you "
 "access to previously downloaded media - you will not receive new episodes."
 msgstr ""
+"AntennaPodissa voit lisätä kansion ikään kuin se olisi syöte. Voit tehdä "
+"tämän siirtymällä kohtaan `Lisää podcast` ja napauttamalla `Lisää "
+"paikallinen kansio`. Siirry sitten puhelimessasi tähän kansioon: `Android` » "
+"`data` » `de.danoeh.antennapod` » `files` » `media` ja valitse sitten "
+"podcastin kansio. Huomaa, että tämä antaa sinulle pääsyn vain aiemmin "
+"ladatulle medialle – et saa uusia jaksoja."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 8 (unordered
 #: list)
@@ -432,6 +532,8 @@ msgid ""
 "through the folder mentioned above to see which podcasts you were subscribed "
 "to."
 msgstr ""
+"Voit myös aloittaa aiempien podcastien lisäämisen tyhjästä. Voit katsoa yllä "
+"mainitusta kansiosta, mitkä podcastit olet tilannut."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 2
 #: (paragraph)
@@ -441,6 +543,10 @@ msgid ""
 "information about each new episode in the app. This information is kept even "
 "if it is no longer available on the publisher's site."
 msgstr ""
+"Jakson tiedot on siksi otettu suoraan julkaisijan verkkosivustolta. Kun olet "
+"tilannut podcastin, AntennaPod kopioi ja tallentaa tiedot jokaisesta uudesta "
+"jaksosta sovellukseen. Nämä tiedot säilytetään, vaikka ne eivät olisi enää "
+"saatavilla julkaisijan sivustolla."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 3
 #: (paragraph)
@@ -452,6 +558,12 @@ msgid ""
 "ask them to (reach out to their hoster to) support 'paged feeds' ([technical "
 "information](https://datatracker.ietf.org/doc/html/rfc5005#section-3))."
 msgstr ""
+"Monet julkaisijat pitävät verkossa (tiedot) vain uusimmista jaksoista. Joten "
+"kun olet juuri tilannut podcastin, AntennaPod-asennuksellasi ei ole pääsyä "
+"tietoihin vanhemmista jaksoista. Jos haluat nähdä kaikki aiemmat jaksot "
+"sovelluksessa, voit ottaa yhteyttä podcasteriin ja pyytää häntä (ottamaan "
+"yhteyttä isännöitsijään) tukemaan sivuttuja syötteitä ([tekniset tiedot]"
+"(https://datatracker.ietf.org/doc/html/rfc5005#section-3))."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 1 (paragraph)
 msgid ""
@@ -463,6 +575,14 @@ msgid ""
 "differs between phones, we suggest searching on the web for instructions for "
 "your phone brand and model, if you don't know how to add an exception."
 msgstr ""
+"Jos toisto pysähtyy aina esimerkiksi muutaman sekunnin kuluttua näytön "
+"sammuttamisen jälkeen tai kun et ole avannut AntennaPodia vähään aikaan, "
+"järjestelmäsi saattaa tappaa sovelluksen. Joidenkin myyjien tiedetään olevan "
+"liian aggressiivisia yrittäessään säästää akkua. **Yritä lisätä "
+"AntennaPodille poikkeus akkuoptimoitujen sovellusten luetteloon.** Koska "
+"tapa lisätä poikkeus vaihtelee usein eri puhelimissa, suosittelemme etsimään "
+"verkosta ohjeita puhelimesi merkkiä ja mallia varten, jos et en tiedä miten "
+"lisätä poikkeus."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 2 (paragraph)
 msgid ""
@@ -479,6 +599,9 @@ msgid ""
 "AntennaPod could not refresh the podcast or download an audio file from the "
 "website of the podcast hoster."
 msgstr ""
+"Saatko ilmoituksen, että lataukset on suoritettu loppuun virheineen? "
+"AntennaPod ei voinut virkisttää podcastia tai ladata äänitiedostoa podcast-"
+"isännöitsijän verkkosivustolta."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
 #: (paragraph)
@@ -487,6 +610,9 @@ msgid ""
 "to those podcasts. To confirm if this is the case, you can follow these "
 "steps:"
 msgstr ""
+"Viat, joita esiintyy vain yhden tai muutaman tietyn podcastin kanssa, "
+"liittyvät usein kyseisiin podcasteihin. Voit varmistaa, että näin on, "
+"seuraavasti:"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
@@ -515,6 +641,11 @@ msgid ""
 "In this case, please contact the podcast creators (as this cannot be fixed "
 "at our end)."
 msgstr ""
+"Jos URL-osoite ei toimi myöskään selaimessa, tämä tarkoittaa, että "
+"AntennaPodissa ei ole ongelmaa. Jos saat virheilmoituksen jatkuvasti, "
+"podcast on todennäköisesti siirretty, otettu offline-tilaan tai sitä ei ole "
+"määritetty oikein. Ota tässä tapauksessa yhteyttä podcastin tekijöihin ("
+"koska tätä ei voida korjata meidän puoleltamme)."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
 #: (paragraph)
@@ -525,6 +656,12 @@ msgid ""
 "guard, special DNS service, or parental control set up on your phone, you "
 "can try turning these off."
 msgstr ""
+"Sanouko latauslokin virheviesti "
+"\"Yhteyden muodostaminen osoitteeseen [url] epäonnistui\"? Tämä tarkoittaa "
+"todennäköisesti sitä, että verkossasi on häiriöitä. Jos puhelimeesi on "
+"määritetty mainosten esto, VPN, captive portal, välityspalvelin, "
+"tietosuojavartija, erityinen DNS-palvelu tai lapsilukko, voit yrittää "
+"poistaa ne käytöstä."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
 #: (paragraph)
@@ -534,6 +671,11 @@ msgid ""
 "a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the "
 "publisher directly, as this cannot be fixed at our end."
 msgstr ""
+"Näetkö virheviestin, kuten \"ei hyvin muotoiltu (virheellinen poletti)\"? "
+"Sitten julkaisija on sotkenut (RSS)-syötteensä. (Esimerkiksi hän on "
+"saattanut käyttää tavallista `&`-merkkiä sen sijaan, että olisi koodannut "
+"sen muotoon ` &amp;`.) Ota yhteyttä suoraan julkaisijaan, koska tätä ei "
+"voida korjata meidän puoleltamme."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 7
 #: (paragraph)
@@ -543,6 +685,9 @@ msgid ""
 "support/7). Our community will happily have a look to find out the exact "
 "cause!"
 msgstr ""
+"Jos et pysty paikantamaan vikaa, kopioi virheviesti Kopioi-painikkeen kautta "
+"ja jaa se [keskustelupalstaamme](https://forum.antennapod.org/c/support/7). "
+"Yhteisömme tutkii mielellään tarkan syyn!"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 1
 #: (paragraph)
@@ -552,6 +697,10 @@ msgid ""
 "website), or that something has not been translated correctly. Luckily these "
 "issues are often easily fixed."
 msgstr ""
+"Löysitkö kirjoitusvirheen tai jotain, joka kuulostaa oudolta? On aina "
+"mahdollista, että teimme virheen englanniksi (jossa teemme sovelluksen ja "
+"verkkosivuston) tai jotain ei ole käännetty oikein. Onneksi nämä ongelmat "
+"korjataan usein helposti."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 2 (header)
 msgid "Do you want to fix it yourself?"
@@ -565,6 +714,9 @@ msgid ""
 "You can [find more information in our Contribute section](/contribute/"
 "translate)."
 msgstr ""
+"Jos ongelma on jollakin muulla kuin englannin kielellä, voit päivittää "
+"käännökset [Weblatessa](https://hosted.weblate.org/projects/antennapod/). "
+"Voit [katso lisätietoja Osallistu-osiossamme](/contribute/translate)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 4
 #: (paragraph)
@@ -574,6 +726,10 @@ msgid ""
 "github.com/AntennaPod/AntennaPod/) or for [the website](https://github.com/"
 "AntennaPod/antennapod.github.io)."
 msgstr ""
+"Onko ongelma **englanninkielisissä teksteissä**? Sitten sinun on tunnettava "
+"GitHub tai tutustuttava siihen. Voit lähettää vetopyynnön [sovellukselle]"
+"(https://github.com/AntennaPod/AntennaPod/) tai [verkkosivustolle](https://"
+"github.com/AntennaPod/antennapod.github.io)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 5 (header)
 msgid "Do you just want to inform us?"
@@ -586,6 +742,9 @@ msgid ""
 "forum.antennapod.org/c/translations/11). To do so you need to create an "
 "account (if you don't have one already) or simply log in via Google."
 msgstr ""
+"Voit luoda viestin [keskustelupalstamme käännökset-osioon](https://"
+"forum.antennapod.org/c/translations/11). Tätä varten sinun on luotava tili ("
+"jos sinulla ei vielä ole) tai kirjauduttava sisään Googlen kautta."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
 msgid ""
@@ -595,6 +754,12 @@ msgid ""
 "com/AntennaPod/AntennaPod) and [income and expenses](https://opencollective."
 "com/antennapod#category-BUDGET) are public everyone is free to verify this."
 msgstr ""
+"AntennaPodin viralliset versiot eivät sisällytä mainoksia. Sovelluksen ovat "
+"kehittäneet vapaaehtoiset ilman kaupallista kiinnostusta, ja projekti "
+"perustuu lahjoituksiin kulujen kattamiseksi. Koska AntennaPodin [lähdekoodi]"
+"(https://github.com/AntennaPod/AntennaPod) ja [tulot ja kulut](https://"
+"opencollective.com/antennapod#category-BUDGET) ovat julkisia, jokainen voi "
+"vapaasti tarkistaa tämän."
 
 #: _i18n/en/documentation/general/ads.md:block 2 (paragraph)
 msgid "If you are seeing ads, this can have two reasons:"
@@ -614,15 +779,22 @@ msgid ""
 "even get the latest release from [GitHub](https://github.com/AntennaPod/"
 "AntennaPod/) and build AntennaPod yourself!"
 msgstr ""
+"AntennaPod on avoimen lähdekoodi. Tämä tarkoittaa, että kuka tahansa voi "
+"ladata lähdekoodin. Valitettavasti jotkut kehittäjät ottavat AntennaPodin, "
+"lisäävät mainoksia ja julkaisevat sen sitten uutena sovelluksena. Voit "
+"hankkia virallisen AntennaPod-sovelluksen [Google Playista](https://"
+"play.google.com/store/apps/details?id=de.danoeh.antennapod) ja [F-Droidista]"
+"(https://f-droid.org/packages/de.danoeh.antennapod/). Voit jopa hankkia "
+"uusimman julkaisun [GitHubista](https://github.com/AntennaPod/AntennaPod/) "
+"ja rakentaa AntennaPodin itse!"
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
-#, fuzzy
 msgid ""
 "2. The podcast creators or their hosting company added the ads to their "
 "shownotes or audio file"
 msgstr ""
-"2. Podcastin tekijät tai palvelun tarjoava yritys on lisännyt mainoksia "
-"ohjelman kuvaukseen tai äänitiedostoon"
+"2. Podcastin tekijät tai heidän isännöintiyrityksensä lisäsivät mainokset "
+"esitettyihin huomautuksiinsa tai äänitiedostoonsa"
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
@@ -630,6 +802,10 @@ msgid ""
 "they include ads, AntennaPod plays them. We have nothing to do with those "
 "ads, so all revenues go to the creators and/or their hosting company."
 msgstr ""
+"AntennaPod toistaa podcasteja aivan kuten tekijät ovat ne julkaisseet. Jos "
+"ne sisältävät mainoksia, AntennaPod toistaa ne sellaisinaan. Meillä ei ole "
+"mitään tekemistä noiden mainosten kanssa, joten kaikki tulot menevät "
+"sisällöntuottajille ja/tai heidän isännöintiyritykselleen."
 
 #: _i18n/en/documentation/general/ads.md:block 7 (paragraph)
 msgid ""
@@ -646,6 +822,20 @@ msgid ""
 "a sentence. Some of the hosting companies also mess up the chapter marks "
 "while inserting the ads (so the chapters are off by the duration of the ad)."
 msgstr ""
+"Nyt saatat kysyä esimerkiksi "
+"\"Mutta miksi sitten podcast on englanniksi ja mainos saksaksi?\" tai \"Mutta"
+" miksi podcast-jakso on vuodelta 2008, mutta silti mainostaa tuotetta, joka "
+"on julkaistu vuonna 2023?\". Syynä on tekniikka nimeltä *dynaaminen "
+"mainoksen lisäys (dynamic ad insertion)*. Podcastin tekijät voivat ohjeistaa "
+"isännöintiyritystä lisäämään kyseiset mainokset. Sitten, kun jaksoa ladataan "
+"tai suoratoistetaan AntennaPodilla, AntennaPodille toimitettu mediatiedosto "
+"leikataan lennossa mainosten sisällyttämiseksi. Mainokset ovat tuoreita ("
+"vaikka jakso ei ehkä ole) ja ne voidaan kohdistaa sen IP-osoitteen "
+"perusteella, josta pyydät mediatiedoston (esim. yritys maassasi). Riippuen "
+"siitä, kuinka älykkäästi isännöintiyritys tekee tämän, mainokset saatetaan "
+"lisätä suoraan lauseen keskelle. Jotkut isännöintiyritykset sotkevat myös "
+"kappaleen merkit mainoksia lisätessään (joten luvut ovat pois päältä "
+"mainoksen keston mukaan)."
 
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
 msgid ""
@@ -659,6 +849,15 @@ msgid ""
 "episode. AntennaPod can be configured to automatically download and later "
 "delete episodes, so you don't have to do that manually.)"
 msgstr ""
+"Voit aina käyttää AntennaPodin pikakelauspainiketta ohittaaksesi mainokset. "
+"Jos suoratoistat jaksoa lataamisen sijaan, isännöintiyrityksellä on käsitys "
+"siitä, kuinka pitkälle olet podcastissa. Saattaa olla mahdollista, että "
+"yritys havaitsee, että ohitit mainoksen ja lisää uuden. Jos lataat sen "
+"sijaan jakson, he eivät voi tehdä sitä ja voit ohittaa mainokset "
+"luotettavammin. (Lataus on myös parempi yksityisyytesi kannalta, koska "
+"silloin isännöintiyritys ei tiedä, kun kuuntelet minkä osan jaksosta. "
+"AntennaPod voidaan määrittää lataamaan ja myöhemmin poistamaan jaksot "
+"automaattisesti, joten sinun ei tarvitse tehdä sitä manuaalisesti.)"
 
 #: _i18n/en/documentation/general/ads.md:block 9 (paragraph)
 msgid ""
@@ -666,6 +865,10 @@ msgid ""
 "buy. Usually, you then either get a secret podcast feed URL, or "
 "alternatively username and password that you can enter in AntennaPod."
 msgstr ""
+"Lisäksi monet podcast-tuottajat tarjoavat mainoksettoman syötteen, jonka "
+"voit ostaa. Yleensä saat joko salaisen podcast-syötteen URL-osoitteen tai "
+"vaihtoehtoisesti käyttäjänimen ja salasanan, jotka voit syöttää "
+"AntennaPodiin."
 
 #: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
@@ -680,6 +883,8 @@ msgid ""
 "There are a few options to copy your data to your new phone, and each method "
 "copies a certain amount of data:"
 msgstr ""
+"On olemassa muutamia vaihtoehtoja tietojen kopioimiseen uuteen puhelimeesi, "
+"ja jokainen menetelmä kopioi tietyn määrän tietoja:"
 
 #: _i18n/en/documentation/general/backup.md:block 2 (header)
 msgid "Database Export"
@@ -692,6 +897,10 @@ msgid ""
 "AntennaPod on both the old and new phone. After importing all data is "
 "restored; you will only need to re-download episodes."
 msgstr ""
+"AntennaPod-tietokannan vieminen on loistava tapa, jos olet siirtymässä "
+"uuteen puhelimeen tai tablettiin. Varmista, että sinulla on sama AntennaPod-"
+"versio sekä vanhassa että uudessa puhelimessa. Tuonnin jälkeen kaikki tiedot "
+"palautetaan; sinun tarvitsee vain ladata jaksot uudelleen."
 
 #: _i18n/en/documentation/general/backup.md:block 4 (header)
 msgid "Synchronization"
@@ -705,10 +914,17 @@ msgid ""
 "switching between phone, tablet and/or desktop. Please see the [article on "
 "synchronization](/documentation/general/synchronization) for instructions."
 msgstr ""
+"AntennaPodin synkronointi *gpodder.net*:n tai *gPodder Sync* -sovelluksen "
+"kautta Nextcloudille mahdollistaa joidenkin podcast- ja jaksotietojen "
+"tallentamisen ja siirtämisen. Menetät suosikkisi, jonosi ja "
+"sovellusasetukset. Tämä voi olla ratkaisu vaihdettaessa puhelimen, tabletin "
+"ja/tai työpöydän välillä. Katso ohjeet "
+"[synkronointia käsittelevästä artikkelista](/documentation/general/"
+"synchronization)."
 
 #: _i18n/en/documentation/general/backup.md:block 6 (header)
 msgid "OPML"
-msgstr ""
+msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
 msgid ""
@@ -719,6 +935,13 @@ msgid ""
 "another folder on your phone or somewhere else, because the original file "
 "will be deleted when you uninstall AntennaPod."
 msgstr ""
+"OPML-tiedostot mahdollistavat tilauksesi siirtämisen toiseen podcast-"
+"sovellukseen. Menetät kaikki podcast- tai jaksokohtaiset tiedot (esim. mitkä "
+"jaksot on toistettu) ja kaikki sovellusasetukset. Vie tiedosto siirtymällä "
+"kohtaan `Asetukset` » `Tallennus` » `Tuo/Vie`. Muista napsauttaa `Lähetä…` "
+"tallentaaksesi tiedoston toiseen kansioon puhelimellasi tai jonnekin "
+"muualle, koska alkuperäinen tiedosto poistetaan, kun poistat AntennaPodin "
+"asennuksen."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
@@ -727,6 +950,10 @@ msgid ""
 "will be added to your existing subscriptions. None of your existing "
 "subscriptions will be affected."
 msgstr ""
+"Jos tuot tiedoston AntennaPodiin toisella laitteella, sovellus näyttää "
+"podcast-luettelon valintaruuduilla. Luettelosta valitsemasi podcastit "
+"lisätään olemassa oleviin tilauksiin. Tämä ei vaikuta olemassa oleviin "
+"tilauksiin."
 
 #: _i18n/en/documentation/general/beta.md:block 1 (paragraph)
 msgid ""
@@ -735,6 +962,10 @@ msgid ""
 "app, so that we know all possible combinations of phones, Android versions "
 "and use cases work as expected."
 msgstr ""
+"AntennaPodilla on monia käyttäjiä, emmekä halua heidän joutuvan vaikeuksiin, "
+"kun lisäämme uuden ominaisuuden. On tärkeää, että meillä on merkittävä "
+"ryhmätesti sovelluksellemme, jotta tiedämme, että kaikki mahdolliset "
+"puhelinyhdistelmät, Android-versiot ja käyttötapaukset toimivat odotetusti."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
 msgid ""
@@ -743,6 +974,11 @@ msgid ""
 "developer who is working on this in his spare time. He only has a couple of "
 "devices to test things on, whilst behaviour can vary from device to device."
 msgstr ""
+"Vähäpätöisiä ongelmia ilmenevät usein suurten päivitysten jälkeen, ja ne "
+"havaitaan vasta käyttäjien virheraporttien kautta näin varhaisessa "
+"vaiheessa. On vain yksi pääkehittäjä, joka työskentelee tämän parissa vapaa-"
+"ajallaan. Hänellä on vain muutama laite testattavaksi, mutta käyttäytyminen "
+"voi vaihdella laitteittain."
 
 #: _i18n/en/documentation/general/beta.md:block 3 (header)
 msgid "Google Play"
@@ -758,6 +994,13 @@ msgid ""
 "see something you don't like you're more likely to get it changed to match "
 "what you do want."
 msgstr ""
+"Jokainen AntennaPodin uusi versio lähetetään Betatestaajillemme Google Play -"
+"kaupan kautta ennen kuin se toimitetaan suurelle yleisölle. Sen avulla "
+"voimme testata päivityksiä useilla eri laitteilla ja Android-versioilla, "
+"jotta voimme havaita vikoja ja käyttökokemusongelmia ajoissa. Jos sinulla on "
+"kriittinen silmä ja osaat selittää, mikä on vialla, apusi on erittäin "
+"tervetullutta! Lisäksi, jos näet jotain, josta et pidä, saat "
+"todennäköisemmin muuttaa sen vastaamaan haluamaasi."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
 msgid ""
@@ -767,10 +1010,15 @@ msgid ""
 "can go to [this url](https://play.google.com/apps/testing/de.danoeh."
 "antennapod)."
 msgstr ""
+"Haluatko siis saada uusimman ja parhaimman? Se on varmasti mahdollista! "
+"Vieraile vain AntennaPod-listalla Play-kaupassa ja siirry sivun alareunassa "
+"olevaan \"Ryhdy betatestaajaksi\". Tai jos olet tietokoneesi ääressä, voit "
+"siirtyä [tähän URL-osoitteeseen](https://play.google.com/apps/testing/"
+"de.danoeh.antennapod)."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
 msgid "Become a beta tester - confirmation window in Google Play"
-msgstr ""
+msgstr "Ryhdy betatestaajaksi – vahvistusikkuna Google Playissa"
 
 #: _i18n/en/documentation/general/beta.md:block 13 (header)
 msgid "F-Droid"
@@ -788,22 +1036,31 @@ msgid ""
 "something important must be fixed, an update needs to be rolled out "
 "instantly. Unfortunately this cannot be guaranteed."
 msgstr ""
+"Tämä johtuu siitä, että F-Droid [ei](https://gitlab.com/fdroid/fdroidserver/"
+"-/issues/161) tunnista automaattisesti beta-versioita. Betajulkaisujen "
+"lisääminen F-Droidiin vaatisi manuaalisen toimenpiteen jokaiselle "
+"betaversiolle. Lisäksi, jos jotain tärkeää on korjattava, päivitys on "
+"julkaistava välittömästi. Valitettavasti tätä ei voida taata."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 1 (paragraph)
 msgid "There are basically two ways how to make a podcast app:"
-msgstr ""
+msgstr "Podcast-sovelluksen tekemiseen on periaatteessa kaksi tapaa:"
 
 #: _i18n/en/documentation/general/central-distributed.md:block 2 (ordered list)
 msgid ""
 "**Central**: There is a central server (run by the company that develops the "
 "app) that checks for new episodes and then delivers them to you."
 msgstr ""
+"**Keskus**: Käytössä on keskuspalvelin (yrityksen ylläpitämä, joka kehittää "
+"sovelluksen), joka tarkistaa uudet jaksot ja toimittaa ne sinulle."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 2 (ordered list)
 msgid ""
 "**Distributed**: The app itself checks new episodes, directly from the "
 "podcast publishers."
 msgstr ""
+"**Hajautettu**: Sovellus itse tarkistaa uudet jaksot suoraan podcast-"
+"julkaisijalta."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 3 (paragraph)
 msgid "AntennaPod uses method 2. It has both its advantages and disadvantages:"
@@ -817,6 +1074,10 @@ msgid ""
 "saves a lot of money, which means we don't need to rely on ads or large sums "
 "of donations."
 msgstr ""
+"Kun sovellus tarkistaa uusien jaksojen varalta, sovellusten tekijöiden ("
+"kuten meidän) ei tarvitse ylläpitää keskuspalvelinta. Tämä säästää paljon "
+"aikaa ja vaivaa. Se säästää myös paljon rahaa, mikä tarkoittaa, että meidän "
+"ei tarvitse luottaa mainoksiin tai suuriin lahjoitussummiin."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -826,6 +1087,10 @@ msgid ""
 "Using the central method, if the company shuts down their server for "
 "whatever reason, the app will stop to work."
 msgstr ""
+"Koska sovellus ei ole riippuvainen keskuspalvelimesta kerätäkseen uusia "
+"jaksoja, AntennaPod jatkaa toimintaansa riippumatta siitä, mitä teemme. "
+"Keskeisellä menetelmällä, jos yritys sammuttaa palvelimensa jostain syystä, "
+"sovellus lakkaa toimimasta."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -835,6 +1100,10 @@ msgid ""
 "do. Publishers of apps with a central server do collect such data, to the "
 "detriment of your privacy."
 msgstr ""
+"Me sovelluskehittäjinä emme tiedä emmekä voi tietää, mitä podcasteja olet "
+"tilannut, mitä jaksoja saatat kuunnella tai edes milloin sen teet. "
+"Keskuspalvelimen omaavien sovellusten julkaisijat keräävät tällaisia tietoja "
+"yksityisyytesi kustannuksella."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -845,6 +1114,12 @@ msgid ""
 "services often simply don't allow adding private feeds. And if they do, it "
 "might require sending your credentials to the app makers."
 msgstr ""
+"Jotkut julkaisijat tarjoavat yksityisiä syötteitä, jotka tarjoavat varhaisen "
+"pääsyn, erikoissisältöä tai mainoksia sisältämättömiä jaksoja. Tällaiset "
+"syötteet vaativat käyttäjätunnuksen ja salasanan, jotka AntennaPod antaa "
+"pyydettäessä suoraan podcast-isännälle. Keskitetyt palvelut eivät useinkaan "
+"yksinkertaisesti salli yksityisten syötteiden lisäämistä. Ja jos ne tekevät, "
+"se saattaa edellyttää valtuustietojesi lähettämistä sovellusten tekijöille."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -852,6 +1127,8 @@ msgid ""
 "Not having a central point of access, which would allow app developers to "
 "remove podcasts from their server, there is no risk of censorship."
 msgstr ""
+"Sensuurin riskiä ei ole, koska sillä ei ole keskitettyä yhteyspistettä, "
+"jonka avulla sovelluskehittäjät voisivat poistaa podcasteja palvelimeltaan."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -864,6 +1141,14 @@ msgid ""
 "That way apps can also know about new episodes much faster, without having "
 "to regularly check all podcasts you are subscribed to."
 msgstr ""
+"Toisaalta hajautettu malli tarkoittaa, että saat uusia jaksoja vain, kun "
+"virkistät podcastin. AntennaPodissa tämä on oletuksena 12 tunnin välein, "
+"mutta voit muuttaa tämän useammin tai harvemmin ja voit aina tarkistaa myös "
+"manuaalisesti, onko uusia jaksoja. Keskuspalvelin voi tarkistaa uudet jaksot "
+"hyvin usein tai jopa saada tiedon podcast-isännöistä reaaliajassa. Näin "
+"sovellukset voivat myös saada tiedon uusista jaksoista paljon nopeammin "
+"ilman, että sinun tarvitsee säännöllisesti tarkistaa kaikkia tilaamiasi "
+"podcasteja."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -880,6 +1165,8 @@ msgid ""
 "delete it from your phone, to free up space. There is different ways that "
 "you can do that."
 msgstr ""
+"Kun olet kuunnellut jakson loppuun, haluat useimmissa tapauksissa poistaa "
+"sen puhelimestasi tilan vapauttamiseksi. Voit tehdä sen eri tavoilla."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
 msgid ""
@@ -890,6 +1177,12 @@ msgid ""
 "from the queue if it is deleted. You can find this option under `Settings` » "
 "`Storage` » `Delete removes from Queue`."
 msgstr ""
+"Ensinnäkin voit tietysti poistaa jaksot manuaalisesti. Kun katsot jonoa tai "
+"tiettyä podcastia, voit painaa jaksoa pitkään ja napauttaa `Poista`. Kun "
+"tarkastelet Valmis-välilehteä Lataukset-näytössä, voit myös napauttaa "
+"roskakorikuvaketta. AntennaPod voi halutessasi poistaa jakson "
+"automaattisesti jonosta, jos se poistetaan. Löydät tämän vaihtoehdon "
+"kohdasta `Asetukset` » `Tallennus` » `Poista poistaa jonosta`."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -899,6 +1192,11 @@ msgid ""
 "more information on these options, please see the [Automatic Deletion](/"
 "documentation/automation/deletion) article."
 msgstr ""
+"Toiseksi AntennaPodilla on joitain ratkaisuja jaksojen automaattiseen "
+"poistamiseen. Erityisesti AntennaPod voi poistaa jaksot automaattisesti, kun "
+"toisto on valmis ja kun se tarvitsee tilaa automaattista latausprosessia "
+"varten. Lisätietoja näistä vaihtoehdoista on artikkelissa "
+"[Automaattinen poisto](/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
 msgid ""
@@ -906,6 +1204,10 @@ msgid ""
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Data folder`."
 msgstr ""
+"Voit asettaa AntennaPodin lataamaan jaksot SD-kortille sisäisen muistin "
+"sijaan. Tämä varmistaa, että sinulla on enemmän tilaa jaksoille. Valitse "
+"tallennuskortti siirtymällä kohtaan `Asetukset` » `Lataukset` » "
+"`Tietokansio`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -918,16 +1220,23 @@ msgid ""
 "as external storage. Either the card is not mounted correctly or your "
 "smartphone manufacturer configured the hardware incorrectly."
 msgstr ""
+"Saattaa olla mahdollista, että SD-korttisi ei näy `Valitse tietokansio` -"
+"valintaikkunassa. Jotta SD-korttisi näkyy, Androidin on tunnistettava kortti "
+"ulkoiseksi tallennustilaksi. Joko korttia ei ole asennettu oikein tai "
+"älypuhelimen valmistaja on määrittänyt laitteiston väärin."
 
 #: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
 msgid ""
 "If you are running Android 6 or newer, you can try formatting the SD card as "
 "internal storage. Else, there is nothing we can do to fix this."
 msgstr ""
+"Jos käytössäsi on Android 6 tai uudempi, voit yrittää alustaa SD-kortin "
+"sisäiseksi tallennustilaksi. Muuten emme voi tehdä mitään tämän "
+"korjaamiseksi."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
-msgstr ""
+msgstr "Näitkö, että siellä on uusi AntennaPod-julkaisu ja ihmettelitkö:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*why isn't the latest version not on F-Droid yet?*"
@@ -949,6 +1258,16 @@ msgid ""
 "version will be available there. It usually takes a few days after the "
 "release is tagged on GitHub."
 msgstr ""
+"Jos uusi versio on beta-vaiheessa, se on *vain* saatavilla Google Playin "
+"kautta ([tästä syystä](/documentation/general/beta)). Kun uskomme sen olevan "
+"valmis, uloslataamme sen Google Playihin. Muutamaa päivää myöhemmin, kun "
+"olemme varmoja, että kriittisiä virheitä ei ole, merkitsemme julkaisun "
+"GitHubissa. F-Droidin täytyy sitten ottaa selvää tästä julkaisusta, rakentaa "
+"se ja saattaa se saataville. Kaikki nämä vaiheet voivat kestää jonkin aikaa. "
+"Eri vaiheista johtuen ja koska emme ole mukana F-Droidin julkaisujen "
+"julkaisemisessa, emme voi sanoa tarkalleen milloin uusin versio on "
+"saatavilla siellä. Se kestää yleensä muutaman päivän, kun julkaisu on "
+"merkitty GitHubiin."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid "In short: it may take some time. Please be patient."
@@ -956,7 +1275,7 @@ msgstr "Lyhyesti sanottuna: tähän voi kulua aikaa. Odota kärsivällisesti."
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps of getting a new version on F-Droid"
-msgstr ""
+msgstr "Uuden version hankkimisen vaiheet F-Droidilla"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (unordered list)
 msgid ""
@@ -964,6 +1283,10 @@ msgid ""
 "releases), F-Droid needs to detect that something in AntennaPod changed. For "
 "this, F-Droid runs an update checker server about every 2 days."
 msgstr ""
+"Kun olemme luoneet [julkaisun](https://github.com/AntennaPod/AntennaPod/"
+"releases), F-Droidin on havaittava, että jokin AntennaPodissa on muuttunut. "
+"Tätä varten F-Droid käyttää päivitystarkistuspalvelinta noin kahden päivän "
+"välein."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (unordered list)
 msgid ""
@@ -972,6 +1295,10 @@ msgid ""
 "the source code that AntennaPod publishes. Because there are many apps to "
 "build, the F-Droid server takes an additional 1-2 days to build the app."
 msgstr ""
+"Kun F-Droid havaitsee uuden AntennaPod-julkaisun, se rakentaa sovelluksen. "
+"Tällä F-Droid varmistaa, että lataamasi sovellus todella vastaa AntennaPodin "
+"julkaisemaa lähdekoodia. Koska rakennettavia sovelluksia on monia, F-Droid-"
+"palvelimella kestää vielä 1-2 päivää sovelluksen rakentamiseen."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (unordered list)
 msgid ""
