@@ -11,7 +11,7 @@ img.phone {
     border: 10px solid #888;
     border-top-width: 30px;
     border-bottom-width: 50px;
-    border-radius: 20px;
+    border-radius: 20px !important;
     background: #000;
 }
 
@@ -24,6 +24,11 @@ img.phone {
     background: #000;
     max-height: 200px;
     overflow: hidden;
+}
+
+.half-phone img {
+    margin: 0px !important;
+    border-radius: 0px !important;
 }
 
 #search-input {
