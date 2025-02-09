@@ -1,3 +1,6 @@
+{% if page.external-link -%}
+  <meta http-equiv="refresh" content="0; url={{ page.external-link }}">
+{% else -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
@@ -20,6 +23,11 @@
             {% include documentation-card.html item=documentation %}
             {% endif %}
             {% endfor %}
+
+            {% assign children = site.documentation | concat: site.contribute | where: "parent", page.slug | sort: 'title' | sort: 'order' %}
+            {% for child in children %}
+            {% include contribute-card.html item=child %}
+            {% endfor %}
             </div>
             
         </div>
@@ -29,3 +37,4 @@
 </body>
 
 </html>
+{%- endif %}

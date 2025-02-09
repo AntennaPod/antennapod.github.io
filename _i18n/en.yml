@@ -115,6 +115,16 @@ contribute:
   develop:
     title: "Develop"
     text: "You write code? Help test pull requests or submit new features or bug fixes for the app or website."
+    categories:
+      app:
+        title: "App"
+        text: "You speak Java? Find out how to contribute to the AntennaPod app."
+      website:
+        title: "Website"
+        text: "Familiar with SCSS and HTML? Help us out with our website."
+      upstream:
+        title: "Upstream & other projects"
+        text: "Help us by contributing to other projects we rely on."
   promote:
     title: "Promote"
     text: "You draft catchy tweets, interesting blogs, or wonderful graphics? Help spread the word."
@@ -122,7 +132,8 @@ contribute:
     title: "Design"
     text: "You turn complex requests in understandable user stories or wireframes? Help tackle these issues."
   donate:
-    link: "I want to make a <a href=\"https://opencollective.com/antennapod\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#donationModal\">donation</a>."
+    title: "Donate"
+    text: "You can't give your time, and want to give money instead."
     modal-title: "Are you sure you want to donate?"
     modal-button-donate: "Donate anyway"
     modal-button-chat: "Discuss with us how you can help"
