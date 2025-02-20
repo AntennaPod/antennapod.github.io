@@ -89,8 +89,8 @@ documentation:
   general:
     search-placeholder: Etsi dokumentaatiosta
     no-results: Harmi, ei löydetty
-    introduction: Tervetuloa AntennaPodin asiakirjaosioon, jossa kerrotaan sovelluksen
-      toiminnoista.
+    introduction: Tervetuloa AntennaPodin dokumentaatioosioon. Tämän osion tarkoituksena
+      on tarjota tietoa nykyisistä ominaisuuksista.
   categories:
     getting-started:
       subscribe: Tilaa podcast
@@ -109,7 +109,8 @@ documentation:
       synchronization: Synkronointi laitteiden välillä
       backup: Jaksojen varmuuskopiointi
       proxy: Verkkoliikenteen kuljettaminen välityspalvelimen tai Tor-verkon kautta
-      f-droid: F-Droid-päivitykset
+      f-droid: Päivitykset F-Droidilla
+      central-distributed: Keskitetyt ja hajautetut podcast-sovellukset
     subscriptions:
       title: Tilaukset
       intro: Alla on usein kysyttyjä kysymyksiä tilauksista.
@@ -126,6 +127,7 @@ documentation:
         yleensä tehdä jotain!
       refresh-download-errors: Latausvirhe tai syötteen päivitysvirhe
       cannot-resume-playback: Toistoa ei voi jatkaa lukitusnäytöltä/ilmoituksesta
+      title: Viat, virheet ja ensiapu
     podcasters-hosters:
       list-podcast: Oman podcastin lisääminen luetteloon
       update-feed-urls: Syötteen verkko-osoitteiden päivittäminen
@@ -151,6 +153,8 @@ documentation:
       intro: Alla on usein kysyttyjä kysymyksiä jonoista.
       title: Jono
       how-to-use: Jonon käyttäminen
+      smart-shuffle: Kuinka käyttää älykästä sekoitusta
+      lock: Jonon lukituksen avaaminen / jonon lukitseminen
 contribute:
   translate:
     title: Käännä
@@ -170,10 +174,18 @@ contribute:
     text: Osaatko kertoa asioista selkeästi? Auta muita käyttäjiä foorumillamme.
   develop:
     title: Kehitä
+    text: Kirjoitatko koodia? Auta testaamaan vetopyyntöjä tai lähetä uusia ominaisuuksia
+      tai viankorjauksia sovellukselle tai verkkosivustolle.
   introduction: AntennaPodia kehitetään aktiivisesti vapaaehtoisvoimin. Sinäkin voit
     osallistua, joko ohjelmoimalla tai muulla tavoin.
   promote:
     title: Mainosta
+    text: Laaditko tarttuvia twiittejä, mielenkiintoisia blogeja tai upeita grafiikoita?
+      Auta levittämään sanaa.
+  design:
+    title: Suunnittelu
+    text: Käännätkö monimutkaiset pyynnöt ymmärrettäviin käyttäjien tarinoihin tai
+      kehyksiin? Auta ratkaisemaan nämä ongelmat.
 events:
   links:
     open-blog: Lue blogikirjoitus
@@ -186,6 +198,9 @@ events:
     recurring: Toistuva tapahtuma
     copy-url: Kopioi kalenterin verkko-osoite
     download-ics: Lataa ICS-tiedosto
+    announce-add-calendar: Haluatko aina viimeisimmät tapahtumat ja päivittää yhteisöpuhelutiedot
+      käsillä? Tilaa sitten kalenterimme suosikkisovelluksessasi 'Lisää kalenteriin'
+      -linkin kautta!
   recurrence:
     every-2nd-saturday: kuukauden joka toinen lauantai
     2nd-4th-wednesday: kuukauden (lähes) joka toinen ja neljäs keskiviikko
@@ -197,3 +212,6 @@ blog:
 not-installed:
   title: AntennaPodia ei ole asennettu
   text: AntennaPodia ei ole asennettu tai selaimesi ei tue sen avaamista suoraan.
+readtime:
+  singular: min luku
+  plural: min luku
