@@ -21,7 +21,7 @@
             <div class="row justify-content-start pb-4">
             {%- assign children = site.documentation | concat: site.contribute | where: "parent", page.slug | sort: 'title' | sort: 'order' %}
             {%- for child in children %}
-                {% include contribute-card.html item=child %}
+                {% include doc-card.html item=child %}
             {%- endfor %}
             </div>
             

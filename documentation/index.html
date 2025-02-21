@@ -24,7 +24,7 @@ title: titles.documentation
     <div class="row justify-content-start pb-4">
     {%- assign contribute-items = site.documentation | where_exp: "item", "item.parent == nil or item.parent == ''" | sort: 'title' | sort: 'order' %}
     {%- for item in contribute-items %}
-    {% include contribute-card.html item=item %}
+    {% include doc-card.html item=item %}
     {%- endfor %}
     </div>
   </div>
