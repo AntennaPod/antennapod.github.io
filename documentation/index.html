@@ -11,9 +11,9 @@ title: titles.documentation
 
 <div class="container-fluid">
   <div class="container pt-5">
-    <p class="color-gray-900 mb-3">{% t documentation.general.introduction %}</p>
+    <p class="color-gray-900 mb-3">{% t documentation.intro %}</p>
 
-    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="{% t documentation.general.search-placeholder %}…">
+    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="{% t documentation.search.placeholder %}…">
     
     <ul class="pt-3" id="results-container"></ul>
   </div>
@@ -22,12 +22,10 @@ title: titles.documentation
 <div class="container-fluid">
   <div class="container py-3">
     <div class="row justify-content-start pb-4">
-      {% assign items = site.documentation | sort: 'title' | sort: 'order' %}
-      {% for documentation in items %}
-      {% if documentation.level == "1" %}
-      {% include documentation-card.html item=documentation %}
-      {% endif %}
-      {% endfor %}
+    {%- assign contribute-items = site.documentation | where_exp: "item", "item.parent == nil or item.parent == ''" | sort: 'title' | sort: 'order' %}
+    {%- for item in contribute-items %}
+    {% include contribute-card.html item=item %}
+    {%- endfor %}
     </div>
   </div>
 </div>
@@ -37,7 +35,7 @@ title: titles.documentation
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      noResultsText: "{% t documentation.general.no-results %} :(",
+      noResultsText: "{% t documentation.search.no-results %} :(",
       searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
       limit: 5,
       fuzzy: false,

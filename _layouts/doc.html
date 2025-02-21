@@ -1,9 +1,11 @@
-{% if page.external-link -%}
-  <meta http-equiv="refresh" content="0; url={{ page.external-link }}">
-{% else -%}
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
+{%- if page.external-link -%}
+  <meta http-equiv="refresh" content="0; url={{ page.external-link }}">
+</head>
+</html>
+{%- else -%}
 {% include head.html %}
 </head>
 <body>
@@ -17,17 +19,10 @@
             </article>
             
             <div class="row justify-content-start pb-4">
-            {% assign items = site.documentation | sort: 'title' | sort: 'order' %}
-            {% for documentation in items %}
-            {% if documentation.group == page.group and documentation.level > page.level %}
-            {% include documentation-card.html item=documentation %}
-            {% endif %}
-            {% endfor %}
-
-            {% assign children = site.documentation | concat: site.contribute | where: "parent", page.slug | sort: 'title' | sort: 'order' %}
-            {% for child in children %}
-            {% include contribute-card.html item=child %}
-            {% endfor %}
+            {%- assign children = site.documentation | concat: site.contribute | where: "parent", page.slug | sort: 'title' | sort: 'order' %}
+            {%- for child in children %}
+                {% include contribute-card.html item=child %}
+            {%- endfor %}
             </div>
             
         </div>

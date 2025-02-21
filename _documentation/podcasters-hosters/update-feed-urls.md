@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.podcasters-hosters.update-feed-urls
+texts: documentation.podcasters-hosters.update-feed-urls
 layout: doc
-level: "2"
-group: "podcasters-hosters"
+parent: podcasters-hosters
 icon: "fa-solid fa-arrow-right-arrow-left"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

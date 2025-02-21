@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.queue.smart-shuffle
+texts: documentation.queue.smart-shuffle
 layout: doc
-level: "2"
-group: "queue"
+parent: queue
 icon: "fa-solid fa-shuffle"
 order: "30"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

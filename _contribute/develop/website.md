@@ -1,6 +1,5 @@
 ---
 layout: doc
-level: 2
 texts: contribute.develop.categories.website
 parent: develop
 icon: "fa-solid fa-laptop-code"

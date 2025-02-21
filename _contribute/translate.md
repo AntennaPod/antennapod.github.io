@@ -1,6 +1,5 @@
 ---
 layout: doc
-level: 1
 texts: contribute.translate
 icon: "fa-solid fa-language"
 order: "10"

@@ -1,6 +1,5 @@
 ---
 layout: doc
-level: 2
 texts: contribute.develop.categories.app
 icon: "fa-solid fa-mobile-screen"
 order: 10

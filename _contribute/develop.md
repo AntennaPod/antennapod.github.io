@@ -1,6 +1,5 @@
 ---
 layout: doc
-level: 1
 texts: contribute.develop
 icon: "fa-solid fa-code"
 order: "40"

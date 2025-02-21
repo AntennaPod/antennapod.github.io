@@ -1,12 +1,10 @@
 ---
-title: documentation.categories.bugs-first-aid.title
+texts: documentation.bugs-first-aid
 layout: doc
-level: "1"
-group: "bugs-first-aid"
 icon: "fa-solid fa-book-medical"
 order: "70"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% t documentation.categories.{{ page.group }}.intro %}
+{% t {{ page.texts }}.intro %}

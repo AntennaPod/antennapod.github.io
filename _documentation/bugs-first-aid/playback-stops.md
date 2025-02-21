@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.bugs-first-aid.playback-stops
+texts: documentation.bugs-first-aid.playback-stops
 layout: doc
-level: "2"
-group: "bugs-first-aid"
+parent: bugs-first-aid
 icon: "fa-solid fa-circle-stop"
 order: 05
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

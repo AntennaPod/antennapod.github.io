@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.getting-started.home
+texts: documentation.getting-started.home
 layout: doc
-level: "2"
-group: "getting-started"
+parent: getting-started
 icon: "fa-solid fa-house"
-order: "20"
+order: 20
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}
