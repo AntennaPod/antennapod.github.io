@@ -3,7 +3,7 @@ layout: page
 title: titles.contribute
 ---
 
-<p>{% t contribute.introduction %}</p>
+<p>{% t contribute.intro %}</p>
 
 <div class="row justify-content-start pb-4">
   {% assign contribute-items = site.contribute | where_exp: "item", "item.parent == nil or item.parent == ''" | sort: 'title' | sort: 'order' %}
