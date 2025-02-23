@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.bugs-first-aid.episodes-missing
+texts: documentation.bugs-first-aid.episodes-missing
 layout: doc
-level: "2"
-group: "bugs-first-aid"
+parent: bugs-first-aid
 icon: "fa-solid fa-question"
 order: 15
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

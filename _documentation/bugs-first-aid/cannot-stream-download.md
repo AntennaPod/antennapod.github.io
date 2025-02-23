@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.bugs-first-aid.cannot-stream-download
+texts: documentation.bugs-first-aid.cannot-stream-download
 layout: doc
-level: "2"
-group: "bugs-first-aid"
+parent: bugs-first-aid
 icon: "fa-solid fa-microphone-slash"
 order: 10
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

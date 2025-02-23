@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.general.f-droid
+texts: documentation.general.f-droid
 layout: doc
-level: "2"
-group: "general"
+parent: general
 icon: "fa-solid fa-robot"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

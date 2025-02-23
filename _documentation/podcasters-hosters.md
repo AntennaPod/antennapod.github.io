@@ -1,12 +1,10 @@
 ---
-title: documentation.categories.podcasters-hosters.title
+texts: documentation.podcasters-hosters
 layout: doc
-level: "1"
-group: "podcasters-hosters"
 icon: "fa-solid fa-microphone-lines"
 order: "80"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% t documentation.categories.{{ page.group }}.intro %}
+{% t {{ page.texts }}.intro %}

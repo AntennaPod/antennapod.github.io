@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.bugs-first-aid.bug-report
+texts: documentation.bugs-first-aid.bug-report
 layout: doc
-level: "2"
-group: "bugs-first-aid"
+parent: bugs-first-aid
 icon: "fa-solid fa-bug"
 order: 20
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

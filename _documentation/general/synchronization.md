@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.general.synchronization
+texts: documentation.general.synchronization
 layout: doc
-level: "2"
-group: "general"
+parent: general
 icon: "fa-solid fa-arrows-rotate"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

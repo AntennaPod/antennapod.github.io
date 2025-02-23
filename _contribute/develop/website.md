@@ -1,8 +1,8 @@
 ---
-texts: documentation.getting-started.home
 layout: doc
-parent: getting-started
-icon: "fa-solid fa-house"
+texts: contribute.develop.categories.website
+parent: develop
+icon: "fa-solid fa-laptop-code"
 order: 20
 ---
 

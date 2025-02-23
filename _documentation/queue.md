@@ -1,12 +1,10 @@
 ---
-title: documentation.categories.queue.title
+texts: documentation.queue
 layout: doc
-level: "1"
-group: "queue"
 icon: "fa-solid fa-list"
 order: "40"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% t documentation.categories.{{ page.group }}.intro %}
+{% t {{ page.texts }}.intro %}

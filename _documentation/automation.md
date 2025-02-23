@@ -1,12 +1,10 @@
 ---
-title: documentation.categories.automation.title
+texts: documentation.automation
 layout: doc
-level: "1"
-group: "automation"
 icon: "fa-solid fa-robot"
 order: "60"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% t documentation.categories.{{ page.group }}.intro %}
+{% t {{ page.texts }}.intro %}

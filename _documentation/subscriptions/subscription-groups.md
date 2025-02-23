@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.subscriptions.subscription-groups
+texts: documentation.subscriptions.subscription-groups
 layout: doc
-level: "2"
-group: "subscriptions"
+parent: subscriptions
 icon: "fa-solid fa-tags"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

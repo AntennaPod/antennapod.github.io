@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.automation.tasker
+texts: documentation.automation.tasker
 layout: doc
-level: "2"
-group: "automation"
+parent: automation
 icon: "fa-solid fa-robot"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

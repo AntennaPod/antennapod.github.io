@@ -1,8 +1,8 @@
 ---
-texts: documentation.general.ads
 layout: doc
-parent: general
-icon: "fa-solid fa-rectangle-ad"
+texts: contribute.translate
+icon: "fa-solid fa-language"
+order: "10"
 ---
 
 # {% t {{ page.texts }}.title %}

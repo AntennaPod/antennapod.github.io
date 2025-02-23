@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.automation.refreshing-podcasts
+texts: documentation.automation.refreshing-podcasts
 layout: doc
-level: "2"
-group: "automation"
+parent: automation
 icon: "fa-solid fa-rotate"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

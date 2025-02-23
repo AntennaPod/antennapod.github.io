@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.podcasters-hosters.add-on-antennapod
+texts: documentation.podcasters-hosters.add-on-antennapod
 layout: doc
-level: "2"
-group: "podcasters-hosters"
+parent: podcasters-hosters
 icon: "fa-solid fa-up-right-from-square"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}
