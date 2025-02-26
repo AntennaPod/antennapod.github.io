@@ -25,7 +25,7 @@ Our translations are hosted on Weblate, an open source localisation platform. An
 <!-- mdpo-enable -->
 
 ## 1. The app
-The app is currently available in more than 38 languages. While there are more languages in Weblate, we only include those languages in the app which are at least 40% translated. Below that threshold the app hardly provides a good user experience.
+The app is currently available in more than 38 languages. While there are even more translations in Weblate, we only include languages in the app which are at least 40% translated. Below that threshold the app hardly provides a good user experience.
 
 Updated translations are published with every 'point release'. These are releases like 2.0, 2.5, etc., which introduce improvements and new features. On average, it might take a month or two before your work is available in a release.
 
@@ -38,7 +38,7 @@ The website exists of four 'components', each representing a part of the website
 2. **Documentation**: our support materials, which are directly available via the app
 3. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
-Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. Please let us know through the forum (see below) if those components are done. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After the review, we can publish the new language version.
+Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
 ## 3. The app store listings
 In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
@@ -47,7 +47,7 @@ In addition to the app and website, we also translate texts which appear in the 
 2. **Full description**
 3. **Screenshot titles**
 
-We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review improve these texts before they are pulled and made available. Please let us know on the forum once you've translated these texts.
+We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
 
 ## Get in touch!
 * Do you want to give **feedback** on the English texts or any of the translations? 
