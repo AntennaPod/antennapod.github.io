@@ -37,6 +37,9 @@ collections:
   events:
     output: true
     permalink: /events/:year/:month/:title
+  shortlinks:
+    output: true
+    permalink: /s/:slug
 
 defaults:
   - scope:
