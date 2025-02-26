@@ -2,7 +2,7 @@ Out of the estimated [world population](https://en.wikipedia.org/wiki/World_popu
 
 We therefore much appreciate your help!
 
-Our translations are hosted on Weblate, an open source translations platform. Anyone can sign up there and [start translating for AntennaPod](https://hosted.weblate.org/projects/antennapod). You'll find everything you need to know in [Weblate's documentation for translators](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
+Our translations are hosted on Weblate, an open source localisation platform. Anyone can sign up there and [start translating for AntennaPod](https://hosted.weblate.org/projects/antennapod). You'll find everything you need to know in [Weblate's documentation for translators](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
 <!-- mdpo-disable -->
 {% capture img-translationstatus %}
