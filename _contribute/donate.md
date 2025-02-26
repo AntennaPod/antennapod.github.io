@@ -1,8 +1,8 @@
 ---
-layout: doc
+layout: redirect
 level: 1
 texts: contribute.donate
 icon: "fa-solid fa-coins"
 order: "70"
-external-link: https://opencollective.com/antennapod
+external_redirect: https://opencollective.com/antennapod
 ---

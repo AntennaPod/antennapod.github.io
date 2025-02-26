@@ -1,8 +1,8 @@
 ---
-layout: doc
+layout: redirect
 level: 1
 texts: contribute.test
 icon: "fa-solid fa-bullhorn"
 order: "30"
-internal-link: /documentation/general/beta
+redirect_to: /documentation/general/beta
 ---

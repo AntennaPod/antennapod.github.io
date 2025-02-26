@@ -1,8 +1,8 @@
 ---
-layout: doc
+layout: redirect
 level: 1
 texts: contribute.support
 icon: "fa-solid fa-comment"
 order: "20"
-external-link: https://forum.antennapod.org
+external_redirect: https://forum.antennapod.org
 ---

@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
-    {% include head.html %}
-    {% capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
+    {%- capture redirect_to %}
+    {%- if page.external_redirect %}
+      {{- page.external_redirect }}
+    {%- else %}
+      {%- if site.lang != 'en' %}/{{- site.lang }}{%- endif %}{{- page.redirect_to }}
+    {%- endif %}
+    {%- endcapture %}
+    <script type="text/javascript">
+        window.location.href = "{{ redirect_to }}";
+    </script>
     <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
+    {% include head.html %}
   </head>
   <body>
     <div class="content">
