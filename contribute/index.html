@@ -12,6 +12,10 @@ title: titles.contribute
   {% endfor %}
 </div>
 
+<script type="text/javascript">
+  $("#card-donate > a").attr("data-toggle", "modal").attr("data-target", "#donationModal");
+</script>
+
 <div class="modal fade" id="donationModal" tabindex="-1" role="dialog" aria-labelledby="donationModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -31,3 +35,4 @@ title: titles.contribute
       </div>
     </div>
   </div>
+</div>
