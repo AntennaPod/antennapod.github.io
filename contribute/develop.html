@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      
+<head>
+  
 
   
   
@@ -12,7 +12,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Develop – AntennaPod</title>
-  <meta name="description" content="You write code? Help test pull requests or submit new features or bug fixes for the app or website.">
+  <meta name="description" content="Develop">
 
   <link rel="canonical" href="https://antennapod.org/contribute/develop">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
@@ -20,14 +20,14 @@
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Develop – AntennaPod">
-  <meta name="twitter:description" content="You write code? Help test pull requests or submit new features or bug fixes for the app or website.">
+  <meta name="twitter:description" content="Develop">
   <meta name="twitter:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/contribute/develop">
   <meta property="og:title" content="Develop – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
-  <meta property="og:description" content="You write code? Help test pull requests or submit new features or bug fixes for the app or website.">
+  <meta property="og:description" content="Develop">
   <meta property="og:site_name" content="AntennaPod">
 
   <!-- Favicon -->
@@ -51,9 +51,9 @@
   <script defer src="/assets/js/copy-url.js"></script>
   <script defer src="/assets/js/mastodon-share.js"></script>
 
-  </head>
-  <body>
-    <div class="content">
+</head>
+<body>
+<div class="content">
     <div class="w-100 fixed background-gray-100">
   <div class="container px-0 py-2 py-md-4">
     <div class="navbar navbar-expand-xl">
@@ -265,59 +265,69 @@
     }
 </script>
 
-        <div class="container-fluid background-gray-100 py-4">
-  <div class="container">
-    <h1 class="color-gray-800 weight-700">Develop</h1>
-  </div>
+    <div class="container-fluid">
+        <div class="container py-4">
+            
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0" id="breadcrumbs">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="/contribute">Contribute</a></li>
+    
+    
+    
+    <li class="breadcrumb-item active" aria-current="page">Develop</li>
+    
+    
+  </ol>
+</nav>
+
+            <article class="post-content">
+                <h1 id="develop">Develop</h1>
+
+<p>As a community project, AntennaPod relies on voluntary code contributions from a wide range of people. Not just for the app itself, but also the website and related projects.</p>
+
+
+            </article>
+            
+            <div class="row justify-content-start pb-4">
+                <div id="card-app" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="/contribute/develop/app">
+        <div class="card shadow-sm project-card">
+            <i class="fa-solid fa-mobile-screen size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">App</h4>
+            <p class="text-main">You speak Java? Find out how to contribute to the AntennaPod app.</p>
+        </div>
+    </a>
 </div>
 
-<div class="container-fluid py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12">
-        <article class="post-content">
-            <p>As a community project, AntennaPod relies on voluntary code contributions from a wide range of people. Not just for the app itself, but also the website and related projects.</p>
-
-<h1 id="1-app-java">1. App (Java)</h1>
-<p>You’re right at it: the core of the project! Used by thousands of people across the world, your contributions are an important contribution to an open podcasting ecosystem. So, are you experienced with Java, or just getting started? We welcome your contributions in our <a href="https://github.com/AntennaPod/AntennaPod">GitHub repository</a>.</p>
-
-<h2 id="where-we-need-help">Where we need help</h2>
-<p>There’s a few areas where we could well use your support. When first getting started to AntennaPod development, we recommend to pick an issue with the <a href="https://github.com/AntennaPod/AntennaPod/labels/Good%20first%20issue">‘Good first issue’ label</a> on GitHub. Before you start working on an issue, make sure that it does not have the ‘Needs: Triage’ or ‘Needs: Decision’ label. Those labels mean that the feature was not reviewed by the core AntennaPod team yet.</p>
-
-<p>If you prefer bug-hunting, your go-to list for a weekend bug-hunt is the <a href="https://github.com/AntennaPod/AntennaPod/labels/Type%3A%20Confirmed%20bug">‘confirmed bugs’ issue label</a> on GitHub.</p>
-
-<h2 id="getting-started">Getting started</h2>
-<p><strong>Before</strong> Please don’t just submit a PR, but always <em>announce your interest first</em>. Sometimes we didn’t yet reach an agreement on a user experience and interface. It can happen that someone agreed to start working on something, but we forgot to ‘assign’ the GitHub issue. Chipping in on our forum is the best way to avoid lost hours on code that won’t be accepted.</p>
-
-<p><strong>During</strong> Have a look at our wiki; it contains <a href="https://github.com/AntennaPod/AntennaPod/wiki">handy info for contributors</a>. You’ll find there, for example, information about the project’s <a href="https://github.com/AntennaPod/AntennaPod/wiki/Code-style">code style</a> and can learn <a href="https://github.com/AntennaPod/AntennaPod/wiki/Getting-accredited-on-the-Contributors-page">how to make sure you get accredited</a> for your work in the app. Last but not least: build instructions and info about debug logs.</p>
-
-<p><strong>After</strong> Talk about your work, and claim that fame! It might inspire other potential contributors, and helps promote the app generally. We’re happy to retweet your tweets!</p>
-
-<h1 id="2-website-scss-html">2. Website (SCSS, HTML)</h1>
-<p>The base of our new website was kindly built by <a href="https://lushka.al">Anxhelo</a>. Now we’re ready to expand! Are you familiar with <a href="https://jekyllrb.com/">Jekyll</a>? Then help us implement (parts of) <a href="https://forum.antennapod.org/t/sitemap-for-the-new-website/240">our website wishlist</a> and check out our <a href="https://github.com/AntennaPod/antennapod.github.io">website repository</a> now.</p>
-
-<h1 id="3-upstream--other-projects">3. Upstream &amp; other projects</h1>
-<p>AntennaPod doesn’t live in isolation. The project relies on many others - contributing to those means helping AntennaPod thrive:</p>
-<ul>
-  <li>
-<strong>Nextcloud Podcast app</strong> (Vue, PHP, Javascript)
-December 2020 Jonas Heinrich created the <a href="https://apps.nextcloud.com/apps/podcast">Nextcloud Podcast app</a>. It already is a great way to subscribe and listen to your podcasts online, in a self-hosted environment. Its further development and <a href="https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103">integration with AntennaPod</a> would be a very welcome addition.</li>
-  <li>
-<strong>gpodder.net</strong> (Python, HTML)
-The long-standing and libre <a href="https://gpodder.net/">gpodder.net</a> project allows users to connect and synchronise their podcast players. Unfortunately the project is a victim of its own success: the webserver often being unavailable and AntennaPod users see sync errors. Any support to the project and its maintainers is welcome, in particular with <a href="https://github.com/gpodder/mygpo/issues/128">this API issue</a>.</li>
-</ul>
-
-<h1 id="get-in-touch">Get in touch!</h1>
-<p>Vaguely interested but not sure yet? Ready to get started? Get in touch with <a href="https://github.com/Keunes" class="user-mention">@Keunes</a> or <a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a> on <a href="https://forum.antennapod.org">our forum</a>!</p>
-
-
-        </article>
-      </div>
-    </div>
-  </div>
+                <div id="card-website" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="/contribute/develop/website">
+        <div class="card shadow-sm project-card">
+            <i class="fa-solid fa-laptop-code size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Website</h4>
+            <p class="text-main">Familiar with SCSS and HTML? Help us out with our website.</p>
+        </div>
+    </a>
 </div>
 
+                <div id="card-upstream" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="/contribute/develop/upstream">
+        <div class="card shadow-sm project-card">
+            <i class="fa-solid fa-diagram-project size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Upstream &amp; other projects</h4>
+            <p class="text-main">Help us by contributing to other projects we rely on.</p>
+        </div>
+    </a>
+</div>
+
+            </div>
+            
+        </div>
     </div>
+</div>
     <footer>
   <div class="container-fluid no-padding">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
@@ -421,5 +431,6 @@ The long-standing and libre <a href="https://gpodder.net/">gpodder.net</a> proje
   </div>
 </footer>
 
-  </body>
+</body>
+
 </html>

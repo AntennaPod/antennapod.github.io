@@ -12,7 +12,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contribute – AntennaPod</title>
-  <meta name="description" content="AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!">
+  <meta name="description" content="AntennaPod is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial intere...">
 
   <link rel="canonical" href="https://antennapod.org/contribute/">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
@@ -20,14 +20,14 @@
   <!-- Social: Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Contribute – AntennaPod">
-  <meta name="twitter:description" content="AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!">
+  <meta name="twitter:description" content="AntennaPod is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial intere...">
   <meta name="twitter:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
 
   <!-- Social: Facebook / Open Graph -->
   <meta property="og:url" content="https://antennapod.org/contribute/">
   <meta property="og:title" content="Contribute – AntennaPod">
   <meta property="og:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
-  <meta property="og:description" content="AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!">
+  <meta property="og:description" content="AntennaPod is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial intere...">
   <meta property="og:site_name" content="AntennaPod">
 
   <!-- Favicon -->
@@ -278,8 +278,10 @@
         <article class="post-content">
             <p>AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!</p>
 
-<div class="row pb-4">
-  <div class="col-12 col-md-3 mb-3 mb-md-3">
+<div class="row justify-content-start pb-4">
+  
+  
+      <div id="card-translate" class="col-12 col-md-3 mb-3 mb-md-3">
     <a class="text-decoration-none" href="/contribute/translate">
         <div class="card shadow-sm project-card">
             <i class="fa-solid fa-language size-36 text-main mb-3"></i>
@@ -289,8 +291,9 @@
     </a>
 </div>
 
-  <div class="col-12 col-md-3 mb-3 mb-md-3">
-    <a class="text-decoration-none" href="https://forum.antennapod.org/">
+  
+      <div id="card-support" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="https://forum.antennapod.org">
         <div class="card shadow-sm project-card">
             <i class="fa-solid fa-comment size-36 text-main mb-3"></i>
             <h4 class="text-main weight-700">Support</h4>
@@ -299,17 +302,19 @@
     </a>
 </div>
 
-  <div class="col-12 col-md-3 mb-3 mb-md-3">
+  
+      <div id="card-test" class="col-12 col-md-3 mb-3 mb-md-3">
     <a class="text-decoration-none" href="/documentation/general/beta">
         <div class="card shadow-sm project-card">
-            <i class="fa-solid fa-vial size-36 text-main mb-3"></i>
+            <i class="fa-solid fa-bullhorn size-36 text-main mb-3"></i>
             <h4 class="text-main weight-700">Test</h4>
             <p class="text-main">You are good at breaking stuff? Become a beta tester.</p>
         </div>
     </a>
 </div>
 
-  <div class="col-12 col-md-3 mb-3 mb-md-3">
+  
+      <div id="card-develop" class="col-12 col-md-3 mb-3 mb-md-3">
     <a class="text-decoration-none" href="/contribute/develop">
         <div class="card shadow-sm project-card">
             <i class="fa-solid fa-code size-36 text-main mb-3"></i>
@@ -319,7 +324,8 @@
     </a>
 </div>
 
-  <div class="col-12 col-md-3 mb-3 mb-md-3">
+  
+      <div id="card-promote" class="col-12 col-md-3 mb-3 mb-md-3">
     <a class="text-decoration-none" href="/contribute/promote">
         <div class="card shadow-sm project-card">
             <i class="fa-solid fa-bullhorn size-36 text-main mb-3"></i>
@@ -329,7 +335,8 @@
     </a>
 </div>
 
-  <div class="col-12 col-md-3 mb-3 mb-md-3">
+  
+      <div id="card-design" class="col-12 col-md-3 mb-3 mb-md-3">
     <a class="text-decoration-none" href="https://github.com/AntennaPod/AntennaPod/labels/needs:%20mock-up%20or%20user%20story">
         <div class="card shadow-sm project-card">
             <i class="fa-solid fa-pen-ruler size-36 text-main mb-3"></i>
@@ -339,9 +346,23 @@
     </a>
 </div>
 
+  
+      <div id="card-donate" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="https://opencollective.com/antennapod">
+        <div class="card shadow-sm project-card">
+            <i class="fa-solid fa-coins size-36 text-main mb-3"></i>
+            <h4 class="text-main weight-700">Donate</h4>
+            <p class="text-main">You can't give your time, and want to give money instead.</p>
+        </div>
+    </a>
 </div>
 
-<p id="donate">I want to make a <a href="https://opencollective.com/antennapod" target="_blank" data-toggle="modal" data-target="#donationModal">donation</a>.</p>
+  
+</div>
+
+<script type="text/javascript">
+  $("#card-donate > a").attr("data-toggle", "modal").attr("data-target", "#donationModal");
+</script>
 
 <div class="modal fade" id="donationModal" tabindex="-1" role="dialog" aria-labelledby="donationModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -368,7 +389,6 @@
     </div>
   </div>
 </div>
-
         </article>
       </div>
     </div>
