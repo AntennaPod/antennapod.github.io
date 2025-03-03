@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.playback.chromecast
+texts: documentation.playback.chromecast
 layout: doc
-level: "2"
-group: "playback"
+parent: playback
 icon: "fa-brands fa-chromecast"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

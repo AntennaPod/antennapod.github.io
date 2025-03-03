@@ -1,8 +1,8 @@
 ---
-texts: documentation.general.ads
 layout: doc
-parent: general
-icon: "fa-solid fa-rectangle-ad"
+texts: contribute.develop
+icon: "fa-solid fa-code"
+order: "40"
 ---
 
 # {% t {{ page.texts }}.title %}

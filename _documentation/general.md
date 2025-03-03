@@ -1,12 +1,10 @@
 ---
-title: documentation.categories.general.title
+texts: documentation.general
 layout: doc
-level: "1"
-group: "general"
 icon: "fa-solid fa-info"
 order: "20"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% t documentation.categories.{{ page.group }}.intro %}
+{% t {{ page.texts }}.intro %}

@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.queue.lock
+texts: documentation.queue.lock
 layout: doc
-level: "2"
-group: "queue"
+parent: queue
 icon: "fa-solid fa-lock"
 order: "20"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

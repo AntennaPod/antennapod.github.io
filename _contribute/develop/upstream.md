@@ -1,8 +1,8 @@
 ---
-texts: documentation.bugs-first-aid.typo-translations
 layout: doc
-parent: bugs-first-aid
-icon: "fa-solid fa-language"
+texts: contribute.develop.categories.upstream
+parent: develop
+icon: "fa-solid fa-diagram-project"
 order: 30
 ---
 

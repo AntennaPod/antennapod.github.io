@@ -1,12 +1,11 @@
 ---
-title: documentation.categories.bugs-first-aid.database-error
+texts: documentation.bugs-first-aid.database-error
 layout: doc
-level: "2"
-group: "bugs-first-aid"
+parent: bugs-first-aid
 icon: "fa-solid fa-clock-rotate-left"
 order: 40
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

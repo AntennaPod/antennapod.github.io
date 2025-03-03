@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.general.central-distributed
+texts: documentation.general.central-distributed
 layout: doc
-level: "2"
-group: "general"
+parent: general
 icon: "fa-solid fa-server"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

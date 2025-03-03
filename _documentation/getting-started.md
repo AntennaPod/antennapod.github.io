@@ -1,14 +1,12 @@
 ---
-title: documentation.categories.getting-started.title
+texts: documentation.getting-started
 layout: doc
-level: "1"
-group: "getting-started"
 icon: "fa-solid fa-users"
 order: "10"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% t documentation.categories.{{ page.group }}.intro %}
+{% t {{ page.texts }}.intro %}
 
-{% tf documentation/getting-started.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}
