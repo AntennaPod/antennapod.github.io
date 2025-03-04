@@ -4,9 +4,17 @@ Wij stellen je hulp dan ook zeer op prijs!
 
 Om de app the helpen vertalen vragen we je bij te dragen via [Weblate](https://hosted.weblate.org/projects/antennapod/). Iedereen kan zich daar aanmelden en beginnen met bijdragen. In de documentatie van Weblate vind je [alles wat je moet weten om met vertalen te beginnen](https://docs.weblate.org/en/latest/user/translating.html).
 
-[![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
+{% capture img-translationstatus %} {% include image.html alt="
 
-# De app
+       Graph with status of AntennaPod translations on Weblate.
+
+       "
+
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
+
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## De app
 
 De app is momenteel beschikbaar in meer dan 38 talen. Hoewel er meer talen in Weblate zijn, nemen we ze niet op in de app. We proberen een drempel van 40% voltooiing voor talen te handhaven. Als het daaronder komt, biedt de app nauwelijks een goede gebruikerservaring.
 
@@ -14,17 +22,27 @@ Nieuwe vertalingen worden ten minste voor elke 'puntrelease' van Weblate naar Gi
 
 Wie helpt met aan vertalen zal zich, met de Weblate gebruikersnaam, vermeld zien in de app onder `Instellingen` » `Over AntennaPod` » `Bijdragers`.
 
-# De website
+## De website
 
-In het AntennaPod project vind je vier 'componenten'. Elk vertegenwoordigt een onderdeel van de website. We raden aan te beginnen met de componenten `Algemeen` en de `Korte strings`, omdat dit de eerste elementen zullen zijn die een gebruiker op de website ziet. Het onderdeel `Documentatie` is de eerstvolgende prioriteit, omdat dit onderdeel direct beschikbaar is via de app wanneer mensen op Ondersteuning tikken. De component `Bijdragen` komt op de laatste plaats, omdat een basiskennis van het Engels toch al nodig is voor interactie met de community.
+The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
-Nieuwe vertalingen worden eens in de zoveel tijd handmatig van Weblate naar GitHub (het ontwikkelplatform) getrokken. We maken een nieuwe taal beschikbaar op de live website wanneer 90% van de tekst vertaald is (dat is ruwweg de hele website minus de Contribute sectie). We proberen altijd iemand te vinden die bij AntennaPod betrokken is om een testversie van de vertaalde website na te lezen en zo de kwaliteit van de vertalingen te verbeteren.
+1. **General** and **Short strings**: the first elements a user sees on the website
+1. **Documentation**: our support materials, which are directly available via the app
+1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
-# Andere materialen
+Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
-Naast de app en de website kunnen ook de afbeeldingen in de app stores worden vertaald. De afbeeldingen hebben screenshots en teksten. Omdat de ruimte in zeer beperkt is, gebruiken we een handmatig proces met verschillende testrondes. Laat een berichtje achter op het forum als je hierbij wilt helpen. In appstores worden apps met vertaalde afbeeldingen eerder gedownload, dus hulp is zeer welkom!
+## 3. The app store listings
 
-# Neem contact op!
+In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
+
+We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+
+## Neem contact op!
 
 * Wil je **feedback** geven op de Engelse teksten of een van de vertalingen?
 * Ben je **geïnteresseerd in helpen** met vertalen, maar weet je het nog niet zeker? Of ben je klaar om te beginnen?

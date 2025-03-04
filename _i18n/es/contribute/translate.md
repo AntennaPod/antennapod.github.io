@@ -4,9 +4,17 @@ De una [población mundial](https://en.wikipedia.org/wiki/World_population) esti
 
 Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [Weblate](https://hosted.weblate.org/projects/antennapod/app/). Cualquiera puede registrarse allí y empezar. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
 
-[![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
+{% capture img-translationstatus %} {% include image.html alt="
 
-# La aplicación
+       Graph with status of AntennaPod translations on Weblate.
+
+       "
+
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
+
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## La aplicación
 
 Actualmente, la aplicación está disponible en más de 38 idiomas. Aunque hay más idiomas en Weblate, no los incluimos en la aplicación. Intentamos mantener un umbral del 40% de idiomas completados. Si es inferior, la aplicación apenas ofrece una buena experiencia al usuario.
 
@@ -14,17 +22,27 @@ Las nuevas traducciones se transfieren de Weblate a GitHub (la plataforma de des
 
 Los colaboradores en la traducción aparecerán mencionados en la aplicación con su nombre de usuario de Weblate, en `Configuración` " `Acerca de` " `Colaboradores`.
 
-# El sitio web
+## El sitio web
 
-En el proyecto AntennaPod, encontrarás cuatro 'componentes'. Cada uno representa una parte del sitio web. Te animamos a que empieces por los componentes `General` y el `Cadenas cortas`, porque serán los primeros elementos que vea un usuario en la web. El componente `Documentación` es una segunda prioridad muy cercana, porque esta sección está directamente disponible a través de la aplicación cuando la gente toca en Soporte. El componente `Contribuir` queda en último lugar, ya que se necesita un conocimiento básico del inglés para interactuar con la comunidad.
+The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
-De vez en cuando, las traducciones nuevas se transfieren manualmente de Weblate a GitHub (la plataforma de desarrollo). Cuando un idioma alcanza el 90% de traducción (esto es, aproximadamente, todo el sitio web menos la sección Contribute), podemos habilitarlo en el sitio web real. Siempre intentamos encontrar un miembro de la comunidad que pueda revisar una versión de prueba del sitio web, para mejorar la calidad de las traducciones.
+1. **General** and **Short strings**: the first elements a user sees on the website
+1. **Documentation**: our support materials, which are directly available via the app
+1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
-# Otros materiales
+Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
-Además de la aplicación y el sitio web, también se pueden traducir las imágenes de las tiendas de aplicaciones. Tienen capturas de pantalla y textos. Debido a que el espacio es muy limitado, utilizamos un proceso manual con ensayo y error. Por favor, háganoslo saber en el foro si desea ayudar con eso. Dado que los listados localizados de las tiendas de aplicaciones tienen más probabilidades de ser descargados, ¡la ayuda es muy bienvenida!
+## 3. The app store listings
 
-# ¡Ponte en contacto!
+In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
+
+We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+
+## ¡Ponte en contacto!
 
 * ¿Quieres darnos **opiniones** sobre los textos en Inglés o alguna de las traducciones?
 * ¿Estás **interesado en ayudar** con las traducciones pero aún no estás seguro?¿O ya estás listo para empezar?

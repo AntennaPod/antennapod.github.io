@@ -4,9 +4,17 @@ Vi sætter derfor stor pris på din hjælp!
 
 For at hjælpe med at oversætte appen beder vi dig bidrage via [Weblate](https://hosted.weblate.org/projects/antennapod/app/). Alle kan tilmelde sig der og gå i gang. I Weblate's dokumentation kan du finde [alt, du behøver at vide for at komme i gang med at oversætte](https://docs.weblate.org/en/latest/user/translating.html).
 
-[![Translation status](https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg)](https://hosted.weblate.org/engage/antennapod/)
+{% capture img-translationstatus %} {% include image.html alt="
 
-# Appen
+       Graph with status of AntennaPod translations on Weblate.
+
+       "
+
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
+
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## Appen
 
 Appen er i øjeblikket tilgængelig på 38 sprog. Selv om der findes flere sprog i Weblate, inkluderer vi dem ikke i appen. Vi forsøger at opretholde en tærskel på 40 % færdiggørelse for sprog. Hvis den går under det, får man næppe en god brugeroplevelse i appen.
 
@@ -14,17 +22,27 @@ Nye oversættelser bliver hentet fra Weblate til GitHub (udviklingsplatformen) f
 
 Oversættelsesbidragydere vil blive nævnt i appen med deres Weblate-brugernavn under `Indstillinger` » `Om` » `Bidragydere`.
 
-# Hjemmesiden
+## Hjemmesiden
 
-I AntennaPod-projektet finder du fire 'komponenter'. Hver især repræsenterer de en del af hjemmesiden. Vi opfordrer dig til at starte med komponenterne `General` og `Short strings`, da disse vil være de første elementer, som en bruger ser på hjemmesiden. Komponenten `Documentation` er meget tæt på andenprioritet, fordi denne del er direkte tilgængelig via appen, når folk trykker på Support. Komponenten `Contribute` kommer til sidst, da der alligevel er behov for en grundlæggende forståelse af engelsk for at kunne interagere med fællesskabet.
+The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
-Nye oversættelser bliver manuelt overført fra Weblate til GitHub (udviklingsplatformen) fra tid til anden. Når et sprog når op på 90 % oversættelse (det svarer stort set til hele hjemmesiden minus Contribute-sektionen), kan vi aktivere det på den live hjemmeside. Vi forsøger altid at finde et medlem af fællesskabet, der kan gennemgå en testversion af hjemmesiden for at forbedre kvaliteten af oversættelserne.
+1. **General** and **Short strings**: the first elements a user sees on the website
+1. **Documentation**: our support materials, which are directly available via the app
+1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
-# Andre materialer
+Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
-Ud over appen og hjemmesiden kan også billederne i appbutikkerne oversættes. De har skærmbilleder og tekster. Da der er meget begrænset plads, bruger vi en manuel proces, hvor vi prøver os frem. Lad os vide på forummet, hvis du vil hjælpe med det. Da der er større sandsynlighed for, at lokaltilpassede app store-præsentationer fører til downloads, er hjælp meget velkommen!
+## 3. The app store listings
 
-# Kontakt os!
+In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
+
+We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+
+## Kontakt os!
 
 * Ønsker du at give **feedback** på de engelske tekster eller på nogle af oversættelserne?
 * Er du ** interesseret i at hjælpe** med oversættelser, men er du ikke sikker endnu? Eller er du klar til at gå gang?
