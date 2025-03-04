@@ -20,6 +20,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install mdpo
         run: |
+          sudo apt-get install libmd4c-html0 libmd4c-html0-dev libmd4c-dev
           pip install mdpo
           md2po --version
       - name: Create folder for files to be copied
