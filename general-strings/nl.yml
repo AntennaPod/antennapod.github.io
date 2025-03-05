@@ -98,22 +98,42 @@ contribute:
     text: Zet je complexe verzoeken om in begrijpelijke user stories of wireframes?
       Help ons deze verzoeken vorm te geven.
     title: Ontwerpen en designen
+    card-text: Zet jij complexe aanvragen om in begrijpelijke user stories of raamwerken?
+      Help deze issues aanpakken.
   introduction: AntennaPod wordt ontwikkeld en onderhouden door vrijwilligers. Jij
     kan ook bijdragen, met code en op andere manieren!
   support:
     title: Ondersteuning
     text: Kun je dingen goed uitleggen? Help andere gebruikers op ons forum.
+    card-text: Ben je goed in dingen uitleggen? Help andere gebruikers op ons forum.
   test:
     title: Testen
     text: Ben je goed in het slopen van dingen? Word bèta-tester.
+    card-text: Ben je goed in dingen stukmaken? Wordt een beta-tester.
   develop:
     title: Ontwikkelen
     text: Schrijf je code? Help met het testen van pull-requests of draag zelf bij
       met nieuwe functies of bug-fixes voor de app of website.
+    categories:
+      website:
+        card-text: Bekend met SCSS en HTML? Help ons met onze website.
+        title: Website
+      upstream:
+        title: Upstream & andere projecten
+        card-text: Help ons door bij te dragen aan projecten waar we van afhankelijk
+          zijn.
+      app:
+        card-text: Spreek je Java? Kom erachter hoe je kunt bijdragen aan de AntennaPod
+          app.
+        title: App
+    card-text: Schrijf je code? Help pull requests te testen of dien nieuwe features
+      of bugfixes in voor de app of website.
   promote:
     title: Promoten
     text: Schrijf je pakkende tweets en interessante blogs, of maak je prachtige graphics?
       Help ons AntennaPod wereldberoemd maken.
+    card-text: Schrijf je pakkende tweets, interessante blogs of prachtige graphics?
+      Help de boodschap te verspreiden.
   donate:
     link: Ik wil een <a href="https://opencollective.com/antennapod" target="_blank"
       data-toggle="modal" data-target="#donationModal">donatie</a> doen.
@@ -121,6 +141,8 @@ contribute:
     modal-button-donate: Doneer toch
     modal-button-chat: Overleg met ons hoe je kunt helpen
     modal-button-contribute: Bekijk nogmaals de mogelijkheden om bij te dragen
+    title: Doneer
+    card-text: Je kunt je tijd niet geven en wilt in plaats daarvan geld geven.
   intro: AntennaPod wordt ontwikkeld en onderhouden door vrijwilligers. Jij kan ook
     bijdragen, met code en op andere manieren!
 documentation:
@@ -196,6 +218,107 @@ documentation:
       hoe de app werkt.
     search-placeholder: Documentatie doorzoeken
     no-results: Sorry, er is niks gevonden
+    title: Algemeen
+    ads:
+      title: Over advertenties in AntennaPod
+    backup:
+      title: Back-ups maken van je afleveringen
+    external-storage:
+      title: Externe opslag gebruiken
+    synchronization:
+      title: Hoe je kunt synchroniseren tussen apparaten
+    proxy:
+      title: Verkeer leiden via een proxy of het Tor-netwerk
+    f-droid:
+      title: Updates op F-Droid
+    beta:
+      title: Beta-testen
+    episode-deletion:
+      title: Verwijderen van afleveringen
+    intro: Hieronder vind je meer details over het AntennaPod-project.
+    other-platforms:
+      title: AntennaPod voor Windows, Apple en Linux
+    central-distributed:
+      title: Centrale en gedistribueerde podcast-apps
+  queue:
+    intro: Hieronder vind je veelgestelde vragen over de wachtrij.
+    how-to-use:
+      title: Het gebruik van de wachtrij
+    lock:
+      title: Vergrendelen of ontgrendelen van de wachtrij
+    smart-shuffle:
+      title: Het gebruik van slim willekeurig afspelen
+    title: Wachtrij
+    multiple-queues:
+      title: Het gebruik van meerdere wachtrijen
+  subscriptions:
+    title: Abonnementen
+    subscription-groups:
+      title: Abonnementslabels (groepen of categorieën)
+    intro: Hieronder vind je veelgestelde vragen over abonnementen.
+  automation:
+    deletion:
+      title: Automatisch verwijderen
+    title: Automatisering
+    intro: Ben je een ervaren gebruiker en wil je taken automatiseren? Kijk eens naar
+      de pagina's hieronder.
+    refreshing-podcasts:
+      title: Podcasts verversen
+    tasker:
+      title: Integratie met andere apps
+  bugs-first-aid:
+    cannot-stream-download:
+      title: Kan een aflevering niet downloaden
+    title: Bugs, foutmeldingen en eerste hulp
+    intro: Software wordt gemaakt door mensen, dus fouten zijn onvermijdelijk. Maar
+      vaak kunnen we daar iets aan doen!
+    bug-report:
+      title: Iets werkt niet
+    database-error:
+      title: Al mijn podcasts en afleveringen zijn weg
+    episodes-missing:
+      title: Oude afleveringen ontbreken
+    refresh-download-errors:
+      title: Foutmelding bij het downloaden of verversen van een abonnement
+    cannot-resume-playback:
+      title: Kan afspelen niet aanzetten vanaf vergrendelscherm / melding
+    typo-translations:
+      title: Ik heb een typefout of spelfout gevonden
+    playback-stops:
+      title: Afspelen stopt plotseling
+  search:
+    placeholder: Doorzoek de documentatie
+    no-results: Sorry, niets gevonden
+  getting-started:
+    subscribe:
+      title: Abonneren op een podcast
+    home:
+      title: Het startscherm gebruiken
+    intro: Welkom bij AntennaPod! Hieronder kun je wat details vinden over hoe je
+      kunt beginnen met AntennaPod.
+    title: Beginnen
+  playback:
+    intro: Hieronder vind je onderwerpen gerelateerd aan afspelen.
+    android-auto:
+      title: Afspelen in auto's (Android Auto)
+    shortcuts:
+      title: Hardware-sneltoetsen
+    auto-rewind:
+      title: Automatisch terugspoelen
+    title: Afspelen
+    chromecast:
+      title: Afspelen op Google Chromecast
+  podcasters-hosters:
+    title: Voor podcasters en hostingproviders
+    update-feed-urls:
+      title: Feed-URL's bijwerken
+    intro: Hieronder vindt u onze ondersteuningsinformatie voor podcasters en hostingproviders.
+    add-on-antennapod:
+      title: Maak een 'Open in AntennaPod' link aan
+    list-podcast:
+      title: Je podcast laten vermelden
+  intro: Welkom op de documentatie-sectie van AntennaPod. Het doel van deze sectie
+    is om informatie te verstrekken over huidige functies.
 footer:
   description: De makkelijke, flexibele en open source podcast-manager voor Android.
 blog:
