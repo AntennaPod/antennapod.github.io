@@ -161,22 +161,127 @@ documentation:
     search-placeholder: ドキュメントを検索
     introduction: AntennaPodのドキュメントセクションへようこそ。このセクションは、現在の機能に関する情報を提供することを目的としています。
     no-results: すみません、何も見つかりませんでした
+    title: 全般
+    other-platforms:
+      title: Windows、Apple、Linux向けのAntennaPod
+    intro: AntennaPodプロジェクトの詳細を紹介します。
+    ads:
+      title: AntennaPodの宣伝について
+    backup:
+      title: エピソードのバックアップ
+    beta:
+      title: ベータテスト
+    central-distributed:
+      title: 集中型・分散型ポッドキャストアプリ
+    external-storage:
+      title: 外部ストレージの利用
+    synchronization:
+      title: デバイス間の同期方法
+    proxy:
+      title: プロキシやTorネットワークを経由する通信
+    episode-deletion:
+      title: エピソードの削除
+    f-droid:
+      title: F-Droid上の更新
+  podcasters-hosters:
+    add-on-antennapod:
+      title: 「AntennaPodで開く」リンクを作成する
+    list-podcast:
+      title: ポッドキャストをリストに表示されるようにする
+    intro: このページには、ポッドキャスターとホスティングプロバイダーのサポート情報を掲載しています。
+    update-feed-urls:
+      title: フィードURLの更新
+    title: ポッドキャスターとホスト向け
+  automation:
+    title: 自動
+    intro: 経験豊富なユーザーで、タスクを自動化したいと考えていますか？以下のページを読んでください。
+    deletion:
+      title: 自動削除
+    refreshing-podcasts:
+      title: ポッドキャストの更新中
+    tasker:
+      title: 他のアプリとの統合
+  bugs-first-aid:
+    title: バグ、エラー、応急処置
+    bug-report:
+      title: 何かが上手く動かない
+    database-error:
+      title: すべてのポッドキャストとエピソードが消えてしまいました
+    cannot-stream-download:
+      title: エピソードがダウンロードできません
+    intro: ソフトウェアの開発は人間の仕事なので、間違いは避けられません。しかし、それに対してできることはたくさんあります！
+    typo-translations:
+      title: 誤字脱字を見つけました
+    episodes-missing:
+      title: 古いエピソードが見つかりません
+    playback-stops:
+      title: 再生が急に停止しました
+    refresh-download-errors:
+      title: ダウンロードやフィードの更新がエラーになります
+    cannot-resume-playback:
+      title: ロックスクリーンや通知から再生を再開できません
+  intro: AntennaPodのドキュメントセクションへようこそ。このセクションは、現在の機能に関する情報を提供することを目的としています。
+  search:
+    placeholder: ドキュメントを検索
+    no-results: すみません、何も見つかりませんでした
+  getting-started:
+    title: はじめる
+    intro: AntennaPodへようこそ！ このページは、AntennaPodを使い始める方法を詳しく説明しています。
+    subscribe:
+      title: ポッドキャストを購読する
+    home:
+      title: ホームスクリーンを使う
+  playback:
+    title: 再生
+    intro: 以下に、再生に関連するトピックがあります。
+    auto-rewind:
+      title: 自動巻き戻し
+    shortcuts:
+      title: ハードウェアキーボードショートカット
+    android-auto:
+      title: 車内での再生（Android Auto）
+    chromecast:
+      title: Google Chromecastでの再生
+  queue:
+    title: キュー
+    intro: キューに関するよくある質問を紹介します。
+    how-to-use:
+      title: キューの使い方
+    lock:
+      title: キューのロック（およびロック解除）
+    smart-shuffle:
+      title: スマートシャッフルの使い方
+    multiple-queues:
+      title: 複数のキューを使う方法
+  subscriptions:
+    title: 購読
+    intro: 購読に関するよくある質問を紹介します。
+    subscription-groups:
+      title: '購読タグ（別名: グループまたはカテゴリ）'
 contribute:
   support:
     title: サポート
     text: 説明するのが得意ですか？ フォーラムで他のユーザーを助けてください。
+    card-text: 説明するのが得意ですか？ フォーラムで他のユーザーを助けてください。
   test:
     title: テスト
     text: ものを壊すのが得意ですか？ ベータテスターになってください。
+    card-text: ものを壊すのが得意ですか？ ベータテスターになってください。
   design:
     title: デザイン
     text: あなたは複雑なリクエストをユーザーストーリーやワイヤーフレームに変えられますか？ この問題を解決するのを助けてください。
+    card-text: あなたは複雑なリクエストをユーザーストーリーやワイヤーフレームに変えられますか？ この問題を解決するのを助けてください。
   translate:
     text: 英語以外の言葉がわかりますか？ AntennaPodの翻訳を助けてください。
     title: 翻訳
+    card-text: 英語以外の言葉がわかりますか？ AntennaPodの翻訳を助けてください。
   develop:
     text: コードが書けますか？ アプリやウェブサイトのためにpull requestのテストや新機能やバグ修正を送ってください。
     title: 開発
+    categories:
+      app:
+        title: アプリ
+    card-text: コードが書けますか？ アプリやウェブサイトのためにpull requestのテストや新機能やバグ修正を送ってください。
   donate:
     modal-title: 寄付してもいいですか？
     modal-button-donate: 寄付する
@@ -187,7 +292,9 @@ contribute:
   promote:
     text: キャッチーな投稿、興味深いブログ、素晴らしいイラストを作れますか？情報を広めるのを助けてください。
     title: 宣伝
+    card-text: キャッチーな投稿、興味深いブログ、素晴らしいイラストを作れますか？情報を広めるのを助けてください。
   introduction: AntennaPodはボランティアにより開発中のアプリです。あなたもコードやその他の方法で貢献できます！
+  intro: AntennaPodはボランティアにより開発中のアプリです。あなたもコードやその他の方法で貢献できます！
 readtime:
   singular: 分で読めます
   plural: 分で読めます

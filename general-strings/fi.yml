@@ -91,6 +91,28 @@ documentation:
     no-results: Harmi, ei löydetty
     introduction: Tervetuloa AntennaPodin dokumentaatioosioon. Tämän osion tarkoituksena
       on tarjota tietoa nykyisistä ominaisuuksista.
+    episode-deletion:
+      title: Jaksojen poistaminen
+    f-droid:
+      title: Päivitykset F-Droidilla
+    other-platforms:
+      title: AntennaPod Windowsille, Applelle ja Linuxille
+    title: Yleinen
+    intro: Alla on lisätietoja AntennaPod-projektista.
+    ads:
+      title: Mainoksista AntennaPodissa
+    backup:
+      title: Jaksojen varmuuskopiointi
+    beta:
+      title: Beetatestaus
+    central-distributed:
+      title: Keskitetyt ja hajautetut podcast-sovellukset
+    external-storage:
+      title: Ulkoisen tallennustilan käyttö
+    synchronization:
+      title: Synkronointi laitteiden välillä
+    proxy:
+      title: Verkkoliikenteen kuljettaminen välityspalvelimen tai Tor-verkon kautta
   categories:
     getting-started:
       subscribe: Tilaa podcast
@@ -155,10 +177,91 @@ documentation:
       how-to-use: Jonon käyttäminen
       smart-shuffle: Kuinka käyttää älykästä sekoitusta
       lock: Jonon lukituksen avaaminen / jonon lukitseminen
+  search:
+    placeholder: Etsi dokumentaatiosta
+    no-results: Harmi, ei löydetty
+  getting-started:
+    title: Aloittaminen
+    intro: Tervetuloa käyttämään AntennaPodia! Alla on ohjeita AntennaPodin käytön
+      aloittamiseen.
+    subscribe:
+      title: Tilaa podcast
+    home:
+      title: Aloitusnäytön käyttäminen
+  playback:
+    auto-rewind:
+      title: Automaattinen takaisinkelaus
+    shortcuts:
+      title: Fyysisen näppäimistön pikanäppäimet
+    android-auto:
+      title: Toisto autoissa (Android Auto)
+    title: Toisto
+    intro: Alla on toistoon liittyviä aiheita.
+    chromecast:
+      title: Toisto Google Chromecastissa
+  queue:
+    lock:
+      title: Jonon lukituksen avaaminen / jonon lukitseminen
+    title: Jono
+    intro: Alla on usein kysyttyjä kysymyksiä jonoista.
+    how-to-use:
+      title: Jonon käyttäminen
+    smart-shuffle:
+      title: Kuinka käyttää älykästä sekoitusta
+    multiple-queues:
+      title: Useiden jonojen käyttäminen
+  podcasters-hosters:
+    update-feed-urls:
+      title: Syötteen verkko-osoitteiden päivittäminen
+    title: Podcastinpitäjille ja palvelujen ylläpitäjille
+    intro: Alla on tukitietoja podcastinpitäjille ja palvelujen ylläpitäjille.
+    add-on-antennapod:
+      title: Luo Avaa AntennaPodissa -linkki
+    list-podcast:
+      title: Oman podcastin lisääminen luetteloon
+  intro: Tervetuloa AntennaPodin dokumentaatioosioon. Tämän osion tarkoituksena on
+    tarjota tietoa nykyisistä ominaisuuksista.
+  subscriptions:
+    title: Tilaukset
+    intro: Alla on usein kysyttyjä kysymyksiä tilauksista.
+    subscription-groups:
+      title: Tilausten tunnisteet (eli ryhmät tai luokat)
+  automation:
+    deletion:
+      title: Automaattinen poisto
+    title: Automaatio
+    intro: Oletko kokenut käyttäjä, joka haluaa automatisoida tehtäviä? Lue lisää
+      alta.
+    refreshing-podcasts:
+      title: Virkistetään podcasteja
+    tasker:
+      title: Integrointi muihin sovelluksiin
+  bugs-first-aid:
+    title: Viat, virheet ja ensiapu
+    intro: Ohjelmistoja kehittävät ihmiset, joten virheitä sattuu. Niille voi kuitenkin
+      yleensä tehdä jotain!
+    bug-report:
+      title: Jokin ei toimi
+    typo-translations:
+      title: Löysin lyönti- tai kirjoitusvirheen
+    database-error:
+      title: Kaikki podcastini ja jaksoni ovat kadonneet
+    cannot-stream-download:
+      title: Jakson lataaminen ei onnistu
+    episodes-missing:
+      title: Vanhoja jaksoja puuttuu
+    playback-stops:
+      title: Toisto keskeytyy yhtäkkiä
+    refresh-download-errors:
+      title: Latausvirhe tai syötteen päivitysvirhe
+    cannot-resume-playback:
+      title: Toistoa ei voi jatkaa lukitusnäytöltä/ilmoituksesta
 contribute:
   translate:
     title: Käännä
     text: Puhutko jotakin muuta kieltä englannin lisäksi? Auta meitä kääntämään AntennaPod.
+    card-text: Puhutko jotakin muuta kieltä englannin lisäksi? Auta meitä kääntämään
+      AntennaPod.
   donate:
     modal-title: Haluatko varmasti lahjoittaa?
     modal-button-donate: Lahjoita
@@ -169,23 +272,36 @@ contribute:
   test:
     title: Testaa
     text: Oletko hyvä tuhoamaan? Ryhdy beetatestaajaksi.
+    card-text: Oletko hyvä tuhoamaan? Ryhdy beetatestaajaksi.
   support:
     title: Tuki
     text: Osaatko kertoa asioista selkeästi? Auta muita käyttäjiä foorumillamme.
+    card-text: Osaatko kertoa asioista selkeästi? Auta muita käyttäjiä foorumillamme.
   develop:
     title: Kehitä
     text: Kirjoitatko koodia? Auta testaamaan vetopyyntöjä tai lähetä uusia ominaisuuksia
       tai viankorjauksia sovellukselle tai verkkosivustolle.
+    card-text: Kirjoitatko koodia? Auta testaamaan vetopyyntöjä tai lähetä uusia ominaisuuksia
+      tai viankorjauksia sovellukselle tai verkkosivustolle.
+    categories:
+      app:
+        title: Sovellus
   introduction: AntennaPodia kehitetään aktiivisesti vapaaehtoisvoimin. Sinäkin voit
     osallistua, joko ohjelmoimalla tai muulla tavoin.
   promote:
     title: Mainosta
     text: Laaditko tarttuvia twiittejä, mielenkiintoisia blogeja tai upeita grafiikoita?
       Auta levittämään sanaa.
+    card-text: Laaditko tarttuvia twiittejä, mielenkiintoisia blogeja tai upeita grafiikoita?
+      Auta levittämään sanaa.
   design:
     title: Suunnittelu
     text: Käännätkö monimutkaiset pyynnöt ymmärrettäviin käyttäjien tarinoihin tai
       kehyksiin? Auta ratkaisemaan nämä ongelmat.
+    card-text: Käännätkö monimutkaiset pyynnöt ymmärrettäviin käyttäjien tarinoihin
+      tai kehyksiin? Auta ratkaisemaan nämä ongelmat.
+  intro: AntennaPodia kehitetään aktiivisesti vapaaehtoisvoimin. Sinäkin voit osallistua,
+    joko ohjelmoimalla tai muulla tavoin.
 events:
   links:
     open-blog: Lue blogikirjoitus

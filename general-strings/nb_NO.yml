@@ -91,25 +91,37 @@ contribute:
     title: Utvikle
     text: Skriver du kode? Hjelp til å teste flettingsforespørsler eller send inn
       nye funksjoner eller feilrapporter for programmet eller nettsiden.
+    card-text: Skriver du kode? Hjelp til å teste flettingsforespørsler, eller send
+      inn nye funksjoner eller feilrapporter for programmet eller nettsiden.
+    categories:
+      app:
+        title: App
   promote:
     title: Framsnakk
     text: Lager du fengende tvitringer, interessante blogger, eller bra grafikk? Hjelp
       til å spre ordet.
+    card-text: Du lager fengende tvitringer, interessante blogger, eller bra grafikk?
+      Hjelp til å spre ordet.
   design:
     text: Kan du gjøre komplekse forespørsler til forståelige brukerfortellinger eller
       skisser? Hjelp til å takle disse problemene.
     title: Design
+    card-text: Kan du gjøre komplekse forespørsler til forståelige brukerfortellinger
+      eller skisser? Hjelp til å takle disse problemene.
   introduction: AntennaPod er i aktiv utvikling av frivillige. Du kan også bidra,
     med kode eller noe annet!
   translate:
     title: Oversett
     text: Snakker du et annet språk enn Engelsk. Hjelp oss å oversette AntennaPod.
+    card-text: Snakker du et annet språk enn Engelsk. Hjelp til å oversette AntennaPod.
   support:
     title: Støtte
     text: Er du god til å forklare? Hjelp andre brukere på forumet.
+    card-text: Er du god til å forklare. Hjelp andre brukere på forumet.
   test:
     title: Test
     text: Er du god til å finne feil? Bli betatester.
+    card-text: Er du god til å finne feil? Bli betatester.
   donate:
     modal-button-chat: Diskuter med oss hvordan du kan hjelpe til
     link: Jeg vil sende en <a href="https://opencollective.com/antennapod" target="_blank"
@@ -117,6 +129,8 @@ contribute:
     modal-title: Er du sikker på at du vil donere?
     modal-button-donate: Doner uansett
     modal-button-contribute: Sjekk bidragsalternativene igjen
+  intro: AntennaPod er i aktiv utvikliing av frivillige. Du kan også bidra, med kode
+    eller annet.
 documentation:
   categories:
     getting-started:
@@ -189,6 +203,95 @@ documentation:
       informasjon om nåværende funksjoner.
     search-placeholder: Søk i dokumentasjonen
     no-results: Beklager. Fant ingenting
+    title: Generelt
+    intro: Nedenfor finner du flere detaljer om AntennaPod-prosjektet.
+    ads:
+      title: Om reklamer i AntennaPod
+    f-droid:
+      title: Nye versjoner på F-Droid
+    backup:
+      title: Sikkerhetskopierer episodene dine
+    beta:
+      title: Beta-testing
+    central-distributed:
+      title: Sentrale og distribuerte programmer for nettradioopptak
+    external-storage:
+      title: Bruk av eksternlagring
+    synchronization:
+      title: Synkronisering mellom enheter
+    proxy:
+      title: Forsendelse av trafikk gjennom mellomtjener eller Tor-nettverket
+    episode-deletion:
+      title: Sletting av episoder
+    other-platforms:
+      title: AntennaPod for Windows, Apple, og Linux
+  automation:
+    deletion:
+      title: Automatisk sletting
+    intro: Erfaren bruker som vil automatisere oppgaver? Sjekk sidene nedenfor.
+    refreshing-podcasts:
+      title: Oppdater podkaster
+    title: Automatisering
+  podcasters-hosters:
+    intro: Nedenfor finner du brukerstøtteinfo for skapere av nettradioopptak og vertstjenere.
+    title: For nettradioopptaksskapere og vertstjenere
+    add-on-antennapod:
+      title: Lag en «Åpne i AntennaPod»-lenke
+    list-podcast:
+      title: Opplisting av ditt nettradioopptak
+    update-feed-urls:
+      title: Oppdaterer nettadresser for strømmer
+  intro: Velkommen til dokumentasjonsdelen av AntennaPod. Her finner du info om funksjoner.
+  search:
+    placeholder: Søk i dokumentasjonen
+    no-results: Resultatløst
+  getting-started:
+    title: Begynn
+    intro: Velkommen til AntennaPod. Nedenfor finner du detaljer om hvordan du bruker
+      det.
+    subscribe:
+      title: Abonner på et nettradioopptak
+  playback:
+    title: Avspilling
+    intro: Nedenfor finner du emner om avspilling.
+    auto-rewind:
+      title: Automatisk tilbakespoling
+    shortcuts:
+      title: Tastatursnarveier
+    android-auto:
+      title: Avspilling i bil (Android Auto)
+  queue:
+    title: Kø
+    intro: Nedenfor finner du spørsmål om køen.
+    how-to-use:
+      title: Hvordan bruke køen
+    lock:
+      title: Låsing av køen
+    multiple-queues:
+      title: Bruk av flere køer
+  subscriptions:
+    title: Abonnementer
+    intro: Nedenfor finner du ofte stilte spørsmål om abonnementer.
+    subscription-groups:
+      title: Abonnementsetiketter (altså grupper eller kategorier)
+  bugs-first-aid:
+    title: Feil, problemer, og førstehjelp
+    intro: Å lage programvare er et menneskelig håndtverk, så feil skjer. Det kan
+      alltid fikses.
+    bug-report:
+      title: Noe fungerer ikke
+    database-error:
+      title: Alle mine nettradioopptak og episoder er borte
+    cannot-stream-download:
+      title: Kan ikke laste ned en episode
+    episodes-missing:
+      title: En episode lar seg ikke laste ned
+    playback-stops:
+      title: Avspilling stopper plutselig
+    refresh-download-errors:
+      title: Feil med nedlasting eller gjenoppfrisking av informasjonskanal
+    cannot-resume-playback:
+      title: Kan ikke gjenoppta avspilling fra låseskjerm/varselfelt
 footer:
   description: Det enkle, fleksible og åpen kildekode podkastbehandleren for Android.
 readtime:
