@@ -25,6 +25,11 @@ contribute:
         title: App
       website:
         title: Website
+        card-text: Du kennst dich mit SCSS und HTML aus? Hilf uns bei unserer Website.
+      upstream:
+        title: Upstream und andere Projekte
+        card-text: Hilf uns, indem du dich an anderen Projekten beteiligst, auf die
+          wir angewiesen sind.
   promote:
     title: Werben
     text: Du schreibst einprägsame Tweets, interessante Blogbeiträge oder zeichnest
@@ -36,7 +41,7 @@ contribute:
     text: Du verwandelst komplexe Anfragen in verständliche Erzählungen oder Entwürfe?
       Hilf uns diese Probleme anzupacken.
     card-text: Du verwandelst komplexe Anfragen in verständliche Erzählungen oder
-      Entwürfe? Hilf uns diese Probleme anzupacken.
+      Entwürfe? Hilf uns, diese Probleme zu lösen.
   donate:
     link: Ich möchte <a href="https://opencollective.com/antennapod" target="_blank"
       data-toggle="modal" data-target="#donationModal">Spenden</a>.
@@ -44,6 +49,8 @@ contribute:
     modal-button-chat: Besprich mit uns, wie du helfen kannst
     modal-button-contribute: Beitragsmöglichkeiten erneut anschauen
     modal-title: Bist du dir sicher, dass du spenden möchtest?
+    title: Spenden
+    card-text: Du hast keine Zeit und willst uns stattdessen Geld spenden.
   introduction: AntennaPod wird aktiv von Freiwilligen entwickelt. Du kannst auch
     beitragen – mit Code oder anderweitig!
   intro: AntennaPod wird aktiv von Freiwilligen entwickelt. Du kannst ebenfalls etwas
@@ -63,7 +70,7 @@ documentation:
     other-platforms:
       title: AntennaPod für Windows, Apple und Linux
     beta:
-      title: Beta-Testen
+      title: Beta-Tests
     central-distributed:
       title: Zentrale und dezentrale Podcast-Apps
     external-storage:
@@ -74,6 +81,8 @@ documentation:
       title: Deine Episoden sichern
     synchronization:
       title: Synchronisation zwischen Geräten
+    ads:
+      title: Über Werbung in AntennaPod
   categories:
     queue:
       intro: Unten findest du oft gestellte Fragen zur Warteschlange.
@@ -140,7 +149,7 @@ documentation:
         unten gelisteten Seiten an.
       tasker: Integration in andere Anwendungen
   search:
-    no-results: Entschuldigung, keine Ergebnisse
+    no-results: Leider nichts gefunden
     placeholder: Dokumentation durchsuchen
   getting-started:
     title: Erste Schritte
@@ -179,8 +188,8 @@ documentation:
       title: Abonnement-Tags (auch Gruppen oder Kategorien genannt)
   automation:
     title: Automatisierung
-    intro: Du bist erfahren und möchtest Aufgaben automatisieren? Schau dir die unten
-      gelisteten Seiten an.
+    intro: Du bist erfahren und möchtest Aufgaben automatisieren? Werfe einen Blick
+      auf die folgenden Seiten.
     deletion:
       title: Automatisches Löschen
     refreshing-podcasts:
@@ -213,12 +222,12 @@ documentation:
       title: Deinen Podcast listen lassen
     update-feed-urls:
       title: Feed-URLs aktualisieren
-    title: Für Podcaster & Hosting-Anbieter
-    intro: Unten findest du Informationen zur Unterstützung von Podcastern und Hosting-Anbietern.
+    title: Für Podcaster und Hoster
+    intro: Nachfolgend findest du unsere Support-Informationen für Podcaster und Hosting-Anbieter.
     add-on-antennapod:
       title: Einen „In AntennaPod öffnen“-Link erstellen
-  intro: Willkommen im Dokumentationsbereich von AntennaPod. Dieser Bereich gibt Informationen
-    zu Funktionen der App.
+  intro: Willkommen im Dokumentationsbereich von AntennaPod. In diesem Abschnitt findest
+    du Informationen zu den aktuellen Funktionen.
 long_month:
   October: Oktober
   July: Juli
@@ -328,7 +337,7 @@ events:
     open-blog: Blogbeitrag lesen
     watch-recording: Aufnahme anschauen
   general:
-    recurring: Wiederkehrende Veranstaltung
+    recurring: Wiederkehrendes Ereignis
     download-ics: ICS-Datei herunterladen
     copy-url: Kalender-URL kopieren
     announce-add-calendar: Du möchtest immer die neuesten Veranstaltungen und aktuellen
