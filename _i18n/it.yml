@@ -35,6 +35,8 @@ contribute:
     modal-button-donate: Fai comunque una donazione
     modal-button-contribute: Controlla di nuovo i modi in cui contribuire
     modal-button-chat: Discuti con noi di come puoi aiutarci
+    title: Fai una donazione
+    card-text: Non ti è possibile donare il tuo tempo e vuoi fare una donazione.
   test:
     title: Test
     text: Rompere le cose ti riesce bene? Diventa beta tester.
@@ -43,11 +45,18 @@ contribute:
     title: Sviluppo
     text: Sai scrivere codice? Aiutaci a testare le richieste pull, invia nuove funzioni
       oppure risolvi dei bug nell'applicazione o nel sito web.
-    card-text: Sai scrivere codice? Aiutaci a testare le richieste pull, invia nuove
-      funzioni oppure risolvi dei bug nell'applicazione o nel sito web.
+    card-text: Sai scrivere codice? Aiutaci a testare le richieste pull, aggiungi
+      nuove funzionalità oppure risolvi dei bug nell'app o nel sito web.
     categories:
       app:
         title: App
+        card-text: Te ne intendi di Java? Scopri come contribuire all'app di AntennaPod.
+      upstream:
+        title: Progetti a monte e altri
+        card-text: Aiutaci contribuendo ad altri progetti su cui facciamo affidamento.
+      website:
+        title: Sito web
+        card-text: Sei a tuo agio con SCSS e HTML? Aiutaci con il nostro sito web.
   promote:
     title: Promozione
     text: Sai scrivere tweet accattivanti, articoli di blog interessanti o crei delle
@@ -58,8 +67,8 @@ contribute:
     title: Design
     text: Sei in grado di trasformare richieste complesse degli utenti in user story
       o wireframe comprensibili? Aiutaci ad affrontare questi problemi.
-    card-text: Sei in grado di trasformare richieste complesse degli utenti in user
-      story o wireframe comprensibili? Aiutaci ad affrontare questi problemi.
+    card-text: Sei in grado di trasformare richieste complesse in user story o wireframe
+      comprensibili? Aiutaci ad affrontare questi problemi.
   intro: AntennaPod è sviluppata attivamente da volontari. Anche tu puoi contribuire,
     scrivendo il codice o in altri modi!
 blog:
@@ -155,7 +164,7 @@ documentation:
     beta:
       title: Beta testing
     central-distributed:
-      title: Applicazioni di podcast centralizzate e distribuite
+      title: App di podcast centralizzate e distribuite
     intro: Qui di seguito puoi trovare maggiori dettagli sul progetto AntennaPod.
     external-storage:
       title: Usare una memoria esterna
@@ -163,6 +172,10 @@ documentation:
       title: Come sincronizzare più dispositivi
     episode-deletion:
       title: Eliminare episodi
+    ads:
+      title: A proposito delle pubblicità in AntennaPod
+    proxy:
+      title: Indirizzare il traffico attraverso un proxy o la rete Tor
   categories:
     getting-started:
       title: Per iniziare
@@ -234,7 +247,7 @@ documentation:
     smart-shuffle:
       title: Come utilizzare la modalità casuale intelligente
     multiple-queues:
-      title: Come utilizzare code multiple
+      title: Come utilizzare più code
     intro: Qui di seguito puoi trovare le domande più frequenti riguardo alla coda.
     how-to-use:
       title: Come usare la coda
@@ -246,16 +259,16 @@ documentation:
     title: Riproduzione
     auto-rewind:
       title: Riavvolgimento automatico
-    intro: Di seguito potrai trovare argomenti relativi alla riproduzione.
+    intro: Di seguito puoi trovare argomenti relativi alla riproduzione.
     shortcuts:
       title: Scorciatoie da tastiera
     android-auto:
       title: Riproduzione in auto (Android Auto)
   subscriptions:
     title: Iscrizioni
-    intro: Qui di seguito puoi trovare le domande più frequenti riguardo agli abbonamenti.
+    intro: Qui di seguito puoi trovare le domande più frequenti riguardo alle iscrizioni.
     subscription-groups:
-      title: Tag degli abbonamenti (cioè gruppi o categorie)
+      title: Tag delle iscrizioni (cioè gruppi o categorie)
   bugs-first-aid:
     database-error:
       title: Tutti i miei podcast e i miei episodi sono spariti
@@ -265,7 +278,7 @@ documentation:
       title: Impossibile riprendere la riproduzione dalla schermata di blocco / dalla
         notifica
     title: Bug, errori e primo soccorso
-    intro: Creare software è un'attività umana, e quindi gli errori sono inevitabili.
+    intro: Creare software è un'attività umana, quindi gli errori sono inevitabili.
       Ma spesso è possibile rimediare!
     bug-report:
       title: Qualcosa non funziona
@@ -274,7 +287,7 @@ documentation:
     episodes-missing:
       title: Mancano gli episodi più vecchi
     playback-stops:
-      title: La riproduzione si interrompe improvvisamente
+      title: La riproduzione si interrompe all'improvviso
     refresh-download-errors:
       title: Errore nel download o nell'aggiornamento del feed
   podcasters-hosters:
@@ -297,7 +310,7 @@ documentation:
     intro: Benvenuto su AntennaPod! Qui di seguito puoi trovare alcune informazioni
       per iniziare a utilizzare AntennaPod.
     subscribe:
-      title: Abbonarsi a un podcast
+      title: Iscriversi a un podcast
     home:
       title: Usare la schermata Home
   automation:
