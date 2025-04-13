@@ -14,7 +14,7 @@ To keep things tidy, we prefer to have broader discussions on features on our fo
 AntennaPod is structured in several modules to ensure that similar code is close together and to avoid cyclic dependencies, which makes sure that the code can easily be tested. As an initial overview, the figure below gives the structure of all AntennaPod modules.
 
 {% include image.html
-   alt="A graph with 31 ovals and a recognisable set of arrows between them."
+   alt="A graph with 31 ovals and a recognizable set of arrows between them."
    loc="/assets/images/blog/2024"
    file="codeStructureAfter.png"
 %}
