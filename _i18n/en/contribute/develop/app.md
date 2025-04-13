@@ -19,7 +19,7 @@ AntennaPod is structured in several modules to ensure that similar code is close
    file="codeStructureAfter.png"
 %}
 
-For the Java code, AntennaPod uses a style similar to [Google's Java style](https://google.github.io/styleguide/javaguide.html). Checkstyle is run automatically when creating a pull request. The Gradle `checkstyle` task only checks more relaxed rules ([config/checkstyle/checkstyle.xml](https://github.com/AntennaPod/AntennaPod/blob/develop/config/checkstyle/checkstyle.xml)) for the whole code base. On CI, the more strict rules ([config/checkstyle/checkstyle-new-code.xml](https://github.com/AntennaPod/AntennaPod/blob/develop/config/checkstyle/checkstyle-new-code.xml)) are used for new code. In Android Studio, you can set the checkstyle version to 8.18 and select the [config/checkstyle/checkstyle-new-code.xml](https://github.com/AntennaPod/AntennaPod/blob/develop/config/checkstyle/checkstyle-new-code.xml) config file. Please only reformat lines that you actually modify, not the whole file. This makes it easier to read the version history.
+For the Java code, AntennaPod uses a style similar to [Google's Java style](https://google.github.io/styleguide/javaguide.html). Checkstyle is run automatically when creating a pull request.
 
 For Android layout XML files, we use indention with 4 spaces. The `id`, `layout_width` and `layout_height` attributes come first. To easily format the files, you can use the same [tool](https://github.com/ByteHamster/android-xml-formatter) as our CI server.
 
@@ -61,36 +61,8 @@ You can obtain development builds directly from GitHub. Every time the CI server
    file="testbuild3.png"
 %}
 
-## Obtaining logs for debug
-Prerequisites: Android SDK is installed on your computer. Specifically, `adb` is available.
-
-On command line:
-- Find out the process ID (`PID`) of AntennaPod. e.g., using `ps` . It is 21638 in the following example
-```shell
-# In a terminal on your computer with Android SDK
-$ adb shell
-perry_f:/ $ ps | grep de.danoeh.antennapod
-u0_a432   23771 681   992528 32408 SyS_epoll_ 00000000 S de.danoeh.antennapod
-perry_f:/ $ exit
-```
-
-- Use `adb logcat` to dump the output to a file, e.g.
-```
-$ adb logcat --pid=23771 -d > logcat.log
-```
-
-Notes:
-- See [Logcat documentation](https://developer.android.com/studio/command-line/logcat) for tweaking the outputs. Some useful ones include: 
-    - `-t '<time>'` : show logs only since the specified time (to reduce output)
-    - `-e <expr>` : filter output by regular expression
-- Sometimes you might need all the logs (no `--pid` argument), as some fatal error will cause Android runtime to indicate errors in the log (that might be helpful) that are out of AntennaPod's process.
-
 ## Getting credited for your contribution
-To be credited on the Contributors page on GitHub and in the app, your commits must be linked to your GitHub account. Simply create the commits with an email address that is linked to your GitHub account (or add that email address to GitHub). You can verify if it worked by checking whether the icon below the commit shows your profile picture.
-
-If you do not care about appearing on the Contributors page, please indicate this in your pull request.
-
-You can change the author of the most recent commit by running a command such as `git commit --amend --author="John Doe <john@doe.org>"`. Changing something that way requires to force-push the changes (`git push --force`). To change multiple commits, have a look at [interactive rebase](https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history).
+To be credited on the Contributors page on GitHub and in the app, your commits must be linked to your GitHub account. Simply create the commits with an email address that is linked to your GitHub account (or add that email address to GitHub). You can verify if it worked by checking whether the icon below the commit shows your profile picture. If you don't care about appearing on the Contributors page, please indicate this in your pull request. You can change the author of the most recent commit by running a command such as `git commit --amend --author="John Doe <john@doe.org>"`. Changing something that way requires to force-push the changes (`git push --force`). To change multiple commits, have a look at [interactive rebase](https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history).
 
 After your work is merged, we also encourage you to talk about it and claim that fame! It might inspire other potential contributors, and helps promote the app generally. We're happy to retweet your tweets!
 
