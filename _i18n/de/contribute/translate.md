@@ -14,7 +14,7 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## Die App
+</object>## 1. Die App
 
 Die App ist derzeit in mehr als 38 Sprachen verfügbar. Es gibt zwar mehr Sprachen in Weblate, aber wir nehmen sie nicht in die App auf. Wir versuchen, einen Schwellenwert von 40 % für die Vollständigkeit von Sprachen einzuhalten. Wenn dieser Wert unterschritten wird, bietet die App kaum noch ein gutes Nutzungserlebnis.
 
@@ -22,7 +22,7 @@ Neue Übersetzungen werden von Transifex auf GitHub (die Entwicklungsplattform) 
 
 Übersetzer finden sich in der App mit ihrem Weblate-Benutzernamen unter `Einstellungen` » `Über` » `Beitragende`.
 
-## Die Webseite
+## 2. Die Website
 
 The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
@@ -32,13 +32,13 @@ The website exists of four 'components', each representing a part of the website
 
 Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
-## 3. The app store listings
+## 3. Die App-Store-Einträge
 
 In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
 
-1. **Short description**
-1. **Full description**
-1. **Screenshot titles**
+1. **Kurzbeschreibung**
+1. **Vollständige Beschreibung**
+1. **Screenshot-Titel**
 
 We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
 
