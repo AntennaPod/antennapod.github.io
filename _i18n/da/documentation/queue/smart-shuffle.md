@@ -6,4 +6,4 @@ For at bruge smart blanding skal du placere nogle afsnit fra forskellige abonnem
 
 Lad os sige, at du har 15 afsnit i din kø: 1 fra hver af podcast A, B og C, 2 fra podcast D og 10 fra podcast E. Smart blanding tager først podcasten med flest afsnit (E) og spreder dens afsnit i køen: EE_EE_E_E_EE_EE. Den tager derefter podcasten med de næstflest afsnit (D) og spreder dem ud i de tilgængelige pladser: EE_EEDE_EDEE_EE. Dette fortsætter, indtil vi ender med en kø, der ser sådan ud: EEBEEDECEDEEAEE.
 
-Udgivelsesdatoer spiller en rolle både *inden for* podcasts (i vores eksempel er afsnit fra podcast E sorteret i overensstemmelse hermed) og *mellem* podcasts (afsnittet fra podcast B får en tidligere placering end den fra podcast A, fordi førstnævnte er nyere ).
+Udgivelsesdatoer spiller en rolle både *inden for* podcasts (i vores eksempel er afsnit fra podcast E sorteret i overensstemmelse hermed) og *mellem* podcasts (afsnittet fra podcast B får en tidligere placering end den fra podcast A, fordi førstnævnte er ældre ).
