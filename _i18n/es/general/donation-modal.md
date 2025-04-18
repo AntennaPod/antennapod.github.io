@@ -1,4 +1,4 @@
-AntennaPod no necesita mucho dinero. **Nuestros costos (anuales) ya están cubiertos** por nuestro fondo de las donaciones existentes. Por lo tanto, preferiríamos que usted
+AntennaPod no necesita mucho dinero. **Nuestros gastos (anuales) ya están cubiertos** por el fondo de las donaciones existentes. Por lo tanto, preferiríamos que
 
-* dona a tu podcast(er) favorito, o
-* ayúdanos con una aportación no dineraria.
+* dones a tu podcast(er) favorito, o
+* nos ayudes con una aportación no monetaria.

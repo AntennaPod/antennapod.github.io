@@ -1,4 +1,4 @@
-Pulse el botón inferior para suscribirse a este podcast en AntennaPod. ¿Aún no tiene AntennaPod? Puede [descargar](/descargar) la aplicación para disfrutar de acceso gratuito a millones de podcasts.
+Pulsa el botón de debajo para suscribirte a este podcast en AntennaPod. ¿Aún no tienes AntennaPod? Puedes [descargar](/descargar) la aplicación para disfrutar de acceso libre a millones de podcasts.
 
 
 <button id="subscribeButton" class="btn btn-primary">
