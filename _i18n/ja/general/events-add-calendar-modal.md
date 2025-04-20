@@ -1,3 +1,3 @@
-Always want to have the latest community call dates and times in your calendar? Then copy the URL and add it as a remote calendar in your calendar app.
+常に最新のコミュニティミーティングの日付と時刻をカレンダーに入れておきたいですか？ URLをコピーして、カレンダーアプリのリモートカレンダーとして追加してください。
 
-Hope to see you!
+会えることを楽しみにしています！

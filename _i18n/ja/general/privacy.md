@@ -1,59 +1,59 @@
-AntennaPod is developed and maintained by individual volunteers and not represented by any legal entity. The community doesn't need your data, so the app and website are designed to be fully GDPR compliant. Read on to learn more.
+AntennaPodは、個人のボランティアによって開発・メンテンナンスされており、いかなる法人によっても代表されるものではありません。コミュニティはあなたのデータを必要としないため、アプリとウェブサイトはGDPRに完全に準拠するように設計されています。さらに詳しく知りたい人は、以下の説明を読んでください。
 
-## What data the AntennaPod app might collect, store and process
+## AntennaPodアプリが収集・保存・処理する可能性があるデータ
 
-The app only records data strictly necessary for the app to function. This includes for example the list of podcasts you follow, the app settings, and authentication data provided for specific podcasts or services (such as synchronization services). The app does not include any advertisement libraries or any 3rd party tracking (analytics) code, such as Google Analytics.
+アプリは、アプリが機能するために厳密に必要なデータのみを記録します。これには、たとえば、フォローしているポッドキャストのリスト、アプリの設定、特定のポッドキャストまたはサービス（同期サービスなど）に提供される認証データが含まれます。このアプリには、広告ライブラリやGoogle Analyticsなどのサードパーティの追跡（分析）コードは含まれていません。
 
-**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app.** Please see the second next section for the cases in which your data may be provided to third parties.
+**AntennaPodアプリの使用時に提供・作成されたすべてのデータは、デバイス上にローカルに保存されます。AntennaPodは、アプリの機能に厳密に必要な場合を除き、あなたのデータをどこにも送信またはアップロードしません。**データがサードパーティに提供される場合については、次の2番目のセクションを読んでください。
 
-The only case where your data from 3rd parties is handled, is when using a synchronization service if enabled via the settings. In that case, the app may receive subscriptions and playback events provided by the service.
+サードパーティからのデータが処理される唯一のケースは、設定で有効になっている場合に同期サービスを使用する場合です。その場合、アプリはサービスによって提供される購読と再生イベントを受け取ることがあります。
 
 ## アプリの権限
 
-The app requests the following privacy-relevant Android permissions:
+アプリは、次のプライバシー関連のAndroid権限を要求します。
 
-- Read from/write to Storage (Photos/Media/Files): The storage permission is used to open files that are not downloaded directly from within the app. It can also be used to import app settings or OPML files. The permission is only requested if you perform an action that requires reading from storage.
+- ストレージからの読み取り/ストレージへの書き込み（写真/メディア/ファイル）: ストレージ権限は、アプリ内から直接ダウンロードされた以外のファイルを開くために使用されます。アプリ設定やOPMLファイルのインポートにも使用されます。このアクセス許可は、ストレージからの読み取りが必要なアクションを実行する場合にのみ要求されます。
 
-## What app data other parties might collect, store and process
+## 他者が収集・保存・処理する可能性のあるアプリデータ
 
-- Podcast hosters: When provided in the podcast settings, a host will receive authentication data you provided. Any web servers that provide the podcast feeds might collect additional data, such as your IP address, access time and what is being accessed. This includes the episodes you are downloading or streaming. Please refer to their respective privacy policies for details. You can view the URL of a podcast by opening the podcast and pressing the info icon. AntennaPod does not allow remote servers to set cookies. The servers can detect the fact that you are using AntennaPod and which version of AntennaPod you are using (HTTP User-Agent). If multiple podcasts are hosted on the same server, the server can detect the list of podcasts that you subscribed to and that are hosted on that server. This might happen if publishers use feedburner, podtrac or similar services to distribute their feeds.
-- Discovery and search services: When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the query, including country (which by default is the device's country). These suggestions can be disabled by choosing "off" in the region selector. When using the search feature in AntennaPod, the services PodcastIndex.org, Apple Podcasts and fyyd may store your query, including the search terms. Discovery and search queries also include IP address, time, and app name "AntennaPod". After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
-- Synchronization services: When enabled via the settings, AntennaPod synchronizes your data. This data may include login credentials, subscribed podcasts, listened episodes, play, pause & favorite actions with date & time stamps and IP address. For more information, see your provider's privacy policy.
-- Google: If you have activated backup & reset in your phone settings (`Settings` » `Backup & Reset` » `Back up my data`), you should be aware that Android itself will periodically save a copy of your phone's data in Google's servers. This backup contains private information, including your WiFi passwords, messages and call history. It may also include data from AntennaPod and from other apps you use. The developers of AntennaPod do not have access to this data. For more information, see [Google's privacy policy](https://policies.google.com).
+- ポッドキャストのホスト: ポッドキャストの設定で指定すると、ホストは指定された認証データを受信します。ポッドキャストフィードを提供するウェブサーバーは、IPアドレス、アクセス時間、アクセスコンテンツなどの追加データを収集する場合があります。これには、ダウンロードまたはストリーミングしているエピソードが含まれます。詳細については、それぞれのプライバシーポリシーを参照してください。ポッドキャストを開いて情報アイコンを押すと、ポッドキャストのURLを表示できます。AntennaPodでは、リモートサーバーがCookieを設定することはできません。サーバーは、AntennaPodを使用しているという事実と、使用しているAntennaPodのバージョン（HTTPユーザーエージェント）を検出できます。複数のポッドキャストが同じサーバーでホストされている場合、サーバーは、ユーザーが購読し、そのサーバーでホストされているポッドキャストのリストを検出できます。これは、パブリッシャーがフィードを配布するためにfeedburner、podtrac、または同様のサービスを使用している場合に起こる可能性があります。
+- ディスカバリーおよび検索サービス: アプリで「Discover」画面を開くと、Apple にリクエストを送信してポッドキャストの提案を集めます。国（デフォルトではデバイスの国）を含むクエリを保存できます。これらの提案は、地域セレクターで「オフ」を選択することで無効にできます。AntennaPodの検索機能を使用すると、サービスPodcastIndex.org、Apple Podcasts、fyydに検索語を含むクエリが保存される場合があります。検出および検索クエリには、IPアドレス、時刻、アプリ名「AntennaPod」も含まれます。購読後、フィードはポッドキャストホスティング会社から提供されます。つまり、検出・検索サービスは関与しなくなります。
+- 同期サービス: 設定で有効にすると、AntennaPodはデータを同期します。このデータには、日付・タイムスタンプ・IPアドレスを含む、ログイン認証情報、購読したポッドキャスト、聞いたエピソード、再生、一時停止、お気に入りのアクションが含まれる可能性があります。詳細については、プロバイダーのプライバシーポリシーを参照してください。
+- Google: 電話の設定でバックアップとリセットを有効にしている場合（`設定」` » `バックアップとリセット` » `データをバックアップ`）、Android自体が定期的に携帯電話のデータのコピーをGoogleのサーバーに保存されることに注意してください。このバックアップには、WiFiパスワード、メッセージ、通話履歴などの個人情報が含まれています。 AntennaPodや使用する他のアプリからのデータも含まれる場合があります。 AntennaPodの開発者はこのデータにアクセスできません。詳細については、[Googleのプライバシー ポリシー](https://policies.google.com)を読んでください。
 
-## What data might be collected, stored and processed from AntennaPod online services
+## AntenPodのオンラインサービスが収集・保存・処理する可能性があるデータ
 
-- The donation system: AntennaPod uses Open Collective, offered by Open Collective Inc (USA) & Open Collective Europe ASBL (Belgium). When you make a donation, these entities get access to certain data. For more information, see [Open Collective's privacy policy](https://opencollective.com/privacypolicy).
-- The website: AntennaPod's website is hosted via GitHub Pages. [GitHub's privacy policy](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages) notices that "GitHub may collect User Personal Information from visitors to your GitHub Pages website, including logs of visitor IP addresses, to comply with legal obligations, and to maintain the security and integrity of the Website and the Service." The website does not store any cookies on your machine, and no 3rd party tracking (analytics) or other services are used.
-- The forum: AntennaPod's forum uses the Discourse software, hosted by the core team. Please see the [forum's privacy policy](https://forum.antennapod.org/privacy) for which data is concerned.
+- 寄付システム: AntennaPod は、Open Collective Inc（アメリカ合衆国）およびOpen Collective Europe ASBL（ベルギー）が提供するOpen Collectiveを使用しています。あなたが寄付を行うと、これらの団体は特定のデータにアクセスできるようになります。詳細については、[Open Collectiveのプライバシー ポリシー](https://opencollective.com/privacypolicy)を参照してください。
+- ウェブサイト: AntennaPodのウェブサイトはGitHub Pages経由でホストされています。 [GitHubのプライバシーポリシー](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)には、「GitHubは、GitHub Pagesウェブサイトの訪問者からユーザーの個人情報を収集する場合があります。法的義務を遵守し、ウェブサイトとサービスのセキュリティと完全性を維持するために、訪問者のIPアドレスのログを含みます。」と記載されています。このウェブサイトはユーザーのマシンにCookieを保存せず、サードパーティの追跡（分析）やその他のサービスも使用しません。
+- フォーラム: AntennaPodのフォーラムは、コアチームがホストするDiscourseソフトウェアを使用します。データに関する[フォーラムのプライバシーポリシー](https://forum.antennapod.org/privacy)を読んでください。
 
-## What data the AntennaPod core team may have access to
+## AntennaPodコアチームがアクセスできるデータ
 
-The developers of AntennaPod do **not** have access to any of your information, except when you
+AntennaPodの開発者は、次の場合を除き、あなたの情報にアクセスすることは**ありません**。
 
-- actively share debugging information (either via email using the 'Crash Report' function, or via the Android crash reporting functionality of Google):
-   - device type
-   - Android version
-   - AntennaPod version
-- actively share a review in the Google Play store:
-   - public profile information
-   - AntennaPod version
-   - device type
-   - device language
-   - Android version
-- visit or participate on our forum: as described in the [forum's privacy policy](https://forum.antennapod.org/privacy)
-- actively make a financial contribution via Open Collective (unless you make an [anonymous guest](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) or [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) contribution):
-   - public profile information (name, company, description, image, Twitter, GitHub, website)
-   - email address
+- デバッグ情報を積極的に共有した場合（「クラッシュ レポート」機能を使ってメールしたもの、または、GoogleのAndroidクラッシュ レポート機能を利用したもの）:
+   - デバイスの種類
+   - Androidのバージョン
+   - AntennaPod バージョン
+- Google Playストアでレビューを積極的に共有した場合:
+   - 公開プロフィール情報
+   - AntennaPod バージョン
+   - デバイスの種類
+   - デバイスの言語
+   - Androidのバージョン
+- フォーラムにアクセスまたは参加する場合: [フォーラムのプライバシーポリシー](https://forum.antennapod.org/privacy)に記載
+- Open Collectiveを通じて積極的に金銭的寄付を行う（[匿名ゲスト](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)または[シークレット](https ://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)寄付）:
+   - 公開プロフィール情報（名前、会社、説明、画像、Twitter、GitHub、ウェブサイト）
+   - メールアドレス
 
-## Updates of this Privacy Policy
+## このプライバシーポリシーの更新
 
-The developers may update this policy in the future. It is advisable to check the policy periodically for any changes. Changes to this Privacy Policy are effective when they are made on this document.
+開発者は将来このポリシーを更新する可能性があります。ポリシーに変更がないか定期的に確認することをおすすめします。プライバシーポリシーの変更は、この文書に加えられた時点から有効になります。
 
-This Privacy Policy was last updated on 2024-07-13. If you have questions, open an issue on GitHub or our forum.
+このプライバシー ポリシーの最終更新日は2024年7月13日です。質問がある場合は、GitHubまたはフォーラムで投稿を作成してください。
 
 {% if site.lang != 'en' %}
 
-This privacy policy is translated from English to help you understand how AntennaPod deals with the topic. In case of conflict between the the original and the translated version, the English one will prevail.
+このプライバシー ポリシーは、AntennaPodによるこのトピックの扱い方を理解できるように英語から翻訳されています。オリジナルと翻訳版の間に違いがある場合は、英語版が優先されます。
 
 {% endif %}

@@ -3,11 +3,12 @@ titles:
   media-kit: メディアキット
   license: ライセンス
   privacy: プライバシーポリシー
-  contribute: 貢献
+  contribute: 貢献する
   documentation: ドキュメント
   events: イベント
   download: AntennaPodをダウンロード
   forum: フォーラム
+  about: AntennaPodについて
 generic:
   learn: 詳しく知る
   share: 共有
@@ -18,11 +19,16 @@ generic:
     copied: コピーしました！
     logo: AntennaPodのロゴ
     copy: リンクをコピー
+    share-fb: Facebookで共有
+    share-md: Mastodonで共有
+    share-tw: Twitterで共有
+    share-eml: メールで共有
   previous: 前へ
   redirect:
     title: リダイレクト
+    link: リダイレクトされない場合はここをクリックしてください。
   page-not-found-short: ページが見つかりません
-  contribute: 貢献
+  contribute: 貢献する
   home: ホーム
   download: ダウンロード
   view: すべて表示
@@ -30,6 +36,11 @@ generic:
   masto-share:
     server: 'インスタンスのアドレスを入力（例: https://mastodon.social）'
   next: 次へ
+  eml-share:
+    subject: これを見てください
+    body: この記事をチェックしてください
+  subscribe-subtitle: AntennaPodや他のポッドキャストアプリでポッドキャストを購読するにはクリックしてください。
+  error404: 404エラー
 long_month:
   September: 9月
   October: 10月
@@ -45,6 +56,15 @@ long_month:
   December: 12月
 homepage:
   header: オープンなポッドキャストプレイヤー
+  features:
+    adfree:
+      description: AntennaPodのアプリ自体には広告はありません。パブリッシャーがメディアファイルに広告を追加することを選択した場合には、100%の収益が得られます。
+      title: 広告なし
+    listenanywhere:
+      title: どこでも聴ける
+      description: AntennaPodを使うと、エピソードをダウンロードしてどこでも聴けます。ポッドキャストを選んで自動的にダウンロードするようにすることもできます。
+  description: 
+    AntennaPodは完全にオープンなポッドキャストプレイヤーです。アプリはオープンソースで、どんなRSSフィードでも購読できます。AntennaPodは商業的な興味のないボランティアの人たちが開発しているため、あなたはすべてをコントロールできますが、プライバシーも尊重されます。
 month:
   May: 5月
   Aug: 8月
@@ -58,3 +78,228 @@ month:
   Oct: 10月
   Dec: 12月
   Sep: 9月
+events:
+  general:
+    copy-url: カレンダーURLのコピー
+    download-ics: ICSファイルのダウンロード
+    announce-add-calendar: 最新のイベントや最新のコミュニティ会議の情報を常に手元に置いておきたいですか？ 「カレンダーに追加」リンクを使用して、お気に入りのアプリでカレンダーを購読してください！
+    recurring: 繰り返しのイベント
+  links:
+    open-blog: ブログ投稿を読む
+    watch-recording: レコーディングを見る
+    open-map: 場所を確認する
+    open-meeting: ミーティングを開く
+    more-information: 詳細情報
+    add-calendar: カレンダーに追加
+  recurrence:
+    every-2nd-saturday: 毎月第2土曜日
+    2nd-4th-wednesday: （ほとんどの）第2・第4水曜日
+footer:
+  description: 使いやすく、柔軟で、オープンソースのAndroid用ポッドキャストマネージャー。
+documentation:
+  categories:
+    playback:
+      chromecast: Google Chromecastでの再生
+      title: 再生
+      shortcuts: ハードウェアキーボードショートカット
+      android-auto: 車内での再生（Android Auto）
+      intro: 以下に、再生に関連するトピックがあります。
+      auto-rewind: 自動巻き戻し
+    queue:
+      how-to-use: キューの使い方
+      intro: キューに関するよくある質問を紹介します。
+      smart-shuffle: スマートシャッフルの使い方
+      multiple-queues: 複数のキューを使う方法
+      title: キュー
+      lock: キューのロック（およびロック解除）
+    automation:
+      title: 自動化
+      intro: 経験豊富なユーザーで、タスクを自動化したいと考えていますか？以下のページを読んでください。
+      tasker: 他のアプリとの統合
+      deletion: 自動削除
+      refreshing-podcasts: ポッドキャストの更新
+    bugs-first-aid:
+      cannot-stream-download: エピソードがダウンロードできません
+      episodes-missing: 古いエピソードが見つかりません
+      playback-stops: 再生が急に停止しました
+      refresh-download-errors: ダウンロードやフィードの更新がエラーになります
+      cannot-resume-playback: ロックスクリーンや通知から再生を再開できません
+      bug-report: 何かが上手く動かない
+      title: バグ、エラー、応急処置
+      intro: ソフトウェアの開発は人間の仕事なので、間違いは避けられません。しかし、それに対してできることはたくさんあります！
+      typo-translations: 誤字脱字を見つけました
+      database-error: すべてのポッドキャストとエピソードが消えてしまいました
+    subscriptions:
+      subscription-groups: '購読タグ（別名: グループまたはカテゴリ）'
+      intro: 購読に関するよくある質問を紹介します。
+      title: 購読する
+    podcasters-hosters:
+      title: ポッドキャスターとホスト向け
+      add-on-antennapod: 「AntennaPodで開く」リンクを作成する
+      list-podcast: ポッドキャストをリストに表示されるようにする
+      update-feed-urls: フィードURLの更新
+      intro: このページには、ポッドキャスターとホスティングプロバイダーのサポート情報を掲載しています。
+    getting-started:
+      home: ホームスクリーンを使う
+      subscribe: ポッドキャストを購読する
+      title: はじめる
+      intro: AntennaPodへようこそ！ このページは、AntennaPodを使い始める方法を詳しく説明しています。
+    general:
+      proxy: プロキシやTorネットワークを経由する通信
+      other-platforms: Windows、Apple、Linux向けのAntennaPod
+      f-droid: F-Droid上の更新
+      beta: ベータテスト
+      central-distributed: 集中型・分散型ポッドキャストアプリ
+      intro: AntennaPodプロジェクトの詳細を紹介します。
+      title: 全般
+      ads: AntennaPodの宣伝について
+      synchronization: デバイス間の同期方法
+      episode-deletion: エピソードの削除
+      backup: エピソードのバックアップ
+      external-storage: 外部ストレージの利用
+  general:
+    search-placeholder: ドキュメントを検索
+    introduction: AntennaPodのドキュメントセクションへようこそ。このセクションは、現在の機能に関する情報を提供することを目的としています。
+    no-results: すみません、何も見つかりませんでした
+    title: 全般
+    other-platforms:
+      title: Windows、Apple、Linux向けのAntennaPod
+    intro: AntennaPodプロジェクトの詳細を紹介します。
+    ads:
+      title: AntennaPodの宣伝について
+    backup:
+      title: エピソードのバックアップ
+    beta:
+      title: ベータテスト
+    central-distributed:
+      title: 集中型・分散型ポッドキャストアプリ
+    external-storage:
+      title: 外部ストレージの利用
+    synchronization:
+      title: デバイス間の同期方法
+    proxy:
+      title: プロキシやTorネットワークを経由する通信
+    episode-deletion:
+      title: エピソードの削除
+    f-droid:
+      title: F-Droid上の更新
+  podcasters-hosters:
+    add-on-antennapod:
+      title: 「AntennaPodで開く」リンクを作成する
+    list-podcast:
+      title: ポッドキャストをリストに表示されるようにする
+    intro: このページには、ポッドキャスターとホスティングプロバイダーのサポート情報を掲載しています。
+    update-feed-urls:
+      title: フィードURLの更新
+    title: ポッドキャスターとホスト向け
+  automation:
+    title: 自動
+    intro: 経験豊富なユーザーで、タスクを自動化したいと考えていますか？以下のページを読んでください。
+    deletion:
+      title: 自動削除
+    refreshing-podcasts:
+      title: ポッドキャストの更新中
+    tasker:
+      title: 他のアプリとの統合
+  bugs-first-aid:
+    title: バグ、エラー、応急処置
+    bug-report:
+      title: 何かが上手く動かない
+    database-error:
+      title: すべてのポッドキャストとエピソードが消えてしまいました
+    cannot-stream-download:
+      title: エピソードがダウンロードできません
+    intro: ソフトウェアの開発は人間の仕事なので、間違いは避けられません。しかし、それに対してできることはたくさんあります！
+    typo-translations:
+      title: 誤字脱字を見つけました
+    episodes-missing:
+      title: 古いエピソードが見つかりません
+    playback-stops:
+      title: 再生が急に停止しました
+    refresh-download-errors:
+      title: ダウンロードやフィードの更新がエラーになります
+    cannot-resume-playback:
+      title: ロックスクリーンや通知から再生を再開できません
+  intro: AntennaPodのドキュメントセクションへようこそ。このセクションは、現在の機能に関する情報を提供することを目的としています。
+  search:
+    placeholder: ドキュメントを検索
+    no-results: すみません、何も見つかりませんでした
+  getting-started:
+    title: はじめる
+    intro: AntennaPodへようこそ！ このページは、AntennaPodを使い始める方法を詳しく説明しています。
+    subscribe:
+      title: ポッドキャストを購読する
+    home:
+      title: ホームスクリーンを使う
+  playback:
+    title: 再生
+    intro: 以下に、再生に関連するトピックがあります。
+    auto-rewind:
+      title: 自動巻き戻し
+    shortcuts:
+      title: ハードウェアキーボードショートカット
+    android-auto:
+      title: 車内での再生（Android Auto）
+    chromecast:
+      title: Google Chromecastでの再生
+  queue:
+    title: キュー
+    intro: キューに関するよくある質問を紹介します。
+    how-to-use:
+      title: キューの使い方
+    lock:
+      title: キューのロック（およびロック解除）
+    smart-shuffle:
+      title: スマートシャッフルの使い方
+    multiple-queues:
+      title: 複数のキューを使う方法
+  subscriptions:
+    title: 購読
+    intro: 購読に関するよくある質問を紹介します。
+    subscription-groups:
+      title: '購読タグ（別名: グループまたはカテゴリ）'
+contribute:
+  support:
+    title: サポート
+    text: 説明するのが得意ですか？ フォーラムで他のユーザーを助けてください。
+    card-text: 説明するのが得意ですか？ フォーラムで他のユーザーを助けてください。
+  test:
+    title: テスト
+    text: ものを壊すのが得意ですか？ ベータテスターになってください。
+    card-text: ものを壊すのが得意ですか？ ベータテスターになってください。
+  design:
+    title: デザイン
+    text: あなたは複雑なリクエストをユーザーストーリーやワイヤーフレームに変えられますか？ この問題を解決するのを助けてください。
+    card-text: あなたは複雑なリクエストをユーザーストーリーやワイヤーフレームに変えられますか？ この問題を解決するのを助けてください。
+  translate:
+    text: 英語以外の言葉がわかりますか？ AntennaPodの翻訳を助けてください。
+    title: 翻訳
+    card-text: 英語以外の言葉がわかりますか？ AntennaPodの翻訳を助けてください。
+  develop:
+    text: コードが書けますか？ アプリやウェブサイトのためにpull requestのテストや新機能やバグ修正を送ってください。
+    title: 開発
+    categories:
+      app:
+        title: アプリ
+    card-text: コードが書けますか？ アプリやウェブサイトのためにpull requestのテストや新機能やバグ修正を送ってください。
+  donate:
+    modal-title: 寄付してもいいですか？
+    modal-button-donate: 寄付する
+    modal-button-chat: 協力方法について話し合う
+    modal-button-contribute: 寄付のオプションをもう一度チェックしてください
+    link: <a href="https://opencollective.com/antennapod" target="_blank" data-toggle="modal"
+      data-target="#donationModal">寄付</a>をしたいです。
+  promote:
+    text: キャッチーな投稿、興味深いブログ、素晴らしいイラストを作れますか？情報を広めるのを助けてください。
+    title: 宣伝
+    card-text: キャッチーな投稿、興味深いブログ、素晴らしいイラストを作れますか？情報を広めるのを助けてください。
+  introduction: AntennaPodはボランティアにより開発中のアプリです。あなたもコードやその他の方法で貢献できます！
+  intro: AntennaPodはボランティアにより開発中のアプリです。あなたもコードやその他の方法で貢献できます！
+readtime:
+  singular: 分で読めます
+  plural: 分で読めます
+not-installed:
+  text: AntennaPodがインストールされていないため、ブラウザーは直接開けません。
+  title: AntennaPodがインストールされていません
+blog:
+  posted: 投稿日時

@@ -1,4 +1,4 @@
-Press the button below to subscribe to this podcast in AntennaPod. Don't have AntennaPod yet? You can [download](/download) the app to enjoy free access to millions of podcasts.
+AntennaPodでこのポッドキャストを購読するには、下のボタンを押してください。AntennaPodをインストールしていませんか？ アプリを[ダウンロード](/download)すると、数百万ものポッドキャストへの無料アクセスが楽しめます。
 
 
 <button id="subscribeButton" class="btn btn-primary">
