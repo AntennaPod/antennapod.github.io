@@ -2,24 +2,46 @@ contribute:
   translate:
     text: Sprichst du andere Sprachen als Englisch? Hilf uns, AntennaPod zu übersetzen.
     title: Übersetzen
+    card-text: Du sprichst eine andere Sprache als Englisch? Hilf uns, AntennaPod
+      zu übersetzen.
   support:
     text: Du kannst gut erklären? Hilf anderen in unserem Forum.
     title: Unterstützen
+    card-text: Du bist gut im Erklären? Hilf anderen Nutzern in unserem Forum.
   test:
     title: Testen
     text: Du bist gut darin, Dinge kaputt zu machen? Werde ein Beta-Tester.
+    card-text: Du bist gut darin, Dinge kaputt zu machen? Werde Beta-Tester.
   develop:
     title: Entwicklen
     text: Du schreibst Code? Hilf uns, Änderungen zu testen oder schreibe eigene neue
       Funktionen oder behebe Fehler in der App und Website.
+    card-text: Du kannst Programmieren? Hilf beim Testen von Pull Requests, erstelle
+      selbst neue Features oder fixe Bugs in der App oder der Webseite.
+    categories:
+      app:
+        card-text: Du sprichst Java? Finde heraus, wie du zur Entwicklung von AntennaPod
+          beitragen kannst.
+        title: App
+      website:
+        title: Website
+        card-text: Du kennst dich mit SCSS und HTML aus? Hilf uns bei unserer Website.
+      upstream:
+        title: Upstream und andere Projekte
+        card-text: Hilf uns, indem du dich an anderen Projekten beteiligst, auf die
+          wir angewiesen sind.
   promote:
     title: Werben
     text: Du schreibst einprägsame Tweets, interessante Blogbeiträge oder zeichnest
+      wunderschöne Grafiken? Hilf uns, für AntennaPod zu werben.
+    card-text: Du schreibst einprägsame Tweets, interessante Blogbeiträge oder zeichnest
       wunderschöne Grafiken? Hilf uns, für AntennaPod zu werben.
   design:
     title: Gestalten
     text: Du verwandelst komplexe Anfragen in verständliche Erzählungen oder Entwürfe?
       Hilf uns diese Probleme anzupacken.
+    card-text: Du verwandelst komplexe Anfragen in verständliche Erzählungen oder
+      Entwürfe? Hilf uns, diese Probleme zu lösen.
   donate:
     link: Ich möchte <a href="https://opencollective.com/antennapod" target="_blank"
       data-toggle="modal" data-target="#donationModal">Spenden</a>.
@@ -27,14 +49,40 @@ contribute:
     modal-button-chat: Besprich mit uns, wie du helfen kannst
     modal-button-contribute: Beitragsmöglichkeiten erneut anschauen
     modal-title: Bist du dir sicher, dass du spenden möchtest?
+    title: Spenden
+    card-text: Du hast keine Zeit und willst uns stattdessen Geld spenden.
   introduction: AntennaPod wird aktiv von Freiwilligen entwickelt. Du kannst auch
     beitragen – mit Code oder anderweitig!
+  intro: AntennaPod wird aktiv von Freiwilligen entwickelt. Du kannst ebenfalls etwas
+    beitragen, mit Code oder auf eine andere Weise!
 documentation:
   general:
     search-placeholder: Dokumentation durchsuchen
     no-results: Entschuldigung, keine Ergebnisse
     introduction: Willkommen im Dokumentationsbereich von AntennaPod. In diesem Bereich
       findest du Informationen zu den Funktionen der App.
+    proxy:
+      title: Daten durch einen Proxy oder Tor leiten
+    episode-deletion:
+      title: Episoden löschen
+    f-droid:
+      title: Updates auf F-Droid
+    other-platforms:
+      title: AntennaPod für Windows, Apple und Linux
+    beta:
+      title: Beta-Tests
+    central-distributed:
+      title: Zentrale und dezentrale Podcast-Apps
+    external-storage:
+      title: Externen Speicher verwenden
+    title: Allgemein
+    intro: Nachfolgend kannst du weitere Informationen zum AntennaPod-Projekt finden.
+    backup:
+      title: Deine Episoden sichern
+    synchronization:
+      title: Synchronisation zwischen Geräten
+    ads:
+      title: Über Werbung in AntennaPod
   categories:
     queue:
       intro: Unten findest du oft gestellte Fragen zur Warteschlange.
@@ -42,6 +90,7 @@ documentation:
       multiple-queues: Mehrere Warteschlangen verwenden
       title: Warteschlange
       lock: Warteschlange (ent)sperren
+      smart-shuffle: Schlaues Mischen verwenden
     subscriptions:
       title: Abonnements
       intro: Unten kannst du oft gestellte Fragen zu Abonnements finden.
@@ -85,11 +134,13 @@ documentation:
       auto-rewind: Automatisches Zurückspulen
       shortcuts: Hardware-Tastaturkürzel
       android-auto: Wiedergabe im Auto (Android Auto)
+      chromecast: Wiedergabe auf Google Chromecast
     getting-started:
       title: Erste Schritte
       intro: Willkommen bei AntennaPod! Im Folgenden findest du einige Informationen
         darüber, wie du AntennaPod nutzen kannst.
-      subscribe: Abonniere einen Podcast
+      subscribe: Einen Podcast abonnieren
+      home: Den Startbildschirm verwenden
     automation:
       title: Automatisierung
       deletion: Automatisches Löschen
@@ -97,6 +148,86 @@ documentation:
       intro: Du bist erfahren und möchtest Aufgaben automatisieren? Schau dir die
         unten gelisteten Seiten an.
       tasker: Integration in andere Anwendungen
+  search:
+    no-results: Leider nichts gefunden
+    placeholder: Dokumentation durchsuchen
+  getting-started:
+    title: Erste Schritte
+    subscribe:
+      title: Einen Podcast abonnieren
+    home:
+      title: Den Startbildschirm verwenden
+    intro: Willkommen bei AntennaPod! Unten kannst du herausfinden, wie du AntennaPod
+      nutzen kannst.
+  playback:
+    title: Wiedergabe
+    intro: Nachfolgend findest du Themen bezüglich der Wiedergabe.
+    auto-rewind:
+      title: Automatisches Zurückspulen
+    shortcuts:
+      title: Hardware-Tastaturkürzel
+    android-auto:
+      title: Wiedergabe im Auto (Android Auto)
+    chromecast:
+      title: Wiedergabe auf Google Chromecast
+  queue:
+    title: Warteschlange
+    smart-shuffle:
+      title: Schlaues Mischen verwenden
+    multiple-queues:
+      title: Mehrere Warteschlangen verwenden
+    lock:
+      title: Warteschlange (ent)sperren
+    intro: Nachfolgend findest du häufig gestellte Fragen zur Warteschlange.
+    how-to-use:
+      title: Warteschlange verwenden
+  subscriptions:
+    title: Abonnements
+    intro: Nachfolgend findest du häufig gestellte Fragen zu Abonnements.
+    subscription-groups:
+      title: Abonnement-Tags (auch Gruppen oder Kategorien genannt)
+  automation:
+    title: Automatisierung
+    intro: Du bist erfahren und möchtest Aufgaben automatisieren? Werfe einen Blick
+      auf die folgenden Seiten.
+    deletion:
+      title: Automatisches Löschen
+    refreshing-podcasts:
+      title: Podcasts aktualisieren
+    tasker:
+      title: Integration in andere Anwendungen
+  bugs-first-aid:
+    bug-report:
+      title: Etwas funktioniert nicht
+    typo-translations:
+      title: Ich habe einen Tipp- oder Rechtschreibfehler entdeckt
+    title: Bugs, Fehler und Erste Hilfe
+    intro: Software wird von Menschen erstellt, daher sind Fehler unvermeidbar. Aber
+      wir können etwas dagegen unternehmen!
+    database-error:
+      title: Alle meine Podcasts und Episoden sind weg
+    cannot-stream-download:
+      title: Episode lässt sich nicht herunterladen
+    episodes-missing:
+      title: Alte Episoden fehlen
+    playback-stops:
+      title: Wiedergabe stoppt plötzlich
+    refresh-download-errors:
+      title: Fehler beim Herunterladen oder Aktualisieren des Feeds
+    cannot-resume-playback:
+      title: Wiedergabe kann von Sperrbildschirm/Benachrichtigung nicht fortgesetzt
+        werden
+  podcasters-hosters:
+    list-podcast:
+      title: Deinen Podcast listen lassen
+    update-feed-urls:
+      title: Feed-URLs aktualisieren
+    title: Für Podcaster und Hoster
+    intro: Nachfolgend findest du unsere Support-Informationen für Podcaster und Hosting-Anbieter.
+    add-on-antennapod:
+      title: Einen „In AntennaPod öffnen“-Link erstellen
+  intro: Willkommen im Dokumentationsbereich von AntennaPod. In diesem Abschnitt findest
+    du Informationen zu den aktuellen Funktionen.
 long_month:
   October: Oktober
   July: Juli
@@ -154,6 +285,8 @@ generic:
   next: Weiter
   previous: Zurück
   error404: Fehler 404
+  subscribe-subtitle: Klicke hier, um diesen Podcast auf AntennaPod oder einer anderen
+    Podcast-App zu abonnieren.
 month:
   Jun: Jun
   Jul: Jul
@@ -204,12 +337,12 @@ events:
     open-blog: Blogbeitrag lesen
     watch-recording: Aufnahme anschauen
   general:
-    recurring: Wiederkehrende Veranstaltung
+    recurring: Wiederkehrendes Ereignis
     download-ics: ICS-Datei herunterladen
     copy-url: Kalender-URL kopieren
     announce-add-calendar: Du möchtest immer die neuesten Veranstaltungen und aktuellen
       Informationen über die Community zur Hand haben? Dann abonniere unseren Kalender
-      in deiner Lieblings-App über den Link "Zum Kalender hinzufügen"!
+      in deiner Lieblings-App über den Link „Zum Kalender hinzufügen“!
   recurrence:
     every-2nd-saturday: jeden zweiten Samstag im Monat
     2nd-4th-wednesday: (fast jeden) zweiten und vierten Mittwoch im Monat

@@ -37,6 +37,7 @@ jobs:
       - run: ls -al
       - name: Install mdpo
         run: |
+          sudo apt-get install libmd4c-html0 libmd4c-html0-dev libmd4c-dev
           pip install mdpo
           po2md --version
       - name: Set languages

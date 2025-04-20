@@ -1,56 +1,48 @@
-{% capture img-transifex %} {% include image.html alt="
-
-       Resumen de recursos en Transifex
-
-       "
-
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
-
-{% capture img-weblate %} {% include image.html alt="
-
-       Resumen de componentes en Weblate
-
-       "
-
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
-
 De una [población mundial](https://en.wikipedia.org/wiki/World_population) estimada en 7.900 millones de personas, "solo" 1.500 millones [hablan inglés](https://www.ethnologue.com/insights/ethnologue200/). Puede que esto no signifique mucho per se. Pero, en todo caso, podemos concluir que hacer que AntennaPod esté disponible en más idiomas hace que la aplicación sea accesible a más personas. Como beneficio secundario, la localización de la aplicación también ayuda a que nuestro proyecto crezca más allá de las principales bases de usuarios actuales (Alemania y Estados Unidos).
 
 ¡Por ello, apreciamos mucho tu colaboración!
 
-# La aplicación
+Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [Weblate](https://hosted.weblate.org/projects/antennapod/app/). Cualquiera puede registrarse allí y empezar. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
 
-Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [Transifex](https://www.transifex.com/antennapod/antennapod/). Cualquiera puede registrarse ahí y empezar a contribuir. Transifex tiene guías útiles para [iniciarse en su plataforma](https://docs.transifex.com/getting-started-1/translators) y para [familiarizarse con la interfaz del Editor Web](https://docs.transifex.com/translation/translating-with-the-web-editor).
+{% capture img-translationstatus %} {% include image.html alt="
 
-Bajo el proyecto de AntennaPod encontrarás tres 'recursos':
+       Graph with status of AntennaPod translations on Weblate.
 
-- La propia aplicación
-- La breve descripción de una frase para las tiendas de aplicaciones
-- La descripción más elaborada para las tiendas de aplicaciones
+       "
 
-{{ img-transifex | strip }}
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
-La aplicación actualmente está disponible en 34 idiomas. Aunque hay más idiomas en Transifex, no los incluimos en la aplicación. Intentamos mantener un [umbral del 40% de finalización](https://github.com/AntennaPod/AntennaPod/pull/4112) para los idiomas. Si se baja de ese porcentaje, la aplicación apenas ofrece una buena experiencia de usuario.
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## La aplicación
 
-Las traducciones traducciones se extraen de Transifex a GitHub (la plataforma de desarrollo) al menos para cada 'versión puntual'. Se trata de versiones como la 2.0, la 2.5, etc., que introducen nuevas características. Pero también lanzamos actualizaciones con correcciones de errores y nuevas traducciones entre medias. De media, pueden pasar uno o dos meses antes de que tu trabajo esté disponible en una versión.
+Actualmente, la aplicación está disponible en más de 38 idiomas. Aunque hay más idiomas en Weblate, no los incluimos en la aplicación. Intentamos mantener un umbral del 40% de idiomas completados. Si es inferior, la aplicación apenas ofrece una buena experiencia al usuario.
 
-Los colaboradores de traducción se encontrarán mencionados en la aplicación con su nombre de usuario de Transifex, en `Configuración` » `Acerca` » `Contribuyentes`.
+Las nuevas traducciones se transfieren de Weblate a GitHub (la plataforma de desarrollo) al menos cada vez que se lanza una "versión puntual". Se trata de versiones como 2.0, 2.5, etc. que introducen nuevas funciones. Pero también lanzamos actualizaciones con correcciones de errores y nuevas traducciones. Por término medio, pueden pasar uno o dos meses antes de que tu trabajo esté disponible en una versión.
 
-# El sitio web
+Los colaboradores en la traducción aparecerán mencionados en la aplicación con su nombre de usuario de Weblate, en `Configuración` " `Acerca de` " `Colaboradores`.
 
-Por varias razones (mencionadas en una [entrada sobre las traducciones de la web](/blog/2022/01/website-translations)) utilizamos un sistema de traducciones diferentes para el sitio web. [Weblate](https://hosted.weblate.org/projects/antennapod/). Cualquiera puede registrarse allí y empezar a contribuir. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
+## El sitio web
 
-En el proyecto AntennaPod, encontrarás cuatro 'componentes'. Cada uno representa una parte del sitio web. Te animamos a que empieces por los componentes `General` y el `Cadenas cortas`, porque serán los primeros elementos que vea un usuario en la web. El componente `Documentación` es una segunda prioridad muy cercana, porque esta sección está directamente disponible a través de la aplicación cuando la gente toca en Soporte. El componente `Contribuir` queda en último lugar, ya que se necesita un conocimiento básico del inglés para interactuar con la comunidad.
+The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
-{{ img-weblate | strip }}
+1. **General** and **Short strings**: the first elements a user sees on the website
+1. **Documentation**: our support materials, which are directly available via the app
+1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
-De vez en cuando, las traducciones nuevas se transfieren manualmente de Weblate a GitHub (la plataforma de desarrollo). Cuando un idioma alcanza el 90% de traducción (esto es, aproximadamente, todo el sitio web menos la sección Contribute), podemos habilitarlo en el sitio web real. Siempre intentamos encontrar un miembro de la comunidad que pueda revisar una versión de prueba del sitio web, para mejorar la calidad de las traducciones.
+Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
-# Otros materiales
+## 3. The app store listings
 
-Además de la aplicación y el sitio web, también se pueden traducir las imágenes de las tiendas de aplicaciones. Tienen capturas de pantalla y textos. Debido a que el espacio es muy limitado, utilizamos un proceso manual con ensayo y error. Por favor, háganoslo saber en el foro si desea ayudar con eso. Dado que los listados localizados de las tiendas de aplicaciones tienen más probabilidades de ser descargados, ¡la ayuda es muy bienvenida!
+In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
 
-# ¡Ponte en contacto!
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
+
+We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+
+## ¡Ponte en contacto!
 
 * ¿Quieres darnos **opiniones** sobre los textos en Inglés o alguna de las traducciones?
 * ¿Estás **interesado en ayudar** con las traducciones pero aún no estás seguro?¿O ya estás listo para empezar?

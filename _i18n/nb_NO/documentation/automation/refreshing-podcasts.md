@@ -1,0 +1,5 @@
+Som standard oppdateres alle podkaster hver tolvte time for å finne nye. Via `Innstillinger` → `Nettverk` → `Oppdater podkaster` kan du endre intervallet, velge et spesielt tidspunkt på dagen, eller skru av automatiske oppdateringer.
+
+Du kan også slå av denne prosessen for individuelle podkaster hvis det ikke er nødvendig å holde en podkast oppdatert. Du kan for eksempel bruke dette hvis det ikke lenger publiseres nye episoder for en podkast. Eller når du har lagt til en podkast som du bare vil lytte til en episode av og til. Du kan angi dette ved å gå til en podkast, trykke på `tannhjul`-ikonet og endre innstillingen `Hold oppdatert`.
+
+Når du slår av denne podkastinnstillingen, vil podkasten ikke lenger oppdateres når podkaster oppdateres automatisk eller når du starter denne prosessen fra køen eller episoder-skjermen. Du kan fortsatt oppdatere podkasten noe som vil bringe nye episoder til AntennaPod. Men disse nye episodene vil ikke være synlige i Ny-fanen på Episoder-skjermen.

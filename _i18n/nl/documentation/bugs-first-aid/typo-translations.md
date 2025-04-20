@@ -2,7 +2,7 @@ Heb je een spelfout gevonden, of iets dat vreemd klinkt? Het kan altijd zijn dat
 
 # Wil je het zelf oplossen?
 
-Als het probleem zich in een andere taal dan het Engels voordoet, kunt je **app-vertalingen** bijwerken op [Transifex](https://www.transifex.com/antennapod/antennapod/core-values/). Problemen met de **website-vertalingen** kunnen worden opgelost op [Weblate](https://hosted.weblate.org/projects/antennapod/). Er is [meer informatie in onze sectie over bijdragen](/contribute/translate).
+Als het probleem zich in een andere taal dan het Engels voordoet, kunt je vertalingen bijwerken op [Weblate](https://hosted.weblate.org/projects/antennapod/). Er is [meer informatie in onze sectie over bijdragen](/contribute/translate).
 
 Is er een probleem in de **Engelse teksten**? Dan moet je bekend zijn of vertrouwd raken met GitHub. Stuur een Pull Request voor [de app](https://github.com/AntennaPod/AntennaPod/) of voor [de website](https://github.com/AntennaPod/antennapod.github.io).
 

@@ -1,11 +1,10 @@
 ---
-title: documentation.categories.automation.deletion
+texts: documentation.automation.deletion
 layout: doc
-level: "2"
-group: "automation"
+parent: automation
 icon: "fa-solid fa-trash"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

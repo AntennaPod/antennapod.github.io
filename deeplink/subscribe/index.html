@@ -1,6 +1,7 @@
 ---
 layout: internal
 title: generic.subscribe
+excerpt: generic.subscribe-subtitle
 ---
 
 <div class="container-fluid">
@@ -40,7 +41,7 @@ title: generic.subscribe
     const url = urlParams.get("url");
     urlTextBox.textContent = url;
     subscribeButton.onclick = () => {
-      window.open("antennapod-subscribe://" + url);
+      window.open("antennapod-subscribe://" + url.replace(/^https?:\/\//g, ''));
     };
   }
 </script>

@@ -7,7 +7,7 @@ Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene Automatisie
 
 ## Allgemeine Anweisungen
 
-In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als "Android-Intent" angezeigt werden) mit den folgenden Einstellungen sendest:
+In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als „Android-Intent“ angezeigt werden) mit den folgenden Einstellungen sendest:
 
 - Paketname: `de.danoeh.antennapod`
 - Klassenname: `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
@@ -36,7 +36,7 @@ Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu
 
 Erstelle ein Ereignis (Llama-Automatisierungsregel). In dem Ereignis,
 
-1. Füge eine Aktion vom Typ "Android Intent" hinzu.
+1. Füge eine Aktion vom Typ „Android-Intent“ hinzu.
 1. Lege den Sendemodus für den Intent als `Broadcast` fest.
 1. Gib als Paketname `de.danoeh.antennapod` an
 1. Gib als Klassenname `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` an

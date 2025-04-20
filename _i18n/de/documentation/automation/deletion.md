@@ -4,7 +4,7 @@ AntennaPod verfügt über mehrere Mechanismen, die sicherstellen, dass herunterg
 
 ## Automatisch löschen
 
-Automatisches Löschen befindet sich in `Einstellungen` » `Speicher`. Wenn diese Option aktiviert ist, werden Episoden gelöscht, wenn die Wiedergabe beendet ist (nicht aber, wenn eine Episode manuell als 'abgespielt' markiert wird).
+Automatisches Löschen befindet sich in `Einstellungen` » `Speicher`. Wenn diese Option aktiviert ist, werden Episoden gelöscht, wenn die Wiedergabe beendet ist (nicht aber, wenn eine Episode manuell als „abgespielt“ markiert wird).
 
 ## Automatisches Löschen
 

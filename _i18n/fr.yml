@@ -39,6 +39,11 @@ generic:
   home: Accueil
   download: Télécharger
   view: Voir tout
+  next: Suivant
+  error404: Erreur 404
+  subscribe-subtitle: Cliquer pour vous abonner à ce podcast sur AntennaPod ou n'importe
+    quelle autre application de podcast.
+  previous: Précédent
 month:
   Jan: Jan
   Feb: Fév
@@ -96,25 +101,44 @@ contribute:
   translate:
     title: Traduire
     text: Vous parlez une autre langue que l'anglais ? Aidez-nous à traduire AntennaPod.
+    card-text: Vous parlez une autre langue que l'anglais ? Aidez-nous à traduire
+      AntennaPod.
   support:
     title: Assistance
     text: Vous savez bien expliquer ? Aidez les autres utilisateurs sur notre forum.
+    card-text: Vous savez bien expliquer ? Aidez les autres utilisateurs sur notre
+      forum.
   develop:
     title: Développer
     text: Vous écrivez du code ? Contribuez à examiner les demandes de fusion ou à
       soumettre de nouvelles fonctionnalités ou des corrections de bugs pour l'application
       ou le site Web.
+    categories:
+      app:
+        title: Application
+        card-text: Tu parles Java ? Découvre comment contribuer à l'application AntennaPod.
+      website:
+        title: Site internet
+        card-text: Tu es familier avec SCSS et HTML ? Aide-nous avec notre site internet.
+    card-text: Vous écrivez du code ? Contribuez à examiner les demandes de fusion
+      ou à soumettre de nouvelles fonctionnalités ou des corrections de bugs pour
+      l'application ou le site Web.
   promote:
     title: Promouvoir
     text: Vous rédigez des tweets accrocheurs, des blogs intéressants ou de merveilleux
       graphiques ? Aidez-nous à faire passer le message.
+    card-text: Vous rédigez des tweets accrocheurs, des blogs intéressants ou de merveilleux
+      graphiques ? Aidez-nous à faire passer le message.
   design:
     title: Concevoir
     text: Vous transformez des demandes complexes en récits d'utilisateurs ou en maquettes
       compréhensibles ? Aidez-nous à résoudre ces problèmes.
+    card-text: Vous transformez des demandes complexes en récits d'utilisateurs ou
+      en maquettes compréhensibles ? Aidez-nous à résoudre ces problèmes.
   test:
     text: Vous êtes doué pour casser des trucs ? Devenez bêta-testeur.
     title: Tester
+    card-text: Vous êtes doué pour casser des trucs ? Devenez bêta-testeur.
   donate:
     link: Je souhaite <a href="https://opencollective.com/antennapod" target="_blank"
       data-toggle="modal" data-target="#donationModal">faire un don</a>.
@@ -122,12 +146,34 @@ contribute:
     modal-button-donate: Donner quand même
     modal-button-chat: Discutez avec nous de la manière dont vous pouvez nous aider
     modal-button-contribute: Vérifiez à nouveau les options de contribution
+  intro: AntennaPod est en plein développement par des personnes bénévoles. Vous pouvez
+    également contribuer, avec du code ou autre chose !
 documentation:
   general:
     search-placeholder: Rechercher dans la documentation
     no-results: Désolé, rien n'a été trouvé
     introduction: Bienvenue dans la documentation d'AntennaPod. Cette section a pour
       but de fournir des informations sur les fonctionnalités actuelles.
+    title: Général
+    intro: Ci-dessous, vous trouverez plus d'informations à propos du projet AntennaPod.
+    backup:
+      title: Sauvegarder vos épisodes
+    beta:
+      title: Bêta-testing
+    other-platforms:
+      title: AntennaPod pour Windows, Apple, et Linux
+    central-distributed:
+      title: Applications de podcasts centralisées et distribuées
+    external-storage:
+      title: Utiliser le stockage externe
+    synchronization:
+      title: Comment synchroniser entre les appareils
+    proxy:
+      title: Transfert du trafic par un proxy ou un réseau Tor
+    episode-deletion:
+      title: Suppression d'épisodes
+    f-droid:
+      title: Mises à jour sur F-Droid
   categories:
     getting-started:
       title: Commencer
@@ -135,6 +181,7 @@ documentation:
         sur la façon de démarrer avec AntennaPod.
       subscribe: S'abonner un à podcast
       episodes-missing: Des épisodes sont manquants
+      home: Utiliser l'écran d'accueil
     general:
       title: Général
       intro: Ci-dessous, vous trouverez plus d'informations à propos du projet AntennaPod.
@@ -150,6 +197,7 @@ documentation:
       proxy: Transfert du trafic par un proxy ou un réseau Tor
       synchronization: Comment synchroniser entre les appareils
       f-droid: Mises à jour sur F-Droid
+      other-platforms: AntennaPod pour Windows, Apple et Linux
     playback:
       title: Lecture
       intro: Ci-dessous, vous trouverez des sujets relatifs à la lecture.
@@ -157,6 +205,7 @@ documentation:
       crashes: Que faire si la lecture s'arrête
       shortcuts: Raccourcis clavier
       android-auto: Lecture dans les voitures (Android Auto)
+      chromecast: Lecture sur Google Chromecast
     queue:
       how-to-use: Comment utiliser la file d'attente
       lock: (Dé)Verrouiller la file d'attente
@@ -164,6 +213,7 @@ documentation:
       title: File d'attente
       intro: Ci-dessous, vous trouverez les questions fréquentes concernant la file
         d'attente.
+      smart-shuffle: Comment utiliser le tri intelligent
     subscriptions:
       title: Abonnements
       intro: Ci-dessous, vous trouverez les questions fréquentes concernant les abonnements.
@@ -183,6 +233,7 @@ documentation:
         et les hébergeurs de podcasts.
       add-on-antennapod: Créer un lien « Ouvrir dans AntennaPod »
       list-podcast: Répertorier votre podcast
+      update-feed-urls: Mise à jour des liens URL
     bugs-first-aid:
       title: Problèmes, erreurs et aide
       intro: La création de logiciels est une activité humaine, et les erreurs sont
@@ -195,6 +246,91 @@ documentation:
       cannot-stream-download: Impossible de télécharger un épisode
       playback-stops: La lecture s’arrête soudainement
       refresh-download-errors: Erreur de téléchargement ou de mise à jour du flux
+      cannot-resume-playback: Impossible de reprendre la lecture à partir de l'écran
+        de verrouillage / des notifications
+  playback:
+    shortcuts:
+      title: Raccourcis clavier
+    title: Lecture
+    intro: Ci-dessous, vous trouverez des sujets relatifs à la lecture.
+    auto-rewind:
+      title: Retour en arrière automatique
+    android-auto:
+      title: Lecture dans les voitures (Android Auto)
+    chromecast:
+      title: Lecture sur Google Chromecast
+  queue:
+    title: Lecture
+    intro: Ci-dessous, vous trouverez les questions fréquentes concernant la file
+      d'attente.
+    how-to-use:
+      title: Comment utiliser la file d'attente
+    lock:
+      title: (Dé)Verrouiller la file d'attente
+    smart-shuffle:
+      title: Comment utiliser le tri intelligent
+    multiple-queues:
+      title: Comment utiliser plusieurs files d'attente
+  automation:
+    title: Automatisation
+    deletion:
+      title: Suppression automatique
+    intro: Vous êtes un utilisateur avancé et souhaitez automatiser certaines tâches ?
+      Consultez les pages ci-dessous.
+    refreshing-podcasts:
+      title: Mise à jour des podcasts
+    tasker:
+      title: Intégration avec d'autres applications
+  podcasters-hosters:
+    update-feed-urls:
+      title: Mise à jour des liens URL
+    list-podcast:
+      title: Répertorier votre podcast
+    title: Pour les créateurs et les hébergeurs de podcasts
+    intro: Ci-dessous, vous trouverez nos informations d'assistance pour les diffuseurs
+      et les hébergeurs de podcasts.
+    add-on-antennapod:
+      title: Créer un lien « Ouvrir dans AntennaPod »
+  getting-started:
+    home:
+      title: Utiliser l'écran d'accueil
+    title: Pour commencer
+    intro: Bienvenue sur AntennaPod ! Ci-dessous, vous trouverez quelques informations
+      sur la façon de démarrer avec AntennaPod.
+    subscribe:
+      title: S'abonner un à podcast
+  intro: Bienvenue dans la documentation d'AntennaPod. Cette section a pour but de
+    fournir des informations sur les fonctionnalités actuelles.
+  search:
+    placeholder: Rechercher dans la documentation
+    no-results: Désolé, rien n'a été trouvé
+  subscriptions:
+    title: Abonnements
+    intro: Ci-dessous, vous trouverez les questions fréquentes concernant les abonnements.
+    subscription-groups:
+      title: Étiquettes d'abonnement (ou groupes ou catégories)
+  bugs-first-aid:
+    title: Problèmes, erreurs et aide
+    intro: La création de logiciels est une activité humaine, et les erreurs sont
+      inévitables. Mais il y a souvent quelque chose que nous pouvons faire pour y
+      remédier !
+    bug-report:
+      title: Quelque chose ne fonctionne pas
+    typo-translations:
+      title: J'ai trouvé une faute de frappe ou d'orthographe
+    database-error:
+      title: Tous mes podcasts et épisodes ont disparu
+    cannot-stream-download:
+      title: Impossible de télécharger un épisode
+    episodes-missing:
+      title: Les anciens épisodes sont manquants
+    playback-stops:
+      title: La lecture s’arrête soudainement
+    cannot-resume-playback:
+      title: Impossible de reprendre la lecture à partir de l'écran de verrouillage
+        / des notifications
+    refresh-download-errors:
+      title: Erreur de téléchargement ou de mise à jour du flux
 footer:
   description: Le gestionnaire de podcasts simple, flexible et open-source pour Android.
 events:
@@ -215,3 +351,7 @@ events:
     watch-recording: Regarder l'enregistrement
   recurrence:
     every-2nd-saturday: Chaque second Samedi du mois
+    2nd-4th-wednesday: (presque tous) les deuxièmes et quatrième mercredi du mois
+not-installed:
+  title: AntennaPod non installé
+  text: AntennaPod n'est pas installé ou votre navigateur ne peut pas l'ouvrir directement.

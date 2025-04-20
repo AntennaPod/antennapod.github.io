@@ -21,11 +21,13 @@ contribute:
   support:
     title: Supporto
     text: Te la cavi bene a spiegare le cose? Aiuta altri utenti sul nostro forum.
+    card-text: Te la cavi bene a spiegare le cose? Aiuta altri utenti sul nostro forum.
   introduction: AntennaPod è sviluppata attivamente da volontari. Anche tu puoi contribuire,
     scrivendo il codice o in altri modi!
   translate:
     title: Traduzione
     text: Parli altre lingue oltre all'inglese? Aiutaci a tradurre AntennaPod.
+    card-text: Parli altre lingue oltre all'inglese? Aiutaci a tradurre AntennaPod.
   donate:
     modal-title: Sei sicuro di voler fare una donazione?
     link: Voglio fare una <a href="https://opencollective.com/antennapod" target="_blank"
@@ -33,21 +35,42 @@ contribute:
     modal-button-donate: Fai comunque una donazione
     modal-button-contribute: Controlla di nuovo i modi in cui contribuire
     modal-button-chat: Discuti con noi di come puoi aiutarci
+    title: Fai una donazione
+    card-text: Non ti è possibile donare il tuo tempo e vuoi fare una donazione.
   test:
     title: Test
     text: Rompere le cose ti riesce bene? Diventa beta tester.
+    card-text: Rompere le cose ti riesce bene? Diventa beta tester.
   develop:
     title: Sviluppo
     text: Sai scrivere codice? Aiutaci a testare le richieste pull, invia nuove funzioni
       oppure risolvi dei bug nell'applicazione o nel sito web.
+    card-text: Sai scrivere codice? Aiutaci a testare le richieste pull, aggiungi
+      nuove funzionalità oppure risolvi dei bug nell'app o nel sito web.
+    categories:
+      app:
+        title: App
+        card-text: Te ne intendi di Java? Scopri come contribuire all'app di AntennaPod.
+      upstream:
+        title: Progetti a monte e altri
+        card-text: Aiutaci contribuendo ad altri progetti su cui facciamo affidamento.
+      website:
+        title: Sito web
+        card-text: Sei a tuo agio con SCSS e HTML? Aiutaci con il nostro sito web.
   promote:
     title: Promozione
     text: Sai scrivere tweet accattivanti, articoli di blog interessanti o crei delle
       grafiche meravigliose? Aiutaci a spargere la voce.
+    card-text: Sai scrivere tweet accattivanti, articoli di blog interessanti o crei
+      delle grafiche meravigliose? Aiutaci a spargere la voce.
   design:
     title: Design
     text: Sei in grado di trasformare richieste complesse degli utenti in user story
       o wireframe comprensibili? Aiutaci ad affrontare questi problemi.
+    card-text: Sei in grado di trasformare richieste complesse in user story o wireframe
+      comprensibili? Aiutaci ad affrontare questi problemi.
+  intro: AntennaPod è sviluppata attivamente da volontari. Anche tu puoi contribuire,
+    scrivendo il codice o in altri modi!
 blog:
   posted: Pubblicato il
 readtime:
@@ -85,6 +108,8 @@ generic:
   previous: Precedente
   next: Successivo
   error404: Errore 404
+  subscribe-subtitle: Clicca per iscriverti a questo podcast su AntennaPod o su qualsiasi
+    altra app di podcast.
 titles:
   blog: Blog
   contribute: Contribuisci
@@ -129,12 +154,35 @@ documentation:
     no-results: Spiacente, nessun risultato
     introduction: Benvenuto nella sezione Documentazione di AntennaPod. Questa sezione
       si propone di fornire informazioni sulle funzionalità esistenti.
+    f-droid:
+      title: Aggiornamenti su F-Droid
+    other-platforms:
+      title: AntennaPod per Windows, Apple e Linux
+    title: Generale
+    backup:
+      title: Fare il backup dei tuoi episodi
+    beta:
+      title: Beta testing
+    central-distributed:
+      title: App di podcast centralizzate e distribuite
+    intro: Qui di seguito puoi trovare maggiori dettagli sul progetto AntennaPod.
+    external-storage:
+      title: Usare una memoria esterna
+    synchronization:
+      title: Come sincronizzare più dispositivi
+    episode-deletion:
+      title: Eliminare episodi
+    ads:
+      title: A proposito delle pubblicità in AntennaPod
+    proxy:
+      title: Indirizzare il traffico attraverso un proxy o la rete Tor
   categories:
     getting-started:
-      title: Per cominciare
+      title: Per iniziare
       intro: Benvenuto su AntennaPod! Qui di seguito puoi trovare alcune informazioni
         per iniziare a utilizzare AntennaPod.
       subscribe: Iscriversi a un podcast
+      home: Usare la schermata Home
     general:
       backup: Fare il backup dei tuoi episodi
       intro: Qui di seguito puoi trovare maggiori dettagli sul progetto AntennaPod.
@@ -154,12 +202,14 @@ documentation:
       shortcuts: Scorciatoie da tastiera
       intro: Di seguito potrai trovare argomenti relativi alla riproduzione.
       android-auto: Riproduzione in auto (Android Auto)
+      chromecast: Riproduzione su Google Chromecast
     queue:
       title: Coda
       lock: (S)bloccare la coda
       intro: Qui di seguito puoi trovare le domande più frequenti riguardo alla coda.
       how-to-use: Come usare la coda
       multiple-queues: Come utilizzare code multiple
+      smart-shuffle: Come utilizzare la modalità casuale intelligente
     subscriptions:
       intro: Qui di seguito puoi trovare le domande più frequenti riguardo alle iscrizioni.
       listening-without-subscribing: Ascoltare un episodio senza iscriversi
@@ -192,6 +242,87 @@ documentation:
         e fornitori di hosting.
       list-podcast: Come far includere il tuo podcast nel catalogo
       update-feed-urls: Aggiornare l'URL di un feed
+  queue:
+    title: Coda
+    smart-shuffle:
+      title: Come utilizzare la modalità casuale intelligente
+    multiple-queues:
+      title: Come utilizzare più code
+    intro: Qui di seguito puoi trovare le domande più frequenti riguardo alla coda.
+    how-to-use:
+      title: Come usare la coda
+    lock:
+      title: (S)bloccare la coda
+  playback:
+    chromecast:
+      title: Riproduzione su Google Chromecast
+    title: Riproduzione
+    auto-rewind:
+      title: Riavvolgimento automatico
+    intro: Di seguito puoi trovare argomenti relativi alla riproduzione.
+    shortcuts:
+      title: Scorciatoie da tastiera
+    android-auto:
+      title: Riproduzione in auto (Android Auto)
+  subscriptions:
+    title: Iscrizioni
+    intro: Qui di seguito puoi trovare le domande più frequenti riguardo alle iscrizioni.
+    subscription-groups:
+      title: Tag delle iscrizioni (cioè gruppi o categorie)
+  bugs-first-aid:
+    database-error:
+      title: Tutti i miei podcast e i miei episodi sono spariti
+    cannot-stream-download:
+      title: Non riesco a scaricare un episodio
+    cannot-resume-playback:
+      title: Impossibile riprendere la riproduzione dalla schermata di blocco / dalla
+        notifica
+    title: Bug, errori e primo soccorso
+    intro: Creare software è un'attività umana, quindi gli errori sono inevitabili.
+      Ma spesso è possibile rimediare!
+    bug-report:
+      title: Qualcosa non funziona
+    typo-translations:
+      title: Ho trovato un errore di battitura o di ortografia
+    episodes-missing:
+      title: Mancano gli episodi più vecchi
+    playback-stops:
+      title: La riproduzione si interrompe all'improvviso
+    refresh-download-errors:
+      title: Errore nel download o nell'aggiornamento del feed
+  podcasters-hosters:
+    title: Per podcaster ed editori
+    update-feed-urls:
+      title: Aggiornare l'URL di un feed
+    intro: Di seguito puoi trovare le nostre informazioni di supporto per podcaster
+      e fornitori di hosting.
+    add-on-antennapod:
+      title: Crea un link "Apri in AntennaPod"
+    list-podcast:
+      title: Come far includere il tuo podcast nel catalogo
+  intro: Benvenuto nella sezione Documentazione di AntennaPod. Questa sezione si propone
+    di fornire informazioni sulle funzionalità esistenti.
+  search:
+    placeholder: Cerca nella documentazione
+    no-results: Spiacente, nessun risultato
+  getting-started:
+    title: Per iniziare
+    intro: Benvenuto su AntennaPod! Qui di seguito puoi trovare alcune informazioni
+      per iniziare a utilizzare AntennaPod.
+    subscribe:
+      title: Iscriversi a un podcast
+    home:
+      title: Usare la schermata Home
+  automation:
+    title: Automazione
+    intro: Sei un utente esperto che vuole automatizzare le attività? Dai un'occhiata
+      alle pagine qui sotto.
+    deletion:
+      title: Eliminazione automatica
+    refreshing-podcasts:
+      title: Aggiornamento podcast
+    tasker:
+      title: Integrazione con altre app
 footer:
   description: Il gestore di podcast per Android semplice da usare, flessibile e open source.
 events:

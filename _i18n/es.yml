@@ -20,7 +20,7 @@ generic:
   accessibility:
     lang-menu: Selección de idioma
     copy: Copiar el enlace
-    copied: ¡Link copiado!
+    copied: ¡Enlace copiado!
     copy-fail: Por favor, copia la URL desde la barra de direcciones.
     share-fb: Compartir en Facebook
     share-md: Compartir en Mastodon
@@ -42,6 +42,8 @@ generic:
   next: Siguiente
   previous: Anterior
   error404: Error 404
+  subscribe-subtitle: Haga clic para suscribirse a este podcast en AntennaPod o en
+    cualquier otra aplicación de podcast.
 month:
   Feb: feb
   Mar: mar
@@ -97,24 +99,36 @@ contribute:
   translate:
     title: Traducir
     text: ¿Hablas algún otro idioma aparte de Inglés? Ayúdanos a traducir AntennaPod.
+    card-text: ¿Hablas algún otro idioma aparte de Inglés? Ayúdanos a traducir AntennaPod.
   support:
     title: Ayudar
     text: ¿Puedes explicar bien? Ayuda a otros usuarios en el foro.
+    card-text: ¿Puedes explicar bien? Ayuda a otros usuarios en el foro.
   test:
     title: Probar
     text: ¿Se te da bien romper cosas? Conviértete en beta tester.
+    card-text: ¿Se te da bien romper cosas? Conviértete en beta tester.
   develop:
     title: Desarrollar
     text: ¿Escribes código? Ayuda a probar pull requests o presenta características
+      nuevas o soluciones de errores para la aplicación o el sitio web.
+    categories:
+      app:
+        title: Aplicación
+    card-text: ¿Escribes código? Ayuda a probar pull requests o presenta características
       nuevas o soluciones de errores para la aplicación o el sitio web.
   promote:
     title: Promocionar
     text: ¿Puedes escribir tweets pegadizos, blogs interesantes o hacer gráficos maravillosos?
       Ayuda a difundir el proyecto.
+    card-text: ¿Puedes escribir tweets pegadizos, blogs interesantes o hacer gráficos
+      maravillosos? Ayuda a difundir el proyecto.
   design:
     title: Diseñar
     text: ¿Puedes convertir peticiones complejas en "user stories" comprensibles o
       "wireframes"? Ayuda a solucionar estos problemas.
+    card-text: ¿Puedes convertir peticiones complejas en "user stories" comprensibles
+      o "wireframes"? Ayuda a solucionar estos problemas.
   introduction: AntennaPod está siendo desarrollada activamente por gente voluntaria.
     ¡Tú también puedes contribuir, mediante código o de otra manera!
   donate:
@@ -124,18 +138,43 @@ contribute:
     modal-button-donate: Donar de todas formas
     modal-button-chat: Comente con nosotros cómo puede ayudar
     modal-button-contribute: Verifique las opciones para contribuir nuevamente
+  intro: AntennaPod está siendo desarrollada activamente por gente voluntaria. ¡Tú
+    también puedes contribuir, mediante código o de otra manera!
 documentation:
   general:
     introduction: Bienvenida a la sección de documentación de AntennaPod. Esta sección
       busca proporcionar información sobre las características actuales.
     search-placeholder: Buscar en la documentación
     no-results: Lo sentimos, no se ha encontrado nada
+    beta:
+      title: Pruebas beta
+    central-distributed:
+      title: Aplicaciones de podcasts centralizadas y distribuidas
+    title: General
+    intro: Más abajo, puedes encontrar más detalles sobre el proyecto Antennapod.
+    ads:
+      title: Acerca de los anuncios en AntennaPod
+    backup:
+      title: Haciendo copias de seguridad de tus episodios
+    external-storage:
+      title: Utilizando almacenamiento externo
+    synchronization:
+      title: Cómo sincronizar entre dispositivos
+    proxy:
+      title: Dirigiendo el Tráfico a través de un proxy o la red Tor
+    episode-deletion:
+      title: Eliminación de episodios
+    f-droid:
+      title: Actualizaciones en F-Droid
+    other-platforms:
+      title: AntennaPod para Windows, Apple y Linux
   categories:
     getting-started:
       title: Empezando
       intro: ¡Bienvenido a AntennaPod! Más abajo, puedes encontrar algunos detalles
         sobre como empezar a utilizar AntennaPod.
       subscribe: Suscribirse a un podcast
+      home: Utilizar la pantalla de inicio
     general:
       ads: Acerca de los anuncios en AntennaPod
       backup: Haciendo copias de seguridad de tus episodios
@@ -158,12 +197,14 @@ documentation:
       shortcuts: Atajos de teclado
       auto-rewind: Rebobinado automático
       android-auto: Reproducir en coches (Android Auto)
+      chromecast: Reproducción en Google Chromecast
     queue:
       title: Cola
       how-to-use: Cómo utilizar la cola
       intro: Más abajo, puedes encontrar preguntas frecuentes sobre la cola.
       lock: (Des)bloqueando la cola
       multiple-queues: Cómo utilizar múltiples colas
+      smart-shuffle: Cómo utilizar la reproducción aleatoria inteligente
     subscriptions:
       title: Suscripciones
       subscription-groups: Etiquetas de suscripción (grupos o categorías)
@@ -196,6 +237,86 @@ documentation:
       add-on-antennapod: Crear un enlace 'Abrir en Antennapod'
       list-podcast: Listar tu podcast
       update-feed-urls: Actualizando las direcciones url de los feeds
+  search:
+    no-results: Lo sentimos, no se ha encontrado nada
+    placeholder: Buscar en la documentación
+  getting-started:
+    title: Empezando
+    intro: ¡Bienvenido a AntennaPod! Más abajo, puedes encontrar algunos detalles
+      sobre como empezar a utilizar AntennaPod.
+    subscribe:
+      title: Suscribirse a un podcast
+    home:
+      title: Utilizar la pantalla de inicio
+  queue:
+    how-to-use:
+      title: Cómo utilizar la cola
+    lock:
+      title: (Des)bloqueando la cola
+    smart-shuffle:
+      title: Cómo utilizar la reproducción aleatoria inteligente
+    multiple-queues:
+      title: Cómo utilizar múltiples colas
+    title: Cola
+    intro: Más abajo, puedes encontrar preguntas frecuentes sobre la cola.
+  subscriptions:
+    title: Suscripciones
+    subscription-groups:
+      title: Etiquetas de suscripción (grupos o categorías)
+    intro: Más abajo, puedes encontrar preguntas frecuentes sobre las suscripciones.
+  automation:
+    title: Automatización
+    intro: ¿Eres un usuario con experiencia y quieres automatizar tareas? Echa un
+      vistazo a las páginas de debajo.
+    deletion:
+      title: Borrado automático
+    refreshing-podcasts:
+      title: Actualizando pódcasts
+    tasker:
+      title: Integración con otras aplicaciones
+  intro: Bienvenida a la sección de documentación de AntennaPod. Esta sección busca
+    proporcionar información sobre las características actuales.
+  playback:
+    title: Reproducción
+    intro: Más abajo, puedes encontrar temas relacionados con la reproducción de episodios.
+    auto-rewind:
+      title: Rebobinado automático
+    shortcuts:
+      title: Atajos de teclado
+    android-auto:
+      title: Reproducir en coches (Android Auto)
+    chromecast:
+      title: Reproducción en Google Chromecast
+  bugs-first-aid:
+    title: Bugs, errores y primeros auxilios
+    intro: Hacer software es algo humano, así que los errores son inevitables. ¡Pero
+      normalmente hay algo que podemos hacer para solucionarlos!
+    bug-report:
+      title: Hay algo que no funciona
+    typo-translations:
+      title: He encontrado una errata
+    database-error:
+      title: Todos mis podcasts y episodios han desaparecido
+    cannot-stream-download:
+      title: No se puede descargar un episodio
+    episodes-missing:
+      title: Faltan episodios antiguos
+    playback-stops:
+      title: La reproducción se detiene repentinamente
+    refresh-download-errors:
+      title: Error al descargar o refrescar el canal
+    cannot-resume-playback:
+      title: No se puede reanudar la reproducción desde la pantalla de bloqueo / notificación
+  podcasters-hosters:
+    title: Para Podcasters y hosters
+    intro: Debajo, puedes encontrar nuestra información de soporte para podcasters
+      y proveedores de hosting.
+    add-on-antennapod:
+      title: Crear un enlace 'Abrir en Antennapod'
+    list-podcast:
+      title: Listar tu podcast
+    update-feed-urls:
+      title: Actualizando las direcciones url de los feeds
 footer:
   description: El gestor de podcast flexible, fácil de utilizar y libre para Android.
 events:

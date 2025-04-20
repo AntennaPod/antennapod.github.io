@@ -3,7 +3,7 @@ layout: null
 ---
 [
   {% for documentation in site.documentation %}
-    {% capture title %}{% t {{ documentation.title }} %}{% endcapture %}
+    {% capture title %}{% t {{ documentation.texts }}.title %}{% endcapture %}
     {
       "title"    : "{{ title | escape }}",
       "url"      : "{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{{ documentation.url | replace:'.html','' }}",

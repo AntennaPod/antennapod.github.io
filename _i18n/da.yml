@@ -42,6 +42,8 @@ generic:
   previous: Tidligere
   next: Næste
   error404: Fejl 404
+  subscribe-subtitle: Klik for at abonnere på denne podcast på AntennaPod eller på
+    en anden podcast-app.
 month:
   Jan: Jan
   Apr: Apr
@@ -94,24 +96,44 @@ contribute:
   translate:
     title: Oversæt
     text: Taler du et andet sprog end engelsk? Hjælp os med at oversætte AntennaPod.
+    card-text: Taler du et andet sprog end engelsk? Hjælp os med at oversætte AntennaPod.
   support:
     text: Er du god til at forklare? Hjælp andre brugere på vores forum.
     title: Support
+    card-text: Er du god til at forklare? Hjælp andre brugere på vores forum.
   test:
     title: Test
     text: Er du god til at ødelægge ting? Så bliv betatester.
+    card-text: Er du god til at ødelægge ting? Så bliv betatester.
   develop:
     title: Udvikl
     text: Kan du kode? Hjælp med at teste pull requests eller indsend nye funktioner
       eller fejlrettelser til appen eller webstedet.
+    card-text: Kan du kode? Hjælp med at teste pull requests eller indsend nye funktioner
+      eller fejlrettelser til appen eller webstedet.
+    categories:
+      app:
+        title: App
+        card-text: Taler du Java? Find ud af, hvordan du kan bidrage til AntennaPod-appen.
+      website:
+        title: Website
+        card-text: Er du fortrolig med SCSS og HTML? Hjælp os med vores website.
+      upstream:
+        title: Upstream og andre projekter
+        card-text: Hjælp os ved at bidrage til andre projekter, som vi er afhængige
+          af.
   promote:
     title: Markedsfør
     text: Udarbejder du fængende tweets, interessante blogs eller flotte grafikker?
+      Hjælp med at sprede budskabet.
+    card-text: Udarbejder du fængende tweets, interessante blogs eller flotte grafikker?
       Hjælp med at sprede budskabet.
   design:
     title: Design
     text: Du omdanner komplekse forespørgsler til forståelige brugerhistorier eller
       wireframes? Hjælp med at løse disse problemer.
+    card-text: Du omdanner komplekse forespørgsler til forståelige brugerhistorier
+      eller wireframes? Hjælp med at løse disse problemer.
   introduction: AntennaPod er under aktiv udvikling af frivillige. Du kan også bidrage
     med kode eller andet!
   donate:
@@ -121,12 +143,38 @@ contribute:
     modal-button-chat: Diskuter med os, hvordan du kan hjælpe
     modal-title: Er du sikker på, at du ønsker at donere?
     modal-button-donate: Donér alligevel
+    title: Donér
+    card-text: Du kan ikke give din tid og vil gerne give penge i stedet.
+  intro: AntennaPod er under aktiv udvikling af frivillige. Du kan også bidrage med
+    kode eller andet!
 documentation:
   general:
     search-placeholder: Søg i dokumentation
     no-results: Beklager, intet fundet
     introduction: Velkommen til dokumentationsafsnittet for AntennaPod. Dette afsnit
       har til formål at give oplysninger om de aktuelle funktioner.
+    title: Generelt
+    external-storage:
+      title: Brug af eksternt lager
+    synchronization:
+      title: Sådan synkroniserer du mellem enheder
+    proxy:
+      title: Før trafik gennem et proxy- eller Tor-netværk
+    intro: Nedenfor kan du finde flere oplysninger om AntennaPod-projektet.
+    backup:
+      title: Sikkerhedskopiering af dine afsnit
+    central-distributed:
+      title: Centrale og decentrale podcast-apps
+    episode-deletion:
+      title: Sletning af afsnit
+    f-droid:
+      title: Opdateringer på F-Droid
+    other-platforms:
+      title: AntennaPod til Windows, Apple og Linux
+    beta:
+      title: Beta-testning
+    ads:
+      title: Om annoncering i AntennaPod
   categories:
     getting-started:
       subscribe: Abonnering på en podcast
@@ -134,6 +182,7 @@ documentation:
       title: Kom godt i gang
       intro: Velkommen til AntennaPod! Nedenfor kan du finde oplysninger om, hvordan
         du kommer i gang med AntennaPod.
+      home: Brug af Hjem-skærmen
     general:
       intro: Nedenfor kan du finde flere oplysninger om AntennaPod-projektet.
       backup: Sikkerhedskopiering af dine afsnit
@@ -157,12 +206,14 @@ documentation:
       shortcuts: Genveje på fysisk tastatur
       crashes: Hvad kan man gøre, når afspilningen går ned
       android-auto: Afspilning i biler (Android Auto)
+      chromecast: Afspilning på Google Chromecast
     queue:
       title: Kø
       how-to-use: Sådan bruges køen
       multiple-queues: Sådan bruges flere køer
       intro: Nedenfor kan du finde ofte stillede spørgsmål om køen.
       lock: (Op)låsning af køen
+      smart-shuffle: Sådan bruger du smart blanding
     subscriptions:
       title: Abonnementer
       subscription-groups: Abonnementsetiketter (grupper eller kategorier)
@@ -194,6 +245,85 @@ documentation:
       playback-stops: Afspilning stopper pludselig
       refresh-download-errors: Fejl ved overførsel eller opdatering af feed
       cannot-resume-playback: Kan ikke genoptage afspilning fra låseskærm/notifikation
+  queue:
+    title: Kø
+    how-to-use:
+      title: Sådan bruges køen
+    intro: Nedenfor kan du finde ofte stillede spørgsmål om køen.
+    lock:
+      title: (Op)låsning af køen
+    smart-shuffle:
+      title: Sådan bruger du smart blanding
+    multiple-queues:
+      title: Sådan bruges flere køer
+  bugs-first-aid:
+    bug-report:
+      title: Der er noget, der ikke virker
+    typo-translations:
+      title: Jeg har fundet en taste- eller stavefejl
+    database-error:
+      title: Alle mine podcasts og afsnit er væk
+    intro: At lave software er et menneskeligt håndværk, så fejl er uundgåelige. Men
+      der er ofte noget, vi kan gøre ved det!
+    cannot-resume-playback:
+      title: Kan ikke genoptage afspilning fra låseskærm/notifikation
+    title: Programfejl, mangler & førstehjælp
+    cannot-stream-download:
+      title: Kan ikke downloade et afsnit
+    episodes-missing:
+      title: Gamle afsnit mangler
+    playback-stops:
+      title: Afspilning stopper pludselig
+    refresh-download-errors:
+      title: Fejl ved overførsel eller opdatering af feed
+  podcasters-hosters:
+    list-podcast:
+      title: Få din podcast registreret
+    update-feed-urls:
+      title: Opdatering af feed-URL'er
+    title: Til podcastere og hostingudbydere
+    add-on-antennapod:
+      title: Opret et 'Åbn i AntennaPod'-link
+    intro: Nedenfor kan du finde vores supportoplysninger til podcastere og hostingudbydere.
+  intro: Velkommen til dokumentationsafsnittet for AntennaPod. Dette afsnit har til
+    formål at give oplysninger om de aktuelle funktioner.
+  search:
+    placeholder: Søg i dokumentation
+    no-results: Beklager, intet fundet
+  getting-started:
+    title: Kom godt i gang
+    intro: Velkommen til AntennaPod! Nedenfor kan du finde oplysninger om, hvordan
+      du kommer i gang med AntennaPod.
+    subscribe:
+      title: Abonnering på en podcast
+    home:
+      title: Brug af Hjem-skærmen
+  playback:
+    title: Afspilning
+    intro: Nedenfor kan du finde emner vedrørende afspilning.
+    auto-rewind:
+      title: Automatisk tilbagespoling
+    shortcuts:
+      title: Genveje på fysisk tastatur
+    android-auto:
+      title: Afspilning i biler (Android Auto)
+    chromecast:
+      title: Afspilning på Google Chromecast
+  subscriptions:
+    title: Abonnementer
+    intro: Nedenfor kan du finde ofte stillede spørgsmål om abonnementer.
+    subscription-groups:
+      title: Abonnementsetiketter (grupper eller kategorier)
+  automation:
+    tasker:
+      title: Integration med andre apps
+    title: Automatisering
+    intro: Er du en erfaren bruger og ønsker at automatisere opgaver? Så tag et kig
+      på nedenstående sider.
+    deletion:
+      title: Automatisk sletning
+    refreshing-podcasts:
+      title: Opdaterer podcasts
 blog:
   posted: Udgivet
 footer:
@@ -207,7 +337,7 @@ events:
       oplysninger om fællesskabsopkald ved hånden? Så tilmeld dig vores kalender i
       din foretrukne app via linket "Tilføj til kalender"!
   links:
-    add-calendar: Tilføj til kalender
+    add-calendar: Føj til kalender
     more-information: Flere oplysninger
     open-meeting: Åbent møde
     open-map: Se placering

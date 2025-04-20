@@ -2,7 +2,7 @@ Unter Android 13 und Android 14 ist es nicht immer möglich, die Wiedergabe übe
 
 Es ist derzeit nicht klar, warum dieses Problem auftritt. Wir haben festgestellt, dass das gleiche Problem auch bei anderen Apps auftritt, auch bei denen von Google. Wir vermuten daher, dass es sich um ein Problem mit Android handelt.
 
-## Workaround
+## Behelfslösung
 
 Um die Wiedergabe trotzdem fortsetzen zu können, kannst du die sogenannte „AntennaPod-Kachel“ auf deinem Gerät hinzufügen. Kacheln sind im Wesentlichen die Schaltflächen, die du siehst, wenn du vom oberen Rand des Bildschirms nach unten ziehst. Du kennst wahrscheinlich die Kachel Internet oder Taschenlampe. Mit der AntennaPod-Kachel kannst du die Wiedergabe abspielen und pausieren, auch wenn die Wiedergabe schon eine Weile pausiert wurde.
 

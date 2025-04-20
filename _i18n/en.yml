@@ -25,6 +25,7 @@ generic:
     title: "Redirect"
     link: "Click here if you are not redirected."
   subscribe: "Subscribe"
+  subscribe-subtitle: "Click to subscribe to this podcast on AntennaPod or on any other podcast app."
   page-not-found-short: "Page not found"
   page-not-found-long: "The requested page could not be found."
   accessibility:
@@ -76,16 +77,16 @@ long_month:
 homepage:
   header: "The Open Podcast Player"
   description: "AntennaPod is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial interest, so it respects your privacy while giving you full control."
-  img-alt: ""
+  img-alt:
   features:
     adfree:
       title: "Ad-Free"
       description: "The AntennaPod application itself does not contain ads. If a publisher chooses to add ads to the media files, they get 100% of the revenue."
-      img-alt: ""
+      img-alt: 
     listenanywhere:
       title: "Listen anywhere"
       description: "With AntennaPod, you can download episodes and listen anywhere. You can even select podcasts that should be downloaded automatically."
-      img-alt: ""
+      img-alt:
 
 # Not installed
 not-installed:
@@ -101,27 +102,38 @@ readtime:
 
 ## Contribute
 contribute:
-  introduction: "AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!"
+  intro: "AntennaPod is under active development by volunteers. You can contribute too, with code or otherwise!"
   translate:
     title: "Translate"
-    text: "You speak any other language than English? Help us translate AntennaPod."
+    card-text: "You speak any other language than English? Help us translate AntennaPod."
   support:
     title: "Support"
-    text: "You can explain well? Help other users on our forum."
+    card-text: "You can explain well? Help other users on our forum."
   test:
     title: "Test"
-    text: "You are good at breaking stuff? Become a beta tester."
+    card-text: "You are good at breaking stuff? Become a beta tester."
   develop:
     title: "Develop"
-    text: "You write code? Help test pull requests or submit new features or bug fixes for the app or website."
+    card-text: "You write code? Help test pull requests or submit new features or bug fixes for the app or website."
+    categories:
+      app:
+        title: "App"
+        card-text: "You speak Java? Find out how to contribute to the AntennaPod app."
+      website:
+        title: "Website"
+        card-text: "Familiar with SCSS and HTML? Help us out with our website."
+      upstream:
+        title: "Upstream & other projects"
+        card-text: "Help us by contributing to other projects we rely on."
   promote:
     title: "Promote"
-    text: "You draft catchy tweets, interesting blogs, or wonderful graphics? Help spread the word."
+    card-text: "You draft catchy tweets, interesting blogs, or wonderful graphics? Help spread the word."
   design:
     title: "Design"
-    text: "You turn complex requests in understandable user stories or wireframes? Help tackle these issues."
+    card-text: "You turn complex requests in understandable user stories or wireframes? Help tackle these issues."
   donate:
-    link: "I want to make a <a href=\"https://opencollective.com/antennapod\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#donationModal\">donation</a>."
+    title: "Donate"
+    card-text: "You can't give your time, and want to give money instead."
     modal-title: "Are you sure you want to donate?"
     modal-button-donate: "Donate anyway"
     modal-button-chat: "Discuss with us how you can help"
@@ -129,68 +141,104 @@ contribute:
 
 ## Documentation
 documentation:
-  general:
-    introduction: "Welcome to the documentation section of the AntennaPod. This section aims to provide information on current features."
-    search-placeholder: "Search documentation"
+  intro: "Welcome to the documentation section of AntennaPod. This section aims to provide information on current features."
+  search:
+    placeholder: "Search documentation"
     no-results: "Sorry, nothing found"
-  categories:
-    getting-started:
-      title: "Getting started"
-      intro: "Welcome to AntennaPod! Below, you can find some details on how to get started with AntennaPod."
-      subscribe: "Subscribing to a podcast"
-    general:
-      title: "General"
-      intro: "Below, you can find more details about the AntennaPod project."
-      ads: "About advertisements in AntennaPod"
-      backup: "Backing up your episodes"
-      beta: "Beta testing"
-      central-distributed: "Central and distributed podcast apps"
-      external-storage: "Using external storage"
-      synchronization: "How to synchronize between devices"
-      proxy: "Leading traffic through a proxy or Tor network"
-      episode-deletion: "Deletion of episodes"
-      f-droid: "Updates on F-Droid"
-      other-platforms: "AntennaPod for Windows, Apple and Linux"
-    playback:
-      title: "Playback"
-      intro: "Below, you can find topics related to playback."
-      auto-rewind: "Automatic rewind"
-      shortcuts: "Hardware keyboard shortcuts"
-      android-auto: "Playback in cars (Android Auto)"
-    queue:
-      title: "Queue"
-      intro: "Below, you can find frequently asked questions about the queue."
-      how-to-use: "How to use the queue"
-      lock: "(Un)locking the queue"
-      multiple-queues: "How to use multiple queues"
-    subscriptions:
-      title: "Subscriptions"
-      intro: "Below, you can find frequently asked questions about subscriptions."
-      listening-without-subscribing: "Listening to an episode without subscribing"
-      subscription-groups: "Subscription tags (aka groups or categories)"
-    automation:
-      title: "Automation"
-      intro: "Are you an experienced user and want to automate tasks? Have a look at the pages below."
-      deletion: "Automatic deletion"
-      refreshing-podcasts: "Refreshing podcasts"
-      tasker: "Integration with other apps"
-    bugs-first-aid:
-      title: "Bugs, errors & first aid"
-      intro: "Making software is a human craft, so mistakes are inevitable. But there's often something we can do about it!"
-      bug-report: "Something isn't working"
-      typo-translations: "I found a typo or spelling mistake"
-      database-error: "All my podcasts & episodes are gone"
-      cannot-stream-download: "Cannot download an episode"
-      episodes-missing: "Old episodes are missing"
-      playback-stops: "Playback suddenly stops"
-      refresh-download-errors: "Download or feed refresh error"
-      cannot-resume-playback: "Can't resume playback from lock screen / notification"
-    podcasters-hosters:
-      title: "For Podcasters & Hosters"
-      intro: "Below, you can find our support information for podcasters & hosting providers."
-      add-on-antennapod: "Create an 'Open in AntennaPod' link"
-      list-podcast: "Getting your podcast listed"
-      update-feed-urls: "Updating feed URLs"
+  getting-started:
+    title: "Getting started"
+    intro: "Welcome to AntennaPod! Below, you can find some details on how to get started with AntennaPod."
+    subscribe:
+      title: "Subscribing to a podcast"
+    home:
+      title: "Using the Home screen"
+  general:
+    title: "General"
+    intro: "Below, you can find more details about the AntennaPod project."
+    ads:
+      title: "About advertisements in AntennaPod"
+    backup:
+      title: "Backing up your episodes"
+    beta:
+      title: "Beta testing"
+    central-distributed:
+      title: "Central and distributed podcast apps"
+    external-storage:
+      title: "Using external storage"
+    synchronization:
+      title: "How to synchronize between devices"
+    proxy:
+      title: "Leading traffic through a proxy or Tor network"
+    episode-deletion:
+      title: "Deletion of episodes"
+    f-droid:
+      title: "Updates on F-Droid"
+    other-platforms:
+      title: "AntennaPod for Windows, Apple and Linux"
+  playback:
+    title: "Playback"
+    intro: "Below, you can find topics related to playback."
+    auto-rewind:
+      title: "Automatic rewind"
+    shortcuts:
+      title: "Hardware keyboard shortcuts"
+    android-auto:
+      title: "Playback in cars (Android Auto)"
+    chromecast:
+      title: "Playback on Google Chromecast"
+  queue:
+    title: "Queue"
+    intro: "Below, you can find frequently asked questions about the queue."
+    how-to-use:
+      title: "How to use the queue"
+    lock:
+      title: "(Un)locking the queue"
+    smart-shuffle:
+      title: "How to use smart shuffle"
+    multiple-queues:
+      title: "How to use multiple queues"
+  subscriptions:
+    title: "Subscriptions"
+    intro: "Below, you can find frequently asked questions about subscriptions."
+    subscription-groups:
+      title: "Subscription tags (aka groups or categories)"
+  automation:
+    title: "Automation"
+    intro: "Are you an experienced user and want to automate tasks? Have a look at the pages below."
+    deletion:
+      title: "Automatic deletion"
+    refreshing-podcasts:
+      title: "Refreshing podcasts"
+    tasker:
+      title: "Integration with other apps"
+  bugs-first-aid:
+    title: "Bugs, errors & first aid"
+    intro: "Making software is a human craft, so mistakes are inevitable. But there's often something we can do about it!"
+    bug-report:
+      title: "Something isn't working"
+    typo-translations:
+      title: "I found a typo or spelling mistake"
+    database-error:
+      title: "All my podcasts & episodes are gone"
+    cannot-stream-download:
+      title: "Cannot download an episode"
+    episodes-missing:
+      title: "Old episodes are missing"
+    playback-stops:
+      title: "Playback suddenly stops"
+    refresh-download-errors:
+      title: "Download or feed refresh error"
+    cannot-resume-playback:
+      title: "Can't resume playback from lock screen / notification"
+  podcasters-hosters:
+    title: "For podcasters & hosters"
+    intro: "Below, you can find our support information for podcasters & hosting providers."
+    add-on-antennapod:
+      title: "Create an 'Open in AntennaPod' link"
+    list-podcast:
+      title: "Getting your podcast listed"
+    update-feed-urls:
+      title: "Updating feed URLs"
 
 ## Events
 events:

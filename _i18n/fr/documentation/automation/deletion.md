@@ -1,4 +1,4 @@
-Pourquoi certains épisodes téléchargés sont-ils supprimés ?
+Pourquoi certains épisodes téléchargés sont-ils supprimés ?
 
 AntennaPod dispose de plusieurs mécanismes pour s’assurer que les podcasts téléchargés ne rempliront pas la mémoire de votre téléphone. Si vous remarquez que certains épisodes téléchargés sont supprimés, jetez un coup d'œil à ces deux paramètres :
 

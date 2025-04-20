@@ -27,7 +27,7 @@ En la práctica, esto significa que puedes suscribirte a cualquier canal RSS que
 
 ## Te escuchamos: comunidad y accesibilidad
 
-AntennaPod lleva el contenido a tus oídos, ¡pero también nos gusta saber de ti! Nuestra comunidad está abierta a sus comentarios y sus pensamientos. Como humanos podemos estar en desacuerdo, pero hacerlo con respeto. Y hacemos todo lo posible para que la aplicación sea amigable para todos. Es por eso que es posible ocultar las sugerencias automáticas y facilitar la navegación por la aplicación a través de TalkBack.
+AntennaPod lleva el contenido a tus oídos, ¡pero también nos gustaría saber de tí! Nuestra comunidad está abierta a tus comentarios y pensamientos. Como humanos podemos estar en desacuerdo, pero hacerlo con respeto. Y hacemos todo lo posible para que la aplicación sea amigable para todos. Es por eso que es posible ocultar las sugerencias automáticas y fácil la navegación por la aplicación a través de TalkBack.
 
 ## Desde 2011: el proyecto AntennaPod hoy
 

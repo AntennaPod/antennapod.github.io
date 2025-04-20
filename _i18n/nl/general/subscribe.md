@@ -1,4 +1,4 @@
-Druk op de knop hierboven om je te abonneren op deze podcast in AntennaPod. Als je AntennaPod nog niet hebt geïnstalleerd, kun je [de app hier downloaden](/download).
+Druk op de knop hieronder om je te abonneren op deze podcast in AntennaPod. Als je AntennaPod nog niet hebt geïnstalleerd, kun je de app [downloaden](/download) om gratis toegang te krijgen tot miljoenen podcasts.
 
 
 <button id="subscribeButton" class="btn btn-primary">

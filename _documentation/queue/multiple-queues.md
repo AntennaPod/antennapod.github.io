@@ -1,11 +1,11 @@
 ---
-title: documentation.categories.queue.multiple-queues
+texts: documentation.queue.multiple-queues
 layout: doc
-level: "2"
-group: "queue"
+parent: queue
 icon: "fa-solid fa-list"
+order: "40"
 ---
 
-# {% t {{ page.title }} %}
+# {% t {{ page.texts }}.title %}
 
-{% tf documentation/{{ page.group }}/{{ page.slug }}.md %}
+{% tf {{ page.url | remove_first: "/" }}.md %}

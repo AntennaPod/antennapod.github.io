@@ -1,14 +1,14 @@
-In Android 13 and Android 14 it is not always possible to resume playback from the lock screen or media notification. This occurs specifically if playback has been paused for a while.
+Op Android 13 en Android 14 is het niet altijd mogelijk om het afspelen voort te zetten vanaf het ontgrendelscherm of de media-melding. Specifiek gebeurt dit als het afspelen langere tijd gepauzeerd staat.
 
-It currently is not clear why this issue occurs. We have established the same problem affects other apps, including Google's apps. We suspect, therefore, that this is an issue with Android.
+Het is onduidelijk waarom dit probleem optreedt. We hebben vastgesteld dat andere apps hetzelfde probleem hebben, inclusief apps van Google. We vermoeden daarom dat dit een probleem met Android is.
 
-## Workaround
+## Tijdelijke oplossing
 
-In order to still be able to resume playback, you can add the so-called AntennaPod 'tile' on your device. Tiles are essentially the buttons that you see when you pull down from the top of the screen. You probably know the Internet or Flashlight tile. The AntennaPod tile allows you play and pause playback, even if playback has been paused for a while.
+Om het afspelen alsnog voort te zetten, kun je de zogenaamde AntennaPod tegel toevoegen aan je apparaat. Tegels zijn de knoppen die je ziet als je omlaag trekt vanaf de bovenkant van het scherm. Je bent waarschijnlijk bekend met de Internet of Zaklamp tegel. Met de AntennaPod tegel kun je het afspelen pauzeren en voortzetten, zelfs als het afspelen al langere tijd gepauzeerd heeft gestaan.
 
-To add the AntennaPod tile:
+Om de AntennaPod tegel toe te voegen:
 
-1. **Pull down twice** from the top of the screen, so you see the full buttons (below the brightness indicator)
-1. **Tap on the pencil icon** at the bottom of the tiles section to edit the tiles
-1. Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up into the list of active tiles
-1. Tap the back arrow to exit the tile editing
+1. **Trek tweemaal omlaag** vanaf de bovenkant van het scherm, zodat je de volledige knoppen ziet (onder de helderheidsindicator)
+1. **Tik op het potloodicoontje** aan de onderkant van de tegellijst om de tegels te bewerken
+1. Scroll naar beneden in de lijst van tegels, **tik op de AntennaPod tegel en sleep hem** omhoog naar de lijst van actieve tegels
+1. Tik op de terugpijl om het tegelbewerken te eindigen

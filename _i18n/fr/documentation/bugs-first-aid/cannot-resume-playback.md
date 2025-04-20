@@ -1,14 +1,14 @@
-In Android 13 and Android 14 it is not always possible to resume playback from the lock screen or media notification. This occurs specifically if playback has been paused for a while.
+Dans Android 13 et Android 14, il n'est pas toujours possible de reprendre la lecture à partir de l'écran de verrouillage ou de la notification multimédia. Cela se produit notamment lorsque la lecture a été interrompue pendant un certain temps.
 
-It currently is not clear why this issue occurs. We have established the same problem affects other apps, including Google's apps. We suspect, therefore, that this is an issue with Android.
+La raison de ce problème n'est pas claire pour l'instant. Nous avons constaté que le même problème affecte d'autres applications, y compris les applications de Google. Nous pensons donc qu'il s'agit d'un problème lié à Android.
 
-## Workaround
+## Solution de contournement
 
-In order to still be able to resume playback, you can add the so-called AntennaPod 'tile' on your device. Tiles are essentially the buttons that you see when you pull down from the top of the screen. You probably know the Internet or Flashlight tile. The AntennaPod tile allows you play and pause playback, even if playback has been paused for a while.
+Pour pouvoir reprendre la lecture, vous pouvez ajouter la "tuile" AntennaPod à votre appareil. Les tuiles sont essentiellement les boutons que vous voyez lorsque vous tirez vers le bas à partir du haut de l'écran. Vous connaissez probablement la tuile Internet ou la tuile Lampe de poche. La tuile AntennaPod vous permet de lire et d'interrompre la lecture, même si celle-ci a été interrompue pendant un certain temps.
 
-To add the AntennaPod tile:
+Pour ajouter la tuile AntennaPod :
 
-1. **Pull down twice** from the top of the screen, so you see the full buttons (below the brightness indicator)
-1. **Tap on the pencil icon** at the bottom of the tiles section to edit the tiles
-1. Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up into the list of active tiles
-1. Tap the back arrow to exit the tile editing
+1. **Tirez deux fois vers le bas** à partir du haut de l'écran, de manière à voir les boutons complets (sous l'indicateur de luminosité)
+1. **Tapez sur l'icône du crayon** en bas de la section des tuiles pour modifier les tuiles
+1. Faites défiler la liste des tuiles, **tapez sur la tuile AntennaPod et faites-la glisser** vers le haut dans la liste des tuiles actives
+1. Touchez la flèche de retour pour quitter l'édition de la tuile

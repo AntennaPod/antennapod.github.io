@@ -17,8 +17,8 @@ De app vraagt de volgende privacy-relevante Android-rechten aan:
 ## Welke app-gegevens andere partijen kunnen verzamelen, opslaan en verwerken
 
 - Podcast hosters: een host ontvangt je verificatiegegevens als je die opgeeft in de podcast-instellingen. Webservers die de podcast-feeds aanbieden, kunnen extra gegevens verzamelen, zoals het IP-adres, de tijd van toegang en wat er wordt opgevraagd. Dit omvat de afleveringen die je aan het downloaden of streamen bent. Raadpleeg het privacybeleid van de aanbieders voor meer informatie. De URL van een podcast is op te zoeken door de podcast te openen en op het info-pictogram te drukken. AntennaPod staat niet toe dat externe servers cookies plaatsen. De servers kunnen detecteren dat je AntennaPod gebruikt en welke versie van AntennaPod je gebruikt (HTTP User-Agent). Als meerdere podcasts op dezelfde server worden gehost, kan de server de lijst van podcast-abonnementen achterhalen die op de server worden gehost. Dit kan gebeuren als uitgevers feedburner, podtrac of soortgelijke diensten gebruiken om hun feeds te verspreiden.
-- Ontdekkings- en zoekservices: Wanneer het Ontdek-scherm in de app wordt geopend, wordt er een oproep naar Apple gestuurd om podcast-suggesties te verzamelen. Ze kunnen de zoekopdracht opslaan, inclusief het land (dat standaard het land van het apparaat is). Deze suggesties kunnen worden uitgeschakeld door "uit" te kiezen in de regiokiezer. Wanneer de zoekfunctie in AntennaPod wordt gebruikt, kunnen de services PodcastIndex.org, iTunes, fyyd en gpodder.net de zoekopdracht opslaan, inclusief de zoektermen. Ontdek en zoekopdrachten bevatten ook het IP-adres, de tijd en de app-naam "AntennaPod". Meteen na abonneren op een podcast wordt de feed geleverd door de podcast-host. Daar is de ontdek-/zoekservice niet meer bij betrokken.
-- Synchronisatiediensten: Indien ingeschakeld via de instellingen, synchroniseert AntennaPod je gegevens. Deze gegevens kunnen inloggegevens, geabonneerde podcasts, beluisterde afleveringen, afspelen, pauzeren en favoriete acties met datum- en tijdstempels en IP-adres bevatten. Raadpleeg voor meer informatie het privacybeleid van je provider (bijvoorbeeld [privacybeleid van gpodder.net](https://gpodder.net/privacy), of dat van je Nextcloud-host).
+- Ontdekkings- en zoekservices: Wanneer het Ontdek-scherm in de app wordt geopend, wordt er een oproep naar Apple gestuurd om podcast-suggesties te verzamelen. Ze kunnen de zoekopdracht opslaan, inclusief het land (dat standaard het land van het apparaat is). Deze suggesties kunnen worden uitgeschakeld door "uit" te kiezen in de regiokiezer. Wanneer de zoekfunctie in AntennaPod wordt gebruikt, kunnen de services PodcastIndex.org, Apple Podcasts en fyyd de zoekopdracht opslaan, inclusief de zoektermen. Ontdek en zoekopdrachten bevatten ook het IP-adres, de tijd en de app-naam "AntennaPod". Na abonneren op een podcast wordt de feed geleverd door de podcast-host, wat betekent dat de ontdek-/zoekservice er niet meer bij betrokken is.
+- Synchronisatiediensten: Indien ingeschakeld via de instellingen, synchroniseert AntennaPod je gegevens. Deze gegevens kunnen inloggegevens, geabonneerde podcasts, beluisterde afleveringen, afspelen, pauzeren en favoriete acties met datum- en tijdstempels en IP-adres bevatten. Raadpleeg voor meer informatie het privacybeleid van je provider.
 - Google: Als back-up & reset is geactiveerd in de instellingen van je telefoon (`Instellingen` » `Backup & Reset` » `Maak een back-up van mijn gegevens`), wees er dan van bewust dat Android zelf periodiek een kopie van de telefoongegevens opslaat op Google-servers. Deze back-up bevat privé-informatie, waaronder de wifi-wachtwoorden, berichten en belgeschiedenis. Het kan ook gegevens bevatten van AntennaPod en van andere apps die in gebruik zijn. De ontwikkelaars van AntennaPod hebben geen toegang tot deze gegevens. Voor meer informatie, zie [Google's privacy policy](https://policies.google.com).
 
 ## Welke gegevens kunnen worden verzameld, opgeslagen en verwerkt via de online diensten van AntennaPod
@@ -42,7 +42,7 @@ De ontwikkelaars van AntennaPod hebben **geen** toegang tot je gegevens, uitgezo
    - taal van het toestel
    - Android-versie
 - ons forum bezoeken of eraan deelnemen: zoals beschreven in het [privacybeleid van het forum's](https://forum.antennapod.org/privacy)
-- actief een financiële bijdrage leveren via Open Collective (tenzij je een [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) bijdrage levert):
+- actief een financiële bijdrage leveren via Open Collective (tenzij je een [anonieme gast](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) of [incognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) bijdrage levert):
    - openbare profielinformatie (naam, bedrijf, beschrijving, afbeelding, Twitter, GitHub, website)
    - e-mailadres
 
@@ -50,7 +50,7 @@ De ontwikkelaars van AntennaPod hebben **geen** toegang tot je gegevens, uitgezo
 
 De ontwikkelaars kunnen dit beleid in de toekomst bijwerken. Het is raadzaam om het beleid regelmatig te controleren op eventuele wijzigingen. Wijzigingen in dit privacybeleid worden van kracht wanneer ze op dit document worden aangebracht.
 
-Dit privacybeleid is voor het laatst bijgewerkt op 2022-02-13. Bij vragen, open een issue op GitHub of ons forum.
+Dit privacybeleid is voor het laatst bijgewerkt op 2024-07-13. Bij vragen, open een issue op GitHub of ons forum.
 
 {% if site.lang != 'en' %}
 

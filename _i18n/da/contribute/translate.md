@@ -1,56 +1,48 @@
-{% capture img-transifex %} {% include image.html alt="
-
-       Oversigt over ressourcer i Transifex
-
-       "
-
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
-
-{% capture img-weblate %} {% include image.html alt="
-
-       Oversigt over komponenter i Weblate
-
-       "
-
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
-
-Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 7,9 milliarder mennesker er det 'kun' 1,5 milliarder, der [taler engelsk](https://www.ethnologue.com/insights/ethnologue200/). Det betyder måske ikke så meget i sig selv. Men om noget, kan vi konkludere, at hvis vi gør AntennaPod tilgængelig på flere sprog, bliver appen tilgængelig for flere mennesker. Som en ekstra bonus vil en oversat app også hjælper vores projekt med at vokse ud over de nuværende primære brugergrupper (Tyskland og USA).
+Ud af den anslåede [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 8 milliarder mennesker er det 'kun' 1,5 milliarder, der [taler engelsk](https://www.ethnologue.com/insights/ethnologue200/). Det betyder måske ikke så meget i sig selv. Men om noget, kan vi konkludere, at hvis vi gør AntennaPod tilgængelig på flere sprog, bliver appen tilgængelig for flere mennesker. Som en ekstra bonus vil en oversat app også hjælper vores projekt med at vokse ud over de nuværende primære brugergrupper (Tyskland og USA).
 
 Vi sætter derfor stor pris på din hjælp!
 
-# Appen
+Vores oversættelser ligger på Weblate, en open source-lokaliseringsplatform. Alle kan tilmelde sig der for at [oversætte AntennaPod](https://hosted.weblate.org/projects/antennapod). Du finder alt, hvad du har brug for at vide, i [Weblate's dokumentation til oversættere](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
-For at hjælpe med at oversætte appen beder vi dig om at bidrage via [Transifex](https://www.transifex.com/antennapod/antennapod/). Alle kan tilmelde sig der og begynde at bidrage. Transifex har nyttige vejledninger til at [komme i gang med deres platform](https://docs.transifex.com/getting-started-1/translators) og til at [blive fortrolig med Web Editor-grænsefladen](https://docs.transifex.com/translation/translating-with-the-web-editor).
+{% capture img-translationstatus %} {% include image.html alt="
 
-Under AntennaPod-projektet finder du tre 'ressourcer':
+       Graf med status for AntennaPod-oversættelser på Weblate.
 
-- Selve appen
-- Den korte beskrivelse i én sætning til app-butikker
-- Den mere udførlige beskrivelse til app-butikker
+       "
 
-{{ img-transifex | strip }}
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
-Appen er i øjeblikket tilgængelig på 34 sprog. Selv om der findes flere sprog i Transifex, er de ikke inkluderet i appen. Vi forsøger at opretholde en [tærskel på 40 % færdiggørelse](https://github.com/AntennaPod/AntennaPod/pull/4112) for sprog. Hvis den går under det, får man næppe en god brugeroplevelse i appen.
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## 1. Appen
 
-Nye oversættelser bliver hentet fra Transifex til GitHub (udviklingsplatformen) mindst for hver 'punktudgivelse'. Det er udgivelser som 2.0, 2.5 osv., der introducerer nye funktioner. Men vi udsender også opdateringer med fejlrettelser og nye oversættelser ind i mellem. I gennemsnit kan det tage en måned eller to, før dit arbejde er tilgængeligt i en udgivelse.
+Appen er i øjeblikket tilgængelig på mere end 38 sprog. Selv om der findes flere sprog i Weblate, inkluderer vi kun sprog i appen, som er mindst 40 % oversat. Under denne grænse giver appen næppe en god brugeroplevelse.
 
-Oversættelsesbidragydere vil blive nævnt i appen med deres Transifex-brugernavn under `Indstillinger` » `Om` » `Bidragydere`.
+Opdaterede oversættelser udgives med hver 'punkt-udgivelse'. Det er udgivelser som 2.0, 2.5 osv., som introducerer forbedringer og nye funktioner. I gennemsnit kan det tage en måned eller to, før dit arbejde er tilgængeligt i en udgivelse.
 
-# Hjemmesiden
+Hvis du har bidraget med oversættelser, vil du blive nævnt i appen med dit Weblate-brugernavn under `Indstillinger` » `Om` » `Bidragydere`.
 
-Af flere grunde (beskrevet i et [blogindlæg om oversættelser af websteder](/blog/2022/01/website-oversættelser)) bruger vi et andet oversættelsessystem til vores hjemmeside: [Weblate](https://hosted.weblate.org/projects/antennapod/). Alle kan tilmelde sig der og begynde at bidrage. I Weblate's dokumentation finder du [alt, hvad du skal vide for at begynde at oversætte](https://docs.weblate.org/en/latest/user/translating.html).
+## 2. Hjemmesiden
 
-I AntennaPod-projektet finder du fire 'komponenter'. Hver især repræsenterer de en del af hjemmesiden. Vi opfordrer dig til at starte med komponenterne `General` og `Short strings`, da disse vil være de første elementer, som en bruger ser på hjemmesiden. Komponenten `Documentation` er meget tæt på andenprioritet, fordi denne del er direkte tilgængelig via appen, når folk trykker på Support. Komponenten `Contribute` kommer til sidst, da der alligevel er behov for en grundlæggende forståelse af engelsk for at kunne interagere med fællesskabet.
+Hjemmesiden består af fire 'komponenter', som hver især repræsenterer en del af hjemmesiden. Vi opfordrer dig til at følge denne rækkefølge:
 
-{{ img-weblate | strip }}
+1. **General** og **Short strings**: de første elementer, en bruger ser på hjemmesiden
+1. **Documentation**: vores support-materialer, som er direkte tilgængelige via appen
+1. **Contribute** (kommer til sidst, fordi en grundlæggende forståelse af engelsk alligevel er nødvendig for at kunne bidrage)
 
-Nye oversættelser bliver manuelt overført fra Weblate til GitHub (udviklingsplatformen) fra tid til anden. Når et sprog når op på 90 % oversættelse (det svarer stort set til hele hjemmesiden minus Contribute-sektionen), kan vi aktivere det på den live hjemmeside. Vi forsøger altid at finde et medlem af fællesskabet, der kan gennemgå en testversion af hjemmesiden for at forbedre kvaliteten af oversættelserne.
+Opdaterede oversættelser offentliggøres en gang imellem. Nye sprog aktiveres først på hjemmesiden, når prioritet 1- og 2-komponenter er fuldt oversat. Med andre ord: når alt andet end sektionen 'Contribute' er færdigt. Giv os besked via forummet (se nedenfor), hvis det er tilfældet. Vi vil så forsøge at finde et medlem af fællesskabet, der kan gennemgå en testversion af hjemmesiden for at forbedre kvaliteten af oversættelserne. Når feedbacken er behandlet, kan vi udgive den nye sprogversion.
 
-# Andre materialer
+## 3. App Store-siderne
 
-Ud over appen og hjemmesiden kan også billederne i appbutikkerne oversættes. De har skærmbilleder og tekster. Da der er meget begrænset plads, bruger vi en manuel proces, hvor vi prøver os frem. Lad os vide på forummet, hvis du vil hjælpe med det. Da der er større sandsynlighed for, at lokaltilpassede app store-præsentationer fører til downloads, er hjælp meget velkommen!
+Ud over app'en og hjemmesiden oversætter vi også tekster, som optræder i de forskellige app-butikker. Vi opfordrer dig til at følge denne rækkefølge:
 
-# Kontakt os!
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
+
+Vi er nødt til at overholde en tegnbegrænsning for de korte beskrivelser og titler på skærmbilleder. Vi gennemgår og forbedrer derfor disse tekster manuelt, før vi udgiver dem. Giv os besked på forummet, når du er færdig med at oversætte disse tekster.
+
+## Kontakt os!
 
 * Ønsker du at give **feedback** på de engelske tekster eller på nogle af oversættelserne?
 * Er du ** interesseret i at hjælpe** med oversættelser, men er du ikke sikker endnu? Eller er du klar til at gå gang?
