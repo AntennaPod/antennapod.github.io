@@ -1,4 +1,4 @@
-AntennaPod doesn't need a lot of money. **Our (annual) costs are already covered** by our existing donation funds. Therefore, we'd much prefer it if you
+AntennaPodにはそれほど多くのお金は必要ありません。 **（年間）費用は、すでに既存の寄付金によって賄われています**。したがって、以下のことをしてもらえると幸いです。
 
-* donate to your favorite podcast(er), or
-* help us with a non-monetary contribution.
+* お気に入りのポッドキャストへの寄付
+* 資金援助以外の貢献

@@ -1,6 +1,6 @@
 {% capture img-GP %} {% include image.html alt="
 
-       Get it on Google Play
+       Google Playで入手
 
        "
 
@@ -8,16 +8,16 @@ loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" islink 
 
 {% capture img-FD %} {% include image.html alt="
 
-       Get it on F-Droid
+       F-Droidで入手
 
        "
 
 loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" islink = true %} {% endcapture %}
 
-Official versions of AntennaPod are available on Google Play and F-Droid:
+公式バージョンのAntennaPodは、Google PlayとF-Droidで入手できます:
 
 <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod" target="_blank">{{- img-GP | strip -}}</a> <a href="https://f-droid.org/packages/de.danoeh.antennapod" target="_blank">{{- img-FD | strip -}}</a>
 
-AntennaPod is officially published only in the two app stores above because we don't have the time to support more. All other stores listing AntennaPod copied the app without our explicit permission. We are not responsible for updating those or making sure they work correctly. The F-Droid repository is not maintained by us, but by the people behind F-Droid. F-Droid usually takes a few days until updates become available ([read more](/documentation/general/f-droid)). If an update is still not available more than a week after its release, feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/) and we'll investigate it.
+これ以上のサポートを行う時間がないため、AntennaPodは上記の2つのアプリストアでのみ正式に公開されています。AntennaPodを掲載している他のすべてのストアは、当社の明示的な許可なしにアプリをコピーしたものです。私たちはそれらを更新したり、それらが正しく動作することを確認したりする責任を負いません。F-Droidリポジトリをメンテンナンスしているのは、私たちではなく、F-Droidを支えている人々です。F-Droidは通常、アップデートが利用可能になるまでに数日かかります（[詳しくはこちらを読んでください](/documentation/general/f-droid)）。リリースから1週間以上経ってもアップデートが入手できない場合は、[フォーラム](https://forum.antennapod.org/)に投稿を作成して知らせてもらえれば、問題を調査します。
 
-<small>Google Play and the Google Play logo are trademarks of Google LLC.</small>
+<small>Google PlayおよびGoogle PlayロゴはGoogle LLCの商標です。</small>

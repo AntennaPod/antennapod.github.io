@@ -1,10 +1,10 @@
 # アプリ
 
-AntennaPod is licensed under the [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE).
+AntennaPodは、[General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE)の下にライセンスされています。
 
-# The website code & theme
+# ウェブサイトのコードとテーマ
 
-The website is developed under the MIT License:
+このウェブサイトは、MITライセンスで開発されています。
 
 Copyright (c) 2020 Anxhelo Lushka and other contributors
 
@@ -14,6 +14,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-# The website content
+# ウェブサイトのコンテンツ
 
-The texts on the website are written and released under a [Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license (CC-BY-SA 4.0). Images on this website are copyrighted by their respective owners.
+ウェブサイト上のテキストは、[クリエイティブコモンズ 表示-継承 国際](http://creativecommons.org/licenses/by-sa/4.0/legalcode)ライセンス（CC-BY-SA 4.0）の下に作成・公開されています。このウェブサイト上の画像は、それぞれの所有者の著作権で保護されています。

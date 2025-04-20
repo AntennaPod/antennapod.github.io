@@ -2,7 +2,7 @@
 
 # 自分自身で修正したいですか？
 
-問題が英語以外の言語にある場合は、**アプリの翻訳**は[Transifex](https://www.transifex.com/antennapod/antennapod/core-values/)で更新できます。**ウェブサイトの翻訳**に問題がある場合は、[Weblate](https://hosted.weblate.org/projects/antennapod/)で修正できます。詳しい情報は、[コントリビューションのセクション](/contribute/translate)で確認できます。
+問題が英語以外の言語にある場合は、[Weblate](https://hosted.weblate.org/projects/antennapod/)で修正できます。[詳しい情報は、貢献のセクション](/contribute/translate)で確認できます。
 
 **英語のテキスト**に問題がありますか？ その場合、修正するにはGitHubの使い方に慣れる必要があります。Pull Requestを[アプリ](https://github.com/AntennaPod/AntennaPod/)または[ウェブサイト](https://github.com/AntennaPod/antennapod.github.io)に対して送信できます。
 

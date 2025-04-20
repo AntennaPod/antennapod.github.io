@@ -1,7 +1,7 @@
-## Meet us!
+## 会いましょう！
 
-Are you interested in meeting the people behind AntennaPod? You'll find all the opportunities here on this page!
+AntennaPodを支えている人たちに会うことに興味がありますか？このページではすべての機会を紹介しています！
 
-Do you know of an event in your neighbourhood and would love to meet up with AntennaPod contributors and users? Tell about the event on our forum to organise a get-together!
+あなたの近所で開催されるイベントを知っていますか？ AntennaPodの貢献者やユーザーと交流したいですか？ 懇親会を開催するには、フォーラムでイベントについて知らせてください！
 
-[Propose a meet-up](https://forum.antennapod.org)
+[交流会を提案する](https://forum.antennapod.org)

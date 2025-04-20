@@ -18,23 +18,23 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 L'app è attualmente disponibile in più di 38 lingue. Anche se su Weblate ci sono ancora più lingue, includiamo nell'app solo le lingue tradotte almeno al 40%. Se la traduzione si trova al di sotto di questa soglia, è difficile che l'app possa fornire una buona esperienza utente.
 
-Le nuove traduzioni sono trasferite da Weblate a GitHub (la piattaforma di sviluppo) almeno ogniqualvolta viene rilasciata una nuova versione con modifiche significative. Si tratta ad es. delle versioni numerate 2.0, 2.5, ecc. che introducono nuove funzionalità. Ma tra l'una e l'altra rilasciamo anche aggiornamenti per correggere bug e inserire nuove traduzioni. In media, potrebbe volerci un mese o due prima che il tuo lavoro venga reso disponibile in una nuova versione.
+Le traduzioni aggiornate sono pubblicate ogniqualvolta viene rilasciata una nuova versione con modifiche significative. Si tratta ad es. delle versioni numerate 2.0, 2.5, ecc. che contengono nuove funzionalità e miglioramenti. In media, potrebbe volerci un mese o due prima che il tuo lavoro venga reso disponibile in una nuova versione.
 
-I collaboratori alla traduzione verranno menzionati nell'applicazione con il loro nome utente Weblate, sotto `Impostazioni` » `Informazioni` » `Contributori`.
+Se hai contribuito alle traduzioni, sarai menzionato nell'applicazione con il tuo nome utente di Weblate, sotto `Impostazioni` » `Informazioni` » `Contributori`.
 
 ## 2. Il sito web
 
-The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
+Il sito web è composto da quattro 'componenti', ognuno dei quali rappresenta una parte del sito. Ti consigliamo di seguire quest'ordine:
 
-1. **General** and **Short strings**: the first elements a user sees on the website
-1. **Documentation**: our support materials, which are directly available via the app
-1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
+1. **Generale** e **Stringhe brevi**: i primi elementi che un utente vede sul sito web
+1. **Documentazione**: i nostri materiali di supporto, che sono direttamente disponibili attraverso l'app
+1. **Contribuisci** (con minore priorità perché per contribuire serve in ogni caso una minima comprensione dell'inglese)
 
-Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
+Le traduzioni aggiornate sono pubblicate di tanto in tanto. Le nuove lingue sono abilitate sul sito web solo dopo che i componenti di priorità 1 e 2 sono completamente tradotti. In altre parole, quando tutto a parte la sezione 'Contribuisci' è completato. Avvisaci sul forum (vedi sotto) se è quello il caso. Cercheremo di trovare un membro della comunità disponibile a rivedere una versione di test del sito per migliorare la qualità delle traduzioni. Dopo che i loro commenti sono stati trattati, siamo pronti a pubblicare la nuova traduzione.
 
 ## 3. Le voci negli app store
 
-In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+Oltre all'applicazione e al sito web, traduciamo anche i testi che compaiono nei vari app store. Ti consigliamo di seguire quest'ordine:
 
 1. **Descrizione breve**
 1. **Descrizione completa**

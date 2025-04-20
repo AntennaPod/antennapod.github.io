@@ -1,40 +1,40 @@
-AntennaPod is a podcast player, completely free and respectful of your privacy. It's created by volunteers throughout the world without any commercial interest. Together we contribute to an open podcasting ecosystem. So that you get to enjoy the web's best audio content.
+AntennaPodは、完全に無料でプライバシーを尊重するポッドキャストプレーヤーです。世界中のボランティアによって作られ、商業的な利益はありません。私たちは共にオープンなポッドキャスティングエコシステムに貢献しています。これにより、ウェブ上の最高の音声コンテンツを楽しむことができます。
 
-## Simple, but feature packed
+## シンプル、だが豊富な機能
 
-There's so many cool things to do in the world, and so many things in life to worry about. So you don't want to spend time figuring out how this thing works. Instead, you want to get started with finding and listening great content. And you want to be able to organise content, speed up or slow down playback and automate downloading and deletion. That's why we want AntennaPod to be simple to use, while giving you full control over your listening experience.
+世界にはたくさんの素晴らしいことがあり、人生には心配ごともたくさんあります。だから、このアプリの使い方を考えるために時間を使いたくはありません。代わりに、素晴らしいコンテンツを見つけて聴き始めたいのです。そして、コンテンツを整理したり、再生速度を調整したり、ダウンロードや削除を自動化したりしたいと思っています。だからこそ、AntennaPodは使いやすく、リスニング体験を完全にコントロールできるようにしたいのです。
 
-In that context, we realise that every option we add means a choice not made. And a choice not made, is a decision that we push to the end-user. (Here's a great [blog post on why developers shouldn't do that](http://neugierig.org/software/blog/2018/07/options.html) lightly.) We promise to do our best to make those decisions that create a great experience. Because - did you decide yet what you're going to eat tonight?
+その文脈において、私たちは追加するオプションがすべて、選択肢を減らすことを意味することを理解しています。そして、選択肢が減ることは、エンドユーザーに決定を押し付けることになります。（こちらに、[開発者がそれをすべきでない理由についての素晴らしいブログ記事](http://neugierig.org/software/blog/2018/07/options.html)があります。）私たちは、素晴らしい体験を生み出すために必要な決定をするよう最善を尽くすことを約束します。なぜなら、今夜何を食べるか決めましたか？
 
-At the same time: don't worry. We are open to introducing new features, options or preferences. And we have previously introduced these after popular demand, especially when there was a case to make for offering our users flexibility. So if you've got your own idea, feel free to [share your feature request on our forum](https://forum.antennapod.org/c/feature-request)!
+同時に、心配しないでください。私たちは新しい機能やオプション、設定の導入にオープンです。これまでにも、多くのリクエストに応じて新しい機能を追加してきました。特に、ユーザーに柔軟性を提供する必要がある場合にはそうしています。ですから、あなたにアイデアがあれば、ぜひ[フォーラムで機能リクエストを共有してください](https://forum.antennapod.org/c/feature-request)！
 
-## Open Source and free of ads
+## オープンソース、そして広告なし
 
-Like other great software such as Firefox and Signal, AntennaPod is open source. This means anyone can inspect and contribute to the code behind the app. And that AntennaPod is available in the open source and privacy-friendly [F-Droid app store](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+FirefoxやSignalなどの他の優れたソフトウェアと同様に、AntennaPodはオープンソースです。これは、誰でもアプリの背後にあるコードを確認して貢献できることを意味します。そして、AntennaPodは、オープンソースでプライバシーに配慮した[F-Droidアプリ ストア](https://www.f-droid.org/packages/de.danoeh.antennapod/)から入手できます。
 
-That way, you can rest assured (or check for yourself) that there's no shady data collection going on. And because AntennaPod is created by volunteers, we don't need advertisers that bother you while navigating the app.
+これにより、不審なデータ収集が行われていないことが保証され（または自分で確認して）安心できます。また、AntennaPodはボランティアによって開発されているため、アプリの操作中にあなたを煩わせる広告主は必要ありません。
 
-## Keeping the podcasting ecosystem open
+## ポッドキャストのエコシステムをオープンに保つ
 
-We stand for an open podcasting ecosystem. An ecosystem that
+私たちは以下のようなオープンなポッドキャスティングのエコシステムを支持します。
 
-* supports free speech,
-* rewards podcasters for their creative work,
-* spares listeners from inaccessible content in [walled gardens](https://en.wikipedia.org/wiki/Closed_platform), and
-* allows users to use and switch between apps without [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
+* 言論の自由をサポートする
+* ポッドキャスターの創造的な仕事に報酬を与える
+* アクセス不可能な[ウォールドガーデン](https://en.wikipedia.org/wiki/Closed_platform)のコンテンツからリスナーを保護する
+* ユーザーが[ベンダーロックイン](https://en.wikipedia.org/wiki/Vendor_lock-in)なくアプリを使用したり、アプリ間の切り替えを可能にする
 
-In practice, this means you can subscribe to any RSS feed that's out there, that we make it easy for you to (financially) support podcasters, and that you can synchronise, import and export your data.
+実際にこれが意味するのは、世の中に存在するあらゆるRSSフィードを購読できること、ポッドキャスターの（経済的な）サポートが簡単になること、あなたのデータの同期・インポート・エクスポートができることになります。
 
-## We hear you: community & accessibility
+## コミュニティとアクセシビリティに関するあなたの声を聞きます
 
-AntennaPod pushes the content in your ears, but we like to hear from you as well! Our community is open to your feedback and your thoughts. As humans we can disagree, but do so respectfully. And we do our best to make the app friendly for everyone. That's why it is possible to hide automatic suggestions and easy to navigate around the app through TalkBack.
+AntennaPodはあなたの耳にコンテンツを届けますが、私たちもあなたの意見を聞きたいを思っています！ 私たちのコミュニティは、あなたのフィードバックや意見を待っています。人間として同意し合えないこともありますが、敬意を持ってそうしましょう。そして、私たちはアプリを誰にとっても使いやすいものにするために最善を尽くしています。自動的な提案を非表示にできたり、TalkBack経由でアプリ内を簡単に移動したりできるのは、その結果です。
 
-## Est. 2011: the AntennaPod project today
+## 2011年に開始: 現在のAntennaPodプロジェクト
 
-The [first bit of code](https://github.com/AntennaPod/AntennaPod/commit/c9283f09dced6f156e13675ef4c13ebeb20cb9e5) of AntennaPod was published in 2011 by Daniel Oeh, the original creator of AntennaPod. Since then, the app has improved and our community grown.
+AntennaPodの[最初のコード](https://github.com/AntennaPod/AntennaPod/commit/c9283f09dced6f156e13675ef4c13ebeb20cb9e5)は、オリジナルの開発者Daniel Oehによって2011年に公開されました。それ以来、アプリは改善されてコミュニティが成長してきました。
 
-Today, AntennaPod brings together a large community of podcast addicts and open source enthusiasts. The app is installed on over 180,000 active devices (a phone or tablet that's been turned on at least once the past 30 days) via Google play. And we suspect thousands of users have installed the app via F-Droid, the privacy-friendly app store.
+現在、AntennaPodはポッドキャスト愛好家とオープンソース愛好家の大規模なコミュニティを作り上げています。このアプリは、Google Play経由で180,000台を超えるアクティブデバイス（過去 30 日間に少なくとも1回電源が入っている携帯電話またはタブレット）にインストールされています。そして、何千人ものユーザーがプライバシーに配慮したアプリ ストアであるF-Droid経由でアプリをインストールしたと考えられます。
 
-The whole project is maintained by a loose collective of volunteers from around the world. There is no official organisation behind it. There are about 3 people who regularly contribute code, with [many more](https://github.com/AntennaPod/AntennaPod/graphs/contributors) chipping in on an occasional basis. Our forum has over 190 members and each month has well over 300 visitors. The project is currently lead by @ByteHamster and @Keunes.
+プロジェクト全体は、世界中から集まった緩やかなボランティア集団によって維持されています。背後に正式な組織はありません。定期的にコードを提供している人は3人ほどですが、[さらに多くの開発者たち](https://github.com/AntennaPod/AntennaPod/graphs/contributors)が時折参加しています。フォーラムには190人を超えるメンバーがおり、毎月300人を超える訪問者がいます。このプロジェクトは現在、@ByteHamsterと@Keunesが主導しています。
 
-We are happy to have or welcome you as a user. If you have any questions you are more than welcome on our [forum](https://forum.antennapod.org). Our community is happy to help. And check out the ways you can [contribute](/contribute/) if you want to give something back to this awesome project!
+あなたをユーザーとして歓迎します。質問がある場合は、[フォーラム](https://forum.antennapod.org)に投稿してください。コミュニティが喜んで手助けします。この素晴らしいプロジェクトに何かをお返ししたい場合は、[貢献する](/contribute/)方法をチェックしてみてください！
