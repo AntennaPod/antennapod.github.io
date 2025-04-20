@@ -8,7 +8,7 @@ AntennaPod is structured in several modules to ensure that similar code is close
 
 For the Java code, AntennaPod uses a style similar to [Google's Java style](https://google.github.io/styleguide/javaguide.html). Checkstyle is run automatically when creating a pull request.
 
-For Android layout XML files, we use indention with 4 spaces. The `id`, `layout_width` and `layout_height` attributes come first. To easily format the files, you can use the same [tool](https://github.com/ByteHamster/android-xml-formatter) as our CI server.
+For Android layout XML files, we use indentation with 4 spaces. The `id`, `layout_width` and `layout_height` attributes come first. To easily format the files, you can use the same [tool](https://github.com/ByteHamster/android-xml-formatter) as our CI server.
 
 ### Resource ID naming
 Please use lowerCamelCase for naming `@+id` resources. For some types listed in the table below, please add a suffix noting the type.
