@@ -19,6 +19,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  text-align: inherit;
 }
 
 .content {
@@ -981,7 +982,7 @@ i.member-img {
   blockquote {
     border-left: 4px solid $brand-dark;
   }
-}  
+}
 
 @media (max-width: 768px) {
   .post-card img {
