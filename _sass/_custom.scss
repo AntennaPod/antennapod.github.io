@@ -547,6 +547,15 @@ blockquote {
   background-color: unset;
 }
 
+.breadcrumb-item::before {
+  display: none;
+}
+
+.breadcrumb-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .post-content {
   & p, li {
     color: $gray-900;
@@ -1136,7 +1145,6 @@ footer .svg-wave {
   border-bottom: 0;
   border-left: 0.3rem solid transparent;
   vertical-align: 0.1em;
-  margin-left: 0.1em;
 }
 
 // Pagination
