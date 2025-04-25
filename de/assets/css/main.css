@@ -9616,6 +9616,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  text-align: inherit;
 }
 
 .content {
@@ -10102,6 +10103,15 @@ blockquote {
   background-color: unset;
 }
 
+.breadcrumb-item::before {
+  display: none;
+}
+
+.breadcrumb-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .post-content p, .post-content li {
   color: #1a202c;
   margin-bottom: 0px;
@@ -10398,6 +10408,7 @@ i.member-img {
 .highlight-card > img {
   width: calc(100% + 60px);
   margin-left: -30px;
+  margin-right: -30px;
   margin-top: -30px;
   max-height: 200px;
   object-fit: cover;
@@ -10601,7 +10612,7 @@ footer .svg-wave {
   border-bottom: 0;
   border-left: 0.3rem solid transparent;
   vertical-align: 0.1em;
-  margin-left: 0.1em;
+  margin-left: 0;
 }
 
 .pager {

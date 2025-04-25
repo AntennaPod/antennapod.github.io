@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>چیزی کار نمی‌کند – AntennaPod</title>
+  <meta name="description" content="چیزی کار نمی‌کند">
+
+  <link rel="canonical" href="https://antennapod.org/fa/documentation/bugs-first-aid/bug-report">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="چیزی کار نمی‌کند – AntennaPod">
+  <meta name="twitter:description" content="چیزی کار نمی‌کند">
+  <meta name="twitter:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/fa/documentation/bugs-first-aid/bug-report">
+  <meta property="og:title" content="چیزی کار نمی‌کند – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
+  <meta property="og:description" content="چیزی کار نمی‌کند">
+  <meta property="og:site_name" content="AntennaPod">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/branding/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/branding/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/branding/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/branding/favicons/safari-pinned-tab.svg?v=2" color="#364ff3">
+  <link rel="shortcut icon" href="/assets/branding/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#364ff3">
+  <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
+  <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
+
+</head>
+<body dir="auto">
+<div class="content">
+    <div class="w-100 fixed background-gray-100">
+  <div class="container px-0 py-2 py-md-4">
+    <div class="navbar navbar-expand-xl">
+
+      <div class="col">
+        <a href="/fa">
+          <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo">
+        </a>
+      </div>
+
+      <div class="col-auto">
+        <div class="collapse navbar-collapse flex-grow-0 weight-500">
+          <div class="navbar-nav align-items-center">
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fa/about">
+                درباره
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fa/blog">
+                وبلاگ
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fa/events">
+                رویدادها
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="/fa/contribute">
+                مشارکت
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2 active">
+              <a class="nav-link" href="/fa/documentation">
+                مستندات
+              </a>
+            </div>
+            
+            
+            
+            
+            <div class="nav-item ml-2">
+              <a class="nav-link" href="https://forum.antennapod.org/">
+                انجمن
+              </a>
+            </div>
+            
+            <div class="nav-item ml-2 ml-sm-1 text-center">
+              <div class="nav-item dropdown mb-0">
+                <button class="nav-link dropdown-toggle" id="navbarDropdown1" aria-label="تعویض‌کننده زبان" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-globe size-16 color-gray-900"></i>
+                  <span class="ml-1 mr-1 size-16 color-gray-900 weight-600">FA</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/bugs-first-aid/bug-report">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/documentation/bugs-first-aid/bug-report">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/bug-report">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/documentation/bugs-first-aid/bug-report">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/bugs-first-aid/bug-report">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/bugs-first-aid/bug-report">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/bugs-first-aid/bug-report">Nederlands</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fa/documentation/bugs-first-aid/bug-report">فارسی</a>
+  
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-xl-none">
+          <div class="nav-item text-center d-inline-block">
+            <div class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" id="navbarDropdown2" aria-label="تعویض‌کننده زبان" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">FA</span>
+              </button>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/da/documentation/bugs-first-aid/bug-report">Dansk</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/de/documentation/bugs-first-aid/bug-report">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/documentation/bugs-first-aid/bug-report">English</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/es/documentation/bugs-first-aid/bug-report">Español</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fr/documentation/bugs-first-aid/bug-report">Français</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/it/documentation/bugs-first-aid/bug-report">Italiano</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/nl/documentation/bugs-first-aid/bug-report">Nederlands</a>
+  
+
+  
+    <a class="dropdown-item" onchange="location = this.value;" href="/fa/documentation/bugs-first-aid/bug-report">فارسی</a>
+  
+
+
+            </div>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="navbar-mobile" class="overlay">
+    <button class="closebtn" onclick="closeNav()">×</button>
+      <div class="overlay-header">
+        <img src="/assets/branding/logo-icon.svg" width="80" alt="نماد آنتناپاد">
+      </div>
+      <div class="overlay-content">
+        
+        <a href="/fa/about">درباره</a>
+        
+        <a href="/fa/blog">وبلاگ</a>
+        
+        <a href="/fa/events">رویدادها</a>
+        
+        <a href="/fa/contribute">مشارکت</a>
+        
+        <a href="/fa/documentation">مستندات</a>
+        
+        <a href="https://forum.antennapod.org/">انجمن</a>
+        
+      </div>
+      <div class="overlay-footer">
+        
+        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fa-brands fa-mastodon mr-1"></i>Mastodon</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky mr-1"></i>Bluesky</a>
+        
+        
+        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("navbar-mobile").style.height = "100%";
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+
+    function closeNav() {
+        document.getElementById("navbar-mobile").style.height = "0%";
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
+</script>
+
+    <div class="container-fluid">
+        <div class="container py-4">
+            
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0" id="breadcrumbs">
+    <li class="breadcrumb-item"><a href="/fa">خانه</a></li>
+    
+    
+    / <li class="breadcrumb-item"><a href="/fa/documentation">Documentation</a></li>
+    
+    
+    
+    / <li class="breadcrumb-item"><a href="/fa/documentation/bugs-first-aid">Bugs first aid</a></li>
+    
+    
+    
+    / <li class="breadcrumb-item active" aria-current="page">چیزی کار نمی‌کند</li>
+    
+    
+  </ol>
+</nav>
+
+            <article class="post-content">
+                <h1 id="چیزی-کار-نمیکند">چیزی کار نمی‌کند</h1>
+
+<p>با خطایی روبه‌رو شدید؟ از شنیدنش ناراحتیم.</p>
+
+<p>نخست، مطمئن شوید آخرین نگارش آنتناپاد را دارید. با هر به‌روزرسانی، خطاهای کوچک و بزرگ بسیاری برطرف می‌شوند. سپس انجمن ما را جستجو کنید تا ببینید آیا کس دیگری همین مشکل را دارد. اگر مشکل را پیدا کردید، پیشنهادها را ببینید. همچنین فرستادن داده‌هایی از وضعیت خودتان می‌تواند به توسعه‌دهندگان در پیدا کردن ریشه مشکل کمک کند.</p>
+
+<p>اگر آنتناپاد را به‌روز کرده‌اید و جستجو در انجمن چاره‌ساز نبود، مشکل را به ما بگویید. می‌توانید فرسته‌ای در <a href="https://forum.antennapod.org/c/bug-report/9">انجمن ما</a> بفرستید. برای این کار باید حساب کاربری بسازید (اگر از پیش ندارید) یا با گوگل وارد شوید.</p>
+
+<p>هر روشی که با ما تماس می‌گیرید، لطفاً داده‌های سامانه که در <code class="language-plaintext highlighter-rouge">تنظیمات</code> » <code class="language-plaintext highlighter-rouge">گزارش خطا</code> نمایش داده می‌شود را وارد کنید.</p>
+
+
+            </article>
+            
+            <div class="row justify-content-start pb-4">
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <footer>
+  <div class="container-fluid no-padding">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path class="svg-wave" fill="#00000" fill-opacity="0" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="container-fluid pb-2 bg-body-tertiary">
+    <div class="container">
+      <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+        <div class="col-12 col-lg-4 col-md-12 mb-3">
+          <div class="mb-4 mb-lg-3">
+            <a href="/fa">
+              <img src="/assets/branding/logo-full-horizontal-dynamic.svg" width="260" alt="نماد آنتناپاد">
+            </a>
+          </div>
+          <p class="small mb-3">مدیر پادپخش آسان، انعطاف‌پذیر و آزاد برای اندروید.</p>
+        </div>
+        <div class="col-0 col-lg-2"></div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/fa/about">
+              درباره
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/fa/blog">
+              وبلاگ
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/fa/contribute">
+              مشارکت
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/fa/documentation">
+              مستندات
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/fa/download">
+              بارگیری آنتناپاد
+            </a>
+          </div>
+          <!--<div class="mb-2">-->
+          <!--  <a href="/fa/media-kit">-->
+          <!--    <span>بسته رسانه‌ای</span>-->
+          <!--  </a>-->
+          <!--</div>-->
+        </div>
+        <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+              <i class="fa-brands fa-mastodon mr-1 ml-1"></i>Mastodon
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github mr-1 ml-1"></i>GitHub
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+              <i class="fa-brands fa-bluesky mr-1 ml-1"></i>Bluesky
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="mr-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter mr-1 ml-1"></i>Twitter
+            </a>
+          </p>
+          
+          <p>
+            <a class="mr-2" href="/rss.xml" target="_blank" rel="noopener">
+              <i class="fa fa-rss mr-1 ml-1"></i>RSS
+            </a>
+          </p>
+        </div>
+      </div>
+      <p class="top-border mb-2"></p>
+      <div class="d-block d-lg-flex justify-content-between pt-0 pb-3 copyright">
+        <div class="small mb-2 mb-lg-0">
+          © 2025 AntennaPod
+          <span class="mx-1">|</span>
+          <a class="underline-hover" href="/fa/license">پروانه</a>
+          <span class="mx-1">|</span>
+          <a class="underline-hover" href="/fa/privacy">سیاست حریم خصوصی</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
