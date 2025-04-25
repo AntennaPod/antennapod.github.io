@@ -3,7 +3,7 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body dir="auto">
     <div class="content">
     {% include nav.html %}
         {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}

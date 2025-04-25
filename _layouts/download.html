@@ -5,7 +5,7 @@
     {% capture redirect_to %}{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ page.redirect_to }}{% endcapture %}
     <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
   </head>
-  <body>
+  <body dir="auto">
     <div class="content">
       {% include nav.html %}
       <div class="container-fluid background-gray-100 py-4">

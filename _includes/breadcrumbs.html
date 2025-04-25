@@ -5,9 +5,9 @@
     <li class="breadcrumb-item"><a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">{% t generic.home %}</a></li>
     {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
-    <li class="breadcrumb-item active" aria-current="page">{% if page.texts %}{% t {{ page.texts }}.title %}{% else %}{% t page.title %}{% endif %}</li>
+    / <li class="breadcrumb-item active" aria-current="page">{% if page.texts %}{% t {{ page.texts }}.title %}{% else %}{% t page.title %}{% endif %}</li>
     {% else %}
-    <li class="breadcrumb-item"><a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+    / <li class="breadcrumb-item"><a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
     {% endif %}
     {% endfor %}
   </ol>
