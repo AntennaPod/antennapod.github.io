@@ -1,12 +1,12 @@
-Out of the estimated [world population](https://en.wikipedia.org/wiki/World_population) of 8 billion people, 'only' 1.5 billion [speak English](https://www.ethnologue.com/insights/ethnologue200/). This may not mean much per se. But if anything, we can conclude that making AntennaPod available in more languages, makes the app accessible to more people. As a side benefit, localizing the app also helps our project grow beyond the current main userbases (Germany and the US).
+بر پایه بررسی [جمعیت جهانی](https://en.wikipedia.org/wiki/World_population) ۸ میلیارد نفره، «فقط» ۱.۵ میلیارد نفر [انگلیسی صحبت می‌کنند](https://www.ethnologue.com/insights/ethnologue200/). این به‌خودی‌خود شاید چیز زیادی نشان ندهد. اما اگر برداشتی کنیم، این است که در دسترس قرار دادن آنتناپاد به زبان‌های بیشتر، برنامه را برای افراد بیشتری قابل استفاده می‌کند. به‌عنوان یک ویژگی جانبی، بومی‌سازی برنامه همچنین به رشد پروژه ما فراتر از پایگاه‌های کاربری کنونی (آلمان و ایالات متحده) کمک می‌کند.
 
-We therefore much appreciate your help!
+بنابراین، از کمک شما بسیار سپاسگزاریم!
 
-Our translations are hosted on Weblate, an open source localisation platform. Anyone can sign up there and [start translating for AntennaPod](https://hosted.weblate.org/projects/antennapod). You'll find everything you need to know in [Weblate's documentation for translators](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
+ترجمه‌های ما در وب‌لیت، یک سکو بومی‌سازی متن‌باز، میزبانی می‌شوند. هر کسی می‌تواند آنجا ثبت‌نام کند و [ترجمه برای آنتناپاد را آغاز کند](https://hosted.weblate.org/projects/antennapod). هر آنچه باید بدانید در [مستندات وب‌لیت برای مترجمان](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"} خواهید یافت.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Graph with status of AntennaPod translations on Weblate.
+       نمودار وضعیت ترجمه‌های آنتناپاد در وب‌لیت.
 
        "
 
@@ -14,38 +14,38 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## 1. The app
+</object>## ۱. برنامه
 
-The app is currently available in more than 38 languages. While there are even more translations in Weblate, we only include languages in the app which are at least 40% translated. Below that threshold the app hardly provides a good user experience.
+این برنامه هم‌اکنون به بیش از ۳۸ زبان در دسترس است. اگرچه ترجمه‌های بیشتری در وب‌لیت وجود دارد، ما فقط زبان‌هایی را در برنامه جای می‌دهیم که دست‌کم ۴۰٪ ترجمه شده باشند. زیر این آستانه، برنامه به‌سختی تجربه کاربری خوبی فراهم می‌کند.
 
-Updated translations are published with every 'point release'. These are releases like 2.0, 2.5, etc., which introduce improvements and new features. On average, it might take a month or two before your work is available in a release.
+ترجمه‌های به‌روز شده با هر «نسخه نقطه‌ای» منتشر می‌شوند. این‌ها نسخه‌هایی مانند ۲.۰، ۲.۵ و غیره هستند که بهبودها و ویژگی‌های جدید را معرفی می‌کنند. به‌طور متوسط، ممکن است یک یا دو ماه طول بکشد تا کار شما در یک نسخه در دسترس قرار بگیرد.
 
-If you contributed translations, you will be mentioned in the app with your Weblate username under `Settings` » `About` » `Contributors`.
+اگر در ترجمه‌ها مشارکت کرده باشید، نام کاربری وب‌لیت شما در برنامه زیر `تنظیمات` » `درباره` » `مشارکت‌کنندگان` نوشته خواهد شد.
 
-## 2. The website
+## ۲. وبگاه
 
-The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
+وبگاه از چهار «بخش» ساخته شده است که هر یک بخشی از وبگاه را نشان می‌دهند. پیشنهاد می‌کنیم این ترتیب را دنبال کنید:
 
-1. **General** and **Short strings**: the first elements a user sees on the website
-1. **Documentation**: our support materials, which are directly available via the app
-1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
+1. **عمومی** و **رشته‌های کوتاه**: اولین چیزهایی که کاربر در وبگاه می‌بیند
+1. **مستندات**: مواد پشتیبانی ما که مستقیماً از برنامه در دسترس هستند
+1. **مشارکت** (آخرین است زیرا به هر حال برای مشارکت نیاز به درک پایه انگلیسی است)
 
-Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
+ترجمه‌های به‌روز شده هر از گاهی منتشر می‌شوند. زبان‌های جدید در وبگاه تنها پس از ترجمه کامل بخش‌های اولویت ۱ و ۲ باز می‌شوند. به عبارت دیگر: وقتی همه‌چیز جز بخش «مشارکت» انجام شده باشد. لطفاً اگر اینگونه است، در انجمن (در زیر ببینید) به ما اطلاع دهید. سپس می‌کوشیم یکی از اعضای اجتماع را پیدا کنیم که بتواند نسخه آزمایشی وبگاه را بررسی کند تا کیفیت ترجمه‌ها بهبود یابد. پس از پردازش بازخوردها، می‌توانیم نسخه زبانی جدید را منتشر کنیم.
 
-## 3. The app store listings
+## ۳. فهرست‌های فروشگاه برنامه
 
-In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+همراه با برنامه و وبگاه، ما همچنین متن‌هایی را که در فروشگاه‌های مختلف برنامه نمایش داده می‌شوند ترجمه می‌کنیم. پیشنهاد می‌کنیم این ترتیب را دنبال کنید:
 
-1. **Short description**
-1. **Full description**
-1. **Screenshot titles**
+1. **توضیح کوتاه**
+1. **توضیح کامل**
+1. **عنوان‌های تصاویر صفحه**
 
-We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+ما باید محدودیت تعداد نویسه‌ها را برای توضیحات کوتاه و عنوان‌های تصاویر صفحه در نظر بگیریم. بنابراین، این متن‌ها را پیش از انتشار به‌صورت دستی بررسی و بهبود می‌دهیم. لطفاً وقتی ترجمه این متن‌ها را کامل کردید، از طریق انجمن به ما اطلاع دهید.
 
-## Get in touch!
+## تماس با ما!
 
-* Do you want to give **feedback** on the English texts or any of the translations?
-* Are you **interested in helping** with translations but not sure yet? Or you are ready to get started?
-* Do you (want to) contribute and **need support**? For example, because your language isn't available yet, or because you are not sure how to translate something?
+* آیا می‌خواهید **بازخورد** درباره متن‌های انگلیسی یا هر یک از ترجمه‌ها بدهید؟
+* آیا **خواهان کمک** در ترجمه‌ها هستید اما هنوز مطمئن نیستید؟ یا آماده آغاز هستید؟
+* آیا (می‌خواهید) مشارکت کنید و **نیاز به پشتیبانی** دارید؟ برای مثال، چون زبان شما هنوز در دسترس نیست، یا مطمئن نیستید چگونه چیزی را ترجمه کنید؟
 
-Chip in on the [translation section on our forum](https://forum.antennapod.org/c/translations/11)! That is the best way to reach out to us. Comments and messages in the respective translation tools don't always reach us in a timely manner.
+در [بخش ترجمه‌های انجمن ما](https://forum.antennapod.org/c/translations/11) مشارکت کنید! این بهترین راه برای تماس با ماست. دیدگاه‌ها و پیام‌ها در ابزارهای ترجمه مربوطه، همیشه در زمان مناسب به ما نمی‌رسند.

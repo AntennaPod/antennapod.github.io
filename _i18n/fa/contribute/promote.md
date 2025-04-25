@@ -1,11 +1,11 @@
-AntennaPod relies on free publicity, word-of-mouth, and a modest social media presence for its promotion. We know there's room for improvement. And you might have thought that as well. Why not help us grow bigger? Your contribution in any of the following areas will be much appreciated.
+آنتناپاد برای آگهی خود به آگهی رایگان، توصیه‌های شفاهی و حضور محدود در رسانه‌های اجتماعی وابسته است. می‌دانیم که جای بهبود دارد. شاید شما هم همین فکر را کرده‌اید. چرا به ما کمک نکنید تا بزرگ‌تر شویم؟ مشارکت شما در هر یک از زمینه‌های زیر بسیار ارزشمند خواهد بود.
 
-* **Press** Know an interesting website, podcast or magazine that might cover AntennaPod? Then help us build a list of media to reach out to with important messages.
-* **Social media** Happy to think of new hooks to talk about the project, and draft concise & creative messages every now & then? Help engage with a wider audience on Twitter & Mastodon.
-* **Blog** Interested in writing about new app features, the AntennaPod project or an open podcasting ecosystem in general? Help us maintain our blog.
-* **Graphics design** Feeling comfortable with (digital) pen & ink? Then help us spice up our website, social media presence and other promotional materials.
-* **Everything else** Do you have other great ideas to promote the project? Get in touch and share them with us.
+* **رسانه‌ها** آیا وبگاه، پادپخش یا مجله جالبی می‌شناسید که ممکن است آنتناپاد را پوشش دهد؟ به ما کمک کنید تا فهرستی از رسانه‌ها برای تماس با پیام‌های مهم بسازیم.
+* **رسانه‌های اجتماعی** خوشحال می‌شوید ایده‌های جدیدی برای صحبت درباره پروژه پیدا کنید و پیام‌های کوتاه و خلاقانه‌ای هر از گاهی بنویسید؟ به ما کمک کنید تا با مخاطبان گسترده‌تری در توییتر و ماستودون پیوند برقرار کنیم.
+* **وبلاگ** نوشتن درباره ویژگی‌های جدید برنامه، پروژه آنتناپاد یا زیست‌بوم آزاد پادپخش به‌طور کلی را می‌پسندید؟ به ما کمک کنید تا وبلاگ‌مان را نگه‌داریم.
+* **طراحی گرافیک** با قلم و جوهر (دیجیتال) راحت هستید؟ به ما کمک کنید تا وبگاه، حضور در رسانه‌های اجتماعی و دیگر مواد آگهی‌مان را جذاب‌تر کنیم.
+* **هر چیز دیگر** آیا ایده‌های عالی دیگری برای آگهی پروژه دارید؟ با ما تماس بگیرید و آن‌ها را با ما در میان بگذارید.
 
-# Get in touch
+# تماس با ما
 
-Vaguely interested but not sure yet? Ready to get started? Get in touch with [@Keunes on our forum](https://forum.antennapod.org/u/keunes)! To get an idea of our current materials, you can also check out [our Twitter feed](https://www.twitter.com/antennapod), [our blog](/blog) and the [Branding repository](https://github.com/AntennaPod/Branding) on GitHub.
+مشتاق‌اید اما هنوز مطمئن نیستید؟ آماده آغاز هستید؟ با [@Keunes در انجمن ما](https://forum.antennapod.org/u/keunes) تماس بگیرید! برای آشنایی با مواد کنونی ما، می‌توانید [خوراک توییتر ما](https://www.twitter.com/antennapod)، [وبلاگ ما](/blog) و [مخزن برندینگ](https://github.com/AntennaPod/Branding) در گیت‌هاب را بررسی کنید.
