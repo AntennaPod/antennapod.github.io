@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-12 08:57+0200\n"
-"PO-Revision-Date: 2024-11-02 18:14+0000\n"
-"Last-Translator: viraaajas <vishalmganthade@gmail.com>\n"
+"PO-Revision-Date: 2025-04-26 13:33+0000\n"
+"Last-Translator: Govind Gopal Yadav <govindgopalgaming@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/antennapod/website/"
 "general/hi/>\n"
 "Language: hi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -375,7 +375,6 @@ msgid "What data the AntennaPod app might collect, store and process"
 msgstr "एंटेनापॉड ऐप कौन सा डेटा एकत्र, संग्रहीत और संसाधित कर सकता है"
 
 #: _i18n/en/general/privacy.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
 "includes for example the list of podcasts you follow, the app settings, and "
@@ -384,9 +383,9 @@ msgid ""
 "libraries or any 3rd party tracking (analytics) code, such as Google "
 "Analytics."
 msgstr ""
-"ऐप केवल उस डेटा को रिकॉर्ड करता है जो ऐप के कार्य करने के लिए अत्यंत आवश्यक है। इसमें "
-"उदाहरण के लिए आपके द्वारा अनुसरण किए जाने वाले पॉडकास्ट की सूची, ऐप सेटिंग्स और विशिष्ट "
-"पॉडकास्ट या सेवाओं (जैसे सिंक्रनाइज़ेशन सेवाएं) के लिए प्रदान किया गया प्रमाणीकरण डेटा "
+"ऐप केवल वही डेटा रिकॉर्ड करता है जो ऐप के काम करने के लिए ज़रूरी है। इसमें उदाहरण के लिए "
+"आपके (you) द्वारा फ़ॉलो किए जाने वाले पॉडकास्ट की सूची, ऐप सेटिंग (settings) और विशिष्"
+"ट पॉडकास्ट या सेवाओं (जैसे सिंक्रोनाइज़ेशन सेवाएँ) के लिए प्रदान किया गया प्रमाणीकरण डेटा "
 "शामिल है। ऐप में कोई विज्ञापन लाइब्रेरी या Google Analytics जैसा कोई तृतीय पक्ष ट्रैकिंग "
 "(एनालिटिक्स) कोड शामिल नहीं है।"
 
@@ -405,15 +404,15 @@ msgstr ""
 "जा सकता है।"
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "The only case where your data from 3rd parties is handled, is when using a "
 "synchronization service if enabled via the settings. In that case, the app "
 "may receive subscriptions and playback events provided by the service."
 msgstr ""
-"एकमात्र मामला जहां तृतीय पक्षों से आपका डेटा संभाला जाता है, वह तब होता है जब सेटिंग्स के "
-"माध्यम से सक्षम होने पर सिंक्रनाइज़ेशन सेवा का उपयोग किया जाता है। उस स्थिति में, ऐप को "
-"सेवा द्वारा प्रदान की गई सदस्यताएँ और प्लेबैक ईवेंट प्राप्त हो सकते हैं।"
+"एकमात्र मामला जहां तृतीय पक्षों से आपका डेटा संभाला जाता है, वह तब होता है जब सेटिंग्स "
+"(settings) के माध्यम से सक्षम होने पर सिंक्रनाइज़ेशन सेवा का उपयोग किया जाता है। उस "
+"स्थिति में, ऐप को सेवा द्वारा प्रदान की गई सदस्यताएँ (subscriptions ) और प्लेबैक ईवेंट "
+"प्राप्त हो सकते हैं।"
 
 #: _i18n/en/general/privacy.md:block 6 (header)
 msgid "App permissions"
@@ -470,7 +469,6 @@ msgstr ""
 "करते हैं।"
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
-#, fuzzy
 msgid ""
 "Discovery and search services: When opening the Discover screen in the app, "
 "it sends a call to Apple to collect podcast suggestions. They may store the "
@@ -482,16 +480,16 @@ msgid ""
 "\"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
-"खोज और खोज सेवाएँ: ऐप में डिस्कवर स्क्रीन खोलने पर, यह पॉडकास्ट सुझाव एकत्र करने के लिए "
-"ऐप्पल को एक कॉल भेजता है। वे देश सहित (जो डिफ़ॉल्ट रूप से डिवाइस का देश है) क्वेरी संग्रहीत "
-"कर सकते हैं। इन सुझावों को क्षेत्र चयनकर्ता में \"बंद\" चुनकर अक्षम किया जा सकता है। "
-"एंटेनापॉड में खोज सुविधा का उपयोग करते समय, PodcastIndex.org, iTunes, fyyd और "
-"gpodder.net सेवाएँ खोज शब्दों सहित आपकी क्वेरी को संग्रहीत कर सकती हैं। खोज और खोज "
-"क्वेरी में आईपी पता, समय और ऐप का नाम \"एंटेनापॉड\" भी शामिल है। सदस्यता लेने के बाद, "
-"फ़ीड पॉडकास्ट होस्टर से परोसा जाता है, जिसका अर्थ है कि खोज/खोज सेवा अब शामिल नहीं है।"
+"डिस्कवरी और सर्च सेवाएँ: ऐप में डिस्कवर स्क्रीन खोलने पर, यह पॉडकास्ट सुझाव एकत्र करने के लि"
+"ए Apple को कॉल भेजता है। वे क्वेरी को देश सहित संग्रहीत कर सकते हैं (जो डिफ़ॉल्ट रूप से डिवा"
+"इस का देश है)। इन सुझावों को क्षेत्र चयनकर्ता में \"बंद\" चुनकर अक्षम किया जा सकता है। "
+"AntennaPod में खोज सुविधा का उपयोग करते समय, PodcastIndex.org, Apple Podcasts और "
+"fyyd सेवाएँ आपकी क्वेरी को खोज शब्दों सहित संग्रहीत कर सकती हैं। डिस्कवरी और सर्च क्वेरी में "
+"IP पता, समय और ऐप का नाम \"AntennaPod\" भी शामिल है। सदस्यता लेने के बाद, फ़ीड "
+"(feed) पॉडकास्ट होस्टर से परोसा जाता है, जिसका अर्थ है कि डिस्कवरी/सर्च सेवा अब शामिल "
+"नहीं है।"
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
-#, fuzzy
 msgid ""
 "Synchronization services: When enabled via the settings, AntennaPod "
 "synchronizes your data. This data may include login credentials, subscribed "
@@ -499,12 +497,10 @@ msgid ""
 "stamps and IP address. For more information, see your provider's privacy "
 "policy."
 msgstr ""
-"सिंक्रोनाइज़ेशन सेवाएँ: सेटिंग्स के माध्यम से सक्षम होने पर, एंटेनापॉड आपके डेटा को सिंक्रोनाइज़ "
-"करता है। इस डेटा में लॉगिन क्रेडेंशियल, सब्सक्राइब किए गए पॉडकास्ट, सुने गए एपिसोड, दिनांक "
-"और समय टिकटों और आईपी पते के साथ प्ले, पॉज़ और पसंदीदा गतिविधियां शामिल हो सकती हैं। "
-"अधिक जानकारी के लिए, अपने प्रदाता की गोपनीयता नीति देखें (उदाहरण के लिए [gpodder."
-"net की गोपनीयता नीति](https://gpodder.net/privacy), या आपके नेक्स्टक्लाउड होस्ट में "
-"से एक)।"
+"सिंक्रोनाइज़ेशन सेवाएँ: सेटिंग्स (settings) के माध्यम से सक्षम होने पर, AntennaPod आपके डेटा "
+"को सिंक्रोनाइज़ करता है। इस डेटा में लॉगिन क्रेडेंशियल, सब्सक्राइब किए गए पॉडकास्ट, सुने गए "
+"एपिसोड (episodes), प्ले, पॉज़ और पसंदीदा क्रियाएँ दिनांक और समय स्टैम्प और आईपी पते के सा"
+"थ शामिल हो सकती हैं। अधिक जानकारी के लिए, अपने प्रदाता की गोपनीयता नीति देखें।"
 
 #: _i18n/en/general/privacy.md:block 10 (unordered list)
 msgid ""
@@ -666,13 +662,12 @@ msgstr ""
 "इस दस्तावेज़ पर किए जाते हैं।"
 
 #: _i18n/en/general/privacy.md:block 18 (paragraph)
-#, fuzzy
 msgid ""
 "This Privacy Policy was last updated on 2024-07-13. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"यह गोपनीयता नीति अंतिम बार 2022-02-13 को अद्यतन की गई थी। यदि आपके कोई प्रश्न हैं, "
-"तो GitHub या हमारे फोरम पर एक मुद्दा खोलें।"
+"यह गोपनीयता नीति अंतिम बार 2024-07-13 को अपडेट की गई थी। यदि आपके कोई प्रश्न हैं, तो"
+" GitHub या हमारे फ़ोरम पर कोई समस्या खोलें।"
 
 #: _i18n/en/general/privacy.md:block 21 (paragraph)
 msgid ""
