@@ -1,6 +1,14 @@
 titles:
   about: Sobre
   contribute: Colaborar
+  blog: Blog
+  documentation: Documentación
+  events: Eventos
+  privacy: Directiva de Privacidade
+  download: Descargar AntennaPod
+  forum: Foro
+  media-kit: Recursos para medios
+  license: Licenza
 generic:
   download: Descargar
   contribute: Colaborar
@@ -8,9 +16,44 @@ generic:
   error: Erro
   subscribe: Subscribir
   home: Inicio
+  view: Ver todo
+  learn: Saber máis
+  error404: Erro 404
+  redirect:
+    title: Redirección
+    link: Preme aquí se non te redirixe
+  subscribe-subtitle: Preme para subscribirte a este podcast en AntennaPod ou noutra
+    app de podcast.
+  page-not-found-long: Non se atopou a páxina solicitada.
+  masto-share:
+    server: 'Escribe o enderezo da túa instancia: (ex. mastodon.social)'
+  previous: Anterior
+  next: Seguinte
+  accessibility:
+    share-fb: Compartir en Facebook
+    share-md: Compartir en Mastodon
+    share-tw: Compartir en X
+    share-eml: Compartir por correo
+    logo: Logo de AntennaPod
+    lang-menu: Cambio de idioma
+    copy: Copiar ligazón
+    copied: Copiouse a ligazón!
+  eml-share:
+    subject: Quero que vexas isto
+    body: Mira este artigo
+  page-not-found-short: Non se atopa a páxina
 documentation:
   playback:
     title: Reprodución
+    chromecast:
+      title: Reprodución en Google Chromecast
+    intro: Abaixo tes os temas relacionados coa reprodución.
+    auto-rewind:
+      title: Retroceso automático
+    shortcuts:
+      title: Atallos do teclado físico
+    android-auto:
+      title: Reprodución nos automóbiles (Android Auto)
   queue:
     title: Na cola
   subscriptions:
@@ -21,8 +64,163 @@ documentation:
       title: Eliminación automática
     refreshing-podcasts:
       title: Actualizando podcasts
+  bugs-first-aid:
+    bug-report:
+      title: Hai algo que non funciona
+    typo-translations:
+      title: Atopei unha palabra mal escrita
+    episodes-missing:
+      title: Faltan todos os episodios antigos
+    playback-stops:
+      title: A reprodución detense de pronto
+    refresh-download-errors:
+      title: Erro ao actualizar ou descargar da canle
+    database-error:
+      title: Desapareceron todos os meus podcasts e episodios
+    cannot-stream-download:
+      title: Non podo descargar un episodio
+  podcasters-hosters:
+    add-on-antennapod:
+      title: Crear unha ligazón «Abrir en AntennaPod»
+    list-podcast:
+      title: Inclúe o teu podcast na lista
+    update-feed-urls:
+      title: Actualizando os URLs da canle
+  intro: Ben vida á sección de documentación de AntennaPod
+  search:
+    placeholder: Buscar na documentación
+    no-results: Lamentámolo, pero non atopamos nada
+  getting-started:
+    title: Comezar
+    intro: Ben vida a AntennaPod! Aquí podes atopar información sobre como
+    subscribe:
+      title: Subscribirte a un podcasts
+    home:
+      title: Usar a pantalla de Inicio
+  general:
+    intro: Embaixo podes ler sobre o proxecto AntennaPod.
+    ads:
+      title: Sobre a publicidade en AntennaPod
+    external-storage:
+      title: Usar almacenaxe externa
+    beta:
+      title: Probando as versións ßeta
+    central-distributed:
+      title: Apps para podcast centalizadas e distribuidas
+    synchronization:
+      title: Sincronización entre dispositivos
+    proxy:
+      title: Redirixir o tráfico por un mandatario ou a rede Tor
+    episode-deletion:
+      title: Borrado de episodios
+    f-droid:
+      title: Actualizacións en F-Droid
+    other-platforms:
+      title: AntennaPod para Windows, Apple e Linux
+    title: Xeral
+    backup:
+      title: Copia de apoio dos episodios
 contribute:
   support:
     title: Axuda
+    card-text: Tes facilidade para explicarte? Axuda a outras persoas no foro.
   test:
     title: Proba
+    card-text: Non tes medo de romper cousas? Inténtao coas nosas versións beta.
+  develop:
+    categories:
+      website:
+        card-text: Coñecementos de SCSS e HTML? Podes axudarnos coa web.
+        title: Páxina web
+      app:
+        title: App
+        card-text: Coñecementos de Java? Descubre como colaborar na app AntennaPod.
+      upstream:
+        title: Outros proxectos e dependencias
+        card-text: Axúdanos colaborando noutros proxectos dos que dependemos.
+    title: Desenvolver
+    card-text: Escribes código? Axúdanos a comprobar as colaboracións, engadir novas
+      características ou arranxar problemas na app e sitio web.
+  translate:
+    title: Traducir
+    card-text: Falas algún idioma diferente ao Inglés? Axúdanos a traducir AntennaPod.
+  promote:
+    title: Promove
+  design:
+    title: Deseña
+  donate:
+    card-text: Non tes moito tempo dispoñible e queres aportar cartos.
+    title: Doa
+    modal-title: Queres facer unha doazón?
+    modal-button-donate: Doar igualmente
+    modal-button-chat: Comenta con nós como podes axudar
+    modal-button-contribute: Volve a mirar as opcións para colaborar
+  intro: AntennaPod créana persoas voluntarias. Ti tamén podes colaborar, con código
+    ou doutros xeitos!
+homepage:
+  features:
+    adfree:
+      description: A aplicación AntennaPod en si mesma non ten publicidade. Se os
+        podcast deciden engadir publicidade nos seus ficheiros multimedia obteñen
+        o 100% dos beneficios.
+      title: Sen publicidade
+    listenanywhere:
+      description: Con AntennaPod, podes descargar e escoitar episodios en calquera
+        lugar. Incluso podes seleccionar podcast que se descarguen de xeito automático.
+      title: Escoita en calquera lugar
+  header: O Reprodutor Aberto para Podcast
+  description: AntennaPod é un reprodutor de podcast completamente aberto. O código
+    da app é aberto e podes subscribirte a calquera canle RSS. AntennaPod está feita
+    por persoas voluntarias sen interese comercial, polo que respecta a túa privacidade
+    dándoche todo o control.
+not-installed:
+  text: AntennaPod non está instalada ou o teu navegador non é quen de abrila directamente.
+  title: AntennaPod non está instalada
+events:
+  general:
+    recurring: Evento recurrente
+    download-ics: Descargar ficheiro ICS
+    copy-url: Copiar URL do calendario
+  links:
+    add-calendar: Engadir ao calendario
+    more-information: Máis información
+    open-meeting: Abrir xuntanza
+    open-map: Ver localización
+    open-blog: Ler artigo do blog
+    watch-recording: Ver a gravación
+  recurrence:
+    every-2nd-saturday: cada segundo Sábado do mes
+footer:
+  description: O xestor de podcast de código aberto para Android, fácil de usar e
+    flexible.
+month:
+  Jan: Xan
+  Feb: Feb
+  Mar: Mar
+  Oct: Out
+  Apr: Abr
+  May: Mai
+  Nov: Nov
+  Jun: Xuñ
+  Jul: Xul
+  Aug: Ago
+  Sep: Set
+  Dec: Dec
+long_month:
+  March: Marzo
+  April: Abril
+  May: Maio
+  June: Xuño
+  July: Xullo
+  August: Agosto
+  September: Setembro
+  December: Decembro
+  January: Xaneiro
+  February: Febreiro
+  October: Outubro
+  November: Novembro
+readtime:
+  plural: min de lectura
+  singular: min de lectura
+blog:
+  posted: Publicado o
