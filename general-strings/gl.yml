@@ -21,7 +21,7 @@ generic:
   error404: Erro 404
   redirect:
     title: Redirección
-    link: Preme aquí se non te redirixe
+    link: Preme aquí se non te redirixe.
   subscribe-subtitle: Preme para subscribirte a este podcast en AntennaPod ou noutra
     app de podcast.
   page-not-found-long: Non se atopou a páxina solicitada.
@@ -56,14 +56,30 @@ documentation:
       title: Reprodución nos automóbiles (Android Auto)
   queue:
     title: Na cola
+    multiple-queues:
+      title: Como usar varias colas
+    intro: Embaixo podes ver as preguntas frecuentes sobre a cola.
+    how-to-use:
+      title: Como usar a cola
+    lock:
+      title: (Des)bloquear a cola
+    smart-shuffle:
+      title: Como usar o barallado intelixente
   subscriptions:
     title: Subscricións
+    intro: Embaixo podes ver as preguntas frecuentes sobre as subscricións.
+    subscription-groups:
+      title: Etiquetas das subscricións (grupos e categorías)
   automation:
     title: Automatizado
     deletion:
       title: Eliminación automática
     refreshing-podcasts:
       title: Actualizando podcasts
+    intro: Xa tes experiencia e queres automatizar certas tarefas? Mira estas páxinas
+      de aquí embaixo.
+    tasker:
+      title: Integración con outras apps
   bugs-first-aid:
     bug-report:
       title: Hai algo que non funciona
@@ -79,6 +95,11 @@ documentation:
       title: Desapareceron todos os meus podcasts e episodios
     cannot-stream-download:
       title: Non podo descargar un episodio
+    title: Fallos, erros e axuda básica
+    intro: O software escríbeno persoas, así que os erros son inevitables. Mais sempre
+      podemos facer algo ao respecto!
+    cannot-resume-playback:
+      title: Non se retoma a reprodución desde a pantalla de bloqueo / notificación
   podcasters-hosters:
     add-on-antennapod:
       title: Crear unha ligazón «Abrir en AntennaPod»
@@ -86,13 +107,17 @@ documentation:
       title: Inclúe o teu podcast na lista
     update-feed-urls:
       title: Actualizando os URLs da canle
-  intro: Ben vida á sección de documentación de AntennaPod
+    title: Sobre hospedaxe e publicación
+    intro: Embaixo tes información de axuda para provedores de hospedaxe e podcasters.
+  intro: Ben vida á sección de documentación de AntennaPod. Aquí podes atopar información
+    sobre as características actuais.
   search:
     placeholder: Buscar na documentación
     no-results: Lamentámolo, pero non atopamos nada
   getting-started:
     title: Comezar
-    intro: Ben vida a AntennaPod! Aquí podes atopar información sobre como
+    intro: Ben vida a AntennaPod! Aquí podes atopar información sobre como comezar
+      a usar AntennaPod.
     subscribe:
       title: Subscribirte a un podcasts
     home:
@@ -146,8 +171,12 @@ contribute:
     card-text: Falas algún idioma diferente ao Inglés? Axúdanos a traducir AntennaPod.
   promote:
     title: Promove
+    card-text: Es ocorrente escribindo chíos, artigos interesantes ou deseños atraíntes?
+      Axuda a espallar o proxecto.
   design:
     title: Deseña
+    card-text: Sabes como converter peticións complexas en historias fáciles de entender?
+      Axúdanos a resolver estas incidencias.
   donate:
     card-text: Non tes moito tempo dispoñible e queres aportar cartos.
     title: Doa
@@ -181,6 +210,9 @@ events:
     recurring: Evento recurrente
     download-ics: Descargar ficheiro ICS
     copy-url: Copiar URL do calendario
+    announce-add-calendar: Queres estar sempre ao día coas últimas novas da comunidade
+      e eventos? Subscríbete ao noso calendario na túa app favorita usando a ligazón
+      'Engadir ao calendario'!
   links:
     add-calendar: Engadir ao calendario
     more-information: Máis información
@@ -190,6 +222,7 @@ events:
     watch-recording: Ver a gravación
   recurrence:
     every-2nd-saturday: cada segundo Sábado do mes
+    2nd-4th-wednesday: (case todos) os segundos e cuartos Mércores de cada mes
 footer:
   description: O xestor de podcast de código aberto para Android, fácil de usar e
     flexible.
