@@ -553,7 +553,7 @@ blockquote {
     line-height: 1.5rem;
   }
 
-  & p + p, div.modal + p {
+  & p + p, div.modal + p, p + table, table + p {
     margin-top: 20px;
   }
 
@@ -647,6 +647,12 @@ blockquote {
     color: $gray-800;
   }
 
+  & td, th {
+  border-color: var(--secondary);
+  border-width: 1px;
+  border-style: solid;
+  padding: 3px 6px;
+  }
 }
 
 .post-content + .row, p + .row {
