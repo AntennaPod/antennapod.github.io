@@ -10117,7 +10117,7 @@ blockquote {
   margin-bottom: 0px;
   line-height: 1.5rem;
 }
-.post-content p + p, .post-content div.modal + p {
+.post-content p + p, .post-content div.modal + p, .post-content p + table, .post-content table + p {
   margin-top: 20px;
 }
 .post-content img {
@@ -10192,6 +10192,12 @@ blockquote {
 }
 .post-content #donate {
   color: #2d3748;
+}
+.post-content td, .post-content th {
+  border-color: var(--secondary);
+  border-width: 1px;
+  border-style: solid;
+  padding: 3px 6px;
 }
 
 .post-content + .row, p + .row {
