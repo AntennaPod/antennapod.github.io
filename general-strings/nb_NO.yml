@@ -100,6 +100,20 @@ contribute:
     categories:
       app:
         title: App
+        card-text: Snakker du Java? Finn ut hvordan du kan bidra med AntennaPod-appen.
+        getting-credited:
+          title: Bli kreditert for ditt bidrag
+        test-builds:
+          title: Få testbygg
+        code-style:
+          title: Kodestruktur og kodestil
+      upstream:
+        title: Oppstrøm og andre prosjekter
+        card-text: Hjelp oss med å bidra i andre prosjekter vi er avhengig av.
+      website:
+        title: Nettside
+        card-text: Er du kjent med SCSS og HTML? Da kan du hjelpe oss med nettsiden
+          vår.
   promote:
     title: Framsnakk
     text: Lager du fengende tvitringer, interessante blogger, eller bra grafikk? Hjelp
@@ -117,7 +131,7 @@ contribute:
   translate:
     title: Oversett
     text: Snakker du et annet språk enn Engelsk. Hjelp oss å oversette AntennaPod.
-    card-text: Snakker du et annet språk enn engelsk?Hjelp oss å oversette AntennaPod.
+    card-text: Snakker du et annet språk enn engelsk? Hjelp oss å oversette AntennaPod.
   support:
     title: Støtte
     text: Er du god til å forklare? Hjelp andre brukere på forumet.
@@ -133,6 +147,8 @@ contribute:
     modal-title: Er du sikker på at du vil donere?
     modal-button-donate: Doner uansett
     modal-button-contribute: Sjekk bidragsalternativene igjen
+    card-text: Du kan ikke gi av tiden din og vil gi penger i stedet.
+    title: Doner
   intro: AntennaPod er i konstant utvikling av frivillige. Du kan også bidra, med
     kode eller annet!
 documentation:
@@ -210,7 +226,7 @@ documentation:
     title: Generelt
     intro: Nedenfor finner du flere detaljer om AntennaPod-prosjektet.
     ads:
-      title: Om reklamer i AntennaPod
+      title: Om reklame i AntennaPod
     f-droid:
       title: Nye versjoner på F-Droid
     backup:
@@ -224,7 +240,7 @@ documentation:
     synchronization:
       title: Hvordan synkronisere mellom enheter
     proxy:
-      title: Lede trafikk gjennom mellomtjener eller Tor-nettverket
+      title: Lede trafikk gjennom en mellomtjener eller Tor-nettverket
     episode-deletion:
       title: Sletting av episoder
     other-platforms:
@@ -232,17 +248,19 @@ documentation:
   automation:
     deletion:
       title: Automatisk sletting
-    intro: Erfaren bruker som vil automatisere oppgaver? Sjekk sidene nedenfor.
+    intro: Er du en erfaren bruker som vil automatisere oppgaver? Sjekk sidene nedenfor.
     refreshing-podcasts:
-      title: Oppdater podkaster
+      title: Oppdaterer podkaster
     title: Automatisering
+    tasker:
+      title: Integrasjon med andre apper
   podcasters-hosters:
-    intro: Nedenfor finner du brukerstøtteinfo for skapere av nettradioopptak og vertstjenere.
-    title: For nettradioopptaksskapere og vertstjenere
+    intro: Nedenfor finner du brukerstøtteinfo for skapere av podkaster og vertstjenere.
+    title: For podkastere og vertstjenere
     add-on-antennapod:
       title: Lag en «Åpne i AntennaPod»-lenke
     list-podcast:
-      title: Opplisting av ditt nettradioopptak
+      title: Få podkasten din oppført
     update-feed-urls:
       title: Oppdaterer nettadresser for strømmer
   intro: Velkommen til dokumentasjonsdelen av AntennaPod. Her finner du info om funksjoner.
@@ -252,9 +270,11 @@ documentation:
   getting-started:
     title: Begynn
     intro: Velkommen til AntennaPod. Nedenfor finner du detaljer om hvordan du kommer
-      i gang.
+      i gang med AntennaPod.
     subscribe:
       title: Abonner på en podkast
+    home:
+      title: Bruk av Hjem-skjermen
   playback:
     title: Avspilling
     intro: Nedenfor finner du emner om avspilling.
@@ -264,38 +284,44 @@ documentation:
       title: Tastatursnarveier
     android-auto:
       title: Avspilling i bil (Android Auto)
+    chromecast:
+      title: Avspilling på Google Chromecast
   queue:
     title: Kø
-    intro: Nedenfor finner du spørsmål om køen.
+    intro: Nedenfor finner du ofte stilte spørsmål om køen.
     how-to-use:
-      title: Hvordan bruke køen
+      title: Slik bruker du køen
     lock:
-      title: Låsing av køen
+      title: (Opp)låsing av køen
     multiple-queues:
-      title: Bruk av flere køer
+      title: Slik bruker du flere køer
+    smart-shuffle:
+      title: Slik bruker du smart tilfeldig rekkefølge
   subscriptions:
     title: Abonnementer
     intro: Nedenfor finner du ofte stilte spørsmål om abonnementer.
     subscription-groups:
       title: Abonnementsetiketter (altså grupper eller kategorier)
   bugs-first-aid:
-    title: Feil, problemer, og førstehjelp
-    intro: Å lage programvare er et menneskelig håndtverk, så feil er uunngåelig.
-      Vi kan som regel fikse det!
+    title: Feil, problemer og førstehjelp
+    intro: Å lage programvare er et menneskelig håndverk så feil er uunngåelig. Som
+      regel kan vi fikse det!
     bug-report:
       title: Noe fungerer ikke
     database-error:
-      title: Alle mine nettradioopptak og episoder er borte
+      title: Alle mine podkaster og episoder er borte
     cannot-stream-download:
       title: Kan ikke laste ned en episode
     episodes-missing:
-      title: En episode lar seg ikke laste ned
+      title: Gamle episoder mangler
     playback-stops:
       title: Avspilling stopper plutselig
     refresh-download-errors:
-      title: Feil med nedlasting eller gjenoppfrisking av informasjonskanal
+      title: Feil med nedlasting eller oppdatering av strøm
     cannot-resume-playback:
       title: Kan ikke gjenoppta avspilling fra låseskjerm/varselfelt
+    typo-translations:
+      title: Jeg fante en skrivefeil
 footer:
   description: Det enkle, fleksible og åpen kildekode podkastbehandleren for Android.
 readtime:
@@ -310,12 +336,15 @@ events:
     open-meeting: Åpent møte
     more-information: Mer informasjon
   general:
-    recurring: Gjentagende begivenhet
-    copy-url: Kopier kalendernettadresse
+    recurring: Gjentagende hendelse
+    copy-url: Kopier kalendernettadressen
     announce-add-calendar: Ønsker du å ha de seneste arrangementer og oppdaterte felleskapsmøter
       tilgjengelig? Da kan du abonnere på kalenderen vår i favorittprogrammet ditt
       med «Legg til i kalender»-lenken!
     download-ics: Last ned ICS-fil
   recurrence:
-    every-2nd-saturday: hver andre søndag i måneden
+    every-2nd-saturday: annenhver lørdag i måneden
     2nd-4th-wednesday: (nesten) hver andre og fjerde onsdag i måneden
+not-installed:
+  title: AntennaPod er ikke installert
+  text: AntennaPod er ikke installert og nettleseren din støtter ikke å åpne direkte.
