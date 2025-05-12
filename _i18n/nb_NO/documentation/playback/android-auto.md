@@ -1,4 +1,4 @@
-Du kan bruke AntennaPod til å lytte til podkaster i din [Android Auto](https://www.android.com/auto/)-aktiverte bil.
+Du kan bruke AntennaPod til å lytte til podkaster med [Android Auto](https://www.android.com/auto/) i bilen din dersom det er aktivert.
 
 ### Har du lastet ned AntennaPod fra **Google Play**?
 

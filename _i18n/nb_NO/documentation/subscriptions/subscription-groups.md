@@ -3,5 +3,5 @@ For å hjelpe deg med å organisere abonnementene dine kan du tilordne emneknagg
 For å tilordne emneknagger til en podkast må du:
 
 - Åpne en spesifikk podkast
-- Trykk på `tannhjuls`-ikonet for å gå til dens innstillinger
+- Trykk på `tannhjuls`-ikonet for å gå til innstillingene for podkasten
 - Velg innstillingen `Emneknagger`

@@ -7,7 +7,7 @@ Hvis du har et fysisk tastatur ("maskinvare") koblet til telefonen eller nettbre
 | `P` | Spill av/pause |
 | `J`/`A`/`,` | Spol tilbake |
 | `K`/`D`/`.` | Spol fremover |
-| `+`/`W` | Øke volumet |
+| `+`/`W` | Høyere volum |
 | `-`/`S` | Lavere volum |
 | `M` | Lyd av/på (veksle) - bare på Android 6 og høyere |
 
@@ -21,6 +21,6 @@ Hvis du har et fysisk tastatur ("maskinvare") koblet til telefonen eller nettbre
 | `F`/`Esc` | Avslutt videospiller |
 | `i` | Aktiver bilde-i-bilde-modus |
 | `0`-`9` | Gå til 0-90% av videoen |
-| `+`/`W` | Øke volumet |
+| `+`/`W` | Høyere volum |
 | `-`/`S` | Lavere volum |
 | `M` | Lyd av/på (veksle) - bare på Android 6 og høyere |

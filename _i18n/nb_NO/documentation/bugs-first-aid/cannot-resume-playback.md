@@ -4,11 +4,11 @@ Det er for øyeblikket ikke klart hvorfor dette skjer. Vi a har fastslått at de
 
 ## Løsning
 
-For å fortsatt kunne gjenoppta avspilling kan du legge til en såkalt AntennaPod-'flis' på enheten din. Fliser er i ganske enkelt knappene du ser når du trekker ned varselskjermen. Du kjenner kanskje til internett- og lommelyktflisene. AntennaPod-flisen lar det start og pause avspillingen selv om avspillingen har vært pauset en stund.
+For å fortsatt kunne gjenoppta avspilling kan du legge til en såkalt AntennaPod-'flis' på enheten din. Fliser er i ganske enkelt knappene du ser når du trekker ned varselskjermen. Du kjenner kanskje til internett- og lommelyktflisene. AntennaPod-flisen lar deg start og pause avspillingen selv om avspillingen har vært pauset en stund.
 
 For å legge til AntennaPod-flisen:
 
-1. **Trekk ned to ganger** fra toppen av skjermen så du ser hele knappene (under skjermlysindikatoren)
+1. **Trekk ned to ganger** fra toppen av skjermen så du ser alle knappene (under skjermlysindikatoren)
 1. **Trykk på blyantikonet** på bunnen av fliseseksjonen for å endre flisene
 1. Skroll nedover listen, **trykk på AntennaPod-flisen og dra den oppover** til listen over aktive fliser
-1. Trykk på tilbaketasten for å få ut av endring av fliser
+1. Trykk på tilbaketasten for å gå ut av endring av fliser

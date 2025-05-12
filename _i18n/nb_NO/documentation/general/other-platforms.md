@@ -1,6 +1,6 @@
 Uansett hvor attraktivt det høres ut er ikke og vil ikke AntennaPod bli tilgjengelig på Windows, iOS eller Linux. Appen er laget av et lite lag med frivillige og å lage en app for disse plattformene vil være mye arbeid.
 
-Det finnes alternativet basert på åpen kildekode. Vi vil nevne noen her:
+Det finnes alternativer basert på åpen kildekode. Vi vil nevne noen her:
 
 | App | Code | iOS | MacOS | Windows | Linux |
 | --- | --- | :-: | :-: | :-: | :-: |
@@ -13,4 +13,4 @@ Det finnes alternativet basert på åpen kildekode. Vi vil nevne noen her:
 | [GNOME Podcasts](https://apps.gnome.org/app/org.gnome.Podcasts/) | [<i class="fab fa-gitlab"></i>](https://gitlab.gnome.org/World/podcasts) | ❌ | ❌ | ❌ | ✅ |
 | [MusicPod](https://snapcraft.io/musicpod) | [<i class="fab fa-github"></i>](https://github.com/ubuntu-flutter-community/musicpod) | ❌ | ❌ | ❌ | ✅ |
 
-Har du en anbefaling om en podkast-app basert på åpen kildekode for disse plattfotmene? [Si fra til oss på forumet!](https://forum.antennapod.org)
+Har du en anbefaling om en podkast-app basert på åpen kildekode for disse plattformene? [Si fra til oss på forumet!](https://forum.antennapod.org)
