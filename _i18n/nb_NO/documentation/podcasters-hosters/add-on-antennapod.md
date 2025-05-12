@@ -1,4 +1,4 @@
-Vil du gjøre det lett for nettverket eller publikummet ditt å legge til podkasten(e) din(e) i AntennaPod? Da kan du ganske enkelt inkludere en linke, som den gitt under, på nettsiden din eller andre steder du ønsker. Pass på å endre `xyz` med nettadressen til din RSS-strøm og `abc` med tittelen til podkasten din.
+Vil du gjøre det lett for nettverket eller publikummet ditt å legge til podkasten(e) din(e) i AntennaPod? Da kan du ganske enkelt inkludere en lenke, som den under, på nettsiden din eller andre steder du ønsker. Pass på å endre `xyz` med nettadressen til din RSS-strøm og `abc` med tittelen til podkasten din.
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 

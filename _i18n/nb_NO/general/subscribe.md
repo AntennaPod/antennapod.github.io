@@ -1,4 +1,4 @@
-Trykk på knappen under for å abonnere på denne podkasten i AntennaPod. Hvis du ikke har installert det enda, kan du [laste det ned her](/download).
+Trykk på knappen under for å abonnere på denne podkasten i AntennaPod. Hvis du ikke Antennapod enda, kan du [laste appen ned her](/download) og nyte gratis tilgang til millioner av podkaster.
 
 
 <button id="subscribeButton" class="btn btn-primary">

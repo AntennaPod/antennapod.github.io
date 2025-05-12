@@ -1,59 +1,51 @@
-{% capture img-transifex %} {% include image.html alt="
+Av en anslått [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 7,9 milliarder, snakker kun 1,5 milliard [Engelsk](https://www.ethnologue.com/insights/ethnologue200/). Dette betyr ikke så mye i og for seg, men om noe så kan vi konkludere at AntennaPod tilgjengelig på flere språk gjør appen tilgjengelig for flere. Som en ekstra fordel vil oversetting av appen hjelpe prosjektet vårt å nå et publikum utenfor den nåværende hovedbrukermassen i Tyskland og USA.
 
-       Oversikt over ressurser
+Derfor setter vi stor pris på din hjelp!
 
-       "
+Oversettelsene våre er lagret på Weblate som er en oversettingsplattform basert på åpen kildekode. Alle kan registrere seg der og [begynne å oversette AntennaPod](https://hosted.weblate.org/projects/antennapod). Du finner alt du trenger å vite i [Weblate sin dokumentasjon for oversettere](https://docs.weblate.org/no/latest/user/translating.html){:target="_blank"}.
 
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
+{% capture img-translationstatus %} {% include image.html alt="
 
-{% capture img-weblate %} {% include image.html alt="
-
-       Oversikt over komponenter i Weblate
+       Graf med status for oversettelser av AntennaPod på Weblate.
 
        "
 
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
-Av en anslått [verdensbefolkning](https://en.wikipedia.org/wiki/World_population) på 7,9 milliarder, snakker kun 1,5 [Engelsk](https://www.ethnologue.com/insights/ethnologue200/). Dette betyr ikke så mye i og for seg, men om noe så kan vi konkludere at AntennaPod tilgjengelig på flere språk gjør appen tilgjengelig for flere. Som en ekstra fordel vil oversetting av appen hjelpe prosjektet vårt å nå et publikum utenfor nåværende brukermasse i Tyskland og USA.
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## 1. Appen
 
-Vi setter derfor stor pris på din hjelp!
+Programmet er i skrivende stund tilgjengelig på 38 språk. Selv om det er flere språk tilgjengelig på Weblate, inkluderer vi bare språk som er minst 40 % ferdig oversatt. Hvis det går under dette vil ikke appen kunne tilby en tilstrekkelig god brukeropplevelse.
 
-# Appen
+Oppdaterte oversettelser blir publisert ved hver desimalutgivelser, som for eksempel 2.0, 2.5, osv, som introduserer nye funksjoner. I gjennomsnitt vil det ta en måned eller to før arbeidet ditt er tilgjengelig i en utgivelse.
 
-For å hjelpe til å oversette appen ber vi deg bidra via [Transifex](https://www.transifex.com/antennapod/antennapod/). Alle kan registrere seg der og komme igang. Transifex har hjelpsomme veiledninger for å [komme i gang på dere plattforn](https://docs.transifex.com/getting-started-1/translators) og for å [bli kjent med brukergrensesnittet i nettredigereren](https://docs.transifex.com/translation/translating-with-the-web-editor).
+Dersom du har bidratt til oversettelse vil du bli nevnt i appen med brukernavnet fra Weblate under `Innstillinger` → `Om` → `Bidragsytere`.
 
-Under AntennaPod-prosjektet finner du tre "ressurser":
+## 2. Nettsiden
 
-- Selve programmet
-- Den korte, énlinjesbeskrivelsen for programbutikker
-- Den mer utførlige beskrivelsen for programbutikker
+Nettsiden består av 4 'komponenter'. Hver av dem representerer en del av nettsiden. Vi oppfordrer deg til å følge denne rekkefølgen:
 
-{{ img-transifex | strip }}
+1. **General** og **Short strings**: De første elementene brukeren ser på nettsiden
+1. **Documentation**: er støttematerialet vårt. Dette er direkte tilgjengelig fra appen
+1. **Contribute** (kommer til slutt fordi en grunnleggende forståelse av engelsk trengs uansett for å bidra)
 
-Programmet er i skrivende stund tilgjengelig på 34 språk. Selv om det er flere språk tilgjengelig i Transifex, er de for øyeblikket ikke inkludert. Vi prøver å opprettholde en terskel på [40 % ferdigstillelse](https://github.com/AntennaPod/AntennaPod/pull/4112) for hvert språk. Hvis det går under dette vil ikke appen tilby tilstrekkelig god brukeropplevelse.
+Oppdaterte oversettelser blir publisert nå og da. Nye språk blir bare aktivert når komponentene under prioritet 1 og 2 er fullstendig oversatt. Med andre ord: når alt unntatt «Contribute»-seksjonen er helt ferdig. Vær snill å si fra til oss i forumet (se under) om dette er tilfelle. Vi vil da forsøke å finne et fellesskapsmedlem som kan gjennomgå en testversjon av nettside og forbedre kvaliteten på oversettelsen. Etter at tilbakemeldingen er gjennomgått kan vi publisere ny språkversjon.
 
-Nye oversettelser hentes inn til GitHub (utviklingsplattformen minst hver gang desimalutgivelser slippes. For eksempel 2.0, 2.5, osv, som introduserer nye funksjoner. Versjoner med feilfikser og nye oversettelser slippes også mellom disse. I snitt tar det omkring én måned eller to før arbeidet er tilgjengelig i en utgivelse.
+## 3. Oppføring i app-butikken
 
-De som bidrar til oversettelsen blir nevnt i programmet med respektive brukernavn, under `Innstillinger` → `Om` → `Bidragsytere`.
+I tillegg til appen og nettsiden, trenger vi også å oversette tekster man finner i de ulike app-butikkene. Vi oppfordrer deg å følge denne rekkefølgen:
 
-# Nettsiden
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
 
-Av forskjellige årsaker (du kan lese om i denne [bloggposten](/blog/2022/01/website-translations)) brukes det overlegne [Weblate](https://hosted.weblate.org/projects/antennapod/) for nettsiden. Alle kan registrere seg der og begynne å oversette. Dokumentasjonen har [alt du trenger for å begynne](https://docs.weblate.org/en/latest/user/translating.html).
+Vi må tilfredsstille en tegngrense for "short descriptions" og "screenshot titles". Derfor må vi gjennomgå og forbedre disse tekstene manuelt før vi publiserer dem. Vær snill å si fra til oss på forumet når du har fullført oversettelsen av disse tekstene.
 
-I AntennaPod-prosjektet finner du fire "komponenter". Hver av dem representerer en del av nettsiden. Begynn med `General` (generelt) og `Short strings` (korte strenger), som inneholder det brukere først møter på nettsiden. Komponenten `Dokumentasjon` kommer på en knepen andreplass, siden det lenkes til den når man trykker «Støtte» i programmet. `Contribute` (bidragsytere) er sist, siden grunnleggende engelsk-kunnskaper uansett trengs for å kommunisere i prosjektet.
-
-{{ img-weblate | strip }}
-
-Nye oversettelser hentes fra Weblate til GitHub (utviklingsplattformen) manuelt en gang i blandt. Når et språk når 90 % dekning (anslagsvis hele nettsiden minus bidragsyterbiten) kan den vises på nettsiden. Det blir alltid forsøkt å gjennomse en testversjon av nettsiden for å forbedre oversettelseskvaliteten.
-
-# Annet materiale
-
-I tillegg til programmet og nettsiden kan også bildene i programbutikken oversettes. De har skjermbilder og tekst. Fordi det er begrenset med plass bruker vi en manuell prosess med prøving og feiling. Si ifra på forumet hvis du vil hjelpe til med dette. Fordi lokaliserte programbutikk-oppføringer gir flere nedlastinger verdsettes all hjelp!
-
-# Ta kontakt!
+## Ta kontakt!
 
 * Har du **tilbakemeldinger** om den engelske teksten eller oversettelsene?
-* Er du **interessert i å bistå oversettelsen**, men ikke sikker enda? Eller er du klar til å begynne?
+* Er du **interessert i å bistå oversettelsen** men ikke sikker enda? Eller er du klar til å begynne?
 * Vil du bidra og **trenger støtte**? Er for eksempel språket ditt ikke tilgjengelig enda, eller fordi du ikke er sikker på hvordan du går fram?
 
 La høre fra deg i [oversettelsesdelen av forumet](https://forum.antennapod.org/c/translations/11). Det er den beste måten å komme i kontakt med oss. Kommentarer og meldinger i respektive oversettelsesverktøy når oss ofte ikke i tide.

@@ -1,1 +1,1 @@
-Du kan bruke køen til å lagre episoder som du planlegger å lytte til. Hvis du kommer over en interessant episode, trykker du lenge og velger `Legg til i kø`. Hvis du laster ned en episode, legger AntennaPod den automatisk til i køen.
+Du kan bruke køen til å lagre episoder som du planlegger å lytte til. Hvis du kommer over en interessant episode trykker du lenge og velger `Legg til i kø`. Hvis du laster ned en episode legger AntennaPod den automatisk til i køen.
