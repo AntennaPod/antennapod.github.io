@@ -1,11 +1,11 @@
-Why are some downloaded episodes deleted?
+Per què se suprimeixen alguns episodis baixats?
 
-AntennaPod has several mechanisms to make sure downloaded podcasts will not fill up your phone's memory. If you notice some downloaded episodes being deleted, have a look at these two settings:
+AntennaPod fa servir diversos mecanismes per assegurar-se que els pòdcasts baixats no omplen la memòria del teu telèfon. Si noteu que s'han esborrat alguns episodis, feu un cop d'ull a aquestes dues configuracions:
 
-## Auto Delete
+## Esborrat automàtic
 
-Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are deleted when playback completes (but not when manually marking an episode as 'played').
+L'esborrat automàtic es troba a `Configuració` » `Baixades`. Un cop activada, els episodis se suprimeixen un cop s'han reproduït (però no si es marca un episodi com a «reproduït»).
 
-## Episode Cleanup
+## Neteja d'episodis
 
-Episode Cleanup is located in `Settings` » `Network` » `Automatic Download`. If Automatic Download needs space for new episodes, it will delete old episodes that are not in the queue and not marked as favorite. You can add a delay (x time after playback) or Episode. The setting `Episode Cache` determines the maximum amount of downloaded episodes.
+La neteja d'episodis es troba a `Configuració` » `Baixades` » `Baixada automàtica`. Si la Baixada automàtica necessita més espai per a nous episodis, esborrarà els episodis vells que no siguin a la cua i no estiguin marcats com a preferits. Podeu afegir un retard (x temps després de la reproducció) o Episodi. La configuració ``

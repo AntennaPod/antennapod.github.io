@@ -1,1 +1,1 @@
-Multiple queues are currently not supported. Please see [issue 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) on GitHub for more information and / or subscribe to the issue to get updated in case of any developments.
+Actualment, no hi ha suport per a diverses cues. Feu una ullada a la [incidència 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) a GitHub per a més informació i/o subscriviu-vos a la incidència per estar al dia en cas que hi hagi cap avenç.

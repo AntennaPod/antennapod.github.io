@@ -1,1 +1,1 @@
-You can use the queue to store episodes that you plan to listen to. If you come across an interesting episode, long-press and select `Add to queue`. If you download an episode, AntennaPod adds it to the queue automatically.
+Podeu fer servir la cua per emmagatzemar aquells episodis que voleu escoltar. Si trobeu algun episodi interessant, manteniu premut i seleccioneu `Afegeix a la cua`. Si baixeu un episodi, AntennaPod l'afegeix a la cua automàticament.

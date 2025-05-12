@@ -1,7 +1,7 @@
-To help organize your subscriptions you can assign tags (sometimes called groups or categories) to a podcast. Please note that for the moment it is not possible to create queues based on tags. This would require support for multiple queues first. (See also the [feature request](https://github.com/AntennaPod/AntennaPod/issues/2648) on our development platform.)
+Per ajudar-vos a organitzar les subscripcions, podeu assignar-hi etiquetes (de vegades anomenades grups o categories) a un pòdcast. Tingueu en compte que ara per ara no es poden crear cues segons etiquetes. Per això abans requeriria que es poguessin fer múltiples cues. (Feu una ullada també a la [petició de funcionalitat](https://github.com/AntennaPod/AntennaPod/issues/2648) a la nostra plataforma de desenvolupament.)
 
-To assign tags to a podcast you have to:
+Per assignar etiquetes a un pòdcast heu de:
 
-- Open a specific podcast
-- Tap on the `gear` icon to access its settings
-- Select the `Tags` setting
+- Obrir un pòdcast en específic
+- Prémer la icona de l'`engranatge` per accedir a la seva configuració
+- Seleccionar la configuració d'`Etiquetes`

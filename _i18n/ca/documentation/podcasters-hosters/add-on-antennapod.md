@@ -1,5 +1,5 @@
-Do you want to make it easy for your network or audience to add your podcast(s) in AntennaPod? Simply include a link like the one given below on your website or wherever you want. Make sure to replace `xyz` with the URL of your RSS feed and `abc` with the title of your podcast.
+Voleu facilitar que la vostra xarxa o audiència incorpori el(s) teu(s) pòdcast(s) a AntennaPod? Simplement, afegiu un enllaç com el que us és proporcionat a sota a la vostra pàgina web o on vulgueu. Assegureu-vos de substituir `xyz`per l'URL del vostre feed RSS i `abc` pel títol del vostre pòdcast.
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 
-Users who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in our app. You can view an example of such a page [here](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). If you need our logo, please have a look at our [branding repository](https://github.com/AntennaPod/branding).
+Els usuaris que hagin instal·lat AntennaPod i obrin l'enllaç podran previsualitzar l'episodi i subscriure's al vostre pòdcast directament a l'app. Podeu veure un exemple d'aquesta pàgina [aquí](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). Si necessiteu el nostre logotip, feu una ullada al nostre [repositori de marca](https://github.com/AntennaPod/branding).

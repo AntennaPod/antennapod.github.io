@@ -1,7 +1,7 @@
-When an episode has been paused and is played again, AntennaPod will automatically rewind, so it is easier to continue following the show. How much is rewound is not configurable and depends on how long an episode has been paused.
+Quan s'ha aturat un episodi i es torna a reproduir, AntennaPod rebobinarà automàticament, de manera que sigui més fàcil reprendre el fil del programa. No es pot configurar la quantitat temps que es rebobina, depèn de quant de temps porta aturat l'episodi.
 
-| Time since last playback | Rewind duration |
+| Temps des de l'última reproducció | Durada del rebobinat |
 | --- | --- |
-| More than 1 day | 20 seconds |
-| More than 1 hour | 10 seconds |
-| More than 1 minute | 3 seconds |
+| Més que 1 dia | 20 segons |
+| Més que 1 hora | 10 segons |
+| Més que 1 minut | 3 segons |
