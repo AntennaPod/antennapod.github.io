@@ -3,10 +3,10 @@
 <head>
   {% include head.html %}
 </head>
-<body>
+<body dir="auto">
   <div class="content">
   {% include nav.html %}
-  <div class="container-fluid">
+  <div class="container-fluid" dir="ltr">
     <div class="container py-3">
       <div class="row no-gutters justify-content-center">
         <div class="col-lg-9 col-sm-12 pt-3">
@@ -28,7 +28,7 @@
                   <img class="round-img" src="{{ site.baseurl_root }}/assets/images/authors/{{ author.image }}" width="40" />
                   <a class="underline" href="{{ author.web }}" target="_blank" rel="noopener">{{ author.name }}</a>
                   {% endif %}
-                  • 
+                  •
                   {% capture month %}{{ page.date | date: "%b" }}{% endcapture %}
                   {% t month.{{ month }} %} {{ page.date | date: "%-d, %Y"}}
                 </p>
@@ -41,7 +41,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid" dir="ltr">
     <div class="container py-3">
       <div class="row no-gutters justify-content-center pb-4">
         <div class="col-lg-9">

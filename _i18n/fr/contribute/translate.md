@@ -6,7 +6,7 @@ Pour aider à traduire l'application, rendez-vous sur [Weblate](https://hosted.w
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Graph with status of AntennaPod translations on Weblate.
+       Graphiques représentant l'état de traduction d'AntennaPod sur Weblate.
 
        "
 
@@ -24,9 +24,9 @@ Les traducteurs seront mentionnés dans l'application sous leur nom d'utilisateu
 
 ## Le site web
 
-The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
+Le site web est composés de 4 'composants', chacun représentant une partie du site web. Nous vous encourageons à suivre cet ordre:
 
-1. **General** and **Short strings**: the first elements a user sees on the website
+1. **General** et ** Short Strings **: ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web.
 1. **Documentation**: our support materials, which are directly available via the app
 1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 

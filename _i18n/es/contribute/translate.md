@@ -6,7 +6,7 @@ Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Graph with status of AntennaPod translations on Weblate.
+       Gráfico del estado de las traducciones de AntennaPod en Weblate.
 
        "
 
@@ -14,7 +14,7 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## La aplicación
+</object>## 1. La aplicación
 
 Actualmente, la aplicación está disponible en más de 38 idiomas. Aunque hay más idiomas en Weblate, no los incluimos en la aplicación. Intentamos mantener un umbral del 40% de idiomas completados. Si es inferior, la aplicación apenas ofrece una buena experiencia al usuario.
 
@@ -22,7 +22,7 @@ Las nuevas traducciones se transfieren de Weblate a GitHub (la plataforma de des
 
 Los colaboradores en la traducción aparecerán mencionados en la aplicación con su nombre de usuario de Weblate, en `Configuración` " `Acerca de` " `Colaboradores`.
 
-## El sitio web
+## 2. El sitio web
 
 The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
@@ -36,9 +36,9 @@ Updated translations are published once in a while. New languages are enabled on
 
 In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
 
-1. **Short description**
-1. **Full description**
-1. **Screenshot titles**
+1. **Descripción breve**
+1. **Descripción completa**
+1. **Títulos de capturas de pantalla**
 
 We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
 

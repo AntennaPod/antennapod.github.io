@@ -15,13 +15,13 @@ title: titles.blog
                 {% for blog in site.blog reversed %}
                 {% if blog.unlisted != true %}
                     <div class="col-12 col-md-4 mb-4 d-flex">
-                      <div class="card highlight-card">
+                      <div class="card highlight-card" dir="ltr">
                         <a class="stretched-link" href="{{ site.baseurl }}{{ blog.url | replace:'.html','' }}"></a>
                           <img src="/assets/images/blog/{% if blog.image %}{{ blog.image }}{% else %}2020/default.png{% endif %}" loading="lazy" />
                           <h3 class="weight-700 pt-4">{{ blog.title }}</h3>
                           <p class="mb-4">{{ blog.excerpt | strip_html | truncate: 100 }}</p>
                           <div class="bottom">
-                            <p class="text-muted">{% t blog.posted %} 
+                            <p class="text-muted">{% t blog.posted %}
                                 {% capture month %}{{ blog.date | date: "%b" }}{% endcapture %}
                                 {% t month.{{ month }} %} {{ blog.date | date: "%-d, %Y"}}
                             </p>
