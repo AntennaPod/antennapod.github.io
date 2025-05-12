@@ -1,6 +1,6 @@
-A pretty common problem experienced by users is that they suddenly can not manually reorder the queue.
+Un problema prou comú que alguns usuaris es troben és que de sobte no poden reordenar la cua manualment.
 
-If you can't move episodes around in the queue, this can be caused by either of the following:
+Si no podeu moure episodis de la cua, pots ser per qualsevol de les següents raons:
 
-- `Keep Sorted` is enabled. You can disable this by tapping the three dots `…` in the top bar and select `Sort`.
-- The queue is locked. You can unlock the queue by tapping the 3-dot overflow menu in the top bar and un-checking `Lock queue`.
+- `Mantingues ordenats` està activat. Podeu desactivar-lo prement els tres puntets `…` a la barra superior i seleccionant `Ordena`.
+- La cua és bloquejada. La podeu desbloquejar prement el menú dels tres puntets i desmarcant `Bloqueja la cua`.

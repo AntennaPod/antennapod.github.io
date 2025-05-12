@@ -1,4 +1,4 @@
-AntennaPod és un reproductor de podcasts, totalment gratuït i respectuós amb la teva privadesa. Està creat per voluntaris de tot el món sense cap interès comercial. Junts contribuïm a un ecosistema de podcasting obert. Perquè pugueu gaudir del millor contingut d'àudio del web.
+AntennaPod és un reproductor de pòdcasts, totalment gratuït i respectuós amb la teva privadesa. Està creat per voluntaris de tot el món sense cap interès comercial. Junts contribuïm a un ecosistema de podcàsting obert. Perquè pugueu gaudir del millor contingut d'àudio del web.
 
 ## Senzill, però ple de funcions
 

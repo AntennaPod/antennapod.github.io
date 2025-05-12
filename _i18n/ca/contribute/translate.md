@@ -1,34 +1,20 @@
-{% capture img-transifex %} {% include image.html alt="
-
-       Vista general dels recursos a Transifex
-
-       "
-
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
-
-{% capture img-weblate %} {% include image.html alt="
-
-       Vista general dels components a Weblate
-
-       "
-
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
-
-Encara que la [població mundial](https://en.wikipedia.org/wiki/World).population) estimada és de 7.900 milions de persones, «només» 1.300 milions [parlen anglès](https://www.ethnologue.com/guides/ethnologue200). Això pot no significar molt per se. Però podem concloure que fer AntennaPod disponible en més llengües, fa que l'aplicació sigui accessible a més persones. Com a benefici secundari, la localització de l'aplicació també ajuda al nostre projecte a créixer més enllà de les bases d'usuaris principals actuals (Alemanya i els Estats Units).
+Encara que la [població mundial](https://en.wikipedia.org/wiki/World).population) estimada és de 7.900 milions de persones, «només» 1.500 milions [parlen anglès](https://www.ethnologue.com/insights/ethnologue200/). Això pot no significar molt per se. Però podem concloure que fer AntennaPod disponible en més llengües, fa que l'aplicació sigui accessible a més persones. Com a benefici secundari, la localització de l'aplicació també ajuda al nostre projecte a créixer més enllà de les bases d'usuaris principals actuals (Alemanya i els Estats Units).
 
 Per tant, us agraïm molt la vostra ajuda!
 
-# La aplicació
+Per diverses raons (concretament en un [blogpost en traduccions de llocs web](/blog/2022/01/website-translations)) utilitzem un sistema de traduccions diferent per al nostre lloc web: [Weblate](https://hosted.weblate.org/projects/antennapod/). Qualsevol pot accedir-hi i començar a contribuir. A la documentació del Weblate trobareu [tot el que necessiteu saber per començar a traduir](https://docs.weblate.org/en/latest/user/translating.html).
 
-Per a ajudar a traduir l'aplicació, us demanem que hi contribuïu a través de [Transifex](https://www.transifex.com/antennapod/antennapod/). Qualsevol pot accedir-hi i començar. El Transifex té guies útils per a [iniciar-se a la seva plataforma](https://docs.transifex.com/getting-started-1/translators) i per a [ familiaritzar-se amb la interfície de l'editor web](https://docs.transifex.com/translation/translating-with-the-web-editor).
+{% capture img-translationstatus %} {% include image.html alt="
 
-Al projecte AntennaPod trobareu tres «recursos»:
+       Graph with status of AntennaPod translations on Weblate.
 
-- La pròpia aplicació
-- La descripció breu per a les botigues d'aplicacions
-- La descripció més elaborada de les botigues d'aplicacions
+       "
 
-{{ img-transifex | strip }}
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
+
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## La aplicació
 
 L'aplicació està disponible actualment en 34 llengües. Tot i que hi ha més llengües al Transifex, no les incloem a l'aplicació. Intentem mantenir un [llindar del 40% de compleció](https://github.com/AntennaPod/AntennaPod/pull/4112) per a llengües. Si va per sota d'això, l'aplicació difícilment proporciona una bona experiència d'usuari.
 
@@ -36,21 +22,27 @@ Les traduccions noves s'extreuen de Transifex a GitHub (la plataforma de desenvo
 
 Els col·laboradors de traducció es trobaran esmentats a l'aplicació amb el seu nom d'usuari de Transifex, a `Settings` » `About` » `Contributors`.
 
-# El lloc web
+## El lloc web
 
-Per diverses raons (concretament en un [blogpost en traduccions de llocs web](/blog/2022/01/website-translations)) utilitzem un sistema de traduccions diferent per al nostre lloc web: [Weblate](https://hosted.weblate.org/projects/antennapod/). Qualsevol pot accedir-hi i començar a contribuir. A la documentació del Weblate trobareu [tot el que necessiteu saber per començar a traduir](https://docs.weblate.org/en/latest/user/translating.html).
+The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
 
-Al projecte AntennaPod trobareu quatre "components". Cadascun representa una part del lloc web. Us encoratgem a començar amb els components `General` i les `Short strings`, perquè aquests seran els primers elements que veurà un usuari al lloc web. El component `Documentation` és una segona prioritat, perquè aquesta secció està disponible directament a través de l'aplicació quan la gent clica a Suport. El component `Contribute` és l'últim perquè es necessita una comprensió bàsica de l'anglès per a interactuar amb la comunitat.
+1. **General** and **Short strings**: the first elements a user sees on the website
+1. **Documentation**: our support materials, which are directly available via the app
+1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
-{{ img-weblate | strip }}
+Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
 
-Les traduccions noves s'extreuen del Weblate a GitHub (la plataforma de desenvolupament) manualment de tant en tant. Quan una llengua arriba al 90% de la traducció (és a dir, aproximadament tot el lloc web menys la secció de contribució), podem habilitar-lo al lloc web directament. Sempre intentem trobar un membre de la comunitat que pugui revisar una versió de prova del lloc web, per millorar la qualitat de les traduccions.
+## 3. The app store listings
 
-# Altres materials
+In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
 
-A més de l'aplicació i el lloc web, també es poden traduir les imatges de les botigues d'aplicacions. Tenen captures de pantalla i textos. Com que hi ha molt poc espai, utilitzem un procés manual amb prova i error. Si us plau, faci'ns saber en el fòrum si vol ajudar en això. Com que és més probable que es baixin les aplicacions localitzades, l'ajuda és molt benvinguda!
+1. **Short description**
+1. **Full description**
+1. **Screenshot titles**
 
-# Poseu-vos en contacte!
+We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+
+## Poseu-vos en contacte!
 
 * Voleu donar **feedback** als textos en anglès o a qualsevol de les traduccions?
 * Esteu **interested in helping** amb les traduccions, però encara en dubteu? O esteu a punt per començar?
