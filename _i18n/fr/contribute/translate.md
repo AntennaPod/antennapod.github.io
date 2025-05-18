@@ -1,4 +1,4 @@
-Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) estimée à 7,9 milliards d'habitants, seuls 1,5 milliard d'entre eux [parlent anglais](https://www.ethnologue.com/insights/ethnologue200/). Cela ne signifie peut-être pas grand-chose en soi, mais on peut en conclure que proposer une version multilingue d'AntennaPod permettrait de rendre cette application accessible au plus grand nombre. De plus, une application traduite pourrait également aider notre projet à se développer au-delà de ses principales bases d'utilisateurs (Allemagne et États-Unis).
+Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) estimée à 8 milliards d'habitants, seuls 1,5 milliard d'entre eux [parlent anglais](https://www.ethnologue.com/insights/ethnologue200/). Cela ne signifie peut-être pas grand-chose, mais rendre AntennaPod disponible dans plusieurs langues permet une plus grande accessibilité. Une application traduite aide à se développer au-delà de nos principales bases d'utilisateurs (Allemagne et États-Unis).
 
 Nous apprécions donc beaucoup votre aide !
 
@@ -14,7 +14,7 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## L'application
+</object>## 1. L'application
 
 L'application est actuellement disponible dans plus de 38 langues. Bien que plus de langages existent dans Weblate nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil l’expérience utilisateur n'est pas très agréable.
 
@@ -22,11 +22,11 @@ Les nouvelles traductions sont récupérées de Weblate sur GitHub (la plateform
 
 Les traducteurs seront mentionnés dans l'application sous leur nom d'utilisateur Weblate, dans `Préférences` » `À propos` » `Contributeurs`.
 
-## Le site web
+## 2. Le site web
 
-Le site web est composés de 4 'composants', chacun représentant une partie du site web. Nous vous encourageons à suivre cet ordre:
+Le site web est composés de 4 'composants', chacun représentant une partie du site web. Nous vous encourageons à suivre cet ordre :
 
-1. **General** et ** Short Strings **: ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web.
+1. **General** et **Short Strings**: ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web.
 1. **Documentation**: our support materials, which are directly available via the app
 1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
 
