@@ -2,7 +2,7 @@ Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) es
 
 Nous apprécions donc beaucoup votre aide !
 
-Pour aider à traduire l'application, rendez-vous sur [Weblate](https://hosted.weblate.org/projects/antennapod/app/). N'importe qui peut s'enregistrer et participer. Vous trouverez dans la documentation de Weblate [tout ce que vous devez savoir pour commencer](https://docs.weblate.org/en/latest/user/translating.html).
+Nos traductions sont hébergées sur Weblate, une plateforme de localisation à code ouvert. N'importe qui peut s'y inscrire et [commencer à traduire pour AntennaPod](https://hosted.weblate.org/projects/antennapod). Vous trouverez tout ce que vous devez savoir dans la [documentation de Weblate destinée aux traducteurs](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
@@ -16,9 +16,9 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 <a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
 </object>## 1. L'application
 
-L'application est actuellement disponible dans plus de 38 langues. Bien que plus de langages existent dans Weblate nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil l’expérience utilisateur n'est pas très agréable.
+L'application est actuellement disponible dans plus de 38 langues. Alors qu'il existe bien plus de traductions dans Weblate, nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil, l’expérience utilisateur n'est pas très agréable.
 
-Les nouvelles traductions sont récupérées de Weblate sur GitHub (la plateforme de développement) au moins pour chaque "version intermédiaire". Il s'agit de versions telles que 2.0, 2.5, etc. qui introduisent de nouvelles fonctionnalités. Des versions entre les intermédiaires sont aussi publiées pour des corrections de bugs et de nouvelles traductions. En moyenne, il faut compter un à deux mois avant qu'une traduction apparaissent dans une nouvelle version.
+Les nouvelles traductions sont publiées pour chaque « version intermédiaire » d'AntennaPod. Il s'agit de versions telles que 2.0, 2.5, etc., qui introduisent des amélioraions et de nouvelles fonctionnalités. En moyenne, il peut falloir un à deux mois avant qu'une traduction n'apparaisse dans une nouvelle version.
 
 Les traducteurs seront mentionnés dans l'application sous leur nom d'utilisateur Weblate, dans `Préférences` » `À propos` » `Contributeurs`.
 
@@ -26,7 +26,7 @@ Les traducteurs seront mentionnés dans l'application sous leur nom d'utilisateu
 
 Le site web est composés de 4 éléments, chacun représentant une partie du site web. Nous vous encourageons à suivre cet ordre :
 
-1. **Général** et **Chaînes de caractères courtes**: ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web.
+1. **Général** et **Chaînes de caractères courtes** : ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web
 1. **Documentation** : nos documents de référence, qui sont directement disponibles via l'app
 1. **Contribuer** (vient en dernier parce qu'une compréhension basique de l'anglais est de toute façon nécessaire afin de pouvoir contribuer)
 
