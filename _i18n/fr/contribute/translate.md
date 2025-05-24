@@ -1,8 +1,8 @@
-Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) estimée à 7,9 milliards d'habitants, seuls 1,5 milliard d'entre eux [parlent anglais](https://www.ethnologue.com/insights/ethnologue200/). Cela ne signifie peut-être pas grand-chose en soi, mais on peut en conclure que proposer une version multilingue d'AntennaPod permettrait de rendre cette application accessible au plus grand nombre. De plus, une application traduite pourrait également aider notre projet à se développer au-delà de ses principales bases d'utilisateurs (Allemagne et États-Unis).
+Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) estimée à 8 milliards d'habitants, seuls 1,5 milliard d'entre eux [parlent anglais](https://www.ethnologue.com/insights/ethnologue200/). Cela ne signifie peut-être pas grand-chose, mais rendre AntennaPod disponible dans plusieurs langues permet une plus grande accessibilité. Une application traduite aide à se développer au-delà de nos principales bases d'utilisateurs (Allemagne et États-Unis).
 
 Nous apprécions donc beaucoup votre aide !
 
-Pour aider à traduire l'application, rendez-vous sur [Weblate](https://hosted.weblate.org/projects/antennapod/app/). N'importe qui peut s'enregistrer et participer. Vous trouverez dans la documentation de Weblate [tout ce que vous devez savoir pour commencer](https://docs.weblate.org/en/latest/user/translating.html).
+Nos traductions sont hébergées sur Weblate, une plateforme de localisation à code ouvert. N'importe qui peut s'y inscrire et [commencer à traduire pour AntennaPod](https://hosted.weblate.org/projects/antennapod). Vous trouverez tout ce que vous devez savoir dans la [documentation de Weblate destinée aux traducteurs](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
@@ -14,33 +14,33 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## L'application
+</object>## 1. L'application
 
-L'application est actuellement disponible dans plus de 38 langues. Bien que plus de langages existent dans Weblate nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil l’expérience utilisateur n'est pas très agréable.
+L'application est actuellement disponible dans plus de 38 langues. Alors qu'il existe bien plus de traductions dans Weblate, nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil, l’expérience utilisateur n'est pas très agréable.
 
-Les nouvelles traductions sont récupérées de Weblate sur GitHub (la plateforme de développement) au moins pour chaque "version intermédiaire". Il s'agit de versions telles que 2.0, 2.5, etc. qui introduisent de nouvelles fonctionnalités. Des versions entre les intermédiaires sont aussi publiées pour des corrections de bugs et de nouvelles traductions. En moyenne, il faut compter un à deux mois avant qu'une traduction apparaissent dans une nouvelle version.
+Les nouvelles traductions sont publiées pour chaque « version intermédiaire » d'AntennaPod. Il s'agit de versions telles que 2.0, 2.5, etc., qui introduisent des amélioraions et de nouvelles fonctionnalités. En moyenne, il peut falloir un à deux mois avant qu'une traduction n'apparaisse dans une nouvelle version.
 
 Les traducteurs seront mentionnés dans l'application sous leur nom d'utilisateur Weblate, dans `Préférences` » `À propos` » `Contributeurs`.
 
-## Le site web
+## 2. Le site web
 
-Le site web est composés de 4 'composants', chacun représentant une partie du site web. Nous vous encourageons à suivre cet ordre:
+Le site web est composés de 4 éléments, chacun représentant une partie du site web. Nous vous encourageons à suivre cet ordre :
 
-1. **General** et ** Short Strings **: ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web.
-1. **Documentation**: our support materials, which are directly available via the app
-1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
+1. **Général** et **Chaînes de caractères courtes** : ce sont les premiers éléments vus par un utilisateur lorsqu'il accède au site web
+1. **Documentation** : nos documents de référence, qui sont directement disponibles via l'app
+1. **Contribuer** (vient en dernier parce qu'une compréhension basique de l'anglais est de toute façon nécessaire afin de pouvoir contribuer)
 
-Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
+Les traductions mises à jour sont publiées de temps en temps. Les nouvelles langues ne sont activées sur le site internet qu'après la traduction complète des éléments de priorité 1 & 2. En d'autres mots : lorsque tout, à l'exception de la section 'Contribuer', est terminé. Veuillez nous faire savoir par l'intermédiaire du forum (voir ci-dessous) si c'est le cas. Nous essaierons ensuite de trouver un membre de la communauté qui puisse passer en revue une version de test du site internet, afin d'améliorer la qualité de la traduction. Quand les retours ont été pris en considération, nous pouvons publier la nouvelle version de la langue.
 
-## 3. The app store listings
+## 3. Les référencements de l'app store
 
-In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+En complément de l'application et du site internet, nous traduisons aussi des textes qui apparaissent dans les différentes boutiques d'applications. Nous vous encourageons à suivre cet ordre :
 
-1. **Short description**
-1. **Full description**
-1. **Screenshot titles**
+1. **Description courte**
+1. **Description complète**
+1. **Titres des captures d'écran**
 
-We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+Nous devons nous conformer à une limite de caractères pour les descriptions courtes et les titres de captures d'écran. Par conséquent, nous passons en revue et améliorons ces textes avant de les publier. Veuillez nous faire savoir sur le forum que vous avez achevé les traductions de ces textes.
 
 ## Prenez contact avec nous !
 

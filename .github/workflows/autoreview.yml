@@ -11,6 +11,7 @@ jobs:
       with:
         pattern: "*.md"
         locale: "US"
+        exclude: "./_i18n/!(en)/**"
   guids:
     runs-on: ubuntu-22.04
     steps:

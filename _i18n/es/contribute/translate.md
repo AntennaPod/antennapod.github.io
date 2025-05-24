@@ -24,23 +24,23 @@ Los colaboradores en la traducción aparecerán mencionados en la aplicación co
 
 ## 2. El sitio web
 
-The website exists of four 'components', each representing a part of the website. We encourage you to follow this order:
+El sitio web consta de cuatro componentes, cada uno de los cuales representa una parte del sitio web. Le recomendamos seguir este orden:
 
-1. **General** and **Short strings**: the first elements a user sees on the website
-1. **Documentation**: our support materials, which are directly available via the app
-1. **Contribute** (comes last because a basic understanding of English is needed anyway in order to contribute)
+1. **General** y **Cadenas cortas**: los primeros elementos que ve un usuario en el sitio web
+1. **Documentación**: nuestros materiales de apoyo, que están disponibles directamente a través de la aplicación
+1. **Contribuir** (viene al final porque de todos modos se necesita un conocimiento básico de inglés para poder contribuir)
 
-Updated translations are published once in a while. New languages are enabled on the website only after priority 1 & 2 components are fully translated. In other words: when everything but the 'Contribute' section is done. Please let us know through the forum (see below) if that's the case. We'll then try to find a community member who can review a test version of the website, to improve the quality of translations. After feedback is processed, we can publish the new language version.
+Se publican traducciones actualizadas ocasionalmente. Los nuevos idiomas se habilitan en el sitio web solo después de que los componentes de prioridad 1 y 2 estén completamente traducidos. Es decir, cuando todo esté terminado, excepto la sección "Contribuir". Si es así, infórmanos a través del foro (ver más abajo). Intentaremos encontrar a un miembro de la comunidad que pueda revisar una versión de prueba del sitio web para mejorar la calidad de las traducciones. Una vez procesados los comentarios, publicaremos la nueva versión.
 
-## 3. The app store listings
+## 3. Los listados de la tienda de aplicaciones
 
-In addition to the app and website, we also translate texts which appear in the various app stores. We encourage you to follow this order:
+Además de la aplicación y el sitio web, también traducimos textos que aparecen en las distintas tiendas de aplicaciones. Te recomendamos seguir este orden:
 
 1. **Descripción breve**
 1. **Descripción completa**
 1. **Títulos de capturas de pantalla**
 
-We have to comply with a character limit for the short descriptions and screenshot titles. We therefore manually review and improve these texts before we publish them. Please let us know on the forum when you have completed translations of these texts.
+Debemos cumplir con un límite de caracteres para las descripciones cortas y los títulos de las capturas de pantalla. Por lo tanto, revisamos y mejoramos manualmente estos textos antes de publicarlos. Por favor, avísenos en el foro cuando haya terminado de traducirlos.
 
 ## ¡Ponte en contacto!
 

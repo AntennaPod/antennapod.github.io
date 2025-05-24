@@ -2,7 +2,7 @@ Vous pouvez utiliser AntennaPod pour écouter des podcasts sur votre Google Chro
 
 ### Avez-vous téléchargé AntennaPod depuis **Google Play** ?
 
-Aucune étape supplémentaire n'est nécessaire pour utiliser AntennaPod avec votre Google Chromecast. Ouvrez l'écran du lecteur en développant le petit lecteur en bas et appuyez sur le bouton Chromecast. Assurez-vous que vous êtes sur le même réseau Wi-Fi que votre Chromecast.
+Aucun réglage supplémentaire est requis pour utiliser AntennaPod avec Google Chromecast. Assurez-vous d'être sur le même réseau Wi-Fi puis ouvrez l'écran de lecture en développant le mini lecteur en bas pour pouvoir appuyez sur le bouton Chromecast.
 
 {% include image.html alt= "
 

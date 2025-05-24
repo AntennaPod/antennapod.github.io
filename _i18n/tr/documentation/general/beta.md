@@ -20,5 +20,4 @@ loc="/assets/images/documentation" file="project-beta.png" %}
 
 Şu anda F-Droid mağazasında beta sürümleri sunmuyoruz .
 
-Bunun nedeni F-Droid'in beta sürümlerini otomatik olarak tanımamasıdır. F-Droid'e beta sürümleri eklemek her beta sürümü için manuel müdahale gerektirir. Ayrıca, önemli bir şeyin düzeltilmesi gerekiyorsa, anında bir güncellemenin yayınlanması gerekir. Ne yazık ki bu garanti edilemez.
- [does not](https://gitlab.com/fdroid/fdroidserver/-/issues/161)
+Bunun nedeni F-Droid'in (https://gitlab.com/fdroid/fdroidserver/-/issues/161) beta sürümlerini otomatik olarak tanı[ma]masıdır. F-Droid'e beta sürümleri eklemek her beta sürümü için manuel müdahale gerektirir. Ayrıca, önemli bir şeyin düzeltilmesi gerekiyorsa, anında bir güncellemenin yayınlanması gerekir. Ne yazık ki bu garanti edilemez.

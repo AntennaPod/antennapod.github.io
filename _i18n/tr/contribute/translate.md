@@ -1,34 +1,20 @@
-{% capture img-transifex %} {% include image.html alt="
-
-       Transifex'teki kaynaklara genel bakış
-
-       "
-
-loc="/assets/images/documentation" file="translation-resources-transifex.png" %} {% endcapture %}
-
-{% capture img-weblate %} {% include image.html alt="
-
-       Weblate'teki bileşenlere genel bakış
-
-       "
-
-loc="/assets/images/documentation" file="translation-components-weblate.png" %} {% endcapture %}
-
 Tahmini [dünya nüfusunun](https://en.wikipedia.org/wiki/World_population) 7,9 milyar kişiden 'sadece' 1,5 milyarı [İngilizce konuşuyor](https://www.ethnologue.com/insights/ethnologue200/). Bu kendi başına pek bir şey ifade etmeyebilir. Ancak, AntennaPod'u daha fazla dilde kullanılabilir hale getirmenin uygulamayı daha fazla kişiye erişilebilir hale getirdiği sonucuna varabiliriz. Bir yan fayda olarak, uygulamayı yerelleştirmek projemizin mevcut ana kullanıcı tabanlarının (Almanya ve ABD) ötesine büyümesine de yardımcı olur.
 
 Bu nedenle yardımlarınız için çok teşekkür ederiz!
 
-# Uygulama
+Birkaç nedenden ötürü (bir [web sitesi çevirileri blog yazısında](/blog/2022/01/website-translations) özetlenmiştir) web sitemiz için farklı bir çeviri sistemi kullanıyoruz: [Weblate](https://hosted.weblate.org/projects/antenpod/ ) . Herkes oraya kaydolabilir ve katkıda bulunmaya başlayabilir. Weblate'in belgelerinde [çeviriye başlamak için bilmeniz gereken her şeyi](https://docs.weblate.org/en/latest/user/translating.html) bulabilirsiniz.
 
-Uygulamayı çevirmeye yardımcı olmak için [Transifex](https://www.transifex.com/ antennapod / antennapod /) aracılığıyla katkıda bulunmanızı rica ediyoruz . Herkes oraya kaydolabilir ve başlayabilir. Transifex, [platformlarında başlamak](https://docs.transifex.com/getting-started-1/translators) ve [Web Editörü arayüzüne aşina olmak](https://docs.transifex.com/translation/translating-with-the-web-editor) için yararlı kılavuzlara sahiptir.
+{% capture img-translationstatus %} {% include image.html alt="
 
-AntennaPod projesi altında üç 'kaynak' bulacaksınız:
+       Graph with status of AntennaPod translations on Weblate.
 
-- Uygulamanın kendisi
-- Uygulama mağazaları için kısa, tek cümlelik açıklama
-- Uygulama mağazaları için daha ayrıntılı açıklama
+       "
 
-{{ img-transifex | strip }}
+loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
+
+<object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
+<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+</object>## Uygulama
 
 Uygulama şu anda 34 dilde mevcuttur. Transifex'te daha fazla dil olmasına rağmen, bunları uygulamaya dahil etmiyoruz. Diller için [%40 tamamlanma eşiğini](https://github.com/ AntennaPod / AntennaPod /pull/4112) korumaya çalışıyoruz. Bunun altına düşerse, uygulama pek de iyi bir kullanıcı deneyimi sağlamaz.
 
@@ -36,21 +22,27 @@ En azından her 'nokta sürümü' için Transifex'ten GitHub'a (geliştirme plat
 
 Çeviriye katkıda bulunanlar, uygulamada ` Ayarlar ` » ` Hakkında ` » ` Katkıda Bulunanlar ` bölümünde Transifex kullanıcı adlarıyla anılacaklar .
 
-# Web sitesi
+## Web sitesi
 
-Birkaç nedenden ötürü (bir [web sitesi çevirileri blog yazısında](/blog/2022/01/website-translations) özetlenmiştir) web sitemiz için farklı bir çeviri sistemi kullanıyoruz: [Weblate](https://hosted.weblate.org/projects/antenpod/ ) . Herkes oraya kaydolabilir ve katkıda bulunmaya başlayabilir. Weblate'in belgelerinde [çeviriye başlamak için bilmeniz gereken her şeyi](https://docs.weblate.org/en/latest/user/translating.html) bulabilirsiniz.
+Web sitesi her biri bir bölümü temsil eden dört bileşenden oluşmaktadır. Bu sırayı takip etmenizi tavsiye ederiz:
 
-AntennaPod projesinde dört 'bileşen' bulacaksınız. Her biri web sitesinin bir bölümünü temsil eder. ` Genel` ve ` Kısa dizeler` bileşenleriyle başlamanızı öneririz , çünkü bunlar bir kullanıcının web sitesinde göreceği ilk öğeler olacaktır. ` Dokümantasyon` bileşeni çok yakın bir ikinci önceliğe sahiptir, çünkü bu bölüm insanlar Destek'e dokunduğunda doğrudan uygulama üzerinden kullanılabilir. ` Katkıda bulun` bileşeni sonuncudur , çünkü toplulukla etkileşim kurmak için zaten temel düzeyde İngilizce bilgisine ihtiyaç vardır.
+1. **Genel** ve **Kısa dizeler** kullanıcıların bir internet sitesinde gördüğü ilk unsurlardır
+1. **Dökümantasyon**: uygulama üzerinden direkt ulaşılabilir destek materyallerimiz
+1. **Katkı yapmak** (en son gelir çünkü katkı yapmak için temel düzeyde İngilizce anlama becerisine ihtiyaç duyulur)
 
-{{ img-weblate | strip }}
+Güncellenmiş çeviriler arada bir yayınlanır. Yeni diller, öncelikli 1 & 2 bileşenleri tamamen çevrildikten sonra etkinleştirilir. Başka bir deyişle: 'Katkıda Bulunma' bölümü dışındaki herşey tamamlandığında. Eğer durum buysa lütfen forum üzerinden (aşağıda bulabilirsiniz) bize bildirin. Ardından çevirinin kalitesini arttırmak için internet sitesinin test sürümünü deneyebilecek bir topluluk üyesi bulmaya çalışacağız. Geribildirimler işlendikten sonra yeni dil sürümünü yayınlayabiliriz.
 
-Yeni çeviriler Weblate'ten GitHub'a (geliştirme platformu) ara sıra manuel olarak çekilir. Bir dil %90 çeviriye ulaştığında (bu, Contribute bölümü hariç tüm web sitesidir), bunu canlı web sitesinde etkinleştirebiliriz. Çevirilerin kalitesini artırmak için her zaman web sitesinin test sürümünü inceleyebilecek bir topluluk üyesi bulmaya çalışırız.
+## 3. Uygulama mağazası listeleri
 
-# Diğer malzemeler
+Uygulama ve internet sitesine ek olarak çeşitli uygulama mağazalarında görüntülenen yazılarıda çeviririz. Şu sırayı izlemenizi tavsiye deriz:
 
-Uygulama ve web sitesine ek olarak, uygulama mağazalarındaki görseller de çevrilebilir. Ekran görüntüleri ve metinleri vardır. Çok sınırlı alan olduğundan deneme yanılma yoluyla manuel bir süreç kullanıyoruz. Bu konuda yardımcı olmak istiyorsanız lütfen forumda bize bildirin. Yerelleştirilmiş uygulama mağazası listelerinin indirilme olasılığı daha yüksek olduğundan, yardım çok memnuniyetle karşılanır!
+1. **Kısa açıklama**
+1. **Tam açıklama**
+1. **Ekran görüntüsü başlıkları**
 
-# İletişime geçin!
+Kısa açıklamalar ve ekran görüntüsü başlıkları için bir karakter sınırına uymak zorundayız. Bu nedenle yazıları yayınlamadan önce onları manuel olarak gözden geçirir ve geliştiririz. Bu yazıların çevirisini tamamladığınızda lüten forumda bize bildirin.
+
+## İletişime geçin!
 
 * İngilizce metinler veya çevirilerden herhangi biri hakkında **geribildirim** vermek ister misiniz?
 * **Çevirilere yardım etmekle ** ilgileniyor ama henüz emin değil misiniz? Ya da başlamaya hazır mısınız?

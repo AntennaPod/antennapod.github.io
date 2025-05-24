@@ -42,7 +42,7 @@ AntennaPodの開発者は、次の場合を除き、あなたの情報にアク�
    - デバイスの言語
    - Androidのバージョン
 - フォーラムにアクセスまたは参加する場合: [フォーラムのプライバシーポリシー](https://forum.antennapod.org/privacy)に記載
-- Open Collectiveを通じて積極的に金銭的寄付を行う（[匿名ゲスト](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)または[シークレット](https ://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)寄付）:
+- Open Collectiveを通じて積極的に金銭的寄付を行う（[匿名ゲスト](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)または[シークレット](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)寄付）:
    - 公開プロフィール情報（名前、会社、説明、画像、Twitter、GitHub、ウェブサイト）
    - メールアドレス
 
