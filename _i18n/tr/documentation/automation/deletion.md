@@ -2,7 +2,7 @@
 
 AntennaPod'un indirilen podcast'lerin telefonunuzun belleğini doldurmamasını sağlayacak çeşitli mekanizmaları vardır. İndirilen bazı bölümlerin silindiğini fark ederseniz şu iki ayara göz atın :
 
-## Otomatik silme
+## Otomatik sil
 
 Otomatik Silme , ` Ayarlar` » ` Depolama` bölümünde bulunur . Etkinleştirildiğinde, oynatma tamamlandığında bölümler silinir (ancak bir bölümü manuel olarak 'oynandı' olarak işaretlediğinizde silinmez).
 

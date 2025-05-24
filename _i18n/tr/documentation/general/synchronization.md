@@ -24,7 +24,7 @@ AntennaPod , aboneliklerinizi ve dinleme ilerlemenizi diğer AntennaPod kuruluml
 1. Nextcloud hesabınız varsa, gPodder Sync uygulamasını yükleyin veya sunucu yöneticinizden bunu yapmasını isteyin
 1. AntennaPod'da ` Ayarlar ` » ` Senkronizasyon ` bölümüne gidin ve ` Senkronizasyon sağlayıcısını seç ` öğesine dokunun
 1. 'Nextcloud'u seçin
-1. 'Sunucu adresini' (sunucunun URL'si veya IP adresi) girin ve  `Devam ` dokunun
+1. 'Sunucu adresini' (sunucunun URL'si veya IP adresi) girin ve `Devam ` dokunun
 1. Açılan tarayıcı penceresinde oturum açın ve AntennaPod'u yetkilendirin
 
 ## gPodder üzerinden senkronizasyonu etkinleştirin

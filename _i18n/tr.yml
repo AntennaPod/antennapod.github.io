@@ -42,6 +42,7 @@ documentation:
       intro: AntennaPod'a hoş geldiniz! Aşağıda, AntennaPod'a nasıl başlayacağınıza
         dair bazı ayrıntılar bulabilirsiniz.
       title: Başlarken
+      home: Documentation->categories->getting-started->home
     playback:
       intro: Aşağıda, oynatma ile ilgili konuları bulabilirsiniz.
       title: Oynatma
@@ -66,6 +67,108 @@ documentation:
       özellikler hakkında bilgi vermeyi amaçlamaktadır.
     search-placeholder: Dokümasyonda ara
     no-results: Üzgünüm, bir şey bulunamadı
+    title: Genel
+    episode-deletion:
+      title: Bölümlerin silinmesi
+    intro: Aşağıda, AntennaPod projesi hakkında daha fazla ayrıntı bulabilirsiniz.
+    ads:
+      title: AntennaPod'daki reklamlar hakkında
+    backup:
+      title: Bölümlerinizi yedekleme
+    beta:
+      title: Beta testi
+    central-distributed:
+      title: Merkezi ve dağıtık podcast uygulamaları
+    external-storage:
+      title: Harici depolama kullanma
+    synchronization:
+      title: Cihazlar arasında nasıl senkronize edilir
+    proxy:
+      title: Trafiği bir proxy veya Tor ağı üzerinden yönlendirmek
+    f-droid:
+      title: F-Droid'de Güncellemeler
+    other-platforms:
+      title: Windows, Apple ve Linux için AntennaPod
+  search:
+    placeholder: Dokümasyonda ara
+    no-results: Üzgünüm, bir şey bulunamadı
+  intro: AntennaPod'un dokümantasyon bölümüne hoş geldiniz. Bu bölüm güncel özellikler
+    hakkında bilgi vermeyi amaçlamaktadır.
+  getting-started:
+    home:
+      title: Documentation->categories->getting-started->home
+    title: Başlarken
+    intro: AntennaPod'a hoş geldiniz! Aşağıda, AntennaPod'a nasıl başlayacağınıza
+      dair bazı ayrıntılar bulabilirsiniz.
+    subscribe:
+      title: Bir podcast'a abone olma
+  bugs-first-aid:
+    episodes-missing:
+      title: Eski bölümler kayboldu
+    playback-stops:
+      title: Oynatma aniden duruyor
+    title: Hatalar ve ilk yardım
+    intro: Yazılım yapmak bir insan becerisidir, bu nedenle hatalar kaçınılmazdır.
+      Ancak genellikle bu konuda yapabileceğimiz bir şey vardır!
+    bug-report:
+      title: Çalışmayan bir şeyler var
+    typo-translations:
+      title: Bir yazım veya imla hatası buldum
+    database-error:
+      title: Tüm podcast'lerim ve bölümlerim gitti
+    refresh-download-errors:
+      title: İndirme veya akış yenileme hatası
+    cannot-resume-playback:
+      title: Kilit ekranından bildirimden oynatmaya devam edilemiyor
+    cannot-stream-download:
+      title: Bölüm indiremiyorum
+  playback:
+    auto-rewind:
+      title: Otomatik geri sarma
+    intro: Aşağıda, oynatma ile ilgili konuları bulabilirsiniz.
+    title: Çalma
+    shortcuts:
+      title: Donanım klavye kısayolları
+    android-auto:
+      title: Arabalarda oynatma (Android Auto)
+    chromecast:
+      title: Google Chromecast üstünde Playback
+  podcasters-hosters:
+    add-on-antennapod:
+      title: "'AnrennaPod'da Aç' bağlantısı oluşturun"
+    list-podcast:
+      title: Podcast'inizin listelenmesi
+    update-feed-urls:
+      title: Akış bağlantı linkini yenile
+    title: Podcast yayıncıları ve sunucuları için
+    intro: Aşağıda podcast yayıncıları ve barındırma sağlayıcıları için destek bilgilerimizi
+      bulabilirsiniz.
+  queue:
+    title: Kuyruk
+    how-to-use:
+      title: Sıra nasıl kullanılır
+    intro: Aşağıda kuyrukla ilgili sık sorulan soruları bulabilirsiniz.
+    lock:
+      title: Sıranın kilitlenmesi (kaldırılması)
+    multiple-queues:
+      title: Birden çok kuyruk nasıl kullanılır
+    smart-shuffle:
+      title: Akıllı karışık çalma nasıl kullanılır
+  subscriptions:
+    title: Abonelikler
+    intro: Aşağıda, abonelikler hakkında sıkça sorulan soruları bulabilirsiniz.
+    subscription-groups:
+      title: Abonelik etiketleri (diğer adıyla gruplar veya kategoriler)
+  automation:
+    intro: Deneyimli bir kullanıcı mısınız ve işlemleri otomatikleştirmek mi istiyorsunuz?
+      Aşağıdaki sayfalara bir göz atın.
+    title: Otomasyon
+    deletion:
+      title: Otomatik silme
+    refreshing-podcasts:
+      title: Podcast güncelleniyor
+    tasker:
+      title: Diğer uygulamalarla entegrasyon
 month:
   Sep: Eyl
   Nov: Kas
@@ -84,10 +187,14 @@ contribute:
     text: Bir şeyi açıklamada iyi misiniz? Forumumuzdaki diğer kullanıcılara yardımcı
       olun.
     title: Destekleyin
+    card-text: Bir şeyi açıklamada iyi misiniz? Forumumuzdaki diğer kullanıcılara
+      yardımcı olun.
   translate:
     text: İngilizce dışında başka bir dil konuşabiliyor musunuz? AntennaPod'u çevirmemize
       yardım edin.
     title: Çevirin
+    card-text: İngilizce dışında başka bir dil konuşabiliyor musunuz? AntennaPod'u
+      çevirmemize yardım edin.
   donate:
     modal-button-donate: Yine de bağış yap
     link: Bir <a href="https://opencollective.com/antennapod" target="_blank" data-toggle="modal"
@@ -95,23 +202,51 @@ contribute:
     modal-title: Bağış yapmak istediğinize emin misiniz?
     modal-button-chat: Nasıl yardım edebileceğinizi bizimle görüşün
     modal-button-contribute: Katkı seçeneklerini tekrar kontrol edin
+    title: Bağış Yapın
+    card-text: Zamanınızı veremiyorsunuz, ve yerine para vermek istiyorsunuz.
   promote:
     title: Tanıtın
     text: Akılda kalıcı tweetler, ilginç bloglar veya harika grafikler mi hazırlıyorsunuz?
+      Dünyaya yayılmamıza yardımcı olun.
+    card-text: Akılda kalıcı tweetler, ilginç bloglar veya harika grafikler mi hazırlıyorsunuz?
       Dünyaya yayılmamıza yardımcı olun.
   design:
     title: Tasarlayın
     text: Karmaşık istekleri anlaşılır kullanıcı öykülerine veya tel çerçevelere mi
       dönüştürüyorsunuz? Bu sorunların çözülmesine yardımcı olun.
+    card-text: Karmaşık istekleri anlaşılır kullanıcı öykülerine veya tel çerçevelere
+      mi dönüştürüyorsunuz? Bu sorunların çözülmesine yardımcı olun.
   develop:
     title: Geliştirin
     text: Kod mu yazıyorsunuz? Pull requstleri test etmeye yardımcı olun veya uygulama
       ve web sitesi için yeni özellikler veya hata düzeltmeleri gönderin.
+    card-text: Kod mu yazıyorsunuz? Pull requstleri test etmeye yardımcı olun veya
+      uygulama ve web sitesi için yeni özellikler veya hata düzeltmeleri gönderin.
+    categories:
+      app:
+        title: Uygulama
+        card-text: Java konuşuyor musunuz? AntennaPod uygulamasına nasıl katkıda bulunulduğunu
+          öğrenin.
+        getting-credited:
+          title: Katkınız için credit almak
+        code-style:
+          title: Kod yapısı ve kod tarzı
+        test-builds:
+          title: Test yapılarını alma
+      website:
+        title: Website
+        card-text: SCSS ve HTML'ye aşina mısınız? Websitemize yardımda bulunun.
+      upstream:
+        card-text: Dayandığımız diğer projelere katkıda bulunarak bize yardım edin.
+        title: Ana proje ve diğer projeler
   test:
     title: Test edin
     text: Bir şeyleri bozmakta iyi misiniz? Beta sürümlerini test edin.
+    card-text: Bir şeyleri bozmakta iyi misiniz? Beta sürümlerini test edin.
   introduction: AntennaPod gönüllüler tarafından aktif olarak geliştirilmektedir.
     Siz de kodla veya başka bir şekilde katkıda bulunabilirsiniz!
+  intro: AntennaPod gönüllüler tarafından aktif olarak geliştirilmektedir. Siz de
+    kodla veya başka bir şekilde katkıda bulunabilirsiniz!
 generic:
   contribute: Katkıda bulun
   eml-share:
@@ -143,6 +278,8 @@ generic:
   masto-share:
     server: 'Örneğinizin adresini girin: (örn. https://mastadon.social)'
   error404: Hata kodu:404
+  subscribe-subtitle: Bu podcaste AntennaPod'dan veya herhangi bir diğer podcast uygulamasından
+    abone olmak için tıklayın .
 long_month:
   November: Kasım
   September: Eylül
