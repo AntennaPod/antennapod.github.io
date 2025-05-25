@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 21:56+0200\n"
-"PO-Revision-Date: 2025-05-07 15:03+0000\n"
-"Last-Translator: Yurt Page <yurtpage@gmail.com>\n"
+"PO-Revision-Date: 2025-05-25 21:51+0000\n"
+"Last-Translator: Maksim_220 Кабанов <law820314@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ru/>\n"
 "Language: ru\n"
@@ -84,6 +84,12 @@ msgid ""
 "this by going to a podcast, tapping on the `Gear` icon and changing the "
 "`Keep Updated` setting."
 msgstr ""
+"Вы также можете отключить этот процесс для отдельных подкастов, если "
+"поддерживать подкаст в актуальном состоянии нет необходимости. Это можно "
+"сделать, например, если для подкаста больше не выпускаются новые эпизоды. "
+"Или если вы добавили подкаст, эпизоды которого вы будете слушать лишь "
+"изредка. Для этого перейдите к подкасту, нажмите на значок `Gear` и измените "
+"настройку `Обновлять`."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
 msgid ""
@@ -93,6 +99,11 @@ msgid ""
 "podcast, which will bring new episodes to AntennaPod. But these new episodes "
 "will not be visible in the New tab of the Episodes screen."
 msgstr ""
+"Если вы отключите эту настройку, подкаст больше не будет обновляться при "
+"автоматическом обновлении подкастов или при инициировании этого процесса из "
+"очереди или с экрана «Эпизоды». Вы все еще можете обновить подкаст, что "
+"приведет к появлению новых эпизодов в AntennaPod. Но эти новые эпизоды не "
+"будут отображаться на вкладке «Новые» экрана «Эпизоды»."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -100,6 +111,9 @@ msgid ""
 "regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
 "podcasts))."
 msgstr ""
+"С помощью AntennaPod вы можете указать подписки (каналы подкастов), которые "
+"будут регулярно обновляться (см. [Обновление подкастов](/documentation/"
+"automation/refreshing-podcasts))."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
@@ -114,15 +128,17 @@ msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WiFi, then update AntennaPod feeds."
 msgstr ""
+"Обновляйте подписки в начале дня: в 7 утра включите WiFi, затем обновите "
+"каналы AntennaPod."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get your subscriptions before your ride home: at 5pm on weekdays update "
 "subscriptions."
 msgstr ""
+"Оформите подписку до поездки домой: в 17:00 по будням обновляйте подписки."
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
-#, fuzzy
 msgid "General instructions"
 msgstr "Общие инструкции"
 
@@ -132,6 +148,9 @@ msgid ""
 "subscriptions by sending a 'Broadcast' (it may be shown as a type of Android "
 "intent) with the following settings:"
 msgstr ""
+"В приложении автоматизации вы можете заставить AntennaPod обновить свои "
+"подписки, отправив «широковещательную рассылку» (она может отображаться как "
+"тип намерения Android) со следующими настройками:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
@@ -156,7 +175,7 @@ msgstr "Automate ([сайт](https://llamalab.com/automate/))"
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid ""
 "In a flow, add a block of the type `APPS` » `Broadcast send` and specify"
-msgstr ""
+msgstr "В потоке добавьте блок типа `APPS` « `Broadcast send` и укажите"
 
 #: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
