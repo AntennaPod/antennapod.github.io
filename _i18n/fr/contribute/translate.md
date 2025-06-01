@@ -6,7 +6,7 @@ Nos traductions sont hébergées sur Weblate, une plateforme de localisation à 
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Graphiques représentant l'état de traduction d'AntennaPod sur Weblate.
+       Graphique représentant l'avancement des traductions d'AntennaPod sur Weblate.
 
        "
 
