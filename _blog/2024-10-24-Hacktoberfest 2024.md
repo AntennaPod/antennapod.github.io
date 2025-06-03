@@ -21,7 +21,7 @@ For example, @RafaB6n added a warning when manually refreshing a podcast when on
 
 Getting started is simple:
 
-1. [Sign up for Hacktoberfest](https://hacktoberfest.com/auth/) on the official site.
+1. [Sign up for Hacktoberfest](https://hacktoberfest.com/) on the official site.
 2. Check out AntennaPod's repository on GitHub and find [issues labeled **“Good first issue”**](https://github.com/AntennaPod/AntennaPod/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+first+issue%22). These are great starting points!
 Just remember to avoid issues tagged with “Needs: Decision” or “Needs: Triage”, as they may require further discussion and PRs might be closed without merging.
 3. Once you’ve found your issue, leave a comment indicating to other Hacktoberfest contributors that you'll be working on it (we can't reserve issues for you). No need to ask for permission, but feel free to check with us if you want feedback on a specific technical implementation you have in mind.
@@ -33,7 +33,7 @@ Don’t worry if you don’t hear from us right away. We carefully review all co
 
 ### Low- & non-code contributions welcome!
 
-Hacktoberfest loves [low- & non-code contributions](https://hacktoberfest.com/participation/#low-or-non-code), and so do we! Because AntennaPod isn't  run only by developers: Translators make our app usable by many. Active forum participants are key to helping our many users. And our branding and UX/UI contributors help give the project its special feel. Joining is simple:
+Hacktoberfest loves low- & non-code contributions, and so do we! Because AntennaPod isn't  run only by developers: Translators make our app usable by many. Active forum participants are key to helping our many users. And our branding and UX/UI contributors help give the project its special feel. Joining is simple:
 
 1. Check our [Contribute page](https://antennapod.org/contribute/) to see how you can help.
 2. Get in touch on our forum with your offer, and tag @keunes and @ByteHamster.
