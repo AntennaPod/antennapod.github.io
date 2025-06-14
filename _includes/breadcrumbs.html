@@ -7,7 +7,40 @@
     {% if forloop.last %}
     / <li class="breadcrumb-item active" aria-current="page">{% if page.texts %}{% t {{ page.texts }}.title %}{% else %}{% t page.title %}{% endif %}</li>
     {% else %}
-    / <li class="breadcrumb-item"><a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+    {% comment %} Find the page object that matches this crumb path {% endcomment %}
+    {% assign crumb_path = "" %}
+    {% for path_segment in crumbs offset: 1 limit: forloop.index %}
+      {% unless forloop.first %}{% assign crumb_path = crumb_path | append: "/" %}{% endunless %}
+      {% assign crumb_path = crumb_path | append: path_segment %}
+    {% endfor %}
+    {% assign crumb_path = "/" | append: crumb_path %}
+      {% comment %} Look for matching page in all collections {% endcomment %}
+    {% assign found_page = null %}
+    {% for collection in site.collections %}
+      {% for doc_page in collection.docs %}        {% if doc_page.url == crumb_path or doc_page.url == crumb_path | append: "/" %}
+          {% assign found_page = doc_page %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if found_page %}{% break %}{% endif %}
+    {% endfor %}
+      {% comment %} Generate the breadcrumb item with translated title if available {% endcomment %}
+    / <li class="breadcrumb-item"><a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{{ crumb_path }}">
+    {% if found_page and found_page.texts %}
+      {% comment %} Use the page's translation key {% endcomment %}
+      {% t {{ found_page.texts }}.title %}
+    {% else %}
+      {% comment %} Try to find a translation key for this crumb in titles {% endcomment %}
+      {% assign title_key = "titles." | append: crumb %}
+      {% capture translated_title %}{% t title_key %}{% endcapture %}
+      {% if translated_title != title_key %}
+        {{ translated_title }}
+      {% else %}
+        {% comment %} Fall back to formatted crumb name {% endcomment %}
+        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+      {% endif %}
+    {% endif %}
+    </a></li>
     {% endif %}
     {% endfor %}
   </ol>
