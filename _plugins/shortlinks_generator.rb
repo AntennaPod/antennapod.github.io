@@ -1,6 +1,6 @@
 module Jekyll
   class ShortlinkPage < Page
-    def initialize(site, base, dir, slug, target, lang = nil)
+    def initialize(site, base, dir, target, lang = nil)
       @site = site
       @base = base
       @dir = dir
@@ -32,10 +32,10 @@ module Jekyll
         languages.each do |lang|
           if lang == 'en' || lang == site.config['defaultLang']
             # English/default language: create at /s/{slug}/
-            site.pages << ShortlinkPage.new(site, site.source, "/s/#{slug}", slug, target, lang)
+            site.pages << ShortlinkPage.new(site, site.source, "/s/#{slug}", target, lang)
           else
             # Other languages: create at /{lang}/s/{slug}/
-            site.pages << ShortlinkPage.new(site, site.source, "/#{lang}/s/#{slug}", slug, target, lang)
+            site.pages << ShortlinkPage.new(site, site.source, "/#{lang}/s/#{slug}", target, lang)
           end
         end
       end
