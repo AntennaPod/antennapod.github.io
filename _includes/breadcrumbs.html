@@ -37,7 +37,7 @@
         {%- if translated_title and translated_title != "" %}
           {{- translated_title }}
         {%- else %}
-          {{- page.title }}
+          {{- matched_page.title }}
         {%- endif %}
       {%- else %}
         {{- crumb | split: "/" | last | replace: "-", " " | capitalize }}
