@@ -1,14 +1,64 @@
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+{% assign all_pages = site.documents | concat: site.pages %}
+
+{%- assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+{% assign breadcrumb_pages = "" | split: "" %}
+{% assign total_crumbs = crumbs.size %}
+{% assign last_crumb_index = total_crumbs | minus: 2 %}
+
+{% for breadcrumb_index in (1..last_crumb_index) %}
+  {% assign cumulative_path = "" %}
+  {% for path_index in (1..breadcrumb_index) %}
+    {% assign cumulative_path = cumulative_path | append: "/" | append: crumbs[path_index] %}
+  {% endfor %}
+  {% assign breadcrumb_pages = breadcrumb_pages | push: cumulative_path %}
+{% endfor %}
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb p-0" id="breadcrumbs">
-    <li class="breadcrumb-item"><a href="/{% if site.lang != 'en' %}{{ site.lang }}{% endif %}">{% t generic.home %}</a></li>
-    {% for crumb in crumbs offset: 1 %}
-    {% if forloop.last %}
-    / <li class="breadcrumb-item active" aria-current="page">{% if page.texts %}{% t {{ page.texts }}.title %}{% else %}{% t page.title %}{% endif %}</li>
-    {% else %}
-    / <li class="breadcrumb-item"><a href="{% if site.lang != 'en' %}/{{ site.lang }}{% endif %}{% assign crumb_limit = forloop.index %}{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
-    {% endif %}
-    {% endfor %}
+    <li class="breadcrumb-item"><a href="/{% if site.lang != site.defaultLang %}{{ site.lang }}{% endif %}">{% t generic.home %}</a></li>
+    {% for crumb in breadcrumb_pages %}
+
+      {%- assign matched_page = nil %}
+      {%- assign crumb_with_slash = crumb | append: "/" %}
+      {%- for page_item in all_pages %}
+        {%- if crumb == page_item.url or crumb_with_slash == page_item.url %}
+          {%- assign matched_page = page_item %}
+          {%- break %}
+        {%- endif %}
+      {%- endfor %}
+
+    <li class="breadcrumb-item"><a href="{% if site.lang != site.defaultLang %}/{{ site.lang }}{% endif %}{{ crumb }}">
+
+      {%- if matched_page.texts %}
+        {%- t {{ matched_page.texts }}.title %}
+      {%- elsif matched_page.title %}
+        {%- capture translated_title %}{% t {{ matched_page.title }} %}{% endcapture %}
+        {%- if translated_title and translated_title != "" %}
+          {{- translated_title }}
+        {%- else %}
+          {{- page.title }}
+        {%- endif %}
+      {%- else %}
+        {{- crumb | split: "/" | last | replace: "-", " " | capitalize }}
+      {%- endif %}
+
+      </a></li>
+    {%- endfor %}
+
+    <li class="breadcrumb-item active" aria-current="page">
+      {%- if page.texts %}
+        {%- t {{ page.texts }}.title %}
+      {%- elsif page.title %}
+        {%- capture translated_title %}{% t {{ page.title }} %}{% endcapture %}
+        {%- if translated_title and translated_title != "" %}
+          {{- translated_title }}
+        {%- else %}
+          {{- page.title }}
+        {%- endif %}
+      {%- else %}
+        {{- crumb | split: "/" | last | replace: "-", " " | capitalize }}
+      {%- endif %}
+    </li>
   </ol>
 </nav>
