@@ -10103,13 +10103,14 @@ blockquote {
   background-color: unset;
 }
 
-.breadcrumb-item::before {
-  display: none;
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0;
+  padding-inline-start: 0.5rem;
 }
-
-.breadcrumb-item {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 0;
+  float: inline-start;
+  padding-inline-end: 0.5rem;
 }
 
 .post-content p, .post-content li {
