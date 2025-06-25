@@ -542,19 +542,23 @@ blockquote {
   padding: 6px 10px;
 }
 
-// Posts
+// Breadcrumbs
 #breadcrumbs {
   background-color: unset;
 }
 
-.breadcrumb-item::before {
-  display: none;
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0; // Reset Bootstrap's left padding
+  padding-inline-start: $breadcrumb-item-padding;
+
+  &::before {
+    padding-right: 0; // Reset Bootstrap's right padding
+    float: inline-start; // Use logical property for RTL languages
+    padding-inline-end: $breadcrumb-item-padding;
+  }
 }
 
-.breadcrumb-item {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
+// Posts
 
 .post-content {
   & p, li {
