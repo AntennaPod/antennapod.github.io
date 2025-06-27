@@ -5,7 +5,7 @@ AntennaPod is developed and maintained by individual volunteers and is not repre
 ### Data AntennaPod may collect, store, and process
 The app only records data strictly necessary for the app to function. This includes the list of podcasts you follow, the app settings and authentication data provided for specific podcasts or services (such as synchronization services). The app does not include any advertising libraries or third-party tracking or analytics code, such as Google Analytics.
 
-**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app or when you actively share debugging information with us.** The second next section explains in which cases your data may reach third parties.
+**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app or when you actively share debugging information with us.** The second next section explains in which cases your data may reach third parties. Details on [app permissions](/documentation/general/app-permissions) are available in our documentation.
 
 When sharing debugging information (either via email using the ‘Crash Report’ function or via Android’s crash reporting functionality), the following data is processed:
   - device type
@@ -14,10 +14,6 @@ When sharing debugging information (either via email using the ‘Crash Report�
 
 The only instance in which data *from* third parties is handled is when using a synchronization service if enabled via the settings. In that case, the app may receive subscriptions and playback events provided by the service.
 
-### App permissions
-The app requests the following privacy-relevant Android permissions:
-
-- Read from/write to Storage (Photos/Media/Files): The storage permission is used to open files that are not downloaded directly from within the app. It can also be used to import app settings or OPML files. The permission is only requested if you perform an action that requires reading from storage.
 
 ### Data other parties may collect, store, and process
 
