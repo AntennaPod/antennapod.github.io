@@ -33,7 +33,7 @@ Don’t worry if you don’t hear from us right away. We carefully review all co
 
 ### Low- & non-code contributions welcome!
 
-Hacktoberfest loves low- & non-code contributions, and so do we! Because AntennaPod isn't  run only by developers: Translators make our app usable by many. Active forum participants are key to helping our many users. And our branding and UX/UI contributors help give the project its special feel. Joining is simple:
+Hacktoberfest loves [low- & non-code contributions](https://web.archive.org/web/20241010012555/https://hacktoberfest.com/participation/#low-or-non-code), and so do we! Because AntennaPod isn't  run only by developers: Translators make our app usable by many. Active forum participants are key to helping our many users. And our branding and UX/UI contributors help give the project its special feel. Joining is simple:
 
 1. Check our [Contribute page](https://antennapod.org/contribute/) to see how you can help.
 2. Get in touch on our forum with your offer, and tag @keunes and @ByteHamster.
