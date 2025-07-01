@@ -10523,23 +10523,11 @@ i.member-img {
     border-radius: 10px 10px 0px 0px;
   }
 }
-.post-content ul, .post-content ol, .modal-body ul, .modal-body ol {
-  padding: 0;
-  margin-top: 1rem;
-  margin-bottom: 0;
+.post-content p + ul, .post-content p + ol, .modal-body p + ul, .modal-body p + ol {
+  margin-top: 0.5rem;
 }
-.post-content li, .modal-body li {
-  list-style-position: outside;
-  margin: 0 0 5px 20px;
-}
-.post-content ul li, .modal-body ul li {
-  list-style-type: disc;
-}
-.post-content ul + p, .modal-body ul + p {
-  margin-bottom: 5px;
-}
-.post-content p + ul, .modal-body p + ul {
-  margin-top: 5px;
+.post-content ul + p, .post-content ol + p, .modal-body ul + p, .modal-body ol + p {
+  margin-bottom: 0.5rem;
 }
 
 .modal-body p, .modal-body li {
