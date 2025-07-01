@@ -1,11 +1,11 @@
-AntennaPod is developed and maintained by individual volunteers and is not represented by any legal entity. The community has no interest in your data, so the app and website are designed to be GDPR compliant. Read on to learn more.
+AntennaPod is developed and maintained by individual volunteers and is not represented by any legal entity. The community is not interested in your data, so the app and website are designed to be GDPR compliant. Read on to learn more.
 
 ## The app
 
 ### Data AntennaPod may collect, store, and process
 The app only records data strictly necessary for the app to function. This includes the list of podcasts you follow, the app settings and authentication data provided for specific podcasts or services (such as synchronization services). The app does not include any advertising libraries or third-party tracking or analytics code, such as Google Analytics.
 
-**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app or when you actively share debugging information with us.** The next section explains when your data may reach third parties. Details on [app permissions](/documentation/general/app-permissions) are available in our documentation.
+**All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app or when you actively share debugging information with us.** The next section explains when your data may reach third parties. If you're interested, you may also read about AntennaPod's [app permissions](/documentation/general/app-permissions) in the documentation.
 
 When sharing debugging information (either via email using the ‘Crash Report’ function or via Android’s crash reporting functionality), the following data is processed:
   - device type
@@ -22,7 +22,7 @@ The only instance in which data *from* third parties is handled is when using a 
 - Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).
 
 #### Discovery and search services
-- When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the query, including country (which by default is the device's country). These suggestions can be disabled by choosing "off" in the region selector (already the default for the release on F-Droid).
+- When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the query, including country (which by default is the device's country). These suggestions can be disabled by choosing "off" in the region selector, and in the F-Droid release you have actively consent before getting Apple's recommendations.
 - When using the search feature in AntennaPod, the services PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) may store your query, including the search terms.
 - Discovery and search queries also include IP address, time, and app name "AntennaPod". After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
 
