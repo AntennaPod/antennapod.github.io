@@ -1037,27 +1037,11 @@ i.member-img {
 // Lists
 
 .post-content, .modal-body {
-  & ul, & ol {
-    padding: 0;
-    margin-top: 1rem;
-    margin-bottom: 0;
+  & p + ul, & p + ol {
+    margin-top: 0.5rem;
   }
-
-  & li {
-    list-style-position: outside;
-    margin: 0 0 5px 20px;
-  }
-
-  & ul li {
-    list-style-type: disc;
-  }
-
-  & ul + p {
-    margin-bottom: 5px;
-  }
-
-  & p + ul {
-    margin-top: 5px;
+  & ul + p, & ol + p {
+    margin-bottom: 0.5rem;
   }
 }
 
