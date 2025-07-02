@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:54+0200\n"
-"PO-Revision-Date: 2025-05-13 07:26+0000\n"
-"Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
+"PO-Revision-Date: 2025-07-02 16:46+0000\n"
+"Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/uk/>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1257,9 +1257,8 @@ msgid "Did you see that there's a new AntennaPod release and wonder:"
 msgstr "Ви побачили, що вийшов новий випуск AntennaPod, і здивувалися:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
-#, fuzzy
 msgid "*why is the latest version not on F-Droid yet?*"
-msgstr "*чому на F-Droid ще немає останньої версії?*"
+msgstr "*Чому останньої версії ще немає на F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*when will the new release be available on F-Droid?*"
@@ -1271,55 +1270,63 @@ msgid ""
 "releases on F-Droid, we can't tell when exactly the latest version will be "
 "available there."
 msgstr ""
+"Через різні кроки та оскільки ми не займаємося публікацією релізів на F-"
+"Droid, ми не можемо сказати, коли саме там буде доступна остання версія."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "**In short: we did not forget about F-Droid, it just takes some time. Please "
 "be patient.**"
-msgstr "Якщо коротко: це може зайняти деякий час. Прошу терпіння."
+msgstr ""
+"**Коротко кажучи: ми не забули про F-Droid, це просто потребує трохи часу. "
+"Будь ласка, будьте терплячі.**"
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
-#, fuzzy
 msgid "The steps for releasing a new version on F-Droid"
-msgstr "Етапи отримання нової версії на F-Droid"
+msgstr "Кроки для випуску нової версії на F-Droid"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We release a beta version, which is *only* available through Google Play due "
 "to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
+"Ми випускаємо бета-версію, яка доступна *лише* через Google Play через "
+"[технічні обмеження](/documentation/general/beta#f-droid) у F-Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We do a slow, gradual roll-out to all Google Play users. That way we make "
 "sure that there are no critical bugs. This can take several weeks."
 msgstr ""
+"Ми поступово та повільно розгортаємо оновлення для всіх користувачів Google "
+"Play. Таким чином ми гарантуємо відсутність критичних помилок. Це може "
+"тривати кілька тижнів."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/"
 "releases). We do this only after the roll-out on Google Play is complete."
 msgstr ""
+"Ми створюємо [реліз на GitHub](https://github.com/AntennaPod/AntennaPod/"
+"releases). Ми робимо це лише після завершення розгортання в Google Play."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems check the AntennaPod repository and detect a new release. "
 "The update checker server runs daily (overnight in Europe)."
 msgstr ""
+"Системи F-Droid перевіряють репозиторій AntennaPod та виявляють новий реліз. "
+"Сервер перевірки оновлень працює щодня (в Європі — вночі)."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "F-Droid systems build the app. They do this to make sure the app you "
 "download matches the source code that we publishe. Because there are many "
 "apps to build, the F-Droid server takes 1 to 2 days to build the app."
 msgstr ""
-"Після того, як F-Droid виявляє наявність нового випуску AntennaPod, він "
-"створює програму. Завдяки цьому F-Droid гарантує, що програма, яку ви "
-"завантажуєте, дійсно відповідає вихідному коду, який публікує AntennaPod. "
-"Оскільки існує багато додатків для створення, сервер F-Droid займає "
-"додаткові 1-2 дні для створення додатка."
+"Системи F-Droid створюють додаток. Вони роблять це, щоб переконатися в тому, "
+"що додаток, який ви завантажуєте, відповідає джерельному коду. Оскільки "
+"існує багато додатків для створення, сервер F-Droid займає від 1 до 2 днів."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1329,13 +1336,19 @@ msgid ""
 "signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
+"Докладчик F-Droid підписує конструкцію криптографічно. Щоб поліпшити "
+"безпеку, учасник повинен взяти додаток і фізично перевести його на "
+"спеціальний комп'ютер, який не підключений до Інтернету. Коли всі додатки "
+"підписані, учасник завантажує їх до систем F-Droid. Зазвичай це займає від 1 "
+"до 2 днів."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "F-Droid systems process the new apps, adding the new AntennaPod release in "
 "their index."
-msgstr "Ви побачили, що вийшов новий випуск AntennaPod, і здивувалися:"
+msgstr ""
+"Системи F-Droid обробляють нові програми, додаючи новий реліз AntennaPod до "
+"свого індексу."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
 msgid ""
@@ -1344,10 +1357,14 @@ msgid ""
 "index. Only after that you'll get prompted about the latest AntennaPod "
 "release."
 msgstr ""
+"На даний момент ми вважаємо, що він \"випущений на F-Droid\". Але "
+"пам'ятайте, що клієнт F-Droid (\"магазин додатків\") також повинен "
+"оновлювати свою локальну копію індекса. Тільки після цього ви отримаєте "
+"повідомлення про останню версію AntennaPod."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr ""
+msgstr "Отже, який приблизний час прибуття?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1356,11 +1373,14 @@ msgid ""
 "tagging the release on GitHub. After the release is tagged, F-Droid usually "
 "takes four to six days to process it."
 msgstr ""
+"Як ви бачите, є багато кроків, кожен з яких займає різну кількість часу. "
+"Зазвичай ми витрачаємо більше місяця між випуском бета-версії і відзначанням "
+"її на GitHub. Після тегування випуску F-Droid зазвичай займає від чотирьох "
+"до шести днів для обробки."
 
 #: _i18n/en/documentation/general/f-droid.md:block 10 (header)
-#, fuzzy
 msgid "What you can do if you're eagerly waiting"
-msgstr "Що ви можете зробити, якщо це займає більше часу, ніж очікувалося"
+msgstr "Що ви можете зробити, якщо з нетерпінням чекаєте"
 
 #: _i18n/en/documentation/general/f-droid.md:block 11 (paragraph)
 msgid ""
@@ -1368,6 +1388,9 @@ msgid ""
 "AntennaPod/releases) yet? Then please just wait. The update is in beta and "
 "not ready for public release."
 msgstr ""
+"Хіба ми ще не позначили [реліз на GitHub](https://github.com/AntennaPod/"
+"AntennaPod/releases)? Тоді, будь ласка, просто зачекайте. Оновлення "
+"перебуває в бета-версії та ще не готове до публічного випуску."
 
 #: _i18n/en/documentation/general/f-droid.md:block 12 (paragraph)
 msgid ""
@@ -1375,6 +1398,10 @@ msgid ""
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
 "up-on-website-and-client): \"don't panic before 7 days have passed, please.\""
 msgstr ""
+"Ми *дійсно* позначили реліз на GitHub? Як команда F-Droid [примітки](https://"
+"gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
+"up-on-website-and-client): "
+"\"Не панікуйте, поки не пройде 7 днів, будь ласка.\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1382,20 +1409,26 @@ msgid ""
 "let us know by creating a post on our [forum](https://forum.antennapod."
 "org/). We'll take a look."
 msgstr ""
+"Чи минуло вже 7 днів відтоді, як ми позначили реліз на GitHub? Не соромтеся "
+"повідомити нам, створивши допис на нашому [форумі](https://"
+"forum.antennapod.org/). Ми переглянемо це."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
 "Did we tag the release 7 days ago or less? Then please just wait. Or "
 "investigate where we are in the process."
 msgstr ""
+"Ми позначили реліз 7 днів тому чи менше? Тоді, будь ласка, просто зачекайте. "
+"Або перевірте, на якому етапі процесу ми знаходимося."
 
 #: _i18n/en/documentation/general/f-droid.md:block 14 (header)
 msgid "Investigate current status"
-msgstr ""
+msgstr "Дослідіть поточний стан"
 
 #: _i18n/en/documentation/general/f-droid.md:block 15 (paragraph)
 msgid "If you want, you can follow these steps to get an idea of the progress:"
 msgstr ""
+"Якщо хочете, можете виконати такі кроки, щоб отримати уявлення про прогрес:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1404,6 +1437,10 @@ msgid ""
 "'last week' to see the exact date on GitHub). If so, it should soon be "
 "picked up by the update checker."
 msgstr ""
+"Перевірте, чи і коли [випуск був зафіксований на GitHub](https://github.com/"
+"AntennaPod/AntennaPod/releases/latest) (можливо прогулятися, наприклад, "
+"\"за останній тиждень\", щоб побачити точну дату на GitHub). Якщо так, то "
+"він скоро буде зафіксований контролером оновлення."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1412,6 +1449,10 @@ msgid ""
 "Droid%20checkupdates%20bot) was updated since then. If so, it should soon be "
 "processed by the build server."
 msgstr ""
+"Перевірте, чи [Лист версій AntennaPod F-Droid](https://gitlab.com/fdroid/"
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) був оновлений "
+"з того часу. Якщо так, то він скоро буде оброблений сервером."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1421,6 +1462,12 @@ msgid ""
 "en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
 "be cryptographically signed by an F-Droid contributor."
 msgstr ""
+"Перевірте, чи був AntennaPod побудований в [викоренному циклі](https://"
+"monitor.f-droid.org/builds/running) або [останній циклі](https://"
+"monitor.f-Droid.org/builds/build). Ви також можете використовувати додаток "
+"[F-Droid buildstatus]((https://f-droid.org/en/packages/"
+"de.storchp.fdroidbuildstatus/) для цього. Якщо це так, то незабаром він "
+"повинен бути криптографічно підписаний учасником F-Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1428,31 +1475,33 @@ msgid ""
 "listed in the success and fail lists yet, and you want to know if it will be "
 "built?"
 msgstr ""
+"Зверніть увагу, що немає черги для програм, які потрібно зібрати. AntennaPod "
+"ще не вказано у списках успішних та невдалих додатків, і ви хочете знати, чи "
+"буде він зібраний?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr ""
+msgstr "натисніть на «версію fdroiddata» при виконанні коміту циклу збірки"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr ""
+msgstr "натисніть «Переглянути файли»"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr ""
+msgstr "натисніть «Знайти файл»"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid "copy and paste `de.danoeh.antennapod`"
-msgstr "Пакет має бути `de.danoeh.antennapod`"
+msgstr "скопіюйте та вставте `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
-msgstr ""
+msgstr "відкрити файл"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr ""
+msgstr "перевірте, чи містить він найновіший випуск"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
