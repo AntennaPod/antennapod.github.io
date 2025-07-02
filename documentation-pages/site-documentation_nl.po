@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
-"PO-Revision-Date: 2025-06-01 02:27+0000\n"
+"PO-Revision-Date: 2025-07-02 16:46+0000\n"
 "Last-Translator: Frits van Bommel <fvbommel@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website/"
 "documentation/nl/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1271,7 +1271,6 @@ msgid "Did you see that there's a new AntennaPod release and wonder:"
 msgstr "Heb je gezien dat er een nieuwe AntennaPod-versie is je afgevraagd:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
-#, fuzzy
 msgid "*why is the latest version not on F-Droid yet?*"
 msgstr "*waarom staat de laatste versie nog niet op F-Droid?*"
 
@@ -1285,16 +1284,19 @@ msgid ""
 "releases on F-Droid, we can't tell when exactly the latest version will be "
 "available there."
 msgstr ""
+"Omdat hiervoor andere stappen nodig zijn en omdat we zelf niet betrokken "
+"zijn bij het publiceren van versies op F-Droid kunnen we niet precies zeggen "
+"wanneer de laatste versie daar beschikbaar zal zijn."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "**In short: we did not forget about F-Droid, it just takes some time. Please "
 "be patient.**"
-msgstr "Kortom: het kan even duren. Heb geduld."
+msgstr ""
+"**Kortom: we zijn F-Droid niet vergeten, maar het kan even duren. Heb "
+"geduld.**"
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
-#, fuzzy
 msgid "The steps for releasing a new version on F-Droid"
 msgstr "De stappen om een nieuwe versie op F-Droid te zetten"
 
@@ -1303,36 +1305,46 @@ msgid ""
 "We release a beta version, which is *only* available through Google Play due "
 "to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
+"We geven een bètaversie uit, die *alleen* beschikbaar is op Google Play "
+"vanwege [technische beperkingen](/documentation/general/beta#f-droid) van "
+"F-Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We do a slow, gradual roll-out to all Google Play users. That way we make "
 "sure that there are no critical bugs. This can take several weeks."
 msgstr ""
+"We voeren een langzame, geleidelijke uitrol uit voor alle Google Play-"
+"gebruikers. Zo zorgen we ervoor dat er geen kritieke bugs zijn. Dit kan "
+"enkele weken duren."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/"
 "releases). We do this only after the roll-out on Google Play is complete."
 msgstr ""
+"We maken een [release aan op GitHub](https://github.com/AntennaPod/"
+"AntennaPod/releases). We doen dit pas nadat de uitrol op Google Play "
+"voltooid is."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems check the AntennaPod repository and detect a new release. "
 "The update checker server runs daily (overnight in Europe)."
 msgstr ""
+"F-Droid-systemen controleren de AntennaPod-repository en detecteren een "
+"nieuwe release. De updatecontroleserver draait dagelijks (in Europa 's "
+"nachts)."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "F-Droid systems build the app. They do this to make sure the app you "
 "download matches the source code that we publishe. Because there are many "
 "apps to build, the F-Droid server takes 1 to 2 days to build the app."
 msgstr ""
-"Nadat F-Droid een nieuwe AntennaPod release detecteert, bouwt het de app. "
-"Hiermee zorgt F-Droid ervoor dat de app die je downloadt echt overeenkomt "
-"met de broncode die AntennaPod publiceert. Omdat er veel apps moeten worden "
-"gebouwd, heeft de F-Droid server een extra 1-2 dagen nodig om de app te "
+"F-Droid bouwt het de app. Hiermee zorgt F-Droid ervoor dat de app die je "
+"downloadt overeenkomt met de broncode die wij publiceren. Omdat er veel apps "
+"moeten worden gebouwd, heeft de F-Droid server 1-2 dagen nodig om de app te "
 "bouwen."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
@@ -1343,13 +1355,19 @@ msgid ""
 "signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
+"Een F-Droid-bijdrager ondertekent de build cryptografisch. Om de beveiliging "
+"te verbeteren, moet de bijdrager de app fysiek naar een speciale computer "
+"brengen die niet met het internet is verbonden. Zodra alle apps zijn "
+"ondertekend, uploadt de bijdrager ze naar de F-Droid-systemen. Dit duurt "
+"meestal 1 tot 2 dagen."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "F-Droid systems process the new apps, adding the new AntennaPod release in "
 "their index."
-msgstr "Heb je gezien dat er een nieuwe AntennaPod-versie is je afgevraagd:"
+msgstr ""
+"F-Droid-systemen verwerken de nieuwe apps en voegen de nieuwe AntennaPod-"
+"release toe aan hun index."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
 msgid ""
@@ -1358,10 +1376,14 @@ msgid ""
 "index. Only after that you'll get prompted about the latest AntennaPod "
 "release."
 msgstr ""
+"Op dit punt beschouwen we het als 'uitgebracht op F-Droid'. Maar vergeet "
+"niet dat je F-Droid-client (de 'app store') ook de lokale kopie van de index "
+"moet vernieuwen. Pas daarna krijg je een melding over de nieuwste AntennaPod-"
+"release."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr ""
+msgstr "Dus wanneer kunnen we 'm verwachten?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1370,11 +1392,15 @@ msgid ""
 "tagging the release on GitHub. After the release is tagged, F-Droid usually "
 "takes four to six days to process it."
 msgstr ""
+"Zoals je kunt zien zijn er veel stappen die ieder een variabele tijdsduur "
+"hebben. Meestal duurt het ruim een maand tussen het uitbrengen van een "
+"bètaversie en het taggen van de release op GitHub. Nadat de release is "
+"getagd, duurt het meestal vier tot zes dagen voordat F-Droid deze heeft "
+"verwerkt."
 
 #: _i18n/en/documentation/general/f-droid.md:block 10 (header)
-#, fuzzy
 msgid "What you can do if you're eagerly waiting"
-msgstr "Wat kun je doen als het langer duurt dan verwacht"
+msgstr "Wat je kunt doen als je reikhalzend uitkijkt"
 
 #: _i18n/en/documentation/general/f-droid.md:block 11 (paragraph)
 msgid ""
@@ -1382,6 +1408,9 @@ msgid ""
 "AntennaPod/releases) yet? Then please just wait. The update is in beta and "
 "not ready for public release."
 msgstr ""
+"Is de release nog niet [getagd op GitHub](https://github.com/AntennaPod/"
+"AntennaPod/releases)? Wacht dan alsjeblieft gewoon. Dit is een bètaversie en "
+"geen openbare release."
 
 #: _i18n/en/documentation/general/f-droid.md:block 12 (paragraph)
 msgid ""
@@ -1389,6 +1418,10 @@ msgid ""
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
 "up-on-website-and-client): \"don't panic before 7 days have passed, please.\""
 msgstr ""
+"Is de release *wel* getagd op GitHub? Zoals het F-Droid-team [zegt](https://"
+"gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
+"up-on-website-and-client): "
+"\"alsjeblieft niet in paniek raken tenzij het meer dan 7 dagen duurt.\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1396,20 +1429,27 @@ msgid ""
 "let us know by creating a post on our [forum](https://forum.antennapod."
 "org/). We'll take a look."
 msgstr ""
+"Zijn die 7 dagen gepasseerd sinds we de release getagd hebben op GitHub? "
+"Laat het ons dan gerust weten door een post op ons [forum](https://"
+"forum.antennapod.org/) te plaatsen. Ze zullen ernaar kijken."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
 "Did we tag the release 7 days ago or less? Then please just wait. Or "
 "investigate where we are in the process."
 msgstr ""
+"Hebben we de release 7 dagen of korter geleden getagd? Wacht dan nog even. "
+"Of onderzoek waar we ons in het proces bevinden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 14 (header)
 msgid "Investigate current status"
-msgstr ""
+msgstr "De huidige status onderzoeken"
 
 #: _i18n/en/documentation/general/f-droid.md:block 15 (paragraph)
 msgid "If you want, you can follow these steps to get an idea of the progress:"
 msgstr ""
+"Als je wilt kun je de volgende stappen volgen om een idee te krijgen van de "
+"voortgang:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1418,6 +1458,8 @@ msgid ""
 "'last week' to see the exact date on GitHub). If so, it should soon be "
 "picked up by the update checker."
 msgstr ""
+"Controleer of en wanneer de [release getagd is op GitHub](https://github.com/"
+"AntennaPod/AntennaPod/releases/latest) (mogelijk moet je"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1426,6 +1468,11 @@ msgid ""
 "Droid%20checkupdates%20bot) was updated since then. If so, it should soon be "
 "processed by the build server."
 msgstr ""
+"Kijk of [de Antennapod-versielijst op F-Droid](https://gitlab.com/fdroid/"
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) sindsdien was "
+"geüpdatet. Zo ja, dan zou hij binnenkort verwerkt moeten worden door de "
+"buildserver."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1435,6 +1482,12 @@ msgid ""
 "en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
 "be cryptographically signed by an F-Droid contributor."
 msgstr ""
+"Controleer of AntennaPod is gebouwd in de [huidige cyclus](https://"
+"monitor.f-droid.org/builds/running) of de [vorige cyclus](https://"
+"monitor.f-droid.org/builds/build). Je kunt hiervoor ook de app "
+"[F-Droid build status](https://f-droid.org/en/packages/"
+"de.storchp.fdroidbuildstatus/) gebruiken. Zo ja, dan zou deze binnenkort "
+"cryptografisch ondertekend moeten worden door een F-Droid-bijdrager."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1442,31 +1495,33 @@ msgid ""
 "listed in the success and fail lists yet, and you want to know if it will be "
 "built?"
 msgstr ""
+"Merk op dat er geen wachtrij is voor nog te bouwen apps. Staat AntennaPod "
+"niet op de lijst geslaagde en gefaalde apps, en wil je weten of hij nog "
+"gebouwd gaat worden?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr ""
+msgstr "klik op \"fdroiddata version\" @ commit van een build-cyclus"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr ""
+msgstr "klik op \"Browse files\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr ""
+msgstr "klik op \"Find file\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid "copy and paste `de.danoeh.antennapod`"
-msgstr "`de.danoeh.antennapod` als het pakket"
+msgstr "plak de tekst `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
-msgstr ""
+msgstr "open het bestand"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr ""
+msgstr "controleer of de laatste versie vermeld staat"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
