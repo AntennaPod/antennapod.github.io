@@ -12,7 +12,7 @@ When sharing debugging information (either via email using the ‘Crash Report�
   - Android version
   - AntennaPod version
 
-The only instance in which data *from* third parties is handled is when using a synchronization service if enabled via the settings. In that case, the app may receive subscriptions and playback events provided by the service.
+The only instance in which personal data *from* third parties is handled is when using a synchronization service if enabled via the settings. In that case, the app may receive subscriptions and playback events provided by the service.
 
 ### Data other parties may collect, store, and process
 
@@ -22,12 +22,12 @@ The only instance in which data *from* third parties is handled is when using a 
 - Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).
 
 #### Discovery and search services
-- When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the query, including country (which by default is the device's country). These suggestions can be disabled by choosing "off" in the region selector, and in the F-Droid release you have actively consent before getting Apple's recommendations.
+- When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the request (e.g. your IP address and the selected region, which by default is the device's country). These suggestions can be disabled via the top-menu of the Discover screen. In the F-Droid release you have actively consent before getting Apple's recommendations.
 - When using the search feature in AntennaPod, the services PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) may store your query, including the search terms.
 - Discovery and search queries also include IP address, time, and app name "AntennaPod". After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
 
 #### Synchronization and back-up services
-- When enabled via the settings, AntennaPod synchronizes your data. This may include login credentials, subscribed podcasts, listened episodes, play/pause/favorite actions with timestamps, and your IP address. For more information, see your provider's privacy policy.
+- When enabled via the settings, AntennaPod synchronizes your data. This may include login credentials, subscribed podcasts, listened episodes, play/pause/favorite actions with timestamps, and your IP address. For more information, see your synchronization provider's privacy policy.
 - If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back up my data`), Android will periodically save a copy of your phone's data in Google's servers. This backup contains private information, including your WiFi passwords, messages and call history. It may also include data from AntennaPod and from other apps you use. The developers of AntennaPod do not have access to this data. For more information, see [Google's privacy policy](https://policies.google.com).
 
 ## Online services
