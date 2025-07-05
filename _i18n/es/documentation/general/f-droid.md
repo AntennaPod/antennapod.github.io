@@ -1,7 +1,7 @@
 ¿Has visto que ha salido una nueva versión de AntennaPod y te preguntas?:
 
-* *¿Por qué la última versión aún no está en F-Droid?*
-* *¿Cuándo estará disponible la nueva versión en F-Droid?*
+* *¿por qué la última versión aún no está en F-Droid?*
+* *¿cuándo estará disponible la nueva versión en F-Droid?*
 
 Debido a los diferentes pasos y a que no estamos involucrados en la publicación de versiones en F-Droid, no podemos decir exactamente cuándo estará disponible allí la última versión.
 
