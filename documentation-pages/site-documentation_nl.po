@@ -1293,8 +1293,8 @@ msgid ""
 "**In short: we did not forget about F-Droid, it just takes some time. Please "
 "be patient.**"
 msgstr ""
-"**Kortom: we zijn F-Droid niet vergeten, maar het kan even duren. Heb "
-"geduld.**"
+"**Kortom: we zijn F-Droid niet vergeten, maar het kan even duren. Heb geduld."
+"**"
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps for releasing a new version on F-Droid"
@@ -1306,8 +1306,8 @@ msgid ""
 "to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
 "We geven een bètaversie uit, die *alleen* beschikbaar is op Google Play "
-"vanwege [technische beperkingen](/documentation/general/beta#f-droid) van "
-"F-Droid."
+"vanwege [technische beperkingen](/documentation/general/beta#f-droid) van F-"
+"Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1420,8 +1420,8 @@ msgid ""
 msgstr ""
 "Is de release *wel* getagd op GitHub? Zoals het F-Droid-team [zegt](https://"
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
-"up-on-website-and-client): "
-"\"alsjeblieft niet in paniek raken tenzij het meer dan 7 dagen duurt.\""
+"up-on-website-and-client): \"alsjeblieft niet in paniek raken tenzij het "
+"meer dan 7 dagen duurt.\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1430,8 +1430,8 @@ msgid ""
 "org/). We'll take a look."
 msgstr ""
 "Zijn die 7 dagen gepasseerd sinds we de release getagd hebben op GitHub? "
-"Laat het ons dan gerust weten door een post op ons [forum](https://"
-"forum.antennapod.org/) te plaatsen. Ze zullen ernaar kijken."
+"Laat het ons dan gerust weten door een post op ons [forum](https://forum."
+"antennapod.org/) te plaatsen. Ze zullen ernaar kijken."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1469,10 +1469,9 @@ msgid ""
 "processed by the build server."
 msgstr ""
 "Kijk of [de Antennapod-versielijst op F-Droid](https://gitlab.com/fdroid/"
-"fdroiddata/-/commits/master/metadata/"
-"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) sindsdien was "
-"geüpdatet. Zo ja, dan zou hij binnenkort verwerkt moeten worden door de "
-"buildserver."
+"fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-"
+"Droid%20checkupdates%20bot) sindsdien was geüpdatet. Zo ja, dan zou hij "
+"binnenkort verwerkt moeten worden door de buildserver."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1482,12 +1481,12 @@ msgid ""
 "en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
 "be cryptographically signed by an F-Droid contributor."
 msgstr ""
-"Controleer of AntennaPod is gebouwd in de [huidige cyclus](https://"
-"monitor.f-droid.org/builds/running) of de [vorige cyclus](https://"
-"monitor.f-droid.org/builds/build). Je kunt hiervoor ook de app "
-"[F-Droid build status](https://f-droid.org/en/packages/"
-"de.storchp.fdroidbuildstatus/) gebruiken. Zo ja, dan zou deze binnenkort "
-"cryptografisch ondertekend moeten worden door een F-Droid-bijdrager."
+"Controleer of AntennaPod is gebouwd in de [huidige cyclus](https://monitor.f-"
+"droid.org/builds/running) of de [vorige cyclus](https://monitor.f-droid.org/"
+"builds/build). Je kunt hiervoor ook de app [F-Droid build status](https://f-"
+"droid.org/en/packages/de.storchp.fdroidbuildstatus/) gebruiken. Zo ja, dan "
+"zou deze binnenkort cryptografisch ondertekend moeten worden door een F-"
+"Droid-bijdrager."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1606,6 +1605,111 @@ msgstr "Host: \"localhost\" of \"127.0.0.1\""
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Port: \"9050\""
 msgstr "Poort: \"9050\""
+
+#: _i18n/en/documentation/general/statistics.md:block 1 (paragraph)
+msgid ""
+"AntennaPod has a statistics screen that lets you view the number of "
+"listening hours per subscription and per month. However, these statistics "
+"aren’t always as precise as they could be."
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 2 (header)
+msgid "Why the stats aren’t precise"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 3 (paragraph)
+msgid "To track statistics, AntennaPod records two things for each episode:"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
+msgid ""
+"**Played duration**: how long the episode was played (e.g. 6 minutes if a 3-"
+"minute episode was played twice)"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
+msgid ""
+"**Last played**: the date and time when playback was last paused or stopped "
+"for the episode"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
+msgid ""
+"Both are updated each time playback is paused or stopped. This information "
+"is used to calculate totals by adding up the 'played duration' of all "
+"episodes whose 'last played' date falls within a given month."
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
+msgid ""
+"This approach means that if you listen to 7 minutes of an episode today and "
+"38 minutes of that episode tomorrow, all 45 minutes are attributed to "
+"tomorrow. The same applies across months. If an episode is played both in "
+"June and July, all listening time is attributed to July. Similarly, if an "
+"episode is played both in December of one year and in January of the next, "
+"it is attributed to the second year."
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 7 (paragraph)
+msgid ""
+"The monthly statistics are usually accurate because they look at a longer "
+"time period. However, day-by-day statistics would have a higher risk of "
+"becoming unreliable, which is why AntennaPod does not offer those."
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 8 (header)
+msgid "Why we don’t want to change it"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
+msgid ""
+"Stats (or rather: graphs) are fun. So why don’t we record information "
+"differently to allow for more filter options and more granular data in "
+"AntennaPod?"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
+msgid ""
+"It would be possible, for example, to record for each episode how long it "
+"was played on each day. For instance:"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
+msgid "28 June: 7 minutes"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
+msgid "30 June: 38 minutes"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
+msgid "1 July: 19 minutes"
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
+msgid ""
+"There's two main reasons. Firstly, while statistics are fun, **we rather "
+"spend time on AntennaPod's main purpose: playing podcasts**. Changing to "
+"this new approach would require time now to implement it (rewriting the code "
+"that saves playback time in the database) and time in future to maintain a "
+"more complex system."
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
+msgid ""
+"Secondly, **AntennaPod would take up more space on your phone** - espcially "
+"for loyal users who stick with the app for several years. That's because "
+"instead of a single row per episode in the database we would need to store "
+"multiple rows for each played episode to store the playback duration, which "
+"causes the database size to increase."
+msgstr ""
+
+#: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
+msgid ""
+"We hope you'll enjoy the month-based statistics! 📊 (If you happen to be a "
+"web developer interested in making a dedicated dashboard for AntennaPod "
+"statistics based on database exports, please do ping us on the forum.)"
+msgstr ""
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
