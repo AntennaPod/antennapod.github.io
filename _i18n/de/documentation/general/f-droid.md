@@ -5,17 +5,17 @@ Hast du gesehen, dass es eine neue AntennaPod-Veröffentlichung gibt und fragst 
 
 Due to the different steps and because we are not involved in publishing releases on F-Droid, we can't tell when exactly the latest version will be available there.
 
-Kurz gesagt: Es kann einige Zeit dauern. Bitte habe Geduld.
+**Kurz gesagt: Wir haben F-Droid nicht vergessen, es dauert nur etwas. Bitte habe Geduld.**
 
-### Die Schritte, um eine neue Version auf F-Droid zu erhalten
+### Die Schritte zur Veröffentlichung einer neuen Version auf F-Droid
 
 1. We release a beta version, which is *only* available through Google Play due to [technical limitations](/documentation/general/beta#f-droid) in F-Droid.
 1. We do a slow, gradual roll-out to all Google Play users. That way we make sure that there are no critical bugs. This can take several weeks.
 1. We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases). We do this only after the roll-out on Google Play is complete.
 1. F-Droid systems check the AntennaPod repository and detect a new release. The update checker server runs daily (overnight in Europe).
-1. Nachdem F-Droid festgestellt hat, dass es eine neue Version von AntennaPod gibt, baut es die App. Damit stellt F-Droid sicher, dass die App, die du herunterlädst, wirklich mit dem Quellcode übereinstimmt, den AntennaPod veröffentlicht. Da es viele Apps zu bauen gibt, benötigt der F-Droid-Server dafür zusätzlich 1–2 Tage.
+1. F-Droid-Systeme erstellen die App. Damit soll sichergestellt werden, dass die heruntergeladene App mit dem von uns veröffentlichten Quellcode übereinstimmt. Da viele Apps erstellt werden müssen, benötigt der F-Droid-Server dafür 1 bis 2 Tage.
 1. An F-Droid contributor signs the build cryptographically. To improve security, the contributor needs to take the app and physically walk it to a dedicated computer which is not connected to the internet. When all apps are signed, the contributor uploads them to the F-Droid systems. This usually takes 1 to 2 days.
-1. Hast du gesehen, dass es eine neue AntennaPod-Veröffentlichung gibt und fragst dich:
+1. F-Droid-Systeme verarbeiten die neuen Apps und fügen die neue AntennaPod-Version in ihren Index ein.
 
 At this point we consider it 'released on F-Droid'. But remember that your F-Droid client (the 'app store') also needs to refresh its local copy of the index. Only after that you'll get prompted about the latest AntennaPod release.
 
