@@ -81,25 +81,147 @@ documentation:
       title: 订阅
   playback:
     title: 播放
+    intro: 以下是与播放相关的主题。
+    auto-rewind:
+      title: 自动倒带
+    shortcuts:
+      title: 硬件键盘快捷键
+    android-auto:
+      title: 车载播放（安卓 Auto）
+    chromecast:
+      title: 在 Google Chromecast 上播放
   queue:
     title: 队列
+    intro: 下面是有关播放队列的常见问题。
+    how-to-use:
+      title: 如何使用播放队列
+    lock:
+      title: (解除）锁定队列
+    smart-shuffle:
+      title: 如何使用智能排序
+    multiple-queues:
+      title: 如何使用多个队列
   subscriptions:
     title: 订阅
+    intro: 下面是有关订阅的常见问题。
+    subscription-groups:
+      title: 订阅标签（又称组或类别）
   automation:
     title: 自动化
     deletion:
       title: 自动删除
     refreshing-podcasts:
       title: 正在刷新播客
+    intro: 您是一位经验丰富的用户并希望自动执行任务吗？请查看下面的页面。
+    tasker:
+      title: 与其他应用程序集成
+  intro: 欢迎访问 AntennaPod 的文档部分。本部分旨在提供有关当前功能的信息。
+  search:
+    placeholder: 搜索文档
+    no-results: 对不起，没有找到
+  getting-started:
+    title: 开始
+    intro: 欢迎使用 AntennaPod！以下是有关如何开始使用 AntennaPod 的详细信息。
+    subscribe:
+      title: 订阅播客
+    home:
+      title: 使用主屏幕
+  general:
+    title: 通用
+    intro: 下面是有关 AntennaPod 项目的更多详情。
+    ads:
+      title: 关于 AntennaPod 中的广告
+    backup:
+      title: 备份您的章回
+    beta:
+      title: Beta 版测试
+    central-distributed:
+      title: 中央和分布式播客应用程序
+    external-storage:
+      title: 使用外部存储器
+    synchronization:
+      title: 如何在设备间同步
+    statistics:
+      title: 收听统计
+    proxy:
+      title: 通过代理或 Tor 网络
+    episode-deletion:
+      title: 删除章节
+    f-droid:
+      title: F-Droid 的更新
+    other-platforms:
+      title: 适用于 Windows、苹果和 Linux 的 AntennaPod
+  bugs-first-aid:
+    title: 应用缺陷、错误和急救
+    intro: 制作软件是人类的一项技能，因此错误在所难免。但我们往往可以做些什么！
+    bug-report:
+      title: 有些东西不工作
+    typo-translations:
+      title: 我发现了一个错字或拼写错误
+    database-error:
+      title: 我所有的播客和剧集都不见了
+    cannot-stream-download:
+      title: 无法下载剧集
+    episodes-missing:
+      title: 旧节目丢失
+    playback-stops:
+      title: 播放突然停止
+    refresh-download-errors:
+      title: 下载或订阅刷新错误
+    cannot-resume-playback:
+      title: 无法从锁定屏幕/通知恢复播放
+  podcasters-hosters:
+    title: 针对播客和主持人
+    intro: 下面是我们为播客和托管服务提供商提供的支持信息。
+    add-on-antennapod:
+      title: 创建 "在 AntennaPod 中打开 "链接
+    list-podcast:
+      title: 让您的播客被列出
+    update-feed-urls:
+      title: 更新订阅 URL
 contribute:
   support:
     title: 支持
+    card-text: 您能解释清楚吗？帮助我们论坛上的其他用户。
   test:
     title: 测试
+    card-text: 你擅长破坏东西吗？成为测试员吧。
   translate:
     title: 翻译
     card-text: 你会说英语之外的任何其他语言吗？帮助我们翻译AntennaPod。
   intro: AntennaPod正在由志愿者们积极开发。你也可以作出贡献，使用代码或其他方式！
+  develop:
+    title: 开发
+    card-text: 你会写代码吗？帮助测试拉取请求，或提交应用程序或网站的新功能或错误修复。
+    categories:
+      app:
+        title: 应用
+        card-text: 你使用 Java 吗？了解如何为 AntennaPod 应用程序做出贡献。
+        code-style:
+          title: 代码结构和代码风格
+        test-builds:
+          title: 获取测试版本
+        getting-credited:
+          title: 将您的贡献记录在案
+      website:
+        title: 网站
+        card-text: 熟悉 SCSS 和 HTML 吗？帮助我们制作网站。
+      upstream:
+        title: 上游和其他项目
+        card-text: 为我们所依赖的其他项目捐款，帮助我们。
+  promote:
+    title: 推广
+    card-text: 您起草了朗朗上口的推文、有趣的博客或精彩的图表？帮助传播。
+  design:
+    title: 设计
+    card-text: 您能将复杂的请求转化为易于理解的用户故事或线框图吗？帮助解决这些问题。
+  donate:
+    title: 捐赠
+    card-text: 你不能付出时间，而只想用金钱来代替。
+    modal-title: 您确定要捐赠吗？
+    modal-button-donate: 无论如何捐赠
+    modal-button-chat: 与我们讨论如何提供帮助
+    modal-button-contribute: 再次检查缴费选项
 homepage:
   features:
     adfree:
@@ -109,7 +231,31 @@ homepage:
       title: 随从可听
       description: 使用AntennaPod，你可以下载剧集并在任何地方收听。你甚至可以选择播客使其自动下载。
   header: 开放的播客播放器
-  description: AntennaPod是一个完全开放的播客播放器。这个app是开源软件，你可以订阅任何RSS来源。AntennaPod 是由志愿者创建的，没有商业利益，因此它尊重你的隐私并提供完全的控制权。
+  description: AntennaPod是一个完全开放的播客播放器。这个app是开源软件，你可以订阅任何RSS来源。AntennaPod 
+    是由志愿者创建的，没有商业利益，因此它尊重你的隐私并提供完全的控制权。
 not-installed:
   text: 没有安装AntennaPod或者你的浏览器不支持直接打开它。
   title: 没有安装AntennaPod
+blog:
+  posted: 发布在
+readtime:
+  singular: 分钟阅读
+  plural: 分钟阅读
+events:
+  general:
+    recurring: 循环事件
+    download-ics: 下载 ICS 文件
+    copy-url: 复制日历 URL
+    announce-add-calendar: 想随时了解最新活动和社区电话信息？请通过 "添加到日历 "链接在您最喜欢的应用程序中订阅我们的日历！
+  links:
+    add-calendar: 添加到日历
+    more-information: 更多信息
+    open-meeting: 公开会议
+    open-map: 查看位置
+    open-blog: 阅读博客文章
+    watch-recording: 观看录制
+  recurrence:
+    every-2nd-saturday: 每月第二个星期六
+    2nd-4th-wednesday: （几乎）每个月的第二和第四个星期三
+footer:
+  description: 易于使用、灵活、开源的 Android 播客管理器。
