@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2025-07-08 14:24+0000\n"
+"PO-Revision-Date: 2025-07-09 13:01+0000\n"
 "Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/de/>\n"
@@ -1310,6 +1310,9 @@ msgid ""
 "releases on F-Droid, we can't tell when exactly the latest version will be "
 "available there."
 msgstr ""
+"Aufgrund der verschiedenen Schritte und weil wir nicht an der "
+"Veröffentlichung von Versionen auf F-Droid beteiligt sind, können wir nicht "
+"sagen, wann genau die neueste Version dort verfügbar sein wird."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid ""
@@ -1328,24 +1331,35 @@ msgid ""
 "We release a beta version, which is *only* available through Google Play due "
 "to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
+"Wir veröffentlichen eine Beta-Version, die aufgrund von "
+"[technischen Einschränkungen](/documentation/general/beta#f-droid) in F-"
+"Droid *nur* über Google Play verfügbar ist."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We do a slow, gradual roll-out to all Google Play users. That way we make "
 "sure that there are no critical bugs. This can take several weeks."
 msgstr ""
+"Wir führen eine langsame, schrittweise Veröffentlichung für alle Google-Play-"
+"Nutzer durch. Auf diese Weise stellen wir sicher, dass es keine kritischen "
+"Fehler gibt. Dies kann mehrere Wochen dauern."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/"
 "releases). We do this only after the roll-out on Google Play is complete."
 msgstr ""
+"Wir erstellen eine [Version auf GitHub](https://github.com/AntennaPod/"
+"AntennaPod/releases). Wir tun dies erst, nachdem die Veröffentlichung bei "
+"Google Play abgeschlossen ist."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems check the AntennaPod repository and detect a new release. "
 "The update checker server runs daily (overnight in Europe)."
 msgstr ""
+"F-Droid-Systeme prüfen das AntennaPod-Repository und erkennen jede neue "
+"Version. Der Update-Checker-Server läuft täglich (in Europa über Nacht)."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1366,6 +1380,11 @@ msgid ""
 "signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
+"Ein F-Droid-Beitragender signiert den Build kryptografisch. Um die "
+"Sicherheit zu erhöhen, muss der Beitragende die App zu einem speziellen "
+"Computer bringen, der nicht mit dem Internet verbunden ist. Wenn alle Apps "
+"signiert sind, lädt er sie auf das F-Droid-System hoch. Dies dauert in der "
+"Regel 1 bis 2 Tage."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1382,10 +1401,14 @@ msgid ""
 "index. Only after that you'll get prompted about the latest AntennaPod "
 "release."
 msgstr ""
+"Zu diesem Zeitpunkt betrachten wir sie als „auf F-Droid veröffentlicht“. "
+"Denke aber daran, dass der F-Droid-Client (der „App-Store“) auch seine "
+"lokale Kopie des Indexes aktualisieren muss. Erst danach wirst du über die "
+"neueste Version von AntennaPod informiert."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr ""
+msgstr "Wie lange dauert es noch?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1394,6 +1417,11 @@ msgid ""
 "tagging the release on GitHub. After the release is tagged, F-Droid usually "
 "takes four to six days to process it."
 msgstr ""
+"Wie du siehst, gibt es viele Schritte, die jeweils unterschiedlich viel Zeit "
+"in Anspruch nehmen. In der Regel dauert es mehr als einen Monat zwischen der "
+"Freigabe einer Betaversion und dem Kennzeichnen der Version auf GitHub. "
+"Nachdem die Version gekennzeichnet wurde, benötigt F-Droid in der Regel vier "
+"bis sechs Tage, um sie zu verarbeiten."
 
 #: _i18n/en/documentation/general/f-droid.md:block 10 (header)
 msgid "What you can do if you're eagerly waiting"
@@ -1405,6 +1433,10 @@ msgid ""
 "AntennaPod/releases) yet? Then please just wait. The update is in beta and "
 "not ready for public release."
 msgstr ""
+"Haben wir die [Version auf GitHub](https://github.com/AntennaPod/AntennaPod/"
+"releases) noch nicht gekennzeichnet? Dann warte bitte einfach. Das Update "
+"befindet sich in der Beta-Phase und ist noch nicht bereit für die "
+"öffentliche Freigabe."
 
 #: _i18n/en/documentation/general/f-droid.md:block 12 (paragraph)
 msgid ""
@@ -1412,6 +1444,10 @@ msgid ""
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
 "up-on-website-and-client): \"don't panic before 7 days have passed, please.\""
 msgstr ""
+"Wir *haben* die Version auf GitHub gekennzeichnet? Wie das F-Droid-Team "
+"[anmerkt](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-"
+"for-my-app-to-show-up-on-website-and-client): „Bitte keine Panik, bevor "
+"nicht 7 Tage vergangen sind.“"
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1419,20 +1455,28 @@ msgid ""
 "let us know by creating a post on our [forum](https://forum.antennapod."
 "org/). We'll take a look."
 msgstr ""
+"Sind diese 7 Tage vergangen, seit wir die Version auf GitHub gekennzeichnet "
+"haben? Lasse es uns wissen, indem du einen Beitrag in unserem [Forum]"
+"(https://forum.antennapod.org/) erstellst. Wir werden einen Blick darauf "
+"werfen."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
 "Did we tag the release 7 days ago or less? Then please just wait. Or "
 "investigate where we are in the process."
 msgstr ""
+"Haben wir die Version vor 7 Tagen oder weniger markiert? Dann warte bitte "
+"einfach. Oder untersuche, wo wir uns in diesem Prozess befinden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 14 (header)
 msgid "Investigate current status"
-msgstr ""
+msgstr "Untersuchen des aktuellen Status"
 
 #: _i18n/en/documentation/general/f-droid.md:block 15 (paragraph)
 msgid "If you want, you can follow these steps to get an idea of the progress:"
 msgstr ""
+"Wenn du möchtest, kannst du diese Schritte nachvollziehen, um dir ein Bild "
+"von den Fortschritten zu machen:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1441,6 +1485,11 @@ msgid ""
 "'last week' to see the exact date on GitHub). If so, it should soon be "
 "picked up by the update checker."
 msgstr ""
+"Prüfe, ob und wann die [Version auf GitHub](https://github.com/AntennaPod/"
+"AntennaPod/releases/latest) gekennzeichnet wurde (möglicherweise musst du "
+"den Mauszeiger z. B. auf „letzte Woche“ setzen, um das genaue Datum auf "
+"GitHub zu sehen). Wenn dies der Fall ist, sollte sie bald vom Update-Checker "
+"erfasst werden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1449,6 +1498,11 @@ msgid ""
 "Droid%20checkupdates%20bot) was updated since then. If so, it should soon be "
 "processed by the build server."
 msgstr ""
+"Prüfe, ob [F-Droids AntennaPod-Versionsliste](https://gitlab.com/fdroid/"
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) seitdem "
+"aktualisiert wurde. Wenn ja, sollte sie bald vom Build-Server verarbeitet "
+"werden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1458,6 +1512,12 @@ msgid ""
 "en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
 "be cryptographically signed by an F-Droid contributor."
 msgstr ""
+"Prüfe, ob AntennaPod im [laufenden Zyklus](https://monitor.f-droid.org/"
+"builds/running) oder im [letzten Zyklus](https://monitor.f-droid.org/builds/"
+"build) gebaut wurde. Du kannst dafür auch die App [F-Droid Build-Status]"
+"(https://f-droid.org/de/packages/de.storchp.fdroidbuildstatus/) verwenden. "
+"Wenn ja, sollte sie bald von einem F-Droid-Beitragenden kryptographisch "
+"signiert werden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1465,31 +1525,33 @@ msgid ""
 "listed in the success and fail lists yet, and you want to know if it will be "
 "built?"
 msgstr ""
+"Beachte, dass es keine Warteschlange für Apps gibt, die gebaut werden "
+"müssen. AntennaPod ist noch nicht in der Erfolgs- und Misserfolgsliste "
+"aufgeführt, und du möchtest wissen, ob es gebaut wird?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr ""
+msgstr "Klicke auf „fdroiddata version“ @ commit eines Build-Zyklus"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr ""
+msgstr "Klicke auf „Dateien durchsuchen“"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr ""
+msgstr "Klicke auf „Datei finden“"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid "copy and paste `de.danoeh.antennapod`"
-msgstr "Paket zu `de.danoeh.antennapod`"
+msgstr "Kopiere `de.danoeh.antennapod` und füge es ein"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
-msgstr ""
+msgstr "Öffne die Datei"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr ""
+msgstr "Prüfe, ob sie die neueste Version enthält"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
@@ -2562,7 +2624,7 @@ msgid ""
 "in the top bar and select `Sort`."
 msgstr ""
 "`Sortiert halten` ist aktiviert. Du kannst dies deaktivieren, indem du auf "
-"die drei Punkte `...` in der oberen Leiste tippst und `Sortieren` wählst."
+"die drei Punkte `…` in der oberen Leiste tippst und `Sortieren` wählst."
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
 msgid ""
