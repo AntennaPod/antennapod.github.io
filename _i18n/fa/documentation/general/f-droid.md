@@ -1,15 +1,15 @@
 آیا دیدید که نگارش جدیدی از آنتناپاد منتشر شده و تعجب کردید:
 
-* *چرا آخرین نگارش هنوز در اف-دیروید نیست؟*
+* *چرا جدیدترین نگارش هنوز در اف‌دروید نیست؟*
 * *نگارش جدید چه زمانی در اف-دیروید در دسترس خواهد بود؟*
 
-Due to the different steps and because we are not involved in publishing releases on F-Droid, we can't tell when exactly the latest version will be available there.
+بنا به گام‌های متفاوت و از آن‌جا که در انتشار ارائه‌ها روی اف‌دروید درگیر نیستیم نمی‌توانیم بگوییم که دقیقاً چه زمانی جدیدترین نگارش موجود خواهد شد.
 
-به طور خلاصه: ممکن است مدتی طول بکشد. لطفاً شکیبا باشید.
+**خلاصه: اف‌دروید را فراموش نکرده‌ایم. فقط ممکن است کمی طول بکشد. لطفاً شکیبا باشید.**
 
-### مراحل دریافت نگارش جدید در اف-دیروید
+### گام‌های انتشار نگارش جدید در اف‌دروید
 
-1. We release a beta version, which is *only* available through Google Play due to [technical limitations](/documentation/general/beta#f-droid) in F-Droid.
+1. نگارشی آزمایشی منتشر می‌کنیم که بنا به [محدودیت‌های فنی](/documentation/general/beta#f-droid) اف‌دروید *فقط* از پلی گوگل در دسترس است.
 1. We do a slow, gradual roll-out to all Google Play users. That way we make sure that there are no critical bugs. This can take several weeks.
 1. We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases). We do this only after the roll-out on Google Play is complete.
 1. F-Droid systems check the AntennaPod repository and detect a new release. The update checker server runs daily (overnight in Europe).
