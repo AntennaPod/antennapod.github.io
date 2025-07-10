@@ -1,48 +1,48 @@
 Har du set, at der er kommet en ny udgave af AntennaPod, og spørger du dig selv:
 
-* *Hvorfor er den nyeste version ikke på F-Droid endnu?*
+* *hvorfor er den nyeste version ikke på F-Droid endnu?*
 * *Hvornår vil den nye version være tilgængelig på F-Droid?*
 
-Due to the different steps and because we are not involved in publishing releases on F-Droid, we can't tell when exactly the latest version will be available there.
+På grund af de forskellige trin, og fordi vi ikke er involveret i udgivelser på F-Droid, kan vi ikke sige, hvornår den nyeste version vil være tilgængelig der.
 
-Kort sagt: Det kan tage noget tid. Vær tålmodig.
+**Kort sagt: Vi har ikke glemt F-Droid, det tager bare lidt tid. Hav tålmodighed.**
 
-### Trinnene der skal til for at få en ny version på F-Droid
+### Trinnene til at udgive en ny version på F-Droid
 
-1. We release a beta version, which is *only* available through Google Play due to [technical limitations](/documentation/general/beta#f-droid) in F-Droid.
-1. We do a slow, gradual roll-out to all Google Play users. That way we make sure that there are no critical bugs. This can take several weeks.
-1. We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases). We do this only after the roll-out on Google Play is complete.
-1. F-Droid systems check the AntennaPod repository and detect a new release. The update checker server runs daily (overnight in Europe).
-1. Når F-Droid registrerer, at der er en ny AntennaPod-udgave, bygger den appen. På den måde sikrer F-Droid sig, at den app, du downloader, virkelig svarer til den kildekode, som AntennaPod offentliggør. Da der er mange apps at bygge, tager F-Droid-serveren yderligere 1-2 dage om at bygge appen.
-1. An F-Droid contributor signs the build cryptographically. To improve security, the contributor needs to take the app and physically walk it to a dedicated computer which is not connected to the internet. When all apps are signed, the contributor uploads them to the F-Droid systems. This usually takes 1 to 2 days.
-1. Har du set, at der er kommet en ny udgave af AntennaPod, og spørger du dig selv:
+1. Vi udgiver en betaversion, som *kun* er tilgængelig via Google Play på grund af [tekniske begrænsninger](/documentation/general/beta#f-droid) i F-Droid.
+1. Vi foretager en langsom, gradvis udrulning til alle Google Play-brugere. På den måde sikrer vi, at der ikke er nogen kritiske fejl. Det kan tage flere uger.
+1. Vi opretter en [udgivelse på GitHub](https://github.com/AntennaPod/AntennaPod/releases). Det gør vi først, når udrulningen på Google Play er afsluttet.
+1. F-Droid-systemer tjekker AntennaPod-arkivet og opdager en ny udgivelse. Opdateringskontrollens server kører dagligt (natten over i Europa).
+1. F-Droid-systemer bygger appen. Det gør de for at sikre, at den app, du downloader, stemmer overens med den kildekode, vi offentliggør. Fordi der er mange apps at bygge, tager det F-Droid-serveren 1 til 2 dage at bygge appen.
+1. En F-Droid-bidragsyder underskriver build'en kryptografisk. For at forbedre sikkerheden skal bidragsyderen tage appen og fysisk gå med den til en dedikeret computer, som ikke er forbundet til internettet. Når alle apps er signeret, uploader bidragsyderen dem til F-Droid-systemerne. Det tager normalt 1 til 2 dage.
+1. F-Droid-systemerne behandler de nye apps og tilføjer den nye AntennaPod-udgivelse i deres indeks.
 
-At this point we consider it 'released on F-Droid'. But remember that your F-Droid client (the 'app store') also needs to refresh its local copy of the index. Only after that you'll get prompted about the latest AntennaPod release.
+På dette tidspunkt betragter vi den som 'udgivet på F-Droid'. Men husk, at din F-Droid-klient (app-butikken) også skal opdatere sin lokale kopi af indekset. Først derefter får du besked om den seneste AntennaPod-udgivelse.
 
-### So, what's the ETA?
+### Hvad er den forventede ankomsttid?
 
-As you can see, there are a lot of steps which each take a varying amount of time. We usually take well over a month between releasing a beta version and tagging the release on GitHub. After the release is tagged, F-Droid usually takes four to six days to process it.
+Som du kan se, er der mange trin, som hver især tager varierende tid. Det tager normalt over en måned, fra vi frigiver en betaversion, til vi tagger udgivelsen på GitHub. Når udgivelsen er tagget, tager det normalt fire til seks dage for F-Droid at behandle den.
 
-### Hvad du kan gøre, hvis det tager længere tid end forventet
+### Hvad du kan gøre, hvis du venter i spænding
 
-Did we not tag the [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases) yet? Then please just wait. The update is in beta and not ready for public release.
+Har vi ikke tagget [udgivelsen på GitHub](https://github.com/AntennaPod/AntennaPod/releases) endnu? Så vent venligst. Opdateringen er i beta og ikke klar til offentlig udgivelse.
 
-We *did* tag the release on GitHub? As the F-Droid team [notes](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client): "don't panic before 7 days have passed, please."
+Vi *har* tagget udgivelsen på GitHub? Som F-Droid-teamet [bemærker](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client): "Gå ikke i panik, før der er gået 7 dage, tak."
 
-* Did those 7 days pass since we tagged the release on GitHub? Feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/). We'll take a look.
-* Did we tag the release 7 days ago or less? Then please just wait. Or investigate where we are in the process.
+* Er de 7 dage gået, siden vi taggede udgivelsen på GitHub? Du er velkommen til at fortælle os det ved at oprette et indlæg på vores [forum](https://forum.antennapod.org/). Så kigger vi på det.
+* Taggede vi udgivelsen for 7 dage siden eller mindre? Så vent venligst bare. Eller undersøg, hvor vi er i processen.
 
-#### Investigate current status
+#### Undersøg den aktuelle status
 
-If you want, you can follow these steps to get an idea of the progress:
+Hvis du vil, kan du følge disse trin for at få en idé om fremskridtene:
 
-1. Check if and when the [release was tagged on GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (you may need to hover, for example, 'last week' to see the exact date on GitHub). If so, it should soon be picked up by the update checker.
-1. Check if [F-Droid's AntennaPod versions list](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) was updated since then. If so, it should soon be processed by the build server.
-1. Check if AntennaPod was built in the [running cycle](https://monitor.f-droid.org/builds/running) or the [last cycle](https://monitor.f-droid.org/builds/build). You can also use the app [F-Droid build status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon be cryptographically signed by an F-Droid contributor.
-   * Note that there's no queue for apps that need to be built. AntennaPod is not listed in the success and fail lists yet, and you want to know if it will be built?
-      1. click on 'fdroiddata version' @ commit of a build cycle
-      1. click on 'Browse files'
-      1. click on 'Find file'
-      1. Pakke skal være `de.danoeh.antennapod`
-      1. open the file
-      1. check if it includes the latest release
+1. Tjek, om og hvornår [udgivelsen blev tagget på GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (det kan være nødvendigt at holde musen over f.eks. 'sidste uge' for at se den nøjagtige dato på GitHub). Hvis det er tilfældet, burde det snart blive opfanget af opdateringskontrollen.
+1. Tjek om [F-Droid's AntennaPod-versionsliste](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) er blevet opdateret siden da. I så fald burde den snart blive behandlet af build-serveren.
+1. Tjek, om AntennaPod blev bygget i den [løbende cyklus](https://monitor.f-droid.org/builds/running) eller den [sidste cyklus](https://monitor.f-droid.org/builds/build). Du kan også bruge appen [F-Droid build status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/) til dette. I så fald bør den snart blive kryptografisk signeret af en F-Droid-medarbejder.
+   * Bemærk, at der ikke er nogen kø for apps, der skal bygges. AntennaPod er ikke opført på listerne for succes og mislykket endnu, og du vil gerne vide, om den vil blive bygget?
+      1. klik på 'fdroiddata version' @ commit of a build cycle
+      1. klik på 'Browse files'
+      1. klik på 'Find file'
+      1. kopier og indsæt `de.danoeh.antennapod`
+      1. åbn filen
+      1. tjek, om den indeholder den nyeste version
