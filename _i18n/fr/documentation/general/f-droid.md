@@ -3,23 +3,23 @@ Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous interr
 * *Pourquoi la dernière version n'est-elle pas encore sur F-Droid ?*
 * *quand la nouvelle version sera-t-elle disponible sur F-Droid?*
 
-Due to the different steps and because we are not involved in publishing releases on F-Droid, we can't tell when exactly the latest version will be available there.
+En raison des différentes étapes nécessaires et parce que nous ne participons pas à la publication de l'application sur F-Droid, nous ne pouvons pas dire exactement quand la dernière version sera disponible.
 
 En bref : cela peut prendre un certain temps. Nous vous demandons d'être patients.
 
 ### Les étapes pour obtenir une nouvelle version sur F-Droid
 
-1. We release a beta version, which is *only* available through Google Play due to [technical limitations](/documentation/general/beta#f-droid) in F-Droid.
-1. We do a slow, gradual roll-out to all Google Play users. That way we make sure that there are no critical bugs. This can take several weeks.
-1. We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases). We do this only after the roll-out on Google Play is complete.
-1. F-Droid systems check the AntennaPod repository and detect a new release. The update checker server runs daily (overnight in Europe).
+1. Nous publions une version bêta, qui est *uniquement* disponible via Google Play en raison des [limitations techniques](/documentation/general/beta#f-droid) de F-Droid.
+1. Nous procédons à un déploiement lent et graduel auprès de tous les utilisateurs de Google Play. De cette façon, nous nous assurons qu'aucun bug critique n'està déplorer. Cela peut requérir plusieurs semaines.
+1. Nous créons une [publication sur GitHub](https://github.com/AntennaPod/AntennaPod/releases). Nous ne le faisons qu'après l'achèvement du déploiement sur Google Play.
+1. Les systèmes de F-Droid consulte le dépôt d'AntennaPod et détecte une nouvelle version. Le server de vérification des mises à jour s'éxécute quotidiennement.
 1. Après que F-Droid ait détecté une nouvelle version d'AntennaPod, il construit l'application. Ainsi, F-Droid s'assure que l'application que vous téléchargez correspond bien au code source publié par AntennaPod. Comme il y a beaucoup d'applications à construire, le serveur F-Droid prend 1 à 2 jours supplémentaires pour construire l'application.
-1. An F-Droid contributor signs the build cryptographically. To improve security, the contributor needs to take the app and physically walk it to a dedicated computer which is not connected to the internet. When all apps are signed, the contributor uploads them to the F-Droid systems. This usually takes 1 to 2 days.
+1. Un contributeur à F-Droid signe cryptographiquement le programme compilé. Afin d'améliorer la sécurité, le contributeur a besoin de se munir de l'app et de se rendre physiquement auprès d'un ordinateur dédié qui n'est pas connecté à internet. Lorsque toutes les apps sont signées, le contributeur les télécharge dans les systèmes de F-Droid. Cela requiert habituellement 1 à 2 jours.
 1. Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous interrogez :
 
-At this point we consider it 'released on F-Droid'. But remember that your F-Droid client (the 'app store') also needs to refresh its local copy of the index. Only after that you'll get prompted about the latest AntennaPod release.
+À ce moment-là, nous la considérons « publiée sur F-Droid ». Néanmoins, souvenez-vous que l'application F-Droid (la « boutique d'apps ») a aussi besoin de mettre à jour la copie locale de son index. Après avoir effectué cette action, vous serez enfin invité à installer la dernière version d'AntennaPod.
 
-### So, what's the ETA?
+### Donc, quel est l'ETA (Temps d'Arrivée Estimé) ?
 
 As you can see, there are a lot of steps which each take a varying amount of time. We usually take well over a month between releasing a beta version and tagging the release on GitHub. After the release is tagged, F-Droid usually takes four to six days to process it.
 
