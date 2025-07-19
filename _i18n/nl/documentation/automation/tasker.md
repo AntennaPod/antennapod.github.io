@@ -2,7 +2,7 @@ AntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te ver
 
 Voor meer ingewikkelde behoeften bestaan verschillende automatiseringstoepassingen van derden voor gebruik met AntennaPod. Bijvoorbeeld:
 
-- Werk de abonnementen bij aan het begin van de dag: zet om 7 uur 's ochtends WiFi aan, werk vervolgens AntennaPod feeds bij.
+- Werk de abonnementen bij aan het begin van de dag: zet om 7 uur 's ochtends Wi-Fi aan, werk vervolgens AntennaPod feeds bij.
 - Haal je abonnementen op voor je naar huis gaat: update abonnementen op werkdagen om 17:00.
 
 ## Instructies

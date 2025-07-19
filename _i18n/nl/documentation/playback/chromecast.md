@@ -2,7 +2,7 @@ U kunt AntennaPod gebruiken om naar podcasts te luisteren op uw Google Chromecas
 
 ### Heb je AntennaPod gedownload van **Google Play**?
 
-Er zijn geen bijkomende stappen nodig om AntennaPod met je Google Chromecast te gebruiken. Zorg dat je op hetzelfde WiFi netwerk zit als je Chromecast. Je opent het spelerscherm door de kleine speler te vergroten en op de Chromecast knop te duwen.
+Er zijn geen bijkomende stappen nodig om AntennaPod met je Google Chromecast te gebruiken. Zorg dat je op hetzelfde Wi-Fi netwerk zit als je Chromecast. Je opent het spelerscherm door de kleine speler te vergroten en op de Chromecast knop te duwen.
 
 {% include image.html alt= "
 
