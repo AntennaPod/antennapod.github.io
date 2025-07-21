@@ -7,7 +7,7 @@ En raison des différentes étapes nécessaires et parce que nous ne participons
 
 En bref : cela peut prendre un certain temps. Nous vous demandons d'être patients.
 
-### Les étapes pour obtenir une nouvelle version sur F-Droid
+### Les étapes permettant de publier une nouvelle version sur F-Droid
 
 1. Nous publions une version bêta, qui est *uniquement* disponible via Google Play en raison des [limitations techniques](/documentation/general/beta#f-droid) de F-Droid.
 1. Nous procédons à un déploiement lent et graduel auprès de tous les utilisateurs de Google Play. De cette façon, nous nous assurons qu'aucun bug critique n'està déplorer. Cela peut requérir plusieurs semaines.
@@ -25,16 +25,16 @@ As you can see, there are a lot of steps which each take a varying amount of tim
 
 ### Ce que vous pouvez faire si la procédure prend plus de temps que prévu
 
-Did we not tag the [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases) yet? Then please just wait. The update is in beta and not ready for public release.
+Nous n'avons pas encore étiqueté la [nouvelle version](https://github.com/AntennaPod/AntennaPod/releases) sur Github ? Alors patientez. La mise à jour est en bêta et n'est pas prête à la publication.
 
-We *did* tag the release on GitHub? As the F-Droid team [notes](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client): "don't panic before 7 days have passed, please."
+Nous *avons* étiqueté la nouvelle version sur Github ? Comme l'équipe de F-Droid le fait [remarquer](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client) : « ne paniquez pas avant que 7 jours se soient écoulés, s'il vous plaît. »
 
-* Did those 7 days pass since we tagged the release on GitHub? Feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/). We'll take a look.
-* Did we tag the release 7 days ago or less? Then please just wait. Or investigate where we are in the process.
+* Ces 7 jours se sont-ils écoulés depuis que nous avons étiqueté la nouvelle version sur Github ? Si vous le souhaitez, faites-le nous savoir en créant un message sur notre [forum](https://forum.antennapod.org/). Nous examinerons cela.
+* Avons-nous étiqueté la nouvelle version 7 jours auparavant ou moins ? Veuillez attendre, ou aller voir à quelle étape du processus nous en sommes.
 
-#### Investigate current status
+#### Consulter l'état actuel
 
-If you want, you can follow these steps to get an idea of the progress:
+Si vous le voulez, vous pouvez suivre ces étapes pour avoir une idée de la progression :
 
 1. Check if and when the [release was tagged on GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (you may need to hover, for example, 'last week' to see the exact date on GitHub). If so, it should soon be picked up by the update checker.
 1. Vérifiez si [la liste de F-Droid des versions d'AntennaPod](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) a été mise à jour depuis. Si c'est le cas, elle devrait être bientôt traitée par le serveur de publication.
