@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:45+0200\n"
-"PO-Revision-Date: 2025-07-23 09:09+0000\n"
+"PO-Revision-Date: 2025-07-23 10:08+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fi/>\n"
@@ -1334,13 +1334,19 @@ msgid ""
 "signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
+"F-Droidin avustaja allekirjoittaa koontiversion kryptografisesti. "
+"Tietoturvan parantamiseksi avustajan on vietävä sovellus fyysisesti "
+"erilliselle tietokoneelle, joka ei ole yhteydessä internetiin. Kun kaikki "
+"sovellukset on allekirjoitettu, avustaja lataa ne F-Droidin järjestelmiin. "
+"Tämä kestää yleensä yhdestä kahteen päivään."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "F-Droid systems process the new apps, adding the new AntennaPod release in "
 "their index."
-msgstr "Näitkö, että siellä on uusi AntennaPod-julkaisu ja ihmettelitkö:"
+msgstr ""
+"F-Droid-järjestelmät käsittelevät uudet sovellukset ja lisäävät uuden "
+"AntennaPod-julkaisun indeksiinsä."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
 msgid ""
@@ -1349,10 +1355,14 @@ msgid ""
 "index. Only after that you'll get prompted about the latest AntennaPod "
 "release."
 msgstr ""
+"Tässä vaiheessa katsomme sen \"julkaistuksi F-Droidissa\". Muista kuitenkin, "
+"että myös F-Droid-asiakasohjelmasi (sovelluskaupan) on päivitettävä "
+"paikallinen kopio indeksistä. Vasta sen jälkeen saat ilmoituksen uusimmasta "
+"AntennaPod-julkaisusta."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr ""
+msgstr "Eli. mikä on arvioitu saapumisaika?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1361,11 +1371,14 @@ msgid ""
 "tagging the release on GitHub. After the release is tagged, F-Droid usually "
 "takes four to six days to process it."
 msgstr ""
+"Kuten näette, on olemassa useita vaiheita, jotka kukin vievät vaihtelevan "
+"ajan. Beta-version julkaisemisen ja julkaisun GitHubissa merkitsemisen "
+"välillä kuluu yleensä reilusti yli kuukausi. Kun julkaisu on merkitty, F-"
+"Droid käsittelee sen yleensä neljästä kuuteen päivään."
 
 #: _i18n/en/documentation/general/f-droid.md:block 10 (header)
-#, fuzzy
 msgid "What you can do if you're eagerly waiting"
-msgstr "Mitä voit tehdä, jos aikaa kuluu odotettua enemmän"
+msgstr "Mitä voit tehdä, jos odotat innolla"
 
 #: _i18n/en/documentation/general/f-droid.md:block 11 (paragraph)
 msgid ""
@@ -1373,6 +1386,9 @@ msgid ""
 "AntennaPod/releases) yet? Then please just wait. The update is in beta and "
 "not ready for public release."
 msgstr ""
+"Emmekö vielä asettaneet tägiä [julkaisulle GitHubissa](https://github.com/"
+"AntennaPod/AntennaPod/releases)? Odotathan sitten. Päivitys on beta-"
+"vaiheessa eikä vielä valmis julkaistavaksi."
 
 #: _i18n/en/documentation/general/f-droid.md:block 12 (paragraph)
 msgid ""
@@ -1380,6 +1396,10 @@ msgid ""
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
 "up-on-website-and-client): \"don't panic before 7 days have passed, please.\""
 msgstr ""
+"Asetimmeko *tägin* julkaisulle GitHubissa? F-Droid-tiimi [huomautuksia]"
+"(https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-"
+"to-show-up-on-website-and-client): "
+"\"älkää panikoiko ennen kuin seitsemän päivää on kulunut, kiitos.\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1387,20 +1407,25 @@ msgid ""
 "let us know by creating a post on our [forum](https://forum.antennapod."
 "org/). We'll take a look."
 msgstr ""
+"Onko nuo seitsemän päivää kulunut siitä, kun asettimme tägin julkaisulle "
+"GitHubissa? Kerro meille asiasta luomalla viesti [keskustelupalstallemme]"
+"(https://forum.antennapod.org/). Katsotaanpa asiaa."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
 "Did we tag the release 7 days ago or less? Then please just wait. Or "
 "investigate where we are in the process."
 msgstr ""
+"Asetimmeko tunnisteen julkaisuun seitsemän päivää sitten tai vähemmän? Odota "
+"sitten vain. Tai tutki, missä vaiheessa prosessia olemme."
 
 #: _i18n/en/documentation/general/f-droid.md:block 14 (header)
 msgid "Investigate current status"
-msgstr ""
+msgstr "Tutki nykytilaa"
 
 #: _i18n/en/documentation/general/f-droid.md:block 15 (paragraph)
 msgid "If you want, you can follow these steps to get an idea of the progress:"
-msgstr ""
+msgstr "Voit halutessasi seurata edistymistä seuraavien ohjeiden avulla:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1409,6 +1434,11 @@ msgid ""
 "'last week' to see the exact date on GitHub). If so, it should soon be "
 "picked up by the update checker."
 msgstr ""
+"Tarkista, asetettiinko [tunniste julkaisuun GitHubissa](https://github.com/"
+"AntennaPod/AntennaPod/releases/latest) ja milloin; sinun on ehkä vietävä "
+"hiiri esimerkiksi kohtaan 'viime viikko' nähdäksesi tarkan päivämäärän "
+"GitHubissa. Jos näin on, päivitysten tarkistustyökalun pitäisi pian havaita "
+"se."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1417,6 +1447,10 @@ msgid ""
 "Droid%20checkupdates%20bot) was updated since then. If so, it should soon be "
 "processed by the build server."
 msgstr ""
+"Tarkista, onko [F-Droidin AntennaPod-versioluetteloa](https://gitlab.com/"
+"fdroid/fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) päivitetty sen "
+"jälkeen. Jos näin on, koontipalvelimen pitäisi pian käsitellä se."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1426,6 +1460,12 @@ msgid ""
 "en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
 "be cryptographically signed by an F-Droid contributor."
 msgstr ""
+"Tarkista, onko AntennaPod koottu [suoritussyklin](https://"
+"monitor.f-droid.org/builds/running) vai [viimeisimmän syklin](https://"
+"monitor.f-droid.org/builds/build) aikana. Voit käyttää tähän myös "
+"sovelluksen [F-Droid-koontitilaa](https://f-droid.org/en/packages/"
+"de.storchp.fdroidbuildstatus/). Jos näin on, F-Droidin avustajan pitäisi "
+"pian kryptografisesti allekirjoittaa se."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1433,6 +1473,9 @@ msgid ""
 "listed in the success and fail lists yet, and you want to know if it will be "
 "built?"
 msgstr ""
+"Huomaa, että koottaville sovelluksille ei ole jonoa. AntennaPodia ei ole "
+"vielä ilmoitettu onnistumis- ja epäonnistumislistoilla, ja haluat tietää, "
+"kootaanko se?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
@@ -1440,24 +1483,23 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr ""
+msgstr "napsauta 'Selaa tiedostoja'"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr ""
+msgstr "napsauta 'Etsi tiedosto'"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid "copy and paste `de.danoeh.antennapod`"
-msgstr "Paketin on oltava `de.danoeh.antennapod`"
+msgstr "kopioi ja liitä `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
-msgstr ""
+msgstr "avaa tiedosto"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr ""
+msgstr "tarkista, sisältääkö se uusimman version"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
@@ -1664,6 +1706,10 @@ msgid ""
 "synchronisation, you need a server - the central point through which your "
 "data is shared with other devices. You have several options for this:"
 msgstr ""
+"AntennaPod voi synkronoida tilauksesi ja kuunteluedistymisesi muiden "
+"AntennaPod-asennusten sekä muiden työpöytäsovellusten kanssa. Synkronoinnin "
+"määrittämiseen tarvitset palvelimen – keskipisteen, jonka kautta tietosi "
+"jaetaan muiden laitteiden kanssa. Sinulla on useita vaihtoehtoja tähän:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -1672,6 +1718,10 @@ msgid ""
 "of the service and its limited funding, this server is often overloaded, "
 "leading to errors in AntennaPod."
 msgstr ""
+"[gpodder.net](https://gpodder.net/) tarjoaa ilmaisen gPodder-"
+"synkronointipalvelimen, johon **kuka tahansa voi rekisteröityä**. "
+"Valitettavasti palvelun suosion ja rajallisen rahoituksen vuoksi tämä "
+"palvelin on usein ylikuormitettu, mikä johtaa virheisiin AntennaPodissa."
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -1684,6 +1734,14 @@ msgid ""
 "server, or the [Micro GPodder server](https://github.com/bohwaz/micro-"
 "gpodder-server)."
 msgstr ""
+"Teknisesti taitavampia käyttäjiä kehotetaan vahvasti **isännöimään "
+"synkronointipalvelinta itse**. Itse isännöity palvelin on luotettavampi ja "
+"auttaa vähentämään ilmaisten, julkisten palveluiden kuormitusta. "
+"Vaihtoehtoja on useita: [Nextcloud](https://nextcloud.com/install/"
+"#instructions-server) ja [gPodder Sync -sovellus](https://apps.nextcloud.com/"
+"apps/gpoddersync), täysi [gPodder](https://gpoddernet.readthedocs.io/en/"
+"latest/dev/installation.html) -palvelin tai [Micro GPodder -palvelin]"
+"(https://github.com/bohwaz/micro-gpodder-server)."
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -1694,16 +1752,20 @@ msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
 "server admin to do so"
 msgstr ""
+"Jos sinulla on Nextcloud-tili, asenna gPodder Sync -sovellus tai pyydä "
+"palvelimen järjestelmänvalvojaa tekemään se"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
 msgstr ""
+"Siirry AntennaPodissa kohtaan `Asetukset` » `Synkronointi` ja napauta `"
+"Valitse synkronointipalveluntarjoaja`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid "Select 'Nextcloud'"
-msgstr ""
+msgstr "Valitse 'Nextcloud'"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
@@ -1712,11 +1774,8 @@ msgid ""
 msgstr "Anna palvelimen osoite (URL- tai IP-osoite) ja valitse `Jatka`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
-#, fuzzy
 msgid "Log in on the browser window that opens and authorize AntennaPod"
-msgstr ""
-"Kirjaudu sisään avautuvassa selainikkunassa ja anna AntennaPodille "
-"käyttöoikeus"
+msgstr "Kirjaudu sisään avautuvassa selainikkunassa ja valtuuta AntennaPod"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (header)
 msgid "Enable synchronization via gPodder"
@@ -1729,21 +1788,22 @@ msgstr ""
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select 'gPodder'"
-msgstr ""
+msgstr "Valitse 'gPodder'"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
+"Syötä palvelimen osoite (esim. www.gpodder.net) ja napauta `Jatka "
+"sisäänkirjautumiseen`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
-msgstr ""
+msgstr "Syötä 'Käyttäjänimi' ja 'Salasana' ja napauta `Kirjaudu sisään`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
-#, fuzzy
 msgid "Select the device that you created on the server"
-msgstr "Valitse palvelimella luomasi laite"
+msgstr "Valitse palvelimelle luomasi laite"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
 msgid ""
@@ -1755,6 +1815,13 @@ msgid ""
 "for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests "
 "to change the behavior."
 msgstr ""
+"**Huomautus:** Loitko laitteen synkronoinnin määrittämisen yhteydessä "
+"AntennaPodissa, vai loitko laitteen etukäteen verkkosivustolla? Muista "
+"painaa sitten `Pakota synkronointi` -painiketta ladataksesi kaikkien aiemmin "
+"kuunneltujen jaksojen toistotilan. Jos et tee tätä, vain laitteiden "
+"linkittämisen jälkeen lisätyt podcastit synkronoidaan. On "
+"[avoin tiketti Gpodder.net-sivustolla](https://github.com/gpodder/mygpo/"
+"issues/388), joka pyytää muuttamaan toimintaa."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
