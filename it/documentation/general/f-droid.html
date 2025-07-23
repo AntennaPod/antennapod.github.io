@@ -319,57 +319,57 @@
   <li><em>quando sarà disponibile su F-Droid la nuova versione?</em></li>
 </ul>
 
-<p>Due to the different steps and because we are not involved in publishing releases on F-Droid, we can’t tell when exactly the latest version will be available there.</p>
+<p>A causa dei vari passaggi e poiché non siamo coinvolti nella pubblicazione delle versioni su F-Droid, non possiamo sapere con esattezza quando l’ultima versione sarà disponibile lì.</p>
 
-<p>In breve: ci può volere un po’ di tempo. Porta pazienza.</p>
+<p><strong>In breve: non ci siamo dimenticati di F-Droid, ci vuole solo un po’ di tempo. Porta pazienza.</strong></p>
 
-<h3 id="i-passaggi-per-far-sì-che-una-nuova-versione-arrivi-su-f-droid">I passaggi per far sì che una nuova versione arrivi su F-Droid</h3>
+<h3 id="i-passaggi-per-pubblicare-una-nuova-versione-su-f-droid">I passaggi per pubblicare una nuova versione su F-Droid</h3>
 
 <ol>
-  <li>We release a beta version, which is <em>only</em> available through Google Play due to <a href="/documentation/general/beta#f-droid">technical limitations</a> in F-Droid.</li>
-  <li>We do a slow, gradual roll-out to all Google Play users. That way we make sure that there are no critical bugs. This can take several weeks.</li>
-  <li>We create a <a href="https://github.com/AntennaPod/AntennaPod/releases">release on GitHub</a>. We do this only after the roll-out on Google Play is complete.</li>
-  <li>F-Droid systems check the AntennaPod repository and detect a new release. The update checker server runs daily (overnight in Europe).</li>
-  <li>Dopo che F-Droid ha rilevato l’esistenza di una nuova versione di AntennaPod, l’applicazione viene compilata. In questo modo, F-Droid si assicura che l’applicazione che scaricherai corrisponda realmente al codice sorgente pubblicato da AntennaPod. Poiché ci sono molte app da compilare, il server di F-Droid impiega altri 1-2 giorni per compilare l’app.</li>
-  <li>An F-Droid contributor signs the build cryptographically. To improve security, the contributor needs to take the app and physically walk it to a dedicated computer which is not connected to the internet. When all apps are signed, the contributor uploads them to the F-Droid systems. This usually takes 1 to 2 days.</li>
-  <li>Ti sei accorto che è uscita una nuova versione di AntennaPod e ti sei chiesto:</li>
+  <li>Pubblichiamo una versione beta, che è disponibile <em>solo</em> su Google Play a causa di <a href="/documentation/general/beta#f-droid">limiti tecnici</a> di F-Droid.</li>
+  <li>Rilasciamo la nuova versione in modo lento e graduale a tutti gli utenti di Google Play. In questo modo ci assicuriamo che non ci siano bug critici. Questo passaggio può richiedere diverse settimane.</li>
+  <li>Creiamo una <a href="https://github.com/AntennaPod/AntennaPod/releases">versione su GitHub</a>. Lo facciamo solo dopo che il rilascio graduale su Google Play è stato completato.</li>
+  <li>I sistemi di F-Droid controllano il repository di AntennaPod e rilevano una nuova versione. Il server di controllo aggiornamenti verifica ogni giorno (durante la notte in Europa).</li>
+  <li>I sistemi di F-Droid compilano l’app. In questo modo, si assicurano che l’applicazione che scaricherai corrisponda realmente al codice sorgente che pubblichiamo. Poiché ci sono molte app da compilare, il server di F-Droid impiega 1-2 giorni per compilare l’app.</li>
+  <li>Un contributore di F-Droid firma crittograficamente la versione compilata. Per migliorare la sicurezza, il contributore deve prendere l’app e spostarla fisicamente su un computer riservato che non è connesso a internet. Quando tutte le app sono firmate, il contributore le carica sui sistemi di F-Droid. Di solito questo richiede 1-2 giorni.</li>
+  <li>I sistemi di F-Droid processano le nuove app, aggiungendo la nuova versione di AntennaPod al loro indice.</li>
 </ol>
 
-<p>At this point we consider it ‘released on F-Droid’. But remember that your F-Droid client (the ‘app store’) also needs to refresh its local copy of the index. Only after that you’ll get prompted about the latest AntennaPod release.</p>
+<p>A questo punto, consideriamo la nuova versione “pubblicata su F-Droid”. Ma ricorda che, in aggiunta, il tuo client di F-Droid (l’app store) deve aggiornare la sua copia locale dell’indice. Solo dopo quell’operazione riceverai una notifica riguardo l’ultima versione di AntennaPod.</p>
 
-<h3 id="so-whats-the-eta">So, what’s the ETA?</h3>
+<h3 id="quindi-quanto-tempo-ci-vorrà">Quindi quanto tempo ci vorrà?</h3>
 
-<p>As you can see, there are a lot of steps which each take a varying amount of time. We usually take well over a month between releasing a beta version and tagging the release on GitHub. After the release is tagged, F-Droid usually takes four to six days to process it.</p>
+<p>Come avrai notato, ci sono molti passaggi, ognuno dei quali di durata variabile. Di solito passa più di un mese dalla pubblicazione di una versione beta al momento in cui la versione viene taggata su GitHub. Dopo che la versione è stata taggata, di solito F-Droid ci mette dai quattro ai sei giorni per processarla.</p>
 
-<h3 id="cosa-puoi-fare-se-ci-vuole-più-tempo-del-previsto">Cosa puoi fare se ci vuole più tempo del previsto</h3>
+<h3 id="cosa-puoi-fare-se-stai-aspettando-con-impazienza">Cosa puoi fare se stai aspettando con impazienza</h3>
 
-<p>Did we not tag the <a href="https://github.com/AntennaPod/AntennaPod/releases">release on GitHub</a> yet? Then please just wait. The update is in beta and not ready for public release.</p>
+<p>Non abbiamo ancora taggato la <a href="https://github.com/AntennaPod/AntennaPod/releases">versione su GitHub</a>? Allora dovrai semplicemente attendere. L’aggiornamento è in fase beta e non è pronto per la pubblicazione.</p>
 
-<p>We <em>did</em> tag the release on GitHub? As the F-Droid team <a href="https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client">notes</a>: “don’t panic before 7 days have passed, please.”</p>
+<p><em>Abbiamo</em> taggato la versione su GitHub? Come <a href="https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client">fa presente</a> il team di F-Droid: “ti preghiamo di non agitarti prima che siano passati 7 giorni.”</p>
 
 <ul>
-  <li>Did those 7 days pass since we tagged the release on GitHub? Feel free to let us know by creating a post on our <a href="https://forum.antennapod.org/">forum</a>. We’ll take a look.</li>
-  <li>Did we tag the release 7 days ago or less? Then please just wait. Or investigate where we are in the process.</li>
+  <li>I 7 giorni da quando abbiamo taggato la versione su GitHub sono passati? Faccelo sapere creando un post sul nostro <a href="https://forum.antennapod.org/">forum</a>. Daremo un’occhiata.</li>
+  <li>Abbiamo taggato la versione 7 giorni fa o meno? Allora dovrai semplicemente attendere. O, al massimo, verificare a che punto del processo ci troviamo.</li>
 </ul>
 
-<h4 id="investigate-current-status">Investigate current status</h4>
+<h4 id="verifica-lo-stato-attuale">Verifica lo stato attuale</h4>
 
-<p>If you want, you can follow these steps to get an idea of the progress:</p>
+<p>Se vuoi, puoi seguire questi passaggi per farti un’idea sullo stato di avanzamento:</p>
 
 <ol>
-  <li>Check if and when the <a href="https://github.com/AntennaPod/AntennaPod/releases/latest">release was tagged on GitHub</a> (you may need to hover, for example, ‘last week’ to see the exact date on GitHub). If so, it should soon be picked up by the update checker.</li>
-  <li>Check if <a href="https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot">F-Droid’s AntennaPod versions list</a> was updated since then. If so, it should soon be processed by the build server.</li>
-  <li>Check if AntennaPod was built in the <a href="https://monitor.f-droid.org/builds/running">running cycle</a> or the <a href="https://monitor.f-droid.org/builds/build">last cycle</a>. You can also use the app <a href="https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/">F-Droid build status</a> for this. If so, it should soon be cryptographically signed by an F-Droid contributor.
+  <li>Controlla se e quando la <a href="https://github.com/AntennaPod/AntennaPod/releases/latest">versione è stata taggata su GitHub</a> (potresti dover passare il cursore su, per esempio, “la settimana scorsa” per vedere la data precisa su GitHub). In quel caso, il controllo aggiornamenti la dovrebbe rilevare presto.</li>
+  <li>Controlla se <a href="https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot">l’elenco delle versioni di AntennaPod su F-Droid</a> è stato aggiornato da allora. In quel caso, il server di compilazione dovrebbe processarla presto.</li>
+  <li>Controlla se AntennaPod è stato compilato nel <a href="https://monitor.f-droid.org/builds/running">ciclo in esecuzione</a> o nell’<a href="https://monitor.f-droid.org/builds/build">ultimo ciclo</a>. Puoi farlo anche utilizzando l’app <a href="https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/">F-Droid build status</a>. In quel caso, un contributore di F-Droid dovrebbe firmarla crittograficamente presto.
     <ul>
-      <li>Note that there’s no queue for apps that need to be built. AntennaPod is not listed in the success and fail lists yet, and you want to know if it will be built?
+      <li>Tieni presente che non c’è una coda per le app che devono essere compilate. AntennaPod non compare ancora negli elenchi di successo e fallimento, e vuoi sapere se sarà compilato?
         <ol>
-          <li>click on ‘fdroiddata version’ @ commit of a build cycle</li>
-          <li>click on ‘Browse files’</li>
-          <li>click on ‘Find file’</li>
-          <li>il nome del pacchetto come <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+          <li>clicca su “fdroiddata version” @ commit di un ciclo di compilazione</li>
+          <li>clicca su “Esplora file”</li>
+          <li>clicca su “Trova file”</li>
+          <li>copia e incolla <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
 </li>
-          <li>open the file</li>
-          <li>check if it includes the latest release</li>
+          <li>apri il file</li>
+          <li>verifica se include l’ultima versione</li>
         </ol>
       </li>
     </ul>
