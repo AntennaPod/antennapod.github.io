@@ -1,30 +1,30 @@
-AntennaPod has a statistics screen that lets you view the number of listening hours per subscription and per month. However, these statistics aren’t always as precise as they could be.
+AntennaPod har en statistikskærm, der giver dig mulighed for at se antallet af lyttetimer pr. abonnement og pr. måned. Disse statistikker er dog ikke altid så præcise, som de kunne være.
 
-## Why the stats aren’t precise
+## Derfor er statistikken ikke præcis
 
-To track statistics, AntennaPod records two things for each episode:
+For at lave statistik registrerer AntennaPod to ting for hvert afsnit:
 
-* **Played duration**: how long the episode was played (e.g. 6 minutes if a 3-minute episode was played twice)
-* **Last played**: the date and time when playback was last paused or stopped for the episode
+* **Afspillet varighed**: Hvor længe afsnittet blev afspillet (f.eks. 6 minutter, hvis et afsnit på 3 minutter blev afspillet to gange)
+* **Senest afspillet**: Den dato og det klokkeslæt, hvor afspilningen sidst blev sat på pause eller stoppet for afsnittet
 
-Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the 'played duration' of all episodes whose 'last played' date falls within a given month.
+Begge opdateres, hver gang afspilningen sættes på pause eller stoppes. Disse oplysninger bruges til at beregne totaler ved at lægge den 'afspillet varighed' sammen for alle afsnit, hvis 'senest afspillet' dato falder inden for en given måned.
 
-This approach means that if you listen to 7 minutes of an episode today and 38 minutes of that episode tomorrow, all 45 minutes are attributed to tomorrow. The same applies across months. If an episode is played both in June and July, all listening time is attributed to July. Similarly, if an episode is played both in December of one year and in January of the next, it is attributed to the second year.
+Denne tilgang betyder, at hvis du lytter til 7 minutter af et afsnit i dag og 38 minutter af samme afsnit i morgen, bliver alle 45 minutter tilskrevet i morgen. Det samme gælder på tværs af måneder. Hvis et afsnit afspilles både i juni og juli, tilskrives al lyttetid juli. På samme måde, hvis et afsnit afspilles både i december det ene år og i januar det næste, tilskrives det det andet år.
 
-The monthly statistics are usually accurate because they look at a longer time period. However, day-by-day statistics would have a higher risk of becoming unreliable, which is why AntennaPod does not offer those.
+De månedlige statistikker er normalt nøjagtige, fordi de ser på en længere tidsperiode. Men dag for dag-statistikker har større risiko for at blive upålidelige, og derfor tilbyder AntennaPod dem ikke.
 
-## Why we don’t want to change it
+## Hvorfor vi ikke ønsker at ændre det
 
-Stats (or rather: graphs) are fun. So why don’t we record information differently to allow for more filter options and more granular data in AntennaPod?
+Statistik (eller rettere: grafer) er sjovt. Så hvorfor registrerer vi ikke oplysninger på en anden måde for at give mulighed for flere filterindstillinger og mere detaljerede data i AntennaPod?
 
-It would be possible, for example, to record for each episode how long it was played on each day. For instance:
+Det ville f.eks. være muligt at registrere for hvert afsnit, hvor længe det blev afspillet hver dag. For eksempel:
 
-* 28 June: 7 minutes
-* 30 June: 38 minutes
-* 1 July: 19 minutes
+* 28 juni: 7 minutter
+* 30 juni: 38 minutter
+* 1 juli: 19 minutter
 
-There's two main reasons. Firstly, while statistics are fun, **we rather spend time on AntennaPod's main purpose: playing podcasts**. Changing to this new approach would require time now to implement it (rewriting the code that saves playback time in the database) and time in future to maintain a more complex system.
+Der er to hovedårsager. For det første er statistik sjovt, men **vi vil hellere bruge tid på AntennaPods hovedformål: at afspille podcasts**. At skifte til denne nye tilgang ville kræve tid nu til at implementere det (omskrivning af koden, der gemmer afspilningstid i databasen) og tid i fremtiden til at vedligeholde et mere komplekst system.
 
-Secondly, **AntennaPod would take up more space on your phone** - espcially for loyal users who stick with the app for several years. That's because instead of a single row per episode in the database we would need to store multiple rows for each played episode to store the playback duration, which causes the database size to increase.
+For det andet ville **AntennaPod optage mere plads på din telefon** - især for loyale brugere, der holder fast i appen i flere år. Det skyldes, at vi i stedet for en enkelt række pr. afsnit i databasen skulle gemme flere rækker for hver afspillet afsnit for at gemme afspilningsvarigheden, hvilket får databasestørrelsen til at stige.
 
-We hope you'll enjoy the month-based statistics! 📊 (If you happen to be a web developer interested in making a dedicated dashboard for AntennaPod statistics based on database exports, please do ping us on the forum.)
+Vi håber, at du vil nyde den månedsbaserede statistik! 📊 (Hvis du tilfældigvis er en webudvikler, der er interesseret i at lave et dedikeret kontrolpanel til AntennaPod-statistikker baseret på databaseeksport, må du meget gerne skrive til os på forummet.)
