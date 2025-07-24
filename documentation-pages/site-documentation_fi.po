@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:45+0200\n"
-"PO-Revision-Date: 2025-07-24 07:02+0000\n"
+"PO-Revision-Date: 2025-07-24 08:07+0000\n"
 "Last-Translator: Petri Hämäläinen <petri.hamalainen@mailbox.org>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fi/>\n"
@@ -1598,23 +1598,29 @@ msgstr ""
 
 #: _i18n/en/documentation/general/statistics.md:block 2 (header)
 msgid "Why the stats aren’t precise"
-msgstr ""
+msgstr "Miksi tilastot eivät ole tarkkoja"
 
 #: _i18n/en/documentation/general/statistics.md:block 3 (paragraph)
 msgid "To track statistics, AntennaPod records two things for each episode:"
 msgstr ""
+"Tilastojen seurantaa varten AntennaPod tallentaa kaksi asiaa jokaisesta "
+"jaksosta:"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Played duration**: how long the episode was played (e.g. 6 minutes if a 3-"
 "minute episode was played twice)"
 msgstr ""
+"**Toistettu kesto**: kuinka kauan jaksoa toistettiin (esim. 6 minuuttia, jos "
+"3 minuutin jakso toistettiin kahdesti)"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Last played**: the date and time when playback was last paused or stopped "
 "for the episode"
 msgstr ""
+"**Viimeksi toistettu**: päivämäärä ja aika kun jakson toisto viimeksi "
+"keskeytettiin tai pysäytettiin"
 
 #: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
 msgid ""
@@ -1622,6 +1628,10 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
+"Molemmat päivitetään joka kerta, kun toisto keskeytetään tai pysäytetään. "
+"Näitä tietoja käytetään kokonaismäärien laskemiseen laskemalla yhteen "
+"kaikkien niiden jaksojen \"toistettu kesto\", joiden \"viimeksi toistettu\" -"
+"päivämäärä osuu tietylle kuukaudelle."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
@@ -1632,6 +1642,12 @@ msgid ""
 "episode is played both in December of one year and in January of the next, "
 "it is attributed to the second year."
 msgstr ""
+"Tämä lähestymistapa tarkoittaa, että jos kuuntelet jaksoa 7 minuuttia tänään "
+"ja 38 minuuttia samaa jaksoa huomenna, kaikki 45 minuuttia kirjataan "
+"huomiselle. Sama pätee kuukausien välillä. Jos jaksoa toistetaan sekä "
+"kesäkuussa että heinäkuussa, kaikki kuunteluaika kirjataan heinäkuulle. "
+"Vastaavasti, jos jaksoa toistetaan sekä yhden vuoden joulukuussa että "
+"seuraavan tammikuussa, se kirjataan toiselle vuodelle."
 
 #: _i18n/en/documentation/general/statistics.md:block 7 (paragraph)
 msgid ""
@@ -1639,10 +1655,13 @@ msgid ""
 "time period. However, day-by-day statistics would have a higher risk of "
 "becoming unreliable, which is why AntennaPod does not offer those."
 msgstr ""
+"Kuukausittaiset tilastot ovat yleensä tarkkoja, koska ne tarkastelevat "
+"pidempää ajanjaksoa. Päivittäisillä tilastoilla on kuitenkin suurempi riski "
+"muuttua epäluotettaviksi. Tämän vuoksi AntennaPod ei tarjoa niitä."
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
-msgstr ""
+msgstr "Miksi emme halua muuttaa sitä"
 
 #: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
 msgid ""
@@ -1650,24 +1669,29 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
+"Tilastot (tai pikemminkin: kaaviot) ovat hauskoja. Joten miksi emme tallenna "
+"tietoja eri tavalla mahdollistaaksemme enemmän suodatusvaihtoehtoja ja "
+"tarkempaa dataa AntennaPodissa?"
 
 #: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
 msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
+"Se voisi olla mahdollista, tallentamalla jokaisesta jaksosta, kuinka kauan "
+"sitä toistetiin päivittäin. Esimerkiksi:"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
-msgstr ""
+msgstr "28 kesäkuuta: 7 minuuttia"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "30 June: 38 minutes"
-msgstr ""
+msgstr "30 kesäkuuta: 38 minuuttia"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "1 July: 19 minutes"
-msgstr ""
+msgstr "1 heinäkuuta: 19 minuuttia"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
 msgid ""
@@ -1677,6 +1701,12 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
+"Tähän on kaksi pääsyytä. Ensinnäkin, vaikka tilastot ovat hauskoja, **"
+"käytämme ennemmin aikaa AntennaPodin päätarkoitukseen: podcastien "
+"toistamiseen**. Tämän lähestymistavan vaihtaminen vaatisi lisää aikaa "
+"kehitystyöhön (koodin uudelleenkirjoittamista datan tallentamista "
+"tietopankkia varten) ja aikaa entistä monimutkaisen järjestelmän "
+"ylläpitämistä varten."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -1686,6 +1716,10 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
+"Toiseksi **AntennaPod veisi enemmän tallennustilaa mobiililaitteeltasi**. "
+"Erityisesti heiltä, jotka ovat käyttäneet laitetta useita vuosia, koska "
+"jokaista jaksoa kohden pitäisi tallentaa kaksi riviä dataa, joka aiheuttaa "
+"tietokannan koon kasvamista."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1693,6 +1727,9 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
+"Toivomme, että nautit kuukausittaisista tilastoista! 📊 (Jos satut olemaan "
+"web-kehittäjä, joka on kiinnostunut tekemään oman kojelaudan AntennaPod-"
+"tilastoille tietokantavientien pohjalta, ota yhteyttä foorumilla.)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
@@ -2089,7 +2126,7 @@ msgstr ""
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 9 (header)
 msgid "Mixcloud"
-msgstr ""
+msgstr "Mixcloud"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 10 (paragraph)
 msgid ""
@@ -2306,7 +2343,7 @@ msgstr "Toiminto"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`P`"
-msgstr ""
+msgstr "`P`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Play/Pause"
@@ -2314,7 +2351,7 @@ msgstr "Toisto/tauko"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`J`/`A`/`,`"
-msgstr ""
+msgstr "`J`/`A`/`,`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Rewind"
@@ -2322,7 +2359,7 @@ msgstr "Kelaa takaisin"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`K`/`D`/`.`"
-msgstr ""
+msgstr "`K`/`D`/`.`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Forward"
@@ -2330,7 +2367,7 @@ msgstr "Eteenpäinkelaus"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`+`/`W`"
-msgstr ""
+msgstr "`+`/`W`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Raise volume"
@@ -2338,7 +2375,7 @@ msgstr "Lisää äänenvoimakkuutta"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`-`/`S`"
-msgstr ""
+msgstr "`-`/`S`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Lower volume"
@@ -2346,7 +2383,7 @@ msgstr "Alenna äänenvoimakkuutta"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`M`"
-msgstr ""
+msgstr "`M`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Mute/unmute (toggle) - only on Android 6 and higher"
@@ -2362,7 +2399,7 @@ msgstr "`P`/`Välilyönti`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`F`/`Esc`"
-msgstr ""
+msgstr "`F`/`Esc`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Exit video player"
@@ -2370,7 +2407,7 @@ msgstr "Poistu videosoittimesta"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`i`"
-msgstr ""
+msgstr "`i`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Enter picture-in-picture mode"
@@ -2378,7 +2415,7 @@ msgstr "Siirry kuva kuvassa -tilaan"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`0`-`9`"
-msgstr ""
+msgstr "`0`-`9`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Go to 0-90% of the video"
