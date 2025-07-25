@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-22 21:37+0200\n"
-"PO-Revision-Date: 2025-07-09 13:02+0000\n"
-"Last-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\n"
+"PO-Revision-Date: 2025-07-25 18:04+0000\n"
+"Last-Translator: \"josé m.\" <correoxm@disroot.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/gl/>\n"
 "Language: gl\n"
@@ -1582,9 +1582,8 @@ msgstr ""
 "orixe pode permitir que sigas podendo acceder ao seu contido"
 
 #: _i18n/en/documentation/general/proxy.md:block 3 (paragraph)
-#, fuzzy
 msgid "You will find this option under `Settings` » `Downloads` » `Proxy`."
-msgstr "Podes atopar esta opción en `Axustes` » `Rede` » `Proxy`."
+msgstr "Podes atopar esta opción en `Axustes` » `Descargas` » `Mandatario`."
 
 #: _i18n/en/documentation/general/proxy.md:block 4 (paragraph)
 msgid ""
@@ -1612,26 +1611,34 @@ msgid ""
 "listening hours per subscription and per month. However, these statistics "
 "aren’t always as precise as they could be."
 msgstr ""
+"AntennaPod ten unha pantalla con estatísticas que che permiten ver o número "
+"de horas de escoita para cada subscrición e por mes. Ten en conta que estes "
+"datos poderían non ser tan precisos como deberan."
 
 #: _i18n/en/documentation/general/statistics.md:block 2 (header)
 msgid "Why the stats aren’t precise"
-msgstr ""
+msgstr "Por que non son precisas as estatísticas"
 
 #: _i18n/en/documentation/general/statistics.md:block 3 (paragraph)
 msgid "To track statistics, AntennaPod records two things for each episode:"
 msgstr ""
+"Para crear as estatíticas AntennaPod rexistra dous datos para cada episodio:"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Played duration**: how long the episode was played (e.g. 6 minutes if a 3-"
 "minute episode was played twice)"
 msgstr ""
+"**Tempo reproducido**: durante cando tempo se reproduciu o episodio (ex. 6 "
+"minutos se un episodio de 3 minutos se reproduciu dúas veces)"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Last played**: the date and time when playback was last paused or stopped "
 "for the episode"
 msgstr ""
+"**Última reprodución**: a data e hora cando se pausou ou detivo a "
+"reprodución do episodio"
 
 #: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
 msgid ""
@@ -1639,6 +1646,10 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
+"Actualízanse os dous cada vez que se pausa ou detén a reprodución. Esta "
+"información úsase para calcular os totais engadindo a «duración reproducida» "
+"de todos os episodios cuxa data «última reprodución» coincide con "
+"determinado mes."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
@@ -1649,6 +1660,11 @@ msgid ""
 "episode is played both in December of one year and in January of the next, "
 "it is attributed to the second year."
 msgstr ""
+"Isto significa que se hoxe escoitas 7 minutos dun episodio e 38 minutos do "
+"mesmo episodio mañán, todos os 45 contabilízanse como pertencentes a mañán. "
+"O mesmo acontece cos meses. Se un episodio se escoita tanto en Xuño como en "
+"Xullo, atribúese todo o tempo a Xullo. E así tamén pasa coa atribución anual "
+"da escoita."
 
 #: _i18n/en/documentation/general/statistics.md:block 7 (paragraph)
 msgid ""
@@ -1656,10 +1672,13 @@ msgid ""
 "time period. However, day-by-day statistics would have a higher risk of "
 "becoming unreliable, which is why AntennaPod does not offer those."
 msgstr ""
+"As estatísticas mensuais normalmente son fiables, porque pertencen a un "
+"período longo de tempo. Pola contra, as estatísticas diarias poderían ser "
+"menos fiables, por isto AntennaPod non as mostra."
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
-msgstr ""
+msgstr "Por que non cambiamos isto"
 
 #: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
 msgid ""
@@ -1667,24 +1686,29 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
+"As estatísticas (o mellor: os gráficos) son divertidos. Logo por que non "
+"recollemos a información de xeito diferente para permitir máis opcións e "
+"datos máis polo miúdo en AntennaPod?"
 
 #: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
 msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
+"Sería posible, por exemplo, rexistrar para cada episodio durante canto tempo "
+"se escoitou cada día. Exemplo:"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
-msgstr ""
+msgstr "28 de Xuño: 7 minutos"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "30 June: 38 minutes"
-msgstr ""
+msgstr "30 de Xuño: 38 minutos"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "1 July: 19 minutes"
-msgstr ""
+msgstr "1 de Xullo: 19 minutos"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
 msgid ""
@@ -1694,6 +1718,11 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
+"Hai dúas razóns principais. Primeiro, aínda que nos gustas as estatísticas, "
+"**preferimos usar o tempo na tarefa principal de AntennaPod: reproducir "
+"podcasts**. Cambiar este obxectivo requeriría tempo no presente para "
+"implementalo (reescribindo o código que garda o tempo de escoita na base de "
+"datos) e tamén no futuro para manter este sistema máis complexo."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -1703,6 +1732,11 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
+"Segundo, **AntennaPod ocuparía máis espazo no teu dispositivo** - "
+"especialmente para as persoas que levan moitos anos usando a app. Isto é así "
+"porque no lugar dunha única fila por episodio na base de datos deberiamos "
+"gardar múltiples files para cada episodio reproducido cos tempos e datas, o "
+"que faría aumentar o tamaño da base de datos."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1710,6 +1744,10 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
+"Agardamos que desfrutes das estatísticas mensuais! 📊 (Se resulta que te "
+"dedicas ao desenvolvemento web e tes interese en facer un taboleiro que "
+"mostre as estatísticas de AntennaPod en función das exportacións da base de "
+"datos, por favor, contacta con nós no foro.)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
