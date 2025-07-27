@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-07-27 19:02+0000\n"
+"PO-Revision-Date: 2025-07-27 20:03+0000\n"
 "Last-Translator: Kjetil Sørlund <kjetil@sorlund.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/nb_NO/>\n"
@@ -1431,6 +1431,10 @@ msgid ""
 "'last week' to see the exact date on GitHub). If so, it should soon be "
 "picked up by the update checker."
 msgstr ""
+"Sjekk om og når [utgivelsen ble merket på GitHub](https://github.com/"
+"AntennaPod/AntennaPod/releases/latest) (det kan være at du må holde "
+"musepekeren over f.eks. «sist uke» for å se den nøyaktige datoen på GitHub). "
+"Om den er det vil den bli fanget opp av oppdateringssjekkeren."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1439,6 +1443,10 @@ msgid ""
 "Droid%20checkupdates%20bot) was updated since then. If so, it should soon be "
 "processed by the build server."
 msgstr ""
+"Sjekk om [F-Droid sin AntennaPod versjonsliste](https://gitlab.com/fdroid/"
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) er oppdatert "
+"siden da. Om så bør den bli prosessert av byggtjeneren snart."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1448,6 +1456,12 @@ msgid ""
 "en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
 "be cryptographically signed by an F-Droid contributor."
 msgstr ""
+"Sjekk om AntennaPod er bygget i den [pågående syklusen](https://"
+"monitor.f-droid.org/builds/running) eller i [sist syklus](https://"
+"monitor.f-droid.org/builds/build). Du kan også bruke appen "
+"[F-Droid build status](https://f-droid.org/en/packages/"
+"de.storchp.fdroidbuildstatus/) til dette. Om så bør den snart blir "
+"kryptografisk signert av en F-Droid bidragsyter."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1455,23 +1469,25 @@ msgid ""
 "listed in the success and fail lists yet, and you want to know if it will be "
 "built?"
 msgstr ""
+"Merk at det finnes ingen kø for apper som må bygges. AntennaPod er ikke "
+"listet i listene over vellykkede eller mislykkede bygg ennå og du ønsker å "
+"vite om den vil bli bygget?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr ""
+msgstr "klikk på «fdroiddata version» @ sett igang byggsyklus"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr ""
+msgstr "klikk på «Browse files»"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr ""
+msgstr "klikk på «Find file»"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid "copy and paste `de.danoeh.antennapod`"
-msgstr "Pakke skal være `de.danoeh.antennapod`"
+msgstr "kopier og lim inn `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
@@ -1479,7 +1495,7 @@ msgstr "Åpne filen"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr ""
+msgstr "sjekk om den inkluderer siste utgiveles"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
@@ -1572,6 +1588,9 @@ msgid ""
 "listening hours per subscription and per month. However, these statistics "
 "aren’t always as precise as they could be."
 msgstr ""
+"AntennaPod har statistikkskjermer som lar deg se antall lyttede timer per "
+"abonnement og per måned. Legg merke til at disse statistikkene er ikke "
+"alltid så nøyaktige som de burde være."
 
 #: _i18n/en/documentation/general/statistics.md:block 2 (header)
 msgid "Why the stats aren’t precise"
@@ -1580,18 +1599,23 @@ msgstr "Hvorfor statistikken ikke er helt presis"
 #: _i18n/en/documentation/general/statistics.md:block 3 (paragraph)
 msgid "To track statistics, AntennaPod records two things for each episode:"
 msgstr ""
+"For å følge med på statistikken lagrer AntennaPod to ting for hver episode:"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Played duration**: how long the episode was played (e.g. 6 minutes if a 3-"
 "minute episode was played twice)"
 msgstr ""
+"**Avspilt lengde**: hvor lenge ble episoden spilt (f.eks. 6 minutter om en 3-"
+"minutters episode ble spilt to ganger)"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Last played**: the date and time when playback was last paused or stopped "
 "for the episode"
 msgstr ""
+"**Sist spilt**: dato og klokkeslett når avspillingen av episoden sist ble "
+"pauset"
 
 #: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
 msgid ""
@@ -1599,6 +1623,10 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
+"Begge blir oppdatert hver gang en avspilling blir pauset eller stoppet. "
+"Denne informasjonen blir brukt til å beregne totalen ved å legge sammen "
+"'avspilt lengde' for alle episodene der datoen 'sist spilt' faller innenfor "
+"en gitt måned."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
