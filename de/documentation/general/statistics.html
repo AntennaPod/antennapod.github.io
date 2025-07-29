@@ -312,42 +312,54 @@
             <article class="post-content">
                 <h1 id="hörstatistiken">Hörstatistiken</h1>
 
-<p>AntennaPod has a statistics screen that lets you view the number of listening hours per subscription and per month. However, these statistics aren’t always as precise as they could be.</p>
+<p>AntennaPod verfügt über einen Statistikbildschirm, auf dem du die Anzahl der Hörstunden pro Abonnement und pro Monat sehen kannst. Allerdings sind diese Statistiken nicht immer so genau, wie sie sein könnten.</p>
 
-<h2 id="why-the-stats-arent-precise">Why the stats aren’t precise</h2>
+<h2 id="warum-die-statistiken-nicht-genau-sind">Warum die Statistiken nicht genau sind</h2>
 
-<p>To track statistics, AntennaPod records two things for each episode:</p>
+<p>Um Statistiken zu erstellen, zeichnet AntennaPod zwei Dinge für jede Episode auf:</p>
 
 <ul>
   <li>
-<strong>Played duration</strong>: how long the episode was played (e.g. 6 minutes if a 3-minute episode was played twice)</li>
+<strong>Abspieldauer</strong>: wie lange die Episode abgespielt wurde (z. B. 6 Minuten, wenn eine 3-minütige Episode zweimal abgespielt wurde)</li>
   <li>
-<strong>Last played</strong>: the date and time when playback was last paused or stopped for the episode</li>
+<strong>Letzte Wiedergabe</strong>: das Datum und die Uhrzeit, zu der die Wiedergabe der Episode zuletzt angehalten oder beendet wurde</li>
 </ul>
 
-<p>Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the ‘played duration’ of all episodes whose ‘last played’ date falls within a given month.</p>
+<p>Beides wird jedes Mal aktualisiert, wenn die Wiedergabe angehalten oder gestoppt wird. Diese Informationen werden verwendet, um die Gesamtzahlen zu berechnen, indem die „Abspieldauer“ aller Episoden, deren Datum der „letzten Wiedergabe“ in einen bestimmten Monat fällt, addiert wird.</p>
 
-<p>This approach means that if you listen to 7 minutes of an episode today and 38 minutes of that episode tomorrow, all 45 minutes are attributed to tomorrow. The same applies across months. If an episode is played both in June and July, all listening time is attributed to July. Similarly, if an episode is played both in December of one year and in January of the next, it is attributed to the second year.</p>
+<p>Wenn du heute 7 Minuten einer Folge hörst und morgen 38 Minuten dieser Folge, werden alle 45 Minuten dem morgigen Tag zugerechnet. Das Gleiche gilt für die Monate. Wenn eine Episode sowohl im Juni als auch im Juli abgespielt wird, wird die gesamte Hördauer dem Juli zugerechnet. Wenn eine Folge sowohl im Dezember eines Jahres als auch im Januar des nächsten Jahres gehört wird, wird sie dem zweiten Jahr zugerechnet.</p>
 
-<p>The monthly statistics are usually accurate because they look at a longer time period. However, day-by-day statistics would have a higher risk of becoming unreliable, which is why AntennaPod does not offer those.</p>
+<p>Die monatlichen Statistiken sind in der Regel genau, da sie einen längeren Zeitraum abdecken. Bei tagesgenauen Statistiken besteht jedoch ein höheres Risiko, dass sie ungenau sind, weshalb AntennaPod diese nicht bereitstellt.</p>
 
-<h2 id="why-we-dont-want-to-change-it">Why we don’t want to change it</h2>
+<h2 id="warum-wir-das-nicht-ändern-wollen">Warum wir das nicht ändern wollen</h2>
 
-<p>Stats (or rather: graphs) are fun. So why don’t we record information differently to allow for more filter options and more granular data in AntennaPod?</p>
+<p>Statistiken (oder besser: Diagramme) machen Spaß. Warum also erfassen wir Informationen nicht anders, um mehr Filteroptionen und granularere Daten in AntennaPod zu ermöglichen?</p>
 
-<p>It would be possible, for example, to record for each episode how long it was played on each day. For instance:</p>
+<p>Es wäre zum Beispiel möglich, für jede Episode zu erfassen, wie lange sie an jedem Tag abgespielt wurde. Zum Beispiel:</p>
 
 <ul>
-  <li>28 June: 7 minutes</li>
-  <li>30 June: 38 minutes</li>
-  <li>1 July: 19 minutes</li>
+  <li>
+    <ol>
+      <li>Juni: 7 Minuten</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Juni: 38 Minuten</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Juli: 19 Minuten</li>
+    </ol>
+  </li>
 </ul>
 
-<p>There’s two main reasons. Firstly, while statistics are fun, <strong>we rather spend time on AntennaPod’s main purpose: playing podcasts</strong>. Changing to this new approach would require time now to implement it (rewriting the code that saves playback time in the database) and time in future to maintain a more complex system.</p>
+<p>Dafür gibt es zwei Hauptgründe. Erstens: Statistiken machen zwar Spaß, aber <strong>wir verbringen unsere Zeit lieber mit dem Hauptzweck von AntennaPod: dem Abspielen von Podcasts</strong>. Das Umstellen auf diesen neuen Ansatz würde jetzt Zeit für die Implementierung (Neuschreiben des Codes, der die Wiedergabezeit in der Datenbank speichert) und in Zukunft Zeit für die Pflege eines komplexeren Systems erfordern.</p>
 
-<p>Secondly, <strong>AntennaPod would take up more space on your phone</strong> - espcially for loyal users who stick with the app for several years. That’s because instead of a single row per episode in the database we would need to store multiple rows for each played episode to store the playback duration, which causes the database size to increase.</p>
+<p>Zweitens, <strong>AntennaPod würde mehr Speicherplatz auf Ihrem Telefon</strong> benötigen – vor allem bei treuen Nutzern, welche die App mehrere Jahre lang verwenden. Das liegt daran, dass wir anstelle einer einzigen Zeile pro Episode in der Datenbank mehrere Zeilen für jede abgespielte Episode speichern müssten, um die Wiedergabedauer zu speichern, was die Datenbankgröße erhöht.</p>
 
-<p>We hope you’ll enjoy the month-based statistics! 📊 (If you happen to be a web developer interested in making a dedicated dashboard for AntennaPod statistics based on database exports, please do ping us on the forum.)</p>
+<p>Wir wünschen dir viel Spaß mit den monatlichen Statistiken! 📊 (Wenn du ein Webentwickler sind, der daran interessiert ist, ein spezielles Dashboard für AntennaPod-Statistiken auf der Grundlage von Datenbankexporten zu erstellen, melde dich bitte bei uns im Forum.)</p>
 
 
             </article>
