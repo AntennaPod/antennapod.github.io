@@ -37,7 +37,7 @@ Vi *har* tagget udgivelsen på GitHub? Som F-Droid-teamet [bemærker](https://gi
 Hvis du vil, kan du følge disse trin for at få en idé om fremskridtene:
 
 1. Tjek, om og hvornår [udgivelsen blev tagget på GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (det kan være nødvendigt at holde musen over f.eks. 'sidste uge' for at se den nøjagtige dato på GitHub). Hvis det er tilfældet, burde det snart blive opfanget af opdateringskontrollen.
-1. Tjek om [F-Droid's AntennaPod-versionsliste](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) er blevet opdateret siden da. I så fald burde den snart blive behandlet af build-serveren.
+1. Tjek om [F-Droid's AntennaPod-versionsliste](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=checkupdates%20bot) er blevet opdateret siden da. I så fald burde den snart blive behandlet af build-serveren.
 1. Tjek, om AntennaPod blev bygget i den [løbende cyklus](https://monitor.f-droid.org/builds/running) eller den [sidste cyklus](https://monitor.f-droid.org/builds/build). Du kan også bruge appen [F-Droid build status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/) til dette. I så fald bør den snart blive kryptografisk signeret af en F-Droid-medarbejder.
    * Bemærk, at der ikke er nogen kø for apps, der skal bygges. AntennaPod er ikke opført på listerne for succes og mislykket endnu, og du vil gerne vide, om den vil blive bygget?
       1. klik på 'fdroiddata version' @ commit of a build cycle
