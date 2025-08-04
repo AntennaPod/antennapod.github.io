@@ -14,14 +14,14 @@ In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements 
 
 ## Anleitungen für einige Automatisierungs-Apps
 
-### Automate ([Webseite](https://llamalab.com/automate/))
+### Automate ([Website](https://llamalab.com/automate/))
 
 Füge einen Block des Typs `APPS` » `Broadcast senden` ein und spezifiziere
 
 1. Paket zu `de.danoeh.antennapod`
 1. Die Empfängerklasse sollte `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` sein
 
-### Tasker ([Webseite](https://tasker.joaoapps.com/))
+### Tasker ([Website](https://tasker.joaoapps.com/))
 
 Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu
 
@@ -32,7 +32,7 @@ Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu
 1. Gib als Ziel `Broadcast-Empfänger` an
 1. Du kannst die anderen Felder leer lassen
 
-### Llama – Standortprofile ([Webseite](http://kebabapps.blogspot.com/search/label/Llama))
+### Llama – Standortprofile ([Website](http://kebabapps.blogspot.com/search/label/Llama))
 
 Erstelle ein Ereignis (Llama-Automatisierungsregel). In dem Ereignis,
 

@@ -1,4 +1,4 @@
-Du hast eine Benachrichtigung erhalten, weil das Herunterladen mit Fehlern abgeschlossen wurde? Dann konnte AntennaPod den Podcast nicht aktualisieren oder eine Audiodatei von der Webseite des Podcast-Hosters herunterladen.
+Du hast eine Benachrichtigung erhalten, weil das Herunterladen mit Fehlern abgeschlossen wurde? Dann konnte AntennaPod den Podcast nicht aktualisieren oder eine Audiodatei von der Website des Podcast-Hosters herunterladen.
 
 Probleme, die nur bei einem oder wenigen bestimmten Podcasts auftreten, hängen oft mit ebenjenen Podcasts zusammen. Um festzustellen, ob dies der Fall ist, kannst du folgende Schritte ausführen:
 

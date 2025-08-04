@@ -1,6 +1,6 @@
 Vielleicht möchtest du schreien *Hilfe! Ich habe meine Podcasts/Episoden/Einstellungen/alles verloren!*
 
-In einer sehr alten Version von AntennaPod gab es einige Probleme mit der Datenbank mit allen Informationen (Episoden, Hörstatus, etc.). Die Ursache ist zwar längst behoben, aber Ihre Datenbank wurde möglicherweise beschädigt (auch wenn die App ohne Probleme funktioniert hat). Wenn eine neuere AntennaPod-Version Änderungen an den beschädigten Teilen der Datenbank vornimmt, können diese Schäden plötzlich zu einem Problem werden. In diesem Fall kann AntennaPod nicht mehr mit der beschädigten Datenbank arbeiten und muss mit einer leeren Datenbank neu beginnen.
+In einer sehr alten Version von AntennaPod gab es einige Probleme mit der Datenbank mit allen Informationen (Episoden, Hörstatus, etc.). Die Ursache ist zwar längst behoben, aber deine Datenbank wurde möglicherweise beschädigt (auch wenn die App ohne Probleme funktioniert hat). Wenn eine neuere AntennaPod-Version Änderungen an den beschädigten Teilen der Datenbank vornimmt, können diese Schäden plötzlich zu einem Problem werden. In diesem Fall kann AntennaPod nicht mehr mit der beschädigten Datenbank arbeiten und muss mit einer leeren Datenbank neu beginnen.
 
 Wir wissen, dass es sehr frustrierend ist, wenn so etwas passiert, und es tut uns sehr leid, wenn du davon betroffen bist.
 

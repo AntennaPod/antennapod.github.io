@@ -1,4 +1,4 @@
-AntennaPod wird von einzelnen Freiwilligen entwickelt und gepflegt und nicht von einer juristischen Person vertreten. Die Gemeinschaft braucht deine Daten nicht, daher sind Anwendung und Webseite vollständig DSGVO-konform. Lies weiter, um mehr zu erfahren.
+AntennaPod wird von einzelnen Freiwilligen entwickelt und gepflegt und nicht von einer juristischen Person vertreten. Die Gemeinschaft braucht deine Daten nicht, daher sind App und Website vollständig DSGVO-konform. Lies weiter, um mehr zu erfahren.
 
 ## Daten, die von AntennaPod erfasst, gespeichert und verarbeitet werden
 
@@ -24,7 +24,7 @@ Die App fordert die folgenden datenschutzrelevanten Android-Berechtigungen an:
 ## Daten, die von den AntennaPod Online-Diensten erfasst, gespeichert und verarbeitet werden können
 
 - Das Spendensystem: AntennaPod verwendet Open Collective, angeboten von Open Collective Inc (USA) & Open Collective Europe ASBL (Belgien). Wenn du spendest, erhalten diese Einrichtungen Zugang zu bestimmten Daten. Weitere Informationen findest du in der [Datenschutzrichtlinie von Open Collective](https://opencollective.com/privacypolicy).
-- Die Website: AntennaPods Webseite wird per GitHub Pages bereitgestellt. [In den Datenschutzrichtlinien von GitHub](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages) wird darauf hingewiesen, dass „GitHub personenbezogene Nutzerdaten von Besuchern Ihrer GitHub Pages-Webseite erfassen kann, einschließlich Protokolle der IP-Adressen von Besuchern, um rechtlichen Verpflichtungen nachzukommen und die Sicherheit und Integrität der Webseite und des Dienstes aufrechtzuerhalten.“ Die Webseite speichert keine Cookies auf deinem Computer, und es werden keine Tracking- (Analyse-) oder andere Dienste von Dritten verwendet.
+- Die Website: AntennaPods Website wird per GitHub Pages bereitgestellt. [In den Datenschutzrichtlinien von GitHub](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages) wird darauf hingewiesen, dass „GitHub personenbezogene Daten von Besuchern Ihrer GitHub-Pages-Website erfassen kann, einschließlich Protokolle der IP-Adressen von Besuchern, um gesetzlichen Verpflichtungen nachzukommen und die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten.“ Die Website speichert keine Cookies auf deinem Gerät, und es werden keine Tracking- (Analyse-) oder andere Dienste von Drittanbietern verwendet.
 - Das Forum: Das Forum von AntennaPod verwendet die Software Discourse, die vom Kernteam bereitgestellt wird. Welche Daten gespeichert werden, kannst du der [Datenschutzrichtlinie des Forums](https://forum.antennapod.org/privacy) entnehmen.
 
 ## Daten, auf die das Kernteam von AntennaPod zugreifen kann
@@ -43,7 +43,7 @@ Die Entwickler von AntennaPod haben **keinen**Zugang zu deinen Daten, es sei den
    - Android-Version
 - besuchst unser Forum: Wie in der [Datenschutzrichtlinie des Forums](https://forum.antennapod.org/privacy) beschrieben
 - leistest aktiv einen finanziellen Beitrag über Open Collective (es sei denn, du leistest einen [Gast-](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) oder [inkognito](https://docs.opencollective.com/help/financial-contributors/payments#profile) Beitrag):
-   - öffentliche Profilinformationen (Name, Unternehmen, Beschreibung, Bild, Twitter, GitHub, Webseite)
+   - öffentliche Profilinformationen (Name, Unternehmen, Beschreibung, Bild, Twitter, GitHub, Website)
    - E-Mail-Adresse
 
 ## Aktualisierungen dieser Datenschutzrichtlinie
