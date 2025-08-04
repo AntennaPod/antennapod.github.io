@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2025-07-24 07:02+0000\n"
+"PO-Revision-Date: 2025-08-04 14:02+0000\n"
 "Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/de/>\n"
@@ -66,20 +66,17 @@ msgstr ""
 "heruntergeladenen Episoden."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "By default, all podcasts are refreshed with a 12-hour interval to pick up "
 "new episodes. Via `Settings` » `Network` » `Refresh podcasts` you can change "
 "the interval period or turn off the automatic updates."
 msgstr ""
 "Standardmäßig werden alle Podcasts in einem Intervall von 12 Stunden "
-"aktualisiert, um neue Episoden zu finden. Über `Einstellungen` » `Netzwerk` "
-"» `Podcasts aktualisieren` kannst du den Intervallzeitraum ändern, eine "
-"bestimmte Tageszeit auswählen oder die automatischen Aktualisierungen "
-"abschalten."
+"aktualisiert, um neue Episoden zu finden. Über `Einstellungen` » `Netzwerk` »"
+" `Podcasts aktualisieren` kannst du den Intervallzeitraum ändern oder die "
+"automatischen Aktualisierungen deaktivieren."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "You can also turn off this process for individual podcasts in case keeping a "
 "podcast up to date is unnecessary. You can use this, for example, if a "
@@ -94,10 +91,9 @@ msgstr ""
 "mehr erscheinen. Oder wenn du einen Podcast hinzugefügt hast, von dem du nur "
 "gelegentlich eine Episode hören möchtest. Du kannst die Option ändern, indem "
 "du zu einem Podcast gehst, auf das `Zahnrad`-Symbol tippst und die "
-"Einstellung `Aktualisiert halten` änderst."
+"Einstellung `Aktuell halten` änderst."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "When you turn off this podcast setting, the podcast will no longer be "
 "updated when podcasts get refreshed automatically, or when you initiate this "
@@ -106,10 +102,9 @@ msgid ""
 msgstr ""
 "Wenn du diese Podcast-Einstellung deaktivierst, wird der Podcast nicht mehr "
 "aktualisiert, wenn die Podcasts automatisch aktualisiert werden, oder wenn "
-"du die Aktualisierung über die Warteschlange oder den Bildschirm „Episoden“ "
-"startest. Du kannst diesen Podcast immer noch direkt aktualisieren, wodurch "
-"neue Episoden in AntennaPod gefunden werden. Diese neuen Episoden werden "
-"nicht auf der Registerkarte „Neu“ des Bildschirms „Episoden“ angezeigt."
+"du diesen Vorgang über `Warteschlange` oder `Episoden` startest. Du kannst "
+"diesen Podcast weiterhin aktualisieren, wodurch neue Episoden in AntennaPod "
+"angezeigt werden."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -1493,7 +1488,6 @@ msgstr ""
 "erfasst werden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid ""
 "Check if [F-Droid's AntennaPod versions list](https://gitlab.com/fdroid/"
 "fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?"
@@ -1501,9 +1495,10 @@ msgid ""
 "processed by the build server."
 msgstr ""
 "Prüfe, ob [F-Droids AntennaPod-Versionsliste](https://gitlab.com/fdroid/"
-"fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-"
-"Droid%20checkupdates%20bot) seitdem aktualisiert wurde. Wenn ja, sollte sie "
-"bald vom Build-Server verarbeitet werden."
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) seitdem "
+"aktualisiert wurde. Wenn ja, sollte sie bald vom Build-Server verarbeitet "
+"werden."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1747,7 +1742,6 @@ msgid "1 July: 19 minutes"
 msgstr "1. Juli: 19 Minuten"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
-#, fuzzy
 msgid ""
 "There are two main reasons. Firstly, while statistics are fun, **we rather "
 "spend time on AntennaPod's main purpose: playing podcasts**. Changing to "
@@ -1756,11 +1750,11 @@ msgid ""
 "more complex system."
 msgstr ""
 "Dafür gibt es zwei Hauptgründe. Erstens: Statistiken machen zwar Spaß, aber "
-"**wir verbringen unsere Zeit lieber mit dem Hauptzweck von AntennaPod: dem "
-"Abspielen von Podcasts**. Das Umstellen auf diesen neuen Ansatz würde jetzt "
-"Zeit für die Implementierung (Neuschreiben des Codes, der die Wiedergabezeit "
-"in der Datenbank speichert) und in Zukunft Zeit für die Pflege eines "
-"komplexeren Systems erfordern."
+"**wir möchten unsere Zeit lieber für den Hauptzweck von AntennaPod verwenden:"
+" das Abspielen von Podcasts**. Das Umstellen auf diesen neuen Ansatz würde "
+"jetzt Zeit für die Implementierung (Neuschreiben des Codes, der die "
+"Wiedergabezeit in der Datenbank speichert) und in Zukunft Zeit für die "
+"Pflege eines komplexeren Systems erfordern."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 #, fuzzy
@@ -2194,11 +2188,12 @@ msgid ""
 "content pretty easily. You should reach out to them, share the SoundCloud "
 "help page (linked just before), and ask if they're willing to set it up."
 msgstr ""
-"SoundCloud ermöglicht es [Produzenten Podcasts ganz einfach aus ihren "
-"Inhalten zu erstellen](https://help.soundcloud.com/hc/de/"
-"articles/115003451347-Adding-tracks-to-your-RSS-feed). Du solltest dich mit "
-"ihnen in Verbindung setzen, die SoundCloud-Hilfeseite (siehe Link zuvor) mit "
-"ihnen teilen und sie fragen, ob sie bereit sind, es einzurichten."
+"SoundCloud ermöglicht es "
+"[Produzenten, Podcasts ganz einfach aus ihren Inhalten zu erstellen](https://"
+"help.soundcloud.com/hc/de/articles/115003451347-Adding-tracks-to-your-RSS-"
+"feed). Du solltest dich mit ihnen in Verbindung setzen, die SoundCloud-"
+"Hilfeseite (siehe Link zuvor) mit ihnen teilen und fragen, ob sie bereit "
+"sind, dies einzurichten."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 9 (header)
 msgid "Mixcloud"
