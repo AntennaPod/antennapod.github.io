@@ -12,7 +12,7 @@ Wir haben einige Fragen zur Unterstützung von Plattformen wie SoundCloud, Mixcl
 
 ### SoundCloud
 
-SoundCloud ermöglicht es [Produzenten Podcasts ganz einfach aus ihren Inhalten zu erstellen](https://help.soundcloud.com/hc/de/articles/115003451347-Adding-tracks-to-your-RSS-feed). Du solltest dich mit ihnen in Verbindung setzen, die SoundCloud-Hilfeseite (siehe Link zuvor) mit ihnen teilen und sie fragen, ob sie bereit sind, es einzurichten.
+SoundCloud ermöglicht es [Produzenten, Podcasts ganz einfach aus ihren Inhalten zu erstellen](https://help.soundcloud.com/hc/de/articles/115003451347-Adding-tracks-to-your-RSS-feed). Du solltest dich mit ihnen in Verbindung setzen, die SoundCloud-Hilfeseite (siehe Link zuvor) mit ihnen teilen und fragen, ob sie bereit sind, dies einzurichten.
 
 ### Mixcloud
 

@@ -4,7 +4,7 @@ AntennaPod wird von einzelnen Freiwilligen entwickelt und gepflegt und nicht von
 
 Die App erfasst nur Daten, die für die Funktion unbedingt erforderlich sind. Dazu gehören z. B. die Liste der Podcasts, denen du folgst, die Appeinstellungen und Authentifizierungsdaten, die für bestimmte Podcasts oder Dienste (wie Synchronisierungsdienste) bereitgestellt werden. Die App enthält keine Werbebibliotheken oder Tracking-/(Analyse-)Codes von Drittanbietern, wie z. B. Google Analytics.
 
-**Alle Daten, die du bei der Nutzung der AntennaPod-App angibst und erstellst, werden lokal auf Ihrem Gerät gespeichert. AntennaPod sendet deine Daten nirgendwohin und lädt sie auch nicht hoch, es sei denn, dies ist für das Funktionieren der App unbedingt erforderlich.** Im übernächsten Abschnitt findest du Fälle, in denen deine Daten an Dritte weitergegeben werden können.
+**Alle Daten, die du beim Nutzen der AntennaPod-App angibst und erstellst, werden lokal auf deinem Gerät gespeichert. AntennaPod sendet deine Daten nirgendwohin und lädt sie auch nicht hoch, es sei denn, dies ist für das Funktionieren der App unbedingt erforderlich.** Im übernächsten Abschnitt findest du Fälle, in denen deine Daten an Dritte weitergegeben werden können.
 
 Der einzige Fall, in dem deine Daten von Drittanbietern verarbeitet werden, ist die Verwendung eines Synchronisationsdienstes, wenn dieser in den Einstellungen aktiviert ist. In diesem Fall kann die App vom Dienst bereitgestellte Abonnements und Wiedergabeereignisse empfangen.
 
