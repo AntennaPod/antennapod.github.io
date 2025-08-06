@@ -23,7 +23,7 @@ Het zou mogelijk zijn om voor iedere aflevering op te slaan hoe lang hij op iede
 * 30 Juni: 38 minuten
 * 1 Juli: 19 minuten
 
-Er zijn twee redenen. Ten eerste, hoewel statistieken leuk zijn, **spenderen we onze tijd liever aan het hoofddoel van AntennaPod: het afspelen van podcasts**. Deze aanpak veranderen zou nu tijd kosten om te implementeren (het herschrijven van de code die de afspeeltijd in de database opslaat) en later nog meer tijd om een complexer systeem te onderhouden.
+Er zijn twee hoofdredenen. Ten eerste, hoewel statistieken leuk zijn, **spenderen we onze tijd liever aan het hoofddoel van AntennaPod: het afspelen van podcasts**. Deze aanpak veranderen zou nu tijd kosten om te implementeren (het herschrijven van de code die de afspeeltijd in de database opslaat) en later nog meer tijd om een complexer systeem te onderhouden.
 
 Ten tweede, **AntennaPod zou meer ruimte innemen op je apparaat** - vooral voor trouwe gebruikers die de app meerdere jaren gebruiken. Dat komt omdat we een enkele rij in de database per aflevering zouden moeten vervangen door meerdere rijen per afgespeelde aflevering om de afspeeltijd op te slaan, waardoor de database groter wordt.
 
