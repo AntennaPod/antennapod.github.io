@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-07-27 22:15+0000\n"
+"PO-Revision-Date: 2025-08-08 11:01+0000\n"
 "Last-Translator: Kjetil Sørlund <kjetil@sorlund.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/nb_NO/>\n"
@@ -62,19 +62,16 @@ msgstr ""
 "episoder."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "By default, all podcasts are refreshed with a 12-hour interval to pick up "
 "new episodes. Via `Settings` » `Network` » `Refresh podcasts` you can change "
 "the interval period or turn off the automatic updates."
 msgstr ""
 "Som standard oppdateres alle podkaster hver tolvte time for å finne nye. Via "
-"`Innstillinger` → `Nettverk` → `Oppdater podkaster` kan du endre "
-"intervallet, velge et spesielt tidspunkt på dagen, eller skru av automatiske "
-"oppdateringer."
+"`Innstillinger` → `Nettverk` → `Oppdater podkaster` kan du endre intervallet "
+"eller skru av automatiske oppdateringer."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "You can also turn off this process for individual podcasts in case keeping a "
 "podcast up to date is unnecessary. You can use this, for example, if a "
@@ -85,13 +82,12 @@ msgid ""
 msgstr ""
 "Du kan også slå av denne prosessen for individuelle podkaster hvis det ikke "
 "er nødvendig å holde en podkast oppdatert. Du kan for eksempel bruke dette "
-"hvis det ikke lenger publiseres nye episoder for en podkast. Eller når du "
+"hvis det ikke lenger publiseres nye episoder for en podkast, eller når du "
 "har lagt til en podkast som du bare vil lytte til en episode av og til. Du "
 "kan angi dette ved å gå til en podkast, trykke på `tannhjul`-ikonet og endre "
 "innstillingen `Hold oppdatert`."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "When you turn off this podcast setting, the podcast will no longer be "
 "updated when podcasts get refreshed automatically, or when you initiate this "
@@ -100,9 +96,8 @@ msgid ""
 msgstr ""
 "Når du slår av denne podkastinnstillingen, vil podkasten ikke lenger "
 "oppdateres når podkaster oppdateres automatisk eller når du starter denne "
-"prosessen fra køen eller episoder-skjermen. Du kan fortsatt oppdatere "
-"podkasten for seg. Det vil laste ned nye episoder til AntennaPod, men disse "
-"nye episodene vil ikke være synlige i Ny-fanen på Episoder-skjermen."
+"prosessen fra `køen eller `episoder`-skjermen. Du kan fortsatt oppdatere "
+"podkasten for seg. Det vil laste ned nye episoder til AntennaPod."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -1438,7 +1433,6 @@ msgstr ""
 "Om den er det vil den bli fanget opp av oppdateringssjekkeren."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid ""
 "Check if [F-Droid's AntennaPod versions list](https://gitlab.com/fdroid/"
 "fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?"
@@ -1446,9 +1440,9 @@ msgid ""
 "processed by the build server."
 msgstr ""
 "Sjekk om [F-Droid sin AntennaPod versjonsliste](https://gitlab.com/fdroid/"
-"fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-"
-"Droid%20checkupdates%20bot) er oppdatert siden da. Om så bør den bli "
-"prosessert av byggtjeneren snart."
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=checkupdates%20bot) er oppdatert siden da. "
+"Om så bør den bli prosessert av byggtjeneren snart."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1650,6 +1644,9 @@ msgid ""
 "time period. However, day-by-day statistics would have a higher risk of "
 "becoming unreliable, which is why AntennaPod does not offer those."
 msgstr ""
+"Månedlige statistikker er vanligvis nøyaktig fordi de ser på en lengre "
+"tidsperiode. Siden statistikken dag for dag vil ha en høyere risiko for å "
+"være unøyaktig tilbys ikke dette i AntennaPod."
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
@@ -1661,12 +1658,17 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
+"Statistikk (eller egentlig: grafer) er artig. Så hvorfor registrerer vi ikke "
+"informasjonen annerledes for å kunne tilby flere filtreringsalternativer og "
+"mer detaljerte data i AntennaPod?"
 
 #: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
 msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
+"Det vil være mulig å eksempelvis registrere hvor lenge det er avspilt hver "
+"dag. Se på dette:"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
@@ -1688,6 +1690,11 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
+"Det er to hovedgrunnen. Først og fremst, selv om statistikk er gøy, **vil vi "
+"heller bruke tiden på AntennaPod sin hovedhensikt: spille podkaster**. Å "
+"endre til denne nye metoden vil kreve mye tid nå for å implementer (skrive "
+"om koden som lagrer avspillingstider til databasen) og tid i framtiden for å "
+"vedlikeholde et mer komplekst system."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -1697,6 +1704,11 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
+"Dernest, **ville AntennaPod brukt mer plass på telefonen din** - spesielt "
+"for lojale brukere søm holder seg til appen i flere år. Det er fordi i "
+"stedet for å en enkelt linje pr episode i databasen må vi langre mange "
+"linjer per avspilt episode for å lagre hvor lenge den er avspilt, noe som "
+"vil forårsake at databasen øker i størrelse."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1704,6 +1716,10 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
+"Vi håper du setter pris på månedsvis statistikk! 📊 (hvis du tilfeldigvis er "
+"en webutvikler som er interessert å lage et dedikert grensesnitt for "
+"statistikk fra AntennaPod basert på databaseeksport, kan du ta kontakt med "
+"oss på forumet.)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
