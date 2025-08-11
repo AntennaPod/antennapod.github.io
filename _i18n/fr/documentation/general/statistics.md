@@ -4,8 +4,8 @@ AntennaPod comporte un écran de statistiques vous permettant de voir le nombre 
 
 Afin d'établir des statistiques, AntennaPod enregistre deux éléments pour chaque épisode :
 
-* **Played duration**: how long the episode was played (e.g. 6 minutes if a 3-minute episode was played twice)
-* **Last played**: the date and time when playback was last paused or stopped for the episode
+* **Durée de lecture** : pendant combien de temps l'épisode a été retransmis (i.e. 6 minutes, si un épisode de 3 minutes a été lu deux fois)
+* **Dernière lecture** : la date et le moment où la lecture a été pour la dernière fois mise en pause ou stoppée pour l'épisode
 
 Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the 'played duration' of all episodes whose 'last played' date falls within a given month.
 
