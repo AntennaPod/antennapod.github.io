@@ -37,7 +37,7 @@ Non abbiamo ancora taggato la [versione su GitHub](https://github.com/AntennaPod
 Se vuoi, puoi seguire questi passaggi per farti un'idea sullo stato di avanzamento:
 
 1. Controlla se e quando la [versione è stata taggata su GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (potresti dover passare il cursore su, per esempio, "la settimana scorsa" per vedere la data precisa su GitHub). In quel caso, il controllo aggiornamenti la dovrebbe rilevare presto.
-1. Controlla se [l'elenco delle versioni di AntennaPod su F-Droid](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) è stato aggiornato da allora. In quel caso, il server di compilazione dovrebbe processarla presto.
+1. Controlla se [l'elenco delle versioni di AntennaPod su F-Droid](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=checkupdates%20bot) è stato aggiornato da allora. In quel caso, il server di compilazione dovrebbe processarla presto.
 1. Controlla se AntennaPod è stato compilato nel [ciclo in esecuzione](https://monitor.f-droid.org/builds/running) o nell'[ultimo ciclo](https://monitor.f-droid.org/builds/build). Puoi farlo anche utilizzando l'app [F-Droid build status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/). In quel caso, un contributore di F-Droid dovrebbe firmarla crittograficamente presto.
    * Tieni presente che non c'è una coda per le app che devono essere compilate. AntennaPod non compare ancora negli elenchi di successo e fallimento, e vuoi sapere se sarà compilato?
       1. clicca su "fdroiddata version" @ commit di un ciclo di compilazione
