@@ -21,7 +21,7 @@ En bref : cela peut prendre un certain temps. Nous vous demandons d'être patie
 
 ### Donc, quel est l'ETA (Temps d'Arrivée Estimé) ?
 
-As you can see, there are a lot of steps which each take a varying amount of time. We usually take well over a month between releasing a beta version and tagging the release on GitHub. After the release is tagged, F-Droid usually takes four to six days to process it.
+Comme vous pouvez le voir, de nombreuses étapes requièrent un laps de temps variable. Il nous faut habituellement plus d'un mois entre la publication d'une version bêta et l'étiquetage de la version finale sur GitHub. Après avoir étiqueté la nouvelle version, quatre à six jours sont généralement nécessaires pour qu'elle soit intégrée par F-Droid.
 
 ### Ce que vous pouvez faire si la procédure prend plus de temps que prévu
 
@@ -36,11 +36,11 @@ Nous *avons* étiqueté la nouvelle version sur Github ? Comme l'équipe de F-
 
 Si vous le voulez, vous pouvez suivre ces étapes pour avoir une idée de la progression :
 
-1. Check if and when the [release was tagged on GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (you may need to hover, for example, 'last week' to see the exact date on GitHub). If so, it should soon be picked up by the update checker.
+1. Vérifiez si et quand la [nouvelle version a été étiquetée sur GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (il se peut qu'il vous faille passer votre curseur sur, par exemple, « la semaine dernière » pour voir la date exacte sur GitHub). Si c'est le cas, celle-ci devrait être bientôt prise en charge par le vérificateur de mises à jour.
 1. Vérifiez si [la liste de F-Droid des versions d'AntennaPod](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) a été mise à jour depuis. Si c'est le cas, elle devrait être bientôt traitée par le serveur de publication.
 1. Vérifiez si AntennaPod a été compilée durant le [cycle d'exécution](https://monitor.f-droid.org/builds/running) ou le [dernier cycle](https://monitor.f-droid.org/builds/build). Vous pouvez utiliser pour cela l'application [F-Droid Build Status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/). Si c'est le cas, elle devrait être bientôt signée cryptographiquement par un contributeur à F-Droid.
-   * Note that there's no queue for apps that need to be built. AntennaPod is not listed in the success and fail lists yet, and you want to know if it will be built?
-      1. click on 'fdroiddata version' @ commit of a build cycle
+   * Notez qu'il n'y a pas de liste d'attente pour les apps à construire. AntennaPod n'est pas encore listée parmi les succès ou les échecs, et vous voudriez savoir si elle va être compilée ?
+      1. cliquez sur 'fdroiddata version' @ commit of a build cycle
       1. cliquez sur « Parcourir les fichiers »
       1. cliquez sur « Rechercher un fichier »
       1. Le paquet doit être `de.danoeh.antennapod`
