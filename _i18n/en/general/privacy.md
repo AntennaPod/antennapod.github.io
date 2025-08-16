@@ -30,8 +30,8 @@ The only instance in which personal data *from* third parties is handled is when
 - When enabled via the settings, AntennaPod synchronizes your data. This may include login credentials, subscribed podcasts, listened episodes, play/pause/favorite actions with timestamps, and your IP address. For more information, see your synchronization provider's privacy policy.
 - If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back up my data`), Android will periodically save a copy of your phone's data in Google's servers. This backup contains private information, including your WiFi passwords, messages and call history. It may also include data from AntennaPod and from other apps you use. The developers of AntennaPod do not have access to this data. For more information, see [Google's privacy policy](https://policies.google.com).
 
-#### Android system managers
-If you enabled [sharing of usage and diagnostics](https://support.google.com/accounts/answer/6078260) with Google and use Android's reporting functionality when AntennaPod crashes or becomes unresponsive, related data i sent to Google. For more information, see [Google's privacy policy](https://policies.google.com).
+#### Device and operating system vendors
+If you enabled [sharing of usage and diagnostics](https://support.google.com/accounts/answer/6078260) with Google and use Android's reporting functionality when AntennaPod crashes or becomes unresponsive, related data is sent to Google. For more information, see [Google's privacy policy](https://policies.google.com).
 
 ## Online services
 
