@@ -7,24 +7,24 @@ Para realizar un seguimiento de las estadísticas, AntennaPod registra dos cosas
 * **Duración de reproducción**: cuánto tiempo se reprodujo el episodio (por ejemplo, 6 minutos si un episodio de 3 minutos se reprodujo dos veces)
 * **Última reproducción**: la fecha y hora en que se pausó o detuvo por última vez la reproducción del episodio
 
-Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the 'played duration' of all episodes whose 'last played' date falls within a given month.
+Ambos se actualizan cada vez que se pausa o detiene la reproducción. Esta información se utiliza para calcular los totales sumando la 'duración de reproducción' de todos los episodios cuya 'última fecha de reproducción' coincide con un mes determinado.
 
-This approach means that if you listen to 7 minutes of an episode today and 38 minutes of that episode tomorrow, all 45 minutes are attributed to tomorrow. The same applies across months. If an episode is played both in June and July, all listening time is attributed to July. Similarly, if an episode is played both in December of one year and in January of the next, it is attributed to the second year.
+Este enfoque significa que si escuchas 7 minutos de un episodio hoy y 38 minutos mañana, los 45 minutos se atribuyen al día siguiente. Esto aplica a todos los meses. Si un episodio se reproduce tanto en junio como en julio, todo el tiempo de escucha se atribuye a julio. De igual manera, si un episodio se reproduce tanto en diciembre de un año como en enero del siguiente, se atribuye al segundo año.
 
-The monthly statistics are usually accurate because they look at a longer time period. However, day-by-day statistics would have a higher risk of becoming unreliable, which is why AntennaPod does not offer those.
+Las estadísticas mensuales suelen ser precisas porque abarcan un período más largo. Sin embargo, las estadísticas diarias podrían ser poco fiables, por lo que AntennaPod no las ofrece.
 
-## Why we don’t want to change it
+## Por qué no queremos cambiarlo
 
-Stats (or rather: graphs) are fun. So why don’t we record information differently to allow for more filter options and more granular data in AntennaPod?
+Las estadísticas (o mejor dicho, los gráficos) son divertidas. Entonces, ¿por qué no registramos la información de forma diferente para permitir más opciones de filtrado y datos más granulares en AntennaPod?
 
-It would be possible, for example, to record for each episode how long it was played on each day. For instance:
+Sería posible, por ejemplo, registrar la duración de cada episodio cada día. Por ejemplo:
 
-* 28 June: 7 minutes
-* 30 June: 38 minutes
-* 1 July: 19 minutes
+* 28 de junio: 7 minutos
+* 30 de junio: 38 minutos
+* 1 de julio: 19 minutos
 
-There are two main reasons. Firstly, while statistics are fun, **we rather spend time on AntennaPod's main purpose: playing podcasts**. Changing to this new approach would require time now to implement it (rewriting the code that saves playback time in the database) and time in future to maintain a more complex system.
+Hay dos razones principales. En primer lugar, si bien las estadísticas son divertidas, **preferimos dedicar tiempo al propósito principal de AntennaPod: reproducir podcasts**. Adoptar este nuevo enfoque requeriría tiempo ahora para implementarlo (reescribir el código que ahorra tiempo de reproducción en la base de datos) y tiempo en el futuro para mantener un sistema más complejo.
 
-Secondly, **AntennaPod would take up more space on your phone** - especially for loyal users who stick with the app for several years. That's because instead of a single row per episode in the database we would need to store multiple rows for each played episode to store the playback duration, which causes the database size to increase.
+En segundo lugar, **AntennaPod ocuparía más espacio en el teléfono**, especialmente para los usuarios fieles que usan la aplicación durante varios años. Esto se debe a que, en lugar de una sola fila por episodio en la base de datos, necesitaríamos almacenar varias filas por cada episodio reproducido para registrar la duración de la reproducción, lo que aumenta el tamaño de la base de datos.
 
-We hope you'll enjoy the month-based statistics! 📊 (If you happen to be a web developer interested in making a dedicated dashboard for AntennaPod statistics based on database exports, please do ping us on the forum.)
+¡Esperamos que disfrutes de las estadísticas mensuales! 📊 (Si eres un desarrollador web interesado en crear un panel dedicado para las estadísticas de AntennaPod basadas en exportaciones de bases de datos, contáctanos en el foro.)
