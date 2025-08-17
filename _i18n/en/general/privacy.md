@@ -73,7 +73,7 @@ When you contribute to AntennaPod's codebase via git, you are interacting with G
 ## Updates to this Privacy Policy
 The developers may update this policy in the future. It is advisable to check it periodically for changes. Changes become effective upon publication in this document.
 
-This Privacy Policy was last updated on 2024-07-13.
+This Privacy Policy was last updated on 2025-08-17.
 If you have questions, open an issue on GitHub or our forum.
 
 <!-- mdpo-disable-next-line -->
