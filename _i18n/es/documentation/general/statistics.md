@@ -1,11 +1,11 @@
-AntennaPod has a statistics screen that lets you view the number of listening hours per subscription and per month. However, these statistics aren’t always as precise as they could be.
+AntennaPod cuenta con una pantalla de estadísticas que permite ver el número de horas de escucha por suscripción y por mes. Sin embargo, estas estadísticas no siempre son tan precisas como podrían ser.
 
-## Why the stats aren’t precise
+## Por qué las estadísticas no son precisas
 
-To track statistics, AntennaPod records two things for each episode:
+Para realizar un seguimiento de las estadísticas, AntennaPod registra dos cosas para cada episodio:
 
-* **Played duration**: how long the episode was played (e.g. 6 minutes if a 3-minute episode was played twice)
-* **Last played**: the date and time when playback was last paused or stopped for the episode
+* **Duración de reproducción**: cuánto tiempo se reprodujo el episodio (por ejemplo, 6 minutos si un episodio de 3 minutos se reprodujo dos veces)
+* **Última reproducción**: la fecha y hora en que se pausó o detuvo por última vez la reproducción del episodio
 
 Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the 'played duration' of all episodes whose 'last played' date falls within a given month.
 
