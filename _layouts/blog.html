@@ -10,6 +10,13 @@
     <div class="container py-3">
       <div class="row no-gutters justify-content-center">
         <div class="col-lg-9 col-sm-12 pt-3">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb p-0" id="breadcrumbs">
+              <li class="breadcrumb-item"><a href="/{% if site.lang != site.defaultLang %}{{ site.lang }}{% endif %}">{% t generic.home %}</a></li>
+              <li class="breadcrumb-item"><a href="{% if site.lang != site.defaultLang %}/{{ site.lang }}{% endif %}/blog">{% t titles.blog %}</a></li>
+              <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+            </ol>
+          </nav>
           <div class="post">
 
             {% assign author = site.data.authors[page.author] %}
