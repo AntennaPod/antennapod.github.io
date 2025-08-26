@@ -15,7 +15,7 @@ En bref : cela peut prendre un certain temps. Nous vous demandons d'être patie
 1. Les systèmes de F-Droid consulte le dépôt d'AntennaPod et détecte une nouvelle version. Le server de vérification des mises à jour s'éxécute quotidiennement.
 1. Après que F-Droid ait détecté une nouvelle version d'AntennaPod, il construit l'application. Ainsi, F-Droid s'assure que l'application que vous téléchargez correspond bien au code source publié par AntennaPod. Comme il y a beaucoup d'applications à construire, le serveur F-Droid prend 1 à 2 jours supplémentaires pour construire l'application.
 1. Un contributeur à F-Droid signe cryptographiquement le programme compilé. Afin d'améliorer la sécurité, le contributeur a besoin de se munir de l'app et de se rendre physiquement auprès d'un ordinateur dédié qui n'est pas connecté à internet. Lorsque toutes les apps sont signées, le contributeur les télécharge dans les systèmes de F-Droid. Cela requiert habituellement 1 à 2 jours.
-1. Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous interrogez :
+1. Les systèmes F-Droid traitent les nouvelles apps, ajoutant la nouvelle version d'AntennaPod dans leur index.
 
 À ce moment-là, nous la considérons « publiée sur F-Droid ». Néanmoins, souvenez-vous que l'application F-Droid (la « boutique d'apps ») a aussi besoin de mettre à jour la copie locale de son index. Après avoir effectué cette action, vous serez enfin invité à installer la dernière version d'AntennaPod.
 
