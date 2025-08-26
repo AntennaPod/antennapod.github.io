@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2025-08-11 22:01+0000\n"
-"Last-Translator: Ἥλιος <mu6mj1y62@mozmail.com>\n"
+"PO-Revision-Date: 2025-08-26 20:02+0000\n"
+"Last-Translator: \"David D.\" <dadu042@users.noreply.hosted.weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1415,13 +1415,12 @@ msgstr ""
 "à 2 jours."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "F-Droid systems process the new apps, adding the new AntennaPod release in "
 "their index."
 msgstr ""
-"Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous "
-"interrogez :"
+"Les systèmes F-Droid traitent les nouvelles apps, ajoutant la nouvelle "
+"version d'AntennaPod dans leur index."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
 #, fuzzy
@@ -1718,6 +1717,10 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
+"Les deux sont mis à jour chaque fois que la lecture est en pause ou arrêtée. "
+"Cette information est utilisée pour calculer les totaux en additionnant la "
+"'durée de diffusion' de tous les épisodes dont la date de 'dernière "
+"diffusion' tombe dans un mois donné."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
@@ -1728,6 +1731,12 @@ msgid ""
 "episode is played both in December of one year and in January of the next, "
 "it is attributed to the second year."
 msgstr ""
+"Cette approche signifie que si vous écoutez 7 minutes d’un épisode aujourd’"
+"hui et 38 minutes de cet épisode demain, toutes les 45 minutes sont "
+"attribuées à demain. La même chose s’applique à tous les mois. Si un épisode "
+"est joué en juin et en juillet, tout le temps d’écoute est attribué à "
+"juillet. De même, si un épisode est joué à la fois en décembre d’une année "
+"et en janvier de l’année suivante, il est attribué à la deuxième année."
 
 #: _i18n/en/documentation/general/statistics.md:block 7 (paragraph)
 msgid ""
@@ -1735,10 +1744,14 @@ msgid ""
 "time period. However, day-by-day statistics would have a higher risk of "
 "becoming unreliable, which is why AntennaPod does not offer those."
 msgstr ""
+"Les statistiques mensuelles sont généralement précises car elles portent sur "
+"une période plus longue. Cependant, les statistiques quotidiennes "
+"risqueraient davantage de devenir peu fiables, c’est pourquoi AntennaPod ne "
+"les propose pas."
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
-msgstr ""
+msgstr "Pourquoi nous ne voulons pas le changer"
 
 #: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
 msgid ""
@@ -1746,24 +1759,29 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
+"Les statistiques (ou plutôt : graphiques) sont amusantes. Alors pourquoi ne "
+"pas enregistrer l’information différemment pour permettre plus d’options de "
+"filtre et des données plus granulaires dans AntennaPod ?"
 
 #: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
 msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
+"Il serait possible, par exemple, d’enregistrer pour chaque épisode combien "
+"de temps il a été joué chaque jour. Par exemple :"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
-msgstr ""
+msgstr "28 juin : 7 minutes"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "30 June: 38 minutes"
-msgstr ""
+msgstr "30 juin : 38 minutes"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "1 July: 19 minutes"
-msgstr ""
+msgstr "1 juillet : 19 minutes"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
 msgid ""
@@ -1773,6 +1791,12 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
+"Il y a deux raisons principales. Premièrement, bien que les statistiques "
+"soient amusantes, **nous passons plutôt du temps sur le principal objectif d’"
+"AntennaPod : lire des podcasts**. Passer à cette nouvelle approche "
+"demanderait du temps maintenant pour la mise en œuvre (réécrire le code qui "
+"économise du temps de lecture dans la base de données) et du temps à l’"
+"avenir pour maintenir un système plus complexe."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -1782,6 +1806,12 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
+"Deuxièmement, **AntennaPod prendrait plus de place sur votre téléphone** - "
+"surtout pour les utilisateurs fidèles qui restent avec l’application pendant "
+"plusieurs années. C’est parce qu’au lieu d’une seule ligne par épisode dans "
+"la base de données, nous aurions besoin de stocker plusieurs lignes pour "
+"chaque épisode joué afin de stocker la durée de lecture, ce qui ferait "
+"augmenter la taille de la base de données."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1789,6 +1819,10 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
+"Nous espérons que vous apprécierez les statistiques mensuelles ! 📊 (si vous "
+"êtes un développeur web intéressé à créer un tableau de bord dédié aux "
+"statistiques AntennaPod basées sur les exportations de bases de données, "
+"veuillez nous contacter sur le forum)."
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
