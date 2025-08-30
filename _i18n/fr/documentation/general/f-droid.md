@@ -5,7 +5,7 @@ Vous avez vu qu'il y avait une nouvelle version d'AntennaPod et vous vous interr
 
 En raison des différentes étapes nécessaires et parce que nous ne participons pas à la publication de l'application sur F-Droid, nous ne pouvons pas dire exactement quand la dernière version sera disponible.
 
-En bref : cela peut prendre un certain temps. Nous vous demandons d'être patients.
+**En bref : nous n’avons pas oublié F-Droid, cela prend juste un peu de temps. Veuillez être patient **
 
 ### Les étapes permettant de publier une nouvelle version sur F-Droid
 
