@@ -23,7 +23,7 @@ En raison des différentes étapes nécessaires et parce que nous ne participons
 
 Comme vous pouvez le voir, de nombreuses étapes requièrent un laps de temps variable. Il nous faut habituellement plus d'un mois entre la publication d'une version bêta et l'étiquetage de la version finale sur GitHub. Après avoir étiqueté la nouvelle version, quatre à six jours sont généralement nécessaires pour qu'elle soit intégrée par F-Droid.
 
-### Ce que vous pouvez faire si la procédure prend plus de temps que prévu
+### Ce que vous pouvez faire si vous attendez avec impatience
 
 Nous n'avons pas encore étiqueté la [nouvelle version](https://github.com/AntennaPod/AntennaPod/releases) sur Github ? Alors patientez. La mise à jour est en bêta et n'est pas prête à la publication.
 
@@ -43,6 +43,6 @@ Si vous le voulez, vous pouvez suivre ces étapes pour avoir une idée de la pro
       1. cliquez sur 'fdroiddata version' @ commit of a build cycle
       1. cliquez sur « Parcourir les fichiers »
       1. cliquez sur « Rechercher un fichier »
-      1. Le paquet doit être `de.danoeh.antennapod`
+      1. copier et coller `de.danoeh.antennapod`
       1. ouvrez le fichier
       1. vérifiez s'il inclut la dernière version publiée
