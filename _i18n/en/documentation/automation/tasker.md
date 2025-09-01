@@ -11,6 +11,19 @@ In your automation application, you can get AntennaPod to update its subscriptio
 
 ## Steps for some automation apps
 
+### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+Create a notify action call in a automation with the following template:
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
 ### Automate ([website](https://llamalab.com/automate/))
 In a flow, add a block of the type `APPS` » `Broadcast send` and specify
 1. Package to be `de.danoeh.antennapod`
