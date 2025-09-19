@@ -13,7 +13,7 @@ En raison des différentes étapes nécessaires et parce que nous ne participons
 1. Nous procédons à un déploiement lent et graduel auprès de tous les utilisateurs de Google Play. De cette façon, nous nous assurons qu'aucun bug critique n'està déplorer. Cela peut requérir plusieurs semaines.
 1. Nous créons une [publication sur GitHub](https://github.com/AntennaPod/AntennaPod/releases). Nous ne le faisons qu'après l'achèvement du déploiement sur Google Play.
 1. Les systèmes de F-Droid consulte le dépôt d'AntennaPod et détecte une nouvelle version. Le server de vérification des mises à jour s'éxécute quotidiennement.
-1. Après que F-Droid ait détecté une nouvelle version d'AntennaPod, il construit l'application. Ainsi, F-Droid s'assure que l'application que vous téléchargez correspond bien au code source publié par AntennaPod. Comme il y a beaucoup d'applications à construire, le serveur F-Droid prend 1 à 2 jours supplémentaires pour construire l'application.
+1. Les systèmes F-Droid construisent l’application. Ils le font pour s’assurer que l’application que vous téléchargez correspond au code source que nous publions. Parce qu’il y a beaucoup d’applications à construire, le serveur F-Droid prend 1 à 2 jours pour construire l’application.
 1. Un contributeur à F-Droid signe cryptographiquement le programme compilé. Afin d'améliorer la sécurité, le contributeur a besoin de se munir de l'app et de se rendre physiquement auprès d'un ordinateur dédié qui n'est pas connecté à internet. Lorsque toutes les apps sont signées, le contributeur les télécharge dans les systèmes de F-Droid. Cela requiert habituellement 1 à 2 jours.
 1. Les systèmes F-Droid traitent les nouvelles apps, ajoutant la nouvelle version d'AntennaPod dans leur index.
 
@@ -32,7 +32,7 @@ Nous *avons* étiqueté la nouvelle version sur Github ? Comme l'équipe de F-
 * Ces 7 jours se sont-ils écoulés depuis que nous avons étiqueté la nouvelle version sur Github ? Si vous le souhaitez, faites-le nous savoir en créant un message sur notre [forum](https://forum.antennapod.org/). Nous examinerons cela.
 * Avons-nous étiqueté la nouvelle version 7 jours auparavant ou moins ? Veuillez attendre, ou aller voir à quelle étape du processus nous en sommes.
 
-#### Consulter l'état actuel
+#### Enquêter sur l’état actuel
 
 Si vous le voulez, vous pouvez suivre ces étapes pour avoir une idée de la progression :
 
