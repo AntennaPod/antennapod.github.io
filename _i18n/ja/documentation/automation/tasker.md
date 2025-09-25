@@ -14,6 +14,21 @@ AntennaPodを使用すると、定期的に更新する購読（ポッドキャ�
 
 ## いくつかの自動化アプリ向けのステップ
 
+### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+
+Create a notify action call in a automation with the following template:
+
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
 ### Automate（[ウェブサイト](https://llamalab.com/automate/)）
 
 flowで、`APPS` » `Broadcast send` という種類のブロックを追加し、以下を指定します

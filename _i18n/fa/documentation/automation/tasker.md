@@ -14,6 +14,21 @@
 
 ## گام‌ها برای برخی برنامه‌های خودکارسازی
 
+### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+
+Create a notify action call in a automation with the following template:
+
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
 ### Automate ([وبگاه](https://llamalab.com/automate/))
 
 در یک جریان، بلوکی از نوع `APPS` » `Broadcast send` بیافزایید و مشخص کنید

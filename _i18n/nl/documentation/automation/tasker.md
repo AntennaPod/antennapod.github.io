@@ -14,6 +14,21 @@ Vraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken d
 
 ## Instructies voor sommige automatiseringsapps
 
+### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+
+Create a notify action call in a automation with the following template:
+
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
 ### Automate ([website](https://llamalab.com/automate/))
 
 Voeg in een 'flow' een blok toe van het type `APPS` » `Broadcast send` en specificeer
