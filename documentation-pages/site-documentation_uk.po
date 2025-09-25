@@ -70,8 +70,8 @@ msgid ""
 "change the interval period or turn off the automatic updates."
 msgstr ""
 "За замовчуванням усі подкасти оновлюються з інтервалом у 12 годин для "
-"завантаження нових епізодів. У розділі `Налаштування` `Завантаження` `"
-"Оновити подкасти` ви можете змінити інтервал або вимкнути автоматичні "
+"завантаження нових епізодів. У розділі `Налаштування` `Завантаження` "
+"`Оновити подкасти` ви можете змінити інтервал або вимкнути автоматичні "
 "оновлення."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
@@ -167,19 +167,30 @@ msgid "Steps for some automation apps"
 msgstr "Кроки для деяких програм автоматизації"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
+msgid ""
+"HomeAssistant Android Mobile Companion ([website](https://companion.home-"
+"assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
+msgstr ""
+
+#: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
+msgid ""
+"Create a notify action call in a automation with the following template:"
+msgstr ""
+
+#: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
 msgstr "Automate ([веб-сайт](https://llamalab.com/automate/))"
 
-#: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
+#: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
 msgid ""
 "In a flow, add a block of the type `APPS` » `Broadcast send` and specify"
 msgstr "У потік додайте блок типу `APPS` » `Broadcast send` і вкажіть"
 
-#: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
 msgstr "Пакет має бути `de.danoeh.antennapod`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 10 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
 "Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
@@ -187,27 +198,27 @@ msgstr ""
 "Клас приймача буде `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 11 (header)
+#: _i18n/en/documentation/automation/tasker.md:block 14 (header)
 msgid "Tasker ([website](https://tasker.joaoapps.com/))"
 msgstr "Tasker ([веб-сайт](https://tasker.joaoapps.com/))"
 
-#: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
+#: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
 msgid "Create a task. In the task, add an action"
 msgstr "Створіть завдання. У задачі додайте дію"
 
-#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Select `System`"
 msgstr "Виберіть `Система`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Select `Send Intent`"
 msgstr "Виберіть `Надіслати намір`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Specify Package name to be `de.danoeh.antennapod`"
 msgstr "Укажіть назву пакета як `de.danoeh.antennapod`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid ""
 "Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
@@ -215,15 +226,15 @@ msgstr ""
 "Укажіть назву класу як `de.danoeh.antennapod.net.download.service.feed."
 "FeedUpdateReceiver`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Specify Target to be `Broadcast receiver`"
 msgstr "Вкажіть ціль як `Одержувач трансляції`"
 
-#: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "You can leave the other fields blank"
 msgstr "Ви можете залишити інші поля порожніми"
 
-#: _i18n/en/documentation/automation/tasker.md:block 14 (header)
+#: _i18n/en/documentation/automation/tasker.md:block 17 (header)
 msgid ""
 "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"
 "label/Llama))"
@@ -231,23 +242,23 @@ msgstr ""
 "Llama – Профілі розташування ([веб-сайт](http://kebabapps.blogspot.com/"
 "search/label/Llama))"
 
-#: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
+#: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
 msgid "Create an event (Llama automation rule). In the event,"
 msgstr "Створіть подію (правило автоматизації Llama). У випадку,"
 
-#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 19 (ordered list)
 msgid "Add an action of type Android intent."
 msgstr "Додайте дію типу Android intent."
 
-#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 19 (ordered list)
 msgid "Specify Intent send mode to be `Broadcast`."
 msgstr "Укажіть для режиму надсилання наміру значення `Трансляція`."
 
-#: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
+#: _i18n/en/documentation/automation/tasker.md:block 19 (ordered list)
 msgid "Add any other condition / actions for your specific needs."
 msgstr "Додайте будь-які інші умови/дії для ваших конкретних потреб."
 
-#: _i18n/en/documentation/automation/tasker.md:block 17 (paragraph)
+#: _i18n/en/documentation/automation/tasker.md:block 20 (paragraph)
 msgid ""
 "As a shortcut, you can click [this link](http://llama.location.profiles/"
 "AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-"
@@ -261,7 +272,7 @@ msgstr ""
 "antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) "
 "щоб створити приклад події для початку."
 
-#: _i18n/en/documentation/automation/tasker.md:block 18 (paragraph)
+#: _i18n/en/documentation/automation/tasker.md:block 21 (paragraph)
 msgid ""
 "**Disclaimer:** AntennaPod community has no relationship with any of the 3rd-"
 "party automation applications listed."
