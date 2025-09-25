@@ -1,4 +1,4 @@
-Som standard opdateres alle podcasts med et interval på 12 timer for at hente nye afsnit. Via `Indstillinger` » `Netværk` » `Opdater podcasts` kan du ændre intervalperioden eller slå de automatiske opdateringer fra.
+Som standard opdateres alle podcasts med et interval på 12 timer for at hente nye afsnit. Via `Indstillinger` » `Overførsler` » `Opdater podcasts` kan du ændre intervalperioden eller slå de automatiske opdateringer fra.
 
 Du kan også slå denne proces fra for bestemte podcasts, hvis det er unødvendigt at holde en podcast opdateret. Du kan f.eks. bruge dette, hvis der ikke længere udgives nye afsnit for en podcast. Eller når du har tilføjet en podcast, som du kun lejlighedsvis vil lytte til et afsnit af. Du kan indstille dette ved at gå til en podcast, trykke på `Tandhjul` ikonet og ændre indstillingen `Hold opdateret`.
 
