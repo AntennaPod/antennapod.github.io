@@ -25,7 +25,7 @@ Wir stehen für ein offenes Podcasting-Ökosystem. Ein Ökosystem, das
 
 In der Praxis bedeutet das, dass du jeden beliebigen RSS-Feed abonnieren kannst, dass wir es dir leicht machen, Podcaster (finanziell) zu unterstützen, und dass du deine Daten synchronisieren, importieren und exportieren kannst.
 
-## Wir verstehen dich: Community & Barrierefreiheit
+## Wir verstehen dich: Community und Barrierefreiheit
 
 Mit AntennaPod hörst du Podcasts, aber wir möchten auch von dir hören! Unsere Community ist offen für dein Feedback und deine Gedanken. Als Menschen können wir unterschiedlicher Meinung sein, aber bitte sei respektvoll. Und wir tun unser Bestes, um die App für alle freundlich zu gestalten. Daher ist es möglich, automatische Vorschläge auszublenden und die Navigation durch die App durch Sprachausgabe zu erleichtern.
 
