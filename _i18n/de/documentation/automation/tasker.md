@@ -14,9 +14,9 @@ In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements 
 
 ## Anleitungen für einige Automatisierungs-Apps
 
-### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+### HomeAssistant Android Mobile Companion ([Website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Create a notify action call in a automation with the following template:
+Erstelle einen Benachrichtigungsaufruf in einer Automatisierung mit der folgenden Vorlage:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>

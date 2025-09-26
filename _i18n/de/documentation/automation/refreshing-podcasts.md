@@ -1,4 +1,4 @@
-Standardmäßig werden alle Podcasts in einem Intervall von 12 Stunden aktualisiert, um neue Episoden zu finden. Über `Einstellungen` » `Netzwerk` » `Podcasts aktualisieren` kannst du den Intervallzeitraum ändern oder die automatischen Aktualisierungen deaktivieren.
+Standardmäßig werden alle Podcasts in einem Intervall von 12 Stunden aktualisiert, um neue Episoden abzurufen. Über `Einstellungen` » `Downloads` » `Podcasts aktualisieren` kannst du das Intervall ändern oder die automatischen Aktualisierungen deaktivieren.
 
 Du kannst diesen Vorgang auch für einzelne Podcasts abschalten, wenn es nicht notwendig ist, einen Podcast auf dem neuesten Stand zu halten. Das kannst du zum Beispiel dann tun, wenn für einen Podcast keine neuen Episoden mehr erscheinen. Oder wenn du einen Podcast hinzugefügt hast, von dem du nur gelegentlich eine Episode hören möchtest. Du kannst die Option ändern, indem du zu einem Podcast gehst, auf das `Zahnrad`-Symbol tippst und die Einstellung `Aktuell halten` änderst.
 
