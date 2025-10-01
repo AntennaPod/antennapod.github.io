@@ -14,9 +14,9 @@ En tu aplicación de automatizaciones, puedes pedirle a AntennaPod que actualice
 
 ## Pasos para algunas aplicaciones de automatizaciones
 
-### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+### HomeAssistant Android Mobile Companion ([pagina web](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Create a notify action call in a automation with the following template:
+Crea una acción de notificación en automatización con la siguiente plantilla:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
