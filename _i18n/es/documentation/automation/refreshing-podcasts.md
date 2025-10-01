@@ -1,4 +1,4 @@
-Por defecto, todos los podcasts se actualizan con un intervalo de 12 horas para conocer nuevos episodios. A través de `Configuración` » `Red` » `Refrescar pódcasts` puedes cambiar el periodo del intervalo, seleccionar una hora específica del día o desactivar las actualizaciones automáticas.
+Por defecto, todos los podcasts se actualizan con un intervalo de 12 horas para conocer nuevos episodios. A través de `Ajustes` » `Descargas` » `Actualizar podcasts` puedes cambiar el periodo del intervalo o desactivar las actualizaciones automáticas.
 
 También puedes desactivar este proceso para pódcasts individuales en caso de que mantener un pódcast actualizado sea innecesario. Puedes utilizar esto, por ejemplo, si ya no se publican nuevos episodios. También puedes escuchar un pódcast del que solo quieras escuchar un episodio ocasionalmente. Puedes configurar esto yendo a un pódcast, tocando el icono `Engranaje` y cambiando el ajuste `Mantener actualizado`.
 
