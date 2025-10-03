@@ -14,9 +14,9 @@ Nella tua applicazione di automazione, è possibile far sì che AntennaPod aggio
 
 ## Istruzioni per alcune applicazioni di automazione
 
-### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+### HomeAssistant Android Mobile Companion ([sito web](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Create a notify action call in a automation with the following template:
+Crea una chiamata di azione di notifica in un'automazione con il seguente modello:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
