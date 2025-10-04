@@ -334,6 +334,20 @@
 
 <h2 id="istruzioni-per-alcune-applicazioni-di-automazione">Istruzioni per alcune applicazioni di automazione</h2>
 
+<h3 id="homeassistant-android-mobile-companion-sito-web">HomeAssistant Android Mobile Companion (<a href="https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent">sito web</a>)</h3>
+
+<p>Crea una chiamata di azione di notifica in un’automazione con il seguente modello:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>action: notify.mobile_app_&lt;SOME-ANDROID-MOBILE-DEVICE&gt;
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+</code></pre></div></div>
+
 <h3 id="automate-sito-web">Automate (<a href="https://llamalab.com/automate/">sito web</a>)</h3>
 
 <p>In un flusso, aggiungi un blocco del tipo <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Invia broadcast</code> e specifica</p>

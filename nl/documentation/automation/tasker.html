@@ -334,6 +334,20 @@
 
 <h2 id="instructies-voor-sommige-automatiseringsapps">Instructies voor sommige automatiseringsapps</h2>
 
+<h3 id="home-assistant-android-app-website">Home Assistant Android-app (<a href="https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent">website</a>)</h3>
+
+<p>Maak een notificatie-actie aanroep in een automatisering met het volgende sjabloon:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>action: notify.mobile_app_&lt;SOME-ANDROID-MOBILE-DEVICE&gt;
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+</code></pre></div></div>
+
 <h3 id="automate-website">Automate (<a href="https://llamalab.com/automate/">website</a>)</h3>
 
 <p>Voeg in een ‘flow’ een blok toe van het type <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> en specificeer</p>

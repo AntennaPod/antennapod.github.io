@@ -334,6 +334,20 @@
 
 <h2 id="گامها-برای-برخی-برنامههای-خودکارسازی">گام‌ها برای برخی برنامه‌های خودکارسازی</h2>
 
+<h3 id="homeassistant-android-mobile-companion-website">HomeAssistant Android Mobile Companion (<a href="https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent">website</a>)</h3>
+
+<p>Create a notify action call in a automation with the following template:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>action: notify.mobile_app_&lt;SOME-ANDROID-MOBILE-DEVICE&gt;
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+</code></pre></div></div>
+
 <h3 id="automate-وبگاه">Automate (<a href="https://llamalab.com/automate/">وبگاه</a>)</h3>
 
 <p>در یک جریان، بلوکی از نوع <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> بیافزایید و مشخص کنید</p>
