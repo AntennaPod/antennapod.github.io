@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:45+0200\n"
-"PO-Revision-Date: 2025-08-01 18:02+0000\n"
+"PO-Revision-Date: 2025-10-04 11:04+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fi/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -63,14 +63,13 @@ msgstr ""
 "enimmäismäärän."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "By default, all podcasts are refreshed with a 12-hour interval to pick up "
 "new episodes. Via `Settings` » `Downloads` » `Refresh podcasts` you can "
 "change the interval period or turn off the automatic updates."
 msgstr ""
 "Oletuksena kaikki podcastit virkistetään 12 tunnin välein uusien jaksojen "
-"poimimiseksi. Kohdassa `Asetukset` » `Verkko` » `Virkistä podcastit` voit "
+"poimimiseksi. Kohdassa `Asetukset` » `Lataukset` » `Virkistä podcastit` voit "
 "muuttaa jaksoväliä tai poistaa automaattiset päivitykset käytöstä."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
@@ -175,6 +174,7 @@ msgstr ""
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr ""
+"Luo ilmoitustoimintokutsu automaatiossa käyttämällä seuraavaa mallipohjaa:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -1449,7 +1449,6 @@ msgstr ""
 "se."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid ""
 "Check if [F-Droid's AntennaPod versions list](https://gitlab.com/fdroid/"
 "fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?"
@@ -1457,9 +1456,9 @@ msgid ""
 "processed by the build server."
 msgstr ""
 "Tarkista, onko [F-Droidin AntennaPod-versioluetteloa](https://gitlab.com/"
-"fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?"
-"author=F-Droid%20checkupdates%20bot) päivitetty sen jälkeen. Jos näin on, "
-"koontipalvelimen pitäisi pian käsitellä se."
+"fdroid/fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=checkupdates%20bot) päivitetty sen jälkeen. "
+"Jos näin on, koontipalvelimen pitäisi pian käsitellä se."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1704,7 +1703,6 @@ msgid "1 July: 19 minutes"
 msgstr "1 heinäkuuta: 19 minuuttia"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
-#, fuzzy
 msgid ""
 "There are two main reasons. Firstly, while statistics are fun, **we rather "
 "spend time on AntennaPod's main purpose: playing podcasts**. Changing to "
@@ -1712,15 +1710,14 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
-"Tähän on kaksi pääsyytä. Ensinnäkin, vaikka tilastot ovat hauskoja, "
-"**käytämme ennemmin aikaa AntennaPodin päätarkoitukseen: podcastien "
-"toistamiseen**. Tämän lähestymistavan vaihtaminen vaatisi lisää aikaa "
-"kehitystyöhön (koodin uudelleenkirjoittamista datan tallentamista "
-"tietopankkia varten) ja aikaa entistä monimutkaisen järjestelmän "
-"ylläpitämistä varten."
+"Tähän on kaksi pääsyytä. Ensinnäkin, vaikka tilastot ovat hauskoja, **"
+"käytämme mieluummin aikaa AntennaPodin päätarkoitukseen: podcastien "
+"toistamiseen**. Tähän uuteen lähestymistapaan siirtyminen vaatisi aikaa sen "
+"toteuttamiseen nyt "
+"(tietokannan toistoaikaa säästävän koodin uudelleenkirjoittamiseen) ja "
+"tulevaisuudessa aikaa monimutkaisemman järjestelmän ylläpitämiseen."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
-#, fuzzy
 msgid ""
 "Secondly, **AntennaPod would take up more space on your phone** - especially "
 "for loyal users who stick with the app for several years. That's because "
@@ -1728,10 +1725,11 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
-"Toiseksi **AntennaPod veisi enemmän tallennustilaa mobiililaitteeltasi**. "
-"Erityisesti heiltä, jotka ovat käyttäneet laitetta useita vuosia, koska "
-"jokaista jaksoa kohden pitäisi tallentaa kaksi riviä dataa, joka aiheuttaa "
-"tietokannan koon kasvamista."
+"Toiseksi, **AntennaPod veisi enemmän tilaa puhelimessasi** – etenkin "
+"uskollisille käyttäjille, jotka pysyvät sovelluksessa useita vuosia. Tämä "
+"johtuu siitä, että yhden rivin sijaan tietokannassa jaksoa kohden meidän "
+"pitäisi tallentaa useita rivejä jokaista toistettua jaksoa kohden toiston "
+"keston tallentamiseksi, mikä kasvattaa tietokannan kokoa."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
