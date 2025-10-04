@@ -16,7 +16,7 @@ AntennaPodを使用すると、定期的に更新する購読（ポッドキャ�
 
 ### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Create a notify action call in a automation with the following template:
+Create a notify action call in an automation with the following template:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
