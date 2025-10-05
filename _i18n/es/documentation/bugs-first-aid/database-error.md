@@ -8,10 +8,6 @@ Puede que haya algunas cosas que puedas hacer para recuperar tus datos. Algunas 
 
 1. ¿Ha [exportado una copia de seguridad](/documentation/general/backup) recientemente desde AntennaPod? Entonces restaurarla es relativamente fácil: vaya a `Configuración` " `Almacenamiento` " `Importar/Exportar` " `Importar base de datos` y seleccione la copia de seguridad. Tenga en cuenta que la copia de seguridad puede contener la corrupción parcial, por lo que todavía se recomienda pasar por el segundo paso para solucionar el problema de una vez por todas.
 1. Si AntennaPod detecta una base de datos rota, la escribe en un archivo llamado CorruptedDatabaseBackup.db en el directorio de almacenamiento de la app. Puedes intentar reparar este archivo (o reparar una copia de seguridad exportada) siguiendo uno de los pasos que se indican a continuación. Esto es un reto y requiere aprender a manejar un terminal.
-
-* Un miembro de la comunidad [siguió estos pasos](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306) para reparar la base de datos e [indicó](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614) que después de esto, pudo importar correctamente la base de datos recuperada.
-* Otro miembro de la comunidad [cogió una base de datos limpia y movió el contenido de la corrupta a ella](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068), y después realizó [otra corrección](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995). Después de ambos pasos, consiguió importar correctamente la base de datos nueva en AntennaPod.
-
 1. Mientras que todos los datos *sobre* tus suscripciones y episodios se han perdido, los archivos multimedia siguen ahí.
 
 * En AntennaPod puedes añadir una carpeta como si fuera un canal. Para hacer esto, ve a `Añadir Podcast` y toca en `Añadir carpeta local`. Ahora ve a esta carpeta en tu teléfono: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` y selecciona la carpeta de un podcast. Ten en cuenta que esto solo te dara acceso a archivos previamente descargados - no recibirás episodios nuevos.

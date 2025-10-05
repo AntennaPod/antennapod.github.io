@@ -8,10 +8,6 @@ Ci potrebbero essere alcune cose che puoi fare per recuperare i tuoi dati. Le el
 
 1. Hai [esportato un backup](/documentation/general/backup) da AntennaPod di recente? Allora ripristinarlo è relativamente facile: vai su `Impostazioni` » `Memoria` » `Importa/Esporta` » `Importa database` e seleziona il backup. Tieni presente che il backup potrebbe contenere la corruzione parziale, quindi ti consigliamo di seguire anche il secondo passaggio per risolvere definitivamente il problema.
 1. Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato CorruptedDatabaseBackup.db nella cartella di archiviazione dell'app. Puoi provare a riparare questo file (o un backup esportato) seguendo i passaggi qui sotto. Quest'operazione non è semplice e richiede di imparare a utilizzare un terminale.
-
-* Un membro della comunità [ha seguito questi passi](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306) per riparare il database e [ha affermato](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614) che, fatto questo, è stato in grado di importare con successo il database riparato.
-* Un altro membro della comunità [ha preso un database pulito e vi ha spostato il contenuto di quello corrotto](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068), poi ha eseguito [un'altra correzione](https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995). Dopo questi due passaggi, è riuscito a importare con successo il nuovo database in AntennaPod.
-
 1. Mentre tutti i dati *riguardo* le tue iscrizioni e i tuoi episodi sono spariti, i file multimediali saranno ancora presenti.
 
 * In AntennaPod è possibile aggiungere una cartella come se fosse un feed. Per farlo, vai su `Aggiungi podcast` e tocca `Aggiungi cartella locale`. Poi vai a questa cartella nel tuo telefono: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` e poi seleziona la cartella di un podcast. Nota che questo ti darà accesso solo ai media precedentemente scaricati: non riceverai nuovi episodi.
