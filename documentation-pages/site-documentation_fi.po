@@ -1456,9 +1456,9 @@ msgid ""
 "processed by the build server."
 msgstr ""
 "Tarkista, onko [F-Droidin AntennaPod-versioluetteloa](https://gitlab.com/"
-"fdroid/fdroiddata/-/commits/master/metadata/"
-"de.danoeh.antennapod.yml?author=checkupdates%20bot) päivitetty sen jälkeen. "
-"Jos näin on, koontipalvelimen pitäisi pian käsitellä se."
+"fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?"
+"author=checkupdates%20bot) päivitetty sen jälkeen. Jos näin on, "
+"koontipalvelimen pitäisi pian käsitellä se."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1710,12 +1710,12 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
-"Tähän on kaksi pääsyytä. Ensinnäkin, vaikka tilastot ovat hauskoja, **"
-"käytämme mieluummin aikaa AntennaPodin päätarkoitukseen: podcastien "
+"Tähän on kaksi pääsyytä. Ensinnäkin, vaikka tilastot ovat hauskoja, "
+"**käytämme mieluummin aikaa AntennaPodin päätarkoitukseen: podcastien "
 "toistamiseen**. Tähän uuteen lähestymistapaan siirtyminen vaatisi aikaa sen "
-"toteuttamiseen nyt "
-"(tietokannan toistoaikaa säästävän koodin uudelleenkirjoittamiseen) ja "
-"tulevaisuudessa aikaa monimutkaisemman järjestelmän ylläpitämiseen."
+"toteuttamiseen nyt (tietokannan toistoaikaa säästävän koodin "
+"uudelleenkirjoittamiseen) ja tulevaisuudessa aikaa monimutkaisemman "
+"järjestelmän ylläpitämiseen."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -2612,18 +2612,43 @@ msgstr ""
 "issues/2648) ja/tai tilaa tiketti saadaksesi päivityksiä mahdollisista "
 "kehitysaskeleista."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 1 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 1 (paragraph)
 msgid ""
-"Smart shuffle is an advanced queue sorting criterion that allows you to keep "
-"your queue sorted by publication date while also avoiding as much as "
-"possible having clusters of episodes from a single subscription in your "
-"queue."
+"You can sort your queue using different sorting criteria: `Episode title`, "
+"`Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most "
+"of them are self-explanatory, this page focuses specifically on `Podcast "
+"title` and `Smart shuffle`."
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 2 (header)
+msgid "Podcast title"
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
+msgid ""
+"This criterion sorts episodes in your queue according to the title of the "
+"podcast they belong to. Note that episodes from the same podcast are sorted "
+"according to your previous sort order: therefore, if you would like episodes "
+"from the same podcast to be sorted together and chronologically, you would "
+"need to first sort by `Date` and then sort by `Podcast title`."
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 4 (header)
+msgid "Smart shuffle"
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
+#, fuzzy
+msgid ""
+"Smart shuffle is an advanced sorting criterion that allows you to keep your "
+"queue sorted by publication date while also avoiding as much as possible "
+"having clusters of episodes from a single subscription in your queue."
 msgstr ""
 "Älykäs sekoitus on edistynyt jonojen lajittelukriteeri, jonka avulla voit "
 "pitää jonon lajiteltuna julkaisupäivämäärän mukaan ja samalla välttää "
 "mahdollisimman paljon yhden tilauksen jaksojen ryppäitä jonossa."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 2 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
 "To use smart shuffle, place some episodes from different subscriptions in "
 "your queue, then tap `…` in the top bar, select `Sort` and finally `Smart "
@@ -2635,11 +2660,12 @@ msgstr ""
 "sekoitus`. Kuten muidenkin lajittelukriteerien mukaan, älykästä sekoitusta "
 "voidaan lajitella nousevaan tai laskevaan järjestykseen."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 3 (header)
-msgid "How it works in detail"
+#: _i18n/en/documentation/queue/sorting.md:block 7 (header)
+#, fuzzy
+msgid "How smart shuffle works in detail"
 msgstr "Toimintojen tarkka kuvaus"
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 4 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
 "Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B "
 "and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the "
@@ -2656,7 +2682,7 @@ msgstr ""
 "jaksoja (D), ja levittää ne käytettävissä oleviin paikkoihin: "
 "EE_EEDE_EDEE_EE. Tämä jatkuu, kunnes jono näyttää tältä: EEBEEDECEDEEAEE."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 5 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 9 (paragraph)
 msgid ""
 "Publication dates play a role both *within* podcasts (in our example, "
 "episodes from podcast E are sorted accordingly) and *between* podcasts (the "

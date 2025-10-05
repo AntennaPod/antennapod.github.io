@@ -2734,18 +2734,43 @@ msgstr ""
 "AntennaPod/issues/2648) sur GitHub pour plus d'informations et/ou pour être "
 "tenu au courant."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 1 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 1 (paragraph)
 msgid ""
-"Smart shuffle is an advanced queue sorting criterion that allows you to keep "
-"your queue sorted by publication date while also avoiding as much as "
-"possible having clusters of episodes from a single subscription in your "
-"queue."
+"You can sort your queue using different sorting criteria: `Episode title`, "
+"`Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most "
+"of them are self-explanatory, this page focuses specifically on `Podcast "
+"title` and `Smart shuffle`."
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 2 (header)
+msgid "Podcast title"
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
+msgid ""
+"This criterion sorts episodes in your queue according to the title of the "
+"podcast they belong to. Note that episodes from the same podcast are sorted "
+"according to your previous sort order: therefore, if you would like episodes "
+"from the same podcast to be sorted together and chronologically, you would "
+"need to first sort by `Date` and then sort by `Podcast title`."
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 4 (header)
+msgid "Smart shuffle"
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
+#, fuzzy
+msgid ""
+"Smart shuffle is an advanced sorting criterion that allows you to keep your "
+"queue sorted by publication date while also avoiding as much as possible "
+"having clusters of episodes from a single subscription in your queue."
 msgstr ""
 "Le tri intelligent est un tri avancé qui permet de conserver l'ordre de "
 "publication mais en évitant autant que possible de grouper des épisodes d'un "
 "même podcast dans votre liste de lecture."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 2 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
 "To use smart shuffle, place some episodes from different subscriptions in "
 "your queue, then tap `…` in the top bar, select `Sort` and finally `Smart "
@@ -2757,11 +2782,12 @@ msgstr ""
 "choisir `Trier` et enfin `Tri intelligent`. Comme pour les autres types de "
 "tri, l'ordre du tri intelligent peut être ascendant ou descendant."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 3 (header)
-msgid "How it works in detail"
+#: _i18n/en/documentation/queue/sorting.md:block 7 (header)
+#, fuzzy
+msgid "How smart shuffle works in detail"
 msgstr "Comment ça marche"
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 4 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
 "Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B "
 "and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the "
@@ -2779,7 +2805,7 @@ msgstr ""
 "les emplacements libres : EE_EEDE_EDEE_EE. Et ainsi de suite jusqu'à obtenir "
 "une liste de lecture ressemblant à ceci : EEBEEDECEDEEAEE."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 5 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 9 (paragraph)
 msgid ""
 "Publication dates play a role both *within* podcasts (in our example, "
 "episodes from podcast E are sorted accordingly) and *between* podcasts (the "

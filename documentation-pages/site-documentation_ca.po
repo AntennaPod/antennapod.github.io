@@ -2669,18 +2669,43 @@ msgstr ""
 "GitHub per a més informació i/o subscriviu-vos a la incidència per estar al "
 "dia en cas que hi hagi cap avenç."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 1 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 1 (paragraph)
 msgid ""
-"Smart shuffle is an advanced queue sorting criterion that allows you to keep "
-"your queue sorted by publication date while also avoiding as much as "
-"possible having clusters of episodes from a single subscription in your "
-"queue."
+"You can sort your queue using different sorting criteria: `Episode title`, "
+"`Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most "
+"of them are self-explanatory, this page focuses specifically on `Podcast "
+"title` and `Smart shuffle`."
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 2 (header)
+msgid "Podcast title"
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
+msgid ""
+"This criterion sorts episodes in your queue according to the title of the "
+"podcast they belong to. Note that episodes from the same podcast are sorted "
+"according to your previous sort order: therefore, if you would like episodes "
+"from the same podcast to be sorted together and chronologically, you would "
+"need to first sort by `Date` and then sort by `Podcast title`."
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 4 (header)
+msgid "Smart shuffle"
+msgstr ""
+
+#: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
+#, fuzzy
+msgid ""
+"Smart shuffle is an advanced sorting criterion that allows you to keep your "
+"queue sorted by publication date while also avoiding as much as possible "
+"having clusters of episodes from a single subscription in your queue."
 msgstr ""
 "La barreja intel·ligent és un criteri avançat d'ordenació de cues que permet "
 "mantenir la cua ordenada per data de publicació, alhora que evita al màxim "
 "tenir clústers d'episodis d'una única subscripció a la cua."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 2 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
 "To use smart shuffle, place some episodes from different subscriptions in "
 "your queue, then tap `…` in the top bar, select `Sort` and finally `Smart "
@@ -2693,11 +2718,12 @@ msgstr ""
 "d'ordenació, la barreja intel·ligent es pot ordenar en ordre ascendent o "
 "descendent."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 3 (header)
-msgid "How it works in detail"
+#: _i18n/en/documentation/queue/sorting.md:block 7 (header)
+#, fuzzy
+msgid "How smart shuffle works in detail"
 msgstr "Com funciona en detall"
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 4 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
 "Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B "
 "and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the "
@@ -2715,7 +2741,7 @@ msgstr ""
 "EE_EEDE_EDEE_EE. Això continua fins que acabem amb una cua semblant a "
 "aquesta: EEBEEDECEDEEAEE."
 
-#: _i18n/en/documentation/queue/smart-shuffle.md:block 5 (paragraph)
+#: _i18n/en/documentation/queue/sorting.md:block 9 (paragraph)
 msgid ""
 "Publication dates play a role both *within* podcasts (in our example, "
 "episodes from podcast E are sorted accordingly) and *between* podcasts (the "
