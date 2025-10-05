@@ -16,7 +16,7 @@ Vraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken d
 
 ### Home Assistant Android-app ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Maak een notificatie-actie aanroep in een automatisering met het volgende sjabloon:
+Roep de notificatie-actie aan in een automatisering met het volgende sjabloon:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>

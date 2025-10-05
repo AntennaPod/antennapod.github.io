@@ -1,12 +1,12 @@
 You can sort your queue using different sorting criteria: `Episode title`, `Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most of them are self-explanatory, this page focuses specifically on `Podcast title` and `Smart shuffle`.
 
-# Podcast title
+# عنوان پادپخش
 
 This criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by `Date` and then sort by `Podcast title`.
 
-# Smart shuffle
+# بُر زدن هوشمند
 
-مرتب‌سازی هوشمند یک روش مرتب‌سازی پیشرفته برای صف است که به شما امکان می‌دهد صف خود را بر پایه تاریخ انتشار مرتب نگه دارید، در حالی که تا جای ممکن از انباشت قسمت‌های یک اشتراک واحد در صف جلوگیری می‌کند.
+بُر زدن هوشمند روش مرتّب سازی پیشرفته‌ایست که می‌گذارد صفتان خود را بر پایهٔ تاریخ انتشار مرتّب نگه داشته و همچنان تا جای ممکن از انباشت قسمت‌های اشتراکی خاص در صفتان جلوگیری می‌کند.
 
 برای به‌کارگیری مرتب‌سازی هوشمند، چند قسمت از اشتراک‌های مختلف را در صف خود بگذارید، سپس روی `…` در نوار بالا بزنید، `مرتب‌سازی` را انتخاب کنید و در پایان `مرتب‌سازی هوشمند` را برگزینید. مانند دیگر روش‌های مرتب‌سازی، مرتب‌سازی هوشمند می‌تواند به‌صورت صعودی یا نزولی مرتب شود.
 
