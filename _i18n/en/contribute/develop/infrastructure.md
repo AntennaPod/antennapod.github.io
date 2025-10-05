@@ -34,7 +34,7 @@ This page describes what services and accounts are in use for AntennaPod. The go
   - Managed by ByteHamster (catch-all mailbox)
   - Used by the forum, checked every 5 minutes
     - Allows to post+reply via email
-- Project email address (not public)
+- Project email address (not public to avoid spam)
   - Redirect to ByteHamster and keunes
   - Used for accounts, recovery email addresses, etc.
 - Gmail project email address (not public)
