@@ -16,7 +16,7 @@
 
 ### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Create a notify action call in an automation with the following template:
+ساخت فراخوان کنش آگاهی در اتوماسیون با قالب زیر:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
