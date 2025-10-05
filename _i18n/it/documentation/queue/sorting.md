@@ -2,7 +2,7 @@ Puoi ordinare la tua coda secondo diversi criteri di ordinamento: `Titolo episod
 
 # Titolo podcast
 
-This criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by `Date` and then sort by `Podcast title`.
+Questo criterio ordina gli episodi nella tua coda secondo il titolo del podcast a cui appartengono. Nota che gli episodi di uno stesso podcast sono ordinati secondo il tuo criterio di ordinamento precedente: quindi, se desideri che gli episodi di uno stesso podcast siano ordinati consecutivamente e cronologicamente, dovrai ordinare prima per `Data` e poi per `Titolo podcast`.
 
 # Casuale intelligente
 
