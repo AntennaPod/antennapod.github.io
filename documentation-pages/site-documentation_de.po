@@ -445,14 +445,15 @@ msgstr ""
 "Einstellungen/alles verloren!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
-"In a very old AntennaPod version, there were some issues with the database "
-"with all information (episodes, listening states, etc). While the cause is "
-"long fixed, your database might have been damaged (even when the app was "
-"working without issues). If a recent AntennaPod version makes changes to the "
-"damaged parts of the database, these damages may suddenly become a problem. "
-"At that point AntennaPod can no longer work with the broken database and has "
-"to start over with an empty one."
+"In a very old AntennaPod version (dating before 2019), there were some "
+"issues with the database with all information (episodes, listening states, "
+"etc). While the cause is long fixed, your database might have been damaged "
+"(even when the app was working without issues). If a recent AntennaPod "
+"version makes changes to the damaged parts of the database, these damages "
+"may suddenly become a problem. At that point AntennaPod can no longer work "
+"with the broken database and has to start over with an empty one."
 msgstr ""
 "In einer sehr alten Version von AntennaPod gab es einige Probleme mit der "
 "Datenbank mit allen Informationen (Episoden, Hörstatus, etc.). Die Ursache "
@@ -499,11 +500,14 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
+#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
-"repair this file (or repair an exported backup) using one of the steps "
-"below. This is a challenge and requires learning how to deal with a terminal."
+"repair this file (or repair an exported backup) using a [Python script]"
+"(https://github.com/ByteHamster/AntennaPodDbFixer) that was developed to "
+"automate the recovery process. This is a challenge and requires learning how "
+"to deal with a terminal."
 msgstr ""
 "Wenn AntennaPod eine defekte Datenbank erkennt, wird diese in eine Datei "
 "namens CorruptedDatabaseBackup.db im Speicherverzeichnis der Anwendung "
@@ -512,39 +516,7 @@ msgstr ""
 "ausführst. Dies ist eine Herausforderung und erfordert, dass du den Umgang "
 "mit einem Terminal lernst."
 
-#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
-#: list)
-msgid ""
-"One community member [followed these steps](https://github.com/AntennaPod/"
-"AntennaPod/issues/2463#issuecomment-384088306) to repair the database and "
-"[indicated](https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-404624614) that after this they could successfully "
-"import the repaired database."
-msgstr ""
-"Ein Community-Mitglied [hat es folgendermaßen versucht](https://github.com/"
-"AntennaPod/AntennaPod/issues/2463#issuecomment-384088306), die Datenbank zu "
-"reparieren, und [hat angegeben](https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-404624614), dass er die reparierte Datenbank danach "
-"erfolgreich importieren konnte."
-
-#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
-#: list)
-msgid ""
-"Another community member [took a clean database and moved content from the "
-"corrupted one in it](https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385341068), and then performed [another correction]"
-"(https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385354995). After both steps, they managed to "
-"successfully imported the new database in AntennaPod."
-msgstr ""
-"Eine andere Person [hat den Inhalt der beschädigten Datenbank in eine neue "
-"verschoben](https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385341068) und führte dann [eine weitere Korrektur]"
-"(https://github.com/AntennaPod/AntennaPod/"
-"issues/2463#issuecomment-385354995) durch. Danach gelang es, die neue "
-"Datenbank erfolgreich in AntennaPod zu importieren."
-
-#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 7 (ordered
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
 msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
@@ -553,7 +525,7 @@ msgstr ""
 "Während alle Daten *über* deine Abonnements und Episoden abhandenkamen, sind "
 "die Mediendateien noch vorhanden."
 
-#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 8 (unordered
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
@@ -569,7 +541,7 @@ msgstr ""
 "Podcasts aus. Beachte, dass du damit nur Zugriff auf bereits "
 "heruntergeladene Medien gewährst – du wirst keine neuen Episoden erhalten."
 
-#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 8 (unordered
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid ""
 "You can also start adding previous podcasts from scratch. You can look "
@@ -2821,6 +2793,34 @@ msgstr "Tippe auf das `Zahnrad`-Symbol, um die Einstellungen zu öffnen"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "`Tags`-Einstellung wählen"
+
+#~ msgid ""
+#~ "One community member [followed these steps](https://github.com/AntennaPod/"
+#~ "AntennaPod/issues/2463#issuecomment-384088306) to repair the database and "
+#~ "[indicated](https://github.com/AntennaPod/AntennaPod/"
+#~ "issues/2463#issuecomment-404624614) that after this they could "
+#~ "successfully import the repaired database."
+#~ msgstr ""
+#~ "Ein Community-Mitglied [hat es folgendermaßen versucht](https://github."
+#~ "com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306), die "
+#~ "Datenbank zu reparieren, und [hat angegeben](https://github.com/"
+#~ "AntennaPod/AntennaPod/issues/2463#issuecomment-404624614), dass er die "
+#~ "reparierte Datenbank danach erfolgreich importieren konnte."
+
+#~ msgid ""
+#~ "Another community member [took a clean database and moved content from "
+#~ "the corrupted one in it](https://github.com/AntennaPod/AntennaPod/"
+#~ "issues/2463#issuecomment-385341068), and then performed [another "
+#~ "correction](https://github.com/AntennaPod/AntennaPod/"
+#~ "issues/2463#issuecomment-385354995). After both steps, they managed to "
+#~ "successfully imported the new database in AntennaPod."
+#~ msgstr ""
+#~ "Eine andere Person [hat den Inhalt der beschädigten Datenbank in eine "
+#~ "neue verschoben](https://github.com/AntennaPod/AntennaPod/"
+#~ "issues/2463#issuecomment-385341068) und führte dann [eine weitere "
+#~ "Korrektur](https://github.com/AntennaPod/AntennaPod/"
+#~ "issues/2463#issuecomment-385354995) durch. Danach gelang es, die neue "
+#~ "Datenbank erfolgreich in AntennaPod zu importieren."
 
 #~ msgid ""
 #~ "If the new version is in beta, it is *only* available through Google Play "
