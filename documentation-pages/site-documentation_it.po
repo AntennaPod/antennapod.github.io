@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 23:16+0200\n"
-"PO-Revision-Date: 2025-10-04 16:02+0000\n"
+"PO-Revision-Date: 2025-10-05 10:01+0000\n"
 "Last-Translator: Luca <loucasal@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/it/>\n"
@@ -436,7 +436,6 @@ msgstr ""
 "impostazioni/tutto!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -446,15 +445,15 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"In una versione molto vecchia di AntennaPod, erano presenti alcuni problemi "
-"con il database che contiene tutte le informazioni (episodi, stati di "
-"riproduzione, ecc.). Anche se la causa del problema è stata risolta da molto "
-"tempo, è possibile che il tuo database abbia subito dei danni (anche quando "
-"l'app funzionava senza problemi). Se una versione recente di AntennaPod "
-"modifica le parti danneggiate del database, questi danni potrebbero "
-"improvvisamente diventare un problema. A quel punto, AntennaPod non può più "
-"funzionare con il database danneggiato e deve ricominciare da capo con un "
-"nuovo database."
+"In una versione molto vecchia di AntennaPod (risalente a prima del 2019), "
+"erano presenti alcuni problemi con il database che contiene tutte le "
+"informazioni (episodi, stati di riproduzione, ecc.). Anche se la causa del "
+"problema è stata risolta da molto tempo, è possibile che il tuo database "
+"abbia subito dei danni (anche quando l'app funzionava senza problemi). Se "
+"una versione recente di AntennaPod modifica le parti danneggiate del "
+"database, questi danni potrebbero improvvisamente diventare un problema. A "
+"quel punto, AntennaPod non può più funzionare con il database danneggiato e "
+"deve ricominciare da capo con un nuovo database."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -492,7 +491,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -503,9 +501,10 @@ msgid ""
 msgstr ""
 "Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato "
 "CorruptedDatabaseBackup.db nella cartella di archiviazione dell'app. Puoi "
-"provare a riparare questo file (o un backup esportato) seguendo i passaggi "
-"qui sotto. Quest'operazione non è semplice e richiede di imparare a "
-"utilizzare un terminale."
+"provare a riparare questo file (o un backup esportato) utilizzando uno "
+"[script in Python](https://github.com/ByteHamster/AntennaPodDbFixer) "
+"sviluppato per automatizzare il processo di ripristino. Quest'operazione non "
+"è semplice e richiede di imparare a utilizzare un terminale."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -2658,10 +2657,15 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"Puoi ordinare la tua coda secondo diversi criteri di ordinamento: `Titolo "
+"episodio`, `Titolo podcast`, `Durata`, `Data`, `Casuale` e `Casuale "
+"intelligente`. Siccome la maggior parte di questi criteri non necessita di "
+"spiegazioni, questa pagina si concentra nello specifico su `Titolo podcast` "
+"e `Casuale intelligente`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr ""
+msgstr "Titolo podcast"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2674,19 +2678,18 @@ msgstr ""
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
-msgstr ""
+msgstr "Casuale intelligente"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"La modalità casuale intelligente è un criterio avanzato di ordinamento della "
-"coda che ti permette di mantenere la coda ordinata sia per data di "
-"pubblicazione che evitando, per quanto possibile, di avere gruppi di episodi "
-"dello stesso podcast."
+"La modalità casuale intelligente è un criterio avanzato di ordinamento che "
+"ti permette di mantenere la tua coda ordinata sia per data di pubblicazione "
+"che evitando, per quanto possibile, di avere gruppi di episodi dello stesso "
+"podcast."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
@@ -2702,9 +2705,8 @@ msgstr ""
 "discendente."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Come funziona di preciso"
+msgstr "Come funziona di preciso la modalità casuale intelligente"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
