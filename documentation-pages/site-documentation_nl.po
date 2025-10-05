@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
-"PO-Revision-Date: 2025-09-26 08:05+0000\n"
+"PO-Revision-Date: 2025-10-05 12:01+0000\n"
 "Last-Translator: Frits van Bommel <fvbommel@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website/"
 "documentation/nl/>\n"
@@ -176,11 +176,10 @@ msgstr ""
 "docs/notifications/notification-commands/#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr ""
-"Maak een notificatie-actie aanroep in een automatisering met het volgende "
+"Roep de notificatie-actie aan in een automatisering met het volgende "
 "sjabloon:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
@@ -436,7 +435,6 @@ msgstr ""
 "instellingen zijn weg!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -446,13 +444,14 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"In een hele oude versie van AntennaPod waren er problemen met de database "
-"van alle informatie (afleveringen, luisterdata, etc.). Hoewel de oorzaak al "
-"lang is opgelost, kan je database beschadigd zijn (zelfs als de app zonder "
-"problemen werkte). Als een huidige versie van AntennaPod veranderingen maakt "
-"aan de beschadigde delen van de database, kan deze schade opeens een "
-"probleem worden. Op dat moment kan AntennaPod niet meer werken met de "
-"beschadigde database en moet het opnieuw beginnen met een lege database."
+"In een hele oude versie van AntennaPod (van voor 2019) waren er problemen "
+"met de database van alle informatie (afleveringen, luisterdata, etc.). "
+"Hoewel de oorzaak al lang is opgelost, kan je database beschadigd zijn "
+"(zelfs als de app zonder problemen werkte). Als een huidige versie van "
+"AntennaPod veranderingen maakt aan de beschadigde delen van de database, kan "
+"deze schade opeens een probleem worden. Op dat moment kan AntennaPod niet "
+"meer werken met de beschadigde database en moet het opnieuw beginnen met een "
+"lege database."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -490,7 +489,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -502,8 +500,10 @@ msgstr ""
 "Als AntennaPod een kapotte database detecteert, wordt dit weggeschreven naar "
 "een bestand met de naam CorruptedDatabaseBackup.db in de opslagmap van de "
 "app. Je kunt dit bestand (of een geëxporteerde back-up) proberen te "
-"repareren met een van de onderstaande stappen. Dit is een uitdaging en "
-"vereist het leren omgaan met een terminal."
+"repareren met een [Python script]"
+"(https://github.com/ByteHamster/AntennaPodDbFixer) dat is ontwikkeld om het "
+"herstelproces te automatiseren. Dit is een uitdaging en vereist het leren "
+"omgaan met een terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -2635,10 +2635,14 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"Je kunt je wachtrij op verschillende manieren sorteren: op `Afleveringstitel`"
+", `Podcast-titel`, `Duur`, `Datum`, `Willekeurig` en `Slimme shuffle`. "
+"Aangezien de meeste daarvan voor zichzelf spreken, richt deze pagina zich "
+"specifiek op `Podcast-titel` en `Slimme shuffle`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr ""
+msgstr "Podcast-titel"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2648,22 +2652,26 @@ msgid ""
 "from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"Dit criterium sorteert afleveringen in je wachtrij op basis van de titel van "
+"de bijbehorende podcast. Merk op dat afleveringen van dezelfde podcast "
+"gesorteerd worden volgens je vorige sorteervolgorde, dus als je afleveringen "
+"van dezelfde podcast samen wil hebben staan op chronologische volgorde moet "
+"je eerst op `Datum` sorteren en daarna op `Podcast-titel`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
-msgstr ""
+msgstr "Slimme shuffle"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"Slimme shuffle is een geavanceerd sorteeringscriterium dat je toelaat om je "
-"afspeellijst te sorteren op publicatiedatum, waar je ook vermijd dat je "
-"grote clusters van afleveringen van een enkel abonnement hebt in de "
-"afspeellijst."
+"Slimme shuffle is een geavanceerd sorteeringscriterium waarmee je je "
+"afspeellijst kunt sorteren op publicatiedatum, waar je ook zo veel mogelijk "
+"vermijd dat je grote clusters van afleveringen van een enkel abonnement hebt "
+"in de afspeellijst."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
@@ -2679,9 +2687,8 @@ msgstr ""
 "richting sorteren."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Hoe werkt het in detail"
+msgstr "De details van hoe slimme shuffle werkt"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
@@ -2694,7 +2701,7 @@ msgid ""
 "EEBEEDECEDEEAEE."
 msgstr ""
 "Veronderstel dat je 15 afleveringen in je afspeellijst hebt: 1 van podcasts "
-"A, B en C, 2 van podcast D en 10 van podcast E. Smart shuffle zal eerst de "
+"A, B en C, 2 van podcast D en 10 van podcast E. Slimme shuffle zal eerst de "
 "podcast met het meest afleveringen (E) nemen en de afleveringen hiervan "
 "uitspreiden in de afspeellijst: EE_EE_E_E_EE_EE. Dan komt de podcast met het "
 "tweede meest aantal afleveringen (D), hiervan worden de afleveringen "
