@@ -1,5 +1,5 @@
 ---
-texts: documentation.queue.smart-shuffle
+texts: documentation.queue.sorting
 layout: doc
 parent: queue
 icon: "fa-solid fa-shuffle"

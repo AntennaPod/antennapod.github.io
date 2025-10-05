@@ -1,9 +1,17 @@
-Smart shuffle is an advanced queue sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.
+You can sort your queue using different sorting criteria: `Episode title`, `Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most of them are self-explanatory, this page focuses specifically on `Podcast title` and `Smart shuffle`.
+
+# Podcast title
+
+This criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by `Date` and then sort by `Podcast title`.
+
+# Smart shuffle
+
+Smart shuffle is an advanced sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.
 
 To use smart shuffle, place some episodes from different subscriptions in your queue, then tap `…` in the top bar, select `Sort` and finally `Smart shuffle`.
 Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.
 
-## How it works in detail
+## How smart shuffle works in detail
 
 Let's say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.
 
