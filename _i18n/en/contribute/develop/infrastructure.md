@@ -11,6 +11,9 @@ This page describes what services and accounts are in use for AntennaPod. The go
     - API key: ByteHamster
   - AntennaPod signing keys
     - mfietz, ByteHamster, danieloeh
+- Amazon App Store
+  - Outdated
+  - None of the current developers has access
 
 # Web
 - [Website](https://antennapod.org)
