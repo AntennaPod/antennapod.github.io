@@ -320,16 +320,15 @@
 
 <h1 id="smart-shuffle">Smart shuffle</h1>
 
-<p>Smart shuffle is an advanced sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.</p>
+<p>Le tri intelligent est un tri avancé qui permet de conserver l’ordre de publication mais en évitant autant que possible de grouper des épisodes d’un même podcast dans votre liste de lecture.</p>
 
-<p>To use smart shuffle, place some episodes from different subscriptions in your queue, then tap <code class="language-plaintext highlighter-rouge">…</code> in the top bar, select <code class="language-plaintext highlighter-rouge">Sort</code> and finally <code class="language-plaintext highlighter-rouge">Smart shuffle</code>.
-Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.</p>
+<p>Pour utiliser le tri intelligent ajouter des épisodes de podcasts différents dans la liste de lecture, puis appuyez sur <code class="language-plaintext highlighter-rouge">…</code> dans la barre en haut, choisir <code class="language-plaintext highlighter-rouge">Trier</code> et enfin <code class="language-plaintext highlighter-rouge">Tri intelligent</code>. Comme pour les autres types de tri, l’ordre du tri intelligent peut être ascendant ou descendant.</p>
 
-<h2 id="how-smart-shuffle-works-in-detail">How smart shuffle works in detail</h2>
+<h2 id="comment-ça-marche">Comment ça marche</h2>
 
-<p>Let’s say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.</p>
+<p>Disons que vous avez 15 épisodes dans votre liste de lecture : 1 par podcasts pour A, B et C, 2 pour le podcast D et 10 du podcast E. Le tri intelligent va commencer par le podcast avec le plus d’épisodes (E) et disperser ces épisodes dans la liste de lecture : EE_EE_E_E_EE_EE. Puis les épisodes du deuxième podcast avec le plus d’épisodes (D) sont placés dans les emplacements libres : EE_EEDE_EDEE_EE. Et ainsi de suite jusqu’à obtenir une liste de lecture ressemblant à ceci : EEBEEDECEDEEAEE.</p>
 
-<p>Publication dates play a role both <em>within</em> podcasts (in our example, episodes from podcast E are sorted accordingly) and <em>between</em> podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is older).</p>
+<p>Les dates de publications joue un rôle par rapport aux autres épisodes d’un <em>même</em> podcast (dans notre exemple, les épisodes de E sont triés en respectant leurs ordre) et aussi <em>entre</em> les différents podcasts (l’épisode du podcast B est avant celui du podcast A car il est plus ancien).</p>
 
 
             </article>

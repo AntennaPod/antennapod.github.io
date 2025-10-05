@@ -320,16 +320,15 @@
 
 <h1 id="smart-shuffle">Smart shuffle</h1>
 
-<p>Smart shuffle is an advanced sorting criterion that allows you to keep your queue sorted by publication date while also avoiding as much as possible having clusters of episodes from a single subscription in your queue.</p>
+<p>スマートシャッフルは、高度なキューの並べ替え基準です。これを使用すると、できるだけキュー内に単一の購読のエピソードのクラスターができないようにしながら、公開日によってキューを並べ替えられます。</p>
 
-<p>To use smart shuffle, place some episodes from different subscriptions in your queue, then tap <code class="language-plaintext highlighter-rouge">…</code> in the top bar, select <code class="language-plaintext highlighter-rouge">Sort</code> and finally <code class="language-plaintext highlighter-rouge">Smart shuffle</code>.
-Just like other sorting criteria, smart shuffle can be sorted in ascending or descending order.</p>
+<p>スマートシャッフルを使用するには、さまざまな購読からいくつかのエピソードをキューに入れ、上部バーの<code class="language-plaintext highlighter-rouge">…</code>をタップし、<code class="language-plaintext highlighter-rouge">並べ替え</code>を選択して、最後に<code class="language-plaintext highlighter-rouge">スマートシャッフル</code>を選択します。他の並べ替え基準と同様に、スマート シャッフルは昇順または降順で並べ替えられます。</p>
 
-<h2 id="how-smart-shuffle-works-in-detail">How smart shuffle works in detail</h2>
+<h2 id="詳しい仕組み">詳しい仕組み</h2>
 
-<p>Let’s say you have 15 episodes in your queue: 1 from each of podcasts A, B and C, 2 from podcast D and 10 from podcast E. Smart shuffle first takes the podcast with the most episodes (E) and spreads out its episodes in the queue: EE_EE_E_E_EE_EE. It then takes the podcast with the second-most episodes (D) and spreads out those in the available slots: EE_EEDE_EDEE_EE. This continues until we end up with a queue that looks like this: EEBEEDECEDEEAEE.</p>
+<p>たとえばキューに15個のエピソードがあるとします。ポッドキャストA、B、Cからそれぞれ1個、ポッドキャストDから2個、ポッドキャストEから 10 個です。スマートシャッフルは、まずエピソードが最も多いポッドキャスト（E）を取得し、そのエピソードを次のように展開します。キュー: EE_EE_E_E_EE_EE。次に、2 番目に多いエピソードを含むポッドキャスト（D）を取得し、それらを使用可能なスロットEE_EEDE_EDEE_EEに振り分けます。これを、EEBEEDECEDEEAEEのようなキューが完成するまで続けます。</p>
 
-<p>Publication dates play a role both <em>within</em> podcasts (in our example, episodes from podcast E are sorted accordingly) and <em>between</em> podcasts (the episode from podcast B gets an earlier spot than the one from podcast A because the former is older).</p>
+<p>公開日は、ポッドキャスト<em>内</em>（この例では、ポッドキャストEのエピソードがそれに応じて並べ替えられます）とポッドキャスト<em>間</em>の両方で役割を果たします（ポッドキャストBのエピソードは、ポッドキャストAのエピソードよりも早いスポットを獲得します。前者の方が新しいためです）。</p>
 
 
             </article>
