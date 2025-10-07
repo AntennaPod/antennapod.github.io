@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-10-06 16:02+0000\n"
+"PO-Revision-Date: 2025-10-07 00:02+0000\n"
 "Last-Translator: EdoAug <edvardhaaland@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/nb_NO/>\n"
@@ -62,15 +62,14 @@ msgstr ""
 "episoder."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "By default, all podcasts are refreshed with a 12-hour interval to pick up "
 "new episodes. Via `Settings` » `Downloads` » `Refresh podcasts` you can "
 "change the interval period or turn off the automatic updates."
 msgstr ""
-"Som standard oppdateres alle podkaster hver tolvte time for å finne nye. Via "
-"`Innstillinger` → `Nettverk` → `Oppdater podkaster` kan du endre intervallet "
-"eller skru av automatiske oppdateringer."
+"Som standard oppdateres alle podkaster hver 12. time for å finne nye "
+"episoder. Gjennom `Innstillinger` → `Nedlastinger` → `Oppdater podkaster` "
+"kan du endre intervallet eller skru av automatiske oppdateringer."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2 (paragraph)
 msgid ""
@@ -169,11 +168,15 @@ msgid ""
 "HomeAssistant Android Mobile Companion ([website](https://companion.home-"
 "assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 msgstr ""
+"Home Assistant-appen for Android ([website](https://"
+"companion.home-assistant.io/docs/notifications/notification-commands/"
+"#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr ""
+"Opprett et varslingshandlingskall med en automatisering med følgende mal:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -427,7 +430,6 @@ msgstr ""
 "innstillingene/alt!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -437,13 +439,13 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"I en veldig gammel versjon av AntennaPod var det noen problemer med "
-"databasen med all informasjonen (episode, lyttestatus osv.). Selv om årsaken "
-"til feilen er fikset for lenge siden, kan databasen din ha blitt ødelagt "
-"(selv om appen virket uten problemer). Dersom en nyere versjon av AntennaPod "
-"gjør endringer på de ødelagte delene av databasen kan skadene plutselig blir "
-"et problem. På det tidspunktet vil ikke AntennaPod lenger virke med en "
-"ødelagte databasen og må starte på ny med en tom database."
+"I en veldig gammel versjon av AntennaPod (fra før 2019) var det noen "
+"problemer med databasen med all informasjonen (episoder, lyttestatus osv.). "
+"Selv om årsaken til feilen er fikset for lenge siden, kan databasen din ha "
+"blitt skadet (selv om appen virket uten problemer). Dersom en nyere versjon "
+"av AntennaPod gjør endringer på de ødelagte delene av databasen, kan disse "
+"skadene plutselig skape problemer. På det tidspunktet vil ikke AntennaPod "
+"lenger virke med en ødelagte databasen og må starte på ny med en tom en."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -481,7 +483,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -491,10 +492,10 @@ msgid ""
 "to deal with a terminal."
 msgstr ""
 "Hvis AntennaPod oppdager en ødelagt database, skriver den til en fil med "
-"navnet CorruptedDatabaseBackup.db i appens lagringskatalog. Du kan forsøke å "
+"navnet «CorruptedDatabaseBackup.db» i appens lagringsmappe. Du kan forsøke å "
 "reparere denne filen (eller reparere en eksportert sikkerhetskopi) ved hjelp "
-"av ett av trinnene nedenfor. Dette er en utfordring og krever at du lærer "
-"deg å håndtere kommandolinje."
+"av en [Python-kode](https://github.com/ByteHamster/AntennaPodDbFixer). Dette "
+"er utfordrende og krever at du lærer deg å håndtere en kommandolinje."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -2589,10 +2590,14 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"Du kan sortere køen din med forskjellige kriterier: `episodetittel`, "
+"`podkasttittel`, `lengde`, `dato`, `tilfeldig` og `smart blanding`. Ettersom "
+"noen av disse har åpenbar funksjon, fokuserer denne siden spesifikt på "
+"`podkasttittel` og `smart blanding`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr ""
+msgstr "Podkasttittel"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2602,13 +2607,17 @@ msgid ""
 "from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"Dette kriteriet sorterer episoder i køen din etter tittelen på podkasten de "
+"hører til. Merk at episoder fra samme podkast sorteres etter forrige "
+"sorteringsrekkefølge – hvis du ønsker å sortere episoder fra den samme "
+"podkasten sammen og kronologisk, må du først sortere etter `dato` og "
+"deretter etter `podkasttittel`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
-msgstr ""
+msgstr "Smart blanding"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
@@ -2616,7 +2625,7 @@ msgid ""
 msgstr ""
 "Smart blanding er et avansert køsorteringskriterie som lar deg holde køen "
 "sortert på publiseringsdato mens den også unngår så godt som mulig å ha "
-"klaser med episoder fra samme abonnement i køen."
+"klumper med episoder fra samme abonnement i køen din."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
@@ -2631,9 +2640,8 @@ msgstr ""
 "sorteres i fallende og stigende rekkefølge."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Hvordan det virker i detalj"
+msgstr "Hvordan smart blandet fungerer, i detalj"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
