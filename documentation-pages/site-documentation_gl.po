@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-22 21:37+0200\n"
-"PO-Revision-Date: 2025-09-26 05:01+0000\n"
+"PO-Revision-Date: 2025-10-07 03:02+0000\n"
 "Last-Translator: \"josé m.\" <correoxm@disroot.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/gl/>\n"
@@ -174,7 +174,6 @@ msgstr ""
 "assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr "Crear unha petición de notificación no automatismo co seguinte modelo:"
@@ -435,7 +434,6 @@ msgstr ""
 "episodios/axustes/todo!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -445,14 +443,14 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"Nunha versión moi antiga de AntennaPod, houbo algúns problemas coa base de "
-"datos con toda a información (episodios, estados de escoita, #etc). Aínda "
-"que a causa solucionouse hai tempo, é posible que a túa base de datos "
-"danouse (mesmo cando a aplicación funcionaba sen problemas). Se unha versión "
-"recente de AntennaPod realiza cambios nas partes danadas da base de datos, "
-"estes danos poden converterse de súpeto nun problema. Nese momento "
-"AntennaPod xa non pode traballar coa base de datos danada e ten que empezar "
-"de novo cunha baleira."
+"Nunha versión antiga de AntennaPod (anterior a 2019), houbo algúns problemas "
+"na base de datos con toda a información (episodios, estados de escoita, etc)"
+". Aínda que a causa solucionouse hai tempo, é posible que a túa base de "
+"datos estea danada (mesmo se a aplicación funcionase sen problemas). Se unha "
+"versión recente de AntennaPod realiza cambios nas partes danadas da base de "
+"datos, estes danos poden converterse de súpeto nun problema. Nese momento "
+"AntennaPod xa non podería traballar coa base de datos danada e tería que "
+"comezar de novo cunha baleira."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -490,7 +488,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -499,11 +496,13 @@ msgid ""
 "automate the recovery process. This is a challenge and requires learning how "
 "to deal with a terminal."
 msgstr ""
-"Se AntennaPod detecta unha base de datos rota, escríbea nun arquivo chamado "
-"CorruptedDatabaseBackup.db no directorio de almacenamento da app. Podes "
-"tentar reparar este arquivo (ou reparar unha copia de seguridade exportada) "
-"seguindo un dos pasos que se indican a continuación. Isto é un reto e "
-"require aprender a manexar un terminal."
+"Se AntennaPod detecta unha base de datos estragada, escríbea nun ficheiro "
+"chamado CorruptedDatabaseBackup.db no directorio de almacenaxe da app. Podes "
+"tentar reparar este ficheiro (ou reparar unha copia de apoio exportada) "
+"usando un [script en Python]"
+"(https://github.com/ByteHamster/AntennaPodDbFixer) que foi escrito para "
+"automatizar o proceso de recuperación. Pode resultar complicado e require "
+"aprender a usar un terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -2633,10 +2632,14 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"Poder ordenar a cola usando diferentes criterios: `Título do episodio`, `"
+"Título do podcast`. `Duración`, `Data`, `Ao chou`e `Barallado intelixente`. "
+"Polo nome xa se entenden ben, pero esta páxina céntrase específicamente en `"
+"Título do podcast`e `Barallado intelixente`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr ""
+msgstr "Título do podcast"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2646,22 +2649,25 @@ msgid ""
 "from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"Este criterio ordena os episodios da cola en función do título do podcast ao "
+"que pertencen. Ten en conta que os episodios do mesmo podcast están "
+"ordenados en función do teu criterio anterior: por isto, se queres que os "
+"episodios do mesmo podcast estean xuntos e en orde cronolóxica, terás "
+"primeiro que avialos por `Data` e despois por `Título do podcast`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
-msgstr ""
+msgstr "Barallado intelixente"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"Smart Shuffle é un criterio avanzado de ordenación de cola que lle permite "
-"manter a súa cola ordenada por data de publicación e, ao mesmo tempo, evitar "
-"na medida do posible ter grupos de episodios dunha soa subscrición na súa "
-"cola."
+"O Barallado Intelixente é un criterio avanzado para ordenar que che permite "
+"marter a cola por data de publicación e ao mesmo tempo evitar dentro do "
+"posible que aparezan xuntos demasiados episodios dunha única subscrición."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
@@ -2678,9 +2684,8 @@ msgstr ""
 "descendente."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Funcionamento detallado"
+msgstr "Información sobre o barallado intelixente"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
