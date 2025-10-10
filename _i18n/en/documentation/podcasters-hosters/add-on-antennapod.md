@@ -6,9 +6,7 @@ Simply include a link like the one below on your website or wherever you want. M
 You could also turn the same link into a button, e.g. by using the following code:
 
 ```
-<form action="https://antennapod.org/deeplink/subscribe/?url=xyz&title=abc>
-   <button><img src="antennapod-logo.svg">Open in AntennaPod</button>
-</form>
+<style>.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}</style><a href="https://antennapod.org/deeplink/subscribe?url=xyz&title=abc" class="antennapod-subscribe">Subscribe in AntennaPod</a>
 ```
 
 # What users see
