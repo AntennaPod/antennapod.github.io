@@ -12,7 +12,6 @@ You could also turn the same link into a button, e.g. by using the following cod
 ```
 
 # What users see
-
 Users who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.
 
 <!-- mdpo-disable -->
@@ -39,22 +38,7 @@ Users who have installed AntennaPod and open that link will be able to preview e
 %}
 <!-- mdpo-enable -->
 
-On the other hand, users who don't have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in the screenshot below.
-
-<!-- mdpo-disable -->
-{% include image.html
-   alt= "
-     <!-- mdpo-enable-next-line -->
-     Page with instructions on the AntennaPod website
-
-     "
-   loc="/assets/images/documentation"
-   file="open-in-ap3.png"
-   max-width="400px"
-%}
-<!-- mdpo-enable -->
-
-You can view an example of such a page [here](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
+On the other hand, users who don't have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this [example page](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
 
 # Branding
 Would you like to use our logo to create a branded ‘Open in AntennaPod’ button? You can find it in our [branding repository](https://github.com/AntennaPod/branding).
