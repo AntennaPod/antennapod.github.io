@@ -314,7 +314,7 @@
 
 <p>Potresti aver voglia di urlare <em>Aiuto! Ho perso i miei podcast/episodi/impostazioni/tutto!</em></p>
 
-<p>In una versione molto vecchia di AntennaPod, erano presenti alcuni problemi con il database che contiene tutte le informazioni (episodi, stati di riproduzione, ecc.). Anche se la causa del problema è stata risolta da molto tempo, è possibile che il tuo database abbia subito dei danni (anche quando l’app funzionava senza problemi). Se una versione recente di AntennaPod modifica le parti danneggiate del database, questi danni potrebbero improvvisamente diventare un problema. A quel punto, AntennaPod non può più funzionare con il database danneggiato e deve ricominciare da capo con un nuovo database.</p>
+<p>In una versione molto vecchia di AntennaPod (risalente a prima del 2019), erano presenti alcuni problemi con il database che contiene tutte le informazioni (episodi, stati di riproduzione, ecc.). Anche se la causa del problema è stata risolta da molto tempo, è possibile che il tuo database abbia subito dei danni (anche quando l’app funzionava senza problemi). Se una versione recente di AntennaPod modifica le parti danneggiate del database, questi danni potrebbero improvvisamente diventare un problema. A quel punto, AntennaPod non può più funzionare con il database danneggiato e deve ricominciare da capo con un nuovo database.</p>
 
 <p>Capiamo che questo è molto frustrante e ci dispiace se sei stato colpito da questo problema.</p>
 
@@ -322,15 +322,7 @@
 
 <ol>
   <li>Hai <a href="/documentation/general/backup">esportato un backup</a> da AntennaPod di recente? Allora ripristinarlo è relativamente facile: vai su <code class="language-plaintext highlighter-rouge">Impostazioni</code> » <code class="language-plaintext highlighter-rouge">Memoria</code> » <code class="language-plaintext highlighter-rouge">Importa/Esporta</code> » <code class="language-plaintext highlighter-rouge">Importa database</code> e seleziona il backup. Tieni presente che il backup potrebbe contenere la corruzione parziale, quindi ti consigliamo di seguire anche il secondo passaggio per risolvere definitivamente il problema.</li>
-  <li>Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato CorruptedDatabaseBackup.db nella cartella di archiviazione dell’app. Puoi provare a riparare questo file (o un backup esportato) seguendo i passaggi qui sotto. Quest’operazione non è semplice e richiede di imparare a utilizzare un terminale.</li>
-</ol>
-
-<ul>
-  <li>Un membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">ha seguito questi passi</a> per riparare il database e <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">ha affermato</a> che, fatto questo, è stato in grado di importare con successo il database riparato.</li>
-  <li>Un altro membro della comunità <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">ha preso un database pulito e vi ha spostato il contenuto di quello corrotto</a>, poi ha eseguito <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">un’altra correzione</a>. Dopo questi due passaggi, è riuscito a importare con successo il nuovo database in AntennaPod.</li>
-</ul>
-
-<ol>
+  <li>Se AntennaPod rileva un database danneggiato, lo scrive in un file chiamato CorruptedDatabaseBackup.db nella cartella di archiviazione dell’app. Puoi provare a riparare questo file (o un backup esportato) utilizzando uno <a href="https://github.com/ByteHamster/AntennaPodDbFixer">script in Python</a> sviluppato per automatizzare il processo di ripristino. Quest’operazione non è semplice e richiede di imparare a utilizzare un terminale.</li>
   <li>Mentre tutti i dati <em>riguardo</em> le tue iscrizioni e i tuoi episodi sono spariti, i file multimediali saranno ancora presenti.</li>
 </ol>
 

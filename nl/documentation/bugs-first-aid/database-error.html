@@ -314,7 +314,7 @@
 
 <p>Misschien wil je het uitschreeuwen: <em>Help! Al mijn podcasts, afleveringen en instellingen zijn weg!</em></p>
 
-<p>In een hele oude versie van AntennaPod waren er problemen met de database van alle informatie (afleveringen, luisterdata, etc.). Hoewel de oorzaak al lang is opgelost, kan je database beschadigd zijn (zelfs als de app zonder problemen werkte). Als een huidige versie van AntennaPod veranderingen maakt aan de beschadigde delen van de database, kan deze schade opeens een probleem worden. Op dat moment kan AntennaPod niet meer werken met de beschadigde database en moet het opnieuw beginnen met een lege database.</p>
+<p>In een hele oude versie van AntennaPod (van voor 2019) waren er problemen met de database van alle informatie (afleveringen, luisterdata, etc.). Hoewel de oorzaak al lang is opgelost, kan je database beschadigd zijn (zelfs als de app zonder problemen werkte). Als een huidige versie van AntennaPod veranderingen maakt aan de beschadigde delen van de database, kan deze schade opeens een probleem worden. Op dat moment kan AntennaPod niet meer werken met de beschadigde database en moet het opnieuw beginnen met een lege database.</p>
 
 <p>We zijn ons ervan bewust dat het erg frustrerend is als dit gebeurt en het spijt ons als dit jou is overkomen.</p>
 
@@ -322,15 +322,7 @@
 
 <ol>
   <li>Is er recent <a href="/documentation/general/backup">een back-up geëxporteerd</a> van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar <code class="language-plaintext highlighter-rouge">Instellingen</code> » <code class="language-plaintext highlighter-rouge">Opslag</code> » <code class="language-plaintext highlighter-rouge">Importeren/Exporteren</code> » <code class="language-plaintext highlighter-rouge">Database importeren</code> en selecteer de back-up. Merk op dat de backup de gedeeltelijke corruptie kan bevatten, dus we raden nog steeds aan om de tweede stap te doorlopen om het probleem voor eens en altijd op te lossen.</li>
-  <li>Als AntennaPod een kapotte database detecteert, wordt dit weggeschreven naar een bestand met de naam CorruptedDatabaseBackup.db in de opslagmap van de app. Je kunt dit bestand (of een geëxporteerde back-up) proberen te repareren met een van de onderstaande stappen. Dit is een uitdaging en vereist het leren omgaan met een terminal.</li>
-</ol>
-
-<ul>
-  <li>Een lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">volgde deze stappen</a> om de database te herstellen en <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">gaf aan</a> dat hij daarna de herstelde database met succes kon importeren.</li>
-  <li>Een ander lid van de gemeenschap <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">nam een schone database en verplaatste inhoud van de beschadigde erin</a>, en voerde vervolgens <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">een andere correctie</a> uit. Na beide stappen slaagden ze erin de nieuwe database met succes te importeren in AntennaPod.</li>
-</ul>
-
-<ol>
+  <li>Als AntennaPod een kapotte database detecteert, wordt dit weggeschreven naar een bestand met de naam CorruptedDatabaseBackup.db in de opslagmap van de app. Je kunt dit bestand (of een geëxporteerde back-up) proberen te repareren met een <a href="https://github.com/ByteHamster/AntennaPodDbFixer">Python script</a> dat is ontwikkeld om het herstelproces te automatiseren. Dit is een uitdaging en vereist het leren omgaan met een terminal.</li>
   <li>Hoewel alle gegevens <em>over</em> abonnementen en afleveringen zijn verdwenen, zijn de mediabestanden er nog wel.</li>
 </ol>
 

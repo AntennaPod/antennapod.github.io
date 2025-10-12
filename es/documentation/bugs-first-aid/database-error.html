@@ -323,14 +323,6 @@
 <ol>
   <li>¿Ha <a href="/documentation/general/backup">exportado una copia de seguridad</a> recientemente desde AntennaPod? Entonces restaurarla es relativamente fácil: vaya a <code class="language-plaintext highlighter-rouge">Configuración</code> “ <code class="language-plaintext highlighter-rouge">Almacenamiento</code> “ <code class="language-plaintext highlighter-rouge">Importar/Exportar</code> “ <code class="language-plaintext highlighter-rouge">Importar base de datos</code> y seleccione la copia de seguridad. Tenga en cuenta que la copia de seguridad puede contener la corrupción parcial, por lo que todavía se recomienda pasar por el segundo paso para solucionar el problema de una vez por todas.</li>
   <li>Si AntennaPod detecta una base de datos rota, la escribe en un archivo llamado CorruptedDatabaseBackup.db en el directorio de almacenamiento de la app. Puedes intentar reparar este archivo (o reparar una copia de seguridad exportada) siguiendo uno de los pasos que se indican a continuación. Esto es un reto y requiere aprender a manejar un terminal.</li>
-</ol>
-
-<ul>
-  <li>Un miembro de la comunidad <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-384088306">siguió estos pasos</a> para reparar la base de datos e <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-404624614">indicó</a> que después de esto, pudo importar correctamente la base de datos recuperada.</li>
-  <li>Otro miembro de la comunidad <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385341068">cogió una base de datos limpia y movió el contenido de la corrupta a ella</a>, y después realizó <a href="https://github.com/AntennaPod/AntennaPod/issues/2463#issuecomment-385354995">otra corrección</a>. Después de ambos pasos, consiguió importar correctamente la base de datos nueva en AntennaPod.</li>
-</ul>
-
-<ol>
   <li>Mientras que todos los datos <em>sobre</em> tus suscripciones y episodios se han perdido, los archivos multimedia siguen ahí.</li>
 </ol>
 
