@@ -444,8 +444,8 @@ msgid ""
 "with the broken database and has to start over with an empty one."
 msgstr ""
 "Nunha versión antiga de AntennaPod (anterior a 2019), houbo algúns problemas "
-"na base de datos con toda a información (episodios, estados de escoita, etc)"
-". Aínda que a causa solucionouse hai tempo, é posible que a túa base de "
+"na base de datos con toda a información (episodios, estados de escoita, "
+"etc). Aínda que a causa solucionouse hai tempo, é posible que a túa base de "
 "datos estea danada (mesmo se a aplicación funcionase sen problemas). Se unha "
 "versión recente de AntennaPod realiza cambios nas partes danadas da base de "
 "datos, estes danos poden converterse de súpeto nun problema. Nese momento "
@@ -499,10 +499,9 @@ msgstr ""
 "Se AntennaPod detecta unha base de datos estragada, escríbea nun ficheiro "
 "chamado CorruptedDatabaseBackup.db no directorio de almacenaxe da app. Podes "
 "tentar reparar este ficheiro (ou reparar unha copia de apoio exportada) "
-"usando un [script en Python]"
-"(https://github.com/ByteHamster/AntennaPodDbFixer) que foi escrito para "
-"automatizar o proceso de recuperación. Pode resultar complicado e require "
-"aprender a usar un terminal."
+"usando un [script en Python](https://github.com/ByteHamster/"
+"AntennaPodDbFixer) que foi escrito para automatizar o proceso de "
+"recuperación. Pode resultar complicado e require aprender a usar un terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -880,6 +879,79 @@ msgid ""
 msgstr ""
 "Se atopa estes anuncios molestos, considere falar cos creadores de podcasts "
 "respecto diso."
+
+#: _i18n/en/documentation/general/app-permissions.md:block 1 (paragraph)
+msgid ""
+"AntennaPod will not ask you for any general permissions. However you can "
+"give the following permissions:"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
+msgid ""
+"**Show notifications**: Via `Settings` » `Notifications` you can give "
+"AntennaPod the permission to create notifications."
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
+msgid ""
+"**Storage access**: When you add a 'local folder' the app will ask for long-"
+"term access to a specific folder. When you import a database or an OPML "
+"file, selecting that file will give the app one-time access to it."
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
+msgid ""
+"Apart from that, the app requires the following permissions which are "
+"automatically granted by Android:"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"**Full network access**: to refresh podcasts, download and stream episodes, "
+"load images and enable synchronization"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid "**View network connections** and **View Wi-Fi connections**:"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"to check if there is an active internet connection, before and while taking "
+"any of the above-mentioned actions"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"for the setting `Downloads` » `Mobile updates`, to determine whether the "
+"above actions are allowed by the user on the current (mobile and/or metered) "
+"connection"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"**Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or "
+"Bluetooth disconnect`, to automatically pause or play when the phone "
+"connects with or disconnects from a Bluetooth device"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"**Run at startup**: to (re)start services like refreshing podcasts and "
+"enabling auto-downloads"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"**Control vibration**: for the option `Vibrate shortly before end` of the "
+"sleep timer, to vibrate if this setting is enabled"
+msgstr ""
+
+#: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
+msgid ""
+"**Prevent device from sleeping**: needed to ensure media playback and "
+"downloads continue in the background"
+msgstr ""
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
@@ -1388,10 +1460,9 @@ msgid ""
 "AntennaPod/releases) yet? Then please just wait. The update is in beta and "
 "not ready for public release."
 msgstr ""
-"Aínda non se publicou a [versión definitiva en GitHub]"
-"(https://github.com/AntennaPod/AntennaPod/releases)? Entón terás que "
-"agardar. A actualización está en fase beta e non está preparada para facela "
-"pública."
+"Aínda non se publicou a [versión definitiva en GitHub](https://github.com/"
+"AntennaPod/AntennaPod/releases)? Entón terás que agardar. A actualización "
+"está en fase beta e non está preparada para facela pública."
 
 #: _i18n/en/documentation/general/f-droid.md:block 12 (paragraph)
 msgid ""
@@ -2633,10 +2704,10 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
-"Poder ordenar a cola usando diferentes criterios: `Título do episodio`, `"
-"Título do podcast`. `Duración`, `Data`, `Ao chou`e `Barallado intelixente`. "
-"Polo nome xa se entenden ben, pero esta páxina céntrase específicamente en `"
-"Título do podcast`e `Barallado intelixente`."
+"Poder ordenar a cola usando diferentes criterios: `Título do episodio`, "
+"`Título do podcast`. `Duración`, `Data`, `Ao chou`e `Barallado intelixente`. "
+"Polo nome xa se entenden ben, pero esta páxina céntrase específicamente en "
+"`Título do podcast`e `Barallado intelixente`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"

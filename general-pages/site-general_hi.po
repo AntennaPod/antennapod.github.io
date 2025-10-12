@@ -359,10 +359,11 @@ msgstr ""
 "कॉपीराइट हैं।"
 
 #: _i18n/en/general/privacy.md:block 1 (paragraph)
+#, fuzzy
 msgid ""
-"AntennaPod is developed and maintained by individual volunteers and not "
-"represented by any legal entity. The community doesn't need your data, so "
-"the app and website are designed to be fully GDPR compliant. Read on to "
+"AntennaPod is developed and maintained by individual volunteers and is not "
+"represented by any legal entity. The community is not interested in your "
+"data, so the app and website are designed to be GDPR compliant. Read on to "
 "learn more."
 msgstr ""
 "एंटेनापॉड का विकास और रखरखाव व्यक्तिगत स्वयंसेवकों द्वारा किया जाता है और इसका "
@@ -370,32 +371,37 @@ msgstr ""
 "आवश्यकता नहीं है, इसलिए ऐप और वेबसाइट को पूरी तरह से जीडीपीआर अनुपालन के लिए डिज़ाइन "
 "किया गया है। अधिक जानकारी के लिए पढ़ें।"
 
-#: _i18n/en/general/privacy.md:block 2 (header)
-msgid "What data the AntennaPod app might collect, store and process"
+#: _i18n/en/general/privacy.md:block 3 (header)
+#, fuzzy
+msgid "Data AntennaPod may collect, store, and process"
 msgstr "एंटेनापॉड ऐप कौन सा डेटा एकत्र, संग्रहीत और संसाधित कर सकता है"
 
-#: _i18n/en/general/privacy.md:block 3 (paragraph)
+#: _i18n/en/general/privacy.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
-"includes for example the list of podcasts you follow, the app settings, and "
+"includes the list of podcasts you follow, the app settings and "
 "authentication data provided for specific podcasts or services (such as "
-"synchronization services). The app does not include any advertisement "
-"libraries or any 3rd party tracking (analytics) code, such as Google "
+"synchronization services). The app does not include any advertising "
+"libraries or third-party tracking or analytics code, such as Google "
 "Analytics."
 msgstr ""
 "ऐप केवल वही डेटा रिकॉर्ड करता है जो ऐप के काम करने के लिए ज़रूरी है। इसमें उदाहरण के लिए "
-"आपके (you) द्वारा फ़ॉलो किए जाने वाले पॉडकास्ट की सूची, ऐप सेटिंग (settings) और विशिष्"
-"ट पॉडकास्ट या सेवाओं (जैसे सिंक्रोनाइज़ेशन सेवाएँ) के लिए प्रदान किया गया प्रमाणीकरण डेटा "
-"शामिल है। ऐप में कोई विज्ञापन लाइब्रेरी या Google Analytics जैसा कोई तृतीय पक्ष ट्रैकिंग "
-"(एनालिटिक्स) कोड शामिल नहीं है।"
+"आपके (you) द्वारा फ़ॉलो किए जाने वाले पॉडकास्ट की सूची, ऐप सेटिंग (settings) और "
+"विशिष्ट पॉडकास्ट या सेवाओं (जैसे सिंक्रोनाइज़ेशन सेवाएँ) के लिए प्रदान किया गया प्रमाणीकरण "
+"डेटा शामिल है। ऐप में कोई विज्ञापन लाइब्रेरी या Google Analytics जैसा कोई तृतीय पक्ष "
+"ट्रैकिंग (एनालिटिक्स) कोड शामिल नहीं है।"
 
-#: _i18n/en/general/privacy.md:block 4 (paragraph)
+#: _i18n/en/general/privacy.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
-"anywhere, except where strictly necessary for the functioning of the app.** "
-"Please see the second next section for the cases in which your data may be "
-"provided to third parties."
+"anywhere, except where strictly necessary for the functioning of the app or "
+"when you actively share debugging information with us.** The next section "
+"explains when your data may reach third parties. If you're interested, you "
+"may also read about AntennaPod's [app permissions](/documentation/general/"
+"app-permissions) in the documentation."
 msgstr ""
 "**एंटीनापॉड ऐप का उपयोग करते समय प्रदान किया गया और बनाया गया सभी डेटा आपके "
 "डिवाइस पर स्थानीय रूप से संग्रहीत किया जाता है। एंटेनापॉड आपके डेटा को कहीं भी नहीं भेजता "
@@ -403,57 +409,69 @@ msgstr ""
 "कृपया उन मामलों के लिए दूसरा अगला अनुभाग देखें जिनमें आपका डेटा तीसरे पक्ष को प्रदान किया "
 "जा सकता है।"
 
-#: _i18n/en/general/privacy.md:block 5 (paragraph)
+#: _i18n/en/general/privacy.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
-"The only case where your data from 3rd parties is handled, is when using a "
-"synchronization service if enabled via the settings. In that case, the app "
-"may receive subscriptions and playback events provided by the service."
+"When sharing debugging information (either via email using the ‘Crash "
+"Report’ function or via Android’s crash reporting functionality), the "
+"following data is processed:"
+msgstr ""
+"सक्रिय रूप से डिबगिंग जानकारी साझा करें (या तो 'क्रैश रिपोर्ट' फ़ंक्शन का उपयोग करके ईमेल "
+"के माध्यम से, या Google की एंड्रॉइड क्रैश रिपोर्टिंग कार्यक्षमता के माध्यम से):"
+
+#: _i18n/en/general/privacy.md:block 7 (unordered list)
+msgid "device type"
+msgstr "उपकरण प्रकार"
+
+#: _i18n/en/general/privacy.md:block 7 (unordered list)
+msgid "Android version"
+msgstr "एंड्रॉइड संस्करण"
+
+#: _i18n/en/general/privacy.md:block 7 (unordered list)
+msgid "AntennaPod version"
+msgstr "एंटीनापॉड संस्करण"
+
+#: _i18n/en/general/privacy.md:block 8 (paragraph)
+#, fuzzy
+msgid ""
+"The only instance in which personal data *from* third parties is handled is "
+"when using a synchronization service if enabled via the settings. In that "
+"case, the app may receive subscriptions and playback events provided by the "
+"service."
 msgstr ""
 "एकमात्र मामला जहां तृतीय पक्षों से आपका डेटा संभाला जाता है, वह तब होता है जब सेटिंग्स "
 "(settings) के माध्यम से सक्षम होने पर सिंक्रनाइज़ेशन सेवा का उपयोग किया जाता है। उस "
 "स्थिति में, ऐप को सेवा द्वारा प्रदान की गई सदस्यताएँ (subscriptions ) और प्लेबैक ईवेंट "
 "प्राप्त हो सकते हैं।"
 
-#: _i18n/en/general/privacy.md:block 6 (header)
-msgid "App permissions"
-msgstr "ऐप अनुमतियां"
-
-#: _i18n/en/general/privacy.md:block 7 (paragraph)
-msgid "The app requests the following privacy-relevant Android permissions:"
-msgstr "ऐप निम्नलिखित गोपनीयता-प्रासंगिक Android अनुमतियों का अनुरोध करता है:"
-
-#: _i18n/en/general/privacy.md:block 8 (unordered list)
-msgid ""
-"Read from/write to Storage (Photos/Media/Files): The storage permission is "
-"used to open files that are not downloaded directly from within the app. It "
-"can also be used to import app settings or OPML files. The permission is "
-"only requested if you perform an action that requires reading from storage."
-msgstr ""
-"स्टोरेज से पढ़ें/लिखें (फ़ोटो/मीडिया/फ़ाइलें): स्टोरेज अनुमति का उपयोग उन फ़ाइलों को खोलने के "
-"लिए किया जाता है जो सीधे ऐप के भीतर से डाउनलोड नहीं की जाती हैं। इसका उपयोग ऐप "
-"सेटिंग्स या ओपीएमएल फ़ाइलों को आयात करने के लिए भी किया जा सकता है। अनुमति का अनुरोध "
-"केवल तभी किया जाता है जब आप कोई ऐसी कार्रवाई करते हैं जिसके लिए स्टोरेज से पढ़ने की "
-"आवश्यकता होती है।"
-
 #: _i18n/en/general/privacy.md:block 9 (header)
-msgid "What app data other parties might collect, store and process"
+#, fuzzy
+msgid "Data other parties may collect, store, and process"
 msgstr "अन्य पक्ष कौन सा ऐप डेटा एकत्र, संग्रहीत और संसाधित कर सकते हैं"
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 10 (header)
+msgid "Podcast hosters"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
-"Podcast hosters: When provided in the podcast settings, a host will receive "
-"authentication data you provided. Any web servers that provide the podcast "
-"feeds might collect additional data, such as your IP address, access time "
-"and what is being accessed. This includes the episodes you are downloading "
-"or streaming. Please refer to their respective privacy policies for details. "
-"You can view the URL of a podcast by opening the podcast and pressing the "
-"info icon. AntennaPod does not allow remote servers to set cookies. The "
-"servers can detect the fact that you are using AntennaPod and which version "
-"of AntennaPod you are using (HTTP User-Agent). If multiple podcasts are "
-"hosted on the same server, the server can detect the list of podcasts that "
-"you subscribed to and that are hosted on that server. This might happen if "
-"publishers use feedburner, podtrac or similar services to distribute their "
-"feeds."
+"When provided in the podcast settings, a host will receive authentication "
+"data you provided."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 11 (unordered list)
+#, fuzzy
+msgid ""
+"Web servers that provide podcast feeds may collect additional data, such as "
+"your IP address, access time and what is being accessed. This includes the "
+"episodes you are downloading or streaming. Please refer to their respective "
+"privacy policies for details. You can view a podcast’s URL by opening the "
+"podcast and pressing the info icon. AntennaPod allows servers to set cookies "
+"but clears them each time the app is restarted. Web servers only get access "
+"to cookies that were set by the same server. If multiple podcasts are hosted "
+"on the same server, that server can potentially detect which of its hosted "
+"podcasts you've subscribed to. This can happen when publishers use services "
+"like FeedBurner, Podtrac, or similar to distribute their feeds."
 msgstr ""
 "पॉडकास्ट होस्टर्स: पॉडकास्ट सेटिंग्स में प्रदान किए जाने पर, होस्ट को आपके द्वारा प्रदान "
 "किया गया प्रमाणीकरण डेटा प्राप्त होगा। पॉडकास्ट फ़ीड प्रदान करने वाला कोई भी वेब सर्वर "
@@ -468,45 +486,64 @@ msgstr ""
 "प्रकाशक अपनी फ़ीड वितरित करने के लिए फीडबर्नर, पॉडट्रैक या इसी तरह की सेवाओं का उपयोग "
 "करते हैं।"
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
-"Discovery and search services: When opening the Discover screen in the app, "
-"it sends a call to Apple to collect podcast suggestions. They may store the "
-"query, including country (which by default is the device's country). These "
-"suggestions can be disabled by choosing \"off\" in the region selector. When "
-"using the search feature in AntennaPod, the services PodcastIndex.org, Apple "
-"Podcasts and fyyd may store your query, including the search terms. "
+"Servers can detect that you are using AntennaPod and which version (via the "
+"HTTP User-Agent)."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 12 (header)
+msgid "Discovery and search services"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 13 (unordered list)
+msgid ""
+"When opening the Discover screen in the app, it sends a call to Apple to "
+"collect podcast suggestions. They may store the request (e.g. your IP "
+"address and the selected region, which by default is the device's country). "
+"These suggestions can be disabled via the top-menu of the Discover screen. "
+"In the F-Droid release you have actively consent before getting Apple's "
+"recommendations."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 13 (unordered list)
+msgid ""
+"When using the search feature in AntennaPod, the services PodcastIndex.org "
+"([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/"
+"PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/"
+"legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
+"may store your query, including the search terms."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 13 (unordered list)
+msgid ""
 "Discovery and search queries also include IP address, time, and app name "
 "\"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
-"डिस्कवरी और सर्च सेवाएँ: ऐप में डिस्कवर स्क्रीन खोलने पर, यह पॉडकास्ट सुझाव एकत्र करने के लि"
-"ए Apple को कॉल भेजता है। वे क्वेरी को देश सहित संग्रहीत कर सकते हैं (जो डिफ़ॉल्ट रूप से डिवा"
-"इस का देश है)। इन सुझावों को क्षेत्र चयनकर्ता में \"बंद\" चुनकर अक्षम किया जा सकता है। "
-"AntennaPod में खोज सुविधा का उपयोग करते समय, PodcastIndex.org, Apple Podcasts और "
-"fyyd सेवाएँ आपकी क्वेरी को खोज शब्दों सहित संग्रहीत कर सकती हैं। डिस्कवरी और सर्च क्वेरी में "
-"IP पता, समय और ऐप का नाम \"AntennaPod\" भी शामिल है। सदस्यता लेने के बाद, फ़ीड "
-"(feed) पॉडकास्ट होस्टर से परोसा जाता है, जिसका अर्थ है कि डिस्कवरी/सर्च सेवा अब शामिल "
-"नहीं है।"
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 14 (header)
+msgid "Synchronization and back-up services"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#, fuzzy
 msgid ""
-"Synchronization services: When enabled via the settings, AntennaPod "
-"synchronizes your data. This data may include login credentials, subscribed "
-"podcasts, listened episodes, play, pause & favorite actions with date & time "
-"stamps and IP address. For more information, see your provider's privacy "
-"policy."
+"When enabled via the settings, AntennaPod synchronizes your data. This may "
+"include login credentials, subscribed podcasts, listened episodes, play/"
+"pause/favorite actions with timestamps, and your IP address. For more "
+"information, see your synchronization provider's privacy policy."
 msgstr ""
 "सिंक्रोनाइज़ेशन सेवाएँ: सेटिंग्स (settings) के माध्यम से सक्षम होने पर, AntennaPod आपके डेटा "
 "को सिंक्रोनाइज़ करता है। इस डेटा में लॉगिन क्रेडेंशियल, सब्सक्राइब किए गए पॉडकास्ट, सुने गए "
-"एपिसोड (episodes), प्ले, पॉज़ और पसंदीदा क्रियाएँ दिनांक और समय स्टैम्प और आईपी पते के सा"
-"थ शामिल हो सकती हैं। अधिक जानकारी के लिए, अपने प्रदाता की गोपनीयता नीति देखें।"
+"एपिसोड (episodes), प्ले, पॉज़ और पसंदीदा क्रियाएँ दिनांक और समय स्टैम्प और आईपी पते के "
+"साथ शामिल हो सकती हैं। अधिक जानकारी के लिए, अपने प्रदाता की गोपनीयता नीति देखें।"
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#, fuzzy
 msgid ""
-"Google: If you have activated backup & reset in your phone settings "
-"(`Settings` » `Backup & Reset` » `Back up my data`), you should be aware "
-"that Android itself will periodically save a copy of your phone's data in "
+"If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
+"up my data`), Android will periodically save a copy of your phone's data in "
 "Google's servers. This backup contains private information, including your "
 "WiFi passwords, messages and call history. It may also include data from "
 "AntennaPod and from other apps you use. The developers of AntennaPod do not "
@@ -521,115 +558,72 @@ msgstr ""
 "के पास इस डेटा तक पहुंच नहीं है। अधिक जानकारी के लिए, [Google की गोपनीयता नीति]"
 "(https://policies.google.com) देखें।"
 
-#: _i18n/en/general/privacy.md:block 11 (header)
-msgid ""
-"What data might be collected, stored and processed from AntennaPod online "
-"services"
-msgstr "एंटेनापॉड ऑनलाइन सेवाओं से कौन सा डेटा एकत्र, संग्रहीत और संसाधित किया जा सकता है"
+#: _i18n/en/general/privacy.md:block 16 (header)
+msgid "Device and operating system vendors"
+msgstr ""
 
-#: _i18n/en/general/privacy.md:block 12 (unordered list)
+#: _i18n/en/general/privacy.md:block 17 (paragraph)
 msgid ""
-"The donation system: AntennaPod uses Open Collective, offered by Open "
-"Collective Inc (USA) & Open Collective Europe ASBL (Belgium). When you make "
-"a donation, these entities get access to certain data. For more information, "
-"see [Open Collective's privacy policy](https://opencollective.com/"
-"privacypolicy)."
+"If you enabled [sharing of usage and diagnostics](https://support.google.com/"
+"accounts/answer/6078260) with Google and use Android's reporting "
+"functionality when AntennaPod crashes or becomes unresponsive, related data "
+"is sent to Google. For more information, see [Google's privacy policy]"
+"(https://policies.google.com)."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 18 (header)
+msgid "Online services"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 19 (header)
+msgid "Data from services hosted by the team"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 20 (unordered list)
+#, fuzzy
+msgid ""
+"**The forum**: AntennaPod's forum uses the Discourse software, hosted by the "
+"core team. Please see the [forum's privacy policy](https://forum.antennapod."
+"org/privacy) for more details."
+msgstr ""
+"फोरम: एंटेनापॉड का फोरम कोर टीम द्वारा होस्ट किए गए डिस्कोर्स सॉफ्टवेयर का उपयोग "
+"करता है। कृपया [फ़ोरम की गोपनीयता नीति](https://forum.antennapod.org/privacy) "
+"देखें जिसके लिए डेटा संबंधित है।"
+
+#: _i18n/en/general/privacy.md:block 21 (header)
+msgid "Data from services hosted by other parties"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 22 (header)
+msgid "The donation system"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 23 (paragraph)
+#, fuzzy
+msgid ""
+"AntennaPod uses Open Collective, operated by Open Collective Inc. (USA) and "
+"Open Collective Europe ASBL (Belgium). When you make a donation, data flows "
+"to:"
 msgstr ""
 "दान प्रणाली: एंटेनापॉड ओपन कलेक्टिव का उपयोग करता है, जो ओपन कलेक्टिव इंक (यूएसए) और "
 "ओपन कलेक्टिव यूरोप एएसबीएल (बेल्जियम) द्वारा पेश किया जाता है। जब आप दान करते हैं, तो "
 "इन संस्थाओं को कुछ डेटा तक पहुंच मिलती है। अधिक जानकारी के लिए, [ओपन कलेक्टिव की "
 "गोपनीयता नीति](https://opencollective.com/privacypolicy) देखें।"
 
-#: _i18n/en/general/privacy.md:block 12 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
-"The website: AntennaPod's website is hosted via GitHub Pages. [GitHub's "
-"privacy policy](https://docs.github.com/en/github/site-policy/github-privacy-"
-"statement#github-pages) notices that \"GitHub may collect User Personal "
-"Information from visitors to your GitHub Pages website, including logs of "
-"visitor IP addresses, to comply with legal obligations, and to maintain the "
-"security and integrity of the Website and the Service.\" The website does "
-"not store any cookies on your machine, and no 3rd party tracking (analytics) "
-"or other services are used."
+"these entities - for more information, see [Open Collective Inc.'s privacy "
+"policy](https://opencollective.com/privacypolicy)"
 msgstr ""
-"वेबसाइट: एंटेनापॉड की वेबसाइट GitHub Pages के माध्यम से होस्ट की गई है। [GitHub की "
-"गोपनीयता नीति](https://docs.github.com/en/github/site-policy/github-privacy-"
-"statement#github-pages) नोटिस करती है कि \"GitHub आपकी GitHub Pages वेबसाइट पर "
-"आने वाले आगंतुकों से उपयोगकर्ता की व्यक्तिगत जानकारी एकत्र कर सकता है , जिसमें विज़िटर "
-"आईपी पते के लॉग शामिल हैं, कानूनी दायित्वों का पालन करने के लिए, और वेबसाइट और सेवा की "
-"सुरक्षा और अखंडता बनाए रखने के लिए।\" वेबसाइट आपकी मशीन पर कोई कुकीज़ संग्रहीत नहीं "
-"करती है, और किसी तीसरे पक्ष की ट्रैकिंग (एनालिटिक्स) या अन्य सेवाओं का उपयोग नहीं किया "
-"जाता है।"
 
-#: _i18n/en/general/privacy.md:block 12 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
+#, fuzzy
 msgid ""
-"The forum: AntennaPod's forum uses the Discourse software, hosted by the "
-"core team. Please see the [forum's privacy policy](https://forum.antennapod."
-"org/privacy) for which data is concerned."
-msgstr ""
-"फोरम: एंटेनापॉड का फोरम कोर टीम द्वारा होस्ट किए गए डिस्कोर्स सॉफ्टवेयर का उपयोग "
-"करता है। कृपया [फ़ोरम की गोपनीयता नीति](https://forum.antennapod.org/privacy) "
-"देखें जिसके लिए डेटा संबंधित है।"
-
-#: _i18n/en/general/privacy.md:block 13 (header)
-msgid "What data the AntennaPod core team may have access to"
-msgstr "एंटेनापॉड कोर टीम के पास किस डेटा तक पहुंच हो सकती है"
-
-#: _i18n/en/general/privacy.md:block 14 (paragraph)
-msgid ""
-"The developers of AntennaPod do **not** have access to any of your "
-"information, except when you"
-msgstr ""
-"एंटेनापॉड के डेवलपर्स के पास आपकी किसी भी जानकारी तक पहुंच **नहीं** है, सिवाय इसके कि "
-"आप कब"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid ""
-"actively share debugging information (either via email using the 'Crash "
-"Report' function, or via the Android crash reporting functionality of "
-"Google):"
-msgstr ""
-"सक्रिय रूप से डिबगिंग जानकारी साझा करें (या तो 'क्रैश रिपोर्ट' फ़ंक्शन का उपयोग करके ईमेल "
-"के माध्यम से, या Google की एंड्रॉइड क्रैश रिपोर्टिंग कार्यक्षमता के माध्यम से):"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "device type"
-msgstr "उपकरण प्रकार"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "Android version"
-msgstr "एंड्रॉइड संस्करण"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "AntennaPod version"
-msgstr "एंटीनापॉड संस्करण"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "actively share a review in the Google Play store:"
-msgstr "Google Play स्टोर में सक्रिय रूप से समीक्षा साझा करें:"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "public profile information"
-msgstr "सार्वजनिक प्रोफ़ाइल जानकारी"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "device language"
-msgstr "उपकरण भाषा"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid ""
-"visit or participate on our forum: as described in the [forum's privacy "
-"policy](https://forum.antennapod.org/privacy)"
-msgstr ""
-"हमारे फ़ोरम पर जाएँ या भाग लें: जैसा कि [फ़ोरम की गोपनीयता नीति](https://forum."
-"antennapod.org/privacy) में वर्णित है"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid ""
-"actively make a financial contribution via Open Collective (unless you make "
-"an [anonymous guest](https://docs.opencollective.com/help/financial-"
-"contributors/payments#contributing-as-a-guest) or [incognito](https://docs."
-"opencollective.com/help/financial-contributors/payments#select-a-"
-"contributor) contribution):"
+"unless contributing as an [anonymous guest](https://docs.opencollective.com/"
+"help/financial-contributors/payments#contributing-as-a-guest) or [incognito]"
+"(https://docs.opencollective.com/help/financial-contributors/payments#select-"
+"a-contributor) user, the AntennaPod team gets access to (but will not "
+"extract) your:"
 msgstr ""
 "ओपन कलेक्टिव के माध्यम से सक्रिय रूप से वित्तीय योगदान करें (जब तक कि आप एक [गुमनाम "
 "अतिथि](https://docs.opencollective.com/help/financial-contributors/ "
@@ -637,43 +631,140 @@ msgstr ""
 "opencollective.com/help/financial-contributors/ payment#select-a-"
 "contributor) योगदान):"
 
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
 "public profile information (name, company, description, image, Twitter, "
 "GitHub, website)"
 msgstr "सार्वजनिक प्रोफ़ाइल जानकारी (नाम, कंपनी, विवरण, छवि, ट्विटर, गिटहब, वेबसाइट)"
 
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid "email address"
 msgstr "ईमेल पता"
 
-#: _i18n/en/general/privacy.md:block 16 (header)
-msgid "Updates of this Privacy Policy"
+#: _i18n/en/general/privacy.md:block 25 (header)
+#, fuzzy
+msgid "The website"
+msgstr "वेबसाइट सामग्री"
+
+#: _i18n/en/general/privacy.md:block 26 (paragraph)
+msgid "AntennaPod's website is hosted via GitHub Pages."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 27 (unordered list)
+msgid ""
+"When you visit our website, you are interacting with GitHub, Inc. or GitHub "
+"B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement) for the data they collect "
+"and process."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 27 (unordered list)
+msgid ""
+"The website does not set any cookies and does not use third-party tracking, "
+"analytics or other services. The 'Translate' page in the 'Contribute' "
+"section contains an embedded graph which retrieved from the servers of "
+"Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 28 (header)
+#, fuzzy
+msgid "Google play"
+msgstr "गूगल प्ले से इसे प्राप्त करें"
+
+#: _i18n/en/general/privacy.md:block 29 (paragraph)
+msgid ""
+"When you actively leave a review in the Google Play store, the AntennaPod "
+"team gets access to your public profile information and may extract and "
+"store the following in any online service used by the team (e.g. GitHub or "
+"the forum):"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 30 (unordered list)
+msgid "review text"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 30 (unordered list)
+msgid "device language"
+msgstr "उपकरण भाषा"
+
+#: _i18n/en/general/privacy.md:block 31 (header)
+msgid "Weblate"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 32 (paragraph)
+msgid "When you contribute to AntennaPod's translations:"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+msgid ""
+"you are interacting with the hosted service of Weblate s.r.o. - see their "
+"[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
+"collect and process."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+#, fuzzy
+msgid "the AntennaPod team gets access to:"
+msgstr "एंटेनापॉड कोर टीम के पास किस डेटा तक पहुंच हो सकती है"
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+msgid ""
+"The 'Username', 'Full name' and 'Account e-mail' as set in [your profile]"
+"(https://hosted.weblate.org/accounts/profile/#account)"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+msgid ""
+"When you joined the project and detailed [statistics](https://docs.weblate."
+"org/en/latest/devel/reporting.html#stats) about your contributions, as well "
+"as the [languages](https://docs.weblate.org/en/latest/devel/reporting."
+"html#credits) you contribute to and the date and timestamps of your "
+"contributions."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 34 (header)
+msgid "Git"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 35 (paragraph)
+msgid ""
+"When you contribute to AntennaPod's codebase via git, you are interacting "
+"with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs."
+"github.com/en/site-policy/privacy-policies/github-general-privacy-statement) "
+"for the data they collect and process."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 36 (header)
+#, fuzzy
+msgid "Updates to this Privacy Policy"
 msgstr "इस गोपनीयता नीति के अद्यतन"
 
-#: _i18n/en/general/privacy.md:block 17 (paragraph)
+#: _i18n/en/general/privacy.md:block 37 (paragraph)
+#, fuzzy
 msgid ""
 "The developers may update this policy in the future. It is advisable to "
-"check the policy periodically for any changes. Changes to this Privacy "
-"Policy are effective when they are made on this document."
+"check it periodically for changes. Changes become effective upon publication "
+"in this document."
 msgstr ""
 "डेवलपर्स भविष्य में इस नीति को अपडेट कर सकते हैं। किसी भी बदलाव के लिए समय-समय पर "
 "पॉलिसी की जांच करना उचित है। इस गोपनीयता नीति में परिवर्तन तब प्रभावी होते हैं जब वे "
 "इस दस्तावेज़ पर किए जाते हैं।"
 
-#: _i18n/en/general/privacy.md:block 18 (paragraph)
+#: _i18n/en/general/privacy.md:block 38 (paragraph)
+#, fuzzy
 msgid ""
-"This Privacy Policy was last updated on 2024-07-13. If you have questions, "
+"This Privacy Policy was last updated on 2025-08-17. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"यह गोपनीयता नीति अंतिम बार 2024-07-13 को अपडेट की गई थी। यदि आपके कोई प्रश्न हैं, तो"
-" GitHub या हमारे फ़ोरम पर कोई समस्या खोलें।"
+"यह गोपनीयता नीति अंतिम बार 2024-07-13 को अपडेट की गई थी। यदि आपके कोई प्रश्न हैं, "
+"तो GitHub या हमारे फ़ोरम पर कोई समस्या खोलें।"
 
-#: _i18n/en/general/privacy.md:block 21 (paragraph)
+#: _i18n/en/general/privacy.md:block 41 (paragraph)
+#, fuzzy
 msgid ""
-"This privacy policy is translated from English to help you understand how "
-"AntennaPod deals with the topic. In case of conflict between the the "
-"original and the translated version, the English one will prevail."
+"This privacy policy has been translated from English to help you understand "
+"how AntennaPod handles privacy. In case of conflict between the the original "
+"and the translated version, the English one will prevail."
 msgstr ""
 "यह गोपनीयता नीति अंग्रेजी से अनुवादित है ताकि आपको यह समझने में मदद मिल सके कि एंटेनापॉड "
 "विषय से कैसे निपटता है। मूल और अनुवादित संस्करण के बीच विरोध की स्थिति में, अंग्रेजी संस्करण "
@@ -688,3 +779,88 @@ msgstr ""
 "एंटेनापॉड में इस पॉडकास्ट की सदस्यता लेने के लिए नीचे दिए गए बटन को दबाएं। अभी तक "
 "एंटीनापॉड नहीं है? आप लाखों पॉडकास्ट तक मुफ्त पहुंच का आनंद लेने के लिए ऐप को [डाउनलोड](/"
 "डाउनलोड) कर सकते हैं।"
+
+#~ msgid "App permissions"
+#~ msgstr "ऐप अनुमतियां"
+
+#~ msgid "The app requests the following privacy-relevant Android permissions:"
+#~ msgstr "ऐप निम्नलिखित गोपनीयता-प्रासंगिक Android अनुमतियों का अनुरोध करता है:"
+
+#~ msgid ""
+#~ "Read from/write to Storage (Photos/Media/Files): The storage permission "
+#~ "is used to open files that are not downloaded directly from within the "
+#~ "app. It can also be used to import app settings or OPML files. The "
+#~ "permission is only requested if you perform an action that requires "
+#~ "reading from storage."
+#~ msgstr ""
+#~ "स्टोरेज से पढ़ें/लिखें (फ़ोटो/मीडिया/फ़ाइलें): स्टोरेज अनुमति का उपयोग उन फ़ाइलों को खोलने "
+#~ "के लिए किया जाता है जो सीधे ऐप के भीतर से डाउनलोड नहीं की जाती हैं। इसका उपयोग ऐप "
+#~ "सेटिंग्स या ओपीएमएल फ़ाइलों को आयात करने के लिए भी किया जा सकता है। अनुमति का "
+#~ "अनुरोध केवल तभी किया जाता है जब आप कोई ऐसी कार्रवाई करते हैं जिसके लिए स्टोरेज से "
+#~ "पढ़ने की आवश्यकता होती है।"
+
+#~ msgid ""
+#~ "Discovery and search services: When opening the Discover screen in the "
+#~ "app, it sends a call to Apple to collect podcast suggestions. They may "
+#~ "store the query, including country (which by default is the device's "
+#~ "country). These suggestions can be disabled by choosing \"off\" in the "
+#~ "region selector. When using the search feature in AntennaPod, the "
+#~ "services PodcastIndex.org, Apple Podcasts and fyyd may store your query, "
+#~ "including the search terms. Discovery and search queries also include IP "
+#~ "address, time, and app name \"AntennaPod\". After subscribing, the feed "
+#~ "is served from the podcast hoster, meaning the discovery/search service "
+#~ "is no longer involved."
+#~ msgstr ""
+#~ "डिस्कवरी और सर्च सेवाएँ: ऐप में डिस्कवर स्क्रीन खोलने पर, यह पॉडकास्ट सुझाव एकत्र करने "
+#~ "के लिए Apple को कॉल भेजता है। वे क्वेरी को देश सहित संग्रहीत कर सकते हैं (जो डिफ़ॉल्ट "
+#~ "रूप से डिवाइस का देश है)। इन सुझावों को क्षेत्र चयनकर्ता में \"बंद\" चुनकर अक्षम किया जा "
+#~ "सकता है। AntennaPod में खोज सुविधा का उपयोग करते समय, PodcastIndex.org, Apple "
+#~ "Podcasts और fyyd सेवाएँ आपकी क्वेरी को खोज शब्दों सहित संग्रहीत कर सकती हैं। "
+#~ "डिस्कवरी और सर्च क्वेरी में IP पता, समय और ऐप का नाम \"AntennaPod\" भी शामिल है। "
+#~ "सदस्यता लेने के बाद, फ़ीड (feed) पॉडकास्ट होस्टर से परोसा जाता है, जिसका अर्थ है कि "
+#~ "डिस्कवरी/सर्च सेवा अब शामिल नहीं है।"
+
+#~ msgid ""
+#~ "What data might be collected, stored and processed from AntennaPod online "
+#~ "services"
+#~ msgstr ""
+#~ "एंटेनापॉड ऑनलाइन सेवाओं से कौन सा डेटा एकत्र, संग्रहीत और संसाधित किया जा सकता है"
+
+#~ msgid ""
+#~ "The website: AntennaPod's website is hosted via GitHub Pages. [GitHub's "
+#~ "privacy policy](https://docs.github.com/en/github/site-policy/github-"
+#~ "privacy-statement#github-pages) notices that \"GitHub may collect User "
+#~ "Personal Information from visitors to your GitHub Pages website, "
+#~ "including logs of visitor IP addresses, to comply with legal obligations, "
+#~ "and to maintain the security and integrity of the Website and the Service."
+#~ "\" The website does not store any cookies on your machine, and no 3rd "
+#~ "party tracking (analytics) or other services are used."
+#~ msgstr ""
+#~ "वेबसाइट: एंटेनापॉड की वेबसाइट GitHub Pages के माध्यम से होस्ट की गई है। [GitHub की "
+#~ "गोपनीयता नीति](https://docs.github.com/en/github/site-policy/github-"
+#~ "privacy-statement#github-pages) नोटिस करती है कि \"GitHub आपकी GitHub "
+#~ "Pages वेबसाइट पर आने वाले आगंतुकों से उपयोगकर्ता की व्यक्तिगत जानकारी एकत्र कर सकता "
+#~ "है , जिसमें विज़िटर आईपी पते के लॉग शामिल हैं, कानूनी दायित्वों का पालन करने के लिए, "
+#~ "और वेबसाइट और सेवा की सुरक्षा और अखंडता बनाए रखने के लिए।\" वेबसाइट आपकी मशीन पर "
+#~ "कोई कुकीज़ संग्रहीत नहीं करती है, और किसी तीसरे पक्ष की ट्रैकिंग (एनालिटिक्स) या अन्य "
+#~ "सेवाओं का उपयोग नहीं किया जाता है।"
+
+#~ msgid ""
+#~ "The developers of AntennaPod do **not** have access to any of your "
+#~ "information, except when you"
+#~ msgstr ""
+#~ "एंटेनापॉड के डेवलपर्स के पास आपकी किसी भी जानकारी तक पहुंच **नहीं** है, सिवाय इसके "
+#~ "कि आप कब"
+
+#~ msgid "actively share a review in the Google Play store:"
+#~ msgstr "Google Play स्टोर में सक्रिय रूप से समीक्षा साझा करें:"
+
+#~ msgid "public profile information"
+#~ msgstr "सार्वजनिक प्रोफ़ाइल जानकारी"
+
+#~ msgid ""
+#~ "visit or participate on our forum: as described in the [forum's privacy "
+#~ "policy](https://forum.antennapod.org/privacy)"
+#~ msgstr ""
+#~ "हमारे फ़ोरम पर जाएँ या भाग लें: जैसा कि [फ़ोरम की गोपनीयता नीति](https://forum."
+#~ "antennapod.org/privacy) में वर्णित है"

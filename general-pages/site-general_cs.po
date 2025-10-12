@@ -367,10 +367,11 @@ msgstr ""
 "chráněny autorskými právy příslušných vlastníků."
 
 #: _i18n/en/general/privacy.md:block 1 (paragraph)
+#, fuzzy
 msgid ""
-"AntennaPod is developed and maintained by individual volunteers and not "
-"represented by any legal entity. The community doesn't need your data, so "
-"the app and website are designed to be fully GDPR compliant. Read on to "
+"AntennaPod is developed and maintained by individual volunteers and is not "
+"represented by any legal entity. The community is not interested in your "
+"data, so the app and website are designed to be GDPR compliant. Read on to "
 "learn more."
 msgstr ""
 "AntennaPod je vyvíjen a udržován jednotlivými dobrovolníky a není zastoupen "
@@ -378,17 +379,19 @@ msgstr ""
 "aplikace a webové stránky navrženy tak, aby byly plně v souladu s GDPR. "
 "Přečtěte si další informace."
 
-#: _i18n/en/general/privacy.md:block 2 (header)
-msgid "What data the AntennaPod app might collect, store and process"
+#: _i18n/en/general/privacy.md:block 3 (header)
+#, fuzzy
+msgid "Data AntennaPod may collect, store, and process"
 msgstr "Jaká data může aplikace AntennaPod shromažďovat, ukládat a zpracovávat"
 
-#: _i18n/en/general/privacy.md:block 3 (paragraph)
+#: _i18n/en/general/privacy.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
-"includes for example the list of podcasts you follow, the app settings, and "
+"includes the list of podcasts you follow, the app settings and "
 "authentication data provided for specific podcasts or services (such as "
-"synchronization services). The app does not include any advertisement "
-"libraries or any 3rd party tracking (analytics) code, such as Google "
+"synchronization services). The app does not include any advertising "
+"libraries or third-party tracking or analytics code, such as Google "
 "Analytics."
 msgstr ""
 "Aplikace zaznamenává pouze údaje nezbytně nutné pro její fungování. Patří "
@@ -397,13 +400,16 @@ msgstr ""
 "synchronizační služby). Aplikace neobsahuje žádné reklamní knihovny ani "
 "žádný sledovací (analytický) kód třetích stran, například Google Analytics."
 
-#: _i18n/en/general/privacy.md:block 4 (paragraph)
+#: _i18n/en/general/privacy.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
-"anywhere, except where strictly necessary for the functioning of the app.** "
-"Please see the second next section for the cases in which your data may be "
-"provided to third parties."
+"anywhere, except where strictly necessary for the functioning of the app or "
+"when you actively share debugging information with us.** The next section "
+"explains when your data may reach third parties. If you're interested, you "
+"may also read about AntennaPod's [app permissions](/documentation/general/"
+"app-permissions) in the documentation."
 msgstr ""
 "**Všechna data poskytnutá a vytvořená při používání aplikace AntennaPod jsou "
 "uložena lokálně ve vašem zařízení. AntennaPod vaše data nikam neposílá ani "
@@ -411,60 +417,71 @@ msgstr ""
 "aplikace.** Případy, kdy mohou být vaše data poskytnuta třetím stranám, "
 "najdete v následující části."
 
-#: _i18n/en/general/privacy.md:block 5 (paragraph)
+#: _i18n/en/general/privacy.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
-"The only case where your data from 3rd parties is handled, is when using a "
-"synchronization service if enabled via the settings. In that case, the app "
-"may receive subscriptions and playback events provided by the service."
+"When sharing debugging information (either via email using the ‘Crash "
+"Report’ function or via Android’s crash reporting functionality), the "
+"following data is processed:"
+msgstr ""
+"aktivně sdílíte informace o ladění (buď e-mailem pomocí funkce \"Crash "
+"Report\", nebo prostřednictvím funkce hlášení selhání systému Android "
+"společnosti Google):"
+
+#: _i18n/en/general/privacy.md:block 7 (unordered list)
+msgid "device type"
+msgstr "typ zařízení"
+
+#: _i18n/en/general/privacy.md:block 7 (unordered list)
+msgid "Android version"
+msgstr "verze systému Android"
+
+#: _i18n/en/general/privacy.md:block 7 (unordered list)
+msgid "AntennaPod version"
+msgstr "verze AntennaPodu"
+
+#: _i18n/en/general/privacy.md:block 8 (paragraph)
+#, fuzzy
+msgid ""
+"The only instance in which personal data *from* third parties is handled is "
+"when using a synchronization service if enabled via the settings. In that "
+"case, the app may receive subscriptions and playback events provided by the "
+"service."
 msgstr ""
 "Jediným případem, kdy jsou vaše data od třetích stran zpracovávána, je "
 "použití synchronizační služby, pokud je povolena v nastavení. V takovém "
 "případě může aplikace přijímat odběry a události přehrávání poskytované "
 "touto službou."
 
-#: _i18n/en/general/privacy.md:block 6 (header)
-msgid "App permissions"
-msgstr "Oprávnění aplikací"
-
-#: _i18n/en/general/privacy.md:block 7 (paragraph)
-msgid "The app requests the following privacy-relevant Android permissions:"
-msgstr ""
-"Aplikace požaduje následující oprávnění systému Android související s "
-"ochranou soukromí:"
-
-#: _i18n/en/general/privacy.md:block 8 (unordered list)
-msgid ""
-"Read from/write to Storage (Photos/Media/Files): The storage permission is "
-"used to open files that are not downloaded directly from within the app. It "
-"can also be used to import app settings or OPML files. The permission is "
-"only requested if you perform an action that requires reading from storage."
-msgstr ""
-"Čtení z/zápis do úložiště (fotografie/média/soubory): Oprávnění úložiště se "
-"používá k otevírání souborů, které nejsou staženy přímo z aplikace. Lze jej "
-"také použít k importu nastavení aplikace nebo souborů OPML. Oprávnění je "
-"vyžadováno pouze v případě, že provádíte akci, která vyžaduje čtení z "
-"úložiště."
-
 #: _i18n/en/general/privacy.md:block 9 (header)
-msgid "What app data other parties might collect, store and process"
+#, fuzzy
+msgid "Data other parties may collect, store, and process"
 msgstr ""
 "Jaká data aplikací mohou shromažďovat, ukládat a zpracovávat jiné strany"
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 10 (header)
+msgid "Podcast hosters"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
-"Podcast hosters: When provided in the podcast settings, a host will receive "
-"authentication data you provided. Any web servers that provide the podcast "
-"feeds might collect additional data, such as your IP address, access time "
-"and what is being accessed. This includes the episodes you are downloading "
-"or streaming. Please refer to their respective privacy policies for details. "
-"You can view the URL of a podcast by opening the podcast and pressing the "
-"info icon. AntennaPod does not allow remote servers to set cookies. The "
-"servers can detect the fact that you are using AntennaPod and which version "
-"of AntennaPod you are using (HTTP User-Agent). If multiple podcasts are "
-"hosted on the same server, the server can detect the list of podcasts that "
-"you subscribed to and that are hosted on that server. This might happen if "
-"publishers use feedburner, podtrac or similar services to distribute their "
-"feeds."
+"When provided in the podcast settings, a host will receive authentication "
+"data you provided."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 11 (unordered list)
+#, fuzzy
+msgid ""
+"Web servers that provide podcast feeds may collect additional data, such as "
+"your IP address, access time and what is being accessed. This includes the "
+"episodes you are downloading or streaming. Please refer to their respective "
+"privacy policies for details. You can view a podcast’s URL by opening the "
+"podcast and pressing the info icon. AntennaPod allows servers to set cookies "
+"but clears them each time the app is restarted. Web servers only get access "
+"to cookies that were set by the same server. If multiple podcasts are hosted "
+"on the same server, that server can potentially detect which of its hosted "
+"podcasts you've subscribed to. This can happen when publishers use services "
+"like FeedBurner, Podtrac, or similar to distribute their feeds."
 msgstr ""
 "Hostitelé podcastů: Pokud jsou v nastavení podcastu uvedeny, hostitel obdrží "
 "vámi zadané ověřovací údaje. Všechny webové servery, které poskytují kanály "
@@ -480,36 +497,53 @@ msgstr ""
 "umístěny. To se může stát, pokud vydavatelé používají k distribuci svých "
 "podcastů služby feedburner, podtrac nebo podobné."
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
-"Discovery and search services: When opening the Discover screen in the app, "
-"it sends a call to Apple to collect podcast suggestions. They may store the "
-"query, including country (which by default is the device's country). These "
-"suggestions can be disabled by choosing \"off\" in the region selector. When "
-"using the search feature in AntennaPod, the services PodcastIndex.org, Apple "
-"Podcasts and fyyd may store your query, including the search terms. "
+"Servers can detect that you are using AntennaPod and which version (via the "
+"HTTP User-Agent)."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 12 (header)
+msgid "Discovery and search services"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 13 (unordered list)
+msgid ""
+"When opening the Discover screen in the app, it sends a call to Apple to "
+"collect podcast suggestions. They may store the request (e.g. your IP "
+"address and the selected region, which by default is the device's country). "
+"These suggestions can be disabled via the top-menu of the Discover screen. "
+"In the F-Droid release you have actively consent before getting Apple's "
+"recommendations."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 13 (unordered list)
+msgid ""
+"When using the search feature in AntennaPod, the services PodcastIndex.org "
+"([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/"
+"PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/"
+"legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
+"may store your query, including the search terms."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 13 (unordered list)
+msgid ""
 "Discovery and search queries also include IP address, time, and app name "
 "\"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
-"Služby objevování a vyhledávání: Při otevření obrazovky Objevit v aplikaci "
-"se odešle výzva společnosti Apple ke shromažďování návrhů podcastů. Může "
-"uložit dotaz včetně země (která je ve výchozím nastavení zemí zařízení). "
-"Tyto návrhy lze vypnout výběrem možnosti „vypnuto“ ve volbě regionu. Při "
-"použití funkce vyhledávání v aplikaci AntennaPod mohou služby "
-"PodcastIndex.org, Apple Podcasts a fyyd ukládat váš dotaz včetně "
-"vyhledávaných výrazů. Objevování a vyhledávání dotazů zahrnuje také IP "
-"adresu, čas a název aplikace \"AntennaPod\". Po přihlášení k odběru je kanál "
-"poskytován z hostitelské služby podcastu, což znamená, že služba vyhledávání/"
-"objevování již není zapojena."
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 14 (header)
+msgid "Synchronization and back-up services"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#, fuzzy
 msgid ""
-"Synchronization services: When enabled via the settings, AntennaPod "
-"synchronizes your data. This data may include login credentials, subscribed "
-"podcasts, listened episodes, play, pause & favorite actions with date & time "
-"stamps and IP address. For more information, see your provider's privacy "
-"policy."
+"When enabled via the settings, AntennaPod synchronizes your data. This may "
+"include login credentials, subscribed podcasts, listened episodes, play/"
+"pause/favorite actions with timestamps, and your IP address. For more "
+"information, see your synchronization provider's privacy policy."
 msgstr ""
 "Synchronizační služby: AntennaPod synchronizuje vaše data, pokud je to "
 "povoleno v nastavení. Tato data mohou zahrnovat přihlašovací údaje, "
@@ -517,11 +551,11 @@ msgstr ""
 "akce s datem a časem a IP adresu. Další informace naleznete v zásadách "
 "ochrany osobních údajů vašeho poskytovatele."
 
-#: _i18n/en/general/privacy.md:block 10 (unordered list)
+#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#, fuzzy
 msgid ""
-"Google: If you have activated backup & reset in your phone settings "
-"(`Settings` » `Backup & Reset` » `Back up my data`), you should be aware "
-"that Android itself will periodically save a copy of your phone's data in "
+"If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
+"up my data`), Android will periodically save a copy of your phone's data in "
 "Google's servers. This backup contains private information, including your "
 "WiFi passwords, messages and call history. It may also include data from "
 "AntennaPod and from other apps you use. The developers of AntennaPod do not "
@@ -538,21 +572,52 @@ msgstr ""
 "přístup. Další informace naleznete v dokumentu [Zásady ochrany osobních "
 "údajů společnosti Google](https://policies.google.com)."
 
-#: _i18n/en/general/privacy.md:block 11 (header)
-msgid ""
-"What data might be collected, stored and processed from AntennaPod online "
-"services"
+#: _i18n/en/general/privacy.md:block 16 (header)
+msgid "Device and operating system vendors"
 msgstr ""
-"Jaké údaje mohou být shromažďovány, ukládány a zpracovávány z online služeb "
-"společnosti AntennaPod"
 
-#: _i18n/en/general/privacy.md:block 12 (unordered list)
+#: _i18n/en/general/privacy.md:block 17 (paragraph)
 msgid ""
-"The donation system: AntennaPod uses Open Collective, offered by Open "
-"Collective Inc (USA) & Open Collective Europe ASBL (Belgium). When you make "
-"a donation, these entities get access to certain data. For more information, "
-"see [Open Collective's privacy policy](https://opencollective.com/"
-"privacypolicy)."
+"If you enabled [sharing of usage and diagnostics](https://support.google.com/"
+"accounts/answer/6078260) with Google and use Android's reporting "
+"functionality when AntennaPod crashes or becomes unresponsive, related data "
+"is sent to Google. For more information, see [Google's privacy policy]"
+"(https://policies.google.com)."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 18 (header)
+msgid "Online services"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 19 (header)
+msgid "Data from services hosted by the team"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 20 (unordered list)
+#, fuzzy
+msgid ""
+"**The forum**: AntennaPod's forum uses the Discourse software, hosted by the "
+"core team. Please see the [forum's privacy policy](https://forum.antennapod."
+"org/privacy) for more details."
+msgstr ""
+"Fórum: Fórum AntennaPodu používá software Discourse, jehož hostitelem je "
+"hlavní tým. O jaké údaje se jedná, najdete v [zásadách ochrany osobních "
+"údajů fóra](https://forum.antennapod.org/privacy)."
+
+#: _i18n/en/general/privacy.md:block 21 (header)
+msgid "Data from services hosted by other parties"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 22 (header)
+msgid "The donation system"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 23 (paragraph)
+#, fuzzy
+msgid ""
+"AntennaPod uses Open Collective, operated by Open Collective Inc. (USA) and "
+"Open Collective Europe ASBL (Belgium). When you make a donation, data flows "
+"to:"
 msgstr ""
 "Darovací systém: AntennaPod používá systém Open Collective, který nabízí "
 "Open Collective Inc (USA) & Open Collective Europe ASBL (Belgie). Při "
@@ -560,98 +625,20 @@ msgstr ""
 "naleznete v [zásadách ochrany osobních údajů společnosti Open Collective]"
 "(https://opencollective.com/privacypolicy)."
 
-#: _i18n/en/general/privacy.md:block 12 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
-"The website: AntennaPod's website is hosted via GitHub Pages. [GitHub's "
-"privacy policy](https://docs.github.com/en/github/site-policy/github-privacy-"
-"statement#github-pages) notices that \"GitHub may collect User Personal "
-"Information from visitors to your GitHub Pages website, including logs of "
-"visitor IP addresses, to comply with legal obligations, and to maintain the "
-"security and integrity of the Website and the Service.\" The website does "
-"not store any cookies on your machine, and no 3rd party tracking (analytics) "
-"or other services are used."
+"these entities - for more information, see [Open Collective Inc.'s privacy "
+"policy](https://opencollective.com/privacypolicy)"
 msgstr ""
-"Webové stránky: Webové stránky AntennaPodu jsou hostovány prostřednictvím "
-"GitHub Pages. [V zásadách ochrany osobních údajů společnosti GitHub](https://"
-"docs.github.com/en/github/site-policy/github-privacy-statement#github-pages) "
-"se uvádí, že \"společnost GitHub může shromažďovat osobní údaje uživatelů od "
-"návštěvníků vašich webových stránek GitHub Pages, včetně záznamů IP adres "
-"návštěvníků, za účelem plnění zákonných povinností a udržování bezpečnosti a "
-"integrity webových stránek a služby.\" Webové stránky neukládají do počítače "
-"žádné soubory cookie a nepoužívají se žádné sledovací (analytické) ani jiné "
-"služby třetích stran."
 
-#: _i18n/en/general/privacy.md:block 12 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
+#, fuzzy
 msgid ""
-"The forum: AntennaPod's forum uses the Discourse software, hosted by the "
-"core team. Please see the [forum's privacy policy](https://forum.antennapod."
-"org/privacy) for which data is concerned."
-msgstr ""
-"Fórum: Fórum AntennaPodu používá software Discourse, jehož hostitelem je "
-"hlavní tým. O jaké údaje se jedná, najdete v [zásadách ochrany osobních "
-"údajů fóra](https://forum.antennapod.org/privacy)."
-
-#: _i18n/en/general/privacy.md:block 13 (header)
-msgid "What data the AntennaPod core team may have access to"
-msgstr "K jakým údajům může mít hlavní tým AntennaPodu přístup"
-
-#: _i18n/en/general/privacy.md:block 14 (paragraph)
-msgid ""
-"The developers of AntennaPod do **not** have access to any of your "
-"information, except when you"
-msgstr ""
-"Vývojáři AntennaPodu **nemají** přístup k žádným vašim údajům, kromě "
-"případů, kdy jste"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid ""
-"actively share debugging information (either via email using the 'Crash "
-"Report' function, or via the Android crash reporting functionality of "
-"Google):"
-msgstr ""
-"aktivně sdílíte informace o ladění (buď e-mailem pomocí funkce \"Crash "
-"Report\", nebo prostřednictvím funkce hlášení selhání systému Android "
-"společnosti Google):"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "device type"
-msgstr "typ zařízení"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "Android version"
-msgstr "verze systému Android"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "AntennaPod version"
-msgstr "verze AntennaPodu"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "actively share a review in the Google Play store:"
-msgstr "aktivně sdílíte recenzi v obchodě Google Play:"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "public profile information"
-msgstr "veřejné informace o profilu"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid "device language"
-msgstr "jazyk zařízení"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid ""
-"visit or participate on our forum: as described in the [forum's privacy "
-"policy](https://forum.antennapod.org/privacy)"
-msgstr ""
-"navštívíte nebo se účastníte našeho fóra: jak je popsáno v [zásadách ochrany "
-"osobních údajů fóra](https://forum.antennapod.org/privacy)"
-
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
-msgid ""
-"actively make a financial contribution via Open Collective (unless you make "
-"an [anonymous guest](https://docs.opencollective.com/help/financial-"
-"contributors/payments#contributing-as-a-guest) or [incognito](https://docs."
-"opencollective.com/help/financial-contributors/payments#select-a-"
-"contributor) contribution):"
+"unless contributing as an [anonymous guest](https://docs.opencollective.com/"
+"help/financial-contributors/payments#contributing-as-a-guest) or [incognito]"
+"(https://docs.opencollective.com/help/financial-contributors/payments#select-"
+"a-contributor) user, the AntennaPod team gets access to (but will not "
+"extract) your:"
 msgstr ""
 "aktivně přispějete prostřednictvím Open Collective (pokud nepřispějete jako "
 "[anonymní host](https://docs.opencollective.com/help/financial-contributors/"
@@ -659,7 +646,7 @@ msgstr ""
 "opencollective.com/help/financial-contributors/payments#select-a-"
 "contributor)):"
 
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
 "public profile information (name, company, description, image, Twitter, "
 "GitHub, website)"
@@ -667,37 +654,135 @@ msgstr ""
 "veřejné informace o profilu (jméno, společnost, popis, obrázek, Twitter, "
 "GitHub, webové stránky)"
 
-#: _i18n/en/general/privacy.md:block 15 (unordered list)
+#: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid "email address"
 msgstr "e-mailová adresa"
 
-#: _i18n/en/general/privacy.md:block 16 (header)
-msgid "Updates of this Privacy Policy"
+#: _i18n/en/general/privacy.md:block 25 (header)
+#, fuzzy
+msgid "The website"
+msgstr "Obsah webové stránky"
+
+#: _i18n/en/general/privacy.md:block 26 (paragraph)
+msgid "AntennaPod's website is hosted via GitHub Pages."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 27 (unordered list)
+msgid ""
+"When you visit our website, you are interacting with GitHub, Inc. or GitHub "
+"B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement) for the data they collect "
+"and process."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 27 (unordered list)
+msgid ""
+"The website does not set any cookies and does not use third-party tracking, "
+"analytics or other services. The 'Translate' page in the 'Contribute' "
+"section contains an embedded graph which retrieved from the servers of "
+"Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 28 (header)
+#, fuzzy
+msgid "Google play"
+msgstr "Získat na Google Play"
+
+#: _i18n/en/general/privacy.md:block 29 (paragraph)
+msgid ""
+"When you actively leave a review in the Google Play store, the AntennaPod "
+"team gets access to your public profile information and may extract and "
+"store the following in any online service used by the team (e.g. GitHub or "
+"the forum):"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 30 (unordered list)
+msgid "review text"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 30 (unordered list)
+msgid "device language"
+msgstr "jazyk zařízení"
+
+#: _i18n/en/general/privacy.md:block 31 (header)
+msgid "Weblate"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 32 (paragraph)
+msgid "When you contribute to AntennaPod's translations:"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+msgid ""
+"you are interacting with the hosted service of Weblate s.r.o. - see their "
+"[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
+"collect and process."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+#, fuzzy
+msgid "the AntennaPod team gets access to:"
+msgstr "K jakým údajům může mít hlavní tým AntennaPodu přístup"
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+msgid ""
+"The 'Username', 'Full name' and 'Account e-mail' as set in [your profile]"
+"(https://hosted.weblate.org/accounts/profile/#account)"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 33 (unordered list)
+msgid ""
+"When you joined the project and detailed [statistics](https://docs.weblate."
+"org/en/latest/devel/reporting.html#stats) about your contributions, as well "
+"as the [languages](https://docs.weblate.org/en/latest/devel/reporting."
+"html#credits) you contribute to and the date and timestamps of your "
+"contributions."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 34 (header)
+msgid "Git"
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 35 (paragraph)
+msgid ""
+"When you contribute to AntennaPod's codebase via git, you are interacting "
+"with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs."
+"github.com/en/site-policy/privacy-policies/github-general-privacy-statement) "
+"for the data they collect and process."
+msgstr ""
+
+#: _i18n/en/general/privacy.md:block 36 (header)
+#, fuzzy
+msgid "Updates to this Privacy Policy"
 msgstr "Aktualizace těchto zásad ochrany osobních údajů"
 
-#: _i18n/en/general/privacy.md:block 17 (paragraph)
+#: _i18n/en/general/privacy.md:block 37 (paragraph)
+#, fuzzy
 msgid ""
 "The developers may update this policy in the future. It is advisable to "
-"check the policy periodically for any changes. Changes to this Privacy "
-"Policy are effective when they are made on this document."
+"check it periodically for changes. Changes become effective upon publication "
+"in this document."
 msgstr ""
 "Vývojáři mohou tyto zásady v budoucnu aktualizovat. Doporučujeme pravidelně "
 "kontrolovat, zda nedošlo ke změnám těchto zásad. Změny těchto zásad ochrany "
 "osobních údajů jsou účinné od okamžiku jejich zveřejnění v tomto dokumentu."
 
-#: _i18n/en/general/privacy.md:block 18 (paragraph)
+#: _i18n/en/general/privacy.md:block 38 (paragraph)
+#, fuzzy
 msgid ""
-"This Privacy Policy was last updated on 2024-07-13. If you have questions, "
+"This Privacy Policy was last updated on 2025-08-17. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"Tyto zásady ochrany osobních údajů byly naposledy aktualizovány dne 2024-07-"
-"13. Pokud máte dotazy, otevřete problém na GitHubu nebo na našem fóru."
+"Tyto zásady ochrany osobních údajů byly naposledy aktualizovány dne "
+"2024-07-13. Pokud máte dotazy, otevřete problém na GitHubu nebo na našem "
+"fóru."
 
-#: _i18n/en/general/privacy.md:block 21 (paragraph)
+#: _i18n/en/general/privacy.md:block 41 (paragraph)
+#, fuzzy
 msgid ""
-"This privacy policy is translated from English to help you understand how "
-"AntennaPod deals with the topic. In case of conflict between the the "
-"original and the translated version, the English one will prevail."
+"This privacy policy has been translated from English to help you understand "
+"how AntennaPod handles privacy. In case of conflict between the the original "
+"and the translated version, the English one will prevail."
 msgstr ""
 "Tyto zásady ochrany osobních údajů jsou přeloženy z angličtiny, aby vám "
 "pomohly pochopit, jak společnost AntennaPod s tímto tématem nakládá. V "
@@ -713,3 +798,95 @@ msgstr ""
 "Stisknutím tlačítka níže se přihlásíte k odběru tohoto podcastu v "
 "AntennaPodu. Ještě nemáte AntennaPod? Můžete si [stáhnout](/download) "
 "aplikaci a využívat bezplatný přístup k milionům podcastů."
+
+#~ msgid "App permissions"
+#~ msgstr "Oprávnění aplikací"
+
+#~ msgid "The app requests the following privacy-relevant Android permissions:"
+#~ msgstr ""
+#~ "Aplikace požaduje následující oprávnění systému Android související s "
+#~ "ochranou soukromí:"
+
+#~ msgid ""
+#~ "Read from/write to Storage (Photos/Media/Files): The storage permission "
+#~ "is used to open files that are not downloaded directly from within the "
+#~ "app. It can also be used to import app settings or OPML files. The "
+#~ "permission is only requested if you perform an action that requires "
+#~ "reading from storage."
+#~ msgstr ""
+#~ "Čtení z/zápis do úložiště (fotografie/média/soubory): Oprávnění úložiště "
+#~ "se používá k otevírání souborů, které nejsou staženy přímo z aplikace. "
+#~ "Lze jej také použít k importu nastavení aplikace nebo souborů OPML. "
+#~ "Oprávnění je vyžadováno pouze v případě, že provádíte akci, která "
+#~ "vyžaduje čtení z úložiště."
+
+#~ msgid ""
+#~ "Discovery and search services: When opening the Discover screen in the "
+#~ "app, it sends a call to Apple to collect podcast suggestions. They may "
+#~ "store the query, including country (which by default is the device's "
+#~ "country). These suggestions can be disabled by choosing \"off\" in the "
+#~ "region selector. When using the search feature in AntennaPod, the "
+#~ "services PodcastIndex.org, Apple Podcasts and fyyd may store your query, "
+#~ "including the search terms. Discovery and search queries also include IP "
+#~ "address, time, and app name \"AntennaPod\". After subscribing, the feed "
+#~ "is served from the podcast hoster, meaning the discovery/search service "
+#~ "is no longer involved."
+#~ msgstr ""
+#~ "Služby objevování a vyhledávání: Při otevření obrazovky Objevit v "
+#~ "aplikaci se odešle výzva společnosti Apple ke shromažďování návrhů "
+#~ "podcastů. Může uložit dotaz včetně země (která je ve výchozím nastavení "
+#~ "zemí zařízení). Tyto návrhy lze vypnout výběrem možnosti „vypnuto“ ve "
+#~ "volbě regionu. Při použití funkce vyhledávání v aplikaci AntennaPod mohou "
+#~ "služby PodcastIndex.org, Apple Podcasts a fyyd ukládat váš dotaz včetně "
+#~ "vyhledávaných výrazů. Objevování a vyhledávání dotazů zahrnuje také IP "
+#~ "adresu, čas a název aplikace \"AntennaPod\". Po přihlášení k odběru je "
+#~ "kanál poskytován z hostitelské služby podcastu, což znamená, že služba "
+#~ "vyhledávání/objevování již není zapojena."
+
+#~ msgid ""
+#~ "What data might be collected, stored and processed from AntennaPod online "
+#~ "services"
+#~ msgstr ""
+#~ "Jaké údaje mohou být shromažďovány, ukládány a zpracovávány z online "
+#~ "služeb společnosti AntennaPod"
+
+#~ msgid ""
+#~ "The website: AntennaPod's website is hosted via GitHub Pages. [GitHub's "
+#~ "privacy policy](https://docs.github.com/en/github/site-policy/github-"
+#~ "privacy-statement#github-pages) notices that \"GitHub may collect User "
+#~ "Personal Information from visitors to your GitHub Pages website, "
+#~ "including logs of visitor IP addresses, to comply with legal obligations, "
+#~ "and to maintain the security and integrity of the Website and the Service."
+#~ "\" The website does not store any cookies on your machine, and no 3rd "
+#~ "party tracking (analytics) or other services are used."
+#~ msgstr ""
+#~ "Webové stránky: Webové stránky AntennaPodu jsou hostovány prostřednictvím "
+#~ "GitHub Pages. [V zásadách ochrany osobních údajů společnosti GitHub]"
+#~ "(https://docs.github.com/en/github/site-policy/github-privacy-"
+#~ "statement#github-pages) se uvádí, že \"společnost GitHub může "
+#~ "shromažďovat osobní údaje uživatelů od návštěvníků vašich webových "
+#~ "stránek GitHub Pages, včetně záznamů IP adres návštěvníků, za účelem "
+#~ "plnění zákonných povinností a udržování bezpečnosti a integrity webových "
+#~ "stránek a služby.\" Webové stránky neukládají do počítače žádné soubory "
+#~ "cookie a nepoužívají se žádné sledovací (analytické) ani jiné služby "
+#~ "třetích stran."
+
+#~ msgid ""
+#~ "The developers of AntennaPod do **not** have access to any of your "
+#~ "information, except when you"
+#~ msgstr ""
+#~ "Vývojáři AntennaPodu **nemají** přístup k žádným vašim údajům, kromě "
+#~ "případů, kdy jste"
+
+#~ msgid "actively share a review in the Google Play store:"
+#~ msgstr "aktivně sdílíte recenzi v obchodě Google Play:"
+
+#~ msgid "public profile information"
+#~ msgstr "veřejné informace o profilu"
+
+#~ msgid ""
+#~ "visit or participate on our forum: as described in the [forum's privacy "
+#~ "policy](https://forum.antennapod.org/privacy)"
+#~ msgstr ""
+#~ "navštívíte nebo se účastníte našeho fóra: jak je popsáno v [zásadách "
+#~ "ochrany osobních údajů fóra](https://forum.antennapod.org/privacy)"
