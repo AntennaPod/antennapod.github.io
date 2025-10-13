@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:54+0200\n"
-"PO-Revision-Date: 2025-10-05 14:02+0000\n"
+"PO-Revision-Date: 2025-10-13 05:55+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/uk/>\n"
@@ -11,8 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.14-dev\n"
 
 #
@@ -881,12 +882,16 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"AntennaPod не запитуватиме у вас жодних загальних дозволів. Однак ви можете "
+"надати такі дозволи:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**Показ сповіщень**: Через `Налаштування` » `Сповіщення` ви можете надати "
+"AntennaPod дозвіл на створення сповіщень."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -894,28 +899,38 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Доступ до сховища**: коли ви додаєте «локальну папку», програма запитує "
+"про довгостроковий доступ до певної папки. Коли ви імпортуєте базу даних або "
+"файл OPML, вибір цього файлу надає програмі одноразовий доступ до нього."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"Окрім цього, програмі потрібні такі дозволи, які автоматично надаються "
+"Android:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**Повний доступ до мережі**: для оновлення подкастів, завантаження та "
+"потокової передачі епізодів, завантаження зображень та ввімкнення "
+"синхронізації"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr ""
+msgstr "**Перегляд мережевих підключень** та **Перегляд підключень Wi-Fi**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"перевірити наявність активного інтернет-з’єднання перед та під час виконання "
+"будь-яких із вищезазначених дій"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -923,6 +938,9 @@ msgid ""
 "above actions are allowed by the user on the current (mobile and/or metered) "
 "connection"
 msgstr ""
+"для налаштування `Завантаження` » `Мобільні оновлення`, щоб визначити, чи "
+"дозволені вищезазначені дії користувачем для поточного "
+"(мобільного та/або лімітного) з’єднання"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -930,24 +948,34 @@ msgid ""
 "Bluetooth disconnect`, to automatically pause or play when the phone "
 "connects with or disconnects from a Bluetooth device"
 msgstr ""
+"**Сполучення з пристроями Bluetooth**: для налаштування `Відтворення` » `"
+"Відключення навушників або Bluetooth`, щоб автоматично призупиняти або "
+"відтворювати, коли телефон підключається до пристрою Bluetooth або "
+"відключається від нього"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Run at startup**: to (re)start services like refreshing podcasts and "
 "enabling auto-downloads"
 msgstr ""
+"**Запускати під час запуску**: для (пере)запуску таких служб, як оновлення "
+"подкастів та ввімкнення автоматичного завантаження"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Control vibration**: for the option `Vibrate shortly before end` of the "
 "sleep timer, to vibrate if this setting is enabled"
 msgstr ""
+"**Керувати вібрацією**: для опції `Вібрація незадовго до закінчення` таймера "
+"сну, щоб вібрація працювала, якщо цей параметр увімкнено"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Prevent device from sleeping**: needed to ensure media playback and "
 "downloads continue in the background"
 msgstr ""
+"**Запобігання переходу пристрою в режим сну**: потрібно для забезпечення "
+"відтворення медіафайлів та завантажень у фоновому режимі"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""

@@ -3,17 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:55+0200\n"
-"PO-Revision-Date: 2025-05-13 07:26+0000\n"
-"Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
+"PO-Revision-Date: 2025-10-13 05:55+0000\n"
+"Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
 "website/general/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -367,25 +368,22 @@ msgstr ""
 "сайті належать їх відповідним власникам."
 
 #: _i18n/en/general/privacy.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod is developed and maintained by individual volunteers and is not "
 "represented by any legal entity. The community is not interested in your "
 "data, so the app and website are designed to be GDPR compliant. Read on to "
 "learn more."
 msgstr ""
-"AntennaPod розробляється та підтримується окремими волонтерами, а не "
-"представляється жодною юридичною особою. Спільноті не потрібні ваші дані, "
-"тому додаток і веб-сайт розроблено таким чином, щоб повністю відповідати "
-"GDPR. Читайте далі, щоб дізнатися більше."
+"AntennaPod розробляється та підтримується окремими волонтерами і не "
+"представлений жодною юридичною особою. Спільнота не зацікавлена у ваших "
+"даних, тому додаток та веб-сайт розроблені відповідно до вимог GDPR. "
+"Прочитайте далі, щоб дізнатися більше."
 
 #: _i18n/en/general/privacy.md:block 3 (header)
-#, fuzzy
 msgid "Data AntennaPod may collect, store, and process"
-msgstr "Які дані програма AntennaPod може збирати, зберігати та обробляти"
+msgstr "Дані, які може збирати, зберігати та обробляти AntennaPod"
 
 #: _i18n/en/general/privacy.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
 "includes the list of podcasts you follow, the app settings and "
@@ -394,15 +392,14 @@ msgid ""
 "libraries or third-party tracking or analytics code, such as Google "
 "Analytics."
 msgstr ""
-"Програма записує лише ті дані, які суворо необхідні для роботи програми. Це "
-"включає, наприклад, список подкастів, за якими ви стежите, налаштування "
-"програми та дані автентифікації, надані для певних подкастів або служб "
-"(таких як служби синхронізації). Додаток не містить жодних рекламних "
-"бібліотек або стороннього коду відстеження (аналітики), наприклад Google "
+"Додаток записує тільки ті дані, які є строго необхідними для його "
+"функціонування. Сюди входять список подкастів, за якими ви стежите, "
+"налаштування додатка та дані автентифікації, надані для конкретних подкастів "
+"або послуг (таких як послуги синхронізації). Додаток не містить рекламних "
+"бібліотек або сторонніх кодів відстеження чи аналітики, таких як Google "
 "Analytics."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
@@ -412,22 +409,24 @@ msgid ""
 "may also read about AntennaPod's [app permissions](/documentation/general/"
 "app-permissions) in the documentation."
 msgstr ""
-"**Усі дані, надані та створені під час використання програми AntennaPod, "
+"**Всі дані, надані та створені під час використання програми AntennaPod, "
 "зберігаються локально на вашому пристрої. AntennaPod не надсилає та не "
-"завантажує ваші дані нікуди, окрім випадків, коли це суворо необхідно для "
-"функціонування програми.** Перегляньте другий наступний розділ, щоб "
-"дізнатися про випадки, коли ваші дані можуть бути надані третім особам."
+"завантажує ваші дані нікуди, за винятком випадків, коли це є абсолютно "
+"необхідним для функціонування програми або коли ви активно ділитеся з нами "
+"інформацією про налагодження.** У наступному розділі пояснюється, коли ваші "
+"дані можуть потрапити до третіх осіб. Якщо вас це цікавить, ви також можете "
+"прочитати про [дозволи додатка](/documentation/general/app-permissions) "
+"AntennaPod у документації."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "When sharing debugging information (either via email using the ‘Crash "
 "Report’ function or via Android’s crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
-"активно ділитися інформацією про налагодження (електронною поштою за "
-"допомогою функції «Звіт про збої» або за допомогою функції звітування про "
-"збої Android від Google):"
+"Під час обміну інформацією про налагодження (або електронною поштою за "
+"допомогою функції «Звіт про збої», або через функцію звітування про збої "
+"Android) обробляються такі дані:"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
 msgid "device type"
@@ -442,35 +441,34 @@ msgid "AntennaPod version"
 msgstr "Версія AntennaPod"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
 "when using a synchronization service if enabled via the settings. In that "
 "case, the app may receive subscriptions and playback events provided by the "
 "service."
 msgstr ""
-"Єдиний випадок, коли ваші дані від третіх сторін обробляються, це "
-"використання служби синхронізації, якщо її ввімкнено в налаштуваннях. У "
-"цьому випадку програма може отримувати підписки та події відтворення, надані "
-"службою."
+"Єдиний випадок, коли обробляються особисті дані *від* третіх сторін, — це "
+"використання служби синхронізації, якщо вона ввімкнена в налаштуваннях. У "
+"цьому випадку програма може отримувати підписки та події відтворення, що "
+"надаються службою."
 
 #: _i18n/en/general/privacy.md:block 9 (header)
-#, fuzzy
 msgid "Data other parties may collect, store, and process"
-msgstr "Які дані програми інші сторони можуть збирати, зберігати та обробляти"
+msgstr "Дані, які інші сторони можуть збирати, зберігати та обробляти"
 
 #: _i18n/en/general/privacy.md:block 10 (header)
 msgid "Podcast hosters"
-msgstr ""
+msgstr "Ведучі подкастів"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "When provided in the podcast settings, a host will receive authentication "
 "data you provided."
 msgstr ""
+"Якщо вказано в налаштуваннях подкасту, хост отримає надані вами дані "
+"автентифікації."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -483,29 +481,31 @@ msgid ""
 "podcasts you've subscribed to. This can happen when publishers use services "
 "like FeedBurner, Podtrac, or similar to distribute their feeds."
 msgstr ""
-"Організатори подкастів: якщо це зазначено в налаштуваннях подкастів, хост "
-"отримає надані вами дані автентифікації. Будь-які веб-сервери, які надають "
-"канали подкастів, можуть збирати додаткові дані, як-от вашу IP-адресу, час "
-"доступу та дані, до яких здійснюється доступ. Це включає епізоди, які ви "
-"завантажуєте або транслюєте. Для отримання додаткової інформації зверніться "
-"до відповідної політики конфіденційності. Ви можете переглянути URL-адресу "
-"подкасту, відкривши подкаст і натиснувши піктограму інформації. AntennaPod "
-"не дозволяє віддаленим серверам встановлювати файли cookie. Сервери можуть "
-"визначити, що ви використовуєте AntennaPod і яку версію AntennaPod ви "
-"використовуєте (HTTP User-Agent). Якщо на одному сервері розміщено декілька "
-"подкастів, сервер може визначити список подкастів, на які ви підписалися та "
-"які розміщені на цьому сервері. Це може статися, якщо видавці використовують "
-"feedburner, podtrac або подібні служби для розповсюдження своїх каналів."
+"Веб-сервери, що надають підкасти, можуть збирати додаткові дані, такі як "
+"ваша IP-адреса, час доступу та інформація про те, до чого ви отримуєте "
+"доступ. Це включає епізоди, які ви завантажуєте або переглядаєте в режимі "
+"потокового передавання. Детальну інформацію дивіться у відповідних політиках "
+"конфіденційності. Ви можете переглянути URL-адресу підкасту, відкривши "
+"підкаст і натиснувши на піктограму інформації. AntennaPod дозволяє серверам "
+"встановлювати файли cookie, але видаляє їх кожного разу, коли програма "
+"перезапускається. Веб-сервери отримують доступ лише до файлів cookie, які "
+"були встановлені тим самим сервером. Якщо на одному сервері розміщено кілька "
+"подкастів, цей сервер може потенційно виявити, на які з розміщених на ньому "
+"подкастів ви підписалися. Це може статися, коли видавці використовують такі "
+"сервіси, як FeedBurner, Podtrac або подібні, для розповсюдження своїх "
+"каналів."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "Servers can detect that you are using AntennaPod and which version (via the "
 "HTTP User-Agent)."
 msgstr ""
+"Сервери можуть визначити, що ви використовуєте AntennaPod та яку версію "
+"(через HTTP User-Agent)."
 
 #: _i18n/en/general/privacy.md:block 12 (header)
 msgid "Discovery and search services"
-msgstr ""
+msgstr "Сервіси виявлення та пошуку"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -516,6 +516,11 @@ msgid ""
 "In the F-Droid release you have actively consent before getting Apple's "
 "recommendations."
 msgstr ""
+"При відкритті екрану «Відкрити» в додатку, він надсилає запит до Apple для "
+"збору пропозицій подкастів. Вони можуть зберігати запит (наприклад, вашу IP-"
+"адресу та вибраний регіон, який за замовчуванням є країною пристрою). Ці "
+"пропозиції можна вимкнути через верхнє меню екрану «Відкрити». У версії F-"
+"Droid ви повинні дати активну згоду, перш ніж отримувати рекомендації Apple."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -525,6 +530,13 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"При використанні функції пошуку в AntennaPod, сервіси PodcastIndex.org ("
+"[політика конфіденційності]"
+"(https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), "
+"Apple Podcasts "
+"([політика конфіденційності](https://www.apple.com/legal/privacy/en-ww/)) та "
+"fyyd ([політика конфіденційності](https://fyyd.de/privacy)) можуть зберігати "
+"ваш запит, включаючи пошукові терміни."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -532,27 +544,28 @@ msgid ""
 "\"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
+"Запити на пошук і виявлення також включають IP-адресу, час і назву програми "
+"«AntennaPod». Після підписки канал подається з хостера подкастів, що "
+"означає, що служба пошуку/виявлення більше не бере участі в процесі."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and back-up services"
-msgstr ""
+msgstr "Сервіси синхронізації та резервного копіювання"
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "When enabled via the settings, AntennaPod synchronizes your data. This may "
 "include login credentials, subscribed podcasts, listened episodes, play/"
 "pause/favorite actions with timestamps, and your IP address. For more "
 "information, see your synchronization provider's privacy policy."
 msgstr ""
-"Послуги синхронізації: якщо ввімкнено через налаштування, AntennaPod "
-"синхронізує ваші дані. Ці дані можуть включати облікові дані для входу, "
-"підписані подкасти, прослухані епізоди, відтворення, паузу та улюблені дії з "
-"мітками дати й часу та IP-адресою. Для отримання додаткової інформації "
-"перегляньте політику конфіденційності вашого постачальника."
+"Коли функція увімкнена в налаштуваннях, AntennaPod синхронізує ваші дані. Це "
+"може включати дані для входу, підписку на подкасти, прослухані епізоди, дії "
+"відтворення/паузи/додавання до улюблених з часовими мітками та вашу IP-"
+"адресу. Для отримання додаткової інформації див. політику конфіденційності "
+"вашого постачальника послуг синхронізації."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
@@ -562,19 +575,18 @@ msgid ""
 "have access to this data. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
-"Google: якщо ви активували резервне копіювання та скидання в налаштуваннях "
-"телефону (`Налаштування` » `Резервне копіювання та скидання` » `Резервне "
-"копіювання моїх даних`), ви повинні знати, що сам Android періодично "
-"зберігатиме копію даних вашого телефону в Google серверів. Ця резервна копія "
-"містить конфіденційну інформацію, зокрема паролі Wi-Fi, повідомлення та "
-"історію дзвінків. Він також може містити дані з AntennaPod та інших "
-"додатків, які ви використовуєте. Розробники AntennaPod не мають доступу до "
-"цих даних. Додаткову інформацію див. у [політиці конфіденційності Google]"
-"(https://policies.google.com)."
+"Якщо на вашому телефоні увімкнено резервне копіювання (`Налаштування` `"
+"Резервне копіювання та скидання` `Створити резервну копію моїх даних`), "
+"Android періодично зберігатиме копію даних вашого телефону на серверах "
+"Google. Ця резервна копія містить приватну інформацію, включаючи ваші паролі "
+"WiFi, повідомлення та історію дзвінків. Вона також може містити дані з "
+"AntennaPod та інших програм, якими ви користуєтеся. Розробники AntennaPod не "
+"мають доступу до цих даних. Для отримання додаткової інформації див. "
+"[Політику конфіденційності Google](https://policies.google.com)."
 
 #: _i18n/en/general/privacy.md:block 16 (header)
 msgid "Device and operating system vendors"
-msgstr ""
+msgstr "Постачальники пристроїв та операційних систем"
 
 #: _i18n/en/general/privacy.md:block 17 (paragraph)
 msgid ""
@@ -584,56 +596,60 @@ msgid ""
 "is sent to Google. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
+"Якщо ви увімкнули [обмін даними про використання та діагностику]"
+"(https://support.google.com/accounts/answer/6078260) з Google і "
+"використовуєте функцію звітності Android, коли AntennaPod виходить з ладу "
+"або не реагує, відповідні дані надсилаються до Google. Для отримання "
+"додаткової інформації див. [політику конфіденційності Google]"
+"(https://policies.google.com)."
 
 #: _i18n/en/general/privacy.md:block 18 (header)
 msgid "Online services"
-msgstr ""
+msgstr "Онлайн-сервіси"
 
 #: _i18n/en/general/privacy.md:block 19 (header)
 msgid "Data from services hosted by the team"
-msgstr ""
+msgstr "Дані з сервісів, що розміщуються командою"
 
 #: _i18n/en/general/privacy.md:block 20 (unordered list)
-#, fuzzy
 msgid ""
 "**The forum**: AntennaPod's forum uses the Discourse software, hosted by the "
 "core team. Please see the [forum's privacy policy](https://forum.antennapod."
 "org/privacy) for more details."
 msgstr ""
-"Форум: на форумі AntennaPod використовується програмне забезпечення "
-"Discourse, яке підтримується основною командою. Ознайомтеся з [політикою "
-"конфіденційності форуму](https://forum.antennapod.org/privacy), щодо яких "
-"йдеться про дані."
+"**Форум**: Форум AntennaPod використовує програмне забезпечення Discourse, "
+"розміщене основною командою. Будь ласка, перегляньте "
+"[політику конфіденційності форуму](https://forum.antennapod.org/privacy) для "
+"отримання додаткової інформації."
 
 #: _i18n/en/general/privacy.md:block 21 (header)
 msgid "Data from services hosted by other parties"
-msgstr ""
+msgstr "Дані з сервісів, що розміщуються іншими сторонами"
 
 #: _i18n/en/general/privacy.md:block 22 (header)
 msgid "The donation system"
-msgstr ""
+msgstr "Система пожертвувань"
 
 #: _i18n/en/general/privacy.md:block 23 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod uses Open Collective, operated by Open Collective Inc. (USA) and "
 "Open Collective Europe ASBL (Belgium). When you make a donation, data flows "
 "to:"
 msgstr ""
-"Система пожертв: AntennaPod використовує Open Collective, запропоновану Open "
-"Collective Inc (США) та Open Collective Europe ASBL (Бельгія). Коли ви "
-"робите пожертву, ці організації отримують доступ до певних даних. Для "
-"отримання додаткової інформації перегляньте [політику конфіденційності Open "
-"Collective](https://opencollective.com/privacypolicy)."
+"AntennaPod використовує Open Collective, яким керують Open Collective Inc. "
+"(США) та Open Collective Europe ASBL (Бельгія). Коли ви робите пожертву, "
+"дані передаються до:"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
 "these entities - for more information, see [Open Collective Inc.'s privacy "
 "policy](https://opencollective.com/privacypolicy)"
 msgstr ""
+"ці організації - для отримання додаткової інформації див. "
+"[політику конфіденційності Open Collective Inc.]"
+"(https://opencollective.com/privacypolicy)"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
-#, fuzzy
 msgid ""
 "unless contributing as an [anonymous guest](https://docs.opencollective.com/"
 "help/financial-contributors/payments#contributing-as-a-guest) or [incognito]"
@@ -641,11 +657,11 @@ msgid ""
 "a-contributor) user, the AntennaPod team gets access to (but will not "
 "extract) your:"
 msgstr ""
-"активно робити фінансовий внесок через Open Collective (якщо ви не робите "
-"[анонімним гостем](https://docs.opencollective.com/help/financial-"
-"contributors/payments#contributing-as-a-guest) або [інкогніто](https ://docs."
-"opencollective.com/help/financial-contributors/payments#select-a-"
-"contributor) внесок):"
+"якщо ви не є [анонімним гостем](https://docs.opencollective.com/help/"
+"financial-contributors/payments#contributing-as-a-guest) або [інкогніто]"
+"(https://docs.opencollective.com/help/financial-contributors/"
+"payments#select-a-contributor), команда AntennaPod отримує доступ до "
+"(але не витягує) ваших:"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
@@ -660,13 +676,12 @@ msgid "email address"
 msgstr "адреса електронної пошти"
 
 #: _i18n/en/general/privacy.md:block 25 (header)
-#, fuzzy
 msgid "The website"
-msgstr "Вміст сайту"
+msgstr "Вебсайт"
 
 #: _i18n/en/general/privacy.md:block 26 (paragraph)
 msgid "AntennaPod's website is hosted via GitHub Pages."
-msgstr ""
+msgstr "Вебсайт AntennaPod розміщено на GitHub Pages."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -675,6 +690,10 @@ msgid ""
 "privacy-policies/github-general-privacy-statement) for the data they collect "
 "and process."
 msgstr ""
+"Відвідуючи наш веб-сайт, ви взаємодієте з GitHub, Inc. або GitHub B.V. — "
+"див. їхню [політику конфіденційності](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement), щоб дізнатися, які дані "
+"вони збирають і обробляють."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -683,11 +702,15 @@ msgid ""
 "section contains an embedded graph which retrieved from the servers of "
 "Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
 msgstr ""
+"Веб-сайт не встановлює жодних файлів cookie і не використовує сторонні "
+"служби відстеження, аналітики чи інші служби. Сторінка «Перекласти» в "
+"розділі «Долучитися» містить вбудований графік, який отримується з серверів "
+"Weblate s.r.o. "
+"([політика конфіденційності](https://weblate.org/en-gb/privacy/))."
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google play"
-msgstr "Отримайте в Google Play"
+msgstr "Google play"
 
 #: _i18n/en/general/privacy.md:block 29 (paragraph)
 msgid ""
@@ -696,10 +719,14 @@ msgid ""
 "store the following in any online service used by the team (e.g. GitHub or "
 "the forum):"
 msgstr ""
+"Коли ви залишаєте відгук у магазині Google Play, команда AntennaPod отримує "
+"доступ до інформації вашого публічного профілю та може витягувати та "
+"зберігати наступні дані в будь-якій онлайн-службі, яку використовує команда "
+"(наприклад, GitHub або форум):"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
-msgstr ""
+msgstr "текст огляду"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "device language"
@@ -707,11 +734,11 @@ msgstr "мова пристрою"
 
 #: _i18n/en/general/privacy.md:block 31 (header)
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: _i18n/en/general/privacy.md:block 32 (paragraph)
 msgid "When you contribute to AntennaPod's translations:"
-msgstr ""
+msgstr "Коли ви робите свій внесок у переклади AntennaPod:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -719,17 +746,22 @@ msgid ""
 "[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
 "collect and process."
 msgstr ""
+"Ви взаємодієте з розміщеним сервісом Weblate s.r.o. - див. їх "
+"[політику конфіденційності](https://weblate.org/en-gb/privacy/) для "
+"отримання інформації, яку вони збирають та обробляють."
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid "the AntennaPod team gets access to:"
-msgstr "До яких даних може мати доступ основна команда AntennaPod"
+msgstr "Команда AntennaPod отримує доступ до:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
 "The 'Username', 'Full name' and 'Account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
+"«Ім’я користувача», «Повне ім’я» та «Електронна адреса облікового запису», "
+"як зазначено у [вашому профілі]"
+"(https://hosted.weblate.org/accounts/profile/#account)"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -739,10 +771,15 @@ msgid ""
 "html#credits) you contribute to and the date and timestamps of your "
 "contributions."
 msgstr ""
+"Коли ви приєдналися до проекту та детальну [статистику]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#stats) про ваші "
+"внески, а також [мови]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#credits), до яких "
+"ви робите внески, та дату і час ваших внесків."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: _i18n/en/general/privacy.md:block 35 (paragraph)
 msgid ""
@@ -751,42 +788,44 @@ msgid ""
 "github.com/en/site-policy/privacy-policies/github-general-privacy-statement) "
 "for the data they collect and process."
 msgstr ""
+"Коли ви вносите свій внесок у кодову базу AntennaPod через git, ви "
+"взаємодієте з GitHub, Inc. або GitHub B.V. — дивіться їхню "
+"[політику конфіденційності](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement), щоб дізнатися, які дані "
+"вони збирають і обробляють."
 
 #: _i18n/en/general/privacy.md:block 36 (header)
-#, fuzzy
 msgid "Updates to this Privacy Policy"
 msgstr "Оновлення цієї Політики конфіденційності"
 
 #: _i18n/en/general/privacy.md:block 37 (paragraph)
-#, fuzzy
 msgid ""
 "The developers may update this policy in the future. It is advisable to "
 "check it periodically for changes. Changes become effective upon publication "
 "in this document."
 msgstr ""
-"Розробники можуть оновити цю політику в майбутньому. Бажано періодично "
-"перевіряти політику на предмет будь-яких змін. Зміни до цієї Політики "
-"конфіденційності набувають чинності, коли вони внесені до цього документа."
+"Розробники можуть оновлювати цю політику в майбутньому. Рекомендується "
+"періодично перевіряти її на наявність змін. Зміни набувають чинності після "
+"публікації в цьому документі."
 
 #: _i18n/en/general/privacy.md:block 38 (paragraph)
-#, fuzzy
 msgid ""
 "This Privacy Policy was last updated on 2025-08-17. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"Цю Політику конфіденційності востаннє оновлено 13 липня 2024 року. Якщо у "
-"вас є запитання, створіть питання на GitHub або на нашому форумі."
+"Цю Політику конфіденційності востаннє оновлено 17.08.2025. Якщо у вас є "
+"запитання, відкрийте проблему на GitHub або на нашому форумі."
 
 #: _i18n/en/general/privacy.md:block 41 (paragraph)
-#, fuzzy
 msgid ""
 "This privacy policy has been translated from English to help you understand "
 "how AntennaPod handles privacy. In case of conflict between the the original "
 "and the translated version, the English one will prevail."
 msgstr ""
-"Ця політика конфіденційності перекладена з англійської, щоб допомогти вам "
-"зрозуміти, як AntennaPod має справу з цією темою. У разі суперечності між "
-"оригіналом і перекладом англійська версія матиме перевагу."
+"Ця політика конфіденційності була перекладена з англійської мови, щоб "
+"допомогти вам зрозуміти, як AntennaPod обробляє конфіденційну інформацію. У "
+"разі розбіжностей між оригінальною та перекладеною версіями, перевагу матиме "
+"англійська версія."
 
 #: _i18n/en/general/subscribe.md:block 1 (paragraph)
 msgid ""
