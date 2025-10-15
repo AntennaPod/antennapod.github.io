@@ -295,65 +295,69 @@
         <article class="post-content">
             <p>AntennaPod está desarrollada y mantenida por voluntarios individuales y no está representada por ninguna entidad legal. La comunidad no necesita tus datos, por lo que la aplicación y el sitio web están diseñados para ser completamente conformes con la RGPD. Sigue leyendo para saber más.</p>
 
-<h2 id="datos-que-la-aplicación-de-antennapod-puede-recolectar-guardar-y-procesar">Datos que la aplicación de AntennaPod puede recolectar, guardar y procesar</h2>
+<h2 id="la-aplicación">La aplicación</h2>
+
+<h3 id="datos-que-la-aplicación-de-antennapod-puede-recolectar-guardar-y-procesar">Datos que la aplicación de AntennaPod puede recolectar, guardar y procesar</h3>
 
 <p>La aplicación solo registra los datos estrictamente necesarios para su funcionamiento. Esto incluye, por ejemplo, la lista de podcasts que sigues, la configuración de la aplicación y los datos de autenticación proporcionados para podcasts o servicios específicos (como los servicios de sincronización). La aplicación no incluye bibliotecas de anuncios ni códigos de seguimiento (analíticas) de terceros, como Google Analytics.</p>
 
 <p><strong>Todos los datos provistos y creados durante el uso de AntennaPod se guardarán en tu dispositivo. AntennaPod no envía ni sube tus datos a ningún sitio, excepto cuando estrictamente necesario para el funcionamiento de la aplicación.</strong> Por favor mira la segunda siguiente sección para los casos en los que tus datos pueden ser provistos a terceras partes.</p>
 
-<p>El único caso en el que se manejan datos de terceros es cuando se utiliza un servicio de sincronización, si está habilitado en los ajustes. En ese caso, la aplicación puede recibir suscripciones y eventos de reproducción proporcionados por el servicio.</p>
-
-<h2 id="permisos-de-aplicaciones">Permisos de aplicaciones</h2>
-
-<p>La aplicación pide los siguientes permisos de Android relevantes para la privacidad:</p>
+<p>compartes información de debug de manera activa (por correo electrónico, utilizando la función de ‘Reportes de errores’, o a través de la funcionalidad de reporte de arrores de Android, que pertenece a Google):</p>
 
 <ul>
-  <li>
-    <ul>
-      <li>Leer del/Escribir al almacenamiento (Fotos/Medios/Archivos): El permiso de almacenamiento se utiliza para abrir archivos que no son descargados directamente desde la aplicación. También puede ser utilizado para importar ajustes de la aplicación o archivos OPML. El permiso solo se pide cuando realizas alguna acción que necesita leer del almacenamiento.</li>
-    </ul>
-  </li>
+  <li>tipo de dispositivo</li>
+  <li>versión de Android</li>
+  <li>versión de AntennaPod</li>
 </ul>
 
-<h2 id="qué-datos-de-la-aplicación-pueden-ser-recolectados-guardados-y-procesados-por-terceras-partes">Qué datos de la aplicación pueden ser recolectados, guardados y procesados por terceras partes</h2>
+<p>El único caso en el que se manejan datos de terceros es cuando se utiliza un servicio de sincronización, si está habilitado en los ajustes. En ese caso, la aplicación puede recibir suscripciones y eventos de reproducción proporcionados por el servicio.</p>
+
+<h3 id="qué-datos-de-la-aplicación-pueden-ser-recolectados-guardados-y-procesados-por-terceras-partes">Qué datos de la aplicación pueden ser recolectados, guardados y procesados por terceras partes</h3>
+
+<h4 id="podcast-hosters">Podcast hosters</h4>
 
 <ul>
+  <li>When provided in the podcast settings, a host will receive authentication data you provided.</li>
   <li>Anfitriones de podcasts: Cuando provisto en las opciones de podcast, un anfitrión recibirá los datos de autenticación que tú proveiste. Cualquier servidor web que provea las listas de podcast, podría recolectar información adicional, como tu dirección IP, la hora de acceso y qué estás accediendo. Esto incluye los episodios que estás descargando o retransmitiendo. Por favor, lee sus políticas de privacidad respectivas para más detalles. Puedes ver la URL de un podcast abriendo el podcast y presionando el icono de información. AntennaPod no permite a los servidores remotos fijar cookies. Los servidores pueden detectar el hecho de que estás utilizando AntennaPod y qué versión de Antennapod estás utilizando (HTTP User-Agent). Si varios podcast se alojan en el mismo servidor, el servidor puede detectar la lista de podcasts a los que estás suscrito y que se alojan en ese servidor. Esto puede ocurrir si los publicadores utilizan feedburner, podtrac o servicios similares para distribuir sus feeds.</li>
-  <li>Servicios de descubrimiento y búsqueda: Al abrir la pantalla Descubrir en la aplicación, ésta envía una llamada a Apple para recopilar sugerencias de podcasts. Pueden almacenar la consulta, incluido el país (que por defecto es el del dispositivo). Estas sugerencias pueden desactivarse eligiendo “desactivado” en el selector de región. Al utilizar la función de búsqueda en AntennaPod, los servicios PodcastIndex.org, Apple Podcasts y fyyd pueden almacenar su consulta, incluidos los términos de búsqueda. Las consultas de descubrimiento y búsqueda también incluyen la dirección IP, la hora y el nombre de la aplicación “AntennaPod”. Después de suscribirte, la fuente se sirve desde el proveedor de podcasts, lo que significa que el servicio de descubrimiento/búsqueda ya no está involucrado.</li>
+  <li>Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).</li>
+</ul>
+
+<h4 id="discovery-and-search-services">Discovery and search services</h4>
+
+<ul>
+  <li>When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the request (e.g. your IP address and the selected region, which by default is the device’s country). These suggestions can be disabled via the top-menu of the Discover screen. In the F-Droid release you have actively consent before getting Apple’s recommendations.</li>
+  <li>When using the search feature in AntennaPod, the services PodcastIndex.org (<a href="https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md">privacy policy</a>), Apple Podcasts (<a href="https://www.apple.com/legal/privacy/en-ww/">privacy policy</a>) and fyyd (<a href="https://fyyd.de/privacy">privacy policy</a>) may store your query, including the search terms.</li>
+  <li>Discovery and search queries also include IP address, time, and app name “AntennaPod”. After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.</li>
+</ul>
+
+<h4 id="synchronization-and-back-up-services">Synchronization and back-up services</h4>
+
+<ul>
   <li>Servicios de sincronización: Cuando se activa a través de los ajustes, AntennaPod sincroniza tus datos. Estos datos pueden incluir credenciales de inicio de sesión, podcasts suscritos, episodios escuchados, acciones de reproducción, pausa y favoritos con marcas de fecha y hora y dirección IP. Para más información, consulte la política de privacidad de su proveedor.</li>
   <li>Google: Si has activado la copia de seguridad y restablecimiento en los ajustes de tu teléfono (<code class="language-plaintext highlighter-rouge">Configuración</code> » <code class="language-plaintext highlighter-rouge">Copia de seguridad y restablecimiento</code> » <code class="language-plaintext highlighter-rouge">Copia de seguridad de mis datos</code>), debes saber que el propio Android guardará periódicamente una copia de los datos de tu teléfono en los servidores de Google. Esta copia de seguridad contiene información privada, incluyendo tus contraseñas WiFi, mensajes e historial de llamadas. También puede incluir datos de AntennaPod y de otras aplicaciones que utilices. Los desarrolladores de AntennaPod no tienen acceso a estos datos. Para más información, consulta <a href="https://policies.google.com">la política de privacidad de Google</a>.</li>
 </ul>
 
-<h2 id="qué-datos-pueden-ser-recolectados-almacenados-y-procesados-por-los-servicios-en-línea-de-antennapod">Qué datos pueden ser recolectados, almacenados y procesados por los servicios en línea de AntennaPod</h2>
+<h4 id="device-and-operating-system-vendors">Device and operating system vendors</h4>
+
+<p>If you enabled <a href="https://support.google.com/accounts/answer/6078260">sharing of usage and diagnostics</a> with Google and use Android’s reporting functionality when AntennaPod crashes or becomes unresponsive, related data is sent to Google. For more information, see <a href="https://policies.google.com">Google’s privacy policy</a>.</p>
+
+<h2 id="online-services">Online services</h2>
+
+<h3 id="data-from-services-hosted-by-the-team">Data from services hosted by the team</h3>
 
 <ul>
-  <li>El sistema de donaciones: AntennaPod utiliza Open Collective, ofrecido por Open Collective Inc (USA) y Open Collective Europe ASBL (Belgium). Cuando haces una donación, estas entidades tienen acceso a cierta información. Para más información, lee <a href="https://opencollective.com/privacypolicy">la política de privacidad de Open Collective</a>.</li>
-  <li>El sitio web: El sitio web de AntennaPod se aloja en GitHub Pages. <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages">La política de privacidad de GitHub</a> dice que “GitHub may collect User Personal Information from visitors to your GitHub Pages website, including logs of visitor IP addresses, to comply with legal obligations, and to maintain the security and integrity of the Website and the Service.” El sitio web no almacena ninguna cookie en tu máquina, y no se utiliza ningún rastreo u otros servicios de terceros.</li>
   <li>El foro: El foro de AntennaPod utiliza el software Discourse, hospedado por el equipo central. Por favor, lee <a href="https://forum.antennapod.org/privacy">la política de privacidad del foro</a> para ver a qué datos afecta.</li>
 </ul>
 
-<h2 id="a-qué-datos-tiene-acceso-el-equipo-principal-de-antennapod">A qué datos tiene acceso el equipo principal de AntennaPod</h2>
+<h3 id="data-from-services-hosted-by-other-parties">Data from services hosted by other parties</h3>
 
-<p>Los desarrolladores de Antennapod <strong>no</strong> tienen acceso a ninguna de tu información, excepto cando tú</p>
+<h4 id="the-donation-system">The donation system</h4>
+
+<p>El sistema de donaciones: AntennaPod utiliza Open Collective, ofrecido por Open Collective Inc (USA) y Open Collective Europe ASBL (Belgium). Cuando haces una donación, estas entidades tienen acceso a cierta información. Para más información, lee <a href="https://opencollective.com/privacypolicy">la política de privacidad de Open Collective</a>.</p>
 
 <ul>
-  <li>compartes información de debug de manera activa (por correo electrónico, utilizando la función de ‘Reportes de errores’, o a través de la funcionalidad de reporte de arrores de Android, que pertenece a Google):
-    <ul>
-      <li>tipo de dispositivo</li>
-      <li>versión de Android</li>
-      <li>versión de AntennaPod</li>
-    </ul>
-  </li>
-  <li>compartes tu opinión de manera activa en el Google Play Store:
-    <ul>
-      <li>información pública del perfil</li>
-      <li>versión de AntennaPod</li>
-      <li>tipo de dispositivo</li>
-      <li>idioma del dispositivo</li>
-      <li>versión de Android</li>
-    </ul>
-  </li>
-  <li>visitas o participas en nuestro foro: como se describe en <a href="https://forum.antennapod.org/privacy">la política de privacidad del foro</a>
+  <li>these entities - for more information, see <a href="https://opencollective.com/privacypolicy">Open Collective Inc.’s privacy policy</a>
 </li>
   <li>realizar activamente una contribución financiera a través de Open Collective (a menos que realices una contribución de <a href="https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest">invitado anónimo</a> o de <a href="https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor">incógnito</a> ):
     <ul>
@@ -362,6 +366,46 @@
     </ul>
   </li>
 </ul>
+
+<h4 id="el-contenido-de-la-web">El contenido de la web</h4>
+
+<p>AntennaPod’s website is hosted via GitHub Pages.</p>
+
+<ul>
+  <li>When you visit our website, you are interacting with GitHub, Inc. or GitHub B.V. - see their <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy policy</a> for the data they collect and process.</li>
+  <li>The website does not set any cookies and does not use third-party tracking, analytics or other services. The ‘Translate’ page in the ‘Contribute’ section contains an embedded graph which retrieved from the servers of Weblate s.r.o. (<a href="https://weblate.org/en-gb/privacy/">privacy policy</a>).</li>
+</ul>
+
+<h4 id="disponible-en-google-play">Disponible en Google Play</h4>
+
+<p>When you actively leave a review in the Google Play store, the AntennaPod team gets access to your public profile information and may extract and store the following in any online service used by the team (e.g. GitHub or the forum):</p>
+
+<ul>
+  <li>review text</li>
+  <li>versión de AntennaPod</li>
+  <li>tipo de dispositivo</li>
+  <li>idioma del dispositivo</li>
+  <li>versión de Android</li>
+</ul>
+
+<h4 id="weblate">Weblate</h4>
+
+<p>When you contribute to AntennaPod’s translations:</p>
+
+<ul>
+  <li>you are interacting with the hosted service of Weblate s.r.o. - see their <a href="https://weblate.org/en-gb/privacy/">privacy policy</a> for the data they collect and process.</li>
+  <li>A qué datos tiene acceso el equipo principal de AntennaPod
+    <ul>
+      <li>The ‘Username’, ‘Full name’ and ‘Account e-mail’ as set in <a href="https://hosted.weblate.org/accounts/profile/#account">your profile</a>
+</li>
+      <li>When you joined the project and detailed <a href="https://docs.weblate.org/en/latest/devel/reporting.html#stats">statistics</a> about your contributions, as well as the <a href="https://docs.weblate.org/en/latest/devel/reporting.html#credits">languages</a> you contribute to and the date and timestamps of your contributions.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="git">Git</h4>
+
+<p>When you contribute to AntennaPod’s codebase via git, you are interacting with GitHub, Inc. or GitHub B.V. - see their <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy policy</a> for the data they collect and process.</p>
 
 <h2 id="actualizaciones-de-esta-política-de-privacidad">Actualizaciones de esta Política de Privacidad</h2>
 

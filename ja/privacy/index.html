@@ -295,61 +295,70 @@
         <article class="post-content">
             <p>AntennaPodは、個人のボランティアによって開発・メンテンナンスされており、いかなる法人によっても代表されるものではありません。コミュニティはあなたのデータを必要としないため、アプリとウェブサイトはGDPRに完全に準拠するように設計されています。さらに詳しく知りたい人は、以下の説明を読んでください。</p>
 
-<h2 id="antennapodアプリが収集保存処理する可能性があるデータ">AntennaPodアプリが収集・保存・処理する可能性があるデータ</h2>
+<h2 id="アプリ">アプリ</h2>
+
+<h3 id="antennapodアプリが収集保存処理する可能性があるデータ">AntennaPodアプリが収集・保存・処理する可能性があるデータ</h3>
 
 <p>アプリは、アプリが機能するために厳密に必要なデータのみを記録します。これには、たとえば、フォローしているポッドキャストのリスト、アプリの設定、特定のポッドキャストまたはサービス（同期サービスなど）に提供される認証データが含まれます。このアプリには、広告ライブラリやGoogle Analyticsなどのサードパーティの追跡（分析）コードは含まれていません。</p>
 
 <p><strong>AntennaPodアプリの使用時に提供・作成されたすべてのデータは、デバイス上にローカルに保存されます。AntennaPodは、アプリの機能に厳密に必要な場合を除き、あなたのデータをどこにも送信またはアップロードしません。</strong>データがサードパーティに提供される場合については、次の2番目のセクションを読んでください。</p>
 
-<p>サードパーティからのデータが処理される唯一のケースは、設定で有効になっている場合に同期サービスを使用する場合です。その場合、アプリはサービスによって提供される購読と再生イベントを受け取ることがあります。</p>
-
-<h2 id="アプリの権限">アプリの権限</h2>
-
-<p>アプリは、次のプライバシー関連のAndroid権限を要求します。</p>
+<p>デバッグ情報を積極的に共有した場合（「クラッシュ レポート」機能を使ってメールしたもの、または、GoogleのAndroidクラッシュ レポート機能を利用したもの）:</p>
 
 <ul>
-  <li>ストレージからの読み取り/ストレージへの書き込み（写真/メディア/ファイル）: ストレージ権限は、アプリ内から直接ダウンロードされた以外のファイルを開くために使用されます。アプリ設定やOPMLファイルのインポートにも使用されます。このアクセス許可は、ストレージからの読み取りが必要なアクションを実行する場合にのみ要求されます。</li>
+  <li>デバイスの種類</li>
+  <li>Androidのバージョン</li>
+  <li>AntennaPod バージョン</li>
 </ul>
 
-<h2 id="他者が収集保存処理する可能性のあるアプリデータ">他者が収集・保存・処理する可能性のあるアプリデータ</h2>
+<p>サードパーティからのデータが処理される唯一のケースは、設定で有効になっている場合に同期サービスを使用する場合です。その場合、アプリはサービスによって提供される購読と再生イベントを受け取ることがあります。</p>
+
+<h3 id="他者が収集保存処理する可能性のあるアプリデータ">他者が収集・保存・処理する可能性のあるアプリデータ</h3>
+
+<h4 id="podcast-hosters">Podcast hosters</h4>
 
 <ul>
+  <li>When provided in the podcast settings, a host will receive authentication data you provided.</li>
   <li>ポッドキャストのホスト: ポッドキャストの設定で指定すると、ホストは指定された認証データを受信します。ポッドキャストフィードを提供するウェブサーバーは、IPアドレス、アクセス時間、アクセスコンテンツなどの追加データを収集する場合があります。これには、ダウンロードまたはストリーミングしているエピソードが含まれます。詳細については、それぞれのプライバシーポリシーを参照してください。ポッドキャストを開いて情報アイコンを押すと、ポッドキャストのURLを表示できます。AntennaPodでは、リモートサーバーがCookieを設定することはできません。サーバーは、AntennaPodを使用しているという事実と、使用しているAntennaPodのバージョン（HTTPユーザーエージェント）を検出できます。複数のポッドキャストが同じサーバーでホストされている場合、サーバーは、ユーザーが購読し、そのサーバーでホストされているポッドキャストのリストを検出できます。これは、パブリッシャーがフィードを配布するためにfeedburner、podtrac、または同様のサービスを使用している場合に起こる可能性があります。</li>
-  <li>ディスカバリーおよび検索サービス: アプリで「Discover」画面を開くと、Apple にリクエストを送信してポッドキャストの提案を集めます。国（デフォルトではデバイスの国）を含むクエリを保存できます。これらの提案は、地域セレクターで「オフ」を選択することで無効にできます。AntennaPodの検索機能を使用すると、サービスPodcastIndex.org、Apple Podcasts、fyydに検索語を含むクエリが保存される場合があります。検出および検索クエリには、IPアドレス、時刻、アプリ名「AntennaPod」も含まれます。購読後、フィードはポッドキャストホスティング会社から提供されます。つまり、検出・検索サービスは関与しなくなります。</li>
+  <li>Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).</li>
+</ul>
+
+<h4 id="discovery-and-search-services">Discovery and search services</h4>
+
+<ul>
+  <li>When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the request (e.g. your IP address and the selected region, which by default is the device’s country). These suggestions can be disabled via the top-menu of the Discover screen. In the F-Droid release you have actively consent before getting Apple’s recommendations.</li>
+  <li>When using the search feature in AntennaPod, the services PodcastIndex.org (<a href="https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md">privacy policy</a>), Apple Podcasts (<a href="https://www.apple.com/legal/privacy/en-ww/">privacy policy</a>) and fyyd (<a href="https://fyyd.de/privacy">privacy policy</a>) may store your query, including the search terms.</li>
+  <li>Discovery and search queries also include IP address, time, and app name “AntennaPod”. After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.</li>
+</ul>
+
+<h4 id="synchronization-and-back-up-services">Synchronization and back-up services</h4>
+
+<ul>
   <li>同期サービス: 設定で有効にすると、AntennaPodはデータを同期します。このデータには、日付・タイムスタンプ・IPアドレスを含む、ログイン認証情報、購読したポッドキャスト、聞いたエピソード、再生、一時停止、お気に入りのアクションが含まれる可能性があります。詳細については、プロバイダーのプライバシーポリシーを参照してください。</li>
   <li>Google: 電話の設定でバックアップとリセットを有効にしている場合（<code class="language-plaintext highlighter-rouge">設定」</code> » <code class="language-plaintext highlighter-rouge">バックアップとリセット</code> » <code class="language-plaintext highlighter-rouge">データをバックアップ</code>）、Android自体が定期的に携帯電話のデータのコピーをGoogleのサーバーに保存されることに注意してください。このバックアップには、Wi-Fiパスワード、メッセージ、通話履歴などの個人情報が含まれています。 AntennaPodや使用する他のアプリからのデータも含まれる場合があります。 AntennaPodの開発者はこのデータにアクセスできません。詳細については、<a href="https://policies.google.com">Googleのプライバシー ポリシー</a>を読んでください。</li>
 </ul>
 
-<h2 id="antenpodのオンラインサービスが収集保存処理する可能性があるデータ">AntenPodのオンラインサービスが収集・保存・処理する可能性があるデータ</h2>
+<h4 id="device-and-operating-system-vendors">Device and operating system vendors</h4>
+
+<p>If you enabled <a href="https://support.google.com/accounts/answer/6078260">sharing of usage and diagnostics</a> with Google and use Android’s reporting functionality when AntennaPod crashes or becomes unresponsive, related data is sent to Google. For more information, see <a href="https://policies.google.com">Google’s privacy policy</a>.</p>
+
+<h2 id="online-services">Online services</h2>
+
+<h3 id="data-from-services-hosted-by-the-team">Data from services hosted by the team</h3>
 
 <ul>
-  <li>寄付システム: AntennaPod は、Open Collective Inc（アメリカ合衆国）およびOpen Collective Europe ASBL（ベルギー）が提供するOpen Collectiveを使用しています。あなたが寄付を行うと、これらの団体は特定のデータにアクセスできるようになります。詳細については、<a href="https://opencollective.com/privacypolicy">Open Collectiveのプライバシー ポリシー</a>を参照してください。</li>
-  <li>ウェブサイト: AntennaPodのウェブサイトはGitHub Pages経由でホストされています。 <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages">GitHubのプライバシーポリシー</a>には、「GitHubは、GitHub Pagesウェブサイトの訪問者からユーザーの個人情報を収集する場合があります。法的義務を遵守し、ウェブサイトとサービスのセキュリティと完全性を維持するために、訪問者のIPアドレスのログを含みます。」と記載されています。このウェブサイトはユーザーのマシンにCookieを保存せず、サードパーティの追跡（分析）やその他のサービスも使用しません。</li>
   <li>フォーラム: AntennaPodのフォーラムは、コアチームがホストするDiscourseソフトウェアを使用します。データに関する<a href="https://forum.antennapod.org/privacy">フォーラムのプライバシーポリシー</a>を読んでください。</li>
 </ul>
 
-<h2 id="antennapodコアチームがアクセスできるデータ">AntennaPodコアチームがアクセスできるデータ</h2>
+<h3 id="data-from-services-hosted-by-other-parties">Data from services hosted by other parties</h3>
 
-<p>AntennaPodの開発者は、次の場合を除き、あなたの情報にアクセスすることは<strong>ありません</strong>。</p>
+<h4 id="the-donation-system">The donation system</h4>
+
+<p>寄付システム: AntennaPod は、Open Collective Inc（アメリカ合衆国）およびOpen Collective Europe ASBL（ベルギー）が提供するOpen Collectiveを使用しています。あなたが寄付を行うと、これらの団体は特定のデータにアクセスできるようになります。詳細については、<a href="https://opencollective.com/privacypolicy">Open Collectiveのプライバシー ポリシー</a>を参照してください。</p>
 
 <ul>
-  <li>デバッグ情報を積極的に共有した場合（「クラッシュ レポート」機能を使ってメールしたもの、または、GoogleのAndroidクラッシュ レポート機能を利用したもの）:
-    <ul>
-      <li>デバイスの種類</li>
-      <li>Androidのバージョン</li>
-      <li>AntennaPod バージョン</li>
-    </ul>
-  </li>
-  <li>Google Playストアでレビューを積極的に共有した場合:
-    <ul>
-      <li>公開プロフィール情報</li>
-      <li>AntennaPod バージョン</li>
-      <li>デバイスの種類</li>
-      <li>デバイスの言語</li>
-      <li>Androidのバージョン</li>
-    </ul>
-  </li>
-  <li>フォーラムにアクセスまたは参加する場合: <a href="https://forum.antennapod.org/privacy">フォーラムのプライバシーポリシー</a>に記載</li>
+  <li>these entities - for more information, see <a href="https://opencollective.com/privacypolicy">Open Collective Inc.’s privacy policy</a>
+</li>
   <li>Open Collectiveを通じて積極的に金銭的寄付を行う（<a href="https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest">匿名ゲスト</a>または<a href="https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor">シークレット</a>寄付）:
     <ul>
       <li>公開プロフィール情報（名前、会社、説明、画像、Twitter、GitHub、ウェブサイト）</li>
@@ -357,6 +366,46 @@
     </ul>
   </li>
 </ul>
+
+<h4 id="ウェブサイトのコンテンツ">ウェブサイトのコンテンツ</h4>
+
+<p>AntennaPod’s website is hosted via GitHub Pages.</p>
+
+<ul>
+  <li>When you visit our website, you are interacting with GitHub, Inc. or GitHub B.V. - see their <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy policy</a> for the data they collect and process.</li>
+  <li>The website does not set any cookies and does not use third-party tracking, analytics or other services. The ‘Translate’ page in the ‘Contribute’ section contains an embedded graph which retrieved from the servers of Weblate s.r.o. (<a href="https://weblate.org/en-gb/privacy/">privacy policy</a>).</li>
+</ul>
+
+<h4 id="google-playで入手">Google Playで入手</h4>
+
+<p>When you actively leave a review in the Google Play store, the AntennaPod team gets access to your public profile information and may extract and store the following in any online service used by the team (e.g. GitHub or the forum):</p>
+
+<ul>
+  <li>review text</li>
+  <li>AntennaPod バージョン</li>
+  <li>デバイスの種類</li>
+  <li>デバイスの言語</li>
+  <li>Androidのバージョン</li>
+</ul>
+
+<h4 id="weblate">Weblate</h4>
+
+<p>When you contribute to AntennaPod’s translations:</p>
+
+<ul>
+  <li>you are interacting with the hosted service of Weblate s.r.o. - see their <a href="https://weblate.org/en-gb/privacy/">privacy policy</a> for the data they collect and process.</li>
+  <li>AntennaPodコアチームがアクセスできるデータ
+    <ul>
+      <li>The ‘Username’, ‘Full name’ and ‘Account e-mail’ as set in <a href="https://hosted.weblate.org/accounts/profile/#account">your profile</a>
+</li>
+      <li>When you joined the project and detailed <a href="https://docs.weblate.org/en/latest/devel/reporting.html#stats">statistics</a> about your contributions, as well as the <a href="https://docs.weblate.org/en/latest/devel/reporting.html#credits">languages</a> you contribute to and the date and timestamps of your contributions.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="git">Git</h4>
+
+<p>When you contribute to AntennaPod’s codebase via git, you are interacting with GitHub, Inc. or GitHub B.V. - see their <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy policy</a> for the data they collect and process.</p>
 
 <h2 id="このプライバシーポリシーの更新">このプライバシーポリシーの更新</h2>
 
