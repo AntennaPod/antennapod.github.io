@@ -20,7 +20,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2.6.1
         with:
-          args: --verbose --max-concurrency 1 --retry-wait-time 30 --exclude-mail './_site/**/*.html'
+          args: --verbose --max-concurrency 1 --retry-wait-time 30 './_site/**/*.html'
       - name: Create Issue From File
         if: failure()
         uses: peter-evans/create-issue-from-file@v6
