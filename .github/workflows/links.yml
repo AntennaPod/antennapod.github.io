@@ -22,7 +22,7 @@ jobs:
         with:
           args: --verbose --max-concurrency 1 --retry-wait-time 30 --exclude-mail './_site/**/*.html'
       - name: Create Issue From File
-        if: env.lychee_exit_code != 0
+        if: failure()
         uses: peter-evans/create-issue-from-file@v6
         with:
           title: Link Checker Report
