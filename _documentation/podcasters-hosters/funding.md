@@ -2,7 +2,7 @@
 texts: documentation.podcasters-hosters.funding
 layout: doc
 parent: podcasters-hosters
-icon: "fa-solid fa-money-bill"
+icon: "fa-solid fa-coins"
 order: "30"
 ---
 
