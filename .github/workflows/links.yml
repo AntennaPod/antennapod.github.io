@@ -8,7 +8,7 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
       - uses: ruby/setup-ruby@v1
         with:
@@ -18,12 +18,12 @@ jobs:
       - run: bundle exec jekyll build
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v2.4.1
+        uses: lycheeverse/lychee-action@v2.6.1
         with:
           args: --verbose --max-concurrency 1 --retry-wait-time 30 --exclude-mail './_site/**/*.html'
       - name: Create Issue From File
         if: failure()
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
