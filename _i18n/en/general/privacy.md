@@ -7,7 +7,7 @@ The app only records data strictly necessary for the app to function. This inclu
 
 **All data provided and created when using the AntennaPod app is stored locally on your device. AntennaPod does not send or upload your data anywhere, except where strictly necessary for the functioning of the app or when you actively share debugging information with us.** The next section explains when your data may reach third parties. If you are interested, you may also read about AntennaPod's [app permissions](/documentation/general/app-permissions) in the documentation.
 
-When sharing debugging information (either via email using the 'Crash Report' function or via Android's crash reporting functionality), the following data is processed:
+When sharing debugging information (either via email using the `Crash Report` function or via Android's crash reporting functionality), the following data is processed:
   - device type
   - Android version
   - AntennaPod version
