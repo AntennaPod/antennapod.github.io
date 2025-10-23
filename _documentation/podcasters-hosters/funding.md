@@ -1,9 +1,9 @@
 ---
-texts: documentation.podcasters-hosters.add-on-antennapod
+texts: documentation.podcasters-hosters.funding
 layout: doc
 parent: podcasters-hosters
-icon: "fa-solid fa-up-right-from-square"
-order: "20"
+icon: "fa-solid fa-coins"
+order: "30"
 ---
 
 # {% t {{ page.texts }}.title %}
