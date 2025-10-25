@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:55+0200\n"
-"PO-Revision-Date: 2025-10-13 05:55+0000\n"
+"PO-Revision-Date: 2025-10-25 17:12+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
 "website/general/uk/>\n"
@@ -11,9 +11,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -399,7 +400,6 @@ msgstr ""
 "Analytics."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
@@ -419,14 +419,13 @@ msgstr ""
 "AntennaPod у документації."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "When sharing debugging information (either via email using the `Crash "
 "Report` function or via Android's crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
 "Під час обміну інформацією про налагодження (або електронною поштою за "
-"допомогою функції «Звіт про збої», або через функцію звітування про збої "
+"допомогою функції `Звіт про збої`, або через функцію звітування про збої "
 "Android) обробляються такі дані:"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
@@ -442,7 +441,6 @@ msgid "AntennaPod version"
 msgstr "Версія AntennaPod"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
 "when using a synchronization service, if enabled via the settings. In that "
@@ -463,7 +461,6 @@ msgid "Podcast hosters"
 msgstr "Ведучі подкастів"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "When provided in the podcast settings, a host will receive the "
 "authentication data you provided."
@@ -472,7 +469,6 @@ msgstr ""
 "автентифікації."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -512,7 +508,6 @@ msgid "Discovery and search services"
 msgstr "Сервіси виявлення та пошуку"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
-#, fuzzy
 msgid ""
 "When opening the Discover screen in the app, a call is sent to Apple to "
 "collect podcast suggestions. Apple may store the request (e.g. your IP "
@@ -521,11 +516,12 @@ msgid ""
 "In the F-Droid release, you have to actively consent before getting Apple's "
 "recommendations."
 msgstr ""
-"При відкритті екрану «Відкрити» в додатку, він надсилає запит до Apple для "
-"збору пропозицій подкастів. Вони можуть зберігати запит (наприклад, вашу IP-"
-"адресу та вибраний регіон, який за замовчуванням є країною пристрою). Ці "
-"пропозиції можна вимкнути через верхнє меню екрану «Відкрити». У версії F-"
-"Droid ви повинні дати активну згоду, перш ніж отримувати рекомендації Apple."
+"При відкритті екрану «Відкрити» в додатку до Apple надсилається запит на "
+"отримання пропозицій подкастів. Apple може зберігати цей запит (наприклад, "
+"вашу IP-адресу та вибраний регіон, який за замовчуванням є країною, де "
+"знаходиться пристрій). Ці пропозиції можна вимкнути в верхньому меню екрану "
+"«Відкрити». У версії F-Droid ви повинні дати активну згоду, перш ніж "
+"отримувати рекомендації Apple."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -543,7 +539,6 @@ msgstr ""
 "терміни."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
-#, fuzzy
 msgid ""
 "Discovery and search queries also include IP address, time, and app name "
 "'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
@@ -554,7 +549,6 @@ msgstr ""
 "означає, що служба пошуку/виявлення більше не бере участі в процесі."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
-#, fuzzy
 msgid "Synchronization and backup services"
 msgstr "Сервіси синхронізації та резервного копіювання"
 
@@ -572,7 +566,6 @@ msgstr ""
 "вашого постачальника послуг синхронізації."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "If backups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
@@ -582,8 +575,8 @@ msgid ""
 "have access to this data. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
-"Якщо на вашому телефоні увімкнено резервне копіювання (`Налаштування` "
-"`Резервне копіювання та скидання` `Створити резервну копію моїх даних`), "
+"Якщо на вашому телефоні ввімкнено резервне копіювання (`Налаштування` `"
+"Резервне копіювання та скидання` `Створити резервну копію моїх даних`), "
 "Android періодично зберігатиме копію даних вашого телефону на серверах "
 "Google. Ця резервна копія містить приватну інформацію, включаючи ваші паролі "
 "WiFi, повідомлення та історію дзвінків. Вона також може містити дані з "
@@ -701,7 +694,6 @@ msgstr ""
 "вони збирають і обробляють."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
-#, fuzzy
 msgid ""
 "The website does not set any cookies and does not use third-party tracking, "
 "analytics or other services. The 'Translate' page in the 'Contribute' "
@@ -711,11 +703,10 @@ msgstr ""
 "Веб-сайт не встановлює жодних файлів cookie і не використовує сторонні "
 "служби відстеження, аналітики чи інші служби. Сторінка «Перекласти» в "
 "розділі «Долучитися» містить вбудований графік, який отримується з серверів "
-"Weblate s.r.o. ([політика конфіденційності](https://weblate.org/en-gb/"
-"privacy/))."
+"Weblate s.r.o. "
+"([політика конфіденційності](https://weblate.org/en-gb/privacy/))."
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google Play"
 msgstr "Google play"
 
@@ -762,17 +753,15 @@ msgid "the AntennaPod team gets access to:"
 msgstr "Команда AntennaPod отримує доступ до:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid ""
 "the 'username', 'full name' and 'account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
 "«Ім’я користувача», «Повне ім’я» та «Електронна адреса облікового запису», "
-"як зазначено у [вашому профілі](https://hosted.weblate.org/accounts/profile/"
-"#account)"
+"як зазначено у [вашому профілі]"
+"(https://hosted.weblate.org/accounts/profile/#account)"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid ""
 "the date when you joined the project and detailed [statistics](https://docs."
 "weblate.org/en/latest/devel/reporting.html#stats) about your contributions, "
@@ -780,10 +769,11 @@ msgid ""
 "reporting.html#credits) you contribute to and the date and timestamps of "
 "your contributions."
 msgstr ""
-"Коли ви приєдналися до проекту та детальну [статистику](https://docs.weblate."
-"org/en/latest/devel/reporting.html#stats) про ваші внески, а також [мови]"
-"(https://docs.weblate.org/en/latest/devel/reporting.html#credits), до яких "
-"ви робите внески, та дату і час ваших внесків."
+"дата, коли ви приєдналися до проекту, та детальна [статистика]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#stats) про ваші "
+"внески, а також [мови]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#credits), якими ви "
+"володієте, та дата і час ваших внесків."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
