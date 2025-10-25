@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-20 14:51+0200\n"
-"PO-Revision-Date: 2025-04-25 14:25+0000\n"
-"Last-Translator: Alireza Rashidi <alirezarashidigoorabi@gmail.com>\n"
+"PO-Revision-Date: 2025-10-15 20:12+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/antennapod/"
 "website/general/fa/>\n"
 "Language: fa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -385,7 +385,6 @@ msgstr ""
 "سوم‌شخص (مانند گوگل آنالیتیکس) ندارد."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
@@ -395,10 +394,12 @@ msgid ""
 "may also read about AntennaPod's [app permissions](/documentation/general/"
 "app-permissions) in the documentation."
 msgstr ""
-"**همه داده‌های فراهم‌شده و ساخته‌شده هنگام کاربری کاره آنتناپاد به‌صورت محلی روی "
-"دستگاه‌تان نگه‌داری می‌شوند. آنتناپاد داده‌هایتان را به جایی نمی‌فرستد یا "
-"بارگذاری نمی‌کند، مگر جایی که برای کارکرد کاره کاملاً ضروری باشد.** لطفاً بخش "
-"دوم بعدی را برای مواردی که داده‌هایتان ممکن است به سوم‌شخص‌ها داده شود، ببینید."
+"**تمامی داده‌های فراهم شده و ایجاد شده هنگام استفاده از کارهٔ آنتناپاد به‌صورت "
+"محلی روی افزاره‌تان نگه‌داری می‌شوند. آنتناپاد داده‌هایتان را به جایی نفرستاده "
+"یا بار نمی‌گذارد، مگر جایی که کاملاً برای کارکرد کاره ضروری ببوده یا خدتان فعّ"
+"الانه اطّلاعات اشکال‌زدایی را برایمان بفرستید.** بخش بعدی مواردی را که داده‌"
+"هایتان ممکن است به سوم‌شخص‌ها برسد توضیح می‌دهد. در صورت علاقه می‌توانید "
+"[اجازه‌های کاره](/documentation/general/app-permissions) را در مستندات ببینید."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
 #, fuzzy
@@ -517,20 +518,18 @@ msgid "Synchronization and back-up services"
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "When enabled via the settings, AntennaPod synchronizes your data. This may "
 "include login credentials, subscribed podcasts, listened episodes, play/"
 "pause/favorite actions with timestamps, and your IP address. For more "
 "information, see your synchronization provider's privacy policy."
 msgstr ""
-"خدمات همگام‌سازی: وقتی از تنظیمات روشن شود، آنتناپاد داده‌هایتان را همگام "
-"می‌کند. این داده‌ها ممکن است دارای اعتبارنامه ورود، پادپخش‌های مشترک‌شده، "
-"قسمت‌های شنیده‌شده، کنش‌های پخش، توقف و برگزیدن با مهر زمان و تاریخ و نشانی "
-"آی‌پی باشد. برای اطلاعات بیشتر، سیاست حریم خصوصی فراهم‌کننده‌تان را ببینید."
+"آنتناپاد داده‌هایتان را در صورت به کار انداختن از تنظیمات هم‌گام می‌کند. این "
+"داده‌ها می‌تواند شامل اعتبارهای ورود، پادپخش‌های مشترک، قسمت‌های شنیده، کنش‌های "
+"پخش و مکث با برچسب زمانی و نشانی آی‌پیتان باشد. برای اطّلاعات بیش‌تر سیاست "
+"محرمانگی فراهمگر هم‌گام سازیتان را ببینید."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
@@ -540,18 +539,17 @@ msgid ""
 "have access to this data. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
-"گوگل: اگر در تنظیمات تلفن‌تان پشتیبان‌گیری و بازنشانی را روشن کرده باشید "
-"(`تنظیمات` » `پشتیبان‌گیری و بازنشانی` » `پشتیبان‌گیری از داده‌هایم`)، باید "
-"بدانید که اندروید به‌صورت دوره‌ای رونوشتی از داده‌های تلفن‌تان را در کارگزارهای "
-"گوگل نگه‌داری می‌کند. این پشتیبان دارای اطلاعات خصوصی، از جمله گذرواژه‌های "
-"وای‌فای، پیام‌ها و تاریخچه تماس است. همچنین ممکن است دارای داده‌های آنتناپاد و "
-"دیگر کاره‌هایی که با آنها کار می‌کنید باشد. توسعه‌دهندگان آنتناپاد به این "
-"داده‌ها دسترسی ندارند. برای اطلاعات بیشتر، [سیاست حریم خصوصی گوگل](https://"
-"policies.google.com) را ببینید."
+"اگر پشتیبان‌ها روی تلفنتان به کار افتاده باشند "
+"(`تنظیمات` » `پشتیبان و بازنشانی` » `پشتیبان گیری از داده‌هایم`) اندروید به "
+"صورت دوره‌ای رونوشتی از داده‌های تلفنتان روی کارسازهای گوگل خواهد گرفت. این "
+"پشتیبان اطّلاعاتی خصوصی جون گذرواژه‌های وای‌فای، تاریخچهٔ تماس و پیام‌هایتان "
+"دارد. ممکن است داده‌هایی از آنتاپاد و دیگر کاره‌هایی که استفاده می‌کنید نیز "
+"داشته باشد. توسعه‌دهندگان آنتاپاد به این داده‌ها دسترسی ندارد. برای اطّلاعات بیش‌"
+"تر [سیاست محرمانگی گوگل](https://policies.google.com) را ببینید."
 
 #: _i18n/en/general/privacy.md:block 16 (header)
 msgid "Device and operating system vendors"
-msgstr ""
+msgstr "سازندگان افزاره و سیستم‌عامل"
 
 #: _i18n/en/general/privacy.md:block 17 (paragraph)
 msgid ""
@@ -633,9 +631,8 @@ msgid "email address"
 msgstr "نشانی رایانامه"
 
 #: _i18n/en/general/privacy.md:block 25 (header)
-#, fuzzy
 msgid "The website"
-msgstr "محتوای وبگاه"
+msgstr "پایگاه وب"
 
 #: _i18n/en/general/privacy.md:block 26 (paragraph)
 msgid "AntennaPod's website is hosted via GitHub Pages."
@@ -658,9 +655,8 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google play"
-msgstr "دریافت از گوگل‌پلی"
+msgstr "پلی گوگل"
 
 #: _i18n/en/general/privacy.md:block 29 (paragraph)
 msgid ""
@@ -672,15 +668,15 @@ msgstr ""
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
-msgstr ""
+msgstr "متن بازبینی"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "device language"
-msgstr "زبان دستگاه"
+msgstr "زبان افزاره"
 
 #: _i18n/en/general/privacy.md:block 31 (header)
 msgid "Weblate"
-msgstr ""
+msgstr "وب‌لیت"
 
 #: _i18n/en/general/privacy.md:block 32 (paragraph)
 msgid "When you contribute to AntennaPod's translations:"
@@ -694,9 +690,8 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid "the AntennaPod team gets access to:"
-msgstr "گروه مرکزی آنتناپاد به چه داده‌هایی ممکن است دسترسی داشته باشد"
+msgstr "چیزهایی که گروه آنتناپاد به آن‌ها دسترسی دارد:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -726,9 +721,8 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 36 (header)
-#, fuzzy
 msgid "Updates to this Privacy Policy"
-msgstr "به‌روزرسانی‌های این سیاست حریم خصوصی"
+msgstr "به‌روزرسانی‌های این سیاست محرمانگی"
 
 #: _i18n/en/general/privacy.md:block 37 (paragraph)
 #, fuzzy
