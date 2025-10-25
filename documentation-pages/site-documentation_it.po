@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 23:16+0200\n"
-"PO-Revision-Date: 2025-10-05 11:02+0000\n"
+"PO-Revision-Date: 2025-10-22 18:58+0000\n"
 "Last-Translator: Luca <loucasal@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/it/>\n"
@@ -425,7 +425,7 @@ msgid ""
 "the publisher deletes these, AntennaPod can no longer retrieve it for you."
 msgstr ""
 "I file multimediali sono quindi presi direttamente dal sito dell'editore. Se "
-"l'editore li elimina, AntennaPod non può più recuperarli per te."
+"l'editore li elimina, AntennaPod non può più reperirli per te."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 1 (paragraph)
 msgid ""
@@ -610,7 +610,7 @@ msgid ""
 msgstr ""
 "Viene visualizzata una notifica che indica che il download è stato "
 "completato con degli errori? Allora AntennaPod non è riuscito ad aggiornare "
-"il podcast o a scaricare un file audio dal sito web dell'host del podcast."
+"il podcast o a scaricare un file audio dal sito web che ospita il podcast."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
 #: (paragraph)
@@ -895,12 +895,16 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"AntennaPod non ti chiederà autorizzazioni generali. Tuttavia puoi fornire le "
+"seguenti autorizzazioni:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**Mostrare notifiche**: tramite `Impostazioni` » `Notifiche`, puoi dare ad "
+"AntennaPod l'autorizzazione a generare notifiche."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -908,28 +912,41 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Accesso allo spazio di archiviazione**: quando crei una \"cartella locale\""
+", l'app ti chiederà di avere accesso a lungo termine a una cartella "
+"specifica. Quando importi un database o un file OPML, selezionare quel file "
+"darà all'app l'accesso una tantum al file."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"A parte questo, l'app necessita delle seguenti autorizzazioni, fornite "
+"automaticamente da Android:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**Accesso completo alla rete**: per aggiornare i podcast, scaricare e "
+"ascoltare in streaming gli episodi, caricare le immagini e abilitare la "
+"sincronizzazione"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
 msgstr ""
+"**Visualizzare le connessioni di rete** e **visualizzare le connessioni Wi-"
+"Fi**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"per controllare se c'è una connessione internet attiva, prima e durante le "
+"azioni elencate in precedenza"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -937,6 +954,9 @@ msgid ""
 "above actions are allowed by the user on the current (mobile and/or metered) "
 "connection"
 msgstr ""
+"per l'impostazione `Download` » `Aggiornamenti su rete mobile`, per "
+"determinare se le azioni elencate in precedenza sono permesse dall'utente "
+"sulla connessione attuale (rete mobile e/o a consumo)"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -944,24 +964,35 @@ msgid ""
 "Bluetooth disconnect`, to automatically pause or play when the phone "
 "connects with or disconnects from a Bluetooth device"
 msgstr ""
+"**Accoppiamento con dispositivi Bluetooth**: per l'impostazione "
+"`Riproduzione` » `Disconnessione cuffie o Bluetooth`, per riprendere o "
+"sospendere automaticamente la riproduzione quando il telefono si collega con "
+"o scollega da un dispositivo Bluetooth"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Run at startup**: to (re)start services like refreshing podcasts and "
 "enabling auto-downloads"
 msgstr ""
+"**Esecuzione all'avvio**: per (ri)avviare servizi come l'aggiornamento dei "
+"podcast e abilitare i download automatici"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Control vibration**: for the option `Vibrate shortly before end` of the "
 "sleep timer, to vibrate if this setting is enabled"
 msgstr ""
+"**Controllo della vibrazione**: per l'opzione `Vibra brevemente prima della "
+"fine` del timer di spegnimento, per poter vibrare se l'impostazione è "
+"abilitata"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Prevent device from sleeping**: needed to ensure media playback and "
 "downloads continue in the background"
 msgstr ""
+"**Mantenere attivo il dispositivo**: necessario per permettere alla "
+"riproduzione multimediale e ai download di continuare in background"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
@@ -1036,7 +1067,7 @@ msgid ""
 "subscriptions will be affected."
 msgstr ""
 "Se importi il file in AntennaPod su un altro dispositivo, l'applicazione "
-"mostrerà una lista di podcast con caselle di controllo. I podcast "
+"mostrerà un elenco di podcast con caselle di controllo. I podcast "
 "selezionati da questo elenco saranno aggiunti alle tue iscrizioni esistenti. "
 "Nessuna delle tue iscrizioni esistenti sarà toccata."
 
