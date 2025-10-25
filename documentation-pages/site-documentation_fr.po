@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2025-10-09 10:07+0000\n"
-"Last-Translator: Ἥλιος <mu6mj1y62@mozmail.com>\n"
+"PO-Revision-Date: 2025-10-22 18:58+0000\n"
+"Last-Translator: Sylvain Pichon <service@spichon.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fr/>\n"
 "Language: fr\n"
@@ -93,7 +93,6 @@ msgstr ""
 "le paramètre `Maintenir à jour`."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "When you turn off this podcast setting, the podcast will no longer be "
 "updated when podcasts get refreshed automatically, or when you initiate this "
@@ -102,7 +101,7 @@ msgid ""
 msgstr ""
 "Lorsque vous désactivez ce paramètre de podcast, le podcast ne sera plus mis "
 "à jour lorsque les podcasts sont automatiquement actualisés, ou lorsque vous "
-"lancez ce processus depuis l’écran \"File d’attente\" ou \"Épisodes\". Vous "
+"lancez ce processus depuis l’écran `File d’attente` ou `Épisodes`. Vous "
 "pouvez toujours actualiser ce podcast, ce qui récuperera les nouveaux "
 "épisodes dans AntennaPod."
 
@@ -179,7 +178,6 @@ msgstr ""
 "assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr ""
@@ -446,7 +444,6 @@ msgstr ""
 "épisodes, réglages et tout le reste !*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -456,15 +453,15 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"Dans une très ancienne version d'AntennaPod, il y avait des problèmes avec "
-"la base de données contenant toutes les informations (épisodes, états "
-"d'écoute, etc.). Bien que la cause soit réparée depuis longtemps, votre base "
-"de données peut avoir été endommagée (même lorsque l'application "
-"fonctionnait sans problème). Si une version récente d'AntennaPod apporte des "
-"modifications aux parties endommagées de la base de données, ces dommages "
-"peuvent soudainement devenir un problème. A ce moment là, AntennaPod ne peut "
-"plus travailler avec la base de données endommagée et doit recommencer avec "
-"une base de données vide."
+"Dans une très ancienne version d'AntennaPod (avant 2019), il y avait des "
+"problèmes avec la base de données contenant toutes les informations "
+"(épisodes, états d'écoute, etc.). Bien que la cause soit réparée depuis "
+"longtemps, votre base de données peut avoir été endommagée "
+"(même lorsque l'application fonctionnait sans problème). Si une version "
+"récente d'AntennaPod apporte des modifications aux parties endommagées de la "
+"base de données, ces dommages peuvent soudainement devenir un problème. A ce "
+"moment là, AntennaPod ne peut plus travailler avec la base de données "
+"endommagée et doit recommencer avec une base de données vide."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -500,7 +497,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -511,9 +507,11 @@ msgid ""
 msgstr ""
 "Si AntennaPod détecte une base de données corrompue, il l'écrit dans un "
 "fichier nommé CorruptedDatabaseBackup.db dans le répertoire de stockage de "
-"l'application. Vous pouvez essayer de réparer ce fichier (ou de réparer une "
-"sauvegarde exportée) en utilisant l'une des étapes ci-dessous. Il s'agit "
-"d'un défi qui nécessite d'apprendre à utiliser un terminal."
+"l'application. Vous pouvez essayer de réparer ce fichier "
+"(ou de réparer une sauvegarde exportée) en utilisant un [script Python]"
+"(https://github.com/ByteHamster/AntennaPodDbFixer) qui a été développé pour "
+"automatiser ce processus de réparation. Cette action est complexe et "
+"nécessite d'apprendre à utiliser un terminal de commandes."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -915,12 +913,16 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"AntennaPod ne vous demandera pas de lui donner des autorisations générales. "
+"Cependant vous pouvez donner les autorisations suivantes :"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**Afficher les notifications** : via `Paramètres` » `Notifications`, vous "
+"pouvez donner à AntennaPod l'autorisation de créer des notifications."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -928,12 +930,18 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Accès au stockage** : quand vous ajouter un 'dossier local', l'application "
+"demandera un accès sur le long terme à un dossier spécifique. Quand vous "
+"importez une base de données ou un fichier OPML, sélectionner ce fichier "
+"donnera à l'appli un accès uniquement cette fois à ce fichier."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"En dehors de cela, l'application nécessite les autorisations suivantes, qui "
+"sont automatiquement données par Android :"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -1476,7 +1484,6 @@ msgstr ""
 "version d'AntennaPod dans leur index."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
-#, fuzzy
 msgid ""
 "At this point we consider it 'released on F-Droid'. But remember that your F-"
 "Droid client (the 'app store') also needs to refresh its local copy of the "
@@ -1485,9 +1492,8 @@ msgid ""
 msgstr ""
 "À ce moment-là, nous la considérons « publiée sur F-Droid ». Néanmoins, "
 "souvenez-vous que l'application F-Droid (la « boutique d'apps ») a aussi "
-"besoin de mettre à jour la copie locale de son index. Après avoir effectué "
-"cette action, vous serez enfin invité à installer la dernière version "
-"d'AntennaPod."
+"besoin de mettre à jour la copie locale de son index. Seulement après cela, "
+"vous serez invité à installer la dernière version d'AntennaPod."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
