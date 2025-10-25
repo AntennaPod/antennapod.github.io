@@ -12,4 +12,4 @@ Sincronizzare AntennaPod tramite *gpodder.net* o l'app *gPodder Sync* per Nextcl
 
 I file OPML permettono di trasferire le tue iscrizioni in un'altra app di podcast. Perderai tutti i dati specifici dei podcast o degli episodi (ad esempio, quali episodi sono stati riprodotti) e tutte le impostazioni dell'applicazione. Per esportare il tuo file, vai su `Impostazioni` » `Memoria` » `Importa/Esporta`. Assicurati di cliccare `Invia…` per salvare il file in un'altra cartella del tuo telefono o da qualche altra parte, perché il file originale sarà eliminato quando disinstalli AntennaPod.
 
-Se importi il file in AntennaPod su un altro dispositivo, l'applicazione mostrerà una lista di podcast con caselle di controllo. I podcast selezionati da questo elenco saranno aggiunti alle tue iscrizioni esistenti. Nessuna delle tue iscrizioni esistenti sarà toccata.
+Se importi il file in AntennaPod su un altro dispositivo, l'applicazione mostrerà un elenco di podcast con caselle di controllo. I podcast selezionati da questo elenco saranno aggiunti alle tue iscrizioni esistenti. Nessuna delle tue iscrizioni esistenti sarà toccata.

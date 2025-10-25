@@ -1,4 +1,4 @@
-Viene visualizzata una notifica che indica che il download è stato completato con degli errori? Allora AntennaPod non è riuscito ad aggiornare il podcast o a scaricare un file audio dal sito web dell'host del podcast.
+Viene visualizzata una notifica che indica che il download è stato completato con degli errori? Allora AntennaPod non è riuscito ad aggiornare il podcast o a scaricare un file audio dal sito web che ospita il podcast.
 
 I problemi che si verificano solo con uno o pochi podcast specifici sono spesso legati a tali podcast. Per verificare se è questo il caso, puoi seguire questi passaggi:
 

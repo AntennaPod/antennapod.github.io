@@ -6,7 +6,7 @@ Dieses Kriterium sortiert Episoden in deiner Warteschlange nach dem Namen des zu
 
 # Schlaues Mischen
 
-Schlaues Mischen ist ein fortschrittliches Sortierkriterium für die Warteschlange, mit dem die Warteschlange nach Veröffentlichungsdatum sortiert und gleichzeitig so weit wie möglich vermieden wird, dass sich mehrere Episoden eines einzigen Abonnements in der Warteschlange befinden.
+Schlaues Mischen ist ein intelligentes Sortierkriterium für die Warteschlange, mit dem die Warteschlange nach Veröffentlichungsdatum sortiert und gleichzeitig so weit wie möglich vermieden wird, dass sich mehrere Episoden eines einzigen Abonnements hintereinander in der Warteschlange befinden.
 
 Um Schlaues Mischen zu verwenden, lege einige Episoden aus verschiedenen Abonnements in die Warteschlange, tippe dann auf `…` in der oberen Leiste, wähle `Sortieren` und schließlich `Schlaues Mischen`. Genau wie andere Sortierkriterien kann auch Schlaues Mischen in aufsteigender oder absteigender Reihenfolge sortiert werden.
 

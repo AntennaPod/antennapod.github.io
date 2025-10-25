@@ -17,7 +17,7 @@ En raison des différentes étapes nécessaires et parce que nous ne participons
 1. Un contributeur à F-Droid signe cryptographiquement le programme compilé. Afin d'améliorer la sécurité, le contributeur a besoin de se munir de l'app et de se rendre physiquement auprès d'un ordinateur dédié qui n'est pas connecté à internet. Lorsque toutes les apps sont signées, le contributeur les télécharge dans les systèmes de F-Droid. Cela requiert habituellement 1 à 2 jours.
 1. Les systèmes F-Droid traitent les nouvelles apps, ajoutant la nouvelle version d'AntennaPod dans leur index.
 
-À ce moment-là, nous la considérons « publiée sur F-Droid ». Néanmoins, souvenez-vous que l'application F-Droid (la « boutique d'apps ») a aussi besoin de mettre à jour la copie locale de son index. Après avoir effectué cette action, vous serez enfin invité à installer la dernière version d'AntennaPod.
+À ce moment-là, nous la considérons « publiée sur F-Droid ». Néanmoins, souvenez-vous que l'application F-Droid (la « boutique d'apps ») a aussi besoin de mettre à jour la copie locale de son index. Seulement après cela, vous serez invité à installer la dernière version d'AntennaPod.
 
 ### Donc, quel est l'ETA (Temps d'Arrivée Estimé) ?
 

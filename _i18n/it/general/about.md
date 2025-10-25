@@ -1,4 +1,4 @@
-AntennaPod è un lettore di podcast completamente gratuito e rispettoso della tua privacy. È creato da volontari da ogni parte del mondo senza alcun interesse commerciale. Insieme diamo il nostro contributo a un ecosistema per podcasting aperto, affinché tu possa goderti i migliori contenuti audio sul web.
+AntennaPod è un lettore di podcast completamente gratuito e rispettoso della tua privacy. È creato da volontari da ogni parte del mondo senza alcun interesse commerciale. Insieme diamo il nostro contributo a un ecosistema di podcasting aperto, affinché tu possa goderti i migliori contenuti audio sul web.
 
 ## Semplice, ma ricco di funzioni
 

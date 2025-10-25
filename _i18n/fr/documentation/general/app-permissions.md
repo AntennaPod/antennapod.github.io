@@ -1,9 +1,9 @@
-AntennaPod will not ask you for any general permissions. However you can give the following permissions:
+AntennaPod ne vous demandera pas de lui donner des autorisations générales. Cependant vous pouvez donner les autorisations suivantes :
 
-* **Show notifications**: Via `Settings` » `Notifications` you can give AntennaPod the permission to create notifications.
-* **Storage access**: When you add a 'local folder' the app will ask for long-term access to a specific folder. When you import a database or an OPML file, selecting that file will give the app one-time access to it.
+* **Afficher les notifications** : via `Paramètres` » `Notifications`, vous pouvez donner à AntennaPod l'autorisation de créer des notifications.
+* **Accès au stockage** : quand vous ajouter un 'dossier local', l'application demandera un accès sur le long terme à un dossier spécifique. Quand vous importez une base de données ou un fichier OPML, sélectionner ce fichier donnera à l'appli un accès uniquement cette fois à ce fichier.
 
-Apart from that, the app requires the following permissions which are automatically granted by Android:
+En dehors de cela, l'application nécessite les autorisations suivantes, qui sont automatiquement données par Android :
 
 - **Full network access**: to refresh podcasts, download and stream episodes, load images and enable synchronization
 - **View network connections** and **View Wi-Fi connections**:

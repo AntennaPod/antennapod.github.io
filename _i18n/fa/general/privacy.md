@@ -6,87 +6,87 @@
 
 کاره تنها داده‌های کاملاً ضروری برای کارکردن‌اش را ثبت می‌کند. برای نمونه، فهرست پادپخش‌هایی که دنبال می‌کنید، تنظیمات کاره، و داده‌های احراز هویت برای پادپخش‌ها یا خدمات خاص (مانند خدمات همگام‌سازی). کاره هیچ کتابخانه آگهی یا کد ردیابی سوم‌شخص (مانند گوگل آنالیتیکس) ندارد.
 
-**همه داده‌های فراهم‌شده و ساخته‌شده هنگام کاربری کاره آنتناپاد به‌صورت محلی روی دستگاه‌تان نگه‌داری می‌شوند. آنتناپاد داده‌هایتان را به جایی نمی‌فرستد یا بارگذاری نمی‌کند، مگر جایی که برای کارکرد کاره کاملاً ضروری باشد.** لطفاً بخش دوم بعدی را برای مواردی که داده‌هایتان ممکن است به سوم‌شخص‌ها داده شود، ببینید.
+**تمامی داده‌های فراهم شده و ایجاد شده هنگام استفاده از کارهٔ آنتناپاد به‌صورت محلی روی افزاره‌تان نگه‌داری می‌شوند. آنتناپاد داده‌هایتان را به جایی نفرستاده یا بار نمی‌گذارد، مگر جایی که کاملاً برای کارکرد کاره ضروری ببوده یا خدتان فعّالانه اطّلاعات اشکال‌زدایی را برایمان بفرستید.** بخش بعدی مواردی را که داده‌هایتان ممکن است به سوم‌شخص‌ها برسد توضیح می‌دهد. در صورت علاقه می‌توانید [اجازه‌های کاره](/documentation/general/app-permissions) را در مستندات ببینید.
 
-اطلاعات اشکال‌زدایی را فعالانه هم‌رسانی کنید (چه از طریق رایانامه با دکمه «گزارش خرابی»، یا از طریق گزارش خرابی اندروید گوگل):
+هنگام هم‌رسانی اطلاعات اشکال‌زدایی (چه از طریق رایانامه با `گزارش خرابی` یا از طریق گزارش خرابی اندروید گوگل) داده‌های زیر پردازش می‌شوند:
 
 - گونه دستگاه
 - نگارش اندروید
 - نگارش آنتناپاد
 
-تنها موردی که داده‌هایتان از سوم‌شخص‌ها پردازش می‌شود، هنگام به‌کارگیری خدمت همگام‌سازی است، اگر در تنظیمات روشن شده باشد. در این حالت، کاره ممکن است اشتراک‌ها و وضعیت پخش ارائه‌شده به‌دست خدمت(سرویس) را دریافت کند.
+تنها موردی که داده‌هایتان *از* سوم‌شخص‌ها پردازش می‌شود، هنگام به‌کارگیری خدمت همگام‌سازی است، اگر در تنظیمات روشن شده باشد. در این حالت، کاره ممکن است اشتراک‌ها و وضعیت پخش ارائه‌شده به‌دست خدمت(سرویس) را دریافت کند.
 
 ### سوم‌شخص‌ها چه داده‌هایی از کاره ممکن است گردآوری، نگه‌داری یا پردازش کنند
 
-#### Podcast hosters
+#### میزبان‌های پادپخش
 
-- When provided in the podcast settings, a host will receive authentication data you provided.
+- وقتی در تنظیمات پادپخش داده شده، میزبان داده‌های احراز هویتی که شما فراهم کرده‌اید را دریافت می‌کند.
 - میزبان‌های پادپخش: وقتی در تنظیمات پادپخش داده شده، میزبان داده‌های احراز هویتی که شما فراهم کرده‌اید را دریافت می‌کند. هر کارگزار وب که خوراک پادپخش را فراهم کند، ممکن است داده‌های افزوده‌ای مانند نشانی آی‌پی، زمان دسترسی و آنچه دسترسی شده را گردآوری کند. این دارای قسمت‌هایی است که بارگیری یا پخش می‌کنید. لطفاً برای جزئیات بیشتر به سیاست‌های حریم خصوصی آن‌ها مراجعه کنید. می‌توانید نشانی وب پادپخش را با باز کردن پادپخش و زدن نماد اطلاعات ببینید. آنتناپاد به کارگزارهای راه‌دور اجازه تنظیم کوکی نمی‌دهد. کارگزارها می‌توانند تشخیص دهند که شما از آنتناپاد و کدام نگارش آن استفاده می‌کنید (HTTP User-Agent). اگر چند پادپخش روی یک کارگزار میزبانی شوند، کارگزار می‌تواند فهرست پادپخش‌هایی که مشترک شده‌اید و روی آن کارگزار هستند را تشخیص دهد. این زمانی ممکن است رخ دهد که ناشران از feedburner، podtrac یا خدمات مشابه برای پخش خوراکشان استفاده کنند.
-- Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).
+- کارگزارها می‌توانند تشخیص دهند که شما از آنتناپاد و کدام نگارش آن استفاده می‌کنید (از طریق HTTP User-Agent).
 
-#### Discovery and search services
+#### خدمات کاوش و جستجو
 
-- When opening the Discover screen in the app, it sends a call to Apple to collect podcast suggestions. They may store the request (e.g. your IP address and the selected region, which by default is the device's country). These suggestions can be disabled via the top-menu of the Discover screen. In the F-Droid release you have actively consent before getting Apple's recommendations.
-- When using the search feature in AntennaPod, the services PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) may store your query, including the search terms.
-- Discovery and search queries also include IP address, time, and app name "AntennaPod". After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
+- هنگام باز کردن صفحه کاوش در کاره، درخواستی به اپل برای گردآوری پیشنهادهای پادپخش فرستاده می‌شود. آن‌ها ممکن است درخواست را (مانند نشانی آی‌پی و منطقه انتخاب‌شده، که به‌صورت پیش‌فرض کشور دستگاه است) ذخیره کنند. این پیشنهادها از طریق منوی بالای صفحه کاوش خاموش می‌شوند. در نگارش اف-دروید باید پیش از دریافت پیشنهادهای اپل، صراحتاً موافقت کنید.
+- هنگام استفاده از ویژگی جستجو در آنتناپاد، خدمات PodcastIndex.org ([سیاست حریم خصوصی](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md))، Apple Podcasts ([سیاست حریم خصوصی](https://www.apple.com/legal/privacy/en-ww/)) و fyyd ([سیاست حریم خصوصی](https://fyyd.de/privacy)) ممکن است پرس‌وجوی شما، شامل واژه‌های جستجو، را ذخیره کنند.
+- پرس‌وجوهای کاوش و جستجو همچنین شامل نشانی آی‌پی، زمان، و نام کاره «آنتناپاد» هستند. پس از اشتراک، خوراک از میزبان پادپخش ارائه می‌شود، یعنی خدمت کاوش/جستجو دیگر درگیر نیست.
 
-#### Synchronization and back-up services
+#### خدمات همگام‌سازی و پشتیبان‌گیری
 
-- خدمات همگام‌سازی: وقتی از تنظیمات روشن شود، آنتناپاد داده‌هایتان را همگام می‌کند. این داده‌ها ممکن است دارای اعتبارنامه ورود، پادپخش‌های مشترک‌شده، قسمت‌های شنیده‌شده، کنش‌های پخش، توقف و برگزیدن با مهر زمان و تاریخ و نشانی آی‌پی باشد. برای اطلاعات بیشتر، سیاست حریم خصوصی فراهم‌کننده‌تان را ببینید.
-- گوگل: اگر در تنظیمات تلفن‌تان پشتیبان‌گیری و بازنشانی را روشن کرده باشید (`تنظیمات` » `پشتیبان‌گیری و بازنشانی` » `پشتیبان‌گیری از داده‌هایم`)، باید بدانید که اندروید به‌صورت دوره‌ای رونوشتی از داده‌های تلفن‌تان را در کارگزارهای گوگل نگه‌داری می‌کند. این پشتیبان دارای اطلاعات خصوصی، از جمله گذرواژه‌های وای‌فای، پیام‌ها و تاریخچه تماس است. همچنین ممکن است دارای داده‌های آنتناپاد و دیگر کاره‌هایی که با آنها کار می‌کنید باشد. توسعه‌دهندگان آنتناپاد به این داده‌ها دسترسی ندارند. برای اطلاعات بیشتر، [سیاست حریم خصوصی گوگل](https://policies.google.com) را ببینید.
+- آنتناپاد داده‌هایتان را در صورت به کار انداختن از تنظیمات هم‌گام می‌کند. این داده‌ها می‌تواند شامل اعتبارهای ورود، پادپخش‌های مشترک، قسمت‌های شنیده، کنش‌های پخش و مکث با برچسب زمانی و نشانی آی‌پیتان باشد. برای اطّلاعات بیش‌تر سیاست محرمانگی فراهمگر هم‌گام سازیتان را ببینید.
+- اگر پشتیبان‌ها روی تلفنتان به کار افتاده باشند (`تنظیمات` » `پشتیبان و بازنشانی` » `پشتیبان گیری از داده‌هایم`) اندروید به صورت دوره‌ای رونوشتی از داده‌های تلفنتان روی کارسازهای گوگل خواهد گرفت. این پشتیبان اطّلاعاتی خصوصی جون گذرواژه‌های وای‌فای، تاریخچهٔ تماس و پیام‌هایتان دارد. ممکن است داده‌هایی از آنتاپاد و دیگر کاره‌هایی که استفاده می‌کنید نیز داشته باشد. توسعه‌دهندگان آنتاپاد به این داده‌ها دسترسی ندارد. برای اطّلاعات بیش‌تر [سیاست محرمانگی گوگل](https://policies.google.com) را ببینید.
 
-#### Device and operating system vendors
+#### سازندگان افزاره و سیستم‌عامل
 
-If you enabled [sharing of usage and diagnostics](https://support.google.com/accounts/answer/6078260) with Google and use Android's reporting functionality when AntennaPod crashes or becomes unresponsive, related data is sent to Google. For more information, see [Google's privacy policy](https://policies.google.com).
+اگر [هم‌رسانی استفاده و تشخیص](https://support.google.com/accounts/answer/6078260) با گوگل را روشن کرده باشید و از قابلیت گزارش‌دهی اندروید هنگام خرابی یا پاسخ‌ندادن آنتناپاد استفاده کنید، داده‌های مرتبط به گوگل فرستاده می‌شود. برای اطلاعات بیشتر، [سیاست حریم خصوصی گوگل](https://policies.google.com) را ببینید.
 
-## Online services
+## خدمات برخط
 
-### Data from services hosted by the team
+### داده‌ها از خدمات میزبانی‌شده توسط گروه
 
-- انجمن: انجمن آنتناپاد از نرم‌افزار دیس‌کورس استفاده می‌کند، که به‌دست گروه مرکزی میزبانی می‌شود. لطفاً [سیاست حریم خصوصی انجمن](https://forum.antennapod.org/privacy) را برای داده‌های مربوطه ببینید.
+- **انجمن**: انجمن آنتناپاد از نرم‌افزار دیس‌کورس استفاده می‌کند، که به‌دست گروه مرکزی میزبانی می‌شود. لطفاً [سیاست حریم خصوصی انجمن](https://forum.antennapod.org/privacy) را برای داده‌های مربوط ببینید.
 
-### Data from services hosted by other parties
+### داده‌ها از خدمات میزبانی‌شده توسط دیگران
 
-#### The donation system
+#### سامانه کمک مالی
 
-سامانه کمک مالی: آنتناپاد از Open Collective، ارائه‌شده به‌دست Open Collective Inc (آمریکا) و Open Collective Europe ASBL (بلژیک)، استفاده می‌کند. وقتی کمک مالی می‌کنید، این نهادها به برخی داده‌ها دسترسی می‌یابند. برای اطلاعات بیشتر، [سیاست حریم خصوصی Open Collective](https://opencollective.com/privacypolicy) را ببینید.
+آنتناپاد از Open Collective، ارائه‌شده به‌دست Open Collective Inc (آمریکا) و Open Collective Europe ASBL (بلژیک)، استفاده می‌کند. وقتی کمک مالی می‌کنید، داده‌های شما به میرود به:
 
-- these entities - for more information, see [Open Collective Inc.'s privacy policy](https://opencollective.com/privacypolicy)
+- این نهادها - برای اطلاعات بیشتر، [سیاست حریم خصوصی Open Collective Inc.](https://opencollective.com/privacypolicy) را ببینید
 - کمک مالی فعالانه‌ای از طریق Open Collective کنید (مگر اینکه به‌صورت [مهمان ناشناس](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) یا [ناشناخته](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) کمک کنید):
    - داده‌های نمایه عمومی (نام، شرکت، شرح، تصویر، توییتر، گیت‌هاب، وبگاه)
    - نشانی رایانامه
 
-#### محتوای وبگاه
+#### پایگاه وب
 
-AntennaPod's website is hosted via GitHub Pages.
+وبگاه آنتناپاد از طریق GitHub Pages میزبانی می‌شود.
 
-- When you visit our website, you are interacting with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for the data they collect and process.
-- The website does not set any cookies and does not use third-party tracking, analytics or other services. The 'Translate' page in the 'Contribute' section contains an embedded graph which retrieved from the servers of Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/)).
+- هنگام بازدید از وبگاه ما، با GitHub, Inc. یا GitHub B.V. در تعامل هستید - برای داده‌هایی که گردآوری و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) را ببینید.
+- The website does not set any cookies and does not use third-party tracking, analytics or other services. The 'Translate' page in the 'Contribute' section contains an embedded graph which is retrieved from the servers of Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/)).
 
-#### دریافت از گوگل‌پلی
+#### پلی گوگل
 
-When you actively leave a review in the Google Play store, the AntennaPod team gets access to your public profile information and may extract and store the following in any online service used by the team (e.g. GitHub or the forum):
+هنگامی که فعالانه در فروشگاه گوگل‌پلی بازبینی می‌گذارید، گروه آنتناپاد به داده‌های نمایه عمومی شما دسترسی می‌یابد و ممکن است موارد زیر را در هر خدمت برخط استفاده‌شده توسط گروه (مانند گیت‌هاب یا انجمن) استخراج و ذخیره کند:
 
-- review text
+- متن بازبینی
 - نگارش آنتناپاد
 - گونه دستگاه
-- زبان دستگاه
+- زبان افزاره
 - نگارش اندروید
 
-#### Weblate
+#### وب‌لیت
 
-When you contribute to AntennaPod's translations:
+هنگامی که به ترجمه‌های آنتناپاد کمک می‌کنید:
 
-- you are interacting with the hosted service of Weblate s.r.o. - see their [privacy policy](https://weblate.org/en-gb/privacy/) for the data they collect and process.
-- گروه مرکزی آنتناپاد به چه داده‌هایی ممکن است دسترسی داشته باشد
-   - The 'Username', 'Full name' and 'Account e-mail' as set in [your profile](https://hosted.weblate.org/accounts/profile/#account)
-   - When you joined the project and detailed [statistics](https://docs.weblate.org/en/latest/devel/reporting.html#stats) about your contributions, as well as the [languages](https://docs.weblate.org/en/latest/devel/reporting.html#credits) you contribute to and the date and timestamps of your contributions.
+- با خدمت میزبانی‌شده Weblate s.r.o. در تعامل هستید - برای داده‌هایی که گردآوری و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://weblate.org/en-gb/privacy/) را ببینید.
+- گروه آنتناپاد به موارد زیر دسترسی دارد:
+   - «نام کاربری»، «نام کامل» و «رایانامه حساب» که در [نمایه شما](https://hosted.weblate.org/accounts/profile/#account) تنظیم شده‌اند
+   - زمان پیوستن به پروژه و [آمار دقیق](https://docs.weblate.org/en/latest/devel/reporting.html#stats) درباره مشارکت‌هایتان، همچنین [زبان‌هایی](https://docs.weblate.org/en/latest/devel/reporting.html#credits) که به آن‌ها کمک می‌کنید و تاریخ و برچسب‌های زمانی مشارکت‌هایتان.
 
-#### Git
+#### گیت
 
-When you contribute to AntennaPod's codebase via git, you are interacting with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for the data they collect and process.
+هنگامی که از طریق گیت به کدهای آنتناپاد کمک می‌کنید، با GitHub, Inc. یا GitHub B.V. در تعامل هستید - برای داده‌هایی که گردآوری و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) را ببینید.
 
-## به‌روزرسانی‌های این سیاست حریم خصوصی
+## به‌روزرسانی‌های این سیاست محرمانگی
 
 توسعه‌دهندگان ممکن است این سیاست را در آینده به‌روزرسانی کنند. پیشنهاد می‌شود این سیاست را به‌صورت دوره‌ای برای هرگونه تغییر بررسی کنید. تغییرات این سیاست حریم خصوصی هنگامی که در این سند پیاده شوند، اجرایی می‌شوند.
 

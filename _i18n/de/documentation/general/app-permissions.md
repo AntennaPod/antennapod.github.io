@@ -1,15 +1,15 @@
-AntennaPod will not ask you for any general permissions. However you can give the following permissions:
+AntennaPod fordert keine allgemeinen Berechtigungen an. Du kannst jedoch die folgenden Berechtigungen erteilen:
 
-* **Show notifications**: Via `Settings` » `Notifications` you can give AntennaPod the permission to create notifications.
-* **Storage access**: When you add a 'local folder' the app will ask for long-term access to a specific folder. When you import a database or an OPML file, selecting that file will give the app one-time access to it.
+* **Benachrichtigungen anzeigen**: Über `Einstellungen` » `Benachrichtigungen` kannst du AntennaPod die Berechtigung zum Erstellen von Benachrichtigungen erteilen.
+* **Speicherzugriff**: Wenn du einen „lokalen Ordner” hinzufügst, fragt die App nach einem dauerhaften Zugriff auf einen bestimmten Ordner. Wenn du eine Datenbank oder eine OPML-Datei importierst, erhält die App durch Auswahl dieser Datei einmaligen Zugriff darauf.
 
-Apart from that, the app requires the following permissions which are automatically granted by Android:
+Darüber hinaus benötigt die App die folgenden Berechtigungen, die von Android automatisch erteilt werden:
 
-- **Full network access**: to refresh podcasts, download and stream episodes, load images and enable synchronization
-- **View network connections** and **View Wi-Fi connections**:
-   - to check if there is an active internet connection, before and while taking any of the above-mentioned actions
-   - for the setting `Downloads` » `Mobile updates`, to determine whether the above actions are allowed by the user on the current (mobile and/or metered) connection
-- **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
-- **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
-- **Control vibration**: for the option `Vibrate shortly before end` of the sleep timer, to vibrate if this setting is enabled
-- **Prevent device from sleeping**: needed to ensure media playback and downloads continue in the background
+- **Voller Netzwerkzugriff**: zum Aktualisieren von Podcasts, Herunterladen und Streamen von Episoden, Laden von Bildern und Aktivieren der Synchronisierung
+- **Netzwerkverbindungen anzeigen** und **WLAN-Verbindungen anzeigen**:
+   - um zu überprüfen, ob eine aktive Internetverbindung besteht, bevor und während du eine der oben genannten Maßnahmen ergreifst
+   - für die Einstellung `Downloads` » `Mobile Aktualisierungen`, um festzulegen, ob die oben genannten Aktionen vom Benutzer bei der aktuellen (mobilen und/oder getakteten) Verbindung zugelassen sind
+- **Mit Bluetooth-Geräten verbinden**: Für die Einstellung `Wiedergabe` » `Kopfhörer oder Bluetooth getrennt`, um die Wiedergabe automatisch anzuhalten oder fortzusetzen, wenn das Telefon eine Verbindung zu einem Bluetooth-Gerät herstellt oder trennt
+- **Beim Start ausführen**: Dienste wie das Aktualisieren von Podcasts und das Aktivieren von automatischen Downloads (neu) starten
+- **Vibration steuern**: für die Option `Kurz vor dem Ende vibrieren` der Schlummerfunktion, um zu vibrieren, wenn diese Einstellung aktiviert ist
+- **Gerät nicht in den Ruhezustand versetzen**: erforderlich, um sicherzustellen, dass die Medienwiedergabe und Downloads im Hintergrund fortgesetzt werden
