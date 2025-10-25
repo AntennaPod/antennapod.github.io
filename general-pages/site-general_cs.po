@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-17 17:18+0200\n"
-"PO-Revision-Date: 2025-04-29 09:34+0000\n"
+"PO-Revision-Date: 2025-10-15 20:12+0000\n"
 "Last-Translator: ikanakova <ikanakova@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/antennapod/website/"
 "general/cs/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -367,7 +367,6 @@ msgstr ""
 "chráněny autorskými právy příslušných vlastníků."
 
 #: _i18n/en/general/privacy.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod is developed and maintained by individual volunteers and is not "
 "represented by any legal entity. The community is not interested in your "
@@ -380,12 +379,10 @@ msgstr ""
 "Přečtěte si další informace."
 
 #: _i18n/en/general/privacy.md:block 3 (header)
-#, fuzzy
 msgid "Data AntennaPod may collect, store, and process"
-msgstr "Jaká data může aplikace AntennaPod shromažďovat, ukládat a zpracovávat"
+msgstr "Data, která může AntennaPod shromažďovat, ukládat a zpracovávat"
 
 #: _i18n/en/general/privacy.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
 "includes the list of podcasts you follow, the app settings and "
@@ -394,14 +391,14 @@ msgid ""
 "libraries or third-party tracking or analytics code, such as Google "
 "Analytics."
 msgstr ""
-"Aplikace zaznamenává pouze údaje nezbytně nutné pro její fungování. Patří "
-"sem například seznam sledovaných podcastů, nastavení aplikace a ověřovací "
-"údaje poskytnuté pro konkrétní podcasty nebo služby (například "
-"synchronizační služby). Aplikace neobsahuje žádné reklamní knihovny ani "
-"žádný sledovací (analytický) kód třetích stran, například Google Analytics."
+"Aplikace zaznamenává pouze data nezbytně nutná pro její fungování. Patří sem "
+"seznam podcastů, které sledujete, nastavení aplikace a autentizační data "
+"poskytnutá pro konkrétní podcasty nebo služby "
+"(například synchronizační služby). Aplikace neobsahuje žádné reklamní "
+"knihovny ani kódy třetích stran pro sledování nebo analýzu, jako je "
+"například Google Analytics."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
@@ -412,21 +409,22 @@ msgid ""
 "app-permissions) in the documentation."
 msgstr ""
 "**Všechna data poskytnutá a vytvořená při používání aplikace AntennaPod jsou "
-"uložena lokálně ve vašem zařízení. AntennaPod vaše data nikam neposílá ani "
-"nenahrává, s výjimkou případů, kdy je to nezbytně nutné pro fungování "
-"aplikace.** Případy, kdy mohou být vaše data poskytnuta třetím stranám, "
-"najdete v následující části."
+"uložena lokálně ve vašem zařízení. AntennaPod neodesílá ani nenahrává vaše "
+"data nikam, s výjimkou případů, kdy je to nezbytně nutné pro fungování "
+"aplikace nebo když s námi aktivně sdílíte informace o ladění.** V další "
+"části je vysvětleno, kdy se vaše data mohou dostat k třetím stranám. Pokud "
+"vás to zajímá, můžete si také v dokumentaci přečíst informace o "
+"[oprávněních aplikace AntennaPod](/documentation/general/app-permissions)."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "When sharing debugging information (either via email using the ‘Crash "
 "Report’ function or via Android’s crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
-"aktivně sdílíte informace o ladění (buď e-mailem pomocí funkce \"Crash "
-"Report\", nebo prostřednictvím funkce hlášení selhání systému Android "
-"společnosti Google):"
+"Při sdílení informací o ladění (buď prostřednictvím e-mailu pomocí funkce „"
+"Crash Report“ nebo prostřednictvím funkce hlášení chyb systému Android) jsou "
+"zpracovávány následující údaje:"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
 msgid "device type"
@@ -441,36 +439,34 @@ msgid "AntennaPod version"
 msgstr "verze AntennaPodu"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
 "when using a synchronization service if enabled via the settings. In that "
 "case, the app may receive subscriptions and playback events provided by the "
 "service."
 msgstr ""
-"Jediným případem, kdy jsou vaše data od třetích stran zpracovávána, je "
+"Jediným případem, kdy jsou zpracovávány osobní údaje *od* třetích stran, je "
 "použití synchronizační služby, pokud je povolena v nastavení. V takovém "
-"případě může aplikace přijímat odběry a události přehrávání poskytované "
+"případě může aplikace přijímat předplatná a události přehrávání poskytované "
 "touto službou."
 
 #: _i18n/en/general/privacy.md:block 9 (header)
-#, fuzzy
 msgid "Data other parties may collect, store, and process"
-msgstr ""
-"Jaká data aplikací mohou shromažďovat, ukládat a zpracovávat jiné strany"
+msgstr "Data, která mohou shromažďovat, ukládat a zpracovávat jiné strany"
 
 #: _i18n/en/general/privacy.md:block 10 (header)
 msgid "Podcast hosters"
-msgstr ""
+msgstr "Hostitelé podcastů"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "When provided in the podcast settings, a host will receive authentication "
 "data you provided."
 msgstr ""
+"Po zadání v nastavení podcastu obdrží hostitel ověřovací údaje, které jste "
+"zadali."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -483,29 +479,30 @@ msgid ""
 "podcasts you've subscribed to. This can happen when publishers use services "
 "like FeedBurner, Podtrac, or similar to distribute their feeds."
 msgstr ""
-"Hostitelé podcastů: Pokud jsou v nastavení podcastu uvedeny, hostitel obdrží "
-"vámi zadané ověřovací údaje. Všechny webové servery, které poskytují kanály "
-"podcastů, mohou shromažďovat další údaje, jako je vaše IP adresa, čas "
-"přístupu a co se zpřístupňuje. To zahrnuje i epizody, které stahujete nebo "
-"streamujete. Podrobnosti naleznete v jejich příslušných zásadách ochrany "
-"osobních údajů. Adresu URL podcastu zobrazíte tak, že otevřete podcast a "
-"stisknete ikonu informací. Služba AntennaPod neumožňuje vzdáleným serverům "
-"nastavovat soubory cookie. Servery mohou zjistit, že používáte službu "
-"AntennaPod a jakou verzi služby AntennaPod používáte (HTTP User-Agent). "
-"Pokud je na stejném serveru umístěno více podcastů, může server zjistit "
-"seznam podcastů, které jste si předplatili a které jsou na tomto serveru "
-"umístěny. To se může stát, pokud vydavatelé používají k distribuci svých "
-"podcastů služby feedburner, podtrac nebo podobné."
+"Webové servery, které poskytují podcastové kanály, mohou shromažďovat další "
+"údaje, jako je vaše IP adresa, čas přístupu a obsah, ke kterému "
+"přistupujete. To zahrnuje epizody, které stahujete nebo streamujete. "
+"Podrobnosti najdete v příslušných zásadách ochrany osobních údajů. URL "
+"podcastu můžete zobrazit otevřením podcastu a stisknutím ikony informací. "
+"AntennaPod umožňuje serverům nastavit soubory cookie, ale při každém "
+"restartu aplikace je vymaže. Webové servery mají přístup pouze k souborům "
+"cookie, které byly nastaveny stejným serverem. Pokud je na stejném serveru "
+"hostováno více podcastů, může tento server potenciálně zjistit, které z "
+"hostovaných podcastů jste si předplatili. K tomu může dojít, když vydavatelé "
+"používají ke distribuci svých feedů služby jako FeedBurner, Podtrac nebo "
+"podobné."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "Servers can detect that you are using AntennaPod and which version (via the "
 "HTTP User-Agent)."
 msgstr ""
+"Servery mohou zjistit, že používáte AntennaPod a jakou verzi "
+"(prostřednictvím HTTP User-Agent)."
 
 #: _i18n/en/general/privacy.md:block 12 (header)
 msgid "Discovery and search services"
-msgstr ""
+msgstr "Služby vyhledávání a objevování"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -516,6 +513,12 @@ msgid ""
 "In the F-Droid release you have actively consent before getting Apple's "
 "recommendations."
 msgstr ""
+"Při otevření obrazovky Objevit v aplikaci se odešle požadavek společnosti "
+"Apple, aby shromáždila návrhy podcastů. Tyto požadavky mohou být uloženy ("
+"např. vaše IP adresa a vybraná oblast, která je ve výchozím nastavení zemí "
+"zařízení). Tyto návrhy lze deaktivovat v horním menu obrazovky Objevit. Ve "
+"verzi F-Droid musíte aktivně souhlasit, než obdržíte doporučení společnosti "
+"Apple."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -525,6 +528,13 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"Při používání vyhledávací funkce v AntennaPod služby PodcastIndex.org ("
+"[zásady ochrany osobních údajů]"
+"(https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), "
+"Apple Podcasts ([zásady ochrany osobních údajů]"
+"(https://www.apple.com/legal/privacy/en-ww/)) a fyyd "
+"([zásady ochrany osobních údajů](https://fyyd.de/privacy)) mohou ukládat "
+"vaše dotazy, včetně vyhledávaných termínů."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -532,24 +542,27 @@ msgid ""
 "\"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
+"Dotazy pro vyhledávání a objevování zahrnují také IP adresu, čas a název "
+"aplikace „AntennaPod“. Po přihlášení k odběru je feed poskytován z hostitele "
+"podcastů, což znamená, že služba pro vyhledávání/objevování již není "
+"zapojena."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and back-up services"
-msgstr ""
+msgstr "Synchronizační a zálohovací služby"
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "When enabled via the settings, AntennaPod synchronizes your data. This may "
 "include login credentials, subscribed podcasts, listened episodes, play/"
 "pause/favorite actions with timestamps, and your IP address. For more "
 "information, see your synchronization provider's privacy policy."
 msgstr ""
-"Synchronizační služby: AntennaPod synchronizuje vaše data, pokud je to "
-"povoleno v nastavení. Tato data mohou zahrnovat přihlašovací údaje, "
-"odebírané podcasty, poslouchané epizody, přehrávání, pozastavení a oblíbené "
-"akce s datem a časem a IP adresu. Další informace naleznete v zásadách "
-"ochrany osobních údajů vašeho poskytovatele."
+"Je-li tato funkce povolena v nastavení, AntennaPod synchronizuje vaše data. "
+"Může se jednat o přihlašovací údaje, odběry podcastů, poslouchané epizody, "
+"akce přehrávání/pozastavení/oblíbené s časovými značkami a vaši IP adresu. "
+"Další informace naleznete v zásadách ochrany osobních údajů vašeho "
+"poskytovatele synchronizace."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
 #, fuzzy
