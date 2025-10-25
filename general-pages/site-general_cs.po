@@ -393,18 +393,18 @@ msgid ""
 msgstr ""
 "Aplikace zaznamenává pouze data nezbytně nutná pro její fungování. Patří sem "
 "seznam podcastů, které sledujete, nastavení aplikace a autentizační data "
-"poskytnutá pro konkrétní podcasty nebo služby "
-"(například synchronizační služby). Aplikace neobsahuje žádné reklamní "
-"knihovny ani kódy třetích stran pro sledování nebo analýzu, jako je "
-"například Google Analytics."
+"poskytnutá pro konkrétní podcasty nebo služby (například synchronizační "
+"služby). Aplikace neobsahuje žádné reklamní knihovny ani kódy třetích stran "
+"pro sledování nebo analýzu, jako je například Google Analytics."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
 "anywhere, except where strictly necessary for the functioning of the app or "
 "when you actively share debugging information with us.** The next section "
-"explains when your data may reach third parties. If you're interested, you "
+"explains when your data may reach third parties. If you are interested, you "
 "may also read about AntennaPod's [app permissions](/documentation/general/"
 "app-permissions) in the documentation."
 msgstr ""
@@ -413,18 +413,19 @@ msgstr ""
 "data nikam, s výjimkou případů, kdy je to nezbytně nutné pro fungování "
 "aplikace nebo když s námi aktivně sdílíte informace o ladění.** V další "
 "části je vysvětleno, kdy se vaše data mohou dostat k třetím stranám. Pokud "
-"vás to zajímá, můžete si také v dokumentaci přečíst informace o "
-"[oprávněních aplikace AntennaPod](/documentation/general/app-permissions)."
+"vás to zajímá, můžete si také v dokumentaci přečíst informace o [oprávněních "
+"aplikace AntennaPod](/documentation/general/app-permissions)."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
-"When sharing debugging information (either via email using the ‘Crash "
-"Report’ function or via Android’s crash reporting functionality), the "
+"When sharing debugging information (either via email using the `Crash "
+"Report` function or via Android's crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
-"Při sdílení informací o ladění (buď prostřednictvím e-mailu pomocí funkce „"
-"Crash Report“ nebo prostřednictvím funkce hlášení chyb systému Android) jsou "
-"zpracovávány následující údaje:"
+"Při sdílení informací o ladění (buď prostřednictvím e-mailu pomocí funkce "
+"„Crash Report“ nebo prostřednictvím funkce hlášení chyb systému Android) "
+"jsou zpracovávány následující údaje:"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
 msgid "device type"
@@ -439,9 +440,10 @@ msgid "AntennaPod version"
 msgstr "verze AntennaPodu"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
-"when using a synchronization service if enabled via the settings. In that "
+"when using a synchronization service, if enabled via the settings. In that "
 "case, the app may receive subscriptions and playback events provided by the "
 "service."
 msgstr ""
@@ -459,25 +461,27 @@ msgid "Podcast hosters"
 msgstr "Hostitelé podcastů"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
+#, fuzzy
 msgid ""
-"When provided in the podcast settings, a host will receive authentication "
-"data you provided."
+"When provided in the podcast settings, a host will receive the "
+"authentication data you provided."
 msgstr ""
 "Po zadání v nastavení podcastu obdrží hostitel ověřovací údaje, které jste "
 "zadali."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
+#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
 "episodes you are downloading or streaming. Please refer to their respective "
-"privacy policies for details. You can view a podcast’s URL by opening the "
+"privacy policies for details. You can view a podcast's URL by opening the "
 "podcast and pressing the info icon. AntennaPod allows servers to set cookies "
 "but clears them each time the app is restarted. Web servers only get access "
 "to cookies that were set by the same server. If multiple podcasts are hosted "
 "on the same server, that server can potentially detect which of its hosted "
-"podcasts you've subscribed to. This can happen when publishers use services "
-"like FeedBurner, Podtrac, or similar to distribute their feeds."
+"podcasts you have subscribed to. This can happen when publishers use "
+"services like FeedBurner, Podtrac or similar to distribute their feeds."
 msgstr ""
 "Webové servery, které poskytují podcastové kanály, mohou shromažďovat další "
 "údaje, jako je vaše IP adresa, čas přístupu a obsah, ke kterému "
@@ -505,17 +509,18 @@ msgid "Discovery and search services"
 msgstr "Služby vyhledávání a objevování"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
+#, fuzzy
 msgid ""
-"When opening the Discover screen in the app, it sends a call to Apple to "
-"collect podcast suggestions. They may store the request (e.g. your IP "
+"When opening the Discover screen in the app, a call is sent to Apple to "
+"collect podcast suggestions. Apple may store the request (e.g. your IP "
 "address and the selected region, which by default is the device's country). "
 "These suggestions can be disabled via the top-menu of the Discover screen. "
-"In the F-Droid release you have actively consent before getting Apple's "
+"In the F-Droid release, you have to actively consent before getting Apple's "
 "recommendations."
 msgstr ""
 "Při otevření obrazovky Objevit v aplikaci se odešle požadavek společnosti "
-"Apple, aby shromáždila návrhy podcastů. Tyto požadavky mohou být uloženy ("
-"např. vaše IP adresa a vybraná oblast, která je ve výchozím nastavení zemí "
+"Apple, aby shromáždila návrhy podcastů. Tyto požadavky mohou být uloženy "
+"(např. vaše IP adresa a vybraná oblast, která je ve výchozím nastavení zemí "
 "zařízení). Tyto návrhy lze deaktivovat v horním menu obrazovky Objevit. Ve "
 "verzi F-Droid musíte aktivně souhlasit, než obdržíte doporučení společnosti "
 "Apple."
@@ -528,19 +533,19 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
-"Při používání vyhledávací funkce v AntennaPod služby PodcastIndex.org ("
-"[zásady ochrany osobních údajů]"
-"(https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), "
-"Apple Podcasts ([zásady ochrany osobních údajů]"
-"(https://www.apple.com/legal/privacy/en-ww/)) a fyyd "
-"([zásady ochrany osobních údajů](https://fyyd.de/privacy)) mohou ukládat "
-"vaše dotazy, včetně vyhledávaných termínů."
+"Při používání vyhledávací funkce v AntennaPod služby PodcastIndex.org "
+"([zásady ochrany osobních údajů](https://github.com/Podcastindex-org/legal/"
+"blob/main/PrivacyPolicy.md)), Apple Podcasts ([zásady ochrany osobních údajů]"
+"(https://www.apple.com/legal/privacy/en-ww/)) a fyyd ([zásady ochrany "
+"osobních údajů](https://fyyd.de/privacy)) mohou ukládat vaše dotazy, včetně "
+"vyhledávaných termínů."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
+#, fuzzy
 msgid ""
 "Discovery and search queries also include IP address, time, and app name "
-"\"AntennaPod\". After subscribing, the feed is served from the podcast "
-"hoster, meaning the discovery/search service is no longer involved."
+"'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
+"meaning the discovery/search service is no longer involved."
 msgstr ""
 "Dotazy pro vyhledávání a objevování zahrnují také IP adresu, čas a název "
 "aplikace „AntennaPod“. Po přihlášení k odběru je feed poskytován z hostitele "
@@ -548,7 +553,8 @@ msgstr ""
 "zapojena."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
-msgid "Synchronization and back-up services"
+#, fuzzy
+msgid "Synchronization and backup services"
 msgstr "Synchronizační a zálohovací služby"
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
@@ -567,7 +573,7 @@ msgstr ""
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
 #, fuzzy
 msgid ""
-"If back-ups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
+"If backups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
 "Google's servers. This backup contains private information, including your "
 "WiFi passwords, messages and call history. It may also include data from "
@@ -692,13 +698,13 @@ msgstr ""
 msgid ""
 "The website does not set any cookies and does not use third-party tracking, "
 "analytics or other services. The 'Translate' page in the 'Contribute' "
-"section contains an embedded graph which retrieved from the servers of "
+"section contains an embedded graph which is retrieved from the servers of "
 "Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 28 (header)
 #, fuzzy
-msgid "Google play"
+msgid "Google Play"
 msgstr "Získat na Google Play"
 
 #: _i18n/en/general/privacy.md:block 29 (paragraph)
@@ -739,17 +745,17 @@ msgstr "K jakým údajům může mít hlavní tým AntennaPodu přístup"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
-"The 'Username', 'Full name' and 'Account e-mail' as set in [your profile]"
+"the 'username', 'full name' and 'account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
-"When you joined the project and detailed [statistics](https://docs.weblate."
-"org/en/latest/devel/reporting.html#stats) about your contributions, as well "
-"as the [languages](https://docs.weblate.org/en/latest/devel/reporting."
-"html#credits) you contribute to and the date and timestamps of your "
-"contributions."
+"the date when you joined the project and detailed [statistics](https://docs."
+"weblate.org/en/latest/devel/reporting.html#stats) about your contributions, "
+"as well as the [languages](https://docs.weblate.org/en/latest/devel/"
+"reporting.html#credits) you contribute to and the date and timestamps of "
+"your contributions."
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 34 (header)

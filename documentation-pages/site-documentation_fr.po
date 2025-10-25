@@ -456,12 +456,12 @@ msgstr ""
 "Dans une très ancienne version d'AntennaPod (avant 2019), il y avait des "
 "problèmes avec la base de données contenant toutes les informations "
 "(épisodes, états d'écoute, etc.). Bien que la cause soit réparée depuis "
-"longtemps, votre base de données peut avoir été endommagée "
-"(même lorsque l'application fonctionnait sans problème). Si une version "
-"récente d'AntennaPod apporte des modifications aux parties endommagées de la "
-"base de données, ces dommages peuvent soudainement devenir un problème. A ce "
-"moment là, AntennaPod ne peut plus travailler avec la base de données "
-"endommagée et doit recommencer avec une base de données vide."
+"longtemps, votre base de données peut avoir été endommagée (même lorsque "
+"l'application fonctionnait sans problème). Si une version récente "
+"d'AntennaPod apporte des modifications aux parties endommagées de la base de "
+"données, ces dommages peuvent soudainement devenir un problème. A ce moment "
+"là, AntennaPod ne peut plus travailler avec la base de données endommagée et "
+"doit recommencer avec une base de données vide."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -507,11 +507,11 @@ msgid ""
 msgstr ""
 "Si AntennaPod détecte une base de données corrompue, il l'écrit dans un "
 "fichier nommé CorruptedDatabaseBackup.db dans le répertoire de stockage de "
-"l'application. Vous pouvez essayer de réparer ce fichier "
-"(ou de réparer une sauvegarde exportée) en utilisant un [script Python]"
-"(https://github.com/ByteHamster/AntennaPodDbFixer) qui a été développé pour "
-"automatiser ce processus de réparation. Cette action est complexe et "
-"nécessite d'apprendre à utiliser un terminal de commandes."
+"l'application. Vous pouvez essayer de réparer ce fichier (ou de réparer une "
+"sauvegarde exportée) en utilisant un [script Python](https://github.com/"
+"ByteHamster/AntennaPodDbFixer) qui a été développé pour automatiser ce "
+"processus de réparation. Cette action est complexe et nécessite d'apprendre "
+"à utiliser un terminal de commandes."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -2631,6 +2631,44 @@ msgstr ""
 "subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). Si vous avez "
 "besoin de notre logo, consultez notre [dépôt de marque](https://github.com/"
 "AntennaPod/branding)."
+
+#: _i18n/en/documentation/podcasters-hosters/funding.md:block 1 (paragraph)
+msgid ""
+"To ensure the sustainability of an open podcasting ecosystem, podcasters "
+"need funding beyond advertising and buy-outs by platforms. AntennaPod "
+"supports different ways through which podcasters can earn an income:"
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
+#: list)
+msgid ""
+"We support the [funding](https://podcasting2.org/docs/podcast-namespace/tags/"
+"funding) tag, allowing podcasters to add links to their payment pages in "
+"their RSS feeds: see [how to use this tag](https://podcasting2.org/docs/"
+"guides/how-to-use-the-funding-tag). This is the standard way for podcasters "
+"to get financial support from their audience."
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
+#: list)
+msgid ""
+"If for any reason you don't use the funding tag yet, you can still include "
+"information about how your audience can support you in your podcast or "
+"episode descriptions. It will still be visible to AntennaPod users, even "
+"though less prominently. For example, if you offer a premium tier, "
+"AntennaPod users will be able to subscribe to it using a personalized feed "
+"URL or by entering the login credentials you give them."
+msgstr ""
+
+#: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
+#: list)
+msgid ""
+"In the future, we would also like to support automatic micropayments via the "
+"[value](https://podcasting2.org/docs/podcast-namespace/tags/value) tag. As "
+"it is complex functionality and the technical specifications are still "
+"evolving, AntennaPod won't support it soon, but we are closely following "
+"developments."
+msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
