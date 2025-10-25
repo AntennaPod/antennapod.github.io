@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 23:16+0200\n"
-"PO-Revision-Date: 2025-10-22 18:58+0000\n"
+"PO-Revision-Date: 2025-10-25 17:12+0000\n"
 "Last-Translator: Luca <loucasal@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/antennapod/"
 "website/general/it/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -24,9 +24,9 @@ msgid ""
 msgstr ""
 "AntennaPod è un lettore di podcast completamente gratuito e rispettoso della "
 "tua privacy. È creato da volontari da ogni parte del mondo senza alcun "
-"interesse commerciale. Insieme diamo il nostro contributo a un ecosistema "
-"per podcasting aperto, affinché tu possa goderti i migliori contenuti audio "
-"sul web."
+"interesse commerciale. Insieme diamo il nostro contributo a un ecosistema di "
+"podcasting aperto, affinché tu possa goderti i migliori contenuti audio sul "
+"web."
 
 #: _i18n/en/general/about.md:block 2 (header)
 msgid "Simple, but feature packed"
@@ -409,7 +409,6 @@ msgstr ""
 "Analytics."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
@@ -425,19 +424,18 @@ msgstr ""
 "per il funzionamento dell'app o quando condividi attivamente con noi "
 "informazioni di debug.** La sezione seguente spiega quando i tuoi dati "
 "potrebbero essere forniti a terzi. Se sei interessato, puoi consultare anche "
-"informazioni sui [permessi dell'app](/documentation/general/app-permissions) "
-"di AntennaPod nella documentazione."
+"le informazioni sui [permessi dell'app]"
+"(/documentation/general/app-permissions) di AntennaPod nella documentazione."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "When sharing debugging information (either via email using the `Crash "
 "Report` function or via Android's crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
-"Quando condividi informazioni di debug (via email utilizzando la funzione "
-"\"Crash Report\" o tramite la funzionalità di segnalazione di crash di "
-"Android), i seguenti dati vengono elaborati:"
+"Quando condividi informazioni di debug (via email utilizzando la funzione `"
+"Crash Report` o tramite la funzionalità di segnalazione di crash di Android)"
+", i seguenti dati vengono elaborati:"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
 msgid "device type"
@@ -452,7 +450,6 @@ msgid "AntennaPod version"
 msgstr "versione di AntennaPod"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
 "when using a synchronization service, if enabled via the settings. In that "
@@ -473,7 +470,6 @@ msgid "Podcast hosters"
 msgstr "Host di podcast"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "When provided in the podcast settings, a host will receive the "
 "authentication data you provided."
@@ -482,7 +478,6 @@ msgstr ""
 "i dati di autenticazione che hai fornito."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -521,7 +516,6 @@ msgid "Discovery and search services"
 msgstr "Servizi di scoperta e di ricerca"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
-#, fuzzy
 msgid ""
 "When opening the Discover screen in the app, a call is sent to Apple to "
 "collect podcast suggestions. Apple may store the request (e.g. your IP "
@@ -553,19 +547,17 @@ msgstr ""
 "compresi i termini di ricerca."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
-#, fuzzy
 msgid ""
 "Discovery and search queries also include IP address, time, and app name "
 "'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
 "meaning the discovery/search service is no longer involved."
 msgstr ""
 "Le richieste di scoperta e ricerca comprendono anche l'indirizzo IP, "
-"l'orario e il nome dell'app \"AntennaPod\". Dopo l'iscrizione, il feed è "
+"l'orario e il nome dell'app 'AntennaPod'. Dopo l'iscrizione, il feed è "
 "fornito dall'host del podcast, quindi i servizi di scoperta/ricerca non sono "
 "più coinvolti."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
-#, fuzzy
 msgid "Synchronization and backup services"
 msgstr "Servizi di sincronizzazione e backup"
 
@@ -583,7 +575,6 @@ msgstr ""
 "consulta l'informativa sulla privacy del tuo servizio di sincronizzazione."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "If backups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
@@ -593,14 +584,15 @@ msgid ""
 "have access to this data. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
-"Se hai attivato i backup nelle impostazioni del tuo telefono (`Impostazioni` "
-"» `Backup & Ripristino` » `Backup dei miei dati`), Android salverà "
-"periodicamente una copia dei dati del tuo telefono sui server di Google. "
-"Questo backup contiene informazioni private, comprese le password Wi-Fi, i "
-"messaggi e la cronologia delle chiamate. Potrebbe includere anche dati di "
-"AntennaPod e di altre applicazioni che usi. Gli sviluppatori di AntennaPod "
-"non hanno accesso a questi dati. Per ulteriori informazioni, consulta "
-"[l'informativa sulla privacy di Google](https://policies.google.com)."
+"Se hai attivato i backup nelle impostazioni del tuo telefono "
+"(`Impostazioni` » `Backup & Ripristino` » `Backup dei miei dati`), Android "
+"salverà periodicamente una copia dei dati del tuo telefono sui server di "
+"Google. Questo backup contiene informazioni private, comprese le password Wi-"
+"Fi, i messaggi e la cronologia delle chiamate. Potrebbe includere anche dati "
+"di AntennaPod e di altre applicazioni che usi. Gli sviluppatori di "
+"AntennaPod non hanno accesso a questi dati. Per ulteriori informazioni, "
+"consulta [l'informativa sulla privacy di Google](https://policies.google.com)"
+"."
 
 #: _i18n/en/general/privacy.md:block 16 (header)
 msgid "Device and operating system vendors"
@@ -712,7 +704,6 @@ msgstr ""
 "di più sui dati che raccolgono ed elaborano."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
-#, fuzzy
 msgid ""
 "The website does not set any cookies and does not use third-party tracking, "
 "analytics or other services. The 'Translate' page in the 'Contribute' "
@@ -722,11 +713,10 @@ msgstr ""
 "Il sito web non imposta alcun cookie e non usa tracciamento di terzi, "
 "analitiche o altri servizi. La pagina 'Traduzione' nella sezione "
 "'Contribuisci' contiene un grafico incorporato che è reperito dai server di "
-"Weblate s.r.o. ([informativa sulla privacy](https://weblate.org/it/"
-"privacy/))."
+"Weblate s.r.o. ([informativa sulla privacy](https://weblate.org/it/privacy/)"
+")."
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google Play"
 msgstr "Google Play"
 
@@ -773,16 +763,14 @@ msgid "the AntennaPod team gets access to:"
 msgstr "il team di AntennaPod ha accesso a:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid ""
 "the 'username', 'full name' and 'account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
-"Il 'nome utente', 'nome e cognome' e 'account e-mail' impostati sul [tuo "
-"profilo](https://hosted.weblate.org/accounts/profile/#account)"
+"Il 'nome utente', 'nome e cognome' e 'account e-mail' impostati sul "
+"[tuo profilo](https://hosted.weblate.org/accounts/profile/#account)"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid ""
 "the date when you joined the project and detailed [statistics](https://docs."
 "weblate.org/en/latest/devel/reporting.html#stats) about your contributions, "
@@ -790,10 +778,11 @@ msgid ""
 "reporting.html#credits) you contribute to and the date and timestamps of "
 "your contributions."
 msgstr ""
-"Quando ti sei unito al progetto e [statistiche](https://docs.weblate.org/en/"
-"latest/devel/reporting.html#stats) dettagliate sui tuoi contributi, così "
-"come le [lingue](https://docs.weblate.org/en/latest/devel/reporting."
-"html#credits) a cui contribuisci e la data e l'ora dei tuoi contributi."
+"La data in cui ti sei unito al progetto e [statistiche]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#stats) dettagliate "
+"sui tuoi contributi, così come le [lingue]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#credits) a cui "
+"contribuisci e la data e l'ora dei tuoi contributi."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
