@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-20 14:51+0200\n"
-"PO-Revision-Date: 2025-10-15 20:12+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"PO-Revision-Date: 2025-10-22 18:58+0000\n"
+"Last-Translator: Alireza Rashidi <alirezarashidigoorabi@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/antennapod/"
 "website/general/fa/>\n"
 "Language: fa\n"
@@ -424,14 +424,13 @@ msgid "AntennaPod version"
 msgstr "نگارش آنتناپاد"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
 "when using a synchronization service if enabled via the settings. In that "
 "case, the app may receive subscriptions and playback events provided by the "
 "service."
 msgstr ""
-"تنها موردی که داده‌هایتان از سوم‌شخص‌ها پردازش می‌شود، هنگام به‌کارگیری خدمت "
+"تنها موردی که داده‌هایتان *از* سوم‌شخص‌ها پردازش می‌شود، هنگام به‌کارگیری خدمت "
 "همگام‌سازی است، اگر در تنظیمات روشن شده باشد. در این حالت، کاره ممکن است "
 "اشتراک‌ها و وضعیت پخش ارائه‌شده به‌دست خدمت(سرویس) را دریافت کند."
 
@@ -442,13 +441,15 @@ msgstr "سوم‌شخص‌ها چه داده‌هایی از کاره ممکن �
 
 #: _i18n/en/general/privacy.md:block 10 (header)
 msgid "Podcast hosters"
-msgstr ""
+msgstr "میزبان‌های پادپخش"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "When provided in the podcast settings, a host will receive authentication "
 "data you provided."
 msgstr ""
+"وقتی در تنظیمات پادپخش داده شده، میزبان داده‌های احراز هویتی که شما فراهم کرده‌"
+"اید را دریافت می‌کند."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 #, fuzzy
@@ -482,10 +483,12 @@ msgid ""
 "Servers can detect that you are using AntennaPod and which version (via the "
 "HTTP User-Agent)."
 msgstr ""
+"کارگزارها می‌توانند تشخیص دهند که شما از آنتناپاد و کدام نگارش آن استفاده می‌"
+"کنید (از طریق HTTP User-Agent)."
 
 #: _i18n/en/general/privacy.md:block 12 (header)
 msgid "Discovery and search services"
-msgstr ""
+msgstr "خدمات کاوش و جستجو"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -496,6 +499,11 @@ msgid ""
 "In the F-Droid release you have actively consent before getting Apple's "
 "recommendations."
 msgstr ""
+"هنگام باز کردن صفحه کاوش در کاره، درخواستی به اپل برای گردآوری پیشنهادهای "
+"پادپخش فرستاده می‌شود. آن‌ها ممکن است درخواست را "
+"(مانند نشانی آی‌پی و منطقه انتخاب‌شده، که به‌صورت پیش‌فرض کشور دستگاه است) ذخیره "
+"کنند. این پیشنهادها از طریق منوی بالای صفحه کاوش خاموش می‌شوند. در نگارش اف-"
+"دروید باید پیش از دریافت پیشنهادهای اپل، صراحتاً موافقت کنید."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -505,6 +513,13 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"هنگام استفاده از ویژگی جستجو در آنتناپاد، خدمات PodcastIndex.org ("
+"[سیاست حریم خصوصی]"
+"(https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md))، "
+"Apple Podcasts "
+"([سیاست حریم خصوصی](https://www.apple.com/legal/privacy/en-ww/)) و fyyd "
+"([سیاست حریم خصوصی](https://fyyd.de/privacy)) ممکن است پرس‌وجوی شما، شامل واژه‌"
+"های جستجو، را ذخیره کنند."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -512,10 +527,13 @@ msgid ""
 "\"AntennaPod\". After subscribing, the feed is served from the podcast "
 "hoster, meaning the discovery/search service is no longer involved."
 msgstr ""
+"پرس‌وجوهای کاوش و جستجو همچنین شامل نشانی آی‌پی، زمان، و نام کاره «آنتناپاد» "
+"هستند. پس از اشتراک، خوراک از میزبان پادپخش ارائه می‌شود، یعنی خدمت کاوش/"
+"جستجو دیگر درگیر نیست."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and back-up services"
-msgstr ""
+msgstr "خدمات همگام‌سازی و پشتیبان‌گیری"
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
 msgid ""
@@ -559,52 +577,55 @@ msgid ""
 "is sent to Google. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
+"اگر [هم‌رسانی استفاده و تشخیص]"
+"(https://support.google.com/accounts/answer/6078260) با گوگل را روشن کرده "
+"باشید و از قابلیت گزارش‌دهی اندروید هنگام خرابی یا پاسخ‌ندادن آنتناپاد استفاده "
+"کنید، داده‌های مرتبط به گوگل فرستاده می‌شود. برای اطلاعات بیشتر، "
+"[سیاست حریم خصوصی گوگل](https://policies.google.com) را ببینید."
 
 #: _i18n/en/general/privacy.md:block 18 (header)
 msgid "Online services"
-msgstr ""
+msgstr "خدمات برخط"
 
 #: _i18n/en/general/privacy.md:block 19 (header)
 msgid "Data from services hosted by the team"
-msgstr ""
+msgstr "داده‌ها از خدمات میزبانی‌شده توسط گروه"
 
 #: _i18n/en/general/privacy.md:block 20 (unordered list)
-#, fuzzy
 msgid ""
 "**The forum**: AntennaPod's forum uses the Discourse software, hosted by the "
 "core team. Please see the [forum's privacy policy](https://forum.antennapod."
 "org/privacy) for more details."
 msgstr ""
-"انجمن: انجمن آنتناپاد از نرم‌افزار دیس‌کورس استفاده می‌کند، که به‌دست گروه مرکزی "
-"میزبانی می‌شود. لطفاً [سیاست حریم خصوصی انجمن](https://forum.antennapod.org/"
-"privacy) را برای داده‌های مربوطه ببینید."
+"**انجمن**: انجمن آنتناپاد از نرم‌افزار دیس‌کورس استفاده می‌کند، که به‌دست گروه "
+"مرکزی میزبانی می‌شود. لطفاً [سیاست حریم خصوصی انجمن]"
+"(https://forum.antennapod.org/privacy) را برای داده‌های مربوط ببینید."
 
 #: _i18n/en/general/privacy.md:block 21 (header)
 msgid "Data from services hosted by other parties"
-msgstr ""
+msgstr "داده‌ها از خدمات میزبانی‌شده توسط دیگران"
 
 #: _i18n/en/general/privacy.md:block 22 (header)
 msgid "The donation system"
-msgstr ""
+msgstr "سامانه کمک مالی"
 
 #: _i18n/en/general/privacy.md:block 23 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod uses Open Collective, operated by Open Collective Inc. (USA) and "
 "Open Collective Europe ASBL (Belgium). When you make a donation, data flows "
 "to:"
 msgstr ""
-"سامانه کمک مالی: آنتناپاد از Open Collective، ارائه‌شده به‌دست Open Collective "
-"Inc (آمریکا) و Open Collective Europe ASBL (بلژیک)، استفاده می‌کند. وقتی کمک "
-"مالی می‌کنید، این نهادها به برخی داده‌ها دسترسی می‌یابند. برای اطلاعات بیشتر، "
-"[سیاست حریم خصوصی Open Collective](https://opencollective.com/privacypolicy) "
-"را ببینید."
+"آنتناپاد از Open Collective، ارائه‌شده به‌دست Open Collective Inc (آمریکا) و "
+"Open Collective Europe ASBL (بلژیک)، استفاده می‌کند. وقتی کمک مالی می‌کنید، "
+"داده‌های شما به میرود به:"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
 "these entities - for more information, see [Open Collective Inc.'s privacy "
 "policy](https://opencollective.com/privacypolicy)"
 msgstr ""
+"این نهادها - برای اطلاعات بیشتر، [سیاست حریم خصوصی Open Collective Inc.]"
+"(https://opencollective.com/privacypolicy) را ببینید"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 #, fuzzy
@@ -636,7 +657,7 @@ msgstr "پایگاه وب"
 
 #: _i18n/en/general/privacy.md:block 26 (paragraph)
 msgid "AntennaPod's website is hosted via GitHub Pages."
-msgstr ""
+msgstr "وبگاه آنتناپاد از طریق GitHub Pages میزبانی می‌شود."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -645,6 +666,10 @@ msgid ""
 "privacy-policies/github-general-privacy-statement) for the data they collect "
 "and process."
 msgstr ""
+"هنگام بازدید از وبگاه ما، با GitHub, Inc. یا GitHub B.V. در تعامل هستید - "
+"برای داده‌هایی که گردآوری و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://"
+"docs.github.com/en/site-policy/privacy-policies/github-general-privacy-"
+"statement) را ببینید."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -665,6 +690,9 @@ msgid ""
 "store the following in any online service used by the team (e.g. GitHub or "
 "the forum):"
 msgstr ""
+"هنگامی که فعالانه در فروشگاه گوگل‌پلی بازبینی می‌گذارید، گروه آنتناپاد به داده‌"
+"های نمایه عمومی شما دسترسی می‌یابد و ممکن است موارد زیر را در هر خدمت برخط "
+"استفاده‌شده توسط گروه (مانند گیت‌هاب یا انجمن) استخراج و ذخیره کند:"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
@@ -680,7 +708,7 @@ msgstr "وب‌لیت"
 
 #: _i18n/en/general/privacy.md:block 32 (paragraph)
 msgid "When you contribute to AntennaPod's translations:"
-msgstr ""
+msgstr "هنگامی که به ترجمه‌های آنتناپاد کمک می‌کنید:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -688,16 +716,21 @@ msgid ""
 "[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
 "collect and process."
 msgstr ""
+"با خدمت میزبانی‌شده Weblate s.r.o. در تعامل هستید - برای داده‌هایی که گردآوری "
+"و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://weblate.org/en-gb/privacy/) "
+"را ببینید."
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid "the AntennaPod team gets access to:"
-msgstr "چیزهایی که گروه آنتناپاد به آن‌ها دسترسی دارد:"
+msgstr "گروه آنتناپاد به موارد زیر دسترسی دارد:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
 "The 'Username', 'Full name' and 'Account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
+"«نام کاربری»، «نام کامل» و «رایانامه حساب» که در [نمایه شما]"
+"(https://hosted.weblate.org/accounts/profile/#account) تنظیم شده‌اند"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -707,10 +740,15 @@ msgid ""
 "html#credits) you contribute to and the date and timestamps of your "
 "contributions."
 msgstr ""
+"زمان پیوستن به پروژه و [آمار دقیق]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#stats) درباره "
+"مشارکت‌هایتان، همچنین [زبان‌هایی]"
+"(https://docs.weblate.org/en/latest/devel/reporting.html#credits) که به آن‌ها "
+"کمک می‌کنید و تاریخ و برچسب‌های زمانی مشارکت‌هایتان."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
-msgstr ""
+msgstr "گیت"
 
 #: _i18n/en/general/privacy.md:block 35 (paragraph)
 msgid ""
@@ -719,6 +757,10 @@ msgid ""
 "github.com/en/site-policy/privacy-policies/github-general-privacy-statement) "
 "for the data they collect and process."
 msgstr ""
+"هنگامی که از طریق گیت به کدهای آنتناپاد کمک می‌کنید، با GitHub, Inc. یا "
+"GitHub B.V. در تعامل هستید - برای داده‌هایی که گردآوری و پردازش می‌کنند، "
+"[سیاست حریم خصوصی آن‌ها](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement) را ببینید."
 
 #: _i18n/en/general/privacy.md:block 36 (header)
 msgid "Updates to this Privacy Policy"
