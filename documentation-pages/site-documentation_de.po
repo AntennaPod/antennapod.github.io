@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2025-10-05 12:02+0000\n"
-"Last-Translator: \"adjust.ice\" <adjust.ice@users.noreply.hosted.weblate."
-"org>\n"
+"PO-Revision-Date: 2025-10-22 18:58+0000\n"
+"Last-Translator: VfBFan <drop0815@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/de/>\n"
 "Language: de\n"
@@ -33,7 +32,7 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Auto Delete"
-msgstr "Automatisch löschen"
+msgstr "Nach Wiedergabe löschen"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
@@ -499,7 +498,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -508,12 +506,13 @@ msgid ""
 "automate the recovery process. This is a challenge and requires learning how "
 "to deal with a terminal."
 msgstr ""
-"Wenn AntennaPod eine defekte Datenbank erkennt, wird diese in eine Datei "
-"namens CorruptedDatabaseBackup.db im Speicherverzeichnis der Anwendung "
-"geschrieben. Du kannst versuchen, diese Datei zu reparieren (oder eine "
-"exportierte Sicherung zu reparieren), indem du einen der folgenden Schritte "
-"ausführst. Dies ist eine Herausforderung und erfordert, dass du den Umgang "
-"mit einem Terminal lernst."
+"Wenn AntennaPod eine beschädigte Datenbank erkennt, schreibt es diese in "
+"eine Datei namens CorruptedDatabaseBackup.db im Speicherverzeichnis der App. "
+"Du kannst versuchen, diese Datei (oder eine exportierte Sicherungskopie) mit "
+"einem [Python-Skript](https://github.com/ByteHamster/AntennaPodDbFixer) zu "
+"reparieren, das entwickelt wurde, um den Wiederherstellungsprozess zu "
+"automatisieren. Dies ist eine Herausforderung und erfordert Kenntnisse im "
+"Umgang mit einem Terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -906,12 +905,17 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"AntennaPod fordert keine allgemeinen Berechtigungen an. Du kannst jedoch die "
+"folgenden Berechtigungen erteilen:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**Benachrichtigungen anzeigen**: Über `Einstellungen` » `Benachrichtigungen` "
+"kannst du AntennaPod die Berechtigung zum Erstellen von Benachrichtigungen "
+"erteilen."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -919,28 +923,39 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Speicherzugriff**: Wenn du einen „lokalen Ordner” hinzufügst, fragt die "
+"App nach einem dauerhaften Zugriff auf einen bestimmten Ordner. Wenn du eine "
+"Datenbank oder eine OPML-Datei importierst, erhält die App durch Auswahl "
+"dieser Datei einmaligen Zugriff darauf."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"Darüber hinaus benötigt die App die folgenden Berechtigungen, die von "
+"Android automatisch erteilt werden:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**Voller Netzwerkzugriff**: zum Aktualisieren von Podcasts, Herunterladen "
+"und Streamen von Episoden, Laden von Bildern und Aktivieren der "
+"Synchronisierung"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr ""
+msgstr "**Netzwerkverbindungen anzeigen** und **WLAN-Verbindungen anzeigen**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"um zu überprüfen, ob eine aktive Internetverbindung besteht, bevor und "
+"während du eine der oben genannten Maßnahmen ergreifst"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -948,6 +963,9 @@ msgid ""
 "above actions are allowed by the user on the current (mobile and/or metered) "
 "connection"
 msgstr ""
+"für die Einstellung `Downloads` » `Mobile Aktualisierungen`, um festzulegen, "
+"ob die oben genannten Aktionen vom Benutzer bei der aktuellen "
+"(mobilen und/oder getakteten) Verbindung zugelassen sind"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -955,24 +973,35 @@ msgid ""
 "Bluetooth disconnect`, to automatically pause or play when the phone "
 "connects with or disconnects from a Bluetooth device"
 msgstr ""
+"**Mit Bluetooth-Geräten verbinden**: Für die Einstellung `Wiedergabe` » `"
+"Kopfhörer oder Bluetooth getrennt`, um die Wiedergabe automatisch anzuhalten "
+"oder fortzusetzen, wenn das Telefon eine Verbindung zu einem Bluetooth-Gerät "
+"herstellt oder trennt"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Run at startup**: to (re)start services like refreshing podcasts and "
 "enabling auto-downloads"
 msgstr ""
+"**Beim Start ausführen**: Dienste wie das Aktualisieren von Podcasts und das "
+"Aktivieren von automatischen Downloads (neu) starten"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Control vibration**: for the option `Vibrate shortly before end` of the "
 "sleep timer, to vibrate if this setting is enabled"
 msgstr ""
+"**Vibration steuern**: für die Option `Kurz vor dem Ende vibrieren` der "
+"Schlummerfunktion, um zu vibrieren, wenn diese Einstellung aktiviert ist"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Prevent device from sleeping**: needed to ensure media playback and "
 "downloads continue in the background"
 msgstr ""
+"**Gerät nicht in den Ruhezustand versetzen**: erforderlich, um "
+"sicherzustellen, dass die Medienwiedergabe und Downloads im Hintergrund "
+"fortgesetzt werden"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
@@ -1870,7 +1899,7 @@ msgid ""
 "leading to errors in AntennaPod."
 msgstr ""
 "[gpodder.net](https://gpodder.net/) bietet einen kostenlosen gPodder-"
-"Synchronisations-Server an, für den sich **jeder anmelden kann**. Leider ist "
+"Synchronisierungsserver an, für den sich **jeder anmelden kann**. Leider ist "
 "dieser Server aufgrund der Beliebtheit des Dienstes und seiner begrenzten "
 "Finanzierung oft überlastet, was zu Fehlern in AntennaPod führt."
 
@@ -1886,14 +1915,15 @@ msgid ""
 "gpodder-server)."
 msgstr ""
 "Technisch versierteren Benutzern wird dringend empfohlen, **selbst einen "
-"Synchronisations-Server zu betreiben**. Ein selbst betriebener Server ist "
+"Synchronisierungsserver zu betreiben**. Ein selbst betriebener Server ist "
 "zuverlässiger und trägt dazu bei, die Belastung der kostenlosen öffentlichen "
-"Dienste zu verringern. Es gibt mehrere Optionen: [Nextcloud](https://"
-"nextcloud.com/install/#instructions-server) mit der [gPodder-Sync-App]"
-"(https://apps.nextcloud.com/apps/gpoddersync), ein vollständiger [gPodder]"
+"Dienste zu verringern. Es gibt mehrere Optionen: [Nextcloud]"
+"(https://nextcloud.com/install/#instructions-server) mit der "
+"[gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync), ein "
+"vollständiger [gPodder]"
 "(https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)-Server "
-"oder der [Micro-GPodder-Server](https://github.com/bohwaz/micro-gpodder-"
-"server)."
+"oder der [Micro-GPodder-Server]"
+"(https://github.com/bohwaz/micro-gpodder-server)."
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -2779,16 +2809,16 @@ msgid "Smart shuffle"
 msgstr "Schlaues Mischen"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"Schlaues Mischen ist ein fortschrittliches Sortierkriterium für die "
+"Schlaues Mischen ist ein intelligentes Sortierkriterium für die "
 "Warteschlange, mit dem die Warteschlange nach Veröffentlichungsdatum "
 "sortiert und gleichzeitig so weit wie möglich vermieden wird, dass sich "
-"mehrere Episoden eines einzigen Abonnements in der Warteschlange befinden."
+"mehrere Episoden eines einzigen Abonnements hintereinander in der "
+"Warteschlange befinden."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
