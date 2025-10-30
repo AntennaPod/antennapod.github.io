@@ -322,7 +322,7 @@
 
 <ol>
   <li>Hast du kürzlich eine <a href="/de/documentation/general/backup">Sicherung</a> von AntennaPod exportiert? Dann ist das Wiederherstellen relativ einfach: Gehe zu <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Speicher</code> » <code class="language-plaintext highlighter-rouge">Import/Export</code> » <code class="language-plaintext highlighter-rouge">Datenbankimport</code> und wähle die Sicherung aus. Beachte, dass die Sicherungskopie teilweise beschädigt sein kann. Es wird daher empfohlen, den zweiten Schritt auszuführen, um das Problem ein für alle Mal zu beheben.</li>
-  <li>Wenn AntennaPod eine defekte Datenbank erkennt, wird diese in eine Datei namens CorruptedDatabaseBackup.db im Speicherverzeichnis der Anwendung geschrieben. Du kannst versuchen, diese Datei zu reparieren (oder eine exportierte Sicherung zu reparieren), indem du einen der folgenden Schritte ausführst. Dies ist eine Herausforderung und erfordert, dass du den Umgang mit einem Terminal lernst.</li>
+  <li>Wenn AntennaPod eine beschädigte Datenbank erkennt, schreibt es diese in eine Datei namens CorruptedDatabaseBackup.db im Speicherverzeichnis der App. Du kannst versuchen, diese Datei (oder eine exportierte Sicherungskopie) mit einem <a href="https://github.com/ByteHamster/AntennaPodDbFixer">Python-Skript</a> zu reparieren, das entwickelt wurde, um den Wiederherstellungsprozess zu automatisieren. Dies ist eine Herausforderung und erfordert Kenntnisse im Umgang mit einem Terminal.</li>
   <li>Während alle Daten <em>über</em> deine Abonnements und Episoden abhandenkamen, sind die Mediendateien noch vorhanden.</li>
 </ol>
 
@@ -436,7 +436,7 @@
           <span class="mx-1">|</span>
           <a class="underline-hover" href="/de/license">Lizenz</a>
           <span class="mx-1">|</span>
-          <a class="underline-hover" href="/de/privacy">Datenschutzbestimmungen</a>
+          <a class="underline-hover" href="/de/privacy">Datenschutzerklärung</a>
         </div>
       </div>
     </div>
