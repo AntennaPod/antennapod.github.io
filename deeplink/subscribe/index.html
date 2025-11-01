@@ -14,8 +14,7 @@ excerpt: generic.subscribe-subtitle
           <p>
             <div class="card">
               <div class="card-body">
-                <i class="fa fa-rss mr-1" style="margin-right: 1em"></i><span id="urlTextBox">Error: JavaScript not available</span>
-                  <div style="display: flex; align-items: center"><button id="copy-btn" onclick="copyToClipboard()" style="margin-left: auto; background: none; border: none; cursor: pointer; padding: 5px 10px" title="Copy to clipboard"><i class="fa fa-copy" style="font-size: 1.2em; color: #666"></i></button></div>
+                <i class="fa fa-rss mr-1" style="margin-right: 1em"></i><div style="display: flex; align-items: center"><span id="urlTextBox">Error: JavaScript not available</span><button id="copy-btn" onclick="copyToClipboard()" style="margin-left: auto; background: none; border: none; cursor: pointer; padding: 5px 10px" title="Copy to clipboard"><i class="fa fa-copy" style="font-size: 1.2em; color: #666"></i></button></div>
               </div>
             </div>
           </p>
@@ -44,4 +43,18 @@ excerpt: generic.subscribe-subtitle
       window.open("antennapod-subscribe://" + url.replace(/^https?:\/\//g, ''));
     };
   }
+  function copyToClipboard() {
+  const urlText = document.getElementById('url-display').textContent;
+  navigator.clipboard.writeText(urlText).then(() => {
+    const icon = document.querySelector('#copy-btn i');
+    icon.className = 'fa fa-check';
+    icon.style.color = '#28a745';
+    setTimeout(() => { 
+      icon.className = 'fa fa-copy'; 
+      icon.style.color = '#666';
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy:', err);
+  });
+}
 </script>
