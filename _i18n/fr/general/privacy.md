@@ -6,9 +6,9 @@ AntennaPod est développé et maintenu par des bénévoles individuels et n'est 
 
 L'application ne stocke que les données strictement nécessaires à son fonctionnement. Cela inclut la liste des podcasts que vous suivez, vos préférences dans l'application, vos données d'authentification renseignées pour accéder à certains podcasts spécifiques ou services (tels qu'un serveur de synchronisation). L'application n'inclut aucune bibliothèque publicitaire, ni aucun code tiers de suivi ou de ciblage de type Google Analytics.
 
-**Toutes les données fournies et créées à l'aide de l'application AntennaPod sont stockées localement sur votre appareil. AntennaPod ne transmet pas vos données, sauf lorsque cela est strictement nécessaire au fonctionnement de l'application. ou lorsque vous choisissez de partager des informations de débogage avec nous** La section suivante explique les cas où des éléments sont envoyés à des tiers. Si vous êtes intéressés, vous pouvez aussi lire les [autorisations de l'application](documentation/general/app-permissions) d'AntennaPod dans la documentation.
+**Toutes les données fournies et créées à l'aide de l'application AntennaPod sont stockées localement sur votre appareil. AntennaPod ne transmet pas vos données, sauf lorsque cela est strictement nécessaire au fonctionnement de l'application ou quand vous décidez de partager des informations de débogage avec nous** La section qui suit explique quand vos données peuvent être envoyées à des tiers. Si vous êtes intéressés, vous pouvez aussi lire dans la documentation les [autorisations d'application](/documentation/general/app-permissions) qu'AntennaPod peut demander.
 
-Lorsque vous partagez activement des informations de débogage (soit par mail à l'aide de la fonction "Signaler un bug", soit par le biais de la fonctionnalité de rapport de panne d'Android), les données suivantes sont traitées :
+Lorsque vous partagez activement des informations de débogage (soit par mail à l'aide de la fonction `Signaler un bug`, soit par le biais de la fonctionnalité de rapport de panne d'Android), les données suivantes sont traitées :
 
 - type de périphérique
 - Version d'Android
@@ -51,14 +51,14 @@ If you enabled [sharing of usage and diagnostics](https://support.google.com/acc
 
 Le système de donation : AntennaPod utilise Open Collective, proposé par Open Collective Inc (USA) & Open Collective Europe ASBL (Belgique). Lorsque vous faites un don, ces entités ont accès à certaines données. Pour plus d'informations, voir la [politique de confidentialité d'Open Collective](https://opencollective.com/privacypolicy).
 
-- these entities - for more information, see [Open Collective Inc.'s privacy policy](https://opencollective.com/privacypolicy)
-- faire une contribution financière via Open Collective (sauf si vous voulez faire une contribution [anonyme](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) ou [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) contribution) :
+- ces entités - pour plus d'informations, voir [la politique de vie privée d'Open Collective Inc.'s](https://opencollective.com/privacypolicy)
+- sauf si vous voulez faire une contribution [anonyme](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) ou [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) contribution, l'équipe d'AntennaPod a accès à (mais n'exporte pas) vos :
    - information sur le profil public (nom, entreprise, description, image, Twitter, GitHub, site web)
    - adresse e-mail
 
 #### Le contenu du site
 
-AntennaPod's website is hosted via GitHub Pages.
+Le site web d'AntennaPod est hébergé sur les GitHub Pages.
 
 - When you visit our website, you are interacting with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for the data they collect and process.
 - The website does not set any cookies and does not use third-party tracking, analytics or other services. The 'Translate' page in the 'Contribute' section contains an embedded graph which is retrieved from the servers of Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/)).
@@ -78,7 +78,7 @@ When you actively leave a review in the Google Play store, the AntennaPod team g
 Quand vous contribuz aux traductions d'AntennaPod :
 
 - you are interacting with the hosted service of Weblate s.r.o. - see their [privacy policy](https://weblate.org/en-gb/privacy/) for the data they collect and process.
-- Les données auxquelles l'équipe de développement d'AntennaPod peut avoir accès
+- l'équipe d'AntennaPod peut avoir accès à :
    - the 'username', 'full name' and 'account e-mail' as set in [your profile](https://hosted.weblate.org/accounts/profile/#account)
    - the date when you joined the project and detailed [statistics](https://docs.weblate.org/en/latest/devel/reporting.html#stats) about your contributions, as well as the [languages](https://docs.weblate.org/en/latest/devel/reporting.html#credits) you contribute to and the date and timestamps of your contributions.
 
