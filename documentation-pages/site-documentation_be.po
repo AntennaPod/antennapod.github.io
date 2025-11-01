@@ -27,27 +27,28 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
-msgid "Auto Delete"
+msgid "Delete after playing"
 msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
-"Auto Delete is located in `Settings` » `Storage`. When enabled, episodes are "
-"deleted when playback completes (but not when manually marking an episode as "
-"'played')."
+"Delete after playing is located in `Settings` » `Downloads` » `Automatic "
+"deletion`. When enabled, episodes are deleted when playback completes (but "
+"not when manually marking an episode as 'played')."
 msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
-msgid "Episode Cleanup"
+msgid "Delete before auto download"
 msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
 msgid ""
-"Episode Cleanup is located in `Settings` » `Network` » `Automatic Download`. "
-"If Automatic Download needs space for new episodes, it will delete old "
-"episodes that are not in the queue and not marked as favorite. You can add a "
-"delay (x time after playback) or Episode. The setting `Episode Cache` "
-"determines the maximum amount of downloaded episodes."
+"Delete before auto download is located in `Settings` » `Downloads` » "
+"`Automatic deletion`. If Automatic download needs space for new episodes, it "
+"will delete old episodes that are not in the queue and not marked as "
+"favorite. You can set which episodes are eligible for deletion based on "
+"their status (e.g. not favorited or not in queue) or a period of time after "
+"finishing."
 msgstr ""
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
@@ -117,8 +118,8 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid ""
-"Class name: `de.danoeh.antennapod.net.download.service.feed."
-"FeedUpdateReceiver`"
+"Class name: "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
@@ -151,8 +152,8 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
-"Receiver class to be `de.danoeh.antennapod.net.download.service.feed."
-"FeedUpdateReceiver`"
+"Receiver class to be "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 14 (header)
@@ -177,8 +178,8 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid ""
-"Specify Class name to be `de.danoeh.antennapod.net.download.service.feed."
-"FeedUpdateReceiver`"
+"Specify Class name to be "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 msgstr ""
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
@@ -215,8 +216,7 @@ msgstr ""
 msgid ""
 "As a shortcut, you can click [this link](http://llama.location.profiles/"
 "AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-"
-"%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh."
-"antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) "
+"%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) "
 "to create an example event to get started."
 msgstr ""
 
@@ -242,9 +242,9 @@ msgstr ""
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
-"us about the issue. You can create a post on [on our forum](https://forum."
-"antennapod.org/c/bug-report/9). To do so you need to create an account (if "
-"you don't have one already) or simply log in via Google."
+"us about the issue. You can create a post on [on our forum](https://"
+"forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
+"(if you don't have one already) or simply log in via Google."
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
@@ -489,11 +489,11 @@ msgstr ""
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
 #: (paragraph)
 msgid ""
-"Does the error message in the Download log say \"Failed to connect to "
-"[url]\"? Then this probably means that there is interference on your "
-"network. If you have an ad-blocker, VPN, captive portal, proxy, privacy "
-"guard, special DNS service, or parental control set up on your phone, you "
-"can try turning these off."
+"Does the error message in the Download log say \"Failed to connect to [url]"
+"\"? Then this probably means that there is interference on your network. If "
+"you have an ad-blocker, VPN, captive portal, proxy, privacy guard, special "
+"DNS service, or parental control set up on your phone, you can try turning "
+"these off."
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
@@ -509,9 +509,8 @@ msgstr ""
 #: (paragraph)
 msgid ""
 "If you can't pinpoint the issue, please copy the error message via the Copy-"
-"button and share it [on our forum](https://forum.antennapod.org/c/"
-"support/7). Our community will happily have a look to find out the exact "
-"cause!"
+"button and share it [on our forum](https://forum.antennapod.org/c/support/"
+"7). Our community will happily have a look to find out the exact cause!"
 msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 1
@@ -561,9 +560,10 @@ msgstr ""
 msgid ""
 "The official versions of AntennaPod do not insert any ads. The app is "
 "developed by volunteers without commercial interest and the project relies "
-"on donations to cover costs. As AntennaPod's [source code](https://github."
-"com/AntennaPod/AntennaPod) and [income and expenses](https://opencollective."
-"com/antennapod#category-BUDGET) are public everyone is free to verify this."
+"on donations to cover costs. As AntennaPod's [source code](https://"
+"github.com/AntennaPod/AntennaPod) and [income and expenses](https://"
+"opencollective.com/antennapod#category-BUDGET) are public everyone is free "
+"to verify this."
 msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 2 (paragraph)
@@ -802,8 +802,8 @@ msgid ""
 "So you want to have the latest and greatest? That's certainly possible! "
 "Simply visit the AntennaPod listing in the Play store and go to \"Become a "
 "beta tester\" at the bottom of the page. Or, if you're at your computer, you "
-"can go to [this url](https://play.google.com/apps/testing/de.danoeh."
-"antennapod)."
+"can go to [this url](https://play.google.com/apps/testing/"
+"de.danoeh.antennapod)."
 msgstr ""
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
@@ -1079,8 +1079,8 @@ msgstr ""
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
 "Did those 7 days pass since we tagged the release on GitHub? Feel free to "
-"let us know by creating a post on our [forum](https://forum.antennapod."
-"org/). We'll take a look."
+"let us know by creating a post on our [forum](https://"
+"forum.antennapod.org/). We'll take a look."
 msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
@@ -1115,11 +1115,11 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
-"Check if AntennaPod was built in the [running cycle](https://monitor.f-droid."
-"org/builds/running) or the [last cycle](https://monitor.f-droid.org/builds/"
-"build). You can also use the app [F-Droid build status](https://f-droid.org/"
-"en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon "
-"be cryptographically signed by an F-Droid contributor."
+"Check if AntennaPod was built in the [running cycle](https://monitor.f-"
+"droid.org/builds/running) or the [last cycle](https://monitor.f-droid.org/"
+"builds/build). You can also use the app [F-Droid build status](https://f-"
+"droid.org/en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it "
+"should soon be cryptographically signed by an F-Droid contributor."
 msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
@@ -1621,8 +1621,8 @@ msgstr ""
 msgid ""
 "Mixcloud unfortunately doesn't offer this option for content creators. As "
 "always, there's someone in the podcasting community to come up with a "
-"solution. You should [check out the options](https://www.openparenthesis."
-"org/2015/01/05/mixcloud-to-rss-with-enclosures) as laid out in this post."
+"solution. You should [check out the options](https://www.openparenthesis.org/"
+"2015/01/05/mixcloud-to-rss-with-enclosures) as laid out in this post."
 msgstr ""
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 11 (header)
@@ -1650,10 +1650,10 @@ msgstr ""
 #: _i18n/en/documentation/getting-started/subscribe.md:block 14 (paragraph)
 msgid ""
 "But it is a way to get notified about new episodes. Just add the URL of the "
-"user/channel (`https://www.youtube.com/user/USERNAME` or `https://www."
-"youtube.com/channel/CHANNEL_ID`) in AntennaPod. You should be presented with "
-"an dialog with the option 'RSS'; tap to add the feed. If that doesn't work "
-"as described, add `https://www.youtube.com/feeds/videos.xml?"
+"user/channel (`https://www.youtube.com/user/USERNAME` or `https://"
+"www.youtube.com/channel/CHANNEL_ID`) in AntennaPod. You should be presented "
+"with an dialog with the option 'RSS'; tap to add the feed. If that doesn't "
+"work as described, add `https://www.youtube.com/feeds/videos.xml?"
 "channel_id=<CHANNEL_ID>` to AntennaPod. You can find the channel id in the "
 "URL of the channel. If the channel you want to subscribe to is a user "
 "account (with a URL like youtube.com/user/UserName), you can contact the "
@@ -1948,8 +1948,8 @@ msgstr ""
 #: list)
 msgid ""
 "[Podcast Index](https://podcastindex.org/) (ask your hoster how to add your "
-"podcast, or add your own podcast via the [API](https://podcastindex-org."
-"github.io/docs-api/#get-/add/byfeedurl))"
+"podcast, or add your own podcast via the [API](https://podcastindex-"
+"org.github.io/docs-api/#get-/add/byfeedurl))"
 msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
@@ -1977,15 +1977,15 @@ msgstr ""
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
 msgid ""
-"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
+"[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/"
+"301)"
 msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
 msgid ""
-"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
+"[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/"
+"308)"
 msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
