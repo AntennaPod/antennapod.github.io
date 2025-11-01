@@ -38,7 +38,7 @@ excerpt: generic.subscribe-subtitle
     if (urlParams.has("title")) {
       podcastTitle.textContent = urlParams.get("title");
     }
-    const url = urlParams.get("url").trim();
+    const url = urlParams.get("url");
     urlTextBox.textContent = url;
     subscribeButton.onclick = () => {
       window.open("antennapod-subscribe://" + url.replace(/^https?:\/\//g, ''));
