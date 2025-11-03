@@ -1,11 +1,11 @@
-AntennaPod has many users and we don't want them to run into trouble when we add a new feature. It's important that we have a significant group test our app, so that we know all possible combinations of phones, Android versions and use cases work as expected.
+AntennaPod has many users, and we don't want them to run into trouble because we've tweaked or added a new feature. It's important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can prevent before official releases.
 
-Minor issues often crop up after major updates, and they're only discovered via bug reports by users in these early stages. There is only one main developer who is working on this in his spare time. He only has a couple of devices to test things on, whilst behaviour can vary from device to device.
+Minor issues often crop up after major updates, and they're usually discovered through bug reports from users in these early stages. There's only one main developer working on this in his spare time. While behaviour can vary from one device to another, he only has so many devices to test on.
 
 ## Google Play
-Every new version of AntennaPod is sent to our Beta Testers via the Google Play store, before it is shipped to the general public. It allows us to test updates on many different devices and Android versions, so we can catch bugs and user experience issues on time. If you have a critical eye and can explain what's going wrong, your help is very welcome! In addition, if you see something you don't like you're more likely to get it changed to match what you do want.
+Every new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what’s not working quite right, we’d love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect.
 
-So you want to have the latest and greatest? That's certainly possible! Simply visit the AntennaPod listing in the Play store and go to "Become a beta tester" at the bottom of the page. Or, if you're at your computer, you can go to [this url](https://play.google.com/apps/testing/de.danoeh.antennapod).
+So, you want to have the latest and greatest, and help us polish the app to make it truly shine? Simply visit the AntennaPod listing in the Play Store app, and you'll find the **Join the beta** card under the *App support* section. Or, if you're on your computer, you can join the beta testing [here](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 <!-- mdpo-disable -->
 {% include image.html
