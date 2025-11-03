@@ -1,11 +1,11 @@
 AntennaPod has many users, and we don't want them to run into trouble because we've tweaked or added a new feature. It's important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can prevent before official releases.
 
-Minor issues often crop up after major updates, and they're usually discovered through bug reports from users in these early stages. There's only one main developer working on this in his spare time. While behaviour can vary from one device to another, he only has so many devices to test on.
+Minor issues often crop up after major updates, and they're usually discovered through bug reports from users in these early stages. There's only one main developer working on this in his spare time. While behaviour can greatly vary from one device to another, he only has so many devices to test on.
 
 ## Google Play
 Every new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what’s not working quite right, we’d love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect.
 
-So, you want to have the latest and greatest, and help us polish the app to make it truly shine? Simply visit the AntennaPod listing in the Play Store app, and you'll find the **Join the beta** card under the *App support* section. Or, if you're on your computer, you can join the beta testing [here](https://play.google.com/apps/testing/de.danoeh.antennapod).
+So, you want to have the latest and greatest, and help us polish the app to make it truly shine? Simply visit the AntennaPod listing in the Play Store app, and you'll find the **Join the beta** card under the *App support* section. Or, if you're on your computer, you can join our beta program [here](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 <!-- mdpo-disable -->
 {% include image.html
