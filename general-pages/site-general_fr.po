@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
-"PO-Revision-Date: 2025-11-01 12:15+0000\n"
-"Last-Translator: Matth78 <3684177+Matth7878@users.noreply.github.com>\n"
+"PO-Revision-Date: 2025-11-04 20:51+0000\n"
+"Last-Translator: Sylvain Pichon <service@spichon.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website/general/fr/>\n"
 "Language: fr\n"
@@ -483,7 +483,6 @@ msgstr ""
 "données d'authentification que vous avez fournies."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -496,19 +495,19 @@ msgid ""
 "podcasts you have subscribed to. This can happen when publishers use "
 "services like FeedBurner, Podtrac or similar to distribute their feeds."
 msgstr ""
-"Hébergeurs de podcasts : Les serveurs web qui fournissent les flux de "
-"podcasts peuvent collecter des données supplémentaires, telles que votre "
-"adresse IP, le temps d'accès et ce à quoi vous accédez. Cela inclut les "
-"épisodes que vous téléchargez ou que vous diffusez en continu. Veuillez vous "
-"référer à leurs politiques de confidentialité respectives pour plus de "
-"détails. Vous pouvez afficher l'URL d'un podcast en ouvrant le podcast et en "
-"appuyant sur l'icône d'information. AntennaPod n'autorise pas les serveurs "
-"distants à définir des cookies. Les serveurs peuvent détecter le fait que "
-"vous utilisez AntennaPod et la version utilisée (HTTP User-Agent). Si "
-"plusieurs podcasts sont hébergés sur le même serveur, le serveur peut "
-"détecter la liste des podcasts auxquels vous vous êtes abonné et qui sont "
-"hébergés sur ce serveur. Cela peut se produire si les éditeurs utilisent "
-"feedburner, podtrac ou des services similaires pour distribuer leurs flux."
+"Les serveurs web qui fournissent les flux de podcasts peuvent collecter des "
+"données supplémentaires, telles que votre adresse IP, le temps d'accès et ce "
+"à quoi vous accédez. Cela inclut les épisodes que vous téléchargez ou que "
+"vous diffusez en continu. Veuillez vous référer à leurs politiques de "
+"confidentialité respectives pour plus de détails. Vous pouvez afficher l'URL "
+"d'un podcast en ouvrant le podcast et en appuyant sur l'icône d'information. "
+"AntennaPod n'autorise pas les serveurs distants à définir des cookies. Les "
+"serveurs peuvent détecter le fait que vous utilisez AntennaPod et la version "
+"utilisée (HTTP User-Agent). Si plusieurs podcasts sont hébergés sur le même "
+"serveur, le serveur peut détecter la liste des podcasts auxquels vous vous "
+"êtes abonné et qui sont hébergés sur ce serveur. Cela peut se produire si "
+"les éditeurs utilisent des services comme Feedburner, Podtrac ou des "
+"services similaires pour distribuer leurs flux."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
@@ -523,7 +522,6 @@ msgid "Discovery and search services"
 msgstr "Services de découverte et de recherche"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
-#, fuzzy
 msgid ""
 "When opening the Discover screen in the app, a call is sent to Apple to "
 "collect podcast suggestions. Apple may store the request (e.g. your IP "
@@ -537,7 +535,7 @@ msgstr ""
 "requête (par ex. votre adresse IP et la région sélectionnée, qui est par "
 "défaut le pays de votre appareil). Ces suggestions peuvent être désactivées "
 "dans le menu du haut de l'écran Découverte. Dans la version de F-Droid, vous "
-"devez spécifiquement donné votre consentement avant d'obtenir ces "
+"devez spécifiquement donner votre consentement avant d'obtenir ces "
 "recommandations d'Apple."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
@@ -548,6 +546,13 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"Lorsque vous utilisez la fonctionnalité de recherche d'AntennaPod, les "
+"services suivants peuvent stocker cotre recherche, y compris les termes "
+"cherchés : PostcastIndex.org ([politique de vie privée]"
+"(https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), "
+"Apple Podcasts "
+"([politique de vie privée](https://www.apple.com/legal/privacy/en-ww/)) et "
+"fyyd ([politique de vie privée](https://fyyd.de/privacy))."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -638,17 +643,14 @@ msgid "The donation system"
 msgstr "Le système de donation"
 
 #: _i18n/en/general/privacy.md:block 23 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod uses Open Collective, operated by Open Collective Inc. (USA) and "
 "Open Collective Europe ASBL (Belgium). When you make a donation, data flows "
 "to:"
 msgstr ""
-"Le système de donation : AntennaPod utilise Open Collective, proposé par "
-"Open Collective Inc (USA) & Open Collective Europe ASBL (Belgique). Lorsque "
-"vous faites un don, ces entités ont accès à certaines données. Pour plus "
-"d'informations, voir la [politique de confidentialité d'Open Collective]"
-"(https://opencollective.com/privacypolicy)."
+"AntennaPod utilise Open Collective, proposé par Open Collective Inc (USA) & "
+"Open Collective Europe ASBL (Belgique). Lorsque vous faites un don, les "
+"données circulent vers :"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
@@ -686,9 +688,8 @@ msgid "email address"
 msgstr "adresse e-mail"
 
 #: _i18n/en/general/privacy.md:block 25 (header)
-#, fuzzy
 msgid "The website"
-msgstr "Le contenu du site"
+msgstr "Le site web"
 
 #: _i18n/en/general/privacy.md:block 26 (paragraph)
 msgid "AntennaPod's website is hosted via GitHub Pages."
@@ -711,9 +712,8 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google Play"
-msgstr "Téléchargez-le sur Google Play"
+msgstr "Google Play"
 
 #: _i18n/en/general/privacy.md:block 29 (paragraph)
 msgid ""
@@ -722,6 +722,10 @@ msgid ""
 "store the following in any online service used by the team (e.g. GitHub or "
 "the forum):"
 msgstr ""
+"Quand vous choisissez de laisser un commentaire dans le Google Play Store, "
+"l'équipe d'AntennaPod obtient l'accès aux informations de votre profil "
+"public et peut exporter et enregistrer les éléments suivants dans des "
+"services en ligne utilisés par l'équipe (par ex. GitHub ou le forum) :"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
