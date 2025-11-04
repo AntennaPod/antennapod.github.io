@@ -4,7 +4,7 @@ AntennaPod udvikles og vedligeholdes af individuelle frivillige og er ikke repr�
 
 ### Data AntennaPod-appen kan indsamle, gemme og behandle
 
-AntennaPod-appen gemmer kun de data, der er strengt nødvendige for, at appen kan fungere. Dette omfatter f.eks. listen over podcasts, du følger, app-indstillingerne og autentifikationsdata, der er angivet for specifikke podcasts eller tjenester (såsom synkroniseringstjenester). Appen indeholder ikke nogen reklamebiblioteker eller nogen tredjeparts sporingskode (analysekode), såsom Google Analytics.
+AntennaPod-appen gemmer kun de data, der er strengt nødvendige for, at appen kan fungere. Dette omfatter f.eks. listen over podcasts, du følger, app-indstillingerne og autentifikationsdata, der er angivet for specifikke podcasts eller tjenester (såsom synkroniseringstjenester). Appen indeholder ikke nogen reklamebiblioteker eller nogen tredjeparts sporings- eller analysekode, såsom Google Analytics.
 
 **Alle data, der leveres og oprettes af AntennaPod-appen, gemmes lokalt på din enhed. AntennaPod sender eller uploader ikke dine data nogen steder, undtagen hvor det er strengt nødvendigt for at appen kan fungere. ** Se det andet næstfølgende afsnit om de tilfælde, hvor dine oplysninger kan videregives til tredjeparter.
 

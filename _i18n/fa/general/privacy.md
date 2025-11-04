@@ -61,7 +61,7 @@
 وبگاه آنتناپاد از طریق GitHub Pages میزبانی می‌شود.
 
 - هنگام بازدید از وبگاه ما، با GitHub, Inc. یا GitHub B.V. در تعامل هستید - برای داده‌هایی که گردآوری و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) را ببینید.
-- The website does not set any cookies and does not use third-party tracking, analytics or other services. The 'Translate' page in the 'Contribute' section contains an embedded graph which is retrieved from the servers of Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/)).
+- پاگیاه وب هیچ کلوچکی تنظیم نمی‌کند و ردیابی، تحلیل یا هر خدمت دیگر سوم‌شخصی ندارد. صفحهٔ «ترجمه» در بخش «مشارکت» نموداری تعبیه شده داشته که از کارسازهای وب‌لیت گرفته می‌شود. ([سیاست محرمانگی](https://weblate.org/en-gb/privacy/)).
 
 #### پلی گوگل
 

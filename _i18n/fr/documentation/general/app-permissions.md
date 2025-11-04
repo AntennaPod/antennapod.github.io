@@ -5,10 +5,10 @@ AntennaPod ne vous demandera pas de lui donner des autorisations générales. Ce
 
 En dehors de cela, l'application nécessite les autorisations suivantes, qui sont automatiquement données par Android :
 
-- **Full network access**: to refresh podcasts, download and stream episodes, load images and enable synchronization
-- **View network connections** and **View Wi-Fi connections**:
-   - to check if there is an active internet connection, before and while taking any of the above-mentioned actions
-   - for the setting `Downloads` » `Mobile updates`, to determine whether the above actions are allowed by the user on the current (mobile and/or metered) connection
+- **Accès réseau complet** : pour rafraîchir les podcasts, télécharger et lire en continu des épisodes, charger des images et permettre la synchronisation
+- **Voir les connexions réseau** et **Voir les connexions Wi-Fi** :
+   - pour vérifier s'il y a une connexion internet active, avant et durant la réalisation des actions listées au-dessus
+   - pour le paramètre `Téléchargements` » `Mises à jour mobile`, pour déterminer si les actions précédentes sont autorisées par l'utilisateur sur la connexion actuelle (mobile, ou facturé à l'usage)
 - **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
 - **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
 - **Control vibration**: for the option `Vibrate shortly before end` of the sleep timer, to vibrate if this setting is enabled

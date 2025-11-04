@@ -21,13 +21,13 @@ Le seul cas de traitement de données personnelles *provenant* de service tiers 
 #### Hébergeurs de podcasts
 
 - Quand renseigné dans les paramètres d'un podcast, un hôte recevra les données d'authentification que vous avez fournies.
-- Hébergeurs de podcasts : Les serveurs web qui fournissent les flux de podcasts peuvent collecter des données supplémentaires, telles que votre adresse IP, le temps d'accès et ce à quoi vous accédez. Cela inclut les épisodes que vous téléchargez ou que vous diffusez en continu. Veuillez vous référer à leurs politiques de confidentialité respectives pour plus de détails. Vous pouvez afficher l'URL d'un podcast en ouvrant le podcast et en appuyant sur l'icône d'information. AntennaPod n'autorise pas les serveurs distants à définir des cookies. Les serveurs peuvent détecter le fait que vous utilisez AntennaPod et la version utilisée (HTTP User-Agent). Si plusieurs podcasts sont hébergés sur le même serveur, le serveur peut détecter la liste des podcasts auxquels vous vous êtes abonné et qui sont hébergés sur ce serveur. Cela peut se produire si les éditeurs utilisent feedburner, podtrac ou des services similaires pour distribuer leurs flux.
+- Les serveurs web qui fournissent les flux de podcasts peuvent collecter des données supplémentaires, telles que votre adresse IP, le temps d'accès et ce à quoi vous accédez. Cela inclut les épisodes que vous téléchargez ou que vous diffusez en continu. Veuillez vous référer à leurs politiques de confidentialité respectives pour plus de détails. Vous pouvez afficher l'URL d'un podcast en ouvrant le podcast et en appuyant sur l'icône d'information. AntennaPod n'autorise pas les serveurs distants à définir des cookies. Les serveurs peuvent détecter le fait que vous utilisez AntennaPod et la version utilisée (HTTP User-Agent). Si plusieurs podcasts sont hébergés sur le même serveur, le serveur peut détecter la liste des podcasts auxquels vous vous êtes abonné et qui sont hébergés sur ce serveur. Cela peut se produire si les éditeurs utilisent des services comme Feedburner, Podtrac ou des services similaires pour distribuer leurs flux.
 - Les serveurs peuvent détecter que vous utilisez AntennaPod, et quelle version (via le user-agent HTTP).
 
 #### Services de découverte et de recherche
 
-- Quand vous ouvrez l'écran Découverte dans l'appli, cela appelle les services d'Apple pour récupérer des suggestions de podcast. Ils peuvent conserver la requête (par ex. votre adresse IP et la région sélectionnée, qui est par défaut le pays de votre appareil). Ces suggestions peuvent être désactivées dans le menu du haut de l'écran Découverte. Dans la version de F-Droid, vous devez spécifiquement donné votre consentement avant d'obtenir ces recommandations d'Apple.
-- When using the search feature in AntennaPod, the services PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) may store your query, including the search terms.
+- Quand vous ouvrez l'écran Découverte dans l'appli, cela appelle les services d'Apple pour récupérer des suggestions de podcast. Ils peuvent conserver la requête (par ex. votre adresse IP et la région sélectionnée, qui est par défaut le pays de votre appareil). Ces suggestions peuvent être désactivées dans le menu du haut de l'écran Découverte. Dans la version de F-Droid, vous devez spécifiquement donner votre consentement avant d'obtenir ces recommandations d'Apple.
+- Lorsque vous utilisez la fonctionnalité de recherche d'AntennaPod, les services suivants peuvent stocker cotre recherche, y compris les termes cherchés : PostcastIndex.org ([politique de vie privée](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([politique de vie privée](https://www.apple.com/legal/privacy/en-ww/)) et fyyd ([politique de vie privée](https://fyyd.de/privacy)).
 - Discovery and search queries also include IP address, time, and app name 'AntennaPod'. After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
 
 #### Services de synchronisation et de sauvegarde
@@ -49,23 +49,23 @@ If you enabled [sharing of usage and diagnostics](https://support.google.com/acc
 
 #### Le système de donation
 
-Le système de donation : AntennaPod utilise Open Collective, proposé par Open Collective Inc (USA) & Open Collective Europe ASBL (Belgique). Lorsque vous faites un don, ces entités ont accès à certaines données. Pour plus d'informations, voir la [politique de confidentialité d'Open Collective](https://opencollective.com/privacypolicy).
+AntennaPod utilise Open Collective, proposé par Open Collective Inc (USA) & Open Collective Europe ASBL (Belgique). Lorsque vous faites un don, les données circulent vers :
 
 - ces entités - pour plus d'informations, voir [la politique de vie privée d'Open Collective Inc.'s](https://opencollective.com/privacypolicy)
 - sauf si vous voulez faire une contribution [anonyme](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) ou [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) contribution, l'équipe d'AntennaPod a accès à (mais n'exporte pas) vos :
    - information sur le profil public (nom, entreprise, description, image, Twitter, GitHub, site web)
    - adresse e-mail
 
-#### Le contenu du site
+#### Le site web
 
 Le site web d'AntennaPod est hébergé sur les GitHub Pages.
 
 - When you visit our website, you are interacting with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for the data they collect and process.
 - The website does not set any cookies and does not use third-party tracking, analytics or other services. The 'Translate' page in the 'Contribute' section contains an embedded graph which is retrieved from the servers of Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/)).
 
-#### Téléchargez-le sur Google Play
+#### Google Play
 
-When you actively leave a review in the Google Play store, the AntennaPod team gets access to your public profile information and may extract and store the following in any online service used by the team (e.g. GitHub or the forum):
+Quand vous choisissez de laisser un commentaire dans le Google Play Store, l'équipe d'AntennaPod obtient l'accès aux informations de votre profil public et peut exporter et enregistrer les éléments suivants dans des services en ligne utilisés par l'équipe (par ex. GitHub ou le forum) :
 
 - review text
 - Version d'AntennaPod
