@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 23:16+0200\n"
-"PO-Revision-Date: 2025-10-25 17:12+0000\n"
+"PO-Revision-Date: 2025-11-05 19:51+0000\n"
 "Last-Translator: Luca <loucasal@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/it/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -32,17 +32,17 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Delete after playing"
-msgstr ""
+msgstr "Elimina episodi riprodotti"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Delete after playing is located in `Settings` » `Downloads` » `Automatic "
 "deletion`. When enabled, episodes are deleted when playback completes (but "
 "not when manually marking an episode as 'played')."
 msgstr ""
-"L'eliminazione automatica si trova in `Impostazioni` » `Memoria`. Quando è "
-"abilitata, gli episodi vengono eliminati quando la riproduzione è completata "
+"L'eliminazione degli episodi riprodotti si trova in `Impostazioni` » "
+"`Download`» `Eliminazione automatica`. Quando è abilitata, gli episodi "
+"vengono eliminati quando la riproduzione è completata "
 "(ma non quando si contrassegna manualmente un episodio come \"riprodotto\")."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
@@ -50,7 +50,6 @@ msgid "Delete before auto download"
 msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Delete before auto download is located in `Settings` » `Downloads` » "
 "`Automatic deletion`. If Automatic download needs space for new episodes, it "
@@ -59,12 +58,13 @@ msgid ""
 "their status (e.g. not favorited or not in queue) or a period of time after "
 "finishing."
 msgstr ""
-"\"Pulizia episodi\" si trova in `Impostazioni` » `Rete` » `Download "
-"automatico`. Se il download automatico ha bisogno di spazio per i nuovi "
-"episodi, eliminerà i vecchi episodi che non sono in coda e non sono segnati "
-"come preferiti. È possibile aggiungere un ritardo (tempo x dopo la "
-"riproduzione) o Episodio. L'impostazione `Cache degli episodi` determina la "
-"quantità massima di episodi scaricati da conservare."
+"L'eliminazione prima del download automatico si trova in `Impostazioni` » "
+"`Download` » `Eliminazione automatica`. Se il download automatico ha bisogno "
+"di spazio per i nuovi episodi, eliminerà i vecchi episodi che non sono in "
+"coda e che non sono contrassegnati come preferiti. È possibile impostare "
+"quali episodi sono eliminabili in base al loro stato "
+"(per es. non preferiti o non in coda) o in base al tempo trascorso dalla "
+"loro riproduzione completa."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
@@ -572,9 +572,9 @@ msgid ""
 "AntennaPod could not refresh the podcast or download an audio file from the "
 "website of the podcast hoster."
 msgstr ""
-"Viene visualizzata una notifica che indica che il download è stato "
-"completato con degli errori? Allora AntennaPod non è riuscito ad aggiornare "
-"il podcast o a scaricare un file audio dal sito web che ospita il podcast."
+"Ricevi una notifica che indica che il download è stato completato con degli "
+"errori? Allora AntennaPod non è riuscito ad aggiornare il podcast o a "
+"scaricare un file audio dal sito web che ospita il podcast."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
 #: (paragraph)
@@ -876,8 +876,8 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
-"**Accesso allo spazio di archiviazione**: quando crei una \"cartella "
-"locale\", l'app ti chiederà di avere accesso a lungo termine a una cartella "
+"**Accesso allo spazio di archiviazione**: quando crei una \"cartella locale\""
+", l'app ti chiederà di avere accesso a lungo termine a una cartella "
 "specifica. Quando importi un database o un file OPML, selezionare quel file "
 "darà all'app l'accesso una tantum al file."
 
@@ -2757,7 +2757,7 @@ msgid ""
 "`Keep Sorted` is enabled. You can disable this by tapping the three dots `…` "
 "in the top bar and select `Sort`."
 msgstr ""
-"`Mantieni ordine` è abilitato. È possibile disabilitarlo toccando i tre "
+"`Mantieni l'ordine` è abilitato. È possibile disabilitarlo toccando i tre "
 "punti `…` nella barra superiore e selezionare `Ordina`."
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
