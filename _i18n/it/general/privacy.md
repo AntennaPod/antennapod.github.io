@@ -16,7 +16,7 @@ Quando condividi informazioni di debug (via email utilizzando la funzione `Crash
 
 L'unico caso in cui dati personali *provenienti da* terze parti sono trattati è quando hai abilitato un servizio di sincronizzazione nelle impostazioni. In questo caso, l'applicazione potrebbe ricevere informazioni su iscrizioni e riproduzioni da quel servizio.
 
-### Dati che potrebbero essere raccolti, archiviati o elaborati da altri
+### Dati che potrebbero essere raccolti, archiviati ed elaborati da altri
 
 #### Host di podcast
 
