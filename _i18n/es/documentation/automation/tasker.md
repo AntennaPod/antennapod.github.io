@@ -47,18 +47,6 @@ Crea una tarea. En la tarea, añade una acción
 1. Especifica que el objetivo sea `Receptor de difusión`
 1. Puedes dejar los demás campos en blanco
 
-### Llama - Perfiles de Ubicación ([sitio web](http://kebabapps.blogspot.com/search/label/Llama))
-
-Crea un evento (regla de automatización de Llama). En el evento,
-
-1. Añade una acción de tipo Android intent.
-1. Especifica que el modo de envío de la intención sea `Difusión`.
-1. Especifica que el nombre del paquete sea `de.danoeh.antennapod`
-1. Especificar el nombre de la clase como `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
-1. Añade cualquier otra condición / acciones para cumplir tus necesidades específicas.
-
-Como atajo, puedes hacer clic en [este enlace](http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) para crear un evento de ejemplo con el que empezar.
-
 ***
 
 **Descargo de responsabilidad:** La comunidad de AntennaPod no tiene ninguna relación con ninguna de las aplicaciones de automatización de terceros que aparecen en la lista.
