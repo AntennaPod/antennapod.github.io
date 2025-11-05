@@ -79,7 +79,7 @@
 
 - با خدمت میزبانی‌شده Weblate s.r.o. در تعامل هستید - برای داده‌هایی که گردآوری و پردازش می‌کنند، [سیاست حریم خصوصی آن‌ها](https://weblate.org/en-gb/privacy/) را ببینید.
 - گروه آنتناپاد به موارد زیر دسترسی دارد:
-   - «نام کاربری»، «نام کامل» و «رایانامه حساب» که در [نمایه شما](https://hosted.weblate.org/accounts/profile/#account) تنظیم شده‌اند
+   - «نام کاربری»، «نام کامل» و «رایانامهٔ حساب» که در [نماگرتان](https://hosted.weblate.org/accounts/profile/#account) تنظیم شده‌اند
    - زمان پیوستن به پروژه و [آمار دقیق](https://docs.weblate.org/en/latest/devel/reporting.html#stats) درباره مشارکت‌هایتان، همچنین [زبان‌هایی](https://docs.weblate.org/en/latest/devel/reporting.html#credits) که به آن‌ها کمک می‌کنید و تاریخ و برچسب‌های زمانی مشارکت‌هایتان.
 
 #### گیت
