@@ -8,7 +8,7 @@ L'application ne stocke que les données strictement nécessaires à son fonctio
 
 **Toutes les données fournies et créées à l'aide de l'application AntennaPod sont stockées localement sur votre appareil. AntennaPod ne transmet pas vos données, sauf lorsque cela est strictement nécessaire au fonctionnement de l'application ou quand vous décidez de partager des informations de débogage avec nous** La section qui suit explique quand vos données peuvent être envoyées à des tiers. Si vous êtes intéressés, vous pouvez aussi lire dans la documentation les [autorisations d'application](/documentation/general/app-permissions) qu'AntennaPod peut demander.
 
-Lorsque vous partagez activement des informations de débogage (soit par mail à l'aide de la fonction `Signaler un bug`, soit par le biais de la fonctionnalité de rapport de panne d'Android), les données suivantes sont traitées :
+Lorsque vous partagez des informations de débogage (soit par mail à l'aide de la fonction `Signaler un bug`, soit par la fonction de rapport de bug d'Android), les données suivantes sont traitées :
 
 - type de périphérique
 - Version d'Android
