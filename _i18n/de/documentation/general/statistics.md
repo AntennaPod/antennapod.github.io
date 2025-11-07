@@ -7,7 +7,7 @@ Um Statistiken zu erstellen, zeichnet AntennaPod zwei Dinge für jede Episode au
 * **Abspieldauer**: wie lange die Episode abgespielt wurde (z. B. 6 Minuten, wenn eine 3-minütige Episode zweimal abgespielt wurde)
 * **Letzte Wiedergabe**: das Datum und die Uhrzeit, zu der die Wiedergabe der Episode zuletzt angehalten oder beendet wurde
 
-Beides wird jedes Mal aktualisiert, wenn die Wiedergabe angehalten oder gestoppt wird. Diese Informationen werden verwendet, um die Gesamtzahlen zu berechnen, indem die „Abspieldauer“ aller Episoden, deren Datum der „letzten Wiedergabe“ in einen bestimmten Monat fällt, addiert wird.
+Beides wird jedes Mal aktualisiert, wenn die Wiedergabe angehalten oder beendet wird. Diese Informationen werden verwendet, um die Gesamtzahlen zu berechnen, indem die „Abspieldauer“ aller Episoden, deren Datum der „letzten Wiedergabe“ in einen bestimmten Monat fällt, addiert wird.
 
 Wenn du heute 7 Minuten einer Folge hörst und morgen 38 Minuten dieser Folge, werden alle 45 Minuten dem morgigen Tag zugerechnet. Das Gleiche gilt für die Monate. Wenn eine Episode sowohl im Juni als auch im Juli abgespielt wird, wird die gesamte Hördauer dem Juli zugerechnet. Wenn eine Folge sowohl im Dezember eines Jahres als auch im Januar des nächsten Jahres gehört wird, wird sie dem zweiten Jahr zugerechnet.
 
