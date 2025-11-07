@@ -2,7 +2,7 @@ Es gibt mehrere Möglichkeiten, deine Daten auf ein neues Telefon zu übertragen
 
 ## Datenbank-Export
 
-Das Exportieren der AntennaPod-Datenbank ist eine gute Methode, wenn du auf ein neues Telefon oder Tablet umsteigen willst. Du solltest sicherstellen, dass du die gleiche Version von AntennaPod auf dem alten und dem neuen Telefon hast. Nach dem Importieren sind alle Daten wiederhergestellt; du musst nur die Episoden erneut herunterladen.
+Das Exportieren der AntennaPod-Datenbank ist eine gute Methode, wenn du auf ein neues Telefon oder Tablet umsteigen möchtest. Du solltest sicherstellen, dass du dieselbe Version von AntennaPod auf dem alten und dem neuen Telefon hast. Nach dem Importieren sind alle Daten wiederhergestellt; du musst nur die Episoden erneut herunterladen.
 
 ## Synchronisierung
 

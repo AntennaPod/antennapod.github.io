@@ -6,7 +6,7 @@ Wir wissen, dass es sehr frustrierend ist, wenn so etwas passiert, und es tut un
 
 Es gibt einige Möglichkeiten, mit denen du deine Daten wiederherstellen könntest. Wir führen sie im folgend auf, beginnend mit der Lösung, die am einfachsten & besten Ergebnisse liefert:
 
-1. Hast du kürzlich eine [Sicherung](/de/documentation/general/backup) von AntennaPod exportiert? Dann ist das Wiederherstellen relativ einfach: Gehe zu `Einstellungen` » `Speicher` » `Import/Export` » `Datenbankimport` und wähle die Sicherung aus. Beachte, dass die Sicherungskopie teilweise beschädigt sein kann. Es wird daher empfohlen, den zweiten Schritt auszuführen, um das Problem ein für alle Mal zu beheben.
+1. Hast du kürzlich eine [Sicherung](/de/documentation/general/backup) aus AntennaPod exportiert? Dann ist das Wiederherstellen relativ einfach: Gehe zu `Einstellungen` » `Import/Export` » `Datenbank importieren` und wähle die Sicherung aus. Beachte, dass die Sicherungskopie teilweise beschädigt sein kann. Es wird daher empfohlen, den zweiten Schritt auszuführen, um das Problem ein für alle Mal zu beheben.
 1. Wenn AntennaPod eine beschädigte Datenbank erkennt, schreibt es diese in eine Datei namens CorruptedDatabaseBackup.db im Speicherverzeichnis der App. Du kannst versuchen, diese Datei (oder eine exportierte Sicherungskopie) mit einem [Python-Skript](https://github.com/ByteHamster/AntennaPodDbFixer) zu reparieren, das entwickelt wurde, um den Wiederherstellungsprozess zu automatisieren. Dies ist eine Herausforderung und erfordert Kenntnisse im Umgang mit einem Terminal.
 1. Während alle Daten *über* deine Abonnements und Episoden abhandenkamen, sind die Mediendateien noch vorhanden.
 

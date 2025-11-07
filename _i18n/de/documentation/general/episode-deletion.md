@@ -1,4 +1,4 @@
-Wenn du eine Episode nicht mehr hören möchtest, willst du sie in den meisten Fällen vom Telefon löschen, um Speicherplatz freizugeben. Es gibt verschiedene Möglichkeiten, dies zu erreichen.
+Wenn du eine Episode angehört hast, möchtest du sie in den meisten Fällen vom Telefon löschen, um Speicherplatz freizugeben. Es gibt verschiedene Möglichkeiten, dies zu erreichen.
 
 Erstens kannst du natürlich auch manuell Episoden löschen. Wenn du die Warteschlange oder einen bestimmten Podcast ansiehst, kannst du lange auf eine Episode drücken und auf `Löschen` tippen. Im Bildschirm „Downloads“ kannst du auch einfach auf das Mülleimer-Symbol tippen. Wenn du möchtest, kann AntennaPod eine Episode automatisch aus der Warteschlange entfernen, sobald sie gelöscht wird. Diese Option findest du unter `Einstellungen` » `Downloads` » `Gelöschte aus Warteschlange entfernen`.
 
