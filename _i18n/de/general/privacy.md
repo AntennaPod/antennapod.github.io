@@ -33,7 +33,7 @@ Der einzige Fall, in dem personenbezogene Daten *von* Dritten verarbeitet werden
 #### Synchronisierungs- und Sicherungsdienste
 
 - Sofern in den Einstellungen aktiviert, synchronisiert AntennaPod deine Daten. Dazu können Anmeldedaten, abonnierte Podcasts, angehörte Episoden, Abspielen/Pausieren/Favoriten-Aktionen mit Zeitstempeln und deine IP-Adresse gehören. Weitere Informationen findest du in der Datenschutzerklärung deines Anbieters.
-- Wenn auf deinem Smartphone die Sicherungsfunktion aktiviert ist (`Einstellungen` » `Google` » `Sicherung & Wiederherstellung` » `Sicherung`), speichert Android regelmäßig eine Kopie deiner Smartphone-Daten auf den Servern von Google. Diese Sicherung enthält private Informationen, darunter WLAN-Passwörter, Nachrichten und Anrufverlauf. Sie kann auch Daten von AntennaPod und anderen von dir verwendeten Apps enthalten. Die Entwickler von AntennaPod haben keinen Zugriff auf diese Daten. Weitere Informationen findest du in [Googles Datenschutzerklärung](https://policies.google.com).
+- Wenn auf deinem Telefon die Sicherungsfunktion aktiviert ist (`Einstellungen` » `Google` » `Sicherung & Wiederherstellung` » `Sicherung`), speichert Android regelmäßig eine Kopie der Daten deines Telefons auf den Servern von Google. Diese Sicherung enthält private Informationen, darunter WLAN-Passwörter, Nachrichten und Anrufverlauf. Sie kann auch Daten von AntennaPod und anderen von dir verwendeten Apps enthalten. Die Entwickler von AntennaPod haben keinen Zugriff auf diese Daten. Weitere Informationen findest du in [Googles Datenschutzerklärung](https://policies.google.com).
 
 #### Geräte- und Betriebssystemanbieter
 

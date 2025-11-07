@@ -10,6 +10,6 @@ Die Synchronisierung von AntennaPod über *gpodder.net* oder die App *gPodder Sy
 
 ## OPML
 
-Mit OPML-Dateien kannst du deine Abonnements auf eine andere Podcast-App übertragen. Allerdings verlierst du dabei alle podcast- oder episodenspezifischen Daten (z. B. welche Episoden abgespielt wurden) und alle App-Einstellungen. Um deine Daten zu exportieren, gehe zu `Einstellungen` » `Speicher` » `Import/Export`. Klicke unbedingt auf `Senden …`, um die Datei in einem anderen Ordner auf deinem Telefon oder irgendwo anders zu speichern, da die ursprüngliche Datei gelöscht wird, sobald du AntennaPod deinstallierst.
+Mit OPML-Dateien kannst du deine Abonnements auf eine andere Podcast-App übertragen. Allerdings verlierst du dabei alle podcast- oder episodenspezifischen Daten (z. B. welche Episoden abgespielt wurden) sowie alle App-Einstellungen. Um deine Daten zu exportieren, gehe zu `Einstellungen` » `Import/Export` » `OPML exportieren`. Speichere die Datei unbedingt in einem anderen Ordner auf deinem Telefon oder irgendwo anders, da die ursprüngliche Datei beim Deinstallieren von AntennaPod gelöscht wird.
 
 Falls du die Datei in AntennaPod auf einem anderen Gerät importierst, zeigt die App eine Liste von Podcasts mit Kontrollkästchen an. Die Podcasts, die du aus dieser Liste auswählst, werden zu den bestehenden Abonnements hinzugefügt. Deine bestehenden Abonnements werden nicht angetastet.

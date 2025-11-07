@@ -1,4 +1,4 @@
-Möchtest du es deinem Netzwerk oder deinen Zuhörenden leicht machen, deine(n) Podcast(s) in AntennaPod hinzuzufügen? Füge einfach einen Link wie den unten stehenden auf deiner Website oder wo auch immer du willst ein. Achte darauf, dass du `xyz` durch die URL deines RSS-Feeds und `abc` durch den Titel deines Podcasts ersetzt.
+Möchtest du es deinem Netzwerk oder deinen Zuhörenden leicht machen, deine(n) Podcast(s) in AntennaPod hinzuzufügen? Füge einfach einen Link wie den unten stehenden auf deiner Website oder wo auch immer du möchtest ein. Achte darauf, dass du `xyz` durch die URL deines RSS-Feeds und `abc` durch den Titel deines Podcasts ersetzt.
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 
