@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 10:10+0200\n"
-"PO-Revision-Date: 2025-11-07 19:51+0000\n"
+"PO-Revision-Date: 2025-11-07 23:51+0000\n"
 "Last-Translator: OlliesGudh <github@paulogomez.anonaddy.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_BR/>\n"
@@ -1309,18 +1309,21 @@ msgid ""
 "If you are running Android 6 or newer, you can try formatting the SD card as "
 "internal storage. Else, there is nothing we can do to fix this."
 msgstr ""
+"Se você estiver usando o Android 6 ou superior, pode tentar formatar o "
+"cartão SD como armazenamento interno. Caso contrário, não há nada que "
+"possamos fazer para corrigir isso."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
-msgstr ""
+msgstr "Você viu que há um nova versão do AntennaPod e ficou se perguntando:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*why is the latest version not on F-Droid yet?*"
-msgstr ""
+msgstr "*por que a versão mais recente ainda não chegou no F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*when will the new release be available on F-Droid?*"
-msgstr ""
+msgstr "*quando a nova versão estará disponível no F-Droid?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 3 (paragraph)
 msgid ""
@@ -1328,40 +1331,56 @@ msgid ""
 "releases on F-Droid, we can't tell when exactly the latest version will be "
 "available there."
 msgstr ""
+"Devido às várias etapas e ao fato de não participarmos do processo de "
+"publicação no F-Droid, não temos como dizer exatamente quando a versão mais "
+"recente ficará disponível por lá."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid ""
 "**In short: we did not forget about F-Droid, it just takes some time. Please "
 "be patient.**"
 msgstr ""
+"**Em resumo: nós não esquecemos do F-Droid, mas o processo leva um tempo. "
+"Pedimos um pouco de paciência.**"
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps for releasing a new version on F-Droid"
-msgstr ""
+msgstr "Etapas para lançar uma nova versão no F-Droid"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We release a beta version, which is *only* available through Google Play due "
 "to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
+"Lançamos uma versão beta, disponível *apenas* pelo Google Play devido a "
+"[limitações técnicas](/documentation/general/beta#f-droid) do F-Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We do a slow, gradual roll-out to all Google Play users. That way we make "
 "sure that there are no critical bugs. This can take several weeks."
 msgstr ""
+"Fazemos uma liberação lenta e gradual para os usuários do Google Play. "
+"Assim, garantimos que não haja erros críticos. Isso pode levar várias "
+"semanas."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/"
 "releases). We do this only after the roll-out on Google Play is complete."
 msgstr ""
+"Criamos um [release no GitHub]"
+"(https://github.com/AntennaPod/AntennaPod/releases). Fazemos isso somente "
+"após a liberação no Google Play ser concluída."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems check the AntennaPod repository and detect a new release. "
 "The update checker server runs daily (overnight in Europe)."
 msgstr ""
+"Os sistemas do F-Droid verificam o repositório do AntennaPod e detectam um "
+"novo release. O servidor que faz essa verificação roda diariamente "
+"(durante a madrugada na Europa)."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1369,6 +1388,10 @@ msgid ""
 "download matches the source code that we publishe. Because there are many "
 "apps to build, the F-Droid server takes 1 to 2 days to build the app."
 msgstr ""
+"Os sistemas do F-Droid compilam o app. Isso é feito para garantir que o "
+"aplicativo que você baixa corresponda exatamente ao código-fonte publicado. "
+"Como há muitos apps para processar, o servidor do F-Droid leva de 1 a 2 dias "
+"para fazer a compilação."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1378,12 +1401,19 @@ msgid ""
 "signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
+"Um colaborador do F-Droid assina a compilação criptograficamente. Para "
+"aumentar a segurança, esse colaborador precisa transferir o app fisicamente "
+"para um computador dedicado que não tem conexão com a internet. Quando todos "
+"os apps são assinados, ele então os envia aos sistemas do F-Droid. Isso "
+"geralmente leva de 1 a 2 dias."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems process the new apps, adding the new AntennaPod release in "
 "their index."
 msgstr ""
+"Os sistemas do F-Droid processam os novos apps, adicionando a nova versão do "
+"AntennaPod ao índice."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
 msgid ""
@@ -1392,10 +1422,14 @@ msgid ""
 "index. Only after that you'll get prompted about the latest AntennaPod "
 "release."
 msgstr ""
+"Nesse ponto, consideramos que a versão está 'lançada no F-Droid'. Mas lembre-"
+"se: o cliente F-Droid (a 'loja de aplicativos') também precisa atualizar sua "
+"cópia local do índice. Só depois disso você será notificado da nova versão "
+"do AntennaPod."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr ""
+msgstr "E quanto tempo leva, afinal?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
