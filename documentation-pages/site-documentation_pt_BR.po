@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 10:10+0200\n"
-"PO-Revision-Date: 2025-11-08 01:51+0000\n"
+"PO-Revision-Date: 2025-11-08 02:51+0000\n"
 "Last-Translator: OlliesGudh <github@paulogomez.anonaddy.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_BR/>\n"
@@ -1587,16 +1587,20 @@ msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
 msgstr ""
+"Ainda assim, existem alternativas (de código aberto) que gostaríamos de "
+"indicar:"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
-msgstr ""
+msgstr "App"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 6 (paragraph)
 msgid ""
 "Do you have a recommendation of an open source podcast app for these "
 "platforms? [Let us know on the forum!](https://forum.antennapod.org)"
 msgstr ""
+"Tem alguma recomendação de app de podcast de código aberto para essas "
+"plataformas? [Conte pra gente lá no fórum!](https://forum.antennapod.org)"
 
 #: _i18n/en/documentation/general/proxy.md:block 1 (paragraph)
 msgid ""
@@ -1604,12 +1608,17 @@ msgid ""
 "images, RSS requests & searches) through a proxy or the Tor network. This "
 "may have two potential benefits:"
 msgstr ""
+"É possível configurar o AntennaPod para encaminhar todo o tráfego "
+"(arquivos de mídia, imagens de capa, requisições RSS e buscas) através de um "
+"proxy ou da rede Tor. Isso pode trazer dois benefícios:"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
 "Privacy: depending on the type of proxy service, your downloading/streaming "
 "behaviour may be protected from podcast hosts"
 msgstr ""
+"Privacidade: dependendo do tipo de serviço de proxy, seu comportamento de "
+"download/streaming pode ficar oculto para os provedores dos podcasts"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
@@ -1617,28 +1626,33 @@ msgid ""
 "(based on your IP address), setting a proxy with the origin country may "
 "allow you to still access its content"
 msgstr ""
+"Acesso: se um provedor de podcast bloqueia downloads de fora do país "
+"(com base no seu IP), usar um proxy no país de origem pode permitir que você "
+"acesse o conteúdo mesmo assim"
 
 #: _i18n/en/documentation/general/proxy.md:block 3 (paragraph)
 msgid "You will find this option under `Settings` » `Downloads` » `Proxy`."
-msgstr ""
+msgstr "Você encontra essa opção em `Configurações` » `Downloads` » `Proxy`."
 
 #: _i18n/en/documentation/general/proxy.md:block 4 (paragraph)
 msgid ""
 "In order to lead all traffic via the Tor network, you need to install a "
 "proxy app for Tor, and provide the following details in AntennaPod:"
 msgstr ""
+"Para encaminhar todo o tráfego pela rede Tor, instale um app de proxy para "
+"Tor e informe os seguintes dados no AntennaPod:"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Type: SOCKS"
-msgstr ""
+msgstr "Tipo: SOCKS"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Host: \"localhost\" or \"127.0.0.1\""
-msgstr ""
+msgstr "Host: \"localhost\" ou \"127.0.0.1\""
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Port: \"9050\""
-msgstr ""
+msgstr "Porta: \"9050\""
 
 #: _i18n/en/documentation/general/statistics.md:block 1 (paragraph)
 msgid ""
@@ -1646,26 +1660,35 @@ msgid ""
 "listening hours per subscription and per month. However, these statistics "
 "aren’t always as precise as they could be."
 msgstr ""
+"O AntennaPod possui uma tela de estatísticas que mostra quantas horas você "
+"ouviu por assinatura e por mês. No entanto, esses números nem sempre são tão "
+"precisos quanto poderiam ser."
 
 #: _i18n/en/documentation/general/statistics.md:block 2 (header)
 msgid "Why the stats aren’t precise"
-msgstr ""
+msgstr "Por que as estatísticas não são totalmente precisas"
 
 #: _i18n/en/documentation/general/statistics.md:block 3 (paragraph)
 msgid "To track statistics, AntennaPod records two things for each episode:"
 msgstr ""
+"Para calcular as estatísticas, o AntennaPod registra duas informações para "
+"cada episódio:"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Played duration**: how long the episode was played (e.g. 6 minutes if a 3-"
 "minute episode was played twice)"
 msgstr ""
+"**Tempo de reprodução**: quanto tempo o episódio foi reproduzido (por "
+"exemplo, 6 minutos se um episódio de 3 minutos foi reproduzido duas vezes)"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Last played**: the date and time when playback was last paused or stopped "
 "for the episode"
 msgstr ""
+"**Última reprodução**: a data e hora em que a reprodução do episódio foi "
+"pausada ou interrompida pela última vez"
 
 #: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
 msgid ""
@@ -1673,6 +1696,9 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
+"Ambas são atualizadas toda vez que a reprodução é pausada ou interrompida. "
+"Os totais são então calculados somando o “tempo de reprodução” de todos os "
+"episódios cuja “última reprodução” ocorreu dentro de determinado mês."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
@@ -1683,6 +1709,11 @@ msgid ""
 "episode is played both in December of one year and in January of the next, "
 "it is attributed to the second year."
 msgstr ""
+"Isso significa que, se você ouvir 7 minutos de um episódio hoje e 38 minutos "
+"dele amanhã, todos os 45 minutos serão atribuídos a amanhã. O mesmo vale "
+"entre meses: se um episódio for reproduzido em junho e julho, todo o tempo "
+"será atribuído a julho. E se um episódio for reproduzido tanto em dezembro "
+"quanto em janeiro, o tempo será registrado no segundo ano."
 
 #: _i18n/en/documentation/general/statistics.md:block 7 (paragraph)
 msgid ""
@@ -1690,10 +1721,13 @@ msgid ""
 "time period. However, day-by-day statistics would have a higher risk of "
 "becoming unreliable, which is why AntennaPod does not offer those."
 msgstr ""
+"As estatísticas mensais costumam ser bem precisas, já que cobrem um período "
+"mais longo. No entanto, estatísticas diárias teriam maior risco de "
+"imprecisão, por isso o AntennaPod não oferece esse nível de detalhe."
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
-msgstr ""
+msgstr "Por que não queremos mudar isso"
 
 #: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
 msgid ""
@@ -1701,24 +1735,29 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
+"Estatísticas (ou melhor: gráficos) são divertidas. Então por que não "
+"registrar os dados de uma forma que permita mais opções de filtro e dados "
+"mais detalhados no AntennaPod?"
 
 #: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
 msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
+"Seria possível registrar para cada episódio quanto tempo ele foi reproduzido "
+"em cada dia. Por exemplo:"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
-msgstr ""
+msgstr "28 de Junho: 7 minutos"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "30 June: 38 minutes"
-msgstr ""
+msgstr "30 de Junho: 38 minutos"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "1 July: 19 minutes"
-msgstr ""
+msgstr "1 de Julho: 19 minutos"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
 msgid ""
@@ -1728,6 +1767,12 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
+"Há dois motivos principais. Primeiro, embora as estatísticas sejam "
+"interessantes, **preferimos dedicar nosso tempo ao principal propósito do "
+"AntennaPod: reproduzir podcasts**. Mudar para essa nova abordagem exigiria "
+"tempo no presente para implementá-la "
+"(reescrevendo o código que salva o tempo de reprodução no banco de dados) e "
+"tempo no futuro para manter um sistema mais complexo."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -1737,6 +1782,11 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
+"Em segundo lugar, **o AntennaPod ocuparia mais espaço no seu celular** - "
+"especialmente para usuários fiéis que usam o app há vários anos. Isso "
+"acontece porque, em vez de uma única linha por episódio no banco de dados, "
+"seria necessário armazenar várias linhas para cada episódio reproduzido, "
+"aumentando o tamanho do banco de dados."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1744,14 +1794,18 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
+"Esperamos que você curta as estatísticas mensais! 📊 (E se você for "
+"desenvolvedor web e tiver interesse em criar um painel dedicado para as "
+"estatísticas do AntennaPod com base nas exportações do banco de dados, entre "
+"em contato conosco no fórum.)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
-msgstr ""
+msgstr "dispositivos"
 
 #: _i18n/en/documentation/general/synchronization.md:block 9 (paragraph)
 msgid "synchronize"
-msgstr ""
+msgstr "sincronizar"
 
 #: _i18n/en/documentation/general/synchronization.md:block 13 (paragraph)
 msgid ""
@@ -1760,6 +1814,11 @@ msgid ""
 "synchronisation, you need a server - the central point through which your "
 "data is shared with other devices. You have several options for this:"
 msgstr ""
+"O AntennaPod permite sincronizar suas inscrições e o progresso de reprodução "
+"com outras instalações do AntennaPod e até com outros apps (de desktop). "
+"Para configurar a sincronização, você precisará de um servidor - que será o "
+"ponto central por onde seus dados serão compartilhados entre os "
+"dispositivos. Há várias formas de fazer isso:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -1768,6 +1827,11 @@ msgid ""
 "of the service and its limited funding, this server is often overloaded, "
 "leading to errors in AntennaPod."
 msgstr ""
+"[gpodder.net](https://gpodder.net/) oferece um servidor gratuito de "
+"sincronização gPodder, disponível para **qualquer pessoa que queira se "
+"cadastrar**. No entanto, devido à popularidade do serviço e aos recursos "
+"limitados, esse servidor costuma ficar sobrecarregado, o que pode causar "
+"erros no AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
