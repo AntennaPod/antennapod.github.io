@@ -17,6 +17,7 @@ recurrence-exceptions:
 - 2023-08-12
 - 2023-09-09
 - 2024-08-10
+- 2025-11-08
 recurrence-additions:
 - start: 2022-10-22 16:00
   end: 2022-10-22 17:00
