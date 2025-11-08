@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 10:10+0200\n"
-"PO-Revision-Date: 2025-11-08 02:51+0000\n"
+"PO-Revision-Date: 2025-11-08 03:51+0000\n"
 "Last-Translator: OlliesGudh <github@paulogomez.anonaddy.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_BR/>\n"
@@ -1844,61 +1844,79 @@ msgid ""
 "server, or the [Micro GPodder server](https://github.com/bohwaz/micro-"
 "gpodder-server)."
 msgstr ""
+"Usuários com mais conhecimento técnico são fortemente incentivados a criar "
+"um **servidor auto-hospedado de sincronização**. Um servidor próprio tende a "
+"ser mais confiável e ainda ajuda a reduzir a carga sobre os serviços "
+"públicos gratuitos. Há várias opções disponíveis: [Nextcloud]"
+"(https://nextcloud.com/install/#instructions-server) com o app [gPodder Sync]"
+"(https://apps.nextcloud.com/apps/gpoddersync), um servidor [gPodder]"
+"(https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) completo "
+"ou o [Micro servidor GPodder](https://github.com/bohwaz/micro-gpodder-server)"
+"."
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (header)
 msgid "Enable synchronization via Nextcloud"
-msgstr ""
+msgstr "Ativar a sincronização via Nextcloud"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
 "server admin to do so"
 msgstr ""
+"Se você tem uma conta Nextcloud, instale o app gPodder Sync ou peça ao "
+"administrador do servidor para fazer isso"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
 msgstr ""
+"No AntennaPod, vá em `Configurações` » `Sincronização` e toque em `Escolha o "
+"provedor de sincronização`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid "Select 'Nextcloud'"
-msgstr ""
+msgstr "Selecione 'Nextcloud'"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
 "Enter the 'Server address' (the URL or IP address of the server) and tap "
 "`Proceed`"
 msgstr ""
+"Insira o 'Endereço do servidor' (o URL ou o endereço IP do servidor) e toque "
+"em `Ir para o login`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid "Log in on the browser window that opens and authorize AntennaPod"
 msgstr ""
+"Faça login na janela do navegador que será aberta e autorize o AntennaPod"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (header)
 msgid "Enable synchronization via gPodder"
-msgstr ""
+msgstr "Ativar a sincronização via gPodder"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Create an account on the server www.gpodder.net or on your own server"
-msgstr ""
+msgstr "Crie uma conta no servidor www.gpodder.net ou em um servidor próprio"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select 'gPodder'"
-msgstr ""
+msgstr "Selecione 'gPodder'"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
+"Insira o 'Endereço do servidor' (por exemplo, www.gpodder.net) e toque em `"
+"Ir para o login`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
-msgstr ""
+msgstr "Digite o 'Nome de usuário' e a 'Senha, depois toque em `Login`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select the device that you created on the server"
-msgstr ""
+msgstr "Selecione o dispositivo que você criou no servidor"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
 msgid ""
@@ -1910,6 +1928,14 @@ msgid ""
 "for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests "
 "to change the behavior."
 msgstr ""
+"**OBSERVAÇÃO**: Você criou o dispositivo durante a configuração da "
+"sincronização no AntennaPod, em vez de criar o dispositivo antes pelo site? "
+"Então lembre-se de pressionar o botão `Forçar sincronização completa` para "
+"enviar o estado de reprodução de todos os episódios já ouvidos. Caso "
+"contrário, apenas os podcasts que foram adicionados **após** a criação do "
+"dispositivo serão sincronizados. Há um [problema aberto para o gpodder.net]"
+"(https://github.com/gpodder/mygpo/issues/388) solicitando a alteração desse "
+"comportamento."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
