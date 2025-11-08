@@ -2,7 +2,7 @@ Hvorfor bliver nogle overførte afsnit slettet?
 
 AntennaPod har adskillige mekanismer til at sikre, at overførte podcasts ikke fylder din telefons hukommelse. Hvis du bemærker, at nogle overførte afsnit bliver slettet, skal du kigge på disse to indstillinger:
 
-## Delete after playing
+## Slet efter afspilning
 
 Slet efter afspilning findes i `Indstillinger` » `Overførsler`» `Automatisk sletning`. Når aktiveret, slettes afsnit, når afspilningen er afsluttet (men ikke når et afsnit manuelt markeres som 'afspillet').
 
