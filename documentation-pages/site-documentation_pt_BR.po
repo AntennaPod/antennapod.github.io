@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 10:10+0200\n"
-"PO-Revision-Date: 2025-11-08 18:51+0000\n"
+"PO-Revision-Date: 2025-11-08 19:51+0000\n"
 "Last-Translator: OlliesGudh <github@paulogomez.anonaddy.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_BR/>\n"
@@ -2579,6 +2579,13 @@ msgid ""
 "AntennaPod users will be able to subscribe to it using a personalized feed "
 "URL or by entering the login credentials you give them."
 msgstr ""
+"Se por alguma razão, você ainda não utilize a tag de apoio financeiro, você "
+"ainda pode incluir nas descrições do podcast ou de cada episódio informações "
+"sobre como seus ouvintes podem apoiar o podcast . Esses dados ainda aparecem "
+"no AntennaPod, ainda que de uma forma menos destacada. Por exemplo, se você "
+"oferece um plano premium, os usuários do AntennaPod poderão increver-se "
+"utilizando um URL de feed personalizado ou inserindo as credenciais "
+"fornecidas por você."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2589,6 +2596,12 @@ msgid ""
 "evolving, AntennaPod won't support it soon, but we are closely following "
 "developments."
 msgstr ""
+"Pretendemos futuramente oferecer suporte a micropagamentos automáticos "
+"através da tag [value]"
+"(https://podcasting2.org/docs/podcast-namespace/tags/value). Como essa é uma "
+"funcionalidade complexa e os aspectos técnicos ainda estão sendo estudados, "
+"o AntennaPod ainda não oferece suporte, mas acompanha de perto o "
+"desenvolvimento."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2596,11 +2609,15 @@ msgid ""
 "If you are a podcast producer and want to make your podcast visible in "
 "AntennaPod, this page is for you."
 msgstr ""
+"Se você é produtor de podcast e quer que seu conteúdo apareça no AntennaPod, "
+"esta página é para você."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 2
 #: (paragraph)
 msgid "AntennaPod mainly uses two directories for its search feature:"
 msgstr ""
+"O AntennaPod utiliza principalmente dois diretórios em seu recurso de "
+"pesquisa:"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
@@ -2609,6 +2626,9 @@ msgid ""
 "podcast, or add your own podcast via the [API](https://podcastindex-"
 "org.github.io/docs-api/#get-/add/byfeedurl))"
 msgstr ""
+"[Podcast Index](https://podcastindex.org/) (pergunte ao seu provedor como "
+"adicionar seu podcast ou adicione você mesmo por meio da [API]"
+"(https://podcastindex-org.github.io/docs-api/#get-/add/byfeedurl))"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
@@ -2616,6 +2636,8 @@ msgid ""
 "[Apple Podcasts](https://podcasts.apple.com) (add via [Podcast Connect]"
 "(https://podcastsconnect.apple.com/))"
 msgstr ""
+"[Apple Podcasts](https://podcasts.apple.com/br/) "
+"(adicione através do [Podcast Connect](https://podcastsconnect.apple.com/))"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 4
 #: (paragraph)
@@ -2623,6 +2645,8 @@ msgid ""
 "If your podcast is available in either of them, it can be found in "
 "AntennaPod."
 msgstr ""
+"Se o seu podcast estiver disponível em qualquer um deles, ele poderá ser "
+"encontrado no AntennaPod."
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
 #: (paragraph)
@@ -2631,6 +2655,10 @@ msgid ""
 "this situation, we strongly recommend that you organize a proper 'redirect' "
 "from the old to the new feed with either of these HTTP response status codes:"
 msgstr ""
+"Quando você muda de provedor de hospedagem, é comum que a URL do seu feed "
+"RSS também mude. Nessa situação, é altamente recomendável configurar um "
+"'redirect' adequado do feed antigo para o novo, usando um dos seguintes "
+"códigos de status de resposta HTTP:"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2638,6 +2666,8 @@ msgid ""
 "[301 Moved Permanently](https://developer.mozilla.org/docs/Web/HTTP/Status/"
 "301)"
 msgstr ""
+"[301 Moved Permanently]"
+"(https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/301)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2645,6 +2675,8 @@ msgid ""
 "[308 Permanent Redirect](https://developer.mozilla.org/docs/Web/HTTP/Status/"
 "308)"
 msgstr ""
+"[308 Permanent Redirect]"
+"(https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/308)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
 #: (paragraph)
@@ -2653,6 +2685,9 @@ msgid ""
 "their app. Your audience will then continue to receive your episodes, "
 "without having to subscribe again to the new feed."
 msgstr ""
+"Dessa forma, os usuários do AntennaPod terão a mudança aplicada "
+"automaticamente no app. Sua audiência continuará recebendo os episódios "
+"normalmente, sem precisar se inscrever no novo feed novamente."
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
 #: (paragraph)
@@ -2661,6 +2696,9 @@ msgid ""
 "podcasters-hosters/list-podcast) AntennaPod uses for its search "
 "functionality."
 msgstr ""
+"Não se esqueça de atualizar também o cadastro do seu podcast [nos diretórios]"
+"(/documentation/podcasters-hosters/list-podcast) que o AntennaPod utiliza "
+"para a função de pesquisa."
 
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
