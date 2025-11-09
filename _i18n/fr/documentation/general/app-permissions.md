@@ -9,7 +9,7 @@ En dehors de cela, l'application nécessite les autorisations suivantes, qui son
 - **Voir les connexions réseau** et **Voir les connexions Wi-Fi** :
    - pour vérifier s'il y a une connexion internet active, avant et durant la réalisation des actions listées au-dessus
    - pour le paramètre `Téléchargements` » `Mises à jour mobile`, pour déterminer si les actions précédentes sont autorisées par l'utilisateur sur la connexion actuelle (mobile, ou facturé à l'usage)
-- **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
+- **Appairage avec des appareils Bluetooth** : pour le paramètre `Lecture` → `Déconnexion d'écouteurs ou du Bluetooth`, pour mettre en pause ou lancer la lecture automatiquement quand on déconnecte ou connecte au téléphone un appareil Bluetooth
 - **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
 - **Control vibration**: for the option `Vibrate shortly before end` of the sleep timer, to vibrate if this setting is enabled
 - **Prevent device from sleeping**: needed to ensure media playback and downloads continue in the background
