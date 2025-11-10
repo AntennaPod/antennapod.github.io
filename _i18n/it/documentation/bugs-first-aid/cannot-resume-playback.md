@@ -8,7 +8,7 @@ Per poter riprendere la riproduzione, puoi aggiungere la cosiddetta 'tile' di An
 
 Per aggiungere la tile di AntennaPod:
 
-1. **Scorri verso il basso due volte**, in modo da vedere tutti i pulsanti (al di sotto dell'indicatore della luminosità)
+1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
 1. **Tocca l'icona della matita** in fondo alla sezione delle tile per modificarle
 1. Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** verso l'alto nell'elenco di tile attive
 1. Tocca la freccia indietro per uscire dalla modalità di modifica tile

@@ -8,7 +8,7 @@ For stadig at kunne genoptage afspilningen, kan du tilføje den såkaldte Antenn
 
 For at tilføje AntennaPod-flisen:
 
-1. **Træk ned to gange** fra toppen af skærmen, så du ser alle knapperne (under lysstyrkeindikatoren)
+1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
 1. **Tryk på blyantsikonet** i bunden af fliserne for at redigere fliserne
 1. Scroll ned i listen over fliser, **tryk på AntennaPod-flisen, og træk den.** op i listen over aktive fliser
 1. Tryk på tilbage-pilen for at afslutte fliseredigering

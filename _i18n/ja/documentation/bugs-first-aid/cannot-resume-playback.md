@@ -8,7 +8,7 @@ Android 13および14では、ロックスクリーンやメディア通知か�
 
 AntennaPodタイルを追加する方法:
 
-1. スクリーン上部から**プルダウンを2回**行うと、すべてのボタンを表示できます（明るさ表示の下に）
+1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
 1. タイルを編集すために、タイルセクション下にある**鉛筆アイコンをタップします**
 1. タイル一覧を下にスクロールして、**AntennaPodタイルをタップ・ドラッグ**して、有効なタイル一覧の上に移動します
 1. 戻る矢印をタップしてタイルの編集を終了します

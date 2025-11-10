@@ -10,5 +10,7 @@ Der kan være nogle ting, du kan gøre for at gendanne dine data. Vi opregner de
 1. Hvis AntennaPod opdager en beskadiget database, skrives den til en fil ved navn CorruptedDatabaseBackup.db i appens lagermappe. Du kan forsøge at reparere denne fil (eller reparere en eksporteret sikkerhedskopi) ved hjælp af et af nedenstående trin. Det er en udfordring og kræver, at man lærer at håndtere en terminal.
 1. Mens alle data *om* dine abonnementer og afsnit er væk, vil mediefilerne stadig være der.
 
+* In AntennaPod you can add a folder as if it were a feed. To do this, go to `Add Podcast` and tap on `Add local folder`. Then go to this folder on your phone:
+* On Android 11+: `Android` » `media` » `de.danoeh.antennapod`
 * I AntennaPod kan du tilføje en mappe, som om det var et feed. Det gør du ved at gå til `Tilføj podcast` og trykke på `Tilføj lokal mappe`. Gå derefter til denne mappe på din telefon: `Android` » `data` " `de.danoeh.antennapod` » `files` » `media` og vælg derefter mappen for en podcast. Bemærk, at dette kun vil give dig adgang til tidligere downloadede medier - du vil ikke modtage nye afsnit.
 * Du kan også begynde at tilføje tidligere podcasts fra bunden. Du kan kigge i den ovennævnte mappe for at se, hvilke podcasts du abonnerede på.

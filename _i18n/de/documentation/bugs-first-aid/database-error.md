@@ -10,5 +10,7 @@ Es gibt einige Möglichkeiten, mit denen du deine Daten wiederherstellen könnte
 1. Wenn AntennaPod eine beschädigte Datenbank erkennt, schreibt es diese in eine Datei namens CorruptedDatabaseBackup.db im Speicherverzeichnis der App. Du kannst versuchen, diese Datei (oder eine exportierte Sicherungskopie) mit einem [Python-Skript](https://github.com/ByteHamster/AntennaPodDbFixer) zu reparieren, das entwickelt wurde, um den Wiederherstellungsprozess zu automatisieren. Dies ist eine Herausforderung und erfordert Kenntnisse im Umgang mit einem Terminal.
 1. Während alle Daten *über* deine Abonnements und Episoden abhandenkamen, sind die Mediendateien noch vorhanden.
 
+* In AntennaPod you can add a folder as if it were a feed. To do this, go to `Add Podcast` and tap on `Add local folder`. Then go to this folder on your phone:
+* On Android 11+: `Android` » `media` » `de.danoeh.antennapod`
 * In AntennaPod kannst du einen Ordner hinzufügen, als wäre er ein Feed. Gehe dazu auf `Podcast hinzufügen` und tippe auf `Lokalen Ordner hinzufügen`. Öffne anschließend diesen Ordner auf deinem Telefon: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` und wähle den Ordner eines Podcasts aus. Beachte, dass du damit nur Zugriff auf bereits heruntergeladene Medien gewährst – du wirst keine neuen Episoden erhalten.
 * Du kannst auch mit dem Hinzufügen früherer Podcasts beginnen. Du kannst in dem oben erwähnten Ordner nachsehen, welche Podcasts du abonniert hattest.

@@ -8,7 +8,7 @@ Um die Wiedergabe trotzdem fortsetzen zu können, kannst du die sogenannte „An
 
 Um die AntennaPod-Kachel hinzuzufügen:
 
-1. **Ziehe zweimal** vom oberen Bildschirmrand nach unten, sodass die Schaltflächen vollständig sichtbar sind (unter der Helligkeitsanzeige)
+1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
 1. **Tippe auf das Bleistift-Symbol** unten im Kachelbereich, um die Kacheln zu bearbeiten
 1. Scrolle in der Liste der Kacheln nach unten, **tippe auf die AntennaPod-Kachel und ziehe sie** nach oben in die Liste der aktiven Kacheln
 1. Tippe auf den Zurück-Pfeil, um das Bearbeiten zu beenden

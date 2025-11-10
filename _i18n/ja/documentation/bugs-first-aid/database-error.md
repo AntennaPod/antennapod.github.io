@@ -10,5 +10,7 @@
 1. AntennaPodが壊れたデータベースを検出すると、データベースをアプリのストレージ ディレクトリ内のCorruptedDatabaseBackup.dbという名前のファイルに書き込みます。以下のいずれかの手順を使用して、このファイルの修復 （またはエクスポートされたバックアップの修復）を試みることができます。これは難しい手順であり、ターミナルの使用方法を学ぶ必要があります。
 1. 購読とエピソードに*関係する*すべてのデータは失われたとしても、メディアファイルはまだ残っています。
 
+* In AntennaPod you can add a folder as if it were a feed. To do this, go to `Add Podcast` and tap on `Add local folder`. Then go to this folder on your phone:
+* On Android 11+: `Android` » `media` » `de.danoeh.antennapod`
 * AntennaPodでは、フォルダをフィードであるかのように追加できます。そのためには、`ポッドキャストを追加` に移動し、`ローカルフォルダを追加` をタップしてください。そして、スマートフォン上の次のフォルダに移動します: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media`。そして、ポッドキャストのフォルダを選択します。この方法で可能になるのは、ダウンロード済みのメディアへのアクセスのみであり、新しいエピソードは受け取れません。
 * 以前のポッドキャストを最初から再び追加することもできます。上記のフォルダーを参照して、どのポッドキャストを購読していたかを確認できます。
