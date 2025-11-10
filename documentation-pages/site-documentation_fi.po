@@ -265,9 +265,10 @@ msgstr ""
 "tilanteestasi – se saattaa auttaa kehittäjiä löytämään ongelman lähteen."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
-"us about the issue. You can create a post on [on our forum](https://"
+"us about the issue. You can create a post on [our forum](https://"
 "forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
@@ -313,12 +314,13 @@ msgstr "Kiertokeino"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
+#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
 "see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
+"*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
+"pause playback, even if playback has been paused for a while."
 msgstr ""
 "Jotta voit edelleen jatkaa toistoa, voit lisätä laitteeseesi niin kutsutun "
 "AntennaPod-'ruudun'. Laatat ovat pohjimmiltaan painikkeita, jotka näet, kun "
@@ -334,31 +336,32 @@ msgstr "AntennaPod-ruudun lisääminen:"
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
+"**Pull down twice** from the top of the screen to fully open the Quick "
+"Settings. On some Android versions (for example, Samsung One UI or Xiaomi "
+"MIUI) an equivalent Control Center with similar gestures may already contain "
+"a media tile, check your device settings if behavior differs"
 msgstr ""
-"**Vedä alas kahdesti** näytön yläreunasta, jotta näet koko painikkeet "
-"(kirkkauden ilmaisimen alla)"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
+#, fuzzy
+msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr "Voit muokata ruutuja **napauttamalla kynäkuvaketta** niiden alaosassa"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
+#, fuzzy
 msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
+"Scroll through the list of tiles and **drag the AntennaPod tile** up into "
+"the list of active tiles"
 msgstr ""
 "Vieritä alas laattojen luetteloa, **napauta AntennaPod-laattaa ja vedä se** "
 "ylöspäin aktiivisten ruutujen luetteloon"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
+#, fuzzy
+msgid "Tap the **back arrow** or **save** to exit the tile editing"
 msgstr "Poistu ruutujen muokkauksesta napauttamalla paluunuolta"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
@@ -425,13 +428,13 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
+#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
-"`Storage` » `Import/Export` » `Database import` and select the back-up. Note "
-"that the backup might contain the partial corruption, so it is still "
-"recommended to go through the second step to fix the problem once and for "
-"all."
+"`Import/Export` » `Database import` and select the backup file. Note that "
+"the backup might contain the partial corruption, so it is still recommended "
+"to go through the second step to fix the problem once and for all."
 msgstr ""
 "Oletko äskettäin [vienyt varmuuskopion](/documentation/general/backup) "
 "AntennaPodista? Tämän jälkeen sen palauttaminen on suhteellisen helppoa: "
@@ -471,9 +474,22 @@ msgstr ""
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
-"phone: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` and "
-"then the select the folder of a podcast. Note that this will only give you "
-"access to previously downloaded media - you will not receive new episodes."
+"phone:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+#, fuzzy
+msgid ""
+"On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
+"`files` » `media` and select the folder of a podcast. Note that this will "
+"only give you access to previously downloaded media - you will not receive "
+"new episodes."
 msgstr ""
 "AntennaPodissa voit lisätä kansion ikään kuin se olisi syöte. Voit tehdä "
 "tämän siirtymällä kohtaan `Lisää podcast` ja napauttamalla `Lisää "
@@ -954,13 +970,16 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
+#, fuzzy
 msgid ""
-"OPML files allow to transfer your subscriptions to another podcast app. You "
-"will lose any podcast- or episode-specific data (e.g. which episodes have "
-"been played) and all app settings. To export your file, go to `Settings` » "
-"`Storage` » `Import/Export`. Be sure to click `Send…` to save the file in "
-"another folder on your phone or somewhere else, because the original file "
-"will be deleted when you uninstall AntennaPod."
+"OPML files allow you to transfer your subscriptions to another podcast app. "
+"You will lose any podcast-specific or episode-specific data (e.g., which "
+"episodes have been played) and all app settings. To export your file, go to "
+"`Settings` » `Import/Export` » `OPML export`. Depending on your Android "
+"version, you may be asked to choose where to save the file. If a *save "
+"dialog* opens right away, make sure to select a folder outside the "
+"AntennaPod directory (for example, `Downloads` or another visible folder), "
+"so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "OPML-tiedostot mahdollistavat tilauksesi siirtämisen toiseen podcast-"
 "sovellukseen. Menetät kaikki podcast- tai jaksokohtaiset tiedot (esim. mitkä "
@@ -2776,6 +2795,13 @@ msgstr "Siirry sen asetuksiin napauttamalla `hammaspyöräkuvaketta`"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Valitse `Tunnisteet`-asetus"
+
+#~ msgid ""
+#~ "**Pull down twice** from the top of the screen, so you see the full "
+#~ "buttons (below the brightness indicator)"
+#~ msgstr ""
+#~ "**Vedä alas kahdesti** näytön yläreunasta, jotta näet koko painikkeet "
+#~ "(kirkkauden ilmaisimen alla)"
 
 #~ msgid ""
 #~ "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"

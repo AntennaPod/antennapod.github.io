@@ -258,9 +258,10 @@ msgstr ""
 "مشکل کمک کند."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
-"us about the issue. You can create a post on [on our forum](https://"
+"us about the issue. You can create a post on [our forum](https://"
 "forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
@@ -305,12 +306,13 @@ msgstr "راه‌حل موقت"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
+#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
 "see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
+"*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
+"pause playback, even if playback has been paused for a while."
 msgstr ""
 "برای ادامه دادن پخش، می‌توانید کاشی آنتناپاد را به دستگاه خود بیافزایید. "
 "کاشی‌ها دکمه‌هایی هستند که با کشیدن از بالای صفحه می‌بینید. گمان می‌رود کاشی "
@@ -325,30 +327,32 @@ msgstr "برای افزودن کاشی آنتناپاد:"
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
+"**Pull down twice** from the top of the screen to fully open the Quick "
+"Settings. On some Android versions (for example, Samsung One UI or Xiaomi "
+"MIUI) an equivalent Control Center with similar gestures may already contain "
+"a media tile, check your device settings if behavior differs"
 msgstr ""
-"**دو بار از بالای صفحه بکشید** تا دکمه‌های کامل (زیر نشانگر روشنایی) را ببینید"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
+#, fuzzy
+msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr "**روی نماد مداد** در پایین بخش کاشی‌ها بزنید تا کاشی‌ها را ویرایش کنید"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
+#, fuzzy
 msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
+"Scroll through the list of tiles and **drag the AntennaPod tile** up into "
+"the list of active tiles"
 msgstr ""
 "فهرست کاشی‌ها را پایین ببرید، **روی کاشی آنتناپاد نگه‌دارید و آن را بکشید** به "
 "فهرست کاشی‌های فعال"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
+#, fuzzy
+msgid "Tap the **back arrow** or **save** to exit the tile editing"
 msgstr "روی پیکان بازگشت بزنید تا از ویرایش کاشی خارج شوید"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
@@ -415,13 +419,13 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
+#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
-"`Storage` » `Import/Export` » `Database import` and select the back-up. Note "
-"that the backup might contain the partial corruption, so it is still "
-"recommended to go through the second step to fix the problem once and for "
-"all."
+"`Import/Export` » `Database import` and select the backup file. Note that "
+"the backup might contain the partial corruption, so it is still recommended "
+"to go through the second step to fix the problem once and for all."
 msgstr ""
 "آیا اخیراً [پشتیبان برون‌ریزی‌شده](/documentation/general/backup) از آنتناپاد "
 "دارید؟ بازیابی آن بسیار آسان است: به `تنظیمات` » `حافظه` » `وارد کردن/"
@@ -459,9 +463,22 @@ msgstr ""
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
-"phone: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` and "
-"then the select the folder of a podcast. Note that this will only give you "
-"access to previously downloaded media - you will not receive new episodes."
+"phone:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+#, fuzzy
+msgid ""
+"On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
+"`files` » `media` and select the folder of a podcast. Note that this will "
+"only give you access to previously downloaded media - you will not receive "
+"new episodes."
 msgstr ""
 "در آنتناپاد می‌توانید پوشه‌ای را مانند خوراک بیافزایید. برای این کار، به "
 "«افزودن پادپخش» بروید و «افزودن پوشه محلی» را بزنید. سپس به این پوشه در گوشی "
@@ -923,13 +940,16 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
+#, fuzzy
 msgid ""
-"OPML files allow to transfer your subscriptions to another podcast app. You "
-"will lose any podcast- or episode-specific data (e.g. which episodes have "
-"been played) and all app settings. To export your file, go to `Settings` » "
-"`Storage` » `Import/Export`. Be sure to click `Send…` to save the file in "
-"another folder on your phone or somewhere else, because the original file "
-"will be deleted when you uninstall AntennaPod."
+"OPML files allow you to transfer your subscriptions to another podcast app. "
+"You will lose any podcast-specific or episode-specific data (e.g., which "
+"episodes have been played) and all app settings. To export your file, go to "
+"`Settings` » `Import/Export` » `OPML export`. Depending on your Android "
+"version, you may be asked to choose where to save the file. If a *save "
+"dialog* opens right away, make sure to select a folder outside the "
+"AntennaPod directory (for example, `Downloads` or another visible folder), "
+"so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "پرونده‌های OPML امکان هم‌رسانی اشتراک‌های شما به برنامه پادکست دیگری را فراهم "
 "می‌کنند. شما تمام داده‌های خاص پادکست یا قسمت (مانند اینکه کدام قسمت‌ها پخش "
@@ -2631,6 +2651,13 @@ msgstr "روی نماد `چرخ‌دنده` بزنید تا به تنظیمات 
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "تنظیم `برچسب‌ها` را برگزینید"
+
+#~ msgid ""
+#~ "**Pull down twice** from the top of the screen, so you see the full "
+#~ "buttons (below the brightness indicator)"
+#~ msgstr ""
+#~ "**دو بار از بالای صفحه بکشید** تا دکمه‌های کامل (زیر نشانگر روشنایی) را "
+#~ "ببینید"
 
 #~ msgid ""
 #~ "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"

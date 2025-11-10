@@ -271,9 +271,10 @@ msgstr ""
 "plaatsen - het kan ontwikkelaars helpen de bron van het probleem te vinden."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
-"us about the issue. You can create a post on [on our forum](https://"
+"us about the issue. You can create a post on [our forum](https://"
 "forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
@@ -319,12 +320,13 @@ msgstr "Tijdelijke oplossing"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
+#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
 "see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
+"*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
+"pause playback, even if playback has been paused for a while."
 msgstr ""
 "Om het afspelen alsnog voort te zetten, kun je de zogenaamde AntennaPod "
 "tegel toevoegen aan je apparaat. Tegels zijn de knoppen die je ziet als je "
@@ -341,33 +343,34 @@ msgstr "Om de AntennaPod tegel toe te voegen:"
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
+"**Pull down twice** from the top of the screen to fully open the Quick "
+"Settings. On some Android versions (for example, Samsung One UI or Xiaomi "
+"MIUI) an equivalent Control Center with similar gestures may already contain "
+"a media tile, check your device settings if behavior differs"
 msgstr ""
-"**Trek tweemaal omlaag** vanaf de bovenkant van het scherm, zodat je de "
-"volledige knoppen ziet (onder de helderheidsindicator)"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
+#, fuzzy
+msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr ""
 "**Tik op het potloodicoontje** aan de onderkant van de tegellijst om de "
 "tegels te bewerken"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
+#, fuzzy
 msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
+"Scroll through the list of tiles and **drag the AntennaPod tile** up into "
+"the list of active tiles"
 msgstr ""
 "Scroll naar beneden in de lijst van tegels, **tik op de AntennaPod tegel en "
 "sleep hem** omhoog naar de lijst van actieve tegels"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
+#, fuzzy
+msgid "Tap the **back arrow** or **save** to exit the tile editing"
 msgstr "Tik op de terugpijl om het tegelbewerken te eindigen"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
@@ -437,13 +440,13 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
+#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
-"`Storage` » `Import/Export` » `Database import` and select the back-up. Note "
-"that the backup might contain the partial corruption, so it is still "
-"recommended to go through the second step to fix the problem once and for "
-"all."
+"`Import/Export` » `Database import` and select the backup file. Note that "
+"the backup might contain the partial corruption, so it is still recommended "
+"to go through the second step to fix the problem once and for all."
 msgstr ""
 "Is er recent [een back-up geëxporteerd](/documentation/general/backup) van "
 "AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar "
@@ -483,9 +486,22 @@ msgstr ""
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
-"phone: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` and "
-"then the select the folder of a podcast. Note that this will only give you "
-"access to previously downloaded media - you will not receive new episodes."
+"phone:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+#, fuzzy
+msgid ""
+"On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
+"`files` » `media` and select the folder of a podcast. Note that this will "
+"only give you access to previously downloaded media - you will not receive "
+"new episodes."
 msgstr ""
 "In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor "
 "naar `Podcast toevoegen` en tik op `Lokale map toevoegen`. Ga vervolgens "
@@ -971,13 +987,16 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
+#, fuzzy
 msgid ""
-"OPML files allow to transfer your subscriptions to another podcast app. You "
-"will lose any podcast- or episode-specific data (e.g. which episodes have "
-"been played) and all app settings. To export your file, go to `Settings` » "
-"`Storage` » `Import/Export`. Be sure to click `Send…` to save the file in "
-"another folder on your phone or somewhere else, because the original file "
-"will be deleted when you uninstall AntennaPod."
+"OPML files allow you to transfer your subscriptions to another podcast app. "
+"You will lose any podcast-specific or episode-specific data (e.g., which "
+"episodes have been played) and all app settings. To export your file, go to "
+"`Settings` » `Import/Export` » `OPML export`. Depending on your Android "
+"version, you may be asked to choose where to save the file. If a *save "
+"dialog* opens right away, make sure to select a folder outside the "
+"AntennaPod directory (for example, `Downloads` or another visible folder), "
+"so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "Met OPML-bestanden zet je abonnementen over naar een andere podcast-app. "
 "Alle podcast- of afleveringsspecifieke gegevens (bijvoorbeeld of een "
@@ -2830,6 +2849,13 @@ msgstr "Op het `tandwiel`-pictogram tikken om de instellingen te openen"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "De instelling `Labels` selecteren"
+
+#~ msgid ""
+#~ "**Pull down twice** from the top of the screen, so you see the full "
+#~ "buttons (below the brightness indicator)"
+#~ msgstr ""
+#~ "**Trek tweemaal omlaag** vanaf de bovenkant van het scherm, zodat je de "
+#~ "volledige knoppen ziet (onder de helderheidsindicator)"
 
 #~ msgid ""
 #~ "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"

@@ -40,10 +40,10 @@ msgid ""
 "deletion`. When enabled, episodes are deleted when playback completes (but "
 "not when manually marking an episode as 'played')."
 msgstr ""
-"„Nach Wiedergabe löschen“ befindet sich in `Einstellungen` » `Downloads` » `"
-"Automatisches Löschen`. Wenn diese Option aktiviert ist, werden Episoden "
-"nach beendeter Wiedergabe gelöscht "
-"(jedoch nicht, wenn eine Episode manuell als „abgespielt“ markiert wird)."
+"„Nach Wiedergabe löschen“ befindet sich in `Einstellungen` » `Downloads` » "
+"`Automatisches Löschen`. Wenn diese Option aktiviert ist, werden Episoden "
+"nach beendeter Wiedergabe gelöscht (jedoch nicht, wenn eine Episode manuell "
+"als „abgespielt“ markiert wird)."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Delete before auto download"
@@ -62,9 +62,9 @@ msgstr ""
 "`Downloads` » `Automatisches Löschen`. Wenn das automatische Herunterladen "
 "Platz für neue Episoden benötigt, werden alte Episoden gelöscht, die sich "
 "nicht in der Warteschlange befinden und nicht als Favoriten markiert sind. "
-"Du kannst festlegen, welche Episoden aufgrund ihres Status "
-"(z. B. nicht als Favorit markiert oder nicht in der Warteschlange) oder nach "
-"Ablauf einer bestimmten Zeit nach dem Abspielen gelöscht werden sollen."
+"Du kannst festlegen, welche Episoden aufgrund ihres Status (z. B. nicht als "
+"Favorit markiert oder nicht in der Warteschlange) oder nach Ablauf einer "
+"bestimmten Zeit nach dem Abspielen gelöscht werden sollen."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
@@ -274,9 +274,10 @@ msgstr ""
 "des Problems zu finden."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
-"us about the issue. You can create a post on [on our forum](https://"
+"us about the issue. You can create a post on [our forum](https://"
 "forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
@@ -325,12 +326,13 @@ msgstr "Behelfslösung"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
+#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
 "see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
+"*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
+"pause playback, even if playback has been paused for a while."
 msgstr ""
 "Um die Wiedergabe trotzdem fortsetzen zu können, kannst du die sogenannte "
 "„AntennaPod-Kachel“ auf deinem Gerät hinzufügen. Kacheln sind im "
@@ -348,33 +350,34 @@ msgstr "Um die AntennaPod-Kachel hinzuzufügen:"
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
+"**Pull down twice** from the top of the screen to fully open the Quick "
+"Settings. On some Android versions (for example, Samsung One UI or Xiaomi "
+"MIUI) an equivalent Control Center with similar gestures may already contain "
+"a media tile, check your device settings if behavior differs"
 msgstr ""
-"**Ziehe zweimal** vom oberen Bildschirmrand nach unten, sodass die "
-"Schaltflächen vollständig sichtbar sind (unter der Helligkeitsanzeige)"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
+#, fuzzy
+msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr ""
 "**Tippe auf das Bleistift-Symbol** unten im Kachelbereich, um die Kacheln zu "
 "bearbeiten"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
+#, fuzzy
 msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
+"Scroll through the list of tiles and **drag the AntennaPod tile** up into "
+"the list of active tiles"
 msgstr ""
 "Scrolle in der Liste der Kacheln nach unten, **tippe auf die AntennaPod-"
 "Kachel und ziehe sie** nach oben in die Liste der aktiven Kacheln"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
+#, fuzzy
+msgid "Tap the **back arrow** or **save** to exit the tile editing"
 msgstr "Tippe auf den Zurück-Pfeil, um das Bearbeiten zu beenden"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
@@ -444,13 +447,13 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
+#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
-"`Storage` » `Import/Export` » `Database import` and select the back-up. Note "
-"that the backup might contain the partial corruption, so it is still "
-"recommended to go through the second step to fix the problem once and for "
-"all."
+"`Import/Export` » `Database import` and select the backup file. Note that "
+"the backup might contain the partial corruption, so it is still recommended "
+"to go through the second step to fix the problem once and for all."
 msgstr ""
 "Hast du kürzlich eine [Sicherung](/de/documentation/general/backup) aus "
 "AntennaPod exportiert? Dann ist das Wiederherstellen relativ einfach: Gehe "
@@ -491,9 +494,22 @@ msgstr ""
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
-"phone: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` and "
-"then the select the folder of a podcast. Note that this will only give you "
-"access to previously downloaded media - you will not receive new episodes."
+"phone:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+#, fuzzy
+msgid ""
+"On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
+"`files` » `media` and select the folder of a podcast. Note that this will "
+"only give you access to previously downloaded media - you will not receive "
+"new episodes."
 msgstr ""
 "In AntennaPod kannst du einen Ordner hinzufügen, als wäre er ein Feed. Gehe "
 "dazu auf `Podcast hinzufügen` und tippe auf `Lokalen Ordner hinzufügen`. "
@@ -1015,13 +1031,16 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
+#, fuzzy
 msgid ""
-"OPML files allow to transfer your subscriptions to another podcast app. You "
-"will lose any podcast- or episode-specific data (e.g. which episodes have "
-"been played) and all app settings. To export your file, go to `Settings` » "
-"`Storage` » `Import/Export`. Be sure to click `Send…` to save the file in "
-"another folder on your phone or somewhere else, because the original file "
-"will be deleted when you uninstall AntennaPod."
+"OPML files allow you to transfer your subscriptions to another podcast app. "
+"You will lose any podcast-specific or episode-specific data (e.g., which "
+"episodes have been played) and all app settings. To export your file, go to "
+"`Settings` » `Import/Export` » `OPML export`. Depending on your Android "
+"version, you may be asked to choose where to save the file. If a *save "
+"dialog* opens right away, make sure to select a folder outside the "
+"AntennaPod directory (for example, `Downloads` or another visible folder), "
+"so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "Mit OPML-Dateien kannst du deine Abonnements auf eine andere Podcast-App "
 "übertragen. Allerdings verlierst du dabei alle podcast- oder "
@@ -1297,8 +1316,8 @@ msgstr ""
 "von Episoden. Insbesondere kann AntennaPod Episoden automatisch löschen, "
 "wenn die Wiedergabe beendet ist und wenn Speicherplatz für das automatische "
 "Herunterladen benötigt wird. Weitere Informationen zu diesen Optionen "
-"findest du unter [Automatisches Löschen]"
-"(/de/documentation/automation/deletion)."
+"findest du unter [Automatisches Löschen](/de/documentation/automation/"
+"deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
 msgid ""
@@ -1979,8 +1998,8 @@ msgid ""
 "to listen to them or not. If an episode is in the inbox, it means that you "
 "have not yet decided what to do with the episode."
 msgstr ""
-"Zuerst solltest du einen Podcast abonnieren. Mehr dazu findest du [hier]"
-"(/documentation/getting-started/subscribe). Nach dem Abonnieren werden neue "
+"Zuerst solltest du einen Podcast abonnieren. Mehr dazu findest du [hier](/"
+"documentation/getting-started/subscribe). Nach dem Abonnieren werden neue "
 "Episoden im `Posteingang` angezeigt. Dort kannst du entscheiden, ob du sie "
 "dir anhören möchtest oder nicht. Wenn eine Episode im Posteingang ist, "
 "bedeutet das, dass du noch nicht entschieden hast, was du mit der Episode "
@@ -2303,13 +2322,13 @@ msgstr ""
 "BENUTZERNAME` oder `https://www.youtube.com/channel/KANAL_ID`) in AntennaPod "
 "hinzu. Es sollte ein Dialog mit der Option „RSS“ angezeigt werden; tippe "
 "darauf, um den Feed hinzuzufügen. Wenn dies nicht wie beschrieben "
-"funktioniert, füge `https://www.youtube.com/feeds/"
-"videos.xml?channel_id=<KANAL_ID>` zu AntennaPod hinzu. Die Kanal-ID findest "
-"du in der Adresse des Kanals. Wenn der Kanal, den du abonnieren möchtest, "
-"ein Benutzerkonto ist (mit einer Adresse wie youtube.com/user/BENUTZERNAME), "
-"kannst du den Benutzer nach seiner Kanal-ID fragen (hier wird erklärt "
-"[wie Benutzer ihre Kanal-ID finden können]"
-"(https://support.google.com/youtube/answer/3250431?hl=de))."
+"funktioniert, füge `https://www.youtube.com/feeds/videos.xml?"
+"channel_id=<KANAL_ID>` zu AntennaPod hinzu. Die Kanal-ID findest du in der "
+"Adresse des Kanals. Wenn der Kanal, den du abonnieren möchtest, ein "
+"Benutzerkonto ist (mit einer Adresse wie youtube.com/user/BENUTZERNAME), "
+"kannst du den Benutzer nach seiner Kanal-ID fragen (hier wird erklärt [wie "
+"Benutzer ihre Kanal-ID finden können](https://support.google.com/youtube/"
+"answer/3250431?hl=de))."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 15 (paragraph)
 msgid ""
@@ -2557,11 +2576,11 @@ msgid ""
 "your website or wherever you want. Make sure to replace `xyz` with the URL "
 "of your RSS feed and `abc` with the title of your podcast."
 msgstr ""
-"Möchtest du es deinem Netzwerk oder deinen Zuhörenden leicht machen, deine(n)"
-" Podcast(s) in AntennaPod hinzuzufügen? Füge einfach einen Link wie den "
-"unten stehenden auf deiner Website oder wo auch immer du möchtest ein. Achte "
-"darauf, dass du `xyz` durch die URL deines RSS-Feeds und `abc` durch den "
-"Titel deines Podcasts ersetzt."
+"Möchtest du es deinem Netzwerk oder deinen Zuhörenden leicht machen, "
+"deine(n) Podcast(s) in AntennaPod hinzuzufügen? Füge einfach einen Link wie "
+"den unten stehenden auf deiner Website oder wo auch immer du möchtest ein. "
+"Achte darauf, dass du `xyz` durch die URL deines RSS-Feeds und `abc` durch "
+"den Titel deines Podcasts ersetzt."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2924,6 +2943,13 @@ msgstr "Tippe auf das `Zahnrad`-Symbol, um die Einstellungen zu öffnen"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "`Tags`-Einstellung wählen"
+
+#~ msgid ""
+#~ "**Pull down twice** from the top of the screen, so you see the full "
+#~ "buttons (below the brightness indicator)"
+#~ msgstr ""
+#~ "**Ziehe zweimal** vom oberen Bildschirmrand nach unten, sodass die "
+#~ "Schaltflächen vollständig sichtbar sind (unter der Helligkeitsanzeige)"
 
 #~ msgid ""
 #~ "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"

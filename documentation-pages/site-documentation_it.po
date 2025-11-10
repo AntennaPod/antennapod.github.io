@@ -43,8 +43,8 @@ msgid ""
 msgstr ""
 "L'eliminazione degli episodi riprodotti si trova in `Impostazioni` » "
 "`Download`» `Eliminazione automatica`. Quando è abilitata, gli episodi "
-"vengono eliminati quando la riproduzione è completata "
-"(ma non quando si contrassegna manualmente un episodio come \"riprodotto\")."
+"vengono eliminati quando la riproduzione è completata (ma non quando si "
+"contrassegna manualmente un episodio come \"riprodotto\")."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Delete before auto download"
@@ -63,9 +63,8 @@ msgstr ""
 "`Download` » `Eliminazione automatica`. Se il download automatico ha bisogno "
 "di spazio per i nuovi episodi, eliminerà i vecchi episodi che non sono in "
 "coda e che non sono contrassegnati come preferiti. È possibile impostare "
-"quali episodi sono eliminabili in base al loro stato "
-"(per es. non preferiti o non in coda) o in base al tempo trascorso dalla "
-"loro riproduzione completa."
+"quali episodi sono eliminabili in base al loro stato (per es. non preferiti "
+"o non in coda) o in base al tempo trascorso dalla loro riproduzione completa."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
@@ -272,9 +271,10 @@ msgstr ""
 "potrebbe aiutare gli sviluppatori a trovare la fonte del problema."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
-"us about the issue. You can create a post on [on our forum](https://"
+"us about the issue. You can create a post on [our forum](https://"
 "forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
@@ -321,12 +321,13 @@ msgstr "Espediente"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
+#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
 "see when you pull down from the top of the screen. You probably know the "
-"Internet or Flashlight tile. The AntennaPod tile allows you play and pause "
-"playback, even if playback has been paused for a while."
+"*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
+"pause playback, even if playback has been paused for a while."
 msgstr ""
 "Per poter riprendere la riproduzione, puoi aggiungere la cosiddetta 'tile' "
 "di AntennaPod sul tuo dispositivo. Le tile sono i pulsanti che vedi quando "
@@ -343,33 +344,34 @@ msgstr "Per aggiungere la tile di AntennaPod:"
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid ""
-"**Pull down twice** from the top of the screen, so you see the full buttons "
-"(below the brightness indicator)"
+"**Pull down twice** from the top of the screen to fully open the Quick "
+"Settings. On some Android versions (for example, Samsung One UI or Xiaomi "
+"MIUI) an equivalent Control Center with similar gestures may already contain "
+"a media tile, check your device settings if behavior differs"
 msgstr ""
-"**Scorri verso il basso due volte**, in modo da vedere tutti i pulsanti (al "
-"di sotto dell'indicatore della luminosità)"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid ""
-"**Tap on the pencil icon** at the bottom of the tiles section to edit the "
-"tiles"
+#, fuzzy
+msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr ""
 "**Tocca l'icona della matita** in fondo alla sezione delle tile per "
 "modificarle"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
+#, fuzzy
 msgid ""
-"Scroll down the list of tiles, **tap on the AntennaPod tile and drag it** up "
-"into the list of active tiles"
+"Scroll through the list of tiles and **drag the AntennaPod tile** up into "
+"the list of active tiles"
 msgstr ""
 "Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** "
 "verso l'alto nell'elenco di tile attive"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-msgid "Tap the back arrow to exit the tile editing"
+#, fuzzy
+msgid "Tap the **back arrow** or **save** to exit the tile editing"
 msgstr "Tocca la freccia indietro per uscire dalla modalità di modifica tile"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
@@ -439,13 +441,13 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
+#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
-"`Storage` » `Import/Export` » `Database import` and select the back-up. Note "
-"that the backup might contain the partial corruption, so it is still "
-"recommended to go through the second step to fix the problem once and for "
-"all."
+"`Import/Export` » `Database import` and select the backup file. Note that "
+"the backup might contain the partial corruption, so it is still recommended "
+"to go through the second step to fix the problem once and for all."
 msgstr ""
 "Hai [esportato un backup](/documentation/general/backup) da AntennaPod di "
 "recente? Allora ripristinarlo è relativamente facile: vai su "
@@ -485,9 +487,22 @@ msgstr ""
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
-"phone: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` and "
-"then the select the folder of a podcast. Note that this will only give you "
-"access to previously downloaded media - you will not receive new episodes."
+"phone:"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
+msgstr ""
+
+#: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
+#: list)
+#, fuzzy
+msgid ""
+"On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
+"`files` » `media` and select the folder of a podcast. Note that this will "
+"only give you access to previously downloaded media - you will not receive "
+"new episodes."
 msgstr ""
 "In AntennaPod è possibile aggiungere una cartella come se fosse un feed. Per "
 "farlo, vai su `Aggiungi podcast` e tocca `Aggiungi cartella locale`. Poi vai "
@@ -877,8 +892,8 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
-"**Accesso allo spazio di archiviazione**: quando crei una \"cartella locale\""
-", l'app ti chiederà di avere accesso a lungo termine a una cartella "
+"**Accesso allo spazio di archiviazione**: quando crei una \"cartella "
+"locale\", l'app ti chiederà di avere accesso a lungo termine a una cartella "
 "specifica. Quando importi un database o un file OPML, selezionare quel file "
 "darà all'app l'accesso una tantum al file."
 
@@ -1008,13 +1023,16 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
+#, fuzzy
 msgid ""
-"OPML files allow to transfer your subscriptions to another podcast app. You "
-"will lose any podcast- or episode-specific data (e.g. which episodes have "
-"been played) and all app settings. To export your file, go to `Settings` » "
-"`Storage` » `Import/Export`. Be sure to click `Send…` to save the file in "
-"another folder on your phone or somewhere else, because the original file "
-"will be deleted when you uninstall AntennaPod."
+"OPML files allow you to transfer your subscriptions to another podcast app. "
+"You will lose any podcast-specific or episode-specific data (e.g., which "
+"episodes have been played) and all app settings. To export your file, go to "
+"`Settings` » `Import/Export` » `OPML export`. Depending on your Android "
+"version, you may be asked to choose where to save the file. If a *save "
+"dialog* opens right away, make sure to select a folder outside the "
+"AntennaPod directory (for example, `Downloads` or another visible folder), "
+"so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "I file OPML permettono di trasferire le tue iscrizioni in un'altra app di "
 "podcast. Perderai tutti i dati specifici dei podcast o degli episodi (ad "
@@ -2909,6 +2927,13 @@ msgstr "Tocca `l'icona dell'ingranaggio` per accedere alle sue impostazioni"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleziona l'opzione `Tag`"
+
+#~ msgid ""
+#~ "**Pull down twice** from the top of the screen, so you see the full "
+#~ "buttons (below the brightness indicator)"
+#~ msgstr ""
+#~ "**Scorri verso il basso due volte**, in modo da vedere tutti i pulsanti "
+#~ "(al di sotto dell'indicatore della luminosità)"
 
 #~ msgid ""
 #~ "Llama - Location Profiles ([website](http://kebabapps.blogspot.com/search/"
