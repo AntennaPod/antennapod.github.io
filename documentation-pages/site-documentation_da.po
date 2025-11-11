@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-11-08 16:51+0000\n"
+"PO-Revision-Date: 2025-11-11 20:51+0000\n"
 "Last-Translator: ERYpTION <eryption@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/da/>\n"
@@ -263,7 +263,6 @@ msgstr ""
 "problemet."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
 "us about the issue. You can create a post on [our forum](https://"
@@ -271,9 +270,10 @@ msgid ""
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
 "Hvis du har opdateret AntennaPod og søgt i vores forum uden held, så fortæl "
-"os om problemet. Du kan oprette et indlæg på [på vores forum](https://"
-"forum.antennapod.org/c/bug-report/9). For at gøre det skal du oprette en "
-"konto (hvis du ikke allerede har en) eller blot logge ind via Google."
+"os om problemet. Du kan oprette et indlæg på [vores forum]"
+"(https://forum.antennapod.org/c/bug-report/9). For at gøre det skal du "
+"oprette en konto (hvis du ikke allerede har en) eller blot logge ind via "
+"Google."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
@@ -312,7 +312,6 @@ msgstr "Midlertidig løsning"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
-#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
@@ -322,10 +321,10 @@ msgid ""
 msgstr ""
 "For stadig at kunne genoptage afspilningen, kan du tilføje den såkaldte "
 "AntennaPod 'flise' på din enhed. Fliser er i bund og grund de knapper, du "
-"ser, når du trækker ned fra toppen af skærmen. Du kender sikkert internet- "
-"eller lommelygteflisen. AntennaPod-flisen giver dig mulighed for at afspille "
-"og sætte afspilningen på pause, selv hvis afspilningen har været sat på "
-"pause i et stykke tid."
+"ser, når du trækker ned fra toppen af skærmen. Du kender sikkert flisen "
+"*internet* eller *lommelygte*. AntennaPod-flisen giver dig mulighed for at "
+"afspille og sætte afspilningen på pause, selv hvis afspilningen har været "
+"sat på pause i et stykke tid."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
 #: (paragraph)
@@ -340,13 +339,16 @@ msgid ""
 "MIUI) an equivalent Control Center with similar gestures may already contain "
 "a media tile, check your device settings if behavior differs"
 msgstr ""
+"**Træk ned to gange** fra toppen af skærmen for at åbne Hurtige "
+"indstillinger helt. På nogle Android-versioner "
+"(f.eks. Samsung One UI eller Xiaomi MIUI) kan et tilsvarende kontrolcenter "
+"med lignende bevægelser allerede indeholde en medieflise. Kontroller din "
+"enheds indstillinger, hvis adfærden er anderledes"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
-msgstr ""
-"**Tryk på blyantsikonet** i bunden af fliserne for at redigere fliserne"
+msgstr "**Tryk på blyantsikonet** i flisesektionen for at redigere fliserne"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -360,9 +362,8 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "Tap the **back arrow** or **save** to exit the tile editing"
-msgstr "Tryk på tilbage-pilen for at afslutte fliseredigering"
+msgstr "Tryk på **tilbage-pilen** eller **gem** for at afslutte fliseredigering"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -447,7 +448,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -459,8 +459,9 @@ msgstr ""
 "Hvis AntennaPod opdager en beskadiget database, skrives den til en fil ved "
 "navn CorruptedDatabaseBackup.db i appens lagermappe. Du kan forsøge at "
 "reparere denne fil (eller reparere en eksporteret sikkerhedskopi) ved hjælp "
-"af et af nedenstående trin. Det er en udfordring og kræver, at man lærer at "
-"håndtere en terminal."
+"af et [Python script](https://github.com/ByteHamster/AntennaPodDbFixer), der "
+"blev udviklet til at automatisere gendannelsesprocessen. Det er en "
+"udfordring og kræver, at man lærer at håndtere en terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -973,7 +974,6 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
-#, fuzzy
 msgid ""
 "OPML files allow you to transfer your subscriptions to another podcast app. "
 "You will lose any podcast-specific or episode-specific data (e.g., which "
@@ -985,12 +985,14 @@ msgid ""
 "so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "OPML-filer gør det muligt at overføre dine abonnementer til en anden podcast-"
-"app. Du mister alle podcast- eller afsnitsspecifikke data (f.eks. om et "
-"bestemt afsnit er blevet afspillet) og alle app-indstillinger. Hvis du vil "
-"eksportere din fil, skal du gå til `Indstillinger` » `Lagring` » `Import/"
-"eksport`. Sørg for at klikke på `Send…` for at gemme filen i en anden mappe "
-"på din telefon eller et andet sted, for den oprindelige fil slettes, når du "
-"afinstallerer AntennaPod."
+"app. Du mister alle podcast- eller afsnitsspecifikke data "
+"(f.eks. om,hvilke afsnit der er blevet afspillet) og alle app-indstillinger. "
+"Hvis du vil eksportere din fil, skal du gå til `Indstillinger` » `Import/"
+"eksport` » `OPML-eksport`. Afhængigt af din Android-version kan du blive "
+"bedt om at vælge, hvor filen skal gemmes. Hvis en *gem-dialog* åbnes med det "
+"samme, skal du sørge for at vælge en mappe uden for AntennaPod-mappen "
+"(for eksempel `Downloads` eller en anden synlig mappe), så den eksporterede "
+"OPML-fil ikke slettes, hvis du afinstallerer AntennaPod."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
