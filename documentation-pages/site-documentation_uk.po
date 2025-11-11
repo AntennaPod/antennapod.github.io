@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:54+0200\n"
-"PO-Revision-Date: 2025-11-06 06:51+0000\n"
+"PO-Revision-Date: 2025-11-11 17:51+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/uk/>\n"
@@ -11,8 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.15-dev\n"
 
 #
@@ -58,13 +59,11 @@ msgid ""
 "their status (e.g. not favorited or not in queue) or a period of time after "
 "finishing."
 msgstr ""
-"Функція «Видалити перед автоматичним завантаженням» знаходиться в "
-"`Налаштуваннях` `Завантаження` `Автоматичне видалення`. Якщо для "
-"автоматичного завантаження потрібно місце для нових епізодів, програма "
-"видалить старі епізоди, які не знаходяться в черзі і не позначені як "
-"улюблені. Ви можете встановити, які епізоди підлягають видаленню, виходячи з "
-"їх статусу (наприклад, не додані в улюблені або не знаходяться в черзі) або "
-"періоду часу після завершення."
+"Видалення перед автоматичним завантаженням розташоване в `Складаннях` Якщо "
+"автоматичне завантаження потребує місця для нових епізодів, це видалить "
+"старі епізоди, які не є в черзі та не помічені як улюблені. Ви можете "
+"встановити, які епізоди мають право видалити залежно від їхнього статусу "
+"(наприклад. не улюблений або не в черзі) чи період часу після закінчення."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
 msgid ""
@@ -270,17 +269,17 @@ msgstr ""
 "допомогти розробникам знайти джерело проблеми."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
 "us about the issue. You can create a post on [our forum](https://"
 "forum.antennapod.org/c/bug-report/9). To do so you need to create an account "
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
-"Якщо ви оновили AntennaPod і шукали на нашому форумі безрезультатно, "
-"розкажіть нам про проблему. Ви можете створити допис на [на нашому форумі]"
-"(https://forum.antennapod.org/c/bug-report/9). Для цього потрібно створити "
-"обліковий запис (якщо у вас його ще немає) або просто увійти через Google."
+"Якщо ви оновлювали AntennaPod і шукали наш форум без користі, скажіть нам "
+"про проблему. Ви можете створити публікацію на [нашому форумі]"
+"(https://forum.antennapod.org/c/bug-report/9). Щоб зробити це, вам потрібно "
+"створити обліковий запис (якщо у вас вже немає) або просто зареєструватися "
+"через Google."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
@@ -319,7 +318,6 @@ msgstr "Обхідний шлях"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
-#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
@@ -327,12 +325,11 @@ msgid ""
 "*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
 "pause playback, even if playback has been paused for a while."
 msgstr ""
-"Щоб мати можливість відновити відтворення, ви можете додати на свій пристрій "
-"так звану «плитку» AntennaPod. Плитки – це, по суті, кнопки, які ви бачите, "
-"коли тягнете вниз з верхньої частини екрана. Ви, напевно, знаєте плитку "
-"Інтернет або Ліхтарик. Плитка AntennaPod дозволяє відтворювати та "
-"призупиняти відтворення, навіть якщо відтворення було призупинено на деякий "
-"час."
+"Щоб продовжувати відтворення, ви можете додати так званий AntennaPod 'tile' "
+"до свого пристрою. Плітки в основному є кнопками, які ви бачите, коли "
+"відвертаєте з верхньої частини екрану. Ви, ймовірно, знаєте плитку *Інтернет*"
+" або *Flashlight*. Плітка AntennaPod дозволяє грати та зупинити відтворення, "
+"навіть якщо відтворення було припинено деякий час."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
 #: (paragraph)
@@ -347,29 +344,31 @@ msgid ""
 "MIUI) an equivalent Control Center with similar gestures may already contain "
 "a media tile, check your device settings if behavior differs"
 msgstr ""
+"**Витягнути двічі** з верхньої частини екрану, щоб повністю відкрити швидкі "
+"налаштування. На деяких версіях Android "
+"(наприклад, Samsung One UI або Xiaomi MIUI) еквівалентний Центр керування з "
+"подібними жестами може вже містити медіа плитки, перевіріть налаштування "
+"пристрою, якщо поведінка відрізняється"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
-msgstr ""
-"**Торкніться значка олівця** внизу розділу плиток, щоб редагувати плитки"
+msgstr "**Натисніть на значок олівця** у розділі плиток, щоб редагувати плитки"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid ""
 "Scroll through the list of tiles and **drag the AntennaPod tile** up into "
 "the list of active tiles"
 msgstr ""
-"Прокрутіть список плиток вниз, **торкніться плитки AntennaPod і перетягніть "
-"її** вгору до списку активних плиток"
+"Прокрутіть список плиток і **перетягніть плитку AntennaPod** вгору до списку "
+"активних плиток"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "Tap the **back arrow** or **save** to exit the tile editing"
-msgstr "Торкніться стрілки назад, щоб вийти з редагування плитки"
+msgstr ""
+"Натисніть **стрілку назад** або **зберегти**, щоб вийти з редагування плитки"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -435,7 +434,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -443,12 +441,11 @@ msgid ""
 "the backup might contain the partial corruption, so it is still recommended "
 "to go through the second step to fix the problem once and for all."
 msgstr ""
-"Ви нещодавно [експортували резервну копію](/documentation/general/backup) із "
-"AntennaPod? Тоді відновити це відносно легко: перейдіть до `Налаштування` » "
-"`Зберігання` » `Імпорт/Експорт` » `Імпорт бази даних` і виберіть резервну "
-"копію. Зверніть увагу, що резервна копія може містити часткове пошкодження, "
-"тому все одно рекомендується пройти другий крок, щоб вирішити проблему раз і "
-"назавжди."
+"Ви нещодавно [експортували резервну копію](/documentation/general/backup) з "
+"AntennaPod. Потім відновлення цього відносно легко: перейдіть до `Статувань` "
+"`Імпорт/експорт` Зверніть увагу, що резервна копія може містити часткову "
+"корупцію, тому все одно рекомендується пройти другий крок для вирішення "
+"проблеми назавжди."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -483,27 +480,26 @@ msgid ""
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
 "phone:"
 msgstr ""
+"В AntennaPod ви можете додати папку так, ніби це стрічка новин. Для цього "
+"перейдіть до розділу `Додати подкаст` і натисніть `Додати локальну папку`. "
+"Потім перейдіть до цієї папки на своєму телефоні:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
-msgstr ""
+msgstr "На Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
 "`files` » `media` and select the folder of a podcast. Note that this will "
 "only give you access to previously downloaded media - you will not receive "
 "new episodes."
 msgstr ""
-"У AntennaPod ви можете додати папку, ніби це канал. Для цього перейдіть до "
-"«Додати подкаст» і натисніть «Додати локальну папку». Потім перейдіть до "
-"цієї папки на телефоні: `Android` » `data` » `de.danoeh.antennapod` » "
-"`files` » `media`, а потім виберіть папку подкасту. Зауважте, що це дасть "
-"вам доступ лише до раніше завантажених медіафайлів – ви не отримуватимете "
-"нових епізодів."
+"На Android 10 і раніше: `Android、 `data`, de.danoeh.antennapod`, fil's`, "
+"media` та виберіть папку підкасту. Зверніть увагу, що це дасть вам доступ "
+"лише до попередніх завантажених медіа - ви не отримаєте нових епізодів."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -1004,7 +1000,6 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
-#, fuzzy
 msgid ""
 "OPML files allow you to transfer your subscriptions to another podcast app. "
 "You will lose any podcast-specific or episode-specific data (e.g., which "
@@ -1015,13 +1010,15 @@ msgid ""
 "AntennaPod directory (for example, `Downloads` or another visible folder), "
 "so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
-"Файли OPML дозволяють перенести ваші підписки в інший додаток для подкастів. "
-"Ви втратите всі дані подкастів або епізодів (наприклад, які епізоди "
-"відтворювалися) і всі налаштування програми. Щоб експортувати файл, "
-"перейдіть до `Налаштування` » `Зберігання` » `Імпорт/Експорт`. Обов’язково "
-"натисніть «Надіслати…», щоб зберегти файл в іншій папці на вашому телефоні "
-"або в іншому місці, оскільки вихідний файл буде видалено, коли ви видалите "
-"AntennaPod."
+"Файли OPML дозволяють передати підписки на іншу програму podcast. Ви "
+"втратите будь-які дані щодо підкастів або епізодів "
+"(наприклад, які епізоди гралися) та всі налаштування програми. Щоб "
+"експортувати свій файл, перейдіть до `Складинки` `Імпорт/експорт` Залежно "
+"від вашої версії Android вас можуть попросити вибрати, де зберегти файл. "
+"Якщо негайно відкривається діалог *за збереження*, обов'язково виберіть "
+"папку за межами каталогу AntennaPod (наприклад, `Завантаження') або інший "
+"видимий папка, щоб експортований файл OPML не видалявся, якщо ви видалите "
+"Antennapod."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
