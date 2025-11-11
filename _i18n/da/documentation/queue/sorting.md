@@ -1,10 +1,10 @@
 You can sort your queue using different sorting criteria: `Episode title`, `Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most of them are self-explanatory, this page focuses specifically on `Podcast title` and `Smart shuffle`.
 
-# Podcast title
+# Titel på podcast
 
 This criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by `Date` and then sort by `Podcast title`.
 
-# Smart shuffle
+# Smart blanding
 
 Smart blanding er et avanceret køsorteringskriterie, der giver dig mulighed for at holde din kø sorteret efter udgivelsesdato, samtidig med at du så vidt muligt undgår at have klynger af afsnit fra et enkelt abonnement i din kø.
 

@@ -7,7 +7,7 @@ Vi er klar over, at det er meget frustrerende, når det sker, og vi beklager meg
 Der kan være nogle ting, du kan gøre for at gendanne dine data. Vi opregner dem nedenfor, begyndende med den løsning, der giver de nemmeste og bedste resultater:
 
 1. Har du for nylig [eksporteret en sikkerhedskopi](/documentation/general/backup) fra AntennaPod? Så er det relativt nemt at gendanne den: Gå til `Indstillinger` » `Lagring` " `Import/eksport` » `Importér database` og vælg sikkerhedskopien. Bemærk, at sikkerhedskopien kan indeholde den delvise beskadigelse, så det anbefales stadig at gå gennem det andet trin for at løse problemet en gang for alle.
-1. Hvis AntennaPod opdager en beskadiget database, skrives den til en fil ved navn CorruptedDatabaseBackup.db i appens lagermappe. Du kan forsøge at reparere denne fil (eller reparere en eksporteret sikkerhedskopi) ved hjælp af et af nedenstående trin. Det er en udfordring og kræver, at man lærer at håndtere en terminal.
+1. Hvis AntennaPod opdager en beskadiget database, skrives den til en fil ved navn CorruptedDatabaseBackup.db i appens lagermappe. Du kan forsøge at reparere denne fil (eller reparere en eksporteret sikkerhedskopi) ved hjælp af et [Python script](https://github.com/ByteHamster/AntennaPodDbFixer), der blev udviklet til at automatisere gendannelsesprocessen. Det er en udfordring og kræver, at man lærer at håndtere en terminal.
 1. Mens alle data *om* dine abonnementer og afsnit er væk, vil mediefilerne stadig være der.
 
 * In AntennaPod you can add a folder as if it were a feed. To do this, go to `Add Podcast` and tap on `Add local folder`. Then go to this folder on your phone:

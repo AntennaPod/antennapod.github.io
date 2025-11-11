@@ -8,66 +8,66 @@ AntennaPod-appen gemmer kun de data, der er strengt nødvendige for, at appen ka
 
 **Alle data, der leveres og oprettes af AntennaPod-appen, gemmes lokalt på din enhed. AntennaPod sender eller uploader ikke dine data nogen steder, undtagen hvor det er strengt nødvendigt for at appen kan fungere, eller når du aktivt deler fejlfindingsoplysninger med os. ** Se det andet næstfølgende afsnit om de tilfælde, hvor dine oplysninger kan videregives til tredjeparter. Hvis du er interesseret, kan du også læse om AntennaPods [app-tilladelser](/documentation/general/app-permissions) i dokumentationen.
 
-aktivt deler fejlfindingsoplysninger (enten via e-mail ved hjælp af funktionen 'Nedbrudsrapport' eller via Googles funktion til rapportering af Android-nedbrud):
+Når du deler fejlfindingsoplysninger (enten via e-mail ved hjælp af funktionen `Nedbrudsrapport` eller via Android's funktion til rapportering af nedbrud), behandles følgende data:
 
 - enhedstype
 - Android-version
 - AntennaPod-version
 
-Det eneste tilfælde, hvor dine data fra tredjeparter håndteres, er ved brug af en synkroniseringstjeneste, hvis den er aktiveret via indstillingerne. I det tilfælde kan appen modtage abonnementer og afspilningshændelser, der leveres af tjenesten.
+Det eneste tilfælde, hvor personlige data *fra* tredjeparter håndteres, er ved brug af en synkroniseringstjeneste, hvis den er aktiveret via indstillingerne. I det tilfælde kan appen modtage abonnementer og afspilningshændelser, der leveres af tjenesten.
 
-### Hvilke app-data andre parter kan indsamle, gemme og behandle
+### Data andre parter muligvis indsamler, gemmer og behandler
 
-#### Podcast hosters
+#### Podcast-hostingudbydere
 
-- When provided in the podcast settings, a host will receive the authentication data you provided.
-- Podcast-host: Når det er angivet i podcast-indstillingerne, modtager en host de godkendelsesdata, du har angivet. Webservere, der leverer podcast-feeds, indsamler muligvis yderligere data, f.eks. din IP-adresse, adgangstidspunkt og det, der er tilgået. Dette omfatter de afsnit, du downloader eller streamer. Se deres respektive politikker om beskyttelse af personlige oplysninger for nærmere oplysninger. Du kan se URL'en for en podcast ved at åbne podcasten og trykke på infoikonet. AntennaPod tillader ikke, at fjernservere sætter cookies. Serverne kan registrere, at du bruger AntennaPod, og hvilken version af AntennaPod du bruger (HTTP User-Agent). Hvis flere podcasts er hostet på den samme server, kan serveren registrere listen over podcasts, som du har abonneret på, og som er hostet på den pågældende server. Dette kan ske, hvis udgivere bruger feedburner, podtrac eller lignende tjenester til at distribuere deres feeds.
-- Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).
+- Når det er angivet i podcastindstillingerne, modtager værten de autentificeringsdata, du har angivet.
+- Webservere, der leverer podcast-feeds, indsamler muligvis yderligere data, f.eks. din IP-adresse, adgangstidspunkt og det, der er tilgået. Dette omfatter de afsnit, du downloader eller streamer. Se deres respektive politikker om beskyttelse af personlige oplysninger for nærmere oplysninger. Du kan se URL'en for en podcast ved at åbne podcasten og trykke på infoikonet. AntennaPod tillader ikke, at fjernservere sætter cookies, men rydder dem, hver gang appen genstartes. Webservere har kun adgang til cookies, der er indstillet af den samme server. Hvis flere podcasts er hostet på den samme server, kan denne server potentielt registrere, hvilke af de hostede podcasts du har abonneret på. Dette kan ske, når udgivere bruger tjenester som FeedBurner, Podtrac eller lignende til at distribuere deres feeds.
+- Servere kan registrere, at du bruger AntennaPod, og hvilken version du bruger (via HTTP User-Agent).
 
-#### Discovery and search services
+#### Opdage- og søgetjenester
 
-- When opening the Discover screen in the app, a call is sent to Apple to collect podcast suggestions. Apple may store the request (e.g. your IP address and the selected region, which by default is the device's country). These suggestions can be disabled via the top-menu of the Discover screen. In the F-Droid release, you have to actively consent before getting Apple's recommendations.
-- When using the search feature in AntennaPod, the services PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) may store your query, including the search terms.
-- Discovery and search queries also include IP address, time, and app name 'AntennaPod'. After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
+- Når du åbner skærmbilledet Opdag i appen, sendes der en anmodning til Apple om at indhente podcastforslag. Apple kan gemme anmodningen (f.eks. din IP-adresse og den valgte region, der som standard er enhedens land). Disse forslag kan deaktiveres via topmenuen på skærmbilledet Opdag. I F-Droid-udgaven skal du aktivt give dit samtykke, før du modtager Apples anbefalinger.
+- Når du bruger søgefunktionen i AntennaPod, bruger tjenesterne PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) og fyyd ([privacy policy](https://fyyd.de/privacy)) lagrer muligvis din forespørgsel, herunder søgeordene.
+- Opdage- og søgeforespørgsler inkluderer også IP-adresse, tid og appnavn 'AntennaPod'. Efter tilmelding leveres feedet fra podcast-hostingudbyderen, hvilket betyder, at opdage-/søgetjenesten ikke længere er involveret.
 
-#### Synchronization and backup services
+#### Synkroniserings- og sikkerhedskopieringstjenester
 
-- Synkroniseringstjenester: Når den er aktiveret via indstillingerne, synkroniserer AntennaPod dine data. Disse data kan omfatte loginoplysninger, abonnerede podcasts, lyttede afsnit, afspilning, pause- og favorithandlinger med dato- og tidsstempler samt IP-adresse. Du kan få flere oplysninger i din udbyders privatlivspolitik.
-- Google: Hvis du har aktiveret sikkerhedskopiering og nulstilling i din telefons indstillinger (`Indstillinger` » `Sikkerhedskopiering og nulstilling` » `Sikkerhedskopiering af mine data`), skal du være opmærksom på, at Android selv med jævne mellemrum gemmer en kopi af din telefons data på Googles servere. Denne sikkerhedskopi indeholder private oplysninger, herunder dine Wi-Fi-adgangskoder, beskeder og opkaldshistorik. Den kan også indeholde data fra AntennaPod og fra andre apps, du bruger. Udviklerne af AntennaPod har ikke adgang til disse data. For mere information, se [Google's privatlivspolitik](https://policies.google.com).
+- Når den er aktiveret via indstillingerne, synkroniserer AntennaPod dine data. Disse kan omfatte loginoplysninger, abonnerede podcasts, aflyttede afsnit, pause- og favorithandlinger med dato- og tidsstempler samt din IP-adresse. For mere information, se din synkroniseringsudbyders privatlivspolitik.
+- Hvis sikkerhedskopiering er aktiveret i din telefons indstillinger (`Indstillinger` » `Sikkerhedskopiering og nulstilling` » `Sikkerhedskopiering af mine data`), gemmer Android med jævne mellemrum en kopi af din telefons data på Googles servere. Denne sikkerhedskopi indeholder private oplysninger, herunder dine WiFi-adgangskoder, beskeder og opkaldshistorik. Den kan også indeholde data fra AntennaPod og andre apps, du bruger. Udviklerne af AntennaPod har ikke adgang til disse data. For mere information, se [Google's privatlivspolitik](https://policies.google.com).
 
-#### Device and operating system vendors
+#### Enheds- og operativsystemleverandører
 
-If you enabled [sharing of usage and diagnostics](https://support.google.com/accounts/answer/6078260) with Google and use Android's reporting functionality when AntennaPod crashes or becomes unresponsive, related data is sent to Google. For more information, see [Google's privacy policy](https://policies.google.com).
+Hvis du aktiverede [deling af brug og diagnostik](https://support.google.com/accounts/answer/6078260) med Google og brug af Android-rapporteringsfunktionen, når AntennaPod går ned eller ikke reagerer, sendes relaterede data til Google. For mere information, se [Google's privacy policy](https://policies.google.com).
 
-## Online services
+## Online tjenester
 
-### Data from services hosted by the team
+### Data fra tjenester, der hostes af teamet
 
-- Forummet: AntennaPod's forum bruger Discourse-softwaren, som hostes af kerneholdet. Se venligst [forum's privatlivspolitik](https://forum.antennapod.org/privacy) for hvilke data der er tale om.
+- **Forummet**: AntennaPod's forum bruger Discourse-softwaren, som hostes af kerneholdet. Se venligst [forum's privatlivspolitik](https://forum.antennapod.org/privacy) for flere detaljer.
 
-### Data from services hosted by other parties
+### Data fra tjenester, der hostes af andre parter
 
-#### The donation system
+#### Donationssystemet
 
-Donationssystemet: AntennaPod bruger Open Collective, som tilbydes af Open Collective Inc (USA) & Open Collective Europe ASBL (Belgien). Når du foretager en donation, får disse enheder adgang til visse data. For yderligere oplysninger, se [Open Collective's privatlivspolitik](https://opencollective.com/privacypolicy).
+AntennaPod bruger Open Collective, som drives af Open Collective Inc (USA) og Open Collective Europe ASBL (Belgien). Når du foretager en donation, tilflyder data:
 
-- these entities - for more information, see [Open Collective Inc.'s privacy policy](https://opencollective.com/privacypolicy)
-- aktivt yder et finansielt bidrag via Open Collective (medmindre du yder et bidrag som [anonym gæst](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) eller [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)):
+- disse enheder – for mere information, se [Open Collective Inc.'s privatlivspolitik](https://opencollective.com/privacypolicy)
+- medmindre du bidrager som en [anonym gæst](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest) eller [incognito](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor)) bruger, får AntennaPod-teamet får adgang til (men vil ikke udtrække) dine:
    - offentlige profiloplysninger (navn, virksomhed, beskrivelse, billede, Twitter, GitHub, websted)
    - e-mailadresse
 
-#### Hjemmesidens indhold
+#### Webstedet
 
-AntennaPod's website is hosted via GitHub Pages.
+AntennaPods hjemmeside hostes via GitHub Pages.
 
-- When you visit our website, you are interacting with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for the data they collect and process.
-- The website does not set any cookies and does not use third-party tracking, analytics or other services. The 'Translate' page in the 'Contribute' section contains an embedded graph which is retrieved from the servers of Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/)).
+- Når du besøger vores websted, interagerer du med GitHub, Inc. eller GitHub B.V. - se deres [privatlivspolitik](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for de data, de indsamler og behandler.
+- Webstedet sætter ikke cookies og bruger ikke tredjepartssporing, analyse eller andre tjenester. Siden 'Oversæt' i afsnittet 'Bidrag' indeholder en indlejret graf, der hentes fra serverne på Weblate s.r.o. ([privatlivspolitik](https://weblate.org/en-gb/privacy/)).
 
-#### Få den på Google Play
+#### Google Play
 
-When you actively leave a review in the Google Play store, the AntennaPod team gets access to your public profile information and may extract and store the following in any online service used by the team (e.g. GitHub or the forum):
+Når du aktivt laver en anmeldelse i Google Play Store, får AntennaPod-teamet adgang til dine offentlige profiloplysninger og kan udtrække og gemme følgende i enhver onlinetjeneste, som teamet bruger (f.eks. GitHub eller forummet):
 
-- review text
+- anmeldelsens tekst
 - AntennaPod-version
 - enhedstype
 - enhedens sprog
@@ -75,25 +75,25 @@ When you actively leave a review in the Google Play store, the AntennaPod team g
 
 #### Weblate
 
-When you contribute to AntennaPod's translations:
+Når du bidrager til AntennaPods oversættelser:
 
-- you are interacting with the hosted service of Weblate s.r.o. - see their [privacy policy](https://weblate.org/en-gb/privacy/) for the data they collect and process.
-- Hvilke data AntennaPod-kerneholdet kan få adgang til
-   - the 'username', 'full name' and 'account e-mail' as set in [your profile](https://hosted.weblate.org/accounts/profile/#account)
-   - the date when you joined the project and detailed [statistics](https://docs.weblate.org/en/latest/devel/reporting.html#stats) about your contributions, as well as the [languages](https://docs.weblate.org/en/latest/devel/reporting.html#credits) you contribute to and the date and timestamps of your contributions.
+- du interagerer med den hostede tjeneste fra Weblate s.r.o. - se deres [privatlivspolitik](https://weblate.org/en-gb/privacy/) for de data, de indsamler og behandler.
+- AntennaPod-holdet får adgang til:
+   - 'brugernavn', 'fulde navn' og 'konto-e-mail', som angivet i [din profil](https://hosted.weblate.org/accounts/profile/#account)
+   - den dato, hvor du tiltrådte projektet, og detaljerede [statistikker](https://docs.weblate.org/en/latest/devel/reporting.html#stats) om dine bidrag samt [sprog](https://docs.weblate.org/en/latest/devel/reporting.html#credits) du bidrager til, samt dato og klokkeslæt for dine bidrag.
 
 #### Git
 
-When you contribute to AntennaPod's codebase via git, you are interacting with GitHub, Inc. or GitHub B.V. - see their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for the data they collect and process.
+Når du bidrager til AntennaPods kodebase via git, interagerer du med GitHub, Inc. eller GitHub B.V. – se deres [privatlivspolitik](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for de data, de indsamler og behandler.
 
-## Opdateringer af denne privatlivspolitik
+## Opdateringer til denne privatlivspolitik
 
-Udviklerne kan opdatere denne politik i fremtiden. Det er tilrådeligt at kontrollere politikken regelmæssigt for eventuelle ændringer. Ændringer af denne fortrolighedspolitik er gældende, når de foretages på dette dokument.
+Udviklerne kan opdatere denne politik i fremtiden. Det er tilrådeligt at kontrollere den regelmæssigt for ændringer. Ændringer er gældende fra offentliggørelse i dette dokument.
 
-Denne privatlivspolitik blev senest opdateret den 13-07-2024. Hvis du har spørgsmål, kan du oprette et problem på GitHub.
+Denne privatlivspolitik blev senest opdateret den 17-08-2025. Hvis du har spørgsmål, kan du oprette et problem på GitHub eller vores forum.
 
 {% if site.lang != 'en' %}
 
-Denne privatlivspolitik er oversat fra engelsk for at hjælpe dig med at forstå, hvordan AnteannPod håndterer emnet. I tilfælde af uoverensstemmelse mellem den originale og den oversatte version, vil den engelske version have forrang.
+Denne privatlivspolitik er oversat fra engelsk for at hjælpe dig med at forstå, hvordan AnteannPod håndterer privatlivsbeskyttelse. I tilfælde af uoverensstemmelse mellem den originale og den oversatte version, vil den engelske version have forrang.
 
 {% endif %}
