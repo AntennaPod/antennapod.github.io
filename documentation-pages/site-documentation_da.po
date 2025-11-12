@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-11-12 17:51+0000\n"
+"PO-Revision-Date: 2025-11-12 20:51+0000\n"
 "Last-Translator: ERYpTION <eryption@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/da/>\n"
@@ -179,6 +179,8 @@ msgstr ""
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr ""
+"Opret en notifikation med opfordring til handling i en automatisering med "
+"følgende skabelon:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -876,28 +878,37 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Adgang til lagerplads**: Når du tilføjer en 'lokal mappe', vil appen bede "
+"om vedvarende adgang til en bestemt mappe. Når du importerer en database "
+"eller en OPML-fil, giver valg af den pågældende fil appen engangsadgang til "
+"den."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"Derudover kræver appen følgende tilladelser, som automatisk gives af Android:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**Fuld netværksadgang**: for at opdatere podcasts, overføre og streame "
+"afsnit, indlæse billeder og aktivere synkronisering"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr ""
+msgstr "**Se netværksforbindelser** og **Se Wi-Fi-forbindelser**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"at kontrollere, om der er en aktiv internetforbindelse, før og mens du "
+"udfører nogen af ovennævnte handlinger"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -905,6 +916,9 @@ msgid ""
 "above actions are allowed by the user on the current (mobile and/or metered) "
 "connection"
 msgstr ""
+"til indstillingen `Overførsler` » `Mobilopdateringer`, for at afgøre, om "
+"ovenstående handlinger er tilladt af brugeren på den aktuelle "
+"(mobile og/eller forbrugsafregnet) forbindelse"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -912,24 +926,34 @@ msgid ""
 "Bluetooth disconnect`, to automatically pause or play when the phone "
 "connects with or disconnects from a Bluetooth device"
 msgstr ""
+"**Par med Bluetooth-enheder**: for indstillingen `Afspilning` » `"
+"Hovedtelefoner eller bluetooth afbrudt`, for at automatisk sætte på pause "
+"eller afspille, når telefonen opretter eller afbryder forbindelse til en "
+"bluetooth-enhed"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Run at startup**: to (re)start services like refreshing podcasts and "
 "enabling auto-downloads"
 msgstr ""
+"**Kør ved opstart**: at (gen)starte tjenester som opdatering af podcasts og "
+"aktivering af automatisk overførsel"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Control vibration**: for the option `Vibrate shortly before end` of the "
 "sleep timer, to vibrate if this setting is enabled"
 msgstr ""
+"**Kontrol af vibration**: for indstillingen `Vibrer kort før slutningen` af "
+"søvntimeren, for at vibrere, hvis denne indstilling er aktiveret"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Prevent device from sleeping**: needed to ensure media playback and "
 "downloads continue in the background"
 msgstr ""
+"**Forhindre enheden i at gå i dvale**: nødvendigt for at sikre, at "
+"medieafspilning og overførsler fortsætter i baggrunden"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
@@ -2511,6 +2535,9 @@ msgid ""
 "need funding beyond advertising and buy-outs by platforms. AntennaPod "
 "supports different ways through which podcasters can earn an income:"
 msgstr ""
+"For at sikre bæredygtigheden af et åbent podcast-økosystem har podcasters "
+"brug for finansiering ud over reklamer og opkøb af platforme. AntennaPod "
+"understøtter forskellige måder, hvorpå podcasters kan tjene penge:"
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2521,6 +2548,13 @@ msgid ""
 "guides/how-to-use-the-funding-tag). This is the standard way for podcasters "
 "to get financial support from their audience."
 msgstr ""
+"Vi støtter tagget [finansierings]"
+"(https://podcasting2.org/docs/podcast-namespace/tags/funding), som giver "
+"podcasters mulighed for at tilføje links til deres betalingssider i deres "
+"RSS-feeds: se, [hvordan du bruger dette tag]"
+"(https://podcasting2.org/docs/guides/how-to-use-the-funding-tag). Dette er "
+"den almindelige måde, hvorpå podcasters får økonomisk støtte fra deres "
+"publikum."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2532,6 +2566,13 @@ msgid ""
 "AntennaPod users will be able to subscribe to it using a personalized feed "
 "URL or by entering the login credentials you give them."
 msgstr ""
+"Hvis du af en eller anden grund endnu ikke bruger finansieringstagget, kan "
+"du stadig inkludere oplysninger om, hvordan dit publikum kan støtte dig, i "
+"dine podcast- eller afsnitsbeskrivelser. Det vil stadig være synligt for "
+"AntennaPod-brugere, selvom det er mindre fremtrædende. Hvis du f.eks. "
+"tilbyder et premium-niveau, vil AntennaPod-brugere kunne abonnere på det ved "
+"hjælp af en personlig feed-URL eller ved at indtaste de loginoplysninger, du "
+"giver dem."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2542,6 +2583,11 @@ msgid ""
 "evolving, AntennaPod won't support it soon, but we are closely following "
 "developments."
 msgstr ""
+"I fremtiden vil vi også gerne understøtte automatiske mikrobetalinger via "
+"[værdi](https://podcasting2.org/docs/podcast-namespace/tags/value) tagget. "
+"Da det er en kompleks funktionalitet, og de tekniske specifikationer stadig "
+"er under udvikling, vil AntennaPod ikke understøtte det i nærmeste fremtid, "
+"men vi følger udviklingen nøje."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2698,6 +2744,10 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"Du kan sortere din kø ved hjælp af forskellige sorteringskriterier: `Titel "
+"på afsnit`, `titel på podcast`, `Varihed`, `Dato`, `Tilfældig` og `Smart "
+"blanding`. Eftersom de fleste af dem er selvforklarende, fokuserer denne "
+"side specifikt på `Titel på podcast` og `Smart blanding`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
@@ -2711,19 +2761,23 @@ msgid ""
 "from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"Dette kriterium sorterer afsnit i din kø efter titlen på den podcast, de "
+"tilhører. Bemærk, at afsnit fra samme podcast sorteres efter din tidligere "
+"sorteringsrækkefølge: hvis du derfor ønsker, at afsnit fra samme podcast "
+"skal sorteres sammen og kronologisk, skal du først sortere efter `Dato` og "
+"derefter sortere efter `Titel på podcast`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
 msgstr "Smart blanding"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"Smart blanding er et avanceret køsorteringskriterie, der giver dig mulighed "
+"Smart blanding er et avanceret sorteringskriterie, der giver dig mulighed "
 "for at holde din kø sorteret efter udgivelsesdato, samtidig med at du så "
 "vidt muligt undgår at have klynger af afsnit fra et enkelt abonnement i din "
 "kø."
@@ -2741,9 +2795,8 @@ msgstr ""
 "blanding sorteres i stigende eller faldende rækkefølge."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Hvordan det fungerer i detaljer"
+msgstr "Hvordan smart blanding fungerer i detaljer"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
