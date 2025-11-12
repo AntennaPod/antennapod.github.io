@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-11-11 20:51+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-11-12 17:51+0000\n"
+"Last-Translator: ERYpTION <eryption@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/da/>\n"
 "Language: da\n"
@@ -172,6 +171,9 @@ msgid ""
 "HomeAssistant Android Mobile Companion ([website](https://companion.home-"
 "assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 msgstr ""
+"HomeAssistant Android-app til mobil ([website](https://"
+"companion.home-assistant.io/docs/notifications/notification-commands/"
+"#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid ""
@@ -353,13 +355,12 @@ msgstr "**Tryk på blyantsikonet** i flisesektionen for at redigere fliserne"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid ""
 "Scroll through the list of tiles and **drag the AntennaPod tile** up into "
 "the list of active tiles"
 msgstr ""
-"Scroll ned i listen over fliser, **tryk på AntennaPod-flisen, og træk den.** "
-"op i listen over aktive fliser"
+"Scroll ned i listen over fliser og **træk AntennaPod-flisen.** op i listen "
+"over aktive fliser"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -395,7 +396,6 @@ msgstr ""
 "indstillinger/alting!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -405,13 +405,14 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"I en meget gammel AntennaPod-version var der nogle problemer med databasen "
-"med alle oplysninger (afsnit, lyttetilstande osv.). Selvom årsagen for "
-"længst er løst, kan din database være blevet beskadiget (selv da appen "
-"fungerede uden problemer). Hvis en nyere AntennaPod-version foretager "
-"ændringer i de beskadigede dele af databasen, kan disse skader pludselig "
-"blive et problem. På det tidspunkt kan AntennaPod ikke længere arbejde med "
-"den ødelagte database og er nødt til at starte forfra med en tom database."
+"I en meget gammel AntennaPod-version (før 2019) var der nogle problemer med "
+"databasen med alle oplysninger (afsnit, lyttetilstande osv.). Selvom årsagen "
+"for længst er løst, kan din database være blevet beskadiget "
+"(selv da appen fungerede uden problemer). Hvis en nyere AntennaPod-version "
+"foretager ændringer i de beskadigede dele af databasen, kan disse skader "
+"pludselig blive et problem. På det tidspunkt kan AntennaPod ikke længere "
+"arbejde med den ødelagte database og er nødt til at starte forfra med en tom "
+"database."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -432,7 +433,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -440,12 +440,12 @@ msgid ""
 "the backup might contain the partial corruption, so it is still recommended "
 "to go through the second step to fix the problem once and for all."
 msgstr ""
-"Har du for nylig [eksporteret en sikkerhedskopi](/documentation/general/"
-"backup) fra AntennaPod? Så er det relativt nemt at gendanne den: Gå til "
-"`Indstillinger` » `Lagring` \" `Import/eksport` » `Importér database` og "
-"vælg sikkerhedskopien. Bemærk, at sikkerhedskopien kan indeholde den delvise "
-"beskadigelse, så det anbefales stadig at gå gennem det andet trin for at "
-"løse problemet en gang for alle."
+"Har du for nylig [eksporteret en sikkerhedskopi]"
+"(/documentation/general/backup) fra AntennaPod? Så er det relativt nemt at "
+"gendanne den: Gå til `Indstillinger` » `Import/eksport` » `Importér database`"
+" og vælg sikkerhedskopien. Bemærk, at sikkerhedskopien kan indeholde den "
+"delvise beskadigelse, så det anbefales stadig at gå gennem det andet trin "
+"for at løse problemet en gang for alle."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -480,27 +480,27 @@ msgid ""
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
 "phone:"
 msgstr ""
+"I AntennaPod kan du tilføje en mappe som om den var et feed. For at gøre "
+"dette, skal du gå til `Tilføj podcast` og trykke på `Tilføj lokal mappe`. Gå "
+"så til denne mappe på din telefon:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
-msgstr ""
+msgstr "På Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
 "`files` » `media` and select the folder of a podcast. Note that this will "
 "only give you access to previously downloaded media - you will not receive "
 "new episodes."
 msgstr ""
-"I AntennaPod kan du tilføje en mappe, som om det var et feed. Det gør du ved "
-"at gå til `Tilføj podcast` og trykke på `Tilføj lokal mappe`. Gå derefter "
-"til denne mappe på din telefon: `Android` » `data` \" "
-"`de.danoeh.antennapod` » `files` » `media` og vælg derefter mappen for en "
-"podcast. Bemærk, at dette kun vil give dig adgang til tidligere downloadede "
-"medier - du vil ikke modtage nye afsnit."
+"På Android 10 og tidligere: `Android` » `data` \" `de.danoeh.antennapod` » "
+"`files` » `media` og vælg derefter mappen for en podcast. Bemærk, at dette "
+"kun vil give dig adgang til tidligere downloadede medier - du vil ikke "
+"modtage nye afsnit."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -859,12 +859,16 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"AntennaPod vil ikke bede dig om generelle tilladelser. Du kan dog give "
+"følgende tilladelser:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**Vis notifikationer**: Via `Indstillinger` » `Notifikationer` kan du give "
+"AntennaPod tilladelsen til at oprette notifikationer."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
