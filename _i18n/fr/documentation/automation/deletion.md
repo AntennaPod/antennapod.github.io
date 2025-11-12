@@ -8,4 +8,4 @@ La suppression après lecture se trouve dans `Préférences` → `Téléchargeme
 
 ## Supprimer avant le téléchargement automatique
 
-Le nettoyage des épisodes se trouve dans `Préférences` → `Réseau` → `Téléchargement automatique`. Si le téléchargement automatique a besoin d'espace pour les nouveaux épisodes, il supprimera les anciens épisodes qui ne sont pas dans la liste de lecture et qui ne sont pas marqués comme favoris. Vous pouvez ajouter un délai (x temps après la lecture) ou un épisode. Le paramètre `Nombre d'épisode stockés` détermine la quantité maximale d'épisodes téléchargés.
+Le nettoyage des épisodes se trouve dans `Paramètres` → `Téléchargements` → `Suppression automatique`. Si le téléchargement automatique a besoin d'espace pour les nouveaux épisodes, il supprimera les anciens épisodes qui ne sont pas dans la liste de lecture et qui ne sont pas marqués comme favoris. Vous pouvez définir quels épisodes sont éligibles à la suppression en fonction de leur statut (par ex. non favori ou non dans une liste de lecture) ou une période de temps après les avoir finis.
