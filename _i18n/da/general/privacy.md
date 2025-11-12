@@ -8,7 +8,7 @@ AntennaPod-appen gemmer kun de data, der er strengt nødvendige for, at appen ka
 
 **Alle data, der leveres og oprettes af AntennaPod-appen, gemmes lokalt på din enhed. AntennaPod sender eller uploader ikke dine data nogen steder, undtagen hvor det er strengt nødvendigt for at appen kan fungere, eller når du aktivt deler fejlfindingsoplysninger med os. ** Se det andet næstfølgende afsnit om de tilfælde, hvor dine oplysninger kan videregives til tredjeparter. Hvis du er interesseret, kan du også læse om AntennaPods [app-tilladelser](/documentation/general/app-permissions) i dokumentationen.
 
-Når du deler fejlfindingsoplysninger (enten via e-mail ved hjælp af funktionen `Nedbrudsrapport` eller via Android's funktion til rapportering af nedbrud), behandles følgende data:
+Når du deler fejlfindingsoplysninger (enten via e-mail, ved hjælp af funktionen `Nedbrudsrapport` eller via Android's funktion til rapportering af nedbrud), behandles følgende data:
 
 - enhedstype
 - Android-version

@@ -10,5 +10,5 @@ For at tilføje AntennaPod-flisen:
 
 1. **Træk ned to gange** fra toppen af skærmen for at åbne Hurtige indstillinger helt. På nogle Android-versioner (f.eks. Samsung One UI eller Xiaomi MIUI) kan et tilsvarende kontrolcenter med lignende bevægelser allerede indeholde en medieflise. Kontroller din enheds indstillinger, hvis adfærden er anderledes
 1. **Tryk på blyantsikonet** i flisesektionen for at redigere fliserne
-1. Scroll ned i listen over fliser, **tryk på AntennaPod-flisen, og træk den.** op i listen over aktive fliser
+1. Scroll ned i listen over fliser og **træk AntennaPod-flisen.** op i listen over aktive fliser
 1. Tryk på **tilbage-pilen** eller **gem** for at afslutte fliseredigering

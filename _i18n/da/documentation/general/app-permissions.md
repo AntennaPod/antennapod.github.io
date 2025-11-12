@@ -1,6 +1,6 @@
-AntennaPod will not ask you for any general permissions. However you can give the following permissions:
+AntennaPod vil ikke bede dig om generelle tilladelser. Du kan dog give følgende tilladelser:
 
-* **Show notifications**: Via `Settings` » `Notifications` you can give AntennaPod the permission to create notifications.
+* **Vis notifikationer**: Via `Indstillinger` » `Notifikationer` kan du give AntennaPod tilladelsen til at oprette notifikationer.
 * **Storage access**: When you add a 'local folder' the app will ask for long-term access to a specific folder. When you import a database or an OPML file, selecting that file will give the app one-time access to it.
 
 Apart from that, the app requires the following permissions which are automatically granted by Android:
