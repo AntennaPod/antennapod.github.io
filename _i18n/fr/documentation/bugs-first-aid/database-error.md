@@ -12,5 +12,5 @@ Il y a peut-être certaines choses que vous pouvez faire pour récupérer vos do
 
 * Dans AntennaPod, vous pouvez ajouter un dossier comme si c'était un nouveau flux. Pour ce faire, allez dans `Ajouter un podcast`et appuyez sur `Ajouter un dossier local`. Puis allez dans ce dossier sur votre téléphone :
 * Sur Android 11+ : `Android` » `media` » `de.danoeh.antennapod`
-* Dans AntennaPod, vous pouvez ajouter un dossier comme s'il s'agissait d'un flux. Pour ce faire, allez dans `Ajouter un podcast` et choisissez `Ajouter un dossier local`. Rendez-vous ensuite dans le dossier de votre téléphone : `Android` → `data` → `de.danoeh.antennapod` → `files` → `media`, puis sélectionnez le dossier de votre podcast. Notez que cela ne vous donnera accès qu'aux médias précédemment téléchargés, vous ne recevrez pas les nouveaux épisodes.
+* Dans Android 10 et versions précédentes : `Android` → `data` → `de.danoeh.antennapod` → `files` → `media`, puis sélectionnez le dossier de votre podcast. Notez que cela ne vous donnera accès qu'aux médias précédemment téléchargés, vous ne recevrez pas les nouveaux épisodes.
 * Vous pouvez également commencer à ajouter les précédents podcasts en partant de zéro. Vous pouvez consulter le dossier mentionné ci-dessus pour voir les podcasts auxquels vous étiez abonné.
