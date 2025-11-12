@@ -16,7 +16,7 @@ I din automatiseringsapplikation kan du få AntennaPod til at opdatere sine abon
 
 ### HomeAssistant Android-app til mobil ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
-Create a notify action call in an automation with the following template:
+Opret en notifikation med opfordring til handling i en automatisering med følgende skabelon:
 
 ```
 action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>

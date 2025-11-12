@@ -1,15 +1,15 @@
 AntennaPod vil ikke bede dig om generelle tilladelser. Du kan dog give følgende tilladelser:
 
 * **Vis notifikationer**: Via `Indstillinger` » `Notifikationer` kan du give AntennaPod tilladelsen til at oprette notifikationer.
-* **Storage access**: When you add a 'local folder' the app will ask for long-term access to a specific folder. When you import a database or an OPML file, selecting that file will give the app one-time access to it.
+* **Adgang til lagerplads**: Når du tilføjer en 'lokal mappe', vil appen bede om vedvarende adgang til en bestemt mappe. Når du importerer en database eller en OPML-fil, giver valg af den pågældende fil appen engangsadgang til den.
 
-Apart from that, the app requires the following permissions which are automatically granted by Android:
+Derudover kræver appen følgende tilladelser, som automatisk gives af Android:
 
-- **Full network access**: to refresh podcasts, download and stream episodes, load images and enable synchronization
-- **View network connections** and **View Wi-Fi connections**:
-   - to check if there is an active internet connection, before and while taking any of the above-mentioned actions
-   - for the setting `Downloads` » `Mobile updates`, to determine whether the above actions are allowed by the user on the current (mobile and/or metered) connection
-- **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
-- **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
-- **Control vibration**: for the option `Vibrate shortly before end` of the sleep timer, to vibrate if this setting is enabled
-- **Prevent device from sleeping**: needed to ensure media playback and downloads continue in the background
+- **Fuld netværksadgang**: for at opdatere podcasts, overføre og streame afsnit, indlæse billeder og aktivere synkronisering
+- **Se netværksforbindelser** og **Se Wi-Fi-forbindelser**:
+   - at kontrollere, om der er en aktiv internetforbindelse, før og mens du udfører nogen af ovennævnte handlinger
+   - til indstillingen `Overførsler` » `Mobilopdateringer`, for at afgøre, om ovenstående handlinger er tilladt af brugeren på den aktuelle (mobile og/eller forbrugsafregnet) forbindelse
+- **Par med Bluetooth-enheder**: for indstillingen `Afspilning` » `Hovedtelefoner eller bluetooth afbrudt`, for at automatisk sætte på pause eller afspille, når telefonen opretter eller afbryder forbindelse til en bluetooth-enhed
+- **Kør ved opstart**: at (gen)starte tjenester som opdatering af podcasts og aktivering af automatisk overførsel
+- **Kontrol af vibration**: for indstillingen `Vibrer kort før slutningen` af søvntimeren, for at vibrere, hvis denne indstilling er aktiveret
+- **Forhindre enheden i at gå i dvale**: nødvendigt for at sikre, at medieafspilning og overførsler fortsætter i baggrunden
