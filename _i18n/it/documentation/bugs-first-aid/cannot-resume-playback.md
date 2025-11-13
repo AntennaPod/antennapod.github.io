@@ -11,4 +11,4 @@ Per aggiungere la tile di AntennaPod:
 1. **Trascina due volte verso il basso** dalla parte superiore dello schermo per aprire completamente le Impostazioni rapide. Su alcune versioni di Android (ad esempio, Samsung One UI o Xiaomi MIUI), un Centro di controllo equivalente con gesture simili potrebbe già contenere una media tile. Controllare le impostazioni del dispositivo se il comportamento è diverso
 1. **Tocca l'icona della matita** in fondo alla sezione delle tile per modificarle
 1. Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** verso l'alto nell'elenco di tile attive
-1. Tocca la freccia indietro per uscire dalla modalità di modifica tile
+1. Battere la **freccia indietro** o **salva**per uscire dalla modalità modifica tile
