@@ -4,11 +4,11 @@ Al momento la causa del problema non è chiara. Abbiamo verificato che lo stesso
 
 ## Espediente
 
-Per poter riprendere la riproduzione, puoi aggiungere la cosiddetta 'tile' di AntennaPod sul tuo dispositivo. Le tile sono i pulsanti che vedi quando scorri dall'alto verso il basso sul tuo schermo. Probabilmente hai già familiarità con la tile di internet o della torcia. La tile di AntennaPod ti permette di (ri)avviare e mettere in pausa la riproduzione, anche quando questa è in pausa da un po' di tempo.
+Per poter riprendere la riproduzione, si può aggiungere la cosiddetta 'tile' di AntennaPod sul proprio dispositivo. Le tile sono i pulsanti che si vedono quando si scorre dall'alto verso il basso sul proprio schermo. Probabilmente hai già familiarità con la tile *Internet* o *Flashlight*. La tile di AntennaPod ti permettono di avviare e mettere in pausa la riproduzione, anche quando questa è in pausa da un po' di tempo.
 
 Per aggiungere la tile di AntennaPod:
 
-1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
+1. **Trascina due volte verso il basso** dalla parte superiore dello schermo per aprire completamente le Impostazioni rapide. Su alcune versioni di Android (ad esempio, Samsung One UI o Xiaomi MIUI), un Centro di controllo equivalente con gesture simili potrebbe già contenere una media tile. Controllare le impostazioni del dispositivo se il comportamento è diverso
 1. **Tocca l'icona della matita** in fondo alla sezione delle tile per modificarle
 1. Scorri l'elenco delle tile, **tocca la tile di AntennaPod e trascinala** verso l'alto nell'elenco di tile attive
 1. Tocca la freccia indietro per uscire dalla modalità di modifica tile
