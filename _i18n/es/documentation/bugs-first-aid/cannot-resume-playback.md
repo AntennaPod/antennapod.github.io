@@ -11,4 +11,4 @@ Para añadir el mosaico AntennaPod:
 1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
 1. ***Pulsa el icono de lápiz** en la parte inferior de la sección de mosaicos para editar los mosaicos
 1. Desplázate hacia abajo en la lista de mosaicos, **pulsa sobre el mosaico AntennaPod y arrástralo** hacia arriba en la lista de mosaicos activos
-1. Toca la flecha atrás para salir de la edición del mosaico
+1. Toca la **flecha atrás** o **guardar** para salir de la edición del mosaico
