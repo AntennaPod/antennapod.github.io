@@ -88,12 +88,12 @@ Cuando contribuyes al código base de AntennaPod a través de git, estás intera
 
 ## Actualizaciones a esta Política de Privacidad
 
-Los desarrolladores podrán actualizar esta política en el futuro. Es recomendable comprobar esta política de privacidad de manera periódica para ver si se producen algunos cambios. Los cambios a esta Política de Privacidad se harán efectivos cuando se introduzcan en este documento.
+Los desarrolladores pueden actualizar esta política en el futuro. Es recomendable revisarla periódicamente para detectar cambios. Los cambios entran en vigor al ser publicados en este documento.
 
-Esta Política de privacidad se actualizó por última vez el 13-07-2024. Si tienes alguna pregunta, abre una incidencia en GitHub o en nuestro foro.
+Esta Política de Privacidad se actualizó por última vez el 17/08/2025. Si tiene preguntas, abra una incidencia en GitHub o en nuestro foro.
 
 {% if site.lang != 'en' %}
 
-Esta política de privacidad se ha traducido del inglés para ayudarle a entender cómo AntennaPod trata el tema. En caso de conflicto entre la versión original y la traducida, prevalecerá la versión en inglés.
+Esta política de privacidad ha sido traducida del inglés para ayudarlo a comprender cómo AntennaPod maneja la privacidad. En caso de conflicto entre la versión original y la traducida, prevalecerá la versión en inglés.
 
 {% endif %}
