@@ -20,7 +20,7 @@ recurrence-additions:
 - start: 2024-07-10 21:00
   end: 2024-07-10 22:30
 location: online
-more-information: https://github.com/AntennaPod/AntennaPod/labels/%22Needs%3A%20decision%22
+more-information: https://github.com/AntennaPod/AntennaPod/issues?q=state%3Aopen%20label%3A%22Needs%3A%20Decision%22
 meeting-room: https://meet.antennapod.org/needsdecision
 ---
 
@@ -28,4 +28,4 @@ We are very careful about AntennaPod's User Experience (UX). The [project's goal
 
 Where do we place this button? What would most users expect AntennaPod to do here? Which impact does this choice have on other settings? How can we implement this without making the UI or code complex?
 
-In these meetings @ByteHamster and @Keunes get together to do just that: discuss the options for a given feature request, and try to reach a decision. One [issue](https://github.com/AntennaPod/AntennaPod/labels/%22Needs%3A%20decision%22) at a time. You're most welcome to listen in as a fly on the wall, or jump in and share your thoughts.
+In these meetings @ByteHamster and @Keunes get together to do just that: discuss the options for a given feature request, and try to reach a decision. One [issue](https://github.com/AntennaPod/AntennaPod/issues?q=state%3Aopen%20label%3A%22Needs%3A%20Decision%22) at a time. You're most welcome to listen in as a fly on the wall, or jump in and share your thoughts.
