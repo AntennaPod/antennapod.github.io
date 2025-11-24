@@ -314,7 +314,7 @@
 
 <p>Puedes estar a punto de empezar a gritar <em>¡Ayuda! He perdido mis podcasts/episodios/ajustes/todo!</em></p>
 
-<p>En una versión muy antigua de AntennaPod, hubo algunos problemas con la base de datos con toda la información (episodios, estados de escucha, etc). Aunque la causa se solucionó hace tiempo, es posible que tu base de datos se haya dañado (incluso cuando la aplicación funcionaba sin problemas). Si una versión reciente de AntennaPod realiza cambios en las partes dañadas de la base de datos, estos daños pueden convertirse de repente en un problema. En ese momento AntennaPod ya no puede trabajar con la base de datos dañada y tiene que empezar de nuevo con una vacía.</p>
+<p>En una versión muy antigua de AntennaPod (anterior a 2019), existían problemas con la base de datos que contenía toda la información (episodios, estados de escucha, etc.). Si bien la causa ya se solucionó, es posible que tu base de datos se haya dañado (incluso si la aplicación funcionaba correctamente). Si una versión reciente de AntennaPod modifica las partes dañadas de la base de datos, estos daños podrían volver a aparecer. En ese caso, AntennaPod ya no podrá funcionar con la base de datos dañada y tendrá que empezar de cero con una base de datos vacía.</p>
 
 <p>Somos conscientes de que es muy frustrante que esto ocurra y sentimos mucho si se ha visto afectado.</p>
 
@@ -322,12 +322,15 @@
 
 <ol>
   <li>¿Ha <a href="/documentation/general/backup">exportado una copia de seguridad</a> recientemente desde AntennaPod? Entonces restaurarla es relativamente fácil: vaya a <code class="language-plaintext highlighter-rouge">Configuración</code> “ <code class="language-plaintext highlighter-rouge">Almacenamiento</code> “ <code class="language-plaintext highlighter-rouge">Importar/Exportar</code> “ <code class="language-plaintext highlighter-rouge">Importar base de datos</code> y seleccione la copia de seguridad. Tenga en cuenta que la copia de seguridad puede contener la corrupción parcial, por lo que todavía se recomienda pasar por el segundo paso para solucionar el problema de una vez por todas.</li>
-  <li>Si AntennaPod detecta una base de datos rota, la escribe en un archivo llamado CorruptedDatabaseBackup.db en el directorio de almacenamiento de la app. Puedes intentar reparar este archivo (o reparar una copia de seguridad exportada) siguiendo uno de los pasos que se indican a continuación. Esto es un reto y requiere aprender a manejar un terminal.</li>
+  <li>Si AntennaPod detecta una base de datos dañada, la escribe en un archivo llamado CorruptedDatabaseBackup.db en el directorio de almacenamiento de la aplicación. Puede intentar reparar este archivo (o una copia de seguridad exportada) mediante un <a href="https://github.com/ByteHamster/AntennaPodDbFixer">script de Python</a> diseñado para automatizar el proceso de recuperación. Esto supone un reto y requiere aprender a usar la terminal.</li>
   <li>Mientras que todos los datos <em>sobre</em> tus suscripciones y episodios se han perdido, los archivos multimedia siguen ahí.</li>
 </ol>
 
 <ul>
-  <li>En AntennaPod puedes añadir una carpeta como si fuera un canal. Para hacer esto, ve a <code class="language-plaintext highlighter-rouge">Añadir Podcast</code> y toca en <code class="language-plaintext highlighter-rouge">Añadir carpeta local</code>. Ahora ve a esta carpeta en tu teléfono: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> y selecciona la carpeta de un podcast. Ten en cuenta que esto solo te dara acceso a archivos previamente descargados - no recibirás episodios nuevos.</li>
+  <li>En AntennaPod puedes añadir una carpeta como si fuera un feed. Para ello, ve a <code class="language-plaintext highlighter-rouge">Añadir podcast</code> y pulsa en <code class="language-plaintext highlighter-rouge">Añadir carpeta local</code>. Luego, accede a esta carpeta en tu teléfono:</li>
+  <li>En Android 11+: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">media</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
+</li>
+  <li>En Android 10 y versiones anteriores: <code class="language-plaintext highlighter-rouge">Android</code> » <code class="language-plaintext highlighter-rouge">data</code> » <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> » <code class="language-plaintext highlighter-rouge">files</code> » <code class="language-plaintext highlighter-rouge">media</code> y selecciona la carpeta del podcast. Ten en cuenta que esto solo te dará acceso al contenido descargado previamente; no recibirás nuevos episodios.</li>
   <li>También puedes empezar a añadir podcasts anteriores desde cero. Puedes buscar en la carpeta antes mencionada para ver a qué podcasts estabas suscrito.</li>
 </ul>
 
