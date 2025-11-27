@@ -1,10 +1,10 @@
 You can sort your queue using different sorting criteria: `Episode title`, `Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most of them are self-explanatory, this page focuses specifically on `Podcast title` and `Smart shuffle`.
 
-# Podcast title
+# Título del podcast
 
 This criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by `Date` and then sort by `Podcast title`.
 
-# Smart shuffle
+# Mezcla inteligente
 
 Smart Shuffle es un criterio avanzado de ordenación de cola que le permite mantener su cola ordenada por fecha de publicación y, al mismo tiempo, evitar en la medida de lo posible tener grupos de episodios de una sola suscripción en su cola.
 
