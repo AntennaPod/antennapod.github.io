@@ -1,8 +1,8 @@
-Du kannst deine Warteschlange nach verschiedenen Kriterien sortieren: `Episodenname`, `Podcastname`, `Dauer`, `Veröffentlichungsdatum`, `Zufällig` oder `Schlaues Mischen`. Da die meisten selbsterklärend sind, geht diese Seite näher auf `Podcastname` und `Schlaues Mischen` ein.
+Du kannst die Warteschlange nach verschiedenen Kriterien sortieren: `Episodenname`, `Podcastname`, `Dauer`, `Veröffentlichungsdatum`, `Zufällig` oder `Schlaues Mischen`. Da die meisten selbsterklärend sind, geht diese Seite näher auf `Podcastname` und `Schlaues Mischen` ein.
 
 # Podcast-Name
 
-Dieses Kriterium sortiert Episoden in deiner Warteschlange nach dem Namen des zugehörigen Podcasts. Beachte, dass Episoden des selben Podcasts nach dem vorherigen Kriterium sortiert werden. Falls du deshalb Episoden des selben Podcasts zusammen und chronologisch sortieren möchtest, musst du zuerst nach `Datum` und anschließend nach `Podcast-Name` sortieren.
+Dieses Kriterium sortiert Episoden in der Warteschlange nach dem Namen des zugehörigen Podcasts. Beachte, dass Episoden des selben Podcasts nach dem vorherigen Kriterium sortiert werden. Falls du deshalb Episoden des selben Podcasts zusammen und chronologisch sortieren möchtest, musst du zuerst nach `Datum` und anschließend nach `Podcast-Name` sortieren.
 
 # Schlaues Mischen
 

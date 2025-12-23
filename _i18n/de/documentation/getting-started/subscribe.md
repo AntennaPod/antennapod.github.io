@@ -16,7 +16,7 @@ SoundCloud ermöglicht es [Produzenten, Podcasts ganz einfach aus ihren Inhalten
 
 ### Mixcloud
 
-Mixcloud bietet diese Option leider nicht für Inhalte-Ersteller an. Wie immer gibt es jemanden in der Podcasting-Gemeinschaft, der eine Lösung findet. Du solltest dir [die Möglichkeiten ansehen](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures), die in diesem Beitrag beschrieben sind.
+Mixcloud bietet diese Option leider nicht für Inhalte-Ersteller an. Wie immer gibt es jemanden in der Podcasting-Community, der eine Lösung gefunden hat. Du solltest dir [die Möglichkeiten ansehen](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures), die in diesem Beitrag beschrieben sind.
 
 ### YouTube
 

@@ -12,4 +12,4 @@ Besagt die Fehlermeldung im Download-Protokoll „Failed to connect to [url]“?
 
 Du siehst eine Fehlermeldung wie „not well-formed (invalid token)“? Dann hat der Herausgeber seinen (RSS-)Feed kaputt gemacht. (Zum Beispiel könnte er ein einfaches `&`-Zeichen verwendet haben, anstatt es als `&amp;` zu kodieren). Wende dich bitte direkt an den Herausgeber, da dies nicht von unserer Seite aus behoben werden kann.
 
-Falls du das Problem nicht lokalisieren kannst, kopiere bitte die Fehlermeldung über die Kopieren-Schaltfläche und teile sie [in unserem Forum](https://forum.antennapod.org/c/support/7). Unsere Gemeinschaft wird sich das Problem gerne ansehen, um die genaue Ursache herauszufinden!
+Falls du das Problem nicht lokalisieren kannst, kopiere bitte die Fehlermeldung über die Kopieren-Schaltfläche und teile sie [in unserem Forum](https://forum.antennapod.org/c/support/7). Unsere Community wird sich das Problem gerne ansehen, um die genaue Ursache herauszufinden!
