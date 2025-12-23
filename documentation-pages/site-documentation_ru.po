@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 21:56+0200\n"
-"PO-Revision-Date: 2025-08-08 22:01+0000\n"
-"Last-Translator: homocomputeris <homocomputeris+git@gmail.com>\n"
+"PO-Revision-Date: 2025-12-23 18:00+0000\n"
+"Last-Translator: Алексей Корн <korn3r@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -32,25 +32,24 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Delete after playing"
-msgstr ""
+msgstr "Удалить после воспроизведения"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Delete after playing is located in `Settings` » `Downloads` » `Automatic "
 "deletion`. When enabled, episodes are deleted when playback completes (but "
 "not when manually marking an episode as 'played')."
 msgstr ""
-"Автоудаление находится в `Настройки`>>`Хранилище`. Когда включено, эпизоды "
-"автоматически будут автоматически удаляться по завершению воспроизведения "
-"(кроме тех, что вы самостоятельно отметили как \"Прослушанные\")."
+"Автоудаление после воспроизведения находится в `Настройки`>>`Загрузки``>>"
+"`Автоудаление`. Когда включено, эпизоды будут автоматически удаляться по "
+"завершении воспроизведения (но не когда вы вручную отметили эпизод как "
+"\"Прослушанный\")."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Delete before auto download"
-msgstr ""
+msgstr "Удалить перед автоматической загрузкой"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Delete before auto download is located in `Settings` » `Downloads` » "
 "`Automatic deletion`. If Automatic download needs space for new episodes, it "
@@ -59,22 +58,21 @@ msgid ""
 "their status (e.g. not favorited or not in queue) or a period of time after "
 "finishing."
 msgstr ""
-"Очистка прослушанных выпусков находится в `Настройки` » `Сеть` » "
-"`Автоматическая загрузка`. Если для автоматической загрузки нужно место для "
-"новых выпусков, она удалит старые выпуски, которые нет в очереди и не "
-"отмечены как избранные. Вы можете добавить задержку (x время после "
-"воспроизведения) или выпуск. Параметр `Квота на выпуски` определяет "
-"максимальное количество скачиваемых выпусков."
+"Удаление перед автоматической загрузкой находится в `Настройки` » `Загрузки` "
+"» `Автоудаление`. Если автоматической загрузке нужно место для новых "
+"эпизодов, она удалит старые эпизоды, которые не находятся в очереди и не "
+"отмечены как избранные. Вы можете выбрать какие эпизоды подходят для "
+"удаления основываясь на их статусе (например если они не в избранном или не "
+"в очереди) или на временном периоде после завершения."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "By default, all podcasts are refreshed with a 12-hour interval to pick up "
 "new episodes. Via `Settings` » `Downloads` » `Refresh podcasts` you can "
 "change the interval period or turn off the automatic updates."
 msgstr ""
 "По умолчанию все подкасты обновляются с интервалом в 12 часов для получения "
-"новых выпусков. Вы можете изменить этот интервал или полностью отключить "
+"новых эпизодов. Вы можете изменить этот интервал или полностью отключить "
 "автоматическое обновление в разделе `Настройки` » `Загрузки` » `Обновление "
 "подкастов`."
 
@@ -177,7 +175,7 @@ msgstr ""
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid ""
 "Create a notify action call in an automation with the following template:"
-msgstr ""
+msgstr "Создать действие оповещения автоматически с помощью шаблона:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -265,7 +263,6 @@ msgstr ""
 "проблемы."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
 "us about the issue. You can create a post on [our forum](https://"
@@ -273,7 +270,7 @@ msgid ""
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
 "Если вы обновили AntennaPod и безрезультатно искали на нашем форуме, то "
-"расскажите нам о проблеме. Вы можете создать сообщение на [на нашем форуме]"
+"расскажите нам о проблеме. Вы можете создать обращение на [на нашем форуме]"
 "(https://forum.antennapod.org/c/bug-report/9). Для этого вам нужно создать "
 "учетную запись (если у вас ее еще нет) или просто войти в систему через "
 "Google."
@@ -324,9 +321,9 @@ msgid ""
 "pause playback, even if playback has been paused for a while."
 msgstr ""
 "Чтобы возобновить воспроизведение, вы можете добавить на свое устройство так "
-"называемую \"виджет\" AntennaPod. Виджет- это, по сути, кнопки, которые вы "
+"называемый \"виджет\" AntennaPod. Виджет- это, по сути, кнопки, которые вы "
 "видите, когда тянете вниз от верхней части экрана. Вы, вероятно, знаете "
-"плитку \"Интернет\" или \"Фонарик\". ВиджетAntennaPod позволяет "
+"плитку \"Интернет\" или \"Фонарик\". Виджет AntennaPod позволяет "
 "воспроизводить и приостанавливать воспроизведение, даже если оно было "
 "приостановлено в течение некоторого времени."
 
