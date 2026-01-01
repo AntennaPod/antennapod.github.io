@@ -37,7 +37,7 @@ Le seul cas de traitement de données personnelles *provenant* de service tiers 
 
 #### Vendeurs de l'appareil et de son système d'exploitation
 
-If you enabled [sharing of usage and diagnostics](https://support.google.com/accounts/answer/6078260) with Google and use Android's reporting functionality when AntennaPod crashes or becomes unresponsive, related data is sent to Google. For more information, see [Google's privacy policy](https://policies.google.com).
+Si vous avez activé le [partage des données d'utilisation et de diagnostique](https://support.google.com/accounts/answer/6078260) avec Google et que vous utilisez la fonctionnalité de rapport d'Android lorsque AntennaPod plante ou ne répond plus, les données associées sont envoyées à Google. Pour plus d'informations, consultez les [Règles de confidentialité de Google](https://policies.google.com).
 
 ## Services connectés
 
@@ -67,7 +67,7 @@ Le site web d'AntennaPod est hébergé sur les GitHub Pages.
 
 Quand vous choisissez de laisser un commentaire dans le Google Play Store, l'équipe d'AntennaPod obtient l'accès aux informations de votre profil public et peut exporter et enregistrer les éléments suivants dans des services en ligne utilisés par l'équipe (par ex. GitHub ou le forum) :
 
-- review text
+- relire le texte
 - Version d'AntennaPod
 - type de périphérique
 - langage de votre périphérique

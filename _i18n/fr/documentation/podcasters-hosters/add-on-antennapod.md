@@ -2,4 +2,35 @@ Voulez-vous que votre réseau ou votre public puisse facilement ajouter votre (v
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 
-Les utilisateurs qui ont installé AntennaPod et qui utilisent ce lien pourront prévisualiser les épisodes et s'abonner à votre podcast directement dans notre application. Vous pouvez voir un exemple [ici](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts). Si vous avez besoin de notre logo, consultez notre [dépôt de marque](https://github.com/AntennaPod/branding).
+You could also turn the same link into a button, e.g. by using the following code:
+
+```
+<style>.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}</style>
+<a href="https://antennapod.org/deeplink/subscribe?url=xyz&title=abc" class="antennapod-subscribe">Subscribe in AntennaPod</a>
+```
+
+# What users see
+
+Users who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.
+
+{% include image.html alt= "
+
+     Browser asking to open a link in AntennaPod
+
+     "
+
+loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
+
+{% include image.html alt= "
+
+     The same link displayed in AntennaPod
+
+     "
+
+loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}
+
+On the other hand, users who don't have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this [example page](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
+
+# Branding
+
+Si vous avez besoin de notre logo, veuillez consulter notre [dépôt "Branding"](https://github.com/AntennaPod/branding).

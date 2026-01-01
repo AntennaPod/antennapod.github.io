@@ -1,10 +1,10 @@
-AntennaPod ha molti utenti e non vogliamo che si trovino in difficoltà quando aggiungiamo una nuova funzionalità. È importante poter disporre di un gruppo significativo per testare la nostra applicazione, in modo da sapere se tutte le possibili combinazioni di telefoni, versioni Android e modi di utilizzo funzionano come previsto.
+AntennaPod has many users, and we don't want them to run into trouble because we've tweaked or added a new feature. It's important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can prevent before official releases. Of course, this only helps if you report the issues you encounter by creating a thread on [our forum](https://forum.antennapod.org/).
 
 Dopo i grandi aggiornamenti spuntano spesso piccoli problemi, che vengono scoperti solo attraverso le segnalazioni di bug da parte degli utenti in queste prime fasi. C'è solo uno sviluppatore principale che lavora sul progetto nel suo tempo libero. Ha solo un paio di dispositivi su cui effettuare test, mentre il comportamento può variare molto da dispositivo a dispositivo.
 
 ## Google Play
 
-Ogni nuova versione di AntennaPod viene inviata ai nostri beta tester tramite lo store Google Play prima di essere rilasciata al pubblico. Questo ci permette di testare gli aggiornamenti su molti diversi dispositivi e versioni di Android, in modo da poter risolvere per tempo bug e problemi di esperienza utente. Se hai un occhio critico e sai spiegare cosa non sta funzionando, il tuo aiuto è molto apprezzato! Inoltre, se vedi qualcosa che non ti piace è più probabile che tu riesca a farlo cambiare per farlo corrispondere meglio a ciò che vuoi.
+Every new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what's not working quite right, we'd love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a thread on [our forum](https://forum.antennapod.org/).
 
 Vuoi essere il primo ad avere le ultimissime novità? Si può fare! Basta visitare la pagina di AntennaPod nello store Google Play e andare alla sezione "Partecipa al programma beta" in fondo alla pagina. Oppure, se stai usando il tuo computer, puoi andare a [questo link](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
