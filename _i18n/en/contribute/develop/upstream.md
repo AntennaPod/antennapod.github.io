@@ -1,5 +1,6 @@
 AntennaPod doesn't live in isolation. The project relies on many others - contributing to those means helping AntennaPod thrive:
-* **Nextcloud Podcast app** (Vue, PHP, Javascript)
-December 2020 Jonas Heinrich created the [Nextcloud Podcast app](https://apps.nextcloud.com/apps/podcast). It already is a great way to subscribe and listen to your podcasts online, in a self-hosted environment. Its further development and [integration with AntennaPod](https://git.project-insanity.org/onny/nextcloud-app-podcast/-/issues/103) would be a very welcome addition.
+* **Nextcloud GPodder Sync app** (PHP)
+To synchronize your podcasts using your Nextcloud server, you can use the [GPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync).
+You can contribute to its development [on GitHub](https://github.com/thrillfall/nextcloud-gpodder).
 * **gpodder.net** (Python, HTML)
-The long-standing and libre [gpodder.net](https://gpodder.net/) project allows users to connect and synchronize their podcast players. Unfortunately the project is a victim of its own success: the webserver often being unavailable and AntennaPod users see sync errors. Any support to the project and its maintainers is welcome, in particular with [this API issue](https://github.com/gpodder/mygpo/issues/128).
+The long-standing and libre [gpodder.net](https://gpodder.net/) project allows users to connect and synchronize their podcast players. Unfortunately the project is a victim of its own success: the web server is sometimes overloaded. Any support to the project and its maintainers is welcome. The project is developed [on GitHub](https://github.com/gpodder/mygpo).
