@@ -3,19 +3,36 @@ layout: internal
 title: titles.documentation
 ---
 
-<div class="container-fluid background-gray-100 py-4">
+<div class="container-fluid bg-body-tertiary py-4">
   <div class="container">
-    <h1 class="color-gray-800 weight-700">{% t titles.documentation %}</h1>
+    <h1 class="text-body fw-bold">{% t titles.documentation %}</h1>
   </div>
 </div>
 
 <div class="container-fluid">
   <div class="container pt-5">
-    <p class="color-gray-900 mb-3">{% t documentation.intro %}</p>
+    <p class="text-body text-center mb-4">{% t documentation.intro %}</p>
 
-    <input class="card shadow-sm project-card w-100" type="text" id="search-input" placeholder="{% t documentation.search.placeholder %}…">
-    
-    <ul class="pt-3" id="results-container"></ul>
+    <!-- Enhanced Search Component -->
+    <div class="doc-search position-relative mb-4 mx-auto">
+      <div class="doc-search-input-wrapper position-relative">
+        <i class="fa-solid fa-magnifying-glass doc-search-icon"></i>
+        <input type="text" 
+               id="search-input" 
+               class="form-control form-control-lg doc-search-input" 
+               placeholder="{% t documentation.search.placeholder %}…"
+               autocomplete="off"
+               aria-label="{% t documentation.search.placeholder %}"
+               aria-describedby="search-help">
+        <button type="button" class="doc-search-clear d-none" aria-label="Clear search">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="results-container" class="doc-search-results"></div>
+      <small id="search-help" class="form-text text-body-secondary mt-2 d-block text-center">
+        <i class="fa-solid fa-keyboard me-1"></i> {% t documentation.search.hint %}
+      </small>
+    </div>
   </div>
 </div>
 
@@ -32,21 +49,89 @@ title: titles.documentation
 
 <script>
   const initSearch = () => {
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      noResultsText: "{% t documentation.search.no-results %} :(",
-      searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-      limit: 5,
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results-container');
+    const clearButton = document.querySelector('.doc-search-clear');
+    let selectedIndex = -1;
+
+    // Initialize SimpleJekyllSearch
+    const search = SimpleJekyllSearch({
+      searchInput: searchInput,
+      resultsContainer: resultsContainer,
+      noResultsText: '<div class="doc-search-no-results"><i class="fa-solid fa-face-frown me-2"></i>{% t documentation.search.no-results %}</div>',
+      searchResultTemplate: '<a href="{url}" class="doc-search-result"><div class="doc-search-result-title">{title}</div><div class="doc-search-result-excerpt">{excerpt}</div></a>',
+      limit: 8,
       fuzzy: false,
       json: '{% if site.lang != "en" %}/{{ site.lang }}{% endif %}/assets/datasets/documentation_index.json'
     });
+
+    // Show/hide clear button
+    searchInput.addEventListener('input', () => {
+      clearButton.classList.toggle('d-none', !searchInput.value);
+      resultsContainer.classList.toggle('show', searchInput.value.length > 0);
+      selectedIndex = -1;
+      updateSelection();
+    });
+
+    // Clear button functionality
+    clearButton.addEventListener('click', () => {
+      searchInput.value = '';
+      clearButton.classList.add('d-none');
+      resultsContainer.innerHTML = '';
+      resultsContainer.classList.remove('show');
+      searchInput.focus();
+    });
+
+    // Keyboard navigation
+    searchInput.addEventListener('keydown', (e) => {
+      const results = resultsContainer.querySelectorAll('.doc-search-result');
+      
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedIndex = Math.min(selectedIndex + 1, results.length - 1);
+        updateSelection();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedIndex = Math.max(selectedIndex - 1, -1);
+        updateSelection();
+      } else if (e.key === 'Enter' && selectedIndex >= 0) {
+        e.preventDefault();
+        results[selectedIndex]?.click();
+      } else if (e.key === 'Escape') {
+        searchInput.blur();
+        resultsContainer.classList.remove('show');
+      }
+    });
+
+    function updateSelection() {
+      const results = resultsContainer.querySelectorAll('.doc-search-result');
+      results.forEach((result, i) => {
+        const isSelected = i === selectedIndex;
+        result.classList.toggle('selected', isSelected);
+        if (isSelected) {
+          result.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        }
+      });
+    }
+
+    // Close results when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.doc-search')) {
+        resultsContainer.classList.remove('show');
+      }
+    });
+
+    // Show results on focus if there's a query
+    searchInput.addEventListener('focus', () => {
+      if (searchInput.value) {
+        resultsContainer.classList.add('show');
+      }
+    });
   };
+
   if ('loading' === document.readyState) {
-    // Loading hasn't finished yet.
-    document.addEventListener('DOMContentLoaded', initSearch)
+    document.addEventListener('DOMContentLoaded', initSearch);
   } else {
-    // `DOMContentLoaded` has already fired.
-    initSearch()
+    initSearch();
   }
 </script>
