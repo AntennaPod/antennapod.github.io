@@ -5,6 +5,7 @@ date: "2020-09-29 12:00:00"
 image: "2020/default.png"
 author: keunes
 layout: blog
+category: release
 unlisted: true
 guid: https://antennapod.org/blog/2020/09/version-2-changelog
 ---
