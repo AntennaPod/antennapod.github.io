@@ -1,6 +1,7 @@
 ## Section, menu & page titles
 titles:
   about: "About"
+  features: "Features"
   blog: "Blog"
   contribute: "Contribute"
   documentation: "Documentation"
@@ -30,6 +31,7 @@ generic:
   page-not-found-long: "The requested page could not be found."
   accessibility:
     lang-menu: "Language switcher"
+    theme-menu: "Theme switcher"
     copy: "Copy link"
     copied: "Link copied!"
     share-fb: "Share on Facebook"
@@ -37,11 +39,20 @@ generic:
     share-tw: "Share on Twitter"
     share-eml: "Share via email"
     logo: "AntennaPod Logo"
+    skip-to-content: "Skip to main content"
+  theme:
+    auto: "Auto"
+    light: "Light"
+    dark: "Dark"
   eml-share:
     subject: "I wanted you to see this"
     body: "Check out this article"
   masto-share:
-    server: "Enter your instance's address: (e.g. https://mastodon.social)"
+    title: "Share on Mastodon"
+    description: "Enter your Mastodon instance URL to share this post."
+    server: "Your Mastodon instance"
+    cancel: "Cancel"
+    share: "Share"
   previous: "Previous"
   next: "Next"
 
@@ -96,6 +107,16 @@ not-installed:
 ## Blog
 blog:
   posted: "Posted on"
+  previous-post: "Previous"
+  next-post: "Next"
+  related-posts: "Related Posts"
+  post-navigation: "Post navigation"
+  categories:
+    all: "All"
+    release: "Release"
+    project: "Project Update"
+    community: "Community"
+    tutorial: "Tutorial"
 readtime:
   singular: "min read"
   plural: "min read"
@@ -154,6 +175,7 @@ documentation:
   search:
     placeholder: "Search documentation"
     no-results: "Sorry, nothing found"
+    hint: "Use arrow keys to navigate, Enter to select, Esc to close"
   getting-started:
     title: "Getting started"
     intro: "Welcome to AntennaPod! Below, you can find some details on how to get started with AntennaPod."
@@ -260,6 +282,9 @@ events:
   general:
     introduction:
     recurring: "Recurring event"
+    recurring-events: "Recurring Events"
+    upcoming-events: "Upcoming Events"
+    past-events: "Past Events"
     download-ics: "Download ICS file"
     copy-url: "Copy calendar URL"
     announce-add-calendar: "Always want to have the latest events and update community call information at hand? Then subscribe to our calendar in your favorite app via the 'Add to calendar' link!"
@@ -273,6 +298,151 @@ events:
   recurrence:
     every-2nd-saturday: "every second Saturday of the month"
     2nd-4th-wednesday: "(almost every) second & fourth Wednesday of the month"
+
+## Features
+features:
+  intro: "Discover all the features that make AntennaPod the perfect podcast companion. From basic playback to advanced automation, we've got you covered."
+  featured: "Featured"
+  learn-more: "Learn more"
+  categories:
+    all: "All"
+    getting-started: "Getting Started"
+    playback: "Playback"
+    privacy: "Privacy"
+    general: "General"
+  items:
+    subscribe:
+      title: "Subscribe to Any Podcast"
+      description: "Add podcasts by searching, browsing directories, or importing RSS feeds directly. Support for OPML import/export makes switching from other apps a breeze."
+    streaming:
+      title: "Stream or Download"
+      description: "Listen to episodes on-the-go by streaming, or download them for offline playback. Choose what works best for your data plan and storage."
+    offline:
+      title: "Offline Playback"
+      description: "Download episodes to listen without an internet connection. Perfect for commutes, flights, or areas with poor connectivity."
+    queue:
+      title: "Playback Queue"
+      description: "Build your perfect listening lineup. Add episodes to your queue manually or automatically, and enjoy continuous playback."
+    playback-speed:
+      title: "Variable Playback Speed"
+      description: "Speed up or slow down playback to suit your preference. Per-podcast speed settings let you customize for each show."
+    sleep-timer:
+      title: "Sleep Timer"
+      description: "Fall asleep to your favorite podcast without worrying about missing content. The sleep timer will pause playback automatically."
+    android-auto:
+      title: "Android Auto Support"
+      description: "Safely control AntennaPod while driving with Android Auto integration. Voice commands and a simplified interface for the road."
+    chromecast:
+      title: "Chromecast Support"
+      description: "Cast your podcasts to any Chromecast-enabled device. Enjoy your shows on the big screen or through your home speakers."
+    open-source:
+      title: "Open Source"
+      description: "AntennaPod is 100% open source. View the code, contribute improvements, or verify that we respect your privacy. No hidden agendas."
+    privacy:
+      title: "Privacy Respecting"
+      description: "No tracking, no analytics, no data collection. Your listening habits are your own business. We don't even have servers to store your data."
+    no-ads:
+      title: "No Advertisements"
+      description: "AntennaPod is completely ad-free. We're built by volunteers who believe great software doesn't need to monetize your attention."
+    import-export:
+      title: "Import & Export"
+      description: "Easily backup your subscriptions, settings, and listening progress. Move to a new device or switch apps without losing anything."
+    sync:
+      title: "Cross-Device Sync"
+      description: "Sync your subscriptions and episode progress across multiple devices using gpodder.net or a self-hosted Nextcloud server."
+    automation:
+      title: "Automation"
+      description: "Set up automatic downloads, deletions, and podcast refreshes. Integrate with Tasker for even more powerful automation."
+
+## Contributors
+contributors:
+  title: "Contributors"
+  description: "AntennaPod is built by amazing volunteers from around the world."
+  view-all: "View all on GitHub"
+  loading: "Loading contributors..."
+  error: "Could not load contributors"
+
+## Language Showcase
+language-showcase:
+  title: "Help Translate AntennaPod"
+  description: "AntennaPod is available in many languages, but some need your help!"
+  status: "currently at"
+  cta: "Start Translating"
+  complete: "All languages are well-covered! But you can still help improve translations."
+  languages-need-help: "Currently"
+  languages-count: "languages need help"
+  more-languages: "more languages"
+
+## Forum Posts
+forum-posts:
+  title: "Community Forum"
+  description: "Get help, share ideas, and connect with other users"
+  view-all: "Visit the Forum"
+  loading: "Loading discussions..."
+  error: "Could not load discussions"
+  categories:
+    support: "Support"
+    support-desc: "Get help with AntennaPod"
+    features: "Feature Requests"
+    features-desc: "Suggest new features"
+    bugs: "Bug Reports"
+    bugs-desc: "Report issues you've found"
+    general: "General Discussion"
+    general-desc: "Chat about podcasts and more"
+    project: "Project Updates"
+    project-desc: "Follow development news"
+
+## Contributions Graph
+contributions-graph:
+  title: "Development Activity"
+  description: "Commits per week over the past 6 months"
+  join-cta: "Join Development"
+  loading: "Loading activity..."
+  error: "Could not load activity data"
+  commits: "commits"
+  this-week: "This week"
+
+## Media Kit
+media-kit:
+  title: "Media Kit"
+  description: "Official AntennaPod brand assets for press and media use."
+  logo-section: "Logos"
+  logo-description: "Our logo in various formats and colors for different backgrounds."
+  colors-section: "Brand Colors"
+  colors-description: "Our official color palette."
+  screenshots-section: "Screenshots"
+  screenshots-description: "App screenshots for press and promotional use."
+  guidelines-section: "Usage Guidelines"
+  guidelines-description: "Please follow these guidelines when using our brand assets."
+  download-all: "Download All Assets"
+  primary: "Primary"
+  secondary: "Secondary"
+  accent: "Accent"
+
+## What's New
+whats-new:
+  title: "What's New"
+  description: "Latest changes in AntennaPod"
+  view-full: "View full changelog"
+
+## Interactive Demo
+interactive-demo:
+  title: "Your Podcasts, Your Way"
+  subtitle: "Discover how AntennaPod puts you in control of your podcast experience."
+  view-all: "All Features"
+  features:
+    home:
+      title: "Personalized Home"
+      description: "A customizable home screen that shows what matters most to you."
+    playback:
+      title: "Smart Playback"
+      description: "Variable speed, sleep timer, skip silences, and Android Auto support."
+    discover:
+      title: "Easy Discovery"
+      description: "Find new podcasts through directories, search, or RSS feeds."
+    sync:
+      title: "Multi-Device Sync"
+      description: "Sync progress across devices with gpodder.net or Nextcloud."
 
 ## Footer
 footer:
