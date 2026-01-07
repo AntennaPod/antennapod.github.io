@@ -1,14 +1,18 @@
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-$(function () {
-   $(document).on('shown.bs.tooltip', function (e) {
-      setTimeout(function () {
-        $(e.target).tooltip('hide');
+// Initialize Bootstrap 5 tooltips
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize all tooltips
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+
+  // Auto-hide tooltips after 1 second
+  document.addEventListener('shown.bs.tooltip', function(e) {
+    setTimeout(function() {
+      var tooltip = bootstrap.Tooltip.getInstance(e.target);
+      if (tooltip) {
+        tooltip.hide();
+      }
       }, 1000);
    });
 });
-
-// For buttons, make sure to add the data-selector="true" property. See
-// https://github.com/twbs/bootstrap/issues/15359
-// https://stackoverflow.com/a/27237034
