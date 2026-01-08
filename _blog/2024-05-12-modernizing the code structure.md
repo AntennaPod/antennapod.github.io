@@ -5,6 +5,7 @@ date: "2024-05-12 22:00:00"
 image: "2024/codeStructureTeaser.jpg"
 author: bytehamster
 layout: blog
+category: project
 guid: 997f9895-7723-4ed0-88ee-8077878100d0
 ---
 

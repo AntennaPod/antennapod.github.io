@@ -5,6 +5,7 @@ date: "2023-11-26 08:20:00"
 image: "2023/cassette.jpg"
 author: loucasal
 layout: blog
+category: tutorial
 guid: 2RUY-1337-Q8NP-HU4N-STBY
 ---
 

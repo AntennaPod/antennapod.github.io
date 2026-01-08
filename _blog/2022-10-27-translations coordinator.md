@@ -5,6 +5,7 @@ date: "2022-10-27 23:40:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
+category: community
 guid: https://antennapod.org/blog/2022/10/translations-coordinator
 ---
 

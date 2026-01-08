@@ -3,7 +3,26 @@ layout: internal
 title: titles.events
 ---
 
-<div class="container-fluid background-gray-100 py-4">
+{% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+
+{% comment %} Split events into categories {% endcomment %}
+{% assign recurring_events = site.events | where: "recurring", true | where_exp: "item", "item.unlisted != true" | sort: 'datetime-start' | reverse %}
+
+{% assign all_normal_events = site.events | where: "recurring", false | where_exp: "item", "item.unlisted != true" | sort: 'datetime-start' | reverse %}
+
+{% assign upcoming_events = "" | split: "" %}
+{% assign past_events = "" | split: "" %}
+
+{% for event in all_normal_events %}
+  {% capture eventtime %}{{ event.datetime-start | date: '%s' }}{% endcapture %}
+  {% if eventtime > nowunix %}
+    {% assign upcoming_events = upcoming_events | push: event %}
+  {% else %}
+    {% assign past_events = past_events | push: event %}
+  {% endif %}
+{% endfor %}
+
+<div class="container-fluid bg-body-tertiary py-4">
     <div class="container">
       <h1>{% t titles.events %}</h1>
     </div>
@@ -12,25 +31,60 @@ title: titles.events
 <div class="container-fluid">
     <div class="container py-5">
         <div class="row justify-content-between">
-            <div class="col-xl-3 mb-4 mb-xl-0 order-lg-2">
-              <div class="card">
-                <div class="card-body">
+            
+            {% comment %} Meet Us sidebar - order-2 on mobile (after upcoming, before past) {% endcomment %}
+            <div class="col-xl-5 mb-4 mb-xl-0 order-2 order-xl-2">
+              <div class="card sticky-xl-top" style="top: 6rem;">
+                <div class="card-body p-4">
                   <div class="card-text">
                     {% tf general/event-sidebar.md %}
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-xl-7">
-                {% assign recurringevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", true %}
-                {% assign normalevents = site.events | sort: 'datetime-start' | reverse | where:"recurring", false %}
-                {% assign events = recurringevents | concat: normalevents %}
-                {% for event in events %}
-                {% if event.unlisted != true %}
-                {% include event-card.html item=event %}
+            
+            {% comment %} Events column - order-1 on mobile for upcoming, order-3 for past {% endcomment %}
+            <div class="col-xl-7 order-1 order-xl-1">
+                
+                {% comment %} Recurring Events {% endcomment %}
+                {% if recurring_events.size > 0 %}
+                <div class="mb-4">
+                    <h2 class="h5 text-body-secondary mb-3">
+                        <i class="fa-solid fa-repeat me-2"></i>{% t events.general.recurring-events %}
+                    </h2>
+                    {% for event in recurring_events %}
+                        {% include event-card.html item=event %}
+                    {% endfor %}
+                </div>
                 {% endif %}
-                {% endfor %}
+                
+                {% comment %} Upcoming Events {% endcomment %}
+                {% if upcoming_events.size > 0 %}
+                <div class="mb-4">
+                    <h2 class="h5 text-body-secondary mb-3">
+                        <i class="fa-solid fa-calendar-day me-2"></i>{% t events.general.upcoming-events %}
+                    </h2>
+                    {% for event in upcoming_events %}
+                        {% include event-card.html item=event %}
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
+            
+            {% comment %} Past Events - separate column for mobile ordering {% endcomment %}
+            <div class="col-xl-7 order-3 order-xl-3">
+                {% if past_events.size > 0 %}
+                <div class="mb-4">
+                    <h2 class="h5 text-body-secondary mb-3">
+                        <i class="fa-solid fa-clock-rotate-left me-2"></i>{% t events.general.past-events %}
+                    </h2>
+                    {% for event in past_events %}
+                        {% include event-card.html item=event %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            
         </div>
     </div>
 </div>

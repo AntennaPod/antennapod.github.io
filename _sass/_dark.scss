@@ -1,152 +1,195 @@
-@media (prefers-color-scheme: dark) {
+// Dark theme customizations for Bootstrap 5.3
+// Most styling is now handled by Bootstrap's built-in dark mode
+// Only project-specific overrides remain here
 
-/*!
- * Bootstrap v4.6.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- *
- * Bootstrap-Dark (https://vinorodrigues.github.io/bootstrap-dark/)
- * Copyright 2020 Vino Rodrigues
- * This version is a dual color theme, with the default light mode and the dark
- * elements optioned in by a `prefers-color-scheme: dark` media query
- */
+[data-bs-theme="dark"] {
+    // Custom body background (slightly darker than Bootstrap default)
+    --bs-body-bg: #111;
+    --bs-body-bg-rgb: 17, 17, 17;
+    --bs-tertiary-bg: #1a1a1a;
+    --bs-tertiary-bg-rgb: 26, 26, 26;
+    
+    // Brand colors for dark mode (brighter for visibility)
+    // Source: https://github.com/AntennaPod/Branding
+    --bs-primary: #{$brand-primary-dark};
+    --bs-primary-rgb: 61, 161, 255;
+    
+    // Custom link colors using project's teal palette
+    --bs-link-color: #{$teal-200};
+    --bs-link-hover-color: #{$teal-300};
+    
+    // Dark scrollbar
+    scrollbar-color: #333 #000;
+    
+    // Ensure color-scheme is set for proper SVG and form rendering
+    color-scheme: dark;
 
-  @import "./bootstrap-dark/functions";
-  @import "./bootstrap-dark/variables-alt";
-  @import "./bootstrap-dark/buttons";
-  @import "./bootstrap-dark/modal";
-  @import "./bootstrap-dark/card";
-
-    :root {
-        --bs-secondary-color: #ddd;
-        --bs-tertiary-bg: #223; // .background-gray-100
-        scrollbar-color: #333 #000;
+    // Card dark styling
+    .card {
+        --bs-card-bg: #1a1a1a;
+        --bs-card-border-color: #333;
     }
 
-    body {
-        color: #ddd;
-        background-color: #111;
+    // Modal dark styling
+    .modal-content {
+        --bs-modal-bg: #1a1a1a;
+        --bs-modal-border-color: #333;
     }
 
-    .content h1,
-    .content h2,
-    .content h3,
-    .content h4,
-    .content h5,
-    .content h6 {
-        color: #ddd;
+    // Close button filter for visibility
+    .btn-close {
+        filter: invert(1) grayscale(100%) brightness(200%);
     }
 
-    p {
-      color: $gray-300;
-    }
-
-    a {
-      color: $teal-200;
-
-      &:hover {
-        color: $teal-300;
-      }
-    }
-
-    .nav-item:hover {
-        background: #666;
-    }
-
-    .nav-item.active {
-        background-color: #444;
-    }
-
-    .navbar-collapse > .navbar-nav > .nav-item > .nav-link {
-        color: #bbb;
-    }
-
-    .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
-        color: #fff;
-    }
-
-    .dropdown-toggle:after {
-        filter: invert(0.8);
-    }
-
+    // Navbar toggler for mobile
     .navbar-toggler {
         filter: invert(1);
     }
 
+    // Phone mockup images border
     img.phone,
     img.half-phone {
         border-color: #333;
     }
 
-    .post-content, .modal-body {
-        & p, li {
-          color: #ddd;
+    // Code blocks dark mode
+    code {
+        color: #e83e8c;
+        background-color: #2d2d2d;
+    }
+
+    pre {
+        background-color: #1e1e1e;
+        color: #d4d4d4;
+        border: 0.0625rem solid #333;
+    }
+
+    pre code {
+        background-color: transparent;
+        color: inherit;
+    }
+
+    code.language-plaintext {
+        background-color: #2d2d2d;
+        border-color: #555;
+        color: #ddd;
+    }
+
+    // Syntax highlighting for dark mode
+    .highlight {
+        background-color: #1e1e1e;
+
+        .c, .c1, .cm { color: #6a9955; } // Comments
+        .k, .kd, .kn, .kp, .kr, .kt { color: #569cd6; } // Keywords
+        .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: #ce9178; } // Strings
+        .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nt, .nv { color: #9cdcfe; } // Names
+        .m, .mf, .mh, .mi, .mo { color: #b5cea8; } // Numbers
+        .o, .ow { color: #d4d4d4; } // Operators
+        .p { color: #d4d4d4; } // Punctuation
+        .err { color: #f44747; } // Errors
+    }
+
+    // Outline buttons in dark mode - better contrast with direct overrides
+    .btn-outline-primary {
+        --bs-btn-color: #{$brand-primary-dark};
+        --bs-btn-border-color: #{$brand-primary-dark};
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #{$brand-primary-dark};
+        --bs-btn-hover-border-color: #{$brand-primary-dark};
+        --bs-btn-focus-shadow-rgb: 61, 161, 255;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #{darken($brand-primary-dark, 10%)};
+        --bs-btn-active-border-color: #{darken($brand-primary-dark, 10%)};
+        
+        color: $brand-primary-dark;
+        border-color: $brand-primary-dark;
+        
+        &:hover,
+        &:focus,
+        &:focus-visible {
+            color: #fff !important;
+            background-color: $brand-primary-dark !important;
+            border-color: $brand-primary-dark !important;
         }
-
-        & #donate {
-          color: $gray-500;
+        
+        &:active,
+        &.active,
+        &.show {
+            color: #fff !important;
+            background-color: darken($brand-primary-dark, 10%) !important;
+            border-color: darken($brand-primary-dark, 10%) !important;
         }
-
     }
 
-    .card {
-        background-color: $black;
+    .btn-outline-secondary {
+        --bs-btn-color: #e0e0e0;
+        --bs-btn-border-color: #555;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #{$brand-secondary};
+        --bs-btn-hover-border-color: #{$brand-secondary};
+        --bs-btn-focus-shadow-rgb: 54, 79, 243;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #{darken($brand-secondary, 10%)};
+        --bs-btn-active-border-color: #{darken($brand-secondary, 10%)};
+        
+        color: #e0e0e0;
+        border-color: #555;
+        
+        &:hover,
+        &:focus,
+        &:focus-visible {
+            color: #fff !important;
+            background-color: $brand-secondary !important;
+            border-color: $brand-secondary !important;
+        }
+        
+        &:active,
+        &.active,
+        &.show {
+            color: #fff !important;
+            background-color: darken($brand-secondary, 10%) !important;
+            border-color: darken($brand-secondary, 10%) !important;
+        }
     }
 
-    hr {
-        border: none;
-    }
-
-    #search-input {
+    .btn-outline-light {
+        --bs-btn-color: #fff;
+        --bs-btn-border-color: #666;
+        --bs-btn-hover-color: #111;
+        --bs-btn-hover-bg: #fff;
+        --bs-btn-hover-border-color: #fff;
+        
         color: #fff;
+        border-color: #666;
+        
+        &:hover,
+        &:focus,
+        &:focus-visible {
+            color: #111 !important;
+            background-color: #fff !important;
+            border-color: #fff !important;
+        }
     }
-
-    // Footer
-
-    .copyright {
-      color: #bbb !important;
-
-      & a {
-        color: #bbb !important;
-      }
-
-      & a:hover {
-        color: #fff !important;
-      }
+    
+    // Accordion dark mode styling for features page
+    #featuresAccordion {
+        .accordion-button {
+            &:not(.collapsed) {
+                background-color: rgba($brand-primary-dark, 0.15);
+            }
+            
+            &::after {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233da1ff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            }
+        }
+        
+        .accordion-body {
+            background-color: rgba($brand-primary-dark, 0.08);
+            border-top-color: rgba($brand-primary-dark, 0.2);
+        }
+        
+        .fa-solid {
+            color: $brand-primary-dark;
+        }
     }
-
-    .overlay {
-        background-color: #333;
-    }
-
-    .overlay a {
-        color: #bbb;
-    }
-
-    .overlay a:hover {
-       color: #000 !important;
-    }
-
-    .background-gray-100 {
-        background-color: #223 !important;
-    }
-
-    .color-gray-800,
-    .color-gray-900 {
-        color: #ddd !important;
-    }
-
-    .modal-footer {
-        border-top: 0;
-    }
-
-    .alert-warning {
-        background-color: #fff3cd0a;
-    }
-
-    .lead {
-        background-color: #223;
-    }
-
 }

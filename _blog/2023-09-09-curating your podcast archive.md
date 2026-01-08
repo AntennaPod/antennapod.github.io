@@ -5,6 +5,7 @@ date: "2023-09-27 08:35:00"
 image: "2023/archive.jpg"
 author: loucasal
 layout: blog
+category: tutorial
 guid: 2QUY-1288-Q8NP-HU3N-PSBZ
 ---
 
