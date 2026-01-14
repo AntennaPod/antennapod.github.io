@@ -2,20 +2,25 @@
 $white: #fff;
 $black: #000;
 
-// Brand palette
+// ==========================================================================
+// AntennaPod Brand Palette
+// Source: https://github.com/AntennaPod/Branding
+// ==========================================================================
 
 $brand-list: (
-  "primary": #1b8bf6,
-  "secondary": #364ff3,
-  "lightblue": #16d0ff,
-  "green": #4ad373,
-  "red": #ff5353,
-  "gray": #f6f6f6,
-  "dark": #001937,
-  "gradient": #c0e6fb,
+  "primary": #1b8bf6,       // Primary Blue
+  "primary-dark": #3da1ff,  // Brighter primary for dark mode
+  "secondary": #364ff3,     // Secondary Blue / Indigo
+  "lightblue": #16d0ff,     // Cyan Accent
+  "green": #4ad373,         // Success Green
+  "red": #ff5353,           // Danger Red
+  "gray": #f6f6f6,          // Light Gray
+  "dark": #001937,          // Brand Dark
+  "gradient": #c0e6fb,      // Gradient accent
 );
 
 $brand-primary: map-get($brand-list, "primary");
+$brand-primary-dark: map-get($brand-list, "primary-dark");
 $brand-secondary: map-get($brand-list, "secondary");
 $brand-lightblue: map-get($brand-list, "lightblue");
 $brand-green: map-get($brand-list, "green");
@@ -119,50 +124,3 @@ $teal-600: map-get($teal-list, "600");
 $teal-700: map-get($teal-list, "700");
 $teal-800: map-get($teal-list, "800");
 $teal-900: map-get($teal-list, "900");
-
-// Dynamic background and color classes creation
-
-@each $value in $brand-list {
-  .background-brand-#{nth($value, 1)} {
-    background-color: nth($value, 2) !important;
-  }
-  .color-brand-#{nth($value, 1)} {
-    color: nth($value, 2) !important;
-  }
-}
-
-@each $value in $gray-list {
-  .background-gray-#{nth($value, 1)} {
-    background-color: nth($value, 2) !important;
-  }
-  .color-gray-#{nth($value, 1)} {
-    color: nth($value, 2) !important;
-  }
-}
-
-@each $value in $orange-list {
-  .background-orange-#{nth($value, 1)} {
-    background-color: nth($value, 2) !important;
-  }
-  .color-orange-#{nth($value, 1)} {
-    color: nth($value, 2) !important;
-  }
-}
-
-@each $value in $green-list {
-  .background-green-#{nth($value, 1)} {
-    background-color: nth($value, 2) !important;
-  }
-  .color-green-#{nth($value, 1)} {
-    color: nth($value, 2) !important;
-  }
-}
-
-@each $value in $teal-list {
-  .background-teal-#{nth($value, 1)} {
-    background-color: nth($value, 2) !important;
-  }
-  .color-teal-#{nth($value, 1)} {
-    color: nth($value, 2) !important;
-  }
-}

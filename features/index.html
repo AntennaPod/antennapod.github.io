@@ -1,0 +1,104 @@
+---
+layout: internal
+title: titles.features
+---
+
+<div class="container-fluid bg-body-tertiary py-4">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-7">
+        <h1 class="text-body fw-bold">{% t titles.features %}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-7">
+        <p class="text-body mb-4">{% t features.intro %}</p>
+
+        <!-- Category Filter -->
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          <button class="btn btn-primary btn-sm feature-filter active" data-category="all">
+            {% t features.categories.all %}
+          </button>
+          <button class="btn btn-outline-secondary btn-sm feature-filter" data-category="getting-started">
+            {% t features.categories.getting-started %}
+          </button>
+          <button class="btn btn-outline-secondary btn-sm feature-filter" data-category="playback">
+            {% t features.categories.playback %}
+          </button>
+          <button class="btn btn-outline-secondary btn-sm feature-filter" data-category="privacy">
+            {% t features.categories.privacy %}
+          </button>
+          <button class="btn btn-outline-secondary btn-sm feature-filter" data-category="general">
+            {% t features.categories.general %}
+          </button>
+        </div>
+
+        <!-- Features Accordion -->
+        <div class="accordion" id="featuresAccordion">
+          {%- assign features = site.features | sort: 'order' %}
+          {%- for feature in features %}
+          <div class="accordion-item feature-item" data-category="{{ feature.category }}">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#feature-{{ feature.slug }}" aria-expanded="false" 
+                      aria-controls="feature-{{ feature.slug }}">
+                <i class="fa-solid fa-{{ feature.icon }} me-3 text-primary fs-5"></i>
+                <span class="fw-semibold">{% t features.items.{{ feature.slug }}.title %}</span>
+                {% if feature.featured %}
+                <span class="badge bg-primary ms-2">{% t features.featured %}</span>
+                {% endif %}
+              </button>
+            </h2>
+            <div id="feature-{{ feature.slug }}" class="accordion-collapse collapse" 
+                 data-bs-parent="#featuresAccordion">
+              <div class="accordion-body">
+                <p class="mb-3">{% t features.items.{{ feature.slug }}.description %}</p>
+                {% if feature.doc_link %}
+                <a href="{{ site.baseurl }}{{ feature.doc_link }}" class="btn btn-outline-primary btn-sm">
+                  <i class="fa-solid fa-book me-1"></i> {% t features.learn-more %}
+                </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filters = document.querySelectorAll('.feature-filter');
+  const items = document.querySelectorAll('.feature-item');
+
+  filters.forEach(filter => {
+    filter.addEventListener('click', function() {
+      // Update active state
+      filters.forEach(f => {
+        f.classList.remove('active', 'btn-primary');
+        f.classList.add('btn-outline-secondary');
+      });
+      this.classList.add('active', 'btn-primary');
+      this.classList.remove('btn-outline-secondary');
+
+      // Filter items
+      const category = this.dataset.category;
+      items.forEach(item => {
+        if (category === 'all' || item.dataset.category === category) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+

@@ -5,6 +5,7 @@ date: "2024-10-24 08:00:00"
 image: "2024/hacktoberfest.png"
 author: keunes
 layout: blog
+category: community
 guid: 5d919229-2fb6-4017-ba9d-b936f0229792
 ---
 

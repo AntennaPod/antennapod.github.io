@@ -1,0 +1,35 @@
+{% comment %}
+  Contributors Component
+  Displays GitHub contributors using client-side fetch with localStorage caching
+  Usage: {% include contributors.html limit=30 %}
+{% endcomment %}
+
+{% assign limit = include.limit | default: 30 %}
+
+<div class="contributors-section card h-100 border-0 shadow-sm">
+  <div class="card-header bg-transparent border-0 pb-0 pt-3">
+    <div class="d-flex align-items-center justify-content-between">
+      <h5 class="card-title my-0 d-flex align-items-center">
+        <span class="bg-success bg-opacity-10 rounded-2 p-2 me-2 d-inline-flex">
+          <i class="fa-solid fa-heart text-success"></i>
+        </span>
+        {% t contributors.title %}
+      </h5>
+      <a href="https://github.com/AntennaPod/AntennaPod/graphs/contributors" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary text-nowrap">
+        {% t contributors.view-all %} <i class="fa-solid fa-external-link-alt ms-1"></i>
+      </a>
+    </div>
+  </div>
+  <div class="card-body d-flex flex-column pt-3">
+    <p class="text-body-secondary small mb-3">{% t contributors.description %}</p>
+    
+    <div class="contributors-container flex-grow-1" data-contributors data-contributors-limit="{{ limit }}">
+      <div class="d-flex align-items-center justify-content-center text-body-secondary py-4">
+        <div class="spinner-border spinner-border-sm me-2" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <span class="small">{% t contributors.loading %}</span>
+      </div>
+    </div>
+  </div>
+</div>
