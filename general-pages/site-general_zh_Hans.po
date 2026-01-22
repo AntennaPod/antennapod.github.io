@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 22:01+0200\n"
-"PO-Revision-Date: 2026-01-08 16:01+0000\n"
-"Last-Translator: Xin Z <xin.z.stahli@gmail.com>\n"
+"PO-Revision-Date: 2026-01-22 15:54+0000\n"
+"Last-Translator: Sketch6580 <sketch6580@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/antennapod/website/general/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -121,8 +121,8 @@ msgid ""
 "spares listeners from inaccessible content in [walled gardens](https://en."
 "wikipedia.org/wiki/Closed_platform), and"
 msgstr ""
-"使听众免受[有围墙的花园](https://zh.wikipedia.org/zh-cn/"
-"%E5%B0%81%E9%96%89%E5%B9%B3%E8%87%BA)中无法访问内容的影响，并且"
+"使听众免受[封闭平台](https://zh.wikipedia.org/wiki/封闭平台)中无法访问内容的"
+"影响，并且"
 
 #: _i18n/en/general/about.md:block 11 (unordered list)
 msgid ""
@@ -481,6 +481,10 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"当您使用 AntennaPod 中的搜索功能时，PodcastIndex.org（[隐私政策](https://"
+"github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)）、Apple "
+"Podcasts（[隐私政策](https://www.apple.com/legal/privacy/en-ww/)）和 fyyd"
+"（[隐私政策](https://fyyd.de/privacy)）服务可能会存储您的查询，包括搜索词。"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -488,10 +492,12 @@ msgid ""
 "'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
 "meaning the discovery/search service is no longer involved."
 msgstr ""
+"发现和搜索查询还包含 IP 地址、时间和应用名称“AntennaPod”。订阅后，播客内容将"
+"由播客托管商提供，此时发现/搜索服务不再参与内容传输。"
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and backup services"
-msgstr ""
+msgstr "同步和备份服务"
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
 msgid ""
@@ -522,7 +528,7 @@ msgstr ""
 
 #: _i18n/en/general/privacy.md:block 16 (header)
 msgid "Device and operating system vendors"
-msgstr ""
+msgstr "设备和操作系统供应商"
 
 #: _i18n/en/general/privacy.md:block 17 (paragraph)
 msgid ""
@@ -532,14 +538,18 @@ msgid ""
 "is sent to Google. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
+"如果您已启用与 Google [共享使用情况和诊断信息](https://support.google.com/"
+"accounts/answer/6078260)的功能，并在 AntennaPod 崩溃或无响应时使用 Android 的"
+"报告功能，则相关数据会发送给 Google。如需更多信息，请参阅 [Google 的隐私权政"
+"策](https://policies.google.com)。"
 
 #: _i18n/en/general/privacy.md:block 18 (header)
 msgid "Online services"
-msgstr ""
+msgstr "在线服务"
 
 #: _i18n/en/general/privacy.md:block 19 (header)
 msgid "Data from services hosted by the team"
-msgstr ""
+msgstr "来自团队托管服务的数据"
 
 #: _i18n/en/general/privacy.md:block 20 (unordered list)
 msgid ""
@@ -552,11 +562,11 @@ msgstr ""
 
 #: _i18n/en/general/privacy.md:block 21 (header)
 msgid "Data from services hosted by other parties"
-msgstr ""
+msgstr "来自其他方托管服务的数据"
 
 #: _i18n/en/general/privacy.md:block 22 (header)
 msgid "The donation system"
-msgstr ""
+msgstr "捐赠系统"
 
 #: _i18n/en/general/privacy.md:block 23 (paragraph)
 msgid ""
@@ -572,6 +582,8 @@ msgid ""
 "these entities - for more information, see [Open Collective Inc.'s privacy "
 "policy](https://opencollective.com/privacypolicy)"
 msgstr ""
+"这些实体——如需更多信息，请参阅 [Open Collective Inc. 的隐私政策](https://"
+"opencollective.com/privacypolicy)"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
@@ -602,7 +614,7 @@ msgstr "网站"
 
 #: _i18n/en/general/privacy.md:block 26 (paragraph)
 msgid "AntennaPod's website is hosted via GitHub Pages."
-msgstr ""
+msgstr "AntennaPod 的网站通过 GitHub Pages 托管。"
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -611,6 +623,9 @@ msgid ""
 "privacy-policies/github-general-privacy-statement) for the data they collect "
 "and process."
 msgstr ""
+"当您访问我们的网站时，您正在与 GitHub, Inc. 或 GitHub B.V. 进行交互——有关其收"
+"集和处理的数据，请参阅其[隐私政策](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement)。"
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -619,6 +634,9 @@ msgid ""
 "section contains an embedded graph which is retrieved from the servers of "
 "Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
 msgstr ""
+"本网站不设置任何 Cookie，且不使用第三方跟踪、分析或其他服务。在“贡献”板块的“"
+"翻译”页面中包含从 Weblate s.r.o. 的服务器检索的嵌入式图表（[隐私政策]"
+"(https://weblate.org/en-gb/privacy/)）。"
 
 #: _i18n/en/general/privacy.md:block 28 (header)
 msgid "Google Play"
@@ -631,10 +649,13 @@ msgid ""
 "store the following in any online service used by the team (e.g. GitHub or "
 "the forum):"
 msgstr ""
+"当您主动在 Google Play 商店留下评论时，AntennaPod 团队将能访问您的公开个人资"
+"料信息，并可能在团队使用的任何在线服务（例如 GitHub 或论坛）中提取并存储以下"
+"内容："
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
-msgstr ""
+msgstr "评论文本"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "device language"
@@ -642,11 +663,11 @@ msgstr "设备语言"
 
 #: _i18n/en/general/privacy.md:block 31 (header)
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: _i18n/en/general/privacy.md:block 32 (paragraph)
 msgid "When you contribute to AntennaPod's translations:"
-msgstr ""
+msgstr "当您为 AntennaPod 的翻译做出贡献时："
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -654,6 +675,8 @@ msgid ""
 "[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
 "collect and process."
 msgstr ""
+"您正在与 Weblate s.r.o. 的托管服务进行交互——有关其收集和处理的数据，请参阅"
+"其[隐私政策](https://weblate.org/en-gb/privacy/)。"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid "the AntennaPod team gets access to:"
@@ -664,6 +687,8 @@ msgid ""
 "the 'username', 'full name' and 'account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
+"[您个人资料](https://hosted.weblate.org/accounts/profile/#account)中设置的“用"
+"户名”、“全名”和“账户邮箱”"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -673,10 +698,14 @@ msgid ""
 "reporting.html#credits) you contribute to and the date and timestamps of "
 "your contributions."
 msgstr ""
+"您加入项目的日期和关于您贡献的详细[统计数据](https://docs.weblate.org/en/"
+"latest/devel/reporting.html#stats)，以及您贡献的[语言](https://"
+"docs.weblate.org/en/latest/devel/reporting.html#credits)、贡献的日期和时间戳"
+"。"
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: _i18n/en/general/privacy.md:block 35 (paragraph)
 msgid ""
@@ -685,6 +714,10 @@ msgid ""
 "github.com/en/site-policy/privacy-policies/github-general-privacy-statement) "
 "for the data they collect and process."
 msgstr ""
+"当您通过 git 为 AntennaPod 的代码库做出贡献时，您正在与 GitHub, Inc. 或 "
+"GitHub B.V. 进行交互——有关其收集和处理的数据，请参阅其[隐私政策](https://"
+"docs.github.com/en/site-policy/privacy-policies/github-general-privacy-"
+"statement)。"
 
 #: _i18n/en/general/privacy.md:block 36 (header)
 msgid "Updates to this Privacy Policy"
