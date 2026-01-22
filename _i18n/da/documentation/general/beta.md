@@ -1,12 +1,12 @@
-AntennaPod has many users, and we don't want them to run into trouble because we've tweaked or added a new feature. It's important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can prevent before official releases. Of course, this only helps if you report the issues you encounter by creating a thread on [our forum](https://forum.antennapod.org/).
+AntennaPod har mange brugere, og vi ønsker ikke, at de skal løbe ind i problemer, fordi vi har justeret eller tilføjet en ny funktion. Det er vigtigt, at der er folk, der tester vores app. Jo flere mennesker der tester, jo flere kombinationer af telefoner, Android-versioner og brugsscenarier kan vi dække, og jo flere problemer kan vi forhindre inden den officielle udgivelse. Dette hjælper selvfølgelig kun, hvis du rapporterer de problemer, du støder på, ved at oprette en tråd på [vores forum](https://forum.antennapod.org/).
 
-Mindre problemer dukker ofte op efter større opdateringer, og de bliver kun opdaget via fejlrapporter fra brugere i disse tidlige faser. Der er kun én hovedudvikler, som arbejder på dette i sin fritid. Han har kun et par enheder til at teste tingene på, mens opførslen kan variere fra enhed til enhed.
+Mindre problemer dukker ofte op efter større opdateringer, og de bliver typisk opdaget via fejlrapporter fra brugere i disse tidlige faser. Der er kun én hovedudvikler, som arbejder på dette i sin fritid. Selvom appens opførsel kan variere meget fra en enhed til en anden, har han kun et begrænset antal enheder at teste på.
 
 ## Google Play
 
-Every new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what's not working quite right, we'd love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a thread on [our forum](https://forum.antennapod.org/).
+Hver nye version af AntennaPod sendes til vores beta-testere via Google Play Store, inden den frigives til offentligheden. Hvis du har et skarpt øje og kan forklare, hvad der ikke fungerer helt korrekt, vil vi meget gerne have din hjælp! Når du deler dine tanker om, hvad der kan forbedres, er du desuden med til at forme appen, så den bedre matcher dine (og fællesskabets) forventninger. Du kan give din feedback ved at oprette en tråd på [vores forum](https://forum.antennapod.org/).
 
-Så du vil have det nyeste og bedste? Det er helt sikkert muligt! Du skal blot besøge AntennaPod i Play Store og gå til "Bliv betatester" nederst på siden. Hvis du sidder ved din computer, kan du gå til [denne url](https://play.google.com/apps/testing/de.danoeh.antennapod).
+Så du vil have det nyeste og bedste og hjælpe os med at finpudse appen, så den virkelig kommer til sin ret? Du skal blot besøge AntennaPod i Play Store og gå til **Tilmed dig betaprogrammet** under *Appunderstøttelse* sektionen. Eller, hvis du sidder ved din computer, kan du tilmelde dig vores betaprogram [her](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 {% include image.html alt= "
 

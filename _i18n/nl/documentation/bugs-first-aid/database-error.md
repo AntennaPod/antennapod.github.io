@@ -11,6 +11,6 @@ Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hier
 1. Hoewel alle gegevens *over* abonnementen en afleveringen zijn verdwenen, zijn de mediabestanden er nog wel.
 
 * In AntennaPod you can add a folder as if it were a feed. To do this, go to `Add Podcast` and tap on `Add local folder`. Then go to this folder on your phone:
-* On Android 11+: `Android` » `media` » `de.danoeh.antennapod`
+* Op Android 11+:`Android` » `media` » `de.danoeh.antennapod`
 * In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar `Podcast toevoegen` en tik op `Lokale map toevoegen`. Ga vervolgens naar deze map op je telefoon: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.
 * Je kunt ook opnieuw beginnen met het toevoegen van eerdere podcasts. In de bovengenoemde map kun je zien op welke podcasts je geabonneerd was.

@@ -77,7 +77,7 @@ Quand vous choisissez de laisser un commentaire dans le Google Play Store, l'éq
 
 Quand vous contribuz aux traductions d'AntennaPod :
 
-- you are interacting with the hosted service of Weblate s.r.o. - see their [privacy policy](https://weblate.org/en-gb/privacy/) for the data they collect and process.
+- vous interagissez avec le service hébergé par Weblate s.r.o. - voir leur [politique de confidentialité](https://weblate.org/fr/privacy/) pour connaitre les données qu'ils collectent et utilisent.
 - l'équipe d'AntennaPod peut avoir accès à :
    - the 'username', 'full name' and 'account e-mail' as set in [your profile](https://hosted.weblate.org/accounts/profile/#account)
    - the date when you joined the project and detailed [statistics](https://docs.weblate.org/en/latest/devel/reporting.html#stats) about your contributions, as well as the [languages](https://docs.weblate.org/en/latest/devel/reporting.html#credits) you contribute to and the date and timestamps of your contributions.
