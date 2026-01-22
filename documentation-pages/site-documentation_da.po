@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2025-11-12 20:51+0000\n"
+"PO-Revision-Date: 2026-01-22 15:54+0000\n"
 "Last-Translator: ERYpTION <eryption@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/da/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1043,9 +1043,16 @@ msgid ""
 "the issues you encounter by creating a thread on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"AntennaPod har mange brugere, og vi ønsker ikke, at de skal løbe ind i "
+"problemer, fordi vi har justeret eller tilføjet en ny funktion. Det er "
+"vigtigt, at der er folk, der tester vores app. Jo flere mennesker der "
+"tester, jo flere kombinationer af telefoner, Android-versioner og "
+"brugsscenarier kan vi dække, og jo flere problemer kan vi forhindre inden "
+"den officielle udgivelse. Dette hjælper selvfølgelig kun, hvis du "
+"rapporterer de problemer, du støder på, ved at oprette en tråd på [vores "
+"forum](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Minor issues often crop up after major updates, and they're usually "
 "discovered through bug reports from users in these early stages. There's "
@@ -1053,11 +1060,11 @@ msgid ""
 "can greatly vary from one device to another, he only has so many devices to "
 "test on."
 msgstr ""
-"Mindre problemer dukker ofte op efter større opdateringer, og de bliver kun "
-"opdaget via fejlrapporter fra brugere i disse tidlige faser. Der er kun én "
-"hovedudvikler, som arbejder på dette i sin fritid. Han har kun et par "
-"enheder til at teste tingene på, mens opførslen kan variere fra enhed til "
-"enhed."
+"Mindre problemer dukker ofte op efter større opdateringer, og de bliver "
+"typisk opdaget via fejlrapporter fra brugere i disse tidlige faser. Der er "
+"kun én hovedudvikler, som arbejder på dette i sin fritid. Selvom appens "
+"opførsel kan variere meget fra en enhed til en anden, har han kun et "
+"begrænset antal enheder at teste på."
 
 #: _i18n/en/documentation/general/beta.md:block 3 (header)
 msgid "Google Play"
@@ -1073,9 +1080,15 @@ msgid ""
 "leave your feedback by creating a thread on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"Hver nye version af AntennaPod sendes til vores beta-testere via Google Play "
+"Store, inden den frigives til offentligheden. Hvis du har et skarpt øje og "
+"kan forklare, hvad der ikke fungerer helt korrekt, vil vi meget gerne have "
+"din hjælp! Når du deler dine tanker om, hvad der kan forbedres, er du "
+"desuden med til at forme appen, så den bedre matcher dine (og fællesskabets) "
+"forventninger. Du kan give din feedback ved at oprette en tråd på [vores "
+"forum](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "So, you want to have the latest and greatest, and help us polish the app to "
 "make it truly shine? Simply visit the AntennaPod listing in the Play Store "
@@ -1083,10 +1096,11 @@ msgid ""
 "section. Or, if you're on your computer, you can join our beta program [here]"
 "(https://play.google.com/apps/testing/de.danoeh.antennapod)."
 msgstr ""
-"Så du vil have det nyeste og bedste? Det er helt sikkert muligt! Du skal "
-"blot besøge AntennaPod i Play Store og gå til \"Bliv betatester\" nederst på "
-"siden. Hvis du sidder ved din computer, kan du gå til [denne url](https://"
-"play.google.com/apps/testing/de.danoeh.antennapod)."
+"Så du vil have det nyeste og bedste og hjælpe os med at finpudse appen, så "
+"den virkelig kommer til sin ret? Du skal blot besøge AntennaPod i Play Store "
+"og gå til **Tilmed dig betaprogrammet** under *Appunderstøttelse* sektionen. "
+"Eller, hvis du sidder ved din computer, kan du tilmelde dig vores "
+"betaprogram [her](https://play.google.com/apps/testing/de.danoeh.antennapod)."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
 msgid "Become a beta tester - confirmation window in Google Play"
@@ -2296,9 +2310,8 @@ msgstr ""
 "trin."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-#, fuzzy
 msgid "Open the Android Auto settings on your phone."
-msgstr "Åbn indstillingerne for Android Auto."
+msgstr "Åbn indstillingerne for Android Auto på din telefon."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Developer settings` by pressing the version number 10 times."
@@ -2492,7 +2505,6 @@ msgstr "Gå til 0-90 % af video"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to make it easy for your network or audience to add your "
 "podcast(s) in AntennaPod? Simply include a link like the one below on your "
@@ -2501,10 +2513,12 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"Vil du gøre det nemt for dit netværk eller publikum at tilføje din(e) "
-"podcast(s) i AntennaPod? Du skal blot inkludere et link som det nedenfor på "
-"din hjemmeside, eller hvor du ønsker det. Huske at erstatte `xyz` med URL'en "
-"på dit RSS-feed og `abc` med titlen på din podcast."
+"Vil du gøre det nemt for dit netværk eller publikum at tilføje din(e) podcast"
+"(s) i AntennaPod? Du skal blot inkludere et link som det nedenfor på din "
+"hjemmeside, eller hvor du ønsker det. Huske at erstatte `xyz` med URL'en på "
+"dit RSS-feed og `abc` med titlen på din podcast. Bemærk, at hvis din URL "
+"eller din titel indeholder specialtegn, såsom `&`, skal disse [URL-kodes]"
+"(https://en.wikipedia.org/wiki/Percent-encoding)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2517,11 +2531,13 @@ msgid ""
 "You could also turn the same link into a button, e.g. by using the following "
 "code:"
 msgstr ""
+"Du kan også omdanne det samme link til en knap, f.eks. ved at bruge følgende "
+"kode:"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
 msgid "What users see"
-msgstr ""
+msgstr "Hvad brugerne ser"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 6
 #: (paragraph)
@@ -2530,16 +2546,19 @@ msgid ""
 "preview episodes and subscribe to your podcast directly in the app, as in "
 "the screenshots below."
 msgstr ""
+"Brugere, der har installeret AntennaPod og åbner dette link, vil kunne se en "
+"forhåndsvisning af afsnit og abonnere på din podcast direkte i appen, som "
+"vist på skærmbillederne nedenfor."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
 #: (paragraph)
 msgid "Browser asking to open a link in AntennaPod"
-msgstr ""
+msgstr "Browser beder om at åbne et link i AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
 msgid "The same link displayed in AntennaPod"
-msgstr ""
+msgstr "Det samme link vist i AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 19
 #: (paragraph)
@@ -2549,22 +2568,26 @@ msgid ""
 "manually, as in this [example page](/deeplink/subscribe?url=https://"
 "antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
+"På den anden side vil brugere, der ikke har AntennaPod installeret, se en "
+"side med instruktioner om, hvordan de kan downloade appen eller abonnere på "
+"din podcast manuelt, som på denne [eksempelside](/deeplink/"
+"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
 msgid "Branding"
-msgstr ""
+msgstr "Branding"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 21
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to use our logo to create a branded ‘Open in AntennaPod’ "
 "button? You can find it in our [branding repository](https://github.com/"
 "AntennaPod/branding)."
 msgstr ""
-"Hvis du har brug for vores logo, kan du tjekke vores [branding-depot]"
-"(https://github.com/AntennaPod/branding)."
+"Vil du gerne bruge vores logo til at oprette en ‘Åbn i AntennaPod’-knap med "
+"dit brand? Du kan finde det i vores [branding-arkiv](https://github.com/"
+"AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 1 (paragraph)
 msgid ""
