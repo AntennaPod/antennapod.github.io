@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-15 17:37+0200\n"
-"PO-Revision-Date: 2025-07-19 19:02+0000\n"
-"Last-Translator: OlliesGudh <github@paulogomez.anonaddy.com>\n"
+"PO-Revision-Date: 2026-01-22 15:54+0000\n"
+"Last-Translator: Joan De Genover Miquel <joandegenover@protonmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/antennapod/"
 "website/general/ca/>\n"
 "Language: ca\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -373,7 +373,6 @@ msgstr ""
 "propietaris."
 
 #: _i18n/en/general/privacy.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod is developed and maintained by individual volunteers and is not "
 "represented by any legal entity. The community is not interested in your "
@@ -383,16 +382,14 @@ msgstr ""
 "AntennaPod està desenvolupat i mantingut per voluntaris individuals i no "
 "representat per cap entitat legal. La comunitat no necessita les vostres "
 "dades, de manera que l'aplicació i el lloc web estan dissenyats per complir "
-"totalment el GDPR. Continua llegint per obtenir més informació."
+"totalment el RGPD. Continua llegint per obtenir més informació."
 
 #: _i18n/en/general/privacy.md:block 3 (header)
-#, fuzzy
 msgid "Data AntennaPod may collect, store, and process"
 msgstr ""
-"Quines dades pot recopilar, emmagatzemar i processar l'aplicació AntennaPod"
+"Dades que pot recopilar, emmagatzemar i processar l'aplicació AntennaPod"
 
 #: _i18n/en/general/privacy.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "The app only records data strictly necessary for the app to function. This "
 "includes the list of podcasts you follow, the app settings and "
@@ -409,7 +406,6 @@ msgstr ""
 "(analítica) de tercers, com ara Google Analytics."
 
 #: _i18n/en/general/privacy.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "**All data provided and created when using the AntennaPod app is stored "
 "locally on your device. AntennaPod does not send or upload your data "
@@ -419,23 +415,24 @@ msgid ""
 "may also read about AntennaPod's [app permissions](/documentation/general/"
 "app-permissions) in the documentation."
 msgstr ""
-"**Totes les dades proporcionades i creades quan utilitzeu l'aplicació "
-"AntennaPod s'emmagatzemen localment al vostre dispositiu. AntennaPod no "
-"envia ni carrega les vostres dades enlloc, excepte quan sigui estrictament "
-"necessari per al funcionament de l'aplicació.** Consulteu la segona secció "
-"següent per als casos en què les vostres dades es poden proporcionar a "
-"tercers."
+"**Totes les dades proporcionades i creades en utilitzar l'aplicació "
+"AntennaPod s'emmagatzemen localment al dispositiu. AntennaPod no envia ni "
+"carrega les vostres dades enlloc, excepte quan sigui estrictament necessari "
+"per al funcionament de l'aplicació o quan compartiu informació de diagnòstic "
+"amb nosaltres.** Consulteu a la secció següent els casos en què les vostres "
+"dades es poden proporcionar a tercers. Si us interessa, també podeu "
+"consultar [permisos de l'aplicació](/documentation/general/app-permissions) "
+"a la documentació."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "When sharing debugging information (either via email using the `Crash "
 "Report` function or via Android's crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
-"compartiu activament la informació de depuració (per correu electrònic "
-"mitjançant la funció \"Informe d'error\" o mitjançant la funcionalitat "
-"d'informe d'error d'Android de Google):"
+"Quan compartiu activament la informació de diagnòstic (ja sigui per correu "
+"electrònic mitjançant la funció `Informar d'un error` o mitjançant la funció "
+"de notificació d'errors d'Android), es tracten les dades següents:"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
 msgid "device type"
@@ -450,37 +447,34 @@ msgid "AntennaPod version"
 msgstr "Versió d'AntennaPod"
 
 #: _i18n/en/general/privacy.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The only instance in which personal data *from* third parties is handled is "
 "when using a synchronization service, if enabled via the settings. In that "
 "case, the app may receive subscriptions and playback events provided by the "
 "service."
 msgstr ""
-"L'únic cas en què es gestionen les vostres dades de tercers és quan feu "
+"L'únic cas en què es gestionen les vostres dades *de* tercers és quan feu "
 "servir un servei de sincronització si està activat a través de la "
 "configuració. En aquest cas, l'aplicació pot rebre subscripcions i "
 "esdeveniments de reproducció proporcionats pel servei."
 
 #: _i18n/en/general/privacy.md:block 9 (header)
-#, fuzzy
 msgid "Data other parties may collect, store, and process"
-msgstr ""
-"Quines dades de l'aplicació poden recopilar, emmagatzemar i processar altres "
-"parts"
+msgstr "Dades que tercers poden recollir, emmagatzemar i tractar"
 
 #: _i18n/en/general/privacy.md:block 10 (header)
 msgid "Podcast hosters"
-msgstr ""
+msgstr "Allotjadors de pòdcasts"
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "When provided in the podcast settings, a host will receive the "
 "authentication data you provided."
 msgstr ""
+"Quan es proporcionen a la configuració del pòdcast, un amfitrió rebrà les "
+"dades d'autenticació que heu proporcionat."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -493,30 +487,30 @@ msgid ""
 "podcasts you have subscribed to. This can happen when publishers use "
 "services like FeedBurner, Podtrac or similar to distribute their feeds."
 msgstr ""
-"Amfitrions de podcasts: quan es proporcionen a la configuració del podcast, "
-"un amfitrió rebrà les dades d'autenticació que heu proporcionat. Qualsevol "
-"servidor web que proporcioni els canals de podcast pot recopilar dades "
-"addicionals, com ara la vostra adreça IP, el temps d'accés i el que s'està "
-"accedint. Això inclou els episodis que esteu baixant o en streaming. "
+"Qualsevol servidor web que proporcioni els canals de pòdcast pot recopilar "
+"dades addicionals, com ara la vostra adreça IP, l'hora d'accés i el que "
+"s'està accedint. Això inclou els episodis que esteu baixant o en streaming. "
 "Consulteu les seves respectives polítiques de privadesa per obtenir més "
-"informació. Podeu veure l'URL d'un podcast obrint el podcast i prement la "
-"icona d'informació. AntennaPod no permet que els servidors remots "
-"estableixin galetes. Els servidors poden detectar el fet que esteu "
-"utilitzant AntennaPod i quina versió d'AntennaPod feu servir (HTTP User-"
-"Agent). Si hi ha diversos podcasts allotjats al mateix servidor, el servidor "
-"pot detectar la llista de podcasts als quals us heu subscrit i que estan "
-"allotjats en aquest servidor. Això pot passar si els editors utilitzen "
-"feedburner, podtrac o serveis similars per distribuir els seus canals."
+"informació. Podeu veure l'URL d'un pòdcast obrint el pòdcast i prement la "
+"icona d'informació. AntennaPod permet als servidors remots que estableixin "
+"galetes però les elimina cada vegada que es reinicia l'aplicació. Els "
+"servidors web només tenen accés a les galetes establertes pel mateix "
+"servidor. Si hi ha diversos pòdcasts allotjats al mateix servidor, el "
+"servidor pot detectar la llista de pòdcasts als quals us heu subscrit i que "
+"hi estan allotjats. Això pot passar si els editors utilitzen FeedBurner, "
+"Podtrac o serveis similars per distribuir els seus canals."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
 "Servers can detect that you are using AntennaPod and which version (via the "
 "HTTP User-Agent)."
 msgstr ""
+"Els servidors poden detectar que esteu utilitzant AntennaPod i quina versió "
+"d'AntennaPod feu servir (via l'User-Agent HTTP)."
 
 #: _i18n/en/general/privacy.md:block 12 (header)
 msgid "Discovery and search services"
-msgstr ""
+msgstr "Serveis de descoberta i cerca"
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -527,6 +521,13 @@ msgid ""
 "In the F-Droid release, you have to actively consent before getting Apple's "
 "recommendations."
 msgstr ""
+"Quan obriu la pantalla Descobreix de l’aplicació, s’envia una sol·licitud a "
+"Apple per obtenir suggeriments de pòdcasts. Apple pot emmagatzemar la "
+"sol·licitud (per exemple, la vostra adreça IP i la regió seleccionada, que "
+"per defecte és el país del dispositiu). Aquests suggeriments es poden "
+"desactivar des del menú superior de la pantalla Descobreix. A la versió d’F-"
+"Droid, cal donar el consentiment explícit abans de rebre les recomanacions "
+"d’Apple."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -536,6 +537,12 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"Quan utilitzeu la funció de cerca d’AntennaPod, els serveis PodcastIndex.org "
+"([política de privadesa](https://github.com/Podcastindex-org/legal/blob/main/"
+"PrivacyPolicy.md)), Apple Podcasts ([política de privadesa](https://"
+"www.apple.com/legal/privacy/ca/)) i fyyd ([política de privadesa](https://"
+"fyyd.de/privacy)) poden emmagatzemar la vostra consulta, inclosos els termes "
+"de cerca."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -543,28 +550,30 @@ msgid ""
 "'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
 "meaning the discovery/search service is no longer involved."
 msgstr ""
+"Les consultes de Descobreix i cerca també inclouen l’adreça IP, l’hora i el "
+"nom de l’aplicació 'AntennaPod'. Un cop us subscriviu a un pòdcast, el canal "
+"es serveix des de l’allotjador del pòdcast, de manera que els serveis de "
+"Descobreix o cerca ja no hi intervenen."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and backup services"
-msgstr ""
+msgstr "Serveis de sincronització i còpia de seguretat"
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "When enabled via the settings, AntennaPod synchronizes your data. This may "
 "include login credentials, subscribed podcasts, listened episodes, play/"
 "pause/favorite actions with timestamps, and your IP address. For more "
 "information, see your synchronization provider's privacy policy."
 msgstr ""
-"Serveis de sincronització: quan està activat a través de la configuració, "
-"AntennaPod sincronitza les vostres dades. Aquestes dades poden incloure "
-"credencials d'inici de sessió, podcasts subscrits, episodis escoltats, "
-"reproducció, pausa i accions preferides amb segells de data i hora i adreça "
-"IP. Per obtenir més informació, consulteu la política de privadesa del "
-"vostre proveïdor."
+"Quan s’activen des de la configuració, AntennaPod sincronitza les vostres "
+"dades. Això pot incloure les credencials d’inici de sessió, els pòdcasts als "
+"que esteu subscrits, els episodis escoltats, les accions de reproducció/"
+"pausa/marcat com a preferit amb marques temporals, així com la vostra adreça "
+"IP. Per a més informació, consulteu la política de privadesa del vostre "
+"proveïdor de sincronització."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "If backups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
@@ -574,20 +583,20 @@ msgid ""
 "have access to this data. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
-"Google: si heu activat la còpia de seguretat i restabliment a la "
-"configuració del vostre telèfon (`Configuració` → `Còpia de seguretat i "
-"restabliment` → `Còpia de seguretat de les meves dades`), heu de tenir en "
-"compte que el propi Android desarà periòdicament una còpia de les dades del "
-"vostre telèfon als servidors de Google. Aquesta còpia de seguretat conté "
-"informació privada, incloses les vostres contrasenyes de Wi-Fi, missatges i "
-"historial de trucades. També pot incloure dades d'AntennaPod i d'altres "
-"aplicacions que utilitzeu. Els desenvolupadors d'AntennaPod no tenen accés a "
-"aquestes dades. Per obtenir més informació, consulteu [Política de privadesa "
-"de Google](https://policies.google.com)."
+"Si heu activat la còpia de seguretat i restabliment a la configuració del "
+"vostre telèfon (`Configuració` → `Còpia de seguretat i restabliment` → "
+"`Còpia de seguretat de les meves dades`), el propi Android desarà "
+"periòdicament una còpia de les dades del telèfon als servidors de Google. "
+"Aquesta còpia de seguretat conté informació privada, incloses les "
+"contrasenyes de Wi-Fi, els missatges i l'historial de trucades. També pot "
+"incloure dades d'AntennaPod i d'altres aplicacions que utilitzeu. Els "
+"desenvolupadors d’AntennaPod no tenen accés a aquestes dades. Per a més "
+"informació, consulteu la [Política de privadesa de Google](https://"
+"policies.google.com)."
 
 #: _i18n/en/general/privacy.md:block 16 (header)
 msgid "Device and operating system vendors"
-msgstr ""
+msgstr "Fabricants de dispositius i del sistema operatiu"
 
 #: _i18n/en/general/privacy.md:block 17 (paragraph)
 msgid ""
@@ -597,55 +606,57 @@ msgid ""
 "is sent to Google. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
+"Si heu activat la [compartició d’ús i diagnòstic](https://support.google.com/"
+"accounts/answer/6078260) amb Google i utilitzeu la funció d’informes "
+"d’Android quan AntennaPod es bloqueja o deixa de respondre, s’envien dades "
+"relacionades a Google. Per a més informació, consulteu la [política de "
+"privadesa de Google](https://policies.google.com)."
 
 #: _i18n/en/general/privacy.md:block 18 (header)
 msgid "Online services"
-msgstr ""
+msgstr "Serveis en línia"
 
 #: _i18n/en/general/privacy.md:block 19 (header)
 msgid "Data from services hosted by the team"
-msgstr ""
+msgstr "Dades dels serveis allotjats per l’equip"
 
 #: _i18n/en/general/privacy.md:block 20 (unordered list)
-#, fuzzy
 msgid ""
 "**The forum**: AntennaPod's forum uses the Discourse software, hosted by the "
 "core team. Please see the [forum's privacy policy](https://forum.antennapod."
 "org/privacy) for more details."
 msgstr ""
-"El fòrum: el fòrum d'AntennaPod utilitza el programari Discourse, allotjat "
-"per l'equip principal. Si us plau, consulteu la [política de privadesa del "
-"fòrum](https://forum.antennapod.org/privacy) per a les dades en qüestió."
+"**El fòrum**: El fòrum d’AntennaPod utilitza el programari Discourse i està "
+"allotjat per l’equip principal. Per a més detalls, consulteu la [política de "
+"privadesa del fòrum](https://forum.antennapod.org/privacy)."
 
 #: _i18n/en/general/privacy.md:block 21 (header)
 msgid "Data from services hosted by other parties"
-msgstr ""
+msgstr "Dades dels serveis allotjats per tercers"
 
 #: _i18n/en/general/privacy.md:block 22 (header)
 msgid "The donation system"
-msgstr ""
+msgstr "El sistema de donacions"
 
 #: _i18n/en/general/privacy.md:block 23 (paragraph)
-#, fuzzy
 msgid ""
 "AntennaPod uses Open Collective, operated by Open Collective Inc. (USA) and "
 "Open Collective Europe ASBL (Belgium). When you make a donation, data flows "
 "to:"
 msgstr ""
-"El sistema de donació: AntennaPod utilitza Open Collective, ofert per Open "
-"Collective Inc (EUA) i Open Collective Europe ASBL (Bèlgica). Quan feu una "
-"donació, aquestes entitats tenen accés a determinades dades. Per obtenir més "
-"informació, consulteu [política de privadesa d'Open Collective](https://"
-"opencollective.com/privacypolicy)."
+"AntennaPod utilitza Open Collective, gestionat per Open Collective Inc. "
+"(EUA) i Open Collective Europe ASBL (Bèlgica). Quan feu una donació, les "
+"dades es transmeten a:"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
 "these entities - for more information, see [Open Collective Inc.'s privacy "
 "policy](https://opencollective.com/privacypolicy)"
 msgstr ""
+"aquestes entitats - per a més informació, consulteu la [política de "
+"privadesa d’Open Collective Inc.](https://opencollective.com/privacypolicy)"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
-#, fuzzy
 msgid ""
 "unless contributing as an [anonymous guest](https://docs.opencollective.com/"
 "help/financial-contributors/payments#contributing-as-a-guest) or [incognito]"
@@ -653,18 +664,18 @@ msgid ""
 "a-contributor) user, the AntennaPod team gets access to (but will not "
 "extract) your:"
 msgstr ""
-"feu activament una contribució financera mitjançant Open Collective (tret "
-"que feu una contribució [anònima](https://docs.opencollective.com/help/"
-"financial-contributors/payments#contributing-as-a-guest) o [d'incògnit]"
-"(https://docs.opencollective.com/help/financial-contributors/payments#select-"
-"a-contributor)):"
+"tret que feu la contribució com a [anònim](https://docs.opencollective.com/"
+"help/financial-contributors/payments#contributing-as-a-guest) o com a usuari "
+"[incògnit](https://docs.opencollective.com/help/financial-contributors/"
+"payments#select-a-contributor), l’equip d’AntennaPod té accés (però no "
+"n’extreu) a:"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
 "public profile information (name, company, description, image, Twitter, "
 "GitHub, website)"
 msgstr ""
-"informació del perfil públic (nom, empresa, descripció, imatge, Twitter, "
+"l'informació del perfil públic (nom, empresa, descripció, imatge, Twitter, "
 "GitHub, lloc web)"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
@@ -672,13 +683,12 @@ msgid "email address"
 msgstr "Adreça de correu electrònic"
 
 #: _i18n/en/general/privacy.md:block 25 (header)
-#, fuzzy
 msgid "The website"
-msgstr "El contingut del lloc web"
+msgstr "El lloc web"
 
 #: _i18n/en/general/privacy.md:block 26 (paragraph)
 msgid "AntennaPod's website is hosted via GitHub Pages."
-msgstr ""
+msgstr "El lloc web d’AntennaPod està allotjat a través de GitHub Pages."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -687,6 +697,10 @@ msgid ""
 "privacy-policies/github-general-privacy-statement) for the data they collect "
 "and process."
 msgstr ""
+"Quan visiteu el nostre lloc web, interactueu amb GitHub, Inc. o GitHub B.V.; "
+"consulteu la seva [política de privadesa](https://docs.github.com/en/site-"
+"policy/privacy-policies/github-general-privacy-statement) per conèixer les "
+"dades que recullen i tracten."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -695,11 +709,15 @@ msgid ""
 "section contains an embedded graph which is retrieved from the servers of "
 "Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
 msgstr ""
+"El lloc web no estableix cap galeta ni utilitza seguiment de tercers, "
+"analítica ni altres serveis. La pàgina \"Traduir\" de la secció "
+"\"Contribuir\" conté un gràfic incrustat que es recupera des dels servidors "
+"de Weblate s.r.o. ([política de privadesa](https://weblate.org/en-gb/"
+"privacy/))."
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google Play"
-msgstr "Aconsegueix-ho a Google Play"
+msgstr "Google Play"
 
 #: _i18n/en/general/privacy.md:block 29 (paragraph)
 msgid ""
@@ -708,10 +726,14 @@ msgid ""
 "store the following in any online service used by the team (e.g. GitHub or "
 "the forum):"
 msgstr ""
+"Quan decidiu deixar una ressenya a Google Play Store, l’equip d’AntennaPod "
+"obté accés a la informació del vostre perfil públic i pot extreure i "
+"emmagatzemar els elements següents en qualsevol servei en línia utilitzat "
+"per l’equip (per exemple, GitHub o el fòrum):"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
-msgstr ""
+msgstr "text de la ressenya"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "device language"
@@ -719,11 +741,11 @@ msgstr "idioma del dispositiu"
 
 #: _i18n/en/general/privacy.md:block 31 (header)
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: _i18n/en/general/privacy.md:block 32 (paragraph)
 msgid "When you contribute to AntennaPod's translations:"
-msgstr ""
+msgstr "Quan contribuïu a les traduccions d’AntennaPod:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -731,17 +753,22 @@ msgid ""
 "[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
 "collect and process."
 msgstr ""
+"interactueu amb el servei allotjat de Weblate s.r.o. - consulteu la seva "
+"[política de privadesa](https://weblate.org/en-gb/privacy/) per conèixer les "
+"dades que recullen i tracten."
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
-#, fuzzy
 msgid "the AntennaPod team gets access to:"
-msgstr "A quines dades pot tenir accés l'equip central de l'AntennaPod"
+msgstr "l’equip d’AntennaPod pot tenir accés a:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
 "the 'username', 'full name' and 'account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
+"el \"nom d’usuari\", el \"nom complet\" i el \"correu electrònic del "
+"compte\", tal com consten al [vostre perfil](https://hosted.weblate.org/"
+"accounts/profile/#account)"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -751,10 +778,15 @@ msgid ""
 "reporting.html#credits) you contribute to and the date and timestamps of "
 "your contributions."
 msgstr ""
+"la data en què us vau unir al projecte i [estadístiques](https://"
+"docs.weblate.org/en/latest/devel/reporting.html#stats) detallades sobre les "
+"vostres contribucions, així com les [llengües](https://docs.weblate.org/en/"
+"latest/devel/reporting.html#credits) a les quals contribuïu i la data i les "
+"marques temporals de les vostres contribucions."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: _i18n/en/general/privacy.md:block 35 (paragraph)
 msgid ""
@@ -763,14 +795,16 @@ msgid ""
 "github.com/en/site-policy/privacy-policies/github-general-privacy-statement) "
 "for the data they collect and process."
 msgstr ""
+"Quan contribuïu al codi d’AntennaPod mitjançant git, interactueu amb GitHub, "
+"Inc. o GitHub B.V. - consulteu la seva [política de privadesa](https://"
+"docs.github.com/en/site-policy/privacy-policies/github-general-privacy-"
+"statement) per conèixer les dades que recullen i tracten."
 
 #: _i18n/en/general/privacy.md:block 36 (header)
-#, fuzzy
 msgid "Updates to this Privacy Policy"
 msgstr "Actualitzacions d'aquesta Política de privadesa"
 
 #: _i18n/en/general/privacy.md:block 37 (paragraph)
-#, fuzzy
 msgid ""
 "The developers may update this policy in the future. It is advisable to "
 "check it periodically for changes. Changes become effective upon publication "
@@ -778,21 +812,19 @@ msgid ""
 msgstr ""
 "Els desenvolupadors poden actualitzar aquesta política en el futur. És "
 "recomanable revisar la política periòdicament per detectar qualsevol canvi. "
-"Els canvis a aquesta Política de privadesa són efectius quan es realitzen en "
+"Els canvis a aquesta Política de privadesa són efectius quan es publiquen en "
 "aquest document."
 
 #: _i18n/en/general/privacy.md:block 38 (paragraph)
-#, fuzzy
 msgid ""
 "This Privacy Policy was last updated on 2025-08-17. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"Aquesta política de privadesa es va actualitzar per última vegada el 13 de "
-"juliol del 2024. Si teniu preguntes, obriu un informe al GitHub o al nostre "
+"Aquesta política de privadesa es va actualitzar per darrera vegada el 17 "
+"d'agost de 2025. Si teniu preguntes, obriu un informe al GitHub o al nostre "
 "fòrum."
 
 #: _i18n/en/general/privacy.md:block 41 (paragraph)
-#, fuzzy
 msgid ""
 "This privacy policy has been translated from English to help you understand "
 "how AntennaPod handles privacy. In case of conflict between the the original "
@@ -800,7 +832,7 @@ msgid ""
 msgstr ""
 "Aquesta política de privadesa està traduïda de l'anglès per ajudar-vos a "
 "entendre com tracta AntennaPod el tema. En cas de conflicte entre la versió "
-"original i la traduïda, prevaldrà l'anglès."
+"original i la traduïda, prevaldrà la versió anglesa."
 
 #: _i18n/en/general/subscribe.md:block 1 (paragraph)
 msgid ""

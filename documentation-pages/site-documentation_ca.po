@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-15 17:39+0200\n"
-"PO-Revision-Date: 2026-01-17 17:45+0000\n"
-"Last-Translator: Yatu <pararegistros@gmail.com>\n"
+"PO-Revision-Date: 2026-01-22 15:54+0000\n"
+"Last-Translator: Joan De Genover Miquel <joandegenover@protonmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ca/>\n"
 "Language: ca\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -34,22 +34,20 @@ msgid "Delete after playing"
 msgstr "Esborra després de reproduir"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Delete after playing is located in `Settings` » `Downloads` » `Automatic "
 "deletion`. When enabled, episodes are deleted when playback completes (but "
 "not when manually marking an episode as 'played')."
 msgstr ""
-"L'esborrat automàtic es troba a `Configuració` » `Baixades`. Un cop "
-"activada, els episodis se suprimeixen un cop s'han reproduït (però no si es "
-"marca un episodi com a «reproduït»)."
+"L'esborrat automàtic després de la reproducció es troba a `Configuració` » "
+"`Baixades`. Un cop activat, els episodis se suprimeixen un cop s'han "
+"reproduït (però no si es marca manualment un episodi com a «reproduït»)."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Delete before auto download"
 msgstr ""
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Delete before auto download is located in `Settings` » `Downloads` » "
 "`Automatic deletion`. If Automatic download needs space for new episodes, it "
@@ -58,22 +56,21 @@ msgid ""
 "their status (e.g. not favorited or not in queue) or a period of time after "
 "finishing."
 msgstr ""
-"La neteja d'episodis es troba a `Configuració` » `Xarxa` » `Baixada "
-"automàtica`. Si la Descàrrega Automàtica necessita espai per a episodis "
-"nous, esborrarà els episodis antics que no estiguin a la cua i no estiguin "
-"marcats com a favorits. Pots afegir un retard (x temps després de la "
-"reproducció) o Episodi. L'ajust `Catxe d'episodis` determina la quantitat "
-"màxima d'episodis descarregats."
+"La neteja d'episodis es troba a `Configuració` » `Baixades` » `Baixada "
+"automàtica`. Si la Baixada Automàtica necessita espai per a episodis nous, "
+"esborrarà els episodis antics que no estiguin a la cua i no estiguin marcats "
+"com a favorits. Pots afegir un retard (x temps després de la reproducció) o "
+"Episodi. L'ajust `Límit d'episodis` determina la quantitat màxima d'episodis "
+"descarregats."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "By default, all podcasts are refreshed with a 12-hour interval to pick up "
 "new episodes. Via `Settings` » `Downloads` » `Refresh podcasts` you can "
 "change the interval period or turn off the automatic updates."
 msgstr ""
 "Per defecte, tots els pòdcasts s'actualitzen en un interval de 12 hores per "
-"arreplegar nous episodis. A `Configuració` » `Xarxa` » `Actualitza els "
+"arreplegar nous episodis. A `Configuració` » `Baixades` » `Actualitza els "
 "pòdcasts` podeu canviar l'interval, seleccionar una hora específica del dia "
 "o desactivar les actualitzacions automàtiques."
 
@@ -174,14 +171,15 @@ msgid ""
 "HomeAssistant Android Mobile Companion ([website](https://companion.home-"
 "assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 msgstr ""
+"Client Android de Home Assistant ([lloc web](https://companion.home-"
+"assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "Create a notify action call in an automation with the following template:"
 msgstr ""
-"Creeu una crida d’acció de notificació en una automatització amb la següent "
-"plantilla:"
+"Creeu una acció de notificació en una automatització amb la plantilla "
+"següent:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
@@ -270,7 +268,6 @@ msgstr ""
 "desenvolupadors a trobar la font del problema."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
 "us about the issue. You can create a post on [our forum](https://"
@@ -278,7 +275,7 @@ msgid ""
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
 "Si heu actualitzat l'AntennaPod i heu cercat el nostre fòrum sense èxit, a "
-"continuació, informeu-nos sobre el problema. Podeu crear una entrada al [al "
+"continuació, informeu-nos sobre el problema. Podeu crear una entrada al [el "
 "nostre fòrum](https://forum.antennapod.org/c/bug-report/9). Per fer-ho, cal "
 "crear un compte (si no en teniu cap) o simplement iniciar sessió a través de "
 "Google."
@@ -320,7 +317,6 @@ msgstr "Solució alternativa"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
-#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
@@ -328,12 +324,12 @@ msgid ""
 "*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
 "pause playback, even if playback has been paused for a while."
 msgstr ""
-"Per tal de poder continuar la reproducció, podeu afegir l'anomenat "
-"AntennaPod 'tile' al vostre dispositiu. Les tessel·les són essencialment els "
-"botons que es veuen quan es tira cap avall des de la part superior de la "
-"pantalla. Probablement coneixeu la fitxa d'Internet o de la llanterna. La "
-"rajola AntennaPod permet reproduir i pausar la reproducció, fins i tot si la "
-"reproducció s'ha pausat durant un temps."
+"Per poder continuar la reproducció, podeu afegir l'anomenada rajola "
+"d'AntennaPod al vostre dispositiu. Les rajoles són essencialment els botons "
+"que es veuen quan es llisca cap avall des de la part superior de la "
+"pantalla. Probablement coneixeu la fitxa d'*Internet* o de la *Llanterna*. "
+"La rajola d'AntennaPod permet reproduir i pausar la reproducció, fins i tot "
+"si s'ha pausat durant un temps."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
 #: (paragraph)
@@ -348,30 +344,33 @@ msgid ""
 "MIUI) an equivalent Control Center with similar gestures may already contain "
 "a media tile, check your device settings if behavior differs"
 msgstr ""
+"**Llisca cap avall dues vegades** des de la part superior de la pantalla per "
+"obrir completament els Ajustos ràpids. En algunes versions d’Android (per "
+"exemple, Samsung One UI o Xiaomi MIUI / HyperOS), un Centre de control "
+"equivalent amb gestos similars pot ja incloure una rajola multimèdia; "
+"comprova els paràmetres del dispositiu si el comportament és diferent."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr ""
-"**Tapeu a la icona del llapis** a la part inferior de la secció de fitxes "
-"per a editar les fitxes"
+"**Toqueu la icona del llapis** a la part inferior de la secció de rajoles "
+"per a editar les rajoles"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid ""
 "Scroll through the list of tiles and **drag the AntennaPod tile** up into "
 "the list of active tiles"
 msgstr ""
-"Desplaça avall la llista de mosaics, **ajusta al mosaic de l'AntennaPod i "
-"arrossega-la** cap amunt a la llista de mosaics actives"
+"Llisca cap avall la llista de rajoles, **ajusta la rajola de l'AntennaPod i "
+"arrossega-la** cap amunt a la llista de rajoles actives"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "Tap the **back arrow** or **save** to exit the tile editing"
-msgstr "Toqueu la fletxa del darrere per sortir de l'edició de la tessel·la"
+msgstr ""
+"Toqueu la fletxa d'**enrere** o **desa** per sortir de l'edició de la rajola"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -402,7 +401,6 @@ msgstr ""
 "settings/everything!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "In a very old AntennaPod version (dating before 2019), there were some "
 "issues with the database with all information (episodes, listening states, "
@@ -412,14 +410,15 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
-"En una versió molt antiga d'AntennaPod, hi havia alguns problemes amb la "
-"base de dades amb tota la informació (episodis, estats d'escolta, etc.). Tot "
-"i que la causa és llargament fixa, la base de dades podria haver estat "
-"danyada (fins i tot quan l'aplicació estava funcionant sense problemes). Si "
-"una versió recent d'AntennaPod fa canvis a les parts danyades de la base de "
-"dades, aquests danys poden esdevenir de sobte un problema. En aquest moment "
-"AntennaPod ja no pot treballar amb la base de dades trencada i ha de "
-"començar de nou amb una de buida."
+"En una versió molt antiga d'AntennaPod (anterior al 2019), hi havia alguns "
+"problemes amb la base de dades que contenia tota la informació (episodis, "
+"estats d'escolta, etc.). Tot i que la causa es va corregir amb el temps, la "
+"base de dades podria haver estat malmesa (fins i tot quan l'aplicació estava "
+"funcionant sense problemes). Si una versió recent d'AntennaPod introdueix "
+"canvis a les parts malmeses de la base de dades, aquests danys poden "
+"esdevenir de sobte un problema. En aquest moment, AntennaPod ja no pot "
+"treballar amb la base de dades malmesa i ha de començar de nou amb una base "
+"de dades de buida."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
@@ -440,7 +439,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -449,15 +447,15 @@ msgid ""
 "to go through the second step to fix the problem once and for all."
 msgstr ""
 "Recentment heu [exportat una còpia de seguretat](/documentation/general/"
-"backup) des d'AntennaPod? Després restaurar això és relativament fàcil: aneu "
+"backup) des d'AntennaPod? Després, restaurar-la és relativament fàcil: aneu "
 "a `Arranjament` » `Emmagatzematge` » `Importa/Exporta` » `Importa la base de "
-"dades` i seleccioneu la còpia de seguretat. Tingueu en compte que el backup "
-"pot contenir la corrupció parcial, de manera que encara es recomana passar "
-"pel segon pas per solucionar el problema d'una vegada per totes."
+"dades` i seleccioneu la còpia de seguretat. Tingueu en compte que la còpia "
+"de seguretat pot contenir la corrupció parcial, de manera que encara es "
+"recomana passar pel segon pas per solucionar el problema d'una vegada per "
+"totes."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -466,11 +464,13 @@ msgid ""
 "automate the recovery process. This is a challenge and requires learning how "
 "to deal with a terminal."
 msgstr ""
-"Si AntennaPod detecta una base de dades trencada, l'escriu a un fitxer "
+"Si AntennaPod detecta una base de dades malmesa, l'escriu a un fitxer "
 "anomenat CorruptedDatabaseBackup.db al directori d'emmagatzematge "
 "d'aplicacions. Podeu intentar reparar aquest fitxer (o reparar una còpia de "
-"seguretat exportada) utilitzant un dels passos següents. Aquest és un repte "
-"i requereix aprendre a tractar amb un terminal."
+"seguretat exportada) fent ús d'un [script de Python](https://github.com/"
+"ByteHamster/AntennaPodDbFixer) que es va desenvolupar per automatitzar el "
+"procés de recuperació. Aquest procés és un repte i requereix aprendre a "
+"tractar amb un terminal."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -488,15 +488,17 @@ msgid ""
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
 "phone:"
 msgstr ""
+"A AntennaPod podeu afegir una carpeta com si fos un canal. Per fer-ho, aneu "
+"a `Afegiu pòdcast` i toqueu `Afegiu carpeta local`. Tot seguit, aneu a "
+"aquesta carpeta del vostre telèfon:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
-msgstr ""
+msgstr "A Android 11 o superior: `Android`»`media`»`de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
 "`files` » `media` and select the folder of a podcast. Note that this will "
@@ -506,8 +508,8 @@ msgstr ""
 "A l'AntennaPod podeu afegir una carpeta com si fos un canal. Per a fer-ho, "
 "aneu a `Afegiu podcast` i toqueu a `Afegiu carpeta local`. Després, aneu a "
 "aquesta carpeta al telèfon: `Android` » `data` » `de.danoeh.antennapod` » "
-"`files` » `media` i seleccioneu la carpeta d'un podcast. Tingueu en compte "
-"que això només us donarà accés a mitjans descarregats prèviament - no rebrà "
+"`files` » `media` i seleccioneu la carpeta d'un pòdcast. Tingueu en compte "
+"que això només us donarà accés a mitjans descarregats prèviament - no rebreu "
 "nous episodis."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
@@ -873,12 +875,16 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"AntennaPod no us demanarà cap permís general. Tanmateix, podeu concedir els "
+"permisos següents:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**Mostra notificacions**: Mitjançant `Configuració` » `Notificacions` podeu "
+"concedir a AntennaPod el permís per crear notificacions."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -886,28 +892,39 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Accés a l’emmagatzematge**: Quan afegiu una «carpeta local», l’aplicació "
+"us demanarà accés a llarg termini a una carpeta específica. Quan importeu "
+"una base de dades o un fitxer OPML, seleccionar aquest fitxer donarà a "
+"l’aplicació l'accés puntual (d’un sol ús)."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"A part d’això, l’aplicació requereix els permisos següents, que Android "
+"concedeix automàticament:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**Accés complet a la xarxa**: per actualitzar els pòdcasts, descarregar i "
+"reproduir episodis en streaming, carregar imatges i habilitar la "
+"sincronització"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr ""
+msgstr "**Veure les connexions de xarxa** i **Veure les connexions Wi-Fi**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"per comprovar si hi ha una connexió a Internet activa, abans i durant la "
+"realització de qualsevol de les accions esmentades anteriorment"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -915,6 +932,9 @@ msgid ""
 "above actions are allowed by the user on the current (mobile and/or metered) "
 "connection"
 msgstr ""
+"per a la configuració `Baixades` » `Actualitza fent servir dades mòbils`, "
+"per determinar si les accions esmentades anteriorment estan permeses per "
+"l’usuari amb la connexió actual (mòbil i/o mesurada)"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -922,24 +942,35 @@ msgid ""
 "Bluetooth disconnect`, to automatically pause or play when the phone "
 "connects with or disconnects from a Bluetooth device"
 msgstr ""
+"**Aparellar dispositius Bluetooth**: per a la configuració `Reproducció` » "
+"`Desconnexió d’auriculars o Bluetooth`, per pausar o reprendre "
+"automàticament la reproducció quan el telèfon es connecta o es desconnecta "
+"d’un dispositiu Bluetooth"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Run at startup**: to (re)start services like refreshing podcasts and "
 "enabling auto-downloads"
 msgstr ""
+"**Executar en iniciar**: per (re)iniciar serveis com l’actualització de "
+"pòdcasts i l’activació de les descàrregues automàtiques"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Control vibration**: for the option `Vibrate shortly before end` of the "
 "sleep timer, to vibrate if this setting is enabled"
 msgstr ""
+"**Controlar la vibració**: per a l’opció `Vibrar poc abans del final` del "
+"temporitzador de son, per fer vibrar el dispositiu si aquesta opció està "
+"activada"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Prevent device from sleeping**: needed to ensure media playback and "
 "downloads continue in the background"
 msgstr ""
+"**Evitar que el dispositiu entri en repòs**: necessari per garantir que la "
+"reproducció multimèdia i les descàrregues continuïn en segon pla"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
@@ -951,7 +982,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/backup.md:block 2 (header)
 msgid "Database Export"
-msgstr "Exporteu base de dades"
+msgstr "Exporteu la base de dades"
 
 #: _i18n/en/documentation/general/backup.md:block 3 (paragraph)
 msgid ""
@@ -978,7 +1009,7 @@ msgid ""
 "synchronization](/documentation/general/synchronization) for instructions."
 msgstr ""
 "Sincronitzar l'AntennaPod a través de *gpodder.net* o l'aplicació *gPodder "
-"Sync* per a Nextcloud permet desar i migrar algunes dades de podcast i "
+"Sync* per a Nextcloud permet desar i migrar algunes dades de pòdcast i "
 "episodi. Perdreu els favorits, la cua i la configuració de l'aplicació. "
 "Aquesta pot ser una solució en canviar entre telèfon, tauleta i/o "
 "escriptori. Si us plau, vegeu l'[article sobre sincronització](/"
@@ -989,7 +1020,6 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
-#, fuzzy
 msgid ""
 "OPML files allow you to transfer your subscriptions to another podcast app. "
 "You will lose any podcast-specific or episode-specific data (e.g., which "
@@ -1001,12 +1031,15 @@ msgid ""
 "so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
 "Els fitxers OPML permeten transferir les vostres subscripcions a una altra "
-"aplicació de podcast. Perdreu les dades específiques de podcast o episodi "
+"aplicació de pòdcast. Perdreu les dades específiques de pòdcast o episodi "
 "(per exemple, quins episodis s'han reproduït) i tota la configuració de "
-"l'aplicació. Per exportar el vostre fitxer, aneu a `Configuració' » "
-"`Emmagatzematge' » `Importa/Exporta`. Assegureu-vos de fer clic a \"Envia..."
-"\" per desar el fitxer en una altra carpeta del telèfon o en un altre lloc, "
-"perquè el fitxer original s'eliminarà quan desinstal·leu AntennaPod."
+"l'aplicació. Per exportar el vostre fitxer, aneu a `Configuració` » `Importa/"
+"Exporta`»`Exportació OPML`. Segons la versió d’Android que utilitzeu, és "
+"possible que se us demani on desar el fitxer. Si s’obre immediatament un "
+"*diàleg de desar*, assegureu-vos de seleccionar una carpeta fora del "
+"directori d’AntennaPod (per exemple, `Downloads` o una altra carpeta visible)"
+", de manera que el fitxer OPML exportat no s’elimini si desinstal·leu "
+"AntennaPod."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
@@ -1016,7 +1049,7 @@ msgid ""
 "subscriptions will be affected."
 msgstr ""
 "Si importeu el fitxer a AntennaPod en un altre dispositiu, l'aplicació "
-"mostrarà una llista de podcasts amb caselles de selecció. Els podcasts que "
+"mostrarà una llista de pòdcasts amb caselles de selecció. Els pòdcasts que "
 "seleccioneu d'aquesta llista s'afegiran a les subscripcions existents. Cap "
 "de les vostres subscripcions existents es veurà afectada."
 
@@ -1030,9 +1063,15 @@ msgid ""
 "the issues you encounter by creating a topic on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"AntennaPod té molts usuaris i no volem que tinguin problemes perquè hàgim "
+"ajustat o afegit una funcionalitat nova. És important que hi hagi persones "
+"que provin l’aplicació. Com més gent la posi a prova, més combinacions de "
+"telèfons, versions d’Android i casos d’ús podem cobrir, i més incidències "
+"podem resoldre abans de les versions oficials. Evidentment, això només és "
+"útil si informeu dels problemes que trobeu creant un tema al [nostre fòrum]"
+"(https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Minor issues often crop up after major updates, and they're usually "
 "discovered through bug reports from users in these early stages. There's "
@@ -1044,8 +1083,8 @@ msgstr ""
 "i només es descobreixen a través d'informes d'errors per part dels usuaris "
 "en aquestes primeres etapes. Només hi ha un desenvolupador principal que "
 "està treballant en això en el seu temps lliure. Només té un parell de "
-"dispositius per provar les coses, mentre que el comportament pot variar d'un "
-"dispositiu a un altre."
+"dispositius per provar les coses, mentre que el comportament pot variar molt "
+"d'un dispositiu a un altre."
 
 #: _i18n/en/documentation/general/beta.md:block 3 (header)
 msgid "Google Play"
@@ -1061,9 +1100,15 @@ msgid ""
 "leave your feedback by creating a topic on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"Cada nova versió d’AntennaPod s’envia als nostres provadors beta a través de "
+"Google Play Store abans de publicar-se per al públic general. Si teniu bon "
+"ull i podeu explicar què no funciona del tot bé, ens encantaria comptar amb "
+"la vostra ajuda. A més, quan compartiu les vostres idees sobre què es podria "
+"millorar, ajudeu a donar forma a l’aplicació perquè s’adapti millor al que "
+"espereu vosaltres (i la comunitat). Si us plau, feu-nos arribar els vostres "
+"comentaris creant un tema al [nostre fòrum](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "So, you want to have the latest and greatest, and help us polish the app to "
 "make it truly shine? Simply visit the AntennaPod listing in the Play Store "
@@ -1072,10 +1117,10 @@ msgid ""
 "(https://play.google.com/apps/testing/de.danoeh.antennapod)."
 msgstr ""
 "Així doncs, voleu tenir l'últim i el millor? Això és certament possible! "
-"Només cal que visiteu la fitxa d'AntennaPod a la Play Store i aneu a \"Feu-"
-"vos provadors beta\" a la part inferior de la pàgina. O, si sou a "
-"l'ordinador, podeu anar a [aquesta URL](https://play.google.com/apps/testing/"
-"de.danoeh.antennapod)."
+"Només cal que visiteu la fitxa d'AntennaPod a la Play Store i aneu a **Feu-"
+"vos provadors beta** a la part inferior de la pàgina, sota la secció *Suport "
+"de l'aplicació*. O, si sou a l'ordinador, podeu anar a [aquesta URL](https://"
+"play.google.com/apps/testing/de.danoeh.antennapod)."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
 msgid "Become a beta tester - confirmation window in Google Play"
@@ -2309,7 +2354,6 @@ msgstr ""
 "addicionals."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-#, fuzzy
 msgid "Open the Android Auto settings on your phone."
 msgstr "Obriu la configuració d'Android Auto."
 
@@ -2508,7 +2552,6 @@ msgstr "Ves al 0-90% del vídeo"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to make it easy for your network or audience to add your "
 "podcast(s) in AntennaPod? Simply include a link like the one below on your "
@@ -2517,11 +2560,13 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"Voleu facilitar que la vostra xarxa o audiència incorpori el(s) teu(s) "
-"pòdcast(s) a AntennaPod? Simplement, afegiu un enllaç com el que us és "
-"proporcionat a sota a la vostra pàgina web o on vulgueu. Assegureu-vos de "
-"substituir `xyz`per l'URL del vostre feed RSS i `abc` pel títol del vostre "
-"pòdcast."
+"Voleu facilitar que la vostra xarxa o audiència afegeixi els vostres "
+"pòdcasts a AntennaPod? Simplement incloeu un enllaç com el que es mostra a "
+"continuació al vostre lloc web o allà on vulgueu. Assegureu-vos de "
+"substituir `xyz` per l’URL del vostre canal RSS i `abc` pel títol del vostre "
+"pòdcast. Tingueu en compte que, si l’URL o el títol contenen caràcters "
+"especials, com ara `&`, cal que estiguin [codificats en URL](https://"
+"en.wikipedia.org/wiki/Percent-encoding)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2839,7 +2884,6 @@ msgid "Smart shuffle"
 msgstr "Barreja intel·ligent"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
@@ -2863,9 +2907,8 @@ msgstr ""
 "descendent."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Com funciona en detall"
+msgstr "Com funciona la barreja intel·ligent en detall"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
