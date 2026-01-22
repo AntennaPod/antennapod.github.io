@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-16 23:54+0200\n"
-"PO-Revision-Date: 2025-11-11 17:51+0000\n"
+"PO-Revision-Date: 2026-01-22 15:54+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1040,9 +1040,15 @@ msgid ""
 "the issues you encounter by creating a thread on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"У AntennaPod багато користувачів, і ми не хочемо, щоб вони стикалися з "
+"проблемами через те, що ми внесли зміни або додали нову функцію. Важливо, "
+"щоб люди тестували наш додаток. Чим більше людей тестує, тим більше "
+"комбінацій телефонів, версій Android та варіантів використання ми можемо "
+"охопити, і тим більше проблем ми можемо вирішити до офіційних релізів. "
+"Звичайно, це допоможе лише тоді, коли ви повідомите про проблеми, з якими ви "
+"зіткнулися, створивши тему на [нашому форумі](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Minor issues often crop up after major updates, and they're usually "
 "discovered through bug reports from users in these early stages. There's "
@@ -1050,11 +1056,11 @@ msgid ""
 "can greatly vary from one device to another, he only has so many devices to "
 "test on."
 msgstr ""
-"Незначні проблеми часто виникають після великих оновлень, і користувачі "
-"виявляють їх лише на ранніх стадіях у звітах про помилки. Є лише один "
-"головний розробник, який працює над цим у вільний час. У нього є лише кілька "
-"пристроїв, на яких можна тестувати, а поведінка може відрізнятися від "
-"пристрою до пристрою."
+"Незначні проблеми часто виникають після серйозних оновлень, і вони зазвичай "
+"виявляються через повідомлення про помилки від користувачів на цих ранніх "
+"стадіях. Лише один основний розробник працює над цим у вільний час. Хоча "
+"поведінка може сильно відрізнятися від одного пристрою до іншого, у нього є "
+"лише певна кількість пристроїв для тестування."
 
 #: _i18n/en/documentation/general/beta.md:block 3 (header)
 msgid "Google Play"
@@ -1070,9 +1076,15 @@ msgid ""
 "leave your feedback by creating a thread on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"Кожна нова версія AntennaPod надсилається нашим бета-тестерам через Google "
+"Play Store, перш ніж бути випущеною для широкого загалу. Якщо у вас гостре "
+"око та ви можете пояснити, що працює не зовсім належним чином, ми будемо "
+"вдячні за вашу допомогу! Крім того, коли ви ділитеся своїми думками щодо "
+"того, що можна покращити, ви допомагаєте формувати додаток, щоб він краще "
+"відповідав вашим (і спільнотним) очікуванням. Будь ласка, залиште свій "
+"відгук, створивши тему на [нашому форумі](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "So, you want to have the latest and greatest, and help us polish the app to "
 "make it truly shine? Simply visit the AntennaPod listing in the Play Store "
@@ -1080,11 +1092,12 @@ msgid ""
 "section. Or, if you're on your computer, you can join our beta program [here]"
 "(https://play.google.com/apps/testing/de.danoeh.antennapod)."
 msgstr ""
-"Отже, ви хочете мати найновіше та найкраще? Це точно можливо! Просто "
-"відвідайте список AntennaPod у магазині Play і перейдіть до пункту «Стати "
-"бета-тестером» унизу сторінки. Або, якщо ви за комп’ютером, ви можете "
-"перейти на [цю url](https://play.google.com/apps/testing/"
-"de.danoeh.antennapod)."
+"Отже, ви хочете мати найновіше та найкраще, а також допомогти нам "
+"відшліфувати додаток, щоб він справді сяяв? Просто відвідайте список "
+"AntennaPod в додатку Play Store, і ви знайдете картку **Приєднайтеся до бета-"
+"версії** у розділі *Підтримка програми*. Або, якщо у вас є комп\"ютер, ви "
+"можете приєднатися до нашої бета-програми [тут](https://play.google.com/apps/"
+"testing/de.danoeh.antennapod)."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
 msgid "Become a beta tester - confirmation window in Google Play"
@@ -2298,9 +2311,8 @@ msgid "If you downloaded AntennaPod from F-Droid, further steps are required."
 msgstr "Якщо ви завантажили AntennaPod із F-Droid, потрібні подальші дії."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-#, fuzzy
 msgid "Open the Android Auto settings on your phone."
-msgstr "Відкрийте налаштування Android Auto."
+msgstr "Відкрийте налаштування Android Auto на своєму телефоні."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Developer settings` by pressing the version number 10 times."
@@ -2494,7 +2506,6 @@ msgstr "Перейти до 0-90% відео"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to make it easy for your network or audience to add your "
 "podcast(s) in AntennaPod? Simply include a link like the one below on your "
@@ -2503,10 +2514,12 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"Ви хочете, щоб ваша мережа або аудиторія могли легко додавати ваш подкаст(и) "
-"у AntennaPod? Просто додайте посилання, подібне до наведеного нижче, на "
-"своєму веб-сайті або будь-де, де вам потрібно. Обов’язково замініть `xyz` "
-"URL-адресою вашого RSS-каналу, а `abc` — назвою подкасту."
+"Чи хотіли б ви полегшити своїй мережі чи аудиторії додавання вашого подкасту "
+"(ів) в AntennaPod? Просто додайте посилання, як наведене нижче, на свій веб-"
+"сайт або де завгодно. Переконайтеся, що ви замінили `xyz` URL-адресу вашої "
+"RSS-стрічки та `abc` на назву вашого подкасту. Зверніть увагу, що якщо ваша "
+"URL-адреса або заголовок містить спеціальні символи, такі як `&`, це має "
+"бути [URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2519,11 +2532,13 @@ msgid ""
 "You could also turn the same link into a button, e.g. by using the following "
 "code:"
 msgstr ""
+"Ви також можете перетворити те саме посилання на кнопку, наприклад, "
+"використовуючи наступний код:"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
 msgid "What users see"
-msgstr ""
+msgstr "Що бачать користувачі"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 6
 #: (paragraph)
@@ -2532,16 +2547,19 @@ msgid ""
 "preview episodes and subscribe to your podcast directly in the app, as in "
 "the screenshots below."
 msgstr ""
+"Користувачі, які встановили AntennaPod та відкрили це посилання, зможуть "
+"переглядати епізоди та підписуватися на ваш подкаст безпосередньо в додатку, "
+"як показано на скріншотах нижче."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
 #: (paragraph)
 msgid "Browser asking to open a link in AntennaPod"
-msgstr ""
+msgstr "Браузер просить відкрити посилання в AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
 msgid "The same link displayed in AntennaPod"
-msgstr ""
+msgstr "Те саме посилання відображається в AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 19
 #: (paragraph)
@@ -2551,11 +2569,15 @@ msgid ""
 "manually, as in this [example page](/deeplink/subscribe?url=https://"
 "antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
+"З іншого боку, користувачі, які не мають встановленого AntennaPod, побачать "
+"сторінку з інструкціями щодо завантаження програми або підписки на ваш "
+"подкаст вручну, як у цьому [приклад сторінки](/deeplink/"
+"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
 msgid "Branding"
-msgstr ""
+msgstr "Брендинг"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 21
 #: (paragraph)
@@ -2564,6 +2586,9 @@ msgid ""
 "button? You can find it in our [branding repository](https://github.com/"
 "AntennaPod/branding)."
 msgstr ""
+"Бажаєте використати наш логотип для створення брендованої кнопки «Відкрити в "
+"AntennaPod»? Ви можете знайти її в нашому [брендовому репозиторії](https://"
+"github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 1 (paragraph)
 msgid ""
