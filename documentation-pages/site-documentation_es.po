@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 08:12+0200\n"
 "PO-Revision-Date: 2026-01-27 04:15+0000\n"
-"Last-Translator: Lorenzio <translator.1oh72@silomails.com>\n"
+"Last-Translator: Jairo García <woodensnake@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/es/>\n"
 "Language: es\n"
@@ -320,7 +320,6 @@ msgstr "Solución alternativa"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
-#, fuzzy
 msgid ""
 "In order to still be able to resume playback, you can add the so-called "
 "AntennaPod 'tile' on your device. Tiles are essentially the buttons that you "
@@ -331,7 +330,7 @@ msgstr ""
 "Para poder reanudar la reproducción, puedes añadir el atajo de AntennaPod en "
 "tu dispositivo. Los atajos son esencialmente los botones que ves cuando "
 "tiras hacia abajo desde la parte superior de la pantalla. Probablemente "
-"reconozcas los atajos de Internet o Linterna. El atajo de AntennaPod te "
+"reconozcas los atajos de *Internet* o *Linterna*. El atajo de AntennaPod te "
 "permite reproducir y pausar la reproducción, incluso si la reproducción ha "
 "estado en pausa durante un tiempo."
 
@@ -353,7 +352,7 @@ msgstr ""
 "de Android (por ejemplo, Samsung One UI o Xiaomi MIUI), un Centro de Control "
 "equivalente con gestos similares puede ya incluir un acceso directo "
 "multimedia; consulta la configuración de tu dispositivo en caso de ser "
-"diferente."
+"diferente"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -365,13 +364,12 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid ""
 "Scroll through the list of tiles and **drag the AntennaPod tile** up into "
 "the list of active tiles"
 msgstr ""
 "Desplázate hacia abajo en la lista de mosaicos, **pulsa sobre el mosaico de "
-"AntennaPod y arrástralo**  hacia arriba en la lista de atajos activos."
+"AntennaPod y arrástralo** hacia arriba en la lista de atajos activos"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -446,7 +444,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "Have you recently [exported a backup](/documentation/general/backup) from "
 "AntennaPod? Then restoring that is relatively easily: go to `Settings` » "
@@ -455,11 +452,11 @@ msgid ""
 "to go through the second step to fix the problem once and for all."
 msgstr ""
 "¿Has exportado recientemente una [copia de seguridad](/documentation/general/"
-"backup) de AntennaPod? Restaurarla es relativamente sencillo: ve a `«Ajustes"
-"»` **»** `«Importar/Exportar»` **»** `«Importar base de datos»` y selecciona "
-"el archivo de copia de seguridad. Ten en cuenta que la copia de seguridad "
-"podría contener datos parcialmente dañados, por lo que se recomienda seguir "
-"el segundo paso para solucionar el problema definitivamente."
+"backup) de AntennaPod? Restaurarla es relativamente sencillo: ve a `Ajustes` "
+"» `Importar/Exportar` » `Importar base de datos` y selecciona el archivo de "
+"copia de seguridad. Ten en cuenta que la copia de seguridad podría contener "
+"datos parcialmente dañados, por lo que se recomienda seguir el segundo paso "
+"para solucionar el problema definitivamente."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -1009,7 +1006,6 @@ msgid "OPML"
 msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
-#, fuzzy
 msgid ""
 "OPML files allow you to transfer your subscriptions to another podcast app. "
 "You will lose any podcast-specific or episode-specific data (e.g., which "
@@ -1020,13 +1016,15 @@ msgid ""
 "AntennaPod directory (for example, `Downloads` or another visible folder), "
 "so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
-"Los archivos OPML te permiten transferir tus suscripciones a otra aplicación "
-"de podcasts. Perderás cualquier información relacionada con los podcast y "
-"los episodios (ej. qué episodios se reprodujeron) y todos los ajustes de la "
-"aplicación. Para exportar tu archivo, ve a `Ajustes` » `Almacenamiento` » "
-"`Importar/Exportar`. Asegúrate de hacer clic en `Enviar…` para guardar el "
-"archivo en otra carpeta en tu teléfono o en cualquier otro sitio, porque el "
-"archivo original se eliminará cuando desinstales AntennaPod."
+"Los archivos OPML te permiten transferir tus suscripciones a otra app de "
+"podcast. Perderás la información específica del podcast o del episodio (por "
+"ejemplo, qué episodios se han reproducido) y toda la configuración de la "
+"app. Para exportar el archivo, ve a `Ajustes` » `Respaldo y restauración` » "
+"`Exportar a OPML`. Según tu versión de Android, es posible que se te pida "
+"que elijas dónde guardar el archivo. Si se abre inmediatamente un *cuadro de "
+"diálogo para guardar*, asegúrate de seleccionar una carpeta fuera del "
+"directorio de AntennaPod (por ejemplo, `Descargas` u otra carpeta visible), "
+"para que el archivo OPML exportado no se elimine al desinstalar AntennaPod."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
@@ -1083,7 +1081,6 @@ msgid ""
 msgstr ""
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "So, you want to have the latest and greatest, and help us polish the app to "
 "make it truly shine? Simply visit the AntennaPod listing in the Play Store "
@@ -1091,10 +1088,11 @@ msgid ""
 "section. Or, if you're on your computer, you can join our beta program [here]"
 "(https://play.google.com/apps/testing/de.danoeh.antennapod)."
 msgstr ""
-"Entonces, ¿Quieres tener lo último y lo mejor?¡Eso es posible! Simplemente "
-"visita la entrada de AntennaPod en el Play Store y ve a \"Convertirse en "
-"beta tester\" al final de la página. O, si estás en tu ordenador, puedes ir "
-"a [esta dirección](https://play.google.com/apps/testing/"
+"¿Quieres tener lo último y lo mejor y ayudarnos a pulir la app para que "
+"realmente brille? Simplemente visita la lista de AntennaPod en la app de "
+"Play Store y encontrarás la tarjeta **Únete a la beta** en la sección "
+"*Soporte de la app*. O, si estás en tu ordenador, puedes unirte a nuestro "
+"programa beta [aquí](https://play.google.com/apps/testing/"
 "de.danoeh.antennapod)."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
@@ -2565,7 +2563,7 @@ msgstr ""
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
 msgid "What users see"
-msgstr ""
+msgstr "Lo que ven los usuarios"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 6
 #: (paragraph)
@@ -2574,16 +2572,20 @@ msgid ""
 "preview episodes and subscribe to your podcast directly in the app, as in "
 "the screenshots below."
 msgstr ""
+"Los usuarios que hayan instalado AntennaPod y abran ese enlace podrán "
+"obtener una vista previa de los episodios y suscribirse a su podcast "
+"directamente en la aplicación, como en las capturas de pantalla a "
+"continuación."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
 #: (paragraph)
 msgid "Browser asking to open a link in AntennaPod"
-msgstr ""
+msgstr "Navegador pidiendo abrir un enlace en AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
 msgid "The same link displayed in AntennaPod"
-msgstr ""
+msgstr "El mismo enlace que se muestra en AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 19
 #: (paragraph)
@@ -2593,6 +2595,10 @@ msgid ""
 "manually, as in this [example page](/deeplink/subscribe?url=https://"
 "antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
+"Por otro lado, los usuarios que no tengan instalado AntennaPod verán una "
+"página con instrucciones para descargar la aplicación o suscribirse a su "
+"podcast manualmente, como en esta [página de ejemplo](/deeplink/"
+"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
@@ -2619,7 +2625,6 @@ msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "We support the [funding](https://podcasting2.org/docs/podcast-namespace/tags/"
 "funding) tag, allowing podcasters to add links to their payment pages in "
@@ -2627,12 +2632,12 @@ msgid ""
 "guides/how-to-use-the-funding-tag). This is the standard way for podcasters "
 "to get financial support from their audience."
 msgstr ""
-"Somos compatibles con la etiqueta de [financiación] (https://podcasting2.org/"
+"Somos compatibles con la etiqueta de [financiación](https://podcasting2.org/"
 "docs/podcast-namespace/tags/funding), permitiendo que los podcasters añadan "
-"enlaces a sus páginas de pago en sus *feeds* RSS: ver [cómo usar esta "
-"etiqueta] (https://podcasting2.org/docs/guides/how-to-use-the-funding-tag). "
-"Esta es la manera por defecto para que los podcasters obtengan apoyo "
-"financiero por parte de su audiencia."
+"enlaces a sus páginas de pago en sus feeds RSS: ver [cómo usar esta etiqueta]"
+"(https://podcasting2.org/docs/guides/how-to-use-the-funding-tag). Esta es la "
+"manera por defecto para que los podcasters obtengan apoyo financiero por "
+"parte de su audiencia."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
