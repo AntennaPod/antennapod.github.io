@@ -6,7 +6,7 @@ Pueden aparecer errores pequeños en actualizaciones importantes, y solo son des
 
 Every new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what's not working quite right, we'd love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a topic on [our forum](https://forum.antennapod.org/).
 
-Entonces, ¿Quieres tener lo último y lo mejor?¡Eso es posible! Simplemente visita la entrada de AntennaPod en el Play Store y ve a "Convertirse en beta tester" al final de la página. O, si estás en tu ordenador, puedes ir a [esta dirección](https://play.google.com/apps/testing/de.danoeh.antennapod).
+¿Quieres tener lo último y lo mejor y ayudarnos a pulir la app para que realmente brille? Simplemente visita la lista de AntennaPod en la app de Play Store y encontrarás la tarjeta **Únete a la beta** en la sección *Soporte de la app*. O, si estás en tu ordenador, puedes unirte a nuestro programa beta [aquí](https://play.google.com/apps/testing/de.danoeh.antennapod).
 
 {% include image.html alt= "
 

@@ -33,7 +33,7 @@ La única situación en la que se manejan datos personales *de* terceros es al u
 #### Servicios de sincronización y copia de seguridad
 
 - Cuando se activa en la configuración, AntennaPod sincroniza tus datos. Esto puede incluir tus credenciales de inicio de sesión, podcasts a los que te has suscrito, episodios escuchados, acciones de reproducción/pausa/favoritos con marcas de tiempo y tu dirección IP. Para obtener más información, consulta la política de privacidad de tu proveedor de sincronización.
-- Si tienes activadas las copias de seguridad en tu teléfono (`Ajustes` » `Copia de seguridad y restablecimiento` » `Copia de seguridad`), Android guardará periódicamente una copia de los datos de tu teléfono en los servidores de Google. Esta copia de seguridad contiene información privada, como tus contraseñas de Wi-Fi, mensajes e historial de llamadas. También puede incluir datos de AntennaPod y de otras aplicaciones que uses. Los desarrolladores de AntennaPod no tienen acceso a estos datos. Para obtener más información, consulta la [política de privacidad de Google](https://policies.google.com).
+- Si tienes activadas las copias de seguridad en tu teléfono (`Ajustes` » `Copia de seguridad y restablecimiento` » `Copia de seguridad de mis datos`), Android guardará periódicamente una copia de los datos de tu teléfono en los servidores de Google. Esta copia de seguridad contiene información privada, como tus contraseñas de Wi-Fi, mensajes e historial de llamadas. También puede incluir datos de AntennaPod y de otras aplicaciones que uses. Los desarrolladores de AntennaPod no tienen acceso a estos datos. Para obtener más información, consulta la [política de privacidad de Google](https://policies.google.com).
 
 #### Proveedores de dispositivos y sistemas operativos
 
@@ -80,7 +80,7 @@ Cuando contribuyes a las traducciones de AntennaPod:
 - Estás interactuando con el servicio de alojamiento de Weblate s.r.o. - consulta su [política de privacidad](https://weblate.org/en-gb/privacy/) para conocer los datos que recopilan y procesan.
 - El equipo de AntennaPod tiene acceso a:
    - el 'nombre de usuario', el 'nombre completo' y el 'correo electrónico' tal como están configurados en [su perfil](https://hosted.weblate.org/accounts/profile/#account)
-   - la fecha en que te uniste al proyecto y [estadísticas](https://docs.weblate.org/en/latest/devel/reporting.html#stats) sobre tus contribuciones, así como los [lenguajes](https://docs.weblate.org/en/latest/devel/reporting.html#credits) a los que contribuyes y la fecha y hora de tus contribuciones.
+   - la fecha en la que te uniste al proyecto y [estadísticas](https://docs.weblate.org/en/latest/devel/reporting.html#stats) sobre tus contribuciones, así como los [idiomas](https://docs.weblate.org/en/latest/devel/reporting.html#credits) a los que contribuyes y la fecha y hora de tus contribuciones.
 
 #### Git
 
