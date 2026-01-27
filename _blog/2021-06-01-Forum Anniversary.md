@@ -5,6 +5,7 @@ date: "2021-06-01 12:00:00"
 image: "2021/forum-anniversary.png"
 author: bytehamster
 layout: blog
+category: community
 guid: https://antennapod.org/blog/2021/06/forum-anniversary
 ---
 

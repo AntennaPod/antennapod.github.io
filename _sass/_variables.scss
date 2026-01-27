@@ -1,28 +1,142 @@
-// Customize default style definitions of Bootstrap.
+// Customize default style definitions of Bootstrap 5.
 @import 'colors';
 
+// ==========================================================================
+// Bootstrap Base Color Override - Use AntennaPod brand palette
+// ==========================================================================
+
+// Override Bootstrap's base colors to use brand palette
+$blue: $brand-primary;       // #1b8bf6 - replaces Bootstrap's #0d6efd
+$indigo: $brand-secondary;   // #364ff3 - darker blue/purple
+$purple: $brand-secondary;   // Override Bootstrap's purple to use brand secondary
+$green: $brand-green;        // #4ad373
+$red: $brand-red;            // #ff5353
+$cyan: $brand-lightblue;     // #16d0ff
+
+// ==========================================================================
+// Bootstrap Theme Colors Override
+// ==========================================================================
+
+// Primary: AntennaPod blue (#1b8bf6)
+$primary: $brand-primary;
+
+// Secondary: Darker blue/purple (#364ff3)
+$secondary: $brand-secondary;
+
+// Success: Brand green (#4ad373)
+$success: $brand-green;
+
+// Danger: Brand red (#ff5353)
+$danger: $brand-red;
+
+// Info: Light blue (#16d0ff)
+$info: $brand-lightblue;
+
+// Dark: Brand dark (#001937)
+$dark: $brand-dark;
+
+// Theme colors map for Bootstrap
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $orange-500,
+  "danger": $danger,
+  "light": $gray-100,
+  "dark": $dark
+);
+
+// ==========================================================================
+// Component Customizations
+// ==========================================================================
+
+// Link styling
 $link-decoration: underline;
+$link-color: $teal-700;
+$link-hover-color: $teal-900;
 
+// Card styling
 $card-bg: $gray-100;
-
 $card-border-width: 0;
 
-$container-max-widths: (
-        sm: 540px,
-        md: 720px,
-        lg: 960px,
-        xl: 1360px
+// Button styling
+$btn-border-radius: 0.5rem;
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 1rem;
+
+// Force white text on colored buttons for better contrast
+// Bootstrap's color-contrast() function may pick dark text on medium-brightness colors
+$min-contrast-ratio: 3;
+
+// Explicitly set button text colors for primary & secondary
+$btn-primary-color: $white;
+$btn-primary-bg: $primary;
+$btn-primary-border-color: $primary;
+
+$btn-secondary-color: $white;
+$btn-secondary-bg: $secondary;
+$btn-secondary-border-color: $secondary;
+
+// Override focus/active ring colors to use brand colors
+$btn-focus-box-shadow: 0 0 0 0.25rem rgba($brand-primary, 0.25);
+$focus-ring-color: rgba($brand-primary, 0.25);
+$component-active-bg: $brand-primary;
+
+// ==========================================================================
+// Grid & Layout
+// ==========================================================================
+
+// Grid breakpoints (Bootstrap 5 includes xxl)
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
 );
 
-$grid-breakpoints: (
-        xs: 0,
-        sm: 576px,
-        md: 768px,
-        lg: 992px,
-        xl: 1400px
+// Container max widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1360px
 );
+
+// Breadcrumb padding (Bootstrap 5)
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-item-padding-x: 0.5rem;
+
+// ==========================================================================
+// CSS Custom Properties
+// ==========================================================================
+
+// ==========================================================================
+// CSS Custom Properties (Light Mode Default)
+// Source: https://github.com/AntennaPod/Branding
+// ==========================================================================
 
 :root {
-  --bs-secondary-color:  #{$gray-900};
-  --bs-tertiary-bg:  #{$gray-100};
+  // Color scheme for embedded SVGs and form controls
+  color-scheme: light;
+  
+  // Brand primary - AntennaPod Blue (#1B8BF6)
+  --bs-primary: #{$primary};
+  --bs-primary-rgb: 27, 139, 246;
+  
+  // Brand secondary - AntennaPod Indigo (#364FF3)
+  --bs-secondary: #{$secondary};
+  --bs-secondary-rgb: 54, 79, 243;
+  
+  // Text and background colors
+  --bs-secondary-color: #{$gray-900};
+  --bs-tertiary-bg: #{$gray-100};
+  
+  // Link colors (Teal for better accessibility)
+  --bs-link-color: #{$teal-700};
+  --bs-link-hover-color: #{$teal-900};
 }

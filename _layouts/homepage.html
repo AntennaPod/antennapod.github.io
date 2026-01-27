@@ -4,10 +4,13 @@
     {% include head.html %}
   </head>
   <body dir="auto">
-    <div class="content">
+    <a href="#main-content" class="visually-hidden-focusable skip-link">{% t generic.accessibility.skip-to-content %}</a>
+    <div class="flex-grow-1">
       {% include nav.html %}
       {% include header.html %}
+      <main id="main-content">
           {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}
+      </main>
     </div>
     {% include footer.html %}
   </body>

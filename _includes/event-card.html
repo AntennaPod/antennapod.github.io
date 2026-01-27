@@ -1,15 +1,15 @@
-  <div class="card event-card mb-4">
-    <a class="stretched-link" href="{{ site.baseurl }}{{ event.url | replace:'.html','' }}"></a>
-      <img src="/assets/{% if page.image %}images/events/{{ event.image }}{% else %}branding/covers/cover_001.png{% endif %}" loading="lazy" />
-      <div class="card-body">
-        <h3 class="card-title">{{ event.title }}</h3>
-        <h4 class="card-subtitle text-muted mb-2">
-            {% if event.recurring == true %}
-                {% t events.general.recurring %}: {% t events.recurrence.{{ event.recurrence-text}} %}
-            {% else %}
-                {% t long_month.{{ event.datetime-start | date: "%B" }} %} {{ event.datetime-start | date: "%-d, %Y"}}
-            {% endif %}
-        </h4>
-        <p class="card-text">{% if event.summary %}{{ event.summary }}{% else %}{{ event.excerpt | strip_html | truncatewords: 15 }}{% endif %}</p>
-      </div>
+<div class="card event-card position-relative flex-column flex-md-row mb-4 overflow-hidden">
+  <a class="stretched-link" href="{{ site.baseurl }}{{ event.url | replace:'.html','' }}"></a>
+  <img class="event-card-img" src="/assets/{% if event.image %}images/events/{{ event.image }}{% else %}branding/covers/cover_001.png{% endif %}" loading="lazy" />
+  <div class="card-body">
+    <h3 class="card-title">{{ event.title }}</h3>
+    <p class="card-subtitle text-body-secondary mb-2">
+      {% if event.recurring == true %}
+        {% t events.general.recurring %}: {% t events.recurrence.{{ event.recurrence-text}} %}
+      {% else %}
+        {% t long_month.{{ event.datetime-start | date: "%B" }} %} {{ event.datetime-start | date: "%-d, %Y"}}
+      {% endif %}
+    </p>
+    <p class="card-text mb-0">{% if event.summary %}{{ event.summary }}{% else %}{{ event.excerpt | strip_html | truncatewords: 15 }}{% endif %}</p>
   </div>
+</div>

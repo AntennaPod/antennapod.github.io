@@ -4,24 +4,33 @@
 {% include head.html %}
 </head>
 <body dir="auto">
-<div class="content">
+<a href="#main-content" class="visually-hidden-focusable skip-link">{% t generic.accessibility.skip-to-content %}</a>
+<div class="flex-grow-1">
     {% include nav.html %}
+    <main id="main-content">
     <div class="container-fluid">
         <div class="container py-4">
-            {% include breadcrumbs.html %}
-            <article class="post-content">
-                {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}
-            </article>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    {% include breadcrumbs.html %}
+                    <article class="post-content">
+                        {{ content | remove: "<!-- mdpo-disable -->" | remove: "<!-- mdpo-enable -->" | remove: "<!-- mdpo-disable-next-line -->" | remove: "<!-- mdpo-enable-next-line -->" }}
+                    </article>
+                </div>
+            </div>
             
-            <div class="row justify-content-start pb-4">
             {%- assign children = site.documentation | concat: site.contribute | where: "parent", page.slug | sort: 'title' | sort: 'order' %}
+            {%- if children.size > 0 %}
+            <div class="row justify-content-start pb-4 mt-4">
             {%- for child in children %}
                 {% include doc-card.html item=child %}
             {%- endfor %}
             </div>
+            {%- endif %}
             
         </div>
     </div>
+    </main>
 </div>
     {% include footer.html %}
 </body>
