@@ -1,0 +1,1 @@
+Actualmente non se soportan varias colas. Podes seguir a [#cuestión 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) en GitHub para máis información e/o subscribirche á cuestión para manterche ao día no caso de que haxa algún avance.
