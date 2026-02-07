@@ -312,22 +312,22 @@
             <article class="post-content">
                 <h1 id="opret-et-åbn-i-antennapod-link">Opret et ‘Åbn i AntennaPod’-link</h1>
 
-<p>Vil du gøre det nemt for dit netværk eller publikum at tilføje din(e) podcast(s) i AntennaPod? Du skal blot inkludere et link som det nedenfor på din hjemmeside, eller hvor du ønsker det. Huske at erstatte <code class="language-plaintext highlighter-rouge">xyz</code> med URL’en på dit RSS-feed og <code class="language-plaintext highlighter-rouge">abc</code> med titlen på din podcast.</p>
+<p>Vil du gøre det nemt for dit netværk eller publikum at tilføje din(e) podcast(s) i AntennaPod? Du skal blot inkludere et link som det nedenfor på din hjemmeside, eller hvor du ønsker det. Huske at erstatte <code class="language-plaintext highlighter-rouge">xyz</code> med URL’en på dit RSS-feed og <code class="language-plaintext highlighter-rouge">abc</code> med titlen på din podcast. Bemærk, at hvis din URL eller din titel indeholder specialtegn, såsom <code class="language-plaintext highlighter-rouge">&amp;</code>, skal disse <a href="https://en.wikipedia.org/wiki/Percent-encoding">URL-kodes</a>.</p>
 
 <p><code class="language-plaintext highlighter-rouge">https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abc</code></p>
 
-<p>You could also turn the same link into a button, e.g. by using the following code:</p>
+<p>Du kan også omdanne det samme link til en knap, f.eks. ved at bruge følgende kode:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;style&gt;.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}&lt;/style&gt;
 &lt;a href="https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abc" class="antennapod-subscribe"&gt;Subscribe in AntennaPod&lt;/a&gt;
 </code></pre></div></div>
 
-<h1 id="what-users-see">What users see</h1>
+<h1 id="hvad-brugerne-ser">Hvad brugerne ser</h1>
 
-<p>Users who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.</p>
+<p>Brugere, der har installeret AntennaPod og åbner dette link, vil kunne se en forhåndsvisning af afsnit og abonnere på din podcast direkte i appen, som vist på skærmbillederne nedenfor.</p>
 
 <p><a data-toggle="modal" data-target="#imgModalopen-in-ap1png" style="cursor: pointer;">
-  <img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser asking to open a link in AntennaPod" style="max-width:400px; " class="rounded mt-2 ">
+  <img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser beder om at åbne et link i AntennaPod" style="max-width:400px; " class="rounded mt-2 ">
 </a></p>
 
 <div class="modal fade" id="imgModalopen-in-ap1png" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
@@ -336,13 +336,13 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem;">
           <i class="fas fa-times-circle"></i>
         </button>
-        <img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser asking to open a link in AntennaPod" width="100%" class="rounded">
+        <img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser beder om at åbne et link i AntennaPod" width="100%" class="rounded">
     </div>
   </div>
 </div>
 
 <p><a data-toggle="modal" data-target="#imgModalopen-in-ap2png" style="cursor: pointer;">
-  <img src="/assets/images/documentation/en/open-in-ap2.png" alt="The same link displayed in AntennaPod" style="max-width:400px; " class="rounded mt-2 ">
+  <img src="/assets/images/documentation/en/open-in-ap2.png" alt="Det samme link vist i AntennaPod" style="max-width:400px; " class="rounded mt-2 ">
 </a></p>
 
 <div class="modal fade" id="imgModalopen-in-ap2png" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
@@ -351,16 +351,16 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem;">
           <i class="fas fa-times-circle"></i>
         </button>
-        <img src="/assets/images/documentation/en/open-in-ap2.png" alt="The same link displayed in AntennaPod" width="100%" class="rounded">
+        <img src="/assets/images/documentation/en/open-in-ap2.png" alt="Det samme link vist i AntennaPod" width="100%" class="rounded">
     </div>
   </div>
 </div>
 
-<p>On the other hand, users who don’t have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this <a href="/deeplink/subscribe?url=https://antennapod.org/rss.xml&amp;title=Blog+Posts">example page</a>.</p>
+<p>På den anden side vil brugere, der ikke har AntennaPod installeret, se en side med instruktioner om, hvordan de kan downloade appen eller abonnere på din podcast manuelt, som på denne <a href="/deeplink/subscribe?url=https://antennapod.org/rss.xml&amp;title=Blog+Posts">eksempelside</a>.</p>
 
 <h1 id="branding">Branding</h1>
 
-<p>Hvis du har brug for vores logo, kan du tjekke vores <a href="https://github.com/AntennaPod/branding">branding-depot</a>.</p>
+<p>Vil du gerne bruge vores logo til at oprette en ‘Åbn i AntennaPod’-knap med dit brand? Du kan finde det i vores <a href="https://github.com/AntennaPod/branding">branding-arkiv</a>.</p>
 
 
             </article>
