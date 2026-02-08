@@ -11,6 +11,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="view-transition" content="same-origin">
   <title>Getting to a new icon – AntennaPod</title>
   <meta name="description" content="Starting the process to get to a new icon">
 
@@ -41,251 +42,290 @@
   <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Language redirect (loaded early, runs once per session) -->
+  <script src="/assets/js/language-redirect.js"></script>
+
+  <!-- Theme switcher (loaded early to prevent flash) -->
+  <script src="/assets/js/theme-switcher.js"></script>
+
   <!-- Resources -->
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-  <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
   <script defer src="/assets/js/tooltip.js"></script>
   <script defer src="/assets/js/copy-url.js"></script>
   <script defer src="/assets/js/mastodon-share.js"></script>
+  <script defer src="/assets/js/github-mentions.js"></script>
+  <script defer src="/assets/js/contributors.js"></script>
+  <script defer src="/assets/js/localize-links.js"></script>
 
 </head>
 <body dir="auto">
-  <div class="content">
-  <div class="w-100 fixed background-gray-100">
-  <div class="container px-0 py-2 py-md-4">
-    <div class="navbar navbar-expand-xl">
+  <a href="#main-content" class="visually-hidden-focusable skip-link">Skip to main content</a>
+  <div class="flex-grow-1">
+  <header class="sticky-top bg-body-tertiary">
+  <div class="container px-4 px-lg-0 py-2 py-md-4">
+    <nav class="navbar navbar-expand-xl p-0">
+      <a class="navbar-brand me-auto" href="/de">
+        <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo" class="h-auto">
+      </a>
 
-      <div class="col">
-        <a href="/de">
-          <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo">
-        </a>
-      </div>
-
-      <div class="col-auto">
-        <div class="collapse navbar-collapse flex-grow-0 weight-500">
-          <div class="navbar-nav align-items-center">
+      <!-- Desktop Navigation -->
+      <div class="d-none d-xl-flex navbar-nav align-items-center fw-medium">
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/de/about">
+            Über
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2 active">
+          <a class="nav-link fw-bold text-body small" href="/de/blog">
+            Blog
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/de/events">
+            Veranstaltungen
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/de/contribute">
+            Mitmachen
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/de/documentation">
+            Dokumentation
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="https://forum.antennapod.org/">
+            Forum
+          </a>
+        </div>
+        
+        <div class="nav-item dropdown ms-2">
+          <button class="nav-link dropdown-toggle bg-transparent" id="navbarDropdown1" aria-label="Sprachauswahl" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-globe text-body"></i>
+            <span class="ms-1 me-1 text-body fw-semibold">DE</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
             
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/de/about">
-                Über
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2 active">
-              <a class="nav-link" href="/de/blog">
-                Blog
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/de/events">
-                Veranstaltungen
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/de/contribute">
-                Mitmachen
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/de/documentation">
-                Dokumentation
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="https://forum.antennapod.org/">
-                Forum
-              </a>
-            </div>
-            
-            <div class="nav-item ml-2 ml-sm-1 text-center">
-              <div class="nav-item dropdown mb-0">
-                <button class="nav-link dropdown-toggle" id="navbarDropdown1" aria-label="Sprachauswahl" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-globe size-16 color-gray-900"></i>
-                  <span class="ml-1 mr-1 size-16 color-gray-900 weight-600">DE</span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                  
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2020/06/getting-to-a-new-icon">Dansk</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/da/blog/2020/06/getting-to-a-new-icon">Dansk</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/de/blog/2020/06/getting-to-a-new-icon">Deutsch</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/de/blog/2020/06/getting-to-a-new-icon">Deutsch</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2020/06/getting-to-a-new-icon">English</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/blog/2020/06/getting-to-a-new-icon">English</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/es/blog/2020/06/getting-to-a-new-icon">Español</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/es/blog/2020/06/getting-to-a-new-icon">Español</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2020/06/getting-to-a-new-icon">Français</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fr/blog/2020/06/getting-to-a-new-icon">Français</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2020/06/getting-to-a-new-icon">Italiano</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/it/blog/2020/06/getting-to-a-new-icon">Italiano</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2020/06/getting-to-a-new-icon">Nederlands</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/nl/blog/2020/06/getting-to-a-new-icon">Nederlands</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fa/blog/2020/06/getting-to-a-new-icon">فارسی</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fa/blog/2020/06/getting-to-a-new-icon">فارسی</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/ja/blog/2020/06/getting-to-a-new-icon">日本語</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ja/blog/2020/06/getting-to-a-new-icon">日本語</a>
   
 
 
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-
-        <div class="d-xl-none">
-          <div class="nav-item text-center d-inline-block">
-            <div class="nav-item dropdown">
-              <button class="nav-link dropdown-toggle" id="navbarDropdown2" aria-label="Sprachauswahl" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">DE</span>
-              </button>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/da/blog/2020/06/getting-to-a-new-icon">Dansk</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/de/blog/2020/06/getting-to-a-new-icon">Deutsch</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/blog/2020/06/getting-to-a-new-icon">English</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/es/blog/2020/06/getting-to-a-new-icon">Español</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/blog/2020/06/getting-to-a-new-icon">Français</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/it/blog/2020/06/getting-to-a-new-icon">Italiano</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/blog/2020/06/getting-to-a-new-icon">Nederlands</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/fa/blog/2020/06/getting-to-a-new-icon">فارسی</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/ja/blog/2020/06/getting-to-a-new-icon">日本語</a>
-  
-
-
-            </div>
+        <div class="nav-item dropdown ms-2">
+          <button class="nav-link dropdown-toggle bg-transparent" id="themeDropdown1" aria-label="Theme switcher" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-circle-half-stroke theme-icon-auto text-body"></i>
+            <i class="fa-solid fa-sun theme-icon-light text-body d-none"></i>
+            <i class="fa-solid fa-moon theme-icon-dark text-body d-none"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown1">
+            <button class="dropdown-item fw-medium small" data-theme-value="auto"><i class="fa-solid fa-circle-half-stroke me-2"></i>Auto</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="light"><i class="fa-solid fa-sun me-2"></i>Light</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="dark"><i class="fa-solid fa-moon me-2"></i>Dark</button>
           </div>
         </div>
-
-        <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
       </div>
 
-    </div>
+      <!-- Mobile Controls -->
+      <div class="d-xl-none d-flex align-items-center gap-1">
+        <div class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle bg-transparent py-1 px-2" id="navbarDropdown2" aria-label="Sprachauswahl" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-globe text-body"></i>
+            <span class="ms-1 text-body fw-semibold d-none d-sm-inline">DE</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/da/blog/2020/06/getting-to-a-new-icon">Dansk</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/de/blog/2020/06/getting-to-a-new-icon">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/blog/2020/06/getting-to-a-new-icon">English</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/es/blog/2020/06/getting-to-a-new-icon">Español</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fr/blog/2020/06/getting-to-a-new-icon">Français</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/it/blog/2020/06/getting-to-a-new-icon">Italiano</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/nl/blog/2020/06/getting-to-a-new-icon">Nederlands</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fa/blog/2020/06/getting-to-a-new-icon">فارسی</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ja/blog/2020/06/getting-to-a-new-icon">日本語</a>
+  
+
+
+          </div>
+        </div>
+        <div class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle bg-transparent py-1 px-2" id="themeDropdown2" aria-label="Theme switcher" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-circle-half-stroke theme-icon-auto text-body"></i>
+            <i class="fa-solid fa-sun theme-icon-light text-body d-none"></i>
+            <i class="fa-solid fa-moon theme-icon-dark text-body d-none"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown2">
+            <button class="dropdown-item fw-medium small" data-theme-value="auto"><i class="fa-solid fa-circle-half-stroke me-2"></i>Auto</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="light"><i class="fa-solid fa-sun me-2"></i>Light</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="dark"><i class="fa-solid fa-moon me-2"></i>Dark</button>
+          </div>
+        </div>
+        <button class="navbar-toggler border-0 py-1 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+          <img src="/assets/images/icons/burger.svg" width="24" height="24" alt="Menu">
+        </button>
+      </div>
+    </nav>
   </div>
+</header>
 
-  <div id="navbar-mobile" class="overlay">
-    <button class="closebtn" onclick="closeNav()">×</button>
-      <div class="overlay-header">
-        <img src="/assets/branding/logo-icon.svg" width="80" alt="AntennaPod-Logo">
-      </div>
-      <div class="overlay-content">
+<!-- Mobile Menu Offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header border-bottom px-4 py-3">
+    <a href="/de" class="offcanvas-title" id="mobileMenuLabel">
+      <img src="/assets/branding/logo-full-horizontal-dynamic.svg" class="offcanvas-logo" alt="AntennaPod-Logo">
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column">
+    <nav class="nav flex-column flex-grow-1">
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/de/about">
+        Über
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/de/blog">
+        Blog
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/de/events">
+        Veranstaltungen
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/de/contribute">
+        Mitmachen
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/de/documentation">
+        Dokumentation
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="https://forum.antennapod.org/">
+        Forum
+      </a>
+      
+    </nav>
+    <div class="mt-auto pt-4 border-top px-2">
+      <div class="d-flex flex-wrap gap-3">
         
-        <a href="/de/about">Über</a>
-        
-        <a href="/de/blog">Blog</a>
-        
-        <a href="/de/events">Veranstaltungen</a>
-        
-        <a href="/de/contribute">Mitmachen</a>
-        
-        <a href="/de/documentation">Dokumentation</a>
-        
-        <a href="https://forum.antennapod.org/">Forum</a>
-        
-      </div>
-      <div class="overlay-footer">
-        
-        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fa-brands fa-mastodon mr-1"></i>Mastodon</a>
+        <a class="text-body-secondary" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+          <i class="fa-brands fa-mastodon me-1"></i>Mastodon
+        </a>
         
         
-        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
+        <a class="text-body-secondary" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github me-1"></i>GitHub
+        </a>
         
         
-        <a class="mr-2 color-gray-900" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky mr-1"></i>Bluesky</a>
+        <a class="text-body-secondary" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+          <i class="fa-brands fa-bluesky me-1"></i>Bluesky
+        </a>
         
         
-        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
+        <a class="text-body-secondary" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+          <i class="fa-brands fa-x-twitter me-1"></i>Twitter
+        </a>
         
       </div>
     </div>
   </div>
 </div>
 
-<script>
-    function openNav() {
-        document.getElementById("navbar-mobile").style.height = "100%";
-        document.documentElement.style.overflow = 'hidden';
-        document.body.scroll = "no";
-    }
-
-    function closeNav() {
-        document.getElementById("navbar-mobile").style.height = "0%";
-        document.documentElement.style.overflow = 'scroll';
-        document.body.scroll = "yes";
-    }
-</script>
-
+  <main id="main-content">
   <div class="container-fluid" dir="ltr">
-    <div class="container py-3">
-      <div class="row no-gutters justify-content-center">
-        <div class="col-lg-9 col-sm-12 pt-3">
+    <div class="container py-4">
+      <div class="row g-0 justify-content-center">
+        <div class="col-lg-8 col-xl-7 pt-3">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb p-0" id="breadcrumbs">
               <li class="breadcrumb-item"><a href="/de">Start</a></li>
@@ -293,58 +333,37 @@
               <li class="breadcrumb-item active" aria-current="page">Getting to a new icon</li>
             </ol>
           </nav>
-          <div class="post">
-
+          <header class="post-header mb-4">
+            <h1 class="display-5 fw-bold text-body mb-3">Getting to a new icon</h1>
             
-
-            <header class="post-header">
-              <h1 class="size-36 weight-700 color-gray-900">Getting to a new icon</h1>
+            <div class="d-flex flex-wrap align-items-center gap-3 text-body-secondary small">
               
               
-              <p class="size-14 weight-600 color-gray-500">6 Min. zu lesen</p>
-              
-              <div class="row no-gutters align-items-center justify-content-between my-3">
-                <p class="size-14 weight-700 color-gray-900 mb-0">
-                  
-                  <img class="round-img" src="/assets/images/authors/keunes.png" width="40">
-                  <a class="underline" href="https://github.com/keunes" target="_blank" rel="noopener">Keunes</a>
-                  
-                  •
-                  
-                  Jun 4, 2020
-                </p>
-                <div class="inline-flex">
-  <p class="size-14 color-gray-900 mb-0 mr-2">Teilen</p>
-  <button title="Link kopieren" class="copy-link" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-selector="true" data-title="Link kopiert!" value="https://antennapod.org/blog/2020/06/getting-to-a-new-icon">
-      <i class="fa-solid fa-link color-gray-600 size-20 mr-2"></i>
-  </button>
-  <a title="Auf Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2020/06/getting-to-a-new-icon" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-      <i class="fa-brands fa-facebook color-gray-600 size-20 mr-2"></i>
-  </a>
-  <a title="Auf Mastodon teilen" href="#" onclick="share_on_mastodon();">
-      <i class="fa-brands fa-mastodon size-20 color-gray-600 mr-2"></i>
-  </a>
-  <a title="Auf Twitter teilen" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2020/06/getting-to-a-new-icon&amp;hashtags=&amp;via=AntennaPod" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
-      <i class="fa-brands fa-x-twitter size-20 color-gray-600 mr-2"></i>
-  </a>
-  <a title="Per E-Mail teilen" href="mailto:?subject=Schau%20dir%20das%20an&amp;body=Schau%20dir%20das%20an%20https://antennapod.org/blog/2020/06/getting-to-a-new-icon">
-      <i class="fa-solid fa-envelope size-20 color-gray-600"></i>
-  </a>
-</div>
-
+              <div class="d-flex align-items-center">
+                <img class="rounded-circle me-2" src="/assets/images/authors/keunes.png" width="32" height="32" alt="Keunes">
+                <a class="text-decoration-none fw-semibold" href="https://github.com/keunes" target="_blank" rel="noopener">Keunes</a>
               </div>
-            </header>
+              
+              <span>
+                
+                Jun 4, 2020
+              </span>
+              <span>
+                
+                6 Min. zu lesen
+                
+              </span>
             </div>
-          </div>
+          </header>
         </div>
       </div>
     </div>
   </div>
   <div class="container-fluid" dir="ltr">
     <div class="container py-3">
-      <div class="row no-gutters justify-content-center pb-4">
-        <div class="col-lg-9">
-          <article class="post-content pb-3">
+      <div class="row g-0 justify-content-center pb-4">
+        <div class="col-lg-8 col-xl-7">
+          <article class="post-content pb-4">
             <p>After users <a href="https://github.com/AntennaPod/AntennaPod/issues/1281">requested</a> a new icon for over 5 years, I persuaded main developer ByteHamster that the release of version 2.0.0 is a good time to rework the icon. We therefore developed and published a design brief with requirements for the new icon. You can find the design brief below.</p>
 
 <h1 id="design-brief-antennapod-logo-update">Design brief AntennaPod logo update</h1>
@@ -433,15 +452,314 @@
 <p>Thank you for considering support to this open source app! Reply to the <a href="https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update">ad on opensourcedesign.net</a> or get in touch at [email address removed].</p>
 
           </article>
+          <div class="border-top pt-4">
+            <div class="d-inline-flex align-items-center">
+  <p class="small text-body mb-0 me-2">Teilen</p>
+  <button title="Link kopieren" class="bg-transparent border-0 p-0" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="Link kopiert!" value="https://antennapod.org/blog/2020/06/getting-to-a-new-icon">
+      <i class="fa-solid fa-link fs-5 text-body-tertiary me-2"></i>
+  </button>
+  <a title="Auf Facebook teilen" href="https://www.facebook.com/sharer/sharer.php?u=https://antennapod.org/blog/2020/06/getting-to-a-new-icon" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <i class="fa-brands fa-facebook fs-5 text-body-tertiary me-2"></i>
+  </a>
+  <button title="Auf Mastodon teilen" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#mastodonShareModal">
+      <i class="fa-brands fa-mastodon fs-5 text-body-tertiary me-2"></i>
+  </button>
+  <a title="Auf Twitter teilen" href="https://twitter.com/intent/tweet?text=https://antennapod.org/blog/2020/06/getting-to-a-new-icon&amp;hashtags=&amp;via=AntennaPod" onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
+      <i class="fa-brands fa-x-twitter fs-5 text-body-tertiary me-2"></i>
+  </a>
+  <a title="Per E-Mail teilen" href="mailto:?subject=Schau%20dir%20das%20an&amp;body=Schau%20dir%20das%20an%20https://antennapod.org/blog/2020/06/getting-to-a-new-icon">
+      <i class="fa-solid fa-envelope fs-5 text-body-tertiary"></i>
+  </a>
+</div>
+
+<!-- Mastodon Share Modal -->
+<div class="modal fade" id="mastodonShareModal" tabindex="-1" aria-labelledby="mastodonShareModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mastodonShareModalLabel">
+          <i class="fa-brands fa-mastodon me-2"></i>Share on Mastodon
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="text-body-secondary small mb-3">Gib die Adresse deiner Instanz ein: (z. B. https://mastodon.social)</p>
+        <div class="input-group">
+          <span class="input-group-text">https://</span>
+          <input type="text" class="form-control" id="mastodonInstance" placeholder="mastodon.social" aria-label="Mastodon instance">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary text-white" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" onclick="shareOnMastodon()">Share</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+
+          
+          
+          
+          
+            
+          
+            
+              
+              
+          
+          
+            
+            
+            
+            
+            
+            
+            <nav class="mt-5 pt-4 border-top" aria-label="Post navigation">
+              <div class="row g-3">
+                <div class="col-6">
+                  
+                  <a href="/blog/2020/09/new-icon" class="d-block text-decoration-none h-100">
+                    <div class="card h-100 border-0 bg-body-tertiary">
+                      <div class="card-body p-3">
+                        <small class="text-body-secondary d-flex align-items-center mb-2">
+                          <i class="fa-solid fa-arrow-left me-2"></i>Previous
+                        </small>
+                        <h6 class="mb-0 fw-semibold text-body" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                          New icon
+                        </h6>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div>
+                <div class="col-6">
+                  
+                  <a href="/blog/2020/05/supporting-old-android-versions" class="d-block text-decoration-none h-100">
+                    <div class="card h-100 border-0 bg-body-tertiary">
+                      <div class="card-body p-3 text-end">
+                        <small class="text-body-secondary d-flex align-items-center justify-content-end mb-2">
+                          Next<i class="fa-solid fa-arrow-right ms-2"></i>
+                        </small>
+                        <h6 class="mb-0 fw-semibold text-body" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                          Supporting old Android versions
+                        </h6>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div>
+              </div>
+            </nav>
+            
+          
+
+          
+          
+            
+            
+              
+                
+                  
+                    
+                    
+              
+            
+              
+            
+              
+                
+                  
+                    
+                    
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                    
+                    
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                    
+                    
+              
+            
+              
+                
+                  
+                    
+                    
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                    
+                    
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+            
+            
+            
+            <section class="mt-5 pt-4 border-top">
+              <h4 class="fw-bold mb-4">Related Posts</h4>
+              <div class="row g-3">
+                
+                <div class="col-md-4">
+                  <a href="/blog/2024/05/modernizing-the-code-structure" class="d-block text-decoration-none h-100">
+                    <div class="card h-100 border-0 bg-body-tertiary overflow-hidden">
+                      <img src="/assets/images/blog/2024/codeStructureTeaser.jpg" class="card-img-top" alt="Modernizing the AntennaPod Code Structure" style="height: 120px; object-fit: cover;" loading="lazy">
+                      <div class="card-body p-3">
+                        <h6 class="fw-semibold text-body mb-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                          Modernizing the AntennaPod Code Structure
+                        </h6>
+                        <small class="text-body-secondary">
+                          
+                          Mai 12, 2024
+                        </small>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="col-md-4">
+                  <a href="/blog/2022/01/website-translations" class="d-block text-decoration-none h-100">
+                    <div class="card h-100 border-0 bg-body-tertiary overflow-hidden">
+                      <img src="/assets/images/blog/2022/website-translations.jpg" class="card-img-top" alt="Let's translate this space!" style="height: 120px; object-fit: cover;" loading="lazy">
+                      <div class="card-body p-3">
+                        <h6 class="fw-semibold text-body mb-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                          Let's translate this space!
+                        </h6>
+                        <small class="text-body-secondary">
+                          
+                          Jan 4, 2022
+                        </small>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                
+                <div class="col-md-4">
+                  <a href="/blog/2021/12/2021-recap" class="d-block text-decoration-none h-100">
+                    <div class="card h-100 border-0 bg-body-tertiary overflow-hidden">
+                      <img src="/assets/images/blog/2021/recap.png" class="card-img-top" alt="2021 Recap" style="height: 120px; object-fit: cover;" loading="lazy">
+                      <div class="card-body p-3">
+                        <h6 class="fw-semibold text-body mb-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                          2021 Recap
+                        </h6>
+                        <small class="text-body-secondary">
+                          
+                          Dez 30, 2021
+                        </small>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                
+              </div>
+            </section>
+            
+          
         </div>
       </div>
     </div>
   </div>
-
-  <footer>
-  <div class="container-fluid no-padding">
+  </main>
+</div>
+  <footer class="flex-shrink-0">
+  <div class="container-fluid p-0">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
-      <path class="svg-wave" fill="#00000" fill-opacity="0" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      <path class="svg-wave" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
       </path>
     </svg>
   </div>
@@ -485,56 +803,56 @@
               AntennaPod herunterladen
             </a>
           </div>
-          <!--<div class="mb-2">-->
-          <!--  <a href="/de/media-kit">-->
-          <!--    <span>Pressematerial</span>-->
-          <!--  </a>-->
-          <!--</div>-->
+          <div class="mb-2">
+            <a href="/de/media-kit">
+              Pressematerial
+            </a>
+          </div>
         </div>
         <div class="col-5 col-lg-2 col-md-4 col-sm-4">
           
           <p class="mb-2">
-            <a class="mr-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
-              <i class="fa-brands fa-mastodon mr-1 ml-1"></i>Mastodon
+            <a class="me-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+              <i class="fa-brands fa-mastodon me-1 ms-1"></i>Mastodon
             </a>
           </p>
           
           
           <p class="mb-2">
-            <a class="mr-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
-              <i class="fa-brands fa-github mr-1 ml-1"></i>GitHub
+            <a class="me-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github me-1 ms-1"></i>GitHub
             </a>
           </p>
           
           
           <p class="mb-2">
-            <a class="mr-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
-              <i class="fa-brands fa-bluesky mr-1 ml-1"></i>Bluesky
+            <a class="me-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+              <i class="fa-brands fa-bluesky me-1 ms-1"></i>Bluesky
             </a>
           </p>
           
           
           <p class="mb-2">
-            <a class="mr-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
-              <i class="fa-brands fa-x-twitter mr-1 ml-1"></i>Twitter
+            <a class="me-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter me-1 ms-1"></i>Twitter
             </a>
           </p>
           
           <p>
-            <a class="mr-2" href="/rss.xml" target="_blank" rel="noopener">
-              <i class="fa fa-rss mr-1 ml-1"></i>RSS
+            <a class="me-2" href="/rss.xml" target="_blank" rel="noopener">
+              <i class="fa-solid fa-rss me-1 ms-1"></i>RSS
             </a>
           </p>
         </div>
       </div>
-      <p class="top-border mb-2"></p>
+      <p class="w-100 border-top border-dark mb-2"></p>
       <div class="d-block d-lg-flex justify-content-between pt-0 pb-3 copyright">
         <div class="small mb-2 mb-lg-0">
           © 2026 AntennaPod
           <span class="mx-1">|</span>
-          <a class="underline-hover" href="/de/license">Lizenz</a>
+          <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="/de/license">Lizenz</a>
           <span class="mx-1">|</span>
-          <a class="underline-hover" href="/de/privacy">Datenschutzerklärung</a>
+          <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="/de/privacy">Datenschutzerklärung</a>
         </div>
       </div>
     </div>

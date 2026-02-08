@@ -1,324 +1,416 @@
 [
   
     
+    
     {
       "title"    : "Automatisering",
       "url"      : "/nl/documentation/automation",
+      "excerpt"  : "AutomatiseringBen je een ervaren gebruiker en wil je taken automatiseren? Kijk eens naar de pagina’s hieronder.",
       "content"  : "AutomatiseringBen je een ervaren gebruiker en wil je taken automatiseren? Kijk eens naar de pagina’s hieronder."
     } ,
   
     
+    
     {
       "title"    : "Automatisch verwijderen",
       "url"      : "/nl/documentation/automation/deletion",
+      "excerpt"  : "Automatisch verwijderenWaarom worden sommige gedownloade afleveringen verwijderd?AntennaPod heeft verschillende mechanismen die ervoor zorgen dat het geheugen van de telefoon niet volloopt met gedownloade podcasts. Als...",
       "content"  : "Automatisch verwijderenWaarom worden sommige gedownloade afleveringen verwijderd?AntennaPod heeft verschillende mechanismen die ervoor zorgen dat het geheugen van de telefoon niet volloopt met gedownloade podcasts. Als je merkt dat gedownloade afleveringen worden verwijderd, kijk dan eens naar deze twee instellingen:Verwijder na afspelenAutomatisch verwijderen bevindt zich in Instellingen » Opslag. Als het ingeschakeld is, worden afleveringen verwijderd na het afspelen (maar niet wanneer een aflevering handmatig wordt gemarkeerd als ‘afgespeeld’).Verwijder voor het automatisch downloadenAflevering opschonen bevindt zich in Instellingen » Netwerk » Automatisch downloaden. Als Automatisch downloaden ruimte nodig heeft voor nieuwe afleveringen, worden oude afleveringen verwijderd die niet in de wachtrij staan en niet als favoriet zijn gemarkeerd. Er kan een vertraging (x tijd na het afspelen) of een aflevering worden toegevoegd. De instelling Afleveringscache bepaalt het maximale aantal gedownloade afleveringen."
     } ,
   
     
+    
     {
       "title"    : "Podcasts aan het verversen",
       "url"      : "/nl/documentation/automation/refreshing-podcasts",
+      "excerpt"  : "Podcasts aan het verversenStandaard worden alle podcasts ververst met een interval van 12 uur om nieuwe afleveringen op te halen. Via Instellingen » Downloads »...",
       "content"  : "Podcasts aan het verversenStandaard worden alle podcasts ververst met een interval van 12 uur om nieuwe afleveringen op te halen. Via Instellingen » Downloads » Podcasts verversen kun je de intervalperiode wijzigen of de automatische updates uitschakelen.Dit proces kan uitgeschakeld worden voor individuele podcasts als het niet nodig is om een podcast up-to-date te houden. Bijvoorbeeld als er geen nieuwe afleveringen meer komen voor de podcast. Of als er een podcast is waarvan je maar af en toe naar een aflevering van luistert. Dit is in te stellen door naar de podcast te gaan, op het Tandwiel-pictogram te tikken en de instelling Bijgewerkt houden te wijzigen.Na uitschakelen van deze instelling wordt deze individuele podcast niet meer bijgewerkt als podcasts automatisch ververst worden, of als je ze via het Wachtrij- of Afleveringen-scherm worden ververst. Je kunt de individuele podcast dan nog steeds verversen, waardoor nieuwe afleveringen in AntennaPod komen."
     } ,
   
     
+    
     {
       "title"    : "Integratie met andere apps",
       "url"      : "/nl/documentation/automation/tasker",
+      "excerpt"  : "Integratie met andere appsAntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te verversen (zie Podcasts verversen).Voor meer ingewikkelde behoeften bestaan verschillende automatiseringstoepassingen van derden voor...",
       "content"  : "Integratie met andere appsAntennaPod heeft een instelling om abonnementen (podcastfeeds) regelmatig te verversen (zie Podcasts verversen).Voor meer ingewikkelde behoeften bestaan verschillende automatiseringstoepassingen van derden voor gebruik met AntennaPod. Bijvoorbeeld:  Werk de abonnementen bij aan het begin van de dag: zet om 7 uur ‘s ochtends Wi-Fi aan, werk vervolgens AntennaPod feeds bij.  Haal je abonnementen op voor je naar huis gaat: update abonnementen op werkdagen om 17:00.InstructiesVraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken door een ‘Broadcast’ te verzenden (dit kan worden weergegeven als een soort Android-intentie) met de volgende instellingen:  Pakketnaam: de.danoeh.antennapod   Klassenaam: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiverInstructies voor sommige automatiseringsappsHome Assistant Android-app (website)Roep de notificatie-actie aan in een automatisering met het volgende sjabloon:action: notify.mobile_app_&lt;SOME-ANDROID-MOBILE-DEVICE&gt;metadata: {}data:  message: command_broadcast_intent  data:    intent_package_name: de.danoeh.antennapod    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver    intent_action: Something random - cannot be emptyAutomate (website)Voeg in een ‘flow’ een blok toe van het type APPS » Broadcast send en specificeer  de.danoeh.antennapod als het pakket  de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver als de ‘receiver class’Tasker (website)Maak een taak. In de taak, voeg een actie toe  Kies Systeem  Kies Send Intent  Geef de pakketnaam op als de.danoeh.antennapod  Geef de klassenaam op als de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver  Specificeer Doel als Broadcast ontvanger  Laat de andere velden leegDisclaimer: De AntennaPod-community heeft geen relatie met een van de vermelde automatiseringstoepassingen van derden."
     } ,
   
     
+    
     {
       "title"    : "Bugs, foutmeldingen en eerste hulp",
       "url"      : "/nl/documentation/bugs-first-aid",
+      "excerpt"  : "Bugs, foutmeldingen en eerste hulpSoftware wordt gemaakt door mensen, dus fouten zijn onvermijdelijk. Maar vaak kunnen we daar iets aan doen!",
       "content"  : "Bugs, foutmeldingen en eerste hulpSoftware wordt gemaakt door mensen, dus fouten zijn onvermijdelijk. Maar vaak kunnen we daar iets aan doen!"
     } ,
   
     
+    
     {
       "title"    : "Iets werkt niet",
       "url"      : "/nl/documentation/bugs-first-aid/bug-report",
+      "excerpt"  : "Iets werkt nietEen bug tegengekomen? Het spijt ons te horen.Controleer eerst of de nieuwste versie van AntennaPod is geïnstalleerd: regelmatig worden fouten opgelost en verbeteringen...",
       "content"  : "Iets werkt nietEen bug tegengekomen? Het spijt ons te horen.Controleer eerst of de nieuwste versie van AntennaPod is geïnstalleerd: regelmatig worden fouten opgelost en verbeteringen ingevoerd. Kijk daarna op ons forum of iemand anders hetzelfde probleem heeft, mogelijk vind je daar een oplossing. Overweeg ook informatie over jouw probleem op het forum te plaatsen - het kan ontwikkelaars helpen de bron van het probleem te vinden.Als AntennaPod bijgewerkt is en je ons forum tevergeefs doorzocht hebt, vertel ons dan over het probleem. Maak een bericht op op ons forum. Om dit te doen, moet je een account aanmaken (als je er nog geen hebt) of inloggen via Google.Hoe je ook contact met ons opneemt, vermeld altijd de systeeminformatie die wordt weergegeven in Instellingen » Bug melden."
     } ,
   
     
+    
     {
       "title"    : "Kan afspelen niet aanzetten vanaf vergrendelscherm / melding",
       "url"      : "/nl/documentation/bugs-first-aid/cannot-resume-playback",
+      "excerpt"  : "Kan afspelen niet aanzetten vanaf vergrendelscherm / meldingOp Android 13 en Android 14 is het niet altijd mogelijk om het afspelen voort te zetten vanaf...",
       "content"  : "Kan afspelen niet aanzetten vanaf vergrendelscherm / meldingOp Android 13 en Android 14 is het niet altijd mogelijk om het afspelen voort te zetten vanaf het ontgrendelscherm of de media-melding. Specifiek gebeurt dit als het afspelen langere tijd gepauzeerd staat.Het is onduidelijk waarom dit probleem optreedt. We hebben vastgesteld dat andere apps hetzelfde probleem hebben, inclusief apps van Google. We vermoeden daarom dat dit een probleem met Android is.Tijdelijke oplossingOm het afspelen alsnog voort te zetten, kun je de zogenaamde AntennaPod tegel toevoegen aan je apparaat. Tegels zijn de knoppen die je ziet als je omlaag trekt vanaf de bovenkant van het scherm. Je bent waarschijnlijk bekend met de Internet of Zaklamp tegel. Met de AntennaPod tegel kun je het afspelen pauzeren en voortzetten, zelfs als het afspelen al langere tijd gepauzeerd heeft gestaan.Om de AntennaPod tegel toe te voegen:  Pull down twice from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs  Tik op het potloodicoontje aan de onderkant van de tegellijst om de tegels te bewerken  Scroll naar beneden in de lijst van tegels, tik op de AntennaPod tegel en sleep hem omhoog naar de lijst van actieve tegels  Tik op de terugpijl om het tegelbewerken te eindigen"
     } ,
   
     
+    
     {
       "title"    : "Kan een aflevering niet downloaden",
       "url"      : "/nl/documentation/bugs-first-aid/cannot-stream-download",
+      "excerpt"  : "Kan een aflevering niet downloadenAntennaPod is een gedecentraliseerde podcast-app. Dat betekent dat er geen centrale server is die alles weet over elke podcast.De mediabestanden worden...",
       "content"  : "Kan een aflevering niet downloadenAntennaPod is een gedecentraliseerde podcast-app. Dat betekent dat er geen centrale server is die alles weet over elke podcast.De mediabestanden worden rechtstreeks van de website van de uitgever geladen. Als de uitgever ze verwijdert, kan AntennaPod ze niet meer voor je downloaden."
     } ,
   
     
+    
     {
       "title"    : "Al mijn podcasts en afleveringen zijn weg",
       "url"      : "/nl/documentation/bugs-first-aid/database-error",
+      "excerpt"  : "Al mijn podcasts en afleveringen zijn wegMisschien wil je het uitschreeuwen: Help! Al mijn podcasts, afleveringen en instellingen zijn weg!In een hele oude versie van...",
       "content"  : "Al mijn podcasts en afleveringen zijn wegMisschien wil je het uitschreeuwen: Help! Al mijn podcasts, afleveringen en instellingen zijn weg!In een hele oude versie van AntennaPod (van voor 2019) waren er problemen met de database van alle informatie (afleveringen, luisterdata, etc.). Hoewel de oorzaak al lang is opgelost, kan je database beschadigd zijn (zelfs als de app zonder problemen werkte). Als een huidige versie van AntennaPod veranderingen maakt aan de beschadigde delen van de database, kan deze schade opeens een probleem worden. Op dat moment kan AntennaPod niet meer werken met de beschadigde database en moet het opnieuw beginnen met een lege database.We zijn ons ervan bewust dat het erg frustrerend is als dit gebeurt en het spijt ons als dit jou is overkomen.Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hieronder op een rij, te beginnen met de oplossing die het gemakkelijkst is en de beste resultaten geeft:  Is er recent een back-up geëxporteerd van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar Instellingen » Opslag » Importeren/Exporteren » Database importeren en selecteer de back-up. Merk op dat de backup de gedeeltelijke corruptie kan bevatten, dus we raden nog steeds aan om de tweede stap te doorlopen om het probleem voor eens en altijd op te lossen.  Als AntennaPod een kapotte database detecteert, wordt dit weggeschreven naar een bestand met de naam CorruptedDatabaseBackup.db in de opslagmap van de app. Je kunt dit bestand (of een geëxporteerde back-up) proberen te repareren met een Python script dat is ontwikkeld om het herstelproces te automatiseren. Dit is een uitdaging en vereist het leren omgaan met een terminal.  Hoewel alle gegevens over abonnementen en afleveringen zijn verdwenen, zijn de mediabestanden er nog wel.  In AntennaPod you can add a folder as if it were a feed. To do this, go to Add Podcast and tap on Add local folder. Then go to this folder on your phone:  Op Android 11+:Android » media » de.danoeh.antennapod  In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar Podcast toevoegen en tik op Lokale map toevoegen. Ga vervolgens naar deze map op je telefoon: Android » data » de.danoeh.antennapod » files » media en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.  Je kunt ook opnieuw beginnen met het toevoegen van eerdere podcasts. In de bovengenoemde map kun je zien op welke podcasts je geabonneerd was."
     } ,
   
     
+    
     {
       "title"    : "Oude afleveringen ontbreken",
       "url"      : "/nl/documentation/bugs-first-aid/episodes-missing",
+      "excerpt"  : "Oude afleveringen ontbrekenAntennaPod is een gedecentraliseerde podcast-app. Dat betekent dat er geen centrale server is die alles weet over elke podcast.Afleveringsinformatie wordt daarom rechtstreeks overgenomen...",
       "content"  : "Oude afleveringen ontbrekenAntennaPod is een gedecentraliseerde podcast-app. Dat betekent dat er geen centrale server is die alles weet over elke podcast.Afleveringsinformatie wordt daarom rechtstreeks overgenomen van de website van de uitgever. Wanneer je geabonneerd bent op een podcast, kopieert AntennaPod informatie over elke nieuwe aflevering en slaat deze op in de app. Deze informatie wordt bewaard, zelfs als deze niet langer beschikbaar is op de site van de uitgever.Veel uitgevers houden alleen (informatie over) de meest recente afleveringen online. Dus als je net geabonneerd bent op een podcast, heeft je AntennaPod installatie geen toegang tot informatie over de oudere afleveringen. Om alle vorige afleveringen in de app te krijgen, kun je contact opnemen met de podcaster en vragen (contact op te nemen met zijn hoster om) ‘paged feeds’ te ondersteunen (technische informatie)."
     } ,
   
     
+    
     {
       "title"    : "Afspelen stopt plotseling",
       "url"      : "/nl/documentation/bugs-first-aid/playback-stops",
+      "excerpt"  : "Afspelen stopt plotselingAls het afspelen altijd stopt enkele seconden na het uitschakelen van het scherm, of als je AntennaPod een tijdje niet hebt geopend, kan...",
       "content"  : "Afspelen stopt plotselingAls het afspelen altijd stopt enkele seconden na het uitschakelen van het scherm, of als je AntennaPod een tijdje niet hebt geopend, kan het zijn dat het systeem de app stopt. Sommige leveranciers hebben een overdreven streng beleid om energie te besparen. Probeer alsjeblieft een uitzondering voor AntennaPod toe te voegen aan de lijst met voor batterij-geoptimaliseerde apps. Omdat de manier om zo’n uitzondering toe te voegen nogal eens verschilt tussen telefoons, raden we aan om op internet te zoeken naar instructies specifiek voor jouw merk en model (als je niet al weet hoe je een uitzondering kan toevoegen).Als dit niet helpt, aarzal dan niet om contact zoeken met AntennaPod-vrijwilligers in ons forum."
     } ,
   
     
+    
     {
       "title"    : "Foutmelding bij het downloaden of verversen van een abonnement",
       "url"      : "/nl/documentation/bugs-first-aid/refresh-download-errors",
+      "excerpt"  : "Foutmelding bij het downloaden of verversen van een abonnementKrijg je een melding dat downloads met fouten worden voltooid? Dan kan AntennaPod de podcast niet vernieuwen...",
       "content"  : "Foutmelding bij het downloaden of verversen van een abonnementKrijg je een melding dat downloads met fouten worden voltooid? Dan kan AntennaPod de podcast niet vernieuwen of als audiobestand downloaden van de website van de podcast hoster.Problemen die zich slechts bij één of enkele specifieke podcasts voordoen, houden vaak verband met die podcasts. Om te bevestigen of dit het geval is, neem je de volgende stappen:  Tik op de melding om het Download Logboek te openen  Tik op het specifieke logboekitem met de fout  Druk lang op de weergegeven URL en kopieer of open deze in de browserAls de URL evenmin werkt in de browser, betekent dit dat het niet aan AntennaPod ligt. Als je de foutmelding consequent krijgt, dan is de podcast waarschijnlijk verplaatst, offline gehaald of niet goed geconfigureerd. Neem in dit geval contact op met de makers van de podcast (aangezien dit niet door ons verholpen kan worden).Staat er in de foutmelding in het Download logboek “Failed to connect to [url]”? Dan is er waarschijnlijk sprake van storing op uw netwerk. Als je een ad-blocker, VPN, captive portal, proxy, privacy guard, speciale DNS-dienst of ouderlijk toezicht op je telefoon hebt ingesteld, kun je proberen deze uit te schakelen.Zie je een foutmelding als “not well-formed (invalid token)”? Dan heeft de uitgever de RSS-feed verknoeid. (Misschien is bijvoorbeeld een &amp;-teken gebruikt in plaats van het te coderen als &amp;amp;). Neem rechtstreeks contact op met de uitgever, want dit kan niet door ons worden opgelost.Als je het probleem niet kunt lokaliseren, kopieer dan de foutmelding via de Kopieer-knop en deel deze op ons forum. Onze gemeenschap zal graag de precieze oorzaak onderzoeken!"
     } ,
   
     
+    
     {
       "title"    : "Ik heb een typefout of spelfout gevonden",
       "url"      : "/nl/documentation/bugs-first-aid/typo-translations",
+      "excerpt"  : "Ik heb een typefout of spelfout gevondenHeb je een spelfout gevonden, of iets dat vreemd klinkt? Het kan altijd zijn dat we een fout hebben...",
       "content"  : "Ik heb een typefout of spelfout gevondenHeb je een spelfout gevonden, of iets dat vreemd klinkt? Het kan altijd zijn dat we een fout hebben gemaakt in het Engels (waarin we de app &amp; website maken), of dat er iets niet goed vertaald is. Gelukkig zijn deze problemen vaak eenvoudig op te lossen.Wil je het zelf oplossen?Als het probleem zich in een andere taal dan het Engels voordoet, kunt je vertalingen bijwerken op Weblate. Er is meer informatie in onze sectie over bijdragen.Is er een probleem in de Engelse teksten? Dan moet je bekend zijn of vertrouwd raken met GitHub. Stuur een Pull Request voor de app of voor de website.Wil je ons alleen informeren?Je kunt een bericht maken in de sectie vertalingen op ons forum. Maak hiervoor een account aan (als je dat nog niet hebt) of log in via Google."
     } ,
   
     
+    
     {
       "title"    : "Algemeen",
       "url"      : "/nl/documentation/general",
+      "excerpt"  : "AlgemeenHieronder vind je meer details over het AntennaPod-project.",
       "content"  : "AlgemeenHieronder vind je meer details over het AntennaPod-project."
     } ,
   
     
+    
     {
       "title"    : "Over advertenties in AntennaPod",
       "url"      : "/nl/documentation/general/ads",
+      "excerpt"  : "Over advertenties in AntennaPodDe officiële versies van AntennaPod voegen geen advertenties toe. De app is ontwikkeld door vrijwilligers zonder commercieel belang en het project is...",
       "content"  : "Over advertenties in AntennaPodDe officiële versies van AntennaPod voegen geen advertenties toe. De app is ontwikkeld door vrijwilligers zonder commercieel belang en het project is afhankelijk van donaties om de kosten te dekken. Aangezien de broncode en inkomsten en uitgaven van AntennaPod openbaar zijn, staat het iedereen vrij dit te controleren.Als je advertenties ziet, kan dat twee redenen hebben:1. Je hebt een onofficiële versie van AntennaPod gedownloadAntennaPod is open-source. Dit betekent dat iedereen de broncode kan downloaden. Helaas voegen sommige ontwikkelaars advertenties toe aan AntennaPod om het daarna te publiceren als een nieuwe app. Je kunt de officiële AntennaPod app vinden op Google Play en F-Droid. Je kunt zelfs de laatste release van GitHub halen en AntennaPod zelf bouwen!2. De podcast makers of hun uitgevers voegden de advertenties toe aan hun shownotes of audiobestandAntennaPod speelt podcasts af zoals ze door de makers zijn gepubliceerd. Als ze advertenties bevatten, speelt AntennaPod ze af. Wij hebben niets te maken met die advertenties, dus gaan alle inkomsten naar de makers en/of hun hoster.Wellicht vraag je “Maar waarom is de podcast in het Engels en de advertentie in het Duits?” of “Maar waarom is de podcast aflevering uit 2008 maar promoot toch een product dat in 2023 is uitgebracht?”. De reden is een techniek die dynamic ad insertion heet. Podcastuitgevers kunnen het hostingbedrijf opdracht geven die advertenties in te voegen. Dan wordt bij het downloaden of streamen van de aflevering met AntennaPod het mediabestand dat aan AntennaPod wordt geleverd ter plekke onderbroken om de advertenties in te voegen. De advertenties zijn recent (terwijl de aflevering dat misschien niet is) en kunnen gericht zijn op basis van het IP-adres van waaruit je het mediabestand opvraagt (bijvoorbeeld een bedrijf in jouw land). Afhankelijk van hoe slim het hostingbedrijf dit doet, kunnen de advertenties midden in een zin worden ingevoegd. Sommige hostingbedrijven verknoeien ook de hoofdstukmarkeringen tijdens het invoegen van de advertenties (zodat de hoofdstukken niet overeenkomen met de duur van de advertentie).Je kunt altijd de vooruitspoelknop in AntennaPod gebruiken om de advertenties over te slaan. Als je een aflevering streamt in plaats van downloadt, dan heeft het hostingbedrijf een idee hoever je in de podcast bent. Het is mogelijk dat het bedrijf detecteert dat je de advertentie hebt overgeslagen en een nieuwe invoegt. Als je in plaats daarvan de aflevering downloadt, kan dat niet en kun je de advertenties betrouwbaarder overslaan. (Downloaden is ook beter voor je privacy, omdat het hostingbedrijf dan niet weet wanneer je naar welk deel van de aflevering luistert. AntennaPod kan worden ingesteld om afleveringen automatisch te downloaden en later te verwijderen, zodat je dat niet handmatig hoeft te doen.)Daarnaast bieden veel podcastmakers een feed zonder reclame die je kunt kopen. Meestal krijg je dan of een geheime podcast feed URL, of andere gebruikersnaam en wachtwoord die je in AntennaPod kunt invoeren.Als je deze advertenties vervelend vindt, overweeg dan hierover contact op te nemen met de podcastmakers."
     } ,
   
     
+    
     {
       "title"    : "App-machtigingen",
       "url"      : "/nl/documentation/general/app-permissions",
+      "excerpt"  : "App-machtigingenAntennaPod will not ask you for any general permissions. However you can give the following permissions: Show notifications: Via Settings » Notifications you can give...",
       "content"  : "App-machtigingenAntennaPod will not ask you for any general permissions. However you can give the following permissions:  Show notifications: Via Settings » Notifications you can give AntennaPod the permission to create notifications.  Storage access: When you add a ‘local folder’ the app will ask for long-term access to a specific folder. When you import a database or an OPML file, selecting that file will give the app one-time access to it.Apart from that, the app requires the following permissions which are automatically granted by Android:  Volledige netwerk toegang: om de podcast te vernieuwen, afleveringen te downloaden en streamren, afbeeldingen op te laden en synchronisatie te activeren  Zie netwerk verbindingen en Zie Wi-Fi verbindingen:          Om na te gaan of er een actieve internet connectie is, voor of tijdens het uitvoeren van bovenvermelde acties      voor de instellingen Downloads » Mobiele updates, om te bepalen of bovenstaande acties toegestaan zijn door de gebruiker via de huidige (mobiele en/of gemeten) verbinding        Pair with Bluetooth devices: for the setting Playback » Headphones or Bluetooth disconnect, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device  Run at startup: to (re)start services like refreshing podcasts and enabling auto-downloads  Control vibration: for the option Vibrate shortly before end of the sleep timer, to vibrate if this setting is enabled  Prevent device from sleeping: needed to ensure media playback and downloads continue in the background"
     } ,
   
     
+    
     {
       "title"    : "Back-ups maken van je afleveringen",
       "url"      : "/nl/documentation/general/backup",
+      "excerpt"  : "Back-ups maken van je afleveringenEr zijn een paar mogelijkheden om je gegevens naar een nieuw toestel te kopiëren. Elke methode kopieert een bepaalde hoeveelheid gegevens:Database...",
       "content"  : "Back-ups maken van je afleveringenEr zijn een paar mogelijkheden om je gegevens naar een nieuw toestel te kopiëren. Elke methode kopieert een bepaalde hoeveelheid gegevens:Database exporterenHet exporteren van de AntennaPod-database is een goede manier als je naar een nieuwe telefoon of tablet wilt migreren. Zorg ervoor dat dezelfde versie van AntennaPod op de oude en de nieuwe telefoon staat. Na het importeren worden alle gegevens hersteld, je moet wel de afleveringen opnieuw downloaden.SynchronisatieHet synchroniseren van AntennaPod via gpodder.net of de gPodder Sync app voor Nextcloud maakt het mogelijk om bepaalde podcast- &amp; aflevering-gegevens op te slaan en te migreren. Je zult al je favorieten, de wachtrij en de app-instellingen verliezen. Dit kan een oplossing zijn wanneer je een telefoon, tablet en/of desktop-app gebruikt. Zie het artikel over synchronisatie voor meer informatie.OPMLMet OPML-bestanden zet je abonnementen over naar een andere podcast-app. Alle podcast- of afleveringsspecifieke gegevens (bijvoorbeeld of een specifieke aflevering is afgespeeld) en alle app-instellingen gaan verloren. Ga naar Instellingen » Opslag » Importeren/Exporteren om het OPML-bestand aan te maken. Klik op Versturen… om het bestand op te slaan in een andere map op je telefoon of ergens anders te bewaren, want het originele bestand wordt verwijderd bij het deïnstalleren van AntennaPod.Als je het bestand in AntennaPod in een ander apparaat importeert, toont de app een lijst met podcasts met selectievakjes. De podcasts die je uit die lijst selecteert, worden toegevoegd aan je bestaande abonnementen. Geen van je bestaande abonnementen wordt beïnvloed."
     } ,
   
     
+    
     {
       "title"    : "Beta-testen",
       "url"      : "/nl/documentation/general/beta",
-      "content"  : "Beta-testenAntennaPod has many users, and we don’t want them to run into trouble because we’ve tweaked or added a new feature. It’s important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can resolve before official releases. Of course, this only helps if you report the issues you encounter by creating a topic on our forum.Kleine problemen duiken vaak op na grote updates en ze worden pas in een vroeg stadium ontdekt via bugrapporten van gebruikers. Er is maar één hoofdontwikkelaar die hier in zijn vrije tijd mee bezig is. Hij heeft maar enkele toestellen om op te testen, terwijl het gedrag van toestel tot toestel kan verschillen.Google PlayEvery new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what’s not working quite right, we’d love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a topic on our forum.Dus je wilt het nieuwste van het nieuwste hebben? Dat kan zeker! Ga gewoon naar de AntennaPod-lijst in de Play Store en ga naar “Word een bètatester” onderaan de pagina. Of ga naar deze url.                                                F-DroidWe bieden momenteel geen bètaversies aan in de F-Droid Store.Dit komt omdat F-Droid bètaversies niet automatisch herkent. Het toevoegen van bètaversies aan F-Droid zou een handmatige interventie voor elke bètaversie vereisen. Ook als er iets belangrijks moet worden opgelost, moet er direct een update worden uitgerold. Helaas kan dit niet worden gegarandeerd."
+      "excerpt"  : "Beta-testenAntennaPod has many users, and we don’t want them to run into trouble because we’ve tweaked or added a new feature. It’s important to have...",
+      "content"  : "Beta-testenAntennaPod has many users, and we don’t want them to run into trouble because we’ve tweaked or added a new feature. It’s important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can resolve before official releases. Of course, this only helps if you report the issues you encounter by creating a topic on our forum.Kleine problemen duiken vaak op na grote updates en ze worden pas in een vroeg stadium ontdekt via bugrapporten van gebruikers. Er is maar één hoofdontwikkelaar die hier in zijn vrije tijd mee bezig is. Hij heeft maar enkele toestellen om op te testen, terwijl het gedrag van toestel tot toestel kan verschillen.Google PlayEvery new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what’s not working quite right, we’d love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a topic on our forum.Dus je wilt het nieuwste van het nieuwste hebben? Dat kan zeker! Ga gewoon naar de AntennaPod-lijst in de Play Store en ga naar “Word een bètatester” onderaan de pagina. Of ga naar deze url.                              F-DroidWe bieden momenteel geen bètaversies aan in de F-Droid Store.Dit komt omdat F-Droid bètaversies niet automatisch herkent. Het toevoegen van bètaversies aan F-Droid zou een handmatige interventie voor elke bètaversie vereisen. Ook als er iets belangrijks moet worden opgelost, moet er direct een update worden uitgerold. Helaas kan dit niet worden gegarandeerd."
     } ,
   
+    
     
     {
       "title"    : "Centrale en gedistribueerde podcast-apps",
       "url"      : "/nl/documentation/general/central-distributed",
+      "excerpt"  : "Centrale en gedistribueerde podcast-appsEr zijn in principe twee manieren om een podcast-app te maken: Gecentraliseerd: Er is een centrale server (gerund door het bedrijf dat...",
       "content"  : "Centrale en gedistribueerde podcast-appsEr zijn in principe twee manieren om een podcast-app te maken:  Gecentraliseerd: Er is een centrale server (gerund door het bedrijf dat de app ontwikkelt) die controleert op nieuwe afleveringen en deze vervolgens doorstuurt aan jouw app.  Gedistribueerd: De app zelf controleert op nieuwe afleveringen, rechtstreeks van de podcast-uitgevers.AntennaPod gebruikt methode 2. Dit heeft zowel voor- als nadelen:  Omdat de app controleert opber nieuwe, hoeven de makers van de app (zoals wij) geen centrale server te onderhouden. Dit bespaart veel tijd en moeite. Het bespaart ook veel geld, daardoor zijn we niet afhankelijk van advertenties of grote bedragen aan donaties.  Omdat de app niet afhankelijk is van een centrale server om nieuwe afleveringen te verzamelen, zal AntennaPod zelfstandig blijven werken. Als het bedrijf zijn server om welke reden dan ook afsluit, zal de app niet meer werken.  Als app-ontwikkelaars weten wij niet op welke podcasts je geabonneerd bent, welke afleveringen je beluistert of zelfs op welk tijdstip u dat doet. Uitgevers van apps met een centrale server verzamelen dergelijke gegevens wel, ten koste van uw privacy.  Sommige uitgevers bieden besloten feeds aan, met vroege toegang, speciale content of reclamevrije afleveringen. Dergelijke feeds vereisen een gebruikersnaam en wachtwoord, die AntennaPod op verzoek rechtstreeks aan de podcasthost doorgeeft. Gecentraliseerde diensten staan het toevoegen van private feeds gewoon niet toe. En als ze dat wel doen, kan het nodig zijn je gegevens naar de makers van de app te sturen.  Omdat er geen centraal toegangspunt is, waardoor app-ontwikkelaars podcasts van hun server kunnen weren of verwijderen, is er geen risico op censuur.  Aan de andere kant betekent een gedistribueerd model dat je alleen nieuwe afleveringen krijgt wanneer je een podcast ververst. In AntennaPod is dit standaard elke 12 uur, maar je kunt dit veranderen om vaker of minder vaak te laten gebeuren. Je kunt ook altijd handmatig controleren op nieuwe afleveringen. Een centrale server kan zeer frequent controleren of er nieuwe afleveringen zijn of zelfs in realtime op de hoogte gebracht worden door podcast-hosts. Op die manier kunnen apps ook veel sneller op de hoogte zijn van nieuwe afleveringen, zonder dat je regelmatig alle podcasts waarop je geabonneerd bent hoeft te controleren.  Bovendien is het niet mogelijk voor AntennaPod om je afleveringen aan te bieden die door de podcast-uitgever zijn verwijderd, bijvoorbeeld omdat ze alleen de 10 meest recente afleveringen online houden. Apps die afhankelijk zijn van een centrale server zouden je wel toegang kunnen geven tot oudere afleveringen, zelfs als deze zijn verdwenen uit de RSS-feed."
     } ,
   
     
+    
     {
       "title"    : "Verwijderen van afleveringen",
       "url"      : "/nl/documentation/general/episode-deletion",
+      "excerpt"  : "Verwijderen van afleveringenAls je klaar bent met het beluisteren van een aflevering, verwijder je ze meestal van de telefoon om ruimte vrij te maken. Daarvoor...",
       "content"  : "Verwijderen van afleveringenAls je klaar bent met het beluisteren van een aflevering, verwijder je ze meestal van de telefoon om ruimte vrij te maken. Daarvoor bestaan verschillende methoden.Ten eerste zijn afleveringen natuurlijk handmatig te verwijderen. In de wachtrij of bij specifieke podcast kun je lang drukken op een aflevering en op Verwijderen tikken. Op het tabblad Voltooid in het scherm Downloads kun je op het prullenbak-icoontje tikken. Als je wilt kan AntennaPod kan automatisch een aflevering uit de wachtrij verwijderen wanneer deze wordt gewist. Deze optie vind je onder Instellingen » Opslag » Aflevering verwijderen uit wachtrij na wissen.Ten tweede heeft AntennaPod enkele oplossingen om afleveringen automatisch te verwijderen. AntennaPod kan met name automatisch afleveringen verwijderen wanneer het afspelen is voltooid en wanneer er ruimte nodig is voor het automatische downloadproces. Raadpleeg het artikel Automatisch verwijderen voor meer informatie over deze opties."
     } ,
   
     
+    
     {
       "title"    : "Externe opslag gebruiken",
       "url"      : "/nl/documentation/general/external-storage",
+      "excerpt"  : "Externe opslag gebruikenAntennaPod kan worden ingesteld om afleveringen te downloaden naar de SD-kaart in plaats van het interne geheugen. Daarmee heb je vaak meer ruimte...",
       "content"  : "Externe opslag gebruikenAntennaPod kan worden ingesteld om afleveringen te downloaden naar de SD-kaart in plaats van het interne geheugen. Daarmee heb je vaak meer ruimte voor afleveringen. Selecteer de SD-kaart via Instellingen » Downloads » Kies gegevensmap.Problemen oplossenHet is mogelijk dat de SD-kaart niet verschijnt in het Kies de gegevensmap-dialoogvenster. Om de SD-kaart te laten verschijnen, moet Android de kaart herkennen als externe opslag. Ofwel is de kaart niet correct gekoppeld in het systeem, ofwel heeft de fabrikant of de telefoon de hardware verkeerd geconfigureerd.Als je Android 6+ gebruikt kun je de SD-kaart formatteren als interne opslag. Verder kunnen wij niets doen om dit probleem op te lossen."
     } ,
   
     
+    
     {
       "title"    : "Updates op F-Droid",
       "url"      : "/nl/documentation/general/f-droid",
+      "excerpt"  : "Updates op F-DroidHeb je gezien dat er een nieuwe AntennaPod-versie is je afgevraagd: waarom staat de laatste versie nog niet op F-Droid? wanneer zal de...",
       "content"  : "Updates op F-DroidHeb je gezien dat er een nieuwe AntennaPod-versie is je afgevraagd:  waarom staat de laatste versie nog niet op F-Droid?  wanneer zal de nieuwe versie beschikbaar zijn op F-Droid?Omdat hiervoor andere stappen nodig zijn en omdat we zelf niet betrokken zijn bij het publiceren van versies op F-Droid kunnen we niet precies zeggen wanneer de laatste versie daar beschikbaar zal zijn.Kortom: we zijn F-Droid niet vergeten, maar het kan even duren. Heb geduld.De stappen om een nieuwe versie op F-Droid te zetten  We geven een bètaversie uit, die alleen beschikbaar is op Google Play vanwege technische beperkingen van F-Droid.  We voeren een langzame, geleidelijke uitrol uit voor alle Google Play-gebruikers. Zo zorgen we ervoor dat er geen kritieke bugs zijn. Dit kan enkele weken duren.  We maken een release aan op GitHub. We doen dit pas nadat de uitrol op Google Play voltooid is.  F-Droid-systemen controleren de AntennaPod-repository en detecteren een nieuwe release. De updatecontroleserver draait dagelijks (in Europa ‘s nachts).  F-Droid bouwt het de app. Hiermee zorgt F-Droid ervoor dat de app die je downloadt overeenkomt met de broncode die wij publiceren. Omdat er veel apps moeten worden gebouwd, heeft de F-Droid server 1-2 dagen nodig om de app te bouwen.  Een F-Droid-bijdrager ondertekent de build cryptografisch. Om de beveiliging te verbeteren, moet de bijdrager de app fysiek naar een speciale computer brengen die niet met het internet is verbonden. Zodra alle apps zijn ondertekend, uploadt de bijdrager ze naar de F-Droid-systemen. Dit duurt meestal 1 tot 2 dagen.  F-Droid-systemen verwerken de nieuwe apps en voegen de nieuwe AntennaPod-release toe aan hun index.Op dit punt beschouwen we het als ‘uitgebracht op F-Droid’. Maar vergeet niet dat je F-Droid-client (de ‘app store’) ook de lokale kopie van de index moet vernieuwen. Pas daarna krijg je een melding over de nieuwste AntennaPod-release.Dus wanneer kunnen we ‘m verwachten?Zoals je kunt zien zijn er veel stappen die ieder een variabele tijdsduur hebben. Meestal duurt het ruim een maand tussen het uitbrengen van een bètaversie en het taggen van de release op GitHub. Nadat de release is getagd, duurt het meestal vier tot zes dagen voordat F-Droid deze heeft verwerkt.Wat je kunt doen als je reikhalzend uitkijktIs de release nog niet getagd op GitHub? Wacht dan alsjeblieft gewoon. Dit is een bètaversie en geen openbare release.Is de release wel getagd op GitHub? Zoals het F-Droid-team zegt: “alsjeblieft niet in paniek raken tenzij het meer dan 7 dagen duurt.”  Zijn die 7 dagen gepasseerd sinds we de release getagd hebben op GitHub? Laat het ons dan gerust weten door een post op ons forum te plaatsen. Ze zullen ernaar kijken.  Hebben we de release 7 dagen of korter geleden getagd? Wacht dan nog even. Of onderzoek waar we ons in het proces bevinden.De huidige status onderzoekenAls je wilt kun je de volgende stappen volgen om een idee te krijgen van de voortgang:  Controleer of en wanneer de release getagd is op GitHub (mogelijk moet je de muiscursor over iets als ‘vorige week” houden om de precieze datum te zien op GitHub). Als dit gedaan is zou hij binnenkort opgepikt moeten worden door de updatechecker.  Kijk of de Antennapod-versielijst op F-Droid sindsdien was geüpdatet. Zo ja, dan zou hij binnenkort verwerkt moeten worden door de buildserver.  Controleer of AntennaPod is gebouwd in de huidige cyclus of de vorige cyclus. Je kunt hiervoor ook de app F-Droid build status gebruiken. Zo ja, dan zou deze binnenkort cryptografisch ondertekend moeten worden door een F-Droid-bijdrager.          Merk op dat er geen wachtrij is voor nog te bouwen apps. Staat AntennaPod niet op de lijst geslaagde en gefaalde apps, en wil je weten of hij nog gebouwd gaat worden?                  klik op “fdroiddata version” @ commit van een build-cyclus          klik op “Browse files”          klik op “Find file”          plak de tekst de.danoeh.antennapod          open het bestand          controleer of de laatste versie vermeld staat                    "
     } ,
   
     
+    
     {
       "title"    : "AntennaPod voor Windows, Apple en Linux",
       "url"      : "/nl/documentation/general/other-platforms",
+      "excerpt"  : "AntennaPod voor Windows, Apple en LinuxHowel de titel aantrekkelijk klinkt, is AntennaPod niet beschikbaar op Windows, iOS of de Linux desktop, en zal dat ook...",
       "content"  : "AntennaPod voor Windows, Apple en LinuxHowel de titel aantrekkelijk klinkt, is AntennaPod niet beschikbaar op Windows, iOS of de Linux desktop, en zal dat ook niet zijn. De app wordt gemaakt door een klein team van vrijwilligers, en het ontwikkelen van de app voor deze andere platforms zou een hoop werk zijn.Er zijn echter (open source) alternatieven, waar we je graag op willen wijzen:            App      Code      iOS      MacOS      Windows      Linux                  Podverse            ✅      ✅      ❌      ❌              Pocket Casts            ✅      ❌      ❌      ❌              gPodder            ❌      ✅      ✅      ✅              Poddr            ❌      ✅      ✅      ✅              Kasts            ❌      ❌      ❌      ✅              Vocal            ❌      ❌      ❌      ✅              GNOME Podcasts            ❌      ❌      ❌      ✅              MusicPod            ❌      ❌      ❌      ✅      Heb je aanbevelingen voor open source podcast-apps voor deze platforms? Laat het ons weten op het forum!"
     } ,
   
     
+    
     {
       "title"    : "Verkeer leiden via een proxy of het Tor-netwerk",
       "url"      : "/nl/documentation/general/proxy",
+      "excerpt"  : "Verkeer leiden via een proxy of het Tor-netwerkHet is mogelijk om AntennaPod al het verkeer (mediabestanden, omslagafbeeldingen, RSS-verzoeken en zoekopdrachten) via een proxy of het...",
       "content"  : "Verkeer leiden via een proxy of het Tor-netwerkHet is mogelijk om AntennaPod al het verkeer (mediabestanden, omslagafbeeldingen, RSS-verzoeken en zoekopdrachten) via een proxy of het Tor-netwerk te laten leiden. Dat heeft twee potentiële voordelen:  Privacy: afhankelijk van het type proxy-dienst kan het download/streaming-gedrag worden afgeschermd van podcast-hosts  Toegang: als een podcast-host het downloaden van afleveringen vanuit een ander land verhindert (op basis van je IP-adres), kun je door het instellen van een proxy in het land van oorsprong mogelijk toch toegang krijgenDeze optie vind je onder Instellingen » Downloads » Proxy.Installeer, om al het verkeer via het Tor-netwerk te leiden, een proxy-app voor Tor. Stel AntennaPod als volgt in:  Type: SOCKS  Host: “localhost” of “127.0.0.1”  Poort: “9050”"
     } ,
   
     
+    
     {
       "title"    : "Luister statistieken",
       "url"      : "/nl/documentation/general/statistics",
+      "excerpt"  : "Luister statistiekenAntennaPod heeft een statistieken-scherm waar je het aantal luisteruren per abonnement en per maand kunt bekijken. Maar deze statistieken zijn niet altijd zo precies...",
       "content"  : "Luister statistiekenAntennaPod heeft een statistieken-scherm waar je het aantal luisteruren per abonnement en per maand kunt bekijken. Maar deze statistieken zijn niet altijd zo precies als ze zouden kunnen zijn.Waarom de statistieken niet precies zijnOm statistieken bij te houden, verzamelt AntennaPod twee dingen voor iedere aflevering:  Afspeeltijd: hoe lang de aflevering afgespeeld is (bijv. 6 minuten als een aflevering van 3 minuten twee keer afgespeeld is)  Laatst afgespeeld: de datum en tijd dat het afspelen van een aflevering voor het laatst is gepauzeerd of gestoptBeide worden geüpdatet iedere keer dat het afspelen gepauzeerd of gestopt wordt. Deze informatie word gebruikt om totalen te berekenen door het optellen van de ‘afspeeltijd’ van alle afleveringen waarvan de ‘laatst afgespeeld’-datum binnen een gegeven maand valt.Het gevolg van deze aanpak is dat als je 7 minuten van een aflevering vandaag beluisterd en 38 minuten ervan morgen, daardoor alle minuten geteld worden voor morgen. Hetzelfde geldt voor maanden. Als een aflevering zowel in Juni als Juli wordt afgespeeld, telt alle luistertijd voor Juli. En als een aflevering zowel in December van het ene jaar als in Januari van het jaar erop is afgespeeld, wordt hij geteld als volledig afgespeeld in het tweede jaar.De maandelijkse statistieken zijn meestal correct omdat ze een langere tijdsperiode beslaan. Maar omdat dagelijkse statistieken een hoger risico zouden hebben om onbetrouwbaar te zijn biedt AntennaPod deze niet aan.Waarom we het niet willen veranderenStatistieken (of eigenlijk: grafieken) zijn leuk. Dus waarom slaan we de informatie niet anders op zodat we meer filter opties en preciezere data kunnen hebben in AntennaPod?Het zou mogelijk zijn om voor iedere aflevering op te slaan hoe lang hij op iedere dag afgespeeld is. Bijvoorbeeld:  28 Juni: 7 minuten  30 Juni: 38 minuten  1 Juli: 19 minutenEr zijn twee hoofdredenen. Ten eerste, hoewel statistieken leuk zijn, spenderen we onze tijd liever aan het hoofddoel van AntennaPod: het afspelen van podcasts. Deze aanpak veranderen zou nu tijd kosten om te implementeren (het herschrijven van de code die de afspeeltijd in de database opslaat) en later nog meer tijd om een complexer systeem te onderhouden.Ten tweede, AntennaPod zou meer ruimte innemen op je apparaat - vooral voor trouwe gebruikers die de app meerdere jaren gebruiken. Dat komt omdat we een enkele rij in de database per aflevering zouden moeten vervangen door meerdere rijen per afgespeelde aflevering om de afspeeltijd op te slaan, waardoor de database groter wordt.We hopen dat je geniet van de maandelijkse statistieken! 📊 (Als je toevallig een web-ontwikkelaar bent en interesse hebt om een speciaal dashboard te maken voor AntennaPod statistieken gebaseerd op database-exports, stuur ons dan alsjeblieft een berichtje op het forum.)"
     } ,
   
     
+    
     {
       "title"    : "Hoe je kunt synchroniseren tussen apparaten",
       "url"      : "/nl/documentation/general/synchronization",
-      "content"  : "Hoe je kunt synchroniseren tussen apparatenAntennaPod kan je abonnementen en luistervorderingen synchroniseren met andere AntennaPod-installaties en met andere (desktop)apps. Om synchronisatie in te stellen is een server nodig - het centrale punt waarlangs je gegevens worden gedeeld met andere apparaten. Hiervoor bestaan verschillende opties:  gpodder.net biedt een gratis gPodder synchronisatieserver waar iedereen zich voor kan aanmelden. Door de populariteit van de dienst en de beperkte financiering is deze server helaas vaak overbelast, wat leidt tot fouten in AntennaPod.  Meer technisch ingestelde gebruikers wordt aangeraden zelf een synchronisatieserver te hosten. Een zelf gehoste server is betrouwbaarder en helpt de belasting van gratis, publieke diensten te verminderen. Er zijn verschillende opties: Nextcloud met de gPodder Sync app, een volledige gPodder server, of de Micro GPodder server.Activeer synchronisatie via Nextcloud  Als je een Nextcloud account hebt, installeer dan de gPodder Sync app of vraag je server admin om dit te doen  Ga naar Instellingen » Synchronisatie in AntennaPod en tik op Kies synchronisatieprovider  Kies ‘Nextcloud’  Vul het “Serveradres” in (de URL of het IP-adres van de server) en tik op Verder   Log in op het geopende browservenster en verleen AntennaPod toestemmingActiveer synchroniseren met gPodder  Maak een account aan op de server www.gpodder.net of op een eigen server  When you have an account, log in on the webserver and create a device under Subscriptions » Devices for each client that you use:                                                  When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.                                                  Ga naar Instellingen » Synchronisatie in AntennaPod en tik op Kies synchronisatieprovider  Kies ‘gPodder’  Vul het ‘Serveradres’ in (bijv. www.gpodder.net) en tik op Verder   Vul de ‘Gebruikersnaam’ en ‘Wachtwoord’ in en tik op Log in  Selecteer het apparaat dat je op de server hebt gemaaktLET OP:Heb je een apparaat aangemaakt tijdens het inloggen in plaats van vooraf, zoals hierboven voorgesteld? Druk dan op de knop Forceer volledige synchronisatie in AntennaPod om de ‘afgespeeld’-status te uploaden van alle afleveringen die je eerder beluisterd hebt. Als je dit niet doet worden alleen de podcasts gesynchroniseerd die werden toegevoegd na het koppelen van de apparaten. Er is een open ticket voor gpodder.net dat vraagt om dit te veranderen."
+      "excerpt"  : "Hoe je kunt synchroniseren tussen apparatenAntennaPod kan je abonnementen en luistervorderingen synchroniseren met andere AntennaPod-installaties en met andere (desktop)apps. Om synchronisatie in te stellen is...",
+      "content"  : "Hoe je kunt synchroniseren tussen apparatenAntennaPod kan je abonnementen en luistervorderingen synchroniseren met andere AntennaPod-installaties en met andere (desktop)apps. Om synchronisatie in te stellen is een server nodig - het centrale punt waarlangs je gegevens worden gedeeld met andere apparaten. Hiervoor bestaan verschillende opties:  gpodder.net biedt een gratis gPodder synchronisatieserver waar iedereen zich voor kan aanmelden. Door de populariteit van de dienst en de beperkte financiering is deze server helaas vaak overbelast, wat leidt tot fouten in AntennaPod.  Meer technisch ingestelde gebruikers wordt aangeraden zelf een synchronisatieserver te hosten. Een zelf gehoste server is betrouwbaarder en helpt de belasting van gratis, publieke diensten te verminderen. Er zijn verschillende opties: Nextcloud met de gPodder Sync app, een volledige gPodder server, of de Micro GPodder server.Activeer synchronisatie via Nextcloud  Als je een Nextcloud account hebt, installeer dan de gPodder Sync app of vraag je server admin om dit te doen  Ga naar Instellingen » Synchronisatie in AntennaPod en tik op Kies synchronisatieprovider  Kies ‘Nextcloud’  Vul het “Serveradres” in (de URL of het IP-adres van de server) en tik op Verder   Log in op het geopende browservenster en verleen AntennaPod toestemmingActiveer synchroniseren met gPodder  Maak een account aan op de server www.gpodder.net of op een eigen server  When you have an account, log in on the webserver and create a device under Subscriptions » Devices for each client that you use:                                When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.                                Ga naar Instellingen » Synchronisatie in AntennaPod en tik op Kies synchronisatieprovider  Kies ‘gPodder’  Vul het ‘Serveradres’ in (bijv. www.gpodder.net) en tik op Verder   Vul de ‘Gebruikersnaam’ en ‘Wachtwoord’ in en tik op Log in  Selecteer het apparaat dat je op de server hebt gemaaktLET OP:Heb je een apparaat aangemaakt tijdens het inloggen in plaats van vooraf, zoals hierboven voorgesteld? Druk dan op de knop Forceer volledige synchronisatie in AntennaPod om de ‘afgespeeld’-status te uploaden van alle afleveringen die je eerder beluisterd hebt. Als je dit niet doet worden alleen de podcasts gesynchroniseerd die werden toegevoegd na het koppelen van de apparaten. Er is een open ticket voor gpodder.net dat vraagt om dit te veranderen."
     } ,
   
+    
     
     {
       "title"    : "Beginnen",
       "url"      : "/nl/documentation/getting-started",
+      "excerpt"  : "BeginnenWelkom bij AntennaPod! Hieronder kun je wat details vinden over hoe je kunt beginnen met AntennaPod.Begin door je te abonneren op een podcast. Meer daarover...",
       "content"  : "BeginnenWelkom bij AntennaPod! Hieronder kun je wat details vinden over hoe je kunt beginnen met AntennaPod.Begin door je te abonneren op een podcast. Meer daarover staat hier. Na het abonneren worden nieuwe afleveringen getoond in Postvak IN. Beslis of je ze inderdaad wilt beluisteren of niet. Als een aflevering in Postvak IN staat heb je nog niet bepaald wat je ermee wilt doen.  Als je geen interesse hebt in bepaalde aflevering kun je ‘m wegvegen. De aflevering blijft nog steeds gemarkeerd als niet-afgespeeld en is te vinden op de pagina Afleveringen en op de pagina van de podcast.  Bij interesse in een aflevering zijn er twee opties, afhankelijk van je luistergedrag.          Download de aflevering. Bij het downloaden voegt AntennaPod de aflevering ook automatisch toe aan de wachtrij en verwijderd het uit de inbox. Er is een instelling om nieuwe afleveringen achteraan, vooraan of na de momenteel spelende aflevering in de wachtrij te plaatsen. AntennaPod is oorspronkelijk ontworpen voor downloaden, maar aangezien streamen steeds populairder wordt, kun je ook de tweede optie gebruiken.      Voeg de aflevering simpelweg toe aan de wachtrij. AntennaPod verwijdert hem dan automatisch uit Postvak IN en zet hem in de wachtrij. Je kunt later de aflevering direct afspelen zonder hem eerst te hoeven downloaden, dus hij neemt geen ruimte in beslag. Denk daarbij aan streamen, zoals video’s op YouTube. Nadelen: de aflevering is niet offline beschikbaar, je hebt mobiel dataverbruik onderweg, en doorspoelen gaat een beetje langzamer.        Na het afspelen markeert AntennaPod de aflevering als gespeeld en verwijdert hem uit de wachtrij. Er is een instelling om hem ook automatisch te verwijderen na het afspelen. Je kunt een lijst van alle afleveringen die nog gedownload zijn (of ze nu in de wachtrij staan of niet) vinden op de pagina Downloads.  Markeer een aflevering die je bevalt en nog eens wilt beluisteren als favoriet. Je kunt de pagina Afleveringen filteren zodat deze allen je favorieten laat zien en AntennaPod verwijdert deze (standaard) niet na afspelen.Als je geabonneerd bent op een werkelijk goede podcast en je weet al dat alle afleveringen geweldig zullen zijn, gebruik dan de auto-download functie. Wanneer deze ingeschakeld is voor een podcast, worden alle toekomstige nieuwe afleveringen automatisch gedownload en toegevoegd aan de wachtrij. Ze verdwijnen automatisch uit Postvak IN zodra ze gedownload zijn."
     } ,
   
     
+    
     {
       "title"    : "Het startscherm gebruiken",
       "url"      : "/nl/documentation/getting-started/home",
+      "excerpt"  : "Het startscherm gebruikenHet startscherm geeft je een snel overzicht van je podcasts, waar je kunt beginnen met luisteren en een hoop andere acties kunt uitvoeren,...",
       "content"  : "Het startscherm gebruikenHet startscherm geeft je een snel overzicht van je podcasts, waar je kunt beginnen met luisteren en een hoop andere acties kunt uitvoeren, allemaal handig op hetzelfde scherm.Het bevat vijf secties, die ieder afleveringen of abonnementen tonen waar je direct acties op kunt uitvoeren, maar biedt ook een snelkoppeling naar het betreffende scherm (bijv. je wachtrij). Je kunt het startscherm aanpassen – door deze secties te herordenen of sommigen ervan te verbergen – door op … te tikken bovenaan het scherm en Startscherm instellen te kiezen.Luister verderIn deze sectie kun je snel en makkelijk doorgaan met het beluisteren van afleveringen die je al in je wachtrij hebt staan, te beginnen met degenen waar je al gedeeltelijk naar geluisterd hebt.Bekijk wat er nieuw isIn deze sectie vind je de nieuwste afleveringen die in je Postvak IN zijn beland door het verversen van je abonnementen.Laat je verrassenHier vind je een willekeurige selectie van afleveringen van je abonnementen waar je nog niet naar geluisterd hebt. Als je niets ziet dat je aanspreekt, kun je op de pijlknop tikken om de selectie te verversen.Beluister klassiekersHier zie je een overzicht van je meest beluisterde abonnementen en kun je deze snel bezoeken.Downloads beherenIn deze sectie kun je acties uitvoeren op de afleveringen die gedownload staan op je apparaat."
     } ,
   
     
+    
     {
       "title"    : "Abonneren op een podcast",
       "url"      : "/nl/documentation/getting-started/subscribe",
+      "excerpt"  : "Abonneren op een podcastHet eerste wat je wilt doen na het downloaden van een podcast-app is je abonneren op een podcast.AbonnerenOpen het menu door van...",
       "content"  : "Abonneren op een podcastHet eerste wat je wilt doen na het downloaden van een podcast-app is je abonneren op een podcast.AbonnerenOpen het menu door van links te vegen of te tikken op het ☰ hamburgerpictogram in de linkerbovenhoek. Ga naar + Podcast toevoegen. Daar kun je zoeken, suggesties bekijken en een podcast toevoegen met het RSS adres.Als alternatief kun je een OPML-bestand importeren of alleen de database van respectievelijk Apple Podcasts, gpodder.net, fyyd of Podcast Index controleren. Het importeren van RSS- of Atom-feeds, of URL-schema’s zoals pcast:// en itpc://, werkt ook.Abonneren op diensten van derdenWe kregen enkele vragen over ondersteuning voor platforms zoals SoundCloud, Mixcloud en dergelijke. Hoewel een functie om een kanaal-URL direct in AntennaPod te plakken/openen handig lijkt, is besloten dit niet te implementeren. Dergelijke platformen zijn soms maar kort actief, terwijl het behoorlijk wat werk is voor onze vrijwilligers om deze functie te implementeren. Als je ontwikkelaar bent, ben je natuurlijk welkom om een voorstel te bespreken dat je graag zou willen implementeren.SoundCloudOp SoundCloud kunnen makers vrij eenvoudig hun content omtoveren tot podcast. Neem contact met op met de maker, deel de SoundCloud-helppagina (zie de link) en vraag of ze bereid zijn om het in te stellen.MixcloudMixcloud biedt deze functie voor contentmakers helaas niet aan. Zoals altijd is er iemand in de podcasting-community met een oplossing. We raden je aan om eens te kijken naar de opties beschreven in deze blogpost.YouTubeYouTube laat je abonneren op een kanaal-feed, maar:  AntennaPod kan de video’s niet automatisch downloaden, omdat YouTube dat niet toestaat. Het tonen van advertenties is immers hun businessmodel.  Je zult geen afbeelding hebben die aan je abonnement gekoppeld is, omdat YouTube deze niet in de feeds opneemt.Maar het is een manier om op de hoogte te blijven van nieuwe afleveringen. Voeg gewoon de URL van de gebruiker/kanaal (https://www.youtube.com/user/USERNAME of https://www.youtube.com/channel/CHANNEL_ID) toe aan AntennaPod. Er verschijnt een dialoogvenster met de optie ‘RSS’; tik om de feed toe te voegen. Als je op deze manier je niet kunt abonneren, voeg dan https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt; toe aan AntennaPod. De kanaal-ID staat in de URL van het kanaal. Als het kanaal een gebruikersaccount is (met een URL zoals youtube.com/user/UserName), vraag je aan de gebruiker wat zijn kanaal-ID is (hier wordt uitgelegd hoe gebruikers hun kanaal-ID kunnen vinden).We hebben geen informatie over andere platforms, zoals je kunt zien. We delen graag je ideeën middels het forum."
     } ,
   
     
+    
     {
       "title"    : "Afspelen",
       "url"      : "/nl/documentation/playback",
+      "excerpt"  : "AfspelenHieronder vind je onderwerpen gerelateerd aan afspelen.",
       "content"  : "AfspelenHieronder vind je onderwerpen gerelateerd aan afspelen."
     } ,
   
     
+    
     {
       "title"    : "Afspelen in auto&#39;s (Android Auto)",
       "url"      : "/nl/documentation/playback/android-auto",
+      "excerpt"  : "Afspelen in auto’s (Android Auto)U kunt AntennaPod gebruiken om naar podcasts te luisteren in uw auto met Android Auto.Heb je AntennaPod gedownload van Google Play?Er...",
       "content"  : "Afspelen in auto’s (Android Auto)U kunt AntennaPod gebruiken om naar podcasts te luisteren in uw auto met Android Auto.Heb je AntennaPod gedownload van Google Play?Er zijn geen verdere stappen nodig om AntennaPod in je auto te gebruiken. Sluit gewoon je telefoon aan en begin te luisteren.Heb je AntennaPod gedownload van F-Droid?Als je AntennaPod hebt gedownload van F-Droid, zijn aanvullende stappen nodig.  Open de Android Auto instellingen.  Activeer Ontwikkelaarsinstellingen door 10 keer op het versienummer te drukken.  Open het 3-dot menu en start de ontwikkelaarsinstellingen.  Onbekende bronnen inschakelen."
     } ,
   
     
+    
     {
       "title"    : "Automatisch terugspoelen",
       "url"      : "/nl/documentation/playback/auto-rewind",
+      "excerpt"  : "Automatisch terugspoelenAls een aflevering is gepauzeerd en opnieuw wordt afgespeeld, spoelt AntennaPod deze automatisch terug. Zo kun je weer makkelijker de rest van de uitzending...",
       "content"  : "Automatisch terugspoelenAls een aflevering is gepauzeerd en opnieuw wordt afgespeeld, spoelt AntennaPod deze automatisch terug. Zo kun je weer makkelijker de rest van de uitzending volgen. Je kunt niet instellen hoeveel wordt teruggespoeld; dat hangt af van hoe lang een aflevering op pauze heeft gestaan.            Tijd sinds laatste weergave      Tijdsuur terugspoelen                  Meer dan 1 dag      20 seconden              Meer dan 1 uur      10 seconden              Meer dan 1 minuut      3 seconden      "
     } ,
   
     
+    
     {
       "title"    : "Afspelen op Google Chromecast",
       "url"      : "/nl/documentation/playback/chromecast",
-      "content"  : "Afspelen op Google ChromecastU kunt AntennaPod gebruiken om naar podcasts te luisteren op uw Google Chromecast.Heb je AntennaPod gedownload van Google Play?Er zijn geen bijkomende stappen nodig om AntennaPod met je Google Chromecast te gebruiken. Zorg dat je op hetzelfde Wi-Fi netwerk zit als je Chromecast. Je opent het spelerscherm door de kleine speler te vergroten en op de Chromecast knop te duwen.                                                Heb je AntennaPod gedownload van F-Droid?Jammer genoeg wordt Google Chromecast niet ondersteund in de F-Droid versie omdat Chromecast niet open-source is."
+      "excerpt"  : "Afspelen op Google ChromecastU kunt AntennaPod gebruiken om naar podcasts te luisteren op uw Google Chromecast.Heb je AntennaPod gedownload van Google Play?Er zijn geen bijkomende...",
+      "content"  : "Afspelen op Google ChromecastU kunt AntennaPod gebruiken om naar podcasts te luisteren op uw Google Chromecast.Heb je AntennaPod gedownload van Google Play?Er zijn geen bijkomende stappen nodig om AntennaPod met je Google Chromecast te gebruiken. Zorg dat je op hetzelfde Wi-Fi netwerk zit als je Chromecast. Je opent het spelerscherm door de kleine speler te vergroten en op de Chromecast knop te duwen.                              Heb je AntennaPod gedownload van F-Droid?Jammer genoeg wordt Google Chromecast niet ondersteund in de F-Droid versie omdat Chromecast niet open-source is."
     } ,
   
+    
     
     {
       "title"    : "Hardware-sneltoetsen",
       "url"      : "/nl/documentation/playback/shortcuts",
+      "excerpt"  : "Hardware-sneltoetsenAls een fysiek toetsenbord (‘hardware’) is aangesloten op telefoon of tablet, kun je bepaalde sneltoetsen gebruiken om het afspelen in AntennaPod te regelen. Aanpassingen van...",
       "content"  : "Hardware-sneltoetsenAls een fysiek toetsenbord (‘hardware’) is aangesloten op telefoon of tablet, kun je bepaalde sneltoetsen gebruiken om het afspelen in AntennaPod te regelen. Aanpassingen van het volume en dempen (opheffen) worden toegepast op het audiokanaal voor media (en, bijvoorbeeld, niet op die voor notificaties).Alle schermen (behalve de videospeler en de instellingen)            Toets      Actie                  P      Afspelen/Pauzeren              J/A/,      Terugspoelen              K/D/.      Vooruitspoelen              +/W      Verhoog volume              -/S      Verlaag volume              M      Dempen/dempen opheffen (wisselen) - alleen op Android 6 en hoger      Videospeler            Toets      Actie                  P/Spatie      Afspelen/Pauzeren              J/A/,      Terugspoelen              K/D/.      Vooruitspoelen              F/Esc      Videospeler afsluiten              i      Ga naar beeld-in-beeld modus              0-9      Ga naar 0-90% van de video              +/W      Verhoog volume              -/S      Verlaag volume              M      Dempen/dempen opheffen (wisselen) - alleen op Android 6 en hoger      "
     } ,
   
     
+    
     {
       "title"    : "Voor podcasters en hostingproviders",
       "url"      : "/nl/documentation/podcasters-hosters",
+      "excerpt"  : "Voor podcasters en hostingprovidersHieronder vindt u onze ondersteuningsinformatie voor podcasters en hostingproviders.",
       "content"  : "Voor podcasters en hostingprovidersHieronder vindt u onze ondersteuningsinformatie voor podcasters en hostingproviders."
     } ,
   
     
+    
     {
       "title"    : "Maak een &#39;Open in AntennaPod&#39; link aan",
       "url"      : "/nl/documentation/podcasters-hosters/add-on-antennapod",
-      "content"  : "Maak een ‘Open in AntennaPod’ link aanWil je het makkelijk maken voor je netwerk of publiek om je podcast(s) toe te voegen in AntennaPod? Voeg simpelweg een link toe aan je website of waar dan ook. Vergeet niet om xyz te vervangen met de URL van je RSS feed en abc met de titel van je podcast.https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abcYou could also turn the same link into a button, e.g. by using the following code:&lt;style&gt;.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}&lt;/style&gt;&lt;a href=\"https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abc\" class=\"antennapod-subscribe\"&gt;Subscribe in AntennaPod&lt;/a&gt;What users seeUsers who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.                                                                                                On the other hand, users who don’t have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this example page.BrandingHeb je ons logo nodig? Deze vind je in onze branding repository."
+      "excerpt"  : "Maak een ‘Open in AntennaPod’ link aanWil je het makkelijk maken voor je netwerk of publiek om je podcast(s) toe te voegen in AntennaPod? Voeg...",
+      "content"  : "Maak een ‘Open in AntennaPod’ link aanWil je het makkelijk maken voor je netwerk of publiek om je podcast(s) toe te voegen in AntennaPod? Voeg simpelweg een link toe aan je website of waar dan ook. Vergeet niet om xyz te vervangen met de URL van je RSS feed en abc met de titel van je podcast.https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abcYou could also turn the same link into a button, e.g. by using the following code:&lt;style&gt;.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}&lt;/style&gt;&lt;a href=\"https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abc\" class=\"antennapod-subscribe\"&gt;Subscribe in AntennaPod&lt;/a&gt;What users seeUsers who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.                                                            On the other hand, users who don’t have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this example page.BrandingHeb je ons logo nodig? Deze vind je in onze branding repository."
     } ,
   
+    
     
     {
       "title"    : "Getting funded",
       "url"      : "/nl/documentation/podcasters-hosters/funding",
+      "excerpt"  : "Getting fundedTo ensure the sustainability of an open podcasting ecosystem, podcasters need funding beyond advertising and buy-outs by platforms. AntennaPod supports different ways through which...",
       "content"  : "Getting fundedTo ensure the sustainability of an open podcasting ecosystem, podcasters need funding beyond advertising and buy-outs by platforms. AntennaPod supports different ways through which podcasters can earn an income:  We support the funding tag, allowing podcasters to add links to their payment pages in their RSS feeds: see how to use this tag. This is the standard way for podcasters to get financial support from their audience.  If for any reason you don’t use the funding tag yet, you can still include information about how your audience can support you in your podcast or episode descriptions. It will still be visible to AntennaPod users, even though less prominently. For example, if you offer a premium tier, AntennaPod users will be able to subscribe to it using a personalized feed URL or by entering the login credentials you give them.  In the future, we would also like to support automatic micropayments via the value tag. As it is complex functionality and the technical specifications are still evolving, AntennaPod won’t support it soon, but we are closely following developments."
     } ,
   
     
+    
     {
       "title"    : "Je podcast laten vermelden",
       "url"      : "/nl/documentation/podcasters-hosters/list-podcast",
+      "excerpt"  : "Je podcast laten vermeldenAls je een podcast producer bent en je wilt je podcast zichtbaar maken in AntennaPod, is deze pagina voor jou.AntennaPod gebruikt hoofdzakelijk...",
       "content"  : "Je podcast laten vermeldenAls je een podcast producer bent en je wilt je podcast zichtbaar maken in AntennaPod, is deze pagina voor jou.AntennaPod gebruikt hoofdzakelijk twee bronnen voor zijn zoekfunctie:  Podcast Index (vraag je hoster hoe je de podcast toevoegt, of voeg je eigen podcast toe via de API)  Apple Podcasts (toevoegen via Podcast Connect)Je podcast kan in AntennaPod gevonden worden zodra deze beschikbaar is in een van bovenstaande databases."
     } ,
   
     
+    
     {
       "title"    : "Feed-URL&#39;s bijwerken",
       "url"      : "/nl/documentation/podcasters-hosters/update-feed-urls",
+      "excerpt"  : "Feed-URL’s bijwerkenAls je veranderd van hoster, verandert vaak ook de URL van de RSS feed. In deze situatie raden we sterk aan dat je een...",
       "content"  : "Feed-URL’s bijwerkenAls je veranderd van hoster, verandert vaak ook de URL van de RSS feed. In deze situatie raden we sterk aan dat je een correcte ‘doorverwijzing’ van de oude naar de nieuwe feed regelt met één van deze HTTP-antwoordstatuscodes:  301 Permanent Verhuisd  308 Permanente DoorverwijzingOp deze manier verzeker je dat AntennaPod gebruikers deze verandering toegepast krijgen in hun app. Je publiek blijft dan je afleveringen ontvangen, zonder dat ze zich opnieuw hoeven te abonneren op de nieuwe feed.Vergeet ook niet om je vermelding bij te werken in de bronnen die AntennaPod gebruikt voor zijn zoekfunctionaliteit."
     } ,
   
     
+    
     {
       "title"    : "Wachtrij",
       "url"      : "/nl/documentation/queue",
+      "excerpt"  : "WachtrijHieronder vind je veelgestelde vragen over de wachtrij.",
       "content"  : "WachtrijHieronder vind je veelgestelde vragen over de wachtrij."
     } ,
   
     
+    
     {
       "title"    : "Het gebruik van de wachtrij",
       "url"      : "/nl/documentation/queue/how-to-use",
+      "excerpt"  : "Het gebruik van de wachtrijGebruik de wachtrij voor het bewaren van afleveringen die je wilt beluisteren. Als je een interessante aflevering tegenkomt, tik dan lang...",
       "content"  : "Het gebruik van de wachtrijGebruik de wachtrij voor het bewaren van afleveringen die je wilt beluisteren. Als je een interessante aflevering tegenkomt, tik dan lang op de aflevering en selecteer Toevoegen aan wachtrij. Als je een aflevering downloadt, voegt AntennaPod deze automatisch toe aan de wachtrij."
     } ,
   
     
+    
     {
       "title"    : "Vergrendelen of ontgrendelen van de wachtrij",
       "url"      : "/nl/documentation/queue/lock",
+      "excerpt"  : "Vergrendelen of ontgrendelen van de wachtrijEen vrij vaak voorkomend probleem is dat gebruikers opeens niet meer handmatig de wachtrij kunnen herschikken.Als afleveringen niet verplaatst kunnen...",
       "content"  : "Vergrendelen of ontgrendelen van de wachtrijEen vrij vaak voorkomend probleem is dat gebruikers opeens niet meer handmatig de wachtrij kunnen herschikken.Als afleveringen niet verplaatst kunnen worden in de wachtrij, kan dit een van de volgende oorzaken hebben:  Gesorteerd houden is ingeschakeld. Dit is uit te schakelen door op de drie puntjes … in de bovenste balk te tikken en Sorteren te selecteren.  De wachtrij is vergrendeld. Je kunt deze ontgrendelen door op het menu te openen via de drie puntjes in de bovenste balk en vervolgens het vinkje bij Vergrendel wachtrij weg te halen."
     } ,
   
     
+    
     {
       "title"    : "Het gebruik van meerdere wachtrijen",
       "url"      : "/nl/documentation/queue/multiple-queues",
+      "excerpt"  : "Het gebruik van meerdere wachtrijenMeerdere wachtrijen worden momenteel niet ondersteund. Je kunt issue 2648 op GitHub bekijken voor meer informatie en/of je daar op updates...",
       "content"  : "Het gebruik van meerdere wachtrijenMeerdere wachtrijen worden momenteel niet ondersteund. Je kunt issue 2648 op GitHub bekijken voor meer informatie en/of je daar op updates abonneren voor als er ontwikkelingen zijn."
     } ,
   
     
+    
     {
       "title"    : "Je wachtrij sorteren",
       "url"      : "/nl/documentation/queue/sorting",
+      "excerpt"  : "Je wachtrij sorterenJe kunt je wachtrij op verschillende manieren sorteren: op Afleveringstitel, Podcast-titel, Duur, Datum, Willekeurig en Slimme shuffle. Aangezien de meeste daarvan voor zichzelf...",
       "content"  : "Je wachtrij sorterenJe kunt je wachtrij op verschillende manieren sorteren: op Afleveringstitel, Podcast-titel, Duur, Datum, Willekeurig en Slimme shuffle. Aangezien de meeste daarvan voor zichzelf spreken, richt deze pagina zich specifiek op Podcast-titel en Slimme shuffle.Podcast-titelDit criterium sorteert afleveringen in je wachtrij op basis van de titel van de bijbehorende podcast. Merk op dat afleveringen van dezelfde podcast gesorteerd worden volgens je vorige sorteervolgorde, dus als je afleveringen van dezelfde podcast samen wil hebben staan op chronologische volgorde moet je eerst op Datum sorteren en daarna op Podcast-titel.Slimme shuffleSlimme shuffle is een geavanceerd sorteeringvolgorde waarmee je de wachtrij kunt sorteren op publicatiedatum, waar je ook zo veel mogelijk vermijd dat je grote clusters van afleveringen van een enkel abonnement hebt in de wachtrij.Om slimme shuffle te gebruiken, plaats een aantal afleveringen van verschillende abonnementen in je wachtrij, druk daarna op ... in de bovenste balk, selecteer dan Sorteer en finaal Slimme shuffle. Net als andere sorteeringvolgordes kan je slimme shuffle in oplopende of aflopende richting sorteren.De details van hoe slimme shuffle werktVeronderstel dat je 15 afleveringen in je wachtrij hebt: 1 van podcasts A, B en C, 2 van podcast D en 10 van podcast E. Slimme shuffle zal eerst de podcast met het meest afleveringen (E) nemen en de afleveringen hiervan uitspreiden in de wachtrij: EE_EE_E_E_EE_EE. Dan komt de podcast met het tweede meest aantal afleveringen (D), hiervan worden de afleveringen uitgespreid over de overblijven de plaatsen: EE_EEDE_EDEE_EE. Dit proces herhaalt zich tot de afspeellijst er ongeveer zo uitziet: EEBEEDECEDEEAEE.De publicatiedatum speelt een rol zowel binnen de podcast (in ons voorbeeld zijn afleveringen van podcast E daarop gesorteerd) als tussen podcasts (de aflevering van podcast B krijgt een eerdere plek dan die van podcast A omdat die recenter is)."
     } ,
   
     
+    
     {
       "title"    : "Abonnementen",
       "url"      : "/nl/documentation/subscriptions",
+      "excerpt"  : "AbonnementenHieronder vind je veelgestelde vragen over abonnementen.",
       "content"  : "AbonnementenHieronder vind je veelgestelde vragen over abonnementen."
     } ,
   
     
+    
     {
       "title"    : "Abonnementslabels (groepen of categorieën)",
       "url"      : "/nl/documentation/subscriptions/subscription-groups",
+      "excerpt"  : "Abonnementslabels (groepen of categorieën)Om abonnementen te organiseren, kun je labels (ook wel groepen of categorieën genoemd) aan een podcast toewijzen. Houd er rekening mee dat...",
       "content"  : "Abonnementslabels (groepen of categorieën)Om abonnementen te organiseren, kun je labels (ook wel groepen of categorieën genoemd) aan een podcast toewijzen. Houd er rekening mee dat het momenteel niet mogelijk is om wachtrijen aan te maken op basis van labels. Hiervoor is eerst ondersteuning nodig voor meerdere wachtrijen. (Zie ook het functieverzoek op ons ontwikkelplatform.)Om een label aan een podcast toe te kennen moet je:  Een specifieke podcast openen  Op het tandwiel-pictogram tikken om de instellingen te openen  De instelling Labels selecteren"
     } 
   

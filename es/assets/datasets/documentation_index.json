@@ -1,324 +1,416 @@
 [
   
     
+    
     {
       "title"    : "Automatización",
       "url"      : "/es/documentation/automation",
+      "excerpt"  : "Automatización¿Eres un usuario con experiencia y quieres automatizar tareas? Echa un vistazo a las páginas de debajo.",
       "content"  : "Automatización¿Eres un usuario con experiencia y quieres automatizar tareas? Echa un vistazo a las páginas de debajo."
     } ,
   
     
+    
     {
       "title"    : "Borrado automático",
       "url"      : "/es/documentation/automation/deletion",
+      "excerpt"  : "Borrado automático¿Por qué se borran algunos episodios descargados?AntennaPod tiene varios mecanismos para asegurarse de que los podcasts descargados no llenen la memoria de tu teléfono....",
       "content"  : "Borrado automático¿Por qué se borran algunos episodios descargados?AntennaPod tiene varios mecanismos para asegurarse de que los podcasts descargados no llenen la memoria de tu teléfono. Si notas que se borran algunos episodios descargados, echa un vistazo a estos dos ajustes:Borrar después de reproducirEl borrado automático se encuentra en Configuración » Almacenamiento. Cuando se activa, los episodios se eliminan al completar la reproducción (pero no cuando un episodio se marca manualmente como ‘reproducido’).Eliminar antes de la descarga automáticaLa limpieza de episodios se encuentra en Configuración » Red » Descarga automática. Si la Descarga Automática necesita espacio para episodios nuevos, borrará los episodios antiguos que no estén en la cola y no estén marcados como favoritos. Puedes añadir un retardo (x tiempo después de la reproducción) o Episodio. El ajuste Caché de episodios determina la cantidad máxima de episodios descargados."
     } ,
   
     
+    
     {
       "title"    : "Actualizando pódcasts",
       "url"      : "/es/documentation/automation/refreshing-podcasts",
+      "excerpt"  : "Actualizando pódcastsPor defecto, todos los podcasts se actualizan con un intervalo de 12 horas para conocer nuevos episodios. A través de Ajustes » Descargas »...",
       "content"  : "Actualizando pódcastsPor defecto, todos los podcasts se actualizan con un intervalo de 12 horas para conocer nuevos episodios. A través de Ajustes » Descargas » Actualizar podcasts puedes cambiar el periodo del intervalo o desactivar las actualizaciones automáticas.También puedes desactivar este proceso para pódcasts individuales en caso de que mantener un pódcast actualizado sea innecesario. Puedes utilizar esto, por ejemplo, si ya no se publican nuevos episodios. También puedes escuchar un pódcast del que solo quieras escuchar un episodio ocasionalmente. Puedes configurar esto yendo a un pódcast, tocando el icono Engranaje y cambiando el ajuste Mantener actualizado.Si desactivas este ajuste en un pódcast, este ya no se actualizará cuando los pódcasts se actualicen automáticamente, o cuando inicies este proceso desde la Cola o Episodios. Todavía puedes actualizar ese pódcast, lo que traerá episodios nuevos a AntennaPod."
     } ,
   
     
+    
     {
       "title"    : "Integración con otras aplicaciones",
       "url"      : "/es/documentation/automation/tasker",
+      "excerpt"  : "Integración con otras aplicacionesCon AntennaPod, puede especificar las suscripciones (fuentes del podcasts) para que se actualicen regularmente (véase Actualización de podcasts).Si tienes unas necesidades más...",
       "content"  : "Integración con otras aplicacionesCon AntennaPod, puede especificar las suscripciones (fuentes del podcasts) para que se actualicen regularmente (véase Actualización de podcasts).Si tienes unas necesidades más complejas, puedes utilizar varias aplicaciones de automatizaciones de terceros con AntennaPod para hacerlo. Ejemplos:  Actualizar las suscripciones al principio del día: a las 07, encender el WiFi, luego actualizar los feeds de AntennaPod.  Obtén tus suscripciones antes de llegar a casa: a las 17:00 horas en días laborables actualiza las suscripciones.Instrucciones generalesEn tu aplicación de automatizaciones, puedes pedirle a AntennaPod que actualice sus suscripciones enviando un ‘Broadcast’ (puede que se muestre como un tipo de intención de Android) con las siguientes opciones:  Nombre del paquete: de.danoeh.antennapod  Nombre de la clase: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiverPasos para algunas aplicaciones de automatizacionesHomeAssistant Android Mobile Companion (pagina web)Crea una llamada de acción de notificación en una automatización con la siguiente plantilla:action: notify.mobile_app_&lt;SOME-ANDROID-MOBILE-DEVICE&gt;metadata: {}data:  message: command_broadcast_intent  data:    intent_package_name: de.danoeh.antennapod    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver    intent_action: Something random - cannot be emptyAutomatizar (sitio web)En un flow, añade un bloque del tipo APPS » Broadcast send, y especifica  El paquete debe ser de.danoeh.antennapod  La clase del receptor será de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiverTasker (sitio web)Crea una tarea. En la tarea, añade una acción  Selecciona Sistema  Selecciona Enviar intención  Especifica que el nombre del paquete sea de.danoeh.antennapod  Especificar el nombre de la clase como de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver  Especifica que el objetivo sea Receptor de difusión  Puedes dejar los demás campos en blancoDescargo de responsabilidad: La comunidad de AntennaPod no tiene ninguna relación con ninguna de las aplicaciones de automatización de terceros que aparecen en la lista."
     } ,
   
     
+    
     {
       "title"    : "Bugs, errores y primeros auxilios",
       "url"      : "/es/documentation/bugs-first-aid",
+      "excerpt"  : "Bugs, errores y primeros auxiliosHacer software es algo humano, así que los errores son inevitables. ¡Pero normalmente hay algo que podemos hacer para solucionarlos!",
       "content"  : "Bugs, errores y primeros auxiliosHacer software es algo humano, así que los errores son inevitables. ¡Pero normalmente hay algo que podemos hacer para solucionarlos!"
     } ,
   
     
+    
     {
       "title"    : "Hay algo que no funciona",
       "url"      : "/es/documentation/bugs-first-aid/bug-report",
+      "excerpt"  : "Hay algo que no funciona¿Encontraste algún error? Lo sentimos.Primero, por favor, asegúrate de que tienes la última versión de AntennaPod. Con cada actualización arreglamos errores...",
       "content"  : "Hay algo que no funciona¿Encontraste algún error? Lo sentimos.Primero, por favor, asegúrate de que tienes la última versión de AntennaPod. Con cada actualización arreglamos errores pequeños y más grandes. Ahora busca en nuestro foro para ver si hay alguien más que tenga el mismo error. Si encuentras el mismo error que tu tienes, puedes ver si hay alguna sugerencia. Considera proveer información acerca de tu situación - puede ayudar a los desarrolladores a encontrar la fuente del problema.Si ya actualizaste AntennaPod y buscaste en el foro sin encontrar nada, cuéntanos tu problema. Puedes crear una entrada en nuestro foro. Para hacer esto, necesitas crear una cuenta (si aún no tienes una) o simplemente puedes iniciar sesión con Google.Independientemente de la manera de la que contactes con nosotros, por favor incluye la información del sistema que se muestra en Ajustes » Reportar un error."
     } ,
   
     
+    
     {
       "title"    : "No se puede reanudar la reproducción desde la pantalla de bloqueo / notificación",
       "url"      : "/es/documentation/bugs-first-aid/cannot-resume-playback",
+      "excerpt"  : "No se puede reanudar la reproducción desde la pantalla de bloqueo / notificaciónEn Android 13 y Android 14 no siempre es posible reanudar la reproducción...",
       "content"  : "No se puede reanudar la reproducción desde la pantalla de bloqueo / notificaciónEn Android 13 y Android 14 no siempre es posible reanudar la reproducción desde la pantalla de bloqueo o la notificación multimedia. Esto ocurre específicamente si la reproducción ha estado en pausa durante un tiempo.Actualmente no está claro por qué se produce este problema. Hemos comprobado que el mismo problema afecta a otras aplicaciones, incluidas las de Google. Sospechamos, por tanto, que se trata de un problema de Android.Solución alternativaPara poder reanudar la reproducción, puedes añadir el atajo de AntennaPod en tu dispositivo. Los atajos son esencialmente los botones que ves cuando tiras hacia abajo desde la parte superior de la pantalla. Probablemente reconozcas los atajos de Internet o Linterna. El atajo de AntennaPod te permite reproducir y pausar la reproducción, incluso si la reproducción ha estado en pausa durante un tiempo.Para añadir el mosaico AntennaPod:  Desliza dos veces hacia abajo desde la parte superior de la pantalla para abrir completamente el panel de Ajustes rápidos. En algunas versiones de Android (por ejemplo, Samsung One UI o Xiaomi MIUI), un Centro de Control equivalente con gestos similares puede ya incluir un acceso directo multimedia; consulta la configuración de tu dispositivo en caso de ser diferente  *Pulsa el icono de lápiz en la parte inferior de la sección de mosaicos para editar los mosaicos  Desplázate hacia abajo en la lista de mosaicos, pulsa sobre el mosaico de AntennaPod y arrástralo hacia arriba en la lista de atajos activos  Toca la flecha atrás o guardar para salir de la edición del mosaico"
     } ,
   
     
+    
     {
       "title"    : "No se puede descargar un episodio",
       "url"      : "/es/documentation/bugs-first-aid/cannot-stream-download",
+      "excerpt"  : "No se puede descargar un episodioAntennaPod es una aplicación de podcasts descentralizada. Esto básicamente significa que no hay un servidor central que sepa todo sobre...",
       "content"  : "No se puede descargar un episodioAntennaPod es una aplicación de podcasts descentralizada. Esto básicamente significa que no hay un servidor central que sepa todo sobre cada podcast.Por lo tanto, los archivos multimedia se cogen directamente del sitio web del editor. Si el editor los elimina, AntennaPod ya no puede recuperarlos para ti."
     } ,
   
     
+    
     {
       "title"    : "Todos mis podcasts y episodios han desaparecido",
       "url"      : "/es/documentation/bugs-first-aid/database-error",
+      "excerpt"  : "Todos mis podcasts y episodios han desaparecidoPuedes estar a punto de empezar a gritar ¡Ayuda! He perdido mis podcasts/episodios/ajustes/todo!En una versión muy antigua de AntennaPod...",
       "content"  : "Todos mis podcasts y episodios han desaparecidoPuedes estar a punto de empezar a gritar ¡Ayuda! He perdido mis podcasts/episodios/ajustes/todo!En una versión muy antigua de AntennaPod (anterior a 2019), existían problemas con la base de datos que contenía toda la información (episodios, estados de escucha, etc.). Si bien la causa ya se solucionó, es posible que tu base de datos se haya dañado (incluso si la aplicación funcionaba correctamente). Si una versión reciente de AntennaPod modifica las partes dañadas de la base de datos, estos daños podrían volver a aparecer. En ese caso, AntennaPod ya no podrá funcionar con la base de datos dañada y tendrá que empezar de cero con una base de datos vacía.Somos conscientes de que es muy frustrante que esto ocurra y sentimos mucho si se ha visto afectado.Puede que haya algunas cosas que puedas hacer para recuperar tus datos. Algunas de ellas se listan más abajo, empezando con la solución que da los mejores y más fáciles resultados:  ¿Has exportado recientemente una copia de seguridad de AntennaPod? Restaurarla es relativamente sencillo: ve a Ajustes » Importar/Exportar » Importar base de datos y selecciona el archivo de copia de seguridad. Ten en cuenta que la copia de seguridad podría contener datos parcialmente dañados, por lo que se recomienda seguir el segundo paso para solucionar el problema definitivamente.  Si AntennaPod detecta una base de datos dañada, la escribe en un archivo llamado CorruptedDatabaseBackup.db en el directorio de almacenamiento de la aplicación. Puede intentar reparar este archivo (o una copia de seguridad exportada) mediante un script de Python diseñado para automatizar el proceso de recuperación. Esto supone un reto y requiere aprender a usar la terminal.  Mientras que todos los datos sobre tus suscripciones y episodios se han perdido, los archivos multimedia siguen ahí.  En AntennaPod puedes añadir una carpeta como si fuera un feed. Para ello, ve a Añadir podcast y pulsa en Añadir carpeta local. Luego, accede a esta carpeta en tu teléfono:  En Android 11+: Android » media » de.danoeh.antennapod  En Android 10 y versiones anteriores: Android » data » de.danoeh.antennapod » files » media y selecciona la carpeta del podcast. Ten en cuenta que esto solo te dará acceso al contenido descargado previamente; no recibirás nuevos episodios.  También puedes empezar a añadir podcasts anteriores desde cero. Puedes buscar en la carpeta antes mencionada para ver a qué podcasts estabas suscrito."
     } ,
   
     
+    
     {
       "title"    : "Faltan episodios antiguos",
       "url"      : "/es/documentation/bugs-first-aid/episodes-missing",
+      "excerpt"  : "Faltan episodios antiguosAntennaPod es una aplicación de podcasts descentralizada. Esto básicamente significa que no hay un servidor central que sepa todo sobre cada podcast.Por lo...",
       "content"  : "Faltan episodios antiguosAntennaPod es una aplicación de podcasts descentralizada. Esto básicamente significa que no hay un servidor central que sepa todo sobre cada podcast.Por lo tanto, la información de los episodios se toma directamente del sitio web del editor. Cuando estás suscrito a un podcast, AntennaPod copia y almacena la información de cada episodio nuevo en la aplicación. Esta información se mantiene aunque ya no esté disponible en el sitio del editor.Muchos editores sólo mantienen en línea (información sobre) los episodios más recientes. Por lo tanto, cuando te acabas de suscribir a un podcast, tu instalación de AntennaPod no tiene acceso a la información sobre los episodios más antiguos. Para conseguir que todos los episodios anteriores aparezcan en la aplicación, puedes ponerte en contacto con el podcaster y pedirle que (se ponga en contacto con su editor para que) soporte ‘paged feeds’ (información técnica)."
     } ,
   
     
+    
     {
       "title"    : "La reproducción se detiene repentinamente",
       "url"      : "/es/documentation/bugs-first-aid/playback-stops",
+      "excerpt"  : "La reproducción se detiene repentinamenteSi la reproducción siempre se para unos segundos después de apagar la pantalla, o cuando no has abierto AntennaPod durante un...",
       "content"  : "La reproducción se detiene repentinamenteSi la reproducción siempre se para unos segundos después de apagar la pantalla, o cuando no has abierto AntennaPod durante un rato, puede que tu sistema esté matando a la aplicación. A algunos vendedores se les conoce por ser muy agresivos intentando alargar la batería. Por favor prueba a añadir una excepción para AntennaPod en la lista de aplicaciones optimizadas para la batería. Debido a que la manera de añadir una excepción a menudo varía entre teléfonos, sugerimos que busques por internet instrucciones para la marca y el modelo de tu teléfono, si no sabes como añadir una excepción.Si esto no te ayudó, no dudes en ponerte en contacto con los contribuidores de AntennaPod en nuestro foro."
     } ,
   
     
+    
     {
       "title"    : "Error al descargar o refrescar el canal",
       "url"      : "/es/documentation/bugs-first-aid/refresh-download-errors",
+      "excerpt"  : "Error al descargar o refrescar el canal¿Recibes una notificación diciendo que las descargas se completan con errores? Entonces AntennaPod no puede refrescar el podcast o...",
       "content"  : "Error al descargar o refrescar el canal¿Recibes una notificación diciendo que las descargas se completan con errores? Entonces AntennaPod no puede refrescar el podcast o descargar el archivo de audio desde la pagina o servidor del mismo.Problemas que solamente pasan con uno o algunos podcasts suelen estar relacionados con los podcasts en si. Para confirmar si ese es el caso, puedes seguir estos pasos:  Pulsa sobre la notificación para abrir el registro de descargas  Pulsa sobre la entrada de registro específica con el error  Mantén pulsada la URL que se muestra y cópiala o ábrela en tu navegadorSi la URL tampoco funciona en el navegador, significa que no es un problema de AntennaPod. Si recibes el mensaje de error constantemente, es probable que el podcast haya sido movido, retirado de la red o no esté configurado correctamente. En este caso, ponte en contacto con los creadores del podcast (ya que esto no lo podemos arreglar de nuestro lado).¿El mensaje de error en el registro de Descargas dice “Fallo en la conexión con [url]”? Entonces probablemente significa que hay interferencias en tu red. Si tienes un bloqueador de anuncios, una VPN, un portal cautivo, un proxy, un guardián de la privacidad, un servicio especial de DNS o un control parental configurado en tu teléfono, prueba a desactivarlos.¿Ves un mensaje de error como “no está bien formado (token no válido)”? Entonces, el editor ha estropeado tu canal (RSS). (Por ejemplo, es posible que hayan utilizado un signo simple &amp; en lugar de codificarlo como &amp;amp;). Ponte en contacto con el editor directamente, ya que esto no lo podemos arreglar de nuestro lado.Si no puedes localizar el problema, copia el mensaje de error a través del botón Copiar y compártelo en nuestro foro. ¡Nuestra comunidad estará encantada de echar un vistazo para averiguar la causa exacta!"
     } ,
   
     
+    
     {
       "title"    : "He encontrado una errata",
       "url"      : "/es/documentation/bugs-first-aid/typo-translations",
+      "excerpt"  : "He encontrado una errata¿Encontraste un errata o algo que suena raro? Siempre existe la posibilidad de que hayamos cometido un error en Inglés (idioma en...",
       "content"  : "He encontrado una errata¿Encontraste un errata o algo que suena raro? Siempre existe la posibilidad de que hayamos cometido un error en Inglés (idioma en el que hacemos la aplicación y el sitio), o que algo no se haya traducido correctamente. Por suerte, normalmente, estos problemas se pueden arreglar fácilmente.¿Quieres arreglarlo tú mismo?Si el tema está en otro idioma que no sea el inglés, puedes actualizar las traducciones en Weblate. Puedes encontrar más información en nuestra sección Colaborar.¿El problema tiene que ver con los textos en Inglés? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para la aplicación o para el sitio web.¿Simplemente quieres informarnos?Puedes crear una entrada en la sección de traducciones de nuestro foro. Para hacerlo necesitas crear una cuenta (si aún no tienes una) o simplemente iniciar sesión a través de Google."
     } ,
   
     
+    
     {
       "title"    : "General",
       "url"      : "/es/documentation/general",
+      "excerpt"  : "GeneralMás abajo, puedes encontrar más detalles sobre el proyecto Antennapod.",
       "content"  : "GeneralMás abajo, puedes encontrar más detalles sobre el proyecto Antennapod."
     } ,
   
     
+    
     {
       "title"    : "Acerca de los anuncios en AntennaPod",
       "url"      : "/es/documentation/general/ads",
+      "excerpt"  : "Acerca de los anuncios en AntennaPodLas versiones oficiales de AntennaPod no insertan anuncios. La aplicación está desarrollada por voluntarios sin interés comercial y el proyecto...",
       "content"  : "Acerca de los anuncios en AntennaPodLas versiones oficiales de AntennaPod no insertan anuncios. La aplicación está desarrollada por voluntarios sin interés comercial y el proyecto depende de donaciones para cubrir costes. Dado que el código fuente y los ingresos y gastos de AntennaPod son públicos, todo el mundo es libre de comprobarlo.Si estás viendo anuncios, esto puede tener dos razones:1. Has descargado una versión no oficial de AntennaPodAntennaPod es de código abierto. Esto significa que cualquiera puede descargar el código fuente. Por desgracia, algunos desarrolladores toman AntennaPod, insertan anuncios y luego lo publican como una nueva app. Puedes conseguir la aplicación oficial de AntennaPod en Google Play y F-Droid. ¡Incluso puedes conseguir la última versión en GitHub y compilar AntennaPod tú mismo!2. Los creadores del podcast o su empresa de alojamiento agregaron los anuncios a sus notas de presentación o archivo de audioAntennaPod reproduce podcasts tal como los publicaron los creadores. Si incluyen anuncios, AntennaPod los reproduce. No tenemos nada que ver con esos anuncios, por lo que todos los ingresos van a los creadores y/o su empresa de alojamiento.Ahora, puede preguntar algo como “¿Pero entonces por qué el podcast está en inglés y el anuncio en alemán?” o “¿Pero por qué el episodio del podcast es de 2008 pero aún promociona un producto lanzado en 2023?”. El motivo es una técnica llamada inserción dinámica de anuncios. Los creadores de podcasts pueden indicar a la empresa de alojamiento que inserte esos anuncios. Luego, mientras descarga o transmite el episodio con AntennaPod, el archivo multimedia entregado a AntennaPod se corta sobre la marcha para incluir los anuncios. Los anuncios son recientes (aunque es posible que el episodio no lo sea) y pueden orientarse en función de la dirección IP desde la que solicita el archivo multimedia (por ejemplo, una empresa en su país). Dependiendo de qué tan inteligente sea la empresa de alojamiento, los anuncios pueden insertarse justo en el medio de una oración.Siempre puede utilizar el botón de avance rápido de AntennaPod para saltarse los anuncios. Si estás viendo un episodio en streaming en lugar de descargarlo, la empresa que lo aloja tiene una idea de hasta dónde has llegado en el podcast. Es posible que la empresa detecte que te has saltado el anuncio e inserte uno nuevo. Si en cambio descargas el episodio, no pueden hacerlo y puedes saltarte los anuncios con mayor fiabilidad. (La descarga también es mejor para su privacidad porque entonces la empresa de alojamiento no sabe cuándo escucha qué sección del episodio. AntennaPod puede configurarse para que descargue automáticamente los episodios y los elimine más tarde, de modo que no tenga que hacerlo manualmente)Además, muchos creadores de podcasts ofrecen un feed sin publicidad que puedes comprar. Por lo general, obtienes una URL de fuente de podcast secreta o, alternativamente, un nombre de usuario y una contraseña que puedes ingresar en AntennaPod.Si encuentra estos anuncios molestos, considere hablar con los creadores de podcasts al respecto."
     } ,
   
     
+    
     {
       "title"    : "Permisos de la app",
       "url"      : "/es/documentation/general/app-permissions",
+      "excerpt"  : "Permisos de la appAntennaPod no te pedirá permisos generales. Sin embargo, puedes otorgar los siguientes permisos: Mostrar notificaciones: A través de Configuración » Notificaciones puedes...",
       "content"  : "Permisos de la appAntennaPod no te pedirá permisos generales. Sin embargo, puedes otorgar los siguientes permisos:  Mostrar notificaciones: A través de Configuración » Notificaciones puedes darle permiso a AntennaPod para crear notificaciones.  Acceso al almacenamiento: cuando agrega una ‘carpeta local’, la aplicación solicitará acceso a largo plazo a una carpeta específica. Cuando importa una base de datos o un archivo OPML, seleccionar ese archivo le dará a la aplicación acceso único a él.Aparte de eso, la aplicación requiere los siguientes permisos que Android otorga automáticamente:  Acceso completo a la red: para actualizar podcasts, descargar y transmitir episodios, cargar imágenes y habilitar la sincronización  Ver conexiones de red y Ver conexiones Wi-Fi:          para comprobar si hay una conexión a Internet activa, antes y mientras se realiza cualquiera de las acciones mencionadas anteriormente      for the setting Downloads » Mobile updates, to determine whether the above actions are allowed by the user on the current (mobile and/or metered) connection        Pair with Bluetooth devices: for the setting Playback » Headphones or Bluetooth disconnect, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device  Run at startup: to (re)start services like refreshing podcasts and enabling auto-downloads  Control vibration: for the option Vibrate shortly before end of the sleep timer, to vibrate if this setting is enabled  Prevent device from sleeping: needed to ensure media playback and downloads continue in the background"
     } ,
   
     
+    
     {
       "title"    : "Haciendo copias de seguridad de tus episodios",
       "url"      : "/es/documentation/general/backup",
+      "excerpt"  : "Haciendo copias de seguridad de tus episodiosHay algunas opciones para copiar tus datos a tu teléfono nuevo, y cada método copia una cantidad de datos...",
       "content"  : "Haciendo copias de seguridad de tus episodiosHay algunas opciones para copiar tus datos a tu teléfono nuevo, y cada método copia una cantidad de datos definida:Exportar la Base de DatosExportar la base de datos de AntennaPod es un buen método si estás migrando a un teléfono o tablet nuevos. Deberás de asegurarte de que tienes la misma versión de AntennaPod en ambos dispositivos. Después de importar la base de datos, todos los datos estarán reestablecidos; solo necesitarás volver a descargar los episodios.SincronizaciónSincronizar AntennaPod a través de gpodder.net o la aplicación gPodder Sync para Nextcloud te permite guardar y migrar algunos datos sobre los podcasts y episodios. Perderás tus favoritos, la cola y los ajustes de la aplicación. Esto puede ser una solución cuando se rota entre teléfono, tablet y/o ordenador. Por favor mira el artículo sobre la sincronización para instrucciones.OPMLLos archivos OPML te permiten transferir tus suscripciones a otra app de podcast. Perderás la información específica del podcast o del episodio (por ejemplo, qué episodios se han reproducido) y toda la configuración de la app. Para exportar el archivo, ve a Ajustes » Respaldo y restauración » Exportar a OPML. Según tu versión de Android, es posible que se te pida que elijas dónde guardar el archivo. Si se abre inmediatamente un cuadro de diálogo para guardar, asegúrate de seleccionar una carpeta fuera del directorio de AntennaPod (por ejemplo, Descargas u otra carpeta visible), para que el archivo OPML exportado no se elimine al desinstalar AntennaPod.Si importas el archivo en Antennapod en otro dispositivo, la aplicación mostrará una lista de podcasts con casillas de selección. Los podcasts que selecciones de esa lista se añadirán a tus suscripciones existentes. Ninguna de tus suscripciones existentes será afectada."
     } ,
   
     
+    
     {
       "title"    : "Pruebas beta",
       "url"      : "/es/documentation/general/beta",
-      "content"  : "Pruebas betaAntennaPod has many users, and we don’t want them to run into trouble because we’ve tweaked or added a new feature. It’s important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can resolve before official releases. Of course, this only helps if you report the issues you encounter by creating a topic on our forum.Pueden aparecer errores pequeños en actualizaciones importantes, y solo son descubiertos a través de los reportes de errores por los usuarios en estas etapas tempranas. Solo hay un desarrollador principal que dedica su tiempo libre en trabajar para este proyecto. Solo tiene un par de dispositivos en los que probar las cosas, mientras que el comportamiento puede variar de dispositivo a dispositivo.Google PlayEvery new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what’s not working quite right, we’d love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a topic on our forum.¿Quieres tener lo último y lo mejor y ayudarnos a pulir la app para que realmente brille? Simplemente visita la lista de AntennaPod en la app de Play Store y encontrarás la tarjeta Únete a la beta en la sección Soporte de la app. O, si estás en tu ordenador, puedes unirte a nuestro programa beta aquí.                                                F-DroidAhora mismo no ofrecemos versiones beta en la tienda de F-Droid.Esto se debe a que F-Droid no reconoce automáticamente las versiones beta. Añadir una versión beta a f-droid requeriría una intervención manual para cada beta. Además, si se requiere que algo importante sea arreglado, una actualización deberá de ser enviada automáticamente. Desgraciadamente, esto no está garantizado."
+      "excerpt"  : "Pruebas betaAntennaPod has many users, and we don’t want them to run into trouble because we’ve tweaked or added a new feature. It’s important to...",
+      "content"  : "Pruebas betaAntennaPod has many users, and we don’t want them to run into trouble because we’ve tweaked or added a new feature. It’s important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can resolve before official releases. Of course, this only helps if you report the issues you encounter by creating a topic on our forum.Pueden aparecer errores pequeños en actualizaciones importantes, y solo son descubiertos a través de los reportes de errores por los usuarios en estas etapas tempranas. Solo hay un desarrollador principal que dedica su tiempo libre en trabajar para este proyecto. Solo tiene un par de dispositivos en los que probar las cosas, mientras que el comportamiento puede variar de dispositivo a dispositivo.Google PlayEvery new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what’s not working quite right, we’d love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a topic on our forum.¿Quieres tener lo último y lo mejor y ayudarnos a pulir la app para que realmente brille? Simplemente visita la lista de AntennaPod en la app de Play Store y encontrarás la tarjeta Únete a la beta en la sección Soporte de la app. O, si estás en tu ordenador, puedes unirte a nuestro programa beta aquí.                              F-DroidAhora mismo no ofrecemos versiones beta en la tienda de F-Droid.Esto se debe a que F-Droid no reconoce automáticamente las versiones beta. Añadir una versión beta a f-droid requeriría una intervención manual para cada beta. Además, si se requiere que algo importante sea arreglado, una actualización deberá de ser enviada automáticamente. Desgraciadamente, esto no está garantizado."
     } ,
   
+    
     
     {
       "title"    : "Aplicaciones de podcasts centralizadas y distribuidas",
       "url"      : "/es/documentation/general/central-distributed",
+      "excerpt"  : "Aplicaciones de podcasts centralizadas y distribuidasBásicamente, hay dos maneras de hacer una aplicación de podcast: Central: Hay un servidor central (hospedado por la empresa que...",
       "content"  : "Aplicaciones de podcasts centralizadas y distribuidasBásicamente, hay dos maneras de hacer una aplicación de podcast:  Central: Hay un servidor central (hospedado por la empresa que desarrolla la aplicación) que comprueba si hay episodios nuevos y te los entrega.  Distribuida: La aplicación comprueba por sí misma si hay episodios nuevos, directamente desde los servidores de los publicadores.AntennaPod utiliza el segundo método. Esto tiene unas cuantas ventajas y desventajas:  Como la aplicación busca episodios nuevos, los creadores de la aplicaciones (como nosotros), no tienen que mantener un servidor central. Esto ahorra un montón de tiempo y esfuerzo. También ahorra mucho dinero, lo que significa que no tenemos que depender de anuncios o grandes cantidades de donaciones.  Como la aplicación no depende de un servidor central para recolectar los episodios nuevos, AntennaPod seguirá funcionando independientemente de lo que hagamos en nuestra parte. Utilizando el método centralizado, si la empresa termina su servidor por cualquier motivo, la aplicación dejará de funcionar.  Nosotros, como desarrolladores de aplicaciones, no sabemos ni podemos saber a qué podcasts estás suscrito, qué episodios escucharás o a qué hora lo harás. Los publicadores de aplicaciones con un servidor central recogen tales datos, para el detrimento de tu privacidad.  Algunos publicadores ofrecen canales privados, proveyendo acceso por adelantado, contenido especial o episodios sin anuncios. Tales canales requieren un usuario y una contraseña, que AntennaPod le da directamente al huésped cuando lo pide. Los servicios centralizados muchas veces simplemente no permiten añadir canales privados. Y si lo hacen, puede que requieran que mandes tus credenciales a quienes hacen la aplicación.  Al no tener un punto central de acceso, lo que permitiría a los desarrolladores eliminar podcasts de su servidor, no hay riesgo de censura.  Por otro lado, un modelo distribuido significa que solo obtendrás episodios nuevos cuando actualices un podcast. En AntennaPod, esto ocurre por defecto cada 12 horas, pero puedes cambiarlo a una frecuencia mayor o menor y también puedes comprobar manualmente si hay episodios nuevos. Un servidor central puede comprobar si hay episodios nuevos con mucha frecuencia o incluso ser informado por los huéspedes de los podcasts en tiempo real. De este modo, las aplicaciones pueden saber si hay episodios nuevos mucho más rápido, sin tener que comprobar regularmente todos los podcasts a los que estás suscrito.  Tampoco es posible que AntennaPod te sirva ningún episodio que haya sido eliminado por el editor, por ejemplo porque solo mantienen los últimos 10 episodios más recientes en línea. Las aplicaciones que dependen de un servidor central, pueden servirse de los episodios antiguos incluso si desaparecieron del canal RSS."
     } ,
   
     
+    
     {
       "title"    : "Eliminación de episodios",
       "url"      : "/es/documentation/general/episode-deletion",
+      "excerpt"  : "Eliminación de episodiosCuando acabaste de escuchar un episodio, en la mayoría de los casos, querrás eliminarlo de tu teléfono, para liberar espacio. Hay varias maneras...",
       "content"  : "Eliminación de episodiosCuando acabaste de escuchar un episodio, en la mayoría de los casos, querrás eliminarlo de tu teléfono, para liberar espacio. Hay varias maneras de hacer esto.Primero, puedes, por supuesto, eliminar los episodios de manera manual. Cuando estés viendo la cola o un podcast específico, puedes mantener pulsado sobre un episodio y tocar en eliminar. Cuando estés en la pestaña de Completados en la página de Descargas, puedes simplemente tocar en el icono de la papelera. Si quieres, AntennaPod puede eliminar de manera automática un episodio de la cola si se elimina. Puedes encontrar esta opción en Ajustes » Almacenamiento » Quitar eliminados de la Cola.Segundo, AntennaPod tiene varias soluciones para eliminar episodios de manera automática. Particularmente, AntennaPod puede eliminar episodios de manera automática cuando su reproducción finaliza, y cuando necesita espacio para el proceso de descarga automático. Para más información sobre estas opciones, por favor lee el artículo Eliminación Automática."
     } ,
   
     
+    
     {
       "title"    : "Utilizando almacenamiento externo",
       "url"      : "/es/documentation/general/external-storage",
+      "excerpt"  : "Utilizando almacenamiento externoPuedes configurar AntennaPod para que descargue los episodios en tu tarjeta sd en lugar de en la memoria interna. De este modo dispondrás...",
       "content"  : "Utilizando almacenamiento externoPuedes configurar AntennaPod para que descargue los episodios en tu tarjeta sd en lugar de en la memoria interna. De este modo dispondrás de más espacio para los episodios. Para seleccionar la tarjeta de almacenamiento, vaya a Configuración “ Descargas “ Carpeta de datos.Resolución de problemasPuede ser que tu tarjeta SD no aparezca en el diálogo Seleccionar la Carpeta de Almacenamiento. Para que tu tarjeta SD aparezca, Android debe de reconocer la tarjeta como almacenamiento externo. Puede que la tarjeta no esté montada correctamente o que el fabricante de tu teléfono haya configurado el hardware incorrectamente.Si está ejecutando Android 6 o más reciente, puede intentar formatear la tarjeta SD como almacenamiento interno. De lo contrario, no hay nada que podamos hacer para solucionarlo."
     } ,
   
     
+    
     {
       "title"    : "Actualizaciones en F-Droid",
       "url"      : "/es/documentation/general/f-droid",
+      "excerpt"  : "Actualizaciones en F-Droid¿Has visto que ha salido una nueva versión de AntennaPod y te preguntas?: ¿por qué la última versión aún no está en F-Droid?...",
       "content"  : "Actualizaciones en F-Droid¿Has visto que ha salido una nueva versión de AntennaPod y te preguntas?:  ¿por qué la última versión aún no está en F-Droid?  ¿cuándo estará disponible la nueva versión en F-Droid?Debido a los diferentes pasos y a que no estamos involucrados en la publicación de versiones en F-Droid, no podemos decir exactamente cuándo estará disponible allí la última versión.En resumen: puede llevar algún tiempo. Por favor, tenga paciencia.Los pasos para lanzar una nueva versión en F-Droid  Lanzamos una versión beta, que solo está disponible a través de Google Play debido a limitaciones técnicas en F-Droid.  Implementamos la versión de forma lenta y gradual para todos los usuarios de Google Play. De esta forma, nos aseguramos de que no haya errores críticos. Esto puede tardar varias semanas.  Creamos una versión en GitHub. Esto solo se hace después de que se complete el lanzamiento en Google Play.  Los sistemas F-Droid revisan el repositorio de AntennaPod y detectan una nueva versión. El servidor de verificación de actualizaciones se ejecuta diariamente (durante la noche en Europa).  Los sistemas F-Droid crean la aplicación. Esto garantiza que la aplicación que descargues coincida con el código fuente que publicamos. Dado que hay muchas aplicaciones que crear, el servidor F-Droid tarda de uno a dos días en compilarla.  Un colaborador de F-Droid firma la compilación criptográficamente. Para mejorar la seguridad, el colaborador debe llevar la aplicación a un ordenador dedicado sin conexión a internet. Una vez firmadas todas las aplicaciones, el colaborador las sube a los sistemas de F-Droid. Esto suele tardar entre uno y dos días.  Los sistemas F-Droid procesan las nuevas aplicaciones y agregan la nueva versión de AntennaPod en su índice.En este punto, lo consideramos “lanzado en F-Droid”. Pero recuerda que tu cliente de F-Droid (la tienda de aplicaciones) también necesita actualizar su copia local del índice. Solo después de eso, recibirás un aviso sobre la última versión de AntennaPod.¿Cuál es el tiempo estimado de llegada?Como puedes ver, hay muchos pasos, cada uno con una duración variable. Normalmente, tardamos más de un mes entre el lanzamiento de una versión beta y su etiquetado en GitHub. Una vez etiquetado el lanzamiento, F-Droid suele tardar entre cuatro y seis días en procesarlo.Qué puedes hacer si estás esperando con impaciencia¿Aún no hemos etiquetado la versión en GitHub? Entonces, por favor, espera. La actualización está en fase beta y no está lista para su lanzamiento público.¿Sí hemos etiquetado la versión en GitHub? Como señala el equipo de F-Droid: “No te asustes antes de que pasen 7 días, por favor.”  ¿Han pasado esos 7 días desde que etiquetamos la versión en GitHub? No dudes en hacérnoslo saber publicando en nuestro foro. Le echaremos un vistazo.  ¿Etiquetamos el lanzamiento hace 7 días o menos? Entonces, por favor, espera. O investiga en qué etapa del proceso nos encontramos.Investiga el estado actualSi lo deseas, puedes seguir estos pasos para obtener una idea del progreso:  Comprueba si la versión se etiquetó en GitHub y cuándo (puede que tengas que pasar el cursor, por ejemplo, sobre “la semana pasada” para ver la fecha exacta en GitHub). De ser así, el verificador de actualizaciones debería detectarla pronto.  Comprueba si la lista de versiones de AntennaPod de F-Droid se ha actualizado desde entonces. De ser así, el servidor de compilación debería procesarlo pronto.  Comprueba si AntennaPod se compiló en el ciclo de ejecución o en el último ciclo. También puedes usar la aplicación Estado de compilación de F-Droid. De ser así, pronto debería estar firmado criptográficamente por un colaborador de F-Droid.          Ten en cuenta que no hay cola para las aplicaciones que necesitan compilarse. AntennaPod aún no aparece en las listas de éxito y fracaso, ¿y quieres saber si se compilará?                  Haz clic en “fdroiddata version” @ commit de un ciclo de compilación          Haz clic en “Explorar archivos”          Haz clic en “Buscar archivo”          Copia y pega de.danoeh.antennapod          Abre el archivo          Comprueba si incluye la última versión                    "
     } ,
   
     
+    
     {
       "title"    : "AntennaPod para Windows, Apple y Linux",
       "url"      : "/es/documentation/general/other-platforms",
+      "excerpt"  : "AntennaPod para Windows, Apple y LinuxPor muy atractivo que suene el título, AntennaPod no está ni estará disponible en Windows, iOS o Linux. La aplicación...",
       "content"  : "AntennaPod para Windows, Apple y LinuxPor muy atractivo que suene el título, AntennaPod no está ni estará disponible en Windows, iOS o Linux. La aplicación está hecha por un pequeño equipo de voluntarios, y hacer la aplicación para estas otras plataformas sería mucho trabajo.Sin embargo, existen alternativas (de código abierto) que nos gustaría indicarle:            Aplicación      Code      iOS      MacOS      Windows      Linux                  Podverse            ✅      ✅      ❌      ❌              Pocket Casts            ✅      ❌      ❌      ❌              gPodder            ❌      ✅      ✅      ✅              Poddr            ❌      ✅      ✅      ✅              Kasts            ❌      ❌      ❌      ✅              Vocal            ❌      ❌      ❌      ✅              GNOME Podcasts            ❌      ❌      ❌      ✅              MusicPod            ❌      ❌      ❌      ✅      ¿Recomiendas alguna aplicación de podcast de código abierto para estas plataformas? Háznoslo saber en el foro"
     } ,
   
     
+    
     {
       "title"    : "Dirigiendo el Tráfico a través de un proxy o la red Tor",
       "url"      : "/es/documentation/general/proxy",
+      "excerpt"  : "Dirigiendo el Tráfico a través de un proxy o la red TorEs posible hacer que AntennaPod dirija todo el tráfico (archivos multimedia, imágenes de portada,...",
       "content"  : "Dirigiendo el Tráfico a través de un proxy o la red TorEs posible hacer que AntennaPod dirija todo el tráfico (archivos multimedia, imágenes de portada, peticiones RSS y búsquedas) a través de un proxy o la red Tor. Esto podría tener dos beneficios:  Privacidad: dependiendo del tipo del servicio de proxy, tus hábitos de descarga/retransmisión pueden verse protegidos de los huéspedes de podcasts  Acceso: si un huésped de pódcasts impide que el contenido sea descargado desde otros países (basándose en las direcciones IP), configurar un proxy con el país de origen puede permitir que sigas pudiendo acceder a su contenidoPuedes encontrar esta opción en Ajustes » Red » Proxy.Para dirigir todo el tráfico a través de la red Tor, necesitas instalar una aplicación de proxy para TOR, y proveer los siguientes detalles en AntennaPod:  Tipo: SOCKS  Host: “localhost” o “127.0.0.1”  Puerto: “9050”"
     } ,
   
     
+    
     {
       "title"    : "Estadísticas de escucha",
       "url"      : "/es/documentation/general/statistics",
+      "excerpt"  : "Estadísticas de escuchaAntennaPod cuenta con una pantalla de estadísticas que permite ver el número de horas de escucha por suscripción y por mes. Sin embargo,...",
       "content"  : "Estadísticas de escuchaAntennaPod cuenta con una pantalla de estadísticas que permite ver el número de horas de escucha por suscripción y por mes. Sin embargo, estas estadísticas no siempre son tan precisas como podrían ser.Por qué las estadísticas no son precisasPara realizar un seguimiento de las estadísticas, AntennaPod registra dos cosas para cada episodio:  Duración de reproducción: cuánto tiempo se reprodujo el episodio (por ejemplo, 6 minutos si un episodio de 3 minutos se reprodujo dos veces)  Última reproducción: la fecha y hora en que se pausó o detuvo por última vez la reproducción del episodioAmbos se actualizan cada vez que se pausa o detiene la reproducción. Esta información se utiliza para calcular los totales sumando la ‘duración de reproducción’ de todos los episodios cuya ‘última fecha de reproducción’ coincide con un mes determinado.Este enfoque significa que si escuchas 7 minutos de un episodio hoy y 38 minutos mañana, los 45 minutos se atribuyen al día siguiente. Esto aplica a todos los meses. Si un episodio se reproduce tanto en junio como en julio, todo el tiempo de escucha se atribuye a julio. De igual manera, si un episodio se reproduce tanto en diciembre de un año como en enero del siguiente, se atribuye al segundo año.Las estadísticas mensuales suelen ser precisas porque abarcan un período más largo. Sin embargo, las estadísticas diarias podrían ser poco fiables, por lo que AntennaPod no las ofrece.Por qué no queremos cambiarloLas estadísticas (o mejor dicho, los gráficos) son divertidas. Entonces, ¿por qué no registramos la información de forma diferente para permitir más opciones de filtrado y datos más granulares en AntennaPod?Sería posible, por ejemplo, registrar la duración de cada episodio cada día. Por ejemplo:  28 de junio: 7 minutos  30 de junio: 38 minutos  1 de julio: 19 minutosHay dos razones principales. En primer lugar, si bien las estadísticas son divertidas, preferimos dedicar tiempo al propósito principal de AntennaPod: reproducir podcasts. Adoptar este nuevo enfoque requeriría tiempo ahora para implementarlo (reescribir el código que ahorra tiempo de reproducción en la base de datos) y tiempo en el futuro para mantener un sistema más complejo.En segundo lugar, AntennaPod ocuparía más espacio en el teléfono, especialmente para los usuarios fieles que usan la aplicación durante varios años. Esto se debe a que, en lugar de una sola fila por episodio en la base de datos, necesitaríamos almacenar varias filas por cada episodio reproducido para registrar la duración de la reproducción, lo que aumenta el tamaño de la base de datos.¡Esperamos que disfrutes de las estadísticas mensuales! 📊 (Si eres un desarrollador web interesado en crear un panel dedicado para las estadísticas de AntennaPod basadas en exportaciones de bases de datos, contáctanos en el foro.)"
     } ,
   
     
+    
     {
       "title"    : "Cómo sincronizar entre dispositivos",
       "url"      : "/es/documentation/general/synchronization",
-      "content"  : "Cómo sincronizar entre dispositivosAntennaPod puede sincronizar tus suscripciones y el progreso de escucha con otras instalaciones de AntennaPod, así como con otras aplicaciones (de escritorio). Para configurar la sincronización, necesitas un servidor, el punto central a través del cual tus datos se comparten con otros dispositivos. Tienes varias opciones para esto:  gpodder.net ofrece un servidor de sincronización gPodder gratuito al que cualquiera puede unirse. Desafortunadamente, debido a la popularidad del servicio y su financiamiento limitado, este servidor a menudo está sobrecargado, lo que genera errores en AntennaPod.  Se recomienda encarecidamente a los usuarios más inclinados a la tecnología que autohospeden un servidor de sincronización. Un servidor autohospedado es más confiable y ayuda a reducir la carga de los servicios públicos gratuitos. Hay varias opciones: Nextcloud con la aplicación gPodder Sync, una  gPodder, o el servidor Micro GPodder.Activa la sincronización a través de Nextcloud  Si tienes una cuenta de Nextcloud, instala la aplicación gPodder Sync o solicita al administrador del servidor que lo haga  Ve a Configuración » Sincronización en AntennaPod y toca Seleccionar un proveedor de sincronización  Selecciona ‘Nextcloud’  Ingresa la ‘Server address’ (la URL o la dirección IP del servidor) y toca Proceed  Inicia sesión en la ventana del navegador que se abre y autoriza a AntennaPodHabilitar la sincronización a través de gPodder  Crea una cuenta en el servidor www.gpodder.net o en tu propio servidor  When you have an account, log in on the webserver and create a device under Subscriptions » Devices for each client that you use:                                                  When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.                                                  Ve a Configuración » Sincronización en AntennaPod y toca Seleccionar un proveedor de sincronización  Seleccione ‘gPodder’  Introduzca la dirección del servidor (por ejemplo, www.gpodder.net) y pulse Iniciar sesión  Introduzca el “Nombre de usuario” y la “Contraseña” y pulse Iniciar sesión  Seleccione el dispositivo que ha creado en el servidorNota ¿Creó un dispositivo mientras configuraba la sincronización en AntennaPod en lugar de crear un dispositivo de antemano en el sitio web? Así que asegúrate de presionar el botón Force sync en AntennaPod para cargar el modo de reproducción de todos los episodios que escuchó en el pasado. Si no haces esto, solo se sincronizarán los podcasts que se agregaron después de vincular los dispositivos. Hay un problema abierto para gpodder.net que solicita cambiar este comportamiento."
+      "excerpt"  : "Cómo sincronizar entre dispositivosAntennaPod puede sincronizar tus suscripciones y el progreso de escucha con otras instalaciones de AntennaPod, así como con otras aplicaciones (de escritorio)....",
+      "content"  : "Cómo sincronizar entre dispositivosAntennaPod puede sincronizar tus suscripciones y el progreso de escucha con otras instalaciones de AntennaPod, así como con otras aplicaciones (de escritorio). Para configurar la sincronización, necesitas un servidor, el punto central a través del cual tus datos se comparten con otros dispositivos. Tienes varias opciones para esto:  gpodder.net ofrece un servidor de sincronización gPodder gratuito al que cualquiera puede unirse. Desafortunadamente, debido a la popularidad del servicio y su financiamiento limitado, este servidor a menudo está sobrecargado, lo que genera errores en AntennaPod.  Se recomienda encarecidamente a los usuarios más inclinados a la tecnología que autohospeden un servidor de sincronización. Un servidor autohospedado es más confiable y ayuda a reducir la carga de los servicios públicos gratuitos. Hay varias opciones: Nextcloud con la aplicación gPodder Sync, una  gPodder, o el servidor Micro GPodder.Activa la sincronización a través de Nextcloud  Si tienes una cuenta de Nextcloud, instala la aplicación gPodder Sync o solicita al administrador del servidor que lo haga  Ve a Configuración » Sincronización en AntennaPod y toca Seleccionar un proveedor de sincronización  Selecciona ‘Nextcloud’  Ingresa la ‘Server address’ (la URL o la dirección IP del servidor) y toca Proceed  Inicia sesión en la ventana del navegador que se abre y autoriza a AntennaPodHabilitar la sincronización a través de gPodder  Crea una cuenta en el servidor www.gpodder.net o en tu propio servidor  When you have an account, log in on the webserver and create a device under Subscriptions » Devices for each client that you use:                                When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.                                Ve a Configuración » Sincronización en AntennaPod y toca Seleccionar un proveedor de sincronización  Seleccione ‘gPodder’  Introduzca la dirección del servidor (por ejemplo, www.gpodder.net) y pulse Iniciar sesión  Introduzca el “Nombre de usuario” y la “Contraseña” y pulse Iniciar sesión  Seleccione el dispositivo que ha creado en el servidorNota ¿Creó un dispositivo mientras configuraba la sincronización en AntennaPod en lugar de crear un dispositivo de antemano en el sitio web? Así que asegúrate de presionar el botón Force sync en AntennaPod para cargar el modo de reproducción de todos los episodios que escuchó en el pasado. Si no haces esto, solo se sincronizarán los podcasts que se agregaron después de vincular los dispositivos. Hay un problema abierto para gpodder.net que solicita cambiar este comportamiento."
     } ,
   
+    
     
     {
       "title"    : "Empezando",
       "url"      : "/es/documentation/getting-started",
+      "excerpt"  : "Empezando¡Bienvenido a AntennaPod! Más abajo, puedes encontrar algunos detalles sobre como empezar a utilizar AntennaPod.En primer lugar, debes suscribirte a un podcast. Puedes encontrar más...",
       "content"  : "Empezando¡Bienvenido a AntennaPod! Más abajo, puedes encontrar algunos detalles sobre como empezar a utilizar AntennaPod.En primer lugar, debes suscribirte a un podcast. Puedes encontrar más información al respecto aquí. Después de suscribirse, los nuevos episodios se muestran en la Buzón de entrada. Ahí puedes decidir si te apetece escucharlos o no. Si un episodio está en la bandeja de entrada, significa que aún no has decidido qué hacer con él.  Si no te interesa un episodio, basta con deslizar el dedo para eliminarlo de la bandeja de entrada. El episodio seguirá marcado como no reproducido y podrás encontrarlo en la página Episodios, así como en la página del podcast.  Si estás interesado en el episodio, puedes hacer una de dos cosas, dependiendo de tus hábitos de escucha.          Descargue el episodio. Al descargarlo, AntennaPod también añade automáticamente el episodio a la cola y lo elimina de la bandeja de entrada. Se puede configurar si se desea que los nuevos episodios se coloquen en la cola anterior, posterior o posterior al episodio que se está reproduciendo en ese momento. La descarga es el modo principal para el que AntennaPod fue diseñado originalmente, pero como el streaming es cada vez más popular, también puede utilizar la segunda opción.      Basta con añadir el episodio a la cola. AntennaPod lo retira automáticamente de la bandeja de entrada y lo inserta en la cola. Después puedes reproducir directamente el episodio sin tener que descargarlo, para que no ocupe espacio. Piense: Streaming como los vídeos en YouTube. La desventaja es que no estará disponible sin conexión, consume tu conexión de datos móviles cuando estás de viaje y hace que el avance rápido sea un poco más lento.        Si ha terminado de reproducir, AntennaPod marca el episodio como reproducido y lo elimina de la cola. Existe una opción para eliminar automáticamente la descarga después de la reproducción. Puede encontrar una lista de todos los episodios que aún están descargados en su dispositivo (estén o no en la cola) en la página Descargas.  Si le gusta un episodio y piensa volver a escucharlo, también puede marcarlo como favorito. Puede filtrar la página Episodios para mostrar sólo sus favoritos y (por defecto) AntennaPod no borrará los favoritos después de reproducirlos.Si estás suscrito a un podcast realmente bueno y sabes desde el principio que todos los episodios serán buenos, puedes utilizar la función de descarga automática. Cuando se activa para un podcast, todos sus futuros nuevos episodios se descargan automáticamente y se añaden a la cola. Se eliminarán automáticamente de la bandeja de entrada en cuanto se descarguen."
     } ,
   
     
+    
     {
       "title"    : "Utilizar la pantalla de inicio",
       "url"      : "/es/documentation/getting-started/home",
+      "excerpt"  : "Utilizar la pantalla de inicioLa pantalla de inicio le permite tener una visión general y rápida de sus podcasts, comenzar a escuchar y realizar una...",
       "content"  : "Utilizar la pantalla de inicioLa pantalla de inicio le permite tener una visión general y rápida de sus podcasts, comenzar a escuchar y realizar una gama de acciones, todo desde la misma pantalla.Contiene cinco secciones, cada una de las cuales muestra episodios o suscripciones para interactuar directamente con, pero también proporciona un acceso directo a la pantalla relacionada (p.ej. su cola). Puede personalizar su pantalla de inicio - es decir, reordenar estas secciones u ocultar algunas de ellas - tocando ... en la barra superior y seleccionando Configurar pantalla de inicio.Seguir escuchandoEsta sección te permite seguir escuchando rápida y fácilmente los episodios que ya tienes en tu cola, empezando por aquellos que ya has empezado a escuchar pero no has terminado.Ver las novedadesEn esta sección, encontrarás los últimos episodios que han aterrizado en tu bandeja de entrada como resultado de haber actualizado tus suscripciones.SorprenderteAquí puedes encontrar una selección aleatoria de episodios de tus suscripciones que no has escuchado todavía. Si no ve nada que le apetezca escuchar, puede pulsar el botón de flecha para actualizar la selección.Compruebe sus clásicosAquí puede ver y acceder rápidamente a sus suscripciones más escuchadas de todos los tiempos.Administrar de descargasEn esta sección, puedes interactuar con los episodios que descargaste en tu dispositivo."
     } ,
   
     
+    
     {
       "title"    : "Suscribirse a un podcast",
       "url"      : "/es/documentation/getting-started/subscribe",
+      "excerpt"  : "Suscribirse a un podcastLo primero que querrás hacer después de descargar una aplicación de podcasts será suscribirte a un podcast.SuscribiéndoseAbre el cajón deslizando desde la...",
       "content"  : "Suscribirse a un podcastLo primero que querrás hacer después de descargar una aplicación de podcasts será suscribirte a un podcast.SuscribiéndoseAbre el cajón deslizando desde la izquierda o tocando el icono del menú de hamburgesa ☰ en la esquina superior izquierda. Ve a + Añadir Pódcast Ahora, puedes buscar, ver las sugerencias o añadir un podcast a través de su dirección RSS.También puedes importar un archivo OPML o consultar únicamente la base de datos de Apple Podcasts, gpodder.net, fyyd o Podcast Index, respectivamente. También puede importar fuentes RSS o Atom, o esquemas de las URL como pcast:// y itpc://.Suscribiéndose a servicios de tercerosHemos recibido algunas preguntas acerca del soporte para plataformas como SoundCloud, MixCloud y similares. Aún que puede parecer interesante tener una característica para simplemente pegar/abrir URLs de canales en AntennaPod, se ha decidido no implementarlo. Ese tipo de plataformas pueden aparecer y desaparecer, mientras que conlleva bastante trabajo de nuestros voluntarios implementar esta característica. Si eres un desarrollador, por supuesto que estás bienvenido a charlar sobre una propuesta sobre lo que estarías dispuesto en implementar.SoundCloudSoundCloud permite a los productores crear podcasts a partir de su contenido de una forma bastante fácil. Deberás de dirigirte a ellos, compartir la página de ayuda de SoundCloud (enlazada justo arriba), y preguntar si estarían dispuestos a ponerlo en funcionamiento.MixcloudMixcloud, desafortunadamente no provee esta opción a los creadores de contenido Como siempre, hay alguien en la comunidad del podcasting que ha desarrollado una solución. Deberás de comprobar las opciones que se describen en esta entrada.YouTubeYouTube permite que te suscribas al feed de un canal, pero:  AntennaPod no puede descargar vídeos de manera automática, debido a que Youtube no lo permite. Al fin y al cabo, mostrar anuncios es su modelo de negocios.  No tendrás una imagen enlazada a tu suscripción, ya que YouTube no las incluye en sus canales.Pero es una manera de recibir notificaciones sobre nuevos episodios. Simplemente añade la URL del usuario/canal (https://youtube.com/user/USERNAME o https://www.youtube.com/channel/CHANNEL_ID) en AntennaPod. Deberías de ver un cuadro con la opción ‘RSS’; tócalo para añadir el feed. Si eso no funciona como se describe, añade https://www.youtube.com/feeds/videos.xml?channel_id=&lt;CHANNEL_ID&gt; en AntennaPod. Puedes encontrar el canal con el id en la URL del canal. Si el canal al que te quieres suscribir es una cuenta de usuario (con una URL como youtube.com/user/UserName), puedes contactar con el usuario para pedirles su cuenta de usuario (aquí se explica cómo un usuario puede averiguar el id de su canal).No tenemos ninguna información sobre otras plataformas, como puedes ver. Estamos contentos de compartirla aquí si compartes tu opinión mediante el foro."
     } ,
   
     
+    
     {
       "title"    : "Reproducción",
       "url"      : "/es/documentation/playback",
+      "excerpt"  : "ReproducciónMás abajo, puedes encontrar temas relacionados con la reproducción de episodios.",
       "content"  : "ReproducciónMás abajo, puedes encontrar temas relacionados con la reproducción de episodios."
     } ,
   
     
+    
     {
       "title"    : "Reproducir en coches (Android Auto)",
       "url"      : "/es/documentation/playback/android-auto",
+      "excerpt"  : "Reproducir en coches (Android Auto)Puede usar AntennaPod para escuchar podcasts en su automóvil habilitado para Android Auto.¿Has descargado AntennaPod desde la Google Play?No se requieren...",
       "content"  : "Reproducir en coches (Android Auto)Puede usar AntennaPod para escuchar podcasts en su automóvil habilitado para Android Auto.¿Has descargado AntennaPod desde la Google Play?No se requieren pasos adicionales para usar AntennaPod en su automóvil. Simplemente conecte su teléfono y comience a escuchar.¿Descargaste AntennaPod desde F-Droid?Si descargó AntennaPod desde F-Droid, se requieren pasos adicionales.  Abre la configuración de Android Auto.  Active la Configuración de desarrolladores presionando el número de versión 10 veces.  Abra el menú de 3 puntos e inicie la configuración del desarrollador.  Habilite Fuentes desconocidas."
     } ,
   
     
+    
     {
       "title"    : "Rebobinado automático",
       "url"      : "/es/documentation/playback/auto-rewind",
+      "excerpt"  : "Rebobinado automáticoCuando un episodio que se pausó se vuelve a reproducir, AntennaPod lo rebobinará de manera automática, por lo que será más fácil continuar siguiendo...",
       "content"  : "Rebobinado automáticoCuando un episodio que se pausó se vuelve a reproducir, AntennaPod lo rebobinará de manera automática, por lo que será más fácil continuar siguiendo el programa. Cuánto se rebobinará no puede ser configurado y dependerá de cuánto tiempo lleve en pausa el episodio.            Tiempo desde la última reproducción      Duración del rebobinado                  Más de 1 día      20 segundos              Más de 1 hora      10 segundos              Más de 1 minuto      3 segundos      "
     } ,
   
     
+    
     {
       "title"    : "Reproducción en Google Chromecast",
       "url"      : "/es/documentation/playback/chromecast",
-      "content"  : "Reproducción en Google ChromecastPuedes utilizar AntennaPod para escuchar podcasts en tu Google Chromecast.¿Has descargado AntennaPod desde la Google Play?No se requieren más pasos para utilizar AntennaPod con su Google Chromecast. Abra la pantalla del reproductor expandiendo el pequeño reproductor de la parte inferior y pulse el botón Chromecast. Asegúrate de que estás en la misma red Wi-Fi que tu Chromecast.                                                ¿Descargaste AntennaPod desde F-Droid?Desafortunadamente, la compatibilidad con Google Chromecast no está disponible en la versión F-Droid porque Chromecast no es de código abierto."
+      "excerpt"  : "Reproducción en Google ChromecastPuedes utilizar AntennaPod para escuchar podcasts en tu Google Chromecast.¿Has descargado AntennaPod desde la Google Play?No se requieren más pasos para utilizar...",
+      "content"  : "Reproducción en Google ChromecastPuedes utilizar AntennaPod para escuchar podcasts en tu Google Chromecast.¿Has descargado AntennaPod desde la Google Play?No se requieren más pasos para utilizar AntennaPod con su Google Chromecast. Abra la pantalla del reproductor expandiendo el pequeño reproductor de la parte inferior y pulse el botón Chromecast. Asegúrate de que estás en la misma red Wi-Fi que tu Chromecast.                              ¿Descargaste AntennaPod desde F-Droid?Desafortunadamente, la compatibilidad con Google Chromecast no está disponible en la versión F-Droid porque Chromecast no es de código abierto."
     } ,
   
+    
     
     {
       "title"    : "Atajos de teclado",
       "url"      : "/es/documentation/playback/shortcuts",
+      "excerpt"  : "Atajos de tecladoSi tienes un teclado físico (‘hardware’) conectado a tu teléfono o tablet, puedes utilizar ciertas combinaciones de teclas para controlar la reproducción en...",
       "content"  : "Atajos de tecladoSi tienes un teclado físico (‘hardware’) conectado a tu teléfono o tablet, puedes utilizar ciertas combinaciones de teclas para controlar la reproducción en AntennaPod. El volumen y las acciones de (des)enmudecer afectan al canal de audio para los medios (en lugar de, por ejemplo, el de las notificaciones).Todas las pantallas (excepto el reproductor de video y los ajustes)            Tecla      Acción                  P      Reproducir/Pausar              J/A/,      Rebobinar              K/D/.      Adelantar              +/W      Elevar el volumen              -/S      Bajar el volumen              M      Enmudecer/Desenmudecer (alternar) - solo en Android 6 o superior      Reproductor de vídeo            Tecla      Acción                  P/Espacio      Reproducir/Pausar              J/A/,      Rebobinar              K/D/.      Adelantar              F/Esc      Salir del reproductor de vídeo              i      Entrar en el modo imagen-en-imagen              0-9      Ir al 0-90% del vídeo              +/W      Elevar el volumen              -/S      Bajar el volumen              M      Enmudecer/Desenmudecer (alternar) - solo en Android 6 o superior      "
     } ,
   
     
+    
     {
       "title"    : "Para podcasters &amp; hosters",
       "url"      : "/es/documentation/podcasters-hosters",
+      "excerpt"  : "Para podcasters &amp; hostersDebajo, puedes encontrar nuestra información de soporte para podcasters y proveedores de hosting.",
       "content"  : "Para podcasters &amp; hostersDebajo, puedes encontrar nuestra información de soporte para podcasters y proveedores de hosting."
     } ,
   
     
+    
     {
       "title"    : "Crear un enlace &#39;Abrir en Antennapod&#39;",
       "url"      : "/es/documentation/podcasters-hosters/add-on-antennapod",
-      "content"  : "Crear un enlace ‘Abrir en Antennapod’¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast(s) en AntennaPod? Sólo tiene que incluir un enlace como el que figura a continuación en su sitio web o donde desee. Asegúrese de sustituir xyz por la URL de su canal RSS y abc por el título de su podcast.https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abcYou could also turn the same link into a button, e.g. by using the following code:&lt;style&gt;.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}&lt;/style&gt;&lt;a href=\"https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abc\" class=\"antennapod-subscribe\"&gt;Subscribe in AntennaPod&lt;/a&gt;Lo que ven los usuariosLos usuarios que hayan instalado AntennaPod y abran ese enlace podrán obtener una vista previa de los episodios y suscribirse a su podcast directamente en la aplicación, como en las capturas de pantalla a continuación.                                                                                                Por otro lado, los usuarios que no tengan instalado AntennaPod verán una página con instrucciones para descargar la aplicación o suscribirse a su podcast manualmente, como en esta página de ejemplo.BrandingSi necesitas nuestro logo, por favor echa un vistazo a nuestro repositorio de estilo."
+      "excerpt"  : "Crear un enlace ‘Abrir en Antennapod’¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast(s) en AntennaPod? Sólo tiene que incluir...",
+      "content"  : "Crear un enlace ‘Abrir en Antennapod’¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast(s) en AntennaPod? Sólo tiene que incluir un enlace como el que figura a continuación en su sitio web o donde desee. Asegúrese de sustituir xyz por la URL de su canal RSS y abc por el título de su podcast.https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abcYou could also turn the same link into a button, e.g. by using the following code:&lt;style&gt;.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}&lt;/style&gt;&lt;a href=\"https://antennapod.org/deeplink/subscribe?url=xyz&amp;title=abc\" class=\"antennapod-subscribe\"&gt;Subscribe in AntennaPod&lt;/a&gt;Lo que ven los usuariosLos usuarios que hayan instalado AntennaPod y abran ese enlace podrán obtener una vista previa de los episodios y suscribirse a su podcast directamente en la aplicación, como en las capturas de pantalla a continuación.                                                            Por otro lado, los usuarios que no tengan instalado AntennaPod verán una página con instrucciones para descargar la aplicación o suscribirse a su podcast manualmente, como en esta página de ejemplo.BrandingSi necesitas nuestro logo, por favor echa un vistazo a nuestro repositorio de estilo."
     } ,
   
+    
     
     {
       "title"    : "Getting funded",
       "url"      : "/es/documentation/podcasters-hosters/funding",
+      "excerpt"  : "Getting fundedTo ensure the sustainability of an open podcasting ecosystem, podcasters need funding beyond advertising and buy-outs by platforms. AntennaPod supports different ways through which...",
       "content"  : "Getting fundedTo ensure the sustainability of an open podcasting ecosystem, podcasters need funding beyond advertising and buy-outs by platforms. AntennaPod supports different ways through which podcasters can earn an income:  Somos compatibles con la etiqueta de financiación, permitiendo que los podcasters añadan enlaces a sus páginas de pago en sus feeds RSS: ver cómo usar esta etiqueta. Esta es la manera por defecto para que los podcasters obtengan apoyo financiero por parte de su audiencia.  If for any reason you don’t use the funding tag yet, you can still include information about how your audience can support you in your podcast or episode descriptions. It will still be visible to AntennaPod users, even though less prominently. For example, if you offer a premium tier, AntennaPod users will be able to subscribe to it using a personalized feed URL or by entering the login credentials you give them.  In the future, we would also like to support automatic micropayments via the value tag. As it is complex functionality and the technical specifications are still evolving, AntennaPod won’t support it soon, but we are closely following developments."
     } ,
   
     
+    
     {
       "title"    : "Listar tu podcast",
       "url"      : "/es/documentation/podcasters-hosters/list-podcast",
+      "excerpt"  : "Listar tu podcastSi eres un productor de podcasts y quieres hacer que tu podcast sea visible en AntennaPod, esta página es para tí.AntennaPod principalmente utiliza...",
       "content"  : "Listar tu podcastSi eres un productor de podcasts y quieres hacer que tu podcast sea visible en AntennaPod, esta página es para tí.AntennaPod principalmente utiliza dos directorios para su característica de búsqueda:  Podcast Index (pregunta a tu huésped como añadir tu podcast, o añade tu propio podcast a través de la API)  Apple Podcasts (añadir a través de Podcast Connect)Si tu podcast está disponible en cualquiera de las tres, puede ser encontrado en AntennaPod."
     } ,
   
     
+    
     {
       "title"    : "Actualizando las direcciones url de los feeds",
       "url"      : "/es/documentation/podcasters-hosters/update-feed-urls",
+      "excerpt"  : "Actualizando las direcciones url de los feedsAl cambiar de proveedor de alojamiento, la URL de su canal RSS también suele cambiar. En este caso, le...",
       "content"  : "Actualizando las direcciones url de los feedsAl cambiar de proveedor de alojamiento, la URL de su canal RSS también suele cambiar. En este caso, le recomendamos encarecidamente que organice una “redirección” adecuada del antiguo al nuevo canal con cualquiera de estos códigos de estado de respuesta HTTP:  301 Movido permanentemente  308 Redirección permanenteDe esta forma te aseguras de que los usuarios de AntennaPod reciban este cambio aplicado en su app. Tu audiencia seguirá recibiendo tus episodios, sin tener que suscribirse de nuevo al nuevo feed.No olvide actualizar también su entrada en los directorios que AntennaPod utiliza la búsqueda."
     } ,
   
     
+    
     {
       "title"    : "Cola",
       "url"      : "/es/documentation/queue",
+      "excerpt"  : "ColaMás abajo, puedes encontrar preguntas frecuentes sobre la cola.",
       "content"  : "ColaMás abajo, puedes encontrar preguntas frecuentes sobre la cola."
     } ,
   
     
+    
     {
       "title"    : "Cómo utilizar la cola",
       "url"      : "/es/documentation/queue/how-to-use",
+      "excerpt"  : "Cómo utilizar la colaPuedes utilizar la cola para almacenar episodios que pretendes escuchar. Si encuentras algún episodio interesante, mantenlo pulsado y selecciona Añadir a la...",
       "content"  : "Cómo utilizar la colaPuedes utilizar la cola para almacenar episodios que pretendes escuchar. Si encuentras algún episodio interesante, mantenlo pulsado y selecciona Añadir a la cola. Si descargas un episodio, AntennaPod lo añadirá a la cola de manera automática."
     } ,
   
     
+    
     {
       "title"    : "(Des)bloqueando la cola",
       "url"      : "/es/documentation/queue/lock",
+      "excerpt"  : "(Des)bloqueando la colaUn problema bastante común que algunos usuarios tienen es que de repente, no pueden reordenar la cola de manera manual.Si no puedes mover...",
       "content"  : "(Des)bloqueando la colaUn problema bastante común que algunos usuarios tienen es que de repente, no pueden reordenar la cola de manera manual.Si no puedes mover los episodios en la cola, puede ser por cualquiera de las siguiente razones:  Mantener ordenado está habilitado. Puedes deshabilitar esta opción tocando en los tres puntos … en la barra superior y seleccionar Ordenar.  La cola está bloqueada. Puedes desbloquear la cola tocando en el icono desbloquear en la barra superior y desmarcando Bloqueo de cola ."
     } ,
   
     
+    
     {
       "title"    : "Cómo utilizar múltiples colas",
       "url"      : "/es/documentation/queue/multiple-queues",
+      "excerpt"  : "Cómo utilizar múltiples colasActualmente no se soportan varias colas. Puedes seguir la cuestión 2648 en GitHub para más información y/o suscribirte a la cuestión para...",
       "content"  : "Cómo utilizar múltiples colasActualmente no se soportan varias colas. Puedes seguir la cuestión 2648 en GitHub para más información y/o suscribirte a la cuestión para mantenerte al día en caso de que haya algún avance."
     } ,
   
     
+    
     {
       "title"    : "Cómo ordenar tu cola",
       "url"      : "/es/documentation/queue/sorting",
+      "excerpt"  : "Cómo ordenar tu colaYou can sort your queue using different sorting criteria: Episode title, Podcast title, Duration, Date, Random and Smart shuffle. As most of...",
       "content"  : "Cómo ordenar tu colaYou can sort your queue using different sorting criteria: Episode title, Podcast title, Duration, Date, Random and Smart shuffle. As most of them are self-explanatory, this page focuses specifically on Podcast title and Smart shuffle.Título del podcastThis criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by Date and then sort by Podcast title.Mezcla inteligenteSmart Shuffle es un criterio avanzado de ordenación de cola que le permite mantener su cola ordenada por fecha de publicación y, al mismo tiempo, evitar en la medida de lo posible tener grupos de episodios de una sola suscripción en su cola.Para usar la función de reproducción aleatoria inteligente, coloca algunos episodios de diferentes suscripciones en tu cola , luego toca … en la barra superior, selecciona Ordenar y, finalmente, Reproducción aleatoria inteligente. Al igual que otros criterios de ordenación, la reproducción aleatoria inteligente se puede ordenar en orden ascendente o descendente.Funcionamiento detalladoSupongamos que tiene 15 episodios en la cola: 1 de cada uno de los podcasts A, B y C, 2 del podcast D y 10 del podcast E. Smart shuffle toma primero el podcast con más episodios (E) y distribuye sus episodios en la cola: EE_EE_E_E_EE_EE. A continuación, toma el podcast con el segundo mayor número de episodios (D) y los distribuye en los espacios disponibles: EE_EEDE_EDEE_EE. Esto continúa hasta que terminamos con una cola que se parece a esto: EEBEEDECEDEEAEE.Las fechas de publicación influyen tanto dentro de los podcasts (en nuestro ejemplo, los episodios del podcast E se ordenan en consecuencia) como entre podcasts (el episodio del podcast B se publica antes que el del podcast A porque el primero es más antiguo)."
     } ,
   
     
+    
     {
       "title"    : "Suscripciones",
       "url"      : "/es/documentation/subscriptions",
+      "excerpt"  : "SuscripcionesMás abajo, puedes encontrar preguntas frecuentes sobre las suscripciones.",
       "content"  : "SuscripcionesMás abajo, puedes encontrar preguntas frecuentes sobre las suscripciones."
     } ,
   
     
+    
     {
       "title"    : "Etiquetas de suscripción (grupos o categorías)",
       "url"      : "/es/documentation/subscriptions/subscription-groups",
+      "excerpt"  : "Etiquetas de suscripción (grupos o categorías)Para ayudarte a organizar tus suscripciones, puedes asignar etiquetas (a veces llamadas grupos o categorías) a un podcast. Por favor,...",
       "content"  : "Etiquetas de suscripción (grupos o categorías)Para ayudarte a organizar tus suscripciones, puedes asignar etiquetas (a veces llamadas grupos o categorías) a un podcast. Por favor, ten en cuenta que por el momento, no es posible crear colas basándose en las etiquetas. Esto requeriría el soporte para múltiples colas primero. (Lee también la petición de característica en nuestra plataforma de desarrollo.)Para asignar etiquetas a un podcast tienes que:  Abrir un podcast específico  Tocar en el icono del engranaje para acceder a sus opciones  Seleccionar el ajuste Etiquetas"
     } 
   

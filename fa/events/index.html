@@ -11,6 +11,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="view-transition" content="same-origin">
   <title>رویدادها – AntennaPod</title>
   <meta name="description" content="آنتناپاد پخش‌کننده‌ای کاملاً آزاد برای پادپخش‌هاست. این کاره متن‌باز است و می‌توانید به هر خوراک RSS مشترک شوید. آنتناپاد به‌دست داوطلبان بدون هیچ نیت اقتصادی ساخته شده، پس حریم...">
 
@@ -41,248 +42,299 @@
   <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Language redirect (loaded early, runs once per session) -->
+  <script src="/assets/js/language-redirect.js"></script>
+
+  <!-- Theme switcher (loaded early to prevent flash) -->
+  <script src="/assets/js/theme-switcher.js"></script>
+
   <!-- Resources -->
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-  <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script defer src="/assets/js/search.min.js"></script>
   <script defer src="/assets/js/tooltip.js"></script>
   <script defer src="/assets/js/copy-url.js"></script>
   <script defer src="/assets/js/mastodon-share.js"></script>
+  <script defer src="/assets/js/github-mentions.js"></script>
+  <script defer src="/assets/js/contributors.js"></script>
+  <script defer src="/assets/js/localize-links.js"></script>
 
   </head>
   <body dir="auto">
-    <div class="content">
-    <div class="w-100 fixed background-gray-100">
-  <div class="container px-0 py-2 py-md-4">
-    <div class="navbar navbar-expand-xl">
+    <a href="#main-content" class="visually-hidden-focusable skip-link">Skip to main content</a>
+    <div class="flex-grow-1">
+    <header class="sticky-top bg-body-tertiary">
+  <div class="container px-4 px-lg-0 py-2 py-md-4">
+    <nav class="navbar navbar-expand-xl p-0">
+      <a class="navbar-brand me-auto" href="/fa">
+        <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo" class="h-auto">
+      </a>
 
-      <div class="col">
-        <a href="/fa">
-          <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo">
-        </a>
-      </div>
-
-      <div class="col-auto">
-        <div class="collapse navbar-collapse flex-grow-0 weight-500">
-          <div class="navbar-nav align-items-center">
+      <!-- Desktop Navigation -->
+      <div class="d-none d-xl-flex navbar-nav align-items-center fw-medium">
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/fa/about">
+            درباره
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/fa/blog">
+            وبلاگ
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2 active">
+          <a class="nav-link fw-bold text-body small" href="/fa/events">
+            رویدادها
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/fa/contribute">
+            مشارکت
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/fa/documentation">
+            مستندات
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="https://forum.antennapod.org/">
+            انجمن
+          </a>
+        </div>
+        
+        <div class="nav-item dropdown ms-2">
+          <button class="nav-link dropdown-toggle bg-transparent" id="navbarDropdown1" aria-label="تعویض‌کننده زبان" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-globe text-body"></i>
+            <span class="ms-1 me-1 text-body fw-semibold">FA</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
             
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/fa/about">
-                درباره
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/fa/blog">
-                وبلاگ
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2 active">
-              <a class="nav-link" href="/fa/events">
-                رویدادها
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/fa/contribute">
-                مشارکت
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="/fa/documentation">
-                مستندات
-              </a>
-            </div>
-            
-            
-            
-            
-            <div class="nav-item ml-2">
-              <a class="nav-link" href="https://forum.antennapod.org/">
-                انجمن
-              </a>
-            </div>
-            
-            <div class="nav-item ml-2 ml-sm-1 text-center">
-              <div class="nav-item dropdown mb-0">
-                <button class="nav-link dropdown-toggle" id="navbarDropdown1" aria-label="تعویض‌کننده زبان" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-globe size-16 color-gray-900"></i>
-                  <span class="ml-1 mr-1 size-16 color-gray-900 weight-600">FA</span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                  
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/da/events/">Dansk</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/da/events/">Dansk</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/de/events/">Deutsch</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/de/events/">Deutsch</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/events/">English</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/events/">English</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/es/events/">Español</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/es/events/">Español</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/events/">Français</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fr/events/">Français</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/it/events/">Italiano</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/it/events/">Italiano</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/events/">Nederlands</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/nl/events/">Nederlands</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/fa/events/">فارسی</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fa/events/">فارسی</a>
   
 
   
-    <a class="dropdown-item" onchange="location = this.value;" href="/ja/events/">日本語</a>
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ja/events/">日本語</a>
   
 
 
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-
-        <div class="d-xl-none">
-          <div class="nav-item text-center d-inline-block">
-            <div class="nav-item dropdown">
-              <button class="nav-link dropdown-toggle" id="navbarDropdown2" aria-label="تعویض‌کننده زبان" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-globe size-16 color-gray-900"></i><span class="ml-1 size-16 color-gray-900 weight-600">FA</span>
-              </button>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/da/events/">Dansk</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/de/events/">Deutsch</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/events/">English</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/es/events/">Español</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/fr/events/">Français</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/it/events/">Italiano</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/nl/events/">Nederlands</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/fa/events/">فارسی</a>
-  
-
-  
-    <a class="dropdown-item" onchange="location = this.value;" href="/ja/events/">日本語</a>
-  
-
-
-            </div>
+        <div class="nav-item dropdown ms-2">
+          <button class="nav-link dropdown-toggle bg-transparent" id="themeDropdown1" aria-label="Theme switcher" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-circle-half-stroke theme-icon-auto text-body"></i>
+            <i class="fa-solid fa-sun theme-icon-light text-body d-none"></i>
+            <i class="fa-solid fa-moon theme-icon-dark text-body d-none"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown1">
+            <button class="dropdown-item fw-medium small" data-theme-value="auto"><i class="fa-solid fa-circle-half-stroke me-2"></i>Auto</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="light"><i class="fa-solid fa-sun me-2"></i>Light</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="dark"><i class="fa-solid fa-moon me-2"></i>Dark</button>
           </div>
         </div>
-
-        <button class="navbar-toggler" onclick="openNav()"><img src="/assets/images/icons/burger.svg"></button>
       </div>
 
-    </div>
+      <!-- Mobile Controls -->
+      <div class="d-xl-none d-flex align-items-center gap-1">
+        <div class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle bg-transparent py-1 px-2" id="navbarDropdown2" aria-label="تعویض‌کننده زبان" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-globe text-body"></i>
+            <span class="ms-1 text-body fw-semibold d-none d-sm-inline">FA</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/da/events/">Dansk</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/de/events/">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/events/">English</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/es/events/">Español</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fr/events/">Français</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/it/events/">Italiano</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/nl/events/">Nederlands</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fa/events/">فارسی</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ja/events/">日本語</a>
+  
+
+
+          </div>
+        </div>
+        <div class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle bg-transparent py-1 px-2" id="themeDropdown2" aria-label="Theme switcher" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-circle-half-stroke theme-icon-auto text-body"></i>
+            <i class="fa-solid fa-sun theme-icon-light text-body d-none"></i>
+            <i class="fa-solid fa-moon theme-icon-dark text-body d-none"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown2">
+            <button class="dropdown-item fw-medium small" data-theme-value="auto"><i class="fa-solid fa-circle-half-stroke me-2"></i>Auto</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="light"><i class="fa-solid fa-sun me-2"></i>Light</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="dark"><i class="fa-solid fa-moon me-2"></i>Dark</button>
+          </div>
+        </div>
+        <button class="navbar-toggler border-0 py-1 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+          <img src="/assets/images/icons/burger.svg" width="24" height="24" alt="Menu">
+        </button>
+      </div>
+    </nav>
   </div>
+</header>
 
-  <div id="navbar-mobile" class="overlay">
-    <button class="closebtn" onclick="closeNav()">×</button>
-      <div class="overlay-header">
-        <img src="/assets/branding/logo-icon.svg" width="80" alt="نماد آنتناپاد">
-      </div>
-      <div class="overlay-content">
+<!-- Mobile Menu Offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header border-bottom px-4 py-3">
+    <a href="/fa" class="offcanvas-title" id="mobileMenuLabel">
+      <img src="/assets/branding/logo-full-horizontal-dynamic.svg" class="offcanvas-logo" alt="نماد آنتناپاد">
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column">
+    <nav class="nav flex-column flex-grow-1">
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/fa/about">
+        درباره
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/fa/blog">
+        وبلاگ
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/fa/events">
+        رویدادها
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/fa/contribute">
+        مشارکت
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/fa/documentation">
+        مستندات
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="https://forum.antennapod.org/">
+        انجمن
+      </a>
+      
+    </nav>
+    <div class="mt-auto pt-4 border-top px-2">
+      <div class="d-flex flex-wrap gap-3">
         
-        <a href="/fa/about">درباره</a>
-        
-        <a href="/fa/blog">وبلاگ</a>
-        
-        <a href="/fa/events">رویدادها</a>
-        
-        <a href="/fa/contribute">مشارکت</a>
-        
-        <a href="/fa/documentation">مستندات</a>
-        
-        <a href="https://forum.antennapod.org/">انجمن</a>
-        
-      </div>
-      <div class="overlay-footer">
-        
-        <a class="mr-2 color-gray-900" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener"><i class="fa-brands fa-mastodon mr-1"></i>Mastodon</a>
+        <a class="text-body-secondary" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+          <i class="fa-brands fa-mastodon me-1"></i>Mastodon
+        </a>
         
         
-        <a class="mr-2 color-gray-900" href="https://github.com/AntennaPod" target="_blank" rel="noopener"><i class="fa-brands fa-github mr-1"></i>GitHub</a>
+        <a class="text-body-secondary" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github me-1"></i>GitHub
+        </a>
         
         
-        <a class="mr-2 color-gray-900" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky mr-1"></i>Bluesky</a>
+        <a class="text-body-secondary" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+          <i class="fa-brands fa-bluesky me-1"></i>Bluesky
+        </a>
         
         
-        <a class="mr-2 color-gray-900" href="https://twitter.com/antennapod" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter mr-1"></i>Twitter</a>
+        <a class="text-body-secondary" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+          <i class="fa-brands fa-x-twitter me-1"></i>Twitter
+        </a>
         
       </div>
     </div>
   </div>
 </div>
 
-<script>
-    function openNav() {
-        document.getElementById("navbar-mobile").style.height = "100%";
-        document.documentElement.style.overflow = 'hidden';
-        document.body.scroll = "no";
-    }
+    <main id="main-content">
+        
 
-    function closeNav() {
-        document.getElementById("navbar-mobile").style.height = "0%";
-        document.documentElement.style.overflow = 'scroll';
-        document.body.scroll = "yes";
-    }
-</script>
 
-        <div class="container-fluid background-gray-100 py-4">
+
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-body-tertiary py-4">
     <div class="container">
       <h1>رویدادها</h1>
     </div>
@@ -291,9 +343,11 @@
 <div class="container-fluid">
     <div class="container py-5">
         <div class="row justify-content-between">
-            <div class="col-xl-3 mb-4 mb-xl-0 order-lg-2">
-              <div class="card">
-                <div class="card-body">
+            
+            
+            <div class="col-xl-5 mb-4 mb-xl-0 order-2 order-xl-2">
+              <div class="card sticky-xl-top" style="top: 6rem; margin-bottom: 6rem;">
+                <div class="card-body p-4">
                   <div class="card-text">
                     <h2 id="با-ما-دیدار-کنید">با ما دیدار کنید!</h2>
 
@@ -307,92 +361,106 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-7">
-                
-                
-                
-                
-                
-                  <div class="card event-card mb-4">
-    <a class="stretched-link" href="/fa/events/needs-decision"></a>
-      <img src="/assets/branding/covers/cover_001.png" loading="lazy">
-      <div class="card-body">
-        <h3 class="card-title">Needs: Decision - AntennaPod UX discussions</h3>
-        <h4 class="card-subtitle text-muted mb-2">
             
-                رویداد دوره‌ای: (تقریباً هر) دومین و چهارمین چهارشنبه ماه
             
-        </h4>
-        <p class="card-text">A bi-weekly meeting where core contributors discuss feature requests &amp; make tough choices.</p>
-      </div>
+            <div class="col-xl-7 order-1 order-xl-1">
+                
+                
+                
+                <div class="mb-4">
+                    <h2 class="h5 text-body-secondary mb-3">
+                        <i class="fa-solid fa-repeat me-2"></i>Recurring Events
+                    </h2>
+                    
+                        <div class="card event-card position-relative flex-column flex-md-row mb-4 overflow-hidden">
+  <a class="stretched-link" href="/fa/events/needs-decision"></a>
+  <img class="event-card-img" src="/assets/branding/covers/cover_001.png" loading="lazy">
+  <div class="card-body">
+    <h3 class="card-title">Needs: Decision - AntennaPod UX discussions</h3>
+    <p class="card-subtitle text-body-secondary mb-2">
+      
+        رویداد دوره‌ای: (تقریباً هر) دومین و چهارمین چهارشنبه ماه
+      
+    </p>
+    <p class="card-text mb-0">A bi-weekly meeting where core contributors discuss feature requests &amp; make tough choices.</p>
   </div>
+</div>
 
-                
-                
-                
-                  <div class="card event-card mb-4">
-    <a class="stretched-link" href="/fa/events/community-meeting"></a>
-      <img src="/assets/branding/covers/cover_001.png" loading="lazy">
-      <div class="card-body">
-        <h3 class="card-title">Monthly community meeting ☎ 🎙</h3>
-        <h4 class="card-subtitle text-muted mb-2">
-            
-                رویداد دوره‌ای: هر دومین شنبه ماه
-            
-        </h4>
-        <p class="card-text">Our monthly meeting to discuss anything AntennaPod. Join us!</p>
-      </div>
+                    
+                        <div class="card event-card position-relative flex-column flex-md-row mb-4 overflow-hidden">
+  <a class="stretched-link" href="/fa/events/community-meeting"></a>
+  <img class="event-card-img" src="/assets/branding/covers/cover_001.png" loading="lazy">
+  <div class="card-body">
+    <h3 class="card-title">Monthly community meeting ☎ 🎙</h3>
+    <p class="card-subtitle text-body-secondary mb-2">
+      
+        رویداد دوره‌ای: هر دومین شنبه ماه
+      
+    </p>
+    <p class="card-text mb-0">Our monthly meeting to discuss anything AntennaPod. Join us!</p>
   </div>
+</div>
 
+                    
+                </div>
                 
                 
-                
-                  <div class="card event-card mb-4">
-    <a class="stretched-link" href="/fa/events/2026/01/fosdem"></a>
-      <img src="/assets/branding/covers/cover_001.png" loading="lazy">
-      <div class="card-body">
-        <h3 class="card-title">FOSDEM meetup</h3>
-        <h4 class="card-subtitle text-muted mb-2">
-            
-                ژانویه 31, 2026
-            
-        </h4>
-        <p class="card-text">Some core AntennaPod contributors plan to join the FOSDEM conference in Brussels from the 31th...</p>
-      </div>
-  </div>
-
-                
-                
-                
-                  <div class="card event-card mb-4">
-    <a class="stretched-link" href="/fa/events/2022/07/10-year-anniversary"></a>
-      <img src="/assets/branding/covers/cover_001.png" loading="lazy">
-      <div class="card-body">
-        <h3 class="card-title">10 Year anniversary 🎉</h3>
-        <h4 class="card-subtitle text-muted mb-2">
-            
-                ژوئیه 22, 2022
-            
-        </h4>
-        <p class="card-text">AntennaPod’s very first release was on 2012-07-22. This is also when the app was first...</p>
-      </div>
-  </div>
-
                 
                 
             </div>
+            
+            
+            <div class="col-xl-7 order-3 order-xl-3">
+                
+                <div class="mb-4">
+                    <h2 class="h5 text-body-secondary mb-3">
+                        <i class="fa-solid fa-clock-rotate-left me-2"></i>Past Events
+                    </h2>
+                    
+                        <div class="card event-card position-relative flex-column flex-md-row mb-4 overflow-hidden">
+  <a class="stretched-link" href="/fa/events/2026/01/fosdem"></a>
+  <img class="event-card-img" src="/assets/branding/covers/cover_001.png" loading="lazy">
+  <div class="card-body">
+    <h3 class="card-title">FOSDEM meetup</h3>
+    <p class="card-subtitle text-body-secondary mb-2">
+      
+        ژانویه 31, 2026
+      
+    </p>
+    <p class="card-text mb-0">Some core AntennaPod contributors plan to join the FOSDEM conference in Brussels from the 31th...</p>
+  </div>
+</div>
+
+                    
+                        <div class="card event-card position-relative flex-column flex-md-row mb-4 overflow-hidden">
+  <a class="stretched-link" href="/fa/events/2022/07/10-year-anniversary"></a>
+  <img class="event-card-img" src="/assets/branding/covers/cover_001.png" loading="lazy">
+  <div class="card-body">
+    <h3 class="card-title">10 Year anniversary 🎉</h3>
+    <p class="card-subtitle text-body-secondary mb-2">
+      
+        ژوئیه 22, 2022
+      
+    </p>
+    <p class="card-text mb-0">AntennaPod’s very first release was on 2012-07-22. This is also when the app was first...</p>
+  </div>
+</div>
+
+                    
+                </div>
+                
+            </div>
+            
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="icsModal" tabindex="-1" role="dialog" aria-labelledby="icsModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal fade" id="icsModal" tabindex="-1" aria-labelledby="icsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="icsModalLabel">افزودن به تقویم</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>همیشه می‌خواهید تازه‌ترین تاریخ‌ها و زمان‌های فراخوان اجتماع را در تقویم‌تان داشته باشید؟ نشانی را رونویسی کرده و به‌عنوان تقویم راه‌دور به کاره تقویم‌تان بیفزایید.</p>
@@ -400,20 +468,21 @@
 <p>به امید دیدار شما!</p>
 
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer border-0 pt-0">
         <a role="button" class="btn btn-secondary" href="/fa/events.ics">بارگیری پرونده ICS</a>
-        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-title="پیوند رونویسی شد!" value="https://antennapod.org/fa/events.ics">رونویسی نشانی تقویم</button>
+        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="پیوند رونویسی شد!" value="https://antennapod.org/fa/events.ics">رونویسی نشانی تقویم</button>
       </div>
     </div>
   </div>
 </div>
 
 
+    </main>
     </div>
-    <footer>
-  <div class="container-fluid no-padding">
+    <footer class="flex-shrink-0">
+  <div class="container-fluid p-0">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
-      <path class="svg-wave" fill="#00000" fill-opacity="0" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      <path class="svg-wave" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
       </path>
     </svg>
   </div>
@@ -457,56 +526,56 @@
               بارگیری آنتناپاد
             </a>
           </div>
-          <!--<div class="mb-2">-->
-          <!--  <a href="/fa/media-kit">-->
-          <!--    <span>بسته رسانه‌ای</span>-->
-          <!--  </a>-->
-          <!--</div>-->
+          <div class="mb-2">
+            <a href="/fa/media-kit">
+              بسته رسانه‌ای
+            </a>
+          </div>
         </div>
         <div class="col-5 col-lg-2 col-md-4 col-sm-4">
           
           <p class="mb-2">
-            <a class="mr-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
-              <i class="fa-brands fa-mastodon mr-1 ml-1"></i>Mastodon
+            <a class="me-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+              <i class="fa-brands fa-mastodon me-1 ms-1"></i>Mastodon
             </a>
           </p>
           
           
           <p class="mb-2">
-            <a class="mr-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
-              <i class="fa-brands fa-github mr-1 ml-1"></i>GitHub
+            <a class="me-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github me-1 ms-1"></i>GitHub
             </a>
           </p>
           
           
           <p class="mb-2">
-            <a class="mr-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
-              <i class="fa-brands fa-bluesky mr-1 ml-1"></i>Bluesky
+            <a class="me-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+              <i class="fa-brands fa-bluesky me-1 ms-1"></i>Bluesky
             </a>
           </p>
           
           
           <p class="mb-2">
-            <a class="mr-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
-              <i class="fa-brands fa-x-twitter mr-1 ml-1"></i>Twitter
+            <a class="me-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter me-1 ms-1"></i>Twitter
             </a>
           </p>
           
           <p>
-            <a class="mr-2" href="/rss.xml" target="_blank" rel="noopener">
-              <i class="fa fa-rss mr-1 ml-1"></i>RSS
+            <a class="me-2" href="/rss.xml" target="_blank" rel="noopener">
+              <i class="fa-solid fa-rss me-1 ms-1"></i>RSS
             </a>
           </p>
         </div>
       </div>
-      <p class="top-border mb-2"></p>
+      <p class="w-100 border-top border-dark mb-2"></p>
       <div class="d-block d-lg-flex justify-content-between pt-0 pb-3 copyright">
         <div class="small mb-2 mb-lg-0">
           © 2026 AntennaPod
           <span class="mx-1">|</span>
-          <a class="underline-hover" href="/fa/license">پروانه</a>
+          <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="/fa/license">پروانه</a>
           <span class="mx-1">|</span>
-          <a class="underline-hover" href="/fa/privacy">سیاست حریم خصوصی</a>
+          <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="/fa/privacy">سیاست حریم خصوصی</a>
         </div>
       </div>
     </div>
