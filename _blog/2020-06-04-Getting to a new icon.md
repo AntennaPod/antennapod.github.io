@@ -5,6 +5,7 @@ date: "2020-06-04 12:00:00"
 image: "2020/design.jpg"
 author: keunes
 layout: blog
+category: project
 guid: https://antennapod.org/blog/2020/06/getting-to-a-new-icon
 ---
 

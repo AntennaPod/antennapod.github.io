@@ -39,6 +39,8 @@ collections:
     permalink: /events/:year/:month/:title
   contribute:
     output: true
+  features:
+    output: false
 
 defaults:
   - scope:
@@ -63,6 +65,7 @@ defaults:
 exclude:
   - .sass-cache/
   - .jekyll-cache/
+  - _cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock

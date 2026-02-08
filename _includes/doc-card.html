@@ -11,13 +11,13 @@
             {%- endif %}
         {%- endif -%}
         ">
-        <div class="card shadow-sm project-card">
-            <i class="{{ include.item.icon }} size-36 text-main mb-3"></i>
-            <h4 class="text-main weight-700">{% t {{include.item.texts}}.title %}</h4>
+        <div class="card shadow-sm project-card h-100 p-4">
+            <i class="{{ include.item.icon }} fs-2 mb-3"></i>
+            <h4 class="fw-bold">{% t {{include.item.texts}}.title %}</h4>
             {%- assign card-text-key = include.item.texts | append: ".card-text" -%}
             {%- capture card-text -%}{% t card-text-key %}{%- endcapture %}
             {%- unless card-text == empty %}
-            <p class="text-main">{{ card-text }}</p>
+            <p>{{ card-text }}</p>
             {%- endunless %}
         </div>
     </a>

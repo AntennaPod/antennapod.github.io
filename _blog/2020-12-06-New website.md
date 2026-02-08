@@ -5,6 +5,7 @@ date: "2020-12-06 12:00:00"
 image: "2020/new-website.jpg"
 author: bytehamster
 layout: blog
+category: project
 guid: https://antennapod.org/blog/2020/12/new-website
 ---
 

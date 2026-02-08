@@ -1,0 +1,63 @@
+{% comment %}
+  What's New Component
+  Displays recent releases from GitHub (fetched at build time by plugin)
+  Usage: {% include whats-new.html limit=3 %}
+{% endcomment %}
+
+{% assign limit = include.limit | default: 3 %}
+{% assign releases = site.data.github_releases %}
+
+<div class="whats-new card h-100 border-0 shadow-sm">
+  <div class="card-header bg-transparent border-0 pb-0 pt-3">
+    <div class="d-flex align-items-center justify-content-between">
+      <h5 class="card-title my-0 d-flex align-items-center">
+        <span class="bg-primary bg-opacity-10 rounded-2 p-2 me-2 d-inline-flex">
+          <i class="fa-solid fa-rocket text-primary"></i>
+        </span>
+        {% t whats-new.title %}
+      </h5>
+      <a href="https://github.com/AntennaPod/AntennaPod/releases" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary">
+        {% t whats-new.view-full %} <i class="fa-solid fa-external-link-alt ms-1"></i>
+      </a>
+    </div>
+  </div>
+  <div class="card-body pt-3">
+    {% if releases and releases.size > 0 %}
+    <div class="release-list">
+      {% for release in releases limit: limit %}
+      <div class="release-item{% unless forloop.last %} mb-3 pb-3 border-bottom{% endunless %}">
+        <div class="d-flex align-items-center justify-content-between mb-2">
+          <div class="d-flex align-items-center">
+            <span class="badge bg-primary me-2">v{{ release.version }}</span>
+            <span class="text-body-secondary small">{{ release.date }}</span>
+          </div>
+          <a href="{{ release.url }}" target="_blank" rel="noopener" class="btn btn-sm btn-link p-0 text-decoration-none">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        {% if release.highlights and release.highlights.size > 0 %}
+        <ul class="mb-0 ps-3 small text-body-secondary">
+          {% for item in release.highlights limit: 3 %}
+          <li>{{ item }}</li>
+          {% endfor %}
+          {% if release.highlights.size > 3 %}
+          <li class="text-primary"><a href="{{ release.url }}" target="_blank" rel="noopener" class="text-decoration-none">+{{ release.highlights.size | minus: 3 }} more changes</a></li>
+          {% endif %}
+        </ul>
+        {% else %}
+        <p class="small text-body-secondary mb-0">
+          <a href="{{ release.url }}" target="_blank" rel="noopener" class="text-decoration-none">View release notes →</a>
+        </p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="alert alert-warning mb-0" role="alert">
+      <i class="fa-solid fa-exclamation-triangle me-2"></i>
+      <strong>Error:</strong> Could not fetch releases from GitHub.
+    </div>
+    {% endif %}
+  </div>
+</div>
+

@@ -5,6 +5,7 @@ date: "2022-01-04 13:00:00"
 image: "2022/website-translations.jpg"
 author: keunes
 layout: blog
+category: project
 guid: https://antennapod.org/blog/2022/01/website-translations
 ---
 
