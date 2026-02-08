@@ -5,6 +5,7 @@ title: generic.download
 
 {% tf general/download.md %}
 
+{% comment %}
 <div class="row mt-5">
   <div class="col-lg-6 mb-4">
     {% include whats-new.html limit=3 %}
@@ -13,3 +14,4 @@ title: generic.download
     {% include contributors.html limit=56 %}
   </div>
 </div>
+{% endcomment %}

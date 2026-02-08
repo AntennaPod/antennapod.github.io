@@ -31,14 +31,14 @@
 <!-- mdpo-enable -->
 
 <!-- mdpo-disable-next-line -->
-<p class="mb-3 d-flex">
+<!--<p class="mb-3 d-flex">
   <a href="https://github.com/AntennaPod/AntennaPod/releases/latest" target="_blank" rel="noopener">
     <img src="https://img.shields.io/github/v/release/AntennaPod/AntennaPod?style=flat-square&logo=github&label=Latest%20Release&color=1b8bf6" alt="Latest Release" />
   </a>
   <a href="https://github.com/AntennaPod/AntennaPod" target="_blank" rel="noopener" class="ms-2">
     <img src="https://img.shields.io/github/stars/AntennaPod/AntennaPod?style=flat-square&logo=github&color=1b8bf6" alt="GitHub Stars" />
   </a>
-</p>
+</p>-->
 
 Official versions of AntennaPod are available on Google Play and F-Droid:
 

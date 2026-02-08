@@ -59,7 +59,8 @@ title: titles.documentation
       searchInput: searchInput,
       resultsContainer: resultsContainer,
       noResultsText: '<div class="doc-search-no-results"><i class="fa-solid fa-face-frown me-2"></i>{% t documentation.search.no-results %}</div>',
-      searchResultTemplate: '<a href="{url}" class="doc-search-result"><div class="doc-search-result-title">{title}</div><div class="doc-search-result-excerpt">{excerpt}</div></a>',
+      //searchResultTemplate: '<a href="{url}" class="doc-search-result"><div class="doc-search-result-title">{title}</div><div class="doc-search-result-excerpt">{excerpt}</div></a>',
+      searchResultTemplate: '<a href="{url}" class="doc-search-result"><div class="doc-search-result-title">{title}</div></a>',
       limit: 8,
       fuzzy: false,
       json: '{% if site.lang != "en" %}/{{ site.lang }}{% endif %}/assets/datasets/documentation_index.json'
