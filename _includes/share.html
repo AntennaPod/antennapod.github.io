@@ -1,21 +1,46 @@
-<div class="inline-flex">
+<div class="d-inline-flex align-items-center">
   {%- assign author = site.data.authors[page.author] %}
-  <p class="size-14 color-gray-900 mb-0 mr-2">{% t generic.share %}</p>
-  <button title="{% t generic.accessibility.copy %}" class="copy-link" onclick="copyUrl();" data-toggle="tooltip" data-trigger="click" data-selector="true" data-title="{% t generic.accessibility.copied %}" value="{{ site.url }}{{ page.url | replace: '.html', '' }}">
-      <i class="fa-solid fa-link color-gray-600 size-20 mr-2"></i>
+  <p class="small text-body mb-0 me-2">{% t generic.share %}</p>
+  <button title="{% t generic.accessibility.copy %}" class="bg-transparent border-0 p-0" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" value="{{ site.url }}{{ page.url | replace: '.html', '' }}">
+      <i class="fa-solid fa-link fs-5 text-body-tertiary me-2"></i>
   </button>
   <a title="{% t generic.accessibility.share-fb %}" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | replace: '.html', '' }}"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-      <i class="fa-brands fa-facebook color-gray-600 size-20 mr-2"></i>
+      <i class="fa-brands fa-facebook fs-5 text-body-tertiary me-2"></i>
   </a>
-  <a title="{% t generic.accessibility.share-md %}" href="#" onclick="share_on_mastodon();">
-      <i class="fa-brands fa-mastodon size-20 color-gray-600 mr-2"></i>
-  </a>
+  <button title="{% t generic.accessibility.share-md %}" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#mastodonShareModal">
+      <i class="fa-brands fa-mastodon fs-5 text-body-tertiary me-2"></i>
+  </button>
   <a title="{% t generic.accessibility.share-tw %}" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url | replace: '.html', '' }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}&via=AntennaPod"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=350');return false;">
-      <i class="fa-brands fa-x-twitter size-20 color-gray-600 mr-2"></i>
+      <i class="fa-brands fa-x-twitter fs-5 text-body-tertiary me-2"></i>
   </a>
   <a title="{% t generic.accessibility.share-eml %}" href="mailto:?subject={% t generic.eml-share.subject %}&amp;body={% t generic.eml-share.subject %} {{ site.url }}{{ page.url | replace: '.html', '' }}">
-      <i class="fa-solid fa-envelope size-20 color-gray-600"></i>
+      <i class="fa-solid fa-envelope fs-5 text-body-tertiary"></i>
   </a>
+</div>
+
+<!-- Mastodon Share Modal -->
+<div class="modal fade" id="mastodonShareModal" tabindex="-1" aria-labelledby="mastodonShareModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mastodonShareModalLabel">
+          <i class="fa-brands fa-mastodon me-2"></i>{% t generic.masto-share.title %}
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="text-body-secondary small mb-3">{% t generic.masto-share.server %}</p>
+        <div class="input-group">
+          <span class="input-group-text">https://</span>
+          <input type="text" class="form-control" id="mastodonInstance" placeholder="mastodon.social" aria-label="Mastodon instance">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary text-white" data-bs-dismiss="modal">{% t generic.masto-share.cancel %}</button>
+        <button type="button" class="btn btn-primary" onclick="shareOnMastodon()">{% t generic.masto-share.share %}</button>
+      </div>
+    </div>
+  </div>
 </div>

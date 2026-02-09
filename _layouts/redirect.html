@@ -15,18 +15,24 @@
     {% include head.html %}
   </head>
   <body dir="auto">
-    <div class="content">
+    <a href="#main-content" class="visually-hidden-focusable skip-link">{% t generic.accessibility.skip-to-content %}</a>
+    <div class="flex-grow-1">
       {% include nav.html %}
-      <div class="container-fluid background-gray-100 py-4">
+      <main id="main-content">
+      <div class="container-fluid bg-body-tertiary py-4">
         <div class="container">
-          <h1 class="color-gray-800 weight-700">{% t generic.redirect.title %}</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+              <h1 class="text-body fw-bold">{% t generic.redirect.title %}</h1>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="container-fluid py-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-12">
+            <div class="col-lg-8 col-xl-7">
               <article class="post-content">
                   <a href="{{ redirect_to }}">{% t generic.redirect.link %}</a>
                   <script>location='{{ redirect_to }}'</script>
@@ -35,6 +41,7 @@
           </div>
         </div>
       </div>
+      </main>
     </div>
     {% include footer.html %}
   </body>

@@ -6,26 +6,33 @@
     <meta http-equiv="refresh" content="0; URL={{ redirect_to }}">
   </head>
   <body dir="auto">
-    <div class="content">
+    <a href="#main-content" class="visually-hidden-focusable skip-link">{% t generic.accessibility.skip-to-content %}</a>
+    <div class="flex-grow-1">
       {% include nav.html %}
-      <div class="container-fluid background-gray-100 py-4">
+      <main id="main-content">
+      <div class="container-fluid bg-body-tertiary py-4">
         <div class="container">
-          <h1 class="color-gray-800 weight-700">{% t generic.download %}</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+              <h1 class="text-body fw-bold">{% t generic.download %}</h1>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="container-fluid py-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-12">
+            <div class="col-lg-8 col-xl-7">
               <article class="post-content">
-                  Downloading your file. <a href="{{ redirect_to }}">Click here if the download didn't start.<a>
+                  Downloading your file. <a href="{{ redirect_to }}">Click here if the download didn't start.</a>
                   <script>location='{{ redirect_to }}'</script>
               </article>
             </div>
           </div>
         </div>
       </div>
+      </main>
     </div>
     {% include footer.html %}
   </body>

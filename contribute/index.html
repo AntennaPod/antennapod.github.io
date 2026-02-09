@@ -1,37 +1,54 @@
 ---
-layout: page
+layout: internal
 title: titles.contribute
 ---
 
-<p>{% t contribute.intro %}</p>
+<div class="container-fluid bg-body-tertiary py-4">
+  <div class="container">
+    <h1 class="text-body fw-bold">{% t titles.contribute %}</h1>
+  </div>
+</div>
 
-<div class="row justify-content-start pb-4">
-  {% assign contribute-items = site.contribute | where_exp: "item", "item.parent == nil or item.parent == ''" | sort: 'title' | sort: 'order' %}
-  {% for item in contribute-items %}
-      {% include doc-card.html item=item %}
-  {% endfor %}
+<div class="container-fluid">
+  <div class="container pt-5">
+    <p class="text-body mb-4">{% t contribute.intro %}</p>
+
+    <div class="row justify-content-start pb-4">
+      {% assign contribute-items = site.contribute | where_exp: "item", "item.parent == nil or item.parent == ''" | sort: 'title' | sort: 'order' %}
+      {% for item in contribute-items %}
+          {% include doc-card.html item=item %}
+      {% endfor %}
+    </div>
+
+    <!-- Language Showcase -->
+    {% comment %}{% include language-showcase.html %}{% endcomment %}
+  </div>
 </div>
 
 <script type="text/javascript">
-  $("#card-donate > a").attr("data-toggle", "modal").attr("data-target", "#donationModal");
+  document.addEventListener('DOMContentLoaded', function() {
+    const donateLink = document.querySelector('#card-donate > a');
+    if (donateLink) {
+      donateLink.setAttribute('data-bs-toggle', 'modal');
+      donateLink.setAttribute('data-bs-target', '#donationModal');
+    }
+  });
 </script>
 
-<div class="modal fade" id="donationModal" tabindex="-1" role="dialog" aria-labelledby="donationModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal fade" id="donationModal" tabindex="-1" aria-labelledby="donationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="donationModalLabel">{% t contribute.donate.modal-title %}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         {% tf general/donation-modal.md %}
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer border-0 pt-0">
         <a role="button" class="btn btn-secondary" href="https://opencollective.com/antennapod">{% t contribute.donate.modal-button-donate %}</a>
         <a role="button" class="btn btn-primary" href="https://forum.antennapod.org/t/monthly-community-call/1869">{% t contribute.donate.modal-button-chat %}</a>
-	<button type="button" class="btn btn-light" data-dismiss="modal">{% t contribute.donate.modal-button-contribute %}</button>
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">{% t contribute.donate.modal-button-contribute %}</button>
       </div>
     </div>
   </div>
