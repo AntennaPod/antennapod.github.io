@@ -23,8 +23,8 @@
    {%- endif %}
 {%- endcapture -%}
 
-{% unless include.islink == true %}<a data-toggle="modal" data-target="#imgModal{{ include.file | remove:'.' }}" style="cursor: pointer;">{% endunless %}
-  <img src="{{ url }}" alt="{{ img-alt }}"
+{% unless include.islink == true %}<a role="button" data-bs-toggle="modal" data-bs-target="#imgModal{{ include.file | remove:'.' }}">{% endunless %}
+  <img src="{{ url }}" alt="{{ img-alt }}" loading="lazy"
     {%- if include.width %} width="{{ include.width }}"{% endif %}
     style="
       {%- if include.max-width %}max-width:{{ include.max-width }}; {% endif %}
@@ -32,15 +32,13 @@
     class="rounded mt-2 {{ include.class }}">
 {% unless include.islink == true %}</a>
 
-<div class="modal fade" id="imgModal{{ include.file | remove:'.' }}" tabindex="-1" role="dialog" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal fade" id="imgModal{{ include.file | remove:'.' }}" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content rounded">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem;">
-          <i class="fas fa-times-circle"></i>
-        </button>
-        <img src="{{ url }}" alt="{{ img-alt }}" width="100%" class="rounded">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="{{ url }}" alt="{{ img-alt }}" width="100%" class="rounded" loading="lazy">
       {%- if include.footnote %}
-      <div class="modal-footer">
+      <div class="modal-footer border-0 pt-0">
         {{ include.footnote }}
       </div>
       {%- endif %}

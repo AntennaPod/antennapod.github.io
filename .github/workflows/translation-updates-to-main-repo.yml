@@ -25,11 +25,11 @@ jobs:
     steps:
         # Check out the repository and download it to the runner, allowing to run actions against the code
       - name: Get main repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
-          ref: master
+          ref: ${{ github.event_name == 'push' && 'master' || github.ref_name }}
       - name: Get translation repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: translation-files
           path: translation-files
@@ -144,4 +144,4 @@ jobs:
           git config user.email "<antennapod-bot@users.noreply.github.com>"
           git status
           git commit -m "Update website with new translations"
-          git push origin master
+          git push origin ${{ github.event_name == 'push' && 'master' || github.ref_name }}

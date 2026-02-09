@@ -1,0 +1,340 @@
+{% comment %}
+  Interactive Demo Component
+  An interactive showcase of AntennaPod's key features
+  Usage: {% include interactive-demo.html %}
+{% endcomment %}
+
+<div class="interactive-demo">
+  <div class="row align-items-center g-5">
+    <div class="col-lg-6 order-lg-2">
+      <!-- App Screenshots Carousel -->
+      <div class="demo-showcase position-relative">
+        <div class="demo-screenshots">
+          <div class="demo-screenshot-item active" data-feature="home">
+            <img src="https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/00.png" alt="AntennaPod Home Screen" class="img-fluid rounded-4 shadow-lg" loading="lazy">
+          </div>
+          <div class="demo-screenshot-item" data-feature="playback">
+            <img src="https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/01.png" alt="AntennaPod Playback" class="img-fluid rounded-4 shadow-lg" loading="lazy">
+          </div>
+          <div class="demo-screenshot-item" data-feature="discover">
+            <img src="https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/02.png" alt="AntennaPod Discovery" class="img-fluid rounded-4 shadow-lg" loading="lazy">
+          </div>
+          <div class="demo-screenshot-item" data-feature="sync">
+            <img src="https://raw.githubusercontent.com/AntennaPod/StoreMetadata/main/listings/en-US/graphics/phone-screenshots/03.png" alt="AntennaPod Sync" class="img-fluid rounded-4 shadow-lg" loading="lazy">
+          </div>
+        </div>
+        
+        <!-- Screenshot Navigation Dots -->
+        <div class="demo-dots d-flex justify-content-center gap-2 mt-4">
+          <button class="demo-dot active" data-feature="home" aria-label="Home screen"></button>
+          <button class="demo-dot" data-feature="playback" aria-label="Playback"></button>
+          <button class="demo-dot" data-feature="discover" aria-label="Discover"></button>
+          <button class="demo-dot" data-feature="sync" aria-label="Sync"></button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-6 order-lg-1">
+      <h3 class="display-6 fw-bold mb-4">{% t interactive-demo.title %}</h3>
+      <p class="lead text-body-secondary mb-4">{% t interactive-demo.subtitle %}</p>
+      
+      <!-- Feature Cards -->
+      <div class="demo-features">
+        <button class="demo-feature-card active" data-feature="home">
+          <div class="demo-feature-icon">
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <div class="demo-feature-content">
+            <h5 class="demo-feature-title">{% t interactive-demo.features.home.title %}</h5>
+            <p class="demo-feature-desc">{% t interactive-demo.features.home.description %}</p>
+          </div>
+        </button>
+        
+        <button class="demo-feature-card" data-feature="playback">
+          <div class="demo-feature-icon">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <div class="demo-feature-content">
+            <h5 class="demo-feature-title">{% t interactive-demo.features.playback.title %}</h5>
+            <p class="demo-feature-desc">{% t interactive-demo.features.playback.description %}</p>
+          </div>
+        </button>
+        
+        <button class="demo-feature-card" data-feature="discover">
+          <div class="demo-feature-icon">
+            <i class="fa-solid fa-compass"></i>
+          </div>
+          <div class="demo-feature-content">
+            <h5 class="demo-feature-title">{% t interactive-demo.features.discover.title %}</h5>
+            <p class="demo-feature-desc">{% t interactive-demo.features.discover.description %}</p>
+          </div>
+        </button>
+        
+        <button class="demo-feature-card" data-feature="sync">
+          <div class="demo-feature-icon">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </div>
+          <div class="demo-feature-content">
+            <h5 class="demo-feature-title">{% t interactive-demo.features.sync.title %}</h5>
+            <p class="demo-feature-desc">{% t interactive-demo.features.sync.description %}</p>
+          </div>
+        </button>
+      </div>
+      
+      <div class="mt-4">
+        <a href="{{ site.baseurl }}/features" class="btn btn-outline-primary btn-lg">
+          {% t interactive-demo.view-all %} <i class="fa-solid fa-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.interactive-demo {
+  padding: 1rem 0;
+}
+
+/* Screenshots Showcase */
+.demo-showcase {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.demo-screenshots {
+  position: relative;
+  min-height: 300px;
+}
+
+.demo-screenshot-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: scale(0.95) translateY(10px);
+  transition: all 0.4s ease;
+  pointer-events: none;
+}
+
+.demo-screenshot-item.active {
+  position: relative;
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  pointer-events: auto;
+}
+
+.demo-screenshot-item img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Navigation Dots */
+.demo-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--bs-border-color);
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.demo-dot:hover {
+  border-color: var(--bs-primary);
+}
+
+.demo-dot.active {
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+  transform: scale(1.2);
+}
+
+/* Feature Cards */
+.demo-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.demo-feature-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--bs-body-bg);
+  border: 2px solid var(--bs-border-color);
+  border-radius: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+
+.demo-feature-card:hover {
+  border-color: var(--bs-primary);
+  transform: translateX(4px);
+}
+
+.demo-feature-card.active {
+  border-color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), 0.08);
+  box-shadow: 0 4px 20px rgba(var(--bs-primary-rgb), 0.15);
+}
+
+.demo-feature-icon {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bs-primary);
+  color: #fff;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  transition: background 0.2s ease;
+}
+
+.demo-feature-card.active .demo-feature-icon {
+  background: var(--bs-primary);
+}
+
+.demo-feature-content {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.demo-feature-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.125rem;
+  color: var(--bs-body-color);
+}
+
+.demo-feature-desc {
+  font-size: 0.8125rem;
+  color: var(--bs-secondary-color);
+  margin-bottom: 0;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .demo-showcase {
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+  
+  .demo-screenshot-item img {
+    max-height: 300px;
+  }
+  
+  .demo-feature-card {
+    padding: 0.875rem;
+  }
+  
+  .demo-feature-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  
+  .demo-feature-desc {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .demo-feature-desc {
+    display: none;
+  }
+}
+</style>
+
+<script>
+(function() {
+  'use strict';
+  
+  function initInteractiveDemo() {
+    var screenshots = document.querySelectorAll('.demo-screenshot-item');
+    var featureCards = document.querySelectorAll('.demo-feature-card');
+    var dots = document.querySelectorAll('.demo-dot');
+    
+    if (screenshots.length === 0 || featureCards.length === 0) return;
+    
+    function setActiveFeature(feature) {
+      // Update screenshots
+      screenshots.forEach(function(s) {
+        s.classList.toggle('active', s.getAttribute('data-feature') === feature);
+      });
+      
+      // Update feature cards
+      featureCards.forEach(function(c) {
+        c.classList.toggle('active', c.getAttribute('data-feature') === feature);
+      });
+      
+      // Update dots
+      dots.forEach(function(d) {
+        d.classList.toggle('active', d.getAttribute('data-feature') === feature);
+      });
+    }
+    
+    // Feature card clicks
+    featureCards.forEach(function(card) {
+      card.addEventListener('click', function() {
+        stopAutoRotate();
+        setActiveFeature(this.getAttribute('data-feature'));
+        restartAutoRotateDelayed();
+      });
+    });
+    
+    // Dot clicks
+    dots.forEach(function(dot) {
+      dot.addEventListener('click', function() {
+        stopAutoRotate();
+        setActiveFeature(this.getAttribute('data-feature'));
+        restartAutoRotateDelayed();
+      });
+    });
+    
+    // Auto-rotate features
+    var features = ['home', 'playback', 'discover', 'sync'];
+    var currentIndex = 0;
+    var autoRotate;
+    var restartTimeout;
+    
+    function startAutoRotate() {
+      autoRotate = setInterval(function() {
+        currentIndex = (currentIndex + 1) % features.length;
+        setActiveFeature(features[currentIndex]);
+      }, 5000);
+    }
+    
+    function stopAutoRotate() {
+      clearInterval(autoRotate);
+      clearTimeout(restartTimeout);
+    }
+    
+    function restartAutoRotateDelayed() {
+      restartTimeout = setTimeout(startAutoRotate, 15000);
+    }
+    
+    // Start auto-rotate
+    startAutoRotate();
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initInteractiveDemo);
+  } else {
+    initInteractiveDemo();
+  }
+})();
+</script>
+

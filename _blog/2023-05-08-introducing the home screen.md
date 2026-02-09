@@ -1,10 +1,11 @@
 ---
-title: Welcome Home! 🏠 Introducing AntennaPod’s new default screen
+title: Welcome Home! 🏠 Introducing AntennaPod's new default screen
 excerpt: Let's show you your new home — one of the main new features in AntennaPod 3.0.
 date: "2023-05-08 08:20:00"
 image: "2023/v3-home.jpg"
 author: loucasal
 layout: blog
+category: release
 guid: 2QUY-1288-Q8NP-HU3N-PSBY
 ---
 

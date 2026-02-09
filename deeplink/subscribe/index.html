@@ -9,12 +9,17 @@ excerpt: generic.subscribe-subtitle
     <div class="row justify-content-md-center">
       <div class="col col-xl-6">
         <article class="post-content">
-          <h2 id="podcastTitle">{% t generic.subscribe %}</h2>
+          <div class="d-flex align-items-center mb-4">
+            <div id="podcastCoverContainer" class="me-3 d-none">
+              <img id="podcastCover" src="" alt="" class="rounded object-fit-cover" width="100" height="100">
+            </div>
+            <h2 id="podcastTitle" class="mb-0">{% t generic.subscribe %}</h2>
+          </div>
           {% tf general/subscribe.md %}
           <p>
             <div class="card">
               <div class="card-body">
-                <i class="fa fa-rss mr-1" style="margin-right: 1em"></i><span id="urlTextBox">Error: JavaScript not available</span>
+                <i class="fa-solid fa-rss me-3"></i><span id="urlTextBox">Error: JavaScript not available</span>
               </div>
             </div>
           </p>
@@ -29,6 +34,8 @@ excerpt: generic.subscribe-subtitle
   const urlTextBox = document.getElementById("urlTextBox");
   const subscribeButton = document.getElementById("subscribeButton");
   const podcastTitle = document.getElementById("podcastTitle");
+  const podcastCover = document.getElementById("podcastCover");
+  const podcastCoverContainer = document.getElementById("podcastCoverContainer");
   if (!urlParams.has("url")) {
     urlTextBox.textContent = "Error: URL not provided";
     subscribeButton.disabled = true;
@@ -36,6 +43,12 @@ excerpt: generic.subscribe-subtitle
   } else {
     if (urlParams.has("title")) {
       podcastTitle.textContent = urlParams.get("title");
+    }
+    if (urlParams.has("image")) {
+      const imageUrl = urlParams.get("image");
+      podcastCover.src = imageUrl;
+      podcastCover.alt = urlParams.get("title") || "Podcast cover";
+      podcastCoverContainer.style.display = "block";
     }
     const url = urlParams.get("url");
     urlTextBox.textContent = url;
