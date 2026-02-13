@@ -27,9 +27,15 @@ generic:
     body: 查看这篇文章
   masto-share:
     server: 输入您的实例地址：（例如 https://mastodon.social）
+    title: 分享至 Mastodon
+    cancel: 取消
+    share: 分享
   previous: 前一个
   next: 下一个
   subscribe-subtitle: 点击以在AntennaPod或任何其他播客app上订阅。
+  theme:
+    light: 浅色
+    dark: 暗色
 titles:
   about: 关于
   blog: 博客
@@ -247,6 +253,10 @@ not-installed:
   title: 没有安装AntennaPod
 blog:
   posted: 发布在
+  previous-post: 前一个
+  next-post: 下一个
+  categories:
+    community: 社区
 readtime:
   singular: 分钟阅读
   plural: 分钟阅读
@@ -268,3 +278,5 @@ events:
     2nd-4th-wednesday: （几乎）每个月的第二和第四个星期三
 footer:
   description: 易于使用、灵活、开源的 Android 播客管理器。
+media-kit:
+  title: 媒体包
