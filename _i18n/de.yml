@@ -171,6 +171,8 @@ documentation:
   search:
     no-results: Leider nichts gefunden
     placeholder: Dokumentation durchsuchen
+    hint: Verwende die Pfeiltasten zum Navigieren, die Eingabetaste zum 
+      Auswählen und die Escape-Taste zum Schließen
   getting-started:
     title: Erste Schritte
     subscribe:
@@ -278,6 +280,7 @@ titles:
   media: Pressemappe
   media-kit: Pressematerial
   events: Veranstaltungen
+  features: Funktionen
 generic:
   share: Teilen
   download: Download
@@ -296,6 +299,8 @@ generic:
     share-tw: Auf Twitter teilen
     copy-fail: Bitte kopiere die URL von der Addressleiste.
     logo: AntennaPod-Logo
+    theme-menu: Designauswahl
+    skip-to-content: Zum Hauptinhalt springen
   contribute: Mitmachen
   home: Start
   subscribe: Abonnieren
@@ -306,12 +311,21 @@ generic:
   view: Alle ansehen
   learn: Mehr erfahren
   masto-share:
-    server: 'Gib die Adresse deiner Instanz ein: (z. B. https://mastodon.social)'
+    server: 'Deine Mastodon-Instanz'
+    title: Auf Mastodon teilen
+    cancel: Abbrechen
+    share: Teilen
+    description: Gib die URL deiner Mastodon-Instanz ein, um diesen Beitrag zu 
+      teilen.
   next: Weiter
   previous: Zurück
   error404: Fehler 404
   subscribe-subtitle: Klicke hier, um diesen Podcast auf AntennaPod oder einer 
     anderen Podcast-App zu abonnieren.
+  theme:
+    light: Hell
+    dark: Schatten
+    auto: Auto
 month:
   Jun: Jun
   Jul: Jul
@@ -354,6 +368,16 @@ footer:
     Podcast-Player für Android.
 blog:
   posted: Veröffentlicht am
+  previous-post: Vorheriger
+  next-post: Nächster
+  categories:
+    all: Alle
+    release: Veröffentlichung
+    community: Community
+    tutorial: Tutorial
+    project: Projekt-Update
+  related-posts: Ähnliche Beiträge
+  post-navigation: Beitragsnavigation
 events:
   links:
     more-information: Weitere Informationen
@@ -377,3 +401,5 @@ not-installed:
   title: AntennaPod nicht installiert
   text: AntennaPod ist nicht installiert oder dein Webbrowser unterstützt das 
     direkte Öffnen nicht.
+media-kit:
+  title: Pressematerial

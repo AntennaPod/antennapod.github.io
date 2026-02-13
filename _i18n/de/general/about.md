@@ -4,7 +4,7 @@ AntennaPod ist ein Podcast-Player, der völlig kostenlos ist und deine Privatsph
 
 Es gibt so viele coole Dinge auf der Welt zu tun, und so viele Dinge im Leben, um die man sich kümmern muss. Du möchtest also keine Zeit damit verbringen, herauszufinden, wie diese App funktioniert. Stattdessen möchtest du lieber gleich damit anfangen, tolle Inhalte zu finden und anzuhören. Und du möchtest in der Lage sein, Inhalte zu organisieren, die Wiedergabe zu beschleunigen oder zu verlangsamen und das Herunterladen und Löschen zu automatisieren. Deshalb möchten wir, dass AntennaPod einfach zu bedienen ist und dir gleichzeitig die volle Kontrolle über dein Hörerlebnis gibt.
 
-Dabei ist uns klar, dass jede von uns hinzugefügte Option eine nicht getroffene Wahl bedeutet. Und eine nicht getroffene Wahl ist eine Entscheidung, die wir dem Endbenutzer aufzwingen (Hier ist ein großartiger [Blog-Beitrag darüber, weshalb Entwickler das nicht leichtfertig machen sollten](https://neugierig.org/software/blog/2018/07/options.html)). Wir versprechen, dass wir unser Bestes tun, um die Entscheidungen zu treffen, die ein großartiges Erlebnis schaffen. Denn – hast du schon entschieden, was du heute Abend essen wirst?
+Dabei ist uns klar, dass jede von uns hinzugefügte Option eine nicht getroffene Wahl bedeutet. Und eine nicht getroffene Wahl ist eine Entscheidung, die wir dem Endbenutzer aufzwingen (Hier ist ein großartiger [Blogbeitrag darüber, weshalb Entwickler das nicht leichtfertig machen sollten](https://neugierig.org/software/blog/2018/07/options.html)). Wir versprechen, dass wir unser Bestes tun, um die Entscheidungen zu treffen, die ein großartiges Erlebnis schaffen. Denn – hast du schon entschieden, was du heute Abend essen wirst?
 
 Und gleichzeitig: Keine Sorge. Wir sind offen für neue Funktionen oder Einstellungen – wann immer es sich anbietet, unseren Nutzern mehr Flexibilität zu bieten. Wir arbeiten zum Beispiel an Tags für Podcasts und haben kürzlich lokale Feeds eingeführt. Wenn du also eine eigene Idee hast, [stelle gerne deine Funktionsanfrage in unserem Forum](https://forum.antennapod.org/c/feature-request)!
 
@@ -27,7 +27,7 @@ In der Praxis bedeutet das, dass du jeden beliebigen RSS-Feed abonnieren kannst,
 
 ## Wir verstehen dich: Community und Barrierefreiheit
 
-Mit AntennaPod hörst du Podcasts, aber wir möchten auch von dir hören! Unsere Community ist offen für dein Feedback und deine Gedanken. Als Menschen können wir unterschiedlicher Meinung sein, aber bitte sei respektvoll. Und wir tun unser Bestes, um die App für alle freundlich zu gestalten. Daher ist es möglich, automatische Vorschläge auszublenden und die Navigation durch die App durch Sprachausgabe zu erleichtern.
+Mit AntennaPod hörst du Podcasts, aber wir möchten auch von dir hören! Unsere Community ist offen für dein Feedback und deine Gedanken. Als Menschen können wir unterschiedlicher Meinung sein, aber bitte sei respektvoll. Und wir tun unser Bestes, um die App für alle bedienungsfreundlich zu gestalten. Daher ist es möglich, automatische Vorschläge auszublenden und das Navigieren durch die App anhand von Sprachausgabe zu erleichtern.
 
 ## Seit 2011: das AntennaPod-Projekt heute
 
