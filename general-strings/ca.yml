@@ -10,6 +10,7 @@ titles:
   privacy: Política de privacitat
   media-kit: Kit de mitjans
   events: Esdeveniments
+  features: Característiques
 generic:
   home: Inici
   download: Descàrrega
@@ -30,14 +31,18 @@ generic:
     share-tw: Compartir a Twitter
     share-eml: Compartir per correu electrònic
     logo: Logotip d'AntennaPod
+    theme-menu: Selector de tema
+    skip-to-content: Salta al contingut principal
   eml-share:
     subject: Volia que veiéssiu això
     body: Revisa aquest article
   masto-share:
-    server: "Introduïu l'adreça de la vostra instància: (p. ex. https://mastodont.cat)"
+    server: "La vostra instància de Mastodon"
     title: Compartir a Mastodon
     cancel: Cancel·la
     share: Comparteix
+    description: Introduïu l'adreça URL de la vostra instància de Mastodon per a
+      compartir aquesta publicació.
   learn: Aprendre més
   redirect:
     title: Redirigir
@@ -50,6 +55,7 @@ generic:
   theme:
     light: Clar
     dark: Fosc
+    auto: Automàtic
 month:
   Jan: Gen
   Feb: Feb
@@ -98,6 +104,16 @@ homepage:
   img-alt: ' '
 blog:
   posted: Publicat el
+  previous-post: Anterior
+  next-post: Següent
+  related-posts: Publicacions relacionades
+  post-navigation: Navegació de publicacions
+  categories:
+    all: Totes
+    release: Llançament
+    project: Actualitzacions del projecte
+    community: Comunitat
+    tutorial: Tutorial
 readtime:
   singular: min. de lectura
   plural: min. de lectura
@@ -272,6 +288,8 @@ documentation:
   search:
     no-results: Em sap greu, no s'ha trobat res
     placeholder: Cercar documentació
+    hint: Feu servir les fletxes per a navegar, Retorn per a seleccionar, Esc 
+      per a tancar
   getting-started:
     title: Introducció
     intro: Benvingut a AntennaPod! A continuació, pots trobar alguns detalls 
@@ -369,6 +387,9 @@ events:
       actualitzada la informació de la comunitat? Doncs subscriviu-vos al nostre
       calendari amb la vostra aplicació preferida mitjançant l'enllaç 'Afegiu al
       calendari'!
+    recurring-events: Esdeveniments recurrents
+    upcoming-events: Esdeveniments previstos
+    past-events: Esdeveniments passats
   links:
     add-calendar: Afegir al calendari
     more-information: Més informació
@@ -385,3 +406,20 @@ not-installed:
     directament.
 media-kit:
   title: Kit de mitjans
+  description: Recursos oficials de la marca AntennaPod per a la premsa i 
+    mitjans.
+  logo-section: Logotips
+  logo-description: El nostre logotip en diversos formats i colors per a 
+    diversos fons.
+  colors-section: Colors de la marca
+  colors-description: La nostra paleta de colors.
+  screenshots-section: Captures de pantalla
+  screenshots-description: Captures de pantalla de l'aplicació per a la premsa i
+    per a ús promocional.
+  guidelines-section: Directrius d'ús
+  guidelines-description: Si us plau, seguiu aquestes directrius quan feu ús 
+    dels nostres recursos.
+  download-all: Baixa tots els recursos
+  primary: Primari
+  secondary: Secundari
+  accent: Accent
