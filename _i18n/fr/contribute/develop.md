@@ -1,1 +1,1 @@
-En tant que projet communautaire, AntennaPod repose sur les contributions volontaires de code d'un large éventail de personnes. Pas seulement pour l'application elle-même, mais aussi pour le site web et les projets connexes.
+En tant que projet communautaire, AntennaPod repose sur les contributions au code volontaires d'un grand nombre de personnes. Non seulement pour l'application elle-même, mais aussi pour le site web et les projets connexes.

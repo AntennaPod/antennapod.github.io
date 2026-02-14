@@ -3,7 +3,7 @@
 - Privacy: a seconda del tipo di servizio proxy, il tuo comportamento di download/streaming può essere protetto dagli host di podcast
 - Accesso: se l'host di un podcast impedisce il download di contenuti dall'estero (basandosi sul tuo indirizzo IP), impostare un proxy con il paese d'origine può permetterti di accedere comunque ai suoi contenuti
 
-Troverai questa opzione in `Impostazioni` » `Rete` » `Proxy`.
+Troverai questa opzione in `Impostazioni` » `Download` » `Proxy`.
 
 Al fine di indirizzare tutto il traffico attraverso la rete Tor, è necessario installare un'applicazione proxy per Tor e fornire i seguenti dettagli in AntennaPod:
 

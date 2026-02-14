@@ -1,0 +1,3 @@
+Se a reprodución sempre se para uns segundos despois de apagar a pantalla, ou cando non abriches AntennaPod durante un intre, poida que o teu sistema estea a matar á aplicación. A algúns vendedores coñéceselles por ser moi agresivos tentando alongar a batería. **Por favor proba a engadir unha excepción para AntennaPod na lista de aplicacións optimizadas para a batería.** Debido a que a maneira de engadir unha excepción a miúdo varía entre teléfonos, suxerimos que busques por internet instrucións para a marca e o modelo do teu teléfono, se non sabes como engadir unha excepción.
+
+Se isto non che axudou, non dubides en poñerche en contacto cos contribuidores de AntennaPod no noso [foro](https://forum.antennapod.org).

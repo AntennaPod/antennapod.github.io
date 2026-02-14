@@ -6,7 +6,7 @@ Nos traductions sont hébergées sur Weblate, une plateforme de localisation à 
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Graphiques représentant l'état de traduction d'AntennaPod sur Weblate.
+       Graphique représentant l'avancement des traductions d'AntennaPod sur Weblate.
 
        "
 
@@ -18,7 +18,7 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 L'application est actuellement disponible dans plus de 38 langues. Alors qu'il existe bien plus de traductions dans Weblate, nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil, l’expérience utilisateur n'est pas très agréable.
 
-Les nouvelles traductions sont publiées pour chaque « version intermédiaire » d'AntennaPod. Il s'agit de versions telles que 2.0, 2.5, etc., qui introduisent des amélioraions et de nouvelles fonctionnalités. En moyenne, il peut falloir un à deux mois avant qu'une traduction n'apparaisse dans une nouvelle version.
+Les nouvelles traductions sont publiées pour chaque « version intermédiaire » d'AntennaPod. Il s'agit de versions telles que 2.0, 2.5, etc., qui introduisent des améliorations et de nouvelles fonctionnalités. En moyenne, il peut falloir un à deux mois avant qu'une traduction n'apparaisse dans une nouvelle version.
 
 Les traducteurs seront mentionnés dans l'application sous leur nom d'utilisateur Weblate, dans `Préférences` » `À propos` » `Contributeurs`.
 

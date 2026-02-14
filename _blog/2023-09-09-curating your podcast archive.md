@@ -5,10 +5,13 @@ date: "2023-09-27 08:35:00"
 image: "2023/archive.jpg"
 author: loucasal
 layout: blog
+category: tutorial
 guid: 2QUY-1288-Q8NP-HU3N-PSBZ
 ---
 
 {: .lead}
+Update (October 2025): As of version 3.10, AntennaPod can archive subscriptions without the need to follow the steps described below. By using the new archive feature, your subscriptions will not be updated and will be hidden from the main Subscriptions screen. If you prefer to set up your archive manually, you can still follow the steps below; instead of step 3, just use the new “Untagged” tag to hide archived podcasts.
+
 We’ve all been there: a podcast you loved and spent many hours listening to is finally over. Understandably, you might be tempted to just remove it and move on. After all, who doesn’t want to keep their subscription list neat, tidy and quick to refresh?
 
 However, it doesn’t have to be that way (unless you want it, of course): AntennaPod allows you to keep track of your past listens while still keeping things organised and efficient for your daily use - that is, it allows you to create your very own podcast archive. Let’s see how you can do that in three simple steps.

@@ -2,7 +2,7 @@ AntennaPodを使用すると、Google Chromecastでポッドキャストを視�
 
 ### AntennaPodを**Google Play**からダウンロードしましたか？
 
-Google ChromecastでAntennaPodを使用するために、これ以上の手順は必要ありません。下部の小さなプレーヤーを展開してプレーヤー画面を開き、Chromecastボタンを押します。 Chromecastと同じWiFiネットワークにいることを確認してください。
+Google ChromecastでAntennaPodを使用するために、これ以上の手順は必要ありません。下部の小さなプレーヤーを展開してプレーヤー画面を開き、Chromecastボタンを押します。 Chromecastと同じWi-Fiネットワークにいることを確認してください。
 
 {% include image.html alt= "
 

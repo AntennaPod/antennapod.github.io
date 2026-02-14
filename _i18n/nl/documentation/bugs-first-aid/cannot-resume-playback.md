@@ -8,7 +8,7 @@ Om het afspelen alsnog voort te zetten, kun je de zogenaamde AntennaPod tegel to
 
 Om de AntennaPod tegel toe te voegen:
 
-1. **Trek tweemaal omlaag** vanaf de bovenkant van het scherm, zodat je de volledige knoppen ziet (onder de helderheidsindicator)
+1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
 1. **Tik op het potloodicoontje** aan de onderkant van de tegellijst om de tegels te bewerken
 1. Scroll naar beneden in de lijst van tegels, **tik op de AntennaPod tegel en sleep hem** omhoog naar de lijst van actieve tegels
 1. Tik op de terugpijl om het tegelbewerken te eindigen

@@ -5,7 +5,7 @@ jobs:
   misspellcheck:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Run misspell with reviewdog
       uses: reviewdog/action-misspell@v1
       with:
@@ -15,12 +15,12 @@ jobs:
   guids:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: .github/workflows/guids.sh
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'

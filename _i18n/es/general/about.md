@@ -20,7 +20,7 @@ Defendemos un ecosistema de podcasting abierto. Un ecosistema que
 
 * apoya la libertad de expresión,
 * premia a los podcasters por su trabajo creativo,
-* evita a los oyentes contenidos inaccesibles en [walled gardens](https://en.wikipedia.org/wiki/Closed_platform), y
+* evita a los oyentes contenidos inaccesibles en [plataformas cerradas](https://en.wikipedia.org/wiki/Closed_platform), y
 * permite a los usuarios utilizar y cambiar entre aplicaciones sin [depender de ningún servicio](https://en.wikipedia.org/wiki/Vendor_lock-in).
 
 En la práctica, esto significa que puedes suscribirte a cualquier canal RSS que exista, que te facilitamos apoyar a los podcasters (financieramente) y que puedes sincronizar, importar y exportar tus datos.

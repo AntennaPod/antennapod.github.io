@@ -14,6 +14,21 @@ Nella tua applicazione di automazione, è possibile far sì che AntennaPod aggio
 
 ## Istruzioni per alcune applicazioni di automazione
 
+### HomeAssistant Android Mobile Companion ([sito web](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+
+Crea una chiamata di azione di notifica in un'automazione con il seguente modello:
+
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
 ### Automate ([sito web](https://llamalab.com/automate/))
 
 In un flusso, aggiungi un blocco del tipo `APPS` » `Invia broadcast` e specifica
@@ -31,18 +46,6 @@ Crea una task. Nella task, aggiungi un'azione
 1. Assegna alla classe il nome `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
 1. Specifica come target `Broadcast receiver`
 1. Puoi lasciare gli altri campi vuoti
-
-### Llama - Location Profiles ([sito web](http://kebabapps.blogspot.com/search/label/Llama))
-
-Crea un evento (regola di automazione Llama). Nell'evento,
-
-1. Aggiungi un'azione di tipo intent di Android.
-1. Specifica la modalità di invio dell'intent come `Broadcast`.
-1. Assegna al pacchetto il nome `de.danoeh.antennapod`
-1. Assegna alla classe il nome `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
-1. Aggiungi qualsiasi altra condizione/azione per le tue esigenze specifiche.
-
-Come scorciatoia, puoi cliccare [questo link](http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) per creare un evento di esempio per iniziare.
 
 ***
 

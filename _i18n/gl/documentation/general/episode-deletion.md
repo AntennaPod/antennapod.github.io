@@ -1,0 +1,5 @@
+Cando acabaches de escoitar un episodio, na maioría dos casos, quererás eliminalo do teu teléfono, para liberar espazo. Hai varias maneiras de facer isto.
+
+Primeiro, podes, por suposto, eliminar os episodios de maneira manual. Cando esteas a ver a cola ou un podcast específico, podes manter pulsado sobre un episodio e tocar en `eliminar`. Cando esteas na pestana de Completados na páxina de Descargas, podes simplemente tocar na icona da papeleira. Se queres, AntennaPod pode eliminar de xeito automático un episodio da cola se é eliminado. Podes atopar esta opción en `Axustes` » `Almacenamento` » `Quitar eliminados da Cola`.
+
+Segundo, AntennaPod ten varias solucións para eliminar episodios de xeito automático. Particularmente, AntennaPod pode eliminar episodios de maneira automática cando a súa reprodución finaliza, e cando necesita espazo para o proceso de descarga automático. Para máis información sobre estas opcións, por favor le o artigo [Eliminación Automática](/documentation/automation/deletion).

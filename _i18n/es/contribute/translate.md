@@ -1,8 +1,8 @@
-De una [población mundial](https://en.wikipedia.org/wiki/World_population) estimada en 7.900 millones de personas, "solo" 1.500 millones [hablan inglés](https://www.ethnologue.com/insights/ethnologue200/). Puede que esto no signifique mucho per se. Pero, en todo caso, podemos concluir que hacer que AntennaPod esté disponible en más idiomas hace que la aplicación sea accesible a más personas. Como beneficio secundario, la localización de la aplicación también ayuda a que nuestro proyecto crezca más allá de las principales bases de usuarios actuales (Alemania y Estados Unidos).
+De una [población mundial](https://en.wikipedia.org/wiki/World_population) estimada en 8.000 millones de personas, "solo" 1.500 millones [hablan inglés](https://www.ethnologue.com/insights/ethnologue200/). Puede que esto no signifique mucho per se. Pero, en todo caso, podemos concluir que hacer que AntennaPod esté disponible en más idiomas hace que la aplicación sea accesible a más personas. Como beneficio secundario, la localización de la aplicación también ayuda a que nuestro proyecto crezca más allá de las principales bases de usuarios actuales (Alemania y Estados Unidos).
 
 ¡Por ello, apreciamos mucho tu colaboración!
 
-Para ayudar a traducir la aplicación, te pedimos que contribuyas a través de [Weblate](https://hosted.weblate.org/projects/antennapod/app/). Cualquiera puede registrarse allí y empezar. En la documentación de Weblate encontrarás [todo lo que necesitas saber para empezar a traducir](https://docs.weblate.org/en/latest/user/translating.html).
+Nuestras traducciones se alojan en Weblate, una plataforma de localización de código abierto. Cualquiera puede registrarse allí y [comenzar a traducir para AntennaPod](https://hosted.weblate.org/projects/antennapod). Encontrarás todo lo que necesitas saber en la [documentación de Weblate para traductores](https://docs.weblate.org/es/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
@@ -18,9 +18,9 @@ loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" wi
 
 Actualmente, la aplicación está disponible en más de 38 idiomas. Aunque hay más idiomas en Weblate, no los incluimos en la aplicación. Intentamos mantener un umbral del 40% de idiomas completados. Si es inferior, la aplicación apenas ofrece una buena experiencia al usuario.
 
-Las nuevas traducciones se transfieren de Weblate a GitHub (la plataforma de desarrollo) al menos cada vez que se lanza una "versión puntual". Se trata de versiones como 2.0, 2.5, etc. que introducen nuevas funciones. Pero también lanzamos actualizaciones con correcciones de errores y nuevas traducciones. Por término medio, pueden pasar uno o dos meses antes de que tu trabajo esté disponible en una versión.
+Se publican traducciones actualizadas con cada versión menor. Se trata de versiones como la 2.0, la 2.5, etc., que incorporan mejoras y nuevas funciones. En promedio, puede tardar uno o dos meses en estar disponible tu trabajo en una versión.
 
-Los colaboradores en la traducción aparecerán mencionados en la aplicación con su nombre de usuario de Weblate, en `Configuración` " `Acerca de` " `Colaboradores`.
+Si contribuiste con traducciones, serás mencionado en la aplicación con tu nombre de usuario de Weblate en `Ajustes` » `Acerca de` » `Colaboradores`.
 
 ## 2. El sitio web
 

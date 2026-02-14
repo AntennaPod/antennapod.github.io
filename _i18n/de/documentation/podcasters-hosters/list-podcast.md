@@ -1,4 +1,4 @@
-Falls du ein Podcast-Produzent bist und deinen Podcast in AntennaPod auffindbar machen willst, bist du hier richtig.
+Falls du ein Podcast-Produzent bist und deinen Podcast in AntennaPod auffindbar machen möchtest, bist du hier richtig.
 
 AntennaPod verwendet hauptsächlich zwei Verzeichnisse für seine Suchfunktion:
 

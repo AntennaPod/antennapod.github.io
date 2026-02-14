@@ -1,0 +1,78 @@
+{% comment %}
+  Language Showcase Component
+  Displays incomplete languages to encourage translations
+  Usage: {% include language-showcase.html %}
+{% endcomment %}
+
+{% assign incomplete_languages = "" | split: "" %}
+{% for lang in site.data.locales %}
+  {% if lang.completion and lang.completion >= 30 and lang.completion < 100 %}
+    {% assign incomplete_languages = incomplete_languages | push: lang %}
+  {% endif %}
+{% endfor %}
+
+{% if incomplete_languages.size > 0 %}
+  {% assign sorted_languages = incomplete_languages | sort: "completion" | reverse %}
+  
+  <div class="language-showcase-section bg-body-tertiary rounded-4 p-4 mb-4">
+    <div class="row align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <div class="d-flex align-items-center mb-3">
+          <div class="bg-primary bg-opacity-10 rounded-3 p-3 me-3">
+            <i class="fa-solid fa-globe fs-2 text-primary"></i>
+          </div>
+          <div>
+            <h4 class="mb-1 fw-bold">{% t language-showcase.title %}</h4>
+            <p class="text-body-secondary mb-0">{% t language-showcase.description %}</p>
+          </div>
+        </div>
+        <p class="text-body-secondary small mb-3">
+          {% t language-showcase.languages-need-help %} <strong>{{ incomplete_languages.size }}</strong> {% t language-showcase.languages-count %}
+        </p>
+        <a href="https://hosted.weblate.org/projects/antennapod/" target="_blank" rel="noopener" 
+           class="btn btn-primary">
+          <i class="fa-solid fa-language me-2"></i>{% t language-showcase.cta %}
+        </a>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-2">
+          {% for lang in sorted_languages limit:6 %}
+          <div class="col-sm-6">
+            <div class="bg-body rounded-3 p-3 h-100">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="fw-semibold">{{ lang.name }}</span>
+                <span class="badge bg-primary bg-opacity-75">{{ lang.completion }}%</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-primary" 
+                     role="progressbar" style="width: {{ lang.completion }}%;" 
+                     aria-valuenow="{{ lang.completion }}" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if incomplete_languages.size > 6 %}
+        <p class="text-body-secondary small mt-3 mb-0 text-end">
+          <a href="https://hosted.weblate.org/projects/antennapod/" target="_blank" rel="noopener" class="text-decoration-none">
+            +{{ incomplete_languages.size | minus: 6 }} {% t language-showcase.more-languages %} <i class="fa-solid fa-arrow-right ms-1"></i>
+          </a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="language-showcase-section bg-success bg-opacity-10 rounded-4 p-4 mb-4">
+    <div class="d-flex align-items-center">
+      <div class="bg-success bg-opacity-25 rounded-3 p-3 me-3">
+        <i class="fa-solid fa-check-circle fs-2 text-success"></i>
+      </div>
+      <div>
+        <h4 class="mb-1 fw-bold text-success">{% t language-showcase.title %}</h4>
+        <p class="text-body-secondary mb-0">{% t language-showcase.complete %}</p>
+      </div>
+    </div>
+  </div>
+{% endif %}
+

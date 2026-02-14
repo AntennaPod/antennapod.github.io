@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install mdpo
         run: |
           sudo apt-get install libmd4c-html0 libmd4c-html0-dev libmd4c-dev

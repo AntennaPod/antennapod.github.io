@@ -2,26 +2,25 @@
 layout: homepage
 ---
 
-<div class="container-fluid">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-8">
-      </div>
-      <div class="col-4">
-      </div>
+<!-- Interactive Demo Section -->
+{% comment %}
+<div class="container-fluid bg-body-tertiary py-5">
+    <div class="container">
+        {% include interactive-demo.html %}
     </div>
-  </div>
 </div>
+{% endcomment %}
 
+<!-- Feature: Ad-Free -->
 <div class="container-fluid">
     <div class="container pt-3 pb-0">
-        <div class="row justify-content-between align-items-center py-5 text-lg-left">
+        <div class="row justify-content-between align-items-center py-5 text-lg-start">
             <div class="col-12 col-lg-6 order-2 order-lg-2">
-                <h2 class="color-gray-900 hero-header">{% t homepage.features.adfree.title %}</h2>
-                <p class="size-20 mb-4 color-gray-900">{% t homepage.features.adfree.description %}</p>
+                <h2 class="text-body hero-header">{% t homepage.features.adfree.title %}</h2>
+                <p class="fs-5 mb-4 text-body">{% t homepage.features.adfree.description %}</p>
             </div>
-            <div class="col-12 col-lg-5 order-1 order-lg-1 pl-lg-0 mb-4 mb-lg-0">
-                <div class="w-50 half-phone float-md-right">
+            <div class="col-12 col-lg-5 order-1 order-lg-1 ps-lg-0 mb-4 mb-lg-0">
+                <div class="w-50 half-phone float-md-end">
                     {% capture img-alt-adfree %}{% t homepage.features.adfree.img-alt %}{% endcapture %}
                     {% include image.html
                        alt=img-alt-adfree
@@ -35,15 +34,16 @@ layout: homepage
     </div>
 </div>
 
+<!-- Feature: Listen Anywhere -->
 <div class="container-fluid">
     <div class="container pt-3 pb-0">
-        <div class="row justify-content-between align-items-center py-5 text-lg-right">
+        <div class="row justify-content-between align-items-center py-5 text-lg-end">
             <div class="col-12 col-lg-6 order-2 order-lg-1">
-                <h2 class="color-gray-900 hero-header">{% t homepage.features.listenanywhere.title %}</h2>
-                <p class="size-20 mb-4 color-gray-900">{% t homepage.features.listenanywhere.description %}</p>
+                <h2 class="text-body hero-header">{% t homepage.features.listenanywhere.title %}</h2>
+                <p class="fs-5 mb-4 text-body">{% t homepage.features.listenanywhere.description %}</p>
             </div>
-            <div class="col-12 col-lg-5 order-1 order-lg-2 pl-lg-0 mb-4 mb-lg-0">
-                <div class="w-50 half-phone float-md-left">
+            <div class="col-12 col-lg-5 order-1 order-lg-2 ps-lg-0 mb-4 mb-lg-0">
+                <div class="w-50 half-phone float-md-start">
                     {% capture img-alt-listenanywhere %}{% t homepage.features.listenanywhere.img-alt %}{% endcapture %}
                     {% include image.html
                        alt=img-alt-listenanywhere
@@ -56,3 +56,19 @@ layout: homepage
         </div>
     </div>
 </div>
+
+<!-- Community Section: Contributions & Forum -->
+{% comment %}
+<div class="container-fluid bg-body-tertiary py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-6">
+                {% include contributions-graph.html %}
+            </div>
+            <div class="col-lg-6">
+                {% include forum-posts.html limit=5 %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endcomment %}

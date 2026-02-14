@@ -8,7 +8,7 @@ Für die Verwendung von AntennaPod in deinem Auto sind keine weiteren Schritte e
 
 Wenn du AntennaPod von F-Droid heruntergeladen hast, sind weitere Schritte erforderlich.
 
-- Öffne die Android Auto-Einstellungen.
+- Öffne die „Android Auto“-Einstellungen auf deinem Telefon.
 - Aktiviere die `Entwicklereinstellungen` durch 10-maliges Drücken der Versionsnummer.
 - Öffne das 3-Punkte-Menü und rufe die Entwicklereinstellungen auf.
 - Aktiviere `Unbekannte Quellen`.

@@ -1,0 +1,1 @@
+Podes utilizar a cola para almacenar episodios que pretendes escoitar. Se atopas algún episodio interesante, mantenlo pulsado e selecciona `Engadir á cola`. Se descargas un episodio, AntennaPod engadirao á cola de xeito automático.

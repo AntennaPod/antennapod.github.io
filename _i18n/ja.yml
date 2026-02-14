@@ -35,12 +35,18 @@ generic:
   page-not-found-long: リクエストされたページは見つかりませんでした。
   masto-share:
     server: 'インスタンスのアドレスを入力（例: https://mastodon.social）'
+    title: Mastodonで共有
+    cancel: キャンセル
+    share: 共有
   next: 次へ
   eml-share:
     subject: これを見てください
     body: この記事をチェックしてください
   subscribe-subtitle: AntennaPodや他のポッドキャストアプリでポッドキャストを購読するにはクリックしてください。
   error404: 404エラー
+  theme:
+    light: ライト
+    dark: ダーク
 long_month:
   September: 9月
   October: 10月
@@ -58,11 +64,13 @@ homepage:
   header: オープンなポッドキャストプレイヤー
   features:
     adfree:
-      description: AntennaPodのアプリ自体には広告はありません。パブリッシャーがメディアファイルに広告を追加することを選択した場合には、100%の収益が得られます。
+      description: 
+        AntennaPodのアプリ自体には広告はありません。パブリッシャーがメディアファイルに広告を追加することを選択した場合には、100%の収益が得られます。
       title: 広告なし
     listenanywhere:
       title: どこでも聴ける
-      description: AntennaPodを使うと、エピソードをダウンロードしてどこでも聴けます。ポッドキャストを選んで自動的にダウンロードするようにすることもできます。
+      description: 
+        AntennaPodを使うと、エピソードをダウンロードしてどこでも聴けます。ポッドキャストを選んで自動的にダウンロードするようにすることもできます。
   description: 
     AntennaPodは完全にオープンなポッドキャストプレイヤーです。アプリはオープンソースで、どんなRSSフィードでも購読できます。AntennaPodは商業的な興味のないボランティアの人たちが開発しているため、あなたはすべてをコントロールできますが、プライバシーも尊重されます。
 month:
@@ -82,7 +90,8 @@ events:
   general:
     copy-url: カレンダーURLのコピー
     download-ics: ICSファイルのダウンロード
-    announce-add-calendar: 最新のイベントや最新のコミュニティ会議の情報を常に手元に置いておきたいですか？ 「カレンダーに追加」リンクを使用して、お気に入りのアプリでカレンダーを購読してください！
+    announce-add-calendar: 最新のイベントや最新のコミュニティ会議の情報を常に手元に置いておきたいですか？ 
+      「カレンダーに追加」リンクを使用して、お気に入りのアプリでカレンダーを購読してください！
     recurring: 繰り返しのイベント
   links:
     open-blog: ブログ投稿を読む
@@ -159,7 +168,8 @@ documentation:
       external-storage: 外部ストレージの利用
   general:
     search-placeholder: ドキュメントを検索
-    introduction: AntennaPodのドキュメントセクションへようこそ。このセクションは、現在の機能に関する情報を提供することを目的としています。
+    introduction: 
+      AntennaPodのドキュメントセクションへようこそ。このセクションは、現在の機能に関する情報を提供することを目的としています。
     no-results: すみません、何も見つかりませんでした
     title: 全般
     other-platforms:
@@ -183,6 +193,8 @@ documentation:
       title: エピソードの削除
     f-droid:
       title: F-Droid上の更新
+    app-permissions:
+      title: アプリの権限
   podcasters-hosters:
     add-on-antennapod:
       title: 「AntennaPodで開く」リンクを作成する
@@ -287,8 +299,8 @@ contribute:
     modal-button-donate: 寄付する
     modal-button-chat: 協力方法について話し合う
     modal-button-contribute: 寄付のオプションをもう一度チェックしてください
-    link: <a href="https://opencollective.com/antennapod" target="_blank" data-toggle="modal"
-      data-target="#donationModal">寄付</a>をしたいです。
+    link: <a href="https://opencollective.com/antennapod" target="_blank" 
+      data-toggle="modal" data-target="#donationModal">寄付</a>をしたいです。
   promote:
     text: キャッチーな投稿、興味深いブログ、素晴らしいイラストを作れますか？情報を広めるのを助けてください。
     title: 宣伝
@@ -303,3 +315,7 @@ not-installed:
   title: AntennaPodがインストールされていません
 blog:
   posted: 投稿日時
+  previous-post: 前へ
+  next-post: 次へ
+media-kit:
+  title: メディアキット

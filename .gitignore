@@ -1,6 +1,42 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+_cache/
+
+# Ruby/Bundler
 Gemfile.lock
-.bundle
+.bundle/
+/vendor/
+*.gem
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Node (if used)
+node_modules/
+npm-debug.log*
+yarn-error.log*

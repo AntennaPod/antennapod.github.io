@@ -14,6 +14,21 @@
 
 ## گام‌ها برای برخی برنامه‌های خودکارسازی
 
+### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+
+ساخت فراخوان کنش آگاهی در اتوماسیون با قالب زیر:
+
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
 ### Automate ([وبگاه](https://llamalab.com/automate/))
 
 در یک جریان، بلوکی از نوع `APPS` » `Broadcast send` بیافزایید و مشخص کنید
@@ -31,18 +46,6 @@
 1. نام کلاس را `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` مشخص کنید
 1. هدف را `Broadcast receiver` مشخص کنید
 1. سایر بخش‌ها را می‌توانید خالی بگذارید
-
-### Llama - Location Profiles ([وبگاه](http://kebabapps.blogspot.com/search/label/Llama))
-
-یک رویداد (قانون خودکارسازی لاما) بسازید. در رویداد،
-
-1. یک کنش از نوع نیت اندروید(Android intent) بیافزایید.
-1. حالت فرستادن نیت را `Broadcast` مشخص کنید.
-1. نام بسته را `de.danoeh.antennapod` مشخص کنید
-1. نام کلاس را `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` مشخص کنید
-1. هر شرط یا کنش دیگری برای نیازهای خاص خود بیافزایید.
-
-برای میان‌بر، می‌توانید [این پیوند](http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) را بزنید تا یک رویداد نمونه برای آغاز بسازید.
 
 ***
 

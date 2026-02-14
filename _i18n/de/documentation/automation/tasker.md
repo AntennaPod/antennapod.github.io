@@ -14,14 +14,29 @@ In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements 
 
 ## Anleitungen für einige Automatisierungs-Apps
 
-### Automate ([Webseite](https://llamalab.com/automate/))
+### HomeAssistant Android Mobile Companion ([Website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+
+Erstelle eine Benachrichtigungsaktion in einer Automatisierung mit der folgenden Vorlage:
+
+```
+action: notify.mobile_app_<SOME-ANDROID-MOBILE-DEVICE>
+metadata: {}
+data:
+  message: command_broadcast_intent
+  data:
+    intent_package_name: de.danoeh.antennapod
+    intent_class_name: de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver
+    intent_action: Something random - cannot be empty
+```
+
+### Automate ([Website](https://llamalab.com/automate/))
 
 Füge einen Block des Typs `APPS` » `Broadcast senden` ein und spezifiziere
 
 1. Paket zu `de.danoeh.antennapod`
 1. Die Empfängerklasse sollte `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` sein
 
-### Tasker ([Webseite](https://tasker.joaoapps.com/))
+### Tasker ([Website](https://tasker.joaoapps.com/))
 
 Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu
 
@@ -31,18 +46,6 @@ Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu
 1. Gib als Klassenname `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` an
 1. Gib als Ziel `Broadcast-Empfänger` an
 1. Du kannst die anderen Felder leer lassen
-
-### Llama – Standortprofile ([Webseite](http://kebabapps.blogspot.com/search/label/Llama))
-
-Erstelle ein Ereignis (Llama-Automatisierungsregel). In dem Ereignis,
-
-1. Füge eine Aktion vom Typ „Android-Intent“ hinzu.
-1. Lege den Sendemodus für den Intent als `Broadcast` fest.
-1. Gib als Paketname `de.danoeh.antennapod` an
-1. Gib als Klassenname `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` an
-1. Füge nach Belieben andere Bedingungen/Aktionen hinzu.
-
-Als Abkürzung kannst du auf [diesen Link](http://llama.location.profiles/AntennaPod+feeds+Update/AntennaPod+feeds+Update%7C0-1-0-0-0-0-0-1-0--0-%7C%3A%7Ct%7C420%7C425%7Cai%7Cde.danoeh.antennapod%7CFgAAAGEAbgBkAHIAbwBpAGQALgBjAG8AbgB0AGUAbgB0AC4ASQBuAHQAZQBuAHQAAAAAAP%2F%2F%2F%2F8AAAAA%2F%2F%2F%2F%2FwAAAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FxQAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQAAAAAADUAAABkAGUALgBkAGEAbgBvAGUAaAAuAGEAbgB0AGUAbgBuAGEAcABvAGQALgBjAG8AcgBlAC4AcgBlAGMAZQBpAHYAZQByAC4ARgBlAGUAZABVAHAAZABhAHQAZQBSAGUAYwBlAGkAdgBlAHIAAAAAAAAAAAAAAAAAAAAAAAAA%2Fv%2F%2F%2F%2F%2F%2F%2F%2F8%3D%7C2%7C) klicken, um ein Beispielereignis zu erstellen, das den Einstieg erleichtert.
 
 ***
 

@@ -17,6 +17,9 @@ generic:
     logo: AntennaPod Logo
   masto-share:
     server: 'Voer het adres in van je server: (bijv. https://mastodon.social)'
+    title: Delen op Mastodon
+    cancel: Annuleren
+    share: Delen
   view: Alles bekijken
   redirect:
     title: Omleiding
@@ -29,9 +32,12 @@ generic:
     subject: Ik wilde dit met je delen
   previous: Vorige
   next: Volgende
-  subscribe-subtitle: Klik om je te abonneren op deze podcast in AntennaPod of een
-    andere podcast app.
+  subscribe-subtitle: Klik om je te abonneren op deze podcast in AntennaPod of 
+    een andere podcast app.
   error404: Error 404
+  theme:
+    light: Licht
+    dark: Donker
 month:
   Jun: jun
   Jul: jul
@@ -72,20 +78,21 @@ titles:
   events: Evenementen
 homepage:
   header: De Open Podcast Speler
-  description: AntennaPod is een podcast-speler die volledig open is. De app is open
-    source en je kunt je abonneren op elke RSS-feed. AntennaPod wordt gemaakt door
-    vrijwilligers zonder commercieel belang, dus het respecteert je privacy en jij
-    hebt de controle.
+  description: AntennaPod is een podcast-speler die volledig open is. De app is 
+    open source en je kunt je abonneren op elke RSS-feed. AntennaPod wordt 
+    gemaakt door vrijwilligers zonder commercieel belang, dus het respecteert je
+    privacy en jij hebt de controle.
   features:
     adfree:
       title: Advertentievrij
-      description: De AntennaPod-app zelf heeft geen advertenties. Als een podcaster
-        of uitgever er voor kiest om advertenties toe te voegen aan de mediabestanden,
-        krijgt die 100% van de opbrengsten.
+      description: De AntennaPod-app zelf heeft geen advertenties. Als een 
+        podcaster of uitgever er voor kiest om advertenties toe te voegen aan de
+        mediabestanden, krijgt die 100% van de opbrengsten.
       img-alt: Nederlands
     listenanywhere:
-      description: Met AntennaPod kun je podcasts altijd en overal downloaden en luisteren.
-        Je kunt zelfs per podcast bepalen of die automatisch gedownload moet worden.
+      description: Met AntennaPod kun je podcasts altijd en overal downloaden en
+        luisteren. Je kunt zelfs per podcast bepalen of die automatisch 
+        gedownload moet worden.
       title: Luister waar dan ook
       img-alt: Nederlands
   img-alt: Nederlands
@@ -93,38 +100,40 @@ contribute:
   translate:
     text: Spreek je een andere taal dan Engels? Help ons AntennaPod vertalen.
     title: Vertalen
-    card-text: Spreek je een andere taal dan Engels? Help ons AntennaPod vertalen.
+    card-text: Spreek je een andere taal dan Engels? Help ons AntennaPod 
+      vertalen.
   design:
-    text: Zet je complexe verzoeken om in begrijpelijke user stories of wireframes?
-      Help ons deze verzoeken vorm te geven.
+    text: Zet je complexe verzoeken om in begrijpelijke user stories of 
+      wireframes? Help ons deze verzoeken vorm te geven.
     title: Ontwerpen en designen
-    card-text: Zet jij complexe aanvragen om in begrijpelijke user stories of raamwerken?
-      Help deze issues aanpakken.
-  introduction: AntennaPod wordt ontwikkeld en onderhouden door vrijwilligers. Jij
-    kan ook bijdragen, met code en op andere manieren!
+    card-text: Zet jij complexe aanvragen om in begrijpelijke user stories of 
+      raamwerken? Help deze issues aanpakken.
+  introduction: AntennaPod wordt ontwikkeld en onderhouden door vrijwilligers. 
+    Jij kan ook bijdragen, met code en op andere manieren!
   support:
     title: Ondersteuning
     text: Kun je dingen goed uitleggen? Help andere gebruikers op ons forum.
-    card-text: Ben je goed in dingen uitleggen? Help andere gebruikers op ons forum.
+    card-text: Ben je goed in dingen uitleggen? Help andere gebruikers op ons 
+      forum.
   test:
     title: Testen
     text: Ben je goed in het slopen van dingen? Word bèta-tester.
     card-text: Ben je goed in dingen stukmaken? Wordt een beta-tester.
   develop:
     title: Ontwikkelen
-    text: Schrijf je code? Help met het testen van pull-requests of draag zelf bij
-      met nieuwe functies of bug-fixes voor de app of website.
+    text: Schrijf je code? Help met het testen van pull-requests of draag zelf 
+      bij met nieuwe functies of bug-fixes voor de app of website.
     categories:
       website:
         card-text: Bekend met SCSS en HTML? Help ons met onze website.
         title: Website
       upstream:
         title: Upstream & andere projecten
-        card-text: Help ons door bij te dragen aan projecten waar we van afhankelijk
-          zijn.
+        card-text: Help ons door bij te dragen aan projecten waar we van 
+          afhankelijk zijn.
       app:
-        card-text: Spreek je Java? Kom erachter hoe je kunt bijdragen aan de AntennaPod
-          app.
+        card-text: Spreek je Java? Kom erachter hoe je kunt bijdragen aan de 
+          AntennaPod app.
         title: App
         getting-credited:
           title: Erkenning krijgen voor je bijdrage
@@ -132,29 +141,35 @@ contribute:
           title: Code-structuur en code-stijl
         test-builds:
           title: Test-builds verkrijgen
-    card-text: Schrijf je code? Help pull requests te testen of dien nieuwe features
-      of bugfixes in voor de app of website.
+      infrastructure:
+        title: Infrastructuur
+        card-text: De diensten en accounts die het project gebruikt en wie er 
+          toegang tot heeft.
+    card-text: Schrijf je code? Help pull requests te testen of dien nieuwe 
+      features of bugfixes in voor de app of website.
   promote:
     title: Promoten
-    text: Schrijf je pakkende tweets en interessante blogs, of maak je prachtige graphics?
-      Help ons AntennaPod wereldberoemd maken.
-    card-text: Schrijf je pakkende tweets, interessante blogs of prachtige graphics?
-      Help de boodschap te verspreiden.
+    text: Schrijf je pakkende tweets en interessante blogs, of maak je prachtige
+      graphics? Help ons AntennaPod wereldberoemd maken.
+    card-text: Schrijf je pakkende tweets, interessante blogs of prachtige 
+      graphics? Help de boodschap te verspreiden.
   donate:
-    link: Ik wil een <a href="https://opencollective.com/antennapod" target="_blank"
-      data-toggle="modal" data-target="#donationModal">donatie</a> doen.
+    link: Ik wil een <a href="https://opencollective.com/antennapod" 
+      target="_blank" data-toggle="modal" 
+      data-target="#donationModal">donatie</a> doen.
     modal-title: Weet je zeker dat je wilt doneren?
     modal-button-donate: Doneer toch
     modal-button-chat: Overleg met ons hoe je kunt helpen
     modal-button-contribute: Bekijk nogmaals de mogelijkheden om bij te dragen
     title: Doneer
     card-text: Je kunt je tijd niet geven en wilt in plaats daarvan geld geven.
-  intro: AntennaPod wordt ontwikkeld en onderhouden door vrijwilligers. Jij kan ook
-    bijdragen, met code en op andere manieren!
+  intro: AntennaPod wordt ontwikkeld en onderhouden door vrijwilligers. Jij kan 
+    ook bijdragen, met code en op andere manieren!
 documentation:
   categories:
     podcasters-hosters:
-      intro: Hieronder vind je onze ondersteuningsinformatie voor podcasters & hostingproviders.
+      intro: Hieronder vind je onze ondersteuningsinformatie voor podcasters & 
+        hostingproviders.
       title: Voor podcasters & hosters
       add-on-antennapod: Maak een 'Open in AntennaPod'-link
       list-podcast: Je podcast vermeld krijgen
@@ -177,7 +192,8 @@ documentation:
       crashes: Wat te doen als het afspelen plotseling stopt
       shortcuts: Sneltoetsen voor fysieke toetsenborden
       title: Afspelen
-      intro: Hieronder vind je onderwerpen omtrent het afspelen van afleveringen.
+      intro: Hieronder vind je onderwerpen omtrent het afspelen van 
+        afleveringen.
       auto-rewind: Automatisch terugspoelen
       android-auto: Afspelen in auto's (Android Auto)
       chromecast: Afspelen op Google Chromecast
@@ -190,15 +206,15 @@ documentation:
       smart-shuffle: Hoe gebruik je de slimme shuffle
     automation:
       title: Automatiseren
-      intro: Ben je een behendig gebruiker en wil je taken automatisch laten uitvoeren?
-        Blader eens door onderstaande pagina's.
+      intro: Ben je een behendig gebruiker en wil je taken automatisch laten 
+        uitvoeren? Blader eens door onderstaande pagina's.
       deletion: Automatisch verwijderen
       refreshing-podcasts: Podcasts bijwerken
       tasker: Integratie met andere apps
     bugs-first-aid:
       title: Bugs, fouten & eerste hulp
-      intro: Software ontwikkelen is een mensenwerk, dus fouten zijn onontkoombaar.
-        Maar meestal kunnen we snel verhelpen!
+      intro: Software ontwikkelen is een mensenwerk, dus fouten zijn 
+        onontkoombaar. Maar meestal kunnen we snel verhelpen!
       bug-report: Er werkt iets niet
       typo-translations: Ik heb een type- of spelfout ontdekt
       database-error: Al m'n podcasts en afleveringen zijn verdwenen
@@ -206,22 +222,23 @@ documentation:
       playback-stops: Het afspelen stopt plotseling
       cannot-stream-download: Een aflevering kan niet gedownload worden
       refresh-download-errors: Fout bij het downloaden of verversen van de feed
-      cannot-resume-playback: Kan niet ontpauzeren vanaf het ontgrendelscherm of een
-        notificatie
+      cannot-resume-playback: Kan niet ontpauzeren vanaf het ontgrendelscherm of
+        een notificatie
     getting-started:
       title: Aan de slag
-      intro: Welkom bij AntennaPod! Hieronder vind je informatie voor je eerste stappen
-        met AntennaPod.
+      intro: Welkom bij AntennaPod! Hieronder vind je informatie voor je eerste 
+        stappen met AntennaPod.
       subscribe: Je abonneren op een podcast
       home: De startpagina gebruiken
     subscriptions:
       title: Abonnementen
       intro: Hieronder vind je vaak gestelde vragen over abonnementen.
-      listening-without-subscribing: Naar een aflevering luisteren zonder je te abonneren
+      listening-without-subscribing: Naar een aflevering luisteren zonder je te 
+        abonneren
       subscription-groups: Podcast-tags (groepen of categorieën)
   general:
-    introduction: Welkom in de handleiding van AntennaPod. Hier vind je alles over
-      hoe de app werkt.
+    introduction: Welkom in de handleiding van AntennaPod. Hier vind je alles 
+      over hoe de app werkt.
     search-placeholder: Documentatie doorzoeken
     no-results: Sorry, er is niks gevonden
     title: Algemeen
@@ -246,6 +263,10 @@ documentation:
       title: AntennaPod voor Windows, Apple en Linux
     central-distributed:
       title: Centrale en gedistribueerde podcast-apps
+    statistics:
+      title: Luister statistieken
+    app-permissions:
+      title: App-machtigingen
   queue:
     intro: Hieronder vind je veelgestelde vragen over de wachtrij.
     how-to-use:
@@ -257,6 +278,8 @@ documentation:
     title: Wachtrij
     multiple-queues:
       title: Het gebruik van meerdere wachtrijen
+    sorting:
+      title: Je wachtrij sorteren
   subscriptions:
     title: Abonnementen
     subscription-groups:
@@ -266,18 +289,18 @@ documentation:
     deletion:
       title: Automatisch verwijderen
     title: Automatisering
-    intro: Ben je een ervaren gebruiker en wil je taken automatiseren? Kijk eens naar
-      de pagina's hieronder.
+    intro: Ben je een ervaren gebruiker en wil je taken automatiseren? Kijk eens
+      naar de pagina's hieronder.
     refreshing-podcasts:
-      title: Podcasts verversen
+      title: Podcasts aan het verversen
     tasker:
       title: Integratie met andere apps
   bugs-first-aid:
     cannot-stream-download:
       title: Kan een aflevering niet downloaden
     title: Bugs, foutmeldingen en eerste hulp
-    intro: Software wordt gemaakt door mensen, dus fouten zijn onvermijdelijk. Maar
-      vaak kunnen we daar iets aan doen!
+    intro: Software wordt gemaakt door mensen, dus fouten zijn onvermijdelijk. 
+      Maar vaak kunnen we daar iets aan doen!
     bug-report:
       title: Iets werkt niet
     database-error:
@@ -300,8 +323,8 @@ documentation:
       title: Abonneren op een podcast
     home:
       title: Het startscherm gebruiken
-    intro: Welkom bij AntennaPod! Hieronder kun je wat details vinden over hoe je
-      kunt beginnen met AntennaPod.
+    intro: Welkom bij AntennaPod! Hieronder kun je wat details vinden over hoe 
+      je kunt beginnen met AntennaPod.
     title: Beginnen
   playback:
     intro: Hieronder vind je onderwerpen gerelateerd aan afspelen.
@@ -318,17 +341,21 @@ documentation:
     title: Voor podcasters en hostingproviders
     update-feed-urls:
       title: Feed-URL's bijwerken
-    intro: Hieronder vindt u onze ondersteuningsinformatie voor podcasters en hostingproviders.
+    intro: Hieronder vindt u onze ondersteuningsinformatie voor podcasters en 
+      hostingproviders.
     add-on-antennapod:
       title: Maak een 'Open in AntennaPod' link aan
     list-podcast:
       title: Je podcast laten vermelden
-  intro: Welkom op de documentatie-sectie van AntennaPod. Het doel van deze sectie
-    is om informatie te verstrekken over huidige functies.
+  intro: Welkom op de documentatie-sectie van AntennaPod. Het doel van deze 
+    sectie is om informatie te verstrekken over huidige functies.
 footer:
-  description: De makkelijke, flexibele en open source podcast-manager voor Android.
+  description: De makkelijke, flexibele en open source podcast-manager voor 
+    Android.
 blog:
   posted: Gepubliceerd op
+  previous-post: Vorige
+  next-post: Volgende
 readtime:
   singular: min. lezen
   plural: min. lezen
@@ -337,9 +364,9 @@ events:
     recurring: Terugkerende gebeurtenis
     download-ics: ICS-bestand downloaden
     copy-url: Kalender-URL kopieren
-    announce-add-calendar: Wil je altijd de laatste evenementen en actuele informatie
-      over community calls bij de hand hebben? Abonneer je dan op onze kalender in
-      je favoriete app via de link 'Toevoegen aan kalender'!
+    announce-add-calendar: Wil je altijd de laatste evenementen en actuele 
+      informatie over community calls bij de hand hebben? Abonneer je dan op 
+      onze kalender in je favoriete app via de link 'Toevoegen aan kalender'!
   links:
     add-calendar: Toevoegen aan kalender
     more-information: Meer informatie
@@ -352,5 +379,7 @@ events:
     2nd-4th-wednesday: (bijna elke) tweede en vierde woensdag van de maand
 not-installed:
   title: AntennaPod niet geïnstalleerd
-  text: AntennaPod is niet geïnstalleerd of je browser ondersteunt het direct openen
-    ervan niet.
+  text: AntennaPod is niet geïnstalleerd of je browser ondersteunt het direct 
+    openen ervan niet.
+media-kit:
+  title: Mediakit
