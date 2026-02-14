@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:41+0200\n"
-"PO-Revision-Date: 2026-01-08 16:01+0000\n"
+"PO-Revision-Date: 2026-02-14 18:10+0000\n"
 "Last-Translator: Kjetil Sørlund <kjetil@sorlund.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "antennapod/website/general/nb_NO/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #
 #: _i18n/en/general/about.md:block 1 (paragraph)
@@ -457,6 +457,8 @@ msgid ""
 "When provided in the podcast settings, a host will receive the "
 "authentication data you provided."
 msgstr ""
+"Når det er angitt i podkastinnstillingene, vil verten motta "
+"autentiseringsdataene du angav."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
@@ -505,6 +507,11 @@ msgid ""
 "In the F-Droid release, you have to actively consent before getting Apple's "
 "recommendations."
 msgstr ""
+"Når du åpner Oppdag-skjermen i appen, blir det sendt et oppkall til Apple "
+"for å samle inn podkastforslag. Apple kan lagre forespørselen (f.eks. IP-"
+"adressen din og valgt region, som vanligvis er enhetens land). Disse "
+"forslagene kan slås av i toppmenyen på Oppdag-skjermen. I F-Droid-utgivelsen "
+"må du aktivt godta før du får anbefalinger fra Apple."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -514,6 +521,11 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"Når du bruker søkefunksjonen i AntennaPod kan tjenestene PodcastIndex.org "
+"([personvernpraksis](https://github.com/Podcastindex-org/legal/blob/main/"
+"PrivacyPolicy.md)), Apple Podcasts ([personvernpraksis](https://"
+"www.apple.com/legal/privacy/en-ww/)) og fyyd ([personvernpraksis](https://"
+"fyyd.de/privacy)) lagre forespørselen, inkludert søkeordene."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -521,6 +533,9 @@ msgid ""
 "'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
 "meaning the discovery/search service is no longer involved."
 msgstr ""
+"Oppdag og søkespørringer inkluderer også IP-adresse, tidspunkt, appnavnet «"
+"AntennaPod». Etter at du abonnerer blir strømmen hentet direkte fra verten, "
+"som betyr at oppdag-/søketjenesten ikke lenger er involvert."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and backup services"
@@ -573,8 +588,8 @@ msgstr ""
 "Om du har aktivert [deling av informasjon om bruk og diagnostikk](https://"
 "support.google.com/accounts/answer/6078260) med Google og bruker Androids "
 "rapporteringsfunksjon når AntennaPod krasjer eller står stille, sendes "
-"relevant data til Google. For mer informasjon, les [Googles personvernregler]"
-"(https://policies.google.com)."
+"relevant data til Google. For mer informasjon, les [Googles "
+"personvernpraksis](https://policies.google.com)."
 
 #: _i18n/en/general/privacy.md:block 18 (header)
 msgid "Online services"
@@ -617,7 +632,7 @@ msgid ""
 "policy](https://opencollective.com/privacypolicy)"
 msgstr ""
 "disse enhetene – for mer informasjon, les [Open Collective Inc.s "
-"personvernregler](https://opencollective.com/privacypolicy)"
+"personvernpraksis](https://opencollective.com/privacypolicy)"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
 msgid ""
@@ -659,6 +674,10 @@ msgid ""
 "privacy-policies/github-general-privacy-statement) for the data they collect "
 "and process."
 msgstr ""
+"Når du besøker nettsiden vår, samhandler du med HitHub, Inc eller GitHub "
+"B.V. - se [personvernpraksisen](https://docs.github.com/en/site-policy/"
+"privacy-policies/github-general-privacy-statement) deres for å se hva de "
+"samler inn og hvordan behandler det."
 
 #: _i18n/en/general/privacy.md:block 27 (unordered list)
 msgid ""
@@ -667,6 +686,10 @@ msgid ""
 "section contains an embedded graph which is retrieved from the servers of "
 "Weblate s.r.o. ([privacy policy](https://weblate.org/en-gb/privacy/))."
 msgstr ""
+"Nettsiden plasserer ingen informajonskapsler eller bruker "
+"tredjepartssporing, -anaylyser eller andre tjenester. «Oversettelser»-siden "
+"undet «Bidra»-seksjonen inneholder en graf som blir hentet fra Weblate "
+"s.r.o. ([personvernpraksis](https://weblate.org/en-gb/privacy/))."
 
 #: _i18n/en/general/privacy.md:block 28 (header)
 msgid "Google Play"
@@ -679,10 +702,14 @@ msgid ""
 "store the following in any online service used by the team (e.g. GitHub or "
 "the forum):"
 msgstr ""
+"Når du aktivt legger igjen en anmeldelse i Google Play butikk vil AntennaPod-"
+"teamet få tilgang til den offentlige profilinformasjonen din og kan hente ut "
+"og lagre følgende i hvilklen som helst tjeneste teamet bruker på nett "
+"(f.eks. GitHub eller forumet):"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "review text"
-msgstr ""
+msgstr "teksten i anmeldelsen"
 
 #: _i18n/en/general/privacy.md:block 30 (unordered list)
 msgid "device language"
@@ -690,11 +717,11 @@ msgstr "enhetsspråk"
 
 #: _i18n/en/general/privacy.md:block 31 (header)
 msgid "Weblate"
-msgstr ""
+msgstr "Weblate"
 
 #: _i18n/en/general/privacy.md:block 32 (paragraph)
 msgid "When you contribute to AntennaPod's translations:"
-msgstr ""
+msgstr "Når du bidrar til oversettelse av AntennaPod:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -702,16 +729,21 @@ msgid ""
 "[privacy policy](https://weblate.org/en-gb/privacy/) for the data they "
 "collect and process."
 msgstr ""
+"samhandler du med en tjeneste tilbudt av Weblate s.r.o. - se "
+"[personvernpraksisen](https://weblate.org/en-gb/privacy/) deres for å se "
+"hvilke data de samler og behandler."
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid "the AntennaPod team gets access to:"
-msgstr "AntennaPod-laget får tilgang til:"
+msgstr "får AntennaPod-laget tilgang til:"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
 "the 'username', 'full name' and 'account e-mail' as set in [your profile]"
 "(https://hosted.weblate.org/accounts/profile/#account)"
 msgstr ""
+"«brukernavnet», «fullt navn» og «epostadressen» du har oppgitt i [profilen "
+"din](https://hosted.weblate.org/accounts/profile/#account)"
 
 #: _i18n/en/general/privacy.md:block 33 (unordered list)
 msgid ""
@@ -721,10 +753,15 @@ msgid ""
 "devel/reporting.html#credits) you contribute to and the date and timestamps "
 "of your contributions."
 msgstr ""
+"datoen du ble med i prosjektet og detaljert [statistikk](https://"
+"docs.weblate.org/en/latest/devel/reporting.html#stats) relatert til bidraget "
+"ditt, samt [språkene](https://docs.weblate.org/en/latest/devel/"
+"reporting.html#credits) du har bidratt til med dato og klokkeslett på "
+"bidragene dine."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: _i18n/en/general/privacy.md:block 35 (paragraph)
 msgid ""
@@ -733,6 +770,10 @@ msgid ""
 "docs.github.com/en/site-policy/privacy-policies/github-general-privacy-"
 "statement) for the data they collect and process."
 msgstr ""
+"Når du bidrar til AntennaPod sin kodebase via git samhandler du med GitHub, "
+"Inc. eller GitHub B.V. - se [personvernpraksisen](https://docs.github.com/en/"
+"site-policy/privacy-policies/github-general-privacy-statement) deres for å "
+"se hva de samler og hvordan det behandles."
 
 #: _i18n/en/general/privacy.md:block 36 (header)
 msgid "Updates to this Privacy Policy"

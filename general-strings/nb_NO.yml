@@ -10,6 +10,7 @@ titles:
   privacy: Personvernspraksis
   media-kit: Mediapakke
   events: Arrangementer
+  features: Funksjoner
 generic:
   share: Del
   error: Feil
@@ -26,6 +27,8 @@ generic:
     share-tw: Del på Twitter
     share-eml: Del via e-post
     logo: AntennaPod-logoen
+    theme-menu: Temabytter
+    skip-to-content: Hopp til hovedinnhold
   home: Hjem
   download: Last ned
   contribute: Bidra
@@ -38,10 +41,12 @@ generic:
     subject: Jeg vil dele dette med deg
     body: Sjekk denne artikkelen
   masto-share:
-    server: Skriv inn adressen til din instans (f.eks. https://mastodon.social)
+    server: Mastodon-tjeneren din
     title: Del på Mastodon
     cancel: Avbryt
     share: Del
+    description: Skriv inn nettadressen til Mastodon-tjeneren din for å dele 
+      denne posten.
   previous: Forrige
   next: Neste
   error404: Feil 404
@@ -50,6 +55,7 @@ generic:
   theme:
     light: Lyst
     dark: Mørkt
+    auto: Auto
 month:
   Jan: Jan
   Feb: Feb
@@ -99,6 +105,14 @@ blog:
   posted: Delt den
   previous-post: Forrige
   next-post: Neste
+  related-posts: Beslektede poster
+  post-navigation: Postnavigering
+  categories:
+    all: Alle
+    release: Utgivelse
+    project: Prosjektoppdatering
+    community: Samfunn
+    tutorial: Innføring
 contribute:
   develop:
     title: Utvikle
@@ -296,6 +310,7 @@ documentation:
   search:
     placeholder: Søk i dokumentasjonen
     no-results: Resultatløst
+    hint: Bruk piltastene for å navigere, Enter for å velge og Esc for å lukke
   getting-started:
     title: Hvordan begynne
     intro: Velkommen til AntennaPod. Nedenfor finner du detaljer om hvordan du 
@@ -374,6 +389,9 @@ events:
       felleskapsmøter tilgjengelig? Da kan du abonnere på kalenderen vår i 
       favorittprogrammet ditt med «Legg til i kalender»-lenken!
     download-ics: Last ned ICS-fil
+    recurring-events: Gjentakende begivenheter
+    upcoming-events: Kommende begivenheter
+    past-events: Tidligere begivenheter
   recurrence:
     every-2nd-saturday: annenhver lørdag i måneden
     2nd-4th-wednesday: (nesten) hver andre og fjerde onsdag i måneden
@@ -383,3 +401,19 @@ not-installed:
     direkte.
 media-kit:
   title: Mediapakke
+  description: Offisielle AntennaPod merkevareressurser for presse- og 
+    mediebruk.
+  logo-section: Logoer
+  logo-description: Logoen vår i ulike formater og farger for ulike bakgrunner.
+  colors-section: Merkevarefarger
+  colors-description: Vår offisielle fargepalett.
+  screenshots-section: Skjermbilder
+  screenshots-description: Skjermbilder fra appen for bruk i presse og 
+    markedsføring.
+  guidelines-section: Retningslinjer for bruk
+  guidelines-description: Vær snill og følg disse retningslinjene nrå du bruker 
+    merkevareressursene våre.
+  download-all: Last ned alle ressursene
+  primary: Primær
+  secondary: Sekundær
+  accent: Aksent
