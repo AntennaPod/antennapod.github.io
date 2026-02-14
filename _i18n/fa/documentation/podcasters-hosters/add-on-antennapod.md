@@ -9,13 +9,13 @@ You could also turn the same link into a button, e.g. by using the following cod
 <a href="https://antennapod.org/deeplink/subscribe?url=xyz&title=abc" class="antennapod-subscribe">Subscribe in AntennaPod</a>
 ```
 
-# What users see
+# آن‌چه کاربران خواهند دید
 
 Users who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.
 
 {% include image.html alt= "
 
-     Browser asking to open a link in AntennaPod
+     درخواست کردن مرورگر برای گشودن پیوندی در آنتناپاد
 
      "
 
@@ -23,7 +23,7 @@ loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     The same link displayed in AntennaPod
+     همان پیوند نمایش داده در آنتاپاد
 
      "
 
@@ -31,6 +31,6 @@ loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}
 
 On the other hand, users who don't have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this [example page](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
 
-# Branding
+# ویژندگی
 
 Would you like to use our logo to create a branded ‘Open in AntennaPod’ button? You can find it in our [branding repository](https://github.com/AntennaPod/branding).

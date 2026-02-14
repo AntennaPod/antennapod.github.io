@@ -92,15 +92,25 @@ blog:
   posted: Pubblicato il
   previous-post: Precedente
   next-post: Successivo
+  related-posts: Post correlati
+  post-navigation: Navigazione del post
+  categories:
+    all: Tutte
+    release: Versione
+    project: Aggiornamento del progetto
+    community: Comunità
+    tutorial: Tutorial
 readtime:
   singular: min di lettura
   plural: min di lettura
 generic:
   masto-share:
-    server: 'Inserisci l''indirizzo della tua istanza: (ad es. https://mastodon.social)'
+    server: 'La tua istanza di Mastodon'
     title: Condividi su Mastodon
     cancel: Annulla
     share: Condividi
+    description: Inserisci l'URL della tua istanza di Mastodon per condividere 
+      questo post.
   subscribe: Iscriviti
   view: Mostra tutto
   page-not-found-long: La pagina richiesta non è stata trovata.
@@ -114,6 +124,8 @@ generic:
     share-tw: Condividi su Twitter
     share-eml: Condividi per email
     logo: Logo di AntennaPod
+    theme-menu: Cambia tema
+    skip-to-content: Salta al contenuto principale
   contribute: Contribuisci
   learn: Per saperne di più
   error: Errore
@@ -135,6 +147,7 @@ generic:
   theme:
     light: Chiaro
     dark: Scuro
+    auto: Automatico
 titles:
   blog: Blog
   contribute: Contribuisci
@@ -147,6 +160,7 @@ titles:
   license: Licenza
   media-kit: Cartella stampa
   events: Eventi
+  features: Funzionalità
 month:
   Jan: gen
   Feb: feb
@@ -344,6 +358,8 @@ documentation:
   search:
     placeholder: Cerca nella documentazione
     no-results: Spiacente, nessun risultato
+    hint: Usa i tasti freccia per navigare, Invio per selezionare, Esc per 
+      chiudere
   getting-started:
     title: Per iniziare
     intro: Benvenuto su AntennaPod! Qui di seguito puoi trovare alcune 
@@ -374,6 +390,9 @@ events:
     download-ics: Scarica il file ICS
     copy-url: Copia l'URL del calendario
     recurring: Evento periodico
+    recurring-events: Eventi ricorrenti
+    past-events: Eventi passati
+    upcoming-events: Eventi futuri
   links:
     add-calendar: Aggiungi al calendario
     more-information: Più informazioni
@@ -390,3 +409,18 @@ not-installed:
     diretta dell'app.
 media-kit:
   title: Cartella stampa
+  primary: Primario
+  secondary: Secondario
+  description: Risorse di branding ufficiali di AntennaPod per uso stampa e 
+    multimediale.
+  logo-section: Loghi
+  logo-description: Il nostro logo in vari formati e colori per sfondi diversi.
+  colors-section: Colori del brand
+  colors-description: La nostra palette di colori ufficiale.
+  screenshots-section: Screenshot
+  screenshots-description: Screenshot dell'app a uso stampa e promozionale.
+  guidelines-section: Linee guida d'uso
+  guidelines-description: Segui queste linee guida quando usi le nostre risorse 
+    di branding.
+  download-all: Scarica tutte le risorse
+  accent: Di dettaglio
