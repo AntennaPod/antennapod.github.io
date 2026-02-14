@@ -9,6 +9,7 @@ titles:
   license: Ліцензія
   media-kit: Медіакіт
   privacy: Політика Конфіденційності
+  features: Особливості
 generic:
   home: Головна
   download: Завантажити
@@ -35,19 +36,24 @@ generic:
     logo: Логотип AntennaPod
     lang-menu: Перемикач мов
     share-md: Поділитися на Mastodon
+    theme-menu: Перемикач тем
+    skip-to-content: Перейти до основного змісту
   eml-share:
     subject: Хочу щоб ти це побачив
     body: Заціни цю статтю
   previous: Попередній
   masto-share:
-    server: 'Введіть адресу свого сервера: (наприклад, https://mastodon.social)'
+    server: 'Ваша інстанція Mastodon'
     title: Поділитися на Mastodon
     cancel: Скасувати
     share: Поділіться
+    description: Введіть URL-адресу вашого екземпляра Mastodon, щоб поділитися 
+      цим дописом.
   next: Далі
   theme:
     light: Світла
     dark: Темна
+    auto: Автомобіль
 month:
   Mar: Бер
   Apr: Кві
@@ -103,6 +109,12 @@ blog:
   next-post: Далі
   categories:
     community: Спільнота
+    all: Все
+    release: Випуск
+    project: Оновлення проекту
+    tutorial: Підручник
+  related-posts: Пов'язані публікації
+  post-navigation: Навігація по публікаціях
 readtime:
   singular: хв. читання
   plural: хв. читання
@@ -349,6 +361,8 @@ documentation:
   search:
     no-results: Вибачте, нічого не знайдено
     placeholder: Пошук документації
+    hint: Використовуйте клавіші зі стрілками для навігації, Enter для вибору, 
+      Esc для закриття
   intro: Ласкаво просимо до розділу документації AntennaPod. Цей розділ має на 
     меті надати інформацію про поточні функції.
   getting-started:
@@ -367,6 +381,9 @@ events:
     announce-add-calendar: Завжди хочете мати під рукою останні події та 
       оновлену інформацію про виклики спільноти? Тоді підпишіться на наш 
       календар у своєму улюбленому додатку за посиланням «Додати до календаря»!
+    recurring-events: Повторювані події
+    upcoming-events: Майбутні події
+    past-events: Минулі події
   links:
     add-calendar: Додати в календар
     open-blog: Читати публікацію в блозі
@@ -382,3 +399,19 @@ footer:
     кодом для Android.
 media-kit:
   title: Медіакіт
+  description: Офіційні матеріали бренду AntennaPod для використання в пресі та 
+    медіа.
+  logo-section: Логотипи
+  logo-description: Наш логотип у різних форматах та кольорах для різних фонів.
+  colors-section: Кольори бренду
+  colors-description: Наша офіційна кольорова палітра.
+  screenshots-section: Скріншоти
+  screenshots-description: Скріншоти додатків для використання в пресі та 
+    рекламних цілях.
+  guidelines-section: Рекомендації щодо використання
+  guidelines-description: Будь ласка, дотримуйтесь цих вказівок під час 
+    використання наших брендових активів.
+  download-all: Завантажити всі ресурси
+  primary: Первинний
+  secondary: Вторинний
+  accent: Акцент
