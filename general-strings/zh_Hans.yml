@@ -22,20 +22,24 @@ generic:
     share-tw: 分享至 Twitter
     share-eml: 通过邮件分享
     logo: AntennaPod 徽标
+    theme-menu: 主题切换
+    skip-to-content: 跳到主内容
   eml-share:
     subject: 我希望你看看这个
     body: 查看这篇文章
   masto-share:
-    server: 输入您的实例地址：（例如 https://mastodon.social）
+    server: Mastodon 实例
     title: 分享至 Mastodon
     cancel: 取消
     share: 分享
+    description: 输入 Mastodon 实例 URL 分享此博文。
   previous: 前一个
   next: 下一个
   subscribe-subtitle: 点击以在AntennaPod或任何其他播客app上订阅。
   theme:
     light: 浅色
     dark: 暗色
+    auto: 自动
 titles:
   about: 关于
   blog: 博客
@@ -47,6 +51,7 @@ titles:
   license: 许可
   privacy: 隐私政策
   media-kit: 媒体包
+  features: 功能
 long_month:
   March: 三月
   April: 四月
@@ -127,6 +132,7 @@ documentation:
   search:
     placeholder: 搜索文档
     no-results: 对不起，没有找到
+    hint: 使用键盘方向键导航，Enter 键选中，Esc 键关闭
   getting-started:
     title: 开始
     intro: 欢迎使用 AntennaPod！以下是有关如何开始使用 AntennaPod 的详细信息。
@@ -257,6 +263,12 @@ blog:
   next-post: 下一个
   categories:
     community: 社区
+    all: 全部
+    release: 版本发布
+    project: 项目更新
+    tutorial: 教程
+  related-posts: 相关博文
+  post-navigation: 博文向导
 readtime:
   singular: 分钟阅读
   plural: 分钟阅读
@@ -266,6 +278,9 @@ events:
     download-ics: 下载 ICS 文件
     copy-url: 复制日历 URL
     announce-add-calendar: 想随时了解最新活动和社区电话信息？请通过 "添加到日历 "链接在您最喜欢的应用程序中订阅我们的日历！
+    recurring-events: 定期活动
+    upcoming-events: 即将到来的活动
+    past-events: 以往活动
   links:
     add-calendar: 添加到日历
     more-information: 更多信息
@@ -280,3 +295,16 @@ footer:
   description: 易于使用、灵活、开源的 Android 播客管理器。
 media-kit:
   title: 媒体包
+  description: 新闻报道和媒体用途的官方 AntennaPod 品牌资产。
+  logo-section: 品牌标识
+  logo-description: 不同背景的多种格式和颜色的 AntennaPod 标识。
+  colors-section: 品牌色
+  colors-description: 官方品牌色调.
+  screenshots-section: 截屏
+  screenshots-description: 新闻报道和推广用途的应用截屏。
+  guidelines-section: 使用指南
+  guidelines-description: 使用我们的品牌资产时请遵守这些指南。
+  download-all: 下载所有资产
+  primary: 首要
+  secondary: 次要
+  accent: 强调色
