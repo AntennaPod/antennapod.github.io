@@ -220,10 +220,10 @@ hr {
 
 // Links
 a {
-  color: $teal-800;
+  color: var(--bs-link-color);
 
   &:hover {
-    color: $teal-900;
+    color: var(--bs-link-hover-color);
     text-decoration: none;
   }
 
