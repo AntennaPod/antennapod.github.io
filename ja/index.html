@@ -360,7 +360,7 @@
 
 
 <!-- Feature: Ad-Free -->
-<div class="container-fluid">
+<div class="container-fluid bg-body-tertiary">
     <div class="container pt-3 pb-0">
         <div class="row justify-content-between align-items-center py-5 text-lg-start">
             <div class="col-12 col-lg-6 order-2 order-lg-2">
@@ -390,7 +390,7 @@
 </div>
 
 <!-- Feature: Listen Anywhere -->
-<div class="container-fluid">
+<div class="container-fluid bg-body-tertiary">
     <div class="container pt-3 pb-0">
         <div class="row justify-content-between align-items-center py-5 text-lg-end">
             <div class="col-12 col-lg-6 order-2 order-lg-1">
@@ -420,7 +420,232 @@
 </div>
 
 <!-- Community Section: Contributions & Forum -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-4">
+          
+            <div class="col-lg-6">
+                
 
+
+
+<div class="forum-posts card h-100">
+  <div class="card-body d-flex flex-column">
+    <div class="d-flex align-items-center mb-3">
+      <div class="bg-primary bg-opacity-10 rounded-3 p-3 me-3">
+        <i class="fa-solid fa-comments fs-3 text-primary"></i>
+      </div>
+      <div>
+        <h5 class="card-title mb-1 fw-bold">Community forum</h5>
+        <p class="text-body-secondary small mb-0">Get help, share ideas, and connect with other users</p>
+      </div>
+    </div>
+
+    <div id="forum-posts-container" class="flex-grow-1">
+      <div class="text-center py-4 text-body-secondary">
+        <i class="fa-solid fa-spinner fa-spin me-2"></i>Loading discussions...
+      </div>
+    </div>
+
+    <div class="mt-3 pt-3 border-top">
+      <a href="https://forum.antennapod.org" target="_blank" rel="noopener" class="btn btn-primary w-100">
+        Visit the forum <i class="fa-solid fa-arrow-up-right-from-square me-2"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  var LIMIT = 5;
+  var FORUM_URL = 'https://forum.antennapod.org';
+  var API_URL = 'https://corsproxy.forum.antennapod.org/latest.php';
+
+  function fetchForumPosts() {
+    var container = document.getElementById('forum-posts-container');
+    if (!container) return;
+
+    // Check localStorage cache (15 minutes)
+    var cacheKey = 'forum_posts_cache_v5';
+    var cacheTimeKey = 'forum_posts_cache_time_v5';
+    var cached = localStorage.getItem(cacheKey);
+    var cacheTime = localStorage.getItem(cacheTimeKey);
+    var cacheExpiry = 15 * 60 * 1000;
+
+    if (cached && cacheTime && (Date.now() - parseInt(cacheTime)) < cacheExpiry) {
+      try {
+        var cachedData = JSON.parse(cached);
+        if (cachedData && cachedData.length > 0) {
+          renderPosts(cachedData, container);
+          return;
+        }
+      } catch (e) {
+        localStorage.removeItem(cacheKey);
+        localStorage.removeItem(cacheTimeKey);
+      }
+    }
+
+    // Fetch from the dedicated CORS proxy
+    fetch(API_URL, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(function(response) {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.json();
+    })
+    .then(function(data) {
+      var posts = parseTopics(data);
+      if (posts.length > 0) {
+        // Cache successful result
+        localStorage.setItem(cacheKey, JSON.stringify(posts));
+        localStorage.setItem(cacheTimeKey, Date.now().toString());
+        renderPosts(posts, container);
+      } else {
+        throw new Error('No topics found');
+      }
+    })
+    .catch(function(error) {
+      console.warn('Failed to fetch forum posts:', error.message);
+      renderFallback(container);
+    });
+  }
+
+  function parseTopics(data) {
+    var posts = [];
+
+    if (!data || !data.topic_list || !data.topic_list.topics) {
+      return posts;
+    }
+
+    var topics = data.topic_list.topics;
+    var users = data.users || [];
+
+    // Create user lookup map
+    var userMap = {};
+    users.forEach(function(user) {
+      userMap[user.id] = user;
+    });
+
+    // Filter out pinned topics and get latest discussions
+    var filteredTopics = topics.filter(function(topic) {
+      return !topic.pinned && !topic.pinned_globally;
+    });
+
+    for (var i = 0; i < Math.min(filteredTopics.length, LIMIT); i++) {
+      var topic = filteredTopics[i];
+      var lastPoster = null;
+
+      // Get last poster from posters array
+      if (topic.posters && topic.posters.length > 0) {
+        var lastPosterInfo = topic.posters.find(function(p) {
+          return p.extras && p.extras.indexOf('latest') !== -1;
+        }) || topic.posters[topic.posters.length - 1];
+
+        if (lastPosterInfo && lastPosterInfo.user_id) {
+          lastPoster = userMap[lastPosterInfo.user_id];
+        }
+      }
+
+      posts.push({
+        title: topic.title || topic.fancy_title,
+        url: FORUM_URL + '/t/' + topic.slug + '/' + topic.id,
+        dateTimestamp: topic.last_posted_at ? new Date(topic.last_posted_at).getTime() :
+              topic.bumped_at ? new Date(topic.bumped_at).getTime() :
+              new Date(topic.created_at).getTime(),
+        replies: (topic.posts_count || 1) - 1,
+        views: topic.views || 0,
+        author: lastPoster ? lastPoster.username : null
+      });
+    }
+
+    return posts;
+  }
+
+  function renderPosts(posts, container) {
+    if (!posts || posts.length === 0) {
+      renderFallback(container);
+      return;
+    }
+
+    var html = '<div class="list-group list-group-flush">';
+    posts.forEach(function(post) {
+      var timeAgo = post.dateTimestamp ? formatTimeAgo(new Date(post.dateTimestamp)) : '';
+      var meta = [];
+      if (post.replies !== undefined && post.replies > 0) {
+        meta.push(post.replies + ' ' + (post.replies === 1 ? 'reply' : 'replies'));
+      }
+      if (timeAgo) {
+        meta.push(timeAgo);
+      }
+
+      html += '<a href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener" ';
+      html += 'class="list-group-item list-group-item-action px-0 py-2 border-0">';
+      html += '<div class="d-flex align-items-start">';
+      html += '<i class="fa-regular fa-comment-dots text-primary me-2 mt-1 flex-shrink-0"></i>';
+      html += '<div class="flex-grow-1 min-width-0">';
+      html += '<h6 class="mb-0 fw-semibold" style="font-size: 0.9375rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">' + escapeHtml(post.title) + '</h6>';
+      if (meta.length > 0) {
+        html += '<small class="text-body-secondary">' + meta.join(' · ') + '</small>';
+      }
+      html += '</div>';
+      html += '</div>';
+      html += '</a>';
+    });
+    html += '</div>';
+
+    container.innerHTML = html;
+  }
+
+  function renderFallback(container) {
+    container.innerHTML = 'Unable to load forum posts';
+  }
+
+  function formatTimeAgo(date) {
+    var seconds = Math.floor((new Date() - date) / 1000);
+    if (seconds < 0) seconds = 0;
+
+    var intervals = [
+      { label: 'y', seconds: 31536000 },
+      { label: 'mo', seconds: 2592000 },
+      { label: 'd', seconds: 86400 },
+      { label: 'h', seconds: 3600 },
+      { label: 'm', seconds: 60 }
+    ];
+
+    for (var i = 0; i < intervals.length; i++) {
+      var count = Math.floor(seconds / intervals[i].seconds);
+      if (count >= 1) {
+        return count + intervals[i].label + ' ago';
+      }
+    }
+    return 'just now';
+  }
+
+  function escapeHtml(text) {
+    if (!text) return '';
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  // Initialize
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fetchForumPosts);
+  } else {
+    fetchForumPosts();
+  }
+})();
+</script>
+
+            </div>
+        </div>
+    </div>
+</div>
 
       </main>
     </div>
