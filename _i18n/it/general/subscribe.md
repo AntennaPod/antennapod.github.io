@@ -5,4 +5,4 @@ Premi il pulsante qui sotto per iscriverti a questo podcast in AntennaPod. Non h
 
 Subscribe in AntennaPod
 
-</button>Do you use another podcast app or does your web browser not support opening AntennaPod directly? You can find the RSS address of the podcast in the box below. To subscribe, paste the address into AntennaPod's search box or into your other podcast app.
+</button>Se il tuo browser non supporta l'apertura di AntennaPod direttamente tramite il pulsante, puoi anche copiare l'indirizzo visualizzato nella casella sottostante e incollarlo nella casella di ricerca di AntennaPod.
