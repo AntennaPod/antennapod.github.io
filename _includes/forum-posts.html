@@ -17,13 +17,13 @@
         <p class="text-body-secondary small mb-0">{% t forum-posts.description %}</p>
       </div>
     </div>
-    
+
     <div id="forum-posts-container" class="flex-grow-1">
       <div class="text-center py-4 text-body-secondary">
         <i class="fa-solid fa-spinner fa-spin me-2"></i>{% t forum-posts.loading %}
       </div>
     </div>
-    
+
     <div class="mt-3 pt-3 border-top">
       <a href="https://forum.antennapod.org" target="_blank" rel="noopener" class="btn btn-primary w-100">
         <i class="fa-solid fa-arrow-up-right-from-square me-2"></i>{% t forum-posts.view-all %}
@@ -35,29 +35,22 @@
 <script>
 (function() {
   'use strict';
-  
+
   var LIMIT = {{ limit }};
   var FORUM_URL = 'https://forum.antennapod.org';
-  var API_URL = FORUM_URL + '/latest.json';
-  
-  // Multiple CORS proxies as fallbacks
-  var CORS_PROXIES = [
-    'https://corsproxy.io/?',
-    'https://api.allorigins.win/raw?url=',
-    'https://cors-anywhere.herokuapp.com/'
-  ];
-  
+  var API_URL = 'https://corsproxy.forum.antennapod.org/latest.php';
+
   function fetchForumPosts() {
     var container = document.getElementById('forum-posts-container');
     if (!container) return;
-    
+
     // Check localStorage cache (15 minutes)
-    var cacheKey = 'forum_posts_cache_v4';
-    var cacheTimeKey = 'forum_posts_cache_time_v4';
+    var cacheKey = 'forum_posts_cache_v5';
+    var cacheTimeKey = 'forum_posts_cache_time_v5';
     var cached = localStorage.getItem(cacheKey);
     var cacheTime = localStorage.getItem(cacheTimeKey);
     var cacheExpiry = 15 * 60 * 1000;
-    
+
     if (cached && cacheTime && (Date.now() - parseInt(cacheTime)) < cacheExpiry) {
       try {
         var cachedData = JSON.parse(cached);
@@ -67,24 +60,12 @@
         }
       } catch (e) {
         localStorage.removeItem(cacheKey);
+        localStorage.removeItem(cacheTimeKey);
       }
     }
-    
-    // Try fetching with CORS proxies
-    tryFetchWithProxies(0, container);
-  }
-  
-  function tryFetchWithProxies(proxyIndex, container) {
-    if (proxyIndex >= CORS_PROXIES.length) {
-      // All proxies failed, show fallback
-      console.warn('All CORS proxies failed, showing fallback');
-      renderFallback(container);
-      return;
-    }
-    
-    var proxyUrl = CORS_PROXIES[proxyIndex] + encodeURIComponent(API_URL);
-    
-    fetch(proxyUrl, {
+
+    // Fetch from the dedicated CORS proxy
+    fetch(API_URL, {
       method: 'GET',
       headers: {
         'Accept': 'application/json'
@@ -98,80 +79,79 @@
       var posts = parseTopics(data);
       if (posts.length > 0) {
         // Cache successful result
-        localStorage.setItem('forum_posts_cache_v4', JSON.stringify(posts));
-        localStorage.setItem('forum_posts_cache_time_v4', Date.now().toString());
+        localStorage.setItem(cacheKey, JSON.stringify(posts));
+        localStorage.setItem(cacheTimeKey, Date.now().toString());
         renderPosts(posts, container);
       } else {
         throw new Error('No topics found');
       }
     })
     .catch(function(error) {
-      console.warn('Proxy ' + proxyIndex + ' failed:', error.message);
-      // Try next proxy
-      tryFetchWithProxies(proxyIndex + 1, container);
+      console.warn('Failed to fetch forum posts:', error.message);
+      renderFallback(container);
     });
   }
-  
+
   function parseTopics(data) {
     var posts = [];
-    
+
     if (!data || !data.topic_list || !data.topic_list.topics) {
       return posts;
     }
-    
+
     var topics = data.topic_list.topics;
     var users = data.users || [];
-    
+
     // Create user lookup map
     var userMap = {};
     users.forEach(function(user) {
       userMap[user.id] = user;
     });
-    
+
     // Filter out pinned topics and get latest discussions
     var filteredTopics = topics.filter(function(topic) {
       return !topic.pinned && !topic.pinned_globally;
     });
-    
+
     for (var i = 0; i < Math.min(filteredTopics.length, LIMIT); i++) {
       var topic = filteredTopics[i];
       var lastPoster = null;
-      
+
       // Get last poster from posters array
       if (topic.posters && topic.posters.length > 0) {
         var lastPosterInfo = topic.posters.find(function(p) {
           return p.extras && p.extras.indexOf('latest') !== -1;
         }) || topic.posters[topic.posters.length - 1];
-        
+
         if (lastPosterInfo && lastPosterInfo.user_id) {
           lastPoster = userMap[lastPosterInfo.user_id];
         }
       }
-      
+
       posts.push({
         title: topic.title || topic.fancy_title,
         url: FORUM_URL + '/t/' + topic.slug + '/' + topic.id,
-        date: topic.last_posted_at ? new Date(topic.last_posted_at) : 
-              topic.bumped_at ? new Date(topic.bumped_at) : 
-              new Date(topic.created_at),
+        dateTimestamp: topic.last_posted_at ? new Date(topic.last_posted_at).getTime() :
+              topic.bumped_at ? new Date(topic.bumped_at).getTime() :
+              new Date(topic.created_at).getTime(),
         replies: (topic.posts_count || 1) - 1,
         views: topic.views || 0,
         author: lastPoster ? lastPoster.username : null
       });
     }
-    
+
     return posts;
   }
-  
+
   function renderPosts(posts, container) {
     if (!posts || posts.length === 0) {
       renderFallback(container);
       return;
     }
-    
+
     var html = '<div class="list-group list-group-flush">';
     posts.forEach(function(post) {
-      var timeAgo = post.date ? formatTimeAgo(post.date) : '';
+      var timeAgo = post.dateTimestamp ? formatTimeAgo(new Date(post.dateTimestamp)) : '';
       var meta = [];
       if (post.replies !== undefined && post.replies > 0) {
         meta.push(post.replies + ' ' + (post.replies === 1 ? 'reply' : 'replies'));
@@ -179,7 +159,7 @@
       if (timeAgo) {
         meta.push(timeAgo);
       }
-      
+
       html += '<a href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener" ';
       html += 'class="list-group-item list-group-item-action px-0 py-2 border-0">';
       html += '<div class="d-flex align-items-start">';
@@ -194,37 +174,18 @@
       html += '</a>';
     });
     html += '</div>';
-    
+
     container.innerHTML = html;
   }
-  
+
   function renderFallback(container) {
-    // Show direct links to forum categories as fallback
-    var html = '<div class="list-group list-group-flush">';
-    html += '<a href="' + FORUM_URL + '/c/support/7" target="_blank" rel="noopener" class="list-group-item list-group-item-action px-0 py-2 border-0">';
-    html += '<i class="fa-regular fa-comment-dots text-primary me-2"></i>';
-    html += '<span class="fw-semibold">{% t forum-posts.categories.support %}</span>';
-    html += '</a>';
-    html += '<a href="' + FORUM_URL + '/c/feature-request/8" target="_blank" rel="noopener" class="list-group-item list-group-item-action px-0 py-2 border-0">';
-    html += '<i class="fa-regular fa-comment-dots text-primary me-2"></i>';
-    html += '<span class="fw-semibold">{% t forum-posts.categories.features %}</span>';
-    html += '</a>';
-    html += '<a href="' + FORUM_URL + '/c/bug-report/9" target="_blank" rel="noopener" class="list-group-item list-group-item-action px-0 py-2 border-0">';
-    html += '<i class="fa-regular fa-comment-dots text-primary me-2"></i>';
-    html += '<span class="fw-semibold">{% t forum-posts.categories.bugs %}</span>';
-    html += '</a>';
-    html += '<a href="' + FORUM_URL + '/c/general/5" target="_blank" rel="noopener" class="list-group-item list-group-item-action px-0 py-2 border-0">';
-    html += '<i class="fa-regular fa-comment-dots text-primary me-2"></i>';
-    html += '<span class="fw-semibold">{% t forum-posts.categories.general %}</span>';
-    html += '</a>';
-    html += '</div>';
-    container.innerHTML = html;
+    container.innerHTML = 'Unable to load forum posts';
   }
-  
+
   function formatTimeAgo(date) {
     var seconds = Math.floor((new Date() - date) / 1000);
     if (seconds < 0) seconds = 0;
-    
+
     var intervals = [
       { label: 'y', seconds: 31536000 },
       { label: 'mo', seconds: 2592000 },
@@ -232,7 +193,7 @@
       { label: 'h', seconds: 3600 },
       { label: 'm', seconds: 60 }
     ];
-    
+
     for (var i = 0; i < intervals.length; i++) {
       var count = Math.floor(seconds / intervals[i].seconds);
       if (count >= 1) {
@@ -241,14 +202,14 @@
     }
     return 'just now';
   }
-  
+
   function escapeHtml(text) {
     if (!text) return '';
     var div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
   }
-  
+
   // Initialize
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', fetchForumPosts);
