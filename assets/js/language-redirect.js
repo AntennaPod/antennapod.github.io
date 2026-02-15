@@ -37,15 +37,15 @@
 
   for (var i = 0; i < browserLanguages.length; i++) {
     var browserLang = browserLanguages[i].toLowerCase();
-    
+
     // Try exact match first (e.g., 'de-DE' -> 'de')
     var langCode = browserLang.split('-')[0];
-    
+
     if (AVAILABLE_LANGUAGES.indexOf(langCode) !== -1) {
       matchedLanguage = langCode;
       break;
     }
-    
+
     // Special cases for regional variants
     if (browserLang.indexOf('zh') === 0) {
       // Chinese - not available yet, skip
@@ -72,6 +72,8 @@
   }
 
   // Redirect to the localized version
-  window.location.replace(newPath);
+  var search = window.location.search || '';
+  var hash = window.location.hash || '';
+  window.location.replace(newPath + search + hash);
 })();
 
