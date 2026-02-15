@@ -43,7 +43,7 @@ more-information:
 meeting-room: 
 # Optional. Must be a URL. Link displayed on event page if "location: online".
 blog-post: 
-# Optional. Must be the path of the blog post, starting with the year (e.g. /2022/10/translation-coordinator).
+# Optional. Must be the path of the blog post, starting with the year (e.g. 2022/10/translation-coordinator).
 ---
 
 Event description goes here. Displayed on the event detail page, and used for the body of the ICS calendar event.
