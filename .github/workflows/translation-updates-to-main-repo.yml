@@ -145,19 +145,3 @@ jobs:
           git status
           git commit -m "Update website with new translations"
           git push origin ${{ github.event_name == 'push' && 'master' || github.ref_name }}
-      - name: Trigger Deploy workflow
-        uses: actions/github-script@v7
-        with:
-          script: |
-            try {
-              const response = await github.rest.actions.createWorkflowDispatch({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                workflow_id: 'main.yml',
-                ref: '${{ github.event_name == 'push' && 'master' || github.ref_name }}'
-              });
-              console.log('Deploy workflow triggered successfully');
-            } catch (error) {
-              core.setFailed(`Failed to trigger Deploy workflow: ${error.message}`);
-              throw error;
-            }
