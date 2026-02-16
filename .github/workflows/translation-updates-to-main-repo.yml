@@ -145,3 +145,13 @@ jobs:
           git status
           git commit -m "Update website with new translations"
           git push origin ${{ github.event_name == 'push' && 'master' || github.ref_name }}
+      - name: Trigger Deploy workflow
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'main.yml',
+              ref: '${{ github.event_name == 'push' && 'master' || github.ref_name }}'
+            })
