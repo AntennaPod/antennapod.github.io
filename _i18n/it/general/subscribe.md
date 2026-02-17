@@ -2,4 +2,4 @@ Premi il pulsante qui sotto per iscriverti a questo podcast in AntennaPod. Non h
 
 <button id="subscribeButton" class="btn btn-primary">{% t generic.subscribe-in %}</button>
 
-Se il tuo browser non supporta l'apertura di AntennaPod direttamente tramite il pulsante, puoi anche copiare l'indirizzo visualizzato nella casella sottostante e incollarlo nella casella di ricerca di AntennaPod.
+Usi un'altra app di podcast o il tuo browser non ti permette di aprire AntennaPod direttamente? Puoi trovare l'indirizzo RSS nella casella qui sotto. Per iscriverti, incollalo nella casella di ricerca di AntennaPod o nell'app di podcast che usi.

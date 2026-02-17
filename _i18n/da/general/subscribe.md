@@ -2,4 +2,4 @@ Tryk på knappen nedenfor for at abonnere på denne podcast i AntennaPod. Hvis d
 
 <button id="subscribeButton" class="btn btn-primary">{% t generic.subscribe-in %}</button>
 
-Hvis din webbrowser ikke understøtter at åbne AntennaPod direkte ved hjælp af knappen, kan du også kopiere adressen, der vises i boksen nedenfor, og indsætte den i AntennaPod's søgefelt.
+Bruger du en anden podcast-app, eller understøtter din webbrowser ikke direkte åbning af AntennaPod? Du kan finde podcastens RSS-adresse i feltet nedenfor. For at abonnere skal du indsætte adressen i AntennaPods søgefelt eller i din anden podcast-app.
