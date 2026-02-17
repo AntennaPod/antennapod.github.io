@@ -31,11 +31,12 @@ generic:
     copy: Kopiér link
     logo: AntennaPod-logo
     theme-menu: Temaskifter
+    skip-to-content: Gå til hovedindhold
   eml-share:
     subject: Jeg syntes, at du skulle se dette
     body: Tjek denne artikel
   masto-share:
-    server: 'Angiv adressen på din server: (f.eks. https://mastodon.social)'
+    server: 'Din Mastodon-instans'
     title: Del på Mastodon
     cancel: Annuller
     share: Del
@@ -53,6 +54,8 @@ generic:
   theme:
     light: Lys
     dark: Mørk
+    auto: Auto
+  subscribe-in: Abonner i AntennaPod
 month:
   Jan: Jan
   Apr: Apr
@@ -98,6 +101,11 @@ homepage:
     åben kildekode, og du kan abonnere på alle RSS-feeds. AntennaPod er bygget 
     af frivillige uden kommercielle interesser, så den respekterer dit 
     privatliv, samtidig med at den giver dig fuld kontrol.
+  forum-posts:
+    description: Få hjælp, del ideer og kom i kontakt med andre brugere
+    view-all: Besøg forummet
+    loading: Indlæser diskussioner...
+    title: Fællesskabsforum
 readtime:
   singular: min læst
   plural: min læst
@@ -324,6 +332,8 @@ documentation:
   search:
     placeholder: Søg i dokumentation
     no-results: Beklager, intet fundet
+    hint: Brug piletasterne til at navigere, Enter til at vælge, Esc til at 
+      lukke
   getting-started:
     title: Kom godt i gang
     intro: Velkommen til AntennaPod! Nedenfor kan du finde oplysninger om, 
@@ -362,6 +372,14 @@ blog:
   posted: Udgivet
   previous-post: Tidligere
   next-post: Næste
+  related-posts: Relaterede indlæg
+  post-navigation: Indlægsnavigation
+  categories:
+    all: Alle
+    release: Udgivelse
+    project: Projektopdatering
+    community: Fællesskab
+    tutorial: Vejledning
 footer:
   description: Den brugervenlige, fleksible og open source podcastmanager til 
     Android.
@@ -373,6 +391,9 @@ events:
     announce-add-calendar: Vil du altid have de seneste begivenheder og 
       opdaterede oplysninger om fællesskabsopkald ved hånden? Så tilmeld dig 
       vores kalender i din foretrukne app via linket "Tilføj til kalender"!
+    recurring-events: Tilbagevendende begivenheder
+    upcoming-events: Kommende begivenheder
+    past-events: Tidligere begivenheder
   links:
     add-calendar: Føj til kalender
     more-information: Flere oplysninger
@@ -389,3 +410,18 @@ not-installed:
     åbne den direkte.
 media-kit:
   title: Pressemateriale
+  description: Officielle AntennaPod-brandaktiver til brug i presse og medier.
+  logo-section: Logoer
+  logo-description: Vores logo i forskellige formater og farver til forskellige 
+    baggrunde.
+  colors-section: Brand-farver
+  colors-description: Vores officielle farvepalet.
+  screenshots-section: Skærmbilleder
+  screenshots-description: App-skærmbilleder til presse- og reklameformål.
+  guidelines-section: Retningslinjer for brug
+  guidelines-description: Følg disse retningslinjer, når du bruger vores 
+    brand-aktiver.
+  download-all: Download alle aktiver
+  primary: Primær
+  secondary: Sekundær
+  accent: Accent
