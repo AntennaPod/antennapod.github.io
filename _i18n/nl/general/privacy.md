@@ -28,7 +28,7 @@ Het enige geval waarin jouw gegevens *van* derden worden verwerkt, is wanneer ge
 
 - Als je het Ontdekken-scherm in de app opent, wordt een aanroep naar Apple gestuurd om podcast-suggesties te verzamelen. Zij kunnen dat verzoek opslaan (o.a. je IP-adres en de geselecteerde regio, wat standaard op de land-instelling van je apparaat staat). Deze suggesties kunnen worden uitgeschakeld via het top-menu van het Ontdekken-scherm. In de F-Droid versie moet je actief toestemming geven voordat je Apple-aanbevelingen kunt zien.
 - Als je de zoekfunctionaliteit van AntennaPod gebruikt, kunnen de diensten PodcastIndex.org ([privacybeleid](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacybeleid](https://www.apple.com/nl/legal/privacy/nl/)) and fyyd ([privacybeleid](https://fyyd.de/privacy)) je vraag (inclusief zoektermen) opslaan.
-- Discovery and search queries also include IP address, time, and app name 'AntennaPod'. After subscribing, the feed is served from the podcast hoster, meaning the discovery/search service is no longer involved.
+- Ontdek- en zoek-opdrachten bevatten ook een IP-adres, tijdstip en de app-naam 'AntennaPod'. Zodra je je abonneert, komt de feed direct van de podcast hoster, waardoor de ontdek- en zoek-service niet langer betrokken is.
 
 #### Synchronization and backup services
 
