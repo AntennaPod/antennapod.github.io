@@ -145,3 +145,11 @@ jobs:
           git status
           git commit -m "Update website with new translations"
           git push origin ${{ github.event_name == 'push' && 'master' || github.ref_name }}
+      # Explicitly trigger the Deploy workflow to rebuild the website
+      # This is needed because GitHub Actions doesn't trigger workflows when commits are pushed using GITHUB_TOKEN
+      # See: https://docs.github.com/en/actions/security-guides/automatic-token-authentication#using-the-github_token-in-a-workflow
+      - name: Trigger Deploy workflow
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.ref_name == 'master')
+        run: gh workflow run main.yml --ref master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

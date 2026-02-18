@@ -6,13 +6,6 @@ on:
       - master
   # allow to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # run after translation updates workflow completes
-  workflow_run:
-    workflows: ["Work on main branch to pull new & updated translations from tf branch"]
-    types:
-      - completed
-    branches:
-      - master
 
 jobs:
   build:
