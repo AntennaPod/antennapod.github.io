@@ -1,16 +1,16 @@
-AntennaPod er en podkastavspiller. Den er helt gratis og respekterer personvernet. Den er laget av frivillige fra hele verden uten kommersielle interesser. Sammen bidrar vi til et åpent podkastsamfunn slik at kan du nyte godt av nettets beste lydinnhold.
+AntennaPod er en podkastavspiller. Den er helt gratis og respekterer personvernet. Den er laget av frivillige fra hele verden uten kommersielle interesser. Sammen bidrar vi til et åpent podkastsamfunn slik at du kan nyte godt av nettets beste lydinnhold.
 
-## Enkel men full av funksjoner
+## Enkel, men full av funksjoner
 
-Det er så mange kule ting du kan gjøre i verden og så mange ting i livet du kan bekymre deg over. Derfor vil du ikke bruke tid på å finne ut hvordan ting virker. I stedet kan du begynne med å finne og lytte til flott innhold. I tillegg kan du å organisere innhold, øke eller senke avspillingstempo, samt automatisere nedlastinger og sletting. Derfor ønsker vi at AntennaPod skal være enkel å bruke samtidig som du har full kontroll over din lytteopplevelse.
+Det er så mange kule ting du kan gjøre i verden og så mange ting i livet du kan bekymre deg over. Derfor vil du ikke bruke tid på å finne ut hvordan ting virker. I stedet kan du begynne med å finne og lytte til flott innhold. I tillegg kan du organisere innhold, øke eller senke avspillingstempo, samt automatisere nedlastinger og sletting. Derfor ønsker vi at AntennaPod skal være enkel å bruke samtidig som du har full kontroll over din lytteopplevelse.
 
 I så måte innser vi at ethvert alternativ vi legger til er et valg som ikke er tatt. Valg som ikke er tatt er en beslutning vi gir til sluttbrukeren. (Her er en flott [bloggpost om hvordan utviklere ikke bør gjøre dette (på engelsk)](http://neugierig.org/software/blog/2018/07/options.html) uten ettertanke.) Vi lover å gjøre vårt beste for å ta disse valgene som lager en god opplevelse. For - har du bestemt hva du skal spise i kveld?
 
 Samtidig: du trenger ikke å bekymre deg. Vi er åpen for å introdusere nye funksjoner, valg og innstillinger. Vi har tidligere introdusert flere slike etter høy etterspørsel, spesielt når det var et argument for å tilby våre brukere fleksibilitet. Har du ideer kan du dele dem [på forumet](https://forum.antennapod.org/c/feature-request)!
 
-## Åpen kildekode og uten reklame
+## Åpen kildekode og reklamefri
 
-Som annen storartet programvare, som Firefox og Signal er AntennaPod basert på åpen kildekode. Dette betyr at alle kan gjennomse og bidra til koden bak appen og at AntennaPod er tilgjendelig blant andre apper som er laget med åpen kildekode og tar vare på personvernet i [F-Droid-butikken](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+Som annen storartet programvare, som Firefox og Signal, er AntennaPod basert på åpen kildekode. Dette betyr at alle kan gjennomse og bidra til koden bak appen og at AntennaPod er tilgjengelig blant andre apper som er laget med åpen kildekode og tar vare på personvernet i [F-Droid-butikken](https://www.f-droid.org/packages/de.danoeh.antennapod/).
 
 På den måten kan du være trygg på (og sjekke selv) at det ikke forekommer suspekt datainnsamling. Siden AntennaPod lages av frivillige trenger vi ikke reklamekrefter som forstyrrer deg når du bruker appen.
 
@@ -23,7 +23,7 @@ Vi står for et åpent podkastøkosystem. Et økosystem som
 * beskytter lyttere fra utilgjengelig innhold bak [betalingsmur (engelsk)](https://en.wikipedia.org/wiki/Closed_platform), og
 * lar brukere velge og bytte mellom apper uten [synkroniseringseffekter](https://no.wikipedia.org/wiki/Synkroniseringseffekter).
 
-I praksis betyr det at du kan abonnere på hvilke som helst RSS-strøm, at det gjøres enkelt for deg å bidra (finansielt) til skapere og at du kan synkronisere, importere og eksportere dine data.
+I praksis betyr det at du kan abonnere på en hvilken som helst RSS-strøm, at det gjøres enkelt for deg å bidra (finansielt) til skapere og at du kan synkronisere, importere og eksportere dine data.
 
 ## Vi hører deg: fellesskap og tilgjengelighet
 
