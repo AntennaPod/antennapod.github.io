@@ -145,3 +145,8 @@ jobs:
           git status
           git commit -m "Update website with new translations"
           git push origin ${{ github.event_name == 'push' && 'master' || github.ref_name }}
+      - name: Trigger Deploy workflow
+        if: github.event_name == 'push' || github.ref_name == 'master'
+        run: gh workflow run main.yml --ref master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
