@@ -4,7 +4,7 @@ Het is onduidelijk waarom dit probleem optreedt. We hebben vastgesteld dat ander
 
 ## Tijdelijke oplossing
 
-Om het afspelen alsnog voort te zetten, kun je de zogenaamde AntennaPod tegel toevoegen aan je apparaat. Tegels zijn de knoppen die je ziet als je omlaag trekt vanaf de bovenkant van het scherm. Je bent waarschijnlijk bekend met de Internet of Zaklamp tegel. Met de AntennaPod tegel kun je het afspelen pauzeren en voortzetten, zelfs als het afspelen al langere tijd gepauzeerd heeft gestaan.
+Om het afspelen alsnog voort te zetten, kun je de zogenoemde AntennaPod-'tegel' toevoegen aan je apparaat. Tegels zijn de knoppen die je ziet als je omlaag trekt vanaf de bovenkant van het scherm. Je bent waarschijnlijk bekend met de *internet*- of *zaklamp*-tegel. Met de AntennaPod-tegel kun je het afspelen pauzeren en voortzetten, zelfs als het afspelen al langere tijd gepauzeerd is.
 
 Om de AntennaPod tegel toe te voegen:
 
