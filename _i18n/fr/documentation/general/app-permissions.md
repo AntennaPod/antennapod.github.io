@@ -5,7 +5,7 @@ AntennaPod ne vous demandera pas de lui donner des autorisations générales. Ce
 
 En dehors de cela, l'application nécessite les autorisations suivantes, qui sont automatiquement données par Android :
 
-- **Accès réseau complet** : pour rafraîchir les podcasts, télécharger et lire en continu des épisodes, charger des images et permettre la synchronisation
+- **Accès réseau complet** : pour rafraîchir les podcasts, télécharger ou streamer des épisodes, charger des images et permettre la synchronisation
 - **Voir les connexions réseau** et **Voir les connexions Wi-Fi** :
    - pour vérifier s'il y a une connexion internet active, avant et durant la réalisation des actions listées au-dessus
    - pour le paramètre `Téléchargements` » `Mises à jour mobile`, pour déterminer si les actions précédentes sont autorisées par l'utilisateur sur la connexion actuelle (mobile, ou facturé à l'usage)
