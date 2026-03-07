@@ -9,6 +9,7 @@ titles:
   license: Licença
   privacy: Política de privacidade
   media-kit: Multimédia
+  features: Funcionalidades
 generic:
   home: Início
   download: Transferir
@@ -34,16 +35,26 @@ generic:
     logo: Logótipo do AntennaPod
     lang-menu: Seleção de idioma
     copy: Copiar link
+    theme-menu: Seletor de Temas
+    skip-to-content: Saltar para o conteúdo principal
   eml-share:
     subject: Gostaria que visse isto
     body: Leia este artigo
   masto-share:
-    server: 'Introduza o endereço da sua instância: (p. ex., https://mastodon.social)'
+    server: 'A sua instância Mastodon'
     title: Partilhar no Mastodon
     share: Partilhar
+    description: Insira o seu URL de instância Mastodon para partilhar esta 
+      publicação.
+    cancel: Cancelar
   previous: Anterior
   next: Seguinte
   page-not-found-long: Não foi possível encontrar a página solicitada.
+  subscribe-in: Subscrever no AntennaPod
+  theme:
+    auto: Automático
+    light: Claro
+    dark: Escuro
 contribute:
   translate:
     card-text: Fala alguma outra língua além de inglês? Ajude-nos a traduzir o 
@@ -180,6 +191,8 @@ documentation:
   search:
     placeholder: Pesquisar documentação
     no-results: Desculpe, mas não foi encontrado nada
+    hint: Use as teclas de setas para navegar, Enter para selecionar, Esc para 
+      fechar
   getting-started:
     title: Começar
     subscribe:
@@ -233,6 +246,9 @@ events:
       as informações sobre as chamadas da comunidade? Então, subscreva o nosso 
       calendário na sua aplicação favorita através do link “Adicionar ao 
       calendário”!
+    recurring-events: Eventos Recorrentes
+    upcoming-events: Próximos Eventos
+    past-events: Eventos Passados
 not-installed:
   title: AntennaPod não instalado
   text: O AntennaPod não está instalado ou o seu navegador não consegue abri-lo 
@@ -241,6 +257,14 @@ blog:
   posted: Publicado em
   previous-post: Anterior
   next-post: Seguinte
+  related-posts: Publicações Relacionadas
+  post-navigation: Navegação de publicações
+  categories:
+    all: Todas
+    release: Lançamento
+    project: Atualização de Projeto
+    community: Comunidade
+    tutorial: Tutorial
 month:
   Jan: Jan
   Feb: Fev
@@ -284,6 +308,12 @@ homepage:
       description: Com o AntennaPod, pode transferir episódios e ouvi-los em 
         qualquer lugar. Pode até selecionar os podcasts que devem ser 
         transferidos automaticamente.
+  forum-posts:
+    title: Fórum da Comunidade
+    description: Obtenha ajuda, partilhe ideias, e conecte-se com outros 
+      utilizadores
+    view-all: Visitar o fórum
+    loading: A carregar discussões...
 readtime:
   singular: minuto de leitura
   plural: minutos de leitura
@@ -291,4 +321,20 @@ footer:
   description: O gestor de podcasts simples, flexível e de código aberto para 
     Android.
 media-kit:
-  title: Multimédia
+  title: Kit de Multimédia
+  description: Recursos oficiais da AntennaPod para uso pela imprensa e mídia.
+  logo-section: Logotipos
+  logo-description: O nosso logótipo em vários formatos e cores para diferentes 
+    planos de fundo.
+  colors-section: Cores da Marca
+  colors-description: A nossa palete de cores oficial.
+  screenshots-section: Capturas de Ecrã
+  screenshots-description: Capturas de ecrã da aplicação para uso na imprensa e 
+    fins promocionais.
+  guidelines-section: Diretrizes de Utilização
+  guidelines-description: Por favor siga estas diretrizes quando utiliza os 
+    nossos ativos de marca.
+  download-all: Descarregar Todos os Ativos
+  primary: Primário
+  secondary: Secundário
+  accent: Destaque
