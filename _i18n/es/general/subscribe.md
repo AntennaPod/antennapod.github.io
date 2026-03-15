@@ -2,4 +2,4 @@ Pulsa el botón de debajo para suscribirte a este podcast en AntennaPod. ¿Aún 
 
 <button id="subscribeButton" class="btn btn-primary">{% t generic.subscribe-in %}</button>
 
-Si tu navegador no soporta abrir AntennaPod directamente pulsando el botón, también puedes copiar la dirección mostrada en la caja de debajo y pegarla en la caja de búsqueda de AntennaPod.
+¿Utilizas otra aplicación de podcasts o tu navegador web no te permite abrir AntennaPod directamente? Encontrarás la dirección RSS del podcast en el cuadro que aparece a continuación. Para suscribirte, pega la dirección en el cuadro de búsqueda de AntennaPod o en tu otra aplicación de podcasts.

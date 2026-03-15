@@ -1,4 +1,4 @@
-¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast(s) en AntennaPod? Sólo tiene que incluir un enlace como el que figura a continuación en su sitio web o donde desee. Asegúrese de sustituir `xyz` por la URL de su canal RSS y `abc` por el título de su podcast.
+¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast(s) en AntennaPod? Sólo tiene que incluir un enlace como el que figura a continuación en su sitio web o donde desee. Asegúrese de sustituir `xyz` por la URL de su canal RSS y `abc` por el título de su podcast. Tenga en cuenta que si su URL o título contienen caracteres especiales, como `&`, estos deben estar [codificados en URL](https://es.wikipedia.org/wiki/Codificaci%C3%B3n_porcentual).
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 
