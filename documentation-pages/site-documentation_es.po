@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 08:12+0200\n"
 "PO-Revision-Date: 2026-03-15 16:09+0000\n"
-"Last-Translator: Lorenzio <translator.1oh72@silomails.com>\n"
+"Last-Translator: sardes1011 <sardes1011@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/es/>\n"
 "Language: es\n"
@@ -2534,7 +2534,6 @@ msgstr "Ir al 0-90% del vídeo"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to make it easy for your network or audience to add your "
 "podcast(s) in AntennaPod? Simply include a link like the one below on your "
@@ -2543,10 +2542,13 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) "
-"podcast(s) en AntennaPod? Sólo tiene que incluir un enlace como el que "
-"figura a continuación en su sitio web o donde desee. Asegúrese de sustituir "
-"`xyz` por la URL de su canal RSS y `abc` por el título de su podcast."
+"¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast"
+"(s) en AntennaPod? Sólo tiene que incluir un enlace como el que figura a "
+"continuación en su sitio web o donde desee. Asegúrese de sustituir `xyz` por "
+"la URL de su canal RSS y `abc` por el título de su podcast. Tenga en cuenta "
+"que si su URL o título contienen caracteres especiales, como `&`, estos "
+"deben estar [codificados en URL](https://es.wikipedia.org/wiki/"
+"Codificaci%C3%B3n_porcentual)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2617,7 +2619,6 @@ msgstr ""
 "de estilo](https://github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "To ensure the sustainability of an open podcasting ecosystem, podcasters "
 "need funding beyond advertising and buy-outs by platforms. AntennaPod "
@@ -2664,6 +2665,11 @@ msgid ""
 "evolving, AntennaPod won't support it soon, but we are closely following "
 "developments."
 msgstr ""
+"En el futuro, también nos gustaría soportar micropagos automáticos por medio "
+"de la etiqueta [value](https://podcasting2.org/docs/podcast-namespace/tags/"
+"value). Puesto que se trata de una funcionalidad compleja y las "
+"especificaciones técnicas aún están evolucionando, AntennaPod no lo "
+"soportará pronto, pero seguiremos los avances de cerca."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2835,19 +2841,23 @@ msgid ""
 "from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"Este criterio ordena los episodios de su cola según el título del podcast al "
+"que pertenecen. Tenga en cuenta que los episodios del mismo podcast se "
+"ordenadan de acuerdo a su orden anterior: por lo tanto, si desea que los "
+"episodios del mismo podcast se ordenen juntos y cronológicamente, deberá "
+"ordenarlos primero por `Fecha`, y posteriormente por `Título de podcast`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
 msgstr "Mezcla inteligente"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"Smart Shuffle es un criterio avanzado de ordenación de cola que le permite "
+"La Mezcla Inteligente es un criterio de ordenación avanzado que le permite "
 "mantener su cola ordenada por fecha de publicación y, al mismo tiempo, "
 "evitar en la medida de lo posible tener grupos de episodios de una sola "
 "suscripción en su cola."
@@ -2866,9 +2876,8 @@ msgstr ""
 "aleatoria inteligente se puede ordenar en orden ascendente o descendente."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Funcionamiento detallado"
+msgstr "Cómo funciona la mezcla inteligente en detalle"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
