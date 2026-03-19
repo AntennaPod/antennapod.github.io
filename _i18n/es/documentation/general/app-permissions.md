@@ -8,8 +8,8 @@ Aparte de eso, la aplicación requiere los siguientes permisos que Android otorg
 - **Acceso completo a la red**: para actualizar podcasts, descargar y transmitir episodios, cargar imágenes y habilitar la sincronización
 - **Ver conexiones de red** y **Ver conexiones Wi-Fi**:
    - para comprobar si hay una conexión a Internet activa, antes y mientras se realiza cualquiera de las acciones mencionadas anteriormente
-   - for the setting `Downloads` » `Mobile updates`, to determine whether the above actions are allowed by the user on the current (mobile and/or metered) connection
-- **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
-- **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
-- **Control vibration**: for the option `Vibrate shortly before end` of the sleep timer, to vibrate if this setting is enabled
-- **Prevent device from sleeping**: needed to ensure media playback and downloads continue in the background
+   - Ve a ajustes `Descargas`»`Actualizaciones móviles ` para determinar si las acciones anteriores están permitida para el usuario en la conección (móvil y/o limitada) en curso.
+- **Emparejar con dispositivos Bluetooth**: para los ajustes`Reproducción` » `Desconectar auriculares o Bluetooth`, a pausar o reproducir automáticamente cuando el teléfono conecta o desconecte desde un dispositivo Bluetooth
+- **Ejecutar al inicio**: (re)inicia servicios como refrescar podcasts y activar las descargas automáticas
+- **Controlar vibración**: para la opción `Vibrar brevemente antes de terminar`, del temporizador de dormir, para vibrar si este ajuste está activado
+- **Prevenir que el dispositivo se suspenda**: necesario para asegurar que la reproducción multimedia y las descargas continúen en segundo plano

@@ -18,7 +18,7 @@ La única situación en la que se manejan datos personales *de* terceros es al u
 
 ### Datos que otras partes pueden recopilar, almacenar y procesar
 
-#### Podcast hosters
+#### Hospedajes de podcasts
 
 - Cuando se indique en la configuración del podcast, el anfitrión recibirá los datos de autenticación que usted haya proporcionado.
 - Los servidores web que ofrecen podcasts pueden recopilar datos adicionales, como tu dirección IP, la hora de acceso y el contenido al que accedes. Esto incluye los episodios que descargas o reproduces en streaming. Consulta sus respectivas políticas de privacidad para obtener más información. Puedes ver la URL de un podcast abriéndolo y pulsando el icono de información. AntennaPod permite que los servidores establezcan cookies, pero las borra cada vez que se reinicia la aplicación. Los servidores web solo tienen acceso a las cookies que haya establecido el mismo servidor. Si varios podcasts se alojan en el mismo servidor, este puede detectar a cuáles de sus podcasts alojados te has suscrito. Esto puede ocurrir cuando los editores utilizan servicios como FeedBurner, Podtrac o similares para distribuir sus feeds.

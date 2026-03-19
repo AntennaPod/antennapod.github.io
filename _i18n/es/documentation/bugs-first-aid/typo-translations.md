@@ -2,9 +2,9 @@
 
 # ¿Quieres arreglarlo tú mismo?
 
-Si el tema está en otro idioma que no sea el inglés, puedes actualizar las traducciones en [Weblate](https://hosted.weblate.org/projects/antennapod/). Puedes [encontrar más información en nuestra sección Colaborar](/contribute/translate).
+Si la incidencia está en otro idioma que no sea el inglés, puedes actualizar las traducciones en [Weblate](https://hosted.weblate.org/projects/antennapod/). Puedes [encontrar más información en nuestra sección Colaborar](/contribute/translate).
 
-¿El problema tiene que ver con **los textos en Inglés**? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para [la aplicación](https://github.com/AntennaPod/AntennaPod/) o para el [sitio web](https://github.com/AntennaPod/antennapod.github.io).
+¿La incidencia tiene que ver con **los textos en Inglés**? Entonces tendrás que familiarizarte con GitHub. También puedes enviar un Pull Request para [la aplicación](https://github.com/AntennaPod/AntennaPod/) o para el [sitio web](https://github.com/AntennaPod/antennapod.github.io).
 
 # ¿Simplemente quieres informarnos?
 

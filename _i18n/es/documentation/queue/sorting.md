@@ -1,4 +1,4 @@
-You can sort your queue using different sorting criteria: `Episode title`, `Podcast title`, `Duration`, `Date`, `Random` and `Smart shuffle`. As most of them are self-explanatory, this page focuses specifically on `Podcast title` and `Smart shuffle`.
+Puedes ordenar tu cola usando diferentes criterios de ordenación: `Título del episodio`, `Título del podcast`, `Duración`, `Fecha`, `Aleatorio` y `Reproducción aleatoria inteligente`. Como la mayoría son bastante intuitivas, esta página se centra específicamente en `Título del podcast` y `Reproducción aleatoria inteligente`.
 
 # Título del podcast
 

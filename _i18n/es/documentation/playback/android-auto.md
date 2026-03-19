@@ -8,7 +8,7 @@ No se requieren pasos adicionales para usar AntennaPod en su automóvil. Simplem
 
 Si descargó AntennaPod desde F-Droid, se requieren pasos adicionales.
 
-- Abre la configuración de Android Auto.
+- Abre los auto‐ajustes de Android en tu teléfono.
 - Active la `Configuración de desarrolladores` presionando el número de versión 10 veces.
 - Abra el menú de 3 puntos e inicie la configuración del desarrollador.
 - Habilite `Fuentes desconocidas`.

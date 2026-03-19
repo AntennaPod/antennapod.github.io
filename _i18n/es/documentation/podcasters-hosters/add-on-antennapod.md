@@ -2,7 +2,7 @@
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 
-You could also turn the same link into a button, e.g. by using the following code:
+Además pudo convertir el mismo enlaza a un botón, p.ej., utilizando el código siguiente:
 
 ```
 <style>.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}</style>
@@ -31,6 +31,6 @@ loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}
 
 Por otro lado, los usuarios que no tengan instalado AntennaPod verán una página con instrucciones para descargar la aplicación o suscribirse a su podcast manualmente, como en esta [página de ejemplo](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
 
-# Branding
+# Marca
 
-Si necesitas nuestro logo, por favor echa un vistazo a nuestro [repositorio de estilo](https://github.com/AntennaPod/branding).
+¿Te gustaría utilizar nuestro logotipo para crear un botón 'Abrir en AntennaPod' con la marca? Puedes echar un vistazo a nuestro [repositorio de marcas comerciales](https://github.com/AntennaPod/branding).
