@@ -1,6 +1,6 @@
 AntennaPod ne vous demandera pas de lui donner des autorisations générales. Cependant vous pouvez donner les autorisations suivantes :
 
-* **Afficher les notifications** : via `Paramètres` » `Notifications`, vous pouvez donner à AntennaPod l'autorisation de créer des notifications.
+* **Afficher les notifications** : Via `Paramètres` » `Notifications`, vous pouvez donner à AntennaPod l'autorisation de créer des notifications.
 * **Accès au stockage** : quand vous ajouter un 'dossier local', l'application demandera un accès sur le long terme à un dossier spécifique. Quand vous importez une base de données ou un fichier OPML, sélectionner ce fichier donnera à l'appli un accès uniquement cette fois à ce fichier.
 
 En dehors de cela, l'application nécessite les autorisations suivantes, qui sont automatiquement données par Android :
