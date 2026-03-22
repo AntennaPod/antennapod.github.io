@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
 "PO-Revision-Date: 2026-03-22 22:11+0000\n"
-"Last-Translator: Kieli Puoli <kielipuoli@gmail.com>\n"
+"Last-Translator: Lilli <kauhanen.johannes20@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/antennapod/"
 "website/general/fi/>\n"
 "Language: fi\n"
@@ -25,11 +25,11 @@ msgstr ""
 "AntennaPod on podcast-soitin, joka on täysin ilmainen ja yksityisyyttä "
 "kunnioittava. Se on luotu maailmanlaajuisesti vapaaehtoisten avulla ilman "
 "kaupallisia tavoitteita. Yhdessä olemme luomassa vapaata podcast-"
-"ekosysteemiä, jotta sinä voit nauttia webin parhaasta audiosisällöstä."
+"ekosysteemiä, jotta sinä voit nauttia netin parhaasta audiosisällöstä."
 
 #: _i18n/en/general/about.md:block 2 (header)
 msgid "Simple, but feature packed"
-msgstr "Yksinkertainen, mutta ominaisuuksia täynnä"
+msgstr "Yksinkertainen, mutta täynnä ominaisuuksia"
 
 #: _i18n/en/general/about.md:block 3 (paragraph)
 msgid ""
@@ -419,14 +419,13 @@ msgstr ""
 "[käyttöluvista](/documentation/general/app-permissions) ohjetiedostoista."
 
 #: _i18n/en/general/privacy.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "When sharing debugging information (either via email using the `Crash "
 "Report` function or via Android's crash reporting functionality), the "
 "following data is processed:"
 msgstr ""
-"Seuraavia tietoja käsitellään, kun jaat viankorjaustietoja (joko "
-"sähköpostitse kaatumisilmoitustoiminnon kautta tai Androidin "
+"Seuraavia tietoja käsitellään virheenkorjaustietoja jaettaessa (joko "
+"sähköpostitse `kaatumisilmoitustoiminnon` kautta tai Androidin "
 "kaatumisilmoitustoiminnolla):"
 
 #: _i18n/en/general/privacy.md:block 7 (unordered list)
@@ -466,9 +465,10 @@ msgid ""
 "When provided in the podcast settings, a host will receive the "
 "authentication data you provided."
 msgstr ""
+"Kun saatavilla podcastin asetuksissa, palvelin saa tarjoamasi "
+"varmistustiedot."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "Web servers that provide podcast feeds may collect additional data, such as "
 "your IP address, access time and what is being accessed. This includes the "
@@ -481,18 +481,17 @@ msgid ""
 "podcasts you have subscribed to. This can happen when publishers use "
 "services like FeedBurner, Podtrac or similar to distribute their feeds."
 msgstr ""
-"Podcast-isännöitsijät: Kun se on määritetty podcast-asetuksissa, isäntä "
-"vastaanottaa antamasi todennustiedot. Kaikki podcast-syötteitä tarjoavat web-"
-"palvelimet voivat kerätä lisätietoja, kuten IP-osoitteesi, pääsyaikasi ja "
-"käytössä olevat tiedot. Tämä sisältää lataamasi tai suoratoistamasi jaksot. "
-"Katso lisätietoja heidän tietosuojakäytännöistään. Voit tarkastella "
-"podcastin URL-osoitetta avaamalla podcastin ja painamalla tietokuvaketta. "
-"AntennaPod ei salli etäpalvelimien asettaa evästeitä. Palvelimet voivat "
-"havaita, että käytät AntennaPodia ja mitä AntennaPod-versiota käytät (HTTP "
-"User-Agent). Jos samalla palvelimella isännöidään useita podcasteja, "
-"palvelin voi havaita luettelon podcasteista, jotka olet tilannut ja joita "
-"isännöi kyseisellä palvelimella. Näin voi käydä, jos julkaisijat käyttävät "
-"feedburneria, podtracia tai vastaavia palveluita syötteidensä jakeluun."
+"Podcast-syötteitä tarjoavat web-palvelimet voivat kerätä lisätietoja, kuten "
+"IP-osoitteesi, käyttöaikasi ja mitä sisältöä olet käyttämässä. Tämä sisältää "
+"jaksot joita olet lataamassa tai suoratoistamassa. Katso lisätietoja heidän "
+"tietosuojakäytännöistään. Voit tarkastella podcastin URL-osoitetta avaamalla "
+"podcastin ja painamalla infokuvaketta. AntennaPod sallii etäpalvelimien "
+"asettaa evästeitä, mutta tyhjentää ne joka kerta kun sovellus käynnistetään "
+"uudelleen. Palvelimet voivat käyttää vain evästeitä jotka ovet samalta "
+"palvelimelta. Jos samalla palvelimella isännöidään useita podcasteja, "
+"palvelin voi havaita luettelon podcasteista, jotka olet tilannut. Näin voi "
+"käydä, jos julkaisijat käyttävät Feedburneria, Podtracia tai vastaavia "
+"palveluita syötteidensä jakeluun."
 
 #: _i18n/en/general/privacy.md:block 11 (unordered list)
 msgid ""
@@ -515,6 +514,11 @@ msgid ""
 "In the F-Droid release, you have to actively consent before getting Apple's "
 "recommendations."
 msgstr ""
+"Avatessasi Discover näytön sovelluksessa Applen palvelimelta pyydetään "
+"podcastisuositukset. Apple voi tallentaa pyynnön (IP-osoitteesi ja laitteesi "
+"maan tai alueen) Suositukset voi poistaa käytöstä Discover-näytön yläosan "
+"valikosta. F-Droid versiossa sinun on hyväksyttävä, että saat Applen "
+"suosituksia."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -524,6 +528,11 @@ msgid ""
 "legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) "
 "may store your query, including the search terms."
 msgstr ""
+"Käyttäessäsi AntennaPodin hakutoimintoa, palvelut Podcastindex.org "
+"([tietosuojakäytäntö](https://github.com/Podcastindex-org/legal/blob/main/"
+"PrivacyPolicy.md)), Apple Podcasts ([tietosuojakäytäntö](https://"
+"www.apple.com/legal/privacy/en-ww/)) ja fyyd ([tietosuojakäytäntö](https://"
+"fyyd.de/privacy)) voivat tallentaa pyyntösi, mukaanlukien hakusanat."
 
 #: _i18n/en/general/privacy.md:block 13 (unordered list)
 msgid ""
@@ -531,6 +540,9 @@ msgid ""
 "'AntennaPod'. After subscribing, the feed is served from the podcast hoster, "
 "meaning the discovery/search service is no longer involved."
 msgstr ""
+"Discovery- ja hakupyynnöt sisältävät myös IP-osoitteen, ajan ja sovelluksen "
+"nimenä 'AntennaPod'. Tilaamisen jälkeen feed noudetaan podcastin "
+"palvelimelta eli discovery/haku ei enää ole välikätenä."
 
 #: _i18n/en/general/privacy.md:block 14 (header)
 msgid "Synchronization and backup services"
@@ -550,7 +562,6 @@ msgstr ""
 "tietosuojakäytännöstä."
 
 #: _i18n/en/general/privacy.md:block 15 (unordered list)
-#, fuzzy
 msgid ""
 "If backups are enabled on your phone (`Settings` » `Backup & Reset` » `Back "
 "up my data`), Android will periodically save a copy of your phone's data in "
@@ -560,15 +571,14 @@ msgid ""
 "have access to this data. For more information, see [Google's privacy policy]"
 "(https://policies.google.com)."
 msgstr ""
-"Google: Jos olet aktivoinut varmuuskopioinnin ja nollauksen puhelimesi "
-"asetuksista (`Asetukset` » Varmuuskopioi ja nollaa» » Varmuuskopioi "
-"tietosi`), sinun tulee huomioida, että Android itse tallentaa ajoittain "
-"kopion puhelimesi tiedoista Googlen palvelimia. Tämä varmuuskopio sisältää "
-"yksityisiä tietoja, mukaan lukien Wi-Fi-salasanat, viestit ja "
-"puheluhistoriasi. Se voi myös sisältää tietoja AntennaPodista ja muista "
-"käyttämistäsi sovelluksista. AntennaPodin kehittäjillä ei ole pääsyä näihin "
-"tietoihin. Lisätietoja on [Googlen tietosuojakäytännössä](https://"
-"policies.google.com)."
+"Jos olet aktivoinut varmuuskopioinnin ja nollauksen puhelimesi asetuksista "
+"(`Asetukset` » Varmuuskopioi ja nollaa» » Varmuuskopioi tietosi`), sinun "
+"tulee huomioida, että Android itse tallentaa ajoittain kopion puhelimesi "
+"tiedoista Googlen palvelimille. Tämä varmuuskopio sisältää yksityisiä "
+"tietoja, mukaan lukien Wi-Fi-salasanat, viestit ja puheluhistoriasi. Se voi "
+"myös sisältää tietoja AntennaPodista ja muista käyttämistäsi sovelluksista. "
+"AntennaPodin kehittäjillä ei ole pääsyä näihin tietoihin. Lisätietoja on "
+"[Googlen tietosuojakäytäntö](https://policies.google.com)."
 
 #: _i18n/en/general/privacy.md:block 16 (header)
 msgid "Device and operating system vendors"
@@ -633,7 +643,6 @@ msgstr ""
 "tietosuojakäytännöstä](https://opencollective.com/privacypolicy)"
 
 #: _i18n/en/general/privacy.md:block 24 (unordered list)
-#, fuzzy
 msgid ""
 "unless contributing as an [anonymous guest](https://docs.opencollective.com/"
 "help/financial-contributors/payments#contributing-as-a-guest) or [incognito]"
@@ -693,7 +702,6 @@ msgstr ""
 "palvelimilta ([tietosuojakäytäntö](https://weblate.org/en-gb/privacy/))."
 
 #: _i18n/en/general/privacy.md:block 28 (header)
-#, fuzzy
 msgid "Google Play"
 msgstr "Google Play"
 
@@ -756,10 +764,14 @@ msgid ""
 "devel/reporting.html#credits) you contribute to and the date and timestamps "
 "of your contributions."
 msgstr ""
+"tähän hetkeen asti kun liityit projektiin ja yksityiskohtaistit "
+"[statistiikka](https://docs.weblate.org/en/latest/devel/"
+"reporting.html#stats) tekemisistäsi ja [kielistä](https://docs.weblate.org/"
+"en/latest/devel/reporting.html#credits) sinä teet ja muokkaustesi ajankohta."
 
 #: _i18n/en/general/privacy.md:block 34 (header)
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: _i18n/en/general/privacy.md:block 35 (paragraph)
 msgid ""
@@ -768,14 +780,17 @@ msgid ""
 "docs.github.com/en/site-policy/privacy-policies/github-general-privacy-"
 "statement) for the data they collect and process."
 msgstr ""
+"Kun teet muutoksia AntennaPodin koodipohjaan gitin kautta, olet tekemisissä "
+"GitHub, Inc. tai GitHub B.V. yhtiön kanssa - katso heidän "
+"[yksityisyyskäytäntö](https://docs.github.com/en/site-policy/privacy-"
+"policies/github-general-privacy-statement) saadaksesi lisätietoa heidän "
+"tiedonkeräyksestä ja sen käsittelystä."
 
 #: _i18n/en/general/privacy.md:block 36 (header)
-#, fuzzy
 msgid "Updates to this Privacy Policy"
-msgstr "Tämän tietosuojakäytännön päivitykset"
+msgstr "Päivitykset tähän Tietosuojakäytäntöön"
 
 #: _i18n/en/general/privacy.md:block 37 (paragraph)
-#, fuzzy
 msgid ""
 "The developers may update this policy in the future. It is advisable to "
 "check it periodically for changes. Changes become effective upon publication "
@@ -787,24 +802,22 @@ msgstr ""
 "asiakirjaan."
 
 #: _i18n/en/general/privacy.md:block 38 (paragraph)
-#, fuzzy
 msgid ""
 "This Privacy Policy was last updated on 2025-08-17. If you have questions, "
 "open an issue on GitHub or our forum."
 msgstr ""
-"Tämä tietosuojakäytäntö on viimeksi päivitetty 13.07.2024. Jos sinulla on "
-"kysyttävää, avaa ongelma GitHubissa tai keskustelupalstaamme."
+"Tämä tietosuojakäytäntö on viimeksi päivitetty 17.8.2025. Jos sinulla on "
+"kysyttävää, avaa ongelma GitHubissa tai foorumissamme."
 
 #: _i18n/en/general/privacy.md:block 41 (paragraph)
-#, fuzzy
 msgid ""
 "This privacy policy has been translated from English to help you understand "
 "how AntennaPod handles privacy. In case of conflict between the the original "
 "and the translated version, the English one will prevail."
 msgstr ""
-"Tämä tietosuojakäytäntö on käännetty englannista, jotta voit ymmärtää, "
-"kuinka AntennaPod käsittelee aihetta. Mikäli alkuperäisen ja käännetyn "
-"version välillä on ristiriita, englanninkielinen versio on etusijalla."
+"Tämä tietosuojakäytäntö on käännetty englannista, jotta voit ymmärtää kuinka "
+"AntennaPod käsittelee aihetta. Mikäli alkuperäisen ja käännetyn version "
+"välillä on ristiriita, englanninkielinen versio on etusijalla."
 
 #: _i18n/en/general/subscribe.md:block 1 (paragraph)
 msgid ""
@@ -823,6 +836,10 @@ msgid ""
 "below. To subscribe, paste the address into AntennaPod's search box or into "
 "your other podcast app."
 msgstr ""
+"Käytätkö toista pocsatisovellusta tai selaimesi ei tue AnetennaPodin "
+"avaamista suoraan? Voit löytää podcastin RSS osoitteen alla olevasta "
+"laatikosta. Tilataksesi liitä osoite AntennaPodin hakukenttään tai toiseen "
+"podcastisovellukseen."
 
 #~ msgid "App permissions"
 #~ msgstr "Sovelluksen käyttöoikeudet"
