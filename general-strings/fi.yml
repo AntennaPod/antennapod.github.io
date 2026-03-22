@@ -10,6 +10,7 @@ titles:
   privacy: Tietosuojakäytäntö
   events: Tapahtumat
   media-kit: Mediapaketti
+  features: Ominaisuudet
 generic:
   home: Koti
   download: Lataa
@@ -34,14 +35,17 @@ generic:
     share-tw: Jaa Twitter
     share-eml: Jaa email
     logo: AntennaPod Logo
+    theme-menu: Teemanvaihtaja
+    skip-to-content: Siirry pääsisältöön
   eml-share:
     subject: Haluan että näet tämän
     body: Lue tämä artikkeli
   masto-share:
-    server: 'Syötä instanssin osoite: (esim. https://mastodon.social)'
+    server: 'Mastodon palvelimesi'
     title: Jaa Mastodon
     cancel: Peruuta
     share: Jaa
+    description: Syötä Mastodon palvelimesi URL-osoite jakaaksesi postauksen.
   previous: Edellinen
   next: Seuraava
   error404: Virhe 404
@@ -50,6 +54,8 @@ generic:
   theme:
     light: Vaalea
     dark: Tumma
+    auto: Auto
+  subscribe-in: Tilaa AntennaPodissa
 month:
   Jan: Tam
   Feb: Hel
@@ -93,6 +99,11 @@ homepage:
     kehitetään vapaaehtoisvoimin ilman kaupallisia intressejä, joten se 
     kunnioittaa käyttäjiensä yksityisyyttä ja pysyy täysin käyttäjien 
     hallinnassa.
+  forum-posts:
+    title: Yhteisön forum
+    description: Löydä apua, jaa ideoita ja ole yhteydessä muihin käyttäjiin
+    view-all: Vieraile foorumissa
+    loading: Ladataan keskusteluja...
 documentation:
   general:
     search-placeholder: Etsi dokumentaatiosta
@@ -195,6 +206,8 @@ documentation:
   search:
     placeholder: Etsi dokumentaatiosta
     no-results: Harmi, ei löydetty
+    hint: Käytä nuolinäppäimiä navigoidaksesi, Enter valitaksesi ja Esc 
+      sulkeaksesi
   getting-started:
     title: Aloittaminen
     intro: Tervetuloa käyttämään AntennaPodia! Alla on ohjeita AntennaPodin 
@@ -360,6 +373,9 @@ events:
     announce-add-calendar: Haluatko aina viimeisimmät tapahtumat ja päivittää 
       yhteisöpuhelutiedot käsillä? Tilaa sitten kalenterimme 
       suosikkisovelluksessasi 'Lisää kalenteriin' -linkin kautta!
+    recurring-events: Toistuvat tapahtumat
+    upcoming-events: Tulevat tapahtumat
+    past-events: Meneet tapahtumat
   recurrence:
     every-2nd-saturday: kuukauden joka toinen lauantai
     2nd-4th-wednesday: kuukauden (lähes) joka toinen ja neljäs keskiviikko
@@ -370,6 +386,14 @@ blog:
   posted: Julkaistu
   previous-post: Edellinen
   next-post: Seuraava
+  related-posts: Asiaan liittyvät postaukset
+  post-navigation: Postauksissa navigaatio
+  categories:
+    all: Kaikki
+    release: Julkaisu
+    project: Projektin päivitys
+    community: Yhteisö
+    tutorial: Ohje
 not-installed:
   title: AntennaPodia ei ole asennettu
   text: AntennaPodia ei ole asennettu tai selaimesi ei tue sen avaamista 
@@ -379,3 +403,17 @@ readtime:
   plural: min luku
 media-kit:
   title: Mediapaketti
+  description: Viralliset AntennaPod brandisisällöt uutis- ja mediakäyttöön.
+  logo-section: Logot
+  logo-description: Logomme monissa formaateissa, väreissä ja eri taustoilla.
+  colors-section: Brändivärit
+  colors-description: Virallinen väripalettimme.
+  screenshots-section: Näyttökuvat
+  screenshots-description: Näyttökuvia sovelluksesta uutis- ja mainoskäyttöön.
+  guidelines-section: Käyttö
+  guidelines-description: Noudatathan näitä ohjeita käyttäesssäsi 
+    brändisisältöämme.
+  download-all: Lataa kaikki
+  primary: Ensisijainen
+  secondary: Toissijainen
+  accent: Aksentti
