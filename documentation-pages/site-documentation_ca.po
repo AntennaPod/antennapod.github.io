@@ -753,41 +753,16 @@ msgstr ""
 "antennapod.category-BUDGET) són públics, tothom pot verificar-ho lliurement."
 
 #: _i18n/en/documentation/general/ads.md:block 2 (paragraph)
-msgid "If you are seeing ads, this can have two reasons:"
-msgstr "Si estàs veient anuncis, això pot tenir dues raons:"
+msgid ""
+"If you have ads in episodes, they are inserted by the podcaster or their "
+"hosting provider."
+msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 3 (header)
-msgid "1. You downloaded an unofficial version of AntennaPod"
-msgstr "1. Heu baixat una versió no oficial de l'AntennaPod"
+msgid "AntennaPod does not add ads"
+msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 4 (paragraph)
-msgid ""
-"AntennaPod is open-source. This means that anyone can download the source "
-"code. Unfortunately, some developers take AntennaPod, insert ads and then "
-"publish it as a new app. You can get the official AntennaPod app on [Google "
-"Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) "
-"and [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). You can "
-"even get the latest release from [GitHub](https://github.com/AntennaPod/"
-"AntennaPod/) and build AntennaPod yourself!"
-msgstr ""
-"AntennaPod és de codi obert. Això significa que qualsevol pot descarregar el "
-"codi font. Malauradament, alguns desenvolupadors prenen AntennaPod, "
-"insereixen anuncis i després el publiquen com una nova aplicació. Podeu "
-"obtenir l'aplicació oficial d'AntennaPod a [Google Play](https://"
-"play.google.com/store/apps/details?id=de.danoeh.antennapod) i [F-Droid]"
-"(https://f-droid.org/packages/de.danoeh.antennapod/). Fins i tot podeu "
-"obtenir l'última versió del [GitHub](https://github.com/AntennaPod/"
-"AntennaPod/) i construir l'AntennaPod vós mateix!"
-
-#: _i18n/en/documentation/general/ads.md:block 5 (header)
-msgid ""
-"2. The podcast creators or their hosting company added the ads to their "
-"shownotes or audio file"
-msgstr ""
-"2. Els creadors de podcast o la seva empresa d'allotjament van afegir els "
-"anuncis als seus showsotes o al fitxer d'àudio"
-
-#: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
 "AntennaPod plays podcasts just like they were published by the creators. If "
 "they include ads, AntennaPod plays them. We have nothing to do with those "
@@ -798,7 +773,11 @@ msgstr ""
 "aquests anuncis, de manera que tots els ingressos van als creadors i/o la "
 "seva empresa d'allotjament."
 
-#: _i18n/en/documentation/general/ads.md:block 7 (paragraph)
+#: _i18n/en/documentation/general/ads.md:block 5 (header)
+msgid "Why are ads localized"
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
 "Now, you might ask something like \"But then why is the podcast in English "
 "and the ad in German?\" or \"But why is the podcast episode from 2008 but "
@@ -829,7 +808,19 @@ msgstr ""
 "inserir els anuncis (de manera que els capítols estan desviats per la durada "
 "de l'anunci)."
 
+#: _i18n/en/documentation/general/ads.md:block 7 (header)
+msgid "What you can do"
+msgstr ""
+
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
+msgid "Here is what you can do against those ads."
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 9 (header)
+msgid "Skipping"
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
 "You can always use the fast forward button in AntennaPod to skip the ads. If "
 "you are streaming an episode instead of downloading, the hosting company has "
@@ -852,7 +843,11 @@ msgstr ""
 "descarregar i posteriorment eliminar episodis, de manera que no ho heu de "
 "fer manualment.)"
 
-#: _i18n/en/documentation/general/ads.md:block 9 (paragraph)
+#: _i18n/en/documentation/general/ads.md:block 11 (header)
+msgid "Switch to an ad-free feed"
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 12 (paragraph)
 msgid ""
 "Additionally, many podcast creators provide an ad-free feed that you can "
 "buy. Usually, you then either get a secret podcast feed URL, or "
@@ -863,7 +858,7 @@ msgstr ""
 "secret, o alternativament un nom d'usuari i contrasenya que podeu introduir "
 "a AntennaPod."
 
-#: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
+#: _i18n/en/documentation/general/ads.md:block 13 (paragraph)
 msgid ""
 "If you find these ads annoying, consider talking to the podcast creators "
 "about this."
@@ -1038,9 +1033,9 @@ msgstr ""
 "Exporta`»`Exportació OPML`. Segons la versió d’Android que utilitzeu, és "
 "possible que se us demani on desar el fitxer. Si s’obre immediatament un "
 "*diàleg de desar*, assegureu-vos de seleccionar una carpeta fora del "
-"directori d’AntennaPod (per exemple, `Downloads` o una altra carpeta visible)"
-", de manera que el fitxer OPML exportat no s’elimini si desinstal·leu "
-"AntennaPod."
+"directori d’AntennaPod (per exemple, `Downloads` o una altra carpeta "
+"visible), de manera que el fitxer OPML exportat no s’elimini si "
+"desinstal·leu AntennaPod."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
@@ -2976,6 +2971,37 @@ msgstr "Prémer la icona de l'`engranatge` per accedir a la seva configuració"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleccionar la configuració d'`Etiquetes`"
+
+#~ msgid "If you are seeing ads, this can have two reasons:"
+#~ msgstr "Si estàs veient anuncis, això pot tenir dues raons:"
+
+#~ msgid "1. You downloaded an unofficial version of AntennaPod"
+#~ msgstr "1. Heu baixat una versió no oficial de l'AntennaPod"
+
+#~ msgid ""
+#~ "AntennaPod is open-source. This means that anyone can download the source "
+#~ "code. Unfortunately, some developers take AntennaPod, insert ads and then "
+#~ "publish it as a new app. You can get the official AntennaPod app on "
+#~ "[Google Play](https://play.google.com/store/apps/details?"
+#~ "id=de.danoeh.antennapod) and [F-Droid](https://f-droid.org/packages/"
+#~ "de.danoeh.antennapod/). You can even get the latest release from [GitHub]"
+#~ "(https://github.com/AntennaPod/AntennaPod/) and build AntennaPod yourself!"
+#~ msgstr ""
+#~ "AntennaPod és de codi obert. Això significa que qualsevol pot descarregar "
+#~ "el codi font. Malauradament, alguns desenvolupadors prenen AntennaPod, "
+#~ "insereixen anuncis i després el publiquen com una nova aplicació. Podeu "
+#~ "obtenir l'aplicació oficial d'AntennaPod a [Google Play](https://"
+#~ "play.google.com/store/apps/details?id=de.danoeh.antennapod) i [F-Droid]"
+#~ "(https://f-droid.org/packages/de.danoeh.antennapod/). Fins i tot podeu "
+#~ "obtenir l'última versió del [GitHub](https://github.com/AntennaPod/"
+#~ "AntennaPod/) i construir l'AntennaPod vós mateix!"
+
+#~ msgid ""
+#~ "2. The podcast creators or their hosting company added the ads to their "
+#~ "shownotes or audio file"
+#~ msgstr ""
+#~ "2. Els creadors de podcast o la seva empresa d'allotjament van afegir els "
+#~ "anuncis als seus showsotes o al fitxer d'àudio"
 
 #~ msgid ""
 #~ "AntennaPod has many users and we don't want them to run into trouble when "

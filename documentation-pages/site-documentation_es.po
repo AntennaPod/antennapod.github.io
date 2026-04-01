@@ -447,11 +447,11 @@ msgid ""
 "to go through the second step to fix the problem once and for all."
 msgstr ""
 "¿Has exportado recientemente una [copia de seguridad](/documentation/general/"
-"backup) de AntennaPod? Restaurarla es relativamente sencillo: ve a `Ajustes` "
-"» `Importar/Exportar` » `Importar base de datos` y selecciona el archivo de "
-"copia de seguridad. Ten en cuenta que la copia de seguridad podría contener "
-"datos parcialmente dañados, por lo que se recomienda seguir el segundo paso "
-"para solucionar el problema definitivamente."
+"backup) de AntennaPod? Restaurarla es relativamente sencillo: ve a "
+"`Ajustes` » `Importar/Exportar` » `Importar base de datos` y selecciona el "
+"archivo de copia de seguridad. Ten en cuenta que la copia de seguridad "
+"podría contener datos parcialmente dañados, por lo que se recomienda seguir "
+"el segundo paso para solucionar el problema definitivamente."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -750,41 +750,16 @@ msgstr ""
 "todo el mundo es libre de comprobarlo."
 
 #: _i18n/en/documentation/general/ads.md:block 2 (paragraph)
-msgid "If you are seeing ads, this can have two reasons:"
-msgstr "Si estás viendo anuncios, esto puede tener dos razones:"
+msgid ""
+"If you have ads in episodes, they are inserted by the podcaster or their "
+"hosting provider."
+msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 3 (header)
-msgid "1. You downloaded an unofficial version of AntennaPod"
-msgstr "1. Has descargado una versión no oficial de AntennaPod"
+msgid "AntennaPod does not add ads"
+msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 4 (paragraph)
-msgid ""
-"AntennaPod is open-source. This means that anyone can download the source "
-"code. Unfortunately, some developers take AntennaPod, insert ads and then "
-"publish it as a new app. You can get the official AntennaPod app on [Google "
-"Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) "
-"and [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). You can "
-"even get the latest release from [GitHub](https://github.com/AntennaPod/"
-"AntennaPod/) and build AntennaPod yourself!"
-msgstr ""
-"AntennaPod es de código abierto. Esto significa que cualquiera puede "
-"descargar el código fuente. Por desgracia, algunos desarrolladores toman "
-"AntennaPod, insertan anuncios y luego lo publican como una nueva app. Puedes "
-"conseguir la aplicación oficial de AntennaPod en [Google Play](https://"
-"play.google.com/store/apps/details?id=de.danoeh.antennapod) y [F-Droid]"
-"(https://f-droid.org/packages/de.danoeh.antennapod/). ¡Incluso puedes "
-"conseguir la última versión en [GitHub](https://github.com/AntennaPod/"
-"AntennaPod/) y compilar AntennaPod tú mismo!"
-
-#: _i18n/en/documentation/general/ads.md:block 5 (header)
-msgid ""
-"2. The podcast creators or their hosting company added the ads to their "
-"shownotes or audio file"
-msgstr ""
-"2. Los creadores del podcast o su empresa de alojamiento agregaron los "
-"anuncios a sus notas de presentación o archivo de audio"
-
-#: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
 "AntennaPod plays podcasts just like they were published by the creators. If "
 "they include ads, AntennaPod plays them. We have nothing to do with those "
@@ -795,7 +770,11 @@ msgstr ""
 "esos anuncios, por lo que todos los ingresos van a los creadores y/o su "
 "empresa de alojamiento."
 
-#: _i18n/en/documentation/general/ads.md:block 7 (paragraph)
+#: _i18n/en/documentation/general/ads.md:block 5 (header)
+msgid "Why are ads localized"
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
 "Now, you might ask something like \"But then why is the podcast in English "
 "and the ad in German?\" or \"But why is the podcast episode from 2008 but "
@@ -823,7 +802,19 @@ msgstr ""
 "Dependiendo de qué tan inteligente sea la empresa de alojamiento, los "
 "anuncios pueden insertarse justo en el medio de una oración."
 
+#: _i18n/en/documentation/general/ads.md:block 7 (header)
+msgid "What you can do"
+msgstr ""
+
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
+msgid "Here is what you can do against those ads."
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 9 (header)
+msgid "Skipping"
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
 "You can always use the fast forward button in AntennaPod to skip the ads. If "
 "you are streaming an episode instead of downloading, the hosting company has "
@@ -846,7 +837,11 @@ msgstr ""
 "puede configurarse para que descargue automáticamente los episodios y los "
 "elimine más tarde, de modo que no tenga que hacerlo manualmente)"
 
-#: _i18n/en/documentation/general/ads.md:block 9 (paragraph)
+#: _i18n/en/documentation/general/ads.md:block 11 (header)
+msgid "Switch to an ad-free feed"
+msgstr ""
+
+#: _i18n/en/documentation/general/ads.md:block 12 (paragraph)
 msgid ""
 "Additionally, many podcast creators provide an ad-free feed that you can "
 "buy. Usually, you then either get a secret podcast feed URL, or "
@@ -857,7 +852,7 @@ msgstr ""
 "secreta o, alternativamente, un nombre de usuario y una contraseña que "
 "puedes ingresar en AntennaPod."
 
-#: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
+#: _i18n/en/documentation/general/ads.md:block 13 (paragraph)
 msgid ""
 "If you find these ads annoying, consider talking to the podcast creators "
 "about this."
@@ -2562,12 +2557,12 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) podcast"
-"(s) en AntennaPod? Sólo tiene que incluir un enlace como el que figura a "
-"continuación en su sitio web o donde desee. Asegúrese de sustituir `xyz` por "
-"la URL de su canal RSS y `abc` por el título de su podcast. Tenga en cuenta "
-"que si su URL o título contienen caracteres especiales, como `&`, estos "
-"deben estar [codificados en URL](https://es.wikipedia.org/wiki/"
+"¿Quiere facilitar a su red o a su audiencia la incorporación de su(s) "
+"podcast(s) en AntennaPod? Sólo tiene que incluir un enlace como el que "
+"figura a continuación en su sitio web o donde desee. Asegúrese de sustituir "
+"`xyz` por la URL de su canal RSS y `abc` por el título de su podcast. Tenga "
+"en cuenta que si su URL o título contienen caracteres especiales, como `&`, "
+"estos deben estar [codificados en URL](https://es.wikipedia.org/wiki/"
 "Codificaci%C3%B3n_porcentual)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
@@ -2621,8 +2616,8 @@ msgid ""
 msgstr ""
 "Por otro lado, los usuarios que no tengan instalado AntennaPod verán una "
 "página con instrucciones para descargar la aplicación o suscribirse a su "
-"podcast manualmente, como en esta [página de ejemplo](/deeplink/"
-"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
+"podcast manualmente, como en esta [página de ejemplo](/deeplink/subscribe?"
+"url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
@@ -2978,6 +2973,37 @@ msgstr "Tocar en el icono del `engranaje` para acceder a sus opciones"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Seleccionar el ajuste `Etiquetas`"
+
+#~ msgid "If you are seeing ads, this can have two reasons:"
+#~ msgstr "Si estás viendo anuncios, esto puede tener dos razones:"
+
+#~ msgid "1. You downloaded an unofficial version of AntennaPod"
+#~ msgstr "1. Has descargado una versión no oficial de AntennaPod"
+
+#~ msgid ""
+#~ "AntennaPod is open-source. This means that anyone can download the source "
+#~ "code. Unfortunately, some developers take AntennaPod, insert ads and then "
+#~ "publish it as a new app. You can get the official AntennaPod app on "
+#~ "[Google Play](https://play.google.com/store/apps/details?"
+#~ "id=de.danoeh.antennapod) and [F-Droid](https://f-droid.org/packages/"
+#~ "de.danoeh.antennapod/). You can even get the latest release from [GitHub]"
+#~ "(https://github.com/AntennaPod/AntennaPod/) and build AntennaPod yourself!"
+#~ msgstr ""
+#~ "AntennaPod es de código abierto. Esto significa que cualquiera puede "
+#~ "descargar el código fuente. Por desgracia, algunos desarrolladores toman "
+#~ "AntennaPod, insertan anuncios y luego lo publican como una nueva app. "
+#~ "Puedes conseguir la aplicación oficial de AntennaPod en [Google Play]"
+#~ "(https://play.google.com/store/apps/details?id=de.danoeh.antennapod) y [F-"
+#~ "Droid](https://f-droid.org/packages/de.danoeh.antennapod/). ¡Incluso "
+#~ "puedes conseguir la última versión en [GitHub](https://github.com/"
+#~ "AntennaPod/AntennaPod/) y compilar AntennaPod tú mismo!"
+
+#~ msgid ""
+#~ "2. The podcast creators or their hosting company added the ads to their "
+#~ "shownotes or audio file"
+#~ msgstr ""
+#~ "2. Los creadores del podcast o su empresa de alojamiento agregaron los "
+#~ "anuncios a sus notas de presentación o archivo de audio"
 
 #~ msgid ""
 #~ "AntennaPod has many users and we don't want them to run into trouble when "
