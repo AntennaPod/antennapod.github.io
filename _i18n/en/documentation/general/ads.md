@@ -1,6 +1,6 @@
 The official versions of AntennaPod do not insert any ads. The app is developed by volunteers without commercial interest and the project relies on donations to cover costs. As AntennaPod's [source code](https://github.com/AntennaPod/AntennaPod) and [income and expenses](https://opencollective.com/antennapod#category-BUDGET) are public everyone is free to verify this.
 
-If you are seeing ads, this is because:
+If you have ads in episodes, they are inserted by the podcaster or their hosting provider.
 
 ## AntennaPod does not add ads
 
