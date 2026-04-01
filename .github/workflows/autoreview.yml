@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
   misspellcheck:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
     - name: Run misspell with reviewdog
@@ -13,16 +13,16 @@ jobs:
         locale: "US"
         exclude: "./_i18n/!(en)/**"
   guids:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - run: .github/workflows/guids.sh
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: '3.4.8'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: bundle exec jekyll build --trace
