@@ -15,4 +15,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <!-- mdpo-enable -->
 
 # The website content
-The texts on the website are written and released under a [Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license (CC-BY-SA 4.0). Images on this website are copyrighted by their respective owners.
+The texts on the website are written and released under a [Creative Commons Attribution-ShareAlike International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license (CC-BY-SA 4.0). Images on this website are copyrighted by their respective owners.
