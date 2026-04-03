@@ -12,4 +12,4 @@ En dehors de cela, l'application nécessite les autorisations suivantes, qui son
 - **Appairage avec des appareils Bluetooth** : pour le paramètre `Lecture` → `Déconnexion d'écouteurs ou du Bluetooth`, pour mettre en pause ou lancer la lecture automatiquement quand on déconnecte ou connecte au téléphone un appareil Bluetooth
 - **Lancer au démarrage** : pour (re)lancer les services comme le rafraîchissement des podcasts et activer les téléchargements automatiques
 - **Contrôle des vibrations** : pour l'option `Vibrer légèrement avant la fin` du minuteur de sommeil, pour vibrer si ce paramètre est activé
-- **Prevent device from sleeping**: needed to ensure media playback and downloads continue in the background
+- **Empêcher l'appareil de passer en mode veille** : requis pour permettre à la lecture et aux téléchargements de continuer en arrière-plan

@@ -1,10 +1,10 @@
 Vous pouvez ordonner votre liste de lecture au moyen de différents critères de tri  : `Nom d'épisode`, `Nom de podcast`, `Durée`, `Date`, `Au hasard` et `Tri intelligent`. Puisque ces critères sont, pour la plupart, suffisamment explicites, cette page se concentre spécifiquement sur `Titre de podcast` et `Tri intelligent`.
 
-# Nom de podcast
+# Nom du podcast
 
 This criterion sorts episodes in your queue according to the title of the podcast they belong to. Note that episodes from the same podcast are sorted according to your previous sort order: therefore, if you would like episodes from the same podcast to be sorted together and chronologically, you would need to first sort by `Date` and then sort by `Podcast title`.
 
-# Aléatoire intelligent
+# Tri intelligent
 
 L'aléatoire ntelligent est un critère de tri avancé qui permet de conserver l'ordre de publication mais en évitant autant que possible de grouper des épisodes d'un même podcast dans votre liste de lecture.
 

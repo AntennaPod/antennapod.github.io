@@ -5,7 +5,7 @@ Il est possible de faire en sorte qu'AntennaPod dirige tout le trafic (fichiers 
 
 Vous trouverez cette option sous `Paramètres` → `Réseau` → `Proxy`.
 
-Afin de diriger tout le trafic via le réseau TOR, vous devez installer une application proxy pour TOR, et fournir les informations suivantes dans AntennaPod :
+Afin de diriger tout le trafic via le réseau Tor, vous devez installer une application proxy pour Tor, et fournir les informations suivantes dans AntennaPod :
 
 - Type : SOCKS
 - Hôte : "localhost" ou "127.0.0.1"

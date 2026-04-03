@@ -8,7 +8,7 @@ Pour pouvoir reprendre la lecture, vous pouvez ajouter la "tuile" AntennaPod à 
 
 Pour ajouter la tuile AntennaPod :
 
-1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
+1. **Balayez deux fois** depuis le haut de l'écran pour ouvrir entièrement les Réglages rapides. Sur certaines versions d'Android (par exemple Samsung One UI ou Xiaomi MIUI), un Centre de contrôle équivalent avec des gestes similaires peut déjà contenir une tuile multimédia. Vérifiez vos paramètres d'appareil si celui-ci se comporte différemment
 1. **Tapez sur l'icône du crayon** en bas de la section des tuiles pour modifier les tuiles
 1. Faites défiler la liste des tuiles, **faites glisser la tuile AntennaPod** vers le haut dans la liste des tuiles actives
 1. Touchez la **flèche de retour** ou **enregistrer** pour quitter l'édition des tuiles

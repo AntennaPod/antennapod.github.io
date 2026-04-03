@@ -26,7 +26,7 @@ Le seul cas de traitement de données personnelles *provenant* de service tiers 
 
 #### Services de découverte et de recherche
 
-- Quand vous ouvrez l'écran Découverte dans l'appli, cela appelle les services d'Apple pour récupérer des suggestions de podcast. Ils peuvent conserver la requête (par ex. votre adresse IP et la région sélectionnée, qui est par défaut le pays de votre appareil). Ces suggestions peuvent être désactivées dans le menu du haut de l'écran Découverte. Dans la version de F-Droid, vous devez spécifiquement donner votre consentement avant d'obtenir ces recommandations d'Apple.
+- Quand l'écran Découvrir est ouvert dans l'appli, les services d'Apple sont utilisés pour récupérer des suggestions de podcast. Apple peut conserver la requête (par ex. votre adresse IP et la région sélectionnée, qui est par défaut le pays de votre appareil). Les suggestions peuvent être désactivées dans le menu en haut de l'écran Découvrir. Pour la version sur F-Droid, votre consentement est demandé avant d'obtenir des recommandations d'Apple.
 - Lorsque vous utilisez la fonctionnalité de recherche d'AntennaPod, les services suivants peuvent stocker cotre recherche, y compris les termes cherchés : PostcastIndex.org ([politique de vie privée](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([politique de vie privée](https://www.apple.com/legal/privacy/en-ww/)) et fyyd ([politique de vie privée](https://fyyd.de/privacy)).
 - Les requêtes de découverte et de recherche incluent également l'adresse IP, l'heure et le nom de l'application « AntennaPod ». Après l'abonnement, le flux est fourni par l'hébergeur du podcast, ce qui signifie que le service de découverte et de recherche n'est plus impliqué.
 

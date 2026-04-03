@@ -27,4 +27,4 @@ Il y a deux raisons principales. Premièrement, bien que les statistiques soient
 
 Deuxièmement, **AntennaPod prendrait plus de place sur votre téléphone** - surtout pour les utilisateurs fidèles qui restent avec l’application pendant plusieurs années. C’est parce qu’au lieu d’une seule ligne par épisode dans la base de données, nous aurions besoin de stocker plusieurs lignes pour chaque épisode joué afin de stocker la durée de lecture, ce qui ferait augmenter la taille de la base de données.
 
-Nous espérons que vous apprécierez les statistiques mensuelles ! 📊 (si vous êtes un développeur web intéressé à créer un tableau de bord dédié aux statistiques AntennaPod basées sur les exportations de bases de données, veuillez nous contacter sur le forum).
+Nous espérons que vous apprécierez les statistiques mensuelles ! 📊 (Si vous êtes un développeur web intéressé par la création d'un tableau de bord des statistiques d'AntennaPod à partir des exports de la base de données, contactez-nous sur le forum.)

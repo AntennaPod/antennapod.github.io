@@ -1,4 +1,4 @@
-Vous pouvez configurer AntennaPod pour télécharger les épisodes sur votre carte SD au lieu de la mémoire interne. Cela vous permet de disposer de plus d'espace pour les épisodes. Pour sélectionner la carte de stockage, allez dans `Préférences` » `Téléchargement` » `Choisir le répertoire`.
+Vous pouvez configurer AntennaPod pour télécharger les épisodes sur votre carte sd au lieu de la mémoire interne. Cela vous permet de disposer de plus d'espace pour les épisodes. Pour sélectionner la carte de stockage, allez dans `Préférences` » `Téléchargement` » `Choisir le répertoire`.
 
 ## Dépannage
 
