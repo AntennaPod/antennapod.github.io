@@ -39,7 +39,7 @@ The new work must:
   - have blue as primary or secondary colour (any shade, same as or different from current)
   - somehow use the concept of an antenna in the icon
 - come positive & negative version (for on light & dark background)
-- adhere to [Google Play icon design specifications](https://developer.android.com/google-play/resources/icon-design-specifications) (only for icon)
+- adhere to [Google Play icon design specifications](https://developer.android.com/distribute/google-play/resources/icon-design-specifications) (only for icon)
 - also come in super small white-on-transparent version legible in super small size (icon only, for Android's status bar)
 - be deliverd in vector format (preferably svg, as not all an open AI files)
 
