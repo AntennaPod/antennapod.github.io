@@ -6,8 +6,8 @@ uid: TDL9-28GB-50YV-P6X4-D48Y
 sequence:
 # Optional. Defaults to 0 if left empty. Should be increased with 1 on every big event edit.
 timezone: Europe/Brussels
-datetime-start: 2024-02-14 21:00
-datetime-end: 2024-02-14 22:30
+datetime-start: 2024-02-14 20:30
+datetime-end: 2024-02-14 21:30
 recurring: yes
 recurrence-text: 2nd-4th-wednesday
 recurrence-rule: FREQ=WEEKLY;INTERVAL=2;BYDAY=WE
