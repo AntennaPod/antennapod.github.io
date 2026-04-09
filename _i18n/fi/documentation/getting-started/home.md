@@ -8,11 +8,11 @@ Tässä osiossa voit nopeasti ja helposti jatkaa jonossa olevien jaksojen kuunte
 
 ## Katso mitä uutta
 
-Tästä osiosta löydät uusimmat jaksot, jotka ovat saapuneet postilaatikkoosi tilaustesi virkistämisen seurauksena.
+Tästä osiosta löydät uusimmat jaksot, jotka ovat saapuneet postilaatikkoosi tilaustesi päivittämisen seurauksena.
 
 ## Ylläty
 
-Täältä löydät satunnaisen valikoiman jaksoja tilauksistasi, joita et ole vielä kuunnellut. Jos et näe mitään, mitä haluat kuunnella, voit virkistää valinnan napauttamalla nuolipainiketta.
+Täältä löydät satunnaisen valikoiman jaksoja tilauksistasi, joita et ole vielä kuunnellut. Jos et näe mitään, mitä haluat kuunnella, voit päivitää valinnan napauttamalla nuolipainiketta.
 
 ## Tarkista klassikkosi
 

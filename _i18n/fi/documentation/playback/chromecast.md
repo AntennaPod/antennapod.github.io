@@ -1,4 +1,4 @@
-Voit kuunnella podcasteja AntennaPodilla Google Chromecastissa.
+Voit kuunnella podcasteja AntennaPodilla Google Chromecastilla.
 
 ### Latasitko AntennaPodin **Google Playsta**?
 

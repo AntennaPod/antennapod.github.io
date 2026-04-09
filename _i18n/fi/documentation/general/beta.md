@@ -1,4 +1,4 @@
-AntennaPodilla on paljon käyttäjiä ja me emme halua aiheuttaa heille ongelmia, koska olemme tehneet muokkauksia tai lisänneet uuden ominaistuuden. Siksi on tärkeää, että sovelluksellamme on testaajia. Mitä enemmän testaajia, mitä enemmän erilaisten puhelimien ja Android-versioita, ja käyttötarkoituksia voimme tukea, sitä enemmän ongelmia voimme korjata ennen virallista julkaisua. Tämä tietenkin auttaa vain jos ilmoitat kohtaamisistasi virheistä luomalla julkaisun [foorumissamme](https://forum.antennapod.org/).
+AntennaPodilla on paljon käyttäjiä ja me emme halua aiheuttaa heille ongelmia, koska olemme tehneet muokkauksia tai lisänneet uuden ominaistuuden. Siksi on tärkeää, että sovelluksellamme on testaajia. Mitä enemmän testaajia, mitä enemmän erilaisia puhelimia, Android-versioita ja käyttötarkoituksia voimme tukea, sitä enemmän ongelmia voimme korjata ennen virallista julkaisua. Tämä tietenkin auttaa vain jos ilmoitat kohtaamisistasi virheistä luomalla julkaisun [foorumissamme](https://forum.antennapod.org/).
 
 Pieniä ongelmia ilmenee usein suurten päivitysten jälkeen, ja ne havaitaan vasta käyttäjien virheraporttien kautta varhaisessa vaiheessa. On vain yksi pääkehittäjä, joka työskentelee tämän parissa vapaa-ajallaan. Hänellä on vain muutama laite testattavaksi, mutta käyttäytyminen voi vaihdella laitteittain.
 
@@ -18,6 +18,6 @@ loc="/assets/images/documentation" file="project-beta.png" %}
 
 ## F-Droid
 
-Emme toistaiseksi julkaise beetaversioita F-Droid-kaupassa.
+Emme tällä hetkellä julkaise betaversioita F-Droid-kaupassa.
 
 Tämä johtuu siitä, että F-Droid [ei](https://gitlab.com/fdroid/fdroidserver/-/issues/161) tunnista automaattisesti beta-versioita. Betajulkaisujen lisääminen F-Droidiin vaatisi manuaalisen toimenpiteen jokaiselle betaversiolle. Lisäksi, jos jotain tärkeää on korjattava, päivitys on julkaistava välittömästi. Valitettavasti tätä ei voida taata.

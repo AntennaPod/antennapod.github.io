@@ -1,4 +1,4 @@
-Saatko ilmoituksen, että lataukset on suoritettu loppuun virheineen? AntennaPod ei voinut virkisttää podcastia tai ladata äänitiedostoa podcast-isännöitsijän verkkosivustolta.
+Saatko ilmoituksen, että lataukset on suoritettu loppuun virheineen? AntennaPod ei voinut päivittää podcastia tai ladata äänitiedostoa podcast-isännöitsijän verkkosivustolta.
 
 Viat, joita esiintyy vain yhden tai muutaman tietyn podcastin kanssa, liittyvät usein kyseisiin podcasteihin. Voit varmistaa, että näin on, seuraavasti:
 

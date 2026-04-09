@@ -2,9 +2,9 @@
 
 AntennaPod on lisensoitu [General Public License](https://github.com/AntennaPod/AntennaPod/blob/develop/LICENSE) -lisenssillä.
 
-# Sivuston koodi ja teema
+# Verkkosivun koodi ja teema
 
-Sivusto on kehitetty MIT-lisenssin alaisena:
+Verkkosivu on kehitetty MIT-lisenssin alaisena:
 
 Copyright (c) 2020 - 2026 Anxhelo Lushka and other contributors
 
@@ -14,6 +14,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-# Verkkosivuston sisältö
+# Verkkosivun sisältö
 
-Verkkosivuston tekstit on kirjoitettu ja julkaistu [Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) -lisenssin (CC-BY-SA 4.0) alaisina. Tämän sivuston kuvien tekijänoikeudet ovat omistajiensa alaisia.
+The texts on the website are written and released under a [Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license (CC-BY-SA 4.0). Images on this website are copyrighted by their respective owners.

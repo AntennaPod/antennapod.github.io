@@ -1,4 +1,4 @@
-AntennaPodia kehittävät ja ylläpitävät vapaaehtoiset yksityishenkilöt, eikä mikään oikeushenkilö edusta sitä. Yhteisö ei tarvitse tietojasi, joten sovellus ja sivusto on suunniteltu täysin GDPR-yhteensopiviksi. Lue lisää.
+AntennaPodia kehittävät ja ylläpitävät vapaaehtoiset yksityishenkilöt, eikä mikään oikeushenkilö edusta sitä. Yhteisö ei tarvitse tietojasi, joten sovellus ja sivusto on suunniteltu täysin GDPR:ää noudattaviksi. Lue lisää.
 
 ## Sovellus
 

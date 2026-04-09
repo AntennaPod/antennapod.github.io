@@ -1,10 +1,10 @@
 titles:
   about: Tietoja
   blog: Blogi
-  contribute: Osallistu
-  documentation: Dokumentaatio
+  contribute: Osallistu kehitykseen
+  documentation: Ohje
   download: Lataa AntennaPod
-  forum: Foorumi
+  forum: Forum
   media: Mediapaketti
   license: Lisenssi
   privacy: Tietosuojakäytäntö
@@ -14,7 +14,7 @@ titles:
 generic:
   home: Koti
   download: Lataa
-  contribute: Osallistu
+  contribute: Osallistu kehitykseen
   view: Näytä kaikki
   learn: Opi lisää
   share: Jaa
@@ -54,7 +54,7 @@ generic:
   theme:
     light: Vaalea
     dark: Tumma
-    auto: Auto
+    auto: Automaattinen
   subscribe-in: Tilaa AntennaPodissa
 month:
   Jan: Tam
@@ -96,9 +96,8 @@ homepage:
         tahansa. Voit myös valita podcasteja automattisesti ladattaviksi.
   description: AntennaPod on täysin avoin podcast-soitin. Sovelluksen lähdekoodi
     on avointa, ja sillä voi tilata minkä tahansa RSS-syötteen. AntennaPodia 
-    kehitetään vapaaehtoisvoimin ilman kaupallisia intressejä, joten se 
-    kunnioittaa käyttäjiensä yksityisyyttä ja pysyy täysin käyttäjien 
-    hallinnassa.
+    kehitetään vapaaehtoisvoimin ilman kaupallisia intressejä, kunnioitamme 
+    käyttäjien yksityisyyttä ja olemme täysin käyttäjien hallinnassa.
   forum-posts:
     title: Yhteisön forum
     description: Löydä apua, jaa ideoita ja ole yhteydessä muihin käyttäjiin
@@ -123,7 +122,7 @@ documentation:
     backup:
       title: Jaksojen varmuuskopiointi
     beta:
-      title: Beetatestaus
+      title: Betatestaus
     central-distributed:
       title: Keskitetyt ja hajautetut podcast-sovellukset
     external-storage:
@@ -131,10 +130,10 @@ documentation:
     synchronization:
       title: Synkronointi laitteiden välillä
     proxy:
-      title: Verkkoliikenteen kuljettaminen välityspalvelimen tai Tor-verkon 
+      title: Verkkoliikenteen reitittäminen välityspalvelimen tai Tor-verkon 
         kautta
     statistics:
-      title: Kuuntelu statistiikka
+      title: Kuuntelustatistiikka
     app-permissions:
       title: Sovelluksen käyttöoikeudet
   categories:
@@ -226,7 +225,7 @@ documentation:
     title: Toisto
     intro: Alla on toistoon liittyviä aiheita.
     chromecast:
-      title: Toisto Google Chromecastissa
+      title: Toisto Google Chromecastilla
   queue:
     lock:
       title: Jonon lukituksen avaaminen / jonon lukitseminen
@@ -265,17 +264,17 @@ documentation:
     intro: Oletko kokenut käyttäjä, joka haluaa automatisoida tehtäviä? Lue 
       lisää alta.
     refreshing-podcasts:
-      title: Virkistetään podcasteja
+      title: Podcastejen päivitys
     tasker:
       title: Integrointi muihin sovelluksiin
   bugs-first-aid:
-    title: Viat, virheet ja ensiapu
+    title: Viat, virheet ja pikakorjaukset
     intro: Ohjelmistoja kehittävät ihmiset, joten virheitä sattuu. Niille voi 
       kuitenkin yleensä tehdä jotain!
     bug-report:
       title: Jokin ei toimi
     typo-translations:
-      title: Löysin lyönti- tai kirjoitusvirheen
+      title: Löysin kirjoitusvirheen
     database-error:
       title: Kaikki podcastini ja jaksoni ovat kadonneet
     cannot-stream-download:
@@ -293,8 +292,8 @@ contribute:
     title: Käännä
     text: Puhutko jotakin muuta kieltä englannin lisäksi? Auta meitä kääntämään 
       AntennaPod.
-    card-text: Puhutko jotakin muuta kieltä englannin lisäksi? Auta meitä 
-      kääntämään AntennaPod.
+    card-text: Puhutko jotakin muuta kieltä kuin englantia? Auta meitä 
+      kääntämään AntennaPod-sovellusta uusille kielille.
   donate:
     modal-title: Haluatko varmasti lahjoittaa?
     modal-button-donate: Lahjoita joka tapauksessa
@@ -303,11 +302,12 @@ contribute:
       data-toggle="modal" data-target="#donationModal">lahjoittaa</a>.
     modal-button-chat: Kysy meiltä, miten voit auttaa
     title: Lahjoita
-    card-text: Sinulla ei ole aikaa osallistua, mutta haluat lahjoittaa.
+    card-text: Etkö ehdi osallistua? Voit halutessasi lahjoittaa rahaa 
+      projektille.
   test:
     title: Testaa
     text: Oletko hyvä tuhoamaan? Ryhdy beetatestaajaksi.
-    card-text: Oletko hyvä tuhoamaan? Ryhdy beetatestaajaksi.
+    card-text: Ammattilainen asioiden rikkomisessa? Ryhdy betatestaajaksi.
   support:
     title: Tuki
     text: Osaatko kertoa asioista selkeästi? Auta muita käyttäjiä foorumillamme.
@@ -403,7 +403,7 @@ readtime:
   plural: min luku
 media-kit:
   title: Mediapaketti
-  description: Viralliset AntennaPod brandisisällöt uutis- ja mediakäyttöön.
+  description: AntennaPod:in viralliset brändisisällöt uutis- ja mediakäyttöön.
   logo-section: Logot
   logo-description: Logomme monissa formaateissa, väreissä ja eri taustoilla.
   colors-section: Brändivärit

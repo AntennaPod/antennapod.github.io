@@ -31,6 +31,6 @@ loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}
 
 Toisaalta käyttäjät jotka eivät ole asentaneet AntennaPod-soveluusta tulevat näkemään ohjeet sovelluksen asentamiseksi tai voivat tilata manuaalisesti, kuin tällä [esimerkkisivulla](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
 
-# Brandaus
+# Brändäys
 
 Haluaisitko käyttää logoamme ja luoda brändätyn "Avaa AntennaPodissa" painikkeen? Voit löytää sen [brändäysosiostamme](https://github.com/AntennaPod/branding).

@@ -13,4 +13,4 @@ Saatavilla on kuitenkin (avoimen lähdekoodin) vaihtoehtoja, jotka voimme kertoa
 | [GNOME Podcasts](https://apps.gnome.org/app/org.gnome.Podcasts/) | [<i class="fab fa-gitlab"></i>](https://gitlab.gnome.org/World/podcasts) | ❌ | ❌ | ❌ | ✅ |
 | [MusicPod](https://snapcraft.io/musicpod) | [<i class="fab fa-github"></i>](https://github.com/ubuntu-flutter-community/musicpod) | ❌ | ❌ | ❌ | ✅ |
 
-Voitko suositella jotakin avoimen lähdekoodin podcast-sovellusta näille alustoille? [Kerro siitä meille foorumillamme!](https://forum.antennapod.org)
+Voitko suositella jotakin avoimen lähdekoodin podcast-sovellusta näille alustoille? [Kerro siitä meille foorumissamme!](https://forum.antennapod.org)

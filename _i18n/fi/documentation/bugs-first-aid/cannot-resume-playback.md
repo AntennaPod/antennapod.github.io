@@ -1,10 +1,10 @@
-Android 13:ssa ja Android 14:ssä ei aina ole mahdollista jatkaa toistoa lukitusnäytöstä tai media-ilmoituksesta. Tämä tapahtuu erityisesti, jos toisto on keskeytetty jonkin aikaa.
+Android 13:ssa ja Android 14:ssä ei aina ole mahdollista jatkaa toistoa lukitusnäytöstä tai media-ilmoituksesta. Tämä tapahtuu erityisesti, jos toisto on keskeytetty jo hetken.
 
-Tällä hetkellä ei ole selvää, miksi tämä vika ilmenee. Olemme havainneet, että sama ongelma koskee muita sovelluksia, mukaan lukien Googlen sovelluksia. Siksi epäilemme, että tämä on Android-vika.
+Tällä hetkellä ei ole selvää, miksi tämä vika ilmenee. Olemme havainneet, että sama ongelma koskee muita sovelluksia, mukaan lukien Googlen omia sovelluksia. Siksi epäilemme, että tämä on Android-tason vika.
 
 ## Kiertokeino
 
-Jotta voit edelleen jatkaa toistoa, voit lisätä laitteeseesi niin kutsutun AntennaPod-'pikapainikkeen'. Pikapainikkeet näet, kun vedät alas näytön yläreunasta. Ne vastaavat *Internet* ja *Taskulamppu*-painikkeita. AntennaPod-painikkeen avulla voit aloittaa ja keskeyttää toiston, vaikka toisto olisi keskeytetty jonkin aikaa.
+Jotta voit edelleen jatkaa toistoa, voit lisätä laitteeseesi niin kutsutun AntennaPod-'pikapainikkeen'. Pikapainikkeet näet, kun vedät alas näytön yläreunasta. Ne vastaavat *Internet* ja *Taskulamppu*-painikkeita. AntennaPod-painikkeen avulla voit aloittaa ja keskeyttää toiston, vaikka toisto olisi ollut jo keskeytetty jokin aika sitten.
 
 AntennaPod-ruudun lisääminen:
 

@@ -3,5 +3,5 @@ Voit helpottaa tilaustesi järjestämistä lisäämällä podcastille tunnisteit
 Lisää tunnisteita podcastiin seuraavasti:
 
 - Avaa tietty podcast
-- Siirry sen asetuksiin napauttamalla `hammaspyöräkuvaketta`
+- Siirry sen asetuksiin napauttamalla `Ratas-painiketta`
 - Valitse `Tunnisteet`-asetus

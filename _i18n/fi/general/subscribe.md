@@ -1,4 +1,4 @@
-Paina alla olevaa painiketta tilataksesi tämän podcastin AntennaPodissa. Eikö sinulla vielä ole AntennaPodia? Voit [ladata](/ulosladata) sovelluksen nauttiaksesi ilmaisesta pääsystä miljooniin podcasteihin.
+Paina alla olevaa painiketta tilataksesi tämä podcast AntennaPodissa. Eikö sinulla vielä ole AntennaPodia? Voit [ladata](/ulosladata) sovelluksen nauttiaksesi ilmaisesta pääsystä miljooniin podcasteihin.
 
 <button id="subscribeButton" class="btn btn-primary">{% t generic.subscribe-in %}</button>
 

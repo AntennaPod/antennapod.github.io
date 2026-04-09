@@ -8,7 +8,7 @@ Tämä kriteeri lajittelee jonossa olevat jaksot podcastin nimen mukaan. Huomaa,
 
 Smart shuffle on edistynyt jonojen lajittelukriteeri, jonka avulla voit pitää jonon lajiteltuna julkaisupäivämäärän mukaan ja samalla välttää mahdollisimman paljon yhden tilauksen jaksojen ryppäitä jonossa.
 
-Käyttääksesi älykästä sekoitusta, aseta jonoon jaksoja eri tilauksista, napauta sitten yläpalkissa `…`, valitse `Lajittele` ja lopuksi `Älykäs sekoitus`. Kuten muidenkin lajittelukriteerien mukaan, älykästä sekoitusta voidaan lajitella nousevaan tai laskevaan järjestykseen.
+Käyttääksesi Smart shufflea, aseta jonoon jaksoja eri tilauksista, napauta sitten yläpalkissa `…`, valitse `Lajittele` ja lopuksi `Smart shuffle`. Kuten muidenkin lajittelukriteerien mukaan, Smart shufflea voidaan lajitella nousevaan tai laskevaan järjestykseen.
 
 ## Smart shufflen toiminnan yksityiskohdat
 

@@ -6,7 +6,7 @@ Jos puhelimeesi tai tablettiisi on liitetty fyysinen ("laitteisto") näppäimist
 | --- | --- |
 | `P` | Toisto/tauko |
 | `J`/`A`/`,` | Kelaa takaisin |
-| `K`/`D`/`.` | Eteenpäinkelaus |
+| `K`/`D`/`.` | Kelaa eteenpäin |
 | `+`/`W` | Lisää äänenvoimakkuutta |
 | `-`/`S` | Alenna äänenvoimakkuutta |
 | `M` | Mykistä / poista mykistys (vaihda) – vain Android 6 ja uudemmat |
@@ -17,7 +17,7 @@ Jos puhelimeesi tai tablettiisi on liitetty fyysinen ("laitteisto") näppäimist
 | --- | --- |
 | `P`/`Välilyönti` | Toisto/tauko |
 | `J`/`A`/`,` | Kelaa takaisin |
-| `K`/`D`/`.` | Eteenpäinkelaus |
+| `K`/`D`/`.` | Kelaa eteenpäin |
 | `F`/`Esc` | Poistu videosoittimesta |
 | `i` | Siirry kuva kuvassa -tilaan |
 | `0`-`9` | Siirry videon kohtaan 0–90 % |

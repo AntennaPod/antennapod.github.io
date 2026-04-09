@@ -1,4 +1,4 @@
-Arvioidusta [maailman väestöstä](https://en.wikipedia.org/wiki/World_population), jossa on 8 miljardia ihmistä, "vain" 1,5 miljardia [puhutaan englantia](https://www.ethnologue.com/insights/ etnologi200/). Tämä ei välttämättä merkitse paljon sinänsä. Mutta jos mitään, voimme päätellä, että AntennaPodin saattaminen saataville useammilla kielillä, tekee sovelluksesta helpommin saavutettavan useammille ihmiselle . Sivuetuna sovelluksen lokalisointi auttaa myös projektiamme kasvamaan nykyisten pääkäyttäjäkantojen (Saksa ja Yhdysvallat) ulkopuolelle.
+Arvioidusta [maailman väestöstä](https://en.wikipedia.org/wiki/World_population), jossa on 8 miljardia ihmistä, "vain" 1,5 miljardia [puhuu englantia](https://www.ethnologue.com/insights/ etnologi200/). Tämä ei välttämättä merkitse paljon sinänsä. Mutta jos mitään, voimme päätellä, että AntennaPodin saattaminen saataville useammilla kielillä, tekee sovelluksesta helpommin saavutettavan useammille ihmiselle . Sivuetuna sovelluksen lokalisointi auttaa myös projektiamme kasvamaan nykyisten pääkäyttäjäkantojen (Saksa ja Yhdysvallat) ulkopuolelle.
 
 Siksi arvostamme suuresti apuasi!
 
@@ -46,6 +46,6 @@ Meidän on noudatettava merkkien maksimimäärän rajoitusta lyhyissä kuvauksis
 
 * Haluatko antaa **palautetta** englanninkielisistä teksteistä tai mistä tahansa käännöksestä?
 * Oletko **kiinnostunut auttamaan** käännöksissä, mutta et ole vielä varma? Vai oletko valmis aloittamaan?
-* Haluatko osallistua ja **tarvitsetko tukea**? Esimerkiksi siksi, että kielesi ei ole vielä saatavilla tai koska et ole varma kuinka kääntää jotain?
+* Haluatko osallistua kehitykseen ja **tarvitsetko tukea**? Esimerkiksi siksi, että kielesi ei ole vielä saatavilla tai koska et ole varma kuinka kääntää jotain?
 
-Osallistu [keskustelupalstan käännösosioon](https://forum.antennapod.org/c/translations/11)! Se on paras tapa tavoittaa meidät. Asianomaisissa käännöstyökaluissa olevat kommentit ja viestit eivät aina tavoita meitä ajoissa.
+Käy [keskustelupalstan käännösosiossamme](https://forum.antennapod.org/c/translations/11)! Se on paras tapa tavoittaa meidät. Asianomaisissa käännöstyökaluissa olevat kommentit ja viestit eivät aina tavoita meitä ajoissa.

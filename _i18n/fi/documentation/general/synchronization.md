@@ -17,7 +17,7 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcaptu
 AntennaPod voi synkronoida tilauksesi ja kuunteluedistymisesi muiden AntennaPod-asennusten sekä muiden työpöytäsovellusten kanssa. Synkronoinnin määrittämiseen tarvitset palvelimen – keskipisteen, jonka kautta tietosi jaetaan muiden laitteiden kanssa. Sinulla on useita vaihtoehtoja tähän:
 
 * [gpodder.net](https://gpodder.net/) tarjoaa ilmaisen gPodder-synkronointipalvelimen, johon **kuka tahansa voi rekisteröityä**. Valitettavasti palvelun suosion ja rajallisen rahoituksen vuoksi tämä palvelin on usein ylikuormitettu, mikä johtaa virheisiin AntennaPodissa.
-* Teknisesti taitavampia käyttäjiä kehotetaan vahvasti **isännöimään synkronointipalvelinta itse**. Itse isännöity palvelin on luotettavampi ja auttaa vähentämään ilmaisten, julkisten palveluiden kuormitusta. Vaihtoehtoja on useita: [Nextcloud](https://nextcloud.com/install/#instructions-server) ja [gPodder Sync -sovellus](https://apps.nextcloud.com/apps/gpoddersync), täysi [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) -palvelin tai [Micro GPodder -palvelin](https://github.com/bohwaz/micro-gpodder-server).
+* Teknisesti taitavampia käyttäjiä kehotetaan vahvasti **isännöimään synkronointipalvelin itse**. Itse isännöity palvelin on luotettavampi ja auttaa vähentämään ilmaisten, julkisten palveluiden kuormitusta. Vaihtoehtoja on useita: [Nextcloud](https://nextcloud.com/install/#instructions-server) ja [gPodder Sync -sovellus](https://apps.nextcloud.com/apps/gpoddersync), täysi [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) -palvelin tai [Micro GPodder -palvelin](https://github.com/bohwaz/micro-gpodder-server).
 
 ## Käytä synkronointia Nextcloudin kautta
 

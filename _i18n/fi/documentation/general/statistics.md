@@ -13,7 +13,7 @@ Tämä lähestymistapa tarkoittaa, että jos kuuntelet jaksoa 7 minuuttia tänä
 
 Kuukausittaiset tilastot ovat yleensä tarkkoja, koska ne tarkastelevat pidempää ajanjaksoa. Päivittäisillä tilastoilla on kuitenkin suurempi riski muuttua epäluotettaviksi. Tämän vuoksi AntennaPod ei tarjoa niitä.
 
-## Miksi emme halua muuttaa sitä
+## Miksi emme halua muuttaa tätä
 
 Tilastot (tai pikemminkin: kaaviot) ovat hauskoja. Joten miksi emme tallenna tietoja eri tavalla mahdollistaaksemme enemmän suodatusvaihtoehtoja ja tarkempaa dataa AntennaPodissa?
 
@@ -25,6 +25,6 @@ Se voisi olla mahdollista, tallentamalla jokaisesta jaksosta, kuinka kauan sitä
 
 Tähän on kaksi pääsyytä. Ensinnäkin, vaikka tilastot ovat hauskoja, **käytämme mieluummin aikaa AntennaPodin päätarkoitukseen: podcastien toistamiseen**. Tähän uuteen lähestymistapaan siirtyminen vaatisi aikaa sen toteuttamiseen nyt (tietokannan toistoaikaa säästävän koodin uudelleenkirjoittamiseen) ja tulevaisuudessa aikaa monimutkaisemman järjestelmän ylläpitämiseen.
 
-Toiseksi, **AntennaPod veisi enemmän tilaa puhelimessasi** – etenkin uskollisille käyttäjille, jotka pysyvät sovelluksessa useita vuosia. Tämä johtuu siitä, että yhden rivin sijaan tietokannassa jaksoa kohden meidän pitäisi tallentaa useita rivejä jokaista toistettua jaksoa kohden toiston keston tallentamiseksi, mikä kasvattaa tietokannan kokoa.
+Toiseksi, **AntennaPod veisi enemmän tilaa puhelimessasi** – etenkin uskollisille käyttäjille, jotka käyttävät sovellusta useiden vuosien ajan. Tämä johtuu siitä, että yhden rivin sijaan tietokannassa jaksoa kohden olisi tallennettava useita rivejä jokaista toistettua jaksoa kohden toiston keston tallentamiseksi, mikä kasvattaa tietokannan kokoa.
 
 Toivomme, että nautit kuukausittaisista tilastoista! 📊 (Jos satut olemaan web-kehittäjä, joka on kiinnostunut tekemään oman kojelaudan AntennaPod-tilastoille tietokantavientien pohjalta, ota yhteyttä foorumilla.)

@@ -1,4 +1,4 @@
-AntennaPodin avulla voit määrittää tilauksia (podcast-syötteitä), jotka päivitetään säännöllisesti (katso [Podcastien virkistäminen](/documentation/automation/refreshing-podcasts)).
+AntennaPodin avulla voit määrittää tilauksia (podcast-syötteitä), jotka päivitetään säännöllisesti (katso [Podcastien päivittäminen](/documentation/automation/refreshing-podcasts)).
 
 Jos sinulla on monimutkaisempia tarpeita, voit käyttää erilaisia kolmannen osapuolen automaatiosovelluksia AntennaPodin kanssa tehdäksesi niin. Esimerkiksi:
 
@@ -29,7 +29,7 @@ data:
     intent_action: Something random - cannot be empty
 ```
 
-### Automate ([sivusto](https://llamalab.com/automate/))
+### Automate ([verkkosivusto](https://llamalab.com/automate/))
 
 Lisää kulkuun lohko, jonka tyyppi on `APPS` » `Laajalähetyksen lähetäminem` ja määritä
 

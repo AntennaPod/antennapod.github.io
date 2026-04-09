@@ -19,7 +19,7 @@ Erilaisten vaiheiden vuoksi ja koska emme ole mukana julkaisemassa julkaisuja F-
 
 Tässä vaiheessa katsomme sen "julkaistuksi F-Droidissa". Muista kuitenkin, että myös F-Droid-asiakasohjelmasi (sovelluskaupan) on päivitettävä paikallinen kopio indeksistä. Vasta sen jälkeen saat ilmoituksen uusimmasta AntennaPod-julkaisusta.
 
-### Eli. mikä on arvioitu saapumisaika?
+### Mikä on siis arvioitu saapumisaika?
 
 Kuten näette, on olemassa useita vaiheita, jotka kukin vievät vaihtelevan ajan. Beta-version julkaisemisen ja julkaisun GitHubissa merkitsemisen välillä kuluu yleensä reilusti yli kuukausi. Kun julkaisu on merkitty, F-Droid käsittelee sen yleensä neljästä kuuteen päivään.
 
@@ -29,7 +29,7 @@ Emmekö vielä asettaneet tägiä [julkaisulle GitHubissa](https://github.com/An
 
 Asetimmeko *tägin* julkaisulle GitHubissa? F-Droid-tiimi [huomautuksia](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client): "älkää panikoiko ennen kuin seitsemän päivää on kulunut, kiitos."
 
-* Onko nuo seitsemän päivää kulunut siitä, kun asettimme tägin julkaisulle GitHubissa? Kerro meille asiasta luomalla viesti [keskustelupalstallemme](https://forum.antennapod.org/). Katsotaanpa asiaa.
+* Onko nuo seitsemän päivää kulunut siitä, kun asettimme tägin julkaisulle GitHubissa? Kerro meille asiasta luomalla viesti [keskustelupalstallemme](https://forum.antennapod.org/). Voimme sitten katsoa asian tilannetta.
 * Asetimmeko tunnisteen julkaisuun seitsemän päivää sitten tai vähemmän? Odota sitten vain. Tai tutki, missä vaiheessa prosessia olemme.
 
 #### Tutki nykytilaa
