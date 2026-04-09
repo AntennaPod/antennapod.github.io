@@ -10,6 +10,7 @@ titles:
   documentation: Documentación
   media-kit: Dossier de medios
   events: Eventos
+  features: Características
 generic:
   home: Inicio
   download: Descargar
@@ -27,14 +28,18 @@ generic:
     share-tw: Compartir en Twitter
     share-eml: Compartir por correo electrónico
     logo: Logotipo de AntennaPod
+    skip-to-content: Saltar al contenido principal
+    theme-menu: Selector de tema
   eml-share:
     subject: Quería que vieras esto
     body: Echa un vistazo a este artículo
   masto-share:
-    server: 'Introduce la dirección de tu instancia: (ej. https://mastodon.social)'
+    server: 'Tu instancia de Mastodon'
     title: Compartir en Mastodon
     cancel: Cancelar
     share: Compartir
+    description: Introduce la URL de tu instancia de Mastodon para compartir 
+      esta publicación.
   learn: Aprender más
   share: Compartir
   redirect:
@@ -50,6 +55,8 @@ generic:
   theme:
     light: Claro
     dark: Oscuridad
+    auto: Automático
+  subscribe-in: Suscribirse en AntennaPod
 month:
   Feb: feb
   Mar: mar
@@ -96,10 +103,23 @@ homepage:
         en cualquier lugar. Incluso puedes seleccionar qué podcasts se deberán 
         descargar de manera automática.
   img-alt: ' '
+  forum-posts:
+    title: Foro de la comunidad
+    description: Obtenga ayuda, comparta ideas y conecte con otros usuarios
+    view-all: Visitar el foro
+    loading: Cargando discusiones...
 blog:
   posted: Publicado el
   previous-post: Anterior
   next-post: Siguiente
+  related-posts: Publicaciones relacionadas
+  categories:
+    all: Todo
+    release: Lanzamientos
+    project: Actualización del proyecto
+    community: Comunidad
+    tutorial: Tutorial
+  post-navigation: Post navegación
 readtime:
   plural: minutos de lectura
   singular: minuto de lectura
@@ -160,7 +180,7 @@ contribute:
     text: ¿Puedes convertir peticiones complejas en "user stories" comprensibles
       o "wireframes"? Ayuda a solucionar estos problemas.
     card-text: ¿Puedes convertir peticiones complejas en "user stories" 
-      comprensibles o "wireframes"? Ayuda a solucionar estos problemas.
+      comprensibles o "wireframes"? Ayuda a solucionar estas incidencias.
   introduction: AntennaPod está siendo desarrollada activamente por gente 
     voluntaria. ¡Tú también puedes contribuir, mediante código o de otra manera!
   donate:
@@ -282,6 +302,7 @@ documentation:
   search:
     no-results: Lo sentimos, no se ha encontrado nada
     placeholder: Buscar en la documentación
+    hint: Use las flechas para navegar, Intro para seleccionar, Esc para cerrar
   getting-started:
     title: Empezando
     intro: ¡Bienvenido a AntennaPod! Más abajo, puedes encontrar algunos 
@@ -364,6 +385,8 @@ documentation:
       title: Listar tu podcast
     update-feed-urls:
       title: Actualizando las direcciones url de los feeds
+    funding:
+      title: Conseguir financiación
 footer:
   description: El gestor de podcast flexible, fácil de utilizar y libre para 
     Android.
@@ -376,6 +399,9 @@ events:
       actualizar la información de llamadas de la comunidad? ¡Entonces 
       suscríbase a nuestro calendario en su aplicación favorita a través del 
       enlace 'Agregar al calendario'!
+    recurring-events: Eventos recurrentes
+    upcoming-events: Próximos eventos
+    past-events: Eventos pasados
   links:
     add-calendar: Añadir al calendario
     more-information: Más información
@@ -391,3 +417,20 @@ not-installed:
   text: AntennaPod no está instalado o tu navegador no permite abrirlo.
 media-kit:
   title: Dossier de medios
+  description: Recursos oficiales de la marca AntennaPod para uso de prensa y 
+    medios.
+  logo-section: Logotipos
+  logo-description: Nuestro logotipo en varios formatos y colores para 
+    diferentes fondos.
+  colors-section: Colores de marca
+  colors-description: Nuestra paleta de colores oficial.
+  screenshots-section: Capturas de pantalla
+  screenshots-description: Capturas de pantalla de la aplicación para prensa y 
+    uso promocional.
+  download-all: Descargar todos los recursos
+  secondary: Secundario
+  primary: Primario
+  accent: Acento
+  guidelines-section: Modo de empleo
+  guidelines-description: Por favor, siga estas directrices al utilizar los 
+    elementos de nuestra marca.

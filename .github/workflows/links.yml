@@ -12,7 +12,7 @@ jobs:
       - run: sudo apt-get install ruby-full build-essential zlib1g-dev git
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.0'
+          ruby-version: '3.4.8'
       - run: gem install bundler jekyll --no-document
       - run: bundle install
       - run: bundle exec jekyll build

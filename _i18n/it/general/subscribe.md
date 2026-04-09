@@ -1,7 +1,5 @@
 Premi il pulsante qui sotto per iscriverti a questo podcast in AntennaPod. Non hai ancora installato AntennaPod? Puoi [scaricare l'applicazione qui](/download) e accedere gratuitamente a milioni di podcast.
 
+<button id="subscribeButton" class="btn btn-primary">{% t generic.subscribe-in %}</button>
 
-<button id="subscribeButton" class="btn btn-primary">
-Subscribe in AntennaPod
-
-</button>Do you use another podcast app or does your web browser not support opening AntennaPod directly? You can find the RSS address of the podcast in the box below. To subscribe, paste the address into AntennaPod's search box or into your other podcast app.
+Usi un'altra app di podcast o il tuo browser non ti permette di aprire AntennaPod direttamente? Puoi trovare l'indirizzo RSS nella casella qui sotto. Per iscriverti, incollalo nella casella di ricerca di AntennaPod o nell'app di podcast che usi.
