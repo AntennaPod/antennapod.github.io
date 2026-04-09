@@ -16,4 +16,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Nettsideinnholdet
 
-Teksten på nettsiden er skrevet og utgitt med [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal](http://creativecommons.org/licenses/by-sa/4.0/legalcode)-lisens (CC-BY-SA 4.0). Opphavsrett for bilder på nettsiden tilhører respektive eiere.
+The texts on the website are written and released under a [Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) license (CC-BY-SA 4.0). Images on this website are copyrighted by their respective owners.
