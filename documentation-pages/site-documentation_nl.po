@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 21:12+0200\n"
 "PO-Revision-Date: 2026-04-11 01:12+0000\n"
-"Last-Translator: Uncle-1roh <github.daniel@proton.me>\n"
+"Last-Translator: Twan <t.goosen@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/antennapod/website/"
 "documentation/nl/>\n"
 "Language: nl\n"
@@ -35,19 +35,19 @@ msgid "Delete after playing"
 msgstr "Verwijder na afspelen"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "Delete after playing is located in `Settings` » `Downloads` » `Automatic "
 "deletion`. When enabled, episodes are deleted when playback completes (but "
 "not when manually marking an episode as 'played')."
 msgstr ""
-"Automatisch verwijderen bevindt zich in `Instellingen` » `Opslag`. Als het "
-"ingeschakeld is, worden afleveringen verwijderd na het afspelen (maar niet "
-"wanneer een aflevering handmatig wordt gemarkeerd als 'afgespeeld')."
+"Verwijderen na afspelen bevindt zich in `Instellingen` » `Opslag`. Als het "
+"ingeschakeld is, worden afleveringen verwijderd als deze volledig zijn "
+"afgespeeld (maar niet wanneer een aflevering handmatig wordt gemarkeerd als "
+"'afgespeeld')."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Delete before auto download"
-msgstr "Verwijder voor het automatisch downloaden"
+msgstr "Verwijder vóór het automatisch downloaden"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
 #, fuzzy
@@ -271,7 +271,6 @@ msgstr ""
 "plaatsen - het kan ontwikkelaars helpen de bron van het probleem te vinden."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "If you have updated AntennaPod and searched our forum to no avail, then tell "
 "us about the issue. You can create a post on [our forum](https://"
@@ -279,9 +278,9 @@ msgid ""
 "(if you don't have one already) or simply log in via Google."
 msgstr ""
 "Als AntennaPod bijgewerkt is en je ons forum tevergeefs doorzocht hebt, "
-"vertel ons dan over het probleem. Maak een bericht op [op ons forum](https://"
-"forum.antennapod.org/c/bug-report/9). Om dit te doen, moet je een account "
-"aanmaken (als je er nog geen hebt) of inloggen via Google."
+"informeer ons dan over het probleem. Maak een bericht [op ons forum](https://"
+"forum.antennapod.org/c/bug-report/9). Hiervoor moet je een account aanmaken "
+"(als je er nog geen hebt) of inloggen via Google."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
@@ -355,7 +354,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
 msgstr ""
 "**Tik op het potloodicoontje** aan de onderkant van de tegellijst om de "
@@ -363,19 +361,19 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid ""
 "Scroll through the list of tiles and **drag the AntennaPod tile** up into "
 "the list of active tiles"
 msgstr ""
-"Scroll naar beneden in de lijst van tegels, **tik op de AntennaPod tegel en "
-"sleep hem** omhoog naar de lijst van actieve tegels"
+"Scroll naar beneden in de lijst van tegels en **versleep de AntennaPod "
+"tegel** omhoog naar de lijst van actieve tegels"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
-#, fuzzy
 msgid "Tap the **back arrow** or **save** to exit the tile editing"
-msgstr "Tik op de terugpijl om het tegelbewerken te eindigen"
+msgstr ""
+"Tik op de pijl **terug** of **opslaan** om het bewerken van de tegels te "
+"beëindigen"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -487,15 +485,14 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "In AntennaPod you can add a folder as if it were a feed. To do this, go to "
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
 "phone:"
 msgstr ""
-"Je kan een map als feed toevoegen in AntennaPod. Om dit te doen, ga je naar "
-"'voeg Podcast toe' en tik je op 'Voeg lokale map toe'. Dan ga je naar deze "
-"map op jouw gsm:"
+"Je kan een map in AntennaPod toevoegen als ware het een feed. Om dit te "
+"doen, ga je naar `voeg Podcast toe` en tik je op `Voeg lokale map toe`. Dan "
+"ga je naar deze map op jouw gsm:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -760,10 +757,12 @@ msgid ""
 "If you have ads in episodes, they are inserted by the podcaster or their "
 "hosting provider."
 msgstr ""
+"Als er advertenties voorkomen in de afleveringen, dan zijn die afkomstig van "
+"de podcaster of diens hosting provider."
 
 #: _i18n/en/documentation/general/ads.md:block 3 (header)
 msgid "AntennaPod does not add ads"
-msgstr ""
+msgstr "AntennaPod voegt geen advertenties toe"
 
 #: _i18n/en/documentation/general/ads.md:block 4 (paragraph)
 msgid ""
@@ -778,7 +777,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
 msgid "Why are ads localized"
-msgstr ""
+msgstr "Waarom zijn de advertenties gelocaliseerd"
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
@@ -795,17 +794,17 @@ msgid ""
 "a sentence. Some of the hosting companies also mess up the chapter marks "
 "while inserting the ads (so the chapters are off by the duration of the ad)."
 msgstr ""
-"Wellicht vraag je \"Maar waarom is de podcast in het Engels en de "
-"advertentie in het Duits?\" of \"Maar waarom is de podcast aflevering uit "
-"2008 maar promoot toch een product dat in 2023 is uitgebracht?\". De reden "
-"is een techniek die *dynamic ad insertion* heet. Podcastuitgevers kunnen het "
+"Wellicht vraag je af: \"Maar waarom is de podcast in het Engels en de "
+"advertentie in het Duits?\" of \"Maar waarom is de podcastaflevering uit "
+"2008 maar promoot deze een product uitgebracht in 2023?\". De reden is een "
+"techniek die *dynamic ad insertion* heet. Podcastmakers kunnen het "
 "hostingbedrijf opdracht geven die advertenties in te voegen. Dan wordt bij "
 "het downloaden of streamen van de aflevering met AntennaPod het mediabestand "
 "dat aan AntennaPod wordt geleverd ter plekke onderbroken om de advertenties "
 "in te voegen. De advertenties zijn recent (terwijl de aflevering dat "
 "misschien niet is) en kunnen gericht zijn op basis van het IP-adres van "
-"waaruit je het mediabestand opvraagt (bijvoorbeeld een bedrijf in jouw "
-"land). Afhankelijk van hoe slim het hostingbedrijf dit doet, kunnen de "
+"waaruit je het mediabestand opvraagt (bijvoorbeeld een bedrijf in jouw land)"
+". Afhankelijk van hoe slim het hostingbedrijf dit doet, kunnen de "
 "advertenties midden in een zin worden ingevoegd. Sommige hostingbedrijven "
 "verknoeien ook de hoofdstukmarkeringen tijdens het invoegen van de "
 "advertenties (zodat de hoofdstukken niet overeenkomen met de duur van de "
@@ -813,15 +812,15 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 7 (header)
 msgid "What you can do"
-msgstr ""
+msgstr "Wat kun je doen"
 
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
 msgid "Here is what you can do against those ads."
-msgstr ""
+msgstr "Dit kun je doen tegen die advertenties."
 
 #: _i18n/en/documentation/general/ads.md:block 9 (header)
 msgid "Skipping"
-msgstr ""
+msgstr "Overslaan"
 
 #: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
@@ -848,7 +847,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 11 (header)
 msgid "Switch to an ad-free feed"
-msgstr ""
+msgstr "Overschakelen op een advertentievrije feed"
 
 #: _i18n/en/documentation/general/ads.md:block 12 (paragraph)
 msgid ""
@@ -873,7 +872,7 @@ msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
-"AntennaPod vraagt je niet om algemene toestemmingen. Je kunt echter wel de "
+"AntennaPod vraagt je niet om algemene rechten. Je kunt echter wel de "
 "volgende toestemmingen geven:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
@@ -882,7 +881,7 @@ msgid ""
 "AntennaPod the permission to create notifications."
 msgstr ""
 "**Meldingen weergeven**: Via `Instellingen` » `Meldingen` kunt u AntennaPod "
-"toestemming geven om meldingen te maken."
+"rechten geven om meldingen te maken."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -890,32 +889,37 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Toegang tot opslag**: Als je een 'lokale map' toevoegt, zal de applicatie "
+"om langdurige toegang tot een specifieke map vragen. Als je een database of "
+"OPML-bestand importeert, krijg de applicatie eenmalig toegang tot het "
+"geselecteerde bestand."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"Daarnaast heeft de applicatie de volgende rechten nodig die automatisch door "
+"Android worden toegekend:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
-"**Volledige netwerk toegang**: om de podcast te vernieuwen, afleveringen te "
-"downloaden en streamren, afbeeldingen op te laden en synchronisatie te "
-"activeren"
+"**Volledige netwerktoegang**: om de podcast te vernieuwen, afleveringen te "
+"downloaden en streamen, afbeeldingen te laden en synchronisatie aan te zetten"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr "**Zie netwerk verbindingen** en **Zie Wi-Fi verbindingen**:"
+msgstr "**Netwerkverbindingen bekijken** en **Wi-Fi verbindingen bekijken**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
-"Om na te gaan of er een actieve internet connectie is, voor of tijdens het "
+"om na te gaan of er een actieve internetverbinding is, voor en tijdens het "
 "uitvoeren van bovenvermelde acties"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
