@@ -18,6 +18,6 @@ Her kan du finne et tilfeldig utvalg av episoder fra abonnementene som du ikke h
 
 Her kan du raskt se og få tilgang til abonnementene du har lyttet mest til gjennom tidene.
 
-## Behandle nedlastingene
+## Behandle nedlastinger
 
 I denne seksjonen kan du behandle episodene du har lastet ned på enheten din.
