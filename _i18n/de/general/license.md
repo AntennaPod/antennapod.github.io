@@ -16,4 +16,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Der Inhalt der Website
 
-Die Texte auf der Website sind unter einer [Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode) Lizenz (CC-BY-SA 4.0) verfasst und veröffentlicht. Die Bilder auf dieser Website unterliegen dem Copyright der jeweiligen Eigentümer.
+Die Texte auf der Website sind unter einer „[Creative Commons Attribution-ShareAlike International](http://creativecommons.org/licenses/by-sa/4.0/legalcode)“-Lizenz (CC-BY-SA 4.0) verfasst und veröffentlicht. Die Bilder auf dieser Website unterliegen dem Copyright der jeweiligen Eigentümer.

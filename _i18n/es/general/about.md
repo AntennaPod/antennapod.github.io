@@ -4,13 +4,13 @@ AntennaPod es un reproductor de podcast, completamente gratuito y respetuoso con
 
 Hay tantas cosas interesantes que hacer en el mundo, y tantas cosas en la vida de las que preocuparse. Así que no quieres perder el tiempo averiguando cómo funciona esto. En lugar de eso, quieres empezar a encontrar y escuchar grandes contenidos. Y quieres poder organizar el contenido, acelerar o ralentizar la reproducción y automatizar la descarga y el borrado. Por eso queremos que AntennaPod sea fácil de usar, pero que te dé un control total sobre tu experiencia de escucha.
 
-En ese contexto, nos dimos cuenta de que cada opción que añadimos significa una decisión no tomada. Y una decisión no tomada, es una decisión que empujamos al usuario final. (Aquí hay [entrada de blog muy buena sobre por qué los desarrolladores no deben de hacer eso](http://neugierig.org/software/blog/2018/07/options.html) a la ligera). Prometemos hacer todo lo posible para tomar esas decisiones que crean una gran experiencia. Porque, ¿ya has decidido qué vas a comer esta noche?
+En ese contexto, nos dimos cuenta que cada opción que añadimos significa una decisión no tomada. Y una decisión no tomada, es una decisión que empujamos al usuario final. (Aquí hay [entrada de blog muy buena sobre por qué los desarrolladores no deben de hacer eso](http://neugierig.org/software/blog/2018/07/options.html) a la ligera). Prometemos hacer todo lo posible para tomar esas decisiones que crean una gran experiencia. Porque, ¿ya has decidido qué vas a comer esta noche?
 
 Al mismo tiempo: no te preocupes. Estamos abiertos a introducir nuevas funciones, opciones o preferencias. Y ya las hemos introducido anteriormente por demanda popular, especialmente cuando había una razón para ofrecer flexibilidad a nuestros usuarios. ¡Así que si tienes tu propia idea, no dudes en [compartir tu petición en nuestro foro](https://forum.antennapod.org/c/feature-request)!
 
 ## Software libre y sin anuncios
 
-Al igual que otros grandes programas como Firefox y Signal, AntennaPod es software libre. Esto significa que cualquiera puede inspeccionar y contribuir al código de la aplicación. Y que AntennaPod está disponible en la tienda de aplicaciones de libres y respetuosa con la privacidad [F-Droid](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+Al igual que otros grandes programas como Firefox y Signal, AntennaPod es software libre. Esto significa que cualquiera puede inspeccionar y contribuir al código de la aplicación. Y que AntennaPod está disponible en la tienda de aplicaciones de libres y respetuosa con la privacidad [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/).
 
 De este modo, puedes estar seguro (o comprobarlo por tu mismo) de que no se están recopilando datos. Y gracias a que AntennaPod está creado por voluntarios, no necesitamos anunciantes que te molesten mientras navegas por la aplicación.
 

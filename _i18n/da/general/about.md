@@ -4,13 +4,13 @@ AntennaPod er en podcast-afspiller, der er helt gratis og respekterer dit privat
 
 Der er så mange fede ting at lave i verden, og der er så mange ting i livet, som man skal bekymre sig om. Så du har ikke lyst til at bruge tid på at finde ud af, hvordan den her ting fungerer. I stedet vil du gerne i gang med at finde og lytte til godt indhold. Og du vil gerne kunne organisere indholdet, sætte hastigheden på afspilningen op eller ned og automatisere downloading og sletning. Derfor ønsker vi, at AntennaPod skal være enkel at bruge, samtidig med at du får fuld kontrol over din lytteoplevelse.
 
-I den forbindelse er vi klar over, at hver mulighed, vi tilføjer, betyder et valg, der ikke er truffet. Og et valg, der ikke er truffet, er en beslutning, som vi overlader til slutbrugeren. (Her er et godt [blogindlæg om, hvorfor udviklere ikke bør gøre det](http://neugierig.org/software/blog/2018/07/options.html) uden grundig overvejelse.) Vi lover at gøre vores bedste for at træffe de beslutninger, der skaber en god oplevelse. Fordi - har du mon ikke besluttet dig for, hvad du skal spise i aften?
+I den forbindelse er vi klar over, at hver mulighed, vi tilføjer, betyder et valg, der ikke er truffet. Og et valg, der ikke er truffet, er en beslutning, som vi overlader til slutbrugeren. (Her er et godt [blogindlæg om, hvorfor udviklere ikke bør gøre det](http://neugierig.org/software/blog/2018/07/options.html) uden grundig overvejelse.) Vi lover at gøre vores bedste for at træffe de beslutninger, der skaber en god oplevelse. For – har du besluttet dig for, hvad du skal spise i aften?
 
 Du skal dog ikke være bekymret. Vi er åbne over for nye funktioner, muligheder eller præferencer - når der er et godt argument for at tilbyde vores brugere fleksibilitet. Vi arbejder på etiketter til podcasts og har f.eks. for nylig indført lokale feeds. Så hvis du har din egen idé, er du velkommen til at [dele din anmodning om en funktion på vores forum](https://forum.antennapod.org/c/feature-request)!
 
 ## Åben kildekode og fri for annoncer
 
-Ligesom andre gode programmer som Firefox og Signal er AntennaPod open source. Det betyder, at alle kan inspicere og bidrage til koden bag appen. Og at AntennaPod er tilgængelig i den open source- og privatlivsvenlige [F-Droid app store](https://www.f-droid.org/packages/de.danoeh.antennapod/).
+Ligesom anden god software som Firefox og Signal er AntennaPod open source. Det betyder, at alle kan inspicere og bidrage til koden bag appen. Og at AntennaPod er tilgængelig i den open source- og privatlivsvenlige [F-Droid app store](https://f-droid.org/packages/de.danoeh.antennapod/).
 
 På den måde kan du være sikker på (eller selv kontrollere), at der ikke foregår nogen skummel dataindsamling. Og da AntennaPod er skabt af frivillige, har vi ikke brug for annoncører, der generer dig, mens du bruger appen.
 

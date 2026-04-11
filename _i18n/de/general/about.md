@@ -10,11 +10,11 @@ Und gleichzeitig: Keine Sorge. Wir sind offen für neue Funktionen oder Einstell
 
 ## Quelloffen und werbefrei
 
-Wie andere großartige Software, wie beispielsweise Firefox und Signal, ist AntennaPod Open-Source. Das bedeutet, dass jeder den Code hinter der Anwendung einsehen und zu ihm beitragen kann. Und dass AntennaPod im quelloffenen und datenschutzfreundlichen [F-Droid Store](https://www.f-droid.org/packages/de.danoeh.antennapod/) erhältlich ist.
+Wie andere großartige Software, wie beispielsweise Firefox und Signal, ist AntennaPod Open-Source. Das bedeutet, dass jeder den Code hinter der App einsehen und zu ihm beitragen kann. Und dass AntennaPod im quelloffenen und datenschutzfreundlichen [F-Droid-App-Store](https://www.f-droid.org/packages/de.danoeh.antennapod/) erhältlich ist.
 
 Auf diese Weise kannst du dir sicher sein (oder dich selbst davon überzeugen), dass keine fragwürdige Datenerfassung stattfindet. Und da AntennaPod von Freiwilligen erstellt wird, brauchen wir keine Werbeeinblendungen, die dich beim Benutzen der App stören.
 
-## Das Podcasting-Ökosystem offen halten
+## Für ein offenes Podcasting-Ökosystem
 
 Wir stehen für ein offenes Podcasting-Ökosystem. Ein Ökosystem, das
 

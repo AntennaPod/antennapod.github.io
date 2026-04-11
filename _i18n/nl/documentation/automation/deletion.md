@@ -4,8 +4,8 @@ AntennaPod heeft verschillende mechanismen die ervoor zorgen dat het geheugen va
 
 ## Verwijder na afspelen
 
-Automatisch verwijderen bevindt zich in `Instellingen` » `Opslag`. Als het ingeschakeld is, worden afleveringen verwijderd na het afspelen (maar niet wanneer een aflevering handmatig wordt gemarkeerd als 'afgespeeld').
+Verwijderen na afspelen bevindt zich in `Instellingen` » `Opslag`. Als het ingeschakeld is, worden afleveringen verwijderd als deze volledig zijn afgespeeld (maar niet wanneer een aflevering handmatig wordt gemarkeerd als 'afgespeeld').
 
-## Verwijder voor het automatisch downloaden
+## Verwijder vóór het automatisch downloaden
 
 Aflevering opschonen bevindt zich in `Instellingen` » `Netwerk` » `Automatisch downloaden`. Als Automatisch downloaden ruimte nodig heeft voor nieuwe afleveringen, worden oude afleveringen verwijderd die niet in de wachtrij staan en niet als favoriet zijn gemarkeerd. Er kan een vertraging (x tijd na het afspelen) of een aflevering worden toegevoegd. De instelling `Afleveringscache` bepaalt het maximale aantal gedownloade afleveringen.

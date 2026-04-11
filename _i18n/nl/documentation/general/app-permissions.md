@@ -1,13 +1,13 @@
-AntennaPod vraagt je niet om algemene toestemmingen. Je kunt echter wel de volgende toestemmingen geven:
+AntennaPod vraagt je niet om algemene rechten. Je kunt echter wel de volgende toestemmingen geven:
 
-* **Meldingen weergeven**: Via `Instellingen` » `Meldingen` kunt u AntennaPod toestemming geven om meldingen te maken.
-* **Storage access**: When you add a 'local folder' the app will ask for long-term access to a specific folder. When you import a database or an OPML file, selecting that file will give the app one-time access to it.
+* **Meldingen weergeven**: Via `Instellingen` » `Meldingen` kunt u AntennaPod rechten geven om meldingen te maken.
+* **Toegang tot opslag**: Als je een 'lokale map' toevoegt, zal de applicatie om langdurige toegang tot een specifieke map vragen. Als je een database of OPML-bestand importeert, krijg de applicatie eenmalig toegang tot het geselecteerde bestand.
 
-Apart from that, the app requires the following permissions which are automatically granted by Android:
+Daarnaast heeft de applicatie de volgende rechten nodig die automatisch door Android worden toegekend:
 
-- **Volledige netwerk toegang**: om de podcast te vernieuwen, afleveringen te downloaden en streamren, afbeeldingen op te laden en synchronisatie te activeren
-- **Zie netwerk verbindingen** en **Zie Wi-Fi verbindingen**:
-   - Om na te gaan of er een actieve internet connectie is, voor of tijdens het uitvoeren van bovenvermelde acties
+- **Volledige netwerktoegang**: om de podcast te vernieuwen, afleveringen te downloaden en streamen, afbeeldingen te laden en synchronisatie aan te zetten
+- **Netwerkverbindingen bekijken** en **Wi-Fi verbindingen bekijken**:
+   - om na te gaan of er een actieve internetverbinding is, voor en tijdens het uitvoeren van bovenvermelde acties
    - voor de instellingen `Downloads` » `Mobiele updates`, om te bepalen of bovenstaande acties toegestaan zijn door de gebruiker via de huidige (mobiele en/of gemeten) verbinding
 - **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
 - **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
