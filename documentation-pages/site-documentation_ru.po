@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 21:56+0200\n"
-"PO-Revision-Date: 2026-03-21 10:01+0000\n"
-"Last-Translator: Cladimir <kominar72@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-04-11 01:12+0000\n"
+"Last-Translator: homocomputeris <homocomputeris+git@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ru/>\n"
 "Language: ru\n"
@@ -491,23 +491,22 @@ msgstr ""
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
-msgstr ""
+msgstr "На Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "On Android 10 and earlier: `Android` » `data` » `de.danoeh.antennapod` » "
 "`files` » `media` and select the folder of a podcast. Note that this will "
 "only give you access to previously downloaded media - you will not receive "
 "new episodes."
 msgstr ""
-"В AntennaPod вы можете добавить папку, как если бы это был фид. Для этого "
+"В AntennaPod вы можете добавить папку, как если бы это был канал. Для этого "
 "перейдите в раздел `Добавить подкаст` и нажмите на `Добавить локальную "
-"папку`. Затем перейдите в эту папку на вашем телефоне: `Android` \" `data` "
-"\" `de.danoeh.antennapod` \" `files` \" `media` и выберите папку подкаста. "
+"папку`. Затем перейдите в эту папку на вашем телефоне: `Android` — `data` — "
+"`de.danoeh.antennapod` — `files` — `media` и выберите папку подкаста. "
 "Обратите внимание, что это даст вам доступ только к ранее загруженным "
-"медиафайлам - вы не будете получать новые эпизоды."
+"медиафайлам, и вы не будете получать новые эпизоды."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -751,11 +750,11 @@ msgstr ""
 msgid ""
 "If you have ads in episodes, they are inserted by the podcaster or their "
 "hosting provider."
-msgstr ""
+msgstr "Если в выпуске есть реклама, то её вставил подкастер или его издатель."
 
 #: _i18n/en/documentation/general/ads.md:block 3 (header)
 msgid "AntennaPod does not add ads"
-msgstr ""
+msgstr "AntennaPod не вставляет рекламу"
 
 #: _i18n/en/documentation/general/ads.md:block 4 (paragraph)
 msgid ""
@@ -770,7 +769,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
 msgid "Why are ads localized"
-msgstr ""
+msgstr "Почему реклама переведена"
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
@@ -804,15 +803,15 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 7 (header)
 msgid "What you can do"
-msgstr ""
+msgstr "Как это исправить"
 
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
 msgid "Here is what you can do against those ads."
-msgstr ""
+msgstr "Как вы можете избавиться от рекламы."
 
 #: _i18n/en/documentation/general/ads.md:block 9 (header)
 msgid "Skipping"
-msgstr ""
+msgstr "Промотать"
 
 #: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
@@ -839,7 +838,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 11 (header)
 msgid "Switch to an ad-free feed"
-msgstr ""
+msgstr "Переключиться на другой источник"
 
 #: _i18n/en/documentation/general/ads.md:block 12 (paragraph)
 msgid ""
@@ -880,28 +879,37 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**Доступ к хранилищу**: При добавлении локальной папки приложение запросит "
+"долгосрочный доступ к определенной папке. При импорте базы данных или файла "
+"OPML выбор этого файла предоставит приложению одноразовый доступ к нему."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
 msgstr ""
+"Помимо этого, приложению требуются следующие разрешения, которые "
+"автоматически предоставляются Android:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**Полный доступ к сети**: обновление подкастов, загрузка и потоковая "
+"передача эпизодов, загрузка изображений и синхронизация"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr ""
+msgstr "**Просмотр сетевых подключений** и **Просмотр подключений Wi-Fi**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"для проверки наличия активного интернет-соединения до и во время выполнения "
+"любого из вышеупомянутых действий"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -1024,6 +1032,14 @@ msgid ""
 "the issues you encounter by creating a topic on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"У AntennaPod много пользователей, и мы не хотим, чтобы у них возникали "
+"проблемы из-за изменений или новых функций. Важно, чтобы люди тестировали "
+"наше приложение. Чем больше людей тестируют, тем больше комбинаций "
+"телефонов, версий Android и сценариев использования мы сможем охватить, и "
+"тем больше проблем мы сможем решить до официального релиза. Конечно, это "
+"поможет только в том случае, если вы будете сообщать о проблемах, с которыми "
+"сталкиваетесь, создавая тему на [нашем форуме](https://forum.antennapod.org/)"
+"."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
 #, fuzzy
@@ -1054,6 +1070,13 @@ msgid ""
 "leave your feedback by creating a topic on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"Новые версии AntennaPod отправляется нашим бета-тестерам через Google Play "
+"Store, прежде чем быть выпущенной для широкой публики. Если у вас есть "
+"острый глаз и вы можете объяснить, что работает не совсем так, как нужно, мы "
+"будем рады вашей помощи! Кроме того, ваши мысли, что можно улучшить, "
+"помогают формировать приложение в соответствии с вашими пожеланиями. "
+"Пожалуйста, оставьте свой отзыв, создав тему на [нашем форуме](https://"
+"forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
 #, fuzzy
@@ -2525,7 +2548,7 @@ msgstr ""
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
 msgid "What users see"
-msgstr ""
+msgstr "Что видят пользователи"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 6
 #: (paragraph)
@@ -2534,11 +2557,14 @@ msgid ""
 "preview episodes and subscribe to your podcast directly in the app, as in "
 "the screenshots below."
 msgstr ""
+"Пользователи, установившие AntennaPod и перешедшие по этой ссылке, смогут "
+"прослушать фрагменты эпизодов и подписаться на ваш подкаст прямо в "
+"приложении, как показано на скриншотах ниже."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
 #: (paragraph)
 msgid "Browser asking to open a link in AntennaPod"
-msgstr ""
+msgstr "Браузер просит открыть ссылку в AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
@@ -2553,11 +2579,15 @@ msgid ""
 "manually, as in this [example page](/deeplink/subscribe?url=https://"
 "antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
+"С другой стороны, пользователи, у которых не установлено приложение "
+"AntennaPod, увидят страницу с инструкциями по загрузке приложения или ручной "
+"подписке на подкаст, как на этой [странице с примерами](/deeplink/"
+"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
 msgid "Branding"
-msgstr ""
+msgstr "Бренд"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 21
 #: (paragraph)
@@ -2573,6 +2603,9 @@ msgid ""
 "need funding beyond advertising and buy-outs by platforms. AntennaPod "
 "supports different ways through which podcasters can earn an income:"
 msgstr ""
+"Чтобы обеспечить устойчивость открытой экосистемы, подкастерам необходимо "
+"финансирование, выходящее за рамки рекламы и выкупа их прав платформами. "
+"AntennaPod поддерживает различные способы заработка для них:"
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2761,10 +2794,15 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"Вы можете сортировать свою очередь воспроизведения, используя различные "
+"критерии сортировки: `По выпуску`, `По подкасту`, `По длине`, `По дате`, "
+"`Случайно` и `Умное перемешивание`. Поскольку большинство из них понятны "
+"сами собой, на этой странице мы сосредоточимся именно на `По подкасту` и "
+"`Умном перемешивании`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr ""
+msgstr "Название подкаста"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2774,10 +2812,15 @@ msgid ""
 "from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"Этот критерий упорядочивает выпуски в очереди по названию подкаста, к "
+"которому они относятся. Обратите внимание, что эпизоды одного и того же "
+"подкаста упорядочиваются в соответствии с предыдущим выбранным критерием: "
+"если вы хотите, чтобы выпуски подкаста шли один за другим в хронологическом "
+"порядке, вам сначала нужно отсортировать `По дате`, а затем по `По подкасту`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
-msgstr ""
+msgstr "Умное перемешивание"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
 #, fuzzy

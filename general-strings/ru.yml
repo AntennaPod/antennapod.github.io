@@ -73,6 +73,10 @@ contribute:
         title: Разведка & другие проекты
         card-text: Помогите нам, внеся свой вклад в другие проекты, на которые 
           мы полагаемся.
+      infrastructure:
+        title: Инфраструктура
+        card-text: Используемые в рамках проекта сервисы и учетные записи, а 
+          также лица, имеющие к ним доступ.
   intro: 'AntennaPod находится в активной разработке волонтёрами. Вы тоже можете помочь:
     с кодом или чем-нибудь другим!'
 month:
@@ -120,7 +124,7 @@ generic:
     theme-menu: Сменит
     skip-to-content: Перейти к основному контенту
   masto-share:
-    server: 'Введите адрес вашего сервера (например: https://mastodon.social)'
+    server: 'Введите адрес сервера Mastodon (например: https://mastodon.social)'
     title: Поделиться в Mastodon
     cancel: Отмена
     share: Поделиться
@@ -144,6 +148,9 @@ blog:
   post-navigation: Навигация между публикациями
   categories:
     all: Все
+    community: Сообщество
+    tutorial: Обучение
+    project: Новости
 long_month:
   February: Февраль
   July: Июль
@@ -268,6 +275,8 @@ documentation:
       title: Как использовать умную тасовку
     multiple-queues:
       title: Как использовать несколько очередей
+    sorting:
+      title: Как упорядочить очередь
   subscriptions:
     subscription-groups:
       title: Метки подписок (aka группы или категории)
@@ -304,9 +313,12 @@ documentation:
       title: Обновление URL-адресов ленты
     list-podcast:
       title: Получение списка подкастов
+    funding:
+      title: Спонсирование
   search:
     placeholder: Поиск по документации
     no-results: Простите, ничего не найдено
+    hint: Используйте стрелки для навигации, Enter для выбора, Esc для выхода
   automation:
     tasker:
       title: Интеграция с другими приложениями
@@ -353,6 +365,9 @@ events:
     announce-add-calendar: Хотите всегда иметь под рукой последние события и 
       обновленную информацию о звонках в сообщество? Тогда подпишитесь на наш 
       календарь в вашем любимом приложении через ссылку 'Добавить в календарь'!
+    recurring-events: События
+    upcoming-events: Скоро
+    past-events: Прошедшие события
   recurrence:
     every-2nd-saturday: каждую вторую субботу месяца
     2nd-4th-wednesday: (почти каждую) вторую и четвертую среду месяца
@@ -361,3 +376,14 @@ footer:
     Android.
 media-kit:
   title: Набор для Медиа
+  logo-section: Логотипы
+  screenshots-section: Скриншоты
+  primary: Основной
+  secondary: Дополнительный
+  accent: Выделение
+  colors-section: Цвета бренда
+  download-all: Скачать всё
+  colors-description: Наши официальные цвета.
+  screenshots-description: Скриншоты для прессы и продвижения.
+  description: Официальные материалы AntennaPod для прессы и СМИ.
+  logo-description: Наш логотип в разных форматах и для разных фонов.
