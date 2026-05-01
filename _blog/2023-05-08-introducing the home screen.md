@@ -42,7 +42,7 @@ The Home screen, which is now set as AntennaPod's default page, allows you to en
 
 ## What's next?
 
-What can you expect next for the Home screen? AntennaPod is a community project, so we cannot promise or predict what will be implemented when. (You are most welcome to [contribute](https://antennapod.org/contribute)!) But we have already discussed and would love to see support for reordering sections and more advanced features.
+What can you expect next for the Home screen? AntennaPod is a community project, so we cannot promise or predict what will be implemented when. (You are most welcome to [contribute](https://antennapod.org/contribute/)!) But we have already discussed and would love to see support for reordering sections and more advanced features.
 
 *This post is part of a series highlighting some of AntennaPod's new and existing features. Do you have any feedback on the features described in this post? Please let us know via the [forum](https://forum.antennapod.org).*
 
