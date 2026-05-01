@@ -13,7 +13,7 @@ Nos traductions sont hébergées sur Weblate, une plateforme de localisation à 
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
-<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+<a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
 </object>## 1. L'application
 
 L'application est actuellement disponible dans plus de 38 langues. Alors qu'il existe bien plus de traductions dans Weblate, nous ne les incluons pas. Nous essayons de faire en sorte que chaque langages soit traduit au moins à 40%. En dessous de ce seuil, l’expérience utilisateur n'est pas très agréable.

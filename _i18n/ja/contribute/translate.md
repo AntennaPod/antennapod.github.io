@@ -2,7 +2,7 @@ Out of the estimated [world population](https://en.wikipedia.org/wiki/World_popu
 
 ぜひ協力をお願いします！
 
-Our translations are hosted on Weblate, an open source localisation platform. Anyone can sign up there and [start translating for AntennaPod](https://hosted.weblate.org/projects/antennapod). You'll find everything you need to know in [Weblate's documentation for translators](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
+Our translations are hosted on Weblate, an open source localisation platform. Anyone can sign up there and [start translating for AntennaPod](https://hosted.weblate.org/projects/antennapod/). You'll find everything you need to know in [Weblate's documentation for translators](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
@@ -13,7 +13,7 @@ Our translations are hosted on Weblate, an open source localisation platform. An
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
-<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+<a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
 </object>## アプリ
 
 The app is currently available in more than 38 languages. While there are even more translations in Weblate, we only include languages in the app which are at least 40% translated. Below that threshold the app hardly provides a good user experience.

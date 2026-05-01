@@ -13,7 +13,7 @@ Vores oversættelser ligger på Weblate, en open source-lokaliseringsplatform. A
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
-<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+<a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
 </object>## 1. Appen
 
 Appen er i øjeblikket tilgængelig på mere end 38 sprog. Selv om der findes flere sprog i Weblate, inkluderer vi kun sprog i appen, som er mindst 40 % oversat. Under denne grænse giver appen næppe en god brugeroplevelse.

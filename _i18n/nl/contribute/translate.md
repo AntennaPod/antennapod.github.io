@@ -13,7 +13,7 @@ Onze vertalingen beheren we via Weblate, een open source vertaalplatform. Iedere
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
-<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+<a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
 </object>## 1. De app
 
 De app is momenteel beschikbaar in meer dan 38 talen. Hoewel we nog meer vertaling in hebben Weblate, nemen we alleen die talen op, die tenminste 40% vertaald zijn. Onder die drempelwaarde biedt de app nauwelijks een goede gebruikerservaring.

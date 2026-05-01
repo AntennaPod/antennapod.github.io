@@ -13,7 +13,7 @@
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
-<a href="https://hosted.weblate.org/engage/antennapod" target="_blank">{{- img-translationstatus | strip -}}</a>
+<a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
 </object>## ۱. برنامه
 
 این برنامه هم‌اکنون به بیش از ۳۸ زبان در دسترس است. اگرچه ترجمه‌های بیشتری در وب‌لیت وجود دارد، ما فقط زبان‌هایی را در برنامه جای می‌دهیم که دست‌کم ۴۰٪ ترجمه شده باشند. زیر این آستانه، برنامه به‌سختی تجربه کاربری خوبی فراهم می‌کند.
