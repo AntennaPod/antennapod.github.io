@@ -44,52 +44,16 @@
     var container = document.getElementById('forum-posts-container');
     if (!container) return;
 
-    // Check localStorage cache (15 minutes)
-    var cacheKey = 'forum_posts_cache_v5';
-    var cacheTimeKey = 'forum_posts_cache_time_v5';
-    var cached = localStorage.getItem(cacheKey);
-    var cacheTime = localStorage.getItem(cacheTimeKey);
-    var cacheExpiry = 15 * 60 * 1000;
-
-    if (cached && cacheTime && (Date.now() - parseInt(cacheTime)) < cacheExpiry) {
-      try {
-        var cachedData = JSON.parse(cached);
-        if (cachedData && cachedData.length > 0) {
-          renderPosts(cachedData, container);
-          return;
-        }
-      } catch (e) {
-        localStorage.removeItem(cacheKey);
-        localStorage.removeItem(cacheTimeKey);
-      }
-    }
-
-    // Fetch from the dedicated CORS proxy
-    fetch(API_URL, {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/json'
-      }
-    })
-    .then(function(response) {
-      if (!response.ok) throw new Error('HTTP ' + response.status);
-      return response.json();
-    })
-    .then(function(data) {
-      var posts = parseTopics(data);
-      if (posts.length > 0) {
-        // Cache successful result
-        localStorage.setItem(cacheKey, JSON.stringify(posts));
-        localStorage.setItem(cacheTimeKey, Date.now().toString());
+    cachedFetch(API_URL, 15 * 60 * 1000)
+      .then(function(data) {
+        var posts = parseTopics(data);
+        if (posts.length === 0) throw new Error('No topics found');
         renderPosts(posts, container);
-      } else {
-        throw new Error('No topics found');
-      }
-    })
-    .catch(function(error) {
-      console.warn('Failed to fetch forum posts:', error.message);
-      renderFallback(container);
-    });
+      })
+      .catch(function(error) {
+        console.warn('Failed to fetch forum posts:', error.message);
+        renderFallback(container);
+      });
   }
 
   function parseTopics(data) {

@@ -1,6 +1,6 @@
 {% comment %}
   Contributions Graph Component
-  Displays commit activity over the past 6 months
+  Displays commit activity over the past year
   Usage: {% include contributions-graph.html %}
 {% endcomment %}
 
@@ -26,12 +26,12 @@
     <div id="contributions-stats" class="d-none mt-3 pt-3 border-top">
       <div class="row text-center g-3">
         <div class="col-4">
-          <div class="fs-4 fw-bold text-primary" id="total-commits">-</div>
-          <div class="small text-body-secondary">{% t contributions-graph.commits %}</div>
+          <div class="fs-4 fw-bold text-primary" id="past-year-commits">-</div>
+          <div class="small text-body-secondary">{% t contributions-graph.past-year %}</div>
         </div>
         <div class="col-4">
-          <div class="fs-4 fw-bold text-primary" id="this-week-commits">-</div>
-          <div class="small text-body-secondary">{% t contributions-graph.this-week %}</div>
+          <div class="fs-4 fw-bold text-primary" id="past-month-commits">-</div>
+          <div class="small text-body-secondary">{% t contributions-graph.past-month %}</div>
         </div>
         <div class="col-4">
           <div class="fs-4 fw-bold text-primary" id="contributors-count">-</div>
@@ -82,128 +82,92 @@
 <script>
 (function() {
   'use strict';
-  
-  var GITHUB_API = 'https://api.github.com/repos/AntennaPod/AntennaPod/stats/participation';
-  
+
+  var PARTICIPATION_API = 'https://api.github.com/repos/AntennaPod/AntennaPod/stats/participation';
+  var CONTRIBUTOR_COUNT_API = 'https://api.github.com/repos/AntennaPod/AntennaPod/contributors?per_page=1';
+
   function fetchContributions() {
     var container = document.getElementById('contributions-graph-container');
     var statsContainer = document.getElementById('contributions-stats');
     if (!container) return;
-    
-    // Check localStorage cache (1 hour)
-    var cacheKey = 'contributions_cache';
-    var cacheTimeKey = 'contributions_cache_time';
-    var cached = localStorage.getItem(cacheKey);
-    var cacheTime = localStorage.getItem(cacheTimeKey);
-    var oneHour = 60 * 60 * 1000;
-    
-    if (cached && cacheTime && (Date.now() - parseInt(cacheTime)) < oneHour) {
-      renderGraph(JSON.parse(cached), container, statsContainer);
-      return;
-    }
-    
-    fetch(GITHUB_API, {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/vnd.github.v3+json'
-      }
-    })
-    .then(function(response) {
-      if (!response.ok) throw new Error('Network response was not ok');
-      return response.json();
-    })
-    .then(function(data) {
-      localStorage.setItem(cacheKey, JSON.stringify(data));
-      localStorage.setItem(cacheTimeKey, Date.now().toString());
-      renderGraph(data, container, statsContainer);
-    })
-    .catch(function(error) {
-      console.error('Contributions fetch error:', error);
-      container.innerHTML = '<div class="text-body-secondary small"><i class="fa-solid fa-exclamation-circle me-2"></i>{% t contributions-graph.error %}</div>';
-    });
+
+    cachedFetch(PARTICIPATION_API, 60 * 60 * 1000)
+      .then(function(data) {
+        renderGraph(data, container, statsContainer);
+      })
+      .catch(function(error) {
+        console.error('Contributions fetch error:', error);
+        container.innerHTML = '<div class="text-body-secondary small"><i class="fa-solid fa-exclamation-circle me-2"></i>{% t contributions-graph.error %}</div>';
+      });
   }
-  
+
   function renderGraph(data, container, statsContainer) {
     if (!data || !data.all) {
       container.innerHTML = '<div class="text-body-secondary small">No data available.</div>';
       return;
     }
-    
-    // Get last 26 weeks (6 months)
-    var weeks = data.all.slice(-26);
+
+    // Get last 52 weeks (1 year)
+    var weeks = data.all.slice(-52);
     var maxCommits = Math.max.apply(null, weeks) || 1;
-    var totalCommits = weeks.reduce(function(a, b) { return a + b; }, 0);
-    var thisWeekCommits = weeks[weeks.length - 1] || 0;
-    
+    var pastYearCommits = weeks.reduce(function(a, b) { return a + b; }, 0);
+    var pastMonthCommits = weeks.slice(-4).reduce(function(a, b) { return a + b; }, 0);
+
     // Calculate date range
     var now = new Date();
-    var sixMonthsAgo = new Date(now.getTime() - (26 * 7 * 24 * 60 * 60 * 1000));
-    
+    var oneYearAgo = new Date(now.getTime() - (52 * 7 * 24 * 60 * 60 * 1000));
+
     var html = '<div class="contributions-graph-bars">';
     weeks.forEach(function(commits, index) {
       var height = Math.max(4, (commits / maxCommits) * 100);
-      var weekDate = new Date(sixMonthsAgo.getTime() + (index * 7 * 24 * 60 * 60 * 1000));
+      var weekDate = new Date(oneYearAgo.getTime() + (index * 7 * 24 * 60 * 60 * 1000));
       var weekLabel = weekDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-      
+
       html += '<div class="commit-bar" style="height: ' + height + '%;" ';
       html += 'data-bs-toggle="tooltip" data-bs-placement="top" ';
       html += 'title="' + commits + ' commits - Week of ' + weekLabel + '">';
       html += '</div>';
     });
     html += '</div>';
-    
+
     html += '<div class="graph-labels">';
-    html += '<span>' + sixMonthsAgo.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) + '</span>';
+    html += '<span>' + oneYearAgo.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) + '</span>';
     html += '<span>' + now.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) + '</span>';
     html += '</div>';
-    
+
     container.innerHTML = html;
-    
+
     // Update stats
-    document.getElementById('total-commits').textContent = totalCommits;
-    document.getElementById('this-week-commits').textContent = thisWeekCommits;
+    document.getElementById('past-year-commits').textContent = pastYearCommits;
+    document.getElementById('past-month-commits').textContent = pastMonthCommits;
     statsContainer.classList.remove('d-none');
-    
+
     // Fetch contributor count
     fetchContributorCount();
-    
+
     // Initialize tooltips
     var tooltipElements = container.querySelectorAll('[data-bs-toggle="tooltip"]');
     tooltipElements.forEach(function(el) {
       new bootstrap.Tooltip(el);
     });
   }
-  
+
   function fetchContributorCount() {
     var countEl = document.getElementById('contributors-count');
-    
-    fetch('https://api.github.com/repos/AntennaPod/AntennaPod', {
-      method: 'GET',
-      headers: { 'Accept': 'application/vnd.github.v3+json' }
+
+    cachedFetch(CONTRIBUTOR_COUNT_API, 24 * 60 * 60 * 1000, function(response) {
+      var link = response.headers.get('Link');
+      var match = link && link.match(/page=(\d+)>; rel="last"/);
+      return Promise.resolve(match ? parseInt(match[1]) : null);
     })
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      // This gives subscriber count, we need to fetch contributors separately
-      fetch('https://api.github.com/repos/AntennaPod/AntennaPod/contributors?per_page=1', {
-        method: 'GET',
-        headers: { 'Accept': 'application/vnd.github.v3+json' }
-      })
-      .then(function(response) {
-        // Get total from Link header
-        var link = response.headers.get('Link');
-        if (link) {
-          var match = link.match(/page=(\d+)>; rel="last"/);
-          if (match) {
-            countEl.textContent = match[1];
-          }
-        }
-      });
+    .then(function(count) {
+      if (count) countEl.textContent = count;
     })
     .catch(function() {
       countEl.textContent = '100+';
     });
   }
-  
+
   // Initialize
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', fetchContributions);
