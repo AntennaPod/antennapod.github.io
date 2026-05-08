@@ -2,7 +2,7 @@ Von der geschätzten [Weltbevölkerung](https://de.wikipedia.org/wiki/Weltbevöl
 
 Wir wissen deine Hilfe daher sehr zu schätzen!
 
-Unsere Übersetzungen werden auf Weblate gehostet, einer Open-Source-Lokalisierungsplattform. Jeder kann sich dort anmelden und [für AntennaPod anfangen zu übersetzen](https://hosted.weblate.org/projects/antennapod). Alles, was du wissen musst, findest du in der [Weblate-Dokumentation für Übersetzer](https://docs.weblate.org/de/latest/user/translating.html){:target="_blank"}.
+Unsere Übersetzungen werden auf Weblate gehostet, einer Open-Source-Lokalisierungsplattform. Jeder kann sich dort anmelden und [mit dem Übersetzen für AntennaPod beginnen](https://hosted.weblate.org/projects/antennapod/). Alles, was du wissen musst, findest du in der [Weblate-Dokumentation für Übersetzer](https://docs.weblate.org/de/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 

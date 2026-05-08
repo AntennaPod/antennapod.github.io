@@ -2,7 +2,7 @@ Sur une [population mondiale](https://en.wikipedia.org/wiki/World_population) es
 
 Nous apprécions donc beaucoup votre aide !
 
-Nos traductions sont hébergées sur Weblate, une plateforme de localisation à code ouvert. N'importe qui peut s'y inscrire et [commencer à traduire pour AntennaPod](https://hosted.weblate.org/projects/antennapod). Vous trouverez tout ce que vous devez savoir dans la [documentation de Weblate destinée aux traducteurs](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
+Nos traductions sont hébergées sur Weblate, une plateforme de localisation open source. N'importe qui peut s'y inscrire et [commencer à traduire pour AntennaPod](https://hosted.weblate.org/projects/antennapod). Vous trouverez tout ce que vous devez savoir dans la [documentation de Weblate destinée aux traducteurs](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 

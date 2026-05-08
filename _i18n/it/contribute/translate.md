@@ -2,7 +2,7 @@ Su una [popolazione mondiale stimata](https://it.wikipedia.org/wiki/Popolazione_
 
 Perciò apprezziamo molto il tuo aiuto!
 
-Le nostre traduzioni sono ospitate su Weblate, una piattaforma di localizzazione open source. Chiunque può iscriversi e [iniziare a tradurre per AntennaPod](https://hosted.weblate.org/projects/antennapod). Nella [documentazione per i traduttori di Weblate](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"} troverai tutto quello che devi sapere.
+Le nostre traduzioni sono ospitate su Weblate, una piattaforma di localizzazione open source. Chiunque può iscriversi e [iniziare a tradurre per AntennaPod](https://hosted.weblate.org/projects/antennapod/). Troverai tutto quello che devi sapere nella [documentazione per i traduttori di Weblate](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"}.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
