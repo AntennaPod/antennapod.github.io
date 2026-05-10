@@ -6,4 +6,4 @@ Do you know of an event in your neighbourhood and would love to meet up with Ant
 
 [Propose a meet-up](https://forum.antennapod.org)
 
-<!-- mdpo-disable --><a href="{{ site.baseurl }}/events.ics" target="_blank" data-toggle="modal" data-target="#icsModal"><!-- mdpo-enable -->Add our events to your calendar<!-- mdpo-disable --></a><!-- mdpo-enable -->
+<a href="{{ site.calendar_base_url }}/all-events" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ site.calendar_base_url }}/all-events">Add our events to your calendar</a>

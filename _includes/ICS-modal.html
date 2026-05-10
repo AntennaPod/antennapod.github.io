@@ -9,8 +9,12 @@
         {% tf general/events-add-calendar-modal.md %}
       </div>
       <div class="modal-footer border-0 pt-0">
-        <a role="button" class="btn btn-secondary" href="{{ site.baseurl }}/events.ics">{% t events.general.download-ics %}</a>
-        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" value="{{ site.url }}{{ site.baseurl }}/events.ics">{% t events.general.copy-url %}</button>
+        <button type="button" class="btn btn-secondary" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ include.calendar_subscription_url }}">{% t events.general.subscribe-all %}</button>
+        {% if include.recurring == true -%}
+        <button type="button" class="btn btn-primary" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ include.event_subscription_url }}">{% t events.general.subscribe-event %}</button>
+        {%- elsif include.ics %}
+        <a role="button" class="btn btn-primary" href="{{ include.event_ics_url }}">{% t events.general.download-ics %}</a>
+        {%- endif %}
       </div>
     </div>
   </div>
