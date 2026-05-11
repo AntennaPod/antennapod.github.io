@@ -33,6 +33,7 @@
   <meta name="view-transition" content="same-origin">
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
+  {% include structured-data.html title=title description=description image=image %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">

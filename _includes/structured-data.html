@@ -1,0 +1,97 @@
+  {% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+  {% assign article_image = include.image %}
+  {% unless article_image %}
+    {% assign article_image = site.url | append: '/assets/branding/covers/cover_001.png' %}
+  {% endunless %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/branding/favicons/android-chrome-512x512.png"
+        },
+        "sameAs": [
+          "https://github.com/{{ site.github_username }}",
+          "https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}",
+          "https://bsky.app/profile/{{ site.bluesky_username }}",
+          "https://twitter.com/{{ site.twitter_username }}"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "description": "{{ site.description | strip | escape }}",
+        "inLanguage": "{{ site.lang }}"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "{{ canonical_url }}#webpage",
+        "url": "{{ canonical_url }}",
+        "name": "{{ include.title | default: page.title | strip | escape }}",
+        "description": "{{ include.description | default: page.description | default: site.description | strip | escape }}",
+        "isPartOf": {
+          "@id": "{{ site.url }}/#website"
+        },
+        "inLanguage": "{{ site.lang }}"
+      }
+      {% if page.layout == "blog" %}
+      ,{
+        "@type": "Article",
+        "@id": "{{ canonical_url }}#article",
+        "headline": "{{ page.title | strip | escape }}",
+        "description": "{{ include.description | default: page.description | default: site.description | strip | escape }}",
+        "url": "{{ canonical_url }}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ article_image }}"
+        },
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+        "publisher": {
+          "@id": "{{ site.url }}/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "{{ canonical_url }}#webpage"
+        },
+        "inLanguage": "{{ site.lang }}"
+      }
+      {% elsif page.layout == "doc" %}
+      ,{
+        "@type": "TechArticle",
+        "@id": "{{ canonical_url }}#techarticle",
+        "headline": "{{ include.title | default: page.title | strip | escape }}",
+        "description": "{{ include.description | default: page.description | default: site.description | strip | escape }}",
+        "url": "{{ canonical_url }}",
+        "publisher": {
+          "@id": "{{ site.url }}/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "{{ canonical_url }}#webpage"
+        },
+        "inLanguage": "{{ site.lang }}"
+      }
+      {% elsif page.url == "/" or page.url == "/index.html" %}
+      ,{
+        "@type": "SoftwareApplication",
+        "@id": "{{ site.url }}/#software",
+        "name": "{{ site.title }}",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Android",
+        "description": "{{ site.description | strip | escape }}",
+        "url": "{{ site.url }}",
+        "publisher": {
+          "@id": "{{ site.url }}/#organization"
+        }
+      }
+      {% endif %}
+    ]
+  }
+  </script>
