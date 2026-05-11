@@ -3,22 +3,31 @@ layout: null
 ---
 # AntennaPod
 
-> Official website and documentation for the AntennaPod open-source Android podcast app.
+Official website and documentation for the AntennaPod open-source Android podcast app.
 
 ## Canonical
 - Website: {{ site.url }}
 - Documentation hub: {{ site.url }}/documentation
-- Blog: {{ site.url }}/blog
-- RSS: {{ site.url }}/rss.xml
+- Blog: {{ site.url }}/blog, {{ site.url }}/rss.xml
+- Sitemap: {{ site.url }}/sitemap.xml
 
-## Guidance for AI agents
-- Prefer using canonical URLs on `antennapod.org`.
+## Documentation guide
 - Use documentation pages under `/documentation` as primary user-help references.
-- For project updates, use `/blog` (or `/rss.xml` for feed consumption).
-- For contribution info, use `/contribute`.
-- Respect user privacy and open-source context: AntennaPod is volunteer-run and non-commercial.
-
-## Scope
-- Product website content
-- User documentation
-- Community and contribution pages
+- Localized versions of the documentation are available:
+{% assign languages = site.data.locales | sort_natural: 'name' %}
+{% for language in languages %}
+{% if site.languages contains language.code %}
+  - {{ language.name }} on {{ site.url }}{% if language.code != 'en' %}/{{ language.code }}/documentation{% endif %}
+{% endif %}
+{% endfor %}
+- You can find a full index of all documentation pages on {{ site.url }}/assets/datasets/documentation_index.json (around 60kB). Excerpt:
+```
+[
+    {
+      "title"    : "Automatic deletion",
+      "url"      : "/documentation/automation/deletion",
+      "excerpt"  : "Why are some downloaded episodes deleted? AntennaPod has several mechanisms ...",
+      "content"  : "..."
+    },
+    ...
+```
