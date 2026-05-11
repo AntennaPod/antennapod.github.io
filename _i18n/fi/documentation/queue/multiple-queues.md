@@ -1,0 +1,1 @@
+Useita jonoja ei tällä hetkellä tueta. Katso lisätietoja GitHubissa numerosta [numero 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) ja/tai tilaa tiketti saadaksesi päivityksiä mahdollisista kehitysaskeleista.
