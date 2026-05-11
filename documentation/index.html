@@ -31,6 +31,11 @@ title: titles.documentation
       <div id="results-container" class="doc-search-results"></div>
       <small id="search-help" class="form-text text-body-secondary mt-2 d-block text-center">
         <i class="fa-solid fa-keyboard me-1"></i> {% t documentation.search.hint %}
+        <noscript>
+          <a href="{{ site.url }}{% if site.lang != "en" %}/{{ site.lang }}{% endif %}/assets/datasets/documentation_index.json">
+            View full machine readable documentation (json)
+          </a>
+        </noscript>
       </small>
     </div>
   </div>
