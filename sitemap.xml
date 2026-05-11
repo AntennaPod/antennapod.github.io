@@ -1,0 +1,49 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- assign lang_prefix = "" %}
+  {%- if site.lang != "en" %}{%- assign lang_prefix = "/" | append: site.lang %}{%- endif %}
+  {%- for page in site.pages %}
+  {%- unless page.url contains '.xml' or page.url contains '.json' or page.url contains '.txt' or page.url contains '.ics' or page.url contains '.html' or page.sitemap == false %}
+  <url>
+    <loc>{{ site.url }}{{ lang_prefix }}{{ page.url | replace: 'index.html', '' }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {%- endunless %}
+  {%- endfor %}
+  {%- for post in site.blog reversed %}
+  {%- unless post.unlisted %}
+  <url>
+    <loc>{{ site.url }}{{ lang_prefix }}{{ post.url | replace: '.html', '' }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endunless %}
+  {%- endfor %}
+  {%- for doc in site.documentation %}
+  <url>
+    <loc>{{ site.url }}{{ lang_prefix }}{{ doc.url | replace: '.html', '' }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {%- endfor %}
+  {%- for event in site.events %}
+  <url>
+    <loc>{{ site.url }}{{ lang_prefix }}{{ event.url | replace: '.html', '' }}</loc>
+    <lastmod>{{ event.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {%- endfor %}
+  {%- for page in site.contribute %}
+  <url>
+    <loc>{{ site.url }}{{ lang_prefix }}{{ page.url | replace: '.html', '' }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
+</urlset>
