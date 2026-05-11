@@ -12998,4 +12998,18 @@ code.language-plaintext {
   max-height: 40px;
 }
 
+#imgPopupModal.fade,
+.modal-backdrop.fade {
+  transition: opacity 0.2s linear;
+}
+
+#imgPopupModal .modal-dialog {
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
+}
+
+#imgPopupModal.show .modal-dialog {
+  transform: scale(1);
+}
+
 /*# sourceMappingURL=main.css.map */

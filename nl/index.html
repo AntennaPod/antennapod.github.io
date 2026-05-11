@@ -120,6 +120,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
   </head>
   <body dir="auto">
@@ -398,18 +399,7 @@
             <div class="col-0 col-lg-1 order-2"></div>
             <div class="col-12 col-lg-5 order-1 order-lg-2 ps-lg-0 mb-4 mb-lg-0 d-none d-md-none d-lg-block text-center">
                 
-                <a role="button" data-bs-toggle="modal" data-bs-target="#imgModal00png">
-  <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" loading="lazy" width="280" style="" class="rounded mt-2 phone">
-</a>
-
-<div class="modal fade" id="imgModal00png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+                <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" loading="lazy" width="280" style="" class="rounded mt-2 phone img-popup">
 
             </div>
         </div>
@@ -431,18 +421,7 @@
             <div class="col-12 col-lg-5 order-1 order-lg-1 ps-lg-0 mb-4 mb-lg-0">
                 <div class="w-50 half-phone float-md-end">
                     
-                    <a role="button" data-bs-toggle="modal" data-bs-target="#imgModal00png">
-  <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" loading="lazy" style="" class="rounded mt-2 w-100">
-</a>
-
-<div class="modal fade" id="imgModal00png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+                    <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" loading="lazy" style="" class="rounded mt-2 w-100 img-popup">
 
                 </div>
             </div>
@@ -461,18 +440,7 @@
             <div class="col-12 col-lg-5 order-1 order-lg-2 ps-lg-0 mb-4 mb-lg-0">
                 <div class="w-50 half-phone float-md-start">
                     
-                    <a role="button" data-bs-toggle="modal" data-bs-target="#imgModal00png">
-  <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" loading="lazy" style="" class="rounded mt-2 w-100">
-</a>
-
-<div class="modal fade" id="imgModal00png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+                    <img src="/assets/images/screenshots/en/00.png" alt="Nederlands" loading="lazy" style="" class="rounded mt-2 w-100 img-popup">
 
                 </div>
             </div>
@@ -812,6 +780,15 @@
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
   </body>
 </html>

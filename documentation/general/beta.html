@@ -122,6 +122,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -429,18 +430,7 @@ Please leave your feedback by creating a topic on <a href="https://forum.antenna
 <p>So, you want to have the latest and greatest, and help us polish the app to make it truly shine? Simply visit the AntennaPod listing in the Play Store app, and you’ll find the <strong>Join the beta</strong> card under the <em>App support</em> section. Or, if you’re on your computer, you can join our beta program <a href="https://play.google.com/apps/testing/de.danoeh.antennapod">here</a>.</p>
 
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalproject-betapng">
-  <img src="/assets/images/documentation/en/project-beta.png" alt="Become a beta tester - confirmation window in Google Play" loading="lazy" style="" class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalproject-betapng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/project-beta.png" alt="Become a beta tester - confirmation window in Google Play" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/documentation/en/project-beta.png" alt="Become a beta tester - confirmation window in Google Play" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
 
 
 
@@ -560,6 +550,15 @@ Please leave your feedback by creating a topic on <a href="https://forum.antenna
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

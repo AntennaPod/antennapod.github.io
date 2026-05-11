@@ -122,6 +122,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -431,31 +432,9 @@
 
 <p>Gli utenti che hanno installato AntennaPod e aprono quel collegamento saranno in grado di visualizzare l’anteprima degli episodi e di iscriversi al tuo podcast direttamente nell’app, come mostrano gli screenshot di seguito.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalopen-in-ap1png">
-  <img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser che chiede di aprire un collegamento in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2 ">
-</a></p>
+<p><img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser che chiede di aprire un collegamento in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2  img-popup"></p>
 
-<div class="modal fade" id="imgModalopen-in-ap1png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/open-in-ap1.png" alt="Browser che chiede di aprire un collegamento in AntennaPod" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
-
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalopen-in-ap2png">
-  <img src="/assets/images/documentation/en/open-in-ap2.png" alt="Lo stesso collegamento visualizzato in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalopen-in-ap2png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/open-in-ap2.png" alt="Lo stesso collegamento visualizzato in AntennaPod" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/documentation/en/open-in-ap2.png" alt="Lo stesso collegamento visualizzato in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2  img-popup"></p>
 
 <p>D’altro canto, gli utenti che non hanno installato AntennaPod vedranno una pagina con istruzioni per scaricare l’app o per iscriversi al tuo podcast manualmente, come in questa <a href="/deeplink/subscribe?url=https://antennapod.org/rss.xml&amp;title=Blog+Posts">pagina di esempio</a>.</p>
 
@@ -574,6 +553,15 @@
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

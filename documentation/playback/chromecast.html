@@ -122,6 +122,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -426,18 +427,7 @@ Make sure that you are in the same WiFi network as your Chromecast.
 Open the player screen by expanding the small player on the bottom and press the Chromecast button.</p>
 
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalchromecastpng">
-  <img src="/assets/images/documentation/en/chromecast.png" alt="Cast button in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalchromecastpng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/chromecast.png" alt="Cast button in AntennaPod" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/documentation/en/chromecast.png" alt="Cast button in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2  img-popup"></p>
 
 
 
@@ -556,6 +546,15 @@ Open the player screen by expanding the small player on the bottom and press the
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

@@ -128,6 +128,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -419,7 +420,7 @@
               </span>
               <span>
                 
-                2 min læst
+                1 min læst
                 
               </span>
             </div>
@@ -435,35 +436,13 @@
           <article class="post-content pb-4">
             <p><a href="https://fosdem.org/">FOSDEM</a> is a yearly open-source conference in Brussels, Belgium. From VLC to Thunderbird, from Postgres to F-Droid - thousands of open-source enthusiasts gathered at the <em>Université libre de Bruxelles</em> for two days. The F-Droid stand even handed out cheat sheets mentioning AntennaPod!</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalfosdem-fdroidjpg">
-  <img src="/assets/images/blog/2026/fosdem-fdroid.jpg" alt="AntennaPod Dinner" loading="lazy" style="max-width:300px; " class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalfosdem-fdroidjpg" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/blog/2026/fosdem-fdroid.jpg" alt="AntennaPod Dinner" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/blog/2026/fosdem-fdroid.jpg" alt="AntennaPod Dinner" loading="lazy" style="max-width:300px; " class="rounded mt-2  img-popup"></p>
 
 <p>Just as last year, there was a lot of interest in the <a href="/blog/2024/12/stickers">stickers we made in 2024</a>, especially the one featuring Mike. Several AntennaPod contributors joined the conference. <a href="https://github.com/keunes" class="user-mention">@keunes</a> and <a href="https://github.com/ByteHamster" class="user-mention">@ByteHamster</a> met <a href="https://github.com/nijel" class="user-mention">@nijel</a> from <a href="https://weblate.org">Weblate</a>, where we manage the AntennaPod translations. We discussed potential future Weblate features that would make translations easier for us. We also further discussed our planned donation to Weblate that we <a href="https://forum.antennapod.org/t/proposal-donation-to-weblate/5710">discussed on the AntennaPod forum</a> a while ago.</p>
 
 <p>On Saturday evening, we celebrated our first dedicated AntennaPod meetup with core contributors and interested users.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalfosdemjpg">
-  <img src="/assets/images/blog/2026/fosdem.jpg" alt="AntennaPod Dinner" loading="lazy" style="max-width:400px; " class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalfosdemjpg" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/blog/2026/fosdem.jpg" alt="AntennaPod Dinner" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/blog/2026/fosdem.jpg" alt="AntennaPod Dinner" loading="lazy" style="max-width:400px; " class="rounded mt-2  img-popup"></p>
 
 <p><small>Photo by Benjamin Bellamy (CC BY-SA 4.0)</small></p>
 
@@ -912,6 +891,15 @@ Finally, and perhaps most importantly, we also spent time just catting with each
     </div>
   </div>
 </footer>
+
+  <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

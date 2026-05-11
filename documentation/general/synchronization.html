@@ -122,6 +122,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -444,38 +445,12 @@
   <li>Create an account on the server www.gpodder.net or on your own server</li>
   <li>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:
 
-<br><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalgpodder-devicespng">
-  <img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" loading="lazy" style="" class="rounded mt-2 ">
-</a>
+<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" loading="lazy" style="" class="rounded mt-2  img-popup">
 </li>
-</ol>
-
-<div class="modal fade" id="imgModalgpodder-devicespng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
-<ol>
   <li>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.
 
-<br><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalgpodder-synchronizepng">
-  <img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" loading="lazy" style="" class="rounded mt-2 ">
-</a>
+<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" loading="lazy" style="" class="rounded mt-2  img-popup">
 </li>
-</ol>
-
-<div class="modal fade" id="imgModalgpodder-synchronizepng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
-<ol>
   <li>Go to <code class="language-plaintext highlighter-rouge">Settings</code> » <code class="language-plaintext highlighter-rouge">Synchronization</code> in AntennaPod and tap <code class="language-plaintext highlighter-rouge">Choose synchronization provider</code>
 </li>
   <li>Select ‘gPodder’</li>
@@ -599,6 +574,15 @@
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

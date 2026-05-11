@@ -122,6 +122,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -423,18 +424,7 @@
 
 <p>Es sind keine weiteren Schritte erforderlich, um AntennaPod mit deinem Google Chromecast zu verwenden. Vergewissere dich, dass du dich im selben WLAN wie dein Chromecast befindest. Öffne den Player-Bildschirm, indem du den kleinen Player am unteren Rand aufklappst und die Chromecast-Taste drückst.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalchromecastpng">
-  <img src="/assets/images/documentation/en/chromecast.png" alt="Cast-Button in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalchromecastpng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/chromecast.png" alt="Cast-Button in AntennaPod" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/documentation/en/chromecast.png" alt="Cast-Button in AntennaPod" loading="lazy" style="max-width:400px; " class="rounded mt-2  img-popup"></p>
 
 <h3 id="hast-du-antennapod-von-f-droid-heruntergeladen">Hast du AntennaPod von <strong>F-Droid</strong> heruntergeladen?</h3>
 
@@ -551,6 +541,15 @@
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

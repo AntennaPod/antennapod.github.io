@@ -128,6 +128,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -419,7 +420,7 @@
               </span>
               <span>
                 
-                4 minutos de lectura
+                3 minutos de lectura
                 
               </span>
             </div>
@@ -441,18 +442,7 @@
 
 <h2 id="step-no-1-switch-off-those-updates">Step no. 1: switch off those updates</h2>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalstep-1png">
-  <img src="/assets/images/blog/2023/step-1.png" alt="Where to find the settings described in Steps no. 1 and 2." loading="lazy" style="max-width:22rem; " class="rounded mt-2 float-md-right ml-md-3 w-100">
-</a></p>
-
-<div class="modal fade" id="imgModalstep-1png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/blog/2023/step-1.png" alt="Where to find the settings described in Steps no. 1 and 2." width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/blog/2023/step-1.png" alt="Where to find the settings described in Steps no. 1 and 2." loading="lazy" style="max-width:22rem; " class="rounded mt-2 float-md-right ml-md-3 w-100 img-popup"></p>
 
 <p>As you don’t expect new episodes to be published anymore for this podcast, you can safely disable its “<a href="https://antennapod.org/documentation/automation/refreshing-podcasts">Keep updated</a>” setting. That way, AntennaPod will refresh your subscriptions faster, as it will only do so for active ones.</p>
 
@@ -466,18 +456,7 @@
 
 <p>As a final step, deselect the “Show in main list” checkbox on the Tags dialog to hide this podcast from the list that is displayed on your Subscriptions screen.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalsteps-2-3png">
-  <img src="/assets/images/blog/2023/steps-2-3.png" alt="How to assign tags and show/hide podcasts from the main list." loading="lazy" style="max-width:22rem; " class="rounded mt-2 float-md-right ml-md-3 w-100">
-</a></p>
-
-<div class="modal fade" id="imgModalsteps-2-3png" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/blog/2023/steps-2-3.png" alt="How to assign tags and show/hide podcasts from the main list." width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/blog/2023/steps-2-3.png" alt="How to assign tags and show/hide podcasts from the main list." loading="lazy" style="max-width:22rem; " class="rounded mt-2 float-md-right ml-md-3 w-100 img-popup"></p>
 
 <h2 id="wait-does-that-mean">Wait, does that mean…</h2>
 
@@ -897,6 +876,15 @@
     </div>
   </div>
 </footer>
+
+  <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

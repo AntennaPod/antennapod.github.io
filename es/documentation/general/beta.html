@@ -122,6 +122,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -427,18 +428,7 @@
 
 <p>¿Quieres tener lo último y lo mejor y ayudarnos a pulir la app para que realmente brille? Simplemente visita la lista de AntennaPod en la app de Play Store y encontrarás la tarjeta <strong>Únete a la beta</strong> en la sección <em>Soporte de la app</em>. O, si estás en tu ordenador, puedes unirte a nuestro programa beta <a href="https://play.google.com/apps/testing/de.danoeh.antennapod">aquí</a>.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalproject-betapng">
-  <img src="/assets/images/documentation/en/project-beta.png" alt="Convertirse en beta tester - ventana de confirmación en Google Play" loading="lazy" style="" class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalproject-betapng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/documentation/en/project-beta.png" alt="Convertirse en beta tester - ventana de confirmación en Google Play" width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/documentation/en/project-beta.png" alt="Convertirse en beta tester - ventana de confirmación en Google Play" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
 
 <h2 id="f-droid">F-Droid</h2>
 
@@ -557,6 +547,15 @@
     </div>
   </div>
 </footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 

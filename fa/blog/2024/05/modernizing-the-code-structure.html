@@ -128,6 +128,7 @@
   <script defer src="/assets/js/github-mentions.js"></script>
   <script defer src="/assets/js/contributors.js"></script>
   <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
 
 </head>
 <body dir="auto">
@@ -419,7 +420,7 @@
               </span>
               <span>
                 
-                8 دقیقه خواندن
+                7 دقیقه خواندن
                 
               </span>
             </div>
@@ -439,18 +440,7 @@
 
 <p>In November 2020, <a href="https://github.com/damoasda" class="user-mention">@damoasda</a> pointed us to this problem in an <a href="https://github.com/AntennaPod/AntennaPod/issues/4661">issue</a> on our bug tracker. It made the situation very clear with a graph of AntennaPod’s code structure.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalcodeStructureBeforepng">
-  <img src="/assets/images/blog/2024/codeStructureBefore.png" alt="A graph with 41 ovals and many seemingly tangled up arrows connecting them." loading="lazy" style="" class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalcodeStructureBeforepng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/blog/2024/codeStructureBefore.png" alt="A graph with 41 ovals and many seemingly tangled up arrows connecting them." width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/blog/2024/codeStructureBefore.png" alt="A graph with 41 ovals and many seemingly tangled up arrows connecting them." loading="lazy" style="" class="rounded mt-2  img-popup"></p>
 
 <p>As you can see, the structure was one large knot. Arrows went everywhere, indicating that the different areas of the app were all connected and influenced each other. The largest problem is that there are cycles in the graph. For example, the synchronization feature accessed the database to store its changes. In turn, the database could access the playback component in case someone deletes a playing episode. To synchronize the playback position, the player could then again access the synchronization feature.</p>
 
@@ -468,18 +458,7 @@
 <h2 id="the-result">The Result</h2>
 <p>Today, the code structure of AntennaPod looks significantly more clean, as you can see in the graph below.</p>
 
-<p><a role="button" data-bs-toggle="modal" data-bs-target="#imgModalcodeStructureAfterpng">
-  <img src="/assets/images/blog/2024/codeStructureAfter.png" alt="A graph with 31 ovals and a recognisable set of arrows between them." loading="lazy" style="" class="rounded mt-2 ">
-</a></p>
-
-<div class="modal fade" id="imgModalcodeStructureAfterpng" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="/assets/images/blog/2024/codeStructureAfter.png" alt="A graph with 31 ovals and a recognisable set of arrows between them." width="100%" class="rounded" loading="lazy">
-    </div>
-  </div>
-</div>
+<p><img src="/assets/images/blog/2024/codeStructureAfter.png" alt="A graph with 31 ovals and a recognisable set of arrows between them." loading="lazy" style="" class="rounded mt-2  img-popup"></p>
 
 <p>All code is structured into modules that bundle closely related files. While there are still many dependencies between the modules, there are no longer any cycles: All the arrows point downwards now. Below, you can find a time lapse of the AntennaPod code structure – from the first released bits of code in 2011 to the structure today in 2024. The video was created using <a href="https://github.com/acaudwell/Gource">Gource</a>, which is a great tool to visualize code projects over time.</p>
 
@@ -949,6 +928,15 @@
     </div>
   </div>
 </footer>
+
+  <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
 
 </body>
 
