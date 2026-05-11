@@ -47,7 +47,7 @@
         "url": "{{ canonical_url }}",
         "image": {
           "@type": "ImageObject",
-          "url": "{{ include.image }}"
+          "url": "{{ include.image | default: site.url | append: '/assets/branding/covers/cover_001.png' }}"
         },
         "datePublished": "{{ page.date | date_to_xmlschema }}",
         "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
