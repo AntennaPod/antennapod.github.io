@@ -19,30 +19,13 @@
    {%- elsif english-exists == true %}
       {{- english-url }}
    {%- else %}
-      {{- single-url }}	
+      {{- single-url }}
    {%- endif %}
 {%- endcapture -%}
 
-{% unless include.islink == true %}<a role="button" data-bs-toggle="modal" data-bs-target="#imgModal{{ include.file | remove:'.' }}">{% endunless %}
-  <img src="{{ url }}" alt="{{ img-alt }}" loading="lazy"
-    {%- if include.width %} width="{{ include.width }}"{% endif %}
-    style="
-      {%- if include.max-width %}max-width:{{ include.max-width }}; {% endif %}
-      {%- if include.max-height %}max-height:{{ include.max-height }}; {% endif %}"
-    class="rounded mt-2 {{ include.class }}">
-{% unless include.islink == true %}</a>
-
-<div class="modal fade" id="imgModal{{ include.file | remove:'.' }}" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded">
-        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-        <img src="{{ url }}" alt="{{ img-alt }}" width="100%" class="rounded" loading="lazy">
-      {%- if include.footnote %}
-      <div class="modal-footer border-0 pt-0">
-        {{ include.footnote }}
-      </div>
-      {%- endif %}
-    </div>
-  </div>
-</div>
-{%- endunless %}
+<img src="{{ url }}" alt="{{ img-alt }}" loading="lazy"
+  {%- if include.width %} width="{{ include.width }}"{% endif %}
+  style="
+    {%- if include.max-width %}max-width:{{ include.max-width }}; {% endif %}
+    {%- if include.max-height %}max-height:{{ include.max-height }}; {% endif %}"
+  class="rounded mt-2 {{ include.class }}{% unless include.islink == true %} img-popup{% endunless %}">
