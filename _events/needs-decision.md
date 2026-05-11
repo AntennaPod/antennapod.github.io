@@ -2,23 +2,11 @@
 title: "Needs: Decision - AntennaPod UX discussions"
 summary: A bi-weekly meeting where core contributors discuss feature requests & make tough choices.
 permalink: /events/:slug
-uid: TDL9-28GB-50YV-P6X4-D48Y
-sequence:
-# Optional. Defaults to 0 if left empty. Should be increased with 1 on every big event edit.
+calendar-path: needs-decision
 timezone: Europe/Brussels
 datetime-start: 2024-02-14 20:30
-datetime-end: 2024-02-14 21:30
 recurring: yes
 recurrence-text: 2nd-4th-wednesday
-recurrence-rule: FREQ=WEEKLY;INTERVAL=2;BYDAY=WE
-recurrence-exceptions:
-- 2024-07-02
-recurrence-additions:
-# List of date-times on which the event is additionally taking place.
-- start: 2023-12-28 21:00
-  end: 2023-12-28 22:30
-- start: 2024-07-10 21:00
-  end: 2024-07-10 22:30
 location: online
 more-information: https://github.com/AntennaPod/AntennaPod/issues?q=state%3Aopen%20label%3A%22Needs%3A%20Decision%22
 meeting-room: https://meet.antennapod.org/needsdecision
