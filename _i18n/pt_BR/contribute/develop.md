@@ -1,0 +1,1 @@
+Sendo um projeto da comunidade, o AntennaPod conta com contribuições voluntárias de código de uma ampla variedade de pessoas. Não apenas para o app em si, mas também para o site e projetos relacionados.
