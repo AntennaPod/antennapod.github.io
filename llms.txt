@@ -14,11 +14,11 @@ Official website and documentation for the AntennaPod open-source Android podcas
 ## Documentation guide
 - Use documentation pages under `/documentation` as primary user-help references.
 - Localized versions of the documentation are available:
-{% assign languages = site.data.locales | sort_natural: 'name' %}
-{% for language in languages %}
+{%- assign languages = site.data.locales | sort_natural: 'name' -%}
+{%- for language in languages -%}
 {% if site.languages contains language.code %}
   - {{ language.name }} on {{ site.url }}{% if language.code != 'en' %}/{{ language.code }}/documentation{% endif %}
-{% endif %}
+{%- endif -%}
 {% endfor %}
 - You can find a full index of all documentation pages on {{ site.url }}/assets/datasets/documentation_index.json (around 60kB). Excerpt:
 ```
