@@ -2,15 +2,10 @@
 layout: null
 ---
 [
-  {% for documentation in site.documentation %}
-    {% capture title %}{% t {{ documentation.texts }}.title %}{% endcapture %}
-    {% capture excerpt %}{{ documentation.content | strip_html | strip_newlines | truncatewords: 25 }}{% endcapture %}
-    {
-      "title"    : "{{ title | escape }}",
-      "url"      : "{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{{ documentation.url | replace:'.html','' }}",
-      "excerpt"  : {{ excerpt | jsonify }},
-      "content"  : {{ documentation.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+{%- for documentation in site.documentation -%}
+{%- capture title -%}{% t {{ documentation.texts }}.title %}{%- endcapture -%}
+{%- assign title = title | strip -%}
+{%- capture content -%}{{ documentation.content | strip_html | replace: "\n", " " | remove_first: title | strip }}{%- endcapture -%}
+{"title":{{ title | jsonify }},"url":"{% if site.lang != "en" %}/{{ site.lang }}{% endif %}{{ documentation.url | replace:'.html','' }}","excerpt":{{ content | truncatewords: 25 | jsonify }},"content":{{ content | jsonify }}}{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
 ]
-
