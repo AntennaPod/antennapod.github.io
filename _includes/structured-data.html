@@ -1,4 +1,8 @@
   {% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+  {% assign article_image = include.image %}
+  {% unless article_image %}
+    {% assign article_image = site.url | append: '/assets/branding/covers/cover_001.png' %}
+  {% endunless %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -47,7 +51,7 @@
         "url": "{{ canonical_url }}",
         "image": {
           "@type": "ImageObject",
-          "url": "{{ include.image | default: site.url | append: '/assets/branding/covers/cover_001.png' }}"
+          "url": "{{ article_image }}"
         },
         "datePublished": "{{ page.date | date_to_xmlschema }}",
         "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
