@@ -31,8 +31,8 @@
         "@type": "WebPage",
         "@id": "{{ canonical_url }}#webpage",
         "url": "{{ canonical_url }}",
-        "name": "{{ include.title | strip | escape }}",
-        "description": "{{ include.description | strip | escape }}",
+        "name": "{{ include.title | default: page.title | strip | escape }}",
+        "description": "{{ include.description | default: page.description | default: site.description | strip | escape }}",
         "isPartOf": {
           "@id": "{{ site.url }}/#website"
         },
@@ -43,9 +43,12 @@
         "@type": "Article",
         "@id": "{{ canonical_url }}#article",
         "headline": "{{ page.title | strip | escape }}",
-        "description": "{{ include.description | strip | escape }}",
+        "description": "{{ include.description | default: page.description | default: site.description | strip | escape }}",
         "url": "{{ canonical_url }}",
-        "image": "{{ include.image }}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ include.image }}"
+        },
         "datePublished": "{{ page.date | date_to_xmlschema }}",
         "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
         "publisher": {
@@ -60,8 +63,8 @@
       ,{
         "@type": "TechArticle",
         "@id": "{{ canonical_url }}#techarticle",
-        "headline": "{{ include.title | strip | escape }}",
-        "description": "{{ include.description | strip | escape }}",
+        "headline": "{{ include.title | default: page.title | strip | escape }}",
+        "description": "{{ include.description | default: page.description | default: site.description | strip | escape }}",
         "url": "{{ canonical_url }}",
         "publisher": {
           "@id": "{{ site.url }}/#organization"
