@@ -41,6 +41,31 @@
           "@id": "{{ site.url }}/#website"
         },
         "inLanguage": "{{ site.lang }}"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "{{ site.url }}/#software",
+        "name": "{{ site.title }}",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Android",
+        "description": "{{ site.description | strip | escape }}",
+        "url": "{{ site.url }}",
+        "publisher": {
+          "@id": "{{ site.url }}/#organization"
+        },
+        "downloadUrl": [
+          "https://play.google.com/store/apps/details?id=de.danoeh.antennapod",
+          "https://f-droid.org/packages/de.danoeh.antennapod"
+        ],
+        "screenshot": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/images/screenshots/en/00.png"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
       }
       {% if page.layout == "blog" %}
       ,{
@@ -77,19 +102,6 @@
           "@id": "{{ canonical_url }}#webpage"
         },
         "inLanguage": "{{ site.lang }}"
-      }
-      {% elsif page.url == "/" or page.url == "/index.html" %}
-      ,{
-        "@type": "SoftwareApplication",
-        "@id": "{{ site.url }}/#software",
-        "name": "{{ site.title }}",
-        "applicationCategory": "MultimediaApplication",
-        "operatingSystem": "Android",
-        "description": "{{ site.description | strip | escape }}",
-        "url": "{{ site.url }}",
-        "publisher": {
-          "@id": "{{ site.url }}/#organization"
-        }
       }
       {% endif %}
     ]

@@ -3,5 +3,8 @@ layout: null
 ---
 User-agent: *
 Allow: /
-
 Sitemap: {{ site.url }}/sitemap.xml
+
+# Documentation Index
+# JSON index of all documentation pages for AI agents and search tools
+Allow: /assets/datasets/documentation_index.json
