@@ -5,40 +5,13 @@
 (function() {
   'use strict';
 
-  const CACHE_KEY = 'antennapod_contributors';
-  const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
-  const GITHUB_API = 'https://api.github.com/repos/AntennaPod/AntennaPod/contributors?per_page=100';
-
-  function getCache() {
-    try {
-      const cached = localStorage.getItem(CACHE_KEY);
-      if (cached) {
-        const data = JSON.parse(cached);
-        if (Date.now() - data.timestamp < CACHE_DURATION) {
-          return data.contributors;
-        }
-      }
-    } catch (e) {
-      console.warn('Contributors cache read error:', e);
-    }
-    return null;
-  }
-
-  function setCache(contributors) {
-    try {
-      localStorage.setItem(CACHE_KEY, JSON.stringify({
-        timestamp: Date.now(),
-        contributors: contributors
-      }));
-    } catch (e) {
-      console.warn('Contributors cache write error:', e);
-    }
-  }
+  var GITHUB_API = 'https://api.github.com/repos/AntennaPod/AntennaPod/contributors?per_page=100';
+  var CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
 
   function renderContributors(contributors, container, limit) {
     const displayCount = limit || contributors.length;
     const displayContributors = contributors.slice(0, displayCount);
-    
+
     let html = '<div class="contributors-grid">';
     displayContributors.forEach(function(c) {
       // Use size 96 for retina displays, CSS will handle actual display size
@@ -53,11 +26,11 @@
       html += '</a>';
     });
     html += '</div>';
-    
+
     if (contributors.length > displayCount) {
       html += '<p class="text-body-secondary small mt-3 mb-0">+' + (contributors.length - displayCount) + ' more contributors</p>';
     }
-    
+
     container.innerHTML = html;
   }
 
@@ -77,38 +50,21 @@
       '</div>';
   }
 
-  async function fetchContributors() {
-    const response = await fetch(GITHUB_API);
-    if (!response.ok) {
-      throw new Error('GitHub API error: ' + response.status);
-    }
-    return await response.json();
-  }
-
   function initContributors() {
-    const containers = document.querySelectorAll('[data-contributors]');
-    
+    var containers = document.querySelectorAll('[data-contributors]');
+
     containers.forEach(function(container) {
-      const limit = parseInt(container.getAttribute('data-contributors-limit')) || 30;
-      
-      // Check cache first
-      var contributors = getCache();
-      
-      if (contributors) {
-        renderContributors(contributors, container, limit);
-      } else {
-        renderLoading(container);
-        
-        fetchContributors()
-          .then(function(data) {
-            setCache(data);
-            renderContributors(data, container, limit);
-          })
-          .catch(function(error) {
-            console.error('Failed to fetch contributors:', error);
-            renderError(container);
-          });
-      }
+      var limit = parseInt(container.getAttribute('data-contributors-limit')) || 30;
+      renderLoading(container);
+
+      cachedFetch(GITHUB_API, CACHE_DURATION)
+        .then(function(data) {
+          renderContributors(data, container, limit);
+        })
+        .catch(function(error) {
+          console.error('Failed to fetch contributors:', error);
+          renderError(container);
+        });
     });
   }
 
@@ -119,4 +75,3 @@
     initContributors();
   }
 })();
-
