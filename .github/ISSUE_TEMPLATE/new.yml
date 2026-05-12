@@ -1,0 +1,34 @@
+name: New feature or section
+description: Request a section or functionality be added
+title: "[New] "
+labels:
+  - new
+body:
+  - type: textarea
+    id: short-description
+    attributes:
+      label: Short description
+      description: Describe in 1 or 2 sentences the new feature or section you want to see on the website.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Mention on which page (where in the site structure) this should be added.
+    validations:
+      required: true
+  - type: textarea
+    id: why-have-this
+    attributes:
+      label: Why have this
+      description: In 1 or 2 sentences, describe how this would help the AntennaPod project.
+    validations:
+      required: true
+  - type: textarea
+    id: more-info
+    attributes:
+      label: More info
+      description: Provide any further details, mock-ups, technical details, or external examples.
+    validations:
+      required: false
