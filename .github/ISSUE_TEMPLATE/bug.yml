@@ -1,6 +1,5 @@
 name: Bug
 description: Report a technical or UI bug
-title: "[Bug] "
 labels:
   - bug
 body:
@@ -17,7 +16,7 @@ body:
       label: URL
       description: List the affected pages or sections.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: more-info
     attributes:

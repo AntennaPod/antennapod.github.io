@@ -1,6 +1,5 @@
 name: New feature or section
 description: Request a section or functionality be added
-title: "[New] "
 labels:
   - new
 body:
@@ -17,14 +16,14 @@ body:
       label: Location
       description: Mention on which page (where in the site structure) this should be added.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: why-have-this
     attributes:
       label: Why have this
       description: In 1 or 2 sentences, describe how this would help the AntennaPod project.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: more-info
     attributes:
