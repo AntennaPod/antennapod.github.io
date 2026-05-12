@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 19:23+0200\n"
-"PO-Revision-Date: 2026-05-08 10:11+0000\n"
+"PO-Revision-Date: 2026-05-12 19:55+0000\n"
 "Last-Translator: bulent sahin <sahin.bulent@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/tr/>\n"
@@ -449,7 +449,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
-#, fuzzy
 msgid ""
 "If AntennaPod detects a broken database, it writes it to a file named "
 "CorruptedDatabaseBackup.db in the app storage directory. You can attempt to "
@@ -458,11 +457,12 @@ msgid ""
 "automate the recovery process. This is a challenge and requires learning how "
 "to deal with a terminal."
 msgstr ""
-"AntennaPod bozuk bir veritabanı algılarsa , bunu uygulama depolama "
-"dizinindeki CorruptedDatabaseBackup.db adlı bir dosyaya yazar . Aşağıdaki "
-"adımlardan birini kullanarak bu dosyayı onarmayı (veya dışa aktarılan bir "
-"yedeği onarmayı) deneyebilirsiniz. Bu bir zorluktur ve bir terminalle nasıl "
-"başa çıkılacağını öğrenmeyi gerektirir."
+"AntennaPod bozuk bir veritabanı tespit ederse, bunu uygulama depolama "
+"dizinindeki CorruptedDatabaseBackup.db adlı bir dosyaya yazar. Kurtarma "
+"işlemini otomatikleştirmek için geliştirilen bir [Python script](https://"
+"github.com/ByteHamster/AntennaPodDbFixer) kullanarak bu dosyayı (veya dışa "
+"aktarılmış bir yedeklemeyi) onarmayı deneyebilirsiniz. Bu zorlu bir işlemdir "
+"ve terminal kullanımı konusunda bilgi gerektirir."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -2413,7 +2413,6 @@ msgstr "Videonun %0-90'ına git"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to make it easy for your network or audience to add your "
 "podcast(s) in AntennaPod? Simply include a link like the one below on your "
@@ -2422,11 +2421,13 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"Ağınızın veya kitlenizin podcast'lerinizi AntennaPod'a eklemesini "
-"kolaylaştırmak ister misiniz ? Aşağıda verilene benzer bir bağlantıyı web "
-"sitenize veya istediğiniz yere eklemeniz yeterlidir. ` xyz `'yi RSS "
-"beslemenizin URL'siyle ve ` abc `'yi podcast'inizin başlığıyla "
-"değiştirdiğinizden emin olun."
+"Ağınızın veya dinleyicilerinizin podcast'lerinizi AntennaPod'a eklemesini "
+"kolaylaştırmak ister misiniz? Web sitenize veya istediğiniz herhangi bir "
+"yere aşağıdaki gibi bir bağlantı eklemeniz yeterlidir. `xyz` yerine RSS "
+"beslemenizin URL'sini ve `abc` yerine podcast'inizin başlığını yazdığınızdan "
+"emin olun. URL'niz veya başlığınız `&` gibi özel karakterler içeriyorsa, "
+"bunların [URL kodlaması](https://en.wikipedia.org/wiki/Percent-encoding) ile "
+"kodlanması gerektiğini unutmayın."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
