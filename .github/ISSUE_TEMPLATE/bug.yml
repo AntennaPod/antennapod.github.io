@@ -1,0 +1,26 @@
+name: Bug
+description: Report a technical or UI bug
+labels:
+  - bug
+body:
+  - type: textarea
+    id: short-description
+    attributes:
+      label: Short description
+      description: Describe in 1 or 2 sentences the UI problem or technical bug you found.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: List the affected pages or sections.
+    validations:
+      required: false
+  - type: textarea
+    id: more-info
+    attributes:
+      label: More info
+      description: Provide any further details, screenshots, or technical details about the problem.
+    validations:
+      required: false
