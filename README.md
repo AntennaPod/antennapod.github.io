@@ -2,7 +2,7 @@
 
 This repository contains AntennaPod's project website, which is live on https://antennapod.org.
 
-<img src="assets/images/screenshot-main-page.png" alt="AntennaPod website main page" width="600">
+<img src="assets/images/screenshot-main-page.png" alt="AntennaPod website main page" width="400">
 
 ## About the site
 
