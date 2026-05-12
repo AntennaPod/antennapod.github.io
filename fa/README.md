@@ -2,6 +2,8 @@
 
 This repository contains AntennaPod's project website, which is live on https://antennapod.org.
 
+<img src="assets/images/screenshot-main-page.png" alt="AntennaPod website main page" width="400">
+
 ## About the site
 
 The current website & theme was set up by [AnXh3L0](https://github.com/AnXh3L0) and is now maintained by the project team. The theme and code are released under [the MIT License](https://mit-license.org/), the texts on the site under a [Creative Commons Attribution-ShareAlike International 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/legalcode). The website is hosted via [GitHub pages](https://pages.github.com/) and therefore is built using [Jekyll](https://jekyllrb.com/).
