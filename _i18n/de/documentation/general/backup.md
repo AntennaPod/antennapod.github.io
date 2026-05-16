@@ -1,12 +1,12 @@
-Es gibt mehrere Möglichkeiten, deine Daten auf ein neues Telefon zu übertragen und jede Methode kopiert eine bestimmte Menge an Daten:
+Es gibt mehrere Möglichkeiten, deine Daten auf ein neues Smartphone zu übertragen und jede Methode kopiert eine bestimmte Menge an Daten:
 
 ## Datenbank-Export
 
-Das Exportieren der AntennaPod-Datenbank ist eine gute Methode, wenn du auf ein neues Telefon oder Tablet umsteigen möchtest. Du solltest sicherstellen, dass du dieselbe Version von AntennaPod auf dem alten und dem neuen Telefon hast. Nach dem Importieren sind alle Daten wiederhergestellt; du musst nur die Episoden erneut herunterladen.
+Das Exportieren der AntennaPod-Datenbank ist eine gute Methode, wenn du auf ein neues Smartphone oder Tablet umsteigen möchtest. Du solltest sicherstellen, dass du dieselbe Version von AntennaPod auf dem alten und dem neuen Smartphone hast. Nach dem Importieren sind alle Daten wiederhergestellt; du musst nur die Episoden erneut herunterladen.
 
 ## Synchronisierung
 
-Die Synchronisierung von AntennaPod über *gpodder.net* oder die App *gPodder Sync* für Nextcloud ermöglicht das Speichern und Migrieren einiger Podcast- und Episodendaten. Dabei gehen deine Favoriten, Warteschlangen und App-Einstellungen verloren. Dies kann dir beim Wechsel zwischen Telefon, Tablet und/oder Desktop helfen. Bitte lies den [Artikel zur Synchronisierung](/de/Dokumentation/Allgemeines/Synchronisierung) für spezifische Anweisungen.
+Die Synchronisierung von AntennaPod über *gpodder.net* oder die App *gPodder Sync* für Nextcloud ermöglicht das Speichern und Migrieren einiger Podcast- und Episodendaten. Dabei gehen deine Favoriten, Warteschlangen und App-Einstellungen verloren. Dies kann dir beim Wechsel zwischen Smartphone, Tablet und/oder Desktop helfen. Bitte lies den [Artikel zur Synchronisierung](/de/Dokumentation/Allgemeines/Synchronisierung) für spezifische Anweisungen.
 
 ## OPML
 

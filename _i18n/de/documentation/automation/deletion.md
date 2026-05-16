@@ -1,6 +1,6 @@
 Warum werden manche heruntergeladenen Episoden gelöscht?
 
-AntennaPod verfügt über mehrere Mechanismen, die sicherstellen, dass heruntergeladene Podcasts nicht den Speicher deines Telefons voll machen. Wenn du feststellst, dass einige heruntergeladene Episoden gelöscht werden, überprüfe diese beiden Einstellungen:
+AntennaPod verfügt über mehrere Mechanismen, die sicherstellen, dass heruntergeladene Podcasts nicht den Speicher deines Smartphones voll machen. Wenn du feststellst, dass einige heruntergeladene Episoden gelöscht werden, überprüfe diese beiden Einstellungen:
 
 ## Nach Wiedergabe löschen
 

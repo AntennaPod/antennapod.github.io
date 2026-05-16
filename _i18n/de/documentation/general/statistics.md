@@ -25,6 +25,6 @@ Es wäre zum Beispiel möglich, für jede Episode zu erfassen, wie lange sie an 
 
 Dafür gibt es zwei Hauptgründe. Erstens: Statistiken machen zwar Spaß, aber **wir möchten unsere Zeit lieber für den Hauptzweck von AntennaPod verwenden: das Abspielen von Podcasts**. Das Umstellen auf diesen neuen Ansatz würde jetzt Zeit für die Implementierung (Neuschreiben des Codes, der die Wiedergabezeit in der Datenbank speichert) und in Zukunft Zeit für die Pflege eines komplexeren Systems erfordern.
 
-Zweitens, **AntennaPod würde mehr Speicherplatz auf deinem Telefon** benötigen – vor allem bei treuen Nutzern, welche die App mehrere Jahre lang verwenden. Das liegt daran, dass wir anstelle einer einzigen Zeile pro Episode in der Datenbank mehrere Zeilen für jede abgespielte Episode speichern müssten, um die Wiedergabedauer zu speichern, was die Datenbankgröße erhöht.
+Zweitens, **AntennaPod würde mehr Speicherplatz auf deinem Smartphone** benötigen – vor allem bei treuen Nutzern, welche die App mehrere Jahre lang verwenden. Das liegt daran, dass wir anstelle einer einzigen Zeile pro Episode in der Datenbank mehrere Zeilen für jede abgespielte Episode speichern müssten, um die Wiedergabedauer zu speichern, was die Datenbankgröße erhöht.
 
 Wir wünschen dir viel Spaß mit den monatlichen Statistiken! 📊 (Wenn du ein Webentwickler sind, der daran interessiert ist, ein spezielles Dashboard für AntennaPod-Statistiken auf der Grundlage von Datenbankexporten zu erstellen, melde dich bitte bei uns im Forum.)

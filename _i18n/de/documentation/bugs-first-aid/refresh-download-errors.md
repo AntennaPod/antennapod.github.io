@@ -8,7 +8,7 @@ Probleme, die nur bei einem oder wenigen bestimmten Podcasts auftreten, hängen 
 
 Falls die Adresse auch im Browser nicht funktioniert, bedeutet dies, dass es sich nicht um ein Problem mit AntennaPod handelt. Wenn du die Fehlermeldung immer wieder erhältst, wurde der Podcast wahrscheinlich verschoben, vom Netz genommen oder ist nicht richtig konfiguriert. In diesem Fall wende dich bitte an die Erstellenden des Podcasts (da das Problem nicht von unserer Seite aus behoben werden kann).
 
-Besagt die Fehlermeldung im Download-Protokoll „Failed to connect to [url]“? Dann bedeutet dies wahrscheinlich, dass es in deinem Netzwerk Störungen gibt. Falls du einen Werbeblocker, VPN, Proxy, speziellen DNS-Dienst, Privacy Guard, ein Captive Portal, oder eine Kindersicherung auf deinem Telefon eingerichtet hast, kannst du versuchen, diese zu deaktivieren.
+Besagt die Fehlermeldung im Download-Protokoll „Failed to connect to [url]“? Dann bedeutet dies wahrscheinlich, dass es in deinem Netzwerk Störungen gibt. Falls du einen Werbeblocker, VPN, Proxy, speziellen DNS-Dienst, Privacy Guard, ein Captive Portal, oder eine Kindersicherung auf deinem Smartphone eingerichtet hast, kannst du versuchen, diese zu deaktivieren.
 
 Du siehst eine Fehlermeldung wie „not well-formed (invalid token)“? Dann hat der Herausgeber seinen (RSS-)Feed kaputt gemacht. (Zum Beispiel könnte er ein einfaches `&`-Zeichen verwendet haben, anstatt es als `&amp;` zu kodieren). Wende dich bitte direkt an den Herausgeber, da dies nicht von unserer Seite aus behoben werden kann.
 
