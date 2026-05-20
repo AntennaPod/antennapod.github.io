@@ -1,6 +1,5 @@
 ---
 title: 10 Year anniversary 🎉
-uid: c9c773d2-8106-4075-89b6-e071a1daedeb
 timezone: Europe/Brussels
 datetime-start: 2022-07-22 18:00
 datetime-end: 2022-07-22 19:00
