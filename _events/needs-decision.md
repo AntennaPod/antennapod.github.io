@@ -1,7 +1,6 @@
 ---
 title: "Needs: Decision - AntennaPod UX discussions"
 summary: A bi-weekly meeting where core contributors discuss feature requests & make tough choices.
-permalink: /events/:slug
 calendar-path: needs-decision
 timezone: Europe/Brussels
 datetime-start: 2024-02-14 20:30

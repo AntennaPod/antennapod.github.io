@@ -1,8 +1,6 @@
 ---
 title: Awesome get-together on topic X 😎
 # Required. Displayed on the event detail page.
-permalink: 
-# Optional. "/events/:slug" recommended for recurring events, to avoid a date-based URL.
 recurring: 
 # Optional. Can be "yes"
 recurrence-text: 
