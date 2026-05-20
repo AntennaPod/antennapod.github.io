@@ -16,7 +16,7 @@ summary:
 image: 
 # Optional. Displayed on Events overview page and the event detail page.
 location: 
-# Required. Must be an osm.org relation ID or the text 'online'.
+# Required. Must be an osm.org type + ID (e.g. node/13473395006) or the text 'online'.
 
 # Links on the events page:
 meeting-room: 
