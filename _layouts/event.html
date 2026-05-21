@@ -65,18 +65,11 @@ layout: internal
             {% endif %}
           {% endfor %}
           {% assign info_counter = info_counter | minus:1 %}
-          <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} overflow-hidden">
+          <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} overflow-hidden event-links-grid">
             {% for link in site.data.event-links %}
             {%- if page[link.key] or link.key == 'calendar-path' -%}
             {% unless page[link.key] == 'online' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless link.key == 'calendar-path' and page.recurring != true and page.uid == nil %}{% unless status == 'past' and link.key == 'calendar-path' %}
-            {%- assign link-index = forloop.index0 %}
-            {% if status == 'past' %}{% assign link-index = link-index | minus: 1 %}{% endif %}
-            {% if info_counter > 3 %}
-              {% assign link-index = link-index | modulo: 2 %}
-            {% else %}
-              {% assign link-index = link-index | modulo: 3 %}
-            {% endif %}
-            <div class="col py-3 border-top position-relative{% unless link-index == 0 %} border-start{% endunless %} hidden-border-margin-child">
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
               <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
               {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
               {%- if link.key == 'calendar-path' %} data-bs-toggle="modal" data-bs-target="#addToCalendarModal"{% endif %}>

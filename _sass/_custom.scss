@@ -624,6 +624,18 @@ blockquote {
   padding-right: 1rem;
 }
 
+.event-links-grid > .event-link-item {
+  border-left: 0;
+}
+
+.event-links-grid > .event-link-item + .event-link-item {
+  border-left: $border-width solid var(--bs-border-color);
+}
+
+.event-links-grid.row-cols-2 > .event-link-item:nth-child(2n + 1) {
+  border-left: 0;
+}
+
 // Boxes and Cards - Use Bootstrap's .card-img-top for images
 .project-card {
   background: var(--bs-tertiary-bg);
