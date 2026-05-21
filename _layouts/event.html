@@ -51,24 +51,26 @@ layout: internal
         <!-- Event Details Card -->
         <div class="card mt-5">
           <img class="card-img-top" src="/assets/{% if page.image %}images/events/{{ page.image }}{% else %}branding/covers/cover_001.png{% endif %}" loading="lazy" style="max-height: 15rem; object-fit: cover;" />
+          {% assign info_counter = 0 %}
           {% for link in site.data.event-links %}
             {% if page[link.key] or link.key == 'calendar-path' %}
-              {% unless page.location != 'online' and link.key == 'meeting-room' %}
-                {% unless status == 'past' and link.key == 'meeting-room' %}
-                  {% unless link.key == 'calendar-path' and page.recurring != true and page.uid == nil %}
-                    {% unless status == 'past' and link.key == 'calendar-path' %}
-                      {% assign info_counter = info_counter | plus:1 %}
+              {% unless page.location == 'online' and link.key == 'location' %}
+                {% unless page.location != 'online' and link.key == 'meeting-room' %}
+                  {% unless status == 'past' and link.key == 'meeting-room' %}
+                    {% unless link.key == 'calendar-path' and page.recurring != true and page.uid == nil %}
+                      {% unless status == 'past' and link.key == 'calendar-path' %}
+                        {% assign info_counter = info_counter | plus: 1 %}
+                      {% endunless %}
                     {% endunless %}
                   {% endunless %}
                 {% endunless %}
               {% endunless %}
             {% endif %}
           {% endfor %}
-          {% assign info_counter = info_counter | minus:1 %}
           <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} overflow-hidden event-links-grid">
             {% for link in site.data.event-links %}
             {%- if page[link.key] or link.key == 'calendar-path' -%}
-            {% unless page[link.key] == 'online' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless link.key == 'calendar-path' and page.recurring != true and page.uid == nil %}{% unless status == 'past' and link.key == 'calendar-path' %}
+            {% unless page.location == 'online' and link.key == 'location' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless link.key == 'calendar-path' and page.recurring != true and page.uid == nil %}{% unless status == 'past' and link.key == 'calendar-path' %}
             <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
               <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
               {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
