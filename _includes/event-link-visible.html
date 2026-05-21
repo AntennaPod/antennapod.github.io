@@ -1,0 +1,13 @@
+{%- if page[link.key] or link.key == 'calendar-path' -%}
+  {%- unless link.key == 'location' and page.location == 'online' -%}
+    {%- unless link.key == 'meeting-room' and page.location != 'online' -%}
+      {%- unless link.key == 'meeting-room' and status == 'past' -%}
+        {%- unless link.key == 'calendar-path' and page.recurring != true and page.uid == nil -%}
+          {%- unless link.key == 'calendar-path' and status == 'past' -%}
+            1
+          {%- endunless -%}
+        {%- endunless -%}
+      {%- endunless -%}
+    {%- endunless -%}
+  {%- endunless -%}
+{%- endif -%}
