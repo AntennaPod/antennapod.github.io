@@ -9,7 +9,7 @@ recurring: yes
 recurrence-text: every-2nd-saturday
 location: online
 more-information: https://forum.antennapod.org/t/monthly-community-call/1869
-meeting-room: https://meet.antennapod.org/community-call
+meeting-room: community-call
 ---
 
 {% tf "events/{{ page.slug }}.md" %}

@@ -9,7 +9,7 @@ recurring: yes
 recurrence-text: 2nd-4th-wednesday
 location: online
 more-information: https://github.com/AntennaPod/AntennaPod/issues?q=state%3Aopen%20label%3A%22Needs%3A%20Decision%22
-meeting-room: https://meet.antennapod.org/needs-decision
+meeting-room: needs-decision
 ---
 
 We are very careful about AntennaPod's User Experience (UX). The [project's goal](/about) here is to balance simplicity with feature-richness. Sometimes that requires some hard thinking on how to implement a feature request.
