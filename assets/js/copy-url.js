@@ -5,5 +5,19 @@ function copyUrl(event) {
     ?? event?.currentTarget?.value
     ?? document.location.href;
 
-  navigator.clipboard.writeText(url);
+  if (!navigator.clipboard?.writeText) {
+    return;
+  }
+
+  navigator.clipboard.writeText(url)
+    .then(function() {
+      const tooltipTrigger = event?.currentTarget;
+      if (tooltipTrigger?.getAttribute('data-bs-toggle') === 'tooltip' && window.bootstrap?.Tooltip) {
+        const tooltip = bootstrap.Tooltip.getOrCreateInstance(tooltipTrigger);
+        tooltip.show();
+      }
+    })
+    .catch(function() {
+      // Clipboard access can fail when permissions are denied.
+    });
 }
