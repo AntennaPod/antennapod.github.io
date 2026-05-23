@@ -6,4 +6,5 @@ Do you know of an event in your neighbourhood and would love to meet up with Ant
 
 [Propose a meet-up](https://forum.antennapod.org)
 
-<a href="{{ site.calendar_base_url }}/all-events" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ site.calendar_base_url }}/all-events">Add our events to your calendar</a>
+{% assign calendar_base_url = site.data.event-links | where: 'key', 'calendar-path' | map: 'url' | first %}
+<a href="{{ calendar_base_url }}all-events" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ calendar_base_url }}all-events">Add our events to your calendar</a>

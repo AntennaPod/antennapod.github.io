@@ -1,1 +1,1 @@
-Want to subscribe to just this gathering, or all our calls and meetings?
+Want to download the calendar file of this gathering, or subscribe to all our calls and meetings?
