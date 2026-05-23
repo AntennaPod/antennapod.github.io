@@ -2,7 +2,7 @@
 
 بنابراین، از کمک شما بسیار سپاسگزاریم!
 
-ترجمه‌های ما در وب‌لیت، یک سکو بومی‌سازی متن‌باز، میزبانی می‌شوند. هر کسی می‌تواند آنجا ثبت‌نام کند و [ترجمه برای آنتناپاد را آغاز کند](https://hosted.weblate.org/projects/antennapod). هر آنچه باید بدانید در [مستندات وب‌لیت برای مترجمان](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"} خواهید یافت.
+ترجمه‌هایمان روی وب‌لیت، بن‌سازهٔ آزادی بومی‌سازی میزبانی می‌شود. هر کسی می‌تواند نام نوشته و [به ترجمهٔ آنتناپاد](https://hosted.weblate.org/projects/antennapod) بپردازد. هر آنچه باید بدانید را در [مستندات وب‌لیت برای مترجمان](https://docs.weblate.org/en/latest/user/translating.html){:target="_blank"} خواهید یافت.
 
 {% capture img-translationstatus %} {% include image.html alt="
 
