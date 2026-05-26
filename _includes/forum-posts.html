@@ -24,8 +24,8 @@
       </div>
     </div>
 
-    <div class="mt-3 pt-3 border-top">
-      <a href="https://forum.antennapod.org" target="_blank" rel="noopener" class="btn btn-primary w-100">
+    <div class="mt-3">
+      <a href="https://forum.antennapod.org" target="_blank" rel="noopener" class="btn btn-outline-primary">
         {% t homepage.forum-posts.view-all %} <i class="fa-solid fa-arrow-up-right-from-square me-2"></i>
       </a>
     </div>
@@ -125,7 +125,7 @@
       }
 
       html += '<a href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener" ';
-      html += 'class="list-group-item list-group-item-action px-0 py-2 border-0">';
+      html += 'class="list-group-item list-group-item-action px-0 border-0">';
       html += '<div class="d-flex align-items-start">';
       html += '<i class="fa-regular fa-comment-dots text-primary me-2 mt-1 flex-shrink-0"></i>';
       html += '<div class="flex-grow-1 min-width-0">';
