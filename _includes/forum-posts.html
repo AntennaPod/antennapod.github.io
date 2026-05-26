@@ -24,8 +24,8 @@
       </div>
     </div>
 
-    <div class="mt-3 pt-3 border-top">
-      <a href="https://forum.antennapod.org" target="_blank" rel="noopener" class="btn btn-primary w-100">
+    <div class="mt-3">
+      <a href="https://forum.antennapod.org" target="_blank" rel="noopener" class="btn btn-outline-primary">
         {% t homepage.forum-posts.view-all %} <i class="fa-solid fa-arrow-up-right-from-square me-2"></i>
       </a>
     </div>
@@ -44,52 +44,16 @@
     var container = document.getElementById('forum-posts-container');
     if (!container) return;
 
-    // Check localStorage cache (15 minutes)
-    var cacheKey = 'forum_posts_cache_v5';
-    var cacheTimeKey = 'forum_posts_cache_time_v5';
-    var cached = localStorage.getItem(cacheKey);
-    var cacheTime = localStorage.getItem(cacheTimeKey);
-    var cacheExpiry = 15 * 60 * 1000;
-
-    if (cached && cacheTime && (Date.now() - parseInt(cacheTime)) < cacheExpiry) {
-      try {
-        var cachedData = JSON.parse(cached);
-        if (cachedData && cachedData.length > 0) {
-          renderPosts(cachedData, container);
-          return;
-        }
-      } catch (e) {
-        localStorage.removeItem(cacheKey);
-        localStorage.removeItem(cacheTimeKey);
-      }
-    }
-
-    // Fetch from the dedicated CORS proxy
-    fetch(API_URL, {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/json'
-      }
-    })
-    .then(function(response) {
-      if (!response.ok) throw new Error('HTTP ' + response.status);
-      return response.json();
-    })
-    .then(function(data) {
-      var posts = parseTopics(data);
-      if (posts.length > 0) {
-        // Cache successful result
-        localStorage.setItem(cacheKey, JSON.stringify(posts));
-        localStorage.setItem(cacheTimeKey, Date.now().toString());
+    cachedFetch(API_URL, 15 * 60 * 1000)
+      .then(function(data) {
+        var posts = parseTopics(data);
+        if (posts.length === 0) throw new Error('No topics found');
         renderPosts(posts, container);
-      } else {
-        throw new Error('No topics found');
-      }
-    })
-    .catch(function(error) {
-      console.warn('Failed to fetch forum posts:', error.message);
-      renderFallback(container);
-    });
+      })
+      .catch(function(error) {
+        console.warn('Failed to fetch forum posts:', error.message);
+        renderFallback(container);
+      });
   }
 
   function parseTopics(data) {
@@ -161,7 +125,7 @@
       }
 
       html += '<a href="' + escapeHtml(post.url) + '" target="_blank" rel="noopener" ';
-      html += 'class="list-group-item list-group-item-action px-0 py-2 border-0">';
+      html += 'class="list-group-item list-group-item-action px-0 border-0">';
       html += '<div class="d-flex align-items-start">';
       html += '<i class="fa-regular fa-comment-dots text-primary me-2 mt-1 flex-shrink-0"></i>';
       html += '<div class="flex-grow-1 min-width-0">';
