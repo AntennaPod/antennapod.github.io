@@ -6,7 +6,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        {% tf general/events-add-calendar-modal.md %}
+        {%- t events.general.announce-add-calendar -%}
       </div>
       <div class="modal-footer border-0 pt-0">
         <button type="button" class="btn btn-secondary" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ calendar_subscription_url }}">{% t events.general.subscribe-all %}</button>

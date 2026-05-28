@@ -1,8 +1,8 @@
 function copyUrl(event) {
   event?.preventDefault();
-  const url = event?.currentTarget?.getAttribute('data-copy-url')
-    ?? event?.currentTarget?.getAttribute('value')
-    ?? event?.currentTarget?.value
+  const tooltipTrigger = event?.currentTarget;
+  const url = tooltipTrigger?.getAttribute('data-copy-url')
+    ?? tooltipTrigger?.value
     ?? document.location.href;
 
   if (!navigator.clipboard?.writeText) {
@@ -11,10 +11,8 @@ function copyUrl(event) {
 
   navigator.clipboard.writeText(url)
     .then(function() {
-      const tooltipTrigger = event?.currentTarget;
-      if (tooltipTrigger?.getAttribute('data-bs-toggle') === 'tooltip' && window.bootstrap?.Tooltip) {
-        const tooltip = bootstrap.Tooltip.getOrCreateInstance(tooltipTrigger);
-        tooltip.show();
+      if (tooltipTrigger?.dataset.bsToggle === 'tooltip' && window.bootstrap?.Tooltip) {
+        bootstrap.Tooltip.getOrCreateInstance(tooltipTrigger).show();
       }
     })
     .catch(function() {
