@@ -23,7 +23,7 @@ AntennaPod kan je abonnementen en luistervorderingen synchroniseren met andere A
 
 1. Als je een Nextcloud account hebt, installeer dan de gPodder Sync app of vraag je server admin om dit te doen
 1. Ga naar `Instellingen` » `Synchronisatie` in AntennaPod en tik op `Kies synchronisatieprovider`
-1. Kies 'Nextcloud'
+1. Kies 'gPodder'
 1. Vul het "Serveradres" in (de URL of het IP-adres van de server) en tik op `Verder `
 1. Log in op het geopende browservenster en verleen AntennaPod toestemming
 
