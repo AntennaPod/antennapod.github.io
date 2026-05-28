@@ -6,21 +6,21 @@ titles:
   events: События
   forum: Форум
   license: Лицензия
-  media-kit: Набор для Медиа
-  contribute: Помочь
+  media-kit: Для медиа
+  contribute: Внести вклад
   privacy: Политика конфиденциальности
-  features: Особенность
+  features: Особенности
 contribute:
   introduction: 'AntennaPod находится в активной разработке волонтёрами. Вы тоже можете
     помочь: с кодом или чем-нибудь другим!'
   support:
-    title: Поддержка
+    title: Поддержать другого
     text: Вы умеете хорошо объяснять? Помогите другим пользователям на нашем 
       форуме.
     card-text: Вы умеете хорошо объяснять? Помогайте другим пользователям на 
       нашем форуме.
   translate:
-    title: Перевести
+    title: Помочь переводу
     text: Вы разговариваете на любом другом языке, кроме английского? Помогите 
       нам перевести AntennaPod.
     card-text: Вы разговариваете на любом другом языке, кроме английского? 
@@ -57,7 +57,7 @@ contribute:
       предложите новые функции или исправления багов приложения или сайта.
     categories:
       app:
-        title: Программа
+        title: Приложение
         card-text: Вы говорите на Java? Узнайте, как внести свой вклад в 
           создание приложения AntennaPod.
         code-style:
@@ -65,12 +65,12 @@ contribute:
         test-builds:
           title: Получение тестовых сборок
         getting-credited:
-          title: Получение кредита за ваш вклад
+          title: Получение признания за ваш вклад
       website:
         title: Сайт
         card-text: Знакомы с SCSS и HTML? Помогите нам с нашим сайтом.
       upstream:
-        title: Разведка & другие проекты
+        title: Апстрим и другие проекты
         card-text: Помогите нам, внеся свой вклад в другие проекты, на которые 
           мы полагаемся.
       infrastructure:
@@ -97,8 +97,8 @@ readtime:
   plural: минут на чтение
 generic:
   home: Главная
-  contribute: Помочь
-  learn: Подробнее
+  contribute: Помочь разработке
+  learn: Узнать больше
   error: Ошибка
   error404: Ошибка 404
   redirect:
@@ -119,9 +119,9 @@ generic:
     share-fb: Поделиться в Facebook
     share-md: Поделиться в Mastodon
     share-tw: Поделиться в Twitter
-    share-eml: Поделиться по электронной почте
+    share-eml: Отправить по почте
     logo: Логотип AntennaPod
-    theme-menu: Сменит
+    theme-menu: Измененить тему
     skip-to-content: Перейти к основному контенту
   masto-share:
     server: 'Введите адрес сервера Mastodon (например: https://mastodon.social)'
@@ -131,17 +131,17 @@ generic:
     description: Введите URL-адрес вашего сервера Mastodon чтобы поделиться этой
       записью.
   eml-share:
-    subject: Я хотел, чтобы ты увидел это
-    body: Посмотрите эту статью
-  previous: Предыдущий
-  next: Следующий
+    subject: Я хочу чтобы ты это увидел
+    body: Посмотри эту статью
+  previous: Назад
+  next: Далее
   theme:
-    light: Светлый
-    dark: Сфера Тьмы
+    light: Светлая
+    dark: Тёмная
     auto: Авто
   subscribe-in: Подписаться в AntennaPod
 blog:
-  posted: Выложено в
+  posted: Опубликовано
   previous-post: Предыдущий
   next-post: Следующий
   related-posts: Подходящии Посты
@@ -150,7 +150,7 @@ blog:
     all: Все
     community: Сообщество
     tutorial: Обучение
-    project: Новости
+    project: Новости проекта
     release: Выпуск
 long_month:
   February: Февраль
@@ -180,7 +180,7 @@ homepage:
     приложения открытый исходный код и Вы можете подписаться на любую RSS-ленту.
     AntennaPod создан волонтёрами без коммерческого интереса, поэтому уважает 
     вашу конфиденциальность, предоставляя полный контроль.
-  header: Открыть плеер подкастов
+  header: Открытый Плеер Подкастов
   forum-posts:
     title: Форум сообщества
     description: Получить помощь, делитись идеями и общайтесь с другими 
@@ -280,7 +280,7 @@ documentation:
       title: Как упорядочить очередь
   subscriptions:
     subscription-groups:
-      title: Метки подписок (aka группы или категории)
+      title: Метки подписок (=теги, группы, категории)
     title: Подписки
     intro: Ниже вы найдёте часто задаваемые вопросы о подписках.
   bugs-first-aid:
@@ -288,7 +288,7 @@ documentation:
       title: Что-то не работает
     title: Баги, ошибки и первая помощь
     database-error:
-      title: Все мои подкасты & эпизоды исчезли
+      title: Все мои подкасты и эпизоды исчезли
     cannot-stream-download:
       title: Невозможно загрузить выпуск
     cannot-resume-playback:
@@ -299,17 +299,17 @@ documentation:
     playback-stops:
       title: Воспроизведение внезапно останавливается
     episodes-missing:
-      title: Старые выпуски отсутствуют
+      title: Старые выпуски пропали
     refresh-download-errors:
       title: Ошибка загрузки или обновления ленты
     intro: Создание ПО - дело рук человеческих, поэтому ошибки неизбежны. Но 
-      часто мы можем что-то с этим сделать!
+      чаще всего мы можем что-то с ними сделать!
   podcasters-hosters:
-    title: Для подкастеров & ведущих
+    title: Для подкастеров и хостеров
     intro: Ниже вы найдёте информацию для авторов подкастов и 
       хостинг-провайдеров.
     add-on-antennapod:
-      title: Создайте ссылку «Открыть в AntennaPod»
+      title: Создание ссылки «Открыть в AntennaPod»
     update-feed-urls:
       title: Обновление URL-адресов ленты
     list-podcast:
@@ -357,17 +357,17 @@ events:
     add-calendar: Добавить в календарь
     open-meeting: Открыть обсуждение
     more-information: Больше информации
-    open-map: Посмотреть локацию
+    open-map: Посмотреть местоположение
     watch-recording: Посмотреть записи
   general:
-    download-ics: Скачайте ICS файл
+    download-ics: Скачайть ICS файл
     recurring: Повторяющееся событие
-    copy-url: Скопируйте URL-адрес календаря
+    copy-url: Скопировать URL-адрес календаря
     announce-add-calendar: Хотите всегда иметь под рукой последние события и 
       обновленную информацию о звонках в сообщество? Тогда подпишитесь на наш 
       календарь в вашем любимом приложении через ссылку 'Добавить в календарь'!
     recurring-events: Повторяющиеся события
-    upcoming-events: Скоро
+    upcoming-events: Предстоящие мероприятия
     past-events: Прошедшие события
   recurrence:
     every-2nd-saturday: каждую вторую субботу месяца
@@ -376,14 +376,14 @@ footer:
   description: Простой в использовании, гибкий и открытый менеджер подкастов для
     Android.
 media-kit:
-  title: Набор для Медиа
+  title: Для медиа
   logo-section: Логотипы
   screenshots-section: Скриншоты
   primary: Основной
   secondary: Дополнительный
   accent: Выделение
   colors-section: Цвета бренда
-  download-all: Скачать всё
+  download-all: Скачать все материалы
   colors-description: Наши официальные цвета.
   screenshots-description: Скриншоты для прессы и продвижения.
   description: Официальные материалы AntennaPod для прессы и медиа.
@@ -395,3 +395,7 @@ contributors:
   title: Участники
 contributions-graph:
   past-year: В течение года
+  join-cta: Примкнуть к разработке
+  loading: Загрузка активности...
+  error: Не получилось загрузить данные активности
+  past-month: В этом месяце

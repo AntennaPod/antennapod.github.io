@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 21:56+0200\n"
-"PO-Revision-Date: 2026-05-26 07:09+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2026-05-28 14:37+0000\n"
+"Last-Translator: Jin Xiashomi <cute.XFCE.rat@2mail.co>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ru/>\n"
 "Language: ru\n"
@@ -862,7 +861,7 @@ msgid ""
 "give the following permissions:"
 msgstr ""
 "AntennaPod не будет спрашивать у вас никаких общих разрешений. Однако вы "
-"можете предоставить следующие разрешения:"
+"можете предоставить следующие из них:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -1083,16 +1082,15 @@ msgid ""
 "leave your feedback by creating a topic on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
-"Новые версии AntennaPod отправляется нашим бета-тестерам через Google Play "
-"Store, прежде чем быть выпущенной для широкой публики. Если у вас есть "
-"острый глаз и вы можете объяснить, что работает не совсем так, как нужно, мы "
-"будем рады вашей помощи! Кроме того, ваши мысли, что можно улучшить, "
-"помогают формировать приложение в соответствии с вашими пожеланиями. "
-"Пожалуйста, оставьте свой отзыв, создав тему на [нашем форуме](https://"
-"forum.antennapod.org/)."
+"Каждая новая версия AntennaPod отправляется нашим бета-тестерам через Google "
+"Play Store прежде чем быть выпущенной для широкой публики. Если у вас "
+"намётан глаз и вы можете объяснить что работает не совсем корректно, мы "
+"будем рады вашей помощи! В добавок, когда вы делитесь мыслями об "
+"усовершенствовании приложения, вы помогаете формировать его в соответствии с "
+"вашими пожеланиями (и ожиданиями сообщества). Пожалуйста, выскажите своё "
+"мнение создав тему на [нашем форуме](https://forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "So, you want to have the latest and greatest, and help us polish the app to "
 "make it truly shine? Simply visit the AntennaPod listing in the Play Store "
@@ -1100,11 +1098,12 @@ msgid ""
 "section. Or, if you're on your computer, you can join our beta program [here]"
 "(https://play.google.com/apps/testing/de.danoeh.antennapod)."
 msgstr ""
-"Хотите иметь все самое лучшее? Это, конечно, возможно! Просто зайдите на "
-"страницу AntennaPod в магазине Play и перейдите в раздел \"Стать бета-"
-"тестером\" в нижней части страницы. Или, если вы находитесь за компьютером, "
-"вы можете перейти по [этому url](https://play.google.com/apps/testing/"
-"de.danoeh.antennapod)."
+"Так что, хотите иметь все самое последнее и лучшее и помочь нам отполировать "
+"приложение чтобы оно по-настоящему блистало? Просто зайдите на страницу "
+"AntennaPod в приложении Play Store и перейдите в раздел **Примите участие в "
+"бета-тестеровании** сразу под пунктом *Поддержка приложения*. Или, если вы "
+"находитесь за компьютером, вы можете перейти по [этой ссылке](https://"
+"play.google.com/apps/testing/de.danoeh.antennapod)."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
 msgid "Become a beta tester - confirmation window in Google Play"
@@ -1127,14 +1126,14 @@ msgid ""
 "instantly. Unfortunately this cannot be guaranteed."
 msgstr ""
 "Это связано с тем, что F-Droid [не](https://gitlab.com/fdroid/fdroidserver/-/"
-"issues/161) автоматически распознает бета-версии. Добавление бета-версий в F-"
+"issues/161) распознает бета-версии автоматически. Добавление бета-версий в F-"
 "Droid потребовало бы ручного вмешательства для каждой бета-версии. Кроме "
-"того, если необходимо исправить что-то важное, обновление должно быть "
-"выпущено мгновенно. К сожалению, это невозможно гарантировать."
+"того, если необходимо исправить что-то важное, то обновление должно быть "
+"выпущено мгновенно. К сожалению это не гарантируется."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 1 (paragraph)
 msgid "There are basically two ways how to make a podcast app:"
-msgstr "Есть два основных способа, как сделать приложение для подкастов:"
+msgstr "Существует два основных способа создания приложения для подкастов:"
 
 #: _i18n/en/documentation/general/central-distributed.md:block 2 (ordered list)
 msgid ""
@@ -1142,7 +1141,7 @@ msgid ""
 "app) that checks for new episodes and then delivers them to you."
 msgstr ""
 "**Центральный**: Существует центральный сервер (управляемый компанией-"
-"разработчиком приложения), который проверяет наличие новых эпизодов и затем "
+"разработчиком приложения), что проверяет наличие новых эпизодов и затем "
 "доставляет их вам."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 2 (ordered list)
@@ -1150,14 +1149,13 @@ msgid ""
 "**Distributed**: The app itself checks new episodes, directly from the "
 "podcast publishers."
 msgstr ""
-"**Распространенный**: Приложение само проверяет новые эпизоды "
-"непосредственно от издателей подкастов."
+"**Распределённый**: Приложение само проверяет новые выпуски непосредственно "
+"от издателей подкастов."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 3 (paragraph)
 msgid "AntennaPod uses method 2. It has both its advantages and disadvantages:"
 msgstr ""
-"AntennaPod использует метод 2. Он имеет как свои преимущества, так и "
-"недостатки:"
+"AntennaPod использует метод 2. Он имеет как преимущества, так и недостатки:"
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1167,9 +1165,9 @@ msgid ""
 "saves a lot of money, which means we don't need to rely on ads or large sums "
 "of donations."
 msgstr ""
-"Поскольку приложение проверяет наличие новых эпизодов, создателям приложений "
-"(например, нам) не нужно поддерживать центральный сервер. Это экономит много "
-"времени и сил. Это также экономит много денег, а значит, нам не нужно "
+"Поскольку приложение проверяет наличие новых выпусков, создателям приложений "
+"(например нам) не нужно поддерживать центральный сервер. Это экономит много "
+"времени и сил. Это также экономит много денег, а значит нам не нужно "
 "полагаться на рекламу или большие суммы пожертвований."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
@@ -1181,7 +1179,7 @@ msgid ""
 "whatever reason, the app will stop to work."
 msgstr ""
 "Поскольку приложение не зависит от центрального сервера для сбора новых "
-"эпизодов, AntennaPod будет продолжать работать независимо от того, что мы "
+"выпусков, AntennaPod будет продолжать работать независимо от того, что мы "
 "делаем на нашей стороне. При использовании центрального метода, если "
 "компания по какой-либо причине отключит свой сервер, приложение перестанет "
 "работать."
@@ -1194,10 +1192,10 @@ msgid ""
 "do. Publishers of apps with a central server do collect such data, to the "
 "detriment of your privacy."
 msgstr ""
-"Мы, разработчики приложений, не знаем и не можем знать, на какие подкасты вы "
-"подписаны, какие эпизоды вы можете слушать и даже в какое время вы это "
-"делаете. Издатели приложений с центральным сервером собирают такие данные в "
-"ущерб вашей конфиденциальности."
+"Мы, как разработчики приложений, не знаем и не можем знать, на какие "
+"подкасты вы подписаны, какие выпуски вы могли бы слушать и даже в какое "
+"время вы это делаете. Издатели приложений с центральным сервером собирают "
+"такие данные в ущерб вашей конфиденциальности."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1208,8 +1206,8 @@ msgid ""
 "services often simply don't allow adding private feeds. And if they do, it "
 "might require sending your credentials to the app makers."
 msgstr ""
-"Некоторые издатели предлагают частные каналы, предоставляющие ранний доступ, "
-"специальный контент или эпизоды без рекламы. Такие каналы требуют имени "
+"Некоторые издатели предлагают частные ленты предоставляющие ранний доступ, "
+"специальный контент или выпуски без рекламы. Такие ленты требуют имени "
 "пользователя и пароля, которые AntennaPod по запросу предоставляет "
 "непосредственно издателю подкаста. Централизованные сервисы часто просто не "
 "позволяют добавлять частные каналы. А если и позволяют, то для этого может "
@@ -1235,15 +1233,14 @@ msgid ""
 "That way apps can also know about new episodes much faster, without having "
 "to regularly check all podcasts you are subscribed to."
 msgstr ""
-"С другой стороны, распределенная модель означает, что вы будете получать "
-"новые эпизоды только при обновлении подкаста. В AntennaPod это происходит по "
+"С другой стороны, распределенная модель значит что вы будете получать новые "
+"выпуски только при обновлении подкаста. В AntennaPod это происходит по "
 "умолчанию каждые 12 часов, но вы можете изменить это значение на более или "
-"менее частое, а также всегда можете вручную проверять наличие новых "
-"эпизодов. Центральный сервер может проверять наличие новых эпизодов очень "
-"часто или даже получать информацию от хозяев подкастов в режиме реального "
-"времени. Таким образом, приложения могут узнавать о новых эпизодах гораздо "
-"быстрее, без необходимости регулярно проверять все подкасты, на которые вы "
-"подписаны."
+"менее частое, как и проверить наличие новых выпусков вручную. Центральный "
+"сервер может проверять наличие новых выпусков очень часто или даже получать "
+"информацию от хозяев подкастов в режиме реального времени. Таким образом "
+"приложения могут узнавать о новых выпусках гораздо быстрее, без "
+"необходимости регулярно проверять все подкасты-подписки."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1253,10 +1250,10 @@ msgid ""
 "most recent ones online. Apps that rely on a central server could be served "
 "with the older episodes even if they have disappeared from the RSS feed."
 msgstr ""
-"Также AntennaPod не может предоставить вам эпизоды, которые были удалены "
-"издателем подкаста, например, потому что они хранят в сети только 10 самых "
-"последних. Приложения, которые полагаются на центральный сервер, могут "
-"получать старые эпизоды, даже если они исчезли из RSS-ленты."
+"Также AntennaPod не может предоставить вам удалённые издателем подкаста "
+"выпуски, к примеру, потому что они хранят в сети только 10 самых последних. "
+"Приложения, которые полагаются на центральный сервер, могут получать старые "
+"выпуски, даже если они исчезли из RSS-ленты."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
 msgid ""
@@ -1264,8 +1261,8 @@ msgid ""
 "delete it from your phone, to free up space. There is different ways that "
 "you can do that."
 msgstr ""
-"Когда вы закончите слушать эпизод, в большинстве случаев вы захотите удалить "
-"его с телефона, чтобы освободить место. Сделать это можно разными способами."
+"Когда вы окончили прослушивание выпуска, скорее всего вы захотите удалить "
+"его с телефона для освобождения места. Сделать это можно разными способами."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
 msgid ""
@@ -1276,12 +1273,12 @@ msgid ""
 "from the queue if it is deleted. You can find this option under `Settings` » "
 "`Storage` » `Delete removes from Queue`."
 msgstr ""
-"Во-первых, вы, конечно, можете вручную удалять эпизоды. При просмотре "
-"очереди или конкретного подкаста вы можете нажать на эпизод и коснуться "
+"Во-первых, вы, разумеется, можете удалить выпуски вручную. При просмотре "
+"очереди или конкретного подкаста вы можете нажать на выпуск и нажать "
 "`Удалить`. При просмотре вкладки \"Завершено\" на экране \"Загрузки\" вы "
 "также можете просто нажать на значок корзины. Если вы хотите, AntennaPod "
-"может автоматически удалить эпизод из очереди, если он удален. Эту опцию "
-"можно найти в разделе `Настройки` \" `Хранилище` \" `Удалить из очереди`."
+"может автоматически убирать удалённые выпуски из очереди. Эту опцию можно "
+"найти в разделе `Настройки` » `Загрузки` » `Убирать удалённые из очереди`."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1292,7 +1289,7 @@ msgid ""
 "documentation/automation/deletion) article."
 msgstr ""
 "Во-вторых, в AntennaPod есть несколько решений для автоматического удаления "
-"эпизодов. В частности, AntennaPod может автоматически удалять эпизоды по "
+"выпусков. В частности, AntennaPod может автоматически удалять выпуски по "
 "завершении воспроизведения, а также когда ему требуется место для процесса "
 "автоматической загрузки. Более подробную информацию об этих возможностях вы "
 "можете найти в статье [Автоматическое удаление](/documentation/automation/"
@@ -1304,9 +1301,10 @@ msgid ""
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Data folder`."
 msgstr ""
-"Вы можете настроить AntennaPod на загрузку эпизодов на sd-карту, а не во "
-"внутреннюю память. Так у вас будет больше места для эпизодов. Чтобы выбрать "
-"карту памяти, перейдите в меню `Настройки` \" `Загрузки` \" `Папка данных`."
+"Вы можете настроить AntennaPod на загрузку эпизодов на sd-карту вместо "
+"внутренней памяти. Так у вас будет больше места для выпусков. Чтобы выбрать "
+"карту памяти, перейдите в меню `Настройки` » `Загрузки` » `Выбрать папку для "
+"хранения данных`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -1319,23 +1317,23 @@ msgid ""
 "as external storage. Either the card is not mounted correctly or your "
 "smartphone manufacturer configured the hardware incorrectly."
 msgstr ""
-"Возможно, ваша SD-карта не отображается в диалоговом окне `Выбор папки "
-"данных`. Чтобы SD-карта отобразилась, Android должен распознать ее как "
-"внешнее хранилище. Либо карта установлена неправильно, либо производитель "
-"смартфона неправильно настроил оборудование."
+"Возможно, ваша SD-карта не отображается в диалоговом окне `Выбор папки для "
+"хранения данных`. Чтобы SD-карта отобразилась, Android должен распознать её "
+"как внешнее хранилище. Либо карта установлена неправильно, либо "
+"производитель смартфона неправильно настроил оборудование."
 
 #: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
 msgid ""
 "If you are running Android 6 or newer, you can try formatting the SD card as "
 "internal storage. Else, there is nothing we can do to fix this."
 msgstr ""
-"Если вы используете Android 6 или более новую версию, попробуйте "
-"отформатировать SD-карту как внутреннее хранилище. В противном случае мы "
-"ничего не сможем сделать, чтобы исправить ситуацию."
+"Если вы используете Android 6 и выше, попробуйте отформатировать SD-карту "
+"как внутреннее хранилище. В противном случае мы можем ничего сделать чтобы "
+"исправить ситуацию."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
-msgstr "Вы увидели, что вышла новая версия AntennaPod, и задумались:"
+msgstr "Вы увидели, что вышла новая версия AntennaPod, и думаете:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*why is the latest version not on F-Droid yet?*"
@@ -1351,29 +1349,29 @@ msgid ""
 "releases on F-Droid, we can't tell when exactly the latest version will be "
 "available there."
 msgstr ""
-"Из-за различных этапов и потому, что мы не участвуем в публикации релизов на "
-"F-Droid, мы не можем сказать, когда именно последняя версия будет доступна "
-"там."
+"Из-за различных этапов и из-за того, что мы не участвуем в публикации "
+"релизов на F-Droid, мы не можем сказать когда именно там будет доступна "
+"последняя версия."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid ""
 "**In short: we did not forget about F-Droid, it just takes some time. Please "
 "be patient.**"
 msgstr ""
-"**Короче говоря, мы не забыли о F-Droid, просто на это нужно время. "
-"Пожалуйста, будьте терпеливы.**"
+"**Кратко: мы не забыли о F-Droid, просто на это нужно время. Пожалуйста, "
+"запаситесь терпением.**"
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps for releasing a new version on F-Droid"
-msgstr "Шаги по выпуску новой версии на F-Droid"
+msgstr "Шаги выпуска новой версии на F-Droid"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We release a beta version, which is *only* available through Google Play due "
 "to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
-"Мы выпустили бета-версию, которая доступна *только* через Google Play из-за "
-"[технических ограничений](/documentation/general/beta#f-droid) в F-Droid."
+"Мы выпускаем бета-версию доступную *только* через Google Play из-за "
+"[технических ограничений](/documentation/general/beta#f-droid) F-Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1390,8 +1388,7 @@ msgid ""
 "releases). We do this only after the roll-out on Google Play is complete."
 msgstr ""
 "Мы создаем [релиз на GitHub](https://github.com/AntennaPod/AntennaPod/"
-"releases). Мы делаем это только после того, как завершается развертывание в "
-"Google Play."
+"releases). Мы делаем это только после завершения развертывания в Google Play."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1399,7 +1396,7 @@ msgid ""
 "The update checker server runs daily (overnight in Europe)."
 msgstr ""
 "Системы F-Droid проверяют репозиторий AntennaPod и обнаруживают новый "
-"выпуск. Сервер проверки обновлений запускается ежедневно (в Европе - ночью)."
+"выпуск. Сервер проверки обновлений запускается ежедневно (ночью для Европы)."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1407,10 +1404,10 @@ msgid ""
 "download matches the source code that we publishe. Because there are many "
 "apps to build, the F-Droid server takes 1 to 2 days to build the app."
 msgstr ""
-"Системы F-Droid создают приложение. Они делают это для того, чтобы "
-"убедиться, что приложение, которое вы загружаете, соответствует исходному "
-"коду, который мы публикуем. Поскольку приложений для сборки много, серверу F-"
-"Droid требуется от 1 до 2 дней для сборки приложения."
+"Системы F-Droid собирают приложение. Они делают это для того чтобы "
+"удостовериться, что загружаемое приложение соответствует исходному коду, "
+"который мы публикуем. Поскольку есть много приложений которые нужно "
+"собирать, серверу F-Droid требуется от 1 до 2 дней для этого."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1420,11 +1417,11 @@ msgid ""
 "signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
-"Автор F-Droid подписывает сборку криптографически. Чтобы повысить "
-"безопасность, автор должен взять приложение и физически перенести его на "
-"специальный компьютер, не подключенный к интернету. Когда все приложения "
-"подписаны, автор загружает их в систему F-Droid. Обычно это занимает от 1 до "
-"2 дней."
+"Участник F-Droid подписывает сборку криптографически. Для повышения "
+"безопасности автор должен взять приложение и физически перенести его на "
+"специальный, не подключенный к интернету, компьютер. Когда все приложения "
+"подписаны, участник загружает их в систему F-Droid. Обычно это занимает от 1 "
+"до 2 дней."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1448,7 +1445,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr "Итак, каково время прибытия?"
+msgstr "Так сколько примерно ждать?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1457,10 +1454,10 @@ msgid ""
 "tagging the release on GitHub. After the release is tagged, F-Droid usually "
 "takes four to six days to process it."
 msgstr ""
-"Как видите, здесь много этапов, каждый из которых занимает разное количество "
-"времени. Обычно между выпуском бета-версии и размещением релиза на GitHub "
-"проходит больше месяца. После того как релиз отмечен, F-Droid обычно "
-"требуется от 4-х до 6-ти дней на его обработку."
+"Как можно увидеть, задействовано много этапов, каждый из которых занимает "
+"различное количество времени. Обычно между выпуском бета-версии и "
+"размещением релиза на GitHub проходит больше месяца. После того как релиз "
+"отмечен F-Droid требуется обычно от 4-х до 6-ти дней на его обработку."
 
 #: _i18n/en/documentation/general/f-droid.md:block 10 (header)
 msgid "What you can do if you're eagerly waiting"
@@ -1472,7 +1469,7 @@ msgid ""
 "AntennaPod/releases) yet? Then please just wait. The update is in beta and "
 "not ready for public release."
 msgstr ""
-"Мы еще не отметили [релиз на GitHub](https://github.com/AntennaPod/"
+"Мы еще не прикрепили [релиз на GitHub](https://github.com/AntennaPod/"
 "AntennaPod/releases)? Тогда, пожалуйста, просто подождите. Обновление "
 "находится в стадии бета-версии и не готово к публичному релизу."
 
@@ -1482,10 +1479,9 @@ msgid ""
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
 "up-on-website-and-client): \"don't panic before 7 days have passed, please.\""
 msgstr ""
-"Мы *пометили* релиз на GitHub? Как команда F-Droid [отмечает](https://"
+"Мы *прикрепили* релиз на GitHub? Как команда F-Droid [отмечает](https://"
 "gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
-"up-on-website-and-client): \"Не паникуйте раньше, чем пройдет 7 дней, "
-"пожалуйста.\""
+"up-on-website-and-client): \"Пожалуйста, не паникуйте раньше 7 дней.\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1493,9 +1489,9 @@ msgid ""
 "let us know by creating a post on our [forum](https://"
 "forum.antennapod.org/). We'll take a look."
 msgstr ""
-"Прошли ли эти 7 дней с тех пор, как мы отметили релиз на GitHub? Не "
+"Прошло более 7 дней с тех пор, как мы прикрепили релиз на GitHub? Не "
 "стесняйтесь сообщить нам об этом, создав сообщение на нашем [форуме](https://"
-"forum.antennapod.org/). Мы посмотрим."
+"forum.antennapod.org/). Мы его рассмотрим."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1503,17 +1499,17 @@ msgid ""
 "investigate where we are in the process."
 msgstr ""
 "Мы отметили релиз 7 дней назад или меньше? Тогда, пожалуйста, просто "
-"подождите. Или узнайте, на каком этапе находится наш процесс."
+"подождите. Или изучите на каком этапе находится наш процесс."
 
 #: _i18n/en/documentation/general/f-droid.md:block 14 (header)
 msgid "Investigate current status"
-msgstr "Смотреть текущее состояние"
+msgstr "Изучить текущее состояние"
 
 #: _i18n/en/documentation/general/f-droid.md:block 15 (paragraph)
 msgid "If you want, you can follow these steps to get an idea of the progress:"
 msgstr ""
 "При желании вы можете выполнить следующие шаги, чтобы получить представление "
-"о ходе работы:"
+"о продвижении:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1524,7 +1520,7 @@ msgid ""
 msgstr ""
 "Проверьте, был ли [релиз отмечен на GitHub](https://github.com/AntennaPod/"
 "AntennaPod/releases/latest) и когда (чтобы увидеть точную дату на GitHub, "
-"вам может понадобиться навести курсор, например, на \"прошлую неделю\"). "
+"вам может понадобиться навести курсор, например, на \"прошлая неделя\"). "
 "Если да, то вскоре он должен быть подхвачен программой проверки обновлений."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
@@ -1552,7 +1548,7 @@ msgstr ""
 "monitor.f-droid.org/builds/build). Для этого также можно использовать "
 "приложение [F-Droid build status](https://f-droid.org/en/packages/"
 "de.storchp.fdroidbuildstatus/). Если да, то в скором времени он должен быть "
-"криптографически подписан одним из авторов F-Droid."
+"криптографически подписан одним из участников F-Droid."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1560,21 +1556,21 @@ msgid ""
 "listed in the success and fail lists yet, and you want to know if it will be "
 "built?"
 msgstr ""
-"Обратите внимание, что для приложений, которые нужно создать, нет очереди. "
-"AntennaPod пока не числится в списках успешных и неудачных, и вы хотите "
-"узнать, будет ли оно создано?"
+"Обратите внимание, что для собираемых приложений нет очереди. AntennaPod "
+"пока не числится в списках успешных и неудачных, и вы хотите узнать, будет "
+"ли оно создано?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr "нажмите на 'fdroiddata version' @ фиксация цикла сборки"
+msgstr "нажмите на 'fdroiddata version' в коммите цикла сборки"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr "нажмите \"Обзор файлов\""
+msgstr "нажмите \"Browse files\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr "нажмите \"Найти файл\""
+msgstr "нажмите на поле \"Find file\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "copy and paste `de.danoeh.antennapod`"
@@ -1582,11 +1578,11 @@ msgstr "скопируйте и вставьте `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
-msgstr "открыть файл"
+msgstr "откройте файл"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr "проверьте, включает ли она последнюю версию"
+msgstr "проверьте, включена ли в него последняя версия"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
@@ -1605,8 +1601,8 @@ msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
 msgstr ""
-"Однако существуют альтернативы (с открытым исходным кодом), на которые мы "
-"хотели бы обратить ваше внимание:"
+"Однако есть альтернативы (с открытым исходным кодом), на которые мы хотели "
+"бы обратить ваше внимание:"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
@@ -1617,8 +1613,8 @@ msgid ""
 "Do you have a recommendation of an open source podcast app for these "
 "platforms? [Let us know on the forum!](https://forum.antennapod.org)"
 msgstr ""
-"Можете ли вы порекомендовать приложение для подкастов с открытым исходным "
-"кодом для этих платформ? [Сообщите нам об этом на форуме!](https://"
+"У вас имеются рекомендации приложениий для подкастов с открытым исходным "
+"кодом для этих платформ? [Сообщите нам на форуме!](https://"
 "forum.antennapod.org)"
 
 #: _i18n/en/documentation/general/proxy.md:block 1 (paragraph)
@@ -1627,9 +1623,9 @@ msgid ""
 "images, RSS requests & searches) through a proxy or the Tor network. This "
 "may have two potential benefits:"
 msgstr ""
-"Можно заставить AntennaPod направлять весь трафик (медиафайлы, изображения "
-"обложек, RSS-запросы и поиск) через прокси-сервер или сеть Tor. Это может "
-"иметь два потенциальных преимущества:"
+"Существует возможность заставить AntennaPod направлять весь трафик "
+"(медиафайлы, изображения обложек, RSS-запросы и поиск) через прокси-сервер "
+"или сеть Tor. В этом возможны два потенциальных преимущества:"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
@@ -1637,7 +1633,7 @@ msgid ""
 "behaviour may be protected from podcast hosts"
 msgstr ""
 "Конфиденциальность: в зависимости от типа прокси-сервиса, ваше поведение при "
-"скачивании/просмотре может быть защищено от хозяев подкастов"
+"скачивании/просмотре может быть защищено от провайдеров подкастов"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
@@ -1651,7 +1647,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/proxy.md:block 3 (paragraph)
 msgid "You will find this option under `Settings` » `Downloads` » `Proxy`."
-msgstr "Вы найдете эту опцию в разделе `Настройки` > `Сеть` > `Прокси`."
+msgstr "Вы найдете эту опцию в разделе `Настройки` > `Загрузки` > `Прокси`."
 
 #: _i18n/en/documentation/general/proxy.md:block 4 (paragraph)
 msgid ""
@@ -1667,7 +1663,7 @@ msgstr "Тип: SOCKS"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Host: \"localhost\" or \"127.0.0.1\""
-msgstr "Хост: \"localhost\" или \"127.0.0.1\""
+msgstr "Узел: \"localhost\" или \"127.0.0.1\""
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Port: \"9050\""
@@ -1679,9 +1675,9 @@ msgid ""
 "listening hours per subscription and per month. However, these statistics "
 "aren’t always as precise as they could be."
 msgstr ""
-"В AntennaPod есть экран статистики, позволяющий просматривать количество "
-"часов прослушивания по подписке и в месяц. Однако эта статистика не всегда "
-"точна, как могла бы быть."
+"В AntennaPod имеет экран статистики, позволяющий просматривать количество "
+"часов прослушивания по каждой подписке и по месяцам. Однако эти данные не "
+"так точны, как могли бы быть."
 
 #: _i18n/en/documentation/general/statistics.md:block 2 (header)
 msgid "Why the stats aren’t precise"
@@ -1691,22 +1687,22 @@ msgstr "Почему статистика не точна"
 msgid "To track statistics, AntennaPod records two things for each episode:"
 msgstr ""
 "Чтобы отслеживать статистику, AntennaPod записывает две вещи для каждого "
-"эпизода:"
+"выпуска:"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Played duration**: how long the episode was played (e.g. 6 minutes if a 3-"
 "minute episode was played twice)"
 msgstr ""
-"**Продолжительность воспроизведения**: продолжительность воспроизведения "
-"эпизода (например, 6 минут, если 3-минутный эпизод был воспроизведен дважды)"
+"**Продолжительность воспроизведения**: как долго выпуск был проигран "
+"(например, 6 минут если 3-минутный эпизод был воспроизведен дважды)"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Last played**: the date and time when playback was last paused or stopped "
 "for the episode"
 msgstr ""
-"**Последнее воспроизведение**: дата и время, когда воспроизведение эпизода "
+"**Последнее воспроизведение**: дата и время когда воспроизведение эпизода "
 "было приостановлено или остановлено в последний раз"
 
 #: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
@@ -1715,11 +1711,10 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
-"Обе информации обновляются каждый раз, когда воспроизведение "
-"приостанавливается или останавливается. Эта информация используется для "
-"подсчета итоговых значений путем суммирования \"продолжительности "
-"воспроизведения\" всех эпизодов, дата последнего воспроизведения которых "
-"приходится на данный месяц."
+"Обе сводки обновляются каждый раз, когда воспроизведение приостанавливается "
+"или останавливается. Эта информация используется для подсчета итоговых "
+"значений путем суммирования \"продолжительности воспроизведения\" всех "
+"выпусков, дата последнего воспроизведения которых приходится на данный месяц."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
@@ -1749,7 +1744,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
-msgstr "Почему мы не хотим его менять"
+msgstr "Почему мы не хотим изменить это"
 
 #: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
 msgid ""
@@ -1757,7 +1752,7 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
-"Статистика (или, скорее, графики) - это весело. Так почему бы нам не "
+"Статистика (или, скорее, графики) — это весело. Так почему бы нам не "
 "записывать информацию по-другому, чтобы в AntennaPod было больше "
 "возможностей для фильтрации и получения более детальных данных?"
 
@@ -1766,8 +1761,8 @@ msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
-"Можно, например, записывать для каждого эпизода, сколько времени он "
-"проигрывался в каждый день. Например:"
+"Было бы возможным, например, записывать время проигрывания для каждого "
+"выпуска каждый день. Например:"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
@@ -1789,7 +1784,7 @@ msgid ""
 "that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
-"Есть две основные причины. Во-первых, хотя статистика - это весело, **мы "
+"Есть две основные причины. Во-первых, хотя статистика — это весело, **мы "
 "предпочитаем тратить время на основное предназначение AntennaPod: "
 "воспроизведение подкастов**. Переход на новый подход потребует времени на "
 "его реализацию сейчас (переписывание кода, сохраняющего время "
@@ -1805,11 +1800,11 @@ msgid ""
 "causes the database size to increase."
 msgstr ""
 "Во-вторых, **AntennaPod будет занимать больше места на вашем телефоне**, "
-"особенно для постоянных пользователей, которые не расстаются с приложением в "
-"течение нескольких лет. Это связано с тем, что вместо одной строки для "
-"каждого эпизода в базе данных нам придется хранить несколько строк для "
-"каждого воспроизводимого эпизода, чтобы сохранить продолжительность "
-"воспроизведения, что приведет к увеличению размера базы данных."
+"особенно для постоянных пользователей, что не расстаются с приложением в "
+"течение нескольких лет. Это связано с тем, что вместо одной строки на выпуск "
+"в базе данных нам придется хранить несколько для каждого воспроизводимого "
+"выпуска чтобы сохранить продолжительность воспроизведения, что приведет к "
+"увеличению размера базы данных."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1817,10 +1812,10 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
-"Мы надеемся, что вам понравится статистика за месяц! 📊 (Если вы окажетесь "
-"веб-разработчиком, заинтересованным в создании специальной панели для "
-"статистики AntennaPod на основе экспорта базы данных, пожалуйста, напишите "
-"нам на форуме)"
+"Мы надеемся, что вам понравится ежемесячная статистика! 📊 (Если вам "
+"случилось быть веб-разработчиком заинтересованным в создании специальной "
+"панели для статистики AntennaPod на основе экспорта базы данных, пожалуйста, "
+"напишите нам на форуме)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
@@ -1839,7 +1834,7 @@ msgid ""
 msgstr ""
 "AntennaPod может синхронизировать ваши подписки и прогресс прослушивания с "
 "другими устройствами AntennaPod, а также с другими (настольными) "
-"приложениями. Для настройки синхронизации необходим сервер - центральная "
+"приложениями. Для настройки синхронизации необходим сервер — центральная "
 "точка, через которую ваши данные передаются на другие устройства. Для этого "
 "у вас есть несколько вариантов:"
 
@@ -1852,8 +1847,8 @@ msgid ""
 msgstr ""
 "[gpodder.net](https://gpodder.net/) предоставляет бесплатный сервер "
 "синхронизации gPodder, на который может подписаться **любой желающий**. К "
-"сожалению, из-за популярности сервиса и ограниченного финансирования этот "
-"сервер часто бывает перегружен, что приводит к ошибкам в AntennaPod."
+"сожалению, из-за популярности сервиса и ограниченного финансирования этот он "
+"часто бывает перегружен, приводя к ошибкам в AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -1867,7 +1862,7 @@ msgid ""
 "gpodder-server)."
 msgstr ""
 "Более технически подкованным пользователям настоятельно рекомендуется "
-"**самостоятельно размещать сервер синхронизации**. Самостоятельно "
+"**самостоятельно разместить сервер синхронизации**. Самостоятельно "
 "размещенный сервер более надежен и помогает снизить нагрузку на бесплатные "
 "публичные сервисы. Есть несколько вариантов: [Nextcloud](https://"
 "nextcloud.com/install/#instructions-server) с приложением [gPodder Sync]"
@@ -1877,7 +1872,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (header)
 msgid "Enable synchronization via Nextcloud"
-msgstr "Включите синхронизацию через Nextcloud"
+msgstr "Подключение синхронизации через Nextcloud"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
@@ -1892,19 +1887,20 @@ msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
 msgstr ""
-"Перейдите в раздел `Настройки` \" `Синхронизация` в AntennaPod и нажмите "
-"`Выбрать поставщика синхронизации`"
+"Перейдите в раздел `Настройки` » `Синхронизация` в AntennaPod и нажмите "
+"`Выбрать провайдера синхронизации`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid "Select 'Nextcloud'"
-msgstr "Выберите \"Nextcloud\""
+msgstr "Выберите \"Gpodder Sync\""
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
 "Enter the 'Server address' (the URL or IP address of the server) and tap "
 "`Proceed`"
 msgstr ""
-"Введите \"Адрес сервера\" (URL или IP-адрес сервера) и нажмите `Продолжить`"
+"Введите \"Адрес сервера\" (URL или IP-адрес сервера) и нажмите "
+"`Авторизоваться`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid "Log in on the browser window that opens and authorize AntennaPod"
@@ -1912,32 +1908,31 @@ msgstr "Войдите в открывшееся окно браузера и а
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (header)
 msgid "Enable synchronization via gPodder"
-msgstr "Включите синхронизацию через gPodder"
+msgstr "Подключение синхронизации через gPodder"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Create an account on the server www.gpodder.net or on your own server"
 msgstr ""
-"Создайте учетную запись на сервере www.gpodder.net или на своем собственном "
-"сервере"
+"Создайте учетную запись на сервере www.gpodder.net или на своем собственном"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select 'gPodder'"
-msgstr "Выберите 'gPodder'"
+msgstr "Выберите \"gPodder\""
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
-"Введите \"Адрес сервера\" (например, www.gpodder.net) и нажмите `Продолжить "
-"вход`"
+"Введите \"Адрес сервера\" (например, www.gpodder.net) и нажмите "
+"`Авторизоваться`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
-msgstr "Введите \"Имя пользователя\" и \"Пароль\" и нажмите `Войти в систему`"
+msgstr "Введите \"Имя пользователя\" и \"Пароль\" и нажмите `Войти`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
 msgid "Select the device that you created on the server"
-msgstr "Выберите устройство, созданное на сервере"
+msgstr "Выберите созданное на сервере устройство"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
 msgid ""
@@ -1950,12 +1945,12 @@ msgid ""
 "to change the behavior."
 msgstr ""
 "**ПРИМЕЧАНИЕ:** Вы создали устройство при настройке синхронизации в "
-"AntennaPod, а не создали его заранее на сайте? Тогда обязательно нажмите "
-"кнопку `Форсировать синхронизацию`, чтобы загрузить воспроизведенное "
-"состояние всех ранее прослушанных эпизодов. Если этого не сделать, "
-"синхронизироваться будут только подкасты, добавленные **после** связывания "
-"устройств. Существует [открытый вопрос для gpodder.net](https://github.com/"
-"gpodder/mygpo/issues/388), в котором предлагается изменить это поведение."
+"AntennaPod, а не заранее на сайте? Тогда обязательно нажмите кнопку `Force "
+"sync`, чтобы загрузить воспроизведенное состояние всех ранее прослушанных "
+"выпусков. Если этого не сделать, синхронизироваться будут только добавленные "
+"**после** связывания устройств подкасты. Существует [открытый вопрос для "
+"gpodder.net](https://github.com/gpodder/mygpo/issues/388), в котором "
+"предлагается изменить это поведение."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
@@ -1965,11 +1960,11 @@ msgid ""
 "to listen to them or not. If an episode is in the inbox, it means that you "
 "have not yet decided what to do with the episode."
 msgstr ""
-"Сначала вы хотите подписаться на подкаст. Подробнее об этом можно узнать "
+"Для начала вам стоит подписаться на подкаст. Подробнее об этом можно узнать "
 "[здесь](/documentation/getting-started/subscribe). После подписки новые "
-"эпизоды будут отображаться в `Inbox`. Там вы можете решить, хотите ли вы их "
-"слушать или нет. Если эпизод находится в папке \"Входящие\", это означает, "
-"что вы еще не решили, что делать с этим эпизодом."
+"выпуски будут отображаться во вкладке `Входящие`. Там вы можете решить, "
+"хотите ли вы их прослушать или нет. Если выпуск находится во входящих, это "
+"значит что вы еще не решили что с ним делать."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1977,18 +1972,17 @@ msgid ""
 "from the inbox. The episode still stays marked as unplayed and you can find "
 "it on the `Episodes` page, as well as on the podcast's page."
 msgstr ""
-"Если эпизод вас не заинтересовал, просто смахните его, чтобы удалить из "
-"папки \"Входящие\". Эпизод по-прежнему остается помеченным как не "
-"прослушанный, и вы можете найти его на странице `Эпизоды`, а также на "
-"странице подкаста."
+"Если вы не заинтересованы выпуском, то просто смахните по нему чтобы убрать "
+"его из входящих. Эпизод по-прежнему остается помеченным как непрослушанный, "
+"и вы сможете найти его на как вкладке `Эпизоды`, так и на странице подкаста."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
 "If you are interested in the episode, you can do one of two things, "
 "depending on your listening behavior."
 msgstr ""
-"Если вас заинтересовал этот эпизод, вы можете сделать одну из двух вещей, в "
-"зависимости от вашего поведения при прослушивании."
+"Если выпуск вас заинтересовал, вы можете сделать одну из двух вещей в "
+"зависимости от ваших привычек при прослушивании."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1999,12 +1993,12 @@ msgid ""
 "originally designed to be used but as streaming is becoming more and more "
 "popular, you can also use the second option."
 msgstr ""
-"Загрузите эпизод. При загрузке AntennaPod также автоматически добавляет "
-"эпизод в очередь и удаляет его из папки \"Входящие\". Можно настроить, чтобы "
-"новые эпизоды ставились в очередь сзади, спереди или после текущего "
-"воспроизводимого эпизода. Загрузка - это основной способ использования "
-"AntennaPod, но поскольку потоковое вещание становится все более популярным, "
-"вы можете использовать и второй вариант."
+"Загрузить выпуск. При загрузке AntennaPod автоматически добавляет эпизод в "
+"очередь и удаляет его из входящих. Можно настроить добавление новые выпусков "
+"в конец либо начало очереди, или после воспроизводимого в данный момент "
+"выпуска. Загрузка — основной способ использования AntennaPod, однако "
+"поскольку потоковое вещание стремительно набирает популярность, то вы можете "
+"воспользоваться вторым вариантом."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -2015,13 +2009,12 @@ msgid ""
 "available offline, uses up your mobile data connection when you are on the "
 "run, and makes fast forwarding a little bit slower."
 msgstr ""
-"Просто добавьте эпизод в очередь. AntennaPod автоматически удалит его из "
-"папки \"Входящие\" и вставит в очередь. Впоследствии вы сможете напрямую "
-"воспроизвести эпизод без необходимости загрузки, чтобы он не занимал место. "
-"Подумайте: потоковое вещание, как видео на YouTube. Недостатком является "
-"недоступность в автономном режиме, использование мобильного соединения для "
-"передачи данных, когда вы находитесь в бегах, и немного замедленная "
-"перемотка."
+"Просто добавить выпуск в очередь. AntennaPod автоматически удалит его из "
+"входящих и вставит в очередь. Впоследствии вы сможете напрямую воспроизвести "
+"выпуск без необходимости загрузки, так что он не занимает места. Можно "
+"сравнить потоковое вещание с видео на YouTube. Недостатком является "
+"недоступность в автономном режиме, использование мобильного соединения когда "
+"вы в пути, и чуть замедленная перемотка."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -2031,11 +2024,11 @@ msgid ""
 "downloaded to your device (whether they are in the queue or not) on the "
 "`Downloads` page."
 msgstr ""
-"Если вы закончили играть, AntennaPod отмечает эпизод как сыгранный и удаляет "
-"его из очереди. Есть настройка для автоматического удаления загрузки после "
-"воспроизведения. Список всех эпизодов, которые еще загружены на ваше "
-"устройство (независимо от того, находятся они в очереди или нет), можно "
-"найти на странице `Загрузки`."
+"Если вы закончили воспроизведение, AntennaPod отмечает выпуск как "
+"проигранный и удаляет его из очереди. Можно настроить автоматическое "
+"удаление этой загрузки после воспроизведения. Список всех ещё не загруженных "
+"на ваше устройство выпусков (независимо от того, находятся они в очереди или "
+"нет), можно найти на странице `Загрузки`."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -2044,10 +2037,10 @@ msgid ""
 "your favorites and (by default) AntennaPod will not delete favorites after "
 "playing."
 msgstr ""
-"Если вам понравился эпизод и вы хотите прослушать его еще раз, вы также "
-"можете отметить его как любимый. Вы можете отфильтровать страницу `Эпизоды`, "
-"чтобы показать только избранные, и (по умолчанию) AntennaPod не будет "
-"удалять избранные эпизоды после воспроизведения."
+"Если вам понравился эпизод и думаете что вы прослушали бы его ещё раз, вы "
+"можете отметить его как избранный. Можно отфильтровать страницу `Выпуски` "
+"для того чтобы показывались только избранные, и (по умолчанию) AntennaPod не "
+"будет удалять избранные эпизоды после воспроизведения."
 
 #: _i18n/en/documentation/getting-started.md:block 3 (paragraph)
 msgid ""
@@ -2057,12 +2050,11 @@ msgid ""
 "automatically downloaded and added to the queue. They will automatically be "
 "removed from the inbox as soon as they are downloaded."
 msgstr ""
-"Если вы подписаны на действительно хороший подкаст, где вы с самого начала "
-"знаете, что все эпизоды будут замечательными, вы можете воспользоваться "
-"функцией автозагрузки. Если эта функция включена для подкаста, все его "
-"будущие новые эпизоды будут автоматически загружаться и добавляться в "
-"очередь. Они будут автоматически удаляться из папки \"Входящие\", как только "
-"будут загружены."
+"В случае если вы подписаны на действительно прекрасный подкаст, в котором "
+"вам сразу понятно, что все выпуски будут замечательными, вы можете "
+"воспользоваться функцией автозагрузки. Если она включена для подкаста, то "
+"все последующие новые выпуски будут автоматически загружены и добавлены в "
+"очередь. Они будут автоматически удалены из входящих сразу после загрузки."
 
 #: _i18n/en/documentation/getting-started/home.md:block 1 (paragraph)
 msgid ""
@@ -2070,9 +2062,9 @@ msgid ""
 "listening and perform a range of actions, all conveniently from the same "
 "screen."
 msgstr ""
-"Главный экран позволяет быстро просматривать подкасты, начинать их "
-"прослушивание и выполнять различные действия - все это удобно на одном "
-"экране."
+"\"Главная\" позволяет получать краткую сводку о подкастах, начинать "
+"прослушивание и выполнять различные действия — всё это удобно с одного "
+"экрана."
 
 #: _i18n/en/documentation/getting-started/home.md:block 2 (paragraph)
 msgid ""
@@ -2082,11 +2074,11 @@ msgid ""
 "reorder these sections or hide some of them – by tapping `…` in the top bar "
 "and selecting `Configure Home Screen`."
 msgstr ""
-"Он содержит пять разделов, каждый из которых отображает эпизоды или "
-"подписки, с которыми можно взаимодействовать напрямую, а также предоставляет "
-"ярлык на соответствующий экран (например, вашу очередь). Вы можете настроить "
-"свой главный экран - то есть изменить порядок разделов или скрыть некоторые "
-"из них, - нажав `...` в верхней панели и выбрав `Настроить главный экран`."
+"Она содержит пять разделов, каждый из которых отображает выпуски или "
+"подписки для взаимодействия напрямую, а также предоставляет ссылку на "
+"соответствующую страницу (например, вашу очередь). Вы можете изменить свою "
+"главную — поменять порядок разделов или скрыть некоторые из них — нажав "
+"`...` в верхней панели и выбрав `Настроить главную`."
 
 #: _i18n/en/documentation/getting-started/home.md:block 3 (header)
 msgid "Continue listening"
@@ -2098,9 +2090,8 @@ msgid ""
 "you already have in your queue, beginning with those you have already "
 "started listening to, but haven’t finished just yet."
 msgstr ""
-"В этом разделе вы можете быстро и легко продолжить прослушивание эпизодов, "
-"которые уже находятся в вашей очереди, начиная с тех, которые вы уже начали "
-"слушать, но еще не закончили."
+"В этом разделе вы можете легко и быстро продолжить прослушивание выпусков из "
+"очереди, начиная с уже начатых, но ещё не прослушаных полностью."
 
 #: _i18n/en/documentation/getting-started/home.md:block 5 (header)
 msgid "See what’s new"
@@ -2111,12 +2102,12 @@ msgid ""
 "In this section, you will find the latest episodes that have landed in your "
 "inbox as a result of having refreshed your subscriptions."
 msgstr ""
-"В этом разделе вы найдете последние эпизоды, которые попали в ваш почтовый "
-"ящик в результате обновления подписки."
+"В этом разделе вы найдете последние выпуски, которые попали в ваши входящие "
+"после обновления подписок."
 
 #: _i18n/en/documentation/getting-started/home.md:block 7 (header)
 msgid "Get surprised"
-msgstr "Получить сюрприз"
+msgstr "Случайное"
 
 #: _i18n/en/documentation/getting-started/home.md:block 8 (paragraph)
 msgid ""
@@ -2124,9 +2115,9 @@ msgid ""
 "haven’t listened to yet. If you don’t see anything you feel like listening, "
 "you can tap the arrow button to refresh the selection."
 msgstr ""
-"Здесь вы можете найти случайную подборку эпизодов из ваших подписок, которые "
-"вы еще не слушали. Если вы не видите ничего интересного, нажмите кнопку со "
-"стрелкой, чтобы обновить подборку."
+"Здесь вы можете найти случайную подборку выпусков из ваших подписок которые "
+"вы еще не слышали. Если вы не видите ничего интересного, нажмите кнопку со "
+"стрелкой для обновления подборки."
 
 #: _i18n/en/documentation/getting-started/home.md:block 9 (header)
 msgid "Check your classics"
@@ -2149,16 +2140,16 @@ msgid ""
 "In this section, you can interact with the episodes you downloaded on your "
 "device."
 msgstr ""
-"В этом разделе вы можете взаимодействовать с эпизодами, загруженными на ваше "
-"устройство."
+"В этом разделе вы можете взаимодействовать с загруженными на ваше устройство "
+"выпусками."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
 msgid ""
 "The first thing you want to do after downloading a podcast app is to "
 "subscribe to a podcast."
 msgstr ""
-"Первое, что вы захотите сделать после загрузки приложения для подкастов, - "
-"это подписаться на них."
+"Первое, что вы захотите сделать после загрузки приложения для подкастов — "
+"это подписаться на один из них."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 2 (header)
 msgid "Subscribing"
@@ -2181,14 +2172,14 @@ msgid ""
 "gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or "
 "Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
 msgstr ""
-"Кроме того, вы можете импортировать OPML-файл или проверить только базу "
-"данных Apple Podcasts, gpodder.net, fyyd или Podcast Index соответственно. "
-"Импорт RSS- или Atom-каналов, а также схемы URL, такие как `pcast://` и "
-"`itpc://`, также подойдут."
+"В качестве альтернативы вы можете импортировать OPML-файл или просмотреть "
+"только по базе данных Apple Podcasts, gpodder.net, fyyd или Podcast Index "
+"соответственно. Импорт RSS- или Atom-каналов, а также URL-схемы, вроде "
+"`pcast://` и `itpc://`, тоже сработают."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 5 (header)
 msgid "Subscribing to third-party services"
-msgstr "Подписка на услуги третьих лиц"
+msgstr "Подписка сторонние сервисы"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 6 (paragraph)
 msgid ""
@@ -2200,13 +2191,14 @@ msgid ""
 "implement this feature. If you're a developer, you're of course welcome to "
 "discuss a proposal that you'd be happy to implement."
 msgstr ""
-"Мы получили несколько вопросов о поддержке таких платформ, как SoundCloud, "
-"Mixcloud и им подобных. Хотя было бы здорово иметь функцию простой вставки/"
-"открытия URL-адресов каналов в AntennaPod, [было решено](https://github.com/"
-"AntennaPod/AntennaPod/issues/1297) не реализовывать ее. Такие платформы "
-"могут появляться и исчезать, а для наших волонтёров реализация этой функции "
-"является довольно сложной работой. Если вы разработчик, вы, конечно, можете "
-"обсудить предложение, которое вы были бы рады реализовать."
+"Нам было задано несколько вопросов о поддержке таких платформ, как "
+"SoundCloud, Mixcloud и им подобных. Хоть было бы и здорово иметь функцию для "
+"того, чтобы просто вставить/открыть URL-адреса каналов в AntennaPod, [было "
+"решено](https://github.com/AntennaPod/AntennaPod/issues/1297) её не "
+"реализовывать. Такие платформы могут появляться и исчезать, и реализация "
+"этой функции довольно сложная работа для наших волонтёров. Если вы "
+"разработчик, вы, конечно же, можете обсудить предложение которое вы были бы "
+"рады реализовать."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 7 (header)
 msgid "SoundCloud"
@@ -2221,9 +2213,9 @@ msgid ""
 msgstr ""
 "SoundCloud позволяет [продюсерам создавать подкасты](https://"
 "help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-"
-"feed) из своего контента довольно легко. Вам следует связаться с ними, "
+"feed) из своего материала довольно легко. Вам следует связаться с ними, "
 "поделиться страницей помощи SoundCloud (ссылка на которую была приведена "
-"чуть раньше) и спросить, готовы ли они это сделать."
+"чуть раньше) и спросить о их готовности это сделать."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 9 (header)
 msgid "Mixcloud"
@@ -2237,8 +2229,8 @@ msgid ""
 "2015/01/05/mixcloud-to-rss-with-enclosures) as laid out in this post."
 msgstr ""
 "Mixcloud, к сожалению, не предлагает такой возможности для создателей "
-"контента. Как всегда, в сообществе подкастеров найдется кто-то, кто "
-"придумает решение. Вам следует [ознакомиться с вариантами](https://"
+"контента. Как это обычно бывает, в сообществе подкастеров найдётся кто-то, "
+"кто придумал решение. Вам следует [ознакомиться с вариантами](https://"
 "www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-enclosures), "
 "изложенными в этом посте."
 
@@ -2256,8 +2248,8 @@ msgid ""
 "AntennaPod cannot automatically download the videos, as YouTube doesn't "
 "allow that. Showing ads is their business model, after all."
 msgstr ""
-"AntennaPod не может автоматически загружать видео, поскольку YouTube этого "
-"не позволяет. Показ рекламы - это их бизнес-модель, в конце концов."
+"AntennaPod не может автоматически загружать видео, так как YouTube этого не "
+"позволяет. Показ рекламы — это их бизнес-модель, в конце концов."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 13 (unordered
 #: list)
@@ -2265,7 +2257,7 @@ msgid ""
 "You won't have an image connected to your subscription, as YouTube doesn't "
 "include it in the feeds."
 msgstr ""
-"У вас не будет изображения, связанного с вашей подпиской, поскольку YouTube "
+"У вас не будет изображения связанного с вашей подпиской, поскольку YouTube "
 "не включает его в ленту."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 14 (paragraph)
@@ -2281,17 +2273,18 @@ msgid ""
 "user to ask for their channel id (here it's explained [how users can find "
 "their channel id](https://support.google.com/youtube/answer/3250431?hl=en))."
 msgstr ""
-"Но это способ получать уведомления о новых эпизодах. Просто добавьте URL "
-"пользователя/канала (`https://www.youtube.com/user/USERNAME` или `https://"
-"www.youtube.com/channel/CHANNEL_ID`) в AntennaPod. У вас должно появиться "
-"диалоговое окно с опцией \"RSS\"; нажмите, чтобы добавить канал. Если это не "
-"сработает, добавьте `https://www.youtube.com/feeds/videos.xml?"
-"channel_id=<CHANNEL_ID>` в AntennaPod. Идентификатор канала можно найти в "
-"URL-адресе канала. Если канал, на который вы хотите подписаться, является "
-"учетной записью пользователя (с URL-адресом типа youtube.com/user/UserName), "
-"вы можете связаться с пользователем и попросить у него идентификатор канала "
-"(здесь объясняется [как пользователи могут найти свой идентификатор канала]"
-"(https://support.google.com/youtube/answer/3250431?hl=en))."
+"Но это является способом получать уведомления о новых выпусках. Достаточно "
+"добавить URL пользователя/канала (`https://www.youtube.com/user/USERNAME` "
+"или `https://www.youtube.com/channel/CHANNEL_ID`) в AntennaPod. У вас должно "
+"появиться диалоговое окно с опцией \"RSS\"; нажмите на него для добавления "
+"ленты. Если это не работает, добавьте `https://www.youtube.com/feeds/"
+"videos.xml?channel_id=<CHANNEL_ID>` в AntennaPod. Идентификатор канала можно "
+"найти в URL-адресе канала. Если канал, на который вы хотите подписаться, "
+"является учетной записью пользователя (с URL-адресом типа youtube.com/user/"
+"UserName), вы можете связаться с пользователем и попросить у него "
+"идентификатор канала (здесь объясняется [как пользователи могут найти свой "
+"идентификатор канала](https://support.google.com/youtube/answer/"
+"3250431?hl=en))."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 15 (paragraph)
 msgid ""
@@ -2334,13 +2327,12 @@ msgstr ""
 "действия."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
-#, fuzzy
 msgid "Open the Android Auto settings on your phone."
-msgstr "Откройте настройки Android Auto."
+msgstr "Откройте настройки Android Auto на вашем устройстве."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Developer settings` by pressing the version number 10 times."
-msgstr "Включите `Настройки разработчика`, нажав на номер версии 10 раз."
+msgstr "Включите `Настройки для разработчиков`, нажав на номер версии 10 раз."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Open the 3-dot menu and launch the developer settings."
@@ -2357,14 +2349,14 @@ msgid ""
 "much is rewound is not configurable and depends on how long an episode has "
 "been paused."
 msgstr ""
-"Когда выпуск был поставлен на паузу и воспроизводится снова, AntennaPod "
-"автоматически перематывает его, чтобы было удобнее следить за сериалом. "
-"Количество перемотки не настраивается и зависит от того, как долго выпуск "
-"был поставлен на паузу."
+"В том случае когда выпуск был поставлен на паузу и воспроизводится снова, "
+"AntennaPod автоматически перематает его, чтобы следить за передачей было "
+"легче. Обьём отмотки не настраивается и зависит от того, насколько долго "
+"выпуск был поставлен на паузу."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Time since last playback"
-msgstr "Время с момента последнего воспроизведения"
+msgstr "Время последнего воспроизведения"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Rewind duration"
@@ -2443,7 +2435,7 @@ msgstr "Все экраны (кроме видеоплеера и настрое
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Key"
-msgstr "Ключ"
+msgstr "Клавиша"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Action"
@@ -2463,7 +2455,7 @@ msgstr "`J`/`A`/`,``"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Rewind"
-msgstr "Перемотка назад"
+msgstr "Отмотка назад"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`K`/`D`/`.`"
@@ -2471,7 +2463,7 @@ msgstr "`K`/`D`/`.`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Forward"
-msgstr "Вперед"
+msgstr "Перемотка вперед"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`+`/`W`"
@@ -2487,7 +2479,7 @@ msgstr "`-`/`S`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Lower volume"
-msgstr "Меньшая громкость"
+msgstr "Уменьшить громкость"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`M`"
@@ -2495,8 +2487,7 @@ msgstr "`M`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Mute/unmute (toggle) - only on Android 6 and higher"
-msgstr ""
-"Отключение/приглушение звука (переключение) - только на Android 6 и выше"
+msgstr "Отключение/включение звука (переключение) - только на Android 6 и выше"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 4 (header)
 msgid "Video player"
@@ -2520,7 +2511,7 @@ msgstr "`i`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Enter picture-in-picture mode"
-msgstr "Вход в режим картинка в картинке"
+msgstr "Вход в режим \"картинка-в-картинке\""
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`0`-`9`"
@@ -2528,11 +2519,10 @@ msgstr "`0`-`9`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Go to 0-90% of the video"
-msgstr "Перейдите к 0-90 % видео"
+msgstr "Перейти к 0-90% от видео"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Would you like to make it easy for your network or audience to add your "
 "podcast(s) in AntennaPod? Simply include a link like the one below on your "
@@ -2541,10 +2531,14 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
-"Хотите, чтобы ваша сеть или аудитория могла легко добавить ваш подкаст(ы) в "
-"AntennaPod? Просто разместите ссылку, подобную приведенной ниже, на своем "
-"сайте или в любом другом месте. Замените `xyz` на URL вашего RSS-канала, а "
-"`abc` - на название вашего подкаста."
+"Хотели бы чтобы ваше сообщество или аудитория могла легко добавить ваш(и) "
+"подкаст(ы) в AntennaPod? Достаточно разместить ссылку, подобную приведенной "
+"ниже, на своем сайте или в любом другом месте. Замените `xyz` на URL вашей "
+"RSS-ленты, а `abc` - на название вашего подкаста. Заметьте, что если ваш URL-"
+"адрес или название содержит пробел, специальные символы вроде `?`, или "
+"символы вне таблицы ASCII (например, кириллицу), то они должны быть "
+"[закодированы в формате URL](https://ru.wikipedia.org/wiki/"
+"URL#Кодирование_URL)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
@@ -2557,6 +2551,8 @@ msgid ""
 "You could also turn the same link into a button, e.g. by using the following "
 "code:"
 msgstr ""
+"Вы также можете преобразовать ту же ссылку в кнопку, к примеру, используя "
+"следующий код:"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
@@ -2571,7 +2567,7 @@ msgid ""
 "the screenshots below."
 msgstr ""
 "Пользователи, установившие AntennaPod и перешедшие по этой ссылке, смогут "
-"прослушать фрагменты эпизодов и подписаться на ваш подкаст прямо в "
+"прослушать фрагменты выпусков и подписаться на ваш подкаст прямо в "
 "приложении, как показано на скриншотах ниже."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
@@ -2582,7 +2578,7 @@ msgstr "Браузер просит открыть ссылку в AntennaPod"
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
 msgid "The same link displayed in AntennaPod"
-msgstr ""
+msgstr "Та же ссылка отображаемая в AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 19
 #: (paragraph)
@@ -2592,15 +2588,15 @@ msgid ""
 "manually, as in this [example page](/deeplink/subscribe?url=https://"
 "antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
-"С другой стороны, пользователи, у которых не установлено приложение "
-"AntennaPod, увидят страницу с инструкциями по загрузке приложения или ручной "
-"подписке на подкаст, как на этой [странице с примерами](/deeplink/subscribe?"
-"url=https://antennapod.org/rss.xml&title=Blog+Posts)."
+"С другой стороны, пользователи, не установившие приложение AntennaPod, "
+"увидят страницу с инструкциями по загрузке приложения или ручной подписке на "
+"подкаст, как на этой [странице-примере](/deeplink/subscribe?url=https://"
+"antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
 msgid "Branding"
-msgstr "Бренд"
+msgstr "Брендинг"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 21
 #: (paragraph)
@@ -2609,6 +2605,9 @@ msgid ""
 "button? You can find it in our [branding repository](https://github.com/"
 "AntennaPod/branding)."
 msgstr ""
+"Хотите использовать наш логотип для создания фирменной кнопки \"Открыть в "
+"AntennaPod\"? Вы можете найти его в нашем [репозитории брендинга](https://"
+"github.com/AntennaPod/branding)."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 1 (paragraph)
 msgid ""
@@ -2617,8 +2616,8 @@ msgid ""
 "supports different ways through which podcasters can earn an income:"
 msgstr ""
 "Чтобы обеспечить устойчивость открытой экосистемы, подкастерам необходимо "
-"финансирование, выходящее за рамки рекламы и выкупа их прав платформами. "
-"AntennaPod поддерживает различные способы заработка для них:"
+"финансирование помимо рекламы и выкупа их прав платформами. AntennaPod "
+"поддерживает различные способы заработка для них:"
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2629,6 +2628,12 @@ msgid ""
 "guides/how-to-use-the-funding-tag). This is the standard way for podcasters "
 "to get financial support from their audience."
 msgstr ""
+"Мы поддерживаем тег [funding](https://podcasting2.org/docs/podcast-namespace/"
+"tags/funding), позволяющий подкастерам добывлять ссылки на их страницы "
+"платежей в RSS-каналах: см. [как использовать этот тег](https://"
+"podcasting2.org/docs/guides/how-to-use-the-funding-tag) (англ.). Это "
+"общепринятый способ получения финансовой поддержки для подкастеров с их "
+"аудитории."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2640,6 +2645,12 @@ msgid ""
 "AntennaPod users will be able to subscribe to it using a personalized feed "
 "URL or by entering the login credentials you give them."
 msgstr ""
+"Если по какой-либо причине вы не используете тег \"funding\", вы можете "
+"добавить информацию о том, как ваша аудитория может поддержать вас, в "
+"описании выпусков или подкаста. Такой метод также будет виден пользователям "
+"AntennaPod, хоть и не так заметно. Например, если вы предлагаете премиум, то "
+"пользователи AntennaPod смогут подписаться на него через персонализированный "
+"URL ленты или с помощью выданных вами данными для авторизации."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2650,6 +2661,11 @@ msgid ""
 "evolving, AntennaPod won't support it soon, but we are closely following "
 "developments."
 msgstr ""
+"В будущем мы желаем иметь поддержку автоматических микроплатежей через тег "
+"[value](https://podcasting2.org/docs/podcast-namespace/tags/value). Пока его "
+"сложный функционал и технические спецификации находятся в стадии развития, "
+"так что AntennaPod нескоро начнёт поддержку, однако мы активно следим за "
+"разработкой."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2657,25 +2673,24 @@ msgid ""
 "If you are a podcast producer and want to make your podcast visible in "
 "AntennaPod, this page is for you."
 msgstr ""
-"Если вы являетесь продюсером подкастов и хотите сделать свой подкаст видимым "
-"в AntennaPod, эта страница для вас."
+"Если вы — создатель подкаста и хотите сделать его видимым в AntennaPod, эта "
+"страница для вас."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 2
 #: (paragraph)
 msgid "AntennaPod mainly uses two directories for its search feature:"
-msgstr "AntennaPod в основном использует два каталога для поиска:"
+msgstr "AntennaPod в основном использует два каталога для функции поиска:"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "[Podcast Index](https://podcastindex.org/) (ask your hoster how to add your "
 "podcast, or add your own podcast via [their add page](https://"
 "podcastindex.org/add))"
 msgstr ""
 "[Podcast Index](https://podcastindex.org/) (спросите у своего хостера, как "
-"добавить свой подкаст, или добавьте свой подкаст через [API](https://"
-"podcastindex-org.github.io/docs-api/#get-/add/byfeedurl))"
+"добавить свой подкаст, или добавьте свой подкаст через [их страницу "
+"добавления ленты](https://podcastindex.org/add))"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
@@ -2701,30 +2716,28 @@ msgid ""
 "this situation, we strongly recommend that you organize a proper 'redirect' "
 "from the old to the new feed with either of these HTTP response status codes:"
 msgstr ""
-"Когда вы меняете хостера, часто меняется и URL-адрес вашей RSS-ленты. В "
+"Когда вы меняете провайдера, часто меняется и URL-адрес вашей RSS-ленты. В "
 "такой ситуации мы настоятельно рекомендуем вам организовать правильное "
-"\"перенаправление\" со старой ленты на новую с одним из этих кодов состояния "
+"\"перенаправление\" со старой ленты на новую одним из этих кодов состояния "
 "ответа HTTP:"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
-#, fuzzy
 msgid ""
 "[301 Moved Permanently](https://developer.mozilla.org/en-US/docs/Web/HTTP/"
 "Reference/Status/301)"
 msgstr ""
-"[301 Перемещено постоянно](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/301)"
+"[301 Moved Permanently](https://developer.mozilla.org/ru/docs/Web/HTTP/"
+"Reference/Status/301)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
-#, fuzzy
 msgid ""
 "[308 Permanent Redirect](https://developer.mozilla.org/en-US/docs/Web/HTTP/"
 "Reference/Status/308)"
 msgstr ""
-"[308 Постоянное перенаправление](https://developer.mozilla.org/docs/Web/HTTP/"
-"Status/308)"
+"[308 Permanent Redirect](https://developer.mozilla.org/ru/docs/Web/HTTP/"
+"Reference/Status/308)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
 #: (paragraph)
@@ -2733,9 +2746,9 @@ msgid ""
 "their app. Your audience will then continue to receive your episodes, "
 "without having to subscribe again to the new feed."
 msgstr ""
-"Таким образом вы убедитесь, что пользователи AntennaPod получат это "
-"изменение в своем приложении. Ваша аудитория продолжит получать ваши эпизоды "
-"без необходимости подписываться на новый канал."
+"Таким образом вы гарантируете, что эти изменения вступят в силу для "
+"пользователей приложения AntennaPod. Ваша аудитория продолжит получать ваши "
+"выпуски без необходимости подписки на новую ленту."
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
 #: (paragraph)
@@ -2744,8 +2757,9 @@ msgid ""
 "podcasters-hosters/list-podcast) AntennaPod uses for its search "
 "functionality."
 msgstr ""
-"Не забудьте также обновить свою запись в [директории](/documentation/"
-"podcasters-hosters/list-podcast), которую AntennaPod использует для поиска."
+"Не забудьте также обновить свою запись в [каталоге](/documentation/"
+"podcasters-hosters/list-podcast), который используется AntennaPod для "
+"функции поиска."
 
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
@@ -2753,34 +2767,34 @@ msgid ""
 "come across an interesting episode, long-press and select `Add to queue`. If "
 "you download an episode, AntennaPod adds it to the queue automatically."
 msgstr ""
-"Вы можете использовать очередь для хранения эпизодов, которые планируете "
+"Вы можете использовать очередь для хранения выпусков, которые вы планируете "
 "прослушать. Если вам попался интересный эпизод, нажмите на него и выберите "
-"`Добавить в очередь`. Если вы загружаете эпизод, AntennaPod автоматически "
-"добавляет его в очередь."
+"`Добавить в очередь`. Если вы загрузите выпуск, AntennaPod автоматически "
+"добавит его в очередь."
 
 #: _i18n/en/documentation/queue/lock.md:block 1 (paragraph)
 msgid ""
 "A pretty common problem experienced by users is that they suddenly can not "
 "manually reorder the queue."
 msgstr ""
-"Довольно распространенная проблема, с которой сталкиваются пользователи, - "
-"это невозможность вручную изменить порядок очереди."
+"Довольно распространенная проблема, с которой сталкиваются пользователи, — "
+"невозможность вручную изменить порядок очереди."
 
 #: _i18n/en/documentation/queue/lock.md:block 2 (paragraph)
 msgid ""
 "If you can't move episodes around in the queue, this can be caused by either "
 "of the following:"
 msgstr ""
-"Если вы не можете перемещать выпуски в очереди, это может быть вызвано одним "
-"из следующих причин:"
+"Если вы не можете перемещать выпуски внутри очереди, это может быть вызвано "
+"одной из следующих причин:"
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
 msgid ""
 "`Keep Sorted` is enabled. You can disable this by tapping the three dots `…` "
 "in the top bar and select `Sort`."
 msgstr ""
-"Включена функция `Сохранение сортировки`. Вы можете отключить эту функцию, "
-"нажав на три точки `...` в верхней панели и выбрав `Сортировать`."
+"Включен флажок `Поддерживать упорядоченным`. Вы можете отключить его нажав "
+"на три точки `...` в верхней панели и выбрав `Упорядочить`."
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
 msgid ""
@@ -2796,10 +2810,11 @@ msgid ""
 "github.com/AntennaPod/AntennaPod/issues/2648) on GitHub for more information "
 "and / or subscribe to the issue to get updated in case of any developments."
 msgstr ""
-"В настоящее время множественные очереди не поддерживаются. Пожалуйста, "
-"посмотрите [issue 2648](https://github.com/AntennaPod/AntennaPod/issues/"
-"2648) на GitHub для получения дополнительной информации и/или подпишитесь на "
-"выпуск, чтобы получать обновления в случае каких-либо изменений."
+"Создание нескольких очередей в настоящее время не поддерживается. "
+"Пожалуйста, посмотрите [issue 2648](https://github.com/AntennaPod/AntennaPod/"
+"issues/2648) на GitHub для получения дополнительной информации и/или "
+"подпишитесь на issue, чтобы получать обновления в случае каких-либо "
+"изменений."
 
 #: _i18n/en/documentation/queue/sorting.md:block 1 (paragraph)
 msgid ""
@@ -2808,15 +2823,15 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
-"Вы можете сортировать свою очередь воспроизведения, используя различные "
+"Вы можете упорядочить свою очередь воспроизведения, используя различные "
 "критерии сортировки: `По выпуску`, `По подкасту`, `По длине`, `По дате`, "
 "`Случайно` и `Умное перемешивание`. Поскольку большинство из них понятны "
-"сами собой, на этой странице мы сосредоточимся именно на `По подкасту` и "
-"`Умном перемешивании`."
+"сами собой, на этой странице мы сосредоточимся именно на сортировку `По "
+"подкасту` и `Умном перемешивании`."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr "Название подкаста"
+msgstr "По подкасту"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2837,15 +2852,14 @@ msgid "Smart shuffle"
 msgstr "Умное перемешивание"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Smart shuffle is an advanced sorting criterion that allows you to keep your "
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
-"Умная тасовка - это расширенный критерий сортировки очереди, который "
-"позволяет сохранять очередь отсортированной по дате публикации и при этом "
-"максимально избегать скопления эпизодов из одной подписки в очереди."
+"Умная тасовка — это расширенный критерий сортировки очереди, что позволяет "
+"сохранять очередь отсортированной по дате публикации и при этом максимально "
+"избегать скопления выпусков из одной подписки в очереди."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
@@ -2854,16 +2868,14 @@ msgid ""
 "shuffle`. Just like other sorting criteria, smart shuffle can be sorted in "
 "ascending or descending order."
 msgstr ""
-"Чтобы воспользоваться умной перетасовкой, поместите несколько эпизодов из "
+"Чтобы воспользоваться умным перемешиванием, поместите несколько выпусков из "
 "разных подписок в очередь, затем нажмите `...` в верхней панели, выберите "
-"`Сортировать` и, наконец, `Умная перетасовка`. Как и другие критерии "
-"сортировки, smart shuffle можно сортировать в порядке возрастания или "
-"убывания."
+"`Упорядочить` и, наконец, `Умное перемешивание`. Как и другие критерии "
+"сортировки, его можно сортировать в порядке возрастания или убывания."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
-#, fuzzy
 msgid "How smart shuffle works in detail"
-msgstr "Как это работает в деталях"
+msgstr "Детали работы умного перемешивания"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
@@ -2875,13 +2887,13 @@ msgid ""
 "This continues until we end up with a queue that looks like this: "
 "EEBEEDECEDEEAEE."
 msgstr ""
-"Допустим, у вас в очереди 15 выпусков: 1 из подкастов A, B и C, 2 из "
-"подкаста D и 10 из подкаста E. Умная тасовка сначала берет подкаст с "
-"наибольшим кол-вом выпусков (E) и распределяет его выпуски в очереди: "
-"EE_EE_E_E_EE_EE. Затем он берет подкаст со вторым по количеству выпусков (D) "
-"и распределяет их по свободным слотам: EE_EEDE_EDEE_EE. Так продолжается до "
+"Допустим, у вас в очереди 15 выпусков: 1 из подкастов A, Б и В, 2 из "
+"подкаста Г и 10 из подкаста Д. Умная тасовка сначала берет подкаст с "
+"наибольшим кол-вом выпусков (Д) и распределяет его выпуски в очереди: "
+"ДД_ДД_Д_Д_ДД_ДД. Затем он берет подкаст со вторым по количеству выпусков (Г) "
+"и распределяет их по свободным слотам: ДД_ДДГД_ДГДД_ДД. Так продолжается до "
 "тех пор, пока в итоге мы не получим очередь, которая выглядит следующим "
-"образом: EEBEEDECEDEEAEE."
+"образом: ДДБДДГДВДГДДАДД."
 
 #: _i18n/en/documentation/queue/sorting.md:block 9 (paragraph)
 msgid ""
@@ -2891,9 +2903,9 @@ msgid ""
 "because the former is older)."
 msgstr ""
 "Даты публикации играют роль как *внутри* подкастов (в нашем примере выпуски "
-"из подкаста E отсортированы соответствующим образом), так и *между* "
-"подкастами (выпуск из подкаста B занимает более раннее место, чем выпуск из "
-"подкаста A, потому что первый из них старше)."
+"из подкаста Д отсортированы соответствующим образом), так и *между* "
+"подкастами (выпуск из подкаста Б занимает более раннее место, чем выпуск из "
+"подкаста А, потому что первый из них старше)."
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 1
 #: (paragraph)
@@ -2904,17 +2916,17 @@ msgid ""
 "multiple queues first. (See also the [feature request](https://github.com/"
 "AntennaPod/AntennaPod/issues/2648) on our development platform.)"
 msgstr ""
-"Чтобы упорядочить подписки, вы можете присваивать подкастам теги (иногда "
-"называемые группами или категориями). Обратите внимание, что на данный "
-"момент нет возможности создавать очереди на основе тегов. Для этого сначала "
-"потребуется поддержка нескольких очередей. (См. также [feature request]"
-"(https://github.com/AntennaPod/AntennaPod/issues/2648) на нашей платформе "
-"разработки.)"
+"Чтобы упорядочить подписки, вы можете присваивать подкастам метки (иногда "
+"называемые тегами, группами, или категориями). Обратите внимание, что на "
+"данный момент нет возможности создавать очереди на основе тегов. Для этого "
+"сначала потребуется поддержка нескольких очередей. (См. также [feature "
+"request](https://github.com/AntennaPod/AntennaPod/issues/2648) на нашей "
+"платформе разработки.)"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 2
 #: (paragraph)
 msgid "To assign tags to a podcast you have to:"
-msgstr "Чтобы присвоить теги подкасту, вам нужно:"
+msgstr "Чтобы присвоить метку подкасту, вам нужно:"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
@@ -2929,7 +2941,7 @@ msgstr "Нажмите на значок `шестерни`, чтобы полу
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
 msgid "Select the `Tags` setting"
-msgstr "Выберите настройку `Теги`"
+msgstr "Выберите настройку `Метки`"
 
 #~ msgid "If you are seeing ads, this can have two reasons:"
 #~ msgstr "Если вы видите рекламу, это может быть вызвано двумя причинами:"
