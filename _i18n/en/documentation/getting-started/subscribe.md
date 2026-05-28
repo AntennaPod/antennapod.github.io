@@ -1,7 +1,7 @@
 The first thing you want to do after downloading a podcast app is to subscribe to a podcast.
 
 ## Subscribing
-Open the drawer by swiping from the left or tapping the `☰` burger icon on the top left corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or add a podcast with its RSS address.
+Open the overflow menu by tapping the `...` button in the bottom right corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or add a podcast with its RSS address.
 
 Alternatively, you can import an OPML file or only check the Apple Podcasts, gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work.
 
