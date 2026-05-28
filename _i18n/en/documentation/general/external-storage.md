@@ -1,4 +1,4 @@
-You can set AntennaPod to download episodes to your sd card instead of the internal memory. This ensures that you have more space for episodes. To select the storage card, go to `Settings` » `Downloads` » `Data folder`.
+You can set AntennaPod to download episodes to your SD card instead of the internal memory. This ensures that you have more space for episodes. To select the storage card, go to `Settings` » `Downloads` » `Choose data folder`.
 
 ## Troubleshooting
 
