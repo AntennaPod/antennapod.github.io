@@ -28,7 +28,7 @@ Dies sind Drittanbieterprojekte, die nicht mit AntennaPod in Verbindung stehen.
 
 ## Synchronisierung per Nextcloud aktivieren
 
-1. Wenn du ein Nextcloud-Konto hast, installiere die gPodder-Sync-App oder bitte deinen Server-Administrator, dies zu tun
+1. Wenn du ein Nextcloud-Konto hast, installiere die gPodder-Sync-App oder bitten deinen Server-Administrator, dies zu tun
 1. Öffne `Einstellungen` » `Synchronisation` in AntennaPod und tippe auf `Anbieter für Synchronisierung auswählen`
 1. Wähle „gPodder“
 1. Gib die „Server-Adresse“ (die URL oder IP-Adresse des Servers) ein und tippe auf `Weiter zur Anmeldung`
@@ -37,8 +37,8 @@ Dies sind Drittanbieterprojekte, die nicht mit AntennaPod in Verbindung stehen.
 ## Synchronisierung per gPodder aktivieren
 
 1. Erstelle ein Konto auf gpodder.net oder melde dich an, solltest du bereits eines haben
-1. Wenn du ein Konto hast, melde dich auf dem Webserver an und erstelle unter `Subscriptions` » `Devices` ein Gerät für jeden Client, den du nutzt:<br />{{ img-devices | strip }}
-1. Wenn du die Geräte zu deinem Konto hinzugefügt hast, verknüpfe sie über die Schaltfläche „Configure". So hält gpodder.net die aktivierten Geräte automatisch synchron.<br />{{ img-synchronize | strip }}
+1. When you have an account, log in on the webserver and create a device under `Subscriptions` » `Devices` for each client that you use:<br />{{ img-devices | strip }}
+1. When you have added the devices to your account, link them using the "Configure" button. This way, gpodder.net automatically keeps the activated devices synchronized.<br />{{ img-synchronize | strip }}
 1. Öffne `Einstellungen` » `Synchronisation` in AntennaPod und tippe auf `Anbieter für Synchronisierung auswählen`
 1. Wähle „gPodder“
 1. Gib die „Server-Adresse“ (z. B. www.gpodder.net) ein und tippe auf `Weiter zur Anmeldung`
