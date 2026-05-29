@@ -31,9 +31,8 @@ AntennaPod can synchronise your subscriptions and listening progress with other 
 * [gpodder.net](https://gpodder.net/) provides a free gPodder synchronization server that **anyone can sign up** for. Unfortunately, due to the popularity of the service and its limited funding, this server is often overloaded, leading to errors in AntennaPod.
 * More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
   * [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+  * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
   * [goPodder](https://github.com/cbrgm/gopodder) (Go)
-  * [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server) (PHP)
-  * [opodsync](https://github.com/kd2org/opodsync) (PHP)
   * [podsync](https://github.com/bobrippling/podsync) (Rust)
   * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
 
