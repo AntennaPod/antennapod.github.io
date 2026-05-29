@@ -34,7 +34,7 @@ AntennaPod can synchronise your subscriptions and listening progress with other 
   * [goPodder](https://github.com/cbrgm/gopodder) (Go)
   * [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server) (PHP)
   * [opodsync](https://github.com/kd2org/opodsync) (PHP)
-  * [podsync](https://github.com/bobrippling/podsync) (Python)
+  * [podsync](https://github.com/bobrippling/podsync) (Rust)
   * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
 
 These are third-party projects not affiliated with AntennaPod.
