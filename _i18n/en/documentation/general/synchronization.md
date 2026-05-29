@@ -60,4 +60,4 @@ These are third-party projects not affiliated with AntennaPod.
 7. Enter the 'Username' and 'Password' and tap `Log in`
 8. Select the device that you created on the server
 
-**NOTE:** Did you create a device while setting up synchronisation in AntennaPod, rather creating a device in advance on the website? Then be sure to press the `Force sync` button upload the played state of all previously listened to episodes. If you don't do this, only podcasts that were added **after** linking the devices will be synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
+**NOTE:** Did you create a device while setting up synchronisation in AntennaPod, rather than creating a device in advance on the website? Then be sure to press the `Force sync` button to upload the played state of all previously listened to episodes. If you don't do this, only podcasts that were added **after** linking the devices will be synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
