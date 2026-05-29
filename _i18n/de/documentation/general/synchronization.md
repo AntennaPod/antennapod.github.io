@@ -17,14 +17,7 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcaptu
 AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen AntennaPod-Installationen sowie anderen (Desktop-)Anwendungen synchronisieren. Um die Synchronisierung einzurichten, benötigst du einen Server – den zentralen Punkt, über den deine Daten mit anderen Geräten geteilt werden. Hierfür hast du mehrere Möglichkeiten:
 
 * [gpodder.net](https://gpodder.net/) bietet einen kostenlosen gPodder-Synchronisierungsserver an, für den sich **jeder anmelden kann**. Leider ist dieser Server aufgrund der Beliebtheit des Dienstes und seiner begrenzten Finanzierung oft überlastet, was zu Fehlern in AntennaPod führt.
-* Technisch versierteren Benutzern wird dringend empfohlen, **selbst einen Synchronisierungsserver zu betreiben**. Ein selbst betriebener Server ist zuverlässiger und trägt dazu bei, die Belastung der kostenlosen öffentlichen Dienste zu verringern. Es gibt mehrere Optionen:
-  * [Nextcloud](https://nextcloud.com/install/#instructions-server) mit der [gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
-  * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
-  * [goPodder](https://github.com/cbrgm/gopodder) (Go)
-  * [podsync](https://github.com/bobrippling/podsync) (Rust)
-  * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
-
-Dies sind Drittanbieterprojekte, die nicht mit AntennaPod in Verbindung stehen.
+* Technisch versierteren Benutzern wird dringend empfohlen, **selbst einen Synchronisierungsserver zu betreiben**. Ein selbst betriebener Server ist zuverlässiger und trägt dazu bei, die Belastung der kostenlosen öffentlichen Dienste zu verringern. Es gibt mehrere Optionen: [Nextcloud](https://nextcloud.com/install/#instructions-server) mit der [gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync), ein vollständiger [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)-Server oder der [Micro-GPodder-Server](https://github.com/bohwaz/micro-gpodder-server).
 
 ## Synchronisierung per Nextcloud aktivieren
 
