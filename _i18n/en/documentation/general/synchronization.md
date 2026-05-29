@@ -27,8 +27,17 @@
 <!-- mdpo-enable -->
 
 AntennaPod can synchronise your subscriptions and listening progress with other AntennaPod installations as well as other (desktop) apps. To set up synchronisation, you need a server - the central point through which your data is shared with other devices. You have several options for this:
+
 * [gpodder.net](https://gpodder.net/) provides a free gPodder synchronization server that **anyone can sign up** for. Unfortunately, due to the popularity of the service and its limited funding, this server is often overloaded, leading to errors in AntennaPod.
-* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options: [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) server, or the [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server).
+* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
+  * [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+  * [goPodder](https://github.com/cbrgm/gopodder) (Go)
+  * [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server) (PHP)
+  * [opodsync](https://github.com/kd2org/opodsync) (PHP)
+  * [podsync](https://github.com/bobrippling/podsync) (Python)
+  * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
+
+These are third-party projects not affiliated with AntennaPod.
 
 
 ## Enable synchronization via Nextcloud
