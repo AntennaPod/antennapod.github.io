@@ -27,8 +27,16 @@
 <!-- mdpo-enable -->
 
 AntennaPod can synchronise your subscriptions and listening progress with other AntennaPod installations as well as other (desktop) apps. To set up synchronisation, you need a server - the central point through which your data is shared with other devices. You have several options for this:
+
 * [gpodder.net](https://gpodder.net/) provides a free gPodder synchronization server that **anyone can sign up** for. Unfortunately, due to the popularity of the service and its limited funding, this server is often overloaded, leading to errors in AntennaPod.
-* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options: [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) server, or the [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server).
+* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
+  * [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+  * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
+  * [goPodder](https://github.com/cbrgm/gopodder) (Go)
+  * [podsync](https://github.com/bobrippling/podsync) (Rust)
+  * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
+
+These are third-party projects not affiliated with AntennaPod.
 
 
 ## Enable synchronization via Nextcloud
@@ -52,4 +60,4 @@ AntennaPod can synchronise your subscriptions and listening progress with other 
 7. Enter the 'Username' and 'Password' and tap `Log in`
 8. Select the device that you created on the server
 
-**NOTE:** Did you create a device while setting up synchronisation in AntennaPod, rather creating a device in advance on the website? Then be sure to press the `Force sync` button upload the played state of all previously listened to episodes. If you don't do this, only podcasts that were added **after** linking the devices will be synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
+**NOTE:** Did you create a device while setting up synchronisation in AntennaPod, rather than creating a device in advance on the website? Then be sure to press the `Force sync` button to upload the played state of all previously listened to episodes. If you don't do this, only podcasts that were added **after** linking the devices will be synchronized. There is an [open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests to change the behavior.
