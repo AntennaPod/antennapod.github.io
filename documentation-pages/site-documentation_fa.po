@@ -1761,26 +1761,40 @@ msgstr ""
 msgid ""
 "More technically inclined users are strongly encouraged to **self-host a "
 "synchronization server**. A self-hosted server is more reliable and helps "
-"reduce the load on free, public services. There are several options: "
-"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
-"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
-"[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) "
-"server, or the [Micro GPodder server](https://github.com/bohwaz/micro-"
-"gpodder-server)."
+"reduce the load on free, public services. There are several options:"
 msgstr ""
-"کاربران با دانش فنی بیشتر به شدت تشویق می‌شوند تا **یک کارساز همگام‌سازی خود-"
-"میزبان** راه‌اندازی کنند. کارساز خود-میزبان قابل اعتمادتر است و به کاهش بار "
-"روی سرویس‌های رایگان عمومی کمک می‌کند. گزینه‌های بسیاری وجود دارد: [Nextcloud]"
-"(https://nextcloud.com/install/#instructions-server) با برنامه [gPodder Sync]"
-"(https://apps.nextcloud.com/apps/gpoddersync)، یک کارساز کامل [gPodder]"
-"(https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)، یا "
-"کارساز [Micro GPodder](https://github.com/bohwaz/micro-gpodder-server)."
 
-#: _i18n/en/documentation/general/synchronization.md:block 15 (header)
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
+msgid "These are third-party projects not affiliated with AntennaPod."
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
 msgstr "روشن کردن همگام‌سازی به‌دست Nextcloud"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
 "server admin to do so"
@@ -1788,7 +1802,7 @@ msgstr ""
 "اگر حساب Nextcloud دارید، برنامه gPodder Sync را نصب کنید یا از مدیر کارساز "
 "خود بخواهید این کار را انجام دهد"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
@@ -1796,58 +1810,59 @@ msgstr ""
 "در آنتناپاد به `تنظیمات` » `همگام‌سازی` بروید و روی `انتخاب فراهم‌کننده "
 "همگام‌سازی` بزنید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 #, fuzzy
 msgid "Select `gPodder Sync`"
 msgstr "'gPodder' را برگزینید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Enter the 'Server address' (the URL or IP address of the server) and tap "
 "`Proceed`"
 msgstr ""
 "«نشانی کارساز» (URL یا نشانی IP کارساز) را وارد کنید و روی` ادامه` بزنید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid "Log in on the browser window that opens and authorize AntennaPod"
 msgstr "در پنجره مرورگری که باز می‌شود وارد شوید و آنتناپاد را مجاز کنید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 17 (header)
+#: _i18n/en/documentation/general/synchronization.md:block 18 (header)
 msgid "Enable synchronization via gPodder"
 msgstr "روشن کردن همگام‌سازی به‌دست gPodder"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Create an account on the server www.gpodder.net or on your own server"
 msgstr "یک حساب در کارساز www.gpodder.net یا در کارساز خودتان بسازید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select 'gPodder'"
 msgstr "'gPodder' را برگزینید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
 "«نشانی کارساز» (مثل www.gpodder.net) را وارد کنید و روی `ادامه برای ورود` "
 "بزنید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
 msgstr "`نام کاربری` و `گذرواژه` را وارد کنید و روی `ورود` بزنید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select the device that you created on the server"
 msgstr "دستگاهی که در کارساز ساخته‌اید را برگزینید"
 
-#: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
+#: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
+#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
-"AntennaPod, rather creating a device in advance on the website? Then be sure "
-"to press the `Force sync` button upload the played state of all previously "
-"listened to episodes. If you don't do this, only podcasts that were added "
-"**after** linking the devices will be synchronized. There is an [open issue "
-"for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests "
-"to change the behavior."
+"AntennaPod, rather than creating a device in advance on the website? Then be "
+"sure to press the `Force sync` button to upload the played state of all "
+"previously listened to episodes. If you don't do this, only podcasts that "
+"were added **after** linking the devices will be synchronized. There is an "
+"[open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) "
+"that requests to change the behavior."
 msgstr ""
 "**توجه:** آیا دستگاهی را هنگام تنظیم همگام‌سازی در آنتناپاد ساختید، به‌جای "
 "اینکه از پیش در وبگاه دستگاهی بسازید؟ اگر آری، حتماً دکمه `همگام‌سازی اجباری` "
@@ -2783,6 +2798,25 @@ msgstr "روی نماد `چرخ‌دنده` بزنید تا به تنظیمات 
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "تنظیم `برچسب‌ها` را برگزینید"
+
+#~ msgid ""
+#~ "More technically inclined users are strongly encouraged to **self-host a "
+#~ "synchronization server**. A self-hosted server is more reliable and helps "
+#~ "reduce the load on free, public services. There are several options: "
+#~ "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+#~ "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
+#~ "[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/"
+#~ "installation.html) server, or the [Micro GPodder server](https://"
+#~ "github.com/bohwaz/micro-gpodder-server)."
+#~ msgstr ""
+#~ "کاربران با دانش فنی بیشتر به شدت تشویق می‌شوند تا **یک کارساز همگام‌سازی "
+#~ "خود-میزبان** راه‌اندازی کنند. کارساز خود-میزبان قابل اعتمادتر است و به "
+#~ "کاهش بار روی سرویس‌های رایگان عمومی کمک می‌کند. گزینه‌های بسیاری وجود دارد: "
+#~ "[Nextcloud](https://nextcloud.com/install/#instructions-server) با برنامه "
+#~ "[gPodder Sync](https://apps.nextcloud.com/apps/gpoddersync)، یک کارساز "
+#~ "کامل [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/"
+#~ "installation.html)، یا کارساز [Micro GPodder](https://github.com/bohwaz/"
+#~ "micro-gpodder-server)."
 
 #~ msgid "Select 'Nextcloud'"
 #~ msgstr "'Nextcloud' را برگزینید"

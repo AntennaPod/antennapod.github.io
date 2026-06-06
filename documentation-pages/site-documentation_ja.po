@@ -1800,27 +1800,40 @@ msgstr ""
 msgid ""
 "More technically inclined users are strongly encouraged to **self-host a "
 "synchronization server**. A self-hosted server is more reliable and helps "
-"reduce the load on free, public services. There are several options: "
-"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
-"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
-"[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) "
-"server, or the [Micro GPodder server](https://github.com/bohwaz/micro-"
-"gpodder-server)."
+"reduce the load on free, public services. There are several options:"
 msgstr ""
-"より技術的な知識のあるユーザーは、**同期サーバーをセルフホストする**ことを強"
-"くおすすめします。セルフホスト型サーバーは信頼性が高く、無料のパブリックサー"
-"ビスの負荷を軽減できます。いくつかのオプションがあります: [Nextcloud]"
-"(https://nextcloud.com/install/#instructions-server)で[gPodder Syncアプリ]"
-"(https://apps.nextcloud.com/apps/gpoddersync)を使用する、完全な[gPodder]"
-"(https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) サー"
-"バー、[Micro GPodderサーバー](https://github.com/bohwaz/micro-gpodder-server)"
-"です。"
 
-#: _i18n/en/documentation/general/synchronization.md:block 15 (header)
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
+msgid "These are third-party projects not affiliated with AntennaPod."
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
 msgstr "Nextcloud経由の同期を有効化する"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
 "server admin to do so"
@@ -1828,19 +1841,19 @@ msgstr ""
 "Nextcloudアカウントがある場合は、gPodder Syncアプリをインストールするか、管理"
 "者にインストールするようにお願いします"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
 msgstr ""
 "AntennaPodで `設定` » `同期` を開き、`同期プロバイダーを選択` をタップします"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 #, fuzzy
 msgid "Select `gPodder Sync`"
 msgstr "「gPodder」を選択します"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Enter the 'Server address' (the URL or IP address of the server) and tap "
 "`Proceed`"
@@ -1848,47 +1861,48 @@ msgstr ""
 "「サーバーアドレス」（サーバーのURLまたはIPアドレス）を入力して、`ログインに"
 "進む` をタップします"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid "Log in on the browser window that opens and authorize AntennaPod"
 msgstr "ブラウザウィンドウ上でログインして、AntennaPodを開いて認証します"
 
-#: _i18n/en/documentation/general/synchronization.md:block 17 (header)
+#: _i18n/en/documentation/general/synchronization.md:block 18 (header)
 msgid "Enable synchronization via gPodder"
 msgstr "gPodder経由で同期を有効化する"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Create an account on the server www.gpodder.net or on your own server"
 msgstr ""
 "サーバー www.gpodder.net または自分自身のサーバーでアカウントを作成します"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select 'gPodder'"
 msgstr "「gPodder」を選択します"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
 "「サーバーアドレス」（例: www.gpodder.net）を入力して、`ログインを進める` を"
 "タップします"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
 msgstr "「ユーザー名」と「パスワード」を入力して、`ログイン` をタップします"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select the device that you created on the server"
 msgstr "サーバー上で作成したデバイスを選択します"
 
-#: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
+#: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
+#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
-"AntennaPod, rather creating a device in advance on the website? Then be sure "
-"to press the `Force sync` button upload the played state of all previously "
-"listened to episodes. If you don't do this, only podcasts that were added "
-"**after** linking the devices will be synchronized. There is an [open issue "
-"for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests "
-"to change the behavior."
+"AntennaPod, rather than creating a device in advance on the website? Then be "
+"sure to press the `Force sync` button to upload the played state of all "
+"previously listened to episodes. If you don't do this, only podcasts that "
+"were added **after** linking the devices will be synchronized. There is an "
+"[open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) "
+"that requests to change the behavior."
 msgstr ""
 "**注意:** ウェブサイトで事前にデバイスを作成するのではなく、AntennaPodで同期"
 "を設定するときにデバイスを作成しましたか？ その場合、必ず `強制同期` ボタンを"
@@ -2833,6 +2847,25 @@ msgstr "`歯車`アイコンをタップして、設定にアクセスする"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "`タグ`設定を選択する"
+
+#~ msgid ""
+#~ "More technically inclined users are strongly encouraged to **self-host a "
+#~ "synchronization server**. A self-hosted server is more reliable and helps "
+#~ "reduce the load on free, public services. There are several options: "
+#~ "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+#~ "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
+#~ "[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/"
+#~ "installation.html) server, or the [Micro GPodder server](https://"
+#~ "github.com/bohwaz/micro-gpodder-server)."
+#~ msgstr ""
+#~ "より技術的な知識のあるユーザーは、**同期サーバーをセルフホストする**ことを"
+#~ "強くおすすめします。セルフホスト型サーバーは信頼性が高く、無料のパブリック"
+#~ "サービスの負荷を軽減できます。いくつかのオプションがあります: [Nextcloud]"
+#~ "(https://nextcloud.com/install/#instructions-server)で[gPodder Syncアプリ]"
+#~ "(https://apps.nextcloud.com/apps/gpoddersync)を使用する、完全な[gPodder]"
+#~ "(https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) サー"
+#~ "バー、[Micro GPodderサーバー](https://github.com/bohwaz/micro-gpodder-"
+#~ "server)です。"
 
 #~ msgid "Select 'Nextcloud'"
 #~ msgstr "「Nextcloud」を選択します"

@@ -130,8 +130,8 @@ msgid ""
 msgstr ""
 "Er grænsen for antallet af afsnit, der kan overføres, nået? Tjek, hvor mange "
 "afsnit der i øjeblikket er overført (på skærmbilledet `Overførelser`, ikke "
-"kun dem i køen), og sammenlign det med grænsen under »Indstillinger« »"
-"Overførsler« »Automatisk overførsel«."
+"kun dem i køen), og sammenlign det med grænsen under »Indstillinger« "
+"»Overførsler« »Automatisk overførsel«."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -1405,8 +1405,8 @@ msgstr ""
 "ikonet med skraldespanden. Hvis du ønsker det, kan AntennaPod automatisk "
 "fjerne et afsnit fra køen, hvis det bliver slettet. Du kan finde denne "
 "indstilling under `Indstillinger` \" `Lagring` \" `Slet fjerner fra kø`. "
-"Husk, at skærmbilledet `Kø` ikke viser alle overførsler. Brug skærmbilledet »"
-"Overførsler«, hvis du vil se alle overførsler."
+"Husk, at skærmbilledet `Kø` ikke viser alle overførsler. Brug skærmbilledet "
+"»Overførsler«, hvis du vil se alle overførsler."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1974,27 +1974,40 @@ msgstr ""
 msgid ""
 "More technically inclined users are strongly encouraged to **self-host a "
 "synchronization server**. A self-hosted server is more reliable and helps "
-"reduce the load on free, public services. There are several options: "
-"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
-"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
-"[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) "
-"server, or the [Micro GPodder server](https://github.com/bohwaz/micro-"
-"gpodder-server)."
+"reduce the load on free, public services. There are several options:"
 msgstr ""
-"Mere teknisk interesserede brugere opfordres kraftigt til at **selv at hoste "
-"en synkroniseringsserver**. En selvhostet server er mere pålidelig og er med "
-"til at mindske belastningen på de gratis, offentlige tjenester. Der er flere "
-"muligheder: [Nextcloud](https://nextcloud.com/install/#instructions-server) "
-"med [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), en fuld "
-"[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) "
-"server eller [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-"
-"server)."
 
-#: _i18n/en/documentation/general/synchronization.md:block 15 (header)
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
+msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
+msgid "These are third-party projects not affiliated with AntennaPod."
+msgstr ""
+
+#: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
 msgstr "Aktivér synkronisering via Nextcloud"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
 "server admin to do so"
@@ -2002,7 +2015,7 @@ msgstr ""
 "Hvis du har en Nextcloud-konto, skal du installere gPodder Sync-appen eller "
 "bede din serveradministrator om at gøre det"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
@@ -2010,11 +2023,11 @@ msgstr ""
 "Gå til `Indstillinger` » `Synkronisering` i AntennaPod, og tryk på `Vælg "
 "synkroniseringsudbyder`"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid "Select `gPodder Sync`"
 msgstr "Vælg `gPodder Sync`"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Enter the 'Server address' (the URL or IP address of the server) and tap "
 "`Proceed`"
@@ -2022,46 +2035,47 @@ msgstr ""
 "Indtast 'Serveradresse' (serverens URL- eller IP-adresse), og tryk på "
 "`Fortsæt`"
 
-#: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid "Log in on the browser window that opens and authorize AntennaPod"
 msgstr "Log ind i det browservindue, der åbnes, og godkend AntennaPod"
 
-#: _i18n/en/documentation/general/synchronization.md:block 17 (header)
+#: _i18n/en/documentation/general/synchronization.md:block 18 (header)
 msgid "Enable synchronization via gPodder"
 msgstr "Aktivér synkronisering via gPodder"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Create an account on the server www.gpodder.net or on your own server"
 msgstr "Opret en konto på serveren www.gpodder.net eller på din egen server"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select 'gPodder'"
 msgstr "Vælg 'gPodder'"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
 msgstr ""
 "Indtast 'Serveradresse' (f.eks. www.gpodder.net), og tryk på `Fortsæt til "
 "login`"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
 msgstr "Indtast 'Brugernavn' og 'Adgangskode' og tryk på `Log ind`"
 
-#: _i18n/en/documentation/general/synchronization.md:block 18 (ordered list)
+#: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select the device that you created on the server"
 msgstr "Vælg den enhed, du oprettede på serveren"
 
-#: _i18n/en/documentation/general/synchronization.md:block 19 (paragraph)
+#: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
+#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
-"AntennaPod, rather creating a device in advance on the website? Then be sure "
-"to press the `Force sync` button upload the played state of all previously "
-"listened to episodes. If you don't do this, only podcasts that were added "
-"**after** linking the devices will be synchronized. There is an [open issue "
-"for gpodder.net](https://github.com/gpodder/mygpo/issues/388) that requests "
-"to change the behavior."
+"AntennaPod, rather than creating a device in advance on the website? Then be "
+"sure to press the `Force sync` button to upload the played state of all "
+"previously listened to episodes. If you don't do this, only podcasts that "
+"were added **after** linking the devices will be synchronized. There is an "
+"[open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) "
+"that requests to change the behavior."
 msgstr ""
 "**Bemærk** Oprettede du en enhed, mens du indstillede synkroniseringen i "
 "AntennaPod, i stedet for at oprette en enhed i forvejen på webstedet? Så "
@@ -3055,6 +3069,25 @@ msgstr "Trykke på `gear` ikonet for at få adgang til dens indstillinger"
 #: (unordered list)
 msgid "Select the `Tags` setting"
 msgstr "Vælg indstillingen `Etiketter`"
+
+#~ msgid ""
+#~ "More technically inclined users are strongly encouraged to **self-host a "
+#~ "synchronization server**. A self-hosted server is more reliable and helps "
+#~ "reduce the load on free, public services. There are several options: "
+#~ "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+#~ "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), a full "
+#~ "[gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/"
+#~ "installation.html) server, or the [Micro GPodder server](https://"
+#~ "github.com/bohwaz/micro-gpodder-server)."
+#~ msgstr ""
+#~ "Mere teknisk interesserede brugere opfordres kraftigt til at **selv at "
+#~ "hoste en synkroniseringsserver**. En selvhostet server er mere pålidelig "
+#~ "og er med til at mindske belastningen på de gratis, offentlige tjenester. "
+#~ "Der er flere muligheder: [Nextcloud](https://nextcloud.com/install/"
+#~ "#instructions-server) med [gPodder Sync app](https://apps.nextcloud.com/"
+#~ "apps/gpoddersync), en fuld [gPodder](https://gpoddernet.readthedocs.io/en/"
+#~ "latest/dev/installation.html) server eller [Micro GPodder server](https://"
+#~ "github.com/bohwaz/micro-gpodder-server)."
 
 #~ msgid "Select 'Nextcloud'"
 #~ msgstr "Vælg 'Nextcloud'"
