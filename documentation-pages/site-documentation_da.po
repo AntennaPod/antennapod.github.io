@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-20 21:42+0200\n"
-"PO-Revision-Date: 2026-05-16 03:33+0000\n"
+"PO-Revision-Date: 2026-05-30 10:00+0000\n"
 "Last-Translator: ERYpTION <eryption@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/da/>\n"
@@ -20,10 +20,14 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This "
 "page explains how to set it up and what to check when it isn't working."
 msgstr ""
+"Når du abonnerer på en podcast og er interesseret i alle nye afsnit, sparer "
+"automatisk overførsel dig for at skulle overføre dem manuelt én for én. På "
+"denne side kan du læse, hvordan du indstiller funktionen, og hvad du skal "
+"tjekke, hvis den ikke virker."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
-msgstr ""
+msgstr "Sådan fungerer automatiske overførsler"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 3 (paragraph)
 msgid ""
@@ -32,10 +36,14 @@ msgid ""
 "AntennaPod downloads the episode in the background, adds it to the queue, "
 "and removes it from the inbox."
 msgstr ""
+"Når AntennaPod opdaterer en podcast og finder nye afsnit, placerer den dem i "
+"din `Indbakke`. Hvis automatisk overførsel er aktiveret for den pågældende "
+"podcast, henter AntennaPod afsnittet i baggrunden, føjer det til køen og "
+"fjerner det fra indbakken."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4 (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
-msgstr ""
+msgstr "Automatiske overførsler kan aktiveres på to måder:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -45,6 +53,10 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
+"**Global indstilling**: gå til `Indstillinger` » `Overførsler` og aktivér "
+"`Automatisk overførsel`. Dette aktiverer automatisk overførsel for alle "
+"abonnementer, men du kan også udelukke bestemte abonnementer på "
+"indstillingsskærmen for hvert enkelt abonnement."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -54,6 +66,10 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**Indstilling pr. podcast**: Åbn podcasten, tryk på indstillingsikonet (⚙️) "
+"og aktivér `Inkluder i automatiske overførsler`. Hvis du vil aktivere "
+"automatiske overførsler for flere podcasts på én gang, kan du bruge "
+"funktionen til at vælge flere på abonnementsskærmen."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
 msgid ""
@@ -67,26 +83,42 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"Under `Indstillinger` » `Overførsler` » `Mobilopdateringer` kan du også "
+"indstille, at der kun skal foretages automatiske overførsler, når du er "
+"forbundet til et WiFi-netværk. Vigtigst af alt kan du angive en grænse for "
+"det maksimale antal afsnit, der skal overføres, før de automatiske "
+"overførsler stopper. Standardgrænsen er 50 afsnit. Under `Indstillinger` » "
+"`Overførsler` » `Automatisk sletning` finder du indstillinger til automatisk "
+"at slette afsnit, efter de er blevet afspillet, eller når der er brug for "
+"mere plads til automatiske overførsler. I indstillingerne for den enkelte "
+"podcast kan du under `Afsnitsfilter` også angive en minimumslængde for "
+"afsnit samt nøgleord til at inkludere eller ekskludere afsnit i automatiske "
+"overførsler."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Hvorfor overføres den ikke?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Hvis automatisk overførsel er aktiveret, men afsnittene ikke overføres, skal "
+"du gennemgå denne tjekliste:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"Er `Inkluder i automatiske overførsler` aktiveret for den pågældende podcast?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
 msgstr ""
+"Er du forbundet til et WiFi-netværk (eller er kun WiFi-begrænsningen slået "
+"fra)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -96,6 +128,10 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"Er grænsen for antallet af afsnit, der kan overføres, nået? Tjek, hvor mange "
+"afsnit der i øjeblikket er overført (på skærmbilledet `Overførelser`, ikke "
+"kun dem i køen), og sammenlign det med grænsen under »Indstillinger« »"
+"Overførsler« »Automatisk overførsel«."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -106,6 +142,11 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Bliver podcast-afsnittene føjet til indbakken? Kun afsnit i indbakken kan "
+"overføres automatisk, så hvis du indstiller `Handling ved nye afsnit` til "
+"noget andet end `Føj til indbakken`, bliver der ikke overført noget. Bemærk, "
+"at den automatiske overførsel flytter afsnittene fra indbakken til køen, når "
+"de er overført, så de ender stadig i din kø."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1340,17 +1381,15 @@ msgstr ""
 "de ældre afsnit, selv om de er forsvundet fra RSS-feedet."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
 msgstr ""
 "Når du er færdig med at lytte til et afsnit, vil du i de fleste tilfælde "
-"ønske at slette den fra din telefon for at frigøre plads. Der er forskellige "
-"måder, du kan gøre det på."
+"ønske at slette det for at frigøre plads. Der er forskellige måder, du kan "
+"slette afsnit på."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Firstly, you can of course manually delete episodes. When viewing the queue "
 "or a specific podcast, you can long-press an episode and tap `Delete`. When "
@@ -1362,11 +1401,12 @@ msgid ""
 msgstr ""
 "For det første kan du naturligvis slette afsnit manuelt. Når du ser køen "
 "eller en bestemt podcast, kan du trykke længe på et afsnit og trykke på "
-"`Slet`. Når du kigger på fanen Færdige på skærmen Overførsler, kan du også "
-"blot trykke på ikonet med skraldespanden. Hvis du ønsker det, kan AntennaPod "
-"automatisk fjerne et afsnit fra køen, hvis den bliver slettet. Du kan finde "
-"denne indstilling under `Indstillinger` \" `Lagring` \" `Slet fjerner fra "
-"kø`."
+"`Slet`. Når du kigger på skærmen `Overførsler`, kan du også blot trykke på "
+"ikonet med skraldespanden. Hvis du ønsker det, kan AntennaPod automatisk "
+"fjerne et afsnit fra køen, hvis det bliver slettet. Du kan finde denne "
+"indstilling under `Indstillinger` \" `Lagring` \" `Slet fjerner fra kø`. "
+"Husk, at skærmbilledet `Kø` ikke viser alle overførsler. Brug skærmbilledet »"
+"Overførsler«, hvis du vil se alle overførsler."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1383,17 +1423,16 @@ msgstr ""
 "artiklen [Automatisk sletning](/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your SD card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Choose data "
 "folder`."
 msgstr ""
-"Du kan indstille AntennaPod til at overføre afsnit til dit sd-kort i stedet "
-"for den interne hukommelse. Dette sikrer, at du har mere plads til "
-"afsnittene. For at vælge lagringskortet skal du gå til `Indstillinger` » "
-"`Overførsler` » `Vælg datamappe`."
+"Du kan indstille AntennaPod til at overføre afsnit til dit SD-kort i stedet "
+"for den interne hukommelse. Dette sikrer, at du har mere plads til afsnit. "
+"For at vælge lagringskortet skal du gå til `Indstillinger` » `Overførsler` » "
+"`Vælg datamappe`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -1972,9 +2011,8 @@ msgstr ""
 "synkroniseringsudbyder`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
-#, fuzzy
 msgid "Select `gPodder Sync`"
-msgstr "Vælg 'gPodder'"
+msgstr "Vælg `gPodder Sync`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
@@ -2239,15 +2277,14 @@ msgid "Subscribing"
 msgstr "Abonnere"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Open the overflow menu by tapping the `...` button in the bottom right "
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
-"Åbn skuffen ved at stryge fra venstre eller ved at trykke på `☰` "
-"burgerikonet i øverste venstre hjørne. Gå til `+ Tilføj podcast`. Nu kan du "
-"søge, gennemse forslag eller tilføje en podcast ved hjælp af des RSS-adresse."
+"Åbn overflow-menuen ved at trykke på knappen `...` nederst til højre. Gå til "
+"`+ Tilføj podcast`. Nu kan du søge, gennemse forslag eller tilføje en "
+"podcast ved hjælp af dens RSS-adresse."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
 msgid ""
