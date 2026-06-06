@@ -449,8 +449,23 @@
 <ul>
   <li>
 <a href="https://gpodder.net/">gpodder.net</a> tilbyder en gratis gPodder-synkroniseringsserver, som <strong>alle kan tilmelde sig</strong>. Desværre er denne server på grund af tjenestens popularitet og dens begrænsede finansiering ofte overbelastet, hvilket fører til fejl i AntennaPod.</li>
-  <li>Mere teknisk interesserede brugere opfordres kraftigt til at <strong>selv at hoste en synkroniseringsserver</strong>. En selvhostet server er mere pålidelig og er med til at mindske belastningen på de gratis, offentlige tjenester. Der er flere muligheder: <a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> med <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app</a>, en fuld <a href="https://gpoddernet.readthedocs.io/en/latest/dev/installation.html">gPodder</a> server eller <a href="https://github.com/bohwaz/micro-gpodder-server">Micro GPodder server</a>.</li>
+  <li>Brugere med større teknisk indsigt opfordres på det kraftigste til at <strong>selv hoste en synkroniseringsserver</strong>. En selvhostet server er mere pålidelig og bidrager til at mindske belastningen på gratis, offentlige tjenester. Der findes flere muligheder:
+    <ul>
+      <li>
+<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> med <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync-appen</a> (PHP)</li>
+      <li>
+<a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</li>
+      <li>
+<a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</li>
+      <li>
+<a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</li>
+      <li>
+<a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</li>
+    </ul>
+  </li>
 </ul>
+
+<p>Dette er tredjepartsprojekter, der ikke er tilknyttet AntennaPod.</p>
 
 <h2 id="aktivér-synkronisering-via-nextcloud">Aktivér synkronisering via Nextcloud</h2>
 
@@ -458,7 +473,8 @@
   <li>Hvis du har en Nextcloud-konto, skal du installere gPodder Sync-appen eller bede din serveradministrator om at gøre det</li>
   <li>Gå til <code class="language-plaintext highlighter-rouge">Indstillinger</code> » <code class="language-plaintext highlighter-rouge">Synkronisering</code> i AntennaPod, og tryk på <code class="language-plaintext highlighter-rouge">Vælg synkroniseringsudbyder</code>
 </li>
-  <li>Vælg ‘gPodder’</li>
+  <li>Vælg <code class="language-plaintext highlighter-rouge">gPodder Sync</code>
+</li>
   <li>Indtast ‘Serveradresse’ (serverens URL- eller IP-adresse), og tryk på <code class="language-plaintext highlighter-rouge">Fortsæt</code>
 </li>
   <li>Log ind i det browservindue, der åbnes, og godkend AntennaPod</li>
@@ -482,7 +498,7 @@
   <li>Vælg den enhed, du oprettede på serveren</li>
 </ol>
 
-<p><strong>Bemærk</strong> Oprettede du en enhed, mens du indstillede synkroniseringen i AntennaPod, i stedet for at oprette en enhed i forvejen på webstedet? Så sørg for at trykke på knappen <code class="language-plaintext highlighter-rouge">Fremtving fuld synkronisering</code> i AntennaPod for at uploade afspilningstilstanden for alle de afsnit, du har lyttet til tidligere. Hvis du ikke gør dette, synkroniseres kun podcasts, der blev tilføjet <strong>efter</strong> sammenkobling af enhederne. Der er et <a href="https://github.com/gpodder/mygpo/issues/388">åbent issue for gpodder.net</a>, som anmoder om at ændre denne adfærd.</p>
+<p><strong>Bemærk</strong> Oprettede du en enhed, mens du indstillede synkroniseringen i AntennaPod, i stedet for at oprette en enhed i forvejen på webstedet? Så sørg for at trykke på knappen <code class="language-plaintext highlighter-rouge">Fremtving synkronisering</code> for at uploade afspilningstilstanden for alle de afsnit, du har lyttet til tidligere. Hvis du ikke gør dette, synkroniseres kun podcasts, der blev tilføjet <strong>efter</strong> sammenkobling af enhederne. Der er et <a href="https://github.com/gpodder/mygpo/issues/388">åbent issue for gpodder.net</a>, som anmoder om at ændre denne adfærd.</p>
 
 
                     </article>

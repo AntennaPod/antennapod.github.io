@@ -448,9 +448,24 @@
 
 <ul>
   <li>
-<a href="https://gpodder.net/">gpodder.net</a> bietet einen kostenlosen gPodder-Synchronisierungsserver an, für den sich <strong>jeder anmelden kann</strong>. Leider ist dieser Server aufgrund der Beliebtheit des Dienstes und seiner begrenzten Finanzierung oft überlastet, was zu Fehlern in AntennaPod führt.</li>
-  <li>Technisch versierteren Benutzern wird dringend empfohlen, <strong>selbst einen Synchronisierungsserver zu betreiben</strong>. Ein selbst betriebener Server ist zuverlässiger und trägt dazu bei, die Belastung der kostenlosen öffentlichen Dienste zu verringern. Es gibt mehrere Optionen: <a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> mit der <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder-Sync-App</a>, ein vollständiger <a href="https://gpoddernet.readthedocs.io/en/latest/dev/installation.html">gPodder</a>-Server oder der <a href="https://github.com/bohwaz/micro-gpodder-server">Micro-GPodder-Server</a>.</li>
+<a href="https://gpodder.net/">gpodder.net</a> bietet einen kostenlosen gPodder-Synchronisierungsserver an, bei dem sich <strong>alle anmelden können</strong>. Leider ist dieser Server aufgrund der großen Beliebtheit des Dienstes und seiner begrenzten finanziellen Mittel oft überlastet, was zu Fehlern in AntennaPod führt.</li>
+  <li>Technisch versierten Nutzern wird dringend empfohlen, <strong>einen Synchronisierungsserver selbst zu hosten</strong>. Ein selbst gehosteter Server ist zuverlässiger und trägt dazu bei, die Belastung kostenloser, öffentlicher Dienste zu verringern. Es gibt mehrere Möglichkeiten:
+    <ul>
+      <li>
+<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> mit der <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder-Sync-App</a> (PHP)</li>
+      <li>
+<a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</li>
+      <li>
+<a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</li>
+      <li>
+<a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</li>
+      <li>
+<a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</li>
+    </ul>
+  </li>
 </ul>
+
+<p>Es handelt sich hierbei um Projekte von Drittanbietern, die nicht mit AntennaPod in Verbindung stehen.</p>
 
 <h2 id="synchronisierung-per-nextcloud-aktivieren">Synchronisierung per Nextcloud aktivieren</h2>
 
@@ -458,7 +473,8 @@
   <li>Wenn du ein Nextcloud-Konto hast, installiere die gPodder-Sync-App oder bitten deinen Server-Administrator, dies zu tun</li>
   <li>Öffne <code class="language-plaintext highlighter-rouge">Einstellungen</code> » <code class="language-plaintext highlighter-rouge">Synchronisation</code> in AntennaPod und tippe auf <code class="language-plaintext highlighter-rouge">Anbieter für Synchronisierung auswählen</code>
 </li>
-  <li>Wähle „gPodder“</li>
+  <li>Wähle <code class="language-plaintext highlighter-rouge">gPodder Sync</code>
+</li>
   <li>Gib die „Server-Adresse“ (die URL oder IP-Adresse des Servers) ein und tippe auf <code class="language-plaintext highlighter-rouge">Weiter zur Anmeldung</code>
 </li>
   <li>Melde dich in dem sich öffnenden Browserfenster an und autorisiere AntennaPod</li>
@@ -482,7 +498,7 @@
   <li>Wähle das Gerät aus, das du auf dem Server erstellt hast</li>
 </ol>
 
-<p><strong>Anmerkung:</strong> Hast du ein Gerät während der Einrichtung der Synchronisierung erstellt und nicht davor, wie oben beschrieben? Dann stelle sicher, dass du auf die Schaltfläche <code class="language-plaintext highlighter-rouge">Komplette Synchronisation erzwingen</code> in AntennaPod tippst, um den Abspielstatus aller Episoden hochzuladen, die du zuvor angehört hast. Wenn du dies nicht machst, werden nur Podcasts synchronisiert, die <strong>nach</strong> der Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein <a href="https://github.com/gpodder/mygpo/issues/388">offenes Issue für gpodder.net</a>, das darum bittet, dieses Verhalten zu ändern.</p>
+<p><strong>HINWEIS:</strong> Hast du ein Gerät während dem Einrichten der Synchronisierung in AntennaPod hinzugefügt, anstatt es zuvor auf der Website anzulegen? Dann tippe unbedingt auf die Schaltfläche <code class="language-plaintext highlighter-rouge">Komplette Synchronisation erzwingen</code>, um den Abspielstatus aller zuvor angehörten Episoden hochzuladen. Wenn du dies nicht machst, werden nur Podcasts synchronisiert, die <strong>nach</strong> der Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein <a href="https://github.com/gpodder/mygpo/issues/388">offenes Issue für gpodder.net</a>, das um eine Änderung dieses Verhaltens bittet.</p>
 
 
                     </article>

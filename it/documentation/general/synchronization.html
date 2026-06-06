@@ -449,8 +449,23 @@
 <ul>
   <li>
 <a href="https://gpodder.net/">gpodder.net</a> fornisce un server di sincronizzazione gPodder gratuito a cui <strong>chiunque può iscriversi</strong>. Purtroppo, a causa della popolarità del servizio e dei fondi limitati, questo server è spesso sovraccarico, con conseguenti errori in AntennaPod.</li>
-  <li>Gli utenti più esperti sono caldamente incoraggiati ad <strong>auto-ospitare un server di sincronizzazione</strong>. Un server auto-ospitato è più affidabile e contribuisce a ridurre il carico dei servizi pubblici gratuiti. Esistono diverse opzioni: <a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> con l’applicazione <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync</a>, un server <a href="https://gpoddernet.readthedocs.io/en/latest/dev/installation.html">gPodder</a> completo o il <a href="https://github.com/bohwaz/micro-gpodder-server">Micro GPodder server</a>.</li>
+  <li>Raccomandiamo agli utenti più tecnicamente smaliziati il <strong>self-hosting di un server di sincronizzazione</strong>. Un server self-hosted è più affidabile e aiuta a ridurre il carico sui servizi gratuiti e pubblici. Ci sono varie opzioni:
+    <ul>
+      <li>
+<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> con l’<a href="https://apps.nextcloud.com/apps/gpoddersync">app gPodder Sync</a> (PHP)</li>
+      <li>
+<a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</li>
+      <li>
+<a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</li>
+      <li>
+<a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</li>
+      <li>
+<a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</li>
+    </ul>
+  </li>
 </ul>
+
+<p>Questi sono progetti di terzi non affiliati ad AntennaPod.</p>
 
 <h2 id="abilita-la-sincronizzazione-tramite-nextcloud">Abilita la sincronizzazione tramite Nextcloud</h2>
 
@@ -458,7 +473,8 @@
   <li>Se disponi di un account Nextcloud, installa l’applicazione gPodder Sync o chiedi all’amministratore del server di farlo</li>
   <li>Vai su <code class="language-plaintext highlighter-rouge">Impostazioni</code> » <code class="language-plaintext highlighter-rouge">Sincronizzazione</code> in AntennaPod e tocca <code class="language-plaintext highlighter-rouge">Scegli provider di sincronizzazione</code>
 </li>
-  <li>Seleziona “gPodder”</li>
+  <li>Seleziona <code class="language-plaintext highlighter-rouge">gPodder Sync</code>
+</li>
   <li>Inserisci l’“indirizzo del server” (l’URL o l’indirizzo IP del server) e tocca <code class="language-plaintext highlighter-rouge">Procedere</code>
 </li>
   <li>Accedi nella finestra del browser che si apre e autorizza AntennaPod</li>
@@ -482,7 +498,7 @@
   <li>Seleziona il dispositivo che hai creato sul server</li>
 </ol>
 
-<p><strong>NOTA:</strong> Hai creato un dispositivo quando hai impostato la sincronizzazione su AntennaPod anziché farlo in anticipo sul sito web? Allora assicurati di premere il pulsante <code class="language-plaintext highlighter-rouge">Forza sincronizzazione</code> su AntennaPod per caricare lo stato di riproduzione di tutti gli episodi che hai ascoltato in precedenza. Se non lo fai, solo i podcast che sono stati aggiunti <strong>dopo</strong> aver collegato i dispositivi saranno sincronizzati. C’è una <a href="https://github.com/gpodder/mygpo/issues/388">issue aperta per gpodder.net</a> in cui viene chiesto di cambiare questo comportamento.</p>
+<p><strong>NOTA:</strong> Hai creato un dispositivo quando hai impostato la sincronizzazione su AntennaPod, anziché crearlo prima sul sito web? Allora assicurati di premere il pulsante <code class="language-plaintext highlighter-rouge">Forza sincronizzazione</code> per caricare lo stato di riproduzione di tutti gli episodi che hai ascoltato in precedenza. Se non lo fai, solo i podcast aggiunti <strong>dopo</strong> aver collegato i dispositivi saranno sincronizzati. C’è una <a href="https://github.com/gpodder/mygpo/issues/388">issue aperta per gpodder.net</a> in cui viene chiesto di cambiare questo comportamento.</p>
 
 
                     </article>
