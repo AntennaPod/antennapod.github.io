@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2026-05-30 10:00+0000\n"
+"PO-Revision-Date: 2026-06-06 12:26+0000\n"
 "Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.6\n"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 1 (paragraph)
 msgid ""
@@ -2032,9 +2032,10 @@ msgid ""
 "leading to errors in AntennaPod."
 msgstr ""
 "[gpodder.net](https://gpodder.net/) bietet einen kostenlosen gPodder-"
-"Synchronisierungsserver an, für den sich **jeder anmelden kann**. Leider ist "
-"dieser Server aufgrund der Beliebtheit des Dienstes und seiner begrenzten "
-"Finanzierung oft überlastet, was zu Fehlern in AntennaPod führt."
+"Synchronisierungsserver an, bei dem sich **alle anmelden können**. Leider "
+"ist dieser Server aufgrund der großen Beliebtheit des Dienstes und seiner "
+"begrenzten finanziellen Mittel oft überlastet, was zu Fehlern in AntennaPod "
+"führt."
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -2042,32 +2043,40 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Technisch versierten Nutzern wird dringend empfohlen, **einen "
+"Synchronisierungsserver selbst zu hosten**. Ein selbst gehosteter Server ist "
+"zuverlässiger und trägt dazu bei, die Belastung kostenloser, öffentlicher "
+"Dienste zu verringern. Es gibt mehrere Möglichkeiten:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) mit der "
+"[gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
 msgstr ""
+"Es handelt sich hierbei um Projekte von Drittanbietern, die nicht mit "
+"AntennaPod in Verbindung stehen."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -2137,7 +2146,6 @@ msgid "Select the device that you created on the server"
 msgstr "Wähle das Gerät aus, das du auf dem Server erstellt hast"
 
 #: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
 "AntennaPod, rather than creating a device in advance on the website? Then be "
@@ -2147,14 +2155,14 @@ msgid ""
 "[open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) "
 "that requests to change the behavior."
 msgstr ""
-"**Anmerkung:** Hast du ein Gerät während der Einrichtung der "
-"Synchronisierung erstellt und nicht davor, wie oben beschrieben? Dann stelle "
-"sicher, dass du auf die Schaltfläche `Komplette Synchronisation erzwingen` "
-"in AntennaPod tippst, um den Abspielstatus aller Episoden hochzuladen, die "
-"du zuvor angehört hast. Wenn du dies nicht machst, werden nur Podcasts "
-"synchronisiert, die **nach** der Verknüpfung der Geräte hinzugefügt wurden. "
-"Es gibt ein [offenes Issue für gpodder.net](https://github.com/gpodder/mygpo/"
-"issues/388), das darum bittet, dieses Verhalten zu ändern."
+"**HINWEIS:** Hast du ein Gerät während dem Einrichten der Synchronisierung "
+"in AntennaPod hinzugefügt, anstatt es zuvor auf der Website anzulegen? Dann "
+"tippe unbedingt auf die Schaltfläche `Komplette Synchronisation erzwingen`, "
+"um den Abspielstatus aller zuvor angehörten Episoden hochzuladen. Wenn du "
+"dies nicht machst, werden nur Podcasts synchronisiert, die **nach** der "
+"Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein [offenes Issue für "
+"gpodder.net](https://github.com/gpodder/mygpo/issues/388), das um eine "
+"Änderung dieses Verhaltens bittet."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
