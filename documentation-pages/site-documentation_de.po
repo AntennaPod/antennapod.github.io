@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 17:41+0200\n"
-"PO-Revision-Date: 2026-05-16 03:33+0000\n"
+"PO-Revision-Date: 2026-05-30 10:00+0000\n"
 "Last-Translator: VfBFan <vfbfan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/de/>\n"
@@ -20,10 +20,14 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This "
 "page explains how to set it up and what to check when it isn't working."
 msgstr ""
+"Wenn du einen Podcast abonnierst und an jeder neuen Episode interessiert "
+"bist, ersparen dir automatische Downloads das manuelle Herunterladen jeder "
+"einzelnen Episode. Auf dieser Seite erfahrst du, wie du diese Funktion "
+"einrichtest und was du überprüfen solltest, wenn sie nicht funktioniert."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
-msgstr ""
+msgstr "Wie automatisches Herunterladen funktioniert"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 3 (paragraph)
 msgid ""
@@ -32,10 +36,15 @@ msgid ""
 "AntennaPod downloads the episode in the background, adds it to the queue, "
 "and removes it from the inbox."
 msgstr ""
+"Wenn AntennaPod einen Podcast aktualisiert und neue Episoden findet, legt es "
+"diese in deinem `Posteingang` ab. Ist das automatische Herunterladen für "
+"diesen Podcast aktiviert, lädt AntennaPod die Episode im Hintergrund "
+"herunter, fügt sie der Warteschlange hinzu und entfernt sie aus dem "
+"Posteingang."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4 (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
-msgstr ""
+msgstr "Automatisches Herunterladen kann auf zwei Arten aktiviert werden:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -45,6 +54,11 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
+"**Allgemeine Einstellung**: Gehe zu `Einstellungen` » `Downloads` und "
+"aktiviere `Automatisches Herunterladen`. Dadurch wird das automatische "
+"Herunterladen für alle Abonnements aktiviert, du kannst jedoch auch "
+"Ausnahmen davon auf dem Einstellungsbildschirm jedes einzelnen Abonnements "
+"festlegen."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -54,6 +68,11 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**Einstellung pro Podcast**: Öffne den Podcast, tippe auf das "
+"Einstellungssymbol (⚙️) und aktiviere `In automatisches Herunterladen "
+"einbeziehen`. Wenn du das automatische Herunterladen für mehrere Podcasts "
+"gleichzeitig aktivieren möchtest, kannst du auf dem Abonnement-Bildschirm "
+"die Mehrfachauswahl nutzen."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
 msgid ""
@@ -67,26 +86,43 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"Unter `Einstellungen` » `Downloads` » `Mobile Aktualisierungen` kannst du "
+"außerdem festlegen, dass das automatische Herunterladen nur über WLAN "
+"erfolgen soll. Vor allem kannst du hier ein Limit für die maximale Anzahl an "
+"Episoden festlegen, die heruntergeladen werden sollen, bevor das "
+"automatische Herunterladen gestoppt wird. Das Standardlimit liegt bei 50 "
+"Episoden. Unter `Einstellungen` » `Downloads` » `Automatisches Löschen` "
+"findest du entsprechende Einstellungen, um Episoden nach dem Abspielen "
+"automatisch zu löschen oder wenn für das automatische Herunterladen mehr "
+"Speicherplatz benötigt wird. In den Einstellungen pro Podcast kannst du "
+"unter `Episoden-Filter` auch eine Mindestlänge für Episoden sowie "
+"Schlüsselwörter festlegen, um Episoden beim automatischen Herunterladen ein- "
+"oder auszuschließen."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Warum wird es nicht heruntergeladen?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Wenn automatisches Herunterladen aktiviert ist, die Episoden aber nicht "
+"heruntergeladen werden, gehe diese Checkliste durch:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"Ist beim betroffenen Podcast `In automatisches Herunterladen einbeziehen` "
+"aktiviert?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
 msgstr ""
+"Bist du mit WLAN verbunden (oder ist die Einschränkung auf WLAN deaktiviert)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -96,6 +132,10 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"Wurde das Limit für das Herunterladen von Episoden erreicht? Überprüfe, wie "
+"viele Episoden derzeit heruntergeladen sind (auf dem Bildschirm `Downloads`, "
+"nicht nur die in der Warteschlange), und vergleiche diese Zahl mit dem Limit "
+"unter `Einstellungen` » `Downloads` » `Automatisches Herunterladen`."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -106,6 +146,13 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Werden die Episoden des Podcasts zum Posteingang hinzugefügt? Nur Episoden "
+"im Posteingang können automatisch heruntergeladen werden. Wenn du also die "
+"`Aktion für neue Episoden` auf etwas anderes als `Zum Posteingang "
+"hinzufügen` einstellst, wird nichts heruntergeladen. Beachte, dass die "
+"Episoden nach dem automatischen Herunterladen vom Posteingang in die "
+"Warteschlange verschoben werden, sodass sie letztendlich doch in deiner "
+"Warteschlange landen."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1381,17 +1428,15 @@ msgstr ""
 "versorgt werden, auch wenn diese aus dem RSS-Feed verschwunden sind."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
 msgstr ""
 "Wenn du eine Episode angehört hast, möchtest du sie in den meisten Fällen "
-"vom Smartphone löschen, um Speicherplatz freizugeben. Es gibt verschiedene "
-"Möglichkeiten, dies zu erreichen."
+"löschen, um Speicherplatz freizugeben. Es gibt verschiedene Möglichkeiten, "
+"Episoden zu löschen."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Firstly, you can of course manually delete episodes. When viewing the queue "
 "or a specific podcast, you can long-press an episode and tap `Delete`. When "
@@ -1401,13 +1446,15 @@ msgid ""
 "removes from Queue`. Keep in mind that the `Queue` screen does not show all "
 "downloads. Use the `Downloads` screen if you want to see all downloads."
 msgstr ""
-"Erstens kannst du natürlich auch manuell Episoden löschen. Wenn du die "
-"Warteschlange oder einen bestimmten Podcast ansiehst, kannst du lange auf "
-"eine Episode drücken und auf `Löschen` tippen. Im Bildschirm „Downloads“ "
-"kannst du auch einfach auf das Mülleimer-Symbol tippen. Wenn du möchtest, "
+"Erstens kannst du Episoden natürlich manuell löschen. Wenn du die "
+"Warteschlange oder einen bestimmten Podcast aufrufst, kannst du lange auf "
+"eine Episode drücken und auf `Löschen` tippen. Im Bildschirm `Downloads` "
+"kannst du auch einfach auf das Papierkorb-Symbol tippen. Wenn du möchtest, "
 "kann AntennaPod eine Episode automatisch aus der Warteschlange entfernen, "
 "sobald sie gelöscht wird. Diese Option findest du unter `Einstellungen` » "
-"`Downloads` » `Gelöschte aus Warteschlange entfernen`."
+"`Downloads` » `Gelöschte aus Warteschlange entfernen`. Beachte, dass der "
+"Bildschirm `Warteschlange` nicht alle Downloads anzeigt. Verwende den "
+"Bildschirm `Downloads`, wenn du alle Downloads sehen möchtest."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1425,17 +1472,16 @@ msgstr ""
 "deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your SD card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Choose data "
 "folder`."
 msgstr ""
-"Du kannst AntennaPod so einstellen, dass Episoden auf die SD-Karte statt auf "
+"Du kannst AntennaPod so einstellen, dass Episoden auf die SD-Karte statt in "
 "den internen Speicher heruntergeladen werden. So hast du mehr Platz für "
 "Episoden. Um die Speicherkarte auszuwählen, gehe zu `Einstellungen` » "
-"`Speicher` » `Datenordner auswählen`."
+"`Downloads` » `Datenordner auswählen`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -2032,9 +2078,8 @@ msgstr ""
 "`Anbieter für Synchronisierung auswählen`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
-#, fuzzy
 msgid "Select `gPodder Sync`"
-msgstr "Wähle „gPodder“"
+msgstr "Wähle `gPodder Sync`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (ordered list)
 msgid ""
@@ -2308,16 +2353,14 @@ msgid "Subscribing"
 msgstr "Abonnieren"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Open the overflow menu by tapping the `...` button in the bottom right "
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
-"Öffne die Seitenleiste, indem du von links streichst oder auf das `☰` Burger-"
-"Symbol in der oberen linken Ecke tippst. Gehe zu `Podcast hinzufügen`. Hier "
-"kannst du suchen, Vorschläge durchforsten oder einen Podcast per RSS-Adresse "
-"hinzufügen."
+"Öffne das Aufklappmenü, indem du auf die Schaltfläche `…` in der unteren "
+"rechten Ecke tippst. Gehe zu `+ Podcast hinzufügen`. Nun kannst du suchen, "
+"Vorschläge durchstöbern oder einen Podcast per RSS-Adresse hinzufügen."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
 msgid ""
