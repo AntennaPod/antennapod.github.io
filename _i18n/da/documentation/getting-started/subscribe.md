@@ -2,7 +2,7 @@ Når du har hentet en podcast-app, er næste skridt at abonnere på en podcast.
 
 ## Abonnere
 
-Åbn skuffen ved at stryge fra venstre eller ved at trykke på `☰` burgerikonet i øverste venstre hjørne. Gå til `+ Tilføj podcast`. Nu kan du søge, gennemse forslag eller tilføje en podcast ved hjælp af des RSS-adresse.
+Åbn overflow-menuen ved at trykke på knappen `...` nederst til højre. Gå til `+ Tilføj podcast`. Nu kan du søge, gennemse forslag eller tilføje en podcast ved hjælp af dens RSS-adresse.
 
 Alternativt kan du importere en OPML-fil eller kun tjekke henholdsvis Apple Podcasts, gpodder.net, fyyd eller Podcast Index-databasen. Import af RSS- eller Atom-feeds eller URL-formater som `pcast://` og `itpc://` fungerer også.
 

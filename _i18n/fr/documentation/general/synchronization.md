@@ -17,7 +17,14 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcaptu
 AntennaPod peut synchroniser vos abonnements et vos progrès d'écoute avec d'autres versions d'AntennaPod ainsi qu'avec d'autres applications (de bureau). Pour mettre en place la synchronisation, vous avez besoin d'un serveur : le point central par lequel vos données sont partagées avec d'autres appareils. Plusieurs options s'offrent à vous :
 
 * [gpodder.net](https://gpodder.net/) fournit un serveur de synchronisation gPodder gratuit pour lequel **tout le monde peut s'inscrire**. Malheureusement, en raison de la popularité du service et de son financement limité, ce serveur est souvent surchargé, ce qui entraîne des erreurs dans AntennaPod.
-* Les utilisateurs plus techniques sont fortement encouragés à **héberger eux-mêmes un serveur de synchronisation**. Un serveur auto-hébergé est plus fiable et contribue à réduire la charge sur les services publics gratuits. Il existe plusieurs options : [Nextcloud](https://nextcloud.com/install/#instructions-server) avec l'application [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), un serveur [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) complet, ou le [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server).
+* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
+   * [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+   * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
+   * [goPodder](https://github.com/cbrgm/gopodder) (Go)
+   * [podsync](https://github.com/bobrippling/podsync) (Rust)
+   * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
+
+These are third-party projects not affiliated with AntennaPod.
 
 ## Activer la synchronisation avec Nextcloud
 

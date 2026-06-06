@@ -17,7 +17,14 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcaptu
 آنتناپاد می‌تواند اشتراک‌ها و پیشرفت گوش دادن شما را با نصب‌های دیگر آنتناپاد و همچنین برنامه‌های دیگر (دسکتاپ) همگام‌سازی کند. برای تنظیم همگام‌سازی، به یک کارساز (سرور) نیاز دارید - مرکزی که داده‌های شما به‌دست آن با دستگاه‌های دیگر به هم‌رسانی می‌شود. برای این کار چند گزینه دارید:
 
 * [gpodder.net](https://gpodder.net/) یک کارساز همگام‌سازی gPodder رایگان فراهم می‌کند که **هر کسی می‌تواند در آن ثبت‌نام کند**. متأسفانه، به دلیل محبوبیت این خدمت و بودجه محدود آن، این کارساز بیش از حد بارگذاری می‌کند و دلیل خطاهایی در آنتناپاد می‌گردد.
-* کاربران با دانش فنی بیشتر به شدت تشویق می‌شوند تا **یک کارساز همگام‌سازی خود-میزبان** راه‌اندازی کنند. کارساز خود-میزبان قابل اعتمادتر است و به کاهش بار روی سرویس‌های رایگان عمومی کمک می‌کند. گزینه‌های بسیاری وجود دارد: [Nextcloud](https://nextcloud.com/install/#instructions-server) با برنامه [gPodder Sync](https://apps.nextcloud.com/apps/gpoddersync)، یک کارساز کامل [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)، یا کارساز [Micro GPodder](https://github.com/bohwaz/micro-gpodder-server).
+* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
+   * [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+   * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
+   * [goPodder](https://github.com/cbrgm/gopodder) (Go)
+   * [podsync](https://github.com/bobrippling/podsync) (Rust)
+   * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
+
+These are third-party projects not affiliated with AntennaPod.
 
 ## روشن کردن همگام‌سازی به‌دست Nextcloud
 

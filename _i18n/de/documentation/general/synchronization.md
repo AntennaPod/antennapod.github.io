@@ -16,14 +16,21 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcaptu
 
 AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen AntennaPod-Installationen sowie anderen (Desktop-)Anwendungen synchronisieren. Um die Synchronisierung einzurichten, benötigst du einen Server – den zentralen Punkt, über den deine Daten mit anderen Geräten geteilt werden. Hierfür hast du mehrere Möglichkeiten:
 
-* [gpodder.net](https://gpodder.net/) bietet einen kostenlosen gPodder-Synchronisierungsserver an, für den sich **jeder anmelden kann**. Leider ist dieser Server aufgrund der Beliebtheit des Dienstes und seiner begrenzten Finanzierung oft überlastet, was zu Fehlern in AntennaPod führt.
-* Technisch versierteren Benutzern wird dringend empfohlen, **selbst einen Synchronisierungsserver zu betreiben**. Ein selbst betriebener Server ist zuverlässiger und trägt dazu bei, die Belastung der kostenlosen öffentlichen Dienste zu verringern. Es gibt mehrere Optionen: [Nextcloud](https://nextcloud.com/install/#instructions-server) mit der [gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync), ein vollständiger [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html)-Server oder der [Micro-GPodder-Server](https://github.com/bohwaz/micro-gpodder-server).
+* [gpodder.net](https://gpodder.net/) bietet einen kostenlosen gPodder-Synchronisierungsserver an, bei dem sich **alle anmelden können**. Leider ist dieser Server aufgrund der großen Beliebtheit des Dienstes und seiner begrenzten finanziellen Mittel oft überlastet, was zu Fehlern in AntennaPod führt.
+* Technisch versierten Nutzern wird dringend empfohlen, **einen Synchronisierungsserver selbst zu hosten**. Ein selbst gehosteter Server ist zuverlässiger und trägt dazu bei, die Belastung kostenloser, öffentlicher Dienste zu verringern. Es gibt mehrere Möglichkeiten:
+   * [Nextcloud](https://nextcloud.com/install/#instructions-server) mit der [gPodder-Sync-App](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+   * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
+   * [goPodder](https://github.com/cbrgm/gopodder) (Go)
+   * [podsync](https://github.com/bobrippling/podsync) (Rust)
+   * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
+
+Es handelt sich hierbei um Projekte von Drittanbietern, die nicht mit AntennaPod in Verbindung stehen.
 
 ## Synchronisierung per Nextcloud aktivieren
 
 1. Wenn du ein Nextcloud-Konto hast, installiere die gPodder-Sync-App oder bitten deinen Server-Administrator, dies zu tun
 1. Öffne `Einstellungen` » `Synchronisation` in AntennaPod und tippe auf `Anbieter für Synchronisierung auswählen`
-1. Wähle „gPodder“
+1. Wähle `gPodder Sync`
 1. Gib die „Server-Adresse“ (die URL oder IP-Adresse des Servers) ein und tippe auf `Weiter zur Anmeldung`
 1. Melde dich in dem sich öffnenden Browserfenster an und autorisiere AntennaPod
 
@@ -38,4 +45,4 @@ AntennaPod kann deine Abonnements und deinen Hörfortschritt mit anderen Antenna
 1. Gib den „Benutzernamen“ und das „Passwort“ ein und tippe auf `Anmelden`
 1. Wähle das Gerät aus, das du auf dem Server erstellt hast
 
-**Anmerkung:** Hast du ein Gerät während der Einrichtung der Synchronisierung erstellt und nicht davor, wie oben beschrieben? Dann stelle sicher, dass du auf die Schaltfläche `Komplette Synchronisation erzwingen` in AntennaPod tippst, um den Abspielstatus aller Episoden hochzuladen, die du zuvor angehört hast. Wenn du dies nicht machst, werden nur Podcasts synchronisiert, die **nach** der Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein [offenes Issue für gpodder.net](https://github.com/gpodder/mygpo/issues/388), das darum bittet, dieses Verhalten zu ändern.
+**HINWEIS:** Hast du ein Gerät während dem Einrichten der Synchronisierung in AntennaPod hinzugefügt, anstatt es zuvor auf der Website anzulegen? Dann tippe unbedingt auf die Schaltfläche `Komplette Synchronisation erzwingen`, um den Abspielstatus aller zuvor angehörten Episoden hochzuladen. Wenn du dies nicht machst, werden nur Podcasts synchronisiert, die **nach** der Verknüpfung der Geräte hinzugefügt wurden. Es gibt ein [offenes Issue für gpodder.net](https://github.com/gpodder/mygpo/issues/388), das um eine Änderung dieses Verhaltens bittet.

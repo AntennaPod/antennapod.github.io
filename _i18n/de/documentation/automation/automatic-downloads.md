@@ -1,21 +1,21 @@
-When you subscribe to a podcast and are interested in every new episode, automatic downloads save you from having to manually download each one. This page explains how to set it up and what to check when it isn't working.
+Wenn du einen Podcast abonnierst und an jeder neuen Episode interessiert bist, ersparen dir automatische Downloads das manuelle Herunterladen jeder einzelnen Episode. Auf dieser Seite erfahrst du, wie du diese Funktion einrichtest und was du überprüfen solltest, wenn sie nicht funktioniert.
 
-## How automatic downloads work
+## Wie automatisches Herunterladen funktioniert
 
-When AntennaPod refreshes a podcast and finds new episodes, it places them in your `Inbox`. If automatic download is enabled for that podcast, AntennaPod downloads the episode in the background, adds it to the queue, and removes it from the inbox.
+Wenn AntennaPod einen Podcast aktualisiert und neue Episoden findet, legt es diese in deinem `Posteingang` ab. Ist das automatische Herunterladen für diesen Podcast aktiviert, lädt AntennaPod die Episode im Hintergrund herunter, fügt sie der Warteschlange hinzu und entfernt sie aus dem Posteingang.
 
-Automatic downloads can be enabled in one of two ways:
+Automatisches Herunterladen kann auf zwei Arten aktiviert werden:
 
-1. **Global switch**: go to `Settings` » `Downloads` and enable `Automatic download`. This will turn on automatic download for all subscriptions, but you can also exclude specific ones on the settings screen of each subscription.
-1. **Per-podcast switch**: open the podcast, tap the settings icon (⚙️) and enable `Include in auto downloads`. If you want to enable automatic downloads for several podcasts at once, you can use multi-select on the subscriptions screen.
+1. **Allgemeine Einstellung**: Gehe zu `Einstellungen` » `Downloads` und aktiviere `Automatisches Herunterladen`. Dadurch wird das automatische Herunterladen für alle Abonnements aktiviert, du kannst jedoch auch Ausnahmen davon auf dem Einstellungsbildschirm jedes einzelnen Abonnements festlegen.
+1. **Einstellung pro Podcast**: Öffne den Podcast, tippe auf das Einstellungssymbol (⚙️) und aktiviere `In automatisches Herunterladen einbeziehen`. Wenn du das automatische Herunterladen für mehrere Podcasts gleichzeitig aktivieren möchtest, kannst du auf dem Abonnement-Bildschirm die Mehrfachauswahl nutzen.
 
-In `Settings` » `Downloads` » `Mobile updates`, you can also configure to only perform automatic downloads when on WiFi. Most importantly, you can specify a limit for the maximum number of episodes to download before automatic downloads stop. The default limit is 50 episodes. In `Settings` » `Downloads` » `Automatic deletion`, you can find related settings to automatically delete episodes after playing them or when automatic download needs more space. In the per-podcast settings, under `Episode filter` you can also set a minimum episode length as well as keywords to in- or exclude episodes in automatic downloads.
+Unter `Einstellungen` » `Downloads` » `Mobile Aktualisierungen` kannst du außerdem festlegen, dass das automatische Herunterladen nur über WLAN erfolgen soll. Vor allem kannst du hier ein Limit für die maximale Anzahl an Episoden festlegen, die heruntergeladen werden sollen, bevor das automatische Herunterladen gestoppt wird. Das Standardlimit liegt bei 50 Episoden. Unter `Einstellungen` » `Downloads` » `Automatisches Löschen` findest du entsprechende Einstellungen, um Episoden nach dem Abspielen automatisch zu löschen oder wenn für das automatische Herunterladen mehr Speicherplatz benötigt wird. In den Einstellungen pro Podcast kannst du unter `Episoden-Filter` auch eine Mindestlänge für Episoden sowie Schlüsselwörter festlegen, um Episoden beim automatischen Herunterladen ein- oder auszuschließen.
 
-## Why isn't it downloading?
+## Warum wird es nicht heruntergeladen?
 
-If automatic downloads are enabled but episodes are not downloading, work through this checklist:
+Wenn automatisches Herunterladen aktiviert ist, die Episoden aber nicht heruntergeladen werden, gehe diese Checkliste durch:
 
-1. Is `Include in automatic downloads` enabled on the specific podcast?
-1. Are you on WiFi (or is the WiFi-only restriction disabled)?
-1. Has the episode download limit been reached? Check how many episodes are currently downloaded (on the `Downloads` screen, not just the ones in the queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic download`.
-1. Are the episodes of the podcast added to the inbox? Only episodes in the inbox are eligible for automatic download, so if you set the `New episodes action` to anything other than `Add to inbox`, nothing gets downloaded. Note that automatic download moves the episodes from the inbox to the queue once downloaded, so they still end up in your queue.
+1. Ist beim betroffenen Podcast `In automatisches Herunterladen einbeziehen` aktiviert?
+1. Bist du mit WLAN verbunden (oder ist die Einschränkung auf WLAN deaktiviert)?
+1. Wurde das Limit für das Herunterladen von Episoden erreicht? Überprüfe, wie viele Episoden derzeit heruntergeladen sind (auf dem Bildschirm `Downloads`, nicht nur die in der Warteschlange), und vergleiche diese Zahl mit dem Limit unter `Einstellungen` » `Downloads` » `Automatisches Herunterladen`.
+1. Werden die Episoden des Podcasts zum Posteingang hinzugefügt? Nur Episoden im Posteingang können automatisch heruntergeladen werden. Wenn du also die `Aktion für neue Episoden` auf etwas anderes als `Zum Posteingang hinzufügen` einstellst, wird nichts heruntergeladen. Beachte, dass die Episoden nach dem automatischen Herunterladen vom Posteingang in die Warteschlange verschoben werden, sodass sie letztendlich doch in deiner Warteschlange landen.

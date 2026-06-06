@@ -1,21 +1,21 @@
-When you subscribe to a podcast and are interested in every new episode, automatic downloads save you from having to manually download each one. This page explains how to set it up and what to check when it isn't working.
+Når du abonnerer på en podcast og er interesseret i alle nye afsnit, sparer automatisk overførsel dig for at skulle overføre dem manuelt én for én. På denne side kan du læse, hvordan du indstiller funktionen, og hvad du skal tjekke, hvis den ikke virker.
 
-## How automatic downloads work
+## Sådan fungerer automatiske overførsler
 
-When AntennaPod refreshes a podcast and finds new episodes, it places them in your `Inbox`. If automatic download is enabled for that podcast, AntennaPod downloads the episode in the background, adds it to the queue, and removes it from the inbox.
+Når AntennaPod opdaterer en podcast og finder nye afsnit, placerer den dem i din `Indbakke`. Hvis automatisk overførsel er aktiveret for den pågældende podcast, henter AntennaPod afsnittet i baggrunden, føjer det til køen og fjerner det fra indbakken.
 
-Automatic downloads can be enabled in one of two ways:
+Automatiske overførsler kan aktiveres på to måder:
 
-1. **Global switch**: go to `Settings` » `Downloads` and enable `Automatic download`. This will turn on automatic download for all subscriptions, but you can also exclude specific ones on the settings screen of each subscription.
-1. **Per-podcast switch**: open the podcast, tap the settings icon (⚙️) and enable `Include in auto downloads`. If you want to enable automatic downloads for several podcasts at once, you can use multi-select on the subscriptions screen.
+1. **Global indstilling**: gå til `Indstillinger` » `Overførsler` og aktivér `Automatisk overførsel`. Dette aktiverer automatisk overførsel for alle abonnementer, men du kan også udelukke bestemte abonnementer på indstillingsskærmen for hvert enkelt abonnement.
+1. **Indstilling pr. podcast**: Åbn podcasten, tryk på indstillingsikonet (⚙️) og aktivér `Inkluder i automatiske overførsler`. Hvis du vil aktivere automatiske overførsler for flere podcasts på én gang, kan du bruge funktionen til at vælge flere på abonnementsskærmen.
 
-In `Settings` » `Downloads` » `Mobile updates`, you can also configure to only perform automatic downloads when on WiFi. Most importantly, you can specify a limit for the maximum number of episodes to download before automatic downloads stop. The default limit is 50 episodes. In `Settings` » `Downloads` » `Automatic deletion`, you can find related settings to automatically delete episodes after playing them or when automatic download needs more space. In the per-podcast settings, under `Episode filter` you can also set a minimum episode length as well as keywords to in- or exclude episodes in automatic downloads.
+Under `Indstillinger` » `Overførsler` » `Mobilopdateringer` kan du også indstille, at der kun skal foretages automatiske overførsler, når du er forbundet til et WiFi-netværk. Vigtigst af alt kan du angive en grænse for det maksimale antal afsnit, der skal overføres, før de automatiske overførsler stopper. Standardgrænsen er 50 afsnit. Under `Indstillinger` » `Overførsler` » `Automatisk sletning` finder du indstillinger til automatisk at slette afsnit, efter de er blevet afspillet, eller når der er brug for mere plads til automatiske overførsler. I indstillingerne for den enkelte podcast kan du under `Afsnitsfilter` også angive en minimumslængde for afsnit samt nøgleord til at inkludere eller ekskludere afsnit i automatiske overførsler.
 
-## Why isn't it downloading?
+## Hvorfor overføres den ikke?
 
-If automatic downloads are enabled but episodes are not downloading, work through this checklist:
+Hvis automatisk overførsel er aktiveret, men afsnittene ikke overføres, skal du gennemgå denne tjekliste:
 
-1. Is `Include in automatic downloads` enabled on the specific podcast?
-1. Are you on WiFi (or is the WiFi-only restriction disabled)?
-1. Has the episode download limit been reached? Check how many episodes are currently downloaded (on the `Downloads` screen, not just the ones in the queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic download`.
-1. Are the episodes of the podcast added to the inbox? Only episodes in the inbox are eligible for automatic download, so if you set the `New episodes action` to anything other than `Add to inbox`, nothing gets downloaded. Note that automatic download moves the episodes from the inbox to the queue once downloaded, so they still end up in your queue.
+1. Er `Inkluder i automatiske overførsler` aktiveret for den pågældende podcast?
+1. Er du forbundet til et WiFi-netværk (eller er kun WiFi-begrænsningen slået fra)?
+1. Er grænsen for antallet af afsnit, der kan overføres, nået? Tjek, hvor mange afsnit der i øjeblikket er overført (på skærmbilledet `Overførelser`, ikke kun dem i køen), og sammenlign det med grænsen under »Indstillinger« »Overførsler« »Automatisk overførsel«.
+1. Bliver podcast-afsnittene føjet til indbakken? Kun afsnit i indbakken kan overføres automatisk, så hvis du indstiller `Handling ved nye afsnit` til noget andet end `Føj til indbakken`, bliver der ikke overført noget. Bemærk, at den automatiske overførsel flytter afsnittene fra indbakken til køen, når de er overført, så de ender stadig i din kø.

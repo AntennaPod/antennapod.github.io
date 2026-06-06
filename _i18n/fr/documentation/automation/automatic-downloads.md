@@ -1,8 +1,8 @@
 When you subscribe to a podcast and are interested in every new episode, automatic downloads save you from having to manually download each one. This page explains how to set it up and what to check when it isn't working.
 
-## How automatic downloads work
+## Comment les téléchargements automatiques fonctionnent
 
-When AntennaPod refreshes a podcast and finds new episodes, it places them in your `Inbox`. If automatic download is enabled for that podcast, AntennaPod downloads the episode in the background, adds it to the queue, and removes it from the inbox.
+Lorsqu’AntennaPod met à jour un podcast et trouve de nouveaux épisodes, il les ajoute à votre `boîte de réception`. Si les téléchargements automatiques sont activés pour ce podcast, AntennaPod télécharge l’épisode en arrière-plan, l’ajoute à la liste de lecture, et le retire de la boîte de réception.
 
 Automatic downloads can be enabled in one of two ways:
 

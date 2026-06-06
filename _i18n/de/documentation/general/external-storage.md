@@ -1,4 +1,4 @@
-Du kannst AntennaPod so einstellen, dass Episoden auf die SD-Karte statt auf den internen Speicher heruntergeladen werden. So hast du mehr Platz für Episoden. Um die Speicherkarte auszuwählen, gehe zu `Einstellungen` » `Speicher` » `Datenordner auswählen`.
+Du kannst AntennaPod so einstellen, dass Episoden auf die SD-Karte statt in den internen Speicher heruntergeladen werden. So hast du mehr Platz für Episoden. Um die Speicherkarte auszuwählen, gehe zu `Einstellungen` » `Downloads` » `Datenordner auswählen`.
 
 ## Fehlerbehebung
 

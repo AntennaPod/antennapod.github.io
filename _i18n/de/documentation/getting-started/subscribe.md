@@ -2,7 +2,7 @@ Das Erste, was du nach dem Herunterladen einer Podcast-App tun solltest, ist, ei
 
 ## Abonnieren
 
-Öffne die Seitenleiste, indem du von links streichst oder auf das `☰` Burger-Symbol in der oberen linken Ecke tippst. Gehe zu `Podcast hinzufügen`. Hier kannst du suchen, Vorschläge durchforsten oder einen Podcast per RSS-Adresse hinzufügen.
+Öffne das Aufklappmenü, indem du auf die Schaltfläche `…` in der unteren rechten Ecke tippst. Gehe zu `+ Podcast hinzufügen`. Nun kannst du suchen, Vorschläge durchstöbern oder einen Podcast per RSS-Adresse hinzufügen.
 
 Alternativ kannst du auch eine OPML-Datei importieren oder nur die Apple Podcasts-, gpodder.net-, fyyd- bzw. Podcast-Index-Datenbank durchsuchen. Das Importieren von RSS- oder Atom-Feeds oder URL-Schemata wie `pcast://` und `itpc://` funktioniert ebenfalls.
 

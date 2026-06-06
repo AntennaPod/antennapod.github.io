@@ -1,4 +1,4 @@
-Du kan indstille AntennaPod til at overføre afsnit til dit sd-kort i stedet for den interne hukommelse. Dette sikrer, at du har mere plads til afsnittene. For at vælge lagringskortet skal du gå til `Indstillinger` » `Overførsler` » `Vælg datamappe`.
+Du kan indstille AntennaPod til at overføre afsnit til dit SD-kort i stedet for den interne hukommelse. Dette sikrer, at du har mere plads til afsnit. For at vælge lagringskortet skal du gå til `Indstillinger` » `Overførsler` » `Vælg datamappe`.
 
 ## Fejlfinding
 

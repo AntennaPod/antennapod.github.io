@@ -2,7 +2,7 @@ La prima cosa da fare dopo aver scaricato un'applicazione per podcast è iscrive
 
 ## Come iscriversi
 
-Apri il menù laterale scorrendo col dito da sinistra a destra o toccando l'icona `☰` in alto a sinistra. Vai su `+ Aggiungi Podcast`. Da qui puoi fare una ricerca, sfogliare i suggerimenti o aggiungere un podcast inserendo il suo indirizzo RSS.
+Apri il menù toccando il pulsante `...` nell'angolo in basso a destra. Vai su `+ Aggiungi podcast`. Da qui puoi fare una ricerca, sfogliare i suggerimenti o aggiungere un podcast inserendo il suo indirizzo RSS.
 
 In alternativa, puoi importare un file OPML o controllare solo il database di Apple Podcasts, gpodder.net, fyyd o Podcast Index rispettivamente. Puoi anche importare feed RSS o Atom, o schemi di URL come `pcast://` e `itpc://`.
 

@@ -17,7 +17,14 @@ loc="/assets/images/documentation" file="gpodder-synchronize.png" %} {% endcaptu
 AntennaPod kan je abonnementen en luistervorderingen synchroniseren met andere AntennaPod-installaties en met andere (desktop)apps. Om synchronisatie in te stellen is een server nodig - het centrale punt waarlangs je gegevens worden gedeeld met andere apparaten. Hiervoor bestaan verschillende opties:
 
 * [gpodder.net](https://gpodder.net/) biedt een gratis gPodder synchronisatieserver waar **iedereen zich voor kan aanmelden**. Door de populariteit van de dienst en de beperkte financiering is deze server helaas vaak overbelast, wat leidt tot fouten in AntennaPod.
-* Meer technisch ingestelde gebruikers wordt aangeraden **zelf een synchronisatieserver** te hosten. Een zelf gehoste server is betrouwbaarder en helpt de belasting van gratis, publieke diensten te verminderen. Er zijn verschillende opties: [Nextcloud](https://nextcloud.com/install/#instructions-server) met de [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync), een volledige [gPodder](https://gpoddernet.readthedocs.io/en/latest/dev/installation.html) server, of de [Micro GPodder server](https://github.com/bohwaz/micro-gpodder-server).
+* More technically inclined users are strongly encouraged to **self-host a synchronization server**. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
+   * [Nextcloud](https://nextcloud.com/install/#instructions-server) with the [gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)
+   * [oPodSync](https://github.com/kd2org/opodsync) (PHP)
+   * [goPodder](https://github.com/cbrgm/gopodder) (Go)
+   * [podsync](https://github.com/bobrippling/podsync) (Rust)
+   * [malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)
+
+These are third-party projects not affiliated with AntennaPod.
 
 ## Activeer synchronisatie via Nextcloud
 
