@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 23:16+0200\n"
 "PO-Revision-Date: 2026-06-06 12:26+0000\n"
-"Last-Translator: Francesco Zuco <francesco.zuco@gmail.com>\n"
+"Last-Translator: Luca <loucasal@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/it/>\n"
 "Language: it\n"
@@ -20,9 +20,10 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This "
 "page explains how to set it up and what to check when it isn't working."
 msgstr ""
-"Quando ti iscrivi a un podcast e sei interessato a ogni nuovo episodio, il "
-"download automatico ti evita di doverli scaricare manualmente uno per uno. "
-"Questa pagina spiega come configurarlo e cosa controllare se non funziona."
+"Quando ti iscrivi a un podcast e sei interessato a ogni nuovo episodio, i "
+"download automatici ti evitano di doverli scaricare manualmente uno per uno. "
+"Questa pagina spiega come configurarli e cosa controllare in caso non "
+"funzionino."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
@@ -36,9 +37,9 @@ msgid ""
 "and removes it from the inbox."
 msgstr ""
 "Quando AntennaPod aggiorna un podcast e trova nuovi episodi, li inserisce "
-"nella tua `Inbox`. Se il download automatico è abilitato per quel podcast, "
+"nel tuo `Inbox`. Se il download automatico è abilitato per quel podcast, "
 "AntennaPod scarica l'episodio in background, lo aggiunge alla coda e lo "
-"rimuove dalla inbox."
+"rimuove dall'inbox."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4 (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
@@ -52,9 +53,9 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
-"**Attivazione globale**: vai su `Impostazioni` » `Download` e abilita "
-"`Download automatici`. Questo attiverà il download automatico per tutte le "
-"iscrizioni, ma puoi anche escluderne di specifici nella schermata delle "
+"**Impostazione globale**: vai su `Impostazioni` » `Download` e abilita "
+"`Download automatico`. Questo attiverà il download automatico per tutte le "
+"iscrizioni, ma puoi anche escluderne di specifiche attraverso la schermata "
 "impostazioni di ciascuna iscrizione."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
@@ -65,6 +66,10 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**Impostazione per ogni podcast**: apri il podcast, tocca l'icona delle "
+"impostazioni (⚙️) e abilita `Includi nei download automatici`. Se vuoi "
+"abilitare i download automatici per più podcast contemporaneamente, puoi "
+"usare la selezione multipla sulla schermata delle iscrizioni."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
 msgid ""
@@ -78,26 +83,42 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"Su `Impostazioni` » `Download` » `Aggiornamenti su rete mobile`, puoi anche "
+"configurare l'app in modo che esegua i download automatici solo quando sei "
+"collegato al Wi-Fi. E, cosa ancora più importante, puoi specificare un "
+"limite massimo di episodi da scaricare prima che i download automatici si "
+"interrompano. Il limite predefinito è di 50 episodi. Su `Impostazioni` » "
+"`Download` » `Eliminazione automatica`, puoi trovare impostazioni collegate "
+"per eliminare automaticamente gli episodi dopo averli riprodotti o quando i "
+"download automatici necessitano di più spazio. Nelle impostazioni di ogni "
+"podcast, sotto `Filtro degli episodi`, puoi anche impostare una durata "
+"minima degli episodi o parole chiave per includere o escludere gli episodi "
+"dai download automatici."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Perché non sta scaricando?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Se i download automatici sono abilitati ma gli episodi non vengono "
+"scaricati, passa in rassegna questa checklist:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"`Includi nei download automatici` è abilitato per quel podcast specifico?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
 msgstr ""
+"Sei collegato al Wi-Fi (o hai disabilitato la restrizione di download solo "
+"tramite Wi-Fi)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -107,6 +128,10 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"Hai raggiunto il limite di episodi scaricabili? Controlla quanti episodi "
+"sono attualmente scaricati (sulla schermata `Download`, non controllando "
+"solo la coda) e confronta quel numero con il limite impostato su "
+"`Impostazioni` » `Download` » `Download automatico`."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -117,6 +142,12 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Gli episodi del podcast vengono aggiunti all'inbox? Solo gli episodi "
+"nell'inbox sono idonei ad essere scaricati automaticamente, quindi se "
+"imposti l'opzione `Azione per i nuovi episodi` su qualsiasi cosa che non sia "
+"`Aggiungi all'inbox`, non verrà scaricato nulla. Tieni presente che il "
+"download automatico sposta gli episodi dall'inbox alla coda una volta "
+"scaricati, quindi finiranno comunque nella tua coda."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1382,17 +1413,14 @@ msgstr ""
 "vecchi anche se questi sono ormai scomparsi dal feed RSS."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
 msgstr ""
 "Quando hai finito di ascoltare un episodio, nella maggior parte dei casi "
-"vorrai eliminarlo dal tuo telefono, per liberare spazio. Ci sono diversi "
-"modi per farlo."
+"vorrai eliminarlo per liberare spazio. Ci sono diversi modi per farlo."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Firstly, you can of course manually delete episodes. When viewing the queue "
 "or a specific podcast, you can long-press an episode and tap `Delete`. When "
@@ -1402,13 +1430,13 @@ msgid ""
 "removes from Queue`. Keep in mind that the `Queue` screen does not show all "
 "downloads. Use the `Downloads` screen if you want to see all downloads."
 msgstr ""
-"In primo luogo, è ovviamente possibile eliminare manualmente gli episodi. "
-"Quando si visualizza la coda o un podcast specifico, è possibile tenere "
-"premuto su un episodio e toccare `Elimina`. Quando si visualizza la scheda "
-"Completati nella schermata Download si può anche semplicemente toccare "
-"l'icona del cestino. Se vuoi, AntennaPod può rimuovere automaticamente "
-"l'episodio dalla coda se viene eliminato. Puoi trovare questa opzione in "
-"`Impostazioni` » `Archiviazione` » `Elimina rimuove dalla coda`."
+"In primo luogo, ovviamente è possibile eliminare manualmente gli episodi. "
+"Dalla coda o da un podcast specifico, lo si può fare tenendo premuto su un "
+"episodio e toccando `Elimina`. Dalla schermata `Download` si può anche "
+"semplicemente toccare l'icona del cestino. Se vuoi, AntennaPod può rimuovere "
+"automaticamente l'episodio dalla coda se questo viene eliminato. Puoi "
+"trovare questa opzione in `Impostazioni` » `Download` » `Rimuovi dalla coda "
+"gli eliminati`."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1426,7 +1454,6 @@ msgstr ""
 "(/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your SD card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
@@ -1997,32 +2024,38 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Raccomandiamo agli utenti più tecnicamente smaliziati il **self-hosting di "
+"un server di sincronizzazione**. Un server self-hosted è più affidabile e "
+"aiuta a ridurre il carico sui servizi gratuiti e pubblici. Ci sono varie "
+"opzioni:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) con l'[app "
+"gPodder Sync](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
-msgstr ""
+msgstr "Questi sono progetti di terzi non affiliati ad AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -2045,9 +2078,8 @@ msgstr ""
 "provider di sincronizzazione`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
-#, fuzzy
 msgid "Select `gPodder Sync`"
-msgstr "Seleziona \"gPodder\""
+msgstr "Seleziona `gPodder Sync`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
@@ -2089,7 +2121,6 @@ msgid "Select the device that you created on the server"
 msgstr "Seleziona il dispositivo che hai creato sul server"
 
 #: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
 "AntennaPod, rather than creating a device in advance on the website? Then be "
@@ -2100,13 +2131,13 @@ msgid ""
 "that requests to change the behavior."
 msgstr ""
 "**NOTA:** Hai creato un dispositivo quando hai impostato la sincronizzazione "
-"su AntennaPod anziché farlo in anticipo sul sito web? Allora assicurati di "
-"premere il pulsante `Forza sincronizzazione` su AntennaPod per caricare lo "
-"stato di riproduzione di tutti gli episodi che hai ascoltato in precedenza. "
-"Se non lo fai, solo i podcast che sono stati aggiunti **dopo** aver "
-"collegato i dispositivi saranno sincronizzati. C'è una [issue aperta per "
-"gpodder.net](https://github.com/gpodder/mygpo/issues/388) in cui viene "
-"chiesto di cambiare questo comportamento."
+"su AntennaPod, anziché crearlo prima sul sito web? Allora assicurati di "
+"premere il pulsante `Forza sincronizzazione` per caricare lo stato di "
+"riproduzione di tutti gli episodi che hai ascoltato in precedenza. Se non lo "
+"fai, solo i podcast aggiunti **dopo** aver collegato i dispositivi saranno "
+"sincronizzati. C'è una [issue aperta per gpodder.net](https://github.com/"
+"gpodder/mygpo/issues/388) in cui viene chiesto di cambiare questo "
+"comportamento."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
@@ -2317,16 +2348,14 @@ msgid "Subscribing"
 msgstr "Come iscriversi"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Open the overflow menu by tapping the `...` button in the bottom right "
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
-"Apri il menù laterale scorrendo col dito da sinistra a destra o toccando "
-"l'icona `☰` in alto a sinistra. Vai su `+ Aggiungi Podcast`. Da qui puoi "
-"fare una ricerca, sfogliare i suggerimenti o aggiungere un podcast inserendo "
-"il suo indirizzo RSS."
+"Apri il menù toccando il pulsante `...` nell'angolo in basso a destra. Vai "
+"su `+ Aggiungi podcast`. Da qui puoi fare una ricerca, sfogliare i "
+"suggerimenti o aggiungere un podcast inserendo il suo indirizzo RSS."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
 msgid ""
