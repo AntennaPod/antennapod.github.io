@@ -397,11 +397,7 @@
 </div>
 
     <main id="main-content">
-        
-
-
-
-<div class="container-fluid bg-body-tertiary py-4">
+        <div class="container-fluid bg-body-tertiary py-4">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-xl-7">
@@ -433,11 +429,10 @@
           <img class="card-img-top" src="/assets/images/events/brussels.jpg" loading="lazy" style="max-height: 15rem; object-fit: cover;">
           
           
-          <div class="row m-0 text-center overflow-hidden">
+          <div class="row m-0 text-center overflow-hidden event-links-grid">
             
             
-            
-            <div class="col py-3 border-top position-relative hidden-border-margin-child">
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
               <a href="https://forum.antennapod.org/t/antennapod-fosdem-2026/7923" class="stretched-link">
                 <i class="fa-solid fa-external-link-square-alt me-2"></i>Weitere Informationen
               </a>
@@ -445,11 +440,20 @@
             
             
             
-            <div class="col py-3 border-top position-relative border-start hidden-border-margin-child">
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
               <a href="/de/blog/2026/02/fosdem" class="stretched-link">
                 <i class="fa-solid fa-newspaper me-2"></i>Blogbeitrag lesen
               </a>
             </div>
+            
+            
+            
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
+              <a href="https://www.openstreetmap.org/node/13473395006" class="stretched-link" target="_blank">
+                <i class="fa-solid fa-map me-2"></i>Standort anzeigen
+              </a>
+            </div>
+            
             
           </div>
         </div>
@@ -458,27 +462,22 @@
   </div>
 </div>
 
-<div class="modal fade" id="icsModal" tabindex="-1" aria-labelledby="icsModalLabel" aria-hidden="true">
+<div class="modal fade" id="addToCalendarModal" tabindex="-1" aria-labelledby="addToCalendarModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="icsModalLabel">Zum Kalender hinzufügen</h5>
+        <h5 class="modal-title" id="addToCalendarModalLabel">Zum Kalender hinzufügen</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <p>Möchtest du immer die neuesten Termine für Community-Calls in deinem Kalender haben? Dann kopiere die URL und füge sie als Remote-Kalender in deiner Kalender-App hinzu.</p>
-
-<p>Ich hoffe, wir sehen uns!</p>
-
-      </div>
+      <div class="modal-body">Du möchtest immer die neuesten Veranstaltungen und aktuellen Informationen über die Community zur Hand haben? Dann abonniere unseren Kalender in deiner Lieblings-App über den Link „Zum Kalender hinzufügen“!</div>
       <div class="modal-footer border-0 pt-0">
-        <a role="button" class="btn btn-secondary" href="/de/events.ics">ICS-Datei herunterladen</a>
-        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="Link kopiert!" value="https://antennapod.org/de/events.ics">Kalender-URL kopieren</button>
+        <a role="button" class="btn btn-secondary" href="https://calendar.antennapod.org/all-events" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="Link kopiert!" data-copy-url="https://calendar.antennapod.org/all-events">Copy URL for all events</a>
+        
+          <a role="button" class="btn btn-primary" href="https://calendar.antennapod.org/dav/calendars/team/antennapod/9223c695-e382-4ad5-9340-856388138ab3.ics">ICS-Datei herunterladen</a>
       </div>
     </div>
   </div>
 </div>
-
 
     </main>
     </div>

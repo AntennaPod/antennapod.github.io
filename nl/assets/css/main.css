@@ -12420,6 +12420,18 @@ blockquote {
   padding-right: 1rem;
 }
 
+.event-links-grid > .event-link-item {
+  border-left: 0;
+}
+
+.event-links-grid > .event-link-item + .event-link-item {
+  border-left: 1px solid var(--bs-border-color);
+}
+
+.event-links-grid.row-cols-2 > .event-link-item:nth-child(2n+1) {
+  border-left: 0;
+}
+
 .project-card {
   background: var(--bs-tertiary-bg);
   border: 1px solid var(--bs-border-color);

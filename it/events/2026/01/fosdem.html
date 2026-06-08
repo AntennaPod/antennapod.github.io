@@ -397,11 +397,7 @@
 </div>
 
     <main id="main-content">
-        
-
-
-
-<div class="container-fluid bg-body-tertiary py-4">
+        <div class="container-fluid bg-body-tertiary py-4">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-xl-7">
@@ -433,11 +429,10 @@
           <img class="card-img-top" src="/assets/images/events/brussels.jpg" loading="lazy" style="max-height: 15rem; object-fit: cover;">
           
           
-          <div class="row m-0 text-center overflow-hidden">
+          <div class="row m-0 text-center overflow-hidden event-links-grid">
             
             
-            
-            <div class="col py-3 border-top position-relative hidden-border-margin-child">
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
               <a href="https://forum.antennapod.org/t/antennapod-fosdem-2026/7923" class="stretched-link">
                 <i class="fa-solid fa-external-link-square-alt me-2"></i>Più informazioni
               </a>
@@ -445,11 +440,20 @@
             
             
             
-            <div class="col py-3 border-top position-relative border-start hidden-border-margin-child">
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
               <a href="/it/blog/2026/02/fosdem" class="stretched-link">
                 <i class="fa-solid fa-newspaper me-2"></i>Leggi il post del blog
               </a>
             </div>
+            
+            
+            
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
+              <a href="https://www.openstreetmap.org/node/13473395006" class="stretched-link" target="_blank">
+                <i class="fa-solid fa-map me-2"></i>Visualizza il luogo
+              </a>
+            </div>
+            
             
           </div>
         </div>
@@ -458,27 +462,22 @@
   </div>
 </div>
 
-<div class="modal fade" id="icsModal" tabindex="-1" aria-labelledby="icsModalLabel" aria-hidden="true">
+<div class="modal fade" id="addToCalendarModal" tabindex="-1" aria-labelledby="addToCalendarModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="icsModalLabel">Aggiungi al calendario</h5>
+        <h5 class="modal-title" id="addToCalendarModalLabel">Aggiungi al calendario</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <p>Vuoi avere date e orari aggiornati delle riunioni della comunità sempre nel tuo calendario? Copia l’URL e aggiungilo come calendario remoto nella tua applicazione calendario.</p>
-
-<p>Speriamo di vederti!</p>
-
-      </div>
+      <div class="modal-body">Vuoi avere gli ultimi eventi e informazioni aggiornate sulle riunioni della comunità sempre a portata di mano? Allora iscriviti al nostro calendario con la tua applicazione preferita tramite il collegamento 'Aggiungi al calendario'!</div>
       <div class="modal-footer border-0 pt-0">
-        <a role="button" class="btn btn-secondary" href="/it/events.ics">Scarica il file ICS</a>
-        <button type="button" class="btn btn-primary" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="Collegamento copiato!" value="https://antennapod.org/it/events.ics">Copia l'URL del calendario</button>
+        <a role="button" class="btn btn-secondary" href="https://calendar.antennapod.org/all-events" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="Collegamento copiato!" data-copy-url="https://calendar.antennapod.org/all-events">Copy URL for all events</a>
+        
+          <a role="button" class="btn btn-primary" href="https://calendar.antennapod.org/dav/calendars/team/antennapod/9223c695-e382-4ad5-9340-856388138ab3.ics">Scarica il file ICS</a>
       </div>
     </div>
   </div>
 </div>
-
 
     </main>
     </div>
