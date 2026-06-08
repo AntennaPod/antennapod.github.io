@@ -1,7 +1,7 @@
 <div class="d-inline-flex align-items-center">
   {%- assign author = site.data.authors[page.author] %}
   <p class="small text-body mb-0 me-2">{% t generic.share %}</p>
-  <button title="{% t generic.accessibility.copy %}" class="bg-transparent border-0 p-0" onclick="copyUrl();" data-bs-toggle="tooltip" data-bs-trigger="click" data-bs-title="{% t generic.accessibility.copied %}" value="{{ site.url }}{{ page.url | replace: '.html', '' }}">
+  <button title="{% t generic.accessibility.copy %}" class="bg-transparent border-0 p-0" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ site.url }}{{ page.url | replace: '.html', '' }}">
       <i class="fa-solid fa-link fs-5 text-body-tertiary me-2"></i>
   </button>
   <a title="{% t generic.accessibility.share-fb %}" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | replace: '.html', '' }}"

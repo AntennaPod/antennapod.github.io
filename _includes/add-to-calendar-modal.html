@@ -1,0 +1,27 @@
+<div class="modal fade" id="addToCalendarModal" tabindex="-1" aria-labelledby="addToCalendarModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addToCalendarModalLabel">{% t events.links.add-calendar %}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {%- t events.general.announce-add-calendar -%}
+      </div>
+      <div class="modal-footer border-0 pt-0">
+        <a role="button" class="btn btn-secondary" href="{{ calendar_subscription_url }}" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ calendar_subscription_url }}">{% t events.general.subscribe-all %}</a>
+        {% if page.recurring == true -%}
+            {% comment %}
+            Disabled: Davis does not (yet) support event-specific subscription links
+            See https://github.com/tchapi/davis/issues/260
+            Allowing user to copy ICS link instead
+            <a role="button" class="btn btn-primary" href="{{ event_subscription_url }}" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ event_subscription_url }}">{% t events.general.subscribe-event %}</a>
+            {% endcomment %}
+          <a role="button" class="btn btn-primary" href="{{ event_ics_url }}" onclick="copyUrl(event);" data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-title="{% t generic.accessibility.copied %}" data-copy-url="{{ event_ics_url }}">{% t events.general.subscribe-ics %}</a>
+        {%- elsif page.uid %}
+          <a role="button" class="btn btn-primary" href="{{ event_ics_url }}">{% t events.general.download-ics %}</a>
+        {%- endif %}
+      </div>
+    </div>
+  </div>
+</div>

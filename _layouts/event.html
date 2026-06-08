@@ -2,15 +2,23 @@
 layout: internal
 ---
 
-{% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
-{% capture posttime %}{{ page.datetime-start | date: '%s' }}{% endcapture %}
-{% if page.recurring != true %}
+{%- capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+{%- capture posttime %}{{ page.datetime-start | date: '%s' }}{% endcapture %}
+{%- assign calendar_base_url = site.data.event-links | where: 'key', 'calendar-path' | map: 'url' | first %}
+{%- assign calendar_subscription_url = calendar_base_url | append: 'all-events' %}
+{%- if page['calendar-path'] %}
+  {% assign event_subscription_url = calendar_base_url | append: page['calendar-path'] %}
+{%- endif %}
+{%- if page.uid %}
+  {% assign event_ics_url = calendar_base_url | append: 'dav/calendars/team/antennapod/' | append: page.uid | append: '.ics' %}
+{%- endif %}
+{%- if page.recurring != true %}
   {% if posttime > nowunix %}
     {% assign status = 'upcoming' %}
   {% else %}
     {% assign status = 'past' %}
   {% endif %}
-{% endif %}
+{%- endif -%}
 
 <div class="container-fluid bg-body-tertiary py-4">
   <div class="container">
@@ -44,46 +52,31 @@ layout: internal
         <!-- Event Details Card -->
         <div class="card mt-5">
           <img class="card-img-top" src="/assets/{% if page.image %}images/events/{{ page.image }}{% else %}branding/covers/cover_001.png{% endif %}" loading="lazy" style="max-height: 15rem; object-fit: cover;" />
+          {% assign info_counter = 0 %}
           {% for link in site.data.event-links %}
-          {% if page[link.key] or link.key == 'ICS' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'ICS' %}{% assign info_counter = info_counter | plus:1 %}{% endunless %}{% endunless %}{% endunless %}{% endif %}
-          {% endfor %}
-          {% assign info_counter = info_counter | minus:1 %}
-          <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} overflow-hidden">
-            {% for link in site.data.event-links %}
-            {%- if page[link.key] or link.key == 'ICS' -%}
-            {% unless page[link.key] == 'online' %}{% unless page.location != 'online' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'meeting-room' %}{% unless status == 'past' and link.key == 'ICS' %}
-            {%- assign link-index = forloop.index0 %}
-            {% if status == 'past' %}{% assign link-index = link-index | minus: 1 %}{% endif %}
-            {% if info_counter > 3 %}
-              {% assign link-index = link-index | modulo: 2 %}
-            {% else %}
-              {% assign link-index = link-index | modulo: 3 %}
+            {%- capture link_visibility %}{%- include event-link-visible.html -%}{%- endcapture -%}
+            {% if link_visibility != '' %}
+              {% assign info_counter = info_counter | plus: 1 %}
             {% endif %}
-            <div class="col py-3 border-top position-relative{% unless link-index == 0 %} border-start{% endunless %} hidden-border-margin-child">
-              <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}"{% unless link.key == 'ICS' %} class="stretched-link"{% endunless %}
+          {% endfor %}
+          <div class="row m-0 text-center{% if info_counter > 3 %} row-cols-2{% endif %} overflow-hidden event-links-grid">
+            {% for link in site.data.event-links %}
+            {%- capture link_visibility %}{%- include event-link-visible.html -%}{%- endcapture -%}
+            {% if link_visibility != '' %}
+            <div class="col py-3 border-top position-relative hidden-border-margin-child event-link-item">
+              <a href="{% unless link.url contains 'http' or link.url == null %}{{ site.baseurl }}{% endunless %}{{ link.url }}{{ page[link.key] }}" class="stretched-link"
               {%- if link.url contains 'http' or page[link.key] contains 'http' %}{% unless link.url contains 'antennapod.org' or page[link.key] contains 'antennapod.org' %} target="_blank"{% endunless %}{% endif %}
-              {%- if link.key == 'ICS' %} data-bs-toggle="modal" data-bs-target="#icsModal"{% endif %}>
+              {%- if link.key == 'calendar-path' %} data-bs-toggle="modal" data-bs-target="#addToCalendarModal"{% endif %}>
                 <i class="fa-solid fa-{{ link.icon }} me-2"></i>{% t {{ link.text }} %}
               </a>
             </div>
-            {% endunless %}{% endunless %}{% endunless %}{% endunless %}
-            {%- endif -%}
+            {% endif %}
             {% endfor %}
           </div>
         </div>
-
-        {%- if status != 'past' %}
-        <div class="card mt-4">
-          <div class="card-body">
-            <p class="card-text mb-0">
-              {% t events.general.announce-add-calendar %}
-            </p>
-          </div>
-        </div>
-        {%- endif %}
       </div>
     </div>
   </div>
 </div>
 
-{% include ICS-modal.html %}
+{% include add-to-calendar-modal.html %}
