@@ -60,10 +60,10 @@ msgid ""
 msgstr ""
 "V tomto kontexte si uvedomujeme, že každá nová možnosť sa stáva voľbou. Ak "
 "ju nespravíme my, tak je rozhodovanie prenesené na užívateľa. (Pozri [blog, "
-"prečo by to vývojári nemali robiť](http://neugierig.org/software/blog/2018/"
-"07/options.html) bezrozmyslu.) Sľubujeme, že spravíme maximum pre to, aby "
-"sme robili rozhodnutia, ktoré prinesú skvelú skúsenosť. Pretože - už ste sa "
-"rozhodli, čo budete mať dnes na večeru?"
+"prečo by to vývojári nemali robiť](http://neugierig.org/software/blog/"
+"2018/07/options.html) bezrozmyslu.) Sľubujeme, že spravíme maximum pre to, "
+"aby sme robili rozhodnutia, ktoré prinesú skvelú skúsenosť. Pretože - už ste "
+"sa rozhodli, čo budete mať dnes na večeru?"
 
 #: _i18n/en/general/about.md:block 5 (paragraph)
 msgid ""
@@ -315,18 +315,15 @@ msgstr ""
 msgid "[Propose a meet-up](https://forum.antennapod.org)"
 msgstr "[Navrhnúť stretnutie](https://forum.antennapod.org)"
 
-#: _i18n/en/general/events-add-calendar-modal.md:block 1 (paragraph)
+#: _i18n/en/general/event-sidebar.md:block 5 (paragraph)
 msgid ""
-"Always want to have the latest community call dates and times in your "
-"calendar? Then copy the URL and add it as a remote calendar in your calendar "
-"app."
+"{% assign calendar_base_url = site.data.event-links | where: 'key', "
+"'calendar-path' | map: 'url' | first %} <a href=\"{{ calendar_base_url }}all-"
+"events\" onclick=\"copyUrl(event);\" data-bs-toggle=\"tooltip\" data-bs-"
+"trigger=\"manual\" data-bs-title=\"{% t generic.accessibility.copied %}\" "
+"data-copy-url=\"{{ calendar_base_url }}all-events\">Add our events to your "
+"calendar</a>"
 msgstr ""
-"Chcete mať vždy aktuálne termíny komunitných hovorov vo svojom kalendári? "
-"Skopírujte link a pridaje si nový kalendár vo svojej kalendárovej aplikácií."
-
-#: _i18n/en/general/events-add-calendar-modal.md:block 2 (paragraph)
-msgid "Hope to see you!"
-msgstr "Tešíme sa na stretnutie s vami!"
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -805,6 +802,18 @@ msgstr ""
 "priame otvorenie aplikácie AntennaPod? RSS adresu podcastu nájdete v poli "
 "nižšie. Ak sa chcete prihlásiť na odber, vložte adresu do vyhľadávacieho "
 "poľa aplikácie AntennaPod alebo do inej podcastovej aplikácie."
+
+#~ msgid ""
+#~ "Always want to have the latest community call dates and times in your "
+#~ "calendar? Then copy the URL and add it as a remote calendar in your "
+#~ "calendar app."
+#~ msgstr ""
+#~ "Chcete mať vždy aktuálne termíny komunitných hovorov vo svojom kalendári? "
+#~ "Skopírujte link a pridaje si nový kalendár vo svojej kalendárovej "
+#~ "aplikácií."
+
+#~ msgid "Hope to see you!"
+#~ msgstr "Tešíme sa na stretnutie s vami!"
 
 #~ msgid "App permissions"
 #~ msgstr "Aké povolenia požaduje aplikácia"

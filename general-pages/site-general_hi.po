@@ -311,18 +311,15 @@ msgstr ""
 msgid "[Propose a meet-up](https://forum.antennapod.org)"
 msgstr "[एक मुलाकात का प्रस्ताव](https://forum.antennapod.org)"
 
-#: _i18n/en/general/events-add-calendar-modal.md:block 1 (paragraph)
+#: _i18n/en/general/event-sidebar.md:block 5 (paragraph)
 msgid ""
-"Always want to have the latest community call dates and times in your "
-"calendar? Then copy the URL and add it as a remote calendar in your calendar "
-"app."
+"{% assign calendar_base_url = site.data.event-links | where: 'key', "
+"'calendar-path' | map: 'url' | first %} <a href=\"{{ calendar_base_url }}all-"
+"events\" onclick=\"copyUrl(event);\" data-bs-toggle=\"tooltip\" data-bs-"
+"trigger=\"manual\" data-bs-title=\"{% t generic.accessibility.copied %}\" "
+"data-copy-url=\"{{ calendar_base_url }}all-events\">Add our events to your "
+"calendar</a>"
 msgstr ""
-"क्या आप हमेशा अपने कैलेंडर में नवीनतम सामुदायिक कॉल दिनांक और समय रखना चाहते हैं? फिर "
-"यूआरएल को कॉपी करें और इसे अपने कैलेंडर ऐप में रिमोट कैलेंडर के रूप में जोड़ें।"
-
-#: _i18n/en/general/events-add-calendar-modal.md:block 2 (paragraph)
-msgid "Hope to see you!"
-msgstr "आपसे मिलने की आशा है!"
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -790,6 +787,17 @@ msgid ""
 "below. To subscribe, paste the address into AntennaPod's search box or into "
 "your other podcast app."
 msgstr ""
+
+#~ msgid ""
+#~ "Always want to have the latest community call dates and times in your "
+#~ "calendar? Then copy the URL and add it as a remote calendar in your "
+#~ "calendar app."
+#~ msgstr ""
+#~ "क्या आप हमेशा अपने कैलेंडर में नवीनतम सामुदायिक कॉल दिनांक और समय रखना चाहते हैं? फिर "
+#~ "यूआरएल को कॉपी करें और इसे अपने कैलेंडर ऐप में रिमोट कैलेंडर के रूप में जोड़ें।"
+
+#~ msgid "Hope to see you!"
+#~ msgstr "आपसे मिलने की आशा है!"
 
 #~ msgid "App permissions"
 #~ msgstr "ऐप अनुमतियां"

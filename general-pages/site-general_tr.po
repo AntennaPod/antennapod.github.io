@@ -323,19 +323,15 @@ msgstr ""
 msgid "[Propose a meet-up](https://forum.antennapod.org)"
 msgstr "[Bir buluşma önerin](https://forum.antennapod.org/)"
 
-#: _i18n/en/general/events-add-calendar-modal.md:block 1 (paragraph)
+#: _i18n/en/general/event-sidebar.md:block 5 (paragraph)
 msgid ""
-"Always want to have the latest community call dates and times in your "
-"calendar? Then copy the URL and add it as a remote calendar in your calendar "
-"app."
+"{% assign calendar_base_url = site.data.event-links | where: 'key', "
+"'calendar-path' | map: 'url' | first %} <a href=\"{{ calendar_base_url }}all-"
+"events\" onclick=\"copyUrl(event);\" data-bs-toggle=\"tooltip\" data-bs-"
+"trigger=\"manual\" data-bs-title=\"{% t generic.accessibility.copied %}\" "
+"data-copy-url=\"{{ calendar_base_url }}all-events\">Add our events to your "
+"calendar</a>"
 msgstr ""
-"Takviminizde her zaman en güncel topluluk görüşmesi tarih ve saatlerinin "
-"olmasını mı istiyorsunuz? O halde URL'yi kopyalayın ve takvim uygulamanıza "
-"uzak takvim olarak ekleyin."
-
-#: _i18n/en/general/events-add-calendar-modal.md:block 2 (paragraph)
-msgid "Hope to see you!"
-msgstr "Görüşmek dileğiyle!"
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -830,6 +826,18 @@ msgstr ""
 "Web tarayıcınız AntennaPod'u doğrudan butonu kullanarak açmayı "
 "desteklemiyorsa, aşağıdaki kutuda görüntülenen adresi kopyalayıp "
 "AntennaPod'un arama kutusuna yapıştırabilirsiniz."
+
+#~ msgid ""
+#~ "Always want to have the latest community call dates and times in your "
+#~ "calendar? Then copy the URL and add it as a remote calendar in your "
+#~ "calendar app."
+#~ msgstr ""
+#~ "Takviminizde her zaman en güncel topluluk görüşmesi tarih ve saatlerinin "
+#~ "olmasını mı istiyorsunuz? O halde URL'yi kopyalayın ve takvim "
+#~ "uygulamanıza uzak takvim olarak ekleyin."
+
+#~ msgid "Hope to see you!"
+#~ msgstr "Görüşmek dileğiyle!"
 
 #~ msgid "App permissions"
 #~ msgstr "Uygulama izinleri"

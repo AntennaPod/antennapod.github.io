@@ -321,19 +321,15 @@ msgstr ""
 msgid "[Propose a meet-up](https://forum.antennapod.org)"
 msgstr "[Ehdota tapaamista](https://forum.antennapod.org)"
 
-#: _i18n/en/general/events-add-calendar-modal.md:block 1 (paragraph)
+#: _i18n/en/general/event-sidebar.md:block 5 (paragraph)
 msgid ""
-"Always want to have the latest community call dates and times in your "
-"calendar? Then copy the URL and add it as a remote calendar in your calendar "
-"app."
+"{% assign calendar_base_url = site.data.event-links | where: 'key', "
+"'calendar-path' | map: 'url' | first %} <a href=\"{{ calendar_base_url }}all-"
+"events\" onclick=\"copyUrl(event);\" data-bs-toggle=\"tooltip\" data-bs-"
+"trigger=\"manual\" data-bs-title=\"{% t generic.accessibility.copied %}\" "
+"data-copy-url=\"{{ calendar_base_url }}all-events\">Add our events to your "
+"calendar</a>"
 msgstr ""
-"Haluatko aina nähdä viimeisimmät yhteisöpuhelujen päivämäärät ja kellonajat "
-"kalenterissasi? Kopioi sitten URL-osoite ja lisää se etäkalenteriksi "
-"kalenterisovellukseesi."
-
-#: _i18n/en/general/events-add-calendar-modal.md:block 2 (paragraph)
-msgid "Hope to see you!"
-msgstr "Toivottavasti tapaamme!"
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -841,6 +837,18 @@ msgstr ""
 "avaamista suoraan? Voit löytää podcastin RSS osoitteen alla olevasta "
 "laatikosta. Tilataksesi liitä osoite AntennaPodin hakukenttään tai toiseen "
 "podcastisovellukseen."
+
+#~ msgid ""
+#~ "Always want to have the latest community call dates and times in your "
+#~ "calendar? Then copy the URL and add it as a remote calendar in your "
+#~ "calendar app."
+#~ msgstr ""
+#~ "Haluatko aina nähdä viimeisimmät yhteisöpuhelujen päivämäärät ja "
+#~ "kellonajat kalenterissasi? Kopioi sitten URL-osoite ja lisää se "
+#~ "etäkalenteriksi kalenterisovellukseesi."
+
+#~ msgid "Hope to see you!"
+#~ msgstr "Toivottavasti tapaamme!"
 
 #~ msgid "App permissions"
 #~ msgstr "Sovelluksen käyttöoikeudet"

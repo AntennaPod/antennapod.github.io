@@ -63,10 +63,10 @@ msgstr ""
 "A questo proposito, siamo consci che ogni opzione che aggiungiamo è una "
 "scelta non fatta. E una scelta non fatta è una decisione che rimandiamo "
 "all'utente finale. (Qui trovi un ottimo [articolo di blog sul perché gli "
-"sviluppatori non dovrebbero farlo](http://neugierig.org/software/blog/2018/"
-"07/options.html) con troppa leggerezza.) Ci impegniamo a fare del nostro "
-"meglio per prendere decisioni che creano un'ottima esperienza. Perché - hai "
-"già deciso cosa mangerai questa sera?"
+"sviluppatori non dovrebbero farlo](http://neugierig.org/software/blog/"
+"2018/07/options.html) con troppa leggerezza.) Ci impegniamo a fare del "
+"nostro meglio per prendere decisioni che creano un'ottima esperienza. Perché "
+"- hai già deciso cosa mangerai questa sera?"
 
 #: _i18n/en/general/about.md:block 5 (paragraph)
 msgid ""
@@ -325,19 +325,15 @@ msgstr ""
 msgid "[Propose a meet-up](https://forum.antennapod.org)"
 msgstr "[Proponi un incontro](https://forum.antennapod.org)"
 
-#: _i18n/en/general/events-add-calendar-modal.md:block 1 (paragraph)
+#: _i18n/en/general/event-sidebar.md:block 5 (paragraph)
 msgid ""
-"Always want to have the latest community call dates and times in your "
-"calendar? Then copy the URL and add it as a remote calendar in your calendar "
-"app."
+"{% assign calendar_base_url = site.data.event-links | where: 'key', "
+"'calendar-path' | map: 'url' | first %} <a href=\"{{ calendar_base_url }}all-"
+"events\" onclick=\"copyUrl(event);\" data-bs-toggle=\"tooltip\" data-bs-"
+"trigger=\"manual\" data-bs-title=\"{% t generic.accessibility.copied %}\" "
+"data-copy-url=\"{{ calendar_base_url }}all-events\">Add our events to your "
+"calendar</a>"
 msgstr ""
-"Vuoi avere date e orari aggiornati delle riunioni della comunità sempre nel "
-"tuo calendario? Copia l'URL e aggiungilo come calendario remoto nella tua "
-"applicazione calendario."
-
-#: _i18n/en/general/events-add-calendar-modal.md:block 2 (paragraph)
-msgid "Hope to see you!"
-msgstr "Speriamo di vederti!"
 
 #: _i18n/en/general/license.md:block 1 (header)
 msgid "The app"
@@ -855,6 +851,18 @@ msgstr ""
 "AntennaPod direttamente? Puoi trovare l'indirizzo RSS nella casella qui "
 "sotto. Per iscriverti, incollalo nella casella di ricerca di AntennaPod o "
 "nell'app di podcast che usi."
+
+#~ msgid ""
+#~ "Always want to have the latest community call dates and times in your "
+#~ "calendar? Then copy the URL and add it as a remote calendar in your "
+#~ "calendar app."
+#~ msgstr ""
+#~ "Vuoi avere date e orari aggiornati delle riunioni della comunità sempre "
+#~ "nel tuo calendario? Copia l'URL e aggiungilo come calendario remoto nella "
+#~ "tua applicazione calendario."
+
+#~ msgid "Hope to see you!"
+#~ msgstr "Speriamo di vederti!"
 
 #~ msgid "App permissions"
 #~ msgstr "Autorizzazioni dell'applicazione"
