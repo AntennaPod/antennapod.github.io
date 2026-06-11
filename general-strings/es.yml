@@ -340,6 +340,8 @@ documentation:
       title: Actualizando pódcasts
     tasker:
       title: Integración con otras aplicaciones
+    automatic-downloads:
+      title: Descarga automática
   intro: Bienvenida a la sección de documentación de AntennaPod. Esta sección 
     busca proporcionar información sobre las características actuales.
   playback:
@@ -395,13 +397,16 @@ events:
     recurring: Evento periódico
     download-ics: Descargar el archivo ICS
     copy-url: Copiar la URL del calendario
-    announce-add-calendar: ¿Quiere tener siempre a mano los últimos eventos y 
-      actualizar la información de llamadas de la comunidad? ¡Entonces 
-      suscríbase a nuestro calendario en su aplicación favorita a través del 
-      enlace 'Agregar al calendario'!
+    announce-add-calendar: ¿Quieres tener siempre a mano la información más 
+      actualizada sobre eventos? Copie la URL y agréguela como calendario remoto
+      en su aplicación de calendario para agregar todas nuestras llamadas y 
+      reuniones. O utilice el archivo ICS para agregar solo este evento.
     recurring-events: Eventos recurrentes
     upcoming-events: Próximos eventos
     past-events: Eventos pasados
+    subscribe-event: Copiar URL de evento
+    subscribe-all: Copiar URL para todos los eventos
+    subscribe-ics: Copiar URL de evento (ICS)
   links:
     add-calendar: Añadir al calendario
     more-information: Más información
@@ -438,3 +443,9 @@ contributors:
   title: Contribuidores
 contributions-graph:
   past-year: Año pasado
+  title: Actividad de desarrollo
+  description: Compromisos por semana durante el año pasado
+  join-cta: Únete al desarrollo
+  loading: Cargando actividad...
+  error: No se pudieron cargar los datos de actividad
+  past-month: Mes anterior
