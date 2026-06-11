@@ -154,6 +154,8 @@ documentation:
       title: Atualização de podcasts
     tasker:
       title: Integração com outras aplicações
+    automatic-downloads:
+      title: Downloads automáticos
   bugs-first-aid:
     episodes-missing:
       title: Faltam episódios antigos
@@ -242,13 +244,16 @@ events:
     recurring: Evento recorrente
     download-ics: Transferir o ficheiro ICS
     copy-url: Copiar URL do calendário
-    announce-add-calendar: Quer ter sempre à mão os últimos eventos e atualizar 
-      as informações sobre as chamadas da comunidade? Então, subscreva o nosso 
-      calendário na sua aplicação favorita através do link “Adicionar ao 
-      calendário”!
+    announce-add-calendar: Quer ter sempre a informação mais atualizada à mão? 
+      Copie o URL e adicione-o como um calendário remoto na sua aplicação de 
+      calendário para adicionar todas as nossas chamadas e reuniões. Ou use o 
+      ficheiro ICS para adicionar apenas este evento.
     recurring-events: Eventos recorrentes
     upcoming-events: Próximos eventos
     past-events: Eventos passados
+    subscribe-event: Copiar URL do evento
+    subscribe-all: Copiar URL para todos os eventos
+    subscribe-ics: Copiar URL do evento (ICS)
 not-installed:
   title: AntennaPod não instalado
   text: O AntennaPod não está instalado ou o seu navegador não consegue abri-lo 
@@ -339,3 +344,13 @@ media-kit:
   primary: Primário
   secondary: Secundário
   accent: Destaque
+contributors:
+  title: Contribuidores
+contributions-graph:
+  title: Atividade de desenvolvimento
+  description: Commits por semana no período de um ano
+  join-cta: Desenvolvimento conjunto
+  loading: A carregar atividade...
+  error: Não foi possível carregar os dados de atividade
+  past-year: Último ano
+  past-month: Último mês

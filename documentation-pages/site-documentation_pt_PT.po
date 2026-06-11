@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-29 17:29+0200\n"
-"PO-Revision-Date: 2026-06-06 12:26+0000\n"
+"PO-Revision-Date: 2026-06-08 09:47+0000\n"
 "Last-Translator: António Oliveira <antonio.oliveira5487@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_PT/>\n"
@@ -96,23 +96,27 @@ msgstr ""
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Porque é que não está a fazer download?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Se os downloads automáticos estão ativos mas os episódios não estão a ser "
+"transferidos, verifique esta lista de passos:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"A opção `Incluir nos downloads automáticos` está ativa neste podcast "
+"específico?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
-msgstr ""
+msgstr "Tem o WiFi ativo (ou tem a restrição de apenas WiFi desativada)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -122,6 +126,9 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"Atingiu o limite de download de episódios? Verifique quantos episódios fez "
+"download (no ecrã de `Downloads`, não apenas os que estão em fila) e compare-"
+"os com o limite em `Definições` » `Downloads` » `Download automático`."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -132,6 +139,12 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Os episódios do podcast foram adicionados à caixa de entrada? Apenas "
+"episódios na caixa de entrada são elegíveis para download automático, então "
+"se definir a `Ação para novos episódios` para qualquer coisa sem ser "
+"`Adicionar à caixa de entrada`, não é feito download de nada. Note que os "
+"downloads automáticos movem os episódios da caixa de entrada para a fila "
+"após o download, e por isso acabam por ficar na fila."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1378,7 +1391,6 @@ msgstr ""
 "desaparecido do feed RSS."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
@@ -1387,7 +1399,6 @@ msgstr ""
 "seu telemóvel para libertar espaço. Existem várias formas de o fazer."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Firstly, you can of course manually delete episodes. When viewing the queue "
 "or a specific podcast, you can long-press an episode and tap `Delete`. When "
@@ -1397,13 +1408,14 @@ msgid ""
 "removes from Queue`. Keep in mind that the `Queue` screen does not show all "
 "downloads. Use the `Downloads` screen if you want to see all downloads."
 msgstr ""
-"Em primeiro lugar, pode naturalmente apagar episódios manualmente. Ao ver a "
+"Em primeiro lugar, claro que pode apagar episódios manualmente. Ao ver a "
 "fila ou um podcast específico, pode fazer pressão longa sobre um episódio e "
-"tocar em `Apagar`. Ao ver o separador Concluído no ecrã Transferências, "
-"também pode simplesmente tocar no ícone do caixote do lixo. Se quiser, o "
-"AntennaPod pode remover automaticamente um episódio da fila quando este é "
-"apagado. Pode encontrar esta opção em `Definições` » `Armazenamento` » "
-"`Apagar remove da fila`."
+"tocar em `Apagar`. Quando visualiza o ecrã de `Downloads`, também pode "
+"simplesmente tocar no ícone do caixote do lixo. Se quiser, o AntennaPod pode "
+"remover automaticamente um episódio da fila quando este é apagado. Pode "
+"encontrar esta opção em `Definições` » `Armazenamento` » `Apagar remove da "
+"fila`. Lembre-se que o ecrã de `Fila` não mostra todos os downloads. Use o "
+"ecrã `Downloads` se quiser ver todos os downloads."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1421,17 +1433,16 @@ msgstr ""
 "deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your SD card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
 "select the storage card, go to `Settings` » `Downloads` » `Choose data "
 "folder`."
 msgstr ""
-"Pode configurar o AntennaPod para transferir episódios para o cartão SD em "
-"vez da memória interna. Isto garante-lhe mais espaço para episódios. Para "
-"selecionar o cartão de armazenamento, vá a `Definições` » `Transferências` » "
-"`Pasta de dados`."
+"Pode configurar o AntennaPod para fazer download de episódios para o cartão "
+"SD em vez da memória interna. Isto garante-lhe mais espaço para episódios. "
+"Para selecionar o cartão de armazenamento, vá a `Definições` » `Downloads` » "
+"`Escolher pasta de dados`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -1987,32 +1998,38 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Utilizadores com conhecimentos técnicos mais avançados são encorajados a "
+"**auto-hospedar um servidor de sincronização**. Um servidor auto-hospedados "
+"é mais fiável e ajuda a reduzir a carga em serviços grátis e públicos. "
+"Existem várias opções:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) com a "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
-msgstr ""
+msgstr "Existem projetos de terceiros não afiliados com o AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -2035,9 +2052,8 @@ msgstr ""
 "fornecedor de sincronização`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
-#, fuzzy
 msgid "Select `gPodder Sync`"
-msgstr "Selecione 'gPodder'"
+msgstr "Selecionar `gPodder Sync`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
@@ -2081,7 +2097,6 @@ msgid "Select the device that you created on the server"
 msgstr "Selecione o dispositivo que criou no servidor"
 
 #: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
 "AntennaPod, rather than creating a device in advance on the website? Then be "
@@ -2095,8 +2110,8 @@ msgstr ""
 "AntennaPod, em vez de o criar previamente no site? Então não se esqueça de "
 "premir o botão `Forçar sincronização` para enviar o estado reproduzido de "
 "todos os episódios já ouvidos. Se não o fizer, só os podcasts adicionados "
-"**depois** de ligar os dispositivos serão sincronizados. Existe uma [issue "
-"aberta no gpodder.net](https://github.com/gpodder/mygpo/issues/388) que pede "
+"**depois** de ligar os dispositivos serão sincronizados. Existe um [issue "
+"aberto no gpodder.net](https://github.com/gpodder/mygpo/issues/388) que pede "
 "a alteração deste comportamento."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
@@ -2307,14 +2322,13 @@ msgid "Subscribing"
 msgstr "Subscrever"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Open the overflow menu by tapping the `...` button in the bottom right "
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
-"Abra o menu lateral deslizando a partir da esquerda ou tocando no ícone `☰` "
-"no canto superior esquerdo. Vá a `+ Adicionar podcast`. Agora, pode "
+"Abra o menu lateral deslizando a partir da esquerda ou tocando no ícone "
+"`...` no canto inferior direito. Vá a `+ Adicionar Podcast`. Agora, pode "
 "pesquisar, ver sugestões ou adicionar um podcast através do respetivo "
 "endereço RSS."
 
@@ -2834,15 +2848,15 @@ msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "[Podcast Index](https://podcastindex.org/) (ask your hoster how to add your "
 "podcast, or add your own podcast via [their add page](https://"
 "podcastindex.org/add))"
 msgstr ""
 "[Podcast Index](https://podcastindex.org/) (pergunte ao seu alojador como "
-"adicionar o seu podcast, ou adicione o seu próprio podcast através da [API]"
-"(https://podcastindex-org.github.io/docs-api/#get-/add/byfeedurl))"
+"adicionar o seu podcast, ou adicione o seu próprio podcast através da [lista "
+"de adicionar deles](https://podcastindex-org.github.io/docs-api/#get-/add/"
+"byfeedurl))"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
