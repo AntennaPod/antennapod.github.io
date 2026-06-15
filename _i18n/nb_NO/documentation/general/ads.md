@@ -4,7 +4,7 @@ Hvis du ser annonser, kan dette ha to årsaker:
 
 ### 1. Du lastet ned en uoffisiell versjon av AntennaPod
 
-AntennaPod er basert på åpen kildekode. Det betyr at hvem som helst kan laste ned kildekoden. Dessverre tar noen utviklere tar AntennaPod setter inn annonser og publiserer den deretter som en ny app. Du kan få den offisielle AntennaPod-appen på [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) og [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Du kan til og med få den nyeste utgivelsen fra [GitHub](https://github.com/AntennaPod/AntennaPod/) og bygge AntennaPod selv!
+AntennaPod er basert på åpen kildekode. Det betyr at hvem som helst kan laste ned kildekoden. Dessverre tar noen utviklere AntennaPod, setter inn annonser og publiserer den deretter som en ny app. Du kan få den offisielle AntennaPod-appen på [Google Play](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) og [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/). Du kan til og med få den nyeste utgivelsen fra [GitHub](https://github.com/AntennaPod/AntennaPod/) og bygge AntennaPod selv!
 
 ### 2. Podkast-skaperne eller deres vertsfirma har lagt til annonsene i episodebeskrivelsen eller lydfilen
 
