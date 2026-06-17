@@ -1,0 +1,1 @@
+Atualmente, não há suporte para múltiplas filas. Consulte o [problema 2648](https://github.com/AntennaPod/AntennaPod/issues/2648) no GitHub para obter mais informações e / ou inscreva-se no problema para receber atualizações em caso de algum progresso.
