@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 10:10+0200\n"
-"PO-Revision-Date: 2026-05-23 11:11+0000\n"
+"PO-Revision-Date: 2026-06-17 18:42+0000\n"
 "Last-Translator: Gabriel <bloxgabriel18@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_BR/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 1 (paragraph)
 msgid ""
@@ -20,10 +20,14 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This "
 "page explains how to set it up and what to check when it isn't working."
 msgstr ""
+"Quando você se inscreve em um podcast e está interessado em todos os novos "
+"episódios, os downloads automáticos evitam que você precise baixar cada um "
+"manualmente. Esta página explica como configurar essa função e o que "
+"verificar quando ela não estiver funcionando."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
-msgstr ""
+msgstr "Como funcionam os downloads automáticos"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 3 (paragraph)
 msgid ""
@@ -32,10 +36,14 @@ msgid ""
 "AntennaPod downloads the episode in the background, adds it to the queue, "
 "and removes it from the inbox."
 msgstr ""
+"Quando o AntennaPod atualiza um podcast e encontra novos episódios, ele os "
+"coloca na sua `Caixa de entrada`. Se o download automático estiver ativado "
+"para esse podcast, o AntennaPod baixa o episódio em segundo plano, adiciona-"
+"o à fila e o remove da caixa de entrada."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4 (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
-msgstr ""
+msgstr "Os downloads automáticos podem ser ativados de duas maneiras:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -45,6 +53,10 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
+"**Opção global**: acesse `Configurações` » `Downloads` e ative a opção "
+"`Download automático`. Isso ativará o download automático para todas as "
+"assinaturas, mas você também pode excluir algumas específicas na tela de "
+"configurações de cada assinatura."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -54,6 +66,10 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**Configuração por podcast**: abra o podcast, toque no ícone de "
+"configurações (⚙️) e ative a opção `Incluir nos downloads automáticos`. Se "
+"quiser ativar os downloads automáticos para vários podcasts de uma só vez, "
+"você pode usar a seleção múltipla na tela de assinaturas."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
 msgid ""
@@ -67,26 +83,43 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"Em `Configurações` » `Downloads` » `Atualizações no celular`, você também "
+"pode configurar para que os downloads automáticos ocorram apenas quando "
+"estiver conectado a uma rede Wi-Fi. Mais importante ainda, é possível "
+"definir um limite para o número máximo de episódios a serem baixados antes "
+"que os downloads automáticos sejam interrompidos. O limite padrão é de 50 "
+"episódios. Em `Configurações` » `Downloads` » `Exclusão automática`, você "
+"encontra configurações relacionadas à exclusão automática de episódios após "
+"a reprodução ou quando o download automático precisar de mais espaço. Nas "
+"configurações de cada podcast, em `Filtro de episódios`, você também pode "
+"definir uma duração mínima para os episódios, bem como palavras-chave para "
+"incluir ou excluir episódios dos downloads automáticos."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Por que não está baixando?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Se os downloads automáticos estiverem ativados, mas os episódios não "
+"estiverem sendo baixados, siga esta lista de verificação:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"A opção `Incluir nos downloads automáticos` está ativada nesse podcast "
+"específico?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
 msgstr ""
+"Você está conectado ao Wi-Fi (ou a restrição de uso exclusivo do Wi-Fi está "
+"desativada)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -96,6 +129,10 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"O limite de download de episódios foi atingido? Verifique quantos episódios "
+"estão baixados no momento (na tela `Downloads`, não apenas os que estão na "
+"fila) e compare esse número com o limite em `Configurações` » `Downloads` » "
+"`Download automático`."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -106,6 +143,12 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Os episódios do podcast são adicionados à caixa de entrada? Apenas os "
+"episódios na caixa de entrada podem ser baixados automaticamente; portanto, "
+"se você definir a `Ação para novos episódios` para qualquer opção que não "
+"seja `Adicionar à caixa de entrada`, nada será baixado. Observe que o "
+"download automático move os episódios da caixa de entrada para a fila assim "
+"que são baixados; portanto, eles ainda acabam indo para a sua fila."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -1352,17 +1395,15 @@ msgstr ""
 "desaparecido do feed RSS."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
 msgstr ""
-"Quando você termina de ouvir um episódio, na maioria dos casos vai querer "
-"excluí-lo do celular para liberar espaço. Há diferentes maneiras de fazer "
-"isso."
+"Quando você terminar de ouvir um episódio, na maioria dos casos, é "
+"recomendável excluí-lo para liberar espaço. Existem diferentes maneiras de "
+"excluir episódios."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Firstly, you can of course manually delete episodes. When viewing the queue "
 "or a specific podcast, you can long-press an episode and tap `Delete`. When "
@@ -1372,13 +1413,14 @@ msgid ""
 "removes from Queue`. Keep in mind that the `Queue` screen does not show all "
 "downloads. Use the `Downloads` screen if you want to see all downloads."
 msgstr ""
-"Primeiro, é claro, você pode excluir episódios manualmente. Ao visualizar a "
-"fila ou um podcast específico, mantenha presssionado sobre um episódio e "
-"selecione `Excluir`. Na aba Concluídos, na tela de Downloads, você também "
-"pode simplesmente tocar no ícone de lixeira. Se quiser, o AntennaPod pode "
-"remover automaticamente um episódio da fila quando ele for excluído. Essa "
-"opção está disponível em `Configurações` » `Armazenamento` » `Excluir remove "
-"da Fila`."
+"Em primeiro lugar, é claro que você pode excluir episódios manualmente. Ao "
+"visualizar a fila ou um podcast específico, você pode manter pressionado um "
+"episódio e tocar em `Excluir`. Ao visualizar a tela `Downloads`, você também "
+"pode simplesmente tocar no ícone da lixeira. Se desejar, o AntennaPod pode "
+"remover automaticamente um episódio da fila caso ele seja excluído. Você "
+"encontra essa opção em `Configurações` » `Armazenamento` » `Excluir remove "
+"da fila` Lembre-se de que a tela `Fila` não mostra todos os downloads. Use a "
+"tela `Downloads` se quiser ver todos os downloads."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1395,7 +1437,6 @@ msgstr ""
 "confira o artigo [Exclusão automática](/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your SD card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
@@ -1403,9 +1444,9 @@ msgid ""
 "folder`."
 msgstr ""
 "Você pode configurar o AntennaPod para baixar episódios no seu cartão SD em "
-"vez da memória interna. Isso garante que você tenha mais espaço para os "
-"episódios. Para selecionar o cartão de memória, vá em `Configurações` » "
-"`Downloads` » `Escolha a pasta`."
+"vez de na memória interna. Isso garante que você tenha mais espaço para os "
+"episódios. Para selecionar o cartão de memória, acesse `Configurações` » "
+"`Downloads` » `Escolher pasta de dados`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
