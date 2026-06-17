@@ -16,4 +16,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # ウェブサイトのコンテンツ
 
-ウェブサイト上のテキストは、[クリエイティブコモンズ 表示-継承 国際](http://creativecommons.org/licenses/by-sa/4.0/legalcode)ライセンス（CC-BY-SA 4.0）の下に作成・公開されています。このウェブサイト上の画像は、それぞれの所有者の著作権で保護されています。
+ウェブサイト上のテキストは、[クリエイティブコモンズ 表示-継承 国際ライセンス](https://creativecommons.org/licenses/by-sa/4.0/legalcode)（CC-BY-SA 4.0）の下に作成・公開されています。このウェブサイト上の画像は、それぞれの所有者の著作権で保護されています。

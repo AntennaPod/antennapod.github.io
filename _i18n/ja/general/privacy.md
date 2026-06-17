@@ -1,30 +1,30 @@
-AntennaPodは、個人のボランティアによって開発・メンテンナンスされており、いかなる法人によっても代表されるものではありません。コミュニティはあなたのデータを必要としないため、アプリとウェブサイトはGDPRに完全に準拠するように設計されています。さらに詳しく知りたい人は、以下の説明を読んでください。
+AntennaPodは、個人のボランティアによって開発・メンテナンスされており、いかなる法人によっても代表されるものではありません。コミュニティはあなたのデータに関心がないため、アプリとウェブサイトはGDPRに準拠するように設計されています。さらに詳しく知りたい方は、以下をお読みください。
 
 ## アプリ
 
-### AntennaPodアプリが収集・保存・処理する可能性があるデータ
+### AntennaPodが収集・保存・処理する可能性があるデータ
 
-アプリは、アプリが機能するために厳密に必要なデータのみを記録します。これには、たとえば、フォローしているポッドキャストのリスト、アプリの設定、特定のポッドキャストまたはサービス（同期サービスなど）に提供される認証データが含まれます。このアプリには、広告ライブラリやGoogle Analyticsなどのサードパーティの追跡（分析）コードは含まれていません。
+アプリは、アプリが機能するために厳密に必要なデータのみを記録します。これには、フォローしているポッドキャストのリスト、アプリの設定、特定のポッドキャストまたはサービス（同期サービスなど）に提供される認証データが含まれます。このアプリには、広告ライブラリやGoogle Analyticsなどのサードパーティの追跡または分析コードは含まれていません。
 
-**AntennaPodアプリの使用時に提供・作成されたすべてのデータは、デバイス上にローカルに保存されます。AntennaPodは、アプリの機能に厳密に必要な場合を除き、あなたのデータをどこにも送信またはアップロードしません。**データがサードパーティに提供される場合については、次の2番目のセクションを読んでください。
+**AntennaPodアプリの使用時に提供・作成されたすべてのデータは、デバイス上にローカルに保存されます。AntennaPodは、アプリの機能に厳密に必要な場合、またはデバッグ情報を積極的に共有する場合を除き、あなたのデータをどこにも送信またはアップロードしません。**データがサードパーティに提供される場合については、次のセクションで説明しています。また、ドキュメントでAntennaPodの[アプリの権限](/documentation/general/app-permissions)についても確認できます。
 
-デバッグ情報を積極的に共有した場合（「クラッシュ レポート」機能を使ってメールしたもの、または、GoogleのAndroidクラッシュ レポート機能を利用したもの）:
+デバッグ情報を積極的に共有した場合（`クラッシュ レポート`機能を使ってメールしたもの、または、GoogleのAndroidクラッシュ レポート機能を利用したもの）:
 
 - デバイスの種類
 - Androidのバージョン
 - AntennaPod バージョン
 
-サードパーティからのデータが処理される唯一のケースは、設定で有効になっている場合に同期サービスを使用する場合です。その場合、アプリはサービスによって提供される購読と再生イベントを受け取ることがあります。
+サードパーティ*から*のデータが処理される唯一のケースは、設定で有効になっている場合に同期サービスを使用する場合です。その場合、アプリはサービスによって提供される購読と再生イベントを受け取ることがあります。
 
-### 他者が収集・保存・処理する可能性のあるアプリデータ
+### 他者が収集・保存・処理する可能性のあるデータ
 
-#### Podcast hosters
+#### ポッドキャストの配信者
 
-- When provided in the podcast settings, a host will receive the authentication data you provided.
-- ポッドキャストのホスト: ポッドキャストの設定で指定すると、ホストは指定された認証データを受信します。ポッドキャストフィードを提供するウェブサーバーは、IPアドレス、アクセス時間、アクセスコンテンツなどの追加データを収集する場合があります。これには、ダウンロードまたはストリーミングしているエピソードが含まれます。詳細については、それぞれのプライバシーポリシーを参照してください。ポッドキャストを開いて情報アイコンを押すと、ポッドキャストのURLを表示できます。AntennaPodでは、リモートサーバーがCookieを設定することはできません。サーバーは、AntennaPodを使用しているという事実と、使用しているAntennaPodのバージョン（HTTPユーザーエージェント）を検出できます。複数のポッドキャストが同じサーバーでホストされている場合、サーバーは、ユーザーが購読し、そのサーバーでホストされているポッドキャストのリストを検出できます。これは、パブリッシャーがフィードを配布するためにfeedburner、podtrac、または同様のサービスを使用している場合に起こる可能性があります。
-- Servers can detect that you are using AntennaPod and which version (via the HTTP User-Agent).
+- ポッドキャストの設定で入力された場合、ホストはあなたが提供した認証データを受け取ります。
+- ポッドキャストフィードを提供するウェブサーバーは、IPアドレス、アクセス時間、アクセスコンテンツなどの追加データを収集する場合があります。これには、ダウンロードまたはストリーミングしているエピソードが含まれます。詳細については、それぞれのプライバシーポリシーを参照してください。ポッドキャストを開いて情報アイコンを押すと、ポッドキャストのURLを表示できます。AntennaPodはサーバーによるCookieの設定を許可していますが、アプリが再起動されるたびにCookieを削除します。ウェブサーバーは、同じサーバーによって設定されたCookieにのみアクセスできます。複数のポッドキャストが同じサーバーでホストされている場合、そのサーバーはユーザーが購読しているホスト済みポッドキャストを検出できる可能性があります。これは、パブリッシャーがフィードを配布するためにFeedBurner、Podtracまたは同様のサービスを使用している場合に起こる可能性があります。
+- サーバーは、AntennaPodを使用していること、およびそのバージョン（HTTPユーザーエージェント経由）を検出できます。
 
-#### Discovery and search services
+#### 発見および検索サービス
 
 - When opening the Discover screen in the app, a call is sent to Apple to collect podcast suggestions. Apple may store the request (e.g. your IP address and the selected region, which by default is the device's country). These suggestions can be disabled via the top-menu of the Discover screen. In the F-Droid release, you have to actively consent before getting Apple's recommendations.
 - When using the search feature in AntennaPod, the services PodcastIndex.org ([privacy policy](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([privacy policy](https://www.apple.com/legal/privacy/en-ww/)) and fyyd ([privacy policy](https://fyyd.de/privacy)) may store your query, including the search terms.
