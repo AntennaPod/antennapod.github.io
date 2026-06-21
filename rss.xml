@@ -13,6 +13,72 @@
         
         
         <item>
+            <title>Giving back upstream</title>
+            <link>https://antennapod.org/blog/2026/06/weblate</link>
+            <guid isPermaLink="false">13c80ecb-7020-46da-a9c1-50862a2cf57a</guid>
+            
+            <description><![CDATA[
+                
+                <p>Published by <a href="https://forum.antennapod.org/u/loucasal/">Loucasal</a></p>
+                <p class="lead">As an open-source project, AntennaPod doesn’t exist in a vacuum. We rely on a wide ecosystem of tools to keep our project running smoothly. One of those tools is Weblate, the platform where our global community <a href="https://antennapod.org/contribute/translate">translates</a> AntennaPod into over 40 languages.</p>
+
+<p>In 2022, we <a href="https://antennapod.org/blog/2022/01/website-translations">began</a> translating our website through Weblate. In 2024, we also moved our app translations to Weblate, to unify our project’s localization on a single open-source platform. As we adapted to the new system, we identified areas in which it could be improved. Today, we’re proud to share how your generous donations helped make Weblate better—not just for AntennaPod, but for everyone.</p>
+
+<h2 id="turning-donations-into-upstream-development">Turning donations into upstream development</h2>
+
+<p>Thanks to everyone who has contributed to our OpenCollective, AntennaPod is in a solid financial position. After <a href="https://forum.antennapod.org/t/proposal-donation-to-weblate/5710">consulting our community</a> about a donation to Weblate, we approached the Weblate team in 2025 to discuss our biggest challenges.</p>
+
+<p>When meeting the Weblate team at <a href="https://antennapod.org/blog/2026/02/fosdem">FOSDEM 2026</a>, we realized some of our requests needed major architectural changes. To fund this work, our community approved a sponsorship of almost €4,000.</p>
+
+<p>Earlier this month, <a href="https://weblate.org/en/news/archive/20266-different-picture/">Weblate 2026.6</a> was released. All the features we sponsored are now available to all Weblate users. The sponsorship funds were <a href="https://opencollective.com/permalink/ex_nvMcEiYh69syF19xoiVIk">transferred</a> to Weblate the day after the release.</p>
+
+<h2 id="what-we-helped-improve-and-why">What we helped improve (and why)</h2>
+
+<p>To make life easier for our team and translators, we focused on a few key improvements.</p>
+
+<h3 id="categories">Categories</h3>
+
+<p>Our website content is spread across almost 100 individual files. We use a tool to merge them into just four files to keep things manageable in Weblate. This setup, however, has quirks and requires extra maintenance.</p>
+
+<p>We initially <a href="https://github.com/weblateOrg/weblate/issues/14237">requested</a> a feature to merge multiple source files into one in Weblate. That way we could keep four components but drop our custom setup. Weblate rejected this request because it would add complexity.</p>
+
+<p>Together with their team, we decided on a different approach: improving categories (groups of components). So that’s what we sponsored:</p>
+<ul>
+  <li><a href="https://github.com/WeblateOrg/weblate/issues/10897#issuecomment-3831241112">Allow settings to be applied at project or category level</a> and inheriting them in components. This allows us, for example to <a href="https://github.com/WeblateOrg/weblate/issues/14231">set a single contributor agreement</a> for the whole project.</li>
+  <li><a href="https://github.com/weblateOrg/weblate/issues/17858">Enable add-ons at category level</a>. We use this, for example, to ensure all website parts are translated into the same set of languages, while allowing different languages for the app and Google Play store texts.</li>
+  <li><a href="https://github.com/weblateOrg/weblate/issues/11198">Making it easier to start translating from category pages</a>. Weblate made the language list the category landing page and added a clear ‘Translate’ button to every language page.</li>
+</ul>
+
+<h3 id="migration-and-management">Migration and management</h3>
+
+<p>We migrated to Weblate from Transifex, which contained our history and contributor data. Transifex also offered specific permission options. To adapt to our new setup, we sponsored these changes:</p>
+<ul>
+  <li><a href="https://github.com/weblateOrg/weblate/issues/14232">Allow adding comments via the API</a> to potentially migrate comments from Transifex. (In the end we didn’t, as we suspected the comments were outdated.)</li>
+  <li><a href="https://github.com/WeblateOrg/weblate/issues/8974">Add a separate permission for posting announcements</a>. This lets our translation coordinator inform translators about upcoming releases without giving them full admin rights.</li>
+  <li><a href="https://github.com/WeblateOrg/weblate/issues/14233">Allow setting language permissions at user level</a>. This lets us appoint users as reviewer for a specific language, so they can’t accidentally change other languages.</li>
+</ul>
+
+<h2 id="a-win-win-for-the-ecosystem">A win-win for the ecosystem</h2>
+
+<p>For AntennaPod, these improvements mean better security and a smoother workflow. But the best part? Other open-source projects using Weblate get to benefit as well, for free.
+This is what community-funded open source should look like: users support an app, and the app improves the entire open-source ecosystem.</p>
+
+<p>Thank you to everyone who contributed, donated or helped AntennaPod in any other way. You made this happen!</p>
+
+<p><em>Want to contribute? We’re always looking to make AntennaPod available in more languages. Head over to our <a href="https://antennapod.org/contribute/translate">translation page</a> to learn more!</em></p>
+
+<p><em>Have ideas for other ways to do good with our donations? Check <a href="https://forum.antennapod.org/t/donation-expenses-policy/272/2">our expense policy</a> and make a suggestion on the forum!</em></p>
+
+<p><small>Photo by <a href="https://unsplash.com/@rzunikoff">Robert Zunikoff</a>.</small></p>
+
+            ]]></description>
+            <pubDate>Sun, 21 Jun 2026 09:00:00 +0000</pubDate>
+            <media:content medium="image" url="https://antennapod.org/assets/images/blog/2026/weblate.jpg" />
+        </item>
+        
+        
+        
+        <item>
             <title>AntennaPod @ FOSDEM 2026</title>
             <link>https://antennapod.org/blog/2026/02/fosdem</link>
             <guid isPermaLink="false">40de705c-c8aa-4850-ba2b-49ff91607b8e</guid>
