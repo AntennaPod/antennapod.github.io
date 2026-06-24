@@ -2,7 +2,7 @@ La première chose que vous voulez faire après avoir téléchargé une applicat
 
 ## Abonnement
 
-Ouvrez le menu en glissant depuis la gauche ou en appuyant sur l'icône `=` dans le coin supérieur gauche. Allez dans `+ Ajouter un podcast`. Maintenant, vous pouvez rechercher, parcourir les suggestions ou ajouter un podcast par l'adresse RSS.
+Ouvrez le menu en appuyant sur le bouton `...` situé dans le coin en bas à droite. Allez dans `+ Ajouter un podcast`. À présent, vous pouvez rechercher, parcourir les suggestions ou ajouter un podcast grâce à son adresse RSS.
 
 Vous pouvez également importer un fichier OPML ou vérifier uniquement les base de données de iTunes, gpodder.net ou fyyd respectivement. L'importation de flux RSS ou Atom, ou de schémas d'URL comme `pcast://` et `itpc://`, fonctionnera aussi.
 

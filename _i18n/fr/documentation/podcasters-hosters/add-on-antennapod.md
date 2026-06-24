@@ -33,4 +33,4 @@ On the other hand, users who don't have AntennaPod installed will see a page wit
 
 # Branding
 
-Si vous avez besoin de notre logo, veuillez consulter notre [dépôt "Branding"](https://github.com/AntennaPod/branding).
+Vous souhaitez utiliser notre logo pour créer un bouton personnalisé 'Ouvrir dans AntennaPod' ? Vous le trouverez dans notre [dépôt "Branding"](https://github.com/AntennaPod/branding).

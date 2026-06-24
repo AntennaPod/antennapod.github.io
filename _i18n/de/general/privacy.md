@@ -28,7 +28,7 @@ Der einzige Fall, in dem personenbezogene Daten *von* Dritten verarbeitet werden
 
 - Wenn du den Entdecken-Bildschirm in der App öffnest, wird eine Anfrage an Apple gesendet, um Podcast-Vorschläge zu erhalten. Diese können die Anfrage speichern (z. B. deine IP-Adresse und die ausgewählte Region, die standardmäßig dem Land des Geräts entspricht). Diese Vorschläge können über das Hauptmenü des Entdecken-Bildschirms deaktiviert werden. In der F-Droid-Version musst du aktiv zustimmen, bevor du Empfehlungen von Apple erhältst.
 - Beim Verwenden der Suchfunktion in AntennaPod können die Dienste PodcastIndex.org ([Datenschutzerklärung](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts ([Datenschutzerklärung](https://www.apple.com/legal/privacy/en-ww/)) und fyyd ([Datenschutzerklärung](https://fyyd.de/privacy)) deine Suchanfrage einschließlich der Suchbegriffe speichern.
-- Die Suchanfragen umfassen auch die IP-Adresse, die Uhrzeit und den App-Namen „AntennaPod“. Nach dem Abonnieren wird der Feed vom Podcast-Hoster bereitgestellt, sodass der Suchdienst nicht mehr involviert ist.
+- Die Entdeckungs- und Suchanfragen umfassen auch die IP-Adresse, die Uhrzeit und den App-Namen „AntennaPod“. Nach dem Abonnieren wird der Feed vom Podcast-Hoster bereitgestellt, sodass der Suchdienst nicht mehr involviert ist.
 
 #### Synchronisierungs- und Sicherungsdienste
 
