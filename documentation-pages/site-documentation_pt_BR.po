@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 10:10+0200\n"
-"PO-Revision-Date: 2026-06-17 18:42+0000\n"
+"PO-Revision-Date: 2026-06-24 23:01+0000\n"
 "Last-Translator: Gabriel <bloxgabriel18@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "antennapod/website/documentation/pt_BR/>\n"
@@ -1997,32 +1997,38 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Usuários com maior conhecimento técnico são fortemente encorajados a "
+"**hospedar seu próprio servidor de sincronização**. Um servidor "
+"autohospedado é mais confiável e ajuda a reduzir a carga sobre os serviços "
+"públicos gratuitos. Existem diversas opções:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) com o "
+"[aplicativo gPodder Sync](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
-msgstr ""
+msgstr "Esses são projetos de terceiros não afiliados ao AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -2045,9 +2051,8 @@ msgstr ""
 "provedor de sincronização`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
-#, fuzzy
 msgid "Select `gPodder Sync`"
-msgstr "Selecione 'gPodder'"
+msgstr "Selecione `gPodder`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
@@ -2090,7 +2095,6 @@ msgid "Select the device that you created on the server"
 msgstr "Selecione o dispositivo que você criou no servidor"
 
 #: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
 "AntennaPod, rather than creating a device in advance on the website? Then be "
@@ -2100,14 +2104,13 @@ msgid ""
 "[open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) "
 "that requests to change the behavior."
 msgstr ""
-"**OBSERVAÇÃO**: Você criou o dispositivo durante a configuração da "
-"sincronização no AntennaPod, em vez de criar o dispositivo antes pelo site? "
-"Então lembre-se de pressionar o botão `Forçar sincronização completa` para "
-"enviar o estado de reprodução de todos os episódios já ouvidos. Caso "
-"contrário, apenas os podcasts que foram adicionados **após** a criação do "
-"dispositivo serão sincronizados. Há um [problema aberto para o gpodder.net]"
-"(https://github.com/gpodder/mygpo/issues/388) solicitando a alteração desse "
-"comportamento."
+"**NOTA:** Você criou um dispositivo ao configurar a sincronização no "
+"AntennaPod, em vez de criá-lo previamente no site? Nesse caso, certifique-se "
+"de clicar no botão `Forçar sincronização` para enviar o histórico de "
+"reprodução de todos os episódios ouvidos anteriormente. Caso contrário, "
+"apenas os podcasts adicionados **após** a vinculação dos dispositivos serão "
+"sincronizados. Há uma [questão aberta no gpodder.net](https://github.com/"
+"gpodder/mygpo/issues/388) solicitando a alteração desse comportamento."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
@@ -2316,16 +2319,14 @@ msgid "Subscribing"
 msgstr "Inscrevendo-se"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Open the overflow menu by tapping the `...` button in the bottom right "
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
-"Abra o menu de navegação deslizando da esquerda para a direita ou tocando no "
-"ícone de hambúrguer `☰` no canto superior esquerdo. Vá em `+ Adicionar "
-"podcast`. A partir daí, você pode pesquisar, explorar sugestões ou adicionar "
-"um podcast informando seu endereço RSS."
+"Abra o menu de opções tocando no botão `...` no canto inferior direito. Vá "
+"para `+ Adicionar Podcast`. Agora, você pode pesquisar, navegar pelas "
+"sugestões ou adicionar um podcast com seu endereço RSS."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
 msgid ""
