@@ -299,6 +299,8 @@ documentation:
     title: Automatisering
     tasker:
       title: Integrasjon med andre apper
+    automatic-downloads:
+      title: Automatiske nedlastninger
   podcasters-hosters:
     intro: Nedenfor finner du brukerstøtteinfo for skapere av podkaster og 
       vertstjenere.
@@ -391,13 +393,18 @@ events:
   general:
     recurring: Gjentagende hendelse
     copy-url: Kopier kalendernettadressen
-    announce-add-calendar: Ønsker du å ha de seneste arrangementer og oppdaterte
-      felleskapsmøter tilgjengelig? Da kan du abonnere på kalenderen vår i 
-      favorittprogrammet ditt med «Legg til i kalender»-lenken!
+    announce-add-calendar: Ønsker du alltid å ha oppdatert 
+      arrangementsinformasjon tilgjengelig? Kopier URL-en og legg den til som en
+      ekstern kalender i din kalenderapp for å legge til alle våre samtaler og 
+      møter. Du kan også bruker ICS-filen for å legge til kun dette 
+      arrangementet.
     download-ics: Last ned ICS-fil
     recurring-events: Gjentakende begivenheter
     upcoming-events: Kommende begivenheter
     past-events: Tidligere begivenheter
+    subscribe-event: Kopier arrangements-URL
+    subscribe-all: Kopier URL for alle arrangementer
+    subscribe-ics: Kopier arrangements-URL (ICS)
   recurrence:
     every-2nd-saturday: annenhver lørdag i måneden
     2nd-4th-wednesday: (nesten) hver andre og fjerde onsdag i måneden
@@ -427,3 +434,9 @@ contributors:
   title: Bidragsytere
 contributions-graph:
   past-year: Siste året
+  title: Utviklingsaktivitet
+  description: Tilføyelser per uke det siste året
+  join-cta: Delta i utviklingen
+  loading: Laster inn aktivitet ...
+  error: Kunne ikke laste inn aktivitetsdata
+  past-month: Siste måned
