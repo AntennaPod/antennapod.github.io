@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 21:56+0200\n"
 "PO-Revision-Date: 2026-07-09 14:01+0000\n"
-"Last-Translator: Jin Xiashomi <cute.XFCE.rat@2mail.co>\n"
+"Last-Translator: hyperflint <yourflint@tutamail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/ru/>\n"
 "Language: ru\n"
@@ -21,10 +21,13 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This "
 "page explains how to set it up and what to check when it isn't working."
 msgstr ""
+"Когда вы подписываетесь на подкаст и заинтересованы в каждом новом выпуске, "
+"автозагрузка спасет вас о необходимости загружать их по отдельности. Данная "
+"страница объясняет, как ее настроить и что проверять, если она не работает."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
-msgstr ""
+msgstr "Как работает автоматическая загрузка"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 3 (paragraph)
 msgid ""
@@ -33,10 +36,14 @@ msgid ""
 "AntennaPod downloads the episode in the background, adds it to the queue, "
 "and removes it from the inbox."
 msgstr ""
+"Когда AntennaPod обновляет подкаст и находит новые выпуски, он помещает их "
+"вашу папку `Входящие`.  Если автоматическая загрузка включена для данного "
+"подкаста, AntennaPod загружает выпуск в фоне, добавляет его в очередь "
+"загрузки и удаляет выпуск из Взодящих."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4 (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
-msgstr ""
+msgstr "Автоматическая загрузка может включена двумя способами:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -46,6 +53,10 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
+"**Для всех**: перейдите в `Настройки` » `Загрузки` и включите "
+"`Автоматическую загрузку`. Так будет включена автоматическая загрузка для "
+"всех подписок, но вы также можете исключить отдельные подкасты на экране "
+"настроек каждой из подписок."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -55,6 +66,10 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**Выборочно**: откройте подкаст, нажмите на иконку настроек  (⚙️) и включите "
+"`включить в автоматическую загрузку`. Если вы хотите включить загрузку для "
+"нескольких подкастов одновременно, вы можете использовать мультивыбор на "
+"экране подписок."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
 msgid ""
@@ -68,26 +83,38 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"В `Настройки` » `Загрузки` » `Обновления по мобильной сети`, вы можете "
+"настроить обновления только по WiFi. Важнее, что вы можете выбрать лимит "
+"максимального количества выпусков для загрузки для прекращения "
+"автоматической загрузки. По умолчанию – это 50 выпусков. В `Настройки` » "
+"`Загрузки` » `Автоматическое удаление`, вы можете найти соответствующие "
+"настройки для автоматического удаления выпусков после их прослушивания или в "
+"случае, когда для автоматической загрузки нужно больше места. В выборочной "
+"настройке, в `Фильтр выпусков`, вы можете добавить минимальную длину "
+"выпуска, а также ключевые слова для их добавления или исключения из "
+"автоматической загрузки."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Почему оно не загружает?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Если автоматическая загрузка включена, но выпуски не загружаются, пройдитесь "
+"по чек-листу:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
-msgstr ""
+msgstr "Выбрано ли `Включить в автоматическую загрузку` для данного подкаста?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
-msgstr ""
+msgstr "Подключены ли вы к WiFi (или отключена ли загрузка только по WiFi)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -97,6 +124,10 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"Достигнут ли лимит загрузки выпусков? Проверьте, сколько эпизодов уже "
+"загружено (на экране `Загрузки`,а не только те, что уже в очереди) и "
+"сравните их количество с лимитом в `Настройки` » `Загрузки` » "
+"`Автоматическая загрузка `."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -107,6 +138,12 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Добавлены ли выпуски подкаста во «Входящие»? Только выпуски из папки «"
+"Входящие» подлежат автоматической загрузке, таким образом если установили "
+"`Действие с новыми выпусками` на отличное от добавления во »Входящие» "
+"действие, загружено ничего не будет. Отметим, что автоматическая загрузка "
+"перемещает выпуски из «Входящих» в очередь по факту загрузки, так что они "
+"все равно будут добавляться к вам в очередь загрузки."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -477,7 +514,6 @@ msgstr ""
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 2
 #: (paragraph)
-#, fuzzy
 msgid ""
 "Media files are therefore taken directly from the publisher's website. If "
 "the publisher deletes these, AntennaPod can no longer retrieve it for you."
@@ -1350,7 +1386,6 @@ msgstr ""
 "выпуски, даже если они исчезли из RSS-ленты."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
@@ -1954,32 +1989,38 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Более технически подкованным пользователям мы настоятельно рекомендуем "
+"**завести собственный сервер синхронизации**. Собственный сервер более "
+"надежен, а также помогает снизить нагрузку на свободные, общедоступные "
+"сервисы. Существует несколько способов это сделать:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
-msgstr ""
+msgstr "Существуют варианты от третьих лиц, не связанных с AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
