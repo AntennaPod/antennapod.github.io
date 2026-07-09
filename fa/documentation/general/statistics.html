@@ -444,7 +444,7 @@
                     <article class="post-content">
                         <h1 id="آمار-شنیدن">آمار شنیدن</h1>
 
-<p>AntennaPod has a statistics screen that lets you view the number of listening hours per subscription and per month. However, these statistics aren’t always as precise as they could be.</p>
+<p>آنتناپاد صفحه آمار دارد که اجازه می‌دهد تعداد ساعت‌های شنیداری به ازای هر اشتراک و هر ماه را ببینید. با این حال، این آمارها همیشه به دقت ممکن نیستند.</p>
 
 <h2 id="چرا-آمار-دقیق-نیستند">چرا آمار دقیق نیستند</h2>
 
@@ -452,22 +452,22 @@
 
 <ul>
   <li>
-<strong>Played duration</strong>: how long the episode was played (e.g. 6 minutes if a 3-minute episode was played twice)</li>
+<strong>مدت پخش‌شده</strong>: مدت زمانی که قسمت پخش شده (مثل ۶ دقیقه اگر قسمت ۳ دقیقه‌ای دو بار پخش شده)</li>
   <li>
-<strong>Last played</strong>: the date and time when playback was last paused or stopped for the episode</li>
+<strong>آخرین پخش</strong>: تاریخ و زمانی که پخش آخرین بار برای قسمت متوقف یا مکث شده</li>
 </ul>
 
-<p>Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the ‘played duration’ of all episodes whose ‘last played’ date falls within a given month.</p>
+<p>هر دو هر بار که پخش مکث یا متوقف شود به‌روزرسانی می‌شوند. این اطلاعات برای محاسبه جمع با جمع کردن «مدت پخش‌شده» همه قسمت‌هایی که تاریخ «آخرین پخش» آن‌ها در ماه معین قرار دارد استفاده می‌شود.</p>
 
-<p>This approach means that if you listen to 7 minutes of an episode today and 38 minutes of that episode tomorrow, all 45 minutes are attributed to tomorrow. The same applies across months. If an episode is played both in June and July, all listening time is attributed to July. Similarly, if an episode is played both in December of one year and in January of the next, it is attributed to the second year.</p>
+<p>این رویکرد یعنی اگر امروز ۷ دقیقه از قسمتی بشنوید و فردا ۳۸ دقیقه از همان قسمت، همه ۴۵ دقیقه به فردا نسبت داده می‌شود. همین برای ماه‌ها هم صدق می‌کند. اگر قسمتی هم در خرداد و هم تیر پخش شود، همه زمان شنیداری به تیر نسبت داده می‌شود. به همین ترتیب، اگر قسمتی هم در آذر یک سال و هم در دی سال بعد پخش شود، به سال دوم نسبت داده می‌شود.</p>
 
-<p>The monthly statistics are usually accurate because they look at a longer time period. However, day-by-day statistics would have a higher risk of becoming unreliable, which is why AntennaPod does not offer those.</p>
+<p>آمارهای ماهانه معمولاً دقیق هستند چون دوره زمانی طولانی‌تری را بررسی می‌کنند. با این حال، آمارهای روزبه‌روز خطر نادرست شدن بیشتری دارند، به همین دلیل آنتناپاد آن‌ها را ارائه نمی‌دهد.</p>
 
 <h2 id="چرا-نمی‌خواهیم-تغییرش-دهیم">چرا نمی‌خواهیم تغییرش دهیم</h2>
 
-<p>Stats (or rather: graphs) are fun. So why don’t we record information differently to allow for more filter options and more granular data in AntennaPod?</p>
+<p>آمارها (یا بهتر بگوییم: نمودارها) سرگرم‌کننده هستند. پس چرا اطلاعات را به شکل دیگری ثبت نمی‌کنیم تا گزینه‌های پالایش بیشتر و داده‌های دقیق‌تری در آنتناپاد داشته باشیم؟</p>
 
-<p>It would be possible, for example, to record for each episode how long it was played on each day. For instance:</p>
+<p>برای مثال، ممکن است برای هر قسمت ثبت کنیم که هر روز چقدر پخش شده. مثلاً:</p>
 
 <ul>
   <li>۷ تیر: ۷ دقیقه</li>
@@ -475,11 +475,11 @@
   <li>۱۰ تیر: ۱۹ دقیقه</li>
 </ul>
 
-<p>There are two main reasons. Firstly, while statistics are fun, <strong>we rather spend time on AntennaPod’s main purpose: playing podcasts</strong>. Changing to this new approach would require time now to implement it (rewriting the code that saves playback time in the database) and time in future to maintain a more complex system.</p>
+<p>دو دلیل اصلی وجود دارد. نخست، هرچند آمارها سرگرم‌کننده هستند، <strong>ترجیح می‌دهیم زمان را روی هدف اصلی آنتناپاد یعنی پخش پادکست‌ها صرف کنیم</strong>. تغییر به این رویکرد جدید نیاز به زمان فعلی برای پیاده‌سازی (بازنویسی کدی که زمان پخش را در پایگاه داده ذخیره می‌کند) و زمان آینده برای نگهداری سامانه پیچیده‌تر دارد.</p>
 
-<p>Secondly, <strong>AntennaPod would take up more space on your phone</strong> - especially for loyal users who stick with the app for several years. That’s because instead of a single row per episode in the database we would need to store multiple rows for each played episode to store the playback duration, which causes the database size to increase.</p>
+<p>دوم، <strong>آنتناپاد فضای بیشتری روی گوشی شما اشغال می‌کند</strong> - به‌ویژه برای کاربران وفادار که سال‌ها با برنامه می‌مانند. چون به‌جای یک سطر برای هر قسمت در پایگاه داده، نیاز به ذخیره چندین سطر برای هر قسمت پخش‌شده برای ذخیره مدت پخش داریم که اندازه پایگاه داده را افزایش می‌دهد.</p>
 
-<p>We hope you’ll enjoy the month-based statistics! 📊 (If you happen to be a web developer interested in making a dedicated dashboard for AntennaPod statistics based on database exports, please do ping us on the forum.)</p>
+<p>امیدواریم از آمارهای مبتنی بر ماه لذت ببرید! 📊 (اگر توسعه‌دهنده وب هستید و به ساخت داشبورد اختصاصی برای آمار آنتناپاد بر اساس برون‌ریزی پایگاه داده علاقه دارید، لطفاً در انجمن با ما تماس بگیرید.)</p>
 
 
                     </article>
