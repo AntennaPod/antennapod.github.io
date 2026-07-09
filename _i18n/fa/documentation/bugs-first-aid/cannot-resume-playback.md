@@ -8,7 +8,7 @@
 
 برای افزودن کاشی آنتناپاد:
 
-1. **Pull down twice** from the top of the screen to fully open the Quick Settings. On some Android versions (for example, Samsung One UI or Xiaomi MIUI) an equivalent Control Center with similar gestures may already contain a media tile, check your device settings if behavior differs
-1. **روی نماد مداد** در پایین بخش کاشی‌ها بزنید تا کاشی‌ها را ویرایش کنید
+1. **دو بار از بالای صفحه به پایین بکشید** تا تنظیمات سریع کامل باز شود. در بعضی نگارش‌های اندروید (مثل سامسونگ وان یوآی یا شیائومی ام‌آی‌یوآی) مرکز کنترل معادل با حرکات مشابه ممکن است از پیش حاوی کاشی رسانه باشد، اگر رفتار متفاوت بود تنظیمات دستگاه را بررسی کنید
+1. **روی نماد مداد** در بخش کاشی‌ها بزنید تا کاشی‌ها را ویرایش کنید
 1. فهرست کاشی‌ها را پایین ببرید، **روی کاشی آنتناپاد نگه‌دارید و آن را بکشید** به فهرست کاشی‌های فعال
 1. روی پیکان بازگشت بزنید تا از ویرایش کاشی خارج شوید

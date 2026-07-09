@@ -2,7 +2,7 @@ Der Startbildschirm bietet dir einen schnellen Überblick über deine Podcasts. 
 
 In fünf Bereichen werden Episoden oder Abonnements, mit denen direkt interagiert werden kann, und Verknüpfungen zu den zugehörigen Ansichten (z. B. die Warteschlange) angezeigt. Du kannst den Startbildschirm anpassen – also Bereiche verschieben oder ausblenden – indem du auf `…` in der oberen Leiste und anschließend `Startbildschirm einrichten` tippst.
 
-## Höre weiter
+## Weiterhören
 
 Dieser Bereich ermöglicht es dir, schnell und einfach die Episoden weiterzuhören, die bereits in der Warteschlange sind, beginnend mit denen, die du schon angefangen, aber bisher nicht abgeschlossen hast.
 

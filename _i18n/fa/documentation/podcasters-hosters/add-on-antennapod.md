@@ -2,7 +2,7 @@
 
 `https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`
 
-You could also turn the same link into a button, e.g. by using the following code:
+می‌توانید همان پیوند را به دکمه تبدیل کنید، مثلاً با استفاده از کد زیر:
 
 ```
 <style>.antennapod-subscribe{ color: #fff; background: #007bff; display: inline-block; padding: 0.5em; text-decoration:none; border-radius:0.5em; font-family: sans-serif;} .antennapod-subscribe:hover {background: #0069d9;}</style>
@@ -11,7 +11,7 @@ You could also turn the same link into a button, e.g. by using the following cod
 
 # آن‌چه کاربران خواهند دید
 
-Users who have installed AntennaPod and open that link will be able to preview episodes and subscribe to your podcast directly in the app, as in the screenshots below.
+کاربرانی که آنتناپاد نصب کرده‌اند و آن پیوند را باز کنند، می‌توانند قسمت‌ها را پیش‌نمایش ببینند و مستقیم در برنامه به پادپخش شما اشتراک بپیوندند، مثل تصاویر زیر.
 
 {% include image.html alt= "
 
@@ -29,8 +29,8 @@ loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}
 
-On the other hand, users who don't have AntennaPod installed will see a page with instructions to download the app or to subscribe to your podcast manually, as in this [example page](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
+از سوی دیگر، کاربرانی که آنتناپاد نصب نکرده‌اند صفحه‌ای با دستورالعمل بارگیری برنامه یا اشتراک دستی به پادپخش شما می‌بینند، مثل این [صفحه نمونه](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts).
 
 # ویژندگی
 
-Would you like to use our logo to create a branded ‘Open in AntennaPod’ button? You can find it in our [branding repository](https://github.com/AntennaPod/branding).
+آیا می‌خواهید از نشان ما برای ساخت دکمه «باز کردن در آنتناپاد» برندشده استفاده کنید؟ آن را در [مخزن برندینگ](https://github.com/AntennaPod/branding) ما پیدا کنید.

@@ -14,7 +14,7 @@
 
 ## گام‌ها برای برخی برنامه‌های خودکارسازی
 
-### HomeAssistant Android Mobile Companion ([website](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
+### همراه اندروید HomeAssistant ([وبگاه](https://companion.home-assistant.io/docs/notifications/notification-commands/#broadcast-intent))
 
 ساخت فراخوان کنش آگاهی در اتوماسیون با قالب زیر:
 

@@ -1,12 +1,12 @@
-AntennaPod has many users, and we don't want them to run into trouble because we've tweaked or added a new feature. It's important to have people testing our app. The more people testing, the more combinations of phones, Android versions, and use cases we can cover, and the more issues we can resolve before official releases. Of course, this only helps if you report the issues you encounter by creating a topic on [our forum](https://forum.antennapod.org/).
+آنتناپاد کاربران بسیاری دارد و نمی‌خواهیم به‌خاطر تنظیم یا افزودن ویژگی جدید با مشکل مواجه شوند. داشتن افرادی برای آزمایش برنامه مهم است. هرچه آزمایش‌کنندگان بیشتر، ترکیب‌های بیشتری از گوشی‌ها، نگارش‌های اندروید و موارد استفاده پوشش داده می‌شود و مسائل بیشتری پیش از انتشار رسمی حل می‌شود. البته این فقط وقتی کمک می‌کند که مسائل را با ایجاد موضوع در [انجمن ما](https://forum.antennapod.org/) گزارش کنید.
 
-بیشتر مشکلات کوچک پس از به‌روزرسانی‌های بزرگ پدیدار می‌شوند و فقط با گزارش‌های خطا توسط کاربران در مراحل اولیه کشف می‌شوند. تنها یک توسعه‌دهنده اصلی وجود دارد که در وقت آزادش روی این کار می‌کند. او فقط چند دستگاه برای آزمایش دارد، در حالی که رفتار از دستگاهی به دستگاه دیگر یکی نیست.
+مشکلات کوچک اغلب پس از به‌روزرسانی‌های بزرگ ظاهر می‌شوند و معمولاً از طریق گزارش‌های خطا کاربران در مراحل اولیه کشف می‌شوند. تنها یک توسعه‌دهنده اصلی در وقت آزادش روی آن کار می‌کند. هرچند رفتار از دستگاهی به دستگاه دیگر بسیار متفاوت است، او فقط چند دستگاه برای آزمایش دارد.
 
 ## پلی گوگل
 
-Every new version of AntennaPod is sent to our beta testers through the Google Play Store before being released to the general public. If you have a sharp eye and can explain what's not working quite right, we'd love your help! Plus, when you share your thoughts on what could be improved, you help shape the app to better match what you (and the community) expect. Please leave your feedback by creating a topic on [our forum](https://forum.antennapod.org/).
+هر نگارش جدید آنتناپاد پیش از انتشار عمومی از طریق فروشگاه گوگل‌پلی به آزمایش‌کنندگان بتا ارسال می‌شود. اگر چشم تیزبین دارید و می‌توانید توضیح دهید چه چیزی درست کار نمی‌کند، از کمک شما خوشحال می‌شویم! بعلاوه، وقتی نظرات خود درباره بهبود را به اشتراک می‌گذارید، به شکل‌دهی برنامه برای تطابق بهتر با انتظارات شما (و جامعه) کمک می‌کنید. لطفاً بازخورد خود را با ایجاد موضوع در [انجمن ما](https://forum.antennapod.org/) بگذارید.
 
-پس می‌خواهید جدیدترین و بهترین را داشته باشید؟ چرا که نه! کافی است به فهرست آنتناپاد در فروشگاه‌پلی بروید و در پایین صفحه «آزمایش‌کننده بتا شوید» را بزنید. یا، اگر پشت رایانه هستید، به [این نشانی](https://play.google.com/apps/testing/de.danoeh.antennapod) بروید.
+پس می‌خواهید جدیدترین و بهترین را داشته باشید و به ما کمک کنید برنامه را پولیش کنیم تا واقعاً بدرخشد؟ کافی است به فهرست آنتناپاد در برنامه فروشگاه‌پلی بروید و کارت **پیوستن به بتا** را زیر بخش *پشتیبانی برنامه* پیدا کنید. یا، اگر پشت رایانه هستید، می‌توانید به برنامه بتای ما [اینجا](https://play.google.com/apps/testing/de.danoeh.antennapod) بپیوندید.
 
 {% include image.html alt= "
 

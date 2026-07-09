@@ -1,4 +1,4 @@
-Lorsque vous vous abonnez à un podcast et êtes intéressé par chaque nouvel épisode, le téléchargement automatique vous évitent de devoir tous les télécharger à la main. Cette page explique comment le mettre en place et ce qu'il faut vérifisr en cas de problème.
+Lorsque vous vous abonnez à un podcast pour lequel chaque nouvel épisode vous intéresse, le téléchargement automatique vous permet d'automatiser la récupération des épisodes. Cette page explique comment l'activer et les points à vérifier en cas de problèmes.
 
 ## Comment les téléchargements automatiques fonctionnent
 

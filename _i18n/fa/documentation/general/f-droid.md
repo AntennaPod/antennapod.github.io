@@ -10,37 +10,37 @@
 ### گام‌های انتشار نگارش جدید در اف‌دروید
 
 1. نگارشی آزمایشی منتشر می‌کنیم که بنا به [محدودیت‌های فنی](/documentation/general/beta#f-droid) اف‌دروید *فقط* از پلی گوگل در دسترس است.
-1. We do a slow, gradual roll-out to all Google Play users. That way we make sure that there are no critical bugs. This can take several weeks.
-1. We create a [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases). We do this only after the roll-out on Google Play is complete.
-1. F-Droid systems check the AntennaPod repository and detect a new release. The update checker server runs daily (overnight in Europe).
-1. پس از اینکه اف-دیروید تشخیص دهد نگارش جدیدی از آنتناپاد وجود دارد، برنامه را می‌سازد. با این کار، اف-دیروید مطمئن می‌شود که برنامه‌ای که بارگیری می‌کنید واقعاً با کد منبع منتشرشده توسط آنتناپاد مطابقت دارد. چون برنامه‌های زیادی برای ساخت وجود دارد، سرور اف-دیروید ۱-۲ روز بیشتر برای ساخت برنامه نیاز دارد.
-1. An F-Droid contributor signs the build cryptographically. To improve security, the contributor needs to take the app and physically walk it to a dedicated computer which is not connected to the internet. When all apps are signed, the contributor uploads them to the F-Droid systems. This usually takes 1 to 2 days.
+1. ما rollout آهسته و تدریجی به همه کاربران گوگل‌پلی انجام می‌دهیم. به این ترتیب مطمئن می‌شویم هیچ خطای بحرانی وجود ندارد. این کار ممکن است چند هفته طول بکشد.
+1. ما [انتشار روی گیت‌هاب](https://github.com/AntennaPod/AntennaPod/releases) ایجاد می‌کنیم. این کار را فقط پس از تکمیل rollout روی گوگل‌پلی انجام می‌دهیم.
+1. سیستم‌های اف-دروید مخزن آنتناپاد را بررسی و نگارش جدید را تشخیص می‌دهند. کارساز بررسی به‌روزرسانی روزانه (شبانه در اروپا) اجرا می‌شود.
+1. سیستم‌های اف-دروید برنامه را می‌سازند. این کار برای اطمینان از مطابقت برنامه بارگیری‌شده با کد منبع منتشرشده توسط ما انجام می‌شود. چون برنامه‌های زیادی برای ساخت وجود دارد، کارساز اف-دروید ۱ تا ۲ روز برای ساخت برنامه زمان نیاز دارد.
+1. یک مشارکت‌کننده اف-دروید ساخت را به‌صورت رمزنگاری امضا می‌کند. برای بهبود امنیت، مشارکت‌کننده باید برنامه را بگیرد و فیزیکی به رایانه اختصاصی بدون اتصال به اینترنت ببرد. وقتی همه برنامه‌ها امضا شدند، مشارکت‌کننده آن‌ها را به سیستم‌های اف-دروید بارگذاری می‌کند. این کار معمولاً ۱ تا ۲ روز طول می‌کشد.
 1. سامانه‌های اف‌دروید کاره‌های جدید را پرداخته و ارائه جدید آنتناپاد را به نمایه‌شان می‌افزایند.
 
-At this point we consider it 'released on F-Droid'. But remember that your F-Droid client (the 'app store') also needs to refresh its local copy of the index. Only after that you'll get prompted about the latest AntennaPod release.
+در این نقطه آن را «منتشرشده روی اف-دروید» در نظر می‌گیریم. اما به یاد داشته باشید که کارخواه اف-دروید («فروشگاه برنامه») هم نیاز به تازه‌سازی نسخه محلی نمایه دارد. فقط پس از آن درباره آخرین نگارش آنتناپاد آگاه‌سازی دریافت می‌کنید.
 
 ### پس ETA چیست؟
 
-As you can see, there are a lot of steps which each take a varying amount of time. We usually take well over a month between releasing a beta version and tagging the release on GitHub. After the release is tagged, F-Droid usually takes four to six days to process it.
+همان‌طور که می‌بینید، گام‌های زیادی وجود دارد که هر کدام زمان متفاوتی می‌گیرند. معمولاً بیش از یک ماه بین انتشار نگارش بتا و برچسب‌گذاری انتشار روی گیت‌هاب طول می‌کشد. پس از برچسب‌گذاری انتشار، اف-دروید معمولاً چهار تا شش روز برای پردازش آن زمان نیاز دارد.
 
 ### اگر مشتاقانه منتظرید چه کنید
 
-Did we not tag the [release on GitHub](https://github.com/AntennaPod/AntennaPod/releases) yet? Then please just wait. The update is in beta and not ready for public release.
+آیا هنوز [انتشار روی گیت‌هاب](https://github.com/AntennaPod/AntennaPod/releases) را برچسب‌گذاری نکرده‌ایم؟ لطفاً صبر کنید. به‌روزرسانی در بتا است و برای انتشار عمومی آماده نیست.
 
-We *did* tag the release on GitHub? As the F-Droid team [notes](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client): "don't panic before 7 days have passed, please."
+آیا انتشار روی گیت‌هاب را *برچسب‌گذاری کرده‌ایم*؟ همان‌طور که تیم اف-دروید [یادداشت می‌کند](https://gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-up-on-website-and-client): «لطفاً پیش از گذشتن ۷ روز نگران نشوید.»
 
-* Did those 7 days pass since we tagged the release on GitHub? Feel free to let us know by creating a post on our [forum](https://forum.antennapod.org/). We'll take a look.
-* Did we tag the release 7 days ago or less? Then please just wait. Or investigate where we are in the process.
+* آیا ۷ روز از برچسب‌گذاری انتشار روی گیت‌هاب گذشته؟ با ایجاد فرسته در [انجمن ما](https://forum.antennapod.org/) به ما اطلاع دهید. بررسی می‌کنیم.
+* آیا ۷ روز یا کمتر پیش انتشار را برچسب‌گذاری کرده‌ایم؟ لطفاً صبر کنید. یا بررسی کنید در کدام مرحله فرآیند هستیم.
 
 #### بازرسی وضعیت کنونی
 
 اگر بخواهید می‌توانید برای داشتن ایده‌ای از فرایند این گام‌ها را پی بگیرید:
 
-1. Check if and when the [release was tagged on GitHub](https://github.com/AntennaPod/AntennaPod/releases/latest) (you may need to hover, for example, 'last week' to see the exact date on GitHub). If so, it should soon be picked up by the update checker.
-1. Check if [F-Droid's AntennaPod versions list](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=checkupdates%20bot) was updated since then. If so, it should soon be processed by the build server.
-1. Check if AntennaPod was built in the [running cycle](https://monitor.f-droid.org/builds/running) or the [last cycle](https://monitor.f-droid.org/builds/build). You can also use the app [F-Droid build status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/) for this. If so, it should soon be cryptographically signed by an F-Droid contributor.
-   * Note that there's no queue for apps that need to be built. AntennaPod is not listed in the success and fail lists yet, and you want to know if it will be built?
-      1. click on 'fdroiddata version' @ commit of a build cycle
+1. بررسی کنید آیا و چه زمانی [انتشار روی گیت‌هاب](https://github.com/AntennaPod/AntennaPod/releases/latest) برچسب‌گذاری شده (ممکن است نیاز به نگه‌داشتن نشانگر مثل «هفته گذشته» برای دیدن تاریخ دقیق روی گیت‌هاب باشد). اگر بله، به‌زودی توسط بررسی‌کننده به‌روزرسانی برداشته می‌شود.
+1. بررسی کنید آیا [فهرست نگارش‌های آنتناپاد اف-دروید](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=checkupdates%20bot) از آن زمان به‌روزرسانی شده. اگر بله، به‌زودی توسط کارساز ساخت پردازش می‌شود.
+1. بررسی کنید آیا آنتناپاد در [چرخه در حال اجرا](https://monitor.f-droid.org/builds/running) یا [چرخه آخر](https://monitor.f-droid.org/builds/build) ساخته شده. می‌توانید برای این کار از برنامه [وضعیت ساخت اف-دروید](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/) هم استفاده کنید. اگر بله، به‌زودی به‌صورت رمزنگاری توسط مشارکت‌کننده اف-دروید امضا می‌شود.
+   * توجه کنید که صف برای برنامه‌هایی که نیاز به ساخت دارند وجود ندارد. آنتناپاد هنوز در فهرست‌های موفقیت و شکست لیست نشده، و می‌خواهید بدانید آیا ساخته می‌شود؟
+      1. روی «نگارش fdroiddata» @ commit یک چرخه ساخت کلیک کنید
       1. زدن روی «مرور پرونده‌ها»
       1. زدن روی «یافتن پرونده»
       1. رونوشت و جایگذاری `de.danoeh.antennapod`
