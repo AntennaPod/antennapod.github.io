@@ -11,4 +11,4 @@ Before submitting a pull request, always *announce your interest first*. Sometim
 To keep things tidy, we prefer to have broader discussions on features on our forum. Once a decision has been reached, a concrete and boiled down description of the desired solution will be added to the relevant issue. More technical discussions on how to implement that can then take place in pull requests.
 
 ## Get in touch!
-Vaguely interested but not sure yet? Ready to get started? Get in touch with @Keunes or @ByteHamster on [our forum](https://forum.antennapod.org) or join the next [community meeting](https://antennapod.org/events/community-meeting)!
+Vaguely interested but not sure yet? Ready to get started? Get in touch with @Keunes or @ByteHamster on [our forum](https://forum.antennapod.org) or join the next [community meeting](https://antennapod.org/events/community-call)!
