@@ -1,21 +1,21 @@
-When you subscribe to a podcast and are interested in every new episode, automatic downloads save you from having to manually download each one. This page explains how to set it up and what to check when it isn't working.
+Wanneer je je abonneert op een podcast en geïnteresseerd bent in elke nieuwe aflevering, zorgt automatisch downloaden ervoor dat je niet elke aflevering handmatig moet downloaden. Deze pagina legt uit hoe je dit aanzet en wat je moet checken als het niet werkt.
 
-## How automatic downloads work
+## Hoe automatisch downloaden werkt
 
-When AntennaPod refreshes a podcast and finds new episodes, it places them in your `Inbox`. If automatic download is enabled for that podcast, AntennaPod downloads the episode in the background, adds it to the queue, and removes it from the inbox.
+Wanneer AntennaPod een podcast ververst en nieuwe afleveringen vindt, worden ze in je `Postvak IN` geplaatst. Als automatisch downloaden aan staat voor deze podcast, downloadt AntennaPod de nieuwe afleveringen op de achtergrond, worden ze toegevoegd aan de queue en worden ze verwijderd uit je `Postvak IN`.
 
-Automatic downloads can be enabled in one of two ways:
+Automatisch downloaden kan op twee manieren worden aangezet:
 
 1. **Global switch**: go to `Settings` » `Downloads` and enable `Automatic download`. This will turn on automatic download for all subscriptions, but you can also exclude specific ones on the settings screen of each subscription.
 1. **Per-podcast switch**: open the podcast, tap the settings icon (⚙️) and enable `Include in auto downloads`. If you want to enable automatic downloads for several podcasts at once, you can use multi-select on the subscriptions screen.
 
 In `Settings` » `Downloads` » `Mobile updates`, you can also configure to only perform automatic downloads when on WiFi. Most importantly, you can specify a limit for the maximum number of episodes to download before automatic downloads stop. The default limit is 50 episodes. In `Settings` » `Downloads` » `Automatic deletion`, you can find related settings to automatically delete episodes after playing them or when automatic download needs more space. In the per-podcast settings, under `Episode filter` you can also set a minimum episode length as well as keywords to in- or exclude episodes in automatic downloads.
 
-## Why isn't it downloading?
+## Waarom wordt het niet gedownload?
 
-If automatic downloads are enabled but episodes are not downloading, work through this checklist:
+Als automatische downloads aan staat, maar afleveringen niet worden gedownload, check dan de volgende punten:
 
-1. Is `Include in automatic downloads` enabled on the specific podcast?
-1. Are you on WiFi (or is the WiFi-only restriction disabled)?
-1. Has the episode download limit been reached? Check how many episodes are currently downloaded (on the `Downloads` screen, not just the ones in the queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic download`.
-1. Are the episodes of the podcast added to the inbox? Only episodes in the inbox are eligible for automatic download, so if you set the `New episodes action` to anything other than `Add to inbox`, nothing gets downloaded. Note that automatic download moves the episodes from the inbox to the queue once downloaded, so they still end up in your queue.
+1. Staat `toevoegen aan automatisch downloaden` aan op deze podcast?
+1. Ben je verbonden met WiFi (of staat de alleen-WiFi limitering uit)?
+1. Is het downloadlimiet voor afleveringen bereikt? Check hoeveel afleveringen momenteel zijn gedownload (in het `Downloads` tabblad, niet in de afspeellijst) en vergelijk het met het limiet ingesteld in `Instellingen ` » `Downloads` » `Automatisch downloaden`.
+1. Zijn de afleveringen van de podcast toegevoegd aan `Postvak IN`? Alleen afleveringen in `Postvak IN` kunnen automatisch worden gedownload, dus als je de `Actie bij nieuwe aflevering ` iets anders instelt dan `Toevoegen aan Postvak IN`, wordt niets gedownload. Let op dat de instelling automatisch downloaden de afleveringen verplaatst van `Postvak IN` naar de afspeellijst zodra ze zijn gedownload.

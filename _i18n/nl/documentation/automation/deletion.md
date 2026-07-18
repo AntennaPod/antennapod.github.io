@@ -1,6 +1,6 @@
 Waarom worden sommige gedownloade afleveringen verwijderd?
 
-AntennaPod heeft verschillende mechanismen die ervoor zorgen dat het geheugen van de telefoon niet volloopt met gedownloade podcasts. Als je merkt dat gedownloade afleveringen worden verwijderd, kijk dan eens naar deze twee instellingen:
+AntennaPod heeft verschillende mechanismen die ervoor zorgen dat het geheugen van je telefoon niet vol raakt met gedownloade podcasts. Als je merkt dat sommige gedownloade afleveringen worden verwijderd, kijk dan eens naar deze twee instellingen:
 
 ## Verwijder na afspelen
 

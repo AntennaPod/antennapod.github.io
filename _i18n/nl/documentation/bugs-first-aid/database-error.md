@@ -6,7 +6,7 @@ We zijn ons ervan bewust dat het erg frustrerend is als dit gebeurt en het spijt
 
 Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hieronder op een rij, te beginnen met de oplossing die het gemakkelijkst is en de beste resultaten geeft:
 
-1. Is er recent [een back-up geëxporteerd](/documentation/general/backup) van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar `Instellingen` » `Opslag` » `Importeren/Exporteren` » `Database importeren` en selecteer de back-up. Merk op dat de backup de gedeeltelijke corruptie kan bevatten, dus we raden nog steeds aan om de tweede stap te doorlopen om het probleem voor eens en altijd op te lossen.
+1. Is er recent [een back-up geëxporteerd](/documentation/general/backup) van AntennaPod? Het herstellen is dan relatief eenvoudig: ga naar `Instellingen` » `Opslag` » `Importeren/Exporteren` » `Database importeren` en selecteer het back-up bestand. Let op dat het backup bestand gedeeltelijk gecorrumpeerd kan zijn, dus het is alsnog aan te raden om de tweede stap te doorlopen om het probleem voor eens en altijd op te lossen.
 1. Als AntennaPod een kapotte database detecteert, wordt dit weggeschreven naar een bestand met de naam CorruptedDatabaseBackup.db in de opslagmap van de app. Je kunt dit bestand (of een geëxporteerde back-up) proberen te repareren met een [Python script](https://github.com/ByteHamster/AntennaPodDbFixer) dat is ontwikkeld om het herstelproces te automatiseren. Dit is een uitdaging en vereist het leren omgaan met een terminal.
 1. Hoewel alle gegevens *over* abonnementen en afleveringen zijn verdwenen, zijn de mediabestanden er nog wel.
 

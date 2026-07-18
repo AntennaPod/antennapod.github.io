@@ -40,7 +40,7 @@ Si vous le voulez, vous pouvez suivre ces étapes pour avoir une idée de la pro
 1. Vérifiez si [la liste de F-Droid des versions d'AntennaPod](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/de.danoeh.antennapod.yml?author=F-Droid%20checkupdates%20bot) a été mise à jour depuis. Si c'est le cas, elle devrait être bientôt traitée par le serveur de publication.
 1. Vérifiez si AntennaPod a été compilée durant le [cycle d'exécution](https://monitor.f-droid.org/builds/running) ou le [dernier cycle](https://monitor.f-droid.org/builds/build). Vous pouvez pour ce utiliser aussi l'application [F-Droid Build Status](https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/). Si c'est le cas, elle devrait être bientôt signée cryptographiquement par un contributeur F-Droid.
    * Notez qu'il n'y a pas de liste d'attente pour les apps à construire. AntennaPod n'est pas encore listée parmi les succès ou les échecs, et vous voudriez savoir si elle va être compilée ?
-      1. cliquez sur 'fdroiddata version' @ commit of a build cycle
+      1. cliquez sur 'fdroiddata version' @ commit d'un cycle de compilation
       1. cliquez sur « Parcourir les fichiers »
       1. cliquez sur « Rechercher un fichier »
       1. copier et coller `de.danoeh.antennapod`
