@@ -267,6 +267,8 @@ documentation:
       title: Podcastejen päivitys
     tasker:
       title: Integrointi muihin sovelluksiin
+    automatic-downloads:
+      title: Automaattiset lataukset
   bugs-first-aid:
     title: Viat, virheet ja pikakorjaukset
     intro: Ohjelmistoja kehittävät ihmiset, joten virheitä sattuu. Niille voi 
@@ -370,12 +372,16 @@ events:
     recurring: Toistuva tapahtuma
     copy-url: Kopioi kalenterin verkko-osoite
     download-ics: Lataa ICS-tiedosto
-    announce-add-calendar: Haluatko aina viimeisimmät tapahtumat ja päivittää 
-      yhteisöpuhelutiedot käsillä? Tilaa sitten kalenterimme 
-      suosikkisovelluksessasi 'Lisää kalenteriin' -linkin kautta!
+    announce-add-calendar: Haluatko aina tuoreimmat tiedot tapahtumista? Kopioi 
+      URL ja lisee se etäkalenteriksi kalenterisovelluksessasi lisätäksesi 
+      puhelumme ja kokouksemme, tai käytä ICS tiedostoa lisätäksesi vain tämän 
+      tapahtuman.
     recurring-events: Toistuvat tapahtumat
     upcoming-events: Tulevat tapahtumat
     past-events: Meneet tapahtumat
+    subscribe-event: Kopioi tapahtuman URL
+    subscribe-all: Kopioi kaikkien tapahtumien URL-osoitteet
+    subscribe-ics: Kopioi tapahtuman URL (ICS)
   recurrence:
     every-2nd-saturday: kuukauden joka toinen lauantai
     2nd-4th-wednesday: kuukauden (lähes) joka toinen ja neljäs keskiviikko
@@ -421,3 +427,9 @@ contributors:
   title: Osallistujat
 contributions-graph:
   past-year: Viimeisin vuosi
+  loading: Ladataan toimintaa...
+  error: Toimintaa ei voitu ladata
+  past-month: Viime kuukausi
+  title: Kehitysaktiviteetti
+  description: Committeja per viikko viime vuoden aikana
+  join-cta: Liity kehitykseen

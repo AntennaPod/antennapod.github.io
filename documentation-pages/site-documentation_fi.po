@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:45+0200\n"
-"PO-Revision-Date: 2026-04-11 01:12+0000\n"
+"PO-Revision-Date: 2026-07-18 17:01+0000\n"
 "Last-Translator: Lilli <kauhanen.johannes20@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fi/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 1 (paragraph)
 msgid ""
@@ -20,10 +20,14 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This "
 "page explains how to set it up and what to check when it isn't working."
 msgstr ""
+"Kun tilaat podcastin ja olet kiinnostunut jokaisesta uudesta jaksosta "
+"automaattiset lataukset auttavat sinua säästämään aikaa jokaisen jakson "
+"manuaalisesta tallentamisesta. Tämä sivu kertoo, miten voit määrittää "
+"automaattiset lataukset ja mitä voit tarkistaa jos ne eivät toimi."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
-msgstr ""
+msgstr "Miten automaattiset lataukset toimivat"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 3 (paragraph)
 msgid ""
@@ -32,10 +36,14 @@ msgid ""
 "AntennaPod downloads the episode in the background, adds it to the queue, "
 "and removes it from the inbox."
 msgstr ""
+"Kun AntennaPod päivittää podcastin ja löytää uusia jaksoja, se laittaa ne "
+"`Postilaatikkoosi`. Jos automaattiset lataukset on kytketty päälle "
+"kyseiselle podcastille, AntennaPod lataa uuden jakson taustalla, lisää sen "
+"jonoon ja poistaa sen postilaatikosta."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4 (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
-msgstr ""
+msgstr "Automaattiset lataukset voi kytkeä päälle kahdella eri tavalla:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -45,6 +53,10 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
+"**Yleisasetuksella**: mene `Asetukset`»`Lataukset` ja kytke päälle "
+"`Automaattiset lataukset`. Tämä ottaa automaattiset lataukset käyttöön "
+"kaikille tilauksille, mutta voit myös asettaa poikkeuksia eri podcastien "
+"asetusnäytöissä."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -54,6 +66,10 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**Yksittäisten podcastien asetus**: avaa podcasti, paina asetuskuvaketta "
+"(⚙️) ja kytke päälle `Sisällytä automaattisiin latauksiin`. Jos haluat ottaa "
+"automaattiset lataukset käyttöön monelle podcastille kerralla, voit käytää "
+"Podcastit-näkymän monivalintaa."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
 msgid ""
@@ -67,26 +83,40 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"`Asetuksissa` » `Lataukset` » `Päivitykset mobiilidatalla`, voit asettaa "
+"automaattiset lataukset vain WiFi-verkolla suoritettaviksi. Voit myös "
+"asettaa rajoituksen automaattisille latauksille maksimimäärän jaksoja ennen "
+"kuin automaattiset lataukset pysähtyvät. Oletusrajoitus on 50 jaksoa. "
+"`Asetuksissa` » `Lataukset` » `Automaattinen poisto`, voit löytää asiaan "
+"liittyvän asetkset automaattisesta poistosta soiton jälkeen kun "
+"automaattiset lataukset tarvitsevat lisää tilaa. Podcastikohtaisissa "
+"asetuksissa `Jaksofiltterin` alla voit myös asettaa minimi jaksonpituuden ja "
+"myös avainsanoja sisällyttääksesi tai poisvalitaksesi jaksoja "
+"automaattisista latauksista."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "Miksi ne eivät lataa?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8 (paragraph)
 msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Jos automaattiset lataukset ovat päällä mutta jaksot eivät lataudu, tarkista "
+"tämä lista:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"Onko `Sisällytä automaattisiin latauksiin` kytketty päälle kyseiselle "
+"podcastille?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
-msgstr ""
+msgstr "Onko laitteesi WiFi yhteydessä (vai onko vain-WiFi-asetus pois päältä)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -96,6 +126,9 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"Onko jaksojen latausrajoitus saavutettu? Tarkista montako jaksoa on tällä "
+"hetkellä ladattuna (`Lataukset` näytössä, ei vain jonossa olevia) ja vertaa "
+"lukua `Asetukset` » `Lataukset` » `Automaattiset lataukset`:n rajoitukseen."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -106,6 +139,11 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Ovatko jaksot lisättynä kirjelaatikkoon? Vain kirjelaatikon jaksot voidaan "
+"ladata automaattisesti, eli jos asetat `Uusien jaksojen oletustoiminnoksi` "
+"jotain muuta kuin `Lisää kirjelaatikkoon`, mitään ei ladata. Huomaa, että "
+"automaattiset lataukset siirtävät jaksot kirjelaatikosta jonoon kun ne on "
+"ladattu, eli ne silti päätyvät jonoon."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -469,7 +507,7 @@ msgid ""
 "knows everything about each podcast."
 msgstr ""
 "AntennaPod on [hajautettu podcast-sovellus](/documentation/general/central-"
-"distributed). Tämä tarkoittaa pohjimmiltaan sitä, että ei ole "
+"distributed). Tämä tarkoittaa pohjimmiltaan sitä, että sillä ei ole "
 "keskuspalvelinta, joka tietäisi kaiken jokaisesta podcastista."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 2
@@ -1334,16 +1372,14 @@ msgstr ""
 "voivat tarjota vanhempia jaksoja vaikka ne olisivat kadonneet RSS syötteestä."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
 msgstr ""
-"Kun olet kuunnellut jakson loppuun, haluat useimmissa tapauksissa poistaa "
-"sen puhelimestasi tilan vapauttamiseksi. Voit tehdä sen eri tavoilla."
+"Kun olet kuunnellut jakson loppuun, se yleensä kannattaa poistaa sen "
+"puhelimestasi tilan vapauttamiseksi. Voit tehdä sen eri tavoilla."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Firstly, you can of course manually delete episodes. When viewing the queue "
 "or a specific podcast, you can long-press an episode and tap `Delete`. When "
@@ -1354,11 +1390,13 @@ msgid ""
 "downloads. Use the `Downloads` screen if you want to see all downloads."
 msgstr ""
 "Ensinnäkin voit tietysti poistaa jaksot manuaalisesti. Kun katsot jonoa tai "
-"tiettyä podcastia, voit painaa jaksoa pitkään ja napauttaa `Poista`. Kun "
-"tarkastelet Valmis-välilehteä Lataukset-näytössä, voit myös napauttaa "
+"tiettyä podcastia, voit painaa jaksoa pitkään ja napauttaa `Poista`- "
+"painiketta. Kun tarkastelet `Lataukset`-näkymää, voit myös napauttaa "
 "roskakorikuvaketta. AntennaPod voi halutessasi poistaa jakson "
 "automaattisesti jonosta, jos se poistetaan. Löydät tämän vaihtoehdon "
-"kohdasta `Asetukset` » `Tallennus` » `Poista poistaa jonosta`."
+"kohdasta `Asetukset` » `Tallennus` » `Poista poistaa jonosta`. Muista, että "
+"`Jono`-näyttö ei näytä kaikkia latauksia. Käytä `Latataukset`-näyttöä jos "
+"haluat nähdä kaikki lataukset."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1375,7 +1413,6 @@ msgstr ""
 "poisto](/documentation/automation/deletion)."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
-#, fuzzy
 msgid ""
 "You can set AntennaPod to download episodes to your SD card instead of the "
 "internal memory. This ensures that you have more space for episodes. To "
@@ -1384,8 +1421,8 @@ msgid ""
 msgstr ""
 "Voit asettaa AntennaPodin lataamaan jaksot SD-kortille sisäisen muistin "
 "sijaan. Tämä varmistaa, että sinulla on enemmän tilaa jaksoille. Valitse "
-"tallennuskortti siirtymällä kohtaan `Asetukset` » `Lataukset` » "
-"`Tietokansio`."
+"tallennuskortti siirtymällä kohtaan `Asetukset` » `Lataukset` » `Valitse "
+"tiedostokansio`."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
@@ -1936,32 +1973,39 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Teknisesti edistyneempiä käyttäjiä kannustetaan vahvasti "
+"**Synkronointipalvelimen itseisännöintiin**. Itseisännöity palvelin on "
+"luotettavampi ja auttaa vähentämään ilmaiste julkisten palveluiden lastia. "
+"On monia vaihtoehtoja:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
+"[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
 msgstr ""
+"Nämä ovat kolmannen osapuolen projekteja, jotka eivät liity AntennaPodiin."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -1984,9 +2028,8 @@ msgstr ""
 "`Valitse synkronointipalveluntarjoaja`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
-#, fuzzy
 msgid "Select `gPodder Sync`"
-msgstr "Valitse 'gPodder'"
+msgstr "Valitse `gPodder Sync`"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
@@ -2027,7 +2070,6 @@ msgid "Select the device that you created on the server"
 msgstr "Valitse palvelimelle luomasi laite"
 
 #: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "**NOTE:** Did you create a device while setting up synchronisation in "
 "AntennaPod, rather than creating a device in advance on the website? Then be "
@@ -2041,7 +2083,7 @@ msgstr ""
 "AntennaPodissa, vai loitko laitteen etukäteen verkkosivustolla? Muista "
 "painaa sitten `Pakota synkronointi` -painiketta ladataksesi kaikkien aiemmin "
 "kuunneltujen jaksojen toistotilan. Jos et tee tätä, vain laitteiden "
-"linkittämisen jälkeen lisätyt podcastit synkronoidaan. On [avoin tiketti "
+"linkittämisen jälkeen lisätyt podcastit synkronoidaan. [Avoin tiketti "
 "Gpodder.net-sivustolla](https://github.com/gpodder/mygpo/issues/388), joka "
 "pyytää muuttamaan toimintaa."
 
@@ -2244,16 +2286,14 @@ msgid "Subscribing"
 msgstr "Tilaaminen"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Open the overflow menu by tapping the `...` button in the bottom right "
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
-"Avaa laatikko pyyhkäisemällä vasemmalta tai napauttamalla vasemmassa "
-"yläkulmassa olevaa `☰`-hampurilaiskuvaketta. Siirry kohtaan `+ Lisää "
-"podcast`. Nyt voit hakea, selata ehdotuksia tai lisätä podcastin sen RSS-"
-"osoitteella."
+"Avaa valikko napauttamalla `...`-painiketta oikeassa alareunassa. Siirry "
+"kohtaan `+ Lisää Podcast`. Nyt voit hakea, selata ehdotuksia tai lisätä "
+"podcastin sen RSS-osoitteella."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
 msgid ""
@@ -2762,15 +2802,14 @@ msgstr ""
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
-#, fuzzy
 msgid ""
 "[Podcast Index](https://podcastindex.org/) (ask your hoster how to add your "
 "podcast, or add your own podcast via [their add page](https://"
 "podcastindex.org/add))"
 msgstr ""
-"[Podcast-indeksi](https://podcastindex.org/) (kysy isännöitsijältäsi, kuinka "
-"voit lisätä podcastisi, tai lisää oma podcastisi [API:n](https://"
-"podcastindex-org.github.io/docs-api/#get-/add/byfeedurl) kautta)"
+"[Podcast-Index](https://podcastindex.org/) (kysy isännöitsijältäsi, kuinka "
+"voit lisätä podcastisi, tai lisää oma podcastisi [heidän lisäämissivuston]"
+"(https://podcastindex.org/add)) kautta"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3 (unordered
 #: list)
