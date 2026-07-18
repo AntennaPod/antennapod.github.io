@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-03 20:59+0200\n"
 "PO-Revision-Date: 2026-07-18 17:01+0000\n"
-"Last-Translator: Jérémy <jermy.prigent@gmail.com>\n"
+"Last-Translator: Victoria <lvpeschke@users.noreply.hosted.weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/antennapod/"
 "website/documentation/fr/>\n"
 "Language: fr\n"
@@ -72,7 +72,6 @@ msgstr ""
 "multisélection dans l'écran d'abonnements."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "In `Settings` » `Downloads` » `Mobile updates`, you can also configure to "
 "only perform automatic downloads when on WiFi. Most importantly, you can "
@@ -86,18 +85,17 @@ msgid ""
 msgstr ""
 "Dans `Préférences` » `Téléchargements` » `Mises à jour mobile`, vous pouvez "
 "choisir d'effectuer les téléchargements automatiques uniquement lorsque que "
-"vous utilisez le Wifi. Plus important, vous pouvez définir une limite pour "
-"le nombre maximum d'épisode à télécharger avant que le téléchargement "
-"automatique ne s'interrompe. Par défaut, la limite est de 50 épisodes. Dans "
-"`Préférences` » `Téléchargements` » `Suppression automatique`, vous "
-"trouverez des réglages quant à la suppression automatique d'épisode après "
-"leur lecture ou lorsque le téléchargement automatique nécessite plus "
-"d'espace. Dans les préférences des podcasts, sous `Filtre d'épisode`, vous "
-"pouvez aussi définir une longueur minimum d'épisode tout comme des mots-clés "
-"permettant d'inclure ou d'exclure des épisodes du téléchargement automatique."
+"vous utilisez le Wifi. Surtout, vous pouvez définir la limite du nombre "
+"maximum d'épisodes à télécharger avant que le téléchargement automatique ne "
+"s'interrompe. Par défaut, la limite est de 50 épisodes. Dans `Préférences` » "
+"`Téléchargements` » `Suppression automatique`, vous trouverez des réglages "
+"quant à la suppression automatique d'épisodes après leur lecture ou lorsque "
+"le téléchargement automatique nécessite plus d'espace. Dans les préférences "
+"par podcast, sous `Filtre d'épisode`, vous pouvez aussi définir une longueur "
+"minimale d'épisode tout comme des mots-clés permettant d'inclure ou "
+"d'exclure des épisodes du téléchargement automatique."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
-#, fuzzy
 msgid "Why isn't it downloading?"
 msgstr "Pourquoi cela ne télécharge pas ?"
 
@@ -106,11 +104,15 @@ msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"Si le téléchargement automatique est activé, mais que les épisodes ne sont "
+"pas téléchargés, vérifie les éléments suivants :"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in automatic downloads` enabled on the specific podcast?"
 msgstr ""
+"Est-ce que le `Téléchargement automatique` est activé pour le podcast en "
+"question ?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -141,6 +143,13 @@ msgid ""
 "that automatic download moves the episodes from the inbox to the queue once "
 "downloaded, so they still end up in your queue."
 msgstr ""
+"Est-ce que les épisodes du podcast sont ajoutés à la boîte de réception ? "
+"Seuls les épisodes dans la boîte de réception peuvent être téléchargés "
+"automatiquement. Donc, si vous réglez `Action pour les nouveaux épisodes` "
+"sur autre chose que `Ajouter à la boîte de réception`, aucun téléchargement "
+"n'aura lieu. Veuillez noter que le téléchargement automatique déplace les "
+"épisodes, une fois téléchargés, de la boîte de réception à la liste de "
+"lecture, ils se retrouvent finalement bien dans la liste de lecture."
 
 #
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
@@ -900,10 +909,12 @@ msgid ""
 "If you have ads in episodes, they are inserted by the podcaster or their "
 "hosting provider."
 msgstr ""
+"Si les épisodes contiennent des publicités, celles-ci sont insérées par le "
+"podcasteur ou son hébergeur."
 
 #: _i18n/en/documentation/general/ads.md:block 3 (header)
 msgid "AntennaPod does not add ads"
-msgstr ""
+msgstr "AntennaPod n'ajoute pas de publicités"
 
 #: _i18n/en/documentation/general/ads.md:block 4 (paragraph)
 msgid ""
@@ -918,7 +929,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
 msgid "Why are ads localized"
-msgstr ""
+msgstr "Pourquoi les publicités sont localisées"
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
@@ -952,15 +963,15 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 7 (header)
 msgid "What you can do"
-msgstr ""
+msgstr "Ce que vous pouvez faire"
 
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
 msgid "Here is what you can do against those ads."
-msgstr ""
+msgstr "Voici ce que vous pouvez faire à l'encontre de la publicité."
 
 #: _i18n/en/documentation/general/ads.md:block 9 (header)
 msgid "Skipping"
-msgstr ""
+msgstr "Avance rapide"
 
 #: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
@@ -987,7 +998,7 @@ msgstr ""
 
 #: _i18n/en/documentation/general/ads.md:block 11 (header)
 msgid "Switch to an ad-free feed"
-msgstr ""
+msgstr "Basculer vers un flux sans publicité"
 
 #: _i18n/en/documentation/general/ads.md:block 12 (paragraph)
 msgid ""
@@ -1241,6 +1252,14 @@ msgid ""
 "leave your feedback by creating a topic on [our forum](https://"
 "forum.antennapod.org/)."
 msgstr ""
+"Avant d'être publiée, chaque nouvelle version d'AntennaPod est d'abord "
+"envoyée à nos bêta-testeurs via le Google Play Store. Si vous avez le sens "
+"du détail et êtes capables d'expliquer ce qui ne fonctionne pas tout à fait, "
+"nous serions ravis de pouvoir compter sur votre aide ! Lorsque vous nous "
+"partagez vos idées d'amélioration, vous aidez aussi à mieux adapter "
+"l'application à vos attentes (et à celle de la communauté). N'hésitez pas à "
+"nous faire parvenir vos retours en créant un sujet sur [notre forum](https://"
+"forum.antennapod.org/)."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
 msgid ""
@@ -1741,9 +1760,8 @@ msgstr ""
 "voudriez savoir si elle va être compilée ?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
-#, fuzzy
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr "cliquez sur 'fdroiddata version' @ commit of a build cycle"
+msgstr "cliquez sur 'fdroiddata version' @ commit d'un cycle de compilation"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
@@ -2041,32 +2059,38 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"Il est fortement conseillé aux utilisateurs portés sur la technologie "
+"d'**auto-héberger un serveur de synchronisation**. Un serveur auto-hébergé "
+"est plus fiable et aide à réduire la charge des services gratuits et "
+"publics. Plusieurs options existent :"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) avec [l'app "
+"gPodder Sync](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
-msgstr ""
+msgstr "Il s'agit de projet de tiers, qui ne sont pas affiliés à AntennaPod."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
@@ -2763,11 +2787,13 @@ msgid ""
 "You could also turn the same link into a button, e.g. by using the following "
 "code:"
 msgstr ""
+"Vous pouvez aussi transformer le même lien en un bouton, par exemple en "
+"utilisant le code suivant :"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
 msgid "What users see"
-msgstr ""
+msgstr "Ce que voient les utilisateurs"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 6
 #: (paragraph)
@@ -2776,16 +2802,20 @@ msgid ""
 "preview episodes and subscribe to your podcast directly in the app, as in "
 "the screenshots below."
 msgstr ""
+"Les utilisateurs qui ont installé AntennaPod et ouvrent ce lien seront en "
+"mesure de voir des aperçus des épisodes et de s'abonner à votre podcast "
+"directement depuis l'application, comme on peut le voir dans les captures "
+"d'écran ci-dessous."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
 #: (paragraph)
 msgid "Browser asking to open a link in AntennaPod"
-msgstr ""
+msgstr "Navigateur qui demande d'ouvrir un lien dans AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
 msgid "The same link displayed in AntennaPod"
-msgstr ""
+msgstr "Le même lien affiché dans AntennaPod"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 19
 #: (paragraph)
@@ -2795,11 +2825,15 @@ msgid ""
 "manually, as in this [example page](/deeplink/subscribe?url=https://"
 "antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
+"D'un autre côté, les utilisateurs qui n'ont pas installé AntennaPod verront "
+"une page avec les instructions pour télécharger l'application ou souscrire à "
+"votre podcast manuellement, comme sur [cette page d'exemple](/deeplink/"
+"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
 msgid "Branding"
-msgstr ""
+msgstr "Image de marque"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 21
 #: (paragraph)
@@ -2818,6 +2852,10 @@ msgid ""
 "need funding beyond advertising and buy-outs by platforms. AntennaPod "
 "supports different ways through which podcasters can earn an income:"
 msgstr ""
+"Pour assurer la viabilité d'un écosystème de podcasts ouvert, les "
+"podcasteurs ont besoin de financements au-delà de la publicité et des "
+"rachats par les plateformes. AntennaPod soutient différentes manières à "
+"travers lesquelles les podcasteurs peuvent percevoir des revenus :"
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
