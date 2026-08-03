@@ -80,4 +80,4 @@ Of course you'd be acknowledged by name on the site and in the app's 'About' sec
 
 ## Interested? Contact us!
 
-Thank you for considering support to this open source app! Reply to the [ad on opensourcedesign.net](https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update) or get in touch at [email address removed].
+Thank you for considering support to this open source app! Reply to the [ad on opensourcedesign.net](https://web.archive.org/web/20201026134555/https://opensourcedesign.net/jobs/jobs/2020-05-26-new-logo-to-go-with-major-app-update) or get in touch at [email address removed].
