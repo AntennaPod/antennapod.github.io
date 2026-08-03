@@ -15,7 +15,7 @@ In `Settings` » `Downloads` » `Mobile updates`, you can also configure to only
 
 اگر بارگیری خودکار فعال است اما قسمت‌ها بارگیری نمی‌شوند، این فهرست بررسی را دنبال کنید:
 
-1. Is `Include in automatic downloads` enabled on the specific podcast?
+1. Is `Include in auto downloads` enabled on the specific podcast?
 1. آیا روی وای‌فای هستید (یا محدودیت فقط وای‌فای غیرفعال است)؟
 1. Has the episode download limit been reached? Check how many episodes are currently downloaded (on the `Downloads` screen, not just the ones in the queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic download`.
 1. Are the episodes of the podcast added to the inbox? Only episodes in the inbox are eligible for automatic download, so if you set the `New episodes action` to anything other than `Add to inbox`, nothing gets downloaded. Note that automatic download moves the episodes from the inbox to the queue once downloaded, so they still end up in your queue.
