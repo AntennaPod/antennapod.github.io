@@ -2,7 +2,7 @@ Puedes estar a punto de empezar a gritar *¡Ayuda! He perdido mis podcasts/episo
 
 En una versión muy antigua de AntennaPod (anterior a 2019), existían incidencias con la base de datos que contenía toda la información (episodios, estados de escucha, etc.). Si bien la causa ya se solucionó, es posible que tu base de datos se haya dañado (incluso cuando la aplicación funcionaba sin incidencias). Si una versión reciente de AntennaPod modifica las partes dañadas de la base de datos, estos daños podrían volver a aparecer. En ese caso, AntennaPod ya no podrá funcionar con la base de datos dañada y tendrá que empezar de cero con una base de datos vacía.
 
-Somos conscientes de que es muy frustrante que esto ocurra y sentimos mucho si se ha visto afectado.
+Somos conscientes de que es muy frustrante que esto ocurra y sentimos mucho si te has visto afectado.
 
 Puede que haya algunas cosas que puedas hacer para recuperar tus datos. Algunas de ellas se listan más abajo, empezando con la solución que da los mejores y más fáciles resultados:
 

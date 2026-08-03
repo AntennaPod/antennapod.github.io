@@ -4,8 +4,8 @@ AntennaPod tiene varios mecanismos para asegurarse de que los podcasts descargad
 
 ## Borrar tras reproducir
 
-El borrado automático se encuentra en `Configuración` » `Almacenamiento`. Cuando se activa, los episodios se eliminan al completar la reproducción (pero no cuando un episodio se marca manualmente como 'reproducido').
+El borrado tras la reproducción se encuentra en `Ajustes` » `Descargas` » `Borrado automático`. Cuando se activa, los episodios se eliminan al completar la reproducción (pero no cuando un episodio se marca manualmente como 'reproducido').
 
-## Eliminar antes de la descarga automática
+## Borrar antes de la descarga automática
 
-Elimina antes de auto‐descarga esté situada en `Ajustes` » `Descargas` » `Borrado automático`. Si la Descarga Automática necesita espacio para episodios nuevos, eliminará los episodios antiguos que no estén en la cola y no estén marcados como favoritos. Puedes estableces cuales episodios son elegibles para auto-eliminación según su estatus (p.ej. no Favorito, o no en la Cola), o un periodo de tiempo tras terminarlos.
+Borrar antes de la descarga automática está situado en `Ajustes` » `Descargas` » `Borrado automático`. Si la Descarga Automática necesita espacio para episodios nuevos, eliminará los episodios antiguos que no estén en la cola y no estén marcados como favoritos. Puedes establecer qué episodios son elegibles para su borrado según su estatus (p.ej. no Favorito, o no en la Cola), o periodo de tiempo tras terminarlos.

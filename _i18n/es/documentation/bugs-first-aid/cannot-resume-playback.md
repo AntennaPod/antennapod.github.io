@@ -9,6 +9,6 @@ Para poder reanudar la reproducción, puedes añadir el atajo de AntennaPod en t
 Para añadir el mosaico AntennaPod:
 
 1. **Desliza dos veces hacia abajo** desde la parte superior de la pantalla para abrir completamente el panel de Ajustes rápidos. En algunas versiones de Android (por ejemplo, Samsung One UI o Xiaomi MIUI), un Centro de Control equivalente con gestos similares puede ya incluir un acceso directo multimedia; consulta la configuración de tu dispositivo en caso de ser diferente
-1. ***Pulsa el icono de lápiz** en la sección de mosaicos para editarlos
-1. Desplázate hacia abajo en la lista de mosaicos, **pulsa sobre el mosaico de AntennaPod y arrástralo** hacia arriba en la lista de atajos activos
+1. **Pulsa el icono de lápiz** en la sección de mosaicos para editarlos
+1. Desplázate hacia abajo en la lista de mosaicos, **arrastra el mosaico de AntennaPod** hacia arriba en la lista de atajos activos
 1. Toca la **flecha atrás** o **guardar** para salir de la edición del mosaico
