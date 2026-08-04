@@ -79,4 +79,6 @@ layout: internal
   </div>
 </div>
 
-{% include add-to-calendar-modal.html %}
+{% if status != 'past' %}
+  {% include add-to-calendar-modal.html %}
+{% endif %}
