@@ -1,0 +1,1 @@
+Você pode usar a fila para armazenar episódios que pretende ouvir. Se encontrar um episódio interessante, mantenha pressionado sobre ele e selecione `Adicionar à fila`. Se você baixar um episódio, o AntennaPod o adicionará à fila automaticamente.
