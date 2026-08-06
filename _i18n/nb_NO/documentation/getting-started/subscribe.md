@@ -2,7 +2,7 @@ Det første du vil gjøre etter å ha lastet ned en podkast-app er å abonnere p
 
 ## Abonnere
 
-Åpne skuffen ved å sveipe fra venstre eller trykke på `☰` burger-ikonet øverst til venstre. Gå til `+ Legg til podkast`. Nå kan du søke, bla gjennom forslag eller legge til en podkast med RSS-adressen.
+Åpne sidemenyen ved å sveipe fra venstre eller trykke på `☰` burger-ikonet øverst til venstre. Gå til `+ Legg til podkast`. Nå kan du søke, bla gjennom forslag eller legge til en podkast med RSS-adressen.
 
 Alternativt kan du importere en OPML-fil eller bare sjekke henholdsvis Apple Podcasts, gpodder.net, fyyd eller Podcast Index-databasen. Import av RSS- eller Atom-strøm eller URL-ordninger som `pcast://` og `itpc://` vil også fungere.
 
