@@ -1,4 +1,4 @@
-Wenn du einen Podcast abonnierst und an jeder neuen Episode interessiert bist, ersparen dir automatische Downloads das manuelle Herunterladen jeder einzelnen Episode. Auf dieser Seite erfahrst du, wie du diese Funktion einrichtest und was du überprüfen solltest, wenn sie nicht funktioniert.
+Wenn du einen Podcast abonnierst und an jeder neuen Episode interessiert bist, ersparen dir automatische Downloads das manuelle Herunterladen jeder einzelnen Episode. Auf dieser Seite erfährst du, wie du diese Funktion einrichtest und was du überprüfen solltest, wenn sie nicht funktioniert.
 
 ## Wie automatisches Herunterladen funktioniert
 

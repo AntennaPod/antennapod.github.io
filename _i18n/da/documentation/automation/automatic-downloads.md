@@ -1,4 +1,4 @@
-Når du abonnerer på en podcast og er interesseret i alle nye afsnit, sparer automatisk overførsel dig for at skulle overføre dem manuelt én for én. På denne side kan du læse, hvordan du indstiller funktionen, og hvad du skal tjekke, hvis den ikke virker.
+Når du abonnerer på en podcast og er interesseret i alle nye afsnit, sparer automatiske overførsler dig for at skulle overføre dem manuelt én for én. På denne side kan du læse, hvordan du indstiller dem, og hvad du skal tjekke, hvis det ikke virker.
 
 ## Sådan fungerer automatiske overførsler
 
@@ -15,7 +15,7 @@ Under `Indstillinger` » `Overførsler` » `Mobilopdateringer` kan du også inds
 
 Hvis automatisk overførsel er aktiveret, men afsnittene ikke overføres, skal du gennemgå denne tjekliste:
 
-1. Er `Inkluder i automatiske overførsler` aktiveret for den pågældende podcast?
+1. Er `Inkluder i automatiske overførsler` aktiveret på den pågældende podcast?
 1. Er du forbundet til et WiFi-netværk (eller er kun WiFi-begrænsningen slået fra)?
 1. Er grænsen for antallet af afsnit, der kan overføres, nået? Tjek, hvor mange afsnit der i øjeblikket er overført (på skærmbilledet `Overførelser`, ikke kun dem i køen), og sammenlign det med grænsen under »Indstillinger« »Overførsler« »Automatisk overførsel«.
 1. Bliver podcast-afsnittene føjet til indbakken? Kun afsnit i indbakken kan overføres automatisk, så hvis du indstiller `Handling ved nye afsnit` til noget andet end `Føj til indbakken`, bliver der ikke overført noget. Bemærk, at den automatiske overførsel flytter afsnittene fra indbakken til køen, når de er overført, så de ender stadig i din kø.

@@ -9,7 +9,7 @@ Daarnaast heeft de applicatie de volgende rechten nodig die automatisch door And
 - **Netwerkverbindingen bekijken** en **Wi-Fi verbindingen bekijken**:
    - om na te gaan of er een actieve internetverbinding is, voor en tijdens het uitvoeren van bovenvermelde acties
    - voor de instellingen `Downloads` » `Mobiele updates`, om te bepalen of bovenstaande acties toegestaan zijn door de gebruiker via de huidige (mobiele en/of gemeten) verbinding
-- **Pair with Bluetooth devices**: for the setting `Playback` » `Headphones or Bluetooth disconnect`, to automatically pause or play when the phone connects with or disconnects from a Bluetooth device
+- **Koppelen met Bluetooth apparaten**: voor de instelling `Afspelen` »`Koptelefoons of Bluetooth ontkoppelen`, om automatisch te pauzeren of af te spelen wanneer de telefoon verbind met een Bluetooth apparaat of de verbinding ermee verbreekt
 - **Run at startup**: to (re)start services like refreshing podcasts and enabling auto-downloads
 - **Control vibration**: for the option `Vibrate shortly before end` of the sleep timer, to vibrate if this setting is enabled
 - **Prevent device from sleeping**: needed to ensure media playback and downloads continue in the background

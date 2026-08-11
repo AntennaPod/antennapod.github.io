@@ -12,5 +12,5 @@ Er zijn een aantal mogelijkheden om de gegevens te herstellen. We zetten ze hier
 
 * Je kan een map in AntennaPod toevoegen als ware het een feed. Om dit te doen, ga je naar `voeg Podcast toe` en tik je op `Voeg lokale map toe`. Dan ga je naar deze map op jouw gsm:
 * Op Android 11+:`Android` » `media` » `de.danoeh.antennapod`
-* In AntennaPod kun je een map toevoegen alsof het een feed is. Ga hiervoor naar `Podcast toevoegen` en tik op `Lokale map toevoegen`. Ga vervolgens naar deze map op je telefoon: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.
+* Op Android 10 en eerder: `Android` » `data` » `de.danoeh.antennapod` » `files` » `media` en selecteer vervolgens de map van een podcast. Houd er rekening mee dat dit alleen toegang geeft tot eerder gedownloade media - de nieuwe afleveringen van de podcast zullen niet worden toegevoegd.
 * Je kunt ook opnieuw beginnen met het toevoegen van eerdere podcasts. In de bovengenoemde map kun je zien op welke podcasts je geabonneerd was.
