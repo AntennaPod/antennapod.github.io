@@ -3,18 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-01 23:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-09-03 06:51+0000\n"
+"Last-Translator: Myoundo Park <cuspymd@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/antennapod/"
+"website/documentation/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.18\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #
-
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 1
 #: (paragraph)
 msgid ""
@@ -22,10 +22,13 @@ msgid ""
 "automatic downloads save you from having to manually download each one. This"
 " page explains how to set them up and what to check when it isn't working."
 msgstr ""
+"팟캐스트를 구독했고 새 에피소드를 모두 듣고 싶다면, 자동 다운로드를 사용하면 "
+"에피소드를 하나하나 직접 다운로드할 필요가 없습니다. 이 페이지에서는 자동 "
+"다운로드를 설정하는 방법과, 동작하지 않을 때 확인할 사항을 설명합니다."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 2 (header)
 msgid "How automatic downloads work"
-msgstr ""
+msgstr "자동 다운로드의 동작 방식"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 3
 #: (paragraph)
@@ -35,11 +38,15 @@ msgid ""
 "AntennaPod downloads the episode in the background, adds it to the queue, "
 "and removes it from the inbox."
 msgstr ""
+"안테나팟이 팟캐스트를 새로고침해서 새 에피소드를 찾으면 `새로 받음`에 "
+"넣습니다. 그 팟캐스트에 자동 다운로드가 켜져 있으면, 안테나팟은 "
+"백그라운드에서 에피소드를 다운로드하고 대기열에 추가한 뒤 새로 받음 목록에서 "
+"제거합니다."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 4
 #: (paragraph)
 msgid "Automatic downloads can be enabled in one of two ways:"
-msgstr ""
+msgstr "자동 다운로드는 두 가지 방법 중 하나로 켤 수 있습니다:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -49,6 +56,9 @@ msgid ""
 "you can also exclude specific ones on the settings screen of each "
 "subscription."
 msgstr ""
+"**전체 스위치**: `설정` » `다운로드`로 가서 `자동 다운로드`를 켭니다. 모든 "
+"구독에 자동 다운로드가 켜지지만, 각 구독의 설정 화면에서 특정 팟캐스트를 "
+"제외할 수도 있습니다."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 5 (ordered
 #: list)
@@ -58,6 +68,9 @@ msgid ""
 "downloads for several podcasts at once, you can use multi-select on the "
 "subscriptions screen."
 msgstr ""
+"**팟캐스트별 스위치**: 팟캐스트를 열고 설정 아이콘(⚙️)을 누른 뒤 `자동 "
+"다운로드에 포함`을 켭니다. 여러 팟캐스트의 자동 다운로드를 한꺼번에 켜고 "
+"싶다면 구독 화면에서 다중 선택을 사용할 수 있습니다."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 6
 #: (paragraph)
@@ -72,10 +85,17 @@ msgid ""
 "can also set a minimum episode length as well as keywords to in- or exclude "
 "episodes in automatic downloads."
 msgstr ""
+"`설정` » `다운로드` » `휴대전화 망 업데이트`에서 WiFi에 연결되었을 때만 자동 "
+"다운로드하도록 설정할 수도 있습니다. 가장 중요한 것은, 자동 다운로드가 "
+"멈추기 전까지 다운로드할 최대 에피소드 수를 지정할 수 있다는 점입니다. 기본 "
+"한도는 50개입니다. `설정` » `다운로드` » `자동 삭제`에는 재생을 마친 "
+"에피소드나 자동 다운로드에 공간이 더 필요할 때 에피소드를 자동으로 삭제하는 "
+"관련 설정이 있습니다. 팟캐스트별 설정의 `에피소드 필터`에서는 최소 에피소드 "
+"길이와, 자동 다운로드에 포함하거나 제외할 키워드도 설정할 수 있습니다."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 7 (header)
 msgid "Why isn't it downloading?"
-msgstr ""
+msgstr "왜 다운로드되지 않습니까?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 8
 #: (paragraph)
@@ -83,16 +103,18 @@ msgid ""
 "If automatic downloads are enabled but episodes are not downloading, work "
 "through this checklist:"
 msgstr ""
+"자동 다운로드를 켰는데 에피소드가 다운로드되지 않는다면, 다음 목록을 차례로 "
+"확인하십시오:"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Is `Include in auto downloads` enabled on the specific podcast?"
-msgstr ""
+msgstr "해당 팟캐스트에 `자동 다운로드에 포함`이 켜져 있습니까?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
 msgid "Are you on WiFi (or is the WiFi-only restriction disabled)?"
-msgstr ""
+msgstr "WiFi에 연결되어 있습니까(또는 WiFi 전용 제한이 꺼져 있습니까)?"
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -102,6 +124,9 @@ msgid ""
 "queue) and compare it to the limit in `Settings` » `Downloads` » `Automatic "
 "download`."
 msgstr ""
+"에피소드 다운로드 한도에 도달했습니까? 현재 다운로드된 에피소드 수(대기열에 "
+"있는 것만이 아니라 `다운로드` 화면 전체)를 확인하고 `설정` » `다운로드` » "
+"`자동 다운로드`의 한도와 비교해 보십시오."
 
 #: _i18n/en/documentation/automation/automatic-downloads.md:block 9 (ordered
 #: list)
@@ -112,10 +137,15 @@ msgid ""
 " that automatic download moves the episodes from the inbox to the queue once"
 " downloaded, so they still end up in your queue."
 msgstr ""
+"팟캐스트의 에피소드가 새로 받음 목록에 추가됩니까? 새로 받음 목록에 있는 "
+"에피소드만 자동 다운로드 대상이므로, `새 에피소드 동작`을 `새로 받음 목록에 "
+"추가` 이외의 값으로 설정했다면 아무것도 다운로드되지 않습니다. 자동 "
+"다운로드는 다운로드가 끝나면 에피소드를 새로 받음 목록에서 대기열로 "
+"옮기므로, 결국 대기열에 들어갑니다."
 
 #: _i18n/en/documentation/automation/deletion.md:block 1 (paragraph)
 msgid "Why are some downloaded episodes deleted?"
-msgstr ""
+msgstr "다운로드한 에피소드 일부가 왜 삭제됩니까?"
 
 #: _i18n/en/documentation/automation/deletion.md:block 2 (paragraph)
 msgid ""
@@ -123,10 +153,13 @@ msgid ""
 "fill up your phone's memory. If you notice some downloaded episodes being "
 "deleted, have a look at these two settings:"
 msgstr ""
+"안테나팟에는 다운로드한 팟캐스트가 휴대전화 저장 공간을 가득 채우지 않도록 "
+"하는 여러 장치가 있습니다. 다운로드한 에피소드가 삭제되는 것을 발견했다면 "
+"다음 두 가지 설정을 살펴보십시오:"
 
 #: _i18n/en/documentation/automation/deletion.md:block 3 (header)
 msgid "Delete after playing"
-msgstr ""
+msgstr "재생 후 삭제"
 
 #: _i18n/en/documentation/automation/deletion.md:block 4 (paragraph)
 msgid ""
@@ -134,10 +167,13 @@ msgid ""
 "deletion`. When enabled, episodes are deleted when playback completes (but "
 "not when manually marking an episode as 'played')."
 msgstr ""
+"재생 후 삭제는 `설정` » `다운로드` » `자동 삭제`에 있습니다. 켜져 있으면 "
+"재생이 끝날 때 에피소드가 삭제됩니다(에피소드를 직접 '재생함'으로 표시할 "
+"때는 삭제되지 않습니다)."
 
 #: _i18n/en/documentation/automation/deletion.md:block 5 (header)
 msgid "Delete before auto download"
-msgstr ""
+msgstr "자동 다운로드 전 삭제"
 
 #: _i18n/en/documentation/automation/deletion.md:block 6 (paragraph)
 msgid ""
@@ -148,6 +184,11 @@ msgid ""
 "their status (e.g. not favorited or not in queue) or a period of time after "
 "finishing."
 msgstr ""
+"자동 다운로드 전 삭제는 `설정` » `다운로드` » `자동 삭제`에 있습니다. 자동 "
+"다운로드에 새 에피소드를 위한 공간이 필요하면, 대기열에 없고 즐겨찾기로 "
+"표시되지 않은 오래된 에피소드를 삭제합니다. 상태(예: 즐겨찾기가 아님, "
+"대기열에 없음)나 재생을 마친 뒤 지난 기간을 기준으로 어떤 에피소드를 삭제할 "
+"수 있는지 설정할 수 있습니다."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 1
 #: (paragraph)
@@ -156,6 +197,9 @@ msgid ""
 "new episodes. Via `Settings` » `Downloads` » `Refresh podcasts` you can "
 "change the interval period or turn off the automatic updates."
 msgstr ""
+"기본적으로 모든 팟캐스트는 새 에피소드를 받기 위해 12시간 간격으로 "
+"새로고침됩니다. `설정` » `다운로드` » `팟캐스트 새로고침`에서 간격을 "
+"바꾸거나 자동 업데이트를 끌 수 있습니다."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 2
 #: (paragraph)
@@ -167,6 +211,11 @@ msgid ""
 " set this by going to a podcast, tapping on the `Gear` icon and changing the"
 " `Keep Updated` setting."
 msgstr ""
+"팟캐스트를 최신 상태로 유지할 필요가 없는 경우 개별 팟캐스트의 새로고침을 끌 "
+"수도 있습니다. 예를 들어 더 이상 새 에피소드가 나오지 않는 팟캐스트에 쓸 수 "
+"있습니다. 또는 가끔 에피소드 하나만 듣고 싶은 팟캐스트가 있을 수도 있습니다. "
+"팟캐스트로 가서 `톱니바퀴` 아이콘을 누르고 `최신 업데이트 유지` 설정을 "
+"바꾸면 됩니다."
 
 #: _i18n/en/documentation/automation/refreshing-podcasts.md:block 3
 #: (paragraph)
@@ -176,6 +225,10 @@ msgid ""
 " process from the `Queue` or the `Episodes` screen. You can still refresh "
 "that podcast, which will bring new episodes to AntennaPod."
 msgstr ""
+"이 팟캐스트 설정을 끄면, 팟캐스트가 자동으로 새로고침될 때나 `대기열` 또는 "
+"`에피소드` 화면에서 직접 새로고침을 시작할 때 그 팟캐스트는 더 이상 "
+"업데이트되지 않습니다. 그래도 그 팟캐스트만 새로고침하면 새 에피소드를 "
+"안테나팟으로 가져올 수 있습니다."
 
 #: _i18n/en/documentation/automation/tasker.md:block 1 (paragraph)
 msgid ""
@@ -183,28 +236,35 @@ msgid ""
 " regularly (see [Refreshing podcasts](/documentation/automation/refreshing-"
 "podcasts))."
 msgstr ""
+"안테나팟에서는 구독(팟캐스트 피드)을 정기적으로 업데이트하도록 지정할 수 "
+"있습니다([팟캐스트 새로고침](/documentation/automation/refreshing-podcasts) "
+"참고)."
 
 #: _i18n/en/documentation/automation/tasker.md:block 2 (paragraph)
 msgid ""
 "If you have more complex needs, you can use various 3rd-party automation "
 "applications with AntennaPod to do so. For example:"
 msgstr ""
+"더 복잡한 요구가 있다면 다양한 서드파티 자동화 앱을 안테나팟과 함께 사용할 "
+"수 있습니다. 예를 들면:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get the subscriptions updated at the start of the day: at 7am, switch on "
 "WiFi, then update AntennaPod feeds."
 msgstr ""
+"하루를 시작할 때 구독을 업데이트하기: 오전 7시에 WiFi를 켜고 안테나팟 피드를 "
+"업데이트합니다."
 
 #: _i18n/en/documentation/automation/tasker.md:block 3 (unordered list)
 msgid ""
 "Get your subscriptions before your ride home: at 5pm on weekdays update "
 "subscriptions."
-msgstr ""
+msgstr "퇴근길 전에 구독 받아 두기: 평일 오후 5시에 구독을 업데이트합니다."
 
 #: _i18n/en/documentation/automation/tasker.md:block 4 (header)
 msgid "General instructions"
-msgstr ""
+msgstr "일반 안내"
 
 #: _i18n/en/documentation/automation/tasker.md:block 5 (paragraph)
 msgid ""
@@ -212,94 +272,107 @@ msgid ""
 "subscriptions by sending a 'Broadcast' (it may be shown as a type of Android"
 " intent) with the following settings:"
 msgstr ""
+"자동화 앱에서 다음 설정으로 '브로드캐스트'(Android 인텐트의 한 종류로 표시될 "
+"수 있습니다)를 보내면 안테나팟이 구독을 업데이트하게 할 수 있습니다:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid "Package name: `de.danoeh.antennapod`"
-msgstr ""
+msgstr "패키지 이름: `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 6 (unordered list)
 msgid ""
 "Class name: "
 "`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 msgstr ""
+"클래스 이름: "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 
 #: _i18n/en/documentation/automation/tasker.md:block 7 (header)
 msgid "Steps for some automation apps"
-msgstr ""
+msgstr "일부 자동화 앱의 설정 단계"
 
 #: _i18n/en/documentation/automation/tasker.md:block 8 (header)
 msgid ""
 "HomeAssistant Android Mobile Companion ([website](https://companion.home-"
 "assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 msgstr ""
+"HomeAssistant Android Mobile Companion ([웹사이트](https://companion.home-"
+"assistant.io/docs/notifications/notification-commands/#broadcast-intent))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 9 (paragraph)
 msgid ""
 "Create a notify action call in an automation with the following template:"
-msgstr ""
+msgstr "자동화에서 다음 템플릿으로 notify 액션 호출을 만듭니다:"
 
 #: _i18n/en/documentation/automation/tasker.md:block 11 (header)
 msgid "Automate ([website](https://llamalab.com/automate/))"
-msgstr ""
+msgstr "Automate ([웹사이트](https://llamalab.com/automate/))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 12 (paragraph)
 msgid ""
 "In a flow, add a block of the type `APPS` » `Broadcast send` and specify"
-msgstr ""
+msgstr "플로우에 `APPS` » `Broadcast send` 유형의 블록을 추가하고 다음을 지정합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid "Package to be `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Package를 `de.danoeh.antennapod`으로"
 
 #: _i18n/en/documentation/automation/tasker.md:block 13 (ordered list)
 msgid ""
 "Receiver class to be "
 "`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 msgstr ""
+"Receiver class를 "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`로"
 
 #: _i18n/en/documentation/automation/tasker.md:block 14 (header)
 msgid "Tasker ([website](https://tasker.joaoapps.com/))"
-msgstr ""
+msgstr "Tasker ([웹사이트](https://tasker.joaoapps.com/))"
 
 #: _i18n/en/documentation/automation/tasker.md:block 15 (paragraph)
 msgid "Create a task. In the task, add an action"
-msgstr ""
+msgstr "작업(task)을 만듭니다. 작업 안에 액션을 추가합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Select `System`"
-msgstr ""
+msgstr "`System`을 선택합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Select `Send Intent`"
-msgstr ""
+msgstr "`Send Intent`를 선택합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Specify Package name to be `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Package name을 `de.danoeh.antennapod`으로 지정합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid ""
 "Specify Class name to be "
 "`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`"
 msgstr ""
+"Class name을 "
+"`de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`로 "
+"지정합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "Specify Target to be `Broadcast receiver`"
-msgstr ""
+msgstr "Target을 `Broadcast receiver`로 지정합니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 16 (ordered list)
 msgid "You can leave the other fields blank"
-msgstr ""
+msgstr "나머지 필드는 비워 두어도 됩니다"
 
 #: _i18n/en/documentation/automation/tasker.md:block 17 (paragraph)
 msgid ""
 "**Disclaimer:** AntennaPod community has no relationship with any of the "
 "3rd-party automation applications listed."
 msgstr ""
+"**면책 조항:** 안테나팟 커뮤니티는 여기 나열된 서드파티 자동화 앱과 아무런 "
+"관계가 없습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 1 (paragraph)
 msgid "Did you encounter a bug? We're sorry to hear."
-msgstr ""
+msgstr "버그를 만나셨습니까? 안타깝습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 2 (paragraph)
 msgid ""
@@ -309,6 +382,11 @@ msgid ""
 "can see if there's any suggestions. Also consider providing information from"
 " your situation - it might help developers find the source of the problem."
 msgstr ""
+"먼저 안테나팟이 최신 버전인지 확인하십시오. 업데이트마다 크고 작은 문제를 "
+"많이 고치고 있습니다. 그다음 포럼에서 같은 문제를 겪은 사람이 있는지 검색해 "
+"보십시오. 같은 문제를 찾았다면 제안된 해결책이 있는지 볼 수 있습니다. "
+"여러분의 상황에 대한 정보를 남기는 것도 고려해 보십시오. 개발자가 문제의 "
+"원인을 찾는 데 도움이 될 수 있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 3 (paragraph)
 msgid ""
@@ -318,12 +396,18 @@ msgid ""
 "create an account (if you don't have one already) or simply log in via "
 "Google."
 msgstr ""
+"안테나팟을 업데이트하고 포럼도 검색했지만 소용이 없었다면, 문제를 알려 "
+"주십시오. [포럼](https://forum.antennapod.org/c/bug-report/9)에 글을 올릴 수 "
+"있습니다. 그러려면 계정을 만들거나(아직 없다면) Google로 간단히 로그인하면 "
+"됩니다."
 
 #: _i18n/en/documentation/bugs-first-aid/bug-report.md:block 4 (paragraph)
 msgid ""
 "Whichever way you contact us, please include the system information that is "
 "displayed in `Settings` » `Report bug`."
 msgstr ""
+"어떤 방법으로 연락하시든, `설정` » `버그 신고`에 표시되는 시스템 정보를 함께 "
+"적어 주십시오."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 1
 #: (paragraph)
@@ -332,6 +416,8 @@ msgid ""
 "from the lock screen or media notification. This occurs specifically if "
 "playback has been paused for a while."
 msgstr ""
+"Android 13과 Android 14에서는 잠금 화면이나 미디어 알림에서 재생을 재개할 수 "
+"없는 경우가 있습니다. 특히 재생을 한동안 일시 정지해 두었을 때 일어납니다."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 2
 #: (paragraph)
@@ -340,11 +426,14 @@ msgid ""
 "same problem affects other apps, including Google's apps. We suspect, "
 "therefore, that this is an issue with Android."
 msgstr ""
+"이 문제가 왜 일어나는지는 아직 분명하지 않습니다. Google의 앱을 포함한 다른 "
+"앱에도 같은 문제가 있다는 것을 확인했습니다. 따라서 Android의 문제로 "
+"추정하고 있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 3
 #: (header)
 msgid "Workaround"
-msgstr ""
+msgstr "해결 방법"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 4
 #: (paragraph)
@@ -355,11 +444,15 @@ msgid ""
 "*Internet* or *Flashlight* tile. The AntennaPod tile allows you play and "
 "pause playback, even if playback has been paused for a while."
 msgstr ""
+"그래도 재생을 재개할 수 있도록, 장치에 안테나팟 '타일'을 추가할 수 있습니다. "
+"타일은 화면 위에서 아래로 당겼을 때 보이는 버튼입니다. *인터넷*이나 *손전등* "
+"타일을 보신 적이 있을 것입니다. 안테나팟 타일을 쓰면 재생을 한동안 일시 "
+"정지해 두었더라도 재생하고 일시 정지할 수 있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 5
 #: (paragraph)
 msgid "To add the AntennaPod tile:"
-msgstr ""
+msgstr "안테나팟 타일을 추가하려면:"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -369,11 +462,14 @@ msgid ""
 "MIUI) an equivalent Control Center with similar gestures may already contain"
 " a media tile, check your device settings if behavior differs"
 msgstr ""
+"화면 위에서 **두 번 아래로 당겨** 빠른 설정을 완전히 엽니다. 일부 Android "
+"버전(예: Samsung One UI, Xiaomi MIUI)에서는 비슷한 제스처를 쓰는 제어 센터에 "
+"미디어 타일이 이미 있을 수 있습니다. 동작이 다르면 장치 설정을 확인하십시오"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid "**Tap on the pencil icon** at the tiles section to edit the tiles"
-msgstr ""
+msgstr "타일 영역의 **연필 아이콘을 눌러** 타일을 편집합니다"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
@@ -381,11 +477,13 @@ msgid ""
 "Scroll through the list of tiles and **drag the AntennaPod tile** up into "
 "the list of active tiles"
 msgstr ""
+"타일 목록을 스크롤해서 **안테나팟 타일을** 활성 타일 목록으로 **끌어 "
+"올립니다**"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-resume-playback.md:block 6
 #: (ordered list)
 msgid "Tap the **back arrow** or **save** to exit the tile editing"
-msgstr ""
+msgstr "**뒤로 화살표**나 **저장**을 눌러 타일 편집을 마칩니다"
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 1
 #: (paragraph)
@@ -394,6 +492,8 @@ msgid ""
 "distributed). This basically means that there is no central server that "
 "knows everything about each podcast."
 msgstr ""
+"안테나팟은 [분산형 팟캐스트 앱](/documentation/general/central-distributed)"
+"입니다. 각 팟캐스트에 대한 모든 것을 아는 중앙 서버가 없다는 뜻입니다."
 
 #: _i18n/en/documentation/bugs-first-aid/cannot-stream-download.md:block 2
 #: (paragraph)
@@ -401,12 +501,16 @@ msgid ""
 "Media files are therefore taken directly from the publisher's website. If "
 "the publisher deletes these, AntennaPod can no longer retrieve it for you."
 msgstr ""
+"따라서 미디어 파일은 제작자의 웹사이트에서 직접 가져옵니다. 제작자가 파일을 "
+"삭제하면 안테나팟은 더 이상 가져올 수 없습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 1 (paragraph)
 msgid ""
 "You might feel like screaming *Help! I lost my "
 "podcasts/episodes/settings/everything!*"
 msgstr ""
+"이렇게 소리치고 싶을지도 모릅니다: *도와주세요! 팟캐스트/에피소드/설정/전부 "
+"다 사라졌어요!*"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 2 (paragraph)
 msgid ""
@@ -418,18 +522,28 @@ msgid ""
 "may suddenly become a problem. At that point AntennaPod can no longer work "
 "with the broken database and has to start over with an empty one."
 msgstr ""
+"아주 오래된 안테나팟 버전(2019년 이전)에는 모든 정보(에피소드, 청취 상태 등)"
+"를 담은 데이터베이스에 문제가 있었습니다. 원인은 오래전에 고쳐졌지만, (앱이 "
+"문제없이 동작하던 중에도) 데이터베이스가 손상되었을 수 있습니다. 최근 "
+"안테나팟 버전이 데이터베이스의 손상된 부분을 변경하면 이 손상이 갑자기 "
+"문제가 될 수 있습니다. 그 시점에 안테나팟은 더 이상 망가진 데이터베이스로 "
+"동작할 수 없어 빈 데이터베이스로 다시 시작해야 합니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 3 (paragraph)
 msgid ""
 "We realize it is very frustrating when this happens and are really sorry if "
 "you were affected."
 msgstr ""
+"이런 일이 생기면 매우 답답하다는 것을 잘 알고 있으며, 피해를 입으셨다면 정말 "
+"죄송합니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 4 (paragraph)
 msgid ""
 "There may be some things you can do to recover your data. We list them "
 "below, starting with the solution that gives the easiest & best results:"
 msgstr ""
+"데이터를 복구하기 위해 할 수 있는 일이 몇 가지 있을 수 있습니다. 가장 쉽고 "
+"결과가 좋은 방법부터 아래에 나열합니다:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -440,6 +554,11 @@ msgid ""
 "the backup might contain the partial corruption, so it is still recommended "
 "to go through the second step to fix the problem once and for all."
 msgstr ""
+"최근에 안테나팟에서 [백업을 내보낸](/documentation/general/backup) 적이 "
+"있습니까? 그렇다면 복원은 비교적 쉽습니다. `설정` » `백업 및 복원` » "
+"`데이터베이스 가져오기`로 가서 백업 파일을 선택하십시오. 백업에도 일부 "
+"손상이 들어 있을 수 있으므로, 문제를 완전히 해결하려면 두 번째 단계도 "
+"진행하기를 권합니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -451,6 +570,11 @@ msgid ""
 " to automate the recovery process. This is a challenge and requires learning"
 " how to deal with a terminal."
 msgstr ""
+"안테나팟이 망가진 데이터베이스를 발견하면 앱 저장 디렉터리에 "
+"CorruptedDatabaseBackup.db라는 파일로 저장합니다. 복구 과정을 자동화하기 "
+"위해 개발된 [Python 스크립트](https://github.com/ByteHamster/"
+"AntennaPodDbFixer)로 이 파일(또는 내보낸 백업)의 복구를 시도할 수 있습니다. "
+"쉽지 않은 작업이며 터미널 사용법을 익혀야 합니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 5 (ordered
 #: list)
@@ -458,6 +582,8 @@ msgid ""
 "While all the data *about* your subscriptions and episodes are gone, the "
 "media files will still be there."
 msgstr ""
+"구독과 에피소드에 *대한* 데이터는 모두 사라졌지만, 미디어 파일은 그대로 남아 "
+"있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -466,11 +592,13 @@ msgid ""
 "`Add Podcast` and tap on `Add local folder`. Then go to this folder on your "
 "phone:"
 msgstr ""
+"안테나팟에서는 폴더를 피드처럼 추가할 수 있습니다. `팟캐스트 추가`로 가서 "
+"`로컬 폴더 추가`를 누르십시오. 그다음 휴대전화에서 이 폴더로 이동하십시오:"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
 msgid "On Android 11+: `Android` » `media` » `de.danoeh.antennapod`"
-msgstr ""
+msgstr "Android 11 이상: `Android` » `media` » `de.danoeh.antennapod`"
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -480,6 +608,9 @@ msgid ""
 "only give you access to previously downloaded media - you will not receive "
 "new episodes."
 msgstr ""
+"Android 10 이하: `Android` » `data` » `de.danoeh.antennapod` » `files` » "
+"`media`로 가서 팟캐스트 폴더를 선택하십시오. 이 방법으로는 이전에 다운로드한 "
+"미디어에만 접근할 수 있고, 새 에피소드는 받을 수 없습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/database-error.md:block 6 (unordered
 #: list)
@@ -488,6 +619,8 @@ msgid ""
 "through the folder mentioned above to see which podcasts you were subscribed"
 " to."
 msgstr ""
+"이전 팟캐스트를 처음부터 다시 추가할 수도 있습니다. 위에서 말한 폴더를 "
+"살펴보면 어떤 팟캐스트를 구독했는지 알 수 있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 2
 #: (paragraph)
@@ -497,6 +630,9 @@ msgid ""
 "information about each new episode in the app. This information is kept even"
 " if it is no longer available on the publisher's site."
 msgstr ""
+"따라서 에피소드 정보는 제작자의 웹사이트에서 직접 가져옵니다. 팟캐스트를 "
+"구독하면 안테나팟은 새 에피소드마다 그 정보를 앱에 복사해 저장합니다. 이 "
+"정보는 제작자 사이트에서 더 이상 제공되지 않더라도 유지됩니다."
 
 #: _i18n/en/documentation/bugs-first-aid/episodes-missing.md:block 3
 #: (paragraph)
@@ -508,6 +644,12 @@ msgid ""
 "ask them to (reach out to their hoster to) support 'paged feeds' ([technical"
 " information](https://datatracker.ietf.org/doc/html/rfc5005#section-3))."
 msgstr ""
+"많은 제작자는 최근 에피소드(의 정보)만 온라인에 유지합니다. 그래서 "
+"팟캐스트를 막 구독한 시점에는 안테나팟이 오래된 에피소드 정보에 접근할 수 "
+"없습니다. 지난 에피소드를 모두 앱에 표시하려면 팟캐스터에게 연락해 (호스팅 "
+"업체에 요청해서) '페이지 나뉜 피드(paged feeds)'를 지원해 달라고 부탁할 수 "
+"있습니다([기술 정보](https://datatracker.ietf.org/doc/html/rfc5005#section-"
+"3))."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 1 (paragraph)
 msgid ""
@@ -519,12 +661,20 @@ msgid ""
 "differs between phones, we suggest searching on the web for instructions for"
 " your phone brand and model, if you don't know how to add an exception."
 msgstr ""
+"예를 들어 화면을 끄고 몇 초 뒤에, 또는 안테나팟을 한동안 열지 않았을 때 "
+"재생이 항상 멈춘다면 시스템이 앱을 강제 종료하고 있을 수 있습니다. 일부 "
+"제조사는 배터리를 아끼려고 지나치게 공격적으로 앱을 종료하는 것으로 알려져 "
+"있습니다. **배터리 최적화 앱 목록에서 안테나팟을 예외로 추가해 보십시오.** "
+"예외를 추가하는 방법은 휴대전화마다 다른 경우가 많으므로, 방법을 모르겠다면 "
+"휴대전화 제조사와 모델에 맞는 안내를 웹에서 검색해 보기를 권합니다."
 
 #: _i18n/en/documentation/bugs-first-aid/playback-stops.md:block 2 (paragraph)
 msgid ""
 "If this didn't help, don't hesitate to reach out to the AntennaPod "
 "contributors in our [forum](https://forum.antennapod.org)."
 msgstr ""
+"이 방법으로 해결되지 않았다면 주저하지 말고 [포럼](https://"
+"forum.antennapod.org)에서 안테나팟 기여자들에게 연락하십시오."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 1
 #: (paragraph)
@@ -533,6 +683,9 @@ msgid ""
 "AntennaPod could not refresh the podcast or download an audio file from the "
 "website of the podcast hoster."
 msgstr ""
+"다운로드가 오류와 함께 완료되었다는 알림을 받았습니까? 그렇다면 안테나팟이 "
+"팟캐스트를 새로고침하거나 팟캐스트 호스팅 업체의 웹사이트에서 오디오 파일을 "
+"다운로드하지 못한 것입니다."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 2
 #: (paragraph)
@@ -541,23 +694,25 @@ msgid ""
 " to those podcasts. To confirm if this is the case, you can follow these "
 "steps:"
 msgstr ""
+"특정 팟캐스트 한두 개에서만 생기는 문제는 그 팟캐스트 자체와 관련된 경우가 "
+"많습니다. 그런 경우인지 확인하려면 다음 단계를 따르십시오:"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
 msgid "Tap on the notification to open the Download Log"
-msgstr ""
+msgstr "알림을 눌러 다운로드 기록을 엽니다"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
 msgid "Tap on the specific log entry with the error"
-msgstr ""
+msgstr "오류가 있는 기록 항목을 누릅니다"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 3
 #: (ordered list)
 msgid ""
 "Long-press on the URL that is displayed, and copy or open it in your web "
 "browser"
-msgstr ""
+msgstr "표시된 URL을 길게 눌러 복사하거나 웹 브라우저에서 엽니다"
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 4
 #: (paragraph)
@@ -568,6 +723,10 @@ msgid ""
 " In this case, please contact the podcast creators (as this cannot be fixed "
 "at our end)."
 msgstr ""
+"브라우저에서도 URL이 동작하지 않는다면 안테나팟의 문제가 아닙니다. 오류 "
+"메시지가 계속 나온다면 팟캐스트가 이동했거나, 오프라인이 되었거나, 잘못 "
+"설정되었을 가능성이 큽니다. 이 경우 (우리 쪽에서 고칠 수 없으므로) 팟캐스트 "
+"제작자에게 연락하십시오."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 5
 #: (paragraph)
@@ -578,6 +737,10 @@ msgid ""
 "guard, special DNS service, or parental control set up on your phone, you "
 "can try turning these off."
 msgstr ""
+"다운로드 기록의 오류 메시지가 \"Failed to connect to [url]\"입니까? 그렇다면 "
+"네트워크에 간섭이 있을 가능성이 큽니다. 휴대전화에 광고 차단기, VPN, 캡티브 "
+"포털, 프록시, 개인정보 보호 도구, 특수 DNS 서비스, 자녀 보호 기능이 설정되어 "
+"있다면 꺼 보십시오."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 6
 #: (paragraph)
@@ -587,6 +750,10 @@ msgid ""
 " a plain `&`-sign rather than encoding it as `&amp;`.) Please contact the "
 "publisher directly, as this cannot be fixed at our end."
 msgstr ""
+"\"not well-formed (invalid token)\" 같은 오류 메시지가 보입니까? 그렇다면 "
+"제작자가 (RSS) 피드를 잘못 만든 것입니다. (예를 들어 `&amp;`로 인코딩하지 "
+"않고 `&` 기호를 그대로 썼을 수 있습니다.) 우리 쪽에서 고칠 수 없으므로 "
+"제작자에게 직접 연락하십시오."
 
 #: _i18n/en/documentation/bugs-first-aid/refresh-download-errors.md:block 7
 #: (paragraph)
@@ -596,6 +763,9 @@ msgid ""
 "forum](https://forum.antennapod.org/c/support/7). Our community will happily"
 " have a look to find out the exact cause!"
 msgstr ""
+"문제를 특정할 수 없다면 복사 버튼으로 오류 메시지를 복사해 [포럼](https://"
+"forum.antennapod.org/c/support/7)에 공유해 주십시오. 커뮤니티가 기꺼이 "
+"정확한 원인을 찾아보겠습니다!"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 1
 #: (paragraph)
@@ -605,10 +775,13 @@ msgid ""
 "website), or that something has not been translated correctly. Luckily these"
 " issues are often easily fixed."
 msgstr ""
+"맞춤법 오류나 어색한 표현을 발견했습니까? 앱과 웹사이트를 만드는 언어인 "
+"영어에서 우리가 실수했을 수도 있고, 번역이 잘못되었을 수도 있습니다. 다행히 "
+"이런 문제는 대개 쉽게 고칠 수 있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 2 (header)
 msgid "Do you want to fix it yourself?"
-msgstr ""
+msgstr "직접 고치고 싶으십니까?"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 3
 #: (paragraph)
@@ -618,6 +791,9 @@ msgid ""
 "You can [find more information in our Contribute "
 "section](/contribute/translate)."
 msgstr ""
+"영어 이외의 언어에서 생긴 문제라면 [Weblate](https://hosted.weblate.org/"
+"projects/antennapod/)에서 번역을 수정할 수 있습니다. [기여 섹션에서 자세한 "
+"정보를 확인하십시오](/contribute/translate)."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 4
 #: (paragraph)
@@ -627,10 +803,13 @@ msgid ""
 "app](https://github.com/AntennaPod/AntennaPod/) or for [the "
 "website](https://github.com/AntennaPod/antennapod.github.io)."
 msgstr ""
+"**영어 원문**의 문제입니까? 그렇다면 GitHub에 익숙하거나 익숙해져야 합니다. "
+"[앱](https://github.com/AntennaPod/AntennaPod/)이나 [웹사이트](https://"
+"github.com/AntennaPod/antennapod.github.io)에 풀 리퀘스트를 보낼 수 있습니다."
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 5 (header)
 msgid "Do you just want to inform us?"
-msgstr ""
+msgstr "알려 주기만 하고 싶으십니까?"
 
 #: _i18n/en/documentation/bugs-first-aid/typo-translations.md:block 6
 #: (paragraph)
@@ -640,6 +819,9 @@ msgid ""
 " create an account (if you don't have one already) or simply log in via "
 "Google."
 msgstr ""
+"[포럼의 번역 섹션](https://forum.antennapod.org/c/translations/11)에 글을 "
+"올릴 수 있습니다. 그러려면 계정을 만들거나(아직 없다면) Google로 간단히 "
+"로그인하면 됩니다."
 
 #: _i18n/en/documentation/general/ads.md:block 1 (paragraph)
 msgid ""
@@ -650,16 +832,21 @@ msgid ""
 "expenses](https://opencollective.com/antennapod#category-BUDGET) are public "
 "everyone is free to verify this."
 msgstr ""
+"안테나팟 공식 버전은 광고를 삽입하지 않습니다. 앱은 상업적 이해관계 없이 "
+"자원봉사자들이 개발하며, 프로젝트는 비용을 충당하기 위해 기부에 의존합니다. "
+"안테나팟의 [소스 코드](https://github.com/AntennaPod/AntennaPod)와 [수입과 "
+"지출](https://opencollective.com/antennapod#category-BUDGET)이 공개되어 "
+"있으므로 누구나 이를 확인할 수 있습니다."
 
 #: _i18n/en/documentation/general/ads.md:block 2 (paragraph)
 msgid ""
 "If you have ads in episodes, they are inserted by the podcaster or their "
 "hosting provider."
-msgstr ""
+msgstr "에피소드에 광고가 있다면 팟캐스터나 호스팅 업체가 삽입한 것입니다."
 
 #: _i18n/en/documentation/general/ads.md:block 3 (header)
 msgid "AntennaPod does not add ads"
-msgstr ""
+msgstr "안테나팟은 광고를 넣지 않습니다"
 
 #: _i18n/en/documentation/general/ads.md:block 4 (paragraph)
 msgid ""
@@ -667,10 +854,13 @@ msgid ""
 "they include ads, AntennaPod plays them. We have nothing to do with those "
 "ads, so all revenues go to the creators and/or their hosting company."
 msgstr ""
+"안테나팟은 제작자가 발행한 그대로 팟캐스트를 재생합니다. 광고가 들어 있다면 "
+"안테나팟은 그대로 재생합니다. 우리는 그 광고와 아무 관계가 없으며, 모든 "
+"수익은 제작자나 호스팅 업체에 돌아갑니다."
 
 #: _i18n/en/documentation/general/ads.md:block 5 (header)
 msgid "Why are ads localized"
-msgstr ""
+msgstr "광고가 왜 내 지역에 맞춰져 있습니까"
 
 #: _i18n/en/documentation/general/ads.md:block 6 (paragraph)
 msgid ""
@@ -687,18 +877,29 @@ msgid ""
 " a sentence. Some of the hosting companies also mess up the chapter marks "
 "while inserting the ads (so the chapters are off by the duration of the ad)."
 msgstr ""
+"\"그런데 팟캐스트는 영어인데 광고는 왜 독일어입니까?\" 또는 \"2008년 "
+"에피소드인데 왜 2023년에 출시된 제품을 광고합니까?\" 같은 의문이 들 수 "
+"있습니다. 이유는 *동적 광고 삽입*이라는 기술 때문입니다. 팟캐스트 제작자는 "
+"호스팅 업체에 광고를 삽입하도록 지시할 수 있습니다. 그러면 안테나팟으로 "
+"에피소드를 다운로드하거나 스트리밍할 때, 안테나팟에 전달되는 미디어 파일이 "
+"즉석에서 잘려 광고가 끼워집니다. 광고는 (에피소드는 오래되었더라도) "
+"최신이며, 미디어 파일을 요청한 IP 주소를 기준으로(예: 여러분 나라의 회사) "
+"맞춤 제공될 수 있습니다. 호스팅 업체가 얼마나 정교하게 처리하느냐에 따라 "
+"문장 한가운데에 광고가 끼어들 수도 있습니다. 일부 호스팅 업체는 광고를 "
+"삽입하면서 챕터 표시를 망가뜨리기도 합니다(그래서 챕터가 광고 길이만큼 "
+"어긋납니다)."
 
 #: _i18n/en/documentation/general/ads.md:block 7 (header)
 msgid "What you can do"
-msgstr ""
+msgstr "할 수 있는 일"
 
 #: _i18n/en/documentation/general/ads.md:block 8 (paragraph)
 msgid "Here is what you can do against those ads."
-msgstr ""
+msgstr "이런 광고에 대해 할 수 있는 일은 다음과 같습니다."
 
 #: _i18n/en/documentation/general/ads.md:block 9 (header)
 msgid "Skipping"
-msgstr ""
+msgstr "건너뛰기"
 
 #: _i18n/en/documentation/general/ads.md:block 10 (paragraph)
 msgid ""
@@ -712,10 +913,18 @@ msgid ""
 "episode. AntennaPod can be configured to automatically download and later "
 "delete episodes, so you don't have to do that manually.)"
 msgstr ""
+"언제든 안테나팟의 앞으로 건너뛰기 버튼으로 광고를 건너뛸 수 있습니다. "
+"에피소드를 다운로드하지 않고 스트리밍하면 호스팅 업체는 여러분이 팟캐스트의 "
+"어디쯤 듣고 있는지 대략 알 수 있습니다. 광고를 건너뛴 사실을 감지해 새 "
+"광고를 삽입할 가능성도 있습니다. 반면 에피소드를 다운로드하면 그럴 수 "
+"없으므로 광고를 더 확실하게 건너뛸 수 있습니다. (다운로드는 개인정보 "
+"측면에서도 더 낫습니다. 호스팅 업체가 여러분이 에피소드의 어느 부분을 언제 "
+"듣는지 알 수 없기 때문입니다. 안테나팟은 에피소드를 자동으로 다운로드하고 "
+"나중에 삭제하도록 설정할 수 있으므로 직접 할 필요가 없습니다.)"
 
 #: _i18n/en/documentation/general/ads.md:block 11 (header)
 msgid "Switch to an ad-free feed"
-msgstr ""
+msgstr "광고 없는 피드로 바꾸기"
 
 #: _i18n/en/documentation/general/ads.md:block 12 (paragraph)
 msgid ""
@@ -723,24 +932,33 @@ msgid ""
 "buy. Usually, you then either get a secret podcast feed URL, or "
 "alternatively username and password that you can enter in AntennaPod."
 msgstr ""
+"또한 많은 팟캐스트 제작자는 구매할 수 있는 광고 없는 피드를 제공합니다. 보통 "
+"비밀 팟캐스트 피드 URL을 받거나, 안테나팟에 입력할 수 있는 사용자 이름과 "
+"비밀번호를 받게 됩니다."
 
 #: _i18n/en/documentation/general/ads.md:block 13 (paragraph)
 msgid ""
 "If you find these ads annoying, consider talking to the podcast creators "
 "about this."
 msgstr ""
+"이런 광고가 거슬린다면 팟캐스트 제작자에게 이야기해 보는 것도 고려해 "
+"보십시오."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 1 (paragraph)
 msgid ""
 "AntennaPod will not ask you for any general permissions. However you can "
 "give the following permissions:"
 msgstr ""
+"안테나팟은 일반적인 권한을 요청하지 않습니다. 다만 다음 권한을 줄 수는 "
+"있습니다:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
 "**Show notifications**: Via `Settings` » `Notifications` you can give "
 "AntennaPod the permission to create notifications."
 msgstr ""
+"**알림 표시**: `설정` » `알림`에서 안테나팟에 알림을 만들 권한을 줄 수 "
+"있습니다."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 2 (unordered list)
 msgid ""
@@ -748,28 +966,35 @@ msgid ""
 "term access to a specific folder. When you import a database or an OPML "
 "file, selecting that file will give the app one-time access to it."
 msgstr ""
+"**저장소 접근**: '로컬 폴더'를 추가하면 앱이 특정 폴더에 대한 장기 접근 "
+"권한을 요청합니다. 데이터베이스나 OPML 파일을 가져올 때는 파일을 선택하는 "
+"것으로 앱에 일회성 접근 권한이 주어집니다."
 
 #: _i18n/en/documentation/general/app-permissions.md:block 3 (paragraph)
 msgid ""
 "Apart from that, the app requires the following permissions which are "
 "automatically granted by Android:"
-msgstr ""
+msgstr "그 외에 앱은 Android가 자동으로 부여하는 다음 권한을 필요로 합니다:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Full network access**: to refresh podcasts, download and stream episodes, "
 "load images and enable synchronization"
 msgstr ""
+"**전체 네트워크 접근**: 팟캐스트 새로고침, 에피소드 다운로드와 스트리밍, "
+"이미지 불러오기, 동기화에 사용"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid "**View network connections** and **View Wi-Fi connections**:"
-msgstr ""
+msgstr "**네트워크 연결 보기** 및 **Wi-Fi 연결 보기**:"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "to check if there is an active internet connection, before and while taking "
 "any of the above-mentioned actions"
 msgstr ""
+"위 동작을 수행하기 전과 수행하는 동안 인터넷 연결이 활성 상태인지 확인하기 "
+"위해"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -777,6 +1002,8 @@ msgid ""
 "above actions are allowed by the user on the current (mobile and/or metered)"
 " connection"
 msgstr ""
+"`다운로드` » `휴대전화 망 업데이트` 설정에서, 현재(휴대전화 망 및/또는 "
+"종량제) 연결에서 위 동작이 사용자에 의해 허용되는지 판단하기 위해"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
@@ -784,34 +1011,45 @@ msgid ""
 " Bluetooth disconnect`, to automatically pause or play when the phone "
 "connects with or disconnects from a Bluetooth device"
 msgstr ""
+"**Bluetooth 장치와 페어링**: `재생` » `헤드폰 또는 블루투스 연결 끊김` "
+"설정에서, 휴대전화가 Bluetooth 장치와 연결되거나 끊길 때 자동으로 일시 "
+"정지하거나 재생하기 위해"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Run at startup**: to (re)start services like refreshing podcasts and "
 "enabling auto-downloads"
 msgstr ""
+"**시작 시 실행**: 팟캐스트 새로고침이나 자동 다운로드 같은 서비스를 (다시) "
+"시작하기 위해"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Control vibration**: for the option `Vibrate shortly before end` of the "
 "sleep timer, to vibrate if this setting is enabled"
 msgstr ""
+"**진동 제어**: 취침 타이머의 `진동` 옵션에서, 이 설정이 켜져 있을 때 "
+"진동하기 위해"
 
 #: _i18n/en/documentation/general/app-permissions.md:block 4 (unordered list)
 msgid ""
 "**Prevent device from sleeping**: needed to ensure media playback and "
 "downloads continue in the background"
 msgstr ""
+"**장치 절전 모드 방지**: 백그라운드에서 미디어 재생과 다운로드가 계속되도록 "
+"하기 위해 필요"
 
 #: _i18n/en/documentation/general/backup.md:block 1 (paragraph)
 msgid ""
 "There are a few options to copy your data to your new phone, and each method"
 " copies a certain amount of data:"
 msgstr ""
+"데이터를 새 휴대전화로 복사하는 방법은 몇 가지가 있으며, 방법마다 복사되는 "
+"데이터의 범위가 다릅니다:"
 
 #: _i18n/en/documentation/general/backup.md:block 2 (header)
 msgid "Database Export"
-msgstr ""
+msgstr "데이터베이스 내보내기"
 
 #: _i18n/en/documentation/general/backup.md:block 3 (paragraph)
 msgid ""
@@ -820,10 +1058,14 @@ msgid ""
 "AntennaPod on both the old and new phone. After importing all data is "
 "restored; you will only need to re-download episodes."
 msgstr ""
+"새 휴대전화나 태블릿으로 옮길 때는 안테나팟 데이터베이스를 내보내는 것이 "
+"좋은 방법입니다. 이전 휴대전화와 새 휴대전화의 안테나팟 버전이 같은지 "
+"확인하십시오. 가져오기가 끝나면 모든 데이터가 복원되며, 에피소드만 다시 "
+"다운로드하면 됩니다."
 
 #: _i18n/en/documentation/general/backup.md:block 4 (header)
 msgid "Synchronization"
-msgstr ""
+msgstr "동기화"
 
 #: _i18n/en/documentation/general/backup.md:block 5 (paragraph)
 msgid ""
@@ -833,10 +1075,15 @@ msgid ""
 "switching between phone, tablet and/or desktop. Please see the [article on "
 "synchronization](/documentation/general/synchronization) for instructions."
 msgstr ""
+"*gpodder.net*이나 Nextcloud용 *gPodder Sync* 앱으로 안테나팟을 동기화하면 "
+"팟캐스트와 에피소드 데이터 일부를 저장하고 옮길 수 있습니다. 즐겨찾기, "
+"대기열, 앱 설정은 잃게 됩니다. 휴대전화, 태블릿, 데스크톱 사이를 오갈 때 "
+"해결책이 될 수 있습니다. 방법은 [동기화 문서](/documentation/general/"
+"synchronization)를 참고하십시오."
 
 #: _i18n/en/documentation/general/backup.md:block 6 (header)
 msgid "OPML"
-msgstr ""
+msgstr "OPML"
 
 #: _i18n/en/documentation/general/backup.md:block 7 (paragraph)
 msgid ""
@@ -849,6 +1096,13 @@ msgid ""
 "AntennaPod directory (for example, `Downloads` or another visible folder), "
 "so the exported OPML file is not deleted if you uninstall AntennaPod."
 msgstr ""
+"OPML 파일로 구독 목록을 다른 팟캐스트 앱에 옮길 수 있습니다. "
+"팟캐스트별·에피소드별 데이터(예: 어떤 에피소드를 재생했는지)와 모든 앱 "
+"설정은 잃게 됩니다. 파일을 내보내려면 `설정` » `백업 및 복원` » `OPML "
+"내보내기`로 가십시오. Android 버전에 따라 파일을 저장할 위치를 물어볼 수 "
+"있습니다. *저장 대화 상자*가 바로 열리면 안테나팟 디렉터리 밖의 폴더(예: "
+"`Downloads`나 다른 보이는 폴더)를 선택해서, 안테나팟을 삭제해도 내보낸 OPML "
+"파일이 지워지지 않게 하십시오."
 
 #: _i18n/en/documentation/general/backup.md:block 8 (paragraph)
 msgid ""
@@ -857,6 +1111,9 @@ msgid ""
 "will be added to your existing subscriptions. None of your existing "
 "subscriptions will be affected."
 msgstr ""
+"다른 장치의 안테나팟에서 이 파일을 가져오면 앱이 체크박스가 있는 팟캐스트 "
+"목록을 보여 줍니다. 목록에서 선택한 팟캐스트가 기존 구독에 추가됩니다. 기존 "
+"구독은 영향을 받지 않습니다."
 
 #: _i18n/en/documentation/general/beta.md:block 1 (paragraph)
 msgid ""
@@ -868,6 +1125,12 @@ msgid ""
 "the issues you encounter by creating a topic on [our "
 "forum](https://forum.antennapod.org/)."
 msgstr ""
+"안테나팟에는 사용자가 많고, 우리가 기능을 손보거나 새로 추가했다고 해서 "
+"그들이 문제를 겪기를 바라지 않습니다. 그래서 앱을 테스트해 주는 사람이 "
+"중요합니다. 테스트하는 사람이 많을수록 더 다양한 휴대전화, Android 버전, "
+"사용 사례를 다룰 수 있고, 정식 출시 전에 더 많은 문제를 해결할 수 있습니다. "
+"물론 이는 여러분이 발견한 문제를 [포럼](https://forum.antennapod.org/)에 "
+"글로 올려 알려 줄 때만 도움이 됩니다."
 
 #: _i18n/en/documentation/general/beta.md:block 2 (paragraph)
 msgid ""
@@ -877,10 +1140,14 @@ msgid ""
 "can greatly vary from one device to another, he only has so many devices to "
 "test on."
 msgstr ""
+"큰 업데이트 뒤에는 사소한 문제가 자주 생기고, 대개 초기 단계에서 사용자의 "
+"버그 신고로 발견됩니다. 여가 시간에 이 일을 하는 주 개발자는 한 명뿐입니다. "
+"장치마다 동작이 크게 다를 수 있지만, 그가 테스트할 수 있는 장치는 한정되어 "
+"있습니다."
 
 #: _i18n/en/documentation/general/beta.md:block 3 (header)
 msgid "Google Play"
-msgstr ""
+msgstr "Google Play"
 
 #: _i18n/en/documentation/general/beta.md:block 4 (paragraph)
 msgid ""
@@ -892,6 +1159,11 @@ msgid ""
 "leave your feedback by creating a topic on [our "
 "forum](https://forum.antennapod.org/)."
 msgstr ""
+"안테나팟의 모든 새 버전은 일반 공개에 앞서 Google Play 스토어를 통해 베타 "
+"테스터에게 먼저 전달됩니다. 눈썰미가 좋고 무엇이 잘못 동작하는지 설명할 수 "
+"있다면 도움이 절실합니다! 게다가 개선할 점에 대한 의견을 나누면 앱이 여러분"
+"(과 커뮤니티)의 기대에 더 잘 맞도록 만드는 데 기여하게 됩니다. [포럼]"
+"(https://forum.antennapod.org/)에 글을 올려 피드백을 남겨 주십시오."
 
 #: _i18n/en/documentation/general/beta.md:block 5 (paragraph)
 msgid ""
@@ -901,18 +1173,22 @@ msgid ""
 "section. Or, if you're on your computer, you can join our beta program "
 "[here](https://play.google.com/apps/testing/de.danoeh.antennapod)."
 msgstr ""
+"최신 기능을 가장 먼저 써 보고, 앱이 진정으로 빛나도록 다듬는 일을 돕고 "
+"싶으십니까? Play 스토어 앱에서 안테나팟 페이지를 열면 *앱 지원* 섹션 아래에 "
+"**베타 참여** 카드가 있습니다. 컴퓨터에서라면 [여기](https://play.google.com/"
+"apps/testing/de.danoeh.antennapod)에서 베타 프로그램에 참여할 수 있습니다."
 
 #: _i18n/en/documentation/general/beta.md:block 9 (paragraph)
 msgid "Become a beta tester - confirmation window in Google Play"
-msgstr ""
+msgstr "베타 테스터 되기 - Google Play의 확인 창"
 
 #: _i18n/en/documentation/general/beta.md:block 13 (header)
 msgid "F-Droid"
-msgstr ""
+msgstr "F-Droid"
 
 #: _i18n/en/documentation/general/beta.md:block 14 (paragraph)
 msgid "We do not currently offer beta versions on the F-Droid store."
-msgstr ""
+msgstr "현재 F-Droid 스토어에서는 베타 버전을 제공하지 않습니다."
 
 #: _i18n/en/documentation/general/beta.md:block 15 (paragraph)
 msgid ""
@@ -923,10 +1199,14 @@ msgid ""
 " be fixed, an update needs to be rolled out instantly. Unfortunately this "
 "cannot be guaranteed."
 msgstr ""
+"F-Droid가 베타 버전을 자동으로 인식하지 [않기](https://gitlab.com/fdroid/"
+"fdroidserver/-/issues/161) 때문입니다. F-Droid에 베타 릴리스를 추가하려면 "
+"베타 버전마다 수동 작업이 필요합니다. 또한 중요한 문제를 고쳐야 할 때는 "
+"업데이트를 즉시 배포해야 하는데, 아쉽게도 이를 보장할 수 없습니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 1 (paragraph)
 msgid "There are basically two ways how to make a podcast app:"
-msgstr ""
+msgstr "팟캐스트 앱을 만드는 방법은 기본적으로 두 가지입니다:"
 
 #: _i18n/en/documentation/general/central-distributed.md:block 2 (ordered
 #: list)
@@ -934,18 +1214,20 @@ msgid ""
 "**Central**: There is a central server (run by the company that develops the"
 " app) that checks for new episodes and then delivers them to you."
 msgstr ""
+"**중앙집중형**: (앱을 개발하는 회사가 운영하는) 중앙 서버가 새 에피소드를 "
+"확인한 뒤 여러분에게 전달합니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 2 (ordered
 #: list)
 msgid ""
 "**Distributed**: The app itself checks new episodes, directly from the "
 "podcast publishers."
-msgstr ""
+msgstr "**분산형**: 앱 자체가 팟캐스트 제작자에게서 직접 새 에피소드를 확인합니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 3 (paragraph)
 msgid ""
 "AntennaPod uses method 2. It has both its advantages and disadvantages:"
-msgstr ""
+msgstr "안테나팟은 두 번째 방식을 사용합니다. 여기에는 장점과 단점이 모두 있습니다:"
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -955,6 +1237,9 @@ msgid ""
 "saves a lot of money, which means we don't need to rely on ads or large sums"
 " of donations."
 msgstr ""
+"앱이 직접 새 에피소드를 확인하므로 (우리 같은) 앱 개발자는 중앙 서버를 "
+"유지할 필요가 없습니다. 이는 많은 시간과 노력을 아껴 줍니다. 비용도 크게 "
+"절약되므로 광고나 큰 액수의 기부에 의존할 필요가 없습니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -964,6 +1249,9 @@ msgid ""
 "Using the central method, if the company shuts down their server for "
 "whatever reason, the app will stop to work."
 msgstr ""
+"앱이 새 에피소드를 모으는 데 중앙 서버에 의존하지 않으므로, 안테나팟은 우리 "
+"쪽 사정과 관계없이 계속 동작합니다. 중앙집중형에서는 회사가 어떤 이유로든 "
+"서버를 닫으면 앱이 동작을 멈춥니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -973,6 +1261,9 @@ msgid ""
 "do. Publishers of apps with a central server do collect such data, to the "
 "detriment of your privacy."
 msgstr ""
+"앱 개발자인 우리는 여러분이 어떤 팟캐스트를 구독하는지, 어떤 에피소드를 "
+"듣는지, 심지어 언제 듣는지도 알지 못하고 알 수도 없습니다. 중앙 서버를 둔 "
+"앱의 제작사는 그런 데이터를 수집하며, 이는 개인정보에 해롭습니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -983,6 +1274,11 @@ msgid ""
 "services often simply don't allow adding private feeds. And if they do, it "
 "might require sending your credentials to the app makers."
 msgstr ""
+"일부 제작자는 조기 접근, 특별 콘텐츠, 광고 없는 에피소드를 제공하는 비공개 "
+"피드를 운영합니다. 이런 피드에는 사용자 이름과 비밀번호가 필요한데, "
+"안테나팟은 요청이 있을 때 이를 팟캐스트 호스트에 직접 전달합니다. 중앙집중형 "
+"서비스는 비공개 피드 추가를 아예 허용하지 않는 경우가 많습니다. 허용하더라도 "
+"인증 정보를 앱 제작사에 보내야 할 수 있습니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -990,6 +1286,8 @@ msgid ""
 "Not having a central point of access, which would allow app developers to "
 "remove podcasts from their server, there is no risk of censorship."
 msgstr ""
+"앱 개발자가 서버에서 팟캐스트를 제거할 수 있게 하는 중앙 접근점이 없으므로 "
+"검열의 위험이 없습니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1002,6 +1300,12 @@ msgid ""
 "That way apps can also know about new episodes much faster, without having "
 "to regularly check all podcasts you are subscribed to."
 msgstr ""
+"반면 분산형 모델에서는 팟캐스트를 새로고침할 때만 새 에피소드를 받습니다. "
+"안테나팟은 기본적으로 12시간마다 새로고침하지만, 더 자주 또는 더 드물게 바꿀 "
+"수 있고 언제든 직접 새 에피소드를 확인할 수도 있습니다. 중앙 서버는 새 "
+"에피소드를 매우 자주 확인하거나 팟캐스트 호스트에게서 실시간으로 알림을 받을 "
+"수 있습니다. 그래서 그런 앱은 구독한 모든 팟캐스트를 정기적으로 확인하지 "
+"않고도 새 에피소드를 훨씬 빨리 알 수 있습니다."
 
 #: _i18n/en/documentation/general/central-distributed.md:block 4 (unordered
 #: list)
@@ -1011,12 +1315,17 @@ msgid ""
 "most recent ones online. Apps that rely on a central server could be served "
 "with the older episodes even if they have disappeared from the RSS feed."
 msgstr ""
+"또한 안테나팟은 팟캐스트 제작자가 제거한 에피소드(예: 최근 10개만 온라인에 "
+"유지하는 경우)를 제공할 수 없습니다. 중앙 서버에 의존하는 앱은 RSS 피드에서 "
+"사라진 오래된 에피소드도 제공받을 수 있습니다."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 1 (paragraph)
 msgid ""
 "When you are done listening to an episode, in most cases you want to delete "
 "it to free up space. There are different ways to delete episodes."
 msgstr ""
+"에피소드를 다 들으면 대개 공간을 확보하기 위해 삭제하고 싶을 것입니다. "
+"에피소드를 삭제하는 방법은 여러 가지가 있습니다."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 2 (paragraph)
 msgid ""
@@ -1028,6 +1337,13 @@ msgid ""
 "removes from Queue`. Keep in mind that the `Queue` screen does not show all "
 "downloads. Use the `Downloads` screen if you want to see all downloads."
 msgstr ""
+"첫째, 당연히 에피소드를 직접 삭제할 수 있습니다. 대기열이나 특정 팟캐스트를 "
+"보는 중에 에피소드를 길게 누르고 `삭제`를 누르면 됩니다. `다운로드` "
+"화면에서는 휴지통 아이콘만 누르면 됩니다. 원한다면 에피소드가 삭제될 때 "
+"안테나팟이 자동으로 대기열에서도 제거하게 할 수 있습니다. 이 옵션은 `설정` » "
+"`다운로드` » `제거된 항목 대기열에서 삭제`에 있습니다. `대기열` 화면에는 "
+"모든 다운로드가 표시되지 않는다는 점에 유의하십시오. 모든 다운로드를 보려면 "
+"`다운로드` 화면을 사용하십시오."
 
 #: _i18n/en/documentation/general/episode-deletion.md:block 3 (paragraph)
 msgid ""
@@ -1037,6 +1353,10 @@ msgid ""
 "more information on these options, please see the [Automatic "
 "Deletion](/documentation/automation/deletion) article."
 msgstr ""
+"둘째, 안테나팟에는 에피소드를 자동으로 삭제하는 기능이 있습니다. 특히 재생이 "
+"끝났을 때와 자동 다운로드에 공간이 필요할 때 에피소드를 자동으로 삭제할 수 "
+"있습니다. 이 옵션에 대한 자세한 내용은 [자동 삭제](/documentation/automation/"
+"deletion) 문서를 참고하십시오."
 
 #: _i18n/en/documentation/general/external-storage.md:block 1 (paragraph)
 msgid ""
@@ -1045,10 +1365,13 @@ msgid ""
 "select the storage card, go to `Settings` » `Downloads` » `Choose data "
 "folder`."
 msgstr ""
+"안테나팟이 에피소드를 내부 저장소 대신 SD 카드에 다운로드하도록 설정할 수 "
+"있습니다. 그러면 에피소드를 위한 공간이 더 많아집니다. 저장 카드를 "
+"선택하려면 `설정` » `다운로드` » `데이터 폴더 선택`으로 가십시오."
 
 #: _i18n/en/documentation/general/external-storage.md:block 2 (header)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "문제 해결"
 
 #: _i18n/en/documentation/general/external-storage.md:block 3 (paragraph)
 msgid ""
@@ -1057,24 +1380,30 @@ msgid ""
 " as external storage. Either the card is not mounted correctly or your "
 "smartphone manufacturer configured the hardware incorrectly."
 msgstr ""
+"`데이터 폴더 선택` 대화 상자에 SD 카드가 나타나지 않을 수 있습니다. SD "
+"카드가 나타나려면 Android가 카드를 외부 저장소로 인식해야 합니다. 카드가 "
+"제대로 마운트되지 않았거나, 스마트폰 제조사가 하드웨어를 잘못 구성한 "
+"것입니다."
 
 #: _i18n/en/documentation/general/external-storage.md:block 4 (paragraph)
 msgid ""
 "If you are running Android 6 or newer, you can try formatting the SD card as"
 " internal storage. Else, there is nothing we can do to fix this."
 msgstr ""
+"Android 6 이상을 사용한다면 SD 카드를 내부 저장소로 포맷해 볼 수 있습니다. "
+"그 외에는 우리가 해결해 줄 수 있는 방법이 없습니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 1 (paragraph)
 msgid "Did you see that there's a new AntennaPod release and wonder:"
-msgstr ""
+msgstr "안테나팟 새 버전이 나온 것을 보고 이런 궁금증이 생겼습니까:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*why is the latest version not on F-Droid yet?*"
-msgstr ""
+msgstr "*왜 최신 버전이 아직 F-Droid에 없지?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 2 (unordered list)
 msgid "*when will the new release be available on F-Droid?*"
-msgstr ""
+msgstr "*새 릴리스는 언제 F-Droid에 올라오지?*"
 
 #: _i18n/en/documentation/general/f-droid.md:block 3 (paragraph)
 msgid ""
@@ -1082,28 +1411,36 @@ msgid ""
 "releases on F-Droid, we can't tell when exactly the latest version will be "
 "available there."
 msgstr ""
+"여러 단계를 거치는 데다 우리는 F-Droid의 릴리스 게시에 관여하지 않기 때문에, "
+"최신 버전이 정확히 언제 올라올지는 말씀드릴 수 없습니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 4 (paragraph)
 msgid ""
 "**In short: we did not forget about F-Droid, it just takes some time. Please"
 " be patient.**"
 msgstr ""
+"**요약: F-Droid를 잊은 것이 아니라 시간이 좀 걸릴 뿐입니다. 조금만 기다려 "
+"주십시오.**"
 
 #: _i18n/en/documentation/general/f-droid.md:block 5 (header)
 msgid "The steps for releasing a new version on F-Droid"
-msgstr ""
+msgstr "F-Droid에 새 버전이 릴리스되는 단계"
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We release a beta version, which is *only* available through Google Play due"
 " to [technical limitations](/documentation/general/beta#f-droid) in F-Droid."
 msgstr ""
+"베타 버전을 릴리스합니다. F-Droid의 [기술적 제약](/documentation/general/"
+"beta#f-droid) 때문에 베타는 Google Play에서*만* 받을 수 있습니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "We do a slow, gradual roll-out to all Google Play users. That way we make "
 "sure that there are no critical bugs. This can take several weeks."
 msgstr ""
+"모든 Google Play 사용자에게 천천히 단계적으로 배포합니다. 이렇게 해서 "
+"치명적인 버그가 없는지 확인합니다. 몇 주가 걸릴 수 있습니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1111,12 +1448,16 @@ msgid ""
 "GitHub](https://github.com/AntennaPod/AntennaPod/releases). We do this only "
 "after the roll-out on Google Play is complete."
 msgstr ""
+"[GitHub에 릴리스](https://github.com/AntennaPod/AntennaPod/releases)를 "
+"만듭니다. Google Play 배포가 완료된 뒤에만 합니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems check the AntennaPod repository and detect a new release. "
 "The update checker server runs daily (overnight in Europe)."
 msgstr ""
+"F-Droid 시스템이 안테나팟 저장소를 확인하고 새 릴리스를 감지합니다. 업데이트 "
+"확인 서버는 매일(유럽 기준 밤사이) 실행됩니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1124,6 +1465,9 @@ msgid ""
 "download matches the source code that we publishe. Because there are many "
 "apps to build, the F-Droid server takes 1 to 2 days to build the app."
 msgstr ""
+"F-Droid 시스템이 앱을 빌드합니다. 여러분이 다운로드하는 앱이 우리가 공개한 "
+"소스 코드와 일치하는지 확인하기 위해서입니다. 빌드할 앱이 많기 때문에 F-"
+"Droid 서버가 앱을 빌드하는 데 1~2일이 걸립니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
@@ -1133,12 +1477,15 @@ msgid ""
 " signed, the contributor uploads them to the F-Droid systems. This usually "
 "takes 1 to 2 days."
 msgstr ""
+"F-Droid 기여자가 빌드에 암호화 서명을 합니다. 보안을 높이기 위해 기여자는 "
+"앱을 인터넷에 연결되지 않은 전용 컴퓨터로 직접 옮겨야 합니다. 모든 앱에 "
+"서명하면 기여자가 F-Droid 시스템에 업로드합니다. 보통 1~2일이 걸립니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 6 (ordered list)
 msgid ""
 "F-Droid systems process the new apps, adding the new AntennaPod release in "
 "their index."
-msgstr ""
+msgstr "F-Droid 시스템이 새 앱을 처리하고 새 안테나팟 릴리스를 인덱스에 추가합니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 7 (paragraph)
 msgid ""
@@ -1147,10 +1494,13 @@ msgid ""
 " index. Only after that you'll get prompted about the latest AntennaPod "
 "release."
 msgstr ""
+"이 시점에 우리는 'F-Droid에 릴리스됨'으로 봅니다. 하지만 여러분의 F-Droid "
+"클라이언트('앱 스토어')도 인덱스의 로컬 사본을 새로고침해야 합니다. 그 "
+"뒤에야 최신 안테나팟 릴리스 알림을 받게 됩니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 8 (header)
 msgid "So, what's the ETA?"
-msgstr ""
+msgstr "그래서 언제쯤 됩니까?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 9 (paragraph)
 msgid ""
@@ -1159,10 +1509,14 @@ msgid ""
 "and tagging the release on GitHub. After the release is tagged, F-Droid "
 "usually takes four to six days to process it."
 msgstr ""
+"보시다시피 단계가 많고 각 단계마다 걸리는 시간이 다릅니다. 베타 버전 "
+"릴리스부터 GitHub에 릴리스 태그를 다는 데까지 보통 한 달이 훌쩍 넘게 "
+"걸립니다. 릴리스 태그가 달린 뒤 F-Droid가 처리하는 데는 보통 4~6일이 "
+"걸립니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 10 (header)
 msgid "What you can do if you're eagerly waiting"
-msgstr ""
+msgstr "애타게 기다리고 있다면 할 수 있는 일"
 
 #: _i18n/en/documentation/general/f-droid.md:block 11 (paragraph)
 msgid ""
@@ -1170,6 +1524,9 @@ msgid ""
 "GitHub](https://github.com/AntennaPod/AntennaPod/releases) yet? Then please "
 "just wait. The update is in beta and not ready for public release."
 msgstr ""
+"아직 [GitHub에 릴리스](https://github.com/AntennaPod/AntennaPod/releases) "
+"태그를 달지 않았습니까? 그렇다면 기다려 주십시오. 업데이트는 베타 상태이며 "
+"아직 공개할 준비가 되지 않았습니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 12 (paragraph)
 msgid ""
@@ -1178,6 +1535,10 @@ msgid ""
 "for-my-app-to-show-up-on-website-and-client): \"don't panic before 7 days "
 "have passed, please.\""
 msgstr ""
+"GitHub에 릴리스 태그를 *이미* 달았습니까? F-Droid 팀의 [안내](https://"
+"gitlab.com/fdroid/wiki/-/wikis/FAQ#how-long-does-it-take-for-my-app-to-show-"
+"up-on-website-and-client)를 빌리자면: \"7일이 지나기 전에는 당황하지 "
+"마세요.\""
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
@@ -1185,21 +1546,25 @@ msgid ""
 "let us know by creating a post on our "
 "[forum](https://forum.antennapod.org/). We'll take a look."
 msgstr ""
+"GitHub에 릴리스 태그를 단 뒤 7일이 지났습니까? [포럼](https://"
+"forum.antennapod.org/)에 글을 올려 알려 주십시오. 확인해 보겠습니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 13 (unordered list)
 msgid ""
 "Did we tag the release 7 days ago or less? Then please just wait. Or "
 "investigate where we are in the process."
 msgstr ""
+"릴리스 태그를 단 지 7일이 안 되었습니까? 그렇다면 기다려 주십시오. 또는 "
+"과정이 어디까지 진행되었는지 살펴보십시오."
 
 #: _i18n/en/documentation/general/f-droid.md:block 14 (header)
 msgid "Investigate current status"
-msgstr ""
+msgstr "현재 상태 살펴보기"
 
 #: _i18n/en/documentation/general/f-droid.md:block 15 (paragraph)
 msgid ""
 "If you want, you can follow these steps to get an idea of the progress:"
-msgstr ""
+msgstr "원한다면 다음 단계로 진행 상황을 가늠해 볼 수 있습니다:"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1208,6 +1573,10 @@ msgid ""
 "need to hover, for example, 'last week' to see the exact date on GitHub). If"
 " so, it should soon be picked up by the update checker."
 msgstr ""
+"[GitHub에 릴리스 태그가 달렸는지](https://github.com/AntennaPod/AntennaPod/"
+"releases/latest), 달렸다면 언제인지 확인합니다(GitHub에서 정확한 날짜를 "
+"보려면 예를 들어 '지난주' 위에 마우스를 올려야 할 수 있습니다). 태그가 "
+"달렸다면 곧 업데이트 확인 서버가 감지할 것입니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1216,6 +1585,10 @@ msgid ""
 " was updated since then. If so, it should soon be processed by the build "
 "server."
 msgstr ""
+"그 뒤로 [F-Droid의 안테나팟 버전 목록](https://gitlab.com/fdroid/"
+"fdroiddata/-/commits/master/metadata/"
+"de.danoeh.antennapod.yml?author=checkupdates%20bot)이 업데이트되었는지 "
+"확인합니다. 그렇다면 곧 빌드 서버가 처리할 것입니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1227,6 +1600,11 @@ msgid ""
 "this. If so, it should soon be cryptographically signed by an F-Droid "
 "contributor."
 msgstr ""
+"[진행 중인 주기](https://monitor.f-droid.org/builds/running)나 [지난 주기]"
+"(https://monitor.f-droid.org/builds/build)에서 안테나팟이 빌드되었는지 "
+"확인합니다. [F-Droid build status](https://f-droid.org/en/packages/"
+"de.storchp.fdroidbuildstatus/) 앱을 써도 됩니다. 빌드되었다면 곧 F-Droid "
+"기여자가 암호화 서명을 할 것입니다."
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid ""
@@ -1234,30 +1612,32 @@ msgid ""
 " listed in the success and fail lists yet, and you want to know if it will "
 "be built?"
 msgstr ""
+"빌드 대기 중인 앱의 대기열은 따로 없습니다. 안테나팟이 아직 성공/실패 목록에 "
+"없는데 빌드될지 알고 싶습니까?"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'fdroiddata version' @ commit of a build cycle"
-msgstr ""
+msgstr "빌드 주기의 커밋에서 'fdroiddata version'을 클릭합니다"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Browse files'"
-msgstr ""
+msgstr "'Browse files'를 클릭합니다"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "click on 'Find file'"
-msgstr ""
+msgstr "'Find file'을 클릭합니다"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "copy and paste `de.danoeh.antennapod`"
-msgstr ""
+msgstr "`de.danoeh.antennapod`을 복사해 붙여넣습니다"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "open the file"
-msgstr ""
+msgstr "파일을 엽니다"
 
 #: _i18n/en/documentation/general/f-droid.md:block 16 (ordered list)
 msgid "check if it includes the latest release"
-msgstr ""
+msgstr "최신 릴리스가 들어 있는지 확인합니다"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 1 (paragraph)
 msgid ""
@@ -1266,22 +1646,27 @@ msgid ""
 "team of volunteers, and making the app for these other platforms would be a "
 "lot of work."
 msgstr ""
+"제목이 아무리 솔깃하게 들려도, 안테나팟은 Windows, iOS, Linux 데스크톱에서 "
+"쓸 수 없고 앞으로도 그럴 것입니다. 앱은 소수의 자원봉사자가 만들고 있으며, "
+"다른 플랫폼용 앱을 만드는 것은 큰 작업입니다."
 
 #: _i18n/en/documentation/general/other-platforms.md:block 2 (paragraph)
 msgid ""
 "There are (open source) alternatives, however, which we would like to point "
 "you to:"
-msgstr ""
+msgstr "그래도 소개해 드리고 싶은 (오픈소스) 대안이 있습니다:"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 4 (table)
 msgid "App"
-msgstr ""
+msgstr "앱"
 
 #: _i18n/en/documentation/general/other-platforms.md:block 6 (paragraph)
 msgid ""
 "Do you have a recommendation of an open source podcast app for these "
 "platforms? [Let us know on the forum!](https://forum.antennapod.org)"
 msgstr ""
+"이런 플랫폼용 오픈소스 팟캐스트 앱을 추천하고 싶으십니까? [포럼에서 알려 "
+"주십시오!](https://forum.antennapod.org)"
 
 #: _i18n/en/documentation/general/proxy.md:block 1 (paragraph)
 msgid ""
@@ -1289,12 +1674,16 @@ msgid ""
 "images, RSS requests & searches) through a proxy or the Tor network. This "
 "may have two potential benefits:"
 msgstr ""
+"안테나팟의 모든 트래픽(미디어 파일, 표지 이미지, RSS 요청, 검색)을 프록시나 "
+"Tor 네트워크를 거치게 할 수 있습니다. 두 가지 이점이 있을 수 있습니다:"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
 "Privacy: depending on the type of proxy service, your downloading/streaming "
 "behaviour may be protected from podcast hosts"
 msgstr ""
+"개인정보: 프록시 서비스 종류에 따라 다운로드/스트리밍 행태를 팟캐스트 "
+"호스트로부터 보호할 수 있습니다"
 
 #: _i18n/en/documentation/general/proxy.md:block 2 (unordered list)
 msgid ""
@@ -1302,28 +1691,32 @@ msgid ""
 "(based on your IP address), setting a proxy with the origin country may "
 "allow you to still access its content"
 msgstr ""
+"접근: 팟캐스트 호스트가 (IP 주소를 기준으로) 해외에서의 다운로드를 막는다면, "
+"원래 국가의 프록시를 설정해 콘텐츠에 계속 접근할 수 있습니다"
 
 #: _i18n/en/documentation/general/proxy.md:block 3 (paragraph)
 msgid "You will find this option under `Settings` » `Downloads` » `Proxy`."
-msgstr ""
+msgstr "이 옵션은 `설정` » `다운로드` » `프록시`에 있습니다."
 
 #: _i18n/en/documentation/general/proxy.md:block 4 (paragraph)
 msgid ""
 "In order to lead all traffic via the Tor network, you need to install a "
 "proxy app for Tor, and provide the following details in AntennaPod:"
 msgstr ""
+"모든 트래픽을 Tor 네트워크로 보내려면 Tor용 프록시 앱을 설치하고 안테나팟에 "
+"다음 정보를 입력해야 합니다:"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Type: SOCKS"
-msgstr ""
+msgstr "유형: SOCKS"
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Host: \"localhost\" or \"127.0.0.1\""
-msgstr ""
+msgstr "호스트: \"localhost\" 또는 \"127.0.0.1\""
 
 #: _i18n/en/documentation/general/proxy.md:block 5 (unordered list)
 msgid "Port: \"9050\""
-msgstr ""
+msgstr "포트: \"9050\""
 
 #: _i18n/en/documentation/general/statistics.md:block 1 (paragraph)
 msgid ""
@@ -1331,26 +1724,32 @@ msgid ""
 "listening hours per subscription and per month. However, these statistics "
 "aren’t always as precise as they could be."
 msgstr ""
+"안테나팟에는 구독별·월별 청취 시간을 볼 수 있는 통계 화면이 있습니다. 하지만 "
+"이 통계가 항상 최대한 정확한 것은 아닙니다."
 
 #: _i18n/en/documentation/general/statistics.md:block 2 (header)
 msgid "Why the stats aren’t precise"
-msgstr ""
+msgstr "통계가 정확하지 않은 이유"
 
 #: _i18n/en/documentation/general/statistics.md:block 3 (paragraph)
 msgid "To track statistics, AntennaPod records two things for each episode:"
-msgstr ""
+msgstr "통계를 위해 안테나팟은 에피소드마다 두 가지를 기록합니다:"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Played duration**: how long the episode was played (e.g. 6 minutes if a "
 "3-minute episode was played twice)"
 msgstr ""
+"**재생 시간**: 에피소드를 재생한 총 시간(예: 3분짜리 에피소드를 두 번 "
+"재생했다면 6분)"
 
 #: _i18n/en/documentation/general/statistics.md:block 4 (unordered list)
 msgid ""
 "**Last played**: the date and time when playback was last paused or stopped "
 "for the episode"
 msgstr ""
+"**마지막 재생**: 에피소드 재생을 마지막으로 일시 정지하거나 중지한 날짜와 "
+"시각"
 
 #: _i18n/en/documentation/general/statistics.md:block 5 (paragraph)
 msgid ""
@@ -1358,6 +1757,9 @@ msgid ""
 "is used to calculate totals by adding up the 'played duration' of all "
 "episodes whose 'last played' date falls within a given month."
 msgstr ""
+"두 값은 재생을 일시 정지하거나 중지할 때마다 갱신됩니다. 이 정보로 '마지막 "
+"재생' 날짜가 특정 달에 속하는 모든 에피소드의 '재생 시간'을 더해 합계를 "
+"계산합니다."
 
 #: _i18n/en/documentation/general/statistics.md:block 6 (paragraph)
 msgid ""
@@ -1368,6 +1770,10 @@ msgid ""
 "episode is played both in December of one year and in January of the next, "
 "it is attributed to the second year."
 msgstr ""
+"이 방식에서는 오늘 에피소드를 7분 듣고 내일 같은 에피소드를 38분 들으면 45분 "
+"전부가 내일로 집계됩니다. 달이 바뀔 때도 마찬가지입니다. 에피소드를 6월과 "
+"7월에 걸쳐 들었다면 청취 시간 전부가 7월로 집계됩니다. 같은 이유로 어느 해 "
+"12월과 다음 해 1월에 걸쳐 들었다면 다음 해로 집계됩니다."
 
 #: _i18n/en/documentation/general/statistics.md:block 7 (paragraph)
 msgid ""
@@ -1375,10 +1781,13 @@ msgid ""
 "time period. However, day-by-day statistics would have a higher risk of "
 "becoming unreliable, which is why AntennaPod does not offer those."
 msgstr ""
+"월별 통계는 더 긴 기간을 다루므로 대체로 정확합니다. 하지만 일별 통계는 "
+"신뢰할 수 없게 될 위험이 더 크기 때문에 안테나팟은 일별 통계를 제공하지 "
+"않습니다."
 
 #: _i18n/en/documentation/general/statistics.md:block 8 (header)
 msgid "Why we don’t want to change it"
-msgstr ""
+msgstr "바꾸지 않으려는 이유"
 
 #: _i18n/en/documentation/general/statistics.md:block 9 (paragraph)
 msgid ""
@@ -1386,24 +1795,28 @@ msgid ""
 "differently to allow for more filter options and more granular data in "
 "AntennaPod?"
 msgstr ""
+"통계(정확히는 그래프)는 재미있습니다. 그런데 왜 안테나팟에서 더 많은 필터 "
+"옵션과 더 세밀한 데이터를 제공하도록 정보를 다르게 기록하지 않을까요?"
 
 #: _i18n/en/documentation/general/statistics.md:block 10 (paragraph)
 msgid ""
 "It would be possible, for example, to record for each episode how long it "
 "was played on each day. For instance:"
 msgstr ""
+"예를 들어 에피소드마다 날짜별 재생 시간을 기록하는 것도 가능합니다. 이런 "
+"식으로:"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "28 June: 7 minutes"
-msgstr ""
+msgstr "6월 28일: 7분"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "30 June: 38 minutes"
-msgstr ""
+msgstr "6월 30일: 38분"
 
 #: _i18n/en/documentation/general/statistics.md:block 11 (unordered list)
 msgid "1 July: 19 minutes"
-msgstr ""
+msgstr "7월 1일: 19분"
 
 #: _i18n/en/documentation/general/statistics.md:block 12 (paragraph)
 msgid ""
@@ -1413,6 +1826,10 @@ msgid ""
 " that saves playback time in the database) and time in future to maintain a "
 "more complex system."
 msgstr ""
+"주된 이유는 두 가지입니다. 첫째, 통계는 재미있지만 **우리는 안테나팟의 본래 "
+"목적인 팟캐스트 재생에 시간을 쓰고 싶습니다**. 새 방식으로 바꾸려면 지금 "
+"구현할 시간(데이터베이스에 재생 시간을 저장하는 코드를 다시 작성)과 앞으로 "
+"더 복잡한 시스템을 유지할 시간이 필요합니다."
 
 #: _i18n/en/documentation/general/statistics.md:block 13 (paragraph)
 msgid ""
@@ -1422,6 +1839,10 @@ msgid ""
 "multiple rows for each played episode to store the playback duration, which "
 "causes the database size to increase."
 msgstr ""
+"둘째, **안테나팟이 휴대전화에서 더 많은 공간을 차지하게 됩니다**. 특히 앱을 "
+"여러 해 동안 쓰는 충성 사용자에게 그렇습니다. 데이터베이스에 에피소드당 한 "
+"행이 아니라 재생한 에피소드마다 재생 시간을 저장하는 여러 행을 두어야 해서 "
+"데이터베이스 크기가 커지기 때문입니다."
 
 #: _i18n/en/documentation/general/statistics.md:block 14 (paragraph)
 msgid ""
@@ -1429,14 +1850,17 @@ msgid ""
 "web developer interested in making a dedicated dashboard for AntennaPod "
 "statistics based on database exports, please do ping us on the forum.)"
 msgstr ""
+"월 단위 통계를 즐겁게 활용하시길 바랍니다! 📊 (데이터베이스 내보내기를 "
+"바탕으로 안테나팟 통계 전용 대시보드를 만드는 데 관심 있는 웹 개발자라면 "
+"포럼에서 알려 주십시오.)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 4 (paragraph)
 msgid "devices"
-msgstr ""
+msgstr "장치"
 
 #: _i18n/en/documentation/general/synchronization.md:block 9 (paragraph)
 msgid "synchronize"
-msgstr ""
+msgstr "동기화"
 
 #: _i18n/en/documentation/general/synchronization.md:block 13 (paragraph)
 msgid ""
@@ -1445,6 +1869,9 @@ msgid ""
 "synchronisation, you need a server - the central point through which your "
 "data is shared with other devices. You have several options for this:"
 msgstr ""
+"안테나팟은 구독과 청취 진행 상황을 다른 안테나팟 설치본이나 다른 (데스크톱) "
+"앱과 동기화할 수 있습니다. 동기화를 설정하려면 서버가 필요합니다. 서버는 "
+"데이터를 다른 장치와 공유하는 중심점입니다. 몇 가지 선택지가 있습니다:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -1453,6 +1880,9 @@ msgid ""
 " of the service and its limited funding, this server is often overloaded, "
 "leading to errors in AntennaPod."
 msgstr ""
+"[gpodder.net](https://gpodder.net/)은 **누구나 가입할 수 있는** 무료 gPodder "
+"동기화 서버를 제공합니다. 아쉽게도 서비스의 인기에 비해 자금이 부족해 이 "
+"서버는 자주 과부하되며, 그 결과 안테나팟에서 오류가 생깁니다."
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
@@ -1460,87 +1890,94 @@ msgid ""
 "synchronization server**. A self-hosted server is more reliable and helps "
 "reduce the load on free, public services. There are several options:"
 msgstr ""
+"기술에 익숙한 사용자라면 **동기화 서버를 직접 호스팅**하기를 강력히 "
+"권합니다. 직접 호스팅한 서버는 더 안정적이고 무료 공개 서비스의 부하를 "
+"줄이는 데도 도움이 됩니다. 몇 가지 선택지가 있습니다:"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid ""
 "[Nextcloud](https://nextcloud.com/install/#instructions-server) with the "
 "[gPodder Sync app](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 msgstr ""
+"[Nextcloud](https://nextcloud.com/install/#instructions-server) + [gPodder "
+"Sync 앱](https://apps.nextcloud.com/apps/gpoddersync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
-msgstr ""
+msgstr "[oPodSync](https://github.com/kd2org/opodsync) (PHP)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
-msgstr ""
+msgstr "[goPodder](https://github.com/cbrgm/gopodder) (Go)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[podsync](https://github.com/bobrippling/podsync) (Rust)"
-msgstr ""
+msgstr "[podsync](https://github.com/bobrippling/podsync) (Rust)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 14 (unordered list)
 msgid "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
-msgstr ""
+msgstr "[malipod](https://github.com/eliassoares/malipod-selfhosted) (Python)"
 
 #: _i18n/en/documentation/general/synchronization.md:block 15 (paragraph)
 msgid "These are third-party projects not affiliated with AntennaPod."
-msgstr ""
+msgstr "이들은 안테나팟과 관계없는 서드파티 프로젝트입니다."
 
 #: _i18n/en/documentation/general/synchronization.md:block 16 (header)
 msgid "Enable synchronization via Nextcloud"
-msgstr ""
+msgstr "Nextcloud로 동기화 켜기"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "If you have a Nextcloud account, install the gPodder Sync app or ask your "
 "server admin to do so"
 msgstr ""
+"Nextcloud 계정이 있다면 gPodder Sync 앱을 설치하거나 서버 관리자에게 설치를 "
+"요청하십시오"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Go to `Settings` » `Synchronization` in AntennaPod and tap `Choose "
 "synchronization provider`"
-msgstr ""
+msgstr "안테나팟에서 `설정` » `동기화`로 가서 `동기화 프로바이더 선택`을 누릅니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid "Select `gPodder Sync`"
-msgstr ""
+msgstr "`gPodder Sync`를 선택합니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid ""
 "Enter the 'Server address' (the URL or IP address of the server) and tap "
 "`Proceed`"
-msgstr ""
+msgstr "'서버 주소'(서버의 URL 또는 IP 주소)를 입력하고 `계속`을 누릅니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 17 (ordered list)
 msgid "Log in on the browser window that opens and authorize AntennaPod"
-msgstr ""
+msgstr "열리는 브라우저 창에서 로그인하고 안테나팟을 승인합니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 18 (header)
 msgid "Enable synchronization via gPodder"
-msgstr ""
+msgstr "gPodder로 동기화 켜기"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Create an account on the server www.gpodder.net or on your own server"
-msgstr ""
+msgstr "www.gpodder.net 서버나 자체 서버에 계정을 만듭니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select 'gPodder'"
-msgstr ""
+msgstr "'gPodder'를 선택합니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid ""
 "Enter the 'Server address' (e.g. www.gpodder.net) and tap `Proceed to login`"
-msgstr ""
+msgstr "'서버 주소'(예: www.gpodder.net)를 입력하고 `계속 로그인`을 누릅니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Enter the 'Username' and 'Password' and tap `Log in`"
-msgstr ""
+msgstr "'사용자 이름'과 '비밀번호'를 입력하고 `로그인`을 누릅니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 19 (ordered list)
 msgid "Select the device that you created on the server"
-msgstr ""
+msgstr "서버에서 만든 장치를 선택합니다"
 
 #: _i18n/en/documentation/general/synchronization.md:block 20 (paragraph)
 msgid ""
@@ -1552,6 +1989,12 @@ msgid ""
 "[open issue for gpodder.net](https://github.com/gpodder/mygpo/issues/388) "
 "that requests to change the behavior."
 msgstr ""
+"**참고:** 웹사이트에서 미리 장치를 만들지 않고 안테나팟에서 동기화를 "
+"설정하면서 장치를 만들었습니까? 그렇다면 `강제 전체 동기화` 버튼을 눌러 "
+"이전에 들은 모든 에피소드의 재생 상태를 업로드하십시오. 그러지 않으면 장치를 "
+"연결한 **뒤에** 추가한 팟캐스트만 동기화됩니다. 이 동작을 바꿔 달라는 "
+"[gpodder.net 이슈](https://github.com/gpodder/mygpo/issues/388)가 열려 "
+"있습니다."
 
 #: _i18n/en/documentation/getting-started.md:block 1 (paragraph)
 msgid ""
@@ -1561,6 +2004,11 @@ msgid ""
 " to listen to them or not. If an episode is in the inbox, it means that you "
 "have not yet decided what to do with the episode."
 msgstr ""
+"먼저 팟캐스트를 구독해야 합니다. 자세한 내용은 [여기](/documentation/getting-"
+"started/subscribe)에서 볼 수 있습니다. 구독하면 새 에피소드가 `새로 받음`에 "
+"표시됩니다. 여기서 실제로 들을지 말지 결정할 수 있습니다. 에피소드가 새로 "
+"받음 목록에 있다는 것은 아직 그 에피소드를 어떻게 할지 정하지 않았다는 "
+"뜻입니다."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1568,12 +2016,15 @@ msgid ""
 "from the inbox. The episode still stays marked as unplayed and you can find "
 "it on the `Episodes` page, as well as on the podcast's page."
 msgstr ""
+"관심 없는 에피소드는 스와이프해서 새로 받음 목록에서 제거하면 됩니다. "
+"에피소드는 재생하지 않음 상태로 남아 있으며 `에피소드` 페이지와 해당 "
+"팟캐스트 페이지에서 찾을 수 있습니다."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
 "If you are interested in the episode, you can do one of two things, "
 "depending on your listening behavior."
-msgstr ""
+msgstr "관심 있는 에피소드라면 청취 습관에 따라 두 가지 중 하나를 할 수 있습니다."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1584,6 +2035,11 @@ msgid ""
 "originally designed to be used but as streaming is becoming more and more "
 "popular, you can also use the second option."
 msgstr ""
+"에피소드를 다운로드합니다. 다운로드하면 안테나팟이 자동으로 에피소드를 "
+"대기열에 추가하고 새로 받음 목록에서 제거합니다. 새 에피소드를 대기열의 맨 "
+"뒤, 맨 앞, 또는 현재 재생 중인 에피소드 다음에 넣을지 정하는 설정이 "
+"있습니다. 다운로드는 안테나팟이 원래 설계된 주된 사용 방식이지만, 스트리밍이 "
+"점점 널리 쓰이면서 두 번째 방법도 쓸 수 있습니다."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1594,6 +2050,11 @@ msgid ""
 "available offline, uses up your mobile data connection when you are on the "
 "run, and makes fast forwarding a little bit slower."
 msgstr ""
+"에피소드를 대기열에만 추가합니다. 안테나팟이 자동으로 새로 받음 목록에서 "
+"제거하고 대기열에 넣습니다. 나중에 다운로드 없이 바로 재생할 수 있으므로 "
+"공간을 차지하지 않습니다. YouTube 동영상 스트리밍과 같다고 생각하면 됩니다. "
+"단점은 오프라인에서 들을 수 없고, 이동 중에 휴대전화 데이터를 사용하며, "
+"앞으로 건너뛰기가 조금 느려진다는 점입니다."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1603,6 +2064,10 @@ msgid ""
 "downloaded to your device (whether they are in the queue or not) on the "
 "`Downloads` page."
 msgstr ""
+"재생을 마치면 안테나팟이 에피소드를 재생함으로 표시하고 대기열에서 "
+"제거합니다. 재생 후 다운로드 파일을 자동으로 삭제하는 설정도 있습니다. "
+"(대기열에 있든 없든) 장치에 아직 다운로드되어 있는 모든 에피소드 목록은 "
+"`다운로드` 페이지에서 볼 수 있습니다."
 
 #: _i18n/en/documentation/getting-started.md:block 2 (unordered list)
 msgid ""
@@ -1611,6 +2076,9 @@ msgid ""
 "your favorites and (by default) AntennaPod will not delete favorites after "
 "playing."
 msgstr ""
+"마음에 드는 에피소드를 다시 들을 생각이라면 즐겨찾기로 표시할 수도 있습니다. "
+"`에피소드` 페이지를 즐겨찾기만 보이도록 필터링할 수 있으며, (기본 설정에서) "
+"안테나팟은 재생 후에도 즐겨찾기를 삭제하지 않습니다."
 
 #: _i18n/en/documentation/getting-started.md:block 3 (paragraph)
 msgid ""
@@ -1620,6 +2088,10 @@ msgid ""
 "automatically downloaded and added to the queue. They will automatically be "
 "removed from the inbox as soon as they are downloaded."
 msgstr ""
+"모든 에피소드가 훌륭하리라는 것을 처음부터 알 수 있는 정말 좋은 팟캐스트를 "
+"구독했다면 자동 다운로드 기능을 쓸 수 있습니다. 팟캐스트에 이 기능을 켜면 "
+"앞으로 나오는 새 에피소드가 모두 자동으로 다운로드되어 대기열에 추가됩니다. "
+"다운로드되는 즉시 새로 받음 목록에서 자동으로 제거됩니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 1 (paragraph)
 msgid ""
@@ -1627,6 +2099,8 @@ msgid ""
 "listening and perform a range of actions, all conveniently from the same "
 "screen."
 msgstr ""
+"홈 화면에서는 팟캐스트를 한눈에 훑어보고, 듣기 시작하고, 여러 동작을 "
+"수행하는 일을 모두 한 화면에서 편리하게 할 수 있습니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 2 (paragraph)
 msgid ""
@@ -1636,10 +2110,15 @@ msgid ""
 "reorder these sections or hide some of them – by tapping `…` in the top bar "
 "and selecting `Configure Home Screen`."
 msgstr ""
+"홈 화면에는 다섯 개의 섹션이 있습니다. 각 섹션은 바로 상호작용할 수 있는 "
+"에피소드나 구독을 보여 주면서, 관련 화면(예: 대기열)으로 가는 바로 가기도 "
+"제공합니다. 상단 바의 `…`을 누르고 `홈 화면 구성`을 선택하면 홈 화면을 "
+"원하는 대로 바꿀 수 있습니다. 즉 섹션 순서를 바꾸거나 일부를 숨길 수 "
+"있습니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 3 (header)
 msgid "Continue listening"
-msgstr ""
+msgstr "이어서 듣기"
 
 #: _i18n/en/documentation/getting-started/home.md:block 4 (paragraph)
 msgid ""
@@ -1647,20 +2126,24 @@ msgid ""
 " you already have in your queue, beginning with those you have already "
 "started listening to, but haven’t finished just yet."
 msgstr ""
+"이 섹션에서는 대기열에 이미 있는 에피소드를 빠르고 쉽게 이어서 들을 수 "
+"있습니다. 듣기 시작했지만 아직 끝내지 않은 에피소드부터 보여 줍니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 5 (header)
 msgid "See what’s new"
-msgstr ""
+msgstr "새 소식 보기"
 
 #: _i18n/en/documentation/getting-started/home.md:block 6 (paragraph)
 msgid ""
 "In this section, you will find the latest episodes that have landed in your "
 "inbox as a result of having refreshed your subscriptions."
 msgstr ""
+"이 섹션에는 구독을 새로고침한 결과로 새로 받음 목록에 들어온 최신 에피소드가 "
+"있습니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 7 (header)
 msgid "Get surprised"
-msgstr ""
+msgstr "뜻밖의 발견"
 
 #: _i18n/en/documentation/getting-started/home.md:block 8 (paragraph)
 msgid ""
@@ -1668,36 +2151,38 @@ msgid ""
 " haven’t listened to yet. If you don’t see anything you feel like listening,"
 " you can tap the arrow button to refresh the selection."
 msgstr ""
+"여기서는 구독 중인 팟캐스트에서 아직 듣지 않은 에피소드를 무작위로 골라 보여 "
+"줍니다. 듣고 싶은 것이 없으면 화살표 버튼을 눌러 다시 고를 수 있습니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 9 (header)
 msgid "Check your classics"
-msgstr ""
+msgstr "즐겨 듣는 팟캐스트"
 
 #: _i18n/en/documentation/getting-started/home.md:block 10 (paragraph)
 msgid ""
 "Here you can quickly see and get access to your all-time most-listened "
 "subscriptions."
-msgstr ""
+msgstr "여기서는 지금까지 가장 많이 들은 구독을 빠르게 확인하고 열 수 있습니다."
 
 #: _i18n/en/documentation/getting-started/home.md:block 11 (header)
 msgid "Manage downloads"
-msgstr ""
+msgstr "다운로드 관리"
 
 #: _i18n/en/documentation/getting-started/home.md:block 12 (paragraph)
 msgid ""
 "In this section, you can interact with the episodes you downloaded on your "
 "device."
-msgstr ""
+msgstr "이 섹션에서는 장치에 다운로드한 에피소드를 다룰 수 있습니다."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 1 (paragraph)
 msgid ""
 "The first thing you want to do after downloading a podcast app is to "
 "subscribe to a podcast."
-msgstr ""
+msgstr "팟캐스트 앱을 설치한 뒤 가장 먼저 할 일은 팟캐스트를 구독하는 것입니다."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 2 (header)
 msgid "Subscribing"
-msgstr ""
+msgstr "구독하기"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 3 (paragraph)
 msgid ""
@@ -1705,6 +2190,9 @@ msgid ""
 "corner. Go to `+ Add Podcast`. Now, you can search, browse suggestions or "
 "add a podcast with its RSS address."
 msgstr ""
+"오른쪽 아래의 `…` 버튼을 눌러 더보기 메뉴를 엽니다. `+ 팟캐스트 추가`로 "
+"갑니다. 이제 검색하거나, 추천을 둘러보거나, RSS 주소로 팟캐스트를 추가할 수 "
+"있습니다."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 4 (paragraph)
 msgid ""
@@ -1712,10 +2200,13 @@ msgid ""
 " gpodder.net, fyyd or Podcast Index database respectively. Importing RSS or "
 "Atom feeds, or URL schemes like `pcast://` and `itpc://`, will also work."
 msgstr ""
+"또는 OPML 파일을 가져오거나, Apple Podcasts, gpodder.net, fyyd, Podcast "
+"Index 데이터베이스만 각각 검색할 수도 있습니다. RSS나 Atom 피드, 또는 "
+"`pcast://`, `itpc://` 같은 URL 스킴을 가져오는 것도 가능합니다."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 5 (header)
 msgid "Subscribing to third-party services"
-msgstr ""
+msgstr "서드파티 서비스 구독하기"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 6 (paragraph)
 msgid ""
@@ -1728,10 +2219,16 @@ msgid ""
 "you're of course welcome to discuss a proposal that you'd be happy to "
 "implement."
 msgstr ""
+"SoundCloud, Mixcloud 같은 플랫폼 지원에 대한 질문을 몇 번 받았습니다. "
+"안테나팟에서 채널 URL을 붙여넣거나 열기만 하면 되는 기능이 있으면 좋겠지만, "
+"구현하지 않기로 [결정했습니다](https://github.com/AntennaPod/AntennaPod/"
+"issues/1297). 그런 플랫폼은 생겼다 사라질 수 있는데, 자원봉사자들이 이 "
+"기능을 구현하려면 상당한 작업이 필요하기 때문입니다. 개발자라면 직접 구현할 "
+"의향이 있는 제안을 얼마든지 논의할 수 있습니다."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 7 (header)
 msgid "SoundCloud"
-msgstr ""
+msgstr "SoundCloud"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 8 (paragraph)
 msgid ""
@@ -1741,10 +2238,14 @@ msgid ""
 "out to them, share the SoundCloud help page (linked just before), and ask if"
 " they're willing to set it up."
 msgstr ""
+"SoundCloud에서는 [제작자가 자신의 콘텐츠로 팟캐스트를 만드는](https://"
+"help.soundcloud.com/hc/en-us/articles/115003451347-Adding-tracks-to-your-RSS-"
+"feed) 것이 꽤 쉽습니다. 제작자에게 연락해서 (바로 앞에 링크한) SoundCloud "
+"도움말 페이지를 공유하고 설정할 의향이 있는지 물어보십시오."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 9 (header)
 msgid "Mixcloud"
-msgstr ""
+msgstr "Mixcloud"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 10 (paragraph)
 msgid ""
@@ -1754,14 +2255,18 @@ msgid ""
 "options](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-with-"
 "enclosures) as laid out in this post."
 msgstr ""
+"아쉽게도 Mixcloud는 콘텐츠 제작자에게 이 옵션을 제공하지 않습니다. 늘 그렇듯 "
+"팟캐스트 커뮤니티의 누군가가 해결책을 찾아냈습니다. 이 글에 정리된 [방법을 "
+"살펴보십시오](https://www.openparenthesis.org/2015/01/05/mixcloud-to-rss-"
+"with-enclosures)."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 11 (header)
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 12 (paragraph)
 msgid "YouTube allows you subscribe to a channel's feed, but:"
-msgstr ""
+msgstr "YouTube에서는 채널 피드를 구독할 수 있지만:"
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 13 (unordered
 #: list)
@@ -1769,13 +2274,15 @@ msgid ""
 "AntennaPod cannot automatically download the videos, as YouTube doesn't "
 "allow that. Showing ads is their business model, after all."
 msgstr ""
+"YouTube가 허용하지 않으므로 안테나팟은 동영상을 자동으로 다운로드할 수 "
+"없습니다. 어쨌든 광고를 보여 주는 것이 YouTube의 사업 모델이니까요."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 13 (unordered
 #: list)
 msgid ""
 "You won't have an image connected to your subscription, as YouTube doesn't "
 "include it in the feeds."
-msgstr ""
+msgstr "YouTube가 피드에 이미지를 넣지 않으므로 구독에 이미지가 연결되지 않습니다."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 14 (paragraph)
 msgid ""
@@ -1791,6 +2298,15 @@ msgid ""
 "channel id (here it's explained [how users can find their channel "
 "id](https://support.google.com/youtube/answer/3250431?hl=en))."
 msgstr ""
+"그래도 새 에피소드 알림을 받는 방법이 됩니다. 사용자/채널 URL(`https://"
+"www.youtube.com/user/USERNAME` 또는 `https://www.youtube.com/channel/"
+"CHANNEL_ID`)을 안테나팟에 추가하기만 하면 됩니다. 'RSS' 옵션이 있는 대화 "
+"상자가 나타나면 눌러서 피드를 추가하십시오. 설명대로 되지 않으면 `https://"
+"www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>`를 안테나팟에 "
+"추가하십시오. 채널 ID는 채널 URL에서 찾을 수 있습니다. 구독하려는 채널이 "
+"사용자 계정(youtube.com/user/UserName 같은 URL)이라면 사용자에게 연락해 채널 "
+"ID를 물어볼 수 있습니다([사용자가 채널 ID를 찾는 방법](https://"
+"support.google.com/youtube/answer/3250431?hl=en)이 여기에 설명되어 있습니다)."
 
 #: _i18n/en/documentation/getting-started/subscribe.md:block 15 (paragraph)
 msgid ""
@@ -1798,46 +2314,52 @@ msgid ""
 "happy to include it here if you share your thoughts via the "
 "[forum](https://forum.antennapod.org/)."
 msgstr ""
+"보시다시피 다른 플랫폼에 대한 정보는 없습니다. [포럼](https://"
+"forum.antennapod.org/)에서 의견을 공유해 주시면 기꺼이 여기에 추가하겠습니다."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 1 (paragraph)
 msgid ""
 "You can use AntennaPod to listen to podcasts in your [Android "
 "Auto](https://www.android.com/auto/) enabled car."
 msgstr ""
+"[Android Auto](https://www.android.com/auto/)를 지원하는 차량에서 "
+"안테나팟으로 팟캐스트를 들을 수 있습니다."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 2 (header)
 msgid "Did you download AntennaPod from **Google Play**?"
-msgstr ""
+msgstr "안테나팟을 **Google Play**에서 받았습니까?"
 
 #: _i18n/en/documentation/playback/android-auto.md:block 3 (paragraph)
 msgid ""
 "No further steps are required to use AntennaPod in your car. Just connect "
 "your phone and start listening."
 msgstr ""
+"차량에서 안테나팟을 쓰기 위해 더 할 일은 없습니다. 휴대전화를 연결하고 듣기 "
+"시작하십시오."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 4 (header)
 msgid "Did you download AntennaPod from **F-Droid**?"
-msgstr ""
+msgstr "안테나팟을 **F-Droid**에서 받았습니까?"
 
 #: _i18n/en/documentation/playback/android-auto.md:block 5 (paragraph)
 msgid "If you downloaded AntennaPod from F-Droid, further steps are required."
-msgstr ""
+msgstr "F-Droid에서 안테나팟을 받았다면 추가 단계가 필요합니다."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Open the Android Auto settings on your phone."
-msgstr ""
+msgstr "휴대전화에서 Android Auto 설정을 엽니다."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Developer settings` by pressing the version number 10 times."
-msgstr ""
+msgstr "버전 번호를 10번 눌러 `개발자 설정`을 켭니다."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Open the 3-dot menu and launch the developer settings."
-msgstr ""
+msgstr "점 3개 메뉴를 열고 개발자 설정을 실행합니다."
 
 #: _i18n/en/documentation/playback/android-auto.md:block 6 (unordered list)
 msgid "Enable `Unknown sources`."
-msgstr ""
+msgstr "`알 수 없는 소스`를 켭니다."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 1 (paragraph)
 msgid ""
@@ -1846,43 +2368,46 @@ msgid ""
 "much is rewound is not configurable and depends on how long an episode has "
 "been paused."
 msgstr ""
+"에피소드를 일시 정지했다가 다시 재생하면 안테나팟이 자동으로 조금 뒤로 "
+"건너뛰어 내용을 이어서 따라가기 쉽게 합니다. 얼마나 뒤로 가는지는 설정할 수 "
+"없으며, 일시 정지한 시간에 따라 달라집니다."
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Time since last playback"
-msgstr ""
+msgstr "마지막 재생 후 경과 시간"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "Rewind duration"
-msgstr ""
+msgstr "뒤로 건너뛰는 시간"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "More than 1 day"
-msgstr ""
+msgstr "1일 이상"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "20 seconds"
-msgstr ""
+msgstr "20초"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "More than 1 hour"
-msgstr ""
+msgstr "1시간 이상"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "10 seconds"
-msgstr ""
+msgstr "10초"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "More than 1 minute"
-msgstr ""
+msgstr "1분 이상"
 
 #: _i18n/en/documentation/playback/auto-rewind.md:block 2 (table)
 msgid "3 seconds"
-msgstr ""
+msgstr "3초"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 1 (paragraph)
 msgid ""
 "You can use AntennaPod to listen to podcasts on your Google Chromecast."
-msgstr ""
+msgstr "Google Chromecast로 안테나팟의 팟캐스트를 들을 수 있습니다."
 
 #: _i18n/en/documentation/playback/chromecast.md:block 3 (paragraph)
 msgid ""
@@ -1891,16 +2416,21 @@ msgid ""
 "the player screen by expanding the small player on the bottom and press the "
 "Chromecast button."
 msgstr ""
+"Google Chromecast에서 안테나팟을 쓰기 위해 더 할 일은 없습니다. Chromecast와 "
+"같은 WiFi 네트워크에 연결되어 있는지 확인하십시오. 아래쪽의 작은 플레이어를 "
+"펼쳐 플레이어 화면을 열고 Chromecast 버튼을 누르십시오."
 
 #: _i18n/en/documentation/playback/chromecast.md:block 7 (paragraph)
 msgid "Cast button in AntennaPod"
-msgstr ""
+msgstr "안테나팟의 전송 버튼"
 
 #: _i18n/en/documentation/playback/chromecast.md:block 12 (paragraph)
 msgid ""
 "Unfortunately, Google Chromecast support is not available in the F-Droid "
 "version because Chromecast is not open-source."
 msgstr ""
+"아쉽게도 Chromecast는 오픈소스가 아니기 때문에 F-Droid 버전에서는 Google "
+"Chromecast를 지원하지 않습니다."
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 1 (paragraph)
 msgid ""
@@ -1909,98 +2439,101 @@ msgid ""
 "Volume and (un)mute actions affect the audio channel for media (rather than,"
 " for example, the one for notifications)."
 msgstr ""
+"휴대전화나 태블릿에 물리('하드웨어') 키보드가 연결되어 있다면 몇 가지 "
+"단축키로 안테나팟의 재생을 제어할 수 있습니다. 볼륨과 음소거(해제) 동작은 "
+"(예를 들어 알림 채널이 아니라) 미디어 오디오 채널에 적용됩니다."
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 2 (header)
 msgid "All screens (except video player and the settings)"
-msgstr ""
+msgstr "모든 화면(동영상 플레이어와 설정 제외)"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Key"
-msgstr ""
+msgstr "키"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Action"
-msgstr ""
+msgstr "동작"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`P`"
-msgstr ""
+msgstr "`P`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Play/Pause"
-msgstr ""
+msgstr "재생/일시 정지"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`J`/`A`/`,`"
-msgstr ""
+msgstr "`J`/`A`/`,`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Rewind"
-msgstr ""
+msgstr "뒤로 건너뛰기"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`K`/`D`/`.`"
-msgstr ""
+msgstr "`K`/`D`/`.`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Forward"
-msgstr ""
+msgstr "앞으로 건너뛰기"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`+`/`W`"
-msgstr ""
+msgstr "`+`/`W`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Raise volume"
-msgstr ""
+msgstr "볼륨 높이기"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`-`/`S`"
-msgstr ""
+msgstr "`-`/`S`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Lower volume"
-msgstr ""
+msgstr "볼륨 낮추기"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "`M`"
-msgstr ""
+msgstr "`M`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 3 (table)
 msgid "Mute/unmute (toggle) - only on Android 6 and higher"
-msgstr ""
+msgstr "음소거/해제(전환) - Android 6 이상에서만"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 4 (header)
 msgid "Video player"
-msgstr ""
+msgstr "동영상 플레이어"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`P`/`Space`"
-msgstr ""
+msgstr "`P`/`Space`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`F`/`Esc`"
-msgstr ""
+msgstr "`F`/`Esc`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Exit video player"
-msgstr ""
+msgstr "동영상 플레이어 나가기"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`i`"
-msgstr ""
+msgstr "`i`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Enter picture-in-picture mode"
-msgstr ""
+msgstr "화면 속 화면(PiP) 모드로 전환"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "`0`-`9`"
-msgstr ""
+msgstr "`0`-`9`"
 
 #: _i18n/en/documentation/playback/shortcuts.md:block 5 (table)
 msgid "Go to 0-90% of the video"
-msgstr ""
+msgstr "동영상의 0~90% 지점으로 이동"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 1
 #: (paragraph)
@@ -2012,23 +2545,28 @@ msgid ""
 "URL or your title contains special characters, such as `&`, these must be "
 "[URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)."
 msgstr ""
+"여러분의 네트워크나 청중이 안테나팟에 팟캐스트를 쉽게 추가하게 하고 "
+"싶으십니까? 아래와 같은 링크를 웹사이트나 원하는 곳에 넣기만 하면 됩니다. "
+"`xyz`를 RSS 피드 URL로, `abc`를 팟캐스트 제목으로 바꾸십시오. URL이나 제목에 "
+"`&` 같은 특수 문자가 있다면 [URL 인코딩](https://en.wikipedia.org/wiki/"
+"Percent-encoding)해야 합니다."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 2
 #: (paragraph)
 msgid "`https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`"
-msgstr ""
+msgstr "`https://antennapod.org/deeplink/subscribe?url=xyz&title=abc`"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 3
 #: (paragraph)
 msgid ""
 "You could also turn the same link into a button, e.g. by using the following"
 " code:"
-msgstr ""
+msgstr "예를 들어 다음 코드를 사용해 같은 링크를 버튼으로 만들 수도 있습니다:"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 5
 #: (header)
 msgid "What users see"
-msgstr ""
+msgstr "사용자에게 보이는 화면"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 6
 #: (paragraph)
@@ -2037,16 +2575,18 @@ msgid ""
 "preview episodes and subscribe to your podcast directly in the app, as in "
 "the screenshots below."
 msgstr ""
+"안테나팟을 설치한 사용자가 이 링크를 열면 아래 스크린샷처럼 앱에서 바로 "
+"에피소드를 미리 보고 팟캐스트를 구독할 수 있습니다."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 10
 #: (paragraph)
 msgid "Browser asking to open a link in AntennaPod"
-msgstr ""
+msgstr "링크를 안테나팟에서 열지 묻는 브라우저"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 15
 #: (paragraph)
 msgid "The same link displayed in AntennaPod"
-msgstr ""
+msgstr "안테나팟에 표시된 같은 링크"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 19
 #: (paragraph)
@@ -2056,11 +2596,14 @@ msgid ""
 "manually, as in this [example "
 "page](/deeplink/subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)."
 msgstr ""
+"반면 안테나팟을 설치하지 않은 사용자에게는 이 [예시 페이지](/deeplink/"
+"subscribe?url=https://antennapod.org/rss.xml&title=Blog+Posts)처럼 앱을 "
+"다운로드하거나 팟캐스트를 직접 구독하는 방법을 안내하는 페이지가 표시됩니다."
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 20
 #: (header)
 msgid "Branding"
-msgstr ""
+msgstr "브랜딩"
 
 #: _i18n/en/documentation/podcasters-hosters/add-on-antennapod.md:block 21
 #: (paragraph)
@@ -2069,6 +2612,9 @@ msgid ""
 "button? You can find it in our [branding "
 "repository](https://github.com/AntennaPod/branding)."
 msgstr ""
+"우리 로고로 브랜드가 적용된 'AntennaPod에서 열기' 버튼을 만들고 싶으십니까? "
+"[브랜딩 저장소](https://github.com/AntennaPod/branding)에서 로고를 찾을 수 "
+"있습니다."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 1 (paragraph)
 msgid ""
@@ -2076,6 +2622,9 @@ msgid ""
 "need funding beyond advertising and buy-outs by platforms. AntennaPod "
 "supports different ways through which podcasters can earn an income:"
 msgstr ""
+"열린 팟캐스트 생태계가 지속되려면 팟캐스터에게 광고와 플랫폼의 독점 계약 "
+"이외의 수입원이 필요합니다. 안테나팟은 팟캐스터가 수입을 얻을 수 있는 여러 "
+"방법을 지원합니다:"
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2087,6 +2636,10 @@ msgid ""
 "is the standard way for podcasters to get financial support from their "
 "audience."
 msgstr ""
+"[funding](https://podcasting2.org/docs/podcast-namespace/tags/funding) "
+"태그를 지원하므로 팟캐스터는 RSS 피드에 결제 페이지 링크를 넣을 수 있습니다. "
+"[이 태그 사용법](https://podcasting2.org/docs/guides/how-to-use-the-funding-"
+"tag)을 참고하십시오. 팟캐스터가 청중에게 금전적 후원을 받는 표준 방법입니다."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2098,6 +2651,11 @@ msgid ""
 "AntennaPod users will be able to subscribe to it using a personalized feed "
 "URL or by entering the login credentials you give them."
 msgstr ""
+"어떤 이유로든 아직 funding 태그를 쓰지 않는다면, 팟캐스트나 에피소드 설명에 "
+"청중이 후원할 수 있는 방법을 적어 둘 수 있습니다. 덜 눈에 띄긴 하지만 "
+"안테나팟 사용자에게 여전히 보입니다. 예를 들어 프리미엄 등급을 제공한다면 "
+"안테나팟 사용자는 개인화된 피드 URL이나 여러분이 알려 준 로그인 정보를 "
+"입력해 구독할 수 있습니다."
 
 #: _i18n/en/documentation/podcasters-hosters/funding.md:block 2 (unordered
 #: list)
@@ -2108,6 +2666,10 @@ msgid ""
 "evolving, AntennaPod won't support it soon, but we are closely following "
 "developments."
 msgstr ""
+"앞으로는 [value](https://podcasting2.org/docs/podcast-namespace/tags/value) "
+"태그를 통한 자동 소액 결제도 지원하고 싶습니다. 복잡한 기능이고 기술 사양이 "
+"아직 변하고 있어 안테나팟이 곧 지원하지는 않겠지만, 동향을 면밀히 지켜보고 "
+"있습니다."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 1
 #: (paragraph)
@@ -2115,11 +2677,13 @@ msgid ""
 "If you are a podcast producer and want to make your podcast visible in "
 "AntennaPod, this page is for you."
 msgstr ""
+"팟캐스트 제작자이고 안테나팟에서 팟캐스트가 보이게 하고 싶다면 이 페이지를 "
+"참고하십시오."
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 2
 #: (paragraph)
 msgid "AntennaPod mainly uses two directories for its search feature:"
-msgstr ""
+msgstr "안테나팟은 검색 기능에 주로 두 디렉터리를 사용합니다:"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3
 #: (unordered list)
@@ -2128,6 +2692,8 @@ msgid ""
 "podcast, or add your own podcast via [their add "
 "page](https://podcastindex.org/add))"
 msgstr ""
+"[Podcast Index](https://podcastindex.org/) (호스팅 업체에 팟캐스트 추가 "
+"방법을 문의하거나, [추가 페이지](https://podcastindex.org/add)에서 직접 추가)"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 3
 #: (unordered list)
@@ -2135,13 +2701,15 @@ msgid ""
 "[Apple Podcasts](https://podcasts.apple.com) (add via [Podcast "
 "Connect](https://podcastsconnect.apple.com/))"
 msgstr ""
+"[Apple Podcasts](https://podcasts.apple.com) ([Podcast Connect](https://"
+"podcastsconnect.apple.com/)에서 추가)"
 
 #: _i18n/en/documentation/podcasters-hosters/list-podcast.md:block 4
 #: (paragraph)
 msgid ""
 "If your podcast is available in either of them, it can be found in "
 "AntennaPod."
-msgstr ""
+msgstr "둘 중 하나에라도 팟캐스트가 있으면 안테나팟에서 찾을 수 있습니다."
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 1
 #: (paragraph)
@@ -2151,6 +2719,9 @@ msgid ""
 "from the old to the new feed with either of these HTTP response status "
 "codes:"
 msgstr ""
+"호스팅 업체를 바꾸면 RSS 피드 URL도 함께 바뀌는 경우가 많습니다. 이때는 다음 "
+"HTTP 응답 상태 코드 중 하나로 이전 피드에서 새 피드로 제대로 "
+"'리디렉션'하기를 강력히 권합니다:"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2158,6 +2729,8 @@ msgid ""
 "[301 Moved Permanently](https://developer.mozilla.org/en-"
 "US/docs/Web/HTTP/Reference/Status/301)"
 msgstr ""
+"[301 Moved Permanently](https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Reference/Status/301)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 2
 #: (unordered list)
@@ -2165,6 +2738,8 @@ msgid ""
 "[308 Permanent Redirect](https://developer.mozilla.org/en-"
 "US/docs/Web/HTTP/Reference/Status/308)"
 msgstr ""
+"[308 Permanent Redirect](https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Reference/Status/308)"
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 3
 #: (paragraph)
@@ -2173,6 +2748,8 @@ msgid ""
 "their app. Your audience will then continue to receive your episodes, "
 "without having to subscribe again to the new feed."
 msgstr ""
+"이렇게 하면 안테나팟 사용자의 앱에 이 변경이 적용됩니다. 청중은 새 피드를 "
+"다시 구독하지 않고도 에피소드를 계속 받게 됩니다."
 
 #: _i18n/en/documentation/podcasters-hosters/update-feed-urls.md:block 4
 #: (paragraph)
@@ -2181,6 +2758,8 @@ msgid ""
 "directories](/documentation/podcasters-hosters/list-podcast) AntennaPod uses"
 " for its search functionality."
 msgstr ""
+"안테나팟이 검색에 사용하는 [디렉터리](/documentation/podcasters-hosters/list-"
+"podcast)의 등록 정보도 잊지 말고 업데이트하십시오."
 
 #: _i18n/en/documentation/queue/how-to-use.md:block 1 (paragraph)
 msgid ""
@@ -2188,30 +2767,39 @@ msgid ""
 "come across an interesting episode, long-press and select `Add to queue`. If"
 " you download an episode, AntennaPod adds it to the queue automatically."
 msgstr ""
+"들을 계획인 에피소드를 대기열에 담아 둘 수 있습니다. 흥미로운 에피소드를 "
+"발견하면 길게 누르고 `대기열에 추가`를 선택하십시오. 에피소드를 다운로드하면 "
+"안테나팟이 자동으로 대기열에 추가합니다."
 
 #: _i18n/en/documentation/queue/lock.md:block 1 (paragraph)
 msgid ""
 "A pretty common problem experienced by users is that they suddenly can not "
 "manually reorder the queue."
 msgstr ""
+"사용자가 꽤 자주 겪는 문제 하나는 갑자기 대기열 순서를 직접 바꿀 수 없게 "
+"되는 것입니다."
 
 #: _i18n/en/documentation/queue/lock.md:block 2 (paragraph)
 msgid ""
 "If you can't move episodes around in the queue, this can be caused by either"
 " of the following:"
-msgstr ""
+msgstr "대기열에서 에피소드를 옮길 수 없다면 다음 중 하나가 원인일 수 있습니다:"
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
 msgid ""
 "`Keep Sorted` is enabled. You can disable this by tapping the three dots `…`"
 " in the top bar and select `Sort`."
 msgstr ""
+"`정렬 상태로 유지`가 켜져 있습니다. 상단 바의 점 3개 `…`를 누르고 `정렬`을 "
+"선택해 끌 수 있습니다."
 
 #: _i18n/en/documentation/queue/lock.md:block 3 (unordered list)
 msgid ""
 "The queue is locked. You can unlock the queue by tapping the 3-dot overflow "
 "menu in the top bar and un-checking `Lock queue`."
 msgstr ""
+"대기열이 잠겨 있습니다. 상단 바의 점 3개 더보기 메뉴를 누르고 `대기열 "
+"잠그기` 체크를 해제하면 잠금을 풀 수 있습니다."
 
 #: _i18n/en/documentation/queue/multiple-queues.md:block 1 (paragraph)
 msgid ""
@@ -2220,6 +2808,9 @@ msgid ""
 "more information and / or subscribe to the issue to get updated in case of "
 "any developments."
 msgstr ""
+"여러 대기열은 현재 지원되지 않습니다. 자세한 내용은 GitHub의 [이슈 2648]"
+"(https://github.com/AntennaPod/AntennaPod/issues/2648)을 참고하시고, 진행 "
+"상황을 받아 보려면 이슈를 구독하십시오."
 
 #: _i18n/en/documentation/queue/sorting.md:block 1 (paragraph)
 msgid ""
@@ -2228,10 +2819,13 @@ msgid ""
 "of them are self-explanatory, this page focuses specifically on `Podcast "
 "title` and `Smart shuffle`."
 msgstr ""
+"대기열은 여러 기준으로 정렬할 수 있습니다: `에피소드 제목`, `팟캐스트 제목`, "
+"`길이`, `날짜`, `임의 순서`, `똑똑한 무작위 순서`. 대부분은 이름만으로 알 수 "
+"있으므로 이 페이지에서는 `팟캐스트 제목`과 `똑똑한 무작위 순서`만 다룹니다."
 
 #: _i18n/en/documentation/queue/sorting.md:block 2 (header)
 msgid "Podcast title"
-msgstr ""
+msgstr "팟캐스트 제목"
 
 #: _i18n/en/documentation/queue/sorting.md:block 3 (paragraph)
 msgid ""
@@ -2241,10 +2835,14 @@ msgid ""
 " from the same podcast to be sorted together and chronologically, you would "
 "need to first sort by `Date` and then sort by `Podcast title`."
 msgstr ""
+"이 기준은 대기열의 에피소드를 소속 팟캐스트 제목순으로 정렬합니다. 같은 "
+"팟캐스트의 에피소드는 이전 정렬 순서를 따릅니다. 따라서 같은 팟캐스트의 "
+"에피소드를 한데 모으면서 시간순으로 정렬하려면 먼저 `날짜`로 정렬한 뒤 "
+"`팟캐스트 제목`으로 정렬해야 합니다."
 
 #: _i18n/en/documentation/queue/sorting.md:block 4 (header)
 msgid "Smart shuffle"
-msgstr ""
+msgstr "똑똑한 무작위 순서"
 
 #: _i18n/en/documentation/queue/sorting.md:block 5 (paragraph)
 msgid ""
@@ -2252,6 +2850,8 @@ msgid ""
 "queue sorted by publication date while also avoiding as much as possible "
 "having clusters of episodes from a single subscription in your queue."
 msgstr ""
+"똑똑한 무작위 순서는 대기열을 발행일순으로 유지하면서도 한 구독의 에피소드가 "
+"대기열에 몰리는 것을 최대한 피하는 고급 정렬 기준입니다."
 
 #: _i18n/en/documentation/queue/sorting.md:block 6 (paragraph)
 msgid ""
@@ -2260,10 +2860,14 @@ msgid ""
 "shuffle`. Just like other sorting criteria, smart shuffle can be sorted in "
 "ascending or descending order."
 msgstr ""
+"똑똑한 무작위 순서를 쓰려면 서로 다른 구독의 에피소드 몇 개를 대기열에 넣은 "
+"뒤 상단 바의 `…`를 누르고 `정렬`, 그다음 `똑똑한 무작위 순서`를 "
+"선택하십시오. 다른 정렬 기준처럼 오름차순이나 내림차순으로 정렬할 수 "
+"있습니다."
 
 #: _i18n/en/documentation/queue/sorting.md:block 7 (header)
 msgid "How smart shuffle works in detail"
-msgstr ""
+msgstr "똑똑한 무작위 순서의 자세한 동작 방식"
 
 #: _i18n/en/documentation/queue/sorting.md:block 8 (paragraph)
 msgid ""
@@ -2275,6 +2879,12 @@ msgid ""
 "This continues until we end up with a queue that looks like this: "
 "EEBEEDECEDEEAEE."
 msgstr ""
+"대기열에 에피소드가 15개 있다고 해 봅시다. 팟캐스트 A, B, C에서 각각 1개, "
+"팟캐스트 D에서 2개, 팟캐스트 E에서 10개입니다. 똑똑한 무작위 순서는 먼저 "
+"에피소드가 가장 많은 팟캐스트(E)를 골라 그 에피소드를 대기열에 고르게 "
+"퍼뜨립니다: EE_EE_E_E_EE_EE. 그다음 에피소드가 두 번째로 많은 팟캐스트(D)를 "
+"골라 빈자리에 퍼뜨립니다: EE_EEDE_EDEE_EE. 이 과정을 반복하면 결국 이런 "
+"대기열이 됩니다: EEBEEDECEDEEAEE."
 
 #: _i18n/en/documentation/queue/sorting.md:block 9 (paragraph)
 msgid ""
@@ -2283,6 +2893,9 @@ msgid ""
 "episode from podcast B gets an earlier spot than the one from podcast A "
 "because the former is older)."
 msgstr ""
+"발행일은 팟캐스트 *안에서도*(예에서 팟캐스트 E의 에피소드는 발행일순으로 "
+"정렬됩니다) 팟캐스트 *사이에서도*(팟캐스트 B의 에피소드가 더 오래되었으므로 "
+"팟캐스트 A의 에피소드보다 앞자리를 차지합니다) 영향을 줍니다."
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 1
 #: (paragraph)
@@ -2294,23 +2907,28 @@ msgid ""
 "request](https://github.com/AntennaPod/AntennaPod/issues/2648) on our "
 "development platform.)"
 msgstr ""
+"구독을 정리하기 쉽도록 팟캐스트에 태그(그룹이나 카테고리라고도 합니다)를 "
+"지정할 수 있습니다. 현재는 태그를 기준으로 대기열을 만들 수 없다는 점에 "
+"유의하십시오. 그러려면 먼저 여러 대기열을 지원해야 합니다. (개발 플랫폼의 "
+"[기능 요청](https://github.com/AntennaPod/AntennaPod/issues/2648)도 "
+"참고하십시오.)"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 2
 #: (paragraph)
 msgid "To assign tags to a podcast you have to:"
-msgstr ""
+msgstr "팟캐스트에 태그를 지정하려면:"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
 msgid "Open a specific podcast"
-msgstr ""
+msgstr "팟캐스트를 엽니다"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
 msgid "Tap on the `gear` icon to access its settings"
-msgstr ""
+msgstr "`톱니바퀴` 아이콘을 눌러 설정으로 갑니다"
 
 #: _i18n/en/documentation/subscriptions/subscription-groups.md:block 3
 #: (unordered list)
 msgid "Select the `Tags` setting"
-msgstr ""
+msgstr "`태그` 설정을 선택합니다"
