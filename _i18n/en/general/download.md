@@ -46,7 +46,7 @@ Official versions of AntennaPod are available on Google Play and F-Droid:
 <!-- mdpo-disable -->
 <p class="d-flex">
   <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod" target="_blank">{{- img-GP | strip -}}</a>
-  <a href="https://f-droid.org/packages/de.danoeh.antennapod" target="_blank">{{- img-FD | strip -}}</a>
+  <a href="https://f-droid.org/packages/de.danoeh.antennapod/" target="_blank">{{- img-FD | strip -}}</a>
 </p>
 <!-- mdpo-enable -->
 
