@@ -1,0 +1,10 @@
+Aloita tilaamalla jokin podcast. Lisätietoja siitä löydät [täältä](/documentation/getting-started/subscribe). Tilauksen jälkeen uudet jaksot näkyvät `Postilaatikko`:ssa. Siellä voit valita, haluatko kuunnella niitä vai et. Jos jakso on postilaatikossa, se tarkoittaa, ettet ole vielä päättänyt, mitä teet jaksolla.
+
+- Jos et ole kiinnostunut jostakin jaksosta, pyyhkäise se pois postilaatikosta. Jakso pysyy silti merkittynä toistamattomaksi ja löydät sen `Jaksot`-sivulta sekä podcastin sivulta.
+- Jos jokin jakso kiinnostaa, voit toimia kahdella eri tavalla kuuntelutottumuksistasi riippuen.
+   - Lataa jakso. Latauksen yhteydessä AntennaPod lisää jakson automaattisesti jonoon ja poistaa sen postilaatikosta. Voit asettaa uudet jaksot jonoon toistettavan jakson taakse, eteen vai jälkeen. Lataaminen oli AntennaPodin pääasiallinen käyttötapa, mutta suoratoiston suosion kasvaessa voit käyttää myös jälkimmäistä vaihtoehtoa.
+   - Lisää jakso jonoon. AntennaPod poistaa sen automaattisesti postilaatikosta ja lisää sen jonoon. Voit myöhemmin toistaa jakson suoraan ilman lataamista, joten se ei vie tilaa. Ajattele: suoratoista kuten YouTube-videoita. Haittapuolena on, että se ei ole saatavilla offline-tilassa, käyttää mobiilidataa liikkeellä ollessasi ja hidastaa hieman kelaamista eteenpäin.
+- Jos olet lopettanut toiston, AntennaPod merkitsee jakson toistetuksi ja poistaa sen jonosta. Voit myös asettaa latauksen automaattisesti poistettavaksi toiston jälkeen. Löydät luettelon kaikista laitteellesi vielä ladatuista jaksoista (riippumatta siitä, ovatko ne jonossa vai eivät) `Lataukset`-sivulta.
+- Jos pidät jostakin jaksosta ja harkitset sen kuuntelemista uudelleen, voit myös merkitä sen suosikiksi. Voit suodattaa `Jaksot`-sivun näyttämään vain suosikkisi, ja (oletusarvoisesti) AntennaPod ei poista suosikkeja toiston jälkeen.
+
+Jos olet tilannut todella hyvän podcastin, jonka kaikki jaksot ovat hyviä, voit käyttää automaattista lataustoimintoa. Kun tämä toiminto on käytössä podcastissa, kaikki sen tulevat uudet jaksot ladataan ja lisätään jonoon automaattisesti. Ne poistetaan automaattisesti uusista jaksoista heti, kun ne on ladattu.
