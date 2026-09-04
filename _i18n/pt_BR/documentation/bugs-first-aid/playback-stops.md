@@ -1,0 +1,3 @@
+Se a reprodução sempre parar, por exemplo, alguns segundos depois de desligar a tela ou quando você fica um tempo sem abrir o AntennaPod, seu sistema pode estar encerrando o app. Alguns fabricantes são conhecidos por serem excessivamente agressivos ao tentar economizar bateria. **Tente adicionar uma exceção para o AntennaPod na lista de apps otimizados para bateria.** Como esse procedimento costuma variar entre os diferentes celulares, recomendamos pesquisar na internet as instruções para a marca e o modelo do seu aparelho, caso você não saiba como adicionar uma exceção.
+
+Se isso não ajudou, não hesite em entrar em contato com os colaboradores do AntennaPod em nosso [fórum](https://forum.antennapod.org).
