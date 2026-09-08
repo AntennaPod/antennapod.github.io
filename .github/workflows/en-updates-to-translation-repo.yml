@@ -32,7 +32,7 @@ jobs:
         run: cp _i18n/en.yml _i18n/translation-files
       - name: Create/update POT file of Contribute section
         # see https://mdpo.readthedocs.io
-        run: md2po _i18n/en/contribute/*.md --po-filepath _i18n/translation-files/site-contribute.pot --save --quiet
+        run: md2po _i18n/en/contribute/*.md _i18n/en/contribute/*/*.md _i18n/en/contribute/*/*/*.md --po-filepath _i18n/translation-files/site-contribute.pot --save --quiet
       - name: Create/update POT file of Documentation section
         run: md2po _i18n/en/documentation/*.md _i18n/en/documentation/*/*.md --po-filepath _i18n/translation-files/site-documentation.pot --save --quiet
       - name: Create/update POT file of other website pages
