@@ -1,0 +1,3 @@
+Jos toisto pysähtyy aina esimerkiksi muutaman sekunnin kuluttua näytön sammuttamisen jälkeen tai kun et ole avannut AntennaPodia vähään aikaan, järjestelmäsi saattaa pysäyttää sovelluksen. Joidenkin valmistajien tiedetään olevan liian aggressiivisia yrittäessään säästää akkua. **Yritä lisätä AntennaPodille poikkeus akkuoptimoitujen sovellusten luetteloon.** Koska poikkeuksien lisäys tehdään eri tavoilla eri puhelimissa, suosittelemme etsimään verkosta ohjeita puhelimesi merkkiä ja mallia varten, jos et tiedä miten lisätä poikkeus.
+
+Jos tämä ei auttanut, ota yhteyttä AntennaPodin kehittäjiin [foorumillamme](https://forum.antennapod.org).
