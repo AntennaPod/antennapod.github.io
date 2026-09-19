@@ -48,4 +48,4 @@ Vi må tilfredsstille en tegngrense for "short descriptions" og "screenshot titl
 * Er du **interessert i å bistå oversettelsen** men ikke sikker enda? Eller er du klar til å begynne?
 * Vil du bidra og **trenger støtte**? Er for eksempel språket ditt ikke tilgjengelig enda, eller fordi du ikke er sikker på hvordan du går fram?
 
-La høre fra deg i [oversettelsesdelen av forumet](https://forum.antennapod.org/c/translations/11). Det er den beste måten å komme i kontakt med oss. Kommentarer og meldinger i respektive oversettelsesverktøy når oss ofte ikke i tide.
+La oss høre fra deg i [oversettelsesdelen av forumet](https://forum.antennapod.org/c/translations/11). Det er den beste måten å komme i kontakt med oss. Kommentarer og meldinger i respektive oversettelsesverktøy når oss ofte ikke i tide.
