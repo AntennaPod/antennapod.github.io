@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  
+
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="view-transition" content="same-origin">
+  <title>시작하기 – AntennaPod</title>
+  <meta name="description" content="시작하기">
+    
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://antennapod.org/#organization",
+        "name": "AntennaPod",
+        "url": "https://antennapod.org",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://antennapod.org/assets/branding/favicons/android-chrome-512x512.png"
+        },
+        "sameAs": [
+          "https://github.com/AntennaPod",
+          "https://fosstodon.org/@AntennaPod",
+          "https://bsky.app/profile/AntennaPod.org",
+          "https://twitter.com/antennapod"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://antennapod.org/#website",
+        "name": "AntennaPod",
+        "url": "https://antennapod.org",
+        "description": "The easy-to-use, flexible and open-source podcast manager for Android.",
+        "inLanguage": "ko"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://antennapod.org/ko/documentation/getting-started#webpage",
+        "url": "https://antennapod.org/ko/documentation/getting-started",
+        "name": "시작하기 – AntennaPod",
+        "description": "시작하기",
+        "isPartOf": {
+          "@id": "https://antennapod.org/#website"
+        },
+        "inLanguage": "ko"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://antennapod.org/#software",
+        "name": "AntennaPod",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Android",
+        "description": "The easy-to-use, flexible and open-source podcast manager for Android.",
+        "url": "https://antennapod.org",
+        "publisher": {
+          "@id": "https://antennapod.org/#organization"
+        },
+        "downloadUrl": [
+          "https://play.google.com/store/apps/details?id=de.danoeh.antennapod",
+          "https://f-droid.org/packages/de.danoeh.antennapod"
+        ],
+        "screenshot": {
+          "@type": "ImageObject",
+          "url": "https://antennapod.org/assets/images/screenshots/en/00.png"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+      
+      ,{
+        "@type": "TechArticle",
+        "@id": "https://antennapod.org/ko/documentation/getting-started#techarticle",
+        "headline": "시작하기 – AntennaPod",
+        "description": "시작하기",
+        "url": "https://antennapod.org/ko/documentation/getting-started",
+        "publisher": {
+          "@id": "https://antennapod.org/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://antennapod.org/ko/documentation/getting-started#webpage"
+        },
+        "inLanguage": "ko"
+      }
+      
+    ]
+  }
+  </script>
+
+
+  <link rel="canonical" href="https://antennapod.org/ko/documentation/getting-started">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <link rel="alternate" type="application/rss+xml" title="Blog posts" href="/rss.xml">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="시작하기 – AntennaPod">
+  <meta name="twitter:description" content="시작하기">
+  <meta name="twitter:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
+
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="https://antennapod.org/ko/documentation/getting-started">
+  <meta property="og:title" content="시작하기 – AntennaPod">
+  <meta property="og:image" content="https://antennapod.org/assets/branding/covers/cover_001.png">
+  <meta property="og:description" content="시작하기">
+  <meta property="og:site_name" content="AntennaPod">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/branding/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/branding/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/branding/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/branding/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/branding/favicons/safari-pinned-tab.svg?v=2" color="#364ff3">
+  <link rel="shortcut icon" href="/assets/branding/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#364ff3">
+  <meta name="msapplication-config" content="/assets/branding/favicons/browserconfig.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Language redirect (loaded early, runs once per session) -->
+  <script src="/assets/js/language-redirect.js"></script>
+
+  <!-- Theme switcher (loaded early to prevent flash) -->
+  <script src="/assets/js/theme-switcher.js"></script>
+
+  <!-- Resources -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/assets/js/cached-fetch.js"></script>
+  <script defer src="/assets/js/search.min.js"></script>
+  <script defer src="/assets/js/tooltip.js"></script>
+  <script defer src="/assets/js/copy-url.js"></script>
+  <script defer src="/assets/js/mastodon-share.js"></script>
+  <script defer src="/assets/js/github-mentions.js"></script>
+  <script defer src="/assets/js/contributors.js"></script>
+  <script defer src="/assets/js/localize-links.js"></script>
+  <script defer src="/assets/js/image-popup.js"></script>
+
+</head>
+<body dir="auto">
+<a href="#main-content" class="visually-hidden-focusable skip-link">본문으로 건너뛰기</a>
+<div class="flex-grow-1">
+    <header class="sticky-top bg-body-tertiary">
+  <div class="container px-4 px-lg-0 py-2 py-md-4">
+    <nav class="navbar navbar-expand-xl p-0">
+      <a class="navbar-brand me-auto" href="/ko">
+        <img src="/assets/branding/logo-full-horizontal-dynamic.svg" id="mainlogo" class="h-auto">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="d-none d-xl-flex navbar-nav align-items-center fw-medium">
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/ko/about">
+            정보
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/ko/blog">
+            블로그
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/ko/events">
+            행사
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="/ko/contribute">
+            기여
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2 active">
+          <a class="nav-link fw-bold text-body small" href="/ko/documentation">
+            문서
+          </a>
+        </div>
+        
+        
+        
+        
+        <div class="nav-item ms-2">
+          <a class="nav-link fw-bold text-body small" href="https://forum.antennapod.org/">
+            포럼
+          </a>
+        </div>
+        
+        <div class="nav-item dropdown ms-2">
+          <button class="nav-link dropdown-toggle bg-transparent" id="navbarDropdown1" aria-label="언어 선택" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-globe text-body"></i>
+            <span class="ms-1 me-1 text-body fw-semibold">KO</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/da/documentation/getting-started">Dansk</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/de/documentation/getting-started">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/documentation/getting-started">English</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/es/documentation/getting-started">Español</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fr/documentation/getting-started">Français</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/it/documentation/getting-started">Italiano</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/nl/documentation/getting-started">Nederlands</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fa/documentation/getting-started">فارسی</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ja/documentation/getting-started">日本語</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ko/documentation/getting-started">한국어</a>
+  
+
+
+          </div>
+        </div>
+        <div class="nav-item dropdown ms-2">
+          <button class="nav-link dropdown-toggle bg-transparent" id="themeDropdown1" aria-label="테마 선택" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-circle-half-stroke theme-icon-auto text-body"></i>
+            <i class="fa-solid fa-sun theme-icon-light text-body d-none"></i>
+            <i class="fa-solid fa-moon theme-icon-dark text-body d-none"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown1">
+            <button class="dropdown-item fw-medium small" data-theme-value="auto"><i class="fa-solid fa-circle-half-stroke me-2"></i>자동</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="light"><i class="fa-solid fa-sun me-2"></i>밝게</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="dark"><i class="fa-solid fa-moon me-2"></i>어둡게</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Controls -->
+      <div class="d-xl-none d-flex align-items-center gap-1">
+        <div class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle bg-transparent py-1 px-2" id="navbarDropdown2" aria-label="언어 선택" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-globe text-body"></i>
+            <span class="ms-1 text-body fw-semibold d-none d-sm-inline">KO</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/da/documentation/getting-started">Dansk</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/de/documentation/getting-started">Deutsch</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/documentation/getting-started">English</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/es/documentation/getting-started">Español</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fr/documentation/getting-started">Français</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/it/documentation/getting-started">Italiano</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/nl/documentation/getting-started">Nederlands</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/fa/documentation/getting-started">فارسی</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ja/documentation/getting-started">日本語</a>
+  
+
+  
+    <a class="dropdown-item fw-medium small" onchange="location = this.value;" href="/ko/documentation/getting-started">한국어</a>
+  
+
+
+          </div>
+        </div>
+        <div class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle bg-transparent py-1 px-2" id="themeDropdown2" aria-label="테마 선택" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-circle-half-stroke theme-icon-auto text-body"></i>
+            <i class="fa-solid fa-sun theme-icon-light text-body d-none"></i>
+            <i class="fa-solid fa-moon theme-icon-dark text-body d-none"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown2">
+            <button class="dropdown-item fw-medium small" data-theme-value="auto"><i class="fa-solid fa-circle-half-stroke me-2"></i>자동</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="light"><i class="fa-solid fa-sun me-2"></i>밝게</button>
+            <button class="dropdown-item fw-medium small" data-theme-value="dark"><i class="fa-solid fa-moon me-2"></i>어둡게</button>
+          </div>
+        </div>
+        <button class="navbar-toggler border-0 py-1 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+          <img src="/assets/images/icons/burger.svg" width="24" height="24" alt="Menu">
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile Menu Offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header border-bottom px-4 py-3">
+    <a href="/ko" class="offcanvas-title" id="mobileMenuLabel">
+      <img src="/assets/branding/logo-full-horizontal-dynamic.svg" class="offcanvas-logo" alt="AntennaPod 로고">
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column">
+    <nav class="nav flex-column flex-grow-1">
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/ko/about">
+        정보
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/ko/blog">
+        블로그
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/ko/events">
+        행사
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/ko/contribute">
+        기여
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="/ko/documentation">
+        문서
+      </a>
+      
+      <a class="nav-link text-body px-2 fs-5 py-3 border-bottom" href="https://forum.antennapod.org/">
+        포럼
+      </a>
+      
+    </nav>
+    <div class="mt-auto pt-4 border-top px-2">
+      <div class="d-flex flex-wrap gap-3">
+        
+        <a class="text-body-secondary" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+          <i class="fa-brands fa-mastodon me-1"></i>Mastodon
+        </a>
+        
+        
+        <a class="text-body-secondary" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github me-1"></i>GitHub
+        </a>
+        
+        
+        <a class="text-body-secondary" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+          <i class="fa-brands fa-bluesky me-1"></i>Bluesky
+        </a>
+        
+        
+        <a class="text-body-secondary" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+          <i class="fa-brands fa-x-twitter me-1"></i>Twitter
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <main id="main-content">
+    <div class="container-fluid">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    
+
+
+
+
+
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0" id="breadcrumbs">
+    <li class="breadcrumb-item"><a href="/ko">홈</a></li>
+    
+
+    <li class="breadcrumb-item"><a href="/ko/documentation">문서
+
+      </a></li>
+
+    <li class="breadcrumb-item active" aria-current="page">시작하기
+    </li>
+  </ol>
+</nav>
+                    <article class="post-content">
+                        <h1 id="시작하기">시작하기</h1>
+
+<p>안테나팟에 오신 것을 환영합니다! 아래에서 안테나팟을 시작하는 방법을 확인할 수 있습니다.</p>
+
+<p>먼저 팟캐스트를 구독해야 합니다. 자세한 내용은 <a href="/documentation/getting-started/subscribe">여기</a>에서 볼 수 있습니다. 구독하면 새 에피소드가 <code class="language-plaintext highlighter-rouge">새로 받음</code>에 표시됩니다. 여기서 실제로 들을지 말지 결정할 수 있습니다. 에피소드가 새로 받음 목록에 있다는 것은 아직 그 에피소드를 어떻게 할지 정하지 않았다는 뜻입니다.</p>
+
+<ul>
+  <li>관심 없는 에피소드는 스와이프해서 새로 받음 목록에서 제거하면 됩니다. 에피소드는 재생하지 않음 상태로 남아 있으며 <code class="language-plaintext highlighter-rouge">에피소드</code> 페이지와 해당 팟캐스트 페이지에서 찾을 수 있습니다.</li>
+  <li>관심 있는 에피소드라면 청취 습관에 따라 두 가지 중 하나를 할 수 있습니다.
+    <ul>
+      <li>에피소드를 다운로드합니다. 다운로드하면 안테나팟이 자동으로 에피소드를 대기열에 추가하고 새로 받음 목록에서 제거합니다. 새 에피소드를 대기열의 맨 뒤, 맨 앞, 또는 현재 재생 중인 에피소드 다음에 넣을지 정하는 설정이 있습니다. 다운로드는 안테나팟이 원래 설계된 주된 사용 방식이지만, 스트리밍이 점점 널리 쓰이면서 두 번째 방법도 쓸 수 있습니다.</li>
+      <li>에피소드를 대기열에만 추가합니다. 안테나팟이 자동으로 새로 받음 목록에서 제거하고 대기열에 넣습니다. 나중에 다운로드 없이 바로 재생할 수 있으므로 공간을 차지하지 않습니다. YouTube 동영상 스트리밍과 같다고 생각하면 됩니다. 단점은 오프라인에서 들을 수 없고, 이동 중에 휴대전화 데이터를 사용하며, 앞으로 건너뛰기가 조금 느려진다는 점입니다.</li>
+    </ul>
+  </li>
+  <li>재생을 마치면 안테나팟이 에피소드를 재생함으로 표시하고 대기열에서 제거합니다. 재생 후 다운로드 파일을 자동으로 삭제하는 설정도 있습니다. (대기열에 있든 없든) 장치에 아직 다운로드되어 있는 모든 에피소드 목록은 <code class="language-plaintext highlighter-rouge">다운로드</code> 페이지에서 볼 수 있습니다.</li>
+  <li>마음에 드는 에피소드를 다시 들을 생각이라면 즐겨찾기로 표시할 수도 있습니다. <code class="language-plaintext highlighter-rouge">에피소드</code> 페이지를 즐겨찾기만 보이도록 필터링할 수 있으며, (기본 설정에서) 안테나팟은 재생 후에도 즐겨찾기를 삭제하지 않습니다.</li>
+</ul>
+
+<p>모든 에피소드가 훌륭하리라는 것을 처음부터 알 수 있는 정말 좋은 팟캐스트를 구독했다면 자동 다운로드 기능을 쓸 수 있습니다. 팟캐스트에 이 기능을 켜면 앞으로 나오는 새 에피소드가 모두 자동으로 다운로드되어 대기열에 추가됩니다. 다운로드되는 즉시 새로 받음 목록에서 자동으로 제거됩니다.</p>
+
+
+                    </article>
+
+                    <noscript>
+                        <a href="https://antennapod.org/ko/assets/datasets/documentation_index.json">
+                            View full machine readable documentation (json)
+                        </a>
+                    </noscript>
+                </div>
+            </div>
+            <div class="row justify-content-start pb-4 mt-4">
+                <div id="card-subscribe" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="/ko/documentation/getting-started/subscribe">
+        <div class="card shadow-sm project-card h-100 p-4">
+            <i class="fa-solid fa-plus fs-2 mb-3"></i>
+            <h4 class="fw-bold">팟캐스트 구독하기</h4>
+        </div>
+    </a>
+</div>
+
+                <div id="card-home" class="col-12 col-md-3 mb-3 mb-md-3">
+    <a class="text-decoration-none" href="/ko/documentation/getting-started/home">
+        <div class="card shadow-sm project-card h-100 p-4">
+            <i class="fa-solid fa-house fs-2 mb-3"></i>
+            <h4 class="fw-bold">홈 화면 사용하기</h4>
+        </div>
+    </a>
+</div>
+
+            </div>
+        </div>
+    </div>
+    </main>
+</div>
+    <footer class="flex-shrink-0">
+  <div class="container-fluid p-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+      <path class="svg-wave" d="M0,160L80,181.3C160,203,320,245,480,245.3C640,245,800,203,960,197.3C1120,192,1280,224,1360,240L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+  <div class="container-fluid pb-2 bg-body-tertiary">
+    <div class="container">
+      <div class="row pt-2 mb-4 mb-lg-3 justify-content-between">
+        <div class="col-12 col-lg-4 col-md-12 mb-3">
+          <div class="mb-4 mb-lg-3">
+            <a href="/ko">
+              <img src="/assets/branding/logo-full-horizontal-dynamic.svg" width="260" alt="AntennaPod 로고">
+            </a>
+          </div>
+          <p class="small mb-3">사용하기 쉽고, 유연하며, 오픈소스인 Android용 팟캐스트 관리자.</p>
+        </div>
+        <div class="col-0 col-lg-2"></div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/ko/about">
+              정보
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/ko/blog">
+              블로그
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/ko/contribute">
+              기여
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/ko/documentation">
+              문서
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 col-md-4 col-sm-4 mb-3">
+          <div class="mb-2">
+            <a href="/ko/download">
+              AntennaPod 다운로드
+            </a>
+          </div>
+          <div class="mb-2">
+            <a href="/ko/media-kit">
+              미디어 키트
+            </a>
+          </div>
+        </div>
+        <div class="col-5 col-lg-2 col-md-4 col-sm-4">
+          
+          <p class="mb-2">
+            <a class="me-2" href="https://fosstodon.org/@AntennaPod" target="_blank" rel="me noopener">
+              <i class="fa-brands fa-mastodon me-1 ms-1"></i>Mastodon
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="me-2" href="https://github.com/AntennaPod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github me-1 ms-1"></i>GitHub
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="me-2" href="https://bsky.app/profile/AntennaPod.org" target="_blank" rel="noopener">
+              <i class="fa-brands fa-bluesky me-1 ms-1"></i>Bluesky
+            </a>
+          </p>
+          
+          
+          <p class="mb-2">
+            <a class="me-2" href="https://twitter.com/antennapod" target="_blank" rel="noopener">
+              <i class="fa-brands fa-x-twitter me-1 ms-1"></i>Twitter
+            </a>
+          </p>
+          
+          <p>
+            <a class="me-2" href="/rss.xml" target="_blank" rel="noopener">
+              <i class="fa-solid fa-rss me-1 ms-1"></i>RSS
+            </a>
+          </p>
+        </div>
+      </div>
+      <p class="w-100 border-top border-dark mb-2"></p>
+      <div class="d-block d-lg-flex justify-content-between pt-0 pb-3 copyright">
+        <div class="small mb-2 mb-lg-0">
+          © 2026 AntennaPod
+          <span class="mx-1">|</span>
+          <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="/ko/license">라이선스</a>
+          <span class="mx-1">|</span>
+          <a class="link-underline link-underline-opacity-0 link-underline-opacity-100-hover" href="/ko/privacy">개인정보 처리방침</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="modal fade" id="imgPopupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <img id="imgPopupModalImg" src="" alt="" width="100%" class="rounded" loading="lazy">
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
