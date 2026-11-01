@@ -20,7 +20,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2.7.0
         with:
-          args: --verbose --max-concurrency 1 --retry-wait-time 30 './_site/**/*.html'
+          args: --verbose --max-concurrency 1 --retry-wait-time 30 --root-dir '${{ github.workspace }}/_site' --fallback-extensions html './_site/**/*.html'
       - name: Create Issue From File
         if: failure()
         uses: peter-evans/create-issue-from-file@v6
