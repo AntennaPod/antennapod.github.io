@@ -40,7 +40,8 @@ title: titles.blog
                         <a class="stretched-link" href="{{ site.baseurl }}{{ blog.url | replace:'.html','' }}"></a>
                           {% assign img_path = blog.image | default: "2020/default.png" %}
                           {% assign img_ext = img_path | split: "." | last %}
-                          {% assign img_base = img_path | remove: "." | remove: img_ext %}
+                          {% assign img_base_length = img_path.size | minus: img_ext.size | minus: 1 %}
+                          {% assign img_base = img_path | slice: 0, img_base_length %}
                           {% assign thumb_path = img_base | append: "-thumb." | append: img_ext %}
                           <img src="/assets/images/blog/{{ img_path }}"
                                srcset="/assets/images/blog/{{ thumb_path }} 400w, /assets/images/blog/{{ img_path }} 800w"
