@@ -433,9 +433,15 @@
 <p>디버깅 정보를 공유할 때(<code class="language-plaintext highlighter-rouge">버그 신고</code> 기능으로 이메일을 보내거나 Android의 충돌 보고 기능을 사용할 때) 다음 데이터가 처리됩니다:</p>
 
 <ul>
-  <li>장치 종류</li>
-  <li>Android 버전</li>
-  <li>안테나팟 버전</li>
+  <li>
+    <p>장치 종류</p>
+  </li>
+  <li>
+    <p>Android 버전</p>
+  </li>
+  <li>
+    <p>안테나팟 버전</p>
+  </li>
 </ul>
 
 <p>제3자<em>로부터</em> 개인 데이터를 받아 다루는 유일한 경우는 설정에서 동기화 서비스를 켰을 때입니다. 이 경우 앱은 서비스가 제공하는 구독 목록과 재생 이벤트를 받을 수 있습니다.</p>
@@ -445,24 +451,40 @@
 <h4 id="팟캐스트-호스팅-업체">팟캐스트 호스팅 업체</h4>
 
 <ul>
-  <li>팟캐스트 설정에 인증 정보를 입력한 경우, 호스트는 여러분이 입력한 인증 정보를 받습니다.</li>
-  <li>팟캐스트 피드를 제공하는 웹 서버는 IP 주소, 접근 시각, 접근 내용 같은 추가 데이터를 수집할 수 있습니다. 여기에는 다운로드하거나 스트리밍하는 에피소드가 포함됩니다. 자세한 내용은 각 서버의 개인정보 처리방침을 참고하십시오. 팟캐스트를 열고 정보 아이콘을 누르면 팟캐스트의 URL을 볼 수 있습니다. 안테나팟은 서버가 쿠키를 설정하도록 허용하지만 앱을 다시 시작할 때마다 쿠키를 지웁니다. 웹 서버는 같은 서버가 설정한 쿠키에만 접근할 수 있습니다. 여러 팟캐스트가 같은 서버에 호스팅되어 있으면, 그 서버는 자신이 호스팅하는 팟캐스트 중 어떤 것을 여러분이 구독했는지 알아낼 수도 있습니다. 이는 제작자가 FeedBurner, Podtrac 같은 서비스로 피드를 배포할 때 일어날 수 있습니다.</li>
-  <li>서버는 여러분이 안테나팟을 사용한다는 사실과 그 버전을 (HTTP User-Agent를 통해) 알 수 있습니다.</li>
+  <li>
+    <p>팟캐스트 설정에 인증 정보를 입력한 경우, 호스트는 여러분이 입력한 인증 정보를 받습니다.</p>
+  </li>
+  <li>
+    <p>팟캐스트 피드를 제공하는 웹 서버는 IP 주소, 접근 시각, 접근 내용 같은 추가 데이터를 수집할 수 있습니다. 여기에는 다운로드하거나 스트리밍하는 에피소드가 포함됩니다. 자세한 내용은 각 서버의 개인정보 처리방침을 참고하십시오. 팟캐스트를 열고 정보 아이콘을 누르면 팟캐스트의 URL을 볼 수 있습니다. 안테나팟은 서버가 쿠키를 설정하도록 허용하지만 앱을 다시 시작할 때마다 쿠키를 지웁니다. 웹 서버는 같은 서버가 설정한 쿠키에만 접근할 수 있습니다. 여러 팟캐스트가 같은 서버에 호스팅되어 있으면, 그 서버는 자신이 호스팅하는 팟캐스트 중 어떤 것을 여러분이 구독했는지 알아낼 수도 있습니다. 이는 제작자가 FeedBurner, Podtrac 같은 서비스로 피드를 배포할 때 일어날 수 있습니다.</p>
+  </li>
+  <li>
+    <p>서버는 여러분이 안테나팟을 사용한다는 사실과 그 버전을 (HTTP User-Agent를 통해) 알 수 있습니다.</p>
+  </li>
 </ul>
 
 <h4 id="추천-및-검색-서비스">추천 및 검색 서비스</h4>
 
 <ul>
-  <li>앱에서 발견 화면을 열면 팟캐스트 추천을 받기 위해 Apple에 요청을 보냅니다. Apple은 이 요청(IP 주소, 선택한 지역 등. 지역은 기본적으로 장치의 국가입니다)을 저장할 수 있습니다. 이 추천은 발견 화면의 상단 메뉴에서 끌 수 있습니다. F-Droid 버전에서는 Apple의 추천을 받기 전에 직접 동의해야 합니다.</li>
-  <li>안테나팟의 검색 기능을 사용하면 PodcastIndex.org(<a href="https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md">개인정보 처리방침</a>), Apple Podcasts(<a href="https://www.apple.com/legal/privacy/en-ww/">개인정보 처리방침</a>), fyyd(<a href="https://fyyd.de/privacy">개인정보 처리방침</a>) 서비스가 검색어를 포함한 질의를 저장할 수 있습니다.</li>
-  <li>추천 및 검색 요청에는 IP 주소, 시각, 앱 이름 ‘AntennaPod’도 포함됩니다. 구독한 뒤에는 피드가 팟캐스트 호스팅 업체에서 제공되므로 추천/검색 서비스는 더 이상 관여하지 않습니다.</li>
+  <li>
+    <p>앱에서 발견 화면을 열면 팟캐스트 추천을 받기 위해 Apple에 요청을 보냅니다. Apple은 이 요청(IP 주소, 선택한 지역 등. 지역은 기본적으로 장치의 국가입니다)을 저장할 수 있습니다. 이 추천은 발견 화면의 상단 메뉴에서 끌 수 있습니다. F-Droid 버전에서는 Apple의 추천을 받기 전에 직접 동의해야 합니다.</p>
+  </li>
+  <li>
+    <p>안테나팟의 검색 기능을 사용하면 PodcastIndex.org(<a href="https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md">개인정보 처리방침</a>), Apple Podcasts(<a href="https://www.apple.com/legal/privacy/en-ww/">개인정보 처리방침</a>), fyyd(<a href="https://fyyd.de/privacy">개인정보 처리방침</a>) 서비스가 검색어를 포함한 질의를 저장할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>추천 및 검색 요청에는 IP 주소, 시각, 앱 이름 ‘AntennaPod’도 포함됩니다. 구독한 뒤에는 피드가 팟캐스트 호스팅 업체에서 제공되므로 추천/검색 서비스는 더 이상 관여하지 않습니다.</p>
+  </li>
 </ul>
 
 <h4 id="동기화-및-백업-서비스">동기화 및 백업 서비스</h4>
 
 <ul>
-  <li>설정에서 켜면 안테나팟은 데이터를 동기화합니다. 여기에는 로그인 정보, 구독한 팟캐스트, 들은 에피소드, 타임스탬프가 붙은 재생/일시 정지/즐겨찾기 동작, IP 주소가 포함될 수 있습니다. 자세한 내용은 동기화 서비스 제공자의 개인정보 처리방침을 참고하십시오.</li>
-  <li>휴대전화에서 백업을 켜 두었다면(<code class="language-plaintext highlighter-rouge">설정</code> » <code class="language-plaintext highlighter-rouge">백업 및 초기화</code> » <code class="language-plaintext highlighter-rouge">내 데이터 백업</code>), Android는 주기적으로 휴대전화 데이터의 사본을 Google 서버에 저장합니다. 이 백업에는 WiFi 비밀번호, 메시지, 통화 기록 같은 개인 정보가 들어 있습니다. 안테나팟과 다른 앱의 데이터도 포함될 수 있습니다. 안테나팟 개발자는 이 데이터에 접근할 수 없습니다. 자세한 내용은 <a href="https://policies.google.com">Google 개인정보 처리방침</a>을 참고하십시오.</li>
+  <li>
+    <p>설정에서 켜면 안테나팟은 데이터를 동기화합니다. 여기에는 로그인 정보, 구독한 팟캐스트, 들은 에피소드, 타임스탬프가 붙은 재생/일시 정지/즐겨찾기 동작, IP 주소가 포함될 수 있습니다. 자세한 내용은 동기화 서비스 제공자의 개인정보 처리방침을 참고하십시오.</p>
+  </li>
+  <li>
+    <p>휴대전화에서 백업을 켜 두었다면(<code class="language-plaintext highlighter-rouge">설정</code> » <code class="language-plaintext highlighter-rouge">백업 및 초기화</code> » <code class="language-plaintext highlighter-rouge">내 데이터 백업</code>), Android는 주기적으로 휴대전화 데이터의 사본을 Google 서버에 저장합니다. 이 백업에는 WiFi 비밀번호, 메시지, 통화 기록 같은 개인 정보가 들어 있습니다. 안테나팟과 다른 앱의 데이터도 포함될 수 있습니다. 안테나팟 개발자는 이 데이터에 접근할 수 없습니다. 자세한 내용은 <a href="https://policies.google.com">Google 개인정보 처리방침</a>을 참고하십시오.</p>
+  </li>
 </ul>
 
 <h4 id="장치-및-운영체제-제조사">장치 및 운영체제 제조사</h4>
@@ -485,12 +507,19 @@
 <p>안테나팟은 Open Collective Inc.(미국)와 Open Collective Europe ASBL(벨기에)이 운영하는 Open Collective를 사용합니다. 기부하면 데이터는 다음으로 전달됩니다:</p>
 
 <ul>
-  <li>이 법인들 - 자세한 내용은 <a href="https://opencollective.com/privacypolicy">Open Collective Inc. 개인정보 처리방침</a>을 참고하십시오</li>
   <li>
-<a href="https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest">익명 게스트</a>나 <a href="https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor">비공개</a> 사용자로 기부하지 않는 한, 안테나팟 팀은 다음 정보에 접근할 수 있습니다(추출하지는 않습니다):
+    <p>이 법인들 - 자세한 내용은 <a href="https://opencollective.com/privacypolicy">Open Collective Inc. 개인정보 처리방침</a>을 참고하십시오</p>
+  </li>
+  <li>
+    <p><a href="https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest">익명 게스트</a>나 <a href="https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor">비공개</a> 사용자로 기부하지 않는 한, 안테나팟 팀은 다음 정보에 접근할 수 있습니다(추출하지는 않습니다):</p>
+
     <ul>
-      <li>공개 프로필 정보(이름, 회사, 설명, 이미지, Twitter, GitHub, 웹사이트)</li>
-      <li>이메일 주소</li>
+      <li>
+        <p>공개 프로필 정보(이름, 회사, 설명, 이미지, Twitter, GitHub, 웹사이트)</p>
+      </li>
+      <li>
+        <p>이메일 주소</p>
+      </li>
     </ul>
   </li>
 </ul>
@@ -500,8 +529,12 @@
 <p>안테나팟 웹사이트는 GitHub Pages를 통해 호스팅됩니다.</p>
 
 <ul>
-  <li>웹사이트를 방문하면 GitHub, Inc. 또는 GitHub B.V.와 상호작용하게 됩니다. 수집·처리하는 데이터는 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">개인정보 처리방침</a>을 참고하십시오.</li>
-  <li>웹사이트는 쿠키를 설정하지 않으며 제3자 추적, 분석, 기타 서비스를 사용하지 않습니다. ‘기여’ 섹션의 ‘번역’ 페이지에는 Weblate s.r.o. 서버(<a href="https://weblate.org/en-gb/privacy/">개인정보 처리방침</a>)에서 가져오는 그래프가 포함되어 있습니다.</li>
+  <li>
+    <p>웹사이트를 방문하면 GitHub, Inc. 또는 GitHub B.V.와 상호작용하게 됩니다. 수집·처리하는 데이터는 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">개인정보 처리방침</a>을 참고하십시오.</p>
+  </li>
+  <li>
+    <p>웹사이트는 쿠키를 설정하지 않으며 제3자 추적, 분석, 기타 서비스를 사용하지 않습니다. ‘기여’ 섹션의 ‘번역’ 페이지에는 Weblate s.r.o. 서버(<a href="https://weblate.org/en-gb/privacy/">개인정보 처리방침</a>)에서 가져오는 그래프가 포함되어 있습니다.</p>
+  </li>
 </ul>
 
 <h4 id="google-play">Google Play</h4>
@@ -509,11 +542,21 @@
 <p>Google Play 스토어에 직접 리뷰를 남기면 안테나팟 팀은 여러분의 공개 프로필 정보에 접근할 수 있으며, 다음 정보를 추출해 팀이 사용하는 온라인 서비스(GitHub나 포럼 등)에 저장할 수 있습니다:</p>
 
 <ul>
-  <li>리뷰 내용</li>
-  <li>안테나팟 버전</li>
-  <li>장치 종류</li>
-  <li>장치 언어</li>
-  <li>Android 버전</li>
+  <li>
+    <p>리뷰 내용</p>
+  </li>
+  <li>
+    <p>안테나팟 버전</p>
+  </li>
+  <li>
+    <p>장치 종류</p>
+  </li>
+  <li>
+    <p>장치 언어</p>
+  </li>
+  <li>
+    <p>Android 버전</p>
+  </li>
 </ul>
 
 <h4 id="weblate">Weblate</h4>
@@ -521,12 +564,19 @@
 <p>안테나팟 번역에 기여하면:</p>
 
 <ul>
-  <li>Weblate s.r.o.의 호스팅 서비스와 상호작용하게 됩니다. 수집·처리하는 데이터는 <a href="https://weblate.org/en-gb/privacy/">개인정보 처리방침</a>을 참고하십시오.</li>
-  <li>안테나팟 팀은 다음 정보에 접근할 수 있습니다:
+  <li>
+    <p>Weblate s.r.o.의 호스팅 서비스와 상호작용하게 됩니다. 수집·처리하는 데이터는 <a href="https://weblate.org/en-gb/privacy/">개인정보 처리방침</a>을 참고하십시오.</p>
+  </li>
+  <li>
+    <p>안테나팟 팀은 다음 정보에 접근할 수 있습니다:</p>
+
     <ul>
       <li>
-<a href="https://hosted.weblate.org/accounts/profile/#account">프로필</a>에 설정한 ‘사용자 이름’, ‘전체 이름’, ‘계정 이메일’</li>
-      <li>프로젝트에 참여한 날짜, 기여에 대한 상세 <a href="https://docs.weblate.org/en/latest/devel/reporting.html#stats">통계</a>, 기여하는 <a href="https://docs.weblate.org/en/latest/devel/reporting.html#credits">언어</a>, 기여한 날짜와 시각.</li>
+        <p><a href="https://hosted.weblate.org/accounts/profile/#account">프로필</a>에 설정한 ‘사용자 이름’, ‘전체 이름’, ‘계정 이메일’</p>
+      </li>
+      <li>
+        <p>프로젝트에 참여한 날짜, 기여에 대한 상세 <a href="https://docs.weblate.org/en/latest/devel/reporting.html#stats">통계</a>, 기여하는 <a href="https://docs.weblate.org/en/latest/devel/reporting.html#credits">언어</a>, 기여한 날짜와 시각.</p>
+      </li>
     </ul>
   </li>
 </ul>

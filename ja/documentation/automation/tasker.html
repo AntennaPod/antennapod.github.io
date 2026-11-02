@@ -457,8 +457,12 @@
 <p>もっと複雑な要求があるときは、さまざまなサードパーティの自動化アプリケーションをAntennaPodとともに使用できます。たとえば、次のようなことができます。</p>
 
 <ul>
-  <li>1日のはじめに、午前7時に更新された購読を取得する: Wi-Fiに切り替えてAntennaPodフィードを更新する。</li>
-  <li>自宅への帰り道の前に購読を取得する: 平日午後5時に購読を更新する。</li>
+  <li>
+    <p>1日のはじめに、午前7時に更新された購読を取得する: Wi-Fiに切り替えてAntennaPodフィードを更新する。</p>
+  </li>
+  <li>
+    <p>自宅への帰り道の前に購読を取得する: 平日午後5時に購読を更新する。</p>
+  </li>
 </ul>
 
 <h2 id="一般的な手順">一般的な手順</h2>
@@ -466,10 +470,12 @@
 <p>自動化アプリでは、以下のような設定で ‘Broadcast’（Androidのintentの1種として表示されることがあります）を送信することで、AntennaPodに購読を更新させられます。</p>
 
 <ul>
-  <li>パッケージ名: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>クラス名: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>パッケージ名: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>クラス名: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="いくつかの自動化アプリ向けのステップ">いくつかの自動化アプリ向けのステップ</h2>
@@ -493,9 +499,12 @@ data:
 <p>flowで、<code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> という種類のブロックを追加し、以下を指定します</p>
 
 <ol>
-  <li>Package: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Receiverクラスを <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> にする</li>
+  <li>
+    <p>Package: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Receiverクラスを <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> にする</p>
+  </li>
 </ol>
 
 <h3 id="taskerwebsite">Tasker（<a href="https://tasker.joaoapps.com/">website</a>）</h3>
@@ -504,13 +513,23 @@ data:
 
 <ol>
   <li>
-<code class="language-plaintext highlighter-rouge">System</code>を選択します</li>
+    <p><code class="language-plaintext highlighter-rouge">System</code>を選択します</p>
+  </li>
   <li>
-<code class="language-plaintext highlighter-rouge">インテントを送信</code> を選択します</li>
-  <li>パッケージ名として <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> を指定します</li>
-  <li>クラス名として <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> を指定します</li>
-  <li>ターゲットとして <code class="language-plaintext highlighter-rouge">Broadcast receiver</code> を指定します</li>
-  <li>他のフィールドは空のままにできます</li>
+    <p><code class="language-plaintext highlighter-rouge">インテントを送信</code> を選択します</p>
+  </li>
+  <li>
+    <p>パッケージ名として <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> を指定します</p>
+  </li>
+  <li>
+    <p>クラス名として <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> を指定します</p>
+  </li>
+  <li>
+    <p>ターゲットとして <code class="language-plaintext highlighter-rouge">Broadcast receiver</code> を指定します</p>
+  </li>
+  <li>
+    <p>他のフィールドは空のままにできます</p>
+  </li>
 </ol>
 
 <hr>

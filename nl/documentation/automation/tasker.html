@@ -457,8 +457,12 @@
 <p>Voor meer ingewikkelde behoeften bestaan verschillende automatiseringstoepassingen van derden voor gebruik met AntennaPod. Bijvoorbeeld:</p>
 
 <ul>
-  <li>Werk de abonnementen bij aan het begin van de dag: zet om 7 uur ‘s ochtends Wi-Fi aan, werk vervolgens AntennaPod feeds bij.</li>
-  <li>Haal je abonnementen op voor je naar huis gaat: update abonnementen op werkdagen om 17:00.</li>
+  <li>
+    <p>Werk de abonnementen bij aan het begin van de dag: zet om 7 uur ‘s ochtends Wi-Fi aan, werk vervolgens AntennaPod feeds bij.</p>
+  </li>
+  <li>
+    <p>Haal je abonnementen op voor je naar huis gaat: update abonnementen op werkdagen om 17:00.</p>
+  </li>
 </ul>
 
 <h2 id="instructies">Instructies</h2>
@@ -466,10 +470,12 @@
 <p>Vraag in de automatiseringstoepassing AntennaPod de abonnementen bij te werken door een ‘Broadcast’ te verzenden (dit kan worden weergegeven als een soort Android-intentie) met de volgende instellingen:</p>
 
 <ul>
-  <li>Pakketnaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod </code>
-</li>
-  <li>Klassenaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Pakketnaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod </code></p>
+  </li>
+  <li>
+    <p>Klassenaam: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="instructies-voor-sommige-automatiseringsapps">Instructies voor sommige automatiseringsapps</h2>
@@ -494,9 +500,11 @@ data:
 
 <ol>
   <li>
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> als het pakket</li>
+    <p><code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> als het pakket</p>
+  </li>
   <li>
-<code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> als de ‘receiver class’</li>
+    <p><code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> als de ‘receiver class’</p>
+  </li>
 </ol>
 
 <h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">website</a>)</h3>
@@ -504,17 +512,24 @@ data:
 <p>Maak een taak. In de taak, voeg een actie toe</p>
 
 <ol>
-  <li>Kies <code class="language-plaintext highlighter-rouge">Systeem</code>
-</li>
-  <li>Kies <code class="language-plaintext highlighter-rouge">Send Intent</code>
-</li>
-  <li>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Geef de klassenaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
-  <li>Specificeer Doel als <code class="language-plaintext highlighter-rouge">Broadcast ontvanger</code>
-</li>
-  <li>Laat de andere velden leeg</li>
+  <li>
+    <p>Kies <code class="language-plaintext highlighter-rouge">Systeem</code></p>
+  </li>
+  <li>
+    <p>Kies <code class="language-plaintext highlighter-rouge">Send Intent</code></p>
+  </li>
+  <li>
+    <p>Geef de pakketnaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Geef de klassenaam op als <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
+  <li>
+    <p>Specificeer Doel als <code class="language-plaintext highlighter-rouge">Broadcast ontvanger</code></p>
+  </li>
+  <li>
+    <p>Laat de andere velden leeg</p>
+  </li>
 </ol>
 
 <hr>

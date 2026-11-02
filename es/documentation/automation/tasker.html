@@ -457,8 +457,12 @@
 <p>Si tienes unas necesidades más complejas, puedes utilizar varias aplicaciones de automatizaciones de terceros con AntennaPod para hacerlo. Ejemplos:</p>
 
 <ul>
-  <li>Actualizar las suscripciones al principio del día: a las 07, encender el WiFi, luego actualizar los feeds de AntennaPod.</li>
-  <li>Obtén tus suscripciones antes de llegar a casa: a las 17:00 horas en días laborables actualiza las suscripciones.</li>
+  <li>
+    <p>Actualizar las suscripciones al principio del día: a las 07, encender el WiFi, luego actualizar los feeds de AntennaPod.</p>
+  </li>
+  <li>
+    <p>Obtén tus suscripciones antes de llegar a casa: a las 17:00 horas en días laborables actualiza las suscripciones.</p>
+  </li>
 </ul>
 
 <h2 id="instrucciones-generales">Instrucciones generales</h2>
@@ -466,10 +470,12 @@
 <p>En tu aplicación de automatizaciones, puedes pedirle a AntennaPod que actualice sus suscripciones enviando un ‘Broadcast’ (puede que se muestre como un tipo de intención de Android) con las siguientes opciones:</p>
 
 <ul>
-  <li>Nombre del paquete: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Nombre de la clase: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Nombre del paquete: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Nombre de la clase: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="pasos-para-algunas-aplicaciones-de-automatizaciones">Pasos para algunas aplicaciones de automatizaciones</h2>
@@ -493,10 +499,12 @@ data:
 <p>En un flow, añade un bloque del tipo <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code>, y especifica</p>
 
 <ol>
-  <li>El paquete debe ser <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>La clase del receptor será <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>El paquete debe ser <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>La clase del receptor será <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ol>
 
 <h3 id="tasker-sitio-web">Tasker (<a href="https://tasker.joaoapps.com/">sitio web</a>)</h3>
@@ -504,17 +512,24 @@ data:
 <p>Crea una tarea. En la tarea, añade una acción</p>
 
 <ol>
-  <li>Selecciona <code class="language-plaintext highlighter-rouge">Sistema</code>
-</li>
-  <li>Selecciona <code class="language-plaintext highlighter-rouge">Enviar intención</code>
-</li>
-  <li>Especifica que el nombre del paquete sea <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Especificar el nombre de la clase como <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
-  <li>Especifica que el objetivo sea <code class="language-plaintext highlighter-rouge">Receptor de difusión</code>
-</li>
-  <li>Puedes dejar los demás campos en blanco</li>
+  <li>
+    <p>Selecciona <code class="language-plaintext highlighter-rouge">Sistema</code></p>
+  </li>
+  <li>
+    <p>Selecciona <code class="language-plaintext highlighter-rouge">Enviar intención</code></p>
+  </li>
+  <li>
+    <p>Especifica que el nombre del paquete sea <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Especificar el nombre de la clase como <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
+  <li>
+    <p>Especifica que el objetivo sea <code class="language-plaintext highlighter-rouge">Receptor de difusión</code></p>
+  </li>
+  <li>
+    <p>Puedes dejar los demás campos en blanco</p>
+  </li>
 </ol>
 
 <hr>

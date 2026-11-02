@@ -457,8 +457,12 @@
 <p>Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod verwenden. Beispielsweise:</p>
 
 <ul>
-  <li>Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet und anschließend werden die AntennaPod-Feeds aktualisiert.</li>
-  <li>Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um 17 Uhr aktualisiert.</li>
+  <li>
+    <p>Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet und anschließend werden die AntennaPod-Feeds aktualisiert.</p>
+  </li>
+  <li>
+    <p>Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um 17 Uhr aktualisiert.</p>
+  </li>
 </ul>
 
 <h2 id="allgemeine-anweisungen">Allgemeine Anweisungen</h2>
@@ -466,10 +470,12 @@
 <p>In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als „Android-Intent“ angezeigt werden) mit den folgenden Einstellungen sendest:</p>
 
 <ul>
-  <li>Paketname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Klassenname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Paketname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Klassenname: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="anleitungen-für-einige-automatisierungs-apps">Anleitungen für einige Automatisierungs-Apps</h2>
@@ -493,9 +499,12 @@ data:
 <p>Füge einen Block des Typs <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast senden</code> ein und spezifiziere</p>
 
 <ol>
-  <li>Paket zu <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Die Empfängerklasse sollte <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> sein</li>
+  <li>
+    <p>Paket zu <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Die Empfängerklasse sollte <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> sein</p>
+  </li>
 </ol>
 
 <h3 id="tasker-website">Tasker (<a href="https://tasker.joaoapps.com/">Website</a>)</h3>
@@ -503,14 +512,24 @@ data:
 <p>Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu</p>
 
 <ol>
-  <li>Wähle <code class="language-plaintext highlighter-rouge">System</code>
-</li>
-  <li>Wähle <code class="language-plaintext highlighter-rouge">Intent senden</code>
-</li>
-  <li>Gib als Paketname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> an</li>
-  <li>Gib als Klassenname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> an</li>
-  <li>Gib als Ziel <code class="language-plaintext highlighter-rouge">Broadcast-Empfänger</code> an</li>
-  <li>Du kannst die anderen Felder leer lassen</li>
+  <li>
+    <p>Wähle <code class="language-plaintext highlighter-rouge">System</code></p>
+  </li>
+  <li>
+    <p>Wähle <code class="language-plaintext highlighter-rouge">Intent senden</code></p>
+  </li>
+  <li>
+    <p>Gib als Paketname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> an</p>
+  </li>
+  <li>
+    <p>Gib als Klassenname <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> an</p>
+  </li>
+  <li>
+    <p>Gib als Ziel <code class="language-plaintext highlighter-rouge">Broadcast-Empfänger</code> an</p>
+  </li>
+  <li>
+    <p>Du kannst die anderen Felder leer lassen</p>
+  </li>
 </ol>
 
 <hr>

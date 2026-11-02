@@ -457,8 +457,12 @@
 <p>Hvis du har mere komplekse behov, kan du bruge forskellige tredjeparts-automatiseringsprogrammer sammen med AntennaPod til at gøre det. For eksempel:</p>
 
 <ul>
-  <li>Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes for Wi-Fi, og derefter opdateres AntennaPod-feeds.</li>
-  <li>Få dine abonnementer inden turen hjem: opdater abonnementer kl. 17.00 på hverdage.</li>
+  <li>
+    <p>Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes for Wi-Fi, og derefter opdateres AntennaPod-feeds.</p>
+  </li>
+  <li>
+    <p>Få dine abonnementer inden turen hjem: opdater abonnementer kl. 17.00 på hverdage.</p>
+  </li>
 </ul>
 
 <h2 id="generelle-instruktioner">Generelle instruktioner</h2>
@@ -466,10 +470,12 @@
 <p>I din automatiseringsapplikation kan du få AntennaPod til at opdatere sine abonnementer ved at sende en ‘Broadcast’ (det kan blive vist som en type Android-hensigt) med følgende indstillinger:</p>
 
 <ul>
-  <li>Pakkenavn: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Klassenavn: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Pakkenavn: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Klassenavn: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="vejledning-til-nogle-automatiseringsapps">Vejledning til nogle automatiseringsapps</h2>
@@ -493,10 +499,12 @@ data:
 <p>I et flow skal du tilføje en blok af typen <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code>, angive</p>
 
 <ol>
-  <li>Pakke skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Modtagerklasse skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>Pakke skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Modtagerklasse skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ol>
 
 <h3 id="tasker-websted">Tasker (<a href="https://tasker.joaoapps.com/">websted</a>)</h3>
@@ -504,17 +512,24 @@ data:
 <p>Opret en opgave. Tilføj en handling i opgaven</p>
 
 <ol>
-  <li>Vælg <code class="language-plaintext highlighter-rouge">System</code>
-</li>
-  <li>Vælg <code class="language-plaintext highlighter-rouge">Send intent</code>
-</li>
-  <li>Specificer at pakkenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>Specificer at klassenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
-  <li>Angiv, at målet skal være <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>
-</li>
-  <li>Du kan lade de andre felter være tomme</li>
+  <li>
+    <p>Vælg <code class="language-plaintext highlighter-rouge">System</code></p>
+  </li>
+  <li>
+    <p>Vælg <code class="language-plaintext highlighter-rouge">Send intent</code></p>
+  </li>
+  <li>
+    <p>Specificer at pakkenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>Specificer at klassenavn skal være <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
+  <li>
+    <p>Angiv, at målet skal være <code class="language-plaintext highlighter-rouge">Broadcast receiver</code></p>
+  </li>
+  <li>
+    <p>Du kan lade de andre felter være tomme</p>
+  </li>
 </ol>
 
 <hr>

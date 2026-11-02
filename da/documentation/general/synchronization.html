@@ -456,19 +456,27 @@
 
 <ul>
   <li>
-<a href="https://gpodder.net/">gpodder.net</a> tilbyder en gratis gPodder-synkroniseringsserver, som <strong>alle kan tilmelde sig</strong>. Desværre er denne server på grund af tjenestens popularitet og dens begrænsede finansiering ofte overbelastet, hvilket fører til fejl i AntennaPod.</li>
-  <li>Brugere med større teknisk indsigt opfordres på det kraftigste til at <strong>selv hoste en synkroniseringsserver</strong>. En selvhostet server er mere pålidelig og bidrager til at mindske belastningen på gratis, offentlige tjenester. Der findes flere muligheder:
+    <p><a href="https://gpodder.net/">gpodder.net</a> tilbyder en gratis gPodder-synkroniseringsserver, som <strong>alle kan tilmelde sig</strong>. Desværre er denne server på grund af tjenestens popularitet og dens begrænsede finansiering ofte overbelastet, hvilket fører til fejl i AntennaPod.</p>
+  </li>
+  <li>
+    <p>Brugere med større teknisk indsigt opfordres på det kraftigste til at <strong>selv hoste en synkroniseringsserver</strong>. En selvhostet server er mere pålidelig og bidrager til at mindske belastningen på gratis, offentlige tjenester. Der findes flere muligheder:</p>
+
     <ul>
       <li>
-<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> med <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync-appen</a> (PHP)</li>
+        <p><a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> med <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync-appen</a> (PHP)</p>
+      </li>
       <li>
-<a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</li>
+        <p><a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</p>
+      </li>
       <li>
-<a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</li>
+        <p><a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</p>
+      </li>
       <li>
-<a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</li>
+        <p><a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</p>
+      </li>
       <li>
-<a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</li>
+        <p><a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</p>
+      </li>
     </ul>
   </li>
 </ul>
@@ -478,32 +486,50 @@
 <h2 id="aktivér-synkronisering-via-nextcloud">Aktivér synkronisering via Nextcloud</h2>
 
 <ol>
-  <li>Hvis du har en Nextcloud-konto, skal du installere gPodder Sync-appen eller bede din serveradministrator om at gøre det</li>
-  <li>Gå til <code class="language-plaintext highlighter-rouge">Indstillinger</code> » <code class="language-plaintext highlighter-rouge">Synkronisering</code> i AntennaPod, og tryk på <code class="language-plaintext highlighter-rouge">Vælg synkroniseringsudbyder</code>
-</li>
-  <li>Vælg <code class="language-plaintext highlighter-rouge">gPodder Sync</code>
-</li>
-  <li>Indtast ‘Serveradresse’ (serverens URL- eller IP-adresse), og tryk på <code class="language-plaintext highlighter-rouge">Fortsæt</code>
-</li>
-  <li>Log ind i det browservindue, der åbnes, og godkend AntennaPod</li>
+  <li>
+    <p>Hvis du har en Nextcloud-konto, skal du installere gPodder Sync-appen eller bede din serveradministrator om at gøre det</p>
+  </li>
+  <li>
+    <p>Gå til <code class="language-plaintext highlighter-rouge">Indstillinger</code> » <code class="language-plaintext highlighter-rouge">Synkronisering</code> i AntennaPod, og tryk på <code class="language-plaintext highlighter-rouge">Vælg synkroniseringsudbyder</code></p>
+  </li>
+  <li>
+    <p>Vælg <code class="language-plaintext highlighter-rouge">gPodder Sync</code></p>
+  </li>
+  <li>
+    <p>Indtast ‘Serveradresse’ (serverens URL- eller IP-adresse), og tryk på <code class="language-plaintext highlighter-rouge">Fortsæt</code></p>
+  </li>
+  <li>
+    <p>Log ind i det browservindue, der åbnes, og godkend AntennaPod</p>
+  </li>
 </ol>
 
 <h2 id="aktivér-synkronisering-via-gpodder">Aktivér synkronisering via gPodder</h2>
 
 <ol>
-  <li>Opret en konto på serveren www.gpodder.net eller på din egen server</li>
-  <li>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="enheder" loading="lazy" style="" class="rounded mt-2  img-popup">
-</li>
-  <li>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synkroniser" loading="lazy" style="" class="rounded mt-2  img-popup">
-</li>
-  <li>Gå til <code class="language-plaintext highlighter-rouge">Indstillinger</code> » <code class="language-plaintext highlighter-rouge">Synkronisering</code> i AntennaPod, og tryk på <code class="language-plaintext highlighter-rouge">Vælg synkroniseringsudbyder</code>
-</li>
-  <li>Vælg ‘gPodder’</li>
-  <li>Indtast ‘Serveradresse’ (f.eks. www.gpodder.net), og tryk på <code class="language-plaintext highlighter-rouge">Fortsæt til login</code>
-</li>
-  <li>Indtast ‘Brugernavn’ og ‘Adgangskode’ og tryk på <code class="language-plaintext highlighter-rouge">Log ind</code>
-</li>
-  <li>Vælg den enhed, du oprettede på serveren</li>
+  <li>
+    <p>Opret en konto på serveren www.gpodder.net eller på din egen server</p>
+  </li>
+  <li>
+    <p>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
+  </li>
+  <li>
+    <p>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
+  </li>
+  <li>
+    <p>Gå til <code class="language-plaintext highlighter-rouge">Indstillinger</code> » <code class="language-plaintext highlighter-rouge">Synkronisering</code> i AntennaPod, og tryk på <code class="language-plaintext highlighter-rouge">Vælg synkroniseringsudbyder</code></p>
+  </li>
+  <li>
+    <p>Vælg ‘gPodder’</p>
+  </li>
+  <li>
+    <p>Indtast ‘Serveradresse’ (f.eks. www.gpodder.net), og tryk på <code class="language-plaintext highlighter-rouge">Fortsæt til login</code></p>
+  </li>
+  <li>
+    <p>Indtast ‘Brugernavn’ og ‘Adgangskode’ og tryk på <code class="language-plaintext highlighter-rouge">Log ind</code></p>
+  </li>
+  <li>
+    <p>Vælg den enhed, du oprettede på serveren</p>
+  </li>
 </ol>
 
 <p><strong>Bemærk</strong> Oprettede du en enhed, mens du indstillede synkroniseringen i AntennaPod, i stedet for at oprette en enhed i forvejen på webstedet? Så sørg for at trykke på knappen <code class="language-plaintext highlighter-rouge">Fremtving synkronisering</code> for at uploade afspilningstilstanden for alle de afsnit, du har lyttet til tidligere. Hvis du ikke gør dette, synkroniseres kun podcasts, der blev tilføjet <strong>efter</strong> sammenkobling af enhederne. Der er et <a href="https://github.com/gpodder/mygpo/issues/388">åbent issue for gpodder.net</a>, som anmoder om at ændre denne adfærd.</p>

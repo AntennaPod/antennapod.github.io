@@ -460,9 +460,11 @@
 
 <ul>
   <li>
-<strong>Afspillet varighed</strong>: Hvor længe afsnittet blev afspillet (f.eks. 6 minutter, hvis et afsnit på 3 minutter blev afspillet to gange)</li>
+    <p><strong>Afspillet varighed</strong>: Hvor længe afsnittet blev afspillet (f.eks. 6 minutter, hvis et afsnit på 3 minutter blev afspillet to gange)</p>
+  </li>
   <li>
-<strong>Senest afspillet</strong>: Den dato og det klokkeslæt, hvor afspilningen sidst blev sat på pause eller stoppet for afsnittet</li>
+    <p><strong>Senest afspillet</strong>: Den dato og det klokkeslæt, hvor afspilningen sidst blev sat på pause eller stoppet for afsnittet</p>
+  </li>
 </ul>
 
 <p>Begge opdateres, hver gang afspilningen sættes på pause eller stoppes. Disse oplysninger bruges til at beregne totaler ved at lægge den ‘afspillet varighed’ sammen for alle afsnit, hvis ‘senest afspillet’ dato falder inden for en given måned.</p>
@@ -478,9 +480,15 @@
 <p>Det ville f.eks. være muligt at registrere for hvert afsnit, hvor længe det blev afspillet hver dag. For eksempel:</p>
 
 <ul>
-  <li>28 juni: 7 minutter</li>
-  <li>30 juni: 38 minutter</li>
-  <li>1 juli: 19 minutter</li>
+  <li>
+    <p>28 juni: 7 minutter</p>
+  </li>
+  <li>
+    <p>30 juni: 38 minutter</p>
+  </li>
+  <li>
+    <p>1 juli: 19 minutter</p>
+  </li>
 </ul>
 
 <p>Der er to hovedårsager. For det første er statistik sjovt, men <strong>vi vil hellere bruge tid på AntennaPods hovedformål: at afspille podcasts</strong>. At skifte til denne nye tilgang ville kræve tid nu til at implementere det (omskrivning af koden, der gemmer afspilningstid i databasen) og tid i fremtiden til at vedligeholde et mere komplekst system.</p>

@@ -456,19 +456,27 @@
 
 <ul>
   <li>
-<a href="https://gpodder.net/">gpodder.net</a>은 <strong>누구나 가입할 수 있는</strong> 무료 gPodder 동기화 서버를 제공합니다. 아쉽게도 서비스의 인기에 비해 자금이 부족해 이 서버는 자주 과부하되며, 그 결과 안테나팟에서 오류가 생깁니다.</li>
-  <li>기술에 익숙한 사용자라면 <strong>동기화 서버를 직접 호스팅</strong>하기를 강력히 권합니다. 직접 호스팅한 서버는 더 안정적이고 무료 공개 서비스의 부하를 줄이는 데도 도움이 됩니다. 몇 가지 선택지가 있습니다:
+    <p><a href="https://gpodder.net/">gpodder.net</a>은 <strong>누구나 가입할 수 있는</strong> 무료 gPodder 동기화 서버를 제공합니다. 아쉽게도 서비스의 인기에 비해 자금이 부족해 이 서버는 자주 과부하되며, 그 결과 안테나팟에서 오류가 생깁니다.</p>
+  </li>
+  <li>
+    <p>기술에 익숙한 사용자라면 <strong>동기화 서버를 직접 호스팅</strong>하기를 강력히 권합니다. 직접 호스팅한 서버는 더 안정적이고 무료 공개 서비스의 부하를 줄이는 데도 도움이 됩니다. 몇 가지 선택지가 있습니다:</p>
+
     <ul>
       <li>
-<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> + <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync 앱</a> (PHP)</li>
+        <p><a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> + <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync 앱</a> (PHP)</p>
+      </li>
       <li>
-<a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</li>
+        <p><a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</p>
+      </li>
       <li>
-<a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</li>
+        <p><a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</p>
+      </li>
       <li>
-<a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</li>
+        <p><a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</p>
+      </li>
       <li>
-<a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</li>
+        <p><a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</p>
+      </li>
     </ul>
   </li>
 </ul>
@@ -478,27 +486,50 @@
 <h2 id="nextcloud로-동기화-켜기">Nextcloud로 동기화 켜기</h2>
 
 <ol>
-  <li>Nextcloud 계정이 있다면 gPodder Sync 앱을 설치하거나 서버 관리자에게 설치를 요청하십시오</li>
-  <li>안테나팟에서 <code class="language-plaintext highlighter-rouge">설정</code> » <code class="language-plaintext highlighter-rouge">동기화</code>로 가서 <code class="language-plaintext highlighter-rouge">동기화 프로바이더 선택</code>을 누릅니다</li>
   <li>
-<code class="language-plaintext highlighter-rouge">gPodder Sync</code>를 선택합니다</li>
-  <li>‘서버 주소’(서버의 URL 또는 IP 주소)를 입력하고 <code class="language-plaintext highlighter-rouge">계속</code>을 누릅니다</li>
-  <li>열리는 브라우저 창에서 로그인하고 안테나팟을 승인합니다</li>
+    <p>Nextcloud 계정이 있다면 gPodder Sync 앱을 설치하거나 서버 관리자에게 설치를 요청하십시오</p>
+  </li>
+  <li>
+    <p>안테나팟에서 <code class="language-plaintext highlighter-rouge">설정</code> » <code class="language-plaintext highlighter-rouge">동기화</code>로 가서 <code class="language-plaintext highlighter-rouge">동기화 프로바이더 선택</code>을 누릅니다</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">gPodder Sync</code>를 선택합니다</p>
+  </li>
+  <li>
+    <p>‘서버 주소’(서버의 URL 또는 IP 주소)를 입력하고 <code class="language-plaintext highlighter-rouge">계속</code>을 누릅니다</p>
+  </li>
+  <li>
+    <p>열리는 브라우저 창에서 로그인하고 안테나팟을 승인합니다</p>
+  </li>
 </ol>
 
 <h2 id="gpodder로-동기화-켜기">gPodder로 동기화 켜기</h2>
 
 <ol>
-  <li>www.gpodder.net 서버나 자체 서버에 계정을 만듭니다</li>
-  <li>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="장치" loading="lazy" style="" class="rounded mt-2  img-popup">
-</li>
-  <li>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="동기화" loading="lazy" style="" class="rounded mt-2  img-popup">
-</li>
-  <li>안테나팟에서 <code class="language-plaintext highlighter-rouge">설정</code> » <code class="language-plaintext highlighter-rouge">동기화</code>로 가서 <code class="language-plaintext highlighter-rouge">동기화 프로바이더 선택</code>을 누릅니다</li>
-  <li>‘gPodder’를 선택합니다</li>
-  <li>‘서버 주소’(예: www.gpodder.net)를 입력하고 <code class="language-plaintext highlighter-rouge">계속 로그인</code>을 누릅니다</li>
-  <li>‘사용자 이름’과 ‘비밀번호’를 입력하고 <code class="language-plaintext highlighter-rouge">로그인</code>을 누릅니다</li>
-  <li>서버에서 만든 장치를 선택합니다</li>
+  <li>
+    <p>www.gpodder.net 서버나 자체 서버에 계정을 만듭니다</p>
+  </li>
+  <li>
+    <p>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
+  </li>
+  <li>
+    <p>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
+  </li>
+  <li>
+    <p>안테나팟에서 <code class="language-plaintext highlighter-rouge">설정</code> » <code class="language-plaintext highlighter-rouge">동기화</code>로 가서 <code class="language-plaintext highlighter-rouge">동기화 프로바이더 선택</code>을 누릅니다</p>
+  </li>
+  <li>
+    <p>‘gPodder’를 선택합니다</p>
+  </li>
+  <li>
+    <p>‘서버 주소’(예: www.gpodder.net)를 입력하고 <code class="language-plaintext highlighter-rouge">계속 로그인</code>을 누릅니다</p>
+  </li>
+  <li>
+    <p>‘사용자 이름’과 ‘비밀번호’를 입력하고 <code class="language-plaintext highlighter-rouge">로그인</code>을 누릅니다</p>
+  </li>
+  <li>
+    <p>서버에서 만든 장치를 선택합니다</p>
+  </li>
 </ol>
 
 <p><strong>참고:</strong> 웹사이트에서 미리 장치를 만들지 않고 안테나팟에서 동기화를 설정하면서 장치를 만들었습니까? 그렇다면 <code class="language-plaintext highlighter-rouge">강제 전체 동기화</code> 버튼을 눌러 이전에 들은 모든 에피소드의 재생 상태를 업로드하십시오. 그러지 않으면 장치를 연결한 <strong>뒤에</strong> 추가한 팟캐스트만 동기화됩니다. 이 동작을 바꿔 달라는 <a href="https://github.com/gpodder/mygpo/issues/388">gpodder.net 이슈</a>가 열려 있습니다.</p>

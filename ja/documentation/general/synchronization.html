@@ -456,19 +456,27 @@
 
 <ul>
   <li>
-<a href="https://gpodder.net/">gpodder.net</a>は、<strong>誰でもサインアップできる</strong>無料のgPodder同期サーバーを提供しています。残念ながら、このサービスは人気で、資金が限られているため、このサーバーは頻繁に過負荷になり、AntennaPodでエラーが発生します。</li>
-  <li>More technically inclined users are strongly encouraged to <strong>self-host a synchronization server</strong>. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:
+    <p><a href="https://gpodder.net/">gpodder.net</a>は、<strong>誰でもサインアップできる</strong>無料のgPodder同期サーバーを提供しています。残念ながら、このサービスは人気で、資金が限られているため、このサーバーは頻繁に過負荷になり、AntennaPodでエラーが発生します。</p>
+  </li>
+  <li>
+    <p>More technically inclined users are strongly encouraged to <strong>self-host a synchronization server</strong>. A self-hosted server is more reliable and helps reduce the load on free, public services. There are several options:</p>
+
     <ul>
       <li>
-<a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> with the <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app</a> (PHP)</li>
+        <p><a href="https://nextcloud.com/install/#instructions-server">Nextcloud</a> with the <a href="https://apps.nextcloud.com/apps/gpoddersync">gPodder Sync app</a> (PHP)</p>
+      </li>
       <li>
-<a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</li>
+        <p><a href="https://github.com/kd2org/opodsync">oPodSync</a> (PHP)</p>
+      </li>
       <li>
-<a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</li>
+        <p><a href="https://github.com/cbrgm/gopodder">goPodder</a> (Go)</p>
+      </li>
       <li>
-<a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</li>
+        <p><a href="https://github.com/bobrippling/podsync">podsync</a> (Rust)</p>
+      </li>
       <li>
-<a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</li>
+        <p><a href="https://github.com/eliassoares/malipod-selfhosted">malipod</a> (Python)</p>
+      </li>
     </ul>
   </li>
 </ul>
@@ -478,26 +486,50 @@
 <h2 id="nextcloud経由の同期を有効化する">Nextcloud経由の同期を有効化する</h2>
 
 <ol>
-  <li>Nextcloudアカウントがある場合は、gPodder Syncアプリをインストールするか、管理者にインストールするようにお願いします</li>
-  <li>AntennaPodで <code class="language-plaintext highlighter-rouge">設定</code> » <code class="language-plaintext highlighter-rouge">同期</code> を開き、<code class="language-plaintext highlighter-rouge">同期プロバイダーを選択</code> をタップします</li>
-  <li>「gPodder」を選択します</li>
-  <li>「サーバーアドレス」（サーバーのURLまたはIPアドレス）を入力して、<code class="language-plaintext highlighter-rouge">ログインに進む</code> をタップします</li>
-  <li>ブラウザウィンドウ上でログインして、AntennaPodを開いて認証します</li>
+  <li>
+    <p>Nextcloudアカウントがある場合は、gPodder Syncアプリをインストールするか、管理者にインストールするようにお願いします</p>
+  </li>
+  <li>
+    <p>AntennaPodで <code class="language-plaintext highlighter-rouge">設定</code> » <code class="language-plaintext highlighter-rouge">同期</code> を開き、<code class="language-plaintext highlighter-rouge">同期プロバイダーを選択</code> をタップします</p>
+  </li>
+  <li>
+    <p>「gPodder」を選択します</p>
+  </li>
+  <li>
+    <p>「サーバーアドレス」（サーバーのURLまたはIPアドレス）を入力して、<code class="language-plaintext highlighter-rouge">ログインに進む</code> をタップします</p>
+  </li>
+  <li>
+    <p>ブラウザウィンドウ上でログインして、AntennaPodを開いて認証します</p>
+  </li>
 </ol>
 
 <h2 id="gpodder経由で同期を有効化する">gPodder経由で同期を有効化する</h2>
 
 <ol>
-  <li>サーバー www.gpodder.net または自分自身のサーバーでアカウントを作成します</li>
-  <li>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="デバイス" loading="lazy" style="" class="rounded mt-2  img-popup">
-</li>
-  <li>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="同期" loading="lazy" style="" class="rounded mt-2  img-popup">
-</li>
-  <li>AntennaPodで <code class="language-plaintext highlighter-rouge">設定</code> » <code class="language-plaintext highlighter-rouge">同期</code> を開き、<code class="language-plaintext highlighter-rouge">同期プロバイダーを選択</code> をタップします</li>
-  <li>「gPodder」を選択します</li>
-  <li>「サーバーアドレス」（例: www.gpodder.net）を入力して、<code class="language-plaintext highlighter-rouge">ログインを進める</code> をタップします</li>
-  <li>「ユーザー名」と「パスワード」を入力して、<code class="language-plaintext highlighter-rouge">ログイン</code> をタップします</li>
-  <li>サーバー上で作成したデバイスを選択します</li>
+  <li>
+    <p>サーバー www.gpodder.net または自分自身のサーバーでアカウントを作成します</p>
+  </li>
+  <li>
+    <p>When you have an account, log in on the webserver and create a device under <code class="language-plaintext highlighter-rouge">Subscriptions</code> » <code class="language-plaintext highlighter-rouge">Devices</code> for each client that you use:<br><img src="/assets/images/documentation/en/gpodder-devices.png" alt="devices" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
+  </li>
+  <li>
+    <p>When you have added the devices to your account, link them using the “Configure” button. This way, gpodder.net automatically keeps the activated devices synchronized.<br><img src="/assets/images/documentation/en/gpodder-synchronize.png" alt="synchronize" loading="lazy" style="" class="rounded mt-2  img-popup"></p>
+  </li>
+  <li>
+    <p>AntennaPodで <code class="language-plaintext highlighter-rouge">設定</code> » <code class="language-plaintext highlighter-rouge">同期</code> を開き、<code class="language-plaintext highlighter-rouge">同期プロバイダーを選択</code> をタップします</p>
+  </li>
+  <li>
+    <p>「gPodder」を選択します</p>
+  </li>
+  <li>
+    <p>「サーバーアドレス」（例: www.gpodder.net）を入力して、<code class="language-plaintext highlighter-rouge">ログインを進める</code> をタップします</p>
+  </li>
+  <li>
+    <p>「ユーザー名」と「パスワード」を入力して、<code class="language-plaintext highlighter-rouge">ログイン</code> をタップします</p>
+  </li>
+  <li>
+    <p>サーバー上で作成したデバイスを選択します</p>
+  </li>
 </ol>
 
 <p><strong>注意:</strong> ウェブサイトで事前にデバイスを作成するのではなく、AntennaPodで同期を設定するときにデバイスを作成しましたか？ その場合、必ず <code class="language-plaintext highlighter-rouge">強制同期</code> ボタンを押して、以前に聴いたすべてのエピソードの再生状態をアップロードしてください。これを行わなと、デバイスをリンクした<strong>後</strong>に追加されたポッドキャストのみが同期されます。この動作の変更を求める<a href="https://github.com/gpodder/mygpo/issues/388">gpodder.netの未解決のIssue</a>があります。</p>

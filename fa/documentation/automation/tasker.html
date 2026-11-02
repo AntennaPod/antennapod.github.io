@@ -457,8 +457,12 @@
 <p>برای نیازهای پیچیده‌تر، می‌توانید برنامه‌های خودکارسازی شخص ثالث را با آنتناپاد به‌کار بگیرید. برای نمونه:</p>
 
 <ul>
-  <li>به‌روزرسانی اشتراک‌ها در آغاز روز: ساعت ۷ صبح، وای‌فای را روشن کنید، سپس خوراک‌های آنتناپاد را به‌روز کنید.</li>
-  <li>به‌روزرسانی اشتراک‌ها پیش از بازگشت به خانه: ساعت ۵ عصر روزهای کاری، اشتراک‌ها را به‌روز کنید.</li>
+  <li>
+    <p>به‌روزرسانی اشتراک‌ها در آغاز روز: ساعت ۷ صبح، وای‌فای را روشن کنید، سپس خوراک‌های آنتناپاد را به‌روز کنید.</p>
+  </li>
+  <li>
+    <p>به‌روزرسانی اشتراک‌ها پیش از بازگشت به خانه: ساعت ۵ عصر روزهای کاری، اشتراک‌ها را به‌روز کنید.</p>
+  </li>
 </ul>
 
 <h2 id="دستورهای-کلی">دستورهای کلی</h2>
@@ -466,10 +470,12 @@
 <p>در برنامه خودکارسازی، می‌توانید آنتناپاد را وادار به به‌روزرسانی اشتراک‌ها کنید با فرستادن یک «پخش» (ممکن است به‌عنوان گونه‌ای نیت اندروید نمایش داده شود) با تنظیمات زیر:</p>
 
 <ul>
-  <li>نام بسته: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>نام کلاس: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>نام بسته: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>نام کلاس: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="گام‌ها-برای-برخی-برنامه‌های-خودکارسازی">گام‌ها برای برخی برنامه‌های خودکارسازی</h2>
@@ -493,10 +499,12 @@ data:
 <p>در یک جریان، بلوکی از نوع <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> بیافزایید و مشخص کنید</p>
 
 <ol>
-  <li>بسته: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>کلاس گیرنده: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>بسته: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>کلاس گیرنده: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ol>
 
 <h3 id="tasker-وبگاه">Tasker (<a href="https://tasker.joaoapps.com/">وبگاه</a>)</h3>
@@ -505,13 +513,23 @@ data:
 
 <ol>
   <li>
-<code class="language-plaintext highlighter-rouge">System</code> را انتخاب کنید</li>
+    <p><code class="language-plaintext highlighter-rouge">System</code> را انتخاب کنید</p>
+  </li>
   <li>
-<code class="language-plaintext highlighter-rouge">Send Intent</code> را انتخاب کنید</li>
-  <li>نام بسته را <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> مشخص کنید</li>
-  <li>نام کلاس را <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> مشخص کنید</li>
-  <li>هدف را <code class="language-plaintext highlighter-rouge">Broadcast receiver</code> مشخص کنید</li>
-  <li>سایر بخش‌ها را می‌توانید خالی بگذارید</li>
+    <p><code class="language-plaintext highlighter-rouge">Send Intent</code> را انتخاب کنید</p>
+  </li>
+  <li>
+    <p>نام بسته را <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code> مشخص کنید</p>
+  </li>
+  <li>
+    <p>نام کلاس را <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code> مشخص کنید</p>
+  </li>
+  <li>
+    <p>هدف را <code class="language-plaintext highlighter-rouge">Broadcast receiver</code> مشخص کنید</p>
+  </li>
+  <li>
+    <p>سایر بخش‌ها را می‌توانید خالی بگذارید</p>
+  </li>
 </ol>
 
 <hr>

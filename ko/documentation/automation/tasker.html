@@ -457,8 +457,12 @@
 <p>더 복잡한 요구가 있다면 다양한 서드파티 자동화 앱을 안테나팟과 함께 사용할 수 있습니다. 예를 들면:</p>
 
 <ul>
-  <li>하루를 시작할 때 구독을 업데이트하기: 오전 7시에 WiFi를 켜고 안테나팟 피드를 업데이트합니다.</li>
-  <li>퇴근길 전에 구독 받아 두기: 평일 오후 5시에 구독을 업데이트합니다.</li>
+  <li>
+    <p>하루를 시작할 때 구독을 업데이트하기: 오전 7시에 WiFi를 켜고 안테나팟 피드를 업데이트합니다.</p>
+  </li>
+  <li>
+    <p>퇴근길 전에 구독 받아 두기: 평일 오후 5시에 구독을 업데이트합니다.</p>
+  </li>
 </ul>
 
 <h2 id="일반-안내">일반 안내</h2>
@@ -466,10 +470,12 @@
 <p>자동화 앱에서 다음 설정으로 ‘브로드캐스트’(Android 인텐트의 한 종류로 표시될 수 있습니다)를 보내면 안테나팟이 구독을 업데이트하게 할 수 있습니다:</p>
 
 <ul>
-  <li>패키지 이름: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>
-</li>
-  <li>클래스 이름: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>
-</li>
+  <li>
+    <p>패키지 이름: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code></p>
+  </li>
+  <li>
+    <p>클래스 이름: <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code></p>
+  </li>
 </ul>
 
 <h2 id="일부-자동화-앱의-설정-단계">일부 자동화 앱의 설정 단계</h2>
@@ -493,8 +499,12 @@ data:
 <p>플로우에 <code class="language-plaintext highlighter-rouge">APPS</code> » <code class="language-plaintext highlighter-rouge">Broadcast send</code> 유형의 블록을 추가하고 다음을 지정합니다</p>
 
 <ol>
-  <li>Package를 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>으로</li>
-  <li>Receiver class를 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>로</li>
+  <li>
+    <p>Package를 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>으로</p>
+  </li>
+  <li>
+    <p>Receiver class를 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>로</p>
+  </li>
 </ol>
 
 <h3 id="tasker-웹사이트">Tasker (<a href="https://tasker.joaoapps.com/">웹사이트</a>)</h3>
@@ -503,13 +513,23 @@ data:
 
 <ol>
   <li>
-<code class="language-plaintext highlighter-rouge">System</code>을 선택합니다</li>
+    <p><code class="language-plaintext highlighter-rouge">System</code>을 선택합니다</p>
+  </li>
   <li>
-<code class="language-plaintext highlighter-rouge">Send Intent</code>를 선택합니다</li>
-  <li>Package name을 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>으로 지정합니다</li>
-  <li>Class name을 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>로 지정합니다</li>
-  <li>Target을 <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>로 지정합니다</li>
-  <li>나머지 필드는 비워 두어도 됩니다</li>
+    <p><code class="language-plaintext highlighter-rouge">Send Intent</code>를 선택합니다</p>
+  </li>
+  <li>
+    <p>Package name을 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod</code>으로 지정합니다</p>
+  </li>
+  <li>
+    <p>Class name을 <code class="language-plaintext highlighter-rouge">de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver</code>로 지정합니다</p>
+  </li>
+  <li>
+    <p>Target을 <code class="language-plaintext highlighter-rouge">Broadcast receiver</code>로 지정합니다</p>
+  </li>
+  <li>
+    <p>나머지 필드는 비워 두어도 됩니다</p>
+  </li>
 </ol>
 
 <hr>
