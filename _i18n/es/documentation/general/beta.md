@@ -10,8 +10,9 @@ Cada nueva versión de AntennaPod se envía a nuestros beta testers a través de
 
 {% include image.html alt= "
 
-     Convertirse en beta tester - ventana de confirmación en Google Play
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

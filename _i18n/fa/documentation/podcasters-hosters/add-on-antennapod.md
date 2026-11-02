@@ -15,16 +15,18 @@
 
 {% include image.html alt= "
 
-     درخواست کردن مرورگر برای گشودن پیوندی در آنتناپاد
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     همان پیوند نمایش داده در آنتاپاد
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

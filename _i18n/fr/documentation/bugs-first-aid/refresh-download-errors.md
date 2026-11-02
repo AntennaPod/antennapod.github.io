@@ -3,8 +3,11 @@ Vous recevez une notification indiquant que les téléchargements se sont termin
 Les problèmes qui ne se produisent qu'avec un ou quelques podcasts spécifiques sont souvent liés à ces podcasts. Pour confirmer si c'est le cas, vous pouvez suivre les étapes suivantes :
 
 1. Tapez sur la notification pour ouvrir le journal de téléchargement
+
 1. Tapez sur l'entrée du journal contenant l'erreur
+
 1. Appuyez longuement sur l'URL qui s'affiche, puis copiez-la ou ouvrez-la dans votre navigateur Web
+
 
 Si l'URL ne fonctionne pas non plus dans le navigateur, cela signifie qu'il ne s'agit pas d'un problème avec AntennaPod. Si le message d'erreur s'affiche régulièrement, le podcast a probablement été déplacé, mis hors ligne ou n'est pas correctement configuré. Dans ce cas, veuillez contacter les créateurs du podcast (car ce problème ne peut être résolu par nos soins).
 

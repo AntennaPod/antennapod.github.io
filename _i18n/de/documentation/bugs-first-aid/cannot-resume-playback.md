@@ -9,6 +9,10 @@ Um die Wiedergabe trotzdem fortsetzen zu können, kannst du die sogenannte Anten
 Um die AntennaPod-Kachel hinzuzufügen:
 
 1. **Ziehe zweimal nach unten** vom oberen Bildschirmrand, um die Schnelleinstellungen vollständig zu öffnen. Bei einigen Android-Versionen (z. B. Samsung One UI oder Xiaomi MIUI) enthält ein gleichwertiges Kontrollzentrum mit ähnlichen Gesten möglicherweise bereits eine Medienkachel. Überprüfe die Geräteeinstellungen, wenn das Verhalten abweicht
+
 1. **Tippe auf das Stiftsymbol** im Kachelbereich, um die Kacheln zu bearbeiten
+
 1. Scrolle durch die Liste der Kacheln und **ziehe die AntennaPod-Kachel** nach oben in die Liste der aktiven Kacheln
+
 1. Tippe auf den **Zurück-Pfeil** oder **Speichern**, um die Kachelbearbeitung zu beenden
+

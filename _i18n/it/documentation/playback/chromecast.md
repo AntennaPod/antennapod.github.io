@@ -6,8 +6,9 @@ Non sono necessari altri passaggi per utilizzare AntennaPod con il tuo Google Ch
 
 {% include image.html alt= "
 
-     Pulsante di trasmissione in AntennaPod
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

@@ -10,8 +10,9 @@ Du möchtest also die neueste und beste Version haben und uns dabei helfen, die 
 
 {% include image.html alt= "
 
-     Tester werden – Bestätigungsfenster in Google Play
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

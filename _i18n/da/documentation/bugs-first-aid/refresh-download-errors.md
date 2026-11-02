@@ -3,8 +3,11 @@ Får du en meddelelse om, at overførsler er afsluttet med fejl? Det betyder, at
 Problemer, der kun opstår i forbindelse med en eller nogle få bestemte podcasts, er ofte relateret til disse podcasts. Hvis du vil bekræfte, om det er tilfældet, kan du følge disse trin:
 
 1. Tryk på meddelelsen for at åbne overførselsloggen
+
 1. Tryk på den specifikke logbogspost med fejlen
+
 1. Tryk længe på den URL, der vises, og kopier eller åbn den i din webbrowser
+
 
 Hvis URL'en heller ikke virker i browseren, betyder det, at det ikke er et problem med AntennaPod. Hvis du får fejlmeddelelsen konstant, er podcasten sandsynligvis blevet flyttet, taget offline eller ikke konfigureret korrekt. I så fald skal du kontakte podcast-skaberne (da dette ikke kan løses hos os).
 

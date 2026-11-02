@@ -5,6 +5,7 @@ AntennaPod cuenta con una pantalla de estadísticas que permite ver el número d
 Para realizar un seguimiento de las estadísticas, AntennaPod registra dos cosas para cada episodio:
 
 * **Duración de reproducción**: cuánto tiempo se reprodujo el episodio (por ejemplo, 6 minutos si un episodio de 3 minutos se reprodujo dos veces)
+
 * **Última reproducción**: la fecha y hora en que se pausó o detuvo por última vez la reproducción del episodio
 
 Ambos se actualizan cada vez que se pausa o detiene la reproducción. Esta información se utiliza para calcular los totales sumando la 'duración de reproducción' de todos los episodios cuya 'última fecha de reproducción' coincide con un mes determinado.
@@ -20,7 +21,9 @@ Las estadísticas (o mejor dicho, los gráficos) son divertidas. Entonces, ¿por
 Sería posible, por ejemplo, registrar la duración de cada episodio cada día. Por ejemplo:
 
 * 28 de junio: 7 minutos
+
 * 30 de junio: 38 minutos
+
 * 1 de julio: 19 minutos
 
 Hay dos razones principales. En primer lugar, si bien las estadísticas son divertidas, **preferimos dedicar tiempo al propósito principal de AntennaPod: reproducir podcasts**. Adoptar este nuevo enfoque requeriría tiempo ahora para implementarlo (reescribir el código que ahorra tiempo de reproducción en la base de datos) y tiempo en el futuro para mantener un sistema más complejo.

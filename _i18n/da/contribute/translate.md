@@ -6,15 +6,16 @@ Vores oversættelser ligger på Weblate, en open source-lokaliseringsplatform. A
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Graf med status for AntennaPod-oversættelser på Weblate.
 
+       Graph with status of AntennaPod translations on Weblate.
+    
        "
 
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## 1. Appen
+</object>## Appen
 
 Appen er i øjeblikket tilgængelig på mere end 38 sprog. Selv om der findes flere sprog i Weblate, inkluderer vi kun sprog i appen, som er mindst 40 % oversat. Under denne grænse giver appen næppe en god brugeroplevelse.
 
@@ -22,30 +23,38 @@ Opdaterede oversættelser udgives med hver 'punkt-udgivelse'. Det er udgivelser 
 
 Hvis du har bidraget med oversættelser, vil du blive nævnt i appen med dit Weblate-brugernavn under `Indstillinger` » `Om` » `Bidragydere`.
 
-## 2. Hjemmesiden
+## Hjemmesiden
 
 Hjemmesiden består af fire 'komponenter', som hver især repræsenterer en del af hjemmesiden. Vi opfordrer dig til at følge denne rækkefølge:
 
 1. **General** og **Short strings**: de første elementer, en bruger ser på hjemmesiden
+
 1. **Documentation**: vores support-materialer, som er direkte tilgængelige via appen
+
 1. **Contribute** (kommer til sidst, fordi en grundlæggende forståelse af engelsk alligevel er nødvendig for at kunne bidrage)
+
 
 Opdaterede oversættelser offentliggøres en gang imellem. Nye sprog aktiveres først på hjemmesiden, når prioritet 1- og 2-komponenter er fuldt oversat. Med andre ord: når alt andet end sektionen 'Contribute' er færdigt. Giv os besked via forummet (se nedenfor), hvis det er tilfældet. Vi vil så forsøge at finde et medlem af fællesskabet, der kan gennemgå en testversion af hjemmesiden for at forbedre kvaliteten af oversættelserne. Når feedbacken er behandlet, kan vi udgive den nye sprogversion.
 
-## 3. App Store-siderne
+## App Store-siderne
 
 Ud over app'en og hjemmesiden oversætter vi også tekster, som optræder i de forskellige app-butikker. Vi opfordrer dig til at følge denne rækkefølge:
 
 1. **Short description**
+
 1. **Full description**
+
 1. **Screenshot titles**
+
 
 Vi er nødt til at overholde en tegnbegrænsning for de korte beskrivelser og titler på skærmbilleder. Vi gennemgår og forbedrer derfor disse tekster manuelt, før vi udgiver dem. Giv os besked på forummet, når du er færdig med at oversætte disse tekster.
 
 ## Kontakt os!
 
 * Ønsker du at give **feedback** på de engelske tekster eller på nogle af oversættelserne?
+
 * Er du ** interesseret i at hjælpe** med oversættelser, men er du ikke sikker endnu? Eller er du klar til at gå gang?
+
 * Bidrager du (gerne) og **har du brug for støtte**? F.eks. fordi dit sprog endnu ikke er tilgængeligt, eller fordi du ikke er sikker på, hvordan du skal oversætte noget?
 
 Sig til inde på [oversættelsessektionen på vores forum](https://forum.antennapod.org/c/translations/11)! Det er den bedste måde at komme i kontakt med os på. Kommentarer og beskeder i de respektive oversættelsesværktøjer når ikke altid frem til os i tide.

@@ -19,8 +19,11 @@ Op die manier ben je er zeker van (of kun je zelf controleren) dat er geen dubie
 Wij staan voor een open podcasting ecosysteem. Een ecosysteem dat
 
 * de vrije meningsuiting steunt,
+
 * podcasters beloont voor hun creatieve werk,
+
 * beschermt gebruikers tegen ontoegankelijke inhoud in [walled gardens](https://en.wikipedia.org/wiki/Walled_garden_(technology)), en
+
 * gebruikers in staat stelt apps te gebruiken en te wisselen tussen apps zonder [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in).
 
 In de praktijk betekent dit dat de gebruiker zich kan abonneren op elke RSS-feed, podcasters gemakkelijk (financieel) kan steunen en eigen gegevens kan synchroniseren, importeren en exporteren.

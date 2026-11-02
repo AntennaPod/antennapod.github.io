@@ -10,8 +10,9 @@
 
 {% include image.html alt= "
 
-     베타 테스터 되기 - Google Play의 확인 창
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

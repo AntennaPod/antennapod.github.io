@@ -5,6 +5,7 @@ AntennaPod ha una schermata di statistiche che ti permette di visualizzare il nu
 Per tenere traccia delle statistiche, AntennaPod registra due informazioni per ogni episodio:
 
 * **Tempo di riproduzione**: per quanto tempo l'episodio è stato riprodotto (per esempio, 6 minuti se un episodio di 3 minuti è stato riprodotto due volte)
+
 * **Ultima riproduzione**: data e ora in cui la riproduzione è stata messa in pausa o interrotta per l'ultima volta per questo episodio
 
 Entrambe sono aggiornate ogni volta che la riproduzione viene messa in pausa o interrotta. L'informazione è usata per calcolare i totali sommando il "tempo di riproduzione" di tutti gli episodi la cui data di "ultima riproduzione" cade in un dato mese.
@@ -20,7 +21,9 @@ Le statistiche (o meglio ancora, i grafici) sono divertenti. Quindi perché non 
 Tra le altre cose, sarebbe possibile registrare per quanto tempo ogni episodio è stato riprodotto in ogni giorno. Per esempio:
 
 * 28 giugno: 7 minuti
+
 * 30 giugno: 38 minuti
+
 * 1 luglio: 19 minuti
 
 Ci sono due ragioni principali. Per prima cosa, anche se le statistiche sono divertenti, **preferiamo investire tempo nello scopo principale di AntennaPod: riprodurre podcast**. Cambiare approccio richiederebbe tempo di implementazione (riscrivere il codice che salva il tempo di riproduzione nel database) e tempo per mantenere un sistema più complesso in futuro.

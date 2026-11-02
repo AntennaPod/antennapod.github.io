@@ -3,6 +3,7 @@ Mit AntennaPod kannst du festlegen, dass Abonnements (Podcast-Feeds) in regelmä
 Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene Automatisierungsanwendungen von Drittanbietern zusammen mit AntennaPod verwenden. Beispielsweise:
 
 - Beziehe Abonnements zu Beginn des Tages: Um 7 Uhr wird das WLAN eingeschaltet und anschließend werden die AntennaPod-Feeds aktualisiert.
+
 - Beziehe deine Abonnements vor der Heimfahrt: An Werktagen werden Abonnements um 17 Uhr aktualisiert.
 
 ## Allgemeine Anweisungen
@@ -10,6 +11,7 @@ Wenn du komplexere Anforderungen hast, kannst du dafür verschiedene Automatisie
 In deiner Automatisierungsanwendung kannst du AntennaPod auffordern Abonnements zu aktualisieren, indem du einen „Broadcast“ (könnte als „Android-Intent“ angezeigt werden) mit den folgenden Einstellungen sendest:
 
 - Paketname: `de.danoeh.antennapod`
+
 - Klassenname: `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
 
 ## Anleitungen für einige Automatisierungs-Apps
@@ -34,18 +36,26 @@ data:
 Füge einen Block des Typs `APPS` » `Broadcast senden` ein und spezifiziere
 
 1. Paket zu `de.danoeh.antennapod`
+
 1. Die Empfängerklasse sollte `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` sein
+
 
 ### Tasker ([Website](https://tasker.joaoapps.com/))
 
 Erstelle eine Aufgabe. Füge der Aufgabe eine Aktion hinzu
 
 1. Wähle `System`
+
 1. Wähle `Intent senden`
+
 1. Gib als Paketname `de.danoeh.antennapod` an
+
 1. Gib als Klassenname `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver` an
+
 1. Gib als Ziel `Broadcast-Empfänger` an
+
 1. Du kannst die anderen Felder leer lassen
+
 
 ***
 

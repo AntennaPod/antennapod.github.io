@@ -6,15 +6,16 @@ Nuestras traducciones se alojan en Weblate, una plataforma de localización de c
 
 {% capture img-translationstatus %} {% include image.html alt="
 
-       Gráfico del estado de las traducciones de AntennaPod en Weblate.
 
+       Graph with status of AntennaPod translations on Weblate.
+    
        "
 
 loc="https://hosted.weblate.org/widget/antennapod" file="horizontal-auto.svg" width="100%" islink = true %} {% endcapture %}
 
 <object data="https://hosted.weblate.org/widget/antennapod/horizontal-auto.svg" type="image/svg+xml" width="100%" height="auto" crossorigin="anonymous">
 <a href="https://hosted.weblate.org/engage/antennapod/" target="_blank">{{- img-translationstatus | strip -}}</a>
-</object>## 1. La aplicación
+</object>## La aplicación
 
 Actualmente, la aplicación está disponible en más de 38 idiomas. Aunque hay más idiomas en Weblate, no los incluimos en la aplicación. Intentamos mantener un umbral del 40% de idiomas completados. Si es inferior, la aplicación apenas ofrece una buena experiencia al usuario.
 
@@ -22,30 +23,38 @@ Se publican traducciones actualizadas con cada versión menor. Se trata de versi
 
 Si contribuiste con traducciones, serás mencionado en la aplicación con tu nombre de usuario de Weblate en `Ajustes` » `Acerca de` » `Colaboradores`.
 
-## 2. El sitio web
+## El sitio web
 
 El sitio web consta de cuatro componentes, cada uno de los cuales representa una parte del sitio web. Le recomendamos seguir este orden:
 
 1. **General** y **Cadenas cortas**: los primeros elementos que ve un usuario en el sitio web
+
 1. **Documentación**: nuestros materiales de apoyo, que están disponibles directamente a través de la aplicación
+
 1. **Contribuir** (viene al final porque de todos modos se necesita un conocimiento básico de inglés para poder contribuir)
+
 
 Se publican traducciones actualizadas ocasionalmente. Los nuevos idiomas se habilitan en el sitio web solo después de que los componentes de prioridad 1 y 2 estén completamente traducidos. Es decir, cuando todo esté terminado, excepto la sección "Contribuir". Si es así, infórmanos a través del foro (ver más abajo). Intentaremos encontrar a un miembro de la comunidad que pueda revisar una versión de prueba del sitio web para mejorar la calidad de las traducciones. Una vez procesados los comentarios, publicaremos la nueva versión.
 
-## 3. Los listados de la tienda de aplicaciones
+## Los listados de la tienda de aplicaciones
 
 Además de la aplicación y el sitio web, también traducimos textos que aparecen en las distintas tiendas de aplicaciones. Te recomendamos seguir este orden:
 
 1. **Descripción breve**
+
 1. **Descripción completa**
+
 1. **Títulos de capturas de pantalla**
+
 
 Debemos cumplir con un límite de caracteres para las descripciones cortas y los títulos de las capturas de pantalla. Por lo tanto, revisamos y mejoramos manualmente estos textos antes de publicarlos. Por favor, avísenos en el foro cuando haya terminado de traducirlos.
 
 ## ¡Ponte en contacto!
 
 * ¿Quieres darnos **opiniones** sobre los textos en Inglés o alguna de las traducciones?
+
 * ¿Estás **interesado en ayudar** con las traducciones pero aún no estás seguro?¿O ya estás listo para empezar?
+
 * ¿Contribuyes (o quieres contribuir) y **necesitas ayuda**? Por ejemplo, porque tu idioma aún no está disponible o porque no estás seguro de como traducir algo?
 
 ¡Echa un vistazo a la [sección de traducción en nuestro foro](https://forum.antennapod.org/c/translations/11)! Esa es la mejor manera de acercarte a nosotros. Los comentarios y mensajes en las herramientas de traducción respectivas no siempre nos llegan en una cantidad de tiempo razonable.

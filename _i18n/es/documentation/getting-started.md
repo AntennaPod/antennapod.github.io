@@ -1,10 +1,15 @@
 En primer lugar, debes suscribirte a un podcast. Puedes encontrar más información al respecto [aquí](/documentation/getting-started/subscribe). Después de suscribirse, los nuevos episodios se muestran en la `Buzón de entrada`. Ahí puedes decidir si te apetece escucharlos o no. Si un episodio está en la bandeja de entrada, significa que aún no has decidido qué hacer con él.
 
 - Si no te interesa un episodio, basta con deslizar el dedo para eliminarlo de la bandeja de entrada. El episodio seguirá marcado como no reproducido y podrás encontrarlo en la página `Episodios`, así como en la página del podcast.
+
 - Si estás interesado en el episodio, puedes hacer una de dos cosas, dependiendo de tus hábitos de escucha.
+
    - Descargue el episodio. Al descargarlo, AntennaPod también añade automáticamente el episodio a la cola y lo elimina de la bandeja de entrada. Se puede configurar si se desea que los nuevos episodios se coloquen en la cola anterior, posterior o posterior al episodio que se está reproduciendo en ese momento. La descarga es el modo principal para el que AntennaPod fue diseñado originalmente, pero como el streaming es cada vez más popular, también puede utilizar la segunda opción.
+
    - Basta con añadir el episodio a la cola. AntennaPod lo retira automáticamente de la bandeja de entrada y lo inserta en la cola. Después puedes reproducir directamente el episodio sin tener que descargarlo, para que no ocupe espacio. Piense: Streaming como los vídeos en YouTube. La desventaja es que no estará disponible sin conexión, consume tu conexión de datos móviles cuando estás de viaje y hace que el avance rápido sea un poco más lento.
+
 - Si ha terminado de reproducir, AntennaPod marca el episodio como reproducido y lo elimina de la cola. Existe una opción para eliminar automáticamente la descarga después de la reproducción. Puede encontrar una lista de todos los episodios que aún están descargados en su dispositivo (estén o no en la cola) en la página `Descargas`.
+
 - Si le gusta un episodio y piensa volver a escucharlo, también puede marcarlo como favorito. Puede filtrar la página `Episodios` para mostrar sólo sus favoritos y (por defecto) AntennaPod no borrará los favoritos después de reproducirlos.
 
 Si estás suscrito a un podcast realmente bueno y sabes desde el principio que todos los episodios serán buenos, puedes utilizar la función de descarga automática. Cuando se activa para un podcast, todos sus futuros nuevos episodios se descargan automáticamente y se añaden a la cola. Se eliminarán automáticamente de la bandeja de entrada en cuanto se descarguen.

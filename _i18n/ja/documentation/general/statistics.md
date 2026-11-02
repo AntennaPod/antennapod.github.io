@@ -5,6 +5,7 @@ AntennaPod has a statistics screen that lets you view the number of listening ho
 To track statistics, AntennaPod records two things for each episode:
 
 * **Played duration**: how long the episode was played (e.g. 6 minutes if a 3-minute episode was played twice)
+
 * **Last played**: the date and time when playback was last paused or stopped for the episode
 
 Both are updated each time playback is paused or stopped. This information is used to calculate totals by adding up the 'played duration' of all episodes whose 'last played' date falls within a given month.
@@ -20,7 +21,9 @@ Stats (or rather: graphs) are fun. So why don’t we record information differen
 It would be possible, for example, to record for each episode how long it was played on each day. For instance:
 
 * 28 June: 7 minutes
+
 * 30 June: 38 minutes
+
 * 1 July: 19 minutes
 
 There are two main reasons. Firstly, while statistics are fun, **we rather spend time on AntennaPod's main purpose: playing podcasts**. Changing to this new approach would require time now to implement it (rewriting the code that saves playback time in the database) and time in future to maintain a more complex system.

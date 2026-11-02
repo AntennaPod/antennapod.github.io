@@ -15,16 +15,18 @@ Diejenigen, die AntennaPod installiert haben und diesen Link öffnen, können si
 
 {% include image.html alt= "
 
-     Browser fragt, ob ein Link in AntennaPod geöffnet werden soll
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     Der gleiche Link wie in AntennaPod angezeigt
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

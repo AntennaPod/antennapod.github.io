@@ -3,5 +3,7 @@ Om abonnementen te organiseren, kun je labels (ook wel groepen of categorieën g
 Om een label aan een podcast toe te kennen moet je:
 
 - Een specifieke podcast openen
+
 - Op het `tandwiel`-pictogram tikken om de instellingen te openen
+
 - De instelling `Labels` selecteren

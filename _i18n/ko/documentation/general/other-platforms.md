@@ -4,12 +4,12 @@
 
 | 앱 | Code | iOS | MacOS | Windows | Linux |
 | --- | --- | :-: | :-: | :-: | :-: |
-| [Podverse](https://podverse.fm/about) | [<i class="fab fa-github"></i>](https://github.com/podverse/podverse) | ✅ | ✅ | ❌ | ❌ |
-| [Pocket Casts](https://pocketcasts.com/) | [<i class="fab fa-github"></i>](https://github.com/Automattic/pocket-casts-ios) | ✅ | ❌ | ❌ | ❌ |
-| [gPodder](https://gpodder.github.io/) | [<i class="fab fa-github"></i>](https://github.com/gpodder/gpodder) | ❌ | ✅ | ✅ | ✅ |
-| [Poddr](https://sn8z.github.io/Poddr/) | [<i class="fab fa-github"></i>](https://github.com/Sn8z/Poddr) | ❌ | ✅ | ✅ | ✅ |
-| [Kasts](https://apps.kde.org/kasts/) | [<i class="fab fa-gitlab"></i>](https://invent.kde.org/multimedia/kasts) | ❌ | ❌ | ❌ | ✅ |
-| [GNOME Podcasts](https://apps.gnome.org/app/org.gnome.Podcasts/) | [<i class="fab fa-gitlab"></i>](https://gitlab.gnome.org/World/podcasts) | ❌ | ❌ | ❌ | ✅ |
-| [MusicPod](https://snapcraft.io/musicpod) | [<i class="fab fa-github"></i>](https://github.com/ubuntu-flutter-community/musicpod) | ❌ | ❌ | ❌ | ✅ |
+| [Podverse](https://podverse.fm/about) | [<i class="fab fa-github"></i> | ✅ | ✅ | ❌ | ❌ |
+| [Pocket Casts](https://pocketcasts.com/) | [<i class="fab fa-github"></i> | ✅ | ❌ | ❌ | ❌ |
+| [gPodder](https://gpodder.github.io/) | [<i class="fab fa-github"></i> | ❌ | ✅ | ✅ | ✅ |
+| [Poddr](https://sn8z.github.io/Poddr/) | [<i class="fab fa-github"></i> | ❌ | ✅ | ✅ | ✅ |
+| [Kasts](https://apps.kde.org/kasts/) | [<i class="fab fa-gitlab"></i> | ❌ | ❌ | ❌ | ✅ |
+| [GNOME Podcasts](https://apps.gnome.org/app/org.gnome.Podcasts/) | [<i class="fab fa-gitlab"></i> | ❌ | ❌ | ❌ | ✅ |
+| [MusicPod](https://snapcraft.io/musicpod) | [<i class="fab fa-github"></i> | ❌ | ❌ | ❌ | ✅ |
 
 이런 플랫폼용 오픈소스 팟캐스트 앱을 추천하고 싶으십니까? [포럼에서 알려 주십시오!](https://forum.antennapod.org)

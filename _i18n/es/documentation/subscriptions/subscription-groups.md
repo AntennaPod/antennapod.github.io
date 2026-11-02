@@ -3,5 +3,7 @@ Para ayudarte a organizar tus suscripciones, puedes asignar etiquetas (a veces l
 Para asignar etiquetas a un podcast tienes que:
 
 - Abrir un podcast específico
+
 - Tocar en el icono del `engranaje` para acceder a sus opciones
+
 - Seleccionar el ajuste `Etiquetas`

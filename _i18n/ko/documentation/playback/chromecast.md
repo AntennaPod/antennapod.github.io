@@ -6,8 +6,9 @@ Google Chromecast에서 안테나팟을 쓰기 위해 더 할 일은 없습니�
 
 {% include image.html alt= "
 
-     안테나팟의 전송 버튼
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

@@ -3,5 +3,7 @@ For at hjælpe med at organisere dine abonnementer kan du tildele podcasts etike
 For at tildele etiketter til en podcast skal du:
 
 - Åbne en bestemt podcast
+
 - Trykke på `gear` ikonet for at få adgang til dens indstillinger
+
 - Vælg indstillingen `Etiketter`

@@ -3,6 +3,7 @@
 آنتناپاد از دو شاخهٔ اصلی برای جست‌وجو استفاده می‌کند:
 
 * [Podcast Index](https://podcastindex.org/) (از میزبان خود بپرسید چگونه پادپخش خود را بیافزایید، یا پادپخش خود را از طریق [صفحه افزودن آن‌ها](https://podcastindex.org/add) بیافزایید)
+
 * [Apple Podcasts](https://podcasts.apple.com) (با [Podcast Connect](https://podcastsconnect.apple.com/) بیافزایید)
 
 اگر پادپخش شما در هر یک از این‌ها در دسترس باشد، می‌توان آن را در آنتناپاد پیدا کرد.

@@ -15,16 +15,18 @@ Les utilisateurs qui ont installé AntennaPod et ouvrent ce lien seront en mesur
 
 {% include image.html alt= "
 
-     Navigateur qui demande d'ouvrir un lien dans AntennaPod
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     Le même lien affiché dans AntennaPod
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

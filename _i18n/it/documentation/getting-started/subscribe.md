@@ -23,6 +23,7 @@ Purtroppo Mixcloud non offre questa opzione per i creatori di contenuti. Come se
 YouTube ti permette di iscriverti al feed di un canale, ma:
 
 - AntennaPod non può scaricare automaticamente i video, perché YouTube non lo permette. Mostrare inserzioni pubblicitarie è il loro modello di business, dopo tutto.
+
 - Non avrai un'immagine collegata alla tua iscrizione, poiché YouTube non la include nei feed.
 
 Ma è un modo per essere avvisati dei nuovi episodi. Basta aggiungere l'URL dell'utente/canale (`https://www.youtube.com/user/USERNAME` o `https://www.youtube.com/channel/CHANNEL_ID`) in AntennaPod. Dovresti vedere una finestra di dialogo con l'opzione 'RSS'; tocca per aggiungere il feed. Se questo non funziona come descritto, aggiungi `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>` ad AntennaPod. Puoi trovare l'ID del canale nell'URL del canale. Se il canale a cui vuoi iscriverti è un account utente (con un URL del tipo youtube.com/user/UserName), puoi contattare l'utente per chiedergli qual è il suo ID del canale (qui è spiegato [come gli utenti possono trovare il loro ID del canale](https://support.google.com/youtube/answer/3250431?hl=it)).

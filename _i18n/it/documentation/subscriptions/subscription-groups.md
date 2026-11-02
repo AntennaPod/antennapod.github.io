@@ -3,5 +3,7 @@ Per organizzare meglio le tue iscrizioni, puoi assegnare dei tag (a volte chiama
 Per assegnare tag a un podcast devi:
 
 - Aprire un podcast specifico
+
 - Tocca `l'icona dell'ingranaggio` per accedere alle sue impostazioni
+
 - Seleziona l'opzione `Tag`

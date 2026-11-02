@@ -3,5 +3,7 @@ Pour faciliter l'organisation de vos abonnements, vous pouvez attribuer des tags
 Pour attribuer des tags à un podcast, vous devez :
 
 - Ouvrir un podcast spécifique
+
 - Tapez sur l'icône `Roue dentée` pour accéder à ses paramètres
+
 - Sélectionnez le paramètre `Tags`

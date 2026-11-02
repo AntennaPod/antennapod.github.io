@@ -5,6 +5,7 @@ AntennaPod comporte un écran de statistiques vous permettant de voir le nombre 
 Afin d'établir des statistiques, AntennaPod enregistre deux éléments pour chaque épisode :
 
 * **Durée de lecture** : pendant combien de temps l'épisode a été retransmis (i.e. 6 minutes, si un épisode de 3 minutes a été lu deux fois)
+
 * **Dernière lecture** : la date et le moment où la lecture a été pour la dernière fois mise en pause ou stoppée pour l'épisode
 
 Les deux sont mis à jour chaque fois que la lecture est en pause ou arrêtée. Cette information est utilisée pour calculer les totaux en additionnant la 'durée de diffusion' de tous les épisodes dont la date de 'dernière diffusion' tombe dans un mois donné.
@@ -20,7 +21,9 @@ Les statistiques (ou plutôt : graphiques) sont amusantes. Alors pourquoi ne pa
 Il serait possible, par exemple, d’enregistrer pour chaque épisode combien de temps il a été joué chaque jour. Par exemple :
 
 * 28 juin : 7 minutes
+
 * 30 juin : 38 minutes
+
 * 1 juillet : 19 minutes
 
 Il y a deux raisons principales. Premièrement, bien que les statistiques soient amusantes, **nous passons plutôt du temps sur le principal objectif d’AntennaPod : lire des podcasts**. Passer à cette nouvelle approche demanderait du temps maintenant pour la mise en œuvre (réécrire le code qui économise du temps de lecture dans la base de données) et du temps à l’avenir pour maintenir un système plus complexe.

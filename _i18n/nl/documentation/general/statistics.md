@@ -5,6 +5,7 @@ AntennaPod heeft een statistieken-scherm waar je het aantal luisteruren per abon
 Om statistieken bij te houden, verzamelt AntennaPod twee dingen voor iedere aflevering:
 
 * **Afspeeltijd**: hoe lang de aflevering afgespeeld is (bijv. 6 minuten als een aflevering van 3 minuten twee keer afgespeeld is)
+
 * **Laatst afgespeeld**: de datum en tijd dat het afspelen van een aflevering voor het laatst is gepauzeerd of gestopt
 
 Beide worden geüpdatet iedere keer dat het afspelen gepauzeerd of gestopt wordt. Deze informatie word gebruikt om totalen te berekenen door het optellen van de 'afspeeltijd' van alle afleveringen waarvan de 'laatst afgespeeld'-datum binnen een gegeven maand valt.
@@ -20,7 +21,9 @@ Statistieken (of eigenlijk: grafieken) zijn leuk. Dus waarom slaan we de informa
 Het zou mogelijk zijn om voor iedere aflevering op te slaan hoe lang hij op iedere dag afgespeeld is. Bijvoorbeeld:
 
 * 28 Juni: 7 minuten
+
 * 30 Juni: 38 minuten
+
 * 1 Juli: 19 minuten
 
 Er zijn twee hoofdredenen. Ten eerste, hoewel statistieken leuk zijn, **spenderen we onze tijd liever aan het hoofddoel van AntennaPod: het afspelen van podcasts**. Deze aanpak veranderen zou nu tijd kosten om te implementeren (het herschrijven van de code die de afspeeltijd in de database opslaat) en later nog meer tijd om een complexer systeem te onderhouden.

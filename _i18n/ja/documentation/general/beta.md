@@ -10,8 +10,9 @@ Every new version of AntennaPod is sent to our beta testers through the Google P
 
 {% include image.html alt= "
 
-     ベータテスターになる - Google Playの確認ウィンドウ
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

@@ -6,8 +6,9 @@ Der kræves ingen yderligere trin for at bruge AntennaPod med din Google Chromec
 
 {% include image.html alt= "
 
-     Cast-knap i AntennaPod
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

@@ -6,8 +6,9 @@
 
 {% include image.html alt= "
 
-     دکمه کست در آنتناپاد
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

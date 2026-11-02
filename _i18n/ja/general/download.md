@@ -1,19 +1,20 @@
 {% capture img-GP %} {% include image.html alt="
 
-       Google Playで入手
 
+       Get it on Google Play
+    
        "
 
 loc="/assets/images/badges" file="get-it-on-google-play.png" width="170" islink = true %} {% endcapture %}
 
 {% capture img-FD %} {% include image.html alt="
 
-       F-Droidで入手
 
+       Get it on F-Droid
+    
        "
 
 loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" islink = true %} {% endcapture %}
-
 
 <!--<p class="mb-3 d-flex">
   <a href="https://github.com/AntennaPod/AntennaPod/releases/latest" target="_blank" rel="noopener">
@@ -23,7 +24,6 @@ loc="/assets/images/badges" file="get-it-on-fdroid.png" width="170" islink = tru
     <img src="https://img.shields.io/github/stars/AntennaPod/AntennaPod?style=flat-square&logo=github&color=1b8bf6" alt="GitHub Stars" />
   </a>
 </p>-->公式バージョンのAntennaPodは、Google PlayとF-Droidで入手できます:
-
 
 <p class="d-flex">
   <a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod" target="_blank">{{- img-GP | strip -}}</a>

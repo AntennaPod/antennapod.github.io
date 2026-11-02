@@ -6,8 +6,9 @@ No se requieren más pasos para utilizar AntennaPod con su Google Chromecast. Ab
 
 {% include image.html alt= "
 
-     Botón de transmisión en AntennaPod
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

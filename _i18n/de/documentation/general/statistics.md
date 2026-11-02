@@ -5,6 +5,7 @@ AntennaPod verfügt über einen Statistikbildschirm, auf dem du die Anzahl der H
 Um Statistiken zu erstellen, zeichnet AntennaPod zwei Dinge für jede Episode auf:
 
 * **Abspieldauer**: wie lange die Episode abgespielt wurde (z. B. 6 Minuten, wenn eine 3-minütige Episode zweimal abgespielt wurde)
+
 * **Letzte Wiedergabe**: das Datum und die Uhrzeit, zu der die Wiedergabe der Episode zuletzt angehalten oder beendet wurde
 
 Beides wird jedes Mal aktualisiert, wenn die Wiedergabe angehalten oder beendet wird. Diese Informationen werden verwendet, um die Gesamtzahlen zu berechnen, indem die „Abspieldauer“ aller Episoden, deren Datum der „letzten Wiedergabe“ in einen bestimmten Monat fällt, addiert wird.
@@ -19,9 +20,11 @@ Statistiken (oder besser: Diagramme) machen Spaß. Warum also erfassen wir Infor
 
 Es wäre zum Beispiel möglich, für jede Episode zu erfassen, wie lange sie an jedem Tag abgespielt wurde. Zum Beispiel:
 
-* 28. Juni: 7 Minuten
-* 30. Juni: 38 Minuten
-* 1. Juli: 19 Minuten
+* Juni: 7 Minuten
+
+* Juni: 38 Minuten
+
+* Juli: 19 Minuten
 
 Dafür gibt es zwei Hauptgründe. Erstens: Statistiken machen zwar Spaß, aber **wir möchten unsere Zeit lieber für den Hauptzweck von AntennaPod verwenden: das Abspielen von Podcasts**. Das Umstellen auf diesen neuen Ansatz würde jetzt Zeit für die Implementierung (Neuschreiben des Codes, der die Wiedergabezeit in der Datenbank speichert) und in Zukunft Zeit für die Pflege eines komplexeren Systems erfordern.
 

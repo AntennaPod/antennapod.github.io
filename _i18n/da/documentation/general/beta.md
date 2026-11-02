@@ -10,8 +10,9 @@ Så du vil have det nyeste og bedste og hjælpe os med at finpudse appen, så de
 
 {% include image.html alt= "
 
-     Bliv betatester - bekræftelsesvindue i Google Play
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

@@ -3,8 +3,11 @@ Krijg je een melding dat downloads met fouten worden voltooid? Dan kan AntennaPo
 Problemen die zich slechts bij één of enkele specifieke podcasts voordoen, houden vaak verband met die podcasts. Om te bevestigen of dit het geval is, neem je de volgende stappen:
 
 1. Tik op de melding om het Download Logboek te openen
+
 1. Tik op het specifieke logboekitem met de fout
+
 1. Druk lang op de weergegeven URL en kopieer of open deze in de browser
+
 
 Als de URL evenmin werkt in de browser, betekent dit dat het niet aan AntennaPod ligt. Als je de foutmelding consequent krijgt, dan is de podcast waarschijnlijk verplaatst, offline gehaald of niet goed geconfigureerd. Neem in dit geval contact op met de makers van de podcast (aangezien dit niet door ons verholpen kan worden).
 

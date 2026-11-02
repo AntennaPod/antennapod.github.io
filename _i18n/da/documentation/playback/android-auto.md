@@ -9,6 +9,9 @@ Der er ikke behov for yderligere trin for at bruge AntennaPod i din bil. Du skal
 Hvis du har downloadet AntennaPod fra F-Droid, er der brug for yderligere trin.
 
 - Åbn indstillingerne for Android Auto på din telefon.
+
 - Aktivér `Udviklerindstillinger` ved at trykke 10 gange på versionsnummeret.
+
 - Åbn 3-punktsmenuen, og start indstillingerne for udviklere.
+
 - Aktivér `Ukendte kilder`.

@@ -23,6 +23,7 @@ Mixcloud ne propose malheureusement pas cette option pour les créateurs de cont
 YouTube vous permet de vous abonner au flux d’une chaîne, mais.. :
 
 - AntennaPod ne peut pas télécharger automatiquement les vidéos, car YouTube ne le permet pas. La diffusion de publicités est leur modèle économique après tout.
+
 - Vous n'aurez pas d'image liée à votre abonnement, car YouTube ne l'inclut pas dans les flux.
 
 Mais c'est un moyen d'être notifié des nouveaux épisodes. Il suffit d'ajouter l'URL de l'utilisateur/chaîne (`https://www.youtube.com/user/USERNAME` ou `https://www.youtube.com/channel/CHANNEL_ID`) dans AntennaPod. Vous devriez voir apparaître une boîte de dialogue avec l'option 'RSS' ; appuyez pour ajouter le flux. Si cela ne fonctionne pas, ajoutez `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>` à AntennaPod. Vous pouvez trouver l'identifiant de la chaîne dans l'URL de la chaîne. Si la chaîne à laquelle vous voulez vous abonner est un compte d'utilisateur (avec une URL comme youtube.com/user/UserName), vous pouvez contacter l'utilisateur pour lui demander son identifiant de chaîne (ici, on explique [comment les utilisateurs peuvent trouver leur identifiant de chaîne](https://support.google.com/youtube/answer/3250431?hl=en)).

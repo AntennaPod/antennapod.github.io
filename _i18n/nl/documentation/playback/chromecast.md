@@ -6,8 +6,9 @@ Er zijn geen bijkomende stappen nodig om AntennaPod met je Google Chromecast te 
 
 {% include image.html alt= "
 
-     Cast-knop in AntennaPod
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

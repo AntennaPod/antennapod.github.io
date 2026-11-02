@@ -15,16 +15,18 @@ Gli utenti che hanno installato AntennaPod e aprono quel collegamento saranno in
 
 {% include image.html alt= "
 
-     Browser che chiede di aprire un collegamento in AntennaPod
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     Lo stesso collegamento visualizzato in AntennaPod
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

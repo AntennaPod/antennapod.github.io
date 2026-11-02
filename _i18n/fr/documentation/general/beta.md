@@ -10,8 +10,9 @@ Vous voulez avoir la dernière version et nous aider à rendre l'application par
 
 {% include image.html alt= "
 
-     Devenez un bêta-testeur - fenêtre de confirmation dans Google Play
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

@@ -10,8 +10,9 @@ Dus je wilt het nieuwste van het nieuwste hebben? Dat kan zeker! Ga gewoon naar 
 
 {% include image.html alt= "
 
-     Word een bètatester - bevestigingsvenster in Google Play
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

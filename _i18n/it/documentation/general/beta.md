@@ -10,8 +10,9 @@ Vuoi essere tra i primi ad avere le ultime novità e aiutarci a rifinire e tirar
 
 {% include image.html alt= "
 
-     Diventa un beta tester - finestra di conferma in Google Play
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

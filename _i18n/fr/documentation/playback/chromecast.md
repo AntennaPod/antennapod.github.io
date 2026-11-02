@@ -6,8 +6,9 @@ Aucun réglage supplémentaire est requis pour utiliser AntennaPod avec Google C
 
 {% include image.html alt= "
 
-     Le bouton Cast dans AntennaPod
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

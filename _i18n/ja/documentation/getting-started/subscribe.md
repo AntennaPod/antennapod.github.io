@@ -23,6 +23,7 @@ SoundCloudでは、作者はコンテンツからとても簡単に[ポッドキ
 YouTubeではチャンネルのフィードを購読できますが、次の注意点があります。
 
 - YouTubeが禁止しているため、AntennaPodは動画を自動的にダウンロードできません。結局のところ、広告の表示がYouTubeのビジネスモデルなのです。
+
 - YouTubeがフィードに含めていないため、購読に関連付けられた画像は表示されません。
 
 ただし、これは新しいエピソードに関する通知を受け取る方法です。ユーザー/チャンネルのURL（`https://www.youtube.com/user/USERNAME` または `https://www.youtube.com/channel/CHANNEL_ID`）をAntennaPod に追加するだけです。「RSS」オプションを含むダイアログが表示されるので、タップしてフィードを追加します。説明どおりに動作しない場合は、`https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>` を AntennaPod に追加してください。チャンネルIDは、チャンネルのURLで確認できます。購読したいチャンネルがユーザーアカウント（youtube.com/user/UserNameのようなURL）の場合は、ユーザーに連絡してチャンネルIDを尋ねることができます（[ユーザーが自分のチャンネルIDを確認する方法](https://support.google.com/youtube/answer/3250431?hl=ja)はこのページで説明されています)。

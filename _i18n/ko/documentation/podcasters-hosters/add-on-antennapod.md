@@ -15,16 +15,18 @@
 
 {% include image.html alt= "
 
-     링크를 안테나팟에서 열지 묻는 브라우저
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     안테나팟에 표시된 같은 링크
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

@@ -10,8 +10,9 @@
 
 {% include image.html alt= "
 
-     آزمایش‌کننده بتا شوید - پنجره پذیرش در گوگل‌پلی
 
+     Become a beta tester - confirmation window in Google Play
+    
      "
 
 loc="/assets/images/documentation" file="project-beta.png" %}

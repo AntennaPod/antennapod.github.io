@@ -5,6 +5,7 @@ AntennaPod har en statistikskærm, der giver dig mulighed for at se antallet af 
 For at lave statistik registrerer AntennaPod to ting for hvert afsnit:
 
 * **Afspillet varighed**: Hvor længe afsnittet blev afspillet (f.eks. 6 minutter, hvis et afsnit på 3 minutter blev afspillet to gange)
+
 * **Senest afspillet**: Den dato og det klokkeslæt, hvor afspilningen sidst blev sat på pause eller stoppet for afsnittet
 
 Begge opdateres, hver gang afspilningen sættes på pause eller stoppes. Disse oplysninger bruges til at beregne totaler ved at lægge den 'afspillet varighed' sammen for alle afsnit, hvis 'senest afspillet' dato falder inden for en given måned.
@@ -20,7 +21,9 @@ Statistik (eller rettere: grafer) er sjovt. Så hvorfor registrerer vi ikke oply
 Det ville f.eks. være muligt at registrere for hvert afsnit, hvor længe det blev afspillet hver dag. For eksempel:
 
 * 28 juni: 7 minutter
+
 * 30 juni: 38 minutter
+
 * 1 juli: 19 minutter
 
 Der er to hovedårsager. For det første er statistik sjovt, men **vi vil hellere bruge tid på AntennaPods hovedformål: at afspille podcasts**. At skifte til denne nye tilgang ville kræve tid nu til at implementere det (omskrivning af koden, der gemmer afspilningstid i databasen) og tid i fremtiden til at vedligeholde et mere komplekst system.

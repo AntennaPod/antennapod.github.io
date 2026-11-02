@@ -3,6 +3,7 @@ Med AntennaPod kan du angive abonnementer (podcast-feeds), der skal opdateres re
 Hvis du har mere komplekse behov, kan du bruge forskellige tredjeparts-automatiseringsprogrammer sammen med AntennaPod til at gøre det. For eksempel:
 
 - Få abonnementerne opdateret først på dagen: kl. 7 om morgenen tændes for Wi-Fi, og derefter opdateres AntennaPod-feeds.
+
 - Få dine abonnementer inden turen hjem: opdater abonnementer kl. 17.00 på hverdage.
 
 ## Generelle instruktioner
@@ -10,6 +11,7 @@ Hvis du har mere komplekse behov, kan du bruge forskellige tredjeparts-automatis
 I din automatiseringsapplikation kan du få AntennaPod til at opdatere sine abonnementer ved at sende en 'Broadcast' (det kan blive vist som en type Android-hensigt) med følgende indstillinger:
 
 - Pakkenavn: `de.danoeh.antennapod`
+
 - Klassenavn: `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
 
 ## Vejledning til nogle automatiseringsapps
@@ -34,18 +36,26 @@ data:
 I et flow skal du tilføje en blok af typen `APPS` » `Broadcast send`, angive
 
 1. Pakke skal være `de.danoeh.antennapod`
+
 1. Modtagerklasse skal være `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
+
 
 ### Tasker ([websted](https://tasker.joaoapps.com/))
 
 Opret en opgave. Tilføj en handling i opgaven
 
 1. Vælg `System`
+
 1. Vælg `Send intent`
+
 1. Specificer at pakkenavn skal være `de.danoeh.antennapod`
+
 1. Specificer at klassenavn skal være `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
+
 1. Angiv, at målet skal være `Broadcast receiver`
+
 1. Du kan lade de andre felter være tomme
+
 
 ***
 

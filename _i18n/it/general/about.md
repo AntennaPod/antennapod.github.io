@@ -19,8 +19,11 @@ In questo modo, puoi stare sicuro (o puoi verificare tu stesso) che non stiamo r
 Sosteniamo un ecosistema del podcasting aperto. Un ecosistema che
 
 * sostiene la libertà di espressione,
+
 * ricompensa i podcaster per il loro lavoro creativo,
+
 * protegge gli ascoltatori da contenuti inaccessibili su [piattaforme chiuse](https://en.wikipedia.org/wiki/Closed_platform), e
+
 * permette agli utenti di usare e passare da un'app all'altra senza alcun [vendor lock-in](https://it.wikipedia.org/wiki/Vendor_lock-in).
 
 In pratica, questo significa che puoi iscriverti a qualsiasi feed RSS esistente, che ti rendiamo più facile sostenere (finanziariamente) i podcaster, e che puoi sincronizzare, importare ed esportare i tuoi dati.

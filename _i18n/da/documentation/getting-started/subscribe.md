@@ -23,6 +23,7 @@ Mixcloud tilbyder desværre ikke denne mulighed for indholdsskabere. Som altid e
 YouTube giver dig mulighed for at abonnere på en kanals feed, men:
 
 - AntennaPod kan ikke overføre videoerne automatisk, da YouTube ikke tillader det. Det er trods alt deres forretningsmodel at vise reklamer.
+
 - Du vil ikke få et billede forbundet med dit abonnement, da YouTube ikke inkluderer det i feeds.
 
 Men det er en måde at få besked om nye afsnit på. Du skal blot tilføje brugerens/kanalens URL (`https://www.youtube.com/user/USERNAME` eller `https://www.youtube.com/channel/CHANNEL_ID`) i AntennaPod. Du bør få vist en dialogboks med indstillingen 'RSS'; tryk på den for at tilføje feed'et. Hvis det ikke fungerer som beskrevet, skal du tilføje `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>` til AntennaPod. Du kan finde kanal-id'et i kanalens URL-adresse. Hvis den kanal, du vil abonnere på, er en brugerkonto (med en URL som youtube.com/user/UserName), kan du kontakte brugeren for at bede om deres kanal-id (her er det forklaret [hvordan brugere kan finde deres kanal-id](https://support.google.com/youtube/answer/3250431?hl=en)).

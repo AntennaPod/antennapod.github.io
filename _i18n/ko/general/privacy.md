@@ -11,7 +11,9 @@
 디버깅 정보를 공유할 때(`버그 신고` 기능으로 이메일을 보내거나 Android의 충돌 보고 기능을 사용할 때) 다음 데이터가 처리됩니다:
 
 - 장치 종류
+
 - Android 버전
+
 - 안테나팟 버전
 
 제3자*로부터* 개인 데이터를 받아 다루는 유일한 경우는 설정에서 동기화 서비스를 켰을 때입니다. 이 경우 앱은 서비스가 제공하는 구독 목록과 재생 이벤트를 받을 수 있습니다.
@@ -21,18 +23,23 @@
 #### 팟캐스트 호스팅 업체
 
 - 팟캐스트 설정에 인증 정보를 입력한 경우, 호스트는 여러분이 입력한 인증 정보를 받습니다.
+
 - 팟캐스트 피드를 제공하는 웹 서버는 IP 주소, 접근 시각, 접근 내용 같은 추가 데이터를 수집할 수 있습니다. 여기에는 다운로드하거나 스트리밍하는 에피소드가 포함됩니다. 자세한 내용은 각 서버의 개인정보 처리방침을 참고하십시오. 팟캐스트를 열고 정보 아이콘을 누르면 팟캐스트의 URL을 볼 수 있습니다. 안테나팟은 서버가 쿠키를 설정하도록 허용하지만 앱을 다시 시작할 때마다 쿠키를 지웁니다. 웹 서버는 같은 서버가 설정한 쿠키에만 접근할 수 있습니다. 여러 팟캐스트가 같은 서버에 호스팅되어 있으면, 그 서버는 자신이 호스팅하는 팟캐스트 중 어떤 것을 여러분이 구독했는지 알아낼 수도 있습니다. 이는 제작자가 FeedBurner, Podtrac 같은 서비스로 피드를 배포할 때 일어날 수 있습니다.
+
 - 서버는 여러분이 안테나팟을 사용한다는 사실과 그 버전을 (HTTP User-Agent를 통해) 알 수 있습니다.
 
 #### 추천 및 검색 서비스
 
 - 앱에서 발견 화면을 열면 팟캐스트 추천을 받기 위해 Apple에 요청을 보냅니다. Apple은 이 요청(IP 주소, 선택한 지역 등. 지역은 기본적으로 장치의 국가입니다)을 저장할 수 있습니다. 이 추천은 발견 화면의 상단 메뉴에서 끌 수 있습니다. F-Droid 버전에서는 Apple의 추천을 받기 전에 직접 동의해야 합니다.
+
 - 안테나팟의 검색 기능을 사용하면 PodcastIndex.org([개인정보 처리방침](https://github.com/Podcastindex-org/legal/blob/main/PrivacyPolicy.md)), Apple Podcasts([개인정보 처리방침](https://www.apple.com/legal/privacy/en-ww/)), fyyd([개인정보 처리방침](https://fyyd.de/privacy)) 서비스가 검색어를 포함한 질의를 저장할 수 있습니다.
+
 - 추천 및 검색 요청에는 IP 주소, 시각, 앱 이름 'AntennaPod'도 포함됩니다. 구독한 뒤에는 피드가 팟캐스트 호스팅 업체에서 제공되므로 추천/검색 서비스는 더 이상 관여하지 않습니다.
 
 #### 동기화 및 백업 서비스
 
 - 설정에서 켜면 안테나팟은 데이터를 동기화합니다. 여기에는 로그인 정보, 구독한 팟캐스트, 들은 에피소드, 타임스탬프가 붙은 재생/일시 정지/즐겨찾기 동작, IP 주소가 포함될 수 있습니다. 자세한 내용은 동기화 서비스 제공자의 개인정보 처리방침을 참고하십시오.
+
 - 휴대전화에서 백업을 켜 두었다면(`설정` » `백업 및 초기화` » `내 데이터 백업`), Android는 주기적으로 휴대전화 데이터의 사본을 Google 서버에 저장합니다. 이 백업에는 WiFi 비밀번호, 메시지, 통화 기록 같은 개인 정보가 들어 있습니다. 안테나팟과 다른 앱의 데이터도 포함될 수 있습니다. 안테나팟 개발자는 이 데이터에 접근할 수 없습니다. 자세한 내용은 [Google 개인정보 처리방침](https://policies.google.com)을 참고하십시오.
 
 #### 장치 및 운영체제 제조사
@@ -52,8 +59,11 @@ Google과 [사용 및 진단 정보 공유](https://support.google.com/accounts/
 안테나팟은 Open Collective Inc.(미국)와 Open Collective Europe ASBL(벨기에)이 운영하는 Open Collective를 사용합니다. 기부하면 데이터는 다음으로 전달됩니다:
 
 - 이 법인들 - 자세한 내용은 [Open Collective Inc. 개인정보 처리방침](https://opencollective.com/privacypolicy)을 참고하십시오
+
 - [익명 게스트](https://docs.opencollective.com/help/financial-contributors/payments#contributing-as-a-guest)나 [비공개](https://docs.opencollective.com/help/financial-contributors/payments#select-a-contributor) 사용자로 기부하지 않는 한, 안테나팟 팀은 다음 정보에 접근할 수 있습니다(추출하지는 않습니다):
+
    - 공개 프로필 정보(이름, 회사, 설명, 이미지, Twitter, GitHub, 웹사이트)
+
    - 이메일 주소
 
 #### 웹사이트
@@ -61,6 +71,7 @@ Google과 [사용 및 진단 정보 공유](https://support.google.com/accounts/
 안테나팟 웹사이트는 GitHub Pages를 통해 호스팅됩니다.
 
 - 웹사이트를 방문하면 GitHub, Inc. 또는 GitHub B.V.와 상호작용하게 됩니다. 수집·처리하는 데이터는 [개인정보 처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)을 참고하십시오.
+
 - 웹사이트는 쿠키를 설정하지 않으며 제3자 추적, 분석, 기타 서비스를 사용하지 않습니다. '기여' 섹션의 '번역' 페이지에는 Weblate s.r.o. 서버([개인정보 처리방침](https://weblate.org/en-gb/privacy/))에서 가져오는 그래프가 포함되어 있습니다.
 
 #### Google Play
@@ -68,9 +79,13 @@ Google과 [사용 및 진단 정보 공유](https://support.google.com/accounts/
 Google Play 스토어에 직접 리뷰를 남기면 안테나팟 팀은 여러분의 공개 프로필 정보에 접근할 수 있으며, 다음 정보를 추출해 팀이 사용하는 온라인 서비스(GitHub나 포럼 등)에 저장할 수 있습니다:
 
 - 리뷰 내용
+
 - 안테나팟 버전
+
 - 장치 종류
+
 - 장치 언어
+
 - Android 버전
 
 #### Weblate
@@ -78,8 +93,11 @@ Google Play 스토어에 직접 리뷰를 남기면 안테나팟 팀은 여러�
 안테나팟 번역에 기여하면:
 
 - Weblate s.r.o.의 호스팅 서비스와 상호작용하게 됩니다. 수집·처리하는 데이터는 [개인정보 처리방침](https://weblate.org/en-gb/privacy/)을 참고하십시오.
+
 - 안테나팟 팀은 다음 정보에 접근할 수 있습니다:
+
    - [프로필](https://hosted.weblate.org/accounts/profile/#account)에 설정한 '사용자 이름', '전체 이름', '계정 이메일'
+
    - 프로젝트에 참여한 날짜, 기여에 대한 상세 [통계](https://docs.weblate.org/en/latest/devel/reporting.html#stats), 기여하는 [언어](https://docs.weblate.org/en/latest/devel/reporting.html#credits), 기여한 날짜와 시각.
 
 #### Git

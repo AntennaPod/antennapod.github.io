@@ -3,5 +3,7 @@ Um deine Abonnements zu organisieren, kannst du Podcast-Tags (manchmal auch Grup
 Um einem Podcast Tags zuzuweisen, musst du:
 
 - Öffne einen bestimmten Podcast
+
 - Tippe auf das `Zahnrad`-Symbol, um die Einstellungen zu öffnen
+
 - `Tags`-Einstellung wählen

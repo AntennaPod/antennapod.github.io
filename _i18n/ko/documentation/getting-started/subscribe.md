@@ -23,6 +23,7 @@ SoundCloud에서는 [제작자가 자신의 콘텐츠로 팟캐스트를 만드�
 YouTube에서는 채널 피드를 구독할 수 있지만:
 
 - YouTube가 허용하지 않으므로 안테나팟은 동영상을 자동으로 다운로드할 수 없습니다. 어쨌든 광고를 보여 주는 것이 YouTube의 사업 모델이니까요.
+
 - YouTube가 피드에 이미지를 넣지 않으므로 구독에 이미지가 연결되지 않습니다.
 
 그래도 새 에피소드 알림을 받는 방법이 됩니다. 사용자/채널 URL(`https://www.youtube.com/user/USERNAME` 또는 `https://www.youtube.com/channel/CHANNEL_ID`)을 안테나팟에 추가하기만 하면 됩니다. 'RSS' 옵션이 있는 대화 상자가 나타나면 눌러서 피드를 추가하십시오. 설명대로 되지 않으면 `https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>`를 안테나팟에 추가하십시오. 채널 ID는 채널 URL에서 찾을 수 있습니다. 구독하려는 채널이 사용자 계정(youtube.com/user/UserName 같은 URL)이라면 사용자에게 연락해 채널 ID를 물어볼 수 있습니다([사용자가 채널 ID를 찾는 방법](https://support.google.com/youtube/answer/3250431?hl=en)이 여기에 설명되어 있습니다).

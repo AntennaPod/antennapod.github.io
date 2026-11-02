@@ -3,6 +3,7 @@
 더 복잡한 요구가 있다면 다양한 서드파티 자동화 앱을 안테나팟과 함께 사용할 수 있습니다. 예를 들면:
 
 - 하루를 시작할 때 구독을 업데이트하기: 오전 7시에 WiFi를 켜고 안테나팟 피드를 업데이트합니다.
+
 - 퇴근길 전에 구독 받아 두기: 평일 오후 5시에 구독을 업데이트합니다.
 
 ## 일반 안내
@@ -10,6 +11,7 @@
 자동화 앱에서 다음 설정으로 '브로드캐스트'(Android 인텐트의 한 종류로 표시될 수 있습니다)를 보내면 안테나팟이 구독을 업데이트하게 할 수 있습니다:
 
 - 패키지 이름: `de.danoeh.antennapod`
+
 - 클래스 이름: `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`
 
 ## 일부 자동화 앱의 설정 단계
@@ -34,18 +36,26 @@ data:
 플로우에 `APPS` » `Broadcast send` 유형의 블록을 추가하고 다음을 지정합니다
 
 1. Package를 `de.danoeh.antennapod`으로
+
 1. Receiver class를 `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`로
+
 
 ### Tasker ([웹사이트](https://tasker.joaoapps.com/))
 
 작업(task)을 만듭니다. 작업 안에 액션을 추가합니다
 
 1. `System`을 선택합니다
+
 1. `Send Intent`를 선택합니다
+
 1. Package name을 `de.danoeh.antennapod`으로 지정합니다
+
 1. Class name을 `de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver`로 지정합니다
+
 1. Target을 `Broadcast receiver`로 지정합니다
+
 1. 나머지 필드는 비워 두어도 됩니다
+
 
 ***
 

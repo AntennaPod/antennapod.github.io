@@ -15,16 +15,18 @@ Brugere, der har installeret AntennaPod og åbner dette link, vil kunne se en fo
 
 {% include image.html alt= "
 
-     Browser beder om at åbne et link i AntennaPod
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     Det samme link vist i AntennaPod
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

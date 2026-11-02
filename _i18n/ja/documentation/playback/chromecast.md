@@ -6,8 +6,9 @@ Google ChromecastでAntennaPodを使用するために、これ以上の手順�
 
 {% include image.html alt= "
 
-     AntennaPodのキャストボタン
 
+     Cast button in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="chromecast.png" max-width="400px" %}

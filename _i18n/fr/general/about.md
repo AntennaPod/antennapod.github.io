@@ -19,8 +19,11 @@ De cette façon, vous pouvez être assuré (ou vérifier par vous-même) qu'il n
 Nous défendons un écosystème de podcast ouvert. Un écosystème qui
 
 * soutient la liberté d'expression,
+
 * récompense les podcasters pour leur travail créatif,
+
 * protège les auditeurs contre les contenus inaccessibles dans les [jardins clos](https://en.wikipedia.org/wiki/Walled_garden_(technology)), et
+
 * permet aux utilisateurs d'utiliser et de passer d'une application à l'autre sans [enfermement propriétaire](https://fr.wikipedia.org/wiki/Enfermement_propri%C3%A9taire).
 
 En pratique, cela signifie que vous pouvez vous abonner à tous les flux RSS existants, que nous vous permettons de soutenir (financièrement) les podcasters et que vous pouvez synchroniser, importer et exporter vos données.

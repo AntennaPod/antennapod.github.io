@@ -15,16 +15,18 @@ Users who have installed AntennaPod and open that link will be able to preview e
 
 {% include image.html alt= "
 
-     Browser asking to open a link in AntennaPod
 
+     Browser asking to open a link in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap1.png" max-width="400px" %}
 
 {% include image.html alt= "
 
-     The same link displayed in AntennaPod
 
+     The same link displayed in AntennaPod
+    
      "
 
 loc="/assets/images/documentation" file="open-in-ap2.png" max-width="400px" %}

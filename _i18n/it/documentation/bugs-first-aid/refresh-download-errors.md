@@ -3,8 +3,11 @@ Ricevi una notifica che indica che il download è stato completato con degli err
 I problemi che si verificano solo con uno o pochi podcast specifici sono spesso legati a tali podcast. Per verificare se è questo il caso, puoi seguire questi passaggi:
 
 1. Tocca la notifica per aprire il registro dei download
+
 1. Tocca la voce di registro specifica che contiene l'errore
+
 1. Premi a lungo sull'URL visualizzato e copialo o aprilo nel tuo browser
+
 
 Se l'URL non funziona nemmeno nel browser, significa che non si tratta di un problema di AntennaPod. Se il messaggio di errore viene visualizzato costantemente, è probabile che il podcast sia stato spostato, messo offline o non sia configurato correttamente. In questo caso, contatta i creatori del podcast (poiché noi non possiamo risolvere il problema).
 
